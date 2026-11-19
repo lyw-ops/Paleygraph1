@@ -1,0 +1,129 @@
+{
+  "round": 87,
+  "accepted_at_utc": "2026-11-19T06:59:04Z",
+  "previous": "research/round-86-acceptance.json",
+  "previous_sha256": "511db4366eaa53e208c294bded2db179ac28b685b8a4a97f12633134c20f8c23",
+  "proof_and_code_sha256": {
+    "research/angular-compression-obstruction-87.md": "a40871d3ac1f0da83216bee124ab905b8ce27c6a1db995ebb4ecbcf3e8c6fbd7",
+    "research/astra-diffuse-87.md": "c4d163a5b739c2497fa104c6267e50556c136ea3de3b587039a990874c27ae6e",
+    "research/astra-terminal-87.md": "217f657f21390d8ce0837f713b5dc168cf95045bb23bc9c6fa07ebb3b9f8ee24",
+    "research/astra-forced-87.md": "df2ca1e4f82027043cd42e97bd82225e13aa5ce4f5e7b92c129f5f8986cce666",
+    "research/astra-diffuse-87-check.py": "1e0d66967a88ba4c09d6d180783c147fc49a7ca879b302ee1127604811feb655",
+    "research/astra-diffuse-87-checks.jsonl": "2c715822327d27353ec71fa6d1c827f69c5f8ec246dcbb3d963c5980aab26e95",
+    "research/astra-terminal-87-check.py": "57ea85692aa863b20ee5d7f8790fb249c7db3ba29dbb78c4eb1b67b727c3663c",
+    "research/astra-terminal-87-checks.jsonl": "a6eb4fdd78400ec7d2c227af7e158c978a8f03b6920c2bac82b2e0452934e99d",
+    "research/astra-forced-87-check.py": "8d71dfdae375dbcadbfcf9d5127dd5b5d081c13ce100656c40b71e1794ad35c6",
+    "research/astra-forced-87-checks.jsonl": "a1ccc4645d56c9a19f5f133df3d29a2af5904d03be1e420c78175d2505962a23"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2",
+    "research/astra-adjoint-82-checks.jsonl": "8a02bd8d5f43241e43344e8b83a6a17ae88874c4ed81e20e29335c03750af7b4",
+    "research/astra-dissipation-80-checks.jsonl": "01f59f7c6c393cd4abc3f47584fa2a0c280cf3f22b19d62b09549e1481f87c3f"
+  },
+  "additional_inherited_dependency_sha256": {
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "research/astra-fibers-86.md": "8d921c3a26006927f4af6e824a4e19cae9790611f5c37cb1b4f4bca20dff01ee",
+    "research/astra-leverage-86.md": "d708c37815e214e77849db2f8ca7834284c3079fc6c327eb9021302caae0aeb8",
+    "research/root-neutral-unfolding-86.md": "5236b974e5f0966ab77980b0af7dd6cfbba46d5edc6e2953fbbf8d9c0490a51a",
+    "research/astra-phase-86.md": "ba511d10d4de1912d4ffd06c1a4b656a9b2fd3ce32bab0a3e09405ac8432e809",
+    "research/astra-imaginary-84.md": "ccc164a42fbcdd40aee3b87d96c82dc5889b939f58d9ac44f5e385de9d2b93a4",
+    "research/phase-action-84.md": "ca649496c0b7f2b16f08cab673af25f20fff64cc0f3f2637e56624f5372a00cd",
+    "research/terminal-height-79.md": "cce1001c879a8cb511c72da904c1f3a46a49b590c1cddb8f120c26d7e15b5e36",
+    "research/astra-split-83.md": "6e503b7946ecad77b544f9c38f4ad571ce4c6d1b2d6dac3ff882c35ac1750740",
+    "research/relative-phase-rotation-85.md": "dc96c5132aaf1ad27f5545e6f4cefa1781f7a3f68fb100fbc79e92b12c44a087"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "primary_arithmetic_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1079093/",
+    "used": "Weil quadratic character bound after restriction to squares, for alternating Jacobi sign blocks"
+  },
+  "research_agents": [
+    {
+      "name": "/root/diffuse_87",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "At one fixed short family, bound the signed surviving matched endpoints from (4) on a positive fraction of shifts, with both exact deterministic counts canceled.",
+        "At a good sharp shrinking cutoff, compare the diffuse price to the whole marked price and control the signed intermediate complement. A prescribed threshold needs weighted transition-band control."
+      ]
+    },
+    {
+      "name": "/root/terminal_87",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the early pure-terminal inverse positive leverage by o(nt), then upper-bound the surviving low-site terminal height on the actual weighted hinge minimizer.",
+        "At inverse leverage O_delta(d), estimate the counting fraction of actual deficit sites carrying order-d height throughout the last order-d/log^2(d) neighboring times."
+      ]
+    },
+    {
+      "name": "/root/forced_87",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "On the actual active support compare the smaller eigenvalue of the weighted residual covariance against the necessary angular test. For imbalanced supports compare the two signed correlations of the true transverse residual with the strict moment obstruction.",
+        "Use every real contact generator in the quadratic projected equation. A large imbalance needs more than the current estimate depending on the two active counts."
+      ]
+    },
+    {
+      "name": "/root/audit_87",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Prioritize signed cancellation on a positive fraction of surviving matched outputs in a single short family, the direct fixed-gap equivalence of (4).",
+        "Seek an early terminal-only upper ell_+^(-1)=o(nt), then test the actual low branch."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Prove the signed short-shift comparison itself tends to zero on a positive fraction of one short family. Test true fiber weights, keeping the paired diffuse and intermediate contributions. On the positive completion route, evaluate the inverse terminal leverage at the earliest allowed good time.",
+    "Exploit the full complementary equations to control actual negative-cosine phase sets after first contact. On the true forcing line exclude the necessary square-root coefficient and the active-support covariance threshold, starting with the amplitude tail after two orbit deletions."
+  ],
+  "core_records": 14,
+  "arithmetic_record_counts": {
+    "diffuse_arb384": 8,
+    "terminal_arb384": 3,
+    "forced_exact_rational_from_prior_outward_bounds": 3
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main and independent read-only Astra ran all three final checkers under pipefail with PYTHONPATH=. and .venv/bin/python -B, comparing stdout byte for byte with each saved JSONL.",
+    "The diffuse checker verifies 1584 translated endpoint formulas for five true prime pairs, including the centered displacement sums for cutoff and paired-deletion masks, sharp-selector identities and Bernstein convolution densities. It retains three true square controls at subfield orders 11, 19 and 43.",
+    "The terminal checker verifies the p=97 weighted source and genuine norm over the full evenized face, and the certified strict one-site erasure frontier across the full reflected faces at p=257 and p=409.",
+    "The forced checker reuses two earlier outward-rounded predictor records with exact rational arithmetic, then verifies the all-corank necessary RMS and two-orbit-deletion amplitude bounds. It does not assert an observed contact."
+  ],
+  "proof_scope": [
+    "The short rational-prime shift family on each multiplicative translate divides the true marked cubic by two up to the stated mean absolute error. Strict disagreement pairs cancel positive and negative output counting terms exactly. Deleting both ends of every pair touched by a balanced R86 image preserves the corresponding comparison with the exact remaining centered cubic.",
+    "Bernstein convolution with actual point caps and threshold-averaged error gives a paired unweighted sharp diffuse cutoff on almost all thresholds in a shrinking window, simultaneously for all short translates. Complete-group estimates with different threshold ranges hold at every cutoff. All statements allow complex endpoint coefficients of ordinary theta. The short-family theorem fails on genuine square endpoints.",
+    "Height-weighted capacity V at a fixed-gap true terminal time gives both density and height cutoffs and a simultaneous erasure budget. With V=O_delta(d), order n/d sites retain comparable actual companion height through an order d/log^2(d) nearby window. The conditional high branch of a different weighted hinge implies p^(1/2-o(1)) inverse leverage, with common Jacobi head and both weighted and tower unweighted collision on the same surviving source.",
+    "At an actual finite enlarged-sector first contact on the height-600 real forcing path with q_*>0, any first noninteger exponent must be 1/2. Corank one gives a simple fold and a strictly smaller sign-definite side. The result at higher corank controls the first exponent only. Actual signed source projections depend on the transverse residual to every affine line.",
+    "The actual forced support ratio at most 3/2 requires q_* times the optimized amplitude-weighted transverse RMS above 1.89, or 3.12 at equal counts. Fitting a line through two amplitude outliers gives the necessary presence of at least three distinct active inversion orbits with amplitudes above 343/q_* or 567/q_*, respectively.",
+    "At every sufficiently large prime, alternating Fourier blocks yield even cross compression approaching one on a growing space and sets of size O(n/sqrt(log p)). The comparison factors preserve products, physical means, centered scalar pairings and bounded bulk amplitudes. This provides an obstruction to mask-only estimates, while leaving the genuine sector constraints to be used."
+  ],
+  "independent_review": [
+    "Independently checked the alternating character count, packet tails and min-max argument, and the scalar comparison with exact means.",
+    "Checked the forced fractional order classification, the signed fold orientation, and the covariance and tail thresholds.",
+    "Checked short-family energy counting and sharp cutoff approximation. Clarified that the headless diagonal shrinking argument assumes the bound at every fixed positive threshold.",
+    "Checked the weighted hinge source's simultaneous erasure inequalities and the precision tower for its shared Jacobi head. Verified the distinction between the weighted and previous unweighted minimizers.",
+    "The diffuse checker was briefly in flight during the first audit. The final version and its eight updated records passed both read-only replays."
+  ],
+  "failed_paths_and_open_bounds": [
+    "Short shifts sample the diffuse and full prices but do not bound their signed values.",
+    "The polynomial terminal loss only holds on the new weighted high branch. No unconditional moderate inverse upper, persistent-site counting upper or same-row low price upper was shown.",
+    "The comparison compression obstruction uses scalar constraints rather than the genuinely complementary factor equations. It gives no singularity of the actual branch.",
+    "The forced half-power classification leaves possible actual folds and later singularities. The required prime-uniform post-contact width and actual selected-support signed control are unresolved."
+  ]
+}

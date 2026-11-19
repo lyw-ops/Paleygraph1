@@ -1,0 +1,100 @@
+{
+  "round": 71,
+  "accepted_at_utc": "2026-11-18T18:33:37.287211+00:00",
+  "previous": "research/round-70-acceptance.json",
+  "previous_sha256": "281f31bb07f4b1b1c1ec504da8a7468d116794f9a08820d1ee7466da243b1748",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/localized_71",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Measure the defect weight on the actual support left uncovered by near-cap translates before optimizing prices. A bound of order d sqrt(n) there for a fixed cap separation rules out an o(d) price for this squared-mask witness.",
+        "If the positive cover fails, use signed combinations nonnegative on the actual support and retain exact root budgets."
+      ]
+    },
+    {
+      "name": "/root/histories_71",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Collect all unary and all binary inputs at the same Jacobi-square labels and pay an all-level remainder before claiming a joint lower comparison.",
+        "Test strict positivity of a joint upper invariant on a physical complex overlap while retaining actual marked packets and analytic tails."
+      ]
+    },
+    {
+      "name": "/root/review_71",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Certify a uniform o(d) signed chord price on the genuine defects, or produce matching feasible dual objectives of order d along a prime subsequence to reject that cap cover.",
+        "Test whether all unary and binary contributors to the active labels can be merged while preserving the rigorous crossing and subsequent growth."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "At exact common marked depth evaluate the full-span signed cap price on the repeated-defect profile, retaining all allowed Fourier constraints. A prime-uniform o(d) upper closes the localized bound. If the fixed chord fails, test localized minimization or cross terms rather than another positive squared cover.",
+    "For the complete complex branch track independent residual histories through transport and determine the signed Jacobi-square and unit adjoints before taking absolute values."
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-localized-71.md": "8914a0046dd574207ef4a4f7a74640aba620fc00c5fc455b5103a6b5d5918ef2",
+    "research/translated-caps-71.md": "41c4cde1eaa66b2c8a649f1e92c520fac4573ba80a451be495cfc59002c79668",
+    "research/translated-caps-71-check.py": "76c0ca3d2cb050498b1f088789789f7029e5cfc22d1c1e073182292e2091d147",
+    "research/astra-histories-71.md": "822842dacbab46aedfc522cab28f5e81a17e3170db97f5d0e010ebb7608bd059",
+    "research/astra-histories-71-check.py": "1c2ccbc249589f59ab4600a3909dfd5bfe8e218ec36b6f3e7a98276ecb8be80b",
+    "research/astra-histories-71-escape.py": "6e01f4cd8b7bcaac419eab21174c669ae5da1457429f1b5bb67cc678875f41f8"
+  },
+  "floating_diagnostics": [
+    {
+      "file": "research/translated-caps-71.md",
+      "scope": "Floating LP candidates frozen as rational prices; all claimed bounds checked separately."
+    }
+  ],
+  "core_records": 3,
+  "replay_checks": [
+    {
+      "file": "research/translated-caps-71-checks.jsonl",
+      "records": 1,
+      "sha256": "3d2a7f109ae40c7470d063758df1c3d13bd2858816cfdbc0986552f3e1eb2e20",
+      "arithmetic": "Arb320 and exact rational prices",
+      "scope": "Actual prime-97 cold profile, true plus support, strict improvements over the separate-square and nonnegative chord optima for the fixed witness.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-histories-71-checks.jsonl",
+      "records": 1,
+      "sha256": "3fbe66b25f17782b580deb8b5997a86bcae2304bcff03dea3d53a1ed89e45282",
+      "arithmetic": "Arb192",
+      "scope": "Selected level-three active ±2 and silent unit coefficient intervals, and uniform loss ceiling.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-histories-71-escape.jsonl",
+      "records": 1,
+      "sha256": "3f16f641acf4446116495900b1d87bfb9c693c3bf36d24cfd21ebe38e40b2c70",
+      "arithmetic": "Arb192 with downward integer rounding",
+      "scope": "The designated all-level singleton/binary merge crosses mass 21 at height 2531 after its uniform bin debit.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Exact shifted opposite-row budgets yield a positive square cover and a quantitative failure criterion from uncovered near-cap deficit weight. Scope is any tested true primary face and fixed opposing witness, with the known square comparison.",
+    "Extracting a common site cap from all translated orthogonality identities permits a stronger chord cover and signed prices. With a full-span translation family its optimum is exactly the chord's linear maximum on the genuine primary face. A strictly suboptimal root alone does not preclude a zero budget under translation. The finite p=97 comparison improves both optimal previous cover families for the same opposing witness and pinned defect profile.",
+    "At t=2031/128 one genuine singleton/binary pair shares each active label m^±2 with destructive interference. The projected price loss is between 23 and 24 units of 10^-18 per exponent at level three. The original unsigned binary price and the changed update pay at most 4e-15 per active signed bin. The restricted all-level merge continues to escape. Other histories and physical continuation remain open."
+  ],
+  "independent_review": [
+    "Astra independently checked exact shifted budgets, cap chord and true p=97 support, replayed the prime check, and supplied a second feasible dual verifying strict gain over the best nonnegative chord. Main corrected the case of nonroot optimal entries and replayed the integrated record.",
+    "Main and Astra independently replayed both history records. The reviewer checked role of unit projection, uniform cost per bin, genuine across-history signed subtraction and separate scope of physical continuation."
+  ],
+  "next": [
+    "Primary: bound the true signed cap price or actual minimum localized collision in selected windows through all eligible primes.",
+    "Primary: use prime arithmetic on the true larger-side support to control the residual signed score at L+1.",
+    "Complex: price all same-label unary/binary histories jointly after transport, with a rigorous all-level debit.",
+    "Original all-prime ordinary Lovasz theta limit and common physical cold-end continuation remain open."
+  ],
+  "window_closeout_workflow": "Reviewed proofs and all three interval checks. Integrated ranked suggestions and failed proof variants.",
+  "committed": false,
+  "pushed": false
+}

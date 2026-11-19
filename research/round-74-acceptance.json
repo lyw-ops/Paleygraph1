@@ -1,0 +1,90 @@
+{
+  "round": 74,
+  "accepted_at_utc": "2026-11-19T03:03:30Z",
+  "previous": "research/round-73-acceptance.json",
+  "previous_sha256": "d366a5129f8999bfe8cdee9793700ec28ad5e47c40103f6f28a9f03548041e88",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/cap_74",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Reconstruct the inversion-even unique quotient on surviving supports and test one common nonnegative exterior lift on the full support.",
+        "For singleton caps retain lower-density occupied sites and bound their true weights on the marked negative mask using the common positive opposite optimizer."
+      ]
+    },
+    {
+      "name": "/root/reachable_74",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "First sharpen the fourth actual output cap to 5 on the common disk, then prove a bound through the logarithmic horizon.",
+        "Alternatively certify one real-on-real holomorphic predictor with coordinate cap 5 and counting residual at most 1/100 including the mark."
+      ]
+    },
+    {
+      "name": "/root/audit_74",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Optimize clipping level and run length jointly, using both the exact and masked diagonal and testing shifts with large low-order multiplicities.",
+        "Use even quotient support reconstruction and retain the common nonnegative lift. On the complex route separate the finite V4 bound from the logarithmic horizon."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the tail mass and true opposite Fourier energy of clipped actual primary rows, allowing the run length to adapt to the cutoff at matched windows. Seek a uniform masked-cost bound that includes singleton roots.",
+    "Use full-support simultaneous positive lifts on prime quotients. Treat independent interpolation on just high-density coordinates as an exact zero-cost relaxation in the stated range."
+  ],
+  "proof_and_code_sha256": {
+    "research/stratified-centering-74.md": "2f95f58b927b6b364dbcacd8a1ccd8c99bb0a389c5a296829bb9de2bb087d17e",
+    "research/astra-cap-74.md": "592622d00d2c8b49a71b61e9c95621b0223bfa7830cd61e7b9581f1a270c72e9",
+    "research/astra-cap-74-check.py": "5c4a17d0655cc968abdb58923d402371c0d3dfd82da78baf361a7524de8514d5",
+    "research/astra-cap-74-checks.jsonl": "c23ebed8c30cae9ac13d40815b4721513e214c525c950ae73d240adee0c993ba",
+    "research/astra-reachable-74.md": "457adcee4c3d02bd706cb29d74cda44f4244f144e9cf7ebde7268387c6d4280c"
+  },
+  "source_statement_url": "https://randomstrasse101.math.ethz.ch/posts/PaleyGraph/",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "floating_diagnostics": [],
+  "interval_records": 0,
+  "core_records": 1,
+  "exact_integer_records": [
+    {
+      "path": "research/astra-cap-74-checks.jsonl",
+      "limit_p": 20000,
+      "criterion": "proper prime quotient divisor b with b^2 >= 4n, both signs",
+      "cases": 964,
+      "period_exclusions": 698,
+      "surviving_necessary_test": 266
+    }
+  ],
+  "replay_checks": [
+    "Saved integer checker replay matched byte-for-byte with pipefail enabled.",
+    "Independent direct integer enumeration using modular positional cosets matched 698 and 266.",
+    "Exact rational evaluation verified the seven scalar recurrence comparisons and the derivative cap in the complex disk."
+  ],
+  "proof_scope": [
+    "Prime-uniform clipped opposite budget at most min(M,M^2 + C*2^L*L^2*B*(1-M)/n) minus the exact diagonal, where M is clipped tail mass and B the density cutoff. Valid with run length up to floor(log_2(p)/4). Use with the weighted difference cover and any actual feasible supercritical centers. A block partition cost reproduces a corollary of the previous full residual comparison. No all-prime estimate of the actual tail mass or localized hinge minimum.",
+    "For a true periodic primary cap with proper prime-order quotient, central forbidden count k0 forces an inversion-even unique periodic optimum with k0+1 occupied quotient sites. Every exterior coset needs at least k0+1 forbidden positions. Complementarity with the common opposite optimizer also gives mixed-coset support counts and a weighted leakage inequality. Independent fiber interpolation on just a high-density tail is exactly unconstrained in the stated range. Exact sieve has only finite scope.",
+    "On the common complex disk about 2031/128, bounded counting-L2 approximation of the first realized Picard return needs and admits order log(n) common dimensions. Full pretransport remainders of four actual incoming iterates admit O(n^-1/2) counting error over all columns, including the marked correction, in an explicit fixed-depth n^{o(1)} dictionary. Provable all-site caps V1 through V4 are 3.46, 4.07, 4.88, 6.37. The cap 5 through the explicit logarithmic horizon would suffice for this disk, and it is first unproved at V4. The common stationary cold-end domain is open."
+  ],
+  "independent_review": [
+    "Fresh Astra checked the masked stratification and exact residual overlap with R73. Main narrowed the novelty claim and added the clipped forbidden-frequency proof. The same independent reviewer then audited its budget, uniform depth promotion, and limited examples.",
+    "Checked prime Fourier minors for both central constraints, all exterior fibers, weighted loss, and finite sieve by separate modular enumeration. Main added the inversion-even conclusion and clarified the mark-doubling test for approximate caps.",
+    "Checked the first-return Cauchy lower bound, Jacobi empirical discrepancy, fixed-depth signed dictionary, four actual caps and the marked counting contraction."
+  ],
+  "next": [
+    "Estimate the true masked hinge on primary supports, with adaptive clipping and opposite covers and the exact support constraints retained.",
+    "Reconstruct actual surviving prime-order quotients with one nonnegative opposite lift. Seek weight-sensitive singleton estimates across the negative masks.",
+    "Use sign cancellation in the full physical fourth return or a bounded holomorphic predictor with small marked counting residual. A common cold-end domain still requires new arithmetic.",
+    "The ordinary all-prime theta limit in ETH Randomstrasse101 Problem 26 remains open."
+  ],
+  "window_closeout_workflow": "Ordinary mathematical proofs with independent audits, one finite exact integer record and a rational scalar cross-check. No new interval certificate or floating-point estimate.",
+  "committed": false,
+  "pushed": false
+}

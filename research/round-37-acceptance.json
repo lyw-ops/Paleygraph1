@@ -1,0 +1,95 @@
+{
+  "round": 37,
+  "accepted_at_utc": "2026-11-18T05:21:50.396267+00:00",
+  "previous": "research/phase-endpoint-36-acceptance.json",
+  "previous_sha256": "b04582969b4d7259eef0565ad003965a7fdc71c9eed9fe18a5cf3f7e2f16e6ce",
+  "target_status": "open",
+  "goal_status": "active",
+  "intake": {
+    "old_chats_completed": true,
+    "old_chats_restarted": false,
+    "round36_hashed_paths": 28,
+    "full_exact_input_hashes": 5,
+    "round36_core_counts_and_types": 44
+  },
+  "research_agents": [
+    {
+      "name": "/root/completion",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-completion-37"
+    },
+    {
+      "name": "/root/cold",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-cold-37"
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-cold-37-monodromy.py": "e3bee2fc0b799e441e33f6d5c69b84a14fff23df79fddce8591b3ba1198352b3",
+    "research/astra-cold-37.md": "fec37c9760204de2b469b60e244b41ac56703baef4479b85900abe6520cd171a",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-completion-37-check.py": "0f08ed374956ca228c489f7d17a62dc133566b49b090ef6c53a6702e5e54e1ba",
+    "research/astra-completion-37.md": "7c0ec52d48c6eb801063ff9b8afadf1573cab2814d667fc5625680df02257269",
+    "research/astra-completion-37.py": "0d77147c35fdb8dc4d455a089483de6bdaba838ada2afcfaadcb73ad17f3f00c",
+    "research/marked-surface-37.md": "bb131806927f75c811be83eda48850b6c71cb0b716b3427890c6b1d3758e384b",
+    "research/picard-transfer-37-check.py": "82d02b1605f777890f4e0e7acb9547d454fa2d7adcd3ee655813846cae011890",
+    "research/picard-transfer-37.md": "b2a9d09b16fe4e97ac43e09843c778bc407aef7e6b5f8c2e71c26e5af92e88a7"
+  },
+  "core_records": 14,
+  "replay_checks": [
+    {
+      "file": "research/astra-completion-37-certified.jsonl",
+      "sha256": "2907e7632d20d151de8753a7236934cfb19800902e1308573ff2dad8a23930c8",
+      "records": 1,
+      "scope": "Arb128 completion of exact saved Fourier input",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-completion-37-checks.jsonl",
+      "sha256": "334198baf7ae785b26748e545c274711d08d73bca9a17a6d79753e0ce077e042",
+      "records": 5,
+      "scope": "Arb320 actual small orbits and exact scalar-only examples",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-cold-37-certified.jsonl",
+      "sha256": "925fe7e42cfc2f7b92672783df9e8cbd01a857bb4df0b921601cc9397bc4e6b8",
+      "records": 3,
+      "scope": "Arb640 actual physical Taylor coefficients",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-cold-37-monodromy.jsonl",
+      "sha256": "836458ecedea574f7ed50df8d2b684343b3bb158e23d1835c395ffda0a71fa81",
+      "records": 1,
+      "scope": "Arb128 actual marked monodromy",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/picard-transfer-37-checks.jsonl",
+      "sha256": "885e0ce21f9f406cc94a03fd5dc5864db5322a906b83921ccf791d2ca679217e",
+      "records": 4,
+      "scope": "Arb256 actual orbit normalization checks",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "For exact zero-start Picard, the quadratic deficit estimate gives one pinned completion of each original prefix at all sufficiently large O_tau(n) depths, preserving its mean, sector, and mark.",
+    "Shift-dissipation time variance gives raw positivity for every original prefix after O_tau(n log n). A selected O_tau(n) prefix has direct positivity and keeps the unmodified budget. Main's reserve-based stopping rule counts every bad terminal index.",
+    "Marked mean-square error relative to the true stationary pair is O_tau(sqrt(n)/T). The long made-positive horizon requires actual stationary marked cancellation, which remains unproved through all primes.",
+    "The p=7340033 T=128 saved round-36 Fourier-rounded pair has strict completion by retaining the first plus and applying a second minus reflection. The first minus failure remains strict. This proves no exact unrounded orbit claim.",
+    "Actual p=113 and p=173 marked scalar germs, and square control q=121, have accessible genuine ramification in the right half-plane. At 173 an independent rational loop localizes marked monodromy to the closed rectangle centered at 0.0331+0.03517i with half-side 0.0001.",
+    "Growing-prime continuation domains can shrink if the relevant hyperbolic distance is at most log log n minus a diverging term. The same sufficient condition holds in the normalized physical marked surface, without a one-valued branch on a base domain. The needed prime distance estimate is open.",
+    "Large squares force distance at least log log n minus a floor-dependent constant and accessible scalar ramification in shrinking relative tubes of order 1/log log n. This is a square control."
+  ],
+  "exclusions": [
+    "Floating nonlinear solver seeds and exploratory jet probes do not supply signs, branch location, or asymptotics.",
+    "Scalar-only absolute-spill examples are not actual Paley orbits.",
+    "No prime-uniform short positivity, stationary marked cancellation, or cold-distance estimate is established.",
+    "Ordinary mathematical proofs and exact/interval checks only. No Lean proof."
+  ],
+  "committed": false,
+  "pushed": false
+}

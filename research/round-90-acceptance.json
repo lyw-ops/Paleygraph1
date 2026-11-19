@@ -1,0 +1,142 @@
+{
+  "round": 90,
+  "accepted_at_utc": "2026-11-19T08:06:12Z",
+  "previous": "research/round-89-acceptance.json",
+  "previous_sha256": "bfdf6ddb914d42505428a8f4cfed79356d4de29baa21020f5bd2f6998e3d2fbd",
+  "proof_and_code_sha256": {
+    "research/clipped-signs-90.md": "69fdd51ffbf485f2c8c5866c433c92ee0d13faeb52cec1fa5acd240b33a52fa7",
+    "research/clipped-signs-90-check.py": "91f19e6c896acaa6aee437ab79f822a564df70f9fff1b5d95baea7a7437d5f4c",
+    "research/clipped-signs-90-checks.jsonl": "740135e33e42aed7a712ce6ef416a87ed4ae6cf12bbd0dabf04e8c87d562509c",
+    "research/astra-column-90.md": "ff9dfa314624d034f16f1d4a10036e3b3bc3057af4292b672fd7211b3d9985f8",
+    "research/astra-column-90-check.py": "36f3ab06983551790d5f543e53d9641e9bdff2687df05b0620f4f6f4ab7e54dd",
+    "research/astra-column-90-checks.jsonl": "4c4c80d06d0cd1f3c688dc63c94f0976890b0aaff965f06c2feb3b1de738788b",
+    "research/astra-dual-90.md": "4441c5b0d6068c405ed91bd457ffa02a40bc2a4e39d356f907ef12f9a0e2183b",
+    "research/astra-dual-90-check.py": "6c66340375805f9e7ddc99be3f303f8e0f4bfd49d57ef9f73a7da5fa4edbb8ee",
+    "research/astra-dual-90-checks.jsonl": "1bbee348fe81d4023eb24e6611e546bfb4b9f79ebc70d725f0f97a19d80ede29",
+    "research/astra-affine-90.md": "8d07746bb4d4fc2b1fdefbc1907a2295ebe1bd283c8e72b58a1647d15c95ac67",
+    "research/astra-affine-90-check.py": "d9e15eea66fe9d8b26c51cd830632fb041b6aed0b9a04999fc1d58b17a5032e2",
+    "research/astra-affine-90-checks.jsonl": "a2e48c07a4cfcc933ec2195908a21c5d5a9769b3f2c1b5e79bdadb1aea99efe8"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/astra-phase-86-check.py": "e824cc99ce0bc453495e770985cab0759dcecc8cb66d32bf77887071a0b8c503",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-quartic-89-check.py": "eb695e305e87200958cda4e65046df9dcc0968f42f3277d12db90a3a4049c7c9",
+    "research/astra-matched-88-check.py": "c8962f090161cfd5611a69b7101c1a94be524f94cde2a6fc04face0216f5c9dd",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "additional_inherited_dependency_sha256": {
+    "research/astra-cold-37-monodromy.py": "e3bee2fc0b799e441e33f6d5c69b84a14fff23df79fddce8591b3ba1198352b3",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "research/real-phase-projection-89.md": "fabe652d3d6a401ab22d17ea09e5ee5fdfe2b0defd4d2c059aed6ef388c45612",
+    "research/physical-two-floor-88.md": "04efb872ebd5088eea370b719d83f9cae17060806ead79254e3490527c4e796d",
+    "research/astra-source-88.md": "80b4849d9f4e43c9a732af10731e6f1c38f895f0c726ad8df4420e591d746f88",
+    "research/astra-dissipation-80.md": "a3c931667e734483352c20c49ba3f56a7d1322c9870c34f76c2526d8819fe931",
+    "research/astra-tails-89.md": "1beb107b9bbec6928dfd8f2a82199786e61a527e33b38c899f733f11256a1a7e",
+    "research/astra-quartic-89.md": "ff09867a32a4fc5a51992c0943a5733f1abcbad0751802ea1fbf9c74eb268440",
+    "research/astra-persistent-88.md": "56d6df9a10c4dc9abd5866aa325633238ea8b63fa455fef1fbdf3ca7636c3638",
+    "research/astra-capacity-84.md": "550d1105db39051403980aab28e0ea3ef2d3202b2f22450c4bd1c43ded89ff75",
+    "research/parallel-low-energy-7.md": "bec665dfc1a4b2c5beee669490c86208c5b280a004a9bcbaeabe76a59f4cc9cb",
+    "research/astra-linear-89.md": "b415ec32eb69afe06b44de2e5e04e8871cd809060cc10d2d9225ff16b65ae26e"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "primary_arithmetic_sources": [
+    {
+      "url": "https://arxiv.org/abs/math/0308286",
+      "use": "Prime cyclic uncertainty in the signed support tests and Cauchy–Davenport in the shortfall spreading proof"
+    },
+    {
+      "url": "https://escholarship.org/content/qt3qb1v3vw/qt3qb1v3vw.pdf",
+      "use": "Mixed character bounds inherited by the true affine gate tests"
+    }
+  ],
+  "research_agents": [
+    {
+      "name": "/root/column_90",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test exact scalar vanishing of the canonical floor correction with the actual physical predictor and the monotone residual equation.",
+        "Use the separate saturation signs and the actual Fourier support equations for the marked column at first cap contact."
+      ]
+    },
+    {
+      "name": "/root/dual_90",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Control the corrected root coefficient minimized across complementary optimizers together with the sorted mass of a finite sharp-shortfall convolution at one adaptive length.",
+        "Apply the spreading estimate to the largest prime quotient and test for a uniform cap separation at strict intermediate densities outside the universal peak subgroup."
+      ]
+    },
+    {
+      "name": "/root/affine_90",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Compare two sharp complementary pieces selected by an actual displaced parent atom, allowing third-coordinate localization.",
+        "If both bounded Fourier envelopes have inadequate modulation capacity, price the full affine fiber or test higher Fourier norms against the exact marginal response."
+      ]
+    },
+    {
+      "name": "/root/audit_90",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Track first bulk cap contact from the actual real positive floor and bound the marked bulk column through primes to remove both sign corrections.",
+        "Compute the optimized corrected root price by a linear program for a true sharp cubic witness, and test it jointly with sorted convolution masses."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "At first actual cold cap contact test the marked-column inequality or exact vanishing of both canonical sign corrections. Separate contact of the actual unforced branch from uniqueness of the clipped fixed point.",
+    "On an actual adaptive mask compute the complementary-optimizer subtraction optimal for the corrected root coefficient and test its joint convolution spreading or derive a height-sensitive loss at intermediate densities.",
+    "On a true prime affine sample test whether displaced-parent localization changes both first prices enough to cover their difference, and measure the residual on the original fiber."
+  ],
+  "core_records": 10,
+  "arithmetic_record_counts": {
+    "clipped_signs_arb128": 1,
+    "clipped_column_rational_and_arb192": 2,
+    "quartic_dual_arb384_and_exact_quotient_control": 1,
+    "affine_gates_arb384_and_exhaustive_squares": 6
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main and independent Astra replayed all four checkers with PYTHONPATH=., .venv/bin/python -B, and pipefail, comparing the outputs byte-for-byte against the frozen JSONL.",
+    "One Arb128 record verifies the actual p=173 phase at t=1/50+2161i/100000 and the constants in the analytic lower bound of 1/60 for the total bulk correction.",
+    "The column checker verifies rational cold constants and an Arb192 all-fixed-points enclosure of the strictly positive average correction at the same small floor.",
+    "The dual replay checks all 48 translates of both laws at p=97 and exact prime-43 convolution with a composite order-49 contrast. Its fixed-coordinate assertion is for every quartic minimizer; reflection and strict convexity pass it from the even problem.",
+    "The affine replay uses Arb384 and genuine prime optima at p=53,257,409, including noneven rows and an exhaustive seed check at p=53. Three other records exhaustively enumerate square-order controls."
+  ],
+  "proof_scope": [
+    "In the positive marked sheet with strict marked secants, distinct clipped solutions can differ only along up to four signed Jacobi eigenrows on common saturation sets. Both sign corrections, the mean, and the mark are canonical.",
+    "On the nominated cold square for n≥10^30 the physical height-600 normalized residual gives an average floor correction bounded above by 1.84r and by 7.24e-175, as well as weighted column tail and cap-count bounds. The zero-residual case has zero correction, and the general bound permits a positive value.",
+    "Under the Hermitian angle hypotheses an actual phase overshoot forces a positive clipping correction. The p=173 enclosure is at a distinct small floor.",
+    "The exactly efficient quartic dual supremum to the fourth power counts universal cap sites on the charged mask. Prime support and early height exclude the adaptive binary mechanism under the specified cofactor conditions. The actual shortfall walk gives a quantitative efficiency loss under a bounded corrected root coefficient and large enough effective support on the prime quotient.",
+    "Endpoint Fourier modulation and hard rounding give separate true first prices on four affine pieces. The exact quarter cancellation criterion concerns the leading coefficients. The full signed price on the original fiber remains to be bounded."
+  ],
+  "independent_review": [
+    "Independent Astra reviewed clipped secant equality, the fixed-mark hypothesis, both canonical sign totals and the true-versus-clipped comparison.",
+    "Independent Astra verified the physical cold residual scope and the positive small-floor enclosure.",
+    "Independent Astra checked the exact efficient subclass, the residual height, and the prime quotient proof via Cauchy–Davenport and Parseval. The final prose names the order-seven subgroup of the order-49 composite comparison.",
+    "Independent Astra checked the four-gate Fourier envelopes and deterministic rounding, and all four checker outputs."
+  ],
+  "failed_paths_and_open_bounds": [
+    "Sparse saturated support controls clipped uniqueness in some ranges. It does not force zero correction. The explicit finite p=173 correction prevents a no-clipping statement for general small floors.",
+    "A very small positive uniform residual does not give the exact fixed-point equation or prove a common unforced cold domain through unbounded primes.",
+    "The quartic efficiency restriction leaves intermediate efficiencies and potentially unbounded corrected root price. It does not prove the required prime quartic upper.",
+    "The affine quarter can cancel only its own leading term under the capacity criterion. Its finite price and the full window price are separate."
+  ]
+}

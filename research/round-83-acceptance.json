@@ -1,0 +1,117 @@
+{
+  "round": 83,
+  "accepted_at_utc": "2026-11-19T05:34:09Z",
+  "previous": "research/round-82-acceptance.json",
+  "previous_sha256": "c6c42229bd63ae51ae6ca95d7ee54b6512e9a124961f7d959fb371257ee02221",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/average_83",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "On the same larger-face endpoint and terminal time, estimate actual collision on the reverse head and the remaining low-density price after the large deletion.",
+        "Reach the counting-energy scale o(d^2/(M sqrt(p))) on the reverse head so the true clipped point cap controls the high-density deficit."
+      ]
+    },
+    {
+      "name": "/root/split_83",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use the exact opposite root-residual dual to bound the minimum mass escaping the amplified actual cold energy profile by o(H^(-1/4)).",
+        "Bound the joint uncovered-capacity and remaining companion height on one actual marked-face optimizer and admissible terminal time."
+      ]
+    },
+    {
+      "name": "/root/direction_83",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the imaginary part of the integrated actual Hessian along the last real parameter segment, with per-site budget 1.8e6 (1-0.9989704)^2.",
+        "Collect signed histories across distinct vertices and measure their cancellation against the certified expanding 28-packet direction at the true parameter."
+      ]
+    },
+    {
+      "name": "/root/audit_83",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Check the joint positive-completion capacity estimate for the same optimal face, chosen row and terminal time.",
+        "Test the signed imaginary acceleration budget at nonreal floors near the cold edge."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Combine the reverse paying-site and whole-face head alternatives. Bound the signed first correction for genuine complementary optimal laws or the positive dual joint capacity mismatch. Carry one actual optimizer through both upper estimates at the same time.",
+    "Use the actual forcing direction to control the imaginary Hessian integral on the remaining real segment. In parallel target signed cross-vertex cancellation beyond the rigorously excluded one-vertex prescription."
+  ],
+  "proof_and_code_sha256": {
+    "research/weighted-covariance-sharpness-83.md": "a2b8ec18fb3a59ad1a862852905b3f709a52dd142965c39f79fe4d075bd2f9c3",
+    "research/astra-average-83.md": "2760e223a807cf356b868b59a161c608dc1f34ff53877c57dd3611342a84cda3",
+    "research/astra-split-83.md": "6e503b7946ecad77b544f9c38f4ad571ce4c6d1b2d6dac3ff882c35ac1750740",
+    "research/astra-direction-83.md": "241d871d9b6c767177f7301bdc85b8b370b0cbafd80dcb23b1b91dcd43a3d62d",
+    "research/astra-direction-83-caps.json": "e99f0b9842ef9afcb4ab791f2464aed52ba1397fddbee3ee760cff4516e254b6",
+    "research/astra-average-83-check.py": "2aac245bd470f2b803ce8012ecb7e0fec7d12041a64229620f6766ae2a6bdd69",
+    "research/astra-average-83-checks.jsonl": "2ebc2a55fff33ebeaef786a4af8257eba424c012d452a77165eb143f3fc6bc95",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-split-83-checks.jsonl": "e18adcde22f397cb84e71ce0f66f1a708a0f6f2cc825fe5b7890b50dcf1d6cb4",
+    "research/astra-direction-83-invariant.py": "a92c1d8f3251bbe33cb6a71d32824e23f069ec7f155fcd6b6c518669795d091d",
+    "research/astra-direction-83-invariants.jsonl": "8f45dfde31eb30a76a86ec1dc976969bccf3c13f78113364a89207e0bbeb494c",
+    "research/astra-direction-83-check.py": "89160e6a0f6020788327bacb279d1958f2d7f28984480e85cecf08b6ccfbba1c",
+    "research/astra-direction-83-obstructions.jsonl": "868744bf4afa74c0aa1fbe18fbd6a73688ba61155c782f145aa37bcbd4b48818"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52"
+  },
+  "additional_inherited_dependency_sha256": {
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "research/astra-joint-65-checks.jsonl": "986773a54d6e49dc9d1c3d1c5d18dc8c9b5d8041889598c3182104eb7c5047b1"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 12,
+  "arithmetic_record_counts": {
+    "finite_reverse_head_arb384_records": 4,
+    "finite_whole_face_arb384_records": 1,
+    "physical_complex_arb192_records": 4,
+    "packet_obstruction_arb224_records": 3
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "All four frozen replay inputs passed the byte-for-byte comparisons under pipefail, both in main and in an independent Astra audit. Rational cap proposals have no role in the interval acceptance beyond the certified inequalities.",
+    "The final complex invariant receipt includes the extra Newton-ball forcing radius, frozen directional moment bounds, and two distinct warm overlaps. In the last obstruction the forcing parameter is 1 and the multiplier on all retained arities is 0.99999.",
+    "The p=97 receipt verifies the positive optimum potential on every exterior coordinate, exact root/budget identities and an attained primal witness, in addition to the capacity-only optimum."
+  ],
+  "proof_scope": [
+    "Reverse weighting the Jacobi operator by a genuine positive exterior split captures the actual high-density paying coordinates on a head common to all good times. The effective source size is at least of order sqrt(n). At thresholds at least p^(-1/4)N, a fixed high deficit forces d^2 H^22 collision on the head itself. In the separate absolute split either the same collision lower applies or fixed positive low-density deficit and order-d companion height survive every further deletion of n^(1-o(1)) sites. These are necessary conditions, and the actual upper in either branch remains open.",
+    "The squared-hinge minimizer on a true marked face at one fixed terminal time either has low-density surviving height or produces one Jacobi head on which every optimizer must put mass at least order rho M. True cold counting energy on this head is exponentially small at the stated tower scale. The proof then controls the clipped optimizer-weighted companion prices and the mass beyond the cap from opposite directions. A real finite LP and a root-neutral positivity repair give the attained weighted capacity dual for the full face and one common attaining row.",
+    "For the first true transported square the signed first correction of the weighted Jacobi test is exact. The p^(-1/2) error is sharp for the single-power and fixed nonzero exponential tests even for genuine positive feasible laws with a prescribed normalized mark below 1/sqrt(2), fixed positive bulk clipping, bounded entropy and exterior effective support comparable to n. Conditional one-power sharpness survives reducing a fixed supercritical optimal mark while remaining supercritical. No sharpness on the exact maximal mark face is claimed.",
+    "At n>=10^30 the forced branch on the closed half-width 2^(-17) square about 2031/128 reaches |lambda|<=0.998970414 with coordinate cap 4.653. The tighter explicit invariant through 0.9989704 gives actual packet derivative rate below 0.999902, normalized L2 acceleration below 0.110 and the further listed moments. Two unforced overlapping warm squares extend the real edge by 2^(-19) from round 82. A uniform imaginary acceleration bound along the remaining segment suffices for genuine crossing, and has not been proved.",
+    "The undivided R82 positive upper square is excluded by its own truncated lower test at 0.998960. Subdivision bypasses it. At the central real floor the actual R65 fully collected single-vertex comparison has an arithmetic lower obstruction at 0.9997521 and still escapes at lambda=1 with an all-arity 10^(-5) discount. Neither result proves a physical singularity or rules out signed cross-vertex bounds."
+  ],
+  "independent_review": [
+    "Checked the reverse eigen-equation, clipping at the root, effective source size, tower-height transfers, and both scales of actual collision and deletion.",
+    "Checked the whole-face hinge first-order inequality, exponentially small actual energy and positivity completion dual. The finite joint demand primal and opposite certificates were checked on the full exposed support.",
+    "Checked the exact signed covariance, parity, connectedness-based variance input, and the root-neutral feasible perturbation and its fixed-clipping expansion.",
+    "Checked the nonnegative monotone Newton obstruction, retained lower kernels, distinct forcing and discount parameters, complex invariant tails, per-summand interpolation, Bessel source lower bound, packet gluing and imaginary-strip continuation."
+  ],
+  "next": [
+    "Prove a prime-uniform upper on the actual joint capacity mismatch or the true low-density height, with the needed signed error on the same optimal pair.",
+    "Reach the original cold equation by actual imaginary directional control or a signed multi-vertex analysis.",
+    "ETH Randomstrasse101 Problem 26 remains open."
+  ],
+  "window_closeout_workflow": "Four proof notes and twelve interval records. Three research routes and a read-only separate audit gave ranked next tests, consolidated above.",
+  "committed": false,
+  "pushed": false
+}

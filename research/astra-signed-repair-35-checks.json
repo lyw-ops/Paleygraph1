@@ -1,0 +1,34 @@
+{
+  "record_counts": {
+    "astra-signed-repair-35-averaged-large.jsonl": 8,
+    "astra-signed-repair-35-averaged.jsonl": 24,
+    "astra-signed-repair-35-constants.jsonl": 2,
+    "astra-signed-repair-35-diagnostics.jsonl": 42,
+    "astra-signed-repair-35-exact.jsonl": 3
+  },
+  "exact_records": 3,
+  "interval_records": 2,
+  "floating_records": 74,
+  "python_ast": true,
+  "no_trailing_whitespace": true,
+  "local_links_exist": true,
+  "uniform_prime_good_proposals_proved": false,
+  "ETH26_solved": false,
+  "new_ordinary_results": [
+    "sharp quadratic-profile signed spill",
+    "coefficient-uniform first-nested-direction obstruction"
+  ],
+  "sha256": {
+    "astra-signed-repair-35-averaged-large.jsonl": "4c57d9ab24e4ec0cc7e8f4869aad20f29add41d079c41972c1d793faa1357f45",
+    "astra-signed-repair-35-averaged.jsonl": "3ac071356aee1805f12799a662a7901fb01462438f2263d088fba2599e81a8b8",
+    "astra-signed-repair-35-constants.jsonl": "357226755b7715a1c775c06b8c53809886bc630ea2490e6d5f5694ed426cea37",
+    "astra-signed-repair-35-diagnostics.jsonl": "750556222bdfc6951c1330a442491a4cb18f872c26f34ba32267d4b69829f353",
+    "astra-signed-repair-35-exact.jsonl": "4a1b9115bef98bc39f5126935932cf5fa80a09913429f28d25e8d799b16772d9",
+    "astra-signed-repair-35-inputs.json": "b3c38a334958c422fec16881acba0a8d8090ee1d5ac44da8251b24b4bda36efa",
+    "astra-signed-repair-35.md": "941cfd31344cf62ed893d160cf61afe8a24908631ca02bce5cce21ec3bfbd845",
+    "astra-signed-repair-35.py": "e3cd1d1eb450ea617cbde24aa3b2518d181e52cee7c8b16a88040a6b39e67e73"
+  },
+  "direct_target": "mean/sector/mark-preserving prime nonnegative completion; no separate Dclip, UI or HR requirement",
+  "averaged_budget": "W+(1-sqrt(tau/n))^2*(1-1/n)/T",
+  "main_source": "averaged-mark-35.md sections 2-5"
+}

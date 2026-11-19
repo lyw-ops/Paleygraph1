@@ -1,0 +1,5 @@
+{"cleared_degree_bound": 1, "distinct_nonzero_test_points": 3, "kind": "rational_partial_fraction_identity", "order": 1}
+{"cleared_degree_bound": 2, "distinct_nonzero_test_points": 4, "kind": "rational_partial_fraction_identity", "order": 2}
+{"cleared_degree_bound": 5, "distinct_nonzero_test_points": 7, "kind": "rational_partial_fraction_identity", "order": 5}
+{"cleared_degree_bound": 10, "distinct_nonzero_test_points": 12, "kind": "rational_partial_fraction_identity", "order": 10}
+{"budget_upper": "24/1000", "cold_lower": "7/100", "degree": 12000, "eventual_excess_lower": "4/100", "kind": "square_asymptotic_margin_constants"}

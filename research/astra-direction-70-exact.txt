@@ -1,0 +1,1 @@
+p=13 rank=4 marked_inverse_moment=15/4 certificate=15/4

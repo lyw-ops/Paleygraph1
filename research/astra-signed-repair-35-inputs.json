@@ -1,0 +1,24 @@
+{
+  "schema": "astra-signed-repair-35-fixed-inputs-v1",
+  "exact_identity_field": 13,
+  "constant_tau": "1/20",
+  "constant_precision_bits": 192,
+  "C1_counterexample_prime": 13,
+  "C1_counterexample_tau": "1/20",
+  "C1_counterexample_start": "v0=0",
+  "floating_primes": [9413, 153649],
+  "floating_square_roots": [97],
+  "square_profile_t": ["0", "1/2", "-1/2"],
+  "averaged_primes": [9413, 153649, 1000033],
+  "averaged_square_roots": [97],
+  "averaged_depths": [16, 32, 64, 128],
+  "averaged_tau": "1/20",
+  "averaged_kappa": "1/1000",
+  "nested_coefficients_mu_a_b_c": [
+    ["1", "1", "0", "0"],
+    ["1", "1", "1/4", "1/8"],
+    ["1", "1", "-1/4", "-1/8"],
+    ["1", "1", "1/4", "-1/8"]
+  ],
+  "scope": "Exact audit inputs and fixed floating identity tests, not an orbit or optimization certificate"
+}

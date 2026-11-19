@@ -1,0 +1,73 @@
+{
+  "round": 41,
+  "accepted_at_utc": "2026-11-18T06:42:04.706296+00:00",
+  "previous": "research/round-40-acceptance.json",
+  "previous_sha256": "ccd233894e5b8069812165dc7016d2b69c015997731b3a3bde4b2b0a4ff3618d",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/repair_41",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-repair-41"
+    },
+    {
+      "name": "/root/branch_41",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-branch-41"
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-repair-41.md": "1b5e7c5d4d0f49fe3fd58ad90fc444624424fe9e9788fc07598653761529f702",
+    "research/astra-repair-41-check.py": "e2a40c1c2220929d9663c12e712d7b0a1e09aace5d211bf6351d5c8ea135f699",
+    "research/astra-branch-41.md": "be7bbe69cdd6be497937706abf8d902a7533200114741d24ea3ecf85c36b5189",
+    "research/astra-branch-41-check.py": "79016b47076ad21aa53d45d36273f4b9d5a36d94ec18a568e1b03604c7c2cdc5",
+    "research/twisted-lattice-defect-41.md": "5524d7c4827aaa6ec33c95f82c8eba49203cf2a38ff7c141b029a7bee3161b60",
+    "research/twisted-lattice-defect-41-check.py": "34a716aeb68f8b97ab04a0c9c6ec6ee4eae8dd80930e5f676cb1552ceef5104d"
+  },
+  "core_records": 17,
+  "replay_checks": [
+    {
+      "file": "research/astra-repair-41-checks.jsonl",
+      "records": 8,
+      "sha256": "fdbd5a4f7baeec6a12c04f38a8621f78f37e52094140af3871b20261d0140cf7",
+      "scope": "Arb256 actual positive-floor Picard orbits at square orders 49 and 121",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-branch-41-checks.jsonl",
+      "records": 3,
+      "sha256": "8df33f29da6398425cdcddc6c6c21a1c4720a0cfb41a4cc37fd0cb516788ad60",
+      "scope": "Arb192 cold estimate constant and two sign identities at the physical prime-13 floor 30/19",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/twisted-lattice-defect-41-checks.jsonl",
+      "records": 6,
+      "sha256": "c8123578a4933992cf12473ecb45d336c4259087a7321e37b4cdc68e71288ca1",
+      "scope": "Exact prime modular identities for the lattice twists of orders 3, 4 and 6 at 97 and 241",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "For any actual sector probability with normalized mark alpha, the finite positive-floor signed Picard drift has a curvature reserve. Near or above alpha=sqrt(W) this gives an order-T^(1/3) lower bound at fixed positive floor in the short arithmetic window when the stated error budget vanishes. For supercritical tests the reserve includes a logarithmic surplus in addition to linear drift.",
+    "For the exact square subfield witness at floor one, the signed actual Picard endpoint restricted to its annihilator has normalized liminf at least 2^(-1/6) after division by T^(1/3). Any minus completion retaining the prescribed mark needs extra scaled mean at least c/T for an explicit positive c asymptotically. This does not prove that a prime witness at the needed threshold exists or exclude vanishing-mean completion on primes.",
+    "Exact positive-affine reciprocal Jacobi moment constraints apply to the actual real stationary solution at every fixed positive floor. All eligible-prime subsequential marks obey |m(1)|<0.174. At squares, minus marked loss divided by the floor has limsup below 0.11167 for arbitrary joint sequences of vanishing floors and growing field, and the analogue on primes requires an o(t) log benchmark gap. A separate positive two-point reciprocal model realizes nonzero limiting marks with all stated first moments and is not a Paley stationary solution.",
+    "For all eligible primes, twists of orders 3, 4 and 6 have an absolute deficit at least a constant times (log log log p)^(1/(4+epsilon)) for every subgroup of bounded square-root size and every positional coset. The paired residue lies on a fixed rank-one lattice so it survives reduction at p. The same modular method improves the scale to log log p for nested active divisors and to log p when the supported prime-factor part of the quotient is polynomially large, with exponent 1/(4+epsilon). These two refinements also apply to order two.",
+    "The reciprocal translated subgroup's multiplicative tail alone loses the necessary signed concentration when the two square classes are split. Exact shifted-subgroup ratio-set irreducibility does not yield the required anchor-dependent rich-correlation estimate."
+  ],
+  "independent_review": [
+    "Checked the signed marked-source split, prefix energy and squared-reserve estimate, curvature and square-specific threshold, and the exact complementary-theta lower bound on mean allowance.",
+    "Checked the two exact Jacobi moments, reciprocal Cauchy--Schwarz, the square trial equality and moving-floor passage, and the moment-fiber construction.",
+    "Checked support and normalization of the full and parity Fourier transforms, the complex lattice algebra norm, modular Jacobi cutoff and reflected residues, degree and denominator count, and the two improved divisor regimes."
+  ],
+  "next": [
+    "Seek a prime upper bound on the actual signed endpoint tested by a concentrated feasible row. At the threshold of the new lower bound an upper o(T^(1/3)) estimate would already rule out that row.",
+    "Seek a prime-uniform common complex branch or real higher signed derivative control. Positive-affine first moments alone allow a fixed nonzero cold mark.",
+    "Seek a constant relative twisted gap or a rigidity estimate for unstructured critical transfers. Fixed-order modular defects still give a vanishing relative gap."
+  ],
+  "committed": false,
+  "pushed": false
+}

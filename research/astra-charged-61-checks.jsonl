@@ -1,0 +1,1 @@
+{"distances": "nonwrapping", "field": 97, "generators_as_powers_of_reference_generator": {"1": 5, "5": 5, "7": 5, "11": 10, "13": 8, "17": 7, "19": 5, "23": 4, "25": 4, "29": 5, "31": 7, "35": 8, "37": 10, "41": 5, "43": 5, "47": 5}, "kind": "full_even_face_bulk_quantile_radius", "n": 48, "tight_best_radius": 4, "vertices": 4}

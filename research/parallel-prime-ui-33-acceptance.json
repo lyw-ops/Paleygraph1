@@ -1,0 +1,339 @@
+{
+  "round": 33,
+  "date": "2026-11-18",
+  "target_status": "open",
+  "prime_uniform_UI": "unproved",
+  "proved_mathematics": [
+    "exact positive-pair fidelity/source-error identity with the mark retained",
+    "dimension-free joint stationary first-mass tail bound with defect/floor coupling",
+    "escaping first mass equals field-first conic positive-floor boundary slope",
+    "SOCP formulation and valid primal/weak-dual certificates",
+    "pointwise exact-stationary enclosures from exact positive feasible Fourier witnesses"
+  ],
+  "finite_certification": {
+    "million_prime_order": 1000033,
+    "tau_005_G_max_upper": "6.90943062",
+    "tau_001_G_max_upper": "7.57382883",
+    "prime_bulk_tail_at_R8": "exactly zero at both floors",
+    "square_order": 151321,
+    "square_tau_005_G_tail_R128_interval": [
+      "0.9218119478",
+      "0.9218119492"
+    ],
+    "conic_primal_dual_inputs": 13,
+    "conic_all_replay_precision": 224,
+    "million_tau_005_replay_precisions": [
+      160,
+      192
+    ],
+    "square_replay_precisions": [
+      160,
+      224
+    ]
+  },
+  "float_only": {
+    "actual_pair_rows": 168,
+    "tail_rows": 1176,
+    "max_fidelity_error_identity_discrepancy": 3.5860203695392556e-14
+  },
+  "schema_refresh": "The original million tau=.05 certificate was refreshed from a matching current-schema 160-bit replay, adding lower-tail fields; all preexisting certificate values were checked exactly unchanged.",
+  "remaining": [
+    "prime-uniform o(kappa) positive feasible pair fidelity construction",
+    "HR and subsequent marked-source arithmetic comparison for ETH26"
+  ],
+  "scope": [
+    "ordinary mathematical proofs, not Lean kernel proofs",
+    "finite Arb certificates do not prove a prime-uniform estimate",
+    "no commit or push; only authorized prefix written"
+  ],
+  "files": [
+    {
+      "file": "research/parallel-prime-ui-33-certified-q1000033-tau1_20-safeguarded-Newton-proposal-k0.001-input.json.gz",
+      "bytes": 6389553,
+      "sha256": "4aa1c348b30e4698889d4154b9304ec778caee6f72dbc3118a3d7f1e93892445"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-certified-replay160.jsonl",
+      "bytes": 3695,
+      "sha256": "2563c2dbca324ed275a26b2a3d688e89ca36332ccb6803da3d4245f86bee5c2b",
+      "records": 8,
+      "kinds": {
+        "arb_positive_pair_certificate": 1,
+        "arb_stationary_tail_certificate": 7
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-certified-replay192.jsonl",
+      "bytes": 3895,
+      "sha256": "60521a2ea1b769b3f4441dc03b3300b97e336696179952d44b9f36d8818bd888",
+      "records": 8,
+      "kinds": {
+        "arb_positive_pair_certificate": 1,
+        "arb_stationary_tail_certificate": 7
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-certified.jsonl",
+      "bytes": 6991,
+      "sha256": "6d6c9f9b74ff955f58494b18bac999295385828708b2590af4d2831083e4ff48",
+      "records": 18,
+      "kinds": {
+        "floating_feasible_pair": 1,
+        "floating_tail_bound": 7,
+        "exact_fourier_input_saved": 1,
+        "arb_positive_pair_certificate": 1,
+        "arb_stationary_tail_certificate": 7,
+        "runtime": 1
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-all-replay224.jsonl",
+      "bytes": 9843,
+      "sha256": "9e04d72cfb9003cae3d0fb38ab32d8bc0323e3d66bfbf088c4ddf1cb6e2e848d",
+      "records": 13,
+      "kinds": {
+        "arb_conic_primal_dual_bracket": 13
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-large-q1009-k1_100-input.json.gz",
+      "bytes": 15815,
+      "sha256": "507c631e45694f3a041ead4c096c5ac9e1a3e39b36d588a74ba50d9f423a5f30"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-large-q1009-k1_200-input.json.gz",
+      "bytes": 15698,
+      "sha256": "b5bebf2a20ecb781a674f34597a4f92fe7232b71f64fe8291ed3f7d6e4887818"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-large-q961-k1_100-input.json.gz",
+      "bytes": 14938,
+      "sha256": "358ec6927a972e655d9feb9bf639e5509bf74967158cb270ea768b1e23dea0c3"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-large-q961-k1_200-input.json.gz",
+      "bytes": 14922,
+      "sha256": "ccd4e8b7b84e2bc126944bcf861dd42879358e1a2fe42926ab2843b9dc068645"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-large.jsonl",
+      "bytes": 2625,
+      "sha256": "9a7bc7bb74efa1a916861c82c0ccc71c0d24192306216088e308e326a034108d",
+      "records": 4,
+      "kinds": {
+        "arb_conic_primal_dual_bracket": 4
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q101-k1_10-input.json.gz",
+      "bytes": 1843,
+      "sha256": "a1486d2ca25a418e4525734cdf3b75da051cd0f86440b48e06de8023e7a12f56"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q101-k1_100-input.json.gz",
+      "bytes": 1800,
+      "sha256": "2d21f95ef05953da2504ebdf25f0c4144223c4df49ba6124f3f1bc800bfa1f76"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q101-k1_20-input.json.gz",
+      "bytes": 1844,
+      "sha256": "d7783fdd723397d40846311dcb9f92582ced7f8c4045d2e5433b3c2c1d86dbae"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q361-k1_10-input.json.gz",
+      "bytes": 5531,
+      "sha256": "841c05add05c52a599e4739c285401e32fe381f420c1523d40d7d2b212b4ac92"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q361-k1_100-input.json.gz",
+      "bytes": 5801,
+      "sha256": "c3705e7a525943f6b92c5fa2f96a239a9de71df3126634baac9262386af6e1b7"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q361-k1_20-input.json.gz",
+      "bytes": 5721,
+      "sha256": "42ab850c7e0733aa51ec44c687c2367d2c43ee012bce570a4f53c16f88bd61a7"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q401-k1_10-input.json.gz",
+      "bytes": 6506,
+      "sha256": "b4fd44e8e5c885237b44c430d5e6e19ef44121a08265be9ced56d495175887c8"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q401-k1_100-input.json.gz",
+      "bytes": 6451,
+      "sha256": "694644b9a9273af1b78455e8497f722ffe5b8332c69337ef8b7b10d2922ab1b6"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q401-k1_20-input.json.gz",
+      "bytes": 6530,
+      "sha256": "f9cf2a937e71290f751f25522bc78113f7e347b318a0beea8e7be212a6ac8878"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-replay224.jsonl",
+      "bytes": 805,
+      "sha256": "6a2327e217ecdad0070a7f5b2acbe059e4d552a86f55c242c8a30e305fa592b8",
+      "records": 1,
+      "kinds": {
+        "arb_conic_primal_dual_bracket": 1
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic.jsonl",
+      "bytes": 6135,
+      "sha256": "c1cd9a093ed5430b79dbf42018a97d0ff51043568fde94957fd69904c438eedf",
+      "records": 9,
+      "kinds": {
+        "arb_conic_primal_dual_bracket": 9
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic.py",
+      "bytes": 7530,
+      "sha256": "36c650bdb03e95aff70ccb5161bf05f899950fd507f216f598eab7609005eb65"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-diagnostics.jsonl",
+      "bytes": 513030,
+      "sha256": "26d03cfbb0d5271d03590fb77f53d1c474e48d1a757847b6c029997f69639d6e",
+      "records": 1350,
+      "kinds": {
+        "floating_feasible_pair": 168,
+        "floating_tail_bound": 1176,
+        "runtime": 6
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-floor01-q1000033-tau1_100-safeguarded-Newton-proposal-k0.0001-input.json.gz",
+      "bytes": 6393628,
+      "sha256": "c0259165e0aaadfce8560c6a92ae357672d55859a7ee3534d7d84bc72925998d"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-floor01.jsonl",
+      "bytes": 7006,
+      "sha256": "6ce633c7328a31430df249b16e8cf1990fb2fb8f1d7d177b465ffa4394c80a59",
+      "records": 18,
+      "kinds": {
+        "floating_feasible_pair": 1,
+        "floating_tail_bound": 7,
+        "exact_fourier_input_saved": 1,
+        "arb_positive_pair_certificate": 1,
+        "arb_stationary_tail_certificate": 7,
+        "runtime": 1
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q101-tau1_20-safeguarded-Newton-proposal-k0.001-input.json.gz",
+      "bytes": 654,
+      "sha256": "6d7586266f79e1732cdde8b0cb144d61976d611cc68a11e3aa87f802be1aca68"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q101-tau1_20-safeguarded-Newton-proposal-k0.01-input.json.gz",
+      "bytes": 654,
+      "sha256": "315e44d4b9fb79e90526fd2213f84e84cfce52b8dbbf8d317c737a3adb1042b9"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q101-tau1_20-safeguarded-Newton-proposal-k0.05-input.json.gz",
+      "bytes": 660,
+      "sha256": "8ac2edeb379d550f6075646bff50b06535f25bda1a758121d64331634a198ed2"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q101-tau1_20-safeguarded-Newton-proposal-k0.1-input.json.gz",
+      "bytes": 650,
+      "sha256": "52ec58683f1e387246bee3eed02740d49318affe30e37491fdd3fa377406cf0b"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q401-tau1_20-safeguarded-Newton-proposal-k0.001-input.json.gz",
+      "bytes": 2025,
+      "sha256": "68df0e3ad256a555697aea09a3e0ad5e90844abc5c88c2ac2cb09a3c7c4efd43"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q401-tau1_20-safeguarded-Newton-proposal-k0.01-input.json.gz",
+      "bytes": 2024,
+      "sha256": "ca83df51728e49079862584b894d288fff3e59246d7e013447e2c2449e87cfef"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q401-tau1_20-safeguarded-Newton-proposal-k0.05-input.json.gz",
+      "bytes": 2009,
+      "sha256": "1b73c26cf3eb7c1da1146f148887d2338a5c0cdbc29e59fe96cde9ec120e2dfc"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q401-tau1_20-safeguarded-Newton-proposal-k0.1-input.json.gz",
+      "bytes": 2010,
+      "sha256": "5a2dbaed97291b0f86e4db0700d6a535ff6528e47673605c6f96918cfad46bf3"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q49-tau1_20-safeguarded-Newton-proposal-k0.001-input.json.gz",
+      "bytes": 405,
+      "sha256": "46e814c38aa50695fe881d626390b6022a3cbfc6d0f459c48a9df084ad993669"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q49-tau1_20-safeguarded-Newton-proposal-k0.01-input.json.gz",
+      "bytes": 410,
+      "sha256": "f7ae005e507430a78a7d39d5314c2706dac8cf24e7ee23bebf17aed03d094ea1"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q49-tau1_20-safeguarded-Newton-proposal-k0.05-input.json.gz",
+      "bytes": 405,
+      "sha256": "c0516b167a8dd92fedf93d1b55312a28d911d57ae08ec32b67bb9e9f329c717b"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke-q49-tau1_20-safeguarded-Newton-proposal-k0.1-input.json.gz",
+      "bytes": 403,
+      "sha256": "b09ae95bbc3edfa85de53162a64f324584ac60d657a61137f50f056fcb7ee68f"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-smoke.jsonl",
+      "bytes": 76600,
+      "sha256": "d3073afad10582b87d31e7115deed6a1f4ab4cb8818ad9938c2bc427178c8cd2",
+      "records": 207,
+      "kinds": {
+        "floating_feasible_pair": 12,
+        "floating_tail_bound": 84,
+        "exact_fourier_input_saved": 12,
+        "arb_positive_pair_certificate": 12,
+        "arb_stationary_tail_certificate": 84,
+        "runtime": 3
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-square-q151321-tau1_20-safeguarded-Newton-proposal-k1e-05-input.json.gz",
+      "bytes": 931664,
+      "sha256": "b11ec775bf71845ed32a75b1ad7686f85ba54e1ecaa66dc6f9d52fc75efbadf5"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-square-replay224.jsonl",
+      "bytes": 5691,
+      "sha256": "daa2b3f81c1c9b768b0179265fbc840462112565c61911ed33bd71bece7e79f6",
+      "records": 8,
+      "kinds": {
+        "arb_positive_pair_certificate": 1,
+        "arb_stationary_tail_certificate": 7
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33-square.jsonl",
+      "bytes": 8278,
+      "sha256": "ca6b0be980cab16f7ada9a7a0689758bd043a6ae29cb26fc3e241ca4e5f5118d",
+      "records": 18,
+      "kinds": {
+        "floating_feasible_pair": 1,
+        "floating_tail_bound": 7,
+        "exact_fourier_input_saved": 1,
+        "arb_positive_pair_certificate": 1,
+        "arb_stationary_tail_certificate": 7,
+        "runtime": 1
+      }
+    },
+    {
+      "file": "research/parallel-prime-ui-33.md",
+      "bytes": 22332,
+      "sha256": "dc180551171c2a8762352970c3cbd1d31f04c2a69442d04e145deda1075047b7"
+    },
+    {
+      "file": "research/parallel-prime-ui-33.py",
+      "bytes": 12984,
+      "sha256": "6367d4548117b97f2ad511d0b621a3f775dd65991147b72271c10ce6a36b8996"
+    }
+  ]
+}

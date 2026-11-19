@@ -1,0 +1,209 @@
+{
+  "round": 32,
+  "accepted_at_utc": "2026-11-17T23:33:43.991272+00:00",
+  "target_status": "open",
+  "goal_status": "active",
+  "checks": [
+    {
+      "file": "research/astra-prime-phase-32-check.jsonl",
+      "records": 17,
+      "sha256": "9174f027a8a43ee3354252c20f9dff7d33f1df4f0415b0d3c93d54b90c75b5ad",
+      "independent_replay": "/tmp/paley-astra-phase32-replay.jsonl",
+      "byte_identical": true,
+      "exact_json_equal_except_runtime": true,
+      "runtime_rows": 0,
+      "kinds": [
+        "all_checks_passed",
+        "exact_newton_mellin_determinant",
+        "exact_positional_determinant"
+      ]
+    },
+    {
+      "file": "research/parallel-audit-32.jsonl",
+      "records": 12,
+      "sha256": "0721f82675e0a17663c72a04b2b2df040be19c2f96a9b3ad6615a347e319aeb2",
+      "independent_replay": "/tmp/paley-audit32-replay.jsonl",
+      "byte_identical": true,
+      "exact_json_equal_except_runtime": true,
+      "runtime_rows": 0,
+      "kinds": [
+        "exact_mod_four_orbit_check",
+        "exact_two_extension_stalk_check"
+      ]
+    },
+    {
+      "file": "research/schur-mixing-32-check.jsonl",
+      "records": 20,
+      "sha256": "6126dfbfd20f42ed462e4153e5ff14b3062f245069fe834d833a3f128e782a9f",
+      "independent_replay": "/tmp/paley-schur-mixing32-replay.jsonl",
+      "byte_identical": true,
+      "exact_json_equal_except_runtime": true,
+      "runtime_rows": 0,
+      "kinds": [
+        "exact_integer_schur_spectrum",
+        "floating_actual_stationary_first_moment",
+        "floating_finite_rank_schur_stability"
+      ]
+    },
+    {
+      "file": "research/joint-law-32-check.jsonl",
+      "records": 26,
+      "sha256": "00c73f1ca912d7b176179569d4afc7814cff66f58cfa32f205c2b63b53866e34",
+      "independent_replay": "/tmp/paley-joint-law32-replay.jsonl",
+      "byte_identical": true,
+      "exact_json_equal_except_runtime": true,
+      "runtime_rows": 0,
+      "kinds": [
+        "exact_compact_invariant_count",
+        "exact_independent_weyl_constant_term_audit",
+        "floating_joint_field_diagnostic"
+      ]
+    },
+    {
+      "file": "research/parallel-circulant-source-32-existing31.jsonl",
+      "records": 6,
+      "sha256": "a7e3d290c9eec99aba32f3303ce375a6fa960ad4772c72e594a5826eeea443fa",
+      "independent_replay": "/tmp/paley-circulant32-existing31-replay.jsonl",
+      "byte_identical": true,
+      "exact_json_equal_except_runtime": true,
+      "runtime_rows": 0,
+      "kinds": [
+        "existing31_algebraic_limit",
+        "existing31_hardtail"
+      ]
+    },
+    {
+      "file": "research/parallel-circulant-source-32.jsonl",
+      "records": 382,
+      "sha256": "e113a520b22be7880622f6be3cfb210ec7d0963b13e4d5ed248ce2c78828d39c",
+      "independent_replay": "/tmp/paley-circulant32-replay.jsonl",
+      "byte_identical": false,
+      "exact_json_equal_except_runtime": true,
+      "runtime_rows": 8,
+      "kinds": [
+        "UI_delta_bound",
+        "all_threshold_scan",
+        "cyclic_pair",
+        "hard_hinge",
+        "runtime",
+        "soft_clip"
+      ]
+    },
+    {
+      "file": "research/parallel-circulant-source-32-small.jsonl",
+      "records": 147,
+      "sha256": "be854cc43085b65381e50caf063c4f6f3b848bf574329ad5fcb79f9a382210a8",
+      "independent_replay": "/tmp/paley-circulant32-small-replay.jsonl",
+      "byte_identical": false,
+      "exact_json_equal_except_runtime": true,
+      "runtime_rows": 3,
+      "kinds": [
+        "UI_delta_bound",
+        "all_threshold_scan",
+        "cyclic_pair",
+        "hard_hinge",
+        "runtime",
+        "soft_clip"
+      ]
+    },
+    {
+      "file": "research/parallel-circulant-source-32-floor01.jsonl",
+      "records": 141,
+      "sha256": "c0287c383c92355f08f6358be48ab550f4b157fe26d0bfac3e106a79db13c86e",
+      "independent_replay": "/tmp/paley-circulant32-floor01-replay.jsonl",
+      "byte_identical": false,
+      "exact_json_equal_except_runtime": true,
+      "runtime_rows": 3,
+      "kinds": [
+        "UI_delta_bound",
+        "cyclic_pair",
+        "hard_hinge",
+        "runtime",
+        "soft_clip"
+      ]
+    },
+    {
+      "file": "research/parallel-circulant-source-32-floor001.jsonl",
+      "records": 219,
+      "sha256": "f3b7e5e47209af07a2d9fa66fefe0c45fa3766b4941485c136c765c96dafb8fe",
+      "independent_replay": "/tmp/paley-circulant32-floor001-replay.jsonl",
+      "byte_identical": false,
+      "exact_json_equal_except_runtime": true,
+      "runtime_rows": 5,
+      "kinds": [
+        "UI_delta_bound",
+        "all_threshold_scan",
+        "cyclic_pair",
+        "hard_hinge",
+        "runtime",
+        "soft_clip"
+      ]
+    }
+  ],
+  "record_classes": {
+    "exact_core_records": 56,
+    "floating_and_algebraic_limit_records": 895,
+    "runtime_records": 19,
+    "total": 970
+  },
+  "claims": {
+    "uniform_nested_phase": "c_q=+1 for every odd prime power; independent mod-four proof for q=1 mod4",
+    "nested_cubic": "1/8+O(q^-1/2) for q=1 mod4",
+    "joint_group": "geom=arith=determinant-constrained Gm x GL3^2 x SL2^2 subgroup",
+    "joint_law_scope": "(x,K(x^2),K(xK(x^2))) and their fixed continuous trace observables",
+    "extrema_and_top_sums": "good-frequency maxima and sqrt(n)-size top sums from pointwise compact membership and equidistribution",
+    "schur_gap": "1/4+O(q^-1/2), also retained by coherent finite-rank UI counterfamily",
+    "source_leakage": "UI controls delta component; HR+UI suffices for weighted leakage and inverse first-source tightness",
+    "prior_obstruction": "HR ratio diverges linearly; fixed-R weighted hinge energy remains positive in existing noncirculant family"
+  },
+  "proof_audit": "research/parallel-audit-32.md",
+  "proof_scope": [
+    "Ordinary mathematical proofs with cited sheaf inputs, not Lean kernel verification",
+    "Astra epsilon-factor proof covers all odd fields; independent mod-four proof covers q=1 mod4",
+    "Exact finite checks audit normalizations; floating records do not certify exact stationary distances",
+    "General later-word arithmetic matching remains unproved",
+    "Actual prime source UI, hard-tail response inequality, and subsequent marked comparison remain unproved",
+    "No solution or counterexample to ETH Problem26"
+  ],
+  "completed_threads": [
+    {
+      "thread_id": "01a1ebc1-09fd-7390-a3f7-bfaa10b3f6f7",
+      "host_id": "local",
+      "last_cursor": "266fcd12-c0a4-47d5-967a-7e5129290188:4"
+    },
+    {
+      "thread_id": "01a1ebc1-49b7-76d0-b78a-6a7f1d26885c",
+      "host_id": "local",
+      "last_cursor": "54b93596-41bb-4162-a177-373b70adb683:6"
+    }
+  ],
+  "pending": [],
+  "remaining": [
+    "Actual prime hard-tail response and/or source UI with sufficient uniformity",
+    "Regularized marked-source comparison or structured growing-depth control",
+    "Arithmetic closure beyond this first rank-three nested family"
+  ],
+  "note_hashes_are_snapshots": true,
+  "note_sha256": {
+    "README.md": "1fd24960edf5e5f30def1b2d1e86b163b8138d900f7d16f85abb829faa5c3cfa",
+    "research/ledger.md": "ba5eacb4f0cc6891124853bba5a9fed6ac8e0d4efa094f6f86d1efc142d4f3ac",
+    "research/astra-prime-phase-32.md": "f6d3f5ca83538d8fc51fd2187a180d11d6ba5b47cb50f46c1605738c3e6319b7",
+    "research/parallel-audit-32.md": "4bda9adb9a47c445ba4c71a88a834691741b839f389aa5d777a284c07a5c06a2",
+    "research/schur-mixing-32.md": "1891362e1982a00eb944c0eb913054df1a0dfea6018e4bcd9344db5a6c28a2e6",
+    "research/joint-law-32.md": "b9aae9238545ad13d174732cf2bfed8c0bf2d5446c1843119dd1ec5796681dfd",
+    "research/parallel-circulant-source-32.md": "99149f28e22792e3ea0722c120a100387a62ca9b52497c89a9a8f938a716d06a"
+  },
+  "script_sha256": {
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/parallel-audit-32.py": "a9c6cf392bf97a198b9f357273b2dbaacbc4e7aa2fcd3a6f8840f5fc354c5514",
+    "research/schur-mixing-32.py": "645b582b150b0e576cbcb65cbfb5bc3e137bc5bd8947ca580f1c601017d4ab3f",
+    "research/joint-law-32.py": "18aec199f1b44f745d8683cab109585b94c0ba14641b6be6e05900ca1ffb9ba3",
+    "research/parallel-circulant-source-32.py": "f35652c35d36727049cf76100190d71b5db5cd3a865db6413a33bcf76e8e5441"
+  },
+  "proof_audit_status": "complete: phase endpoints/boundary normalization, joint group and max/top transfer, Schur stability, actual hinge/UI/triangle theorem",
+  "audit_corrections": [
+    "Narrowed positive-trace minus convention to J,A,C; old rank-two V convention retained",
+    "Added fixed-R proof before asserting field-first hard-tail failure in prior counterfamily",
+    "Distinguished Paley and complement adjacency signs in the triangle form"
+  ]
+}

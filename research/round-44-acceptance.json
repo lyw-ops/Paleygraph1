@@ -1,0 +1,82 @@
+{
+  "round": 44,
+  "accepted_at_utc": "2026-11-18T10:40:42.667851+00:00",
+  "previous": "research/round-43-acceptance.json",
+  "previous_sha256": "7ca87f668f0c69be95e7cf17cb423802ea8d601df7c44ed9a0553934190d0223",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/critical_44",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-critical-44",
+      "ranked_closeout": [
+        "Find an actual prime least-norm endpoint marked atom omega_p with D(p) omega_p tending to infinity. A prime subsequence with bounded product falsifies this sufficient condition.",
+        "Alternatively find one growing depth per prime at which the actual larger-side endpoint has signed directional energy o(T). A uniform positive lower bound across all growing choices on a prime subsequence excludes this route."
+      ]
+    },
+    {
+      "name": "/root/curve_44",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-curve-44",
+      "ranked_closeout": [
+        "Estimate the actual relative continuation width or normalized surface distance through growing primes. Accessible marked ramification or verified disjoint returns, not failed enclosures, obstruct a selected planar width.",
+        "Extend integrated signed derivative certificates to higher fixed orders and test a common quasi-analytic envelope. A certified lower integral above a candidate bound refutes that bound."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/critical-shell-44.md": "67db34e693ff9221b1e26bcb34245073ba92e96db4bec2e61ac06de68946d4ea",
+    "research/critical-shell-44-check.py": "3b70cb5855e44ed69e871287ece02caa21c063d248c0a4fee8c403f353e895b3",
+    "research/astra-critical-44.md": "8df7fbbc6e2070d1227038b11eb788669c79256bca7d5ebaaa4dc2647665450a",
+    "research/astra-critical-44-check.py": "385bd4971b2c560d8949e2b0eb507ecd985d7f8f24ad7089c128882a1f87cf65",
+    "research/astra-curve-44.md": "a2665c1fdd30c77b7b8f49ee440f1820c9e3268227b5171383fef605b5f50cf8",
+    "research/astra-curve-44-check.py": "5f0c9350eb714f454d447d36156c194503c6da14ac814b862e3f97393f83c343"
+  },
+  "core_records": 62,
+  "replay_checks": [
+    {
+      "file": "research/critical-shell-44-checks.jsonl",
+      "records": 46,
+      "sha256": "181df6d72cb71e163bf8357bcddbd17c6a76d24ffd7d28b3fc1f117279438eba",
+      "scope": "Arb256 actual positive-floor scores, 32 two-sided nonempty bounds and 14 exact-scope empty-slice certificates, including saturated square controls",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-critical-44-checks.jsonl",
+      "records": 6,
+      "sha256": "ba654d30cb89879d9f963716ab9ebdbbd84f7748fd3addd3564fb8e7bf20d02b",
+      "scope": "Arb512 exact cold completed-square identity for critical positive probabilities at prime 101 and square 49",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-curve-44-checks.jsonl",
+      "records": 10,
+      "sha256": "00f682587ab3156606fc2e36f45be945f8f062956b974a0bdf0179303a6811be",
+      "scope": "Arb224 fixed-floor signed cubic and complete 96-center physical strip chains with interval integration at prime 173 and square 121",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Mixing the optimum with uniform probability gives a lower bound on the critical-slice maximum by the supercritical root excess times depth and the explicit mean reserve. This is an exact finite conversion from a critical-slice dual upper score to an ordinary theta upper bound. A prime-uniform o(T) score upper along growing depths in the marked window, or in the field-first order, suffices at each fixed positive floor. A sequence of such floors tending to zero would settle the full target.",
+    "For prime squares and tau fixed strictly between zero and one the actual plus critical score has a strictly positive linear-depth lower bound, with coefficient at least 2 sqrt(1+tau)(1-sqrt((1+tau)/2)). This uses their exact maximum-root witness and applies at the same critical mark as the proposed prime bound.",
+    "The finite critical LP uses certified opposite-sector duals, exact root repair of rounded primal witnesses, and a restricted early-orbit dual. The restricted dual fits squares well, so finite fit alone fails to separate fields. At all tested nonempty finite examples the dilution theta upper is weaker than the direct complementary root upper. Small norms or bounded scores at fixed finite order do not change the arithmetic limit.",
+    "Every actual root-heavy feasible probability obeys an exact completed-square identity on the zero-floor true orbit. In the marked window its collision excess and even its squared projection onto the explicit signed cold direction are at least 4 T (alpha-1)-o(1) with explicit nonnegative reserves. Prime and square scopes both hold. The L=o(log-star p) endpoint sufficient scale was known at a moving quadratic width, while the present identity is direct and directional on the exact endpoint.",
+    "The relative tube D_delta gives curvature-minus-one marked-surface distance at most pi log(T/a)/(2 delta)+O(1) whenever an actual physical section exists. The narrowed tube is sufficient for large primes under the stated uniform analytic premise, and all sufficiently large squares necessarily have accessible ramification in it. It strengthens the geometry of the previous constant 2 without proving prime continuation.",
+    "At finite prime 173 and square 121, the actual branch is certified across the entire modulus interval [1/32,2048] with the respective angular half-widths .077 and .125. Prior branch obstructions give upper width constraints. The absolute signed cubic integrals on the same real log interval fall into disjoint certified intervals. These orders do not meet the large-field hot bound at 2048."
+  ],
+  "independent_review": [
+    "Checked the mixed-witness normalization, positive part of the drift and the sign of the denominator, square coefficient, exact critical primal mass, and coordinatewise dual slack, including the saturated-square proof.",
+    "Checked time/source telescoping, opposite-sector projection, signed arithmetic cancellation, exact endpoint kernel identity for the least-norm optimizer, and the one-direction lower bound.",
+    "Checked the hyperbolic strip metric constant, rectangle and strip inclusion, a posteriori weighted contraction, gluing along real points, combined derivative integral enclosure, and hashes of prior branch controls."
+  ],
+  "next": [
+    "Prioritize the marked atom and signed cold directional energy on the actual least-norm larger-theta prime endpoint. Measure the direction against the zero-floor true orbit, with the square lower bound as a control. Continue the critical-slice LP through small fixed floors; pursue a structured prime-uniform sublinear dual, and preserve explicit finite failures of restricted dual families.",
+    "In parallel, extend actual branch-width and signed derivative certification past isolated small orders. Compare measured physical tube widths against the improved pi/2 threshold and signed integrated derivatives against the round-39 envelopes. A failed validation is recorded separately from a genuine marked obstruction."
+  ],
+  "window_closeout_workflow": "Both research routes submitted ranked next-step recommendations. Main merged the two directional-root tests, retained the exact critical dual as an alternate route, and sequenced the branch-width and signed-derivative tests in parallel.",
+  "committed": false,
+  "pushed": false
+}

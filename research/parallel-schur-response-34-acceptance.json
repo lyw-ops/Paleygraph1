@@ -1,0 +1,90 @@
+{
+  "ETH26_proved": false,
+  "all_checks_passed": true,
+  "certificate_summary": [
+    {
+      "C": "1",
+      "intervals": 54,
+      "p": 4001,
+      "ratio_upper": "[0.81304022862119815062464915076498325535 +/- 4.37e-41]",
+      "side": 1
+    },
+    {
+      "C": "1",
+      "intervals": 45,
+      "p": 4001,
+      "ratio_upper": "[0.81467021040329394459964000705477090011 +/- 1.07e-39]",
+      "side": -1
+    },
+    {
+      "C": "1",
+      "intervals": 48,
+      "p": 10009,
+      "ratio_upper": "[0.81394146651840368491540273746019238989 +/- 3.23e-39]",
+      "side": 1
+    },
+    {
+      "C": "1",
+      "intervals": 47,
+      "p": 10009,
+      "ratio_upper": "[0.82695948699028079569053838588331661764 +/- 4.87e-39]",
+      "side": -1
+    },
+    {
+      "C": "1",
+      "intervals": 67,
+      "p": 40009,
+      "ratio_upper": "[0.81780130762593218246679308924908504968 +/- 4.00e-39]",
+      "side": 1
+    },
+    {
+      "C": "1",
+      "intervals": 69,
+      "p": 40009,
+      "ratio_upper": "[0.81703005815885833355568060942165529497 +/- 4.66e-39]",
+      "side": -1
+    },
+    {
+      "C": "1",
+      "intervals": 71,
+      "p": 153649,
+      "ratio_upper": "[0.81835525329492082068600360912816218930 +/- 2.80e-39]",
+      "side": 1
+    },
+    {
+      "C": "1",
+      "intervals": 71,
+      "p": 153649,
+      "ratio_upper": "[0.95334355978113490394428530034566073973 +/- 1.25e-39]",
+      "side": -1
+    },
+    {
+      "C": ".5",
+      "intervals": 137,
+      "p": 40009,
+      "ratio_upper": "[0.45583949302593840476529690306611165671 +/- 9.12e-41]",
+      "side": 1
+    },
+    {
+      "C": ".5",
+      "intervals": 145,
+      "p": 40009,
+      "ratio_upper": "[0.45537474953093111175847624848209022146 +/- 5.12e-40]",
+      "side": -1
+    }
+  ],
+  "distinct_exact_stationary_sides": 8,
+  "exact_incidence_checks_replayed": 506,
+  "file_rows": {
+    "parallel-schur-response-34-certified-half.jsonl": 5,
+    "parallel-schur-response-34-certified-large.jsonl": 5,
+    "parallel-schur-response-34-certified-trial.jsonl": 5,
+    "parallel-schur-response-34-certified.jsonl": 9,
+    "parallel-schur-response-34.jsonl": 130
+  },
+  "primary_records": 154,
+  "prime_uniform_cold_HR_proved": false,
+  "scope": "saved-record consistency and exact-incidence replay; large Arb transforms not rerun",
+  "source_UI_assumed": false,
+  "total_cover_intervals": 754
+}

@@ -1,0 +1,1208 @@
+{
+  "exact_cell_checks": [
+    {
+      "field_order": 97,
+      "characteristic": 97,
+      "square": false,
+      "b": 12,
+      "affine_factorial_moments": {
+        "1": 48,
+        "2": 48,
+        "3": 24,
+        "4": 0
+      },
+      "twist_sum": 7,
+      "untwisted_sum": -5,
+      "vacancies": 12,
+      "excess": 12,
+      "moment_excess_lower": [
+        12,
+        1
+      ],
+      "product_cell_count": 469,
+      "product_second_moment": 3232,
+      "product_third_moment": 11600,
+      "product_max": 8,
+      "joint_positive_count": 402,
+      "joint_first": [
+        980,
+        1067
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            68,
+            1067
+          ],
+          "tail_first": [
+            912,
+            1067
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            948,
+            1067
+          ],
+          "tail_first": [
+            472,
+            1067
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            2404,
+            1067
+          ],
+          "tail_first": [
+            96,
+            1067
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            2980,
+            1067
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            2980,
+            1067
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            2980,
+            1067
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 197,
+      "characteristic": 197,
+      "square": false,
+      "b": 14,
+      "affine_factorial_moments": {
+        "1": 98,
+        "2": 72,
+        "3": 24,
+        "4": 0
+      },
+      "twist_sum": 1,
+      "untwisted_sum": -5,
+      "vacancies": 38,
+      "excess": 12,
+      "moment_excess_lower": [
+        12,
+        1
+      ],
+      "product_cell_count": 1205,
+      "product_second_moment": 7074,
+      "product_third_moment": 22066,
+      "product_max": 6,
+      "joint_positive_count": 774,
+      "joint_first": [
+        1704,
+        2561
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            108,
+            2561
+          ],
+          "tail_first": [
+            1596,
+            2561
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            2196,
+            2561
+          ],
+          "tail_first": [
+            552,
+            2561
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            4332,
+            2561
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            4332,
+            2561
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            4332,
+            2561
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            4332,
+            2561
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 401,
+      "characteristic": 401,
+      "square": false,
+      "b": 20,
+      "affine_factorial_moments": {
+        "1": 200,
+        "2": 180,
+        "3": 168,
+        "4": 144
+      },
+      "twist_sum": 3,
+      "untwisted_sum": -1,
+      "vacancies": 80,
+      "excess": 60,
+      "moment_excess_lower": [
+        294,
+        5
+      ],
+      "product_cell_count": 3413,
+      "product_second_moment": 21600,
+      "product_third_moment": 70276,
+      "product_max": 6,
+      "joint_positive_count": 2528,
+      "joint_first": [
+        304,
+        401
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            248,
+            7619
+          ],
+          "tail_first": [
+            5528,
+            7619
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            7320,
+            7619
+          ],
+          "tail_first": [
+            1992,
+            7619
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            15120,
+            7619
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            15120,
+            7619
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            15120,
+            7619
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            15120,
+            7619
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 1153,
+      "characteristic": 1153,
+      "square": false,
+      "b": 32,
+      "affine_factorial_moments": {
+        "1": 576,
+        "2": 440,
+        "3": 264,
+        "4": 144
+      },
+      "twist_sum": 7,
+      "untwisted_sum": -9,
+      "vacancies": 244,
+      "excess": 108,
+      "moment_excess_lower": [
+        726,
+        7
+      ],
+      "product_cell_count": 15703,
+      "product_second_moment": 100212,
+      "product_third_moment": 329312,
+      "product_max": 10,
+      "joint_positive_count": 11392,
+      "joint_first": [
+        26892,
+        35743
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            20,
+            1153
+          ],
+          "tail_first": [
+            26272,
+            35743
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            34716,
+            35743
+          ],
+          "tail_first": [
+            8,
+            31
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            65860,
+            35743
+          ],
+          "tail_first": [
+            1288,
+            35743
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            73728,
+            35743
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            73728,
+            35743
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            73728,
+            35743
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 2113,
+      "characteristic": 2113,
+      "square": false,
+      "b": 48,
+      "affine_factorial_moments": {
+        "1": 1056,
+        "2": 1100,
+        "3": 888,
+        "4": 480
+      },
+      "twist_sum": 3,
+      "untwisted_sum": 3,
+      "vacancies": 320,
+      "excess": 364,
+      "moment_excess_lower": [
+        16428,
+        47
+      ],
+      "product_cell_count": 40673,
+      "product_second_moment": 299692,
+      "product_third_moment": 1090532,
+      "product_max": 10,
+      "joint_positive_count": 38786,
+      "joint_first": [
+        97176,
+        99311
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            1368,
+            99311
+          ],
+          "tail_first": [
+            95808,
+            99311
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            114984,
+            99311
+          ],
+          "tail_first": [
+            39000,
+            99311
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            231224,
+            99311
+          ],
+          "tail_first": [
+            9496,
+            99311
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            292900,
+            99311
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            292900,
+            99311
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            292900,
+            99311
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 4177,
+      "characteristic": 4177,
+      "square": false,
+      "b": 72,
+      "affine_factorial_moments": {
+        "1": 2088,
+        "2": 2520,
+        "3": 2784,
+        "4": 3648
+      },
+      "twist_sum": 7,
+      "untwisted_sum": -1,
+      "vacancies": 544,
+      "excess": 976,
+      "moment_excess_lower": [
+        841,
+        1
+      ],
+      "product_cell_count": 115445,
+      "product_second_moment": 944428,
+      "product_third_moment": 3691496,
+      "product_max": 14,
+      "joint_positive_count": 130370,
+      "joint_first": [
+        342716,
+        296567
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            2800,
+            296567
+          ],
+          "tail_first": [
+            339916,
+            296567
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            373680,
+            296567
+          ],
+          "tail_first": [
+            154476,
+            296567
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            816888,
+            296567
+          ],
+          "tail_first": [
+            42444,
+            296567
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            1076616,
+            296567
+          ],
+          "tail_first": [
+            2812,
+            296567
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            1106080,
+            296567
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            1106080,
+            296567
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 10193,
+      "characteristic": 10193,
+      "square": false,
+      "b": 98,
+      "affine_factorial_moments": {
+        "1": 5096,
+        "2": 4160,
+        "3": 3552,
+        "4": 4368
+      },
+      "twist_sum": -1,
+      "untwisted_sum": 33,
+      "vacancies": 2196,
+      "excess": 1260,
+      "moment_excess_lower": [
+        262848,
+        239
+      ],
+      "product_cell_count": 405603,
+      "product_second_moment": 2880450,
+      "product_third_moment": 10079338,
+      "product_max": 12,
+      "joint_positive_count": 359720,
+      "joint_first": [
+        884292,
+        988721
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            5896,
+            988721
+          ],
+          "tail_first": [
+            878396,
+            988721
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            1115336,
+            988721
+          ],
+          "tail_first": [
+            323676,
+            988721
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            2171752,
+            988721
+          ],
+          "tail_first": [
+            57676,
+            988721
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            2528628,
+            988721
+          ],
+          "tail_first": [
+            480,
+            988721
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            2533428,
+            988721
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            2533428,
+            988721
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 13217,
+      "characteristic": 13217,
+      "square": false,
+      "b": 112,
+      "affine_factorial_moments": {
+        "1": 6608,
+        "2": 6120,
+        "3": 5712,
+        "4": 7200
+      },
+      "twist_sum": 39,
+      "untwisted_sum": -9,
+      "vacancies": 2464,
+      "excess": 1976,
+      "moment_excess_lower": [
+        169932,
+        97
+      ],
+      "product_cell_count": 599371,
+      "product_second_moment": 4289204,
+      "product_third_moment": 15139968,
+      "product_max": 14,
+      "joint_positive_count": 536444,
+      "joint_first": [
+        1330492,
+        1467087
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            7468,
+            1467087
+          ],
+          "tail_first": [
+            441008,
+            489029
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            1657724,
+            1467087
+          ],
+          "tail_first": [
+            497896,
+            1467087
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            3247132,
+            1467087
+          ],
+          "tail_first": [
+            97904,
+            1467087
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            3852796,
+            1467087
+          ],
+          "tail_first": [
+            748,
+            489029
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            3877744,
+            1467087
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            3877744,
+            1467087
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 49,
+      "characteristic": 7,
+      "square": true,
+      "b": 8,
+      "affine_factorial_moments": {
+        "1": 24,
+        "2": 24,
+        "3": 0,
+        "4": 0
+      },
+      "twist_sum": 7,
+      "untwisted_sum": -1,
+      "vacancies": 0,
+      "excess": 0,
+      "moment_excess_lower": [
+        0,
+        1
+      ],
+      "product_cell_count": 186,
+      "product_second_moment": 924,
+      "product_third_moment": 3728,
+      "product_max": 8,
+      "joint_positive_count": 34,
+      "joint_first": [
+        204,
+        343
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            204,
+            343
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            204,
+            343
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            204,
+            343
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            1224,
+            343
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            1224,
+            343
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            1224,
+            343
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 121,
+      "characteristic": 11,
+      "square": true,
+      "b": 12,
+      "affine_factorial_moments": {
+        "1": 60,
+        "2": 60,
+        "3": 0,
+        "4": 0
+      },
+      "twist_sum": 11,
+      "untwisted_sum": -1,
+      "vacancies": 0,
+      "excess": 0,
+      "moment_excess_lower": [
+        0,
+        1
+      ],
+      "product_cell_count": 712,
+      "product_second_moment": 3784,
+      "product_third_moment": 20420,
+      "product_max": 12,
+      "joint_positive_count": 98,
+      "joint_first": [
+        980,
+        1331
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            980,
+            1331
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            980,
+            1331
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            980,
+            1331
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            980,
+            1331
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            9800,
+            1331
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            9800,
+            1331
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 169,
+      "characteristic": 13,
+      "square": true,
+      "b": 14,
+      "affine_factorial_moments": {
+        "1": 84,
+        "2": 84,
+        "3": 0,
+        "4": 0
+      },
+      "twist_sum": -13,
+      "untwisted_sum": 1,
+      "vacancies": 0,
+      "excess": 0,
+      "moment_excess_lower": [
+        0,
+        1
+      ],
+      "product_cell_count": 1167,
+      "product_second_moment": 6318,
+      "product_third_moment": 38354,
+      "product_max": 14,
+      "joint_positive_count": 142,
+      "joint_first": [
+        1704,
+        2197
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            1704,
+            2197
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            1704,
+            2197
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            1704,
+            2197
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            1704,
+            2197
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            20448,
+            2197
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            20448,
+            2197
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "field_order": 961,
+      "characteristic": 31,
+      "square": true,
+      "b": 32,
+      "affine_factorial_moments": {
+        "1": 480,
+        "2": 480,
+        "3": 0,
+        "4": 0
+      },
+      "twist_sum": 31,
+      "untwisted_sum": -1,
+      "vacancies": 0,
+      "excess": 0,
+      "moment_excess_lower": [
+        0,
+        1
+      ],
+      "product_cell_count": 15342,
+      "product_second_moment": 88164,
+      "product_third_moment": 1066280,
+      "product_max": 32,
+      "joint_positive_count": 898,
+      "joint_first": [
+        26940,
+        29791
+      ],
+      "direct_anchors_checked": true,
+      "tails": [
+        {
+          "threshold": 1,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            26940,
+            29791
+          ]
+        },
+        {
+          "threshold": 2,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            26940,
+            29791
+          ]
+        },
+        {
+          "threshold": 4,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            26940,
+            29791
+          ]
+        },
+        {
+          "threshold": 8,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            26940,
+            29791
+          ]
+        },
+        {
+          "threshold": 16,
+          "truncated_second": [
+            0,
+            1
+          ],
+          "tail_first": [
+            26940,
+            29791
+          ]
+        },
+        {
+          "threshold": 32,
+          "truncated_second": [
+            808200,
+            29791
+          ],
+          "tail_first": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "exact_jacobi_convolution": {
+    "p": 17,
+    "b": 4,
+    "coefficient_ring": "Z[i]",
+    "exact_checks": [
+      {
+        "moment": 1,
+        "nonsquare_cell_power_sum": 8
+      },
+      {
+        "moment": 2,
+        "nonsquare_cell_power_sum": 12
+      },
+      {
+        "moment": 3,
+        "nonsquare_cell_power_sum": 20
+      },
+      {
+        "moment": 4,
+        "nonsquare_cell_power_sum": 36
+      }
+    ]
+  },
+  "cap_split": {
+    "comparisons": 32,
+    "max_positive_excess": 0.0,
+    "status": "floating-point algebra check, not an interval certificate"
+  }
+}

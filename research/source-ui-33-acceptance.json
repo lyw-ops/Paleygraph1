@@ -1,0 +1,315 @@
+{
+  "round": 33,
+  "accepted_at_utc": "2026-11-18T03:30:19.861891+00:00",
+  "target_status": "open",
+  "goal_status": "active",
+  "checks": [
+    {
+      "file": "research/astra-hardtail-33-exact.jsonl",
+      "sha256": "4ee57db75c8c8b8224e67d8d7f70e4da70e87f7b6a20a0d6e98c55760f5ce4a1",
+      "accepted_records": 9,
+      "record_filter": "all",
+      "independent_replay": "/tmp/paley-hardtail33-exact-replay.jsonl",
+      "byte_identical": true,
+      "kinds": [
+        "all_checks_passed",
+        "exact_cyclic_UI_obstruction"
+      ]
+    },
+    {
+      "file": "research/astra-hardtail-33-actual.jsonl",
+      "sha256": "b3d28983c6db61d52184be98422ed712963db1f4b1ab00f903e88a283dfe4a4c",
+      "accepted_records": 41,
+      "record_filter": "all",
+      "independent_replay": "/tmp/paley-hardtail33-actual-replay.jsonl",
+      "byte_identical": true,
+      "kinds": [
+        "all_checks_passed",
+        "floating_actual_weighted_projection",
+        "floating_signed_triangle"
+      ]
+    },
+    {
+      "file": "research/astra-hardtail-33-certified.jsonl",
+      "sha256": "dfc9f23580c9d7d788e5ce5be757f04c6a3098b58f8135f169dc4128d97588a1",
+      "accepted_records": 10,
+      "record_filter": "all",
+      "independent_replay": "/tmp/paley-hardtail33-certified-replay.jsonl",
+      "byte_identical": true,
+      "kinds": [
+        "all_checks_passed",
+        "rigorous_all_threshold_HR",
+        "rigorous_stationary_enclosure"
+      ]
+    },
+    {
+      "file": "research/astra-hardtail-33-certified-floor01.jsonl",
+      "sha256": "0f0d0b04ebbf06b29033dce267454737e4c5fd5978928b9c238373562fbc68c0",
+      "accepted_records": 10,
+      "record_filter": "all",
+      "independent_replay": "/tmp/paley-hardtail33-certified-floor01-exact-replay.jsonl",
+      "byte_identical": true,
+      "kinds": [
+        "all_checks_passed",
+        "rigorous_all_threshold_HR",
+        "rigorous_stationary_enclosure"
+      ]
+    },
+    {
+      "file": "research/astra-hardtail-33-certified-floor001.jsonl",
+      "sha256": "b749a1c3eeb059090e5246cc13fed368225799c0d310612131d015dd7a9998b6",
+      "accepted_records": 10,
+      "record_filter": "all",
+      "independent_replay": "/tmp/paley-hardtail33-certified-floor001-exact-replay.jsonl",
+      "byte_identical": true,
+      "kinds": [
+        "all_checks_passed",
+        "rigorous_all_threshold_HR",
+        "rigorous_stationary_enclosure"
+      ]
+    },
+    {
+      "file": "research/astra-hardtail-33-hot-certified.jsonl",
+      "sha256": "5bc23cc0df32ab93e64cdef5a72c596052e8da896ae10786758128a29417b0fb",
+      "accepted_records": 4,
+      "record_filter": "all",
+      "independent_replay": "/tmp/paley-hardtail33-hot-replay.jsonl",
+      "byte_identical": true,
+      "kinds": [
+        "all_checks_passed",
+        "rigorous_actual_hot_C1_counterexample",
+        "rigorous_stationary_enclosure"
+      ]
+    },
+    {
+      "file": "research/parallel-audit-33.jsonl",
+      "sha256": "19c0af4fc1d90cfd9ca45afa3e4e6a940bea4a672e265649b217175ef1193651",
+      "accepted_records": 40,
+      "record_filter": "all",
+      "independent_replay": "/tmp/paley-audit33-replay.jsonl",
+      "byte_identical": true,
+      "kinds": [
+        "actual_bulk_hinge_schur_check",
+        "actual_pair_kernel_check"
+      ]
+    },
+    {
+      "file": "research/complex-floor-33-certified.jsonl",
+      "sha256": "e3e8318fa6d0c59d3695074a80a4fbab1ff6bbe2325e377e6a8aba2f6a01594c",
+      "accepted_records": 7,
+      "record_filter": "all",
+      "independent_replay": "/tmp/paley-complex-floor33-replay.jsonl",
+      "byte_identical": true,
+      "kinds": [
+        "exact_discriminant_hurwitz",
+        "validated_discriminant_roots",
+        "validated_p13_stationary_root"
+      ]
+    },
+    {
+      "file": "research/parallel-prime-ui-33-certified.jsonl",
+      "sha256": "6d6c9f9b74ff955f58494b18bac999295385828708b2590af4d2831083e4ff48",
+      "source_records": 18,
+      "accepted_records": 8,
+      "record_filter": "kind starts with arb_",
+      "independent_replay": "/tmp/paley-ui33-certified-replay160.jsonl",
+      "exact_parsed_json_match": true,
+      "kinds": [
+        "arb_positive_pair_certificate",
+        "arb_stationary_tail_certificate"
+      ]
+    },
+    {
+      "file": "research/parallel-prime-ui-33-floor01.jsonl",
+      "sha256": "6ce633c7328a31430df249b16e8cf1990fb2fb8f1d7d177b465ffa4394c80a59",
+      "source_records": 18,
+      "accepted_records": 8,
+      "record_filter": "kind starts with arb_",
+      "independent_replay": "/tmp/paley-ui33-floor01-replay160.jsonl",
+      "exact_parsed_json_match": true,
+      "kinds": [
+        "arb_positive_pair_certificate",
+        "arb_stationary_tail_certificate"
+      ]
+    },
+    {
+      "file": "research/parallel-prime-ui-33-square.jsonl",
+      "sha256": "ca6b0be980cab16f7ada9a7a0689758bd043a6ae29cb26fc3e241ca4e5f5118d",
+      "source_records": 18,
+      "accepted_records": 8,
+      "record_filter": "kind starts with arb_",
+      "independent_replay": "/tmp/paley-ui33-square-replay160.jsonl",
+      "exact_parsed_json_match": true,
+      "kinds": [
+        "arb_positive_pair_certificate",
+        "arb_stationary_tail_certificate"
+      ]
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-all-replay224.jsonl",
+      "sha256": "9e04d72cfb9003cae3d0fb38ab32d8bc0323e3d66bfbf088c4ddf1cb6e2e848d",
+      "accepted_records": 13,
+      "record_filter": "all",
+      "independent_replay": "/tmp/paley-ui33-conic-replay224.jsonl",
+      "exact_keyed_json_match": true,
+      "key": "exact_certificate_input",
+      "kinds": [
+        "arb_conic_primal_dual_bracket"
+      ]
+    }
+  ],
+  "witness_inputs": [
+    {
+      "file": "research/parallel-prime-ui-33-conic-large-q1009-k1_100-input.json.gz",
+      "sha256": "507c631e45694f3a041ead4c096c5ac9e1a3e39b36d588a74ba50d9f423a5f30",
+      "uncompressed_sha256": "e9939c68ccc1a8673c9d5151a6b179c5f9fade1374acc6347cccefe3d002c12c"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-large-q1009-k1_200-input.json.gz",
+      "sha256": "b5bebf2a20ecb781a674f34597a4f92fe7232b71f64fe8291ed3f7d6e4887818",
+      "uncompressed_sha256": "228f6faf20bf08aeb427bb7347c3906d921b97efd2f06c6bf4f4b1f5186601b7"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-large-q961-k1_100-input.json.gz",
+      "sha256": "358ec6927a972e655d9feb9bf639e5509bf74967158cb270ea768b1e23dea0c3",
+      "uncompressed_sha256": "9385bba6ce6c6aa32815a60a8ec1cbf412b480880101fb5f95afdd0d44a24ec3"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-large-q961-k1_200-input.json.gz",
+      "sha256": "ccd4e8b7b84e2bc126944bcf861dd42879358e1a2fe42926ab2843b9dc068645",
+      "uncompressed_sha256": "2ddd716b250b26b9ef11a9d50f6a532c3bca88406eceba00fa8decdba6a79236"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q101-k1_10-input.json.gz",
+      "sha256": "a1486d2ca25a418e4525734cdf3b75da051cd0f86440b48e06de8023e7a12f56",
+      "uncompressed_sha256": "70e2703422ddc8e3a6d048c53d957d6f8b81b58281eaf6a3f9a5fd3f5f2fadb1"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q101-k1_100-input.json.gz",
+      "sha256": "2d21f95ef05953da2504ebdf25f0c4144223c4df49ba6124f3f1bc800bfa1f76",
+      "uncompressed_sha256": "b2205496ca8953fd51bc775e2863caedb79205ce7667230899c5c278b98c547a"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q101-k1_20-input.json.gz",
+      "sha256": "d7783fdd723397d40846311dcb9f92582ced7f8c4045d2e5433b3c2c1d86dbae",
+      "uncompressed_sha256": "50706f6a999615c7754331d9379c9a0a63467be49c268b743e41eb67a25f387c"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q361-k1_10-input.json.gz",
+      "sha256": "841c05add05c52a599e4739c285401e32fe381f420c1523d40d7d2b212b4ac92",
+      "uncompressed_sha256": "47ffe1fba180708edc255b131ac5438123decb84ac0a2c4b5046f78ce0c6163a"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q361-k1_100-input.json.gz",
+      "sha256": "c3705e7a525943f6b92c5fa2f96a239a9de71df3126634baac9262386af6e1b7",
+      "uncompressed_sha256": "987554a2edf80765c3568eaf5902e2dc88db662d60c16e4649949dcffcb59a5a"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q361-k1_20-input.json.gz",
+      "sha256": "42ab850c7e0733aa51ec44c687c2367d2c43ee012bce570a4f53c16f88bd61a7",
+      "uncompressed_sha256": "ad1e99a2f97e89a7c5dd1d41cd9eccfe73a0b2e535064bf815c143e33bf2b058"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q401-k1_10-input.json.gz",
+      "sha256": "b4fd44e8e5c885237b44c430d5e6e19ef44121a08265be9ced56d495175887c8",
+      "uncompressed_sha256": "35e7861899fbee2388ee808fe438833b6e736ce30e0043e21bac85b96c49f733"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q401-k1_100-input.json.gz",
+      "sha256": "694644b9a9273af1b78455e8497f722ffe5b8332c69337ef8b7b10d2922ab1b6",
+      "uncompressed_sha256": "8fca31c6fafab629e179586239f51a2337df42c51bdfab167b49ba80c1c17e56"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-conic-q401-k1_20-input.json.gz",
+      "sha256": "f9cf2a937e71290f751f25522bc78113f7e347b318a0beea8e7be212a6ac8878",
+      "uncompressed_sha256": "5f89e0fda89807fe167564f9d63eb7dd6ced4fe01338c82c06c99d1bee543bff"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-certified-q1000033-tau1_20-safeguarded-Newton-proposal-k0.001-input.json.gz",
+      "sha256": "4aa1c348b30e4698889d4154b9304ec778caee6f72dbc3118a3d7f1e93892445",
+      "uncompressed_sha256": "33b4f433a154b4c7ab843420c5066c80a3df99fcffc53a48a93f1b4708097daf"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-floor01-q1000033-tau1_100-safeguarded-Newton-proposal-k0.0001-input.json.gz",
+      "sha256": "c0259165e0aaadfce8560c6a92ae357672d55859a7ee3534d7d84bc72925998d",
+      "uncompressed_sha256": "9ecb46379dc188ce67fda107a29b241983b2ef9c2621ecea34f28b859908fbf3"
+    },
+    {
+      "file": "research/parallel-prime-ui-33-square-q151321-tau1_20-safeguarded-Newton-proposal-k1e-05-input.json.gz",
+      "sha256": "b11ec775bf71845ed32a75b1ad7686f85ba54e1ecaa66dc6f9d52fc75efbadf5",
+      "uncompressed_sha256": "4bc439214c6553ce2b3a46cb8428ed98f09aff1802f37130c5f5d05f94a08b1d"
+    }
+  ],
+  "accepted_core_records": 168,
+  "core_record_classes": {
+    "exact_rational_or_discriminant": 9,
+    "rigorous_interval_records": 73,
+    "floating_normalization_records": 80,
+    "success_summary_records": 6
+  },
+  "proof_audit": "research/parallel-audit-33.md",
+  "proof_audit_status": "complete: actual Schur clipping/precision, complex criterion and p13 branch, conic escape slope/dual, hot HR/operator/cyclic obstruction and all-threshold enclosure",
+  "claims": {
+    "hot_HR": "all R and both sides for n>=tau>=1024, constant 6(sqrt(tau+9)+3), sharp order Theta(sqrt(tau))",
+    "cold_finite_HR": "all R at p101,401,1009, each of tau .05,.01,.001",
+    "actual_weighted_operator": "full weighted sector projection norm Omega_tau(n^1/4), using excluded mark input",
+    "cyclic_UI_obstruction": "exact cyclic even stationary family has UI but HR ratio >=(1/72+o(1))n; lacks Paley coherence and dimensions",
+    "UI_boundary_slope": "escaping mass equals lim_kappa_down0 limsup_fields d_n(kappa)/kappa",
+    "finite_UI_certificates": "exact bulk G maxima <6.90943062 and <7.57382883 at p1000033, floors .05 and .01; square tail strictly positive through threshold128",
+    "positive_Schur_clipping": "actual hinge weighted Fourier coefficient inequality; unweighted sector mask does not preserve Loewner order",
+    "complex_continuation": "conditional common-domain/subpolynomial-growth criterion and square obstruction; actual p13 branch holomorphic on Re(tau)>0"
+  },
+  "scope": [
+    "No cold prime-uniform HR theorem",
+    "No prime-uniform o(kappa) conic construction or UI theorem",
+    "No prime-uniform complex continuation/growth bound",
+    "No marked arithmetic finish and no solution of ETH26",
+    "Ordinary mathematical arguments and finite Arb certificates, not Lean kernel verification",
+    "Two separate non-Paley counterfamilies do not yield a counterfamily with both coherence and cyclicity"
+  ],
+  "completed_threads": [
+    {
+      "thread_id": "01a1ebdc-44a2-7863-b6a9-0b1c07111390",
+      "host_id": "local",
+      "last_cursor": "188cb341-523c-4f9c-9d5f-43c7775cfd30:6"
+    },
+    {
+      "thread_id": "01a1ebdc-a101-75c1-bd7f-19af202131dc",
+      "host_id": "local",
+      "last_cursor": "bc3b4223-5b3b-463d-8a0e-f24b8eac8ea3:7"
+    }
+  ],
+  "pending": [],
+  "remaining": [
+    "Uniform prime conic primal gap o(kappa), or another direct source UI estimate",
+    "Cold actual-source HR or a weaker signed leakage estimate",
+    "Regularized marked arithmetic comparison or structured growing-depth finish",
+    "Prime-specific common complex domains and growth bounds for the alternative continuation route"
+  ],
+  "note_hashes_are_snapshots": true,
+  "note_sha256": {
+    "README.md": "dc404ae967a3707c06c481a23440aed0aaef019874e0805de950b421d9f8a539",
+    "research/ledger.md": "782ac5c4b690b49ab1445d6bcd0edcc66dc41f200339e6969baa148b9c48686d",
+    "research/astra-hardtail-33.md": "dbebd3aac67b205937fb7b975c7dd49b77d7260fc81fbb01da4150499b5e23eb",
+    "research/parallel-prime-ui-33.md": "dc180551171c2a8762352970c3cbd1d31f04c2a69442d04e145deda1075047b7",
+    "research/parallel-audit-33.md": "79b9500dd4ffe67b67c2517ef52cf67f96a11945e4f823ad3ea8e56f25a05e49",
+    "research/complex-floor-33.md": "700c08e6272947edeab927c2b28c9d25a4b9f37e10f00439844cac1d7f509f36"
+  },
+  "script_sha256": {
+    "research/astra-hardtail-33-exact.py": "9a4160d7c468dfd5e0b9306aa6730f0013b6dc437467b70944edce3b496fd592",
+    "research/astra-hardtail-33-actual.py": "e12177d3ba9a18f80a4d8730e571aae5b38a0c158d4a6d491c0c4d3d9f7c70c8",
+    "research/astra-hardtail-33-certified.py": "62a30fc4bcbdc125371dde524a72b8987625511abdcd055b9667df0ac503cf01",
+    "research/parallel-prime-ui-33.py": "6367d4548117b97f2ad511d0b621a3f775dd65991147b72271c10ce6a36b8996",
+    "research/parallel-prime-ui-33-conic.py": "36c650bdb03e95aff70ccb5161bf05f899950fd507f216f598eab7609005eb65",
+    "research/parallel-audit-33.py": "cbe3a589a866f12b816d93e0f5fc2d0745fc9e4ccde71cb90b53135b684ee507",
+    "research/complex-floor-33.py": "01e5e7c35081137799506b4eadf6f051e89daf53bfd2fe40d7425bde01876cdf"
+  },
+  "not_used_as_proof_or_independently_replayed": [
+    {
+      "file": "research/parallel-prime-ui-33-diagnostics.jsonl",
+      "records": 1350,
+      "sha256": "26d03cfbb0d5271d03590fb77f53d1c474e48d1a757847b6c029997f69639d6e",
+      "scope": "floating actual-trajectory proposal diagnostics; not exact-source or uniform-prime certificates"
+    }
+  ]
+}

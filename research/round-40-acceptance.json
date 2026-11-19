@@ -1,0 +1,74 @@
+{
+  "round": 40,
+  "accepted_at_utc": "2026-11-18T06:21:22.175971+00:00",
+  "previous": "research/round-39-acceptance.json",
+  "previous_sha256": "5627fba70e37e5e0b7d18ce0019463a56e4c171f012d8540aa7c3179467f4c4e",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/completion_40",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-completion-40"
+    },
+    {
+      "name": "/root/scalar_40",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-scalar-40"
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-completion-40.md": "f84e88504700c604341ce018ca5a9d45d477ba38bf385bc5101d47e18ae7e6c2",
+    "research/astra-completion-40-check.py": "0d988f9b12addda9e34a97d3b3e11638141ccb30c1b3ccc938e3917a53afa1ba",
+    "research/astra-scalar-40.md": "d61c1a5510d28c2e756eb6671ece6ab1420e0c590af784fccbf1bac8e643bd2e",
+    "research/astra-scalar-40-check.py": "57c4090aeb1116885ca79d38f01e9481d613204c0091ca2c50085650445ca5e9",
+    "research/twisted-coset-defect-40.md": "8667b60904d467be6f3c2728938b040ff5332a9acf2c7e4abc1e6c67d39d9eb9",
+    "research/twisted-coset-defect-40-check.py": "0f12ce04ce1ce317c7fed96c7a73260587911493627e1bea7bfd2b7223a058b8"
+  },
+  "core_records": 15,
+  "replay_checks": [
+    {
+      "file": "research/astra-completion-40-checks.jsonl",
+      "records": 7,
+      "sha256": "e35a975b62cd6974f815a70264c79815b49f0aeed1b4c63d09b8d70622430c6d",
+      "scope": "Arb256 checks of analytic cold constants and six finite actual Picard endpoint identities at p=101",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-scalar-40-checks.jsonl",
+      "records": 2,
+      "sha256": "276b808da51d11b675060592b68873c15856dc8ec0639bd576a9d7d905450720",
+      "scope": "Exact symbolic first and second physical zero-floor derivatives at prime 13 and square 25",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/twisted-coset-defect-40-checks.jsonl",
+      "records": 6,
+      "sha256": "5815bcc5402b675975b0c824e9aa3c51524152c123308c62d5761893ac1f4e77",
+      "scope": "Four exact integer modular reconstructions and two specialized finite-field Fourier rectangle sums",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Within the log-star marked window, true signed Picard time differences cancel against every common sign-even Lipschitz function of the full observed history at rate O_B(D^(-B)). This includes moving upper hinges based on the actual source history. It holds uniformly over floors in [0,1] through primes and eligible squares and gives no bound against arbitrary coordinate-dependent or concentrated feasible tests.",
+    "The actual endpoint difference has a positive floor-uniform norm lower bound at every positive depth, by strict dissipation between the first two differences and nonexpansiveness. In the marked window each sector carries half its energy up to a vanishing error and, as the floor vanishes, each projected norm has liminf greater than 0.01084468. The specific round-39 RMS sufficient mean increment diverges in both signs throughout this window. There is no lower bound here on the optimal price.",
+    "Every real limit curve of the actual physical stationary mark obeys the finite bulk-log cost bound tested by Jacobi mixtures for either sign. Every square curve has right derivative -1/2 at zero, with the field limit taken first. The analogous extremal-sign statement for primes requires saturation of the elementary lower Jacobi extremum.",
+    "At every finite field a strictly complementary support chart resolves the real analytic mark at zero, including nonvertex faces. The first derivative is the signed support cardinality difference divided by 2n. The prime affine-support and square uniqueness results give separation at the n^(-1/2) correction to maximal absolute cold slope. No uniform germ radius or common complex domain follows.",
+    "For even B <= Q with |B| <= C sqrt(p), the absolute deficit of every quadratic-twisted coset sum from sqrt(p) is uniformly at least a constant times (log log log p)^(1/(4+epsilon)). The argument uses the prime modular Jacobi expansion, Fourier algebra decomposition, and a surviving rational pole. The opposite-cell second moment at a=1 is at least order sqrt(p) times this logarithmic factor. The order-p odd-cell count remains open.",
+    "The twisted bound and the earlier untwisted defect exclude flat alternating rectangles of sizes n/sqrt(p)+o((log log log p)^(1/(4+epsilon))) with cross energy above (1/2+gamma)(n/sqrt(p))^3 and gain within o((log log log p)^(1/(4+epsilon))/sqrt(p)) of one. The conclusion includes signed positive-part entries. Lower energy and a constant relative gap remain open."
+  ],
+  "independent_review": [
+    "Checked moving-floor contraction, the actual early compact joint law, Jensen and sign-switch dissipation, the multivariate Lipschitz approximation and inertia resource budget, endpoint and cross-sector normalization.",
+    "Checked monotonicity and the positive-part integral, the field-first Fatou and cutoff arguments, strict complementarity and the nonsingular zero-floor chart, and both benchmark slope calculations.",
+    "Checked Fourier and modular inversion constants, coset residues, stabilized subgroup cutoff and degree count, rounding of high-overlap rectangles, and both matched displacement types."
+  ],
+  "next": [
+    "Use a prime-specific rigidity or avoidance estimate for actual concentrated opposite-sector tests. History-only signed tests and round-39 RMS pricing have now been delimited.",
+    "Seek genuine prime-uniform complex access or signed finite-order regularity of the actual stationary mark. The arithmetic real integral and the finite-field face chart do not bound a common continuation domain.",
+    "For critical alternating supports, target the lower-energy regime or a stronger absolute or relative deficit from prime-field occupancy and off-parity Fourier information."
+  ],
+  "committed": false,
+  "pushed": false
+}

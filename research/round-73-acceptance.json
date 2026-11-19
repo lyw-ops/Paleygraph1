@@ -1,0 +1,74 @@
+{
+  "round": 73,
+  "accepted_at_utc": "2026-11-19T02:48:11.992213+00:00",
+  "previous": "research/round-72-acceptance.json",
+  "previous_sha256": "594e6c9eed9334f82708f1d4ce48daaee42cee47daed7156ca9b5ed78ae69979",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/hinge_73",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test exact mask-localized high-density pair counts for cap-centered translates on the actual primary face.",
+        "Separate the diagonal from repeated difference counts for near-cap sets; singleton and periodic caps require separate input."
+      ]
+    },
+    {
+      "name": "/root/physical_73",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Track actual signed remainders against the full family of translated Paley columns, retaining the marked correction.",
+        "Seek prime-uniform counting-L2 approximation of realized history residuals in a controlled trace-field span on a common complex overlap."
+      ]
+    },
+    {
+      "name": "/root/review_73",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test a uniform actual masked-hinge upper bound for singleton and periodic caps as well as cap-centered averages.",
+        "Use realized Picard residuals for the physical uniform counting-L2 or full column test, since ambient perturbations do not decide continuation."
+      ]
+    },
+    {
+      "name": "/root/torsion_review_73",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "Independent check of the new low-order twisted sign-run count, mixture budget and depth promotion."
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use exact opposite autocorrelation covers on the actual high-cap difference law, retaining total shifted mass and the fixed diagonal instead of paying the full peak multiplicity.",
+    "When the cap has no sufficiently dispersed centering sets, estimate the convex high-density tail directly on the actual support at selected marked windows."
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-hinge-73.md": "20ba0f8f3527e7b431ec6218c8ff668a8120859ba5fe3a6c0bac12f7f2a608c3",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/astra-physical-73.md": "39aee2b7adb7037e9530df3af25f6c4479af134f371acfa77659a25c64840ea1"
+  },
+  "source_statement_url": "https://randomstrasse101.math.ethz.ch/posts/PaleyGraph/",
+  "floating_diagnostics": [],
+  "core_records": 0,
+  "replay_checks": [],
+  "proof_scope": [
+    "For each fixed positive supercritical gap, recentering a feasible row on a sufficiently large bounded-difference subset of its supercritical coordinates contradicts the smooth marked-window hinge bound. Size is O_delta,L(sqrt(n/D)). If recentering uses exact cap sites of a primary optimum it retains the true primary face. Masked diagonal energy must be deducted before inferring a lower bound on off-diagonal pairs.",
+    "Opposite Fourier support gives an exact autocorrelation budget with the diagonal removed. Individual Fejer sign runs amplify the opposite budget on a character arc. Averaging all admissible sign runs gives a single mixed autocorrelation with lower bound c(1+L/ord(h))/n uniformly in prime and shift, L=floor(log_2(p)/4). The resulting prime-uniform depth-scale necessary estimates exclude specific dispersed high-site patterns. Isolated and strongly periodic caps and general masked hinge remain unresolved.",
+    "At the true finite-field seed in the disk of radius 1/4 about 2031/128, small holomorphic ambient even mean-zero directions can produce an exact mixed response invisible to any prescribed o(n)-dimensional real span of input and output tests including the mark, while a transported bulk coordinate is at least 1/2-o(1). The binary approximation has vanishing counting-L2 error. Reachability by the actual Picard recursion is not established."
+  ],
+  "independent_review": [
+    "Fresh Astra checked the actual masked count, normalization, depth promotion, Fejer Fourier support, and mean-zero reserve correction. Main corrected mathematical rendering and added the necessary diagonal subtraction to the ranked off-diagonal test.",
+    "A second Astra independently verified the uniform twist count using the simple primitive root of the largest factor, its error vs the main term, the convex opposite autocorrelation budget and the order-weighted depth proof."
+  ],
+  "next": [
+    "Primary: bound the true high-density hinge minimum on marked windows for general actual primary supports, including sparse or periodic near-cap populations.",
+    "Primary: use exact opposite autocorrelation and masked shifted overlap for high-site structural classes instead of worst difference magnitude.",
+    "Complex: use genuine reachable signed Picard remainders and full translated-column control or counting-L2 representation precision on a uniform complex overlap.",
+    "Original all-prime ordinary Lovasz theta limit and common physical cold-end continuation remain open."
+  ],
+  "window_closeout_workflow": "Ordinary analytic proofs, source statement refresh, and independent mathematical audits. No new interval or floating estimates in this round.",
+  "committed": false,
+  "pushed": false
+}

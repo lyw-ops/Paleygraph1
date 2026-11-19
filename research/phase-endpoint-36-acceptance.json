@@ -1,0 +1,258 @@
+{
+  "round": 36,
+  "accepted_at_utc": "2026-11-18T04:59:45.095778+00:00",
+  "target_status": "open",
+  "goal_status_at_acceptance": "active",
+  "requested_next_goal_status": "paused",
+  "pause_reason": "Explicit user request to pause after this round and move to a new conversation.",
+  "core_records": 44,
+  "checks": [
+    {
+      "file": "research/astra-averaged-positive-36-replay224.jsonl",
+      "sha256": "1e8c40b18a61ef1c946a1544db8ffc56e11dfb5f1154827fee0886ade2546b69",
+      "accepted_records": 4,
+      "independent_replay": "/tmp/paley-average-positive36-replay224.jsonl",
+      "comparison": "JSON equality keyed by exact_input",
+      "byte_identical": true,
+      "kinds": {
+        "arb_positive_completion": 2,
+        "arb_negative_trial": 2
+      }
+    },
+    {
+      "file": "research/astra-averaged-positive-36-endpoint-audit.jsonl",
+      "sha256": "55403be18a2b01d43297fce33e8a529fc93e2b6247c3a0c4abd3e7e0c961cc32",
+      "accepted_records": 12,
+      "independent_replay": "/tmp/paley-average-positive36-endpoint-replay.jsonl",
+      "comparison": "JSON equality",
+      "byte_identical": true,
+      "kinds": {
+        "arb_actual_weighted_endpoint_audit": 9,
+        "exact_weight_extreme_point_check": 1,
+        "arb_explicit_all_prime_positivity_horizon": 2
+      }
+    },
+    {
+      "file": "research/parallel-cold-complex-36-certified.jsonl",
+      "sha256": "18315bd7b184bc226d2d299da7e5f641dc80cf60c6711bff51b04b7542f9a1db",
+      "accepted_records": 8,
+      "independent_replay": "/tmp/paley-cold-complex36-replay.jsonl",
+      "comparison": "JSON equality",
+      "byte_identical": true,
+      "kinds": {
+        "exact_actual_p13_stationary_phase_identity": 5,
+        "validated_square_nonextension_constants": 1,
+        "exact_and_validated_square_cold_lower_bound": 1,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/parallel-audit-36.jsonl",
+      "sha256": "bf8a49181ed4295640d6f620b2dcf9836ae8295b878f09cc0486a6259955cba2",
+      "accepted_records": 19,
+      "independent_replay": "/tmp/paley-audit36-replay.jsonl",
+      "comparison": "JSON equality",
+      "byte_identical": true,
+      "kinds": {
+        "exact_actual_p13_endpoint_algebra": 6,
+        "floating_direct_projection_comparison": 6,
+        "floating_large_prime_averaged_repair": 6,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/endpoint-stress-36-negative-certified.jsonl",
+      "sha256": "ee9dc3a23020946fcf3a57dd38d952e391770d07bd9e0f8f1c2fe8722b7ac5b8",
+      "accepted_records": 1,
+      "independent_replay": "/tmp/paley-endpoint36-negative-replay.jsonl",
+      "comparison": "JSON equality",
+      "byte_identical": true,
+      "kinds": {
+        "arb_negative_trial": 1
+      }
+    }
+  ],
+  "exact_inputs": [
+    {
+      "file": "research/astra-averaged-positive-36-p1000033-t128-input.json.gz",
+      "compressed_sha256": "dff8c7509a70d421778051a03162ea7bc01a497ec401d3a251d36117c6297ef9",
+      "uncompressed_sha256": "1d311f7e957701786e09ce3df9aeda981d1cdf0b0172639a0f0c573e82222fbc",
+      "order": 1000033,
+      "steps": 128,
+      "tau": "1/20",
+      "kappa": "1/1000",
+      "exact_orbit_claim": false
+    },
+    {
+      "file": "research/astra-averaged-positive-36-p1000033-t64-input.json.gz",
+      "compressed_sha256": "81ea4d7f730d6bab03c43b4da5b7c4c814814fb887aff4fc05d81ebbfba81ccd",
+      "uncompressed_sha256": "97d1157878e6fe24a58d396371f6dc244ab51020a26ea27edb3e030b908675e3",
+      "order": 1000033,
+      "steps": 64,
+      "tau": "1/20",
+      "kappa": "1/1000",
+      "exact_orbit_claim": false
+    },
+    {
+      "file": "research/astra-averaged-positive-36-p9413-t128-input.json.gz",
+      "compressed_sha256": "e3a8e95446f371f6acbe1f9213d1817a076796b5e467e94221d2916fd77d3bf3",
+      "uncompressed_sha256": "41da60dc542c4e5de986b6d87ffff69c35a4215474240a494907b153dda9b7da",
+      "order": 9413,
+      "steps": 128,
+      "tau": "1/20",
+      "kappa": "1/1000",
+      "exact_orbit_claim": false
+    },
+    {
+      "file": "research/astra-averaged-positive-36-p9413-t64-input.json.gz",
+      "compressed_sha256": "ddfbd45807f216c571487e75e7c2a2b0b8c71239cfea830903249d54c6dcbefd",
+      "uncompressed_sha256": "297ed5c9f1c2c0417ca97d6f0557dc8350f706457e175fbb9d885e5b499b0864",
+      "order": 9413,
+      "steps": 64,
+      "tau": "1/20",
+      "kappa": "1/1000",
+      "exact_orbit_claim": false
+    },
+    {
+      "file": "research/endpoint-stress-36-p7340033-t128-input.json.gz",
+      "compressed_sha256": "aabcb9f18e40e960d0e22bdc6b59b8caad0ed42372705f6abf320ebda8150dd2",
+      "uncompressed_sha256": "f1e99a29831f9bf717d167ae31dcf9bf4c5248e17842f72042c72f7b3b47c24e",
+      "order": 7340033,
+      "steps": 128,
+      "tau": "1/20",
+      "kappa": "1/1000",
+      "exact_orbit_claim": false
+    }
+  ],
+  "proof_and_code_hashes": {
+    "research/astra-averaged-positive-36.md": "61157860790d130b6983dcc8f5a5e4b825955074bd1b0acafbc453297590eb75",
+    "research/astra-averaged-positive-36.py": "ad4dfe8076fcf2c3fb13dad4ad8f37b8a3478fb6a783782dea272344dad01711",
+    "research/parallel-cold-complex-36.md": "6637d3e29a198fa357b0d193a3d256c215e3a81137d4eef215870f7385e43bed",
+    "research/parallel-cold-complex-36.py": "744c7303760517b60e53bf332f2f67026e41252de761159dbcc374c5aa99a652",
+    "research/parallel-audit-36.md": "4fd3a65db691d8963402da8f69d5b6788bd90a1d225ab38dd0793ddf1a16de5e",
+    "research/parallel-audit-36.py": "c61912cc7bd4b0d9b53c1700e084616099d69931ff89fac9cad418c192e142f8",
+    "research/endpoint-stress-36.md": "216e32cdc14d3f0c195e64ec31b03e9e445b5785235a35fd2c99711d9a9a32de",
+    "research/endpoint-stress-36.py": "ecc9fc50f2c151e0cd68957636b05cc4adc39342d176622bb26f2ca1ded4f1db"
+  },
+  "native_consistency_audits": [
+    {
+      "file": "research/astra-averaged-positive-36-checks.json",
+      "sha256": "94dc61e243de66b346bb4872a452944d66915a17ce69464d4ce29ee4df18a925"
+    },
+    {
+      "file": "research/parallel-cold-complex-36-checks.json",
+      "sha256": "e8b8e0188291ed84a46317f753539e0994098b93e84176fe67771809c7ef588f"
+    }
+  ],
+  "proof_scope": [
+    "Actual scalar marked holomorphic continuation on a connected RHP domain implies abs(Im m)<=abs(arg W)/2<pi/4. The saturated physical curve supplies generic scalar lifts; a full single-valued spectral continuation is not assumed. Compact growth is therefore automatic on a common domain.",
+    "A common prime cold-hot marked domain alone would suffice for ETH26 by the previous two-constants theorem. Such a prime common domain is not proved.",
+    "For odd square prime powers q=2n+1 with n>exp(100000), the actual hot marked germ has an accessible genuine scalar ramification point with Re(tau)>1/16 and abs(tau)<=1024. This is existential, not a numerical location; sector winding excludes ordinary zeros or poles.",
+    "Two saved prime T128 inputs have strictly positive pinned-reflection completions; two T64 inputs have strict negative coordinates. Four canonical Arb224 records independently replay. A kappa floor is not required for direct ordinary theta witnesses.",
+    "Actual unrounded projected averages have an explicit all-field raw-positivity horizon O_tau(n^(3/2)). The independent endpoint deficit argument gives one-reflection mean/sector/mark-preserving completion at O_tau(n^(5/4)); the safe constants are not numerically optimized. Both remain beyond the proved marked window.",
+    "Uniform weights optimize the specified decreasing-weight absolute endpoint and mean-budget estimates, not every signed weighted construction.",
+    "The one-FFT endpoint generator has exact algebraic justification and small direct-implementation checks. Its large proposal remains floating provenance before exact Fourier rounding.",
+    "At p7340033 T128, the saved rational Fourier proposal has a rigorously negative repaired minus coordinate 2136334 and a positive plus row. Its Arb128 record independently replays byte-identically. This does not certify an unrounded exact Picard failure, exclude another completion, or disprove eventual feasibility.",
+    "Exact affine constraints follow from Fourier support and pinned-projection identities, not interval containment alone. Rounded inputs are not assigned the unrounded Picard mean budget without shadowing.",
+    "All proofs are ordinary mathematical audits and exact/interval checks, not Lean kernel proofs. No main-target proof is claimed."
+  ],
+  "dependencies": [
+    {
+      "file": "research/averaged-complex-35-acceptance.json",
+      "sha256": "1f1c9ea6a89712239acd221b0f7aece134dc85886a24ce667770f98731fcace3"
+    },
+    {
+      "file": "research/averaged-mark-35.md",
+      "sha256": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b"
+    },
+    {
+      "file": "research/astra-conic-primal-34.md",
+      "sha256": "bc78c10d8027d78935830244c5a12a125d96c8d0d3b8a2ae12ad138377df479a"
+    },
+    {
+      "file": "research/parallel-complex-structure-35.md",
+      "sha256": "742539d1b54c5a3895a3c7ff69be9aa332080cb85981e4da62c06407f4d41db4"
+    },
+    {
+      "file": "research/large-smoothing.md",
+      "sha256": "3330f154d3c26941bc3ffced1e9c0a1b6d667412d44b2e775766557b8ec4aac4"
+    },
+    {
+      "file": "research/square-order-control.md",
+      "sha256": "2946fe5f1a2b3bc614daef3e00ad38fb142e7b8bab25977b1d121ad191789b6b"
+    }
+  ],
+  "excluded_exploration": [
+    {
+      "file": "research/endpoint-stress-36-small-diagnostics.jsonl",
+      "sha256": "ea34deba6de35d5641b6ec3ef6edaa52c4747a0ed110280420d047f0a73ebf21",
+      "scope": "Floating generator checks, not interval orbit enclosure."
+    },
+    {
+      "file": "research/endpoint-stress-36-large-diagnostics.jsonl",
+      "sha256": "0001b32563c6044a042df7f14e911a3042b635ecccb822c21522e1cd1f3bc525",
+      "scope": "Floating stress observations; strict sign claims use the saved-input certificate instead."
+    },
+    {
+      "file": "research/endpoint-stress-36-negative-proposal.jsonl",
+      "sha256": "f8d5aef1cfac6c9d5030b648f837c3eb99fb1dd430f464365d7ea6067b5ec77d",
+      "scope": "Floating generation and exact-input provenance; not a second negative proof."
+    },
+    {
+      "file": "research/marked-pick-jets-36.py",
+      "sha256": "879a06f951b5ccba85c8e868b179d269444a78e36ec216c412484089e9593979",
+      "scope": "Late transformed-Pick rational-jet prototype; not independently reviewed and not used in accepted conclusions."
+    },
+    {
+      "file": "research/marked-pick-jets-36-probe.jsonl",
+      "sha256": "da9b213eb306eb5ec0dca243771122a6a6bd7c959e88dc04aa279ee5113842eb",
+      "scope": "Four exact exploratory finite positive Hankel tests; no continuation or absence-of-branchpoint inference."
+    }
+  ],
+  "research_chats": [
+    {
+      "thread_id": "01a1ecea-3bf2-7e21-aaa2-80ba39fb4a8e",
+      "host_id": "local",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "role": "Actual averaged positive completion",
+      "last_cursor": "2e01e8fd-bf73-44a5-9779-8f3d406fac71:6"
+    },
+    {
+      "thread_id": "01a1ecea-3db5-73f2-94d6-9dd3c5ea61c9",
+      "host_id": "local",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "role": "Actual scalar common-domain and phase theorem",
+      "last_cursor": "4a891190-cac0-43a4-8c39-920f81f9dc82:5"
+    }
+  ],
+  "independent_agent": {
+    "name": "/root/audit_square",
+    "status": "completed"
+  },
+  "round37_dispatched": false,
+  "known_running_research_processes": [],
+  "handoff": {
+    "file": "HANDOFF.md",
+    "brain_prompt": "BRAIN_PROMPT.md",
+    "user_requested": true,
+    "sha256": {
+      "HANDOFF.md": "00e5d9ff7a96c9454a3df8d6f24ee2fdebfa0f03c7e9062afa615f00df405b4d",
+      "BRAIN_PROMPT.md": "8aa205ccddb0a64ce8f81f210209834d55cacfd872e09cda1540ab623fcd6b84"
+    }
+  },
+  "remaining": [
+    "Prime uniform positive completion within a horizon with proved marked Cesaro cancellation, or marked cancellation at a proved long positive horizon.",
+    "Common scalar cold-hot RHP continuation domains through all relevant primes.",
+    "The older UI/HR/inverse branch retains its own separate arithmetic gaps."
+  ],
+  "committed": false,
+  "pushed": false,
+  "static_checks": {
+    "scoped_python_ast": true,
+    "no_control_characters": true,
+    "no_trailing_whitespace": true,
+    "local_markdown_file_links": true
+  }
+}

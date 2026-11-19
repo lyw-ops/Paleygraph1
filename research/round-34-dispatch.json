@@ -1,0 +1,27 @@
+{
+  "round": 34,
+  "dispatched_at_utc": "2026-11-18T03:31:47.227716+00:00",
+  "previous_round_acceptance": "research/source-ui-33-acceptance.json",
+  "target_status": "open",
+  "research_chats": [
+    {
+      "thread_id": "01a1ecb5-4625-7921-8265-e5ec22caa596",
+      "host_id": "local",
+      "role": "Astra: actual prime conic feasible-pair construction with o(kappa) fidelity gap",
+      "prefix": "research/astra-conic-primal-34",
+      "last_cursor": "0dd67e1b-7fb8-4092-a425-2f362fb53683:4",
+      "status_at_last_observation": "completed"
+    },
+    {
+      "thread_id": "01a1ecb5-9f32-7332-884b-88183ede4d90",
+      "host_id": "local",
+      "role": "Actual Schur clipping and signed cold response",
+      "prefix": "research/parallel-schur-response-34",
+      "status_at_last_observation": "completed",
+      "last_cursor": "3aa714c4-e65a-40b6-a113-e4422633f182:8"
+    }
+  ],
+  "main_next_action": "Follow the exact existing chat handles. Seek actual prime estimates rather than additional equivalent conditions; audit any purported uniformity. Continue the main complex-floor route only if it gives concrete new information.",
+  "scope": "The UI conic rate, cold HR, marked arithmetic finish and ETH26 are unproved. Separate non-Paley counterfamilies retain separate scopes.",
+  "acceptance": "research/repair-response-34-acceptance.json"
+}

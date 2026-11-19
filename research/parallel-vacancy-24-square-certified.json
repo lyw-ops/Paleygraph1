@@ -1,0 +1,38 @@
+[
+  {
+    "ell": 7,
+    "order": 49,
+    "b": 8,
+    "twist_sum": 7,
+    "vacancies": 0,
+    "sum_squared_cell_labels": 0,
+    "nonsquare_nonempty_cells": 12
+  },
+  {
+    "ell": 11,
+    "order": 121,
+    "b": 12,
+    "twist_sum": 11,
+    "vacancies": 0,
+    "sum_squared_cell_labels": 0,
+    "nonsquare_nonempty_cells": 30
+  },
+  {
+    "ell": 13,
+    "order": 169,
+    "b": 14,
+    "twist_sum": -13,
+    "vacancies": 0,
+    "sum_squared_cell_labels": 0,
+    "nonsquare_nonempty_cells": 42
+  },
+  {
+    "ell": 31,
+    "order": 961,
+    "b": 32,
+    "twist_sum": 31,
+    "vacancies": 0,
+    "sum_squared_cell_labels": 0,
+    "nonsquare_nonempty_cells": 240
+  }
+]

@@ -1,0 +1,2 @@
+{"active_bulk": 4, "derivative": "1/4", "field": 13, "inactive_bulk": 1, "second_derivative": "-101/216", "side": "plus"}
+{"active_bulk": 9, "derivative": "7/24", "field": 25, "inactive_bulk": 2, "second_derivative": "-343/864 - 5*sqrt(13)/216", "side": "minus"}

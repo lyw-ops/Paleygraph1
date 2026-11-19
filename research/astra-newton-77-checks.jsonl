@@ -1,0 +1,2 @@
+{"complex_counting_fourth_upper": "1/2", "complex_n_max_exponent": 321, "kind": "actual_600_exact_newton_finite_bounds", "n_min": 1000000000000000000000000000000, "real_counting_fourth_upper": "3/5", "real_mark_limsup_upper": "71e-175", "real_n_max_exponent": 345}
+{"all_site_modulus_upper": 5, "bits": 160, "depth": 30, "imaginary_half_width": "1/65536", "kind": "unmarked_proxy_uniform_analytic_bridge", "parameter": "z=1/(2 sqrt(t))", "prime_n_min": 100000000000000, "real_bounds": ["-1/4096", "513/4096"], "slabs": 514}

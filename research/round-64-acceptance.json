@@ -1,0 +1,103 @@
+{
+  "round": 64,
+  "accepted_at_utc": "2026-11-18T16:52:31.883188+00:00",
+  "previous": "research/round-63-acceptance.json",
+  "previous_sha256": "52f92c87065443b670ea271aad2e4cc7e8203b039ede4fee2f4590f2e52b4c8f",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/joint_64",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-joint-64",
+      "ranked_closeout": [
+        "Propagate both signed dual Legendre coefficients as functions of the older labels over two consecutive vertices, including cubic determinant shifts. A physical overlap across 2031/128 passes. A fully debited two-vertex escape with continued growth rejects that prescription.",
+        "Add both independent symplectic outputs from the m^±4 residual with exact compact corrections. Test for the same physical crossing or a fully debited one-vertex escape."
+      ]
+    },
+    {
+      "name": "/root/coupling_64",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-coupling-64",
+      "ranked_closeout": [
+        "On one generic actual late forest per prime compare J_t(b)-V/R and J_t(b)-D_cap||B^T y||. An upper o(t) feasible update at one time per prime passes. A positive lower bound eta*t at all late times of a prime subsequence rejects the full-face window estimate.",
+        "After a true support hit recompute the residual and line search along the new feasible ray. Test the charged o(t) upper bound and require global affine prices also covering omitted coordinates for a full-face optimality certificate."
+      ]
+    },
+    {
+      "name": "/root/review_64",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "Independent audit of compact law, sextic and tail inequalities, exact-orbit and forest estimates, and physical gluing and limiting escape.",
+      "ranked_closeout": [
+        "Test the minimum of J_t^face/t over ceil(D(p)/2)<=t<=D(p) on the actual zero-floor orbit. A nonpositive limsup through all eligible primes passes. A fixed positive full-face lower price at every such time along an unbounded prime subsequence rejects this window estimate."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the exact two-step law and a uniform L^2 truncation bound to approximate the third mean with all retained arithmetic returns. A field-first enclosure separated from one increases the necessary cost. Unbounded accumulation requires growing certified lower bounds over increasing fixed prefixes.",
+    "Obtain a signed worst-site inequality for the same two marked rows at a matching growing depth with s=o(1), tracking P_T and E_{T+1}. Failure for every fixed C/T rejects that allowance scale."
+  ],
+  "proof_and_code_sha256": {
+    "research/mean-energy-64.md": "ef2b6463560f4f6ea6fd6e13d7825d008ccc894ae171804dcf825499cc79ce7e",
+    "research/mean-energy-64-check.py": "78b916640658bdc668953f94a85f23ff4e6336f6797b08bb320e57212fe8ddaf",
+    "research/astra-coupling-64.md": "bae8ed8f894b3c319136b4f593723faa2986a9747777e21b51f0d08c38033966",
+    "research/astra-coupling-64-check.py": "ddcf2cf8ae30cd4564e0d43edfffb1314cd3094b3c722a0a2595a97de2f0a02f",
+    "research/astra-joint-64.md": "22573cbd9625893d6bacf6bf02da9a665876aab8a5783d2931c333e442339808",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee"
+  },
+  "floating_diagnostics": [
+    {
+      "file": "research/astra-joint-64-probe.py",
+      "sha256": "e8cc59c3f0b72e6adcb0709278121af2126d6fa42b86f4e1b041f2faa8e36b0a",
+      "scope": "Proposes frozen caps. The resulting rational caps and outward slab replay supply the proof."
+    }
+  ],
+  "core_records": 20,
+  "replay_checks": [
+    {
+      "file": "research/mean-energy-64-checks.jsonl",
+      "records": 14,
+      "sha256": "6c7541b60c1e5dd962b6cb8cde69c0ce2830f9714cbb3c1589b432d660c60d5f",
+      "scope": "Arb comparisons for the compact law, six exact-orbit prefixes each at 9413 and 97^2, and one p=97 late prefix with its complementary fixed-point tail.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-coupling-64-checks.jsonl",
+      "records": 2,
+      "sha256": "840658f86cb939529152280b0ba0854aba1141ff6aa601ea3b91ebb6641b974e",
+      "scope": "Arb audit of a continuum of relative-interior references on the true faces at p=97, t=32, and the global optimum after the second projected direction.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-joint-64-checks.jsonl",
+      "records": 4,
+      "sha256": "3bed48143b6eb3a4ae7b56037084326ed8e984a9e228994b8219ab348335d35d",
+      "scope": "Exact dual compact feedback on seven cyclic rings, determinant-aware signed coefficient bounds, the fully debited one-vertex escape, and 24 closed slabs for physical continuation.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Ordinary compact-law proof evaluated by Arb gives a common prime limit of the true second mean in (0.9436066882988,0.9443204269703) as the floor tends to zero. Consequently 0.013037<lim P_2<0.013118. For simultaneous mark preservation in the approved window any successful added scaled mean s must satisfy 2Ts+T(1-1/n)tau>=0.013037-o(1) when T>=2.",
+    "Finite true-orbit Arb checks give P512 in (.01154,.01155) and P512-P16<.0001 for prime 9413, P512 in (1.165,1.166) for square 97^2, and P_inf<.0103 for prime 97 via the exact complementary fixed point and v513. The finite results leave the growing-prime tail unknown.",
+    "An ordinary operator-norm comparison bounds all full-face improvement on generic actual prime overlap forests by an explicit tangent dual norm, and a thin-edge sign test determines the first-step scaling under the stated spanning hypothesis. At p=97,t=32 the interval certificate proves that the first feasible ray captures a vanishing fraction along a full continuum of references, and a second recomputed direction attains the global charged minimum. Inversion-orbit laws are unique. Odd variations yield multiple unrestricted minimizing rows.",
+    "The exact D and dual compact feedback with the exceptional K e0 correction yields a physical marked section on (1040019,1040022)/65536 in real part and |Im t|<2^-20, with |m_q(t)|<=3/sqrt(n), for all sufficiently large eligible primes and prime squares. The real uniqueness and open overlap glue it to round 63.",
+    "At 2031/128 the full determinant-aware one-vertex coefficient decreases from (56349,56365)e-12 to (52661,52678)e-12. The fully debited lower mass bound exceeds 21 at height 1329 and a surviving quadratic atom proves divergence of that prescription. Physical continuation at that floor and any two-vertex refinement remain open."
+  ],
+  "independent_review": [
+    "Main and fresh Astra independently replayed all 20 records byte-identically. The reviewer verified two-lift normalization, the symplectic cumulant and moment bound, the global polynomial bounds, and distance decrement to the exact p=97 fixed point using the image at 513.",
+    "Main checked the generic forest comparison, thin-edge support constraints and second-ray global price. Fresh Astra restricted uniqueness to the inversion-orbit laws and exhibited the odd null directions in the unrestricted face. Main independently checked the 13 supported odd pairs and 12 forbidden inverse-pair equations, and corrected the proof note.",
+    "Main independently verified exact joint feedback scope, signed projections and arithmetic charges in the proof. Fresh Astra checked the full physical open overlap using positivity and real uniqueness and distinguished the limiting one-vertex escape from actual continuation."
+  ],
+  "next": [
+    "Primary charged route: obtain one whole feasible pair at one growing late time per prime with charged objective o(t), or certify a fixed positive normalized lower margin across all late times on a prime subsequence. Track both the maximal feasible step and the full-face dual norm and keep the terminal energy charge.",
+    "Primary positivity route: obtain signed worst-site control for a vanishing reserve at an actual depth with mark cancellation, and test the third-mean arithmetic return to separate the necessary reserve from the sufficient pointwise bound.",
+    "Complex route: propagate the signed dual Legendre fields with their determinant shifts over successive vertices, while comparing the joint recentering on the older symplectic m^±4 outputs.",
+    "The all-prime ordinary Lovasz theta limit, growing-window positivity, and common cold continuation to 1/2 remain open."
+  ],
+  "window_closeout_workflow": "Collected ranked suggestions with concrete pass or fail conditions from main, both research routes and independent review. Consolidated by prime-uniform relevance and recorded in the ledger before dispatching the next full window.",
+  "committed": false,
+  "pushed": false
+}

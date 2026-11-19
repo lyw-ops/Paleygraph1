@@ -1,0 +1,5 @@
+{"b_thousandths": 1740, "c_thousandths": 3700, "cap_thousandths": [1739, 3688, 523], "divisions": 128, "indices": [2320, 2336], "kind": "mellin_second_moment_ball", "power_denominator": 28000, "rho_millionths": 1000200}
+{"b_thousandths": 1700, "c_thousandths": 3620, "cap_thousandths": [1698, 3598, 506], "divisions": 64, "indices": [1168, 1216], "kind": "mellin_second_moment_ball", "power_denominator": 5600, "rho_millionths": 1001000}
+{"b_thousandths": 1650, "c_thousandths": 3490, "cap_thousandths": [1631, 3439, 479], "divisions": 16, "indices": [304, 394], "kind": "mellin_second_moment_ball", "power_denominator": 1200, "rho_millionths": 1005000}
+{"actual_mark_limsup_upper": "17/1000", "divisions": 64, "family": "primes", "indices": [564, 640], "kind": "positive_four_step_prefix"}
+{"actual_mark_limsup_upper": "17/1000", "divisions": 64, "family": "primes_and_squares", "indices": [632, 704], "kind": "positive_four_step_prefix"}

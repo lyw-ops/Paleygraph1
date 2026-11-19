@@ -1,0 +1,3 @@
+{"components": 8, "kind": "new_feedback_boundary_controls", "total_dimension": 46, "weights": {"C": [[-3, -3, 1, 1, 1, 3], [0, 0, 0, 0, 0, 0]], "D": [[-1, -1, 0, 0, 1], [-1, -1, -1, 2, 2]], "E": [[-1, -1, -1, -1, 5], [-1, 0, 0, 0, 0]], "F": [[0, 0, 0, 0, 0, 0, 3], [-3, -2, -2, 1, 1, 1, 1]]}}
+{"checked_per_family": 2, "feedback_positions": 2, "field": 5, "kind": "new_feedback_exact_determinants", "labels": ["C", "D", "E", "F"], "largest_field": 78125, "norm_logs": [1, 1, 1, 1, 1, 1, 1]}
+{"checked_per_family": 6, "feedback_positions": 4, "field": 9, "kind": "new_feedback_exact_determinants", "labels": ["D", "E"], "largest_field": 59049, "norm_logs": [1, 1, 1, 1, 1]}

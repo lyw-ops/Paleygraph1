@@ -1,0 +1,114 @@
+{
+  "round": 70,
+  "accepted_at_utc": "2026-11-18T18:21:05.699697+00:00",
+  "previous": "research/round-69-acceptance.json",
+  "previous_sha256": "69c103c908360189294c60c4f00df713c229c12e46184573f891c64cfcfcedcf",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/direction_70",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use the actual least-norm larger-face row and its translation stabilizer to estimate the signed charge at L+1. Prime-uniform o(L) from above suffices. A positive normalized subsequence rejects that endpoint choice.",
+        "On the actual exposed support isolate the residual late observable from the two tangents and marked coordinates, then bound its inverse interpolation energy or show divergence in a fixed normalization."
+      ]
+    },
+    {
+      "name": "/root/new_sectors_70",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Pool different singleton and binary residual histories with the same arithmetic label and recompute the binary margin after all jointly paid prices.",
+        "Test a changed physical complex center across the real floor on overlapping neighborhoods carrying the true marks, every sibling and analytic tails."
+      ]
+    },
+    {
+      "name": "/root/review_70",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Seek an all-prime signed charge o(L) on the actual larger-face least-norm row. Evaluate the residual interpolation energy with its stated counting normalization and keep the tangent component.",
+        "Resolve the joint-history binary charge first, then attempt a strict upper invariant for the physical branch in a common complex neighborhood."
+      ]
+    },
+    {
+      "name": "/root/window_review_70",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the minimal localized collision on the true primary face at a selected window. An all-prime o(d) upper on both sides for every fixed u>0 would close the pinned deficit inequality.",
+        "Compare the actual opposing-site thresholds for a pair of delayed profiles in the proved growing marked horizon. A common interval at vanishing allowance suffices."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Test endpoint density squared against the full average F of exact defect sets from the common selected windows. Prove o(d) for an actual optimizer at every fixed bulk cutoff, or bound the corresponding signed pairing directly.",
+    "Compare two dense delays at matched marked depth by their true localized signed constraints. The finite separated-endpoint witnesses determine which response changes must be controlled."
+  ],
+  "proof_and_code_sha256": {
+    "research/paired-windows-70.md": "5bf15cb851a4107e2b67ea66bdd0c80f9ffd09176b1719369227058a28a1c16b",
+    "research/paired-windows-70-check.py": "a7f9f95e330719b64807536a491ac3a54172053f46ed34572cd06b0382f77125",
+    "research/astra-direction-70.md": "126bbb56ee8dc0f4c51aeb4365b95f12b4a327d56e76e98815eeb84260814c72",
+    "research/astra-direction-70-check.py": "337888305ed408cdfb703348fd6b69b2e3cb3f73f19c7a9f7aaf32f314c35ef0",
+    "research/astra-new-sectors-70.md": "4633cc5e36d5120311db29ae98a25fb42ce32730923c42a01d39a10def27e52c",
+    "research/astra-new-sectors-70-check.py": "85e306737db18fed7f13f6544498fd956f22e4b68df0e867eff810c7fba3ad02"
+  },
+  "floating_diagnostics": [
+    {
+      "file": "research/paired-windows-70.md",
+      "scope": "Selected fixed windows using floating exploration. The certified profile comparison uses separate outward replay."
+    },
+    {
+      "file": "research/astra-new-sectors-70.md",
+      "scope": "Earlier duplicate debit did not escape within 6000 iterations. This attempt does not certify an invariant."
+    }
+  ],
+  "core_records": 3,
+  "replay_checks": [
+    {
+      "file": "research/astra-direction-70-exact.txt",
+      "records": 1,
+      "sha256": "d79cd8816bbff07ed6601ac68cc7b01bfa5a7caf310bc250b5eba9fcc8b56878",
+      "arithmetic": "exact rational",
+      "scope": "Prime 13 actual support compression rank four and marked inverse moment 15/4.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/paired-windows-70-checks.jsonl",
+      "records": 1,
+      "sha256": "5c7c0d479c70828a69d5c81c94e99d3dd8ef96d4f066272f8e4af83bfdd41625",
+      "arithmetic": "Arb128",
+      "scope": "In prime 9413 the actual two delayed profiles both fail alone but pass at every second-window weight in [668/1000,968/1000]. The feasible mixing set is inside (667/1000,969/1000).",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-new-sectors-70-checks.jsonl",
+      "records": 1,
+      "sha256": "272f34d06da874ee11d3121d53b5c0cf18e654350fe5aa7dbdcf4c0cd43dfdaa",
+      "arithmetic": "Arb192 with downward integer rounding",
+      "scope": "Pooled arithmetic irreducibles on all shifted factors within each ordered residual list cross 21 from zero at height 2531. Separate new-only off-strip debits and all ten intervals replay.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Many actual marked windows with lengths d→∞, d=o(D) have normalized mean at most 1+O(sqrt(d/D)), raw bulk overlap O(sqrt(d/D)), and RMS deficit at most 1/sqrt(d) after pinned shift. If the true mark on a sign is at least 1+δ, every primary optimizer of that sign has collision Ω_δ(d) on the exact defect sets of the opposite-sign pinned proposal. These sets have counting size O_δ(n/d). The estimate holds after averaging over selected windows at the same optimizer. A prime-uniform upper for the localized collision remains open.",
+    "For the actual primary support exposed by the common barrier, the marked inverse moment has an explicit O(sqrt(n)) all-prime upper and an exact minimum over the two affine face hulls. The residual late observable splits into one opposite Fourier interpolation and a fixed affine minimum. Only one of the two maximal exposed supports can have a nontrivial translation stabilizer.",
+    "The complete real packet prescription with all old and new arithmetic irreducibles pooled within each ordered residual list diverges at 2031/128. It retains thirteen signed refresh amplitudes. Between-list physical cancellation and common complex continuation remain open."
+  ],
+  "independent_review": [
+    "Fresh Astra verified the lag, marked mean, moving-window selection, overlap, RMS and primary-row localization, and independently replayed the finite interval result from the unrounded orbit.",
+    "Fresh Astra checked inversion, true support and tangent restrictions, affine collision minima, residual interpolation and the stabilizer argument, with exact rational replay.",
+    "Fresh Astra independently replayed the new full within-list escape and audited separate downward surrogates, off-strip maxima, scalar contractions and degree-at-least-three pricing, with its scope limited to this prescription."
+  ],
+  "next": [
+    "Primary: bound the actual larger-optimizer density squared on the explicitly localized cold deficits, using common-selected-window averages or exact sign pairings.",
+    "Primary: close the actual late charge by estimating the residual opposite interpolation and the facial contribution at L+1.",
+    "Complex: price distinct residual lists arriving at the same arithmetic label, or construct a changed physical center with a strict complex invariant retaining all packet contributions.",
+    "Original all-prime ordinary Lovasz theta limit and common physical cold-end continuation remain open."
+  ],
+  "window_closeout_workflow": "Reviewed proofs and exact and Arb replays. Collected and combined ranked tests from main, two parallel routes and two independently scoped reviews.",
+  "committed": false,
+  "pushed": false
+}

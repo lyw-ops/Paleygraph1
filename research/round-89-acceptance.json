@@ -1,0 +1,141 @@
+{
+  "round": 89,
+  "accepted_at_utc": "2026-11-19T07:45:15Z",
+  "previous": "research/round-88-acceptance.json",
+  "previous_sha256": "0a80ec15465c1cdedc96bbef95bab5d96c059b9c69242214c157c61e57f84a64",
+  "proof_and_code_sha256": {
+    "research/real-phase-projection-89.md": "fabe652d3d6a401ab22d17ea09e5ee5fdfe2b0defd4d2c059aed6ef388c45612",
+    "research/real-phase-projection-89-check.py": "18206c2736416936b3ef56be6d1911c801e2ab8cf4f5655f69d5e361f44994c6",
+    "research/real-phase-projection-89-checks.jsonl": "29a5c5fbfd51f85246e4453e7bcf7855cf8df7713b839531fe3063212d899f5d",
+    "research/astra-tails-89.md": "1beb107b9bbec6928dfd8f2a82199786e61a527e33b38c899f733f11256a1a7e",
+    "research/astra-tails-89-check.py": "261bd7e783d804ae21cda82f1dbbd2e38efd2e5692f6e6f1101f245e420d4928",
+    "research/astra-tails-89-checks.jsonl": "12dc0611e2d9e6b40957d0e165e6b726c49f1c72e6021ee8b1703ef56303df7f",
+    "research/astra-linear-89.md": "b415ec32eb69afe06b44de2e5e04e8871cd809060cc10d2d9225ff16b65ae26e",
+    "research/astra-linear-89-check.py": "55806ebeec86bac3ff9fddf0fa3a944a7826b6ee934ffd1bd02202fa8ec20d61",
+    "research/astra-linear-89-checks.jsonl": "816b1f35be78a8c0c79b969ecd90c5b347880635af2fed8515c1d2ae95f52501",
+    "research/astra-quartic-89.md": "ff09867a32a4fc5a51992c0943a5733f1abcbad0751802ea1fbf9c74eb268440",
+    "research/astra-quartic-89-check.py": "eb695e305e87200958cda4e65046df9dcc0968f42f3277d12db90a3a4049c7c9",
+    "research/astra-quartic-89-checks.jsonl": "339cadd65fa7ca4d01d4d7c0a5740950adddacca1abe4b4f9815db5e55eafce9"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/astra-phase-86-check.py": "e824cc99ce0bc453495e770985cab0759dcecc8cb66d32bf77887071a0b8c503",
+    "research/astra-source-88-checks.jsonl": "53770a4fe02ce5834d9977e8add10388d50ed8ba192305662032f4262414f180",
+    "research/astra-matched-88-check.py": "c8962f090161cfd5611a69b7101c1a94be524f94cde2a6fc04face0216f5c9dd",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "additional_inherited_dependency_sha256": {
+    "research/astra-cold-37-monodromy.py": "e3bee2fc0b799e441e33f6d5c69b84a14fff23df79fddce8591b3ba1198352b3",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "research/marked-response.md": "5c9f8989e3e9b1ef1bce6e3b2b32cd224639289a463bf688b37b1405304765f7",
+    "research/astra-source-88.md": "80b4849d9f4e43c9a732af10731e6f1c38f895f0c726ad8df4420e591d746f88",
+    "research/astra-phase-86.md": "ba511d10d4de1912d4ffd06c1a4b656a9b2fd3ce32bab0a3e09405ac8432e809",
+    "research/astra-forced-87.md": "df2ca1e4f82027043cd42e97bd82225e13aa5ce4f5e7b92c129f5f8986cce666",
+    "research/astra-diffuse-87.md": "c4d163a5b739c2497fa104c6267e50556c136ea3de3b587039a990874c27ae6e",
+    "research/astra-persistent-88.md": "56d6df9a10c4dc9abd5866aa325633238ea8b63fa455fef1fbdf3ca7636c3638",
+    "research/astra-capacity-84.md": "550d1105db39051403980aab28e0ea3ef2d3202b2f22450c4bd1c43ded89ff75",
+    "research/parallel-low-energy-7.md": "bec665dfc1a4b2c5beee669490c86208c5b280a004a9bcbaeabe76a59f4cc9cb",
+    "research/square-endpoint-uniqueness.md": "74da2596734e1de8ef7f397a166ba960903fb684f95af5701bee8429bd04b2e4"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "primary_arithmetic_sources": [
+    {
+      "url": "https://arxiv.org/abs/math/0308286",
+      "use": "Tao's sharp prime cyclic uncertainty bound on nonzero positional coset restrictions"
+    },
+    {
+      "url": "https://escholarship.org/content/qt3qb1v3vw/qt3qb1v3vw.pdf",
+      "use": "Mixed multiplicative and additive Weil bound used for the four-root affine tests"
+    }
+  ],
+  "research_agents": [
+    {
+      "name": "/root/quartic_89",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the exact opposite-law shortfall ratio O(K^(1/2)) on an actual adaptive mask while retaining the root loss, using the difference between prime shallow contacts and the sharp square witness.",
+        "On a comparison row passing the quartic criterion, upper-bound the surviving low-density companion payment after the stated uniform deletions."
+      ]
+    },
+    {
+      "name": "/root/linear_89",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Force cancellation of true first prices on a macroscopic interval and one bounded-index adaptive third-coordinate coset on a positive fraction of short prime pairs.",
+        "Test on a genuine displaced atom if exterior dual mass stays large, or after cutting both endpoint amplitudes to o(1) if it flattens."
+      ]
+    },
+    {
+      "name": "/root/tails_89",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Derive a signed lower for a translated positive-negative tail overlap from both actual contact eigenrows, against the quadratic residual upper.",
+        "For orders with large cofactors for every prime divisor combine positional restrictions or the actual shifts of the two nulls."
+      ]
+    },
+    {
+      "name": "/root/audit_89",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Find an even clipped fixed point with the marked bulk column below the clipping threshold of a fixed kappa>1, yielding the true complex section if uniform.",
+        "Use the exact Schur eigenvalue test and a lower bound on the least singular value of I minus the return, including even and odd restrictions where needed."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Estimate the actual marked column at one real clipped fixed point per floor. If the clipping cannot be removed directly, use its true weights and projection dependence in the exact signed Schur return and conditional shifted tail equations.",
+    "On the original first-price route use one genuine affine interval or bounded-index third-coordinate coset. In parallel price the exact sharp quartic dual on the same adaptive prime face."
+  ],
+  "core_records": 15,
+  "arithmetic_record_counts": {
+    "affine_interval_arb384_and_exhaustive_squares": 6,
+    "quartic_arb384": 3,
+    "tail_rational_and_coset": 4,
+    "real_phase_projection_arb128": 2
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main and independent Astra replayed the four checkers under pipefail with .venv/bin/python -B and PYTHONPATH=., comparing each final JSONL byte for byte.",
+    "The phase checker traces the real-start p=173 branch at Re(t)=1/50 to two points past first spread. It verifies the marked-column equations and bounds the resulting Schur norms in the 44 even orbits below 0.107 and 0.110. It certifies the finite matrices by outward comparison with midpoint products, including their exact perturbation bounds.",
+    "The amplitude checker verifies the finite rational constants and a p=1997 signed eigenrow for which the identity coset restriction is zero but another coset is nonzero.",
+    "The affine checker tests both actual linear marginals at additive frequencies, then the interval, triangular, displaced-atom and collision/coset observables at true p=53,257,409, allowing noneven endpoints at the last two primes. Three additional records enumerate true square controls.",
+    "The quartic checker verifies the p=97 genuine same-terminal full-face quartic minima and sharp opposite law, and two finite square controls at 31^2 and 59^2."
+  ],
+  "proof_scope": [
+    "The real parts of available unforced normalized factors in a positive real-part chart form the true positive stationary pair for depressed weights. A marked column of its weighted reflection determines the actual phases. The real weight equations are equivalent to the factor problem in that chart.",
+    "The same normalized reflection gives an exact signed Schur characterization of factor-kernel singularity. The one apparent scalar defect vanishes by common means and the pointwise product derivative. Only the phase tangent appears in the bulk multiplier; the true amplitudes stay in the weighted reflection.",
+    "The clipped real map has an even positive fixed point at every nominated complex floor, yielding actual complementary factors for some nonnegative bulk floor corrections supported on O(n y^2) sites. A sufficient column bound removes all corrections and would yield the true common domain. Neither that bound nor complex analyticity of the clipped construction itself is asserted.",
+    "For two actually available height-600 cold path rows in the same field at n≥10^30, the translated positive-negative tail product is bounded by 13000 times their two squared forcing residual costs. A valid large prime factor excludes singular first spread on this line when its cofactor is at most 5.2e345. The quadratic imaginary-floor bound provides only a shrinking strip for the complete forced path.",
+    "The genuine affine first price has the stated short-average asymptotic on arbitrary macroscopic additive intervals for A>6 and on triangular windows for every A>2. Twisting by an actual displaced atom preserves its actual coefficient. A fixed gap still requires the corresponding localized signed first-price cancellation; the square comparison has the opposite limiting sign.",
+    "The pure masked fourth-moment minimum equals the stated opposite-law supremum to the fourth power. A sharp test has cubic contact and can be moved arbitrarily close to an assigned opposite maximizer. Prime support requires order sqrt(n) shallow contacts, and a sharp subfield square witness has fewer; the underlying prime fourth-moment upper remains open. An admitted quartic comparison controls high-density payment on its own true row, retaining low-density payment against a fixed gap."
+  ],
+  "independent_review": [
+    "Checked the exact reconstruction at depressed weights and the clipped compact box, the weighted projection rank locality and normalized fourth-phase comparison.",
+    "The audit identified the automatic cancellation of the remaining constant component in the Schur converse. The main note includes the proof and the final audit checked the equality case.",
+    "Independently reviewed the translated amplitude and cofactor estimates, full forcing shrinking strip, mixed affine and displaced tests, and the exact quartic dual and prime/square scope.",
+    "All 15 frozen verification records matched independent computations."
+  ],
+  "failed_paths_and_open_bounds": [
+    "Normalized Hilbert–Schmidt comparison alone does not control the reflected cross compression in operator norm or the actual marked column maximum.",
+    "The clipped real construction has nonnegative floor corrections. No all-prime width for the original complex stationary branch has been shown.",
+    "Affine localization and covariance determine where a fixed gap must be paid but do not supply its signed cancellation.",
+    "The quartic witness geometry does not give a prime-uniform upper on the sharp ratio, and the square-order control demonstrably fails that upper."
+  ]
+}

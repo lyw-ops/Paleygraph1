@@ -1,0 +1,6 @@
+{"kind": "strict_full_vs_quartic_theta", "p": 53, "prime_quotient": 13, "rational_lower_for_cross_product_divided_by_m": {"-1": "5732509272463544849058597/4333333333359333333333368", "1": "1156116922871122399499275/764705882358294117647068"}}
+{"kind": "exact_halfturn_dictionary_charged_window", "minimum_normalized_1e9": [56313435, 56313436], "p": 53, "precision": 384, "terminal_normalized_1e9": [56313435, 56313436], "window": [16, 32]}
+{"kind": "strict_full_vs_quartic_theta", "p": 173, "prime_quotient": 43, "rational_lower_for_cross_product_divided_by_m": {"-1": "14341624877879522058992756/8600000000103200000000301", "1": "51570167697185777011759875/43000000000473000000001204"}}
+{"kind": "exact_halfturn_dictionary_charged_window", "minimum_normalized_1e9": [47728354, 47728355], "p": 173, "precision": 384, "terminal_normalized_1e9": [47728354, 47728355], "window": [16, 32]}
+{"kind": "strict_full_vs_quartic_theta", "p": 317, "prime_quotient": 79, "rational_lower_for_cross_product_divided_by_m": {"-1": "2500329639850442728249239/2393939393975303030303150", "1": "151277022923251809274627290/79000000001264000000004977"}}
+{"attained_dimension": 1, "common_pair_masses_in_sixths": [2, 2, 2], "halfturn_jacobi": -3, "kind": "sharp_nonconstant_branch", "p": 13, "translated_path_identities": 6}

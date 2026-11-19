@@ -1,0 +1,6 @@
+{"b": 12, "coset_terms": 672, "kind": "exact_lattice_twist_reduction", "m": 4, "order": 3, "prime": 97, "reflected_pole_pairs": 18, "twist": 1}
+{"b": 12, "coset_terms": 992, "kind": "exact_lattice_twist_reduction", "m": 4, "order": 4, "prime": 97, "reflected_pole_pairs": 8, "twist": 3}
+{"b": 12, "coset_terms": 2880, "kind": "exact_lattice_twist_reduction", "m": 4, "order": 6, "prime": 97, "reflected_pole_pairs": 12, "twist": 5}
+{"b": 24, "coset_terms": 720, "kind": "exact_lattice_twist_reduction", "m": 5, "order": 3, "prime": 241, "reflected_pole_pairs": 12, "twist": 1}
+{"b": 24, "coset_terms": 1680, "kind": "exact_lattice_twist_reduction", "m": 5, "order": 4, "prime": 241, "reflected_pole_pairs": 16, "twist": 3}
+{"b": 24, "coset_terms": 4320, "kind": "exact_lattice_twist_reduction", "m": 5, "order": 6, "prime": 241, "reflected_pole_pairs": 24, "twist": 5}

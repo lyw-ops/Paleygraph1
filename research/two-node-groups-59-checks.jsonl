@@ -1,0 +1,3 @@
+{"constant": 1, "field": 5, "good_characters": 2, "jacobi_exponent": 4, "kind": "quadratic_legendre_source_determinant", "largest_field": 625, "norm_generator_logs": [1, 1, 1, 1]}
+{"constant": 1, "field": 9, "good_characters": 6, "jacobi_exponent": 4, "kind": "quadratic_legendre_source_determinant", "largest_field": 6561, "norm_generator_logs": [1, 1, 1, 1]}
+{"constant": 1, "field": 13, "good_characters": 10, "jacobi_exponent": 4, "kind": "quadratic_legendre_source_determinant", "largest_field": 28561, "norm_generator_logs": [1, 1, 1, 1]}

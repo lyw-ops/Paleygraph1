@@ -1,0 +1,86 @@
+{
+  "round": 78,
+  "accepted_at_utc": "2026-11-19T04:08:24Z",
+  "previous": "research/round-77-acceptance.json",
+  "previous_sha256": "dcf0af784334b75e00662cccffe26f13c5743b8cc9ea3d1fdad27aaf85d2f712",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/height_78",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the surviving weighted opposite height by o(d) on one infinite geometric window on a genuine larger-face optimizer.",
+        "If the price persists, test the signed Schur interaction against half the same surviving collision."
+      ]
+    },
+    {
+      "name": "/root/centered_78",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Obtain a quantitative lower bound for the scalar witness at the prescribed floor 2031/128 or a different real witness there.",
+        "For the nine-center predictor, construct a common analytic corridor and identify a nonzero leading increment."
+      ]
+    },
+    {
+      "name": "/root/audit_78",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "For a linear test on the actual optimal face, fix the window, deficit mask and deleted sites. Recompute a density band adaptively on a chosen feasible endpoint rather than treating it as a fixed linear objective.",
+        "Retain all row diagonals, recompute common-column elimination, and test for a fixed fractional signed deficit below half the surviving collision."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the edge-free true windows to estimate the surviving q-weighted height, including the near-full-depth first-start version. Compare the fixed-mask linear objective and the actual density-restricted price; if both persist, seek prime-specific control of the signed Schur term.",
+    "Try the true-face convex lower comparison with distinct allowed and forbidden sector costs. Use the actual drift objective if norm minimization loses the needed saving.",
+    "Test suppression at the distinguished floor by a quantitative witness, or use a field-size-dependent predictor to build a common physical continuation."
+  ],
+  "proof_and_code_sha256": {
+    "research/sector-trim-78.md": "c11e515163af896cae5eb3cf6a9ddba53cbebc9135e4984e663a44c8732985e1",
+    "research/astra-height-78.md": "d2d14f4e7e12ce99306850f6335b913d5bd66e6deb87028199eb712c261df2c3",
+    "research/astra-height-78-check.py": "0667db9623db7410920f1f334cee9b36d66d648cb0e4b0a402b67d66cef231d3",
+    "research/astra-height-78-checks.jsonl": "e95cc7b6054ffc44cc2c3c8327e05fe3e4e08059ed260ad94eb65a0e417e8222",
+    "research/astra-centered-78.md": "0df492027dd4d4c0240174e52a2287d653860f8f51e55472d15e090da5604c8a"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-newton-77-check.py": "3ff957614cde2af338cb9b1645816fc430644793afcb5e28ef09a4f4dbf3bcd1",
+    "research/astra-newton-77-checks.jsonl": "41fb9ade65fbcb6bf7f33a7925896afc89909e63988e0785b5d45185ffce690b"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 4,
+  "arithmetic_record_counts": {
+    "finite_endpoint_interval_records": 4
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "The four Arb512 infinite-window records replayed byte-for-byte under pipefail in the main and independent audit processes. Finite active supports are proposed by the existing LP and certified by an interval solve and complementary orthogonality.",
+    "Certified fixed d=4, fixed starts and allowances, and deficit cutoff 1/40 and normalized density cutoff 1. The counts are 17/17, 20/20, 24/20 and 40/36. The maximum ratio enclosure has upper endpoint 0.0876232."
+  ],
+  "proof_scope": [
+    "For any true fixed-supercritical primary probability, a real comparison z <= q, and arbitrary deletion below the stated Jacobi threshold, the available log-star gap above max(2, sqrt(n)||P_forbidden z||_2 + n^(1/4) exterior remainder mass) is at most C times (1 + n||P_allowed z||_2^2 + sqrt(n)(-z_0)_+). This ordinary estimate uses the exact signed drift with the actual marked source isolated; it needs a suitable actual comparison to preclude unrestricted supercriticality.",
+    "For the actual infinite one-sided geometric windows, every bulk deficit r_s > u has opposite height R_-s > (2d+1)u. A fixed supercritical gap forces deficit price bounded below and order-d height and collision on the same intermediate-density sites even after removing any N/M_E^2 sites. N=exp[J/(8(d+1))], J=floor(D/8). The selected polynomial-length windows give stretched-exponential N; the main analysis also gives the prescribed start 1 with d=floor(J/(16 log J)), N asymptotic to J^2, allowance 4/(d+1), and an exact signed linear bulk height objective.",
+    "For actual V30, the centered exact Newton Taylor remainder in counting second norm is at least c sqrt(n) on all but any prescribed small measure fraction of each compact positive-length real subinterval of the radius-1/4 disk, for all sufficiently large eligible primes. The measure constant is non-effective. Connectedness and weak compact coset limits give positive leading-square variance, and a holomorphic scalar equation and real marked restoration transfer this to the actual row. The argument uses the inherited interval-backed proxy bridge and makes no new interval computation for the complex route. A simultaneous linear-defect versus true-residual tradeoff holds there for all real corrections."
+  ],
+  "independent_review": [
+    "Audited sector costs and true signed drift, the sign of the marked source, normalized pairings and the tower budget. Checked deletion coherence for all allowed A.",
+    "Audited geometric coefficient ratio, prefix energy count and exact tail, paired pins, intermediate band and budgets of (3). Independently replayed all four finite records. Main separately checked the decreasing weighted energy telescope for the added prescribed start and its geometric tail and Mellin bounds.",
+    "Checked Katz's connectedness and arithmetic coset results and Rojas-León's tame singularity support directly. Independently verified the square variance, holomorphic order-62 witness, bounded approximability, and true marked/inexact-correction transfers. Clarified arithmetic semisimplification and proxy/actual coefficient scope after review."
+  ],
+  "next": [
+    "Bound surviving weighted opposite height or signed Schur price on one true larger-primary optimizer uniformly through all eligible primes.",
+    "Seek an actual feasible comparator with small same-sector energy and sufficiently small exterior iterated-log budget.",
+    "The single real floor 2031/128, the 600-step centered remainder, common physical cold-end continuation, and unrestricted ETH Problem 26 remain open."
+  ],
+  "window_closeout_workflow": "Two real estimates and one centered complex-route obstruction, with four finite interval records and independently ranked recommendations. No new floating-point result accepted as proof.",
+  "committed": false,
+  "pushed": false
+}

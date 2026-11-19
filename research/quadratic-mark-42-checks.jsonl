@@ -1,0 +1,3 @@
+{"degree": 60, "exponential_threshold": "22731/20000", "integral_lower": "39713/50000", "integral_upper": "79435/100000", "kind": "quadratic_reciprocal_exclusion", "lhs": "5735537491/18184800000", "log_threshold_upper": "16/125"}
+{"correction_constant_lower": "9/10000", "correction_slope_absolute_upper": "1/5000", "degree": 60, "exponential_mark": "57/50", "kind": "affine_only_reciprocal_model"}
+{"degree": 80, "kind": "moving_cold_floor_bound", "normalized_mark_loss_upper": "21/200", "pi_upper": "22/7", "weighted_integral_lower": "80747/100000"}

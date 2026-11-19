@@ -1,0 +1,7 @@
+{"exact_json_replay_equal": true, "file": "research/astra-hardtail-33-exact.jsonl", "kind": "replay_passed", "records": 9, "sha256": "4ee57db75c8c8b8224e67d8d7f70e4da70e87f7b6a20a0d6e98c55760f5ce4a1"}
+{"exact_json_replay_equal": true, "file": "research/astra-hardtail-33-actual.jsonl", "kind": "replay_passed", "records": 41, "sha256": "b3d28983c6db61d52184be98422ed712963db1f4b1ab00f903e88a283dfe4a4c"}
+{"exact_json_replay_equal": true, "file": "research/astra-hardtail-33-certified.jsonl", "kind": "replay_passed", "records": 10, "sha256": "dfc9f23580c9d7d788e5ce5be757f04c6a3098b58f8135f169dc4128d97588a1"}
+{"exact_json_replay_equal": true, "file": "research/astra-hardtail-33-certified-floor01.jsonl", "kind": "replay_passed", "records": 10, "sha256": "0f0d0b04ebbf06b29033dce267454737e4c5fd5978928b9c238373562fbc68c0"}
+{"exact_json_replay_equal": true, "file": "research/astra-hardtail-33-certified-floor001.jsonl", "kind": "replay_passed", "records": 10, "sha256": "b749a1c3eeb059090e5246cc13fed368225799c0d310612131d015dd7a9998b6"}
+{"exact_json_replay_equal": true, "file": "research/astra-hardtail-33-hot-certified.jsonl", "kind": "replay_passed", "records": 4, "sha256": "5bc23cc0df32ab93e64cdef5a72c596052e8da896ae10786758128a29417b0fb"}
+{"ETH26_ordinary_theta": "open", "cold_exact_stationary_sides": 18, "cold_hinge_knots_certified": 2280, "hot_exact_stationary_sides_with_ratio_gt_one": 2, "kind": "all_checks_passed", "primary_records": 84, "uniform_cold_HR": "open"}

@@ -1,0 +1,90 @@
+{
+  "round": 79,
+  "accepted_at_utc": "2026-11-19T04:22:02Z",
+  "previous": "research/round-78-acceptance.json",
+  "previous_sha256": "f159d0b7500fed2a3ad7c2292e13b6c1afdfddb3d57b460ed5e5d1128066051d",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/excess_79",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Obtain a prime-uniform o(D) surviving flat height price on one true larger-face optimizer.",
+        "Test the nonconstant allowed Fourier correlation; if it falls below the threshold, test the retained-diagonal signed interaction on the explicit underestimation set."
+      ]
+    },
+    {
+      "name": "/root/fixed_79",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "For a size-dependent horizon, bound the genuine centered residual on a cap-controlled common tube near 2031/128.",
+        "At growing horizons, estimate the cumulative two-circle dissipation that is lost in the d/r rank bound, and test its effect on the actual marked coordinate."
+      ]
+    },
+    {
+      "name": "/root/audit_79",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Certify one genuine larger-side terminal height LP with attainable o(D) value through all prospective supercritical primes.",
+        "Use the actual allowed Fourier correlation or the continued signed Schur price according to the compact concentration alternative; on the cold complex branch pursue growing predictor depth."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the finite companion with one true terminal projection, characterize the surviving cost on a genuine larger primary face, and seek a prime-specific uniform upper. Vary the selected terminal times without assuming a common subset of expensive sites.",
+    "Separate the allowed Fourier correlation and the deterministic underestimation set at the same tower-scale deletion budget. Estimate the signed Schur interaction on the surviving set.",
+    "Try quantitative or cumulative two-circle control for a predictor at field-dependent depth. The centered tests at fixed heights 30 and 600 are closed failure paths at the distinguished floor."
+  ],
+  "proof_and_code_sha256": {
+    "research/full-depth-height-79.md": "fffbd9b634e4375be153dc43490457ae235b65f3579dac6e3ef0d5c49a1a6b7d",
+    "research/terminal-height-79.md": "cce1001c879a8cb511c72da904c1f3a46a49b590c1cddb8f120c26d7e15b5e36",
+    "research/astra-excess-79.md": "c0c222d53a37ee86d3a560f33b099248589f9eb6cb2871e22f260fe8594338bf",
+    "research/astra-excess-79-check.py": "eefe6a9dc7a4369741a416f080da8085b9da479947b69c57aea020479b3714ec",
+    "research/astra-excess-79-checks.jsonl": "3ebb832e99304a1d2ef5cbc8d887e9902fd1127b6b8f9a9501bbe5841344c45b",
+    "research/astra-fixed-79.md": "7cc7526d04f12499f5a437ab3f4ef306d228bc7a2b35443964308601f0f70e71"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-fourth-75-check.py": "f7b807c25f0cd8981209d68b45eb3c6ee9aa401b2f24af78d92161c276cfcebf",
+    "research/astra-fourth-75-checks.jsonl": "d68f9730fd35355bd4a780591d72e54a34c0e51a0b0cd58775c4f293abb5a09d",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-predictor-76-checks.jsonl": "6c38965a6494576c6f881703cd41324bb74a7c11959b2fcb717c822541ecbfa9"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 4,
+  "arithmetic_record_counts": {
+    "finite_endpoint_interval_records": 4
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Round-79 triangular/flat Arb384 records at p=101, 257, 409 and 769 reproduced byte-for-byte under pipefail in the author, main and independent audit processes. The compact coefficient check is exact through 512.",
+    "Replayed the inherited 30/64-step and 600-step prefix enclosures byte-for-byte under pipefail. These are dependencies, not new stationary enclosures. Actual active systems in the finite endpoint check are interval-certified after numerical support proposals."
+  ],
+  "proof_scope": [
+    "For fixed supercritical gap, true one-sided geometric pairs run at d proportional to D(p) across order-D early starts. Weighted energy bounds future projected marks. A positive-part envelope attaches 1/(d+1) to the actual future deletion price. The joint height and collision remain order at least d after arbitrary deletion of up to d exp[J/(8(d+1))]/M_E^2 sites, with the stated small fixed fraction and allowance.",
+    "A compact triangular/flat pair on the first floor(D/4) times cancels the right boundary exactly. It gives a true joint high-height intermediate-density price of order at least D(p) after arbitrary deletion of at most H^2/M_E^2 sites, when log-star H is at most (3/4-xi) log-star p. A positive bounded Mellin test for the excess deficit provides an alternative between nonconstant allowed Fourier correlation at least delta/16 and surviving normalized collision at least c_delta tau^(-2) on a deterministic exceptional set of relative size O_delta(tau^2).",
+    "A formula for arbitrary companion weights specializes to one unpinned true terminal projected row at each of at least J/4 good terminal times, J=floor(D/8). Finite trajectories suffice for log-star H up to (7/8-xi) log-star p, with the same H^2/M_E^2 deletion. The height and collision conclusion is separate at each selected time. The primary-face LP fixes the window, mask and deleted sites while imposing a lifted exterior clipped-mass constraint.",
+    "For all sufficiently large eligible primes the actual marked Jacobi predictors at heights 0-30 on |t-a|<=1/4 and 0-64 on |t-a|<=1/128, and the actual nine-center predictors at heights 0-600 on |t-a|<=2^(-17), have both real residual and centered exact Newton remainder at least c sqrt(n) in counting L2. Here a=2031/128, constants are non-effective, and all intervals are real. Complex stationary continuation at unbounded sizes is not established. The proof uses two-circle Poincare and Dirichlet contraction on compact Mellin cosets, analytic backward uniqueness for the finite prefixes, and physical marked restoration."
+  ],
+  "independent_review": [
+    "Checked the weighted mark and defect tail, pin allowance and constants, exact general finite pairing and both boundary signs, time selection, actual Mellin budget and deletion mass estimates. The fixed-mask LP upper would require feasible attainment at the actual larger-side mark and uniform scope.",
+    "Checked triangular/flat pairing and exact density, collision and conditional concentration estimates. Main also checked nonnegativity and the Fourier/exceptional-set budget; no assumption of uniform Mellin weighting by the primary endpoint is used.",
+    "Independently reviewed the two circle construction via Katz boundary weights and Schur orthogonality, pooled rank denominator, compatible Hausdorff/Haar limit, analytic identity theorem and nine-center Laurent units, graph-norm sign composition and exact marked transfer."
+  ],
+  "next": [
+    "Find a prime-uniform attainable o(D) upper bound for one surviving true larger-face height objective or a strict signed Schur deficit on the same genuinely priced support.",
+    "Quantify the actual centered residual at growing predictor depth or use Dirichlet energy dissipation to construct a common physical branch.",
+    "ETH Randomstrasse101 Problem 26 remains open."
+  ],
+  "window_closeout_workflow": "Three real analyses and a two-circle fixed-height complex-route obstruction. Four new finite endpoint interval records, separate inherited replays, independently ranked closeout, and no floating-point extrapolation.",
+  "committed": false,
+  "pushed": false
+}

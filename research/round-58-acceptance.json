@@ -1,0 +1,95 @@
+{
+  "round": 58,
+  "accepted_at_utc": "2026-11-18T14:50:21.278748+00:00",
+  "previous": "research/round-57-acceptance.json",
+  "previous_sha256": "ec5044a7f5525f81afd320087673e7982adb1dae7869f641e7ec725d6422864e",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/ranknext_58",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Enumerate low-degree sources with matching dimension and two-twist signature across adjacent activations, and test arithmetic equivalence. A strict overlapping rectangle below 2031/128 confirms the gain. Exhaustive unequal signatures or trace distinctions reject the tested finite source list.",
+        "Retain a signed residual packet across activations and test an invariant below 2031/128. A fully debited lower escape rejects that specified propagation; phase and local modulus changes alone are already excluded for the unsigned map."
+      ],
+      "prefix": "research/astra-ranknext-58"
+    },
+    {
+      "name": "/root/jointface_58",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use actual support-conditioned directed flows with fixed mark, outgoing mass budget, Fourier-zero divergence and one pair for all thresholds. A charged one-time cost o(t) through every prime proves the limit. Positive charged lower bounds throughout the late window on an unbounded prime sequence reject the stated edge dictionary.",
+        "Test the marked commutator of a cheap empirical plan. A normalized marked commutator below 2 minus a fixed margin with RMS o(1) is excluded, so positive transport must handle sector mixing on the actual endpoint marginals."
+      ],
+      "prefix": "research/astra-jointface-58"
+    },
+    {
+      "name": "/root/review_58",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Compute the exact centered compact-model polynomial source variance through degree 32 at t=5. With the current pointwise proof, strict transfer below .017 confirms the gain; a certified transfer lower bound at least .017 excludes improving only the variance estimate."
+      ],
+      "role": "independent audit of the new positive trial"
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-ranknext-58.md": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-jointface-58.md": "ca430f8421233cc071dff6697af76f060fcc7f5965fdbbe81c4869d87b6e9b7f",
+    "research/astra-jointface-58-check.py": "dde96aeb98f2a08abd22810737c050ac2078b933277c59966d4cc44ab2b0d6d7",
+    "research/distinguished-positive-58.md": "923560ef236ca3560472070b5e8a82e322480efcc3ef80bf79730469e1f50e52",
+    "research/distinguished-positive-58-check.py": "ff8dac07340ada00542687af5907e41135a49f0af7282fbc1c2a8847537591c1",
+    "research/astra-ranknext-58-probe.py": "dced54fbea0ac22d26d9234a3eaaee6ce1d739114fc956ae3bf7d436d073aee5"
+  },
+  "core_records": 10,
+  "replay_checks": [
+    {
+      "file": "research/astra-ranknext-58-checks.jsonl",
+      "records": 4,
+      "sha256": "21867b2d80e7296381694ffd88ccc3340e1073207cd60f74e8bfcf320570760a",
+      "scope": "Integer arithmetic scalar and two-node signature controls; ten Arb192 complex slabs; two arbitrary-phase annulus escape certificates.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-jointface-58-checks.jsonl",
+      "records": 3,
+      "sha256": "995fed63c4cb0a90d0a3c3cf4f7150ff6886da20befd6bc92990fc17a12c7e32",
+      "scope": "Arb384 finite directed averaging identities, true support-conditioned flow improvement, and strict common versus separate LP minimum gap at p=97.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/distinguished-positive-58-checks.jsonl",
+      "records": 3,
+      "sha256": "36775a00c38cced2dd31e831713a9d30ad528ab3c2b16d94b2a73c75081f7bb8",
+      "scope": "Arb192 check of 5184+192+256 closed slabs for three stationary mark bounds with strict product positivity.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "The actual common marked section contains 1040034/65536<Re t<1040054/65536, |Im t|<1/1048576, |m_q|<=3/sqrt(n). It overlaps round 57 and applies to sufficiently large eligible primes and prime squares.",
+    "At 2031/128 and 1015/64 the full four-seed arithmetic positive root system escapes at heights 1403 and 377, uniformly over all fourth-coefficient phases and relative modulus bands 1e-4 and 1e-3, respectively. The preceding three coefficients are fixed. The true branch is undecided there.",
+    "For the field K(xw), exact fifth and sixth conditional moments are X/1024 and 15/8+1/8192. The rank-four to rank-five packet weight relation is explicit. Three leading two-node inner sources have disjoint dimension/twist-diameter signatures, so their outer linear C1 channels cannot cancel across those families.",
+    "One degree-16 update from three explicit distinguished fields yields strict stationary mark limsup below .01699 on [83/16,31/5], .0199 on [5,83/16], and .0258 on [19/4,5], with strict scaled bulk product lower bounds 1.49, .92 and .52. The conclusion covers primes and prime squares by their shared older compact law.",
+    "A common affine self-map of the probability simplex preserving both sector classes is bistochastic and commutes with K. If it preserves both optimal root marks, every occupied transition fixes the entire cold history and hence the two score laws. A general sector-preserving bistochastic empirical plan has antipodal RMS at least sqrt(8)-o(1) at every time of the proved growing window. A marked commutator bound quantifies the necessary sector mixing.",
+    "At p=97,t=32 a true support-conditioned flow improves the common objective by more than .003649205 while a full common minimum still exceeds the integral of independent threshold minima by more than .000217. This is finite evidence."
+  ],
+  "independent_review": [
+    "Checked the signed odd determinant factors, weighted deduction from the old upper envelope, higher-degree lower debits for arbitrary phase, and branch identification on the real overlap.",
+    "Checked bistochastic fixed-root rigidity, directed Dirichlet identity, root-incident antipodal bound, marked commutator and both finite true-face inequalities.",
+    "Fresh Astra checked the exact finite-q difference including corrections after K, the conditional covariance, the common prime/square law, and replayed all 5632 slabs. Main tightened the wording of the variance-transfer rejection criterion.",
+    "All ten final core records replayed byte for byte. Floating cap search and finite-prime RMS substitutions have diagnostic scope only."
+  ],
+  "next": [
+    "Carry a signed residual across two vertices for matching arithmetic signatures. Use the annulus escape and disjoint-signature test to avoid repeating single-node unsigned prescriptions.",
+    "Compute the exact compact polynomial variance at t=5 and seek stronger pointwise difference control below 5. Finite RMS substitution at t=5 motivates the test and is not a uniform result.",
+    "Estimate support-conditioned directed flows for the actual common pair across thresholds, retaining the growing prime window and energy charge. The shared positive sector-class map is rigorously excluded as a remedy.",
+    "Continuation to 1/2, matched-depth positive completion and the all-prime ordinary Lovasz theta limit remain open."
+  ],
+  "window_closeout_workflow": "Each research route supplied two ranked follow-ups with falsification conditions, and the separate audit supplied the exact compact variance test. Main independently checked and consolidated the proofs, receipts and failures.",
+  "committed": false,
+  "pushed": false
+}

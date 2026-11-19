@@ -1,0 +1,92 @@
+{
+  "round": 60,
+  "accepted_at_utc": "2026-11-18T15:34:13.164897+00:00",
+  "previous": "research/round-59-acceptance.json",
+  "previous_sha256": "2a24fb1967faafc852c7a6b1f4c2ee9ce06f0ec5016395bea4309d8d984b4244",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/rankeight_60",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-rankeight-60",
+      "ranked_closeout": [
+        "Use the exact Sp8 variance and fourth moment in a strictly improved uniform positive one-step estimate. Main incorporated both moments and certified the new slabs.",
+        "Keep old residual siblings with tagged pairs or carry nontrivial new-factor sectors through adjacent nodes. A strict invariant crossing 2031/128 succeeds. A fully debited escape and a surviving growth term reject the specified dictionary."
+      ]
+    },
+    {
+      "name": "/root/halfturn_60",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-halfturn-60",
+      "ranked_closeout": [
+        "In a rigid branch bound the actual reference charged value. In a movable prime quotient solve the odd Fourier equations only on the unique folded support. An o(t) upper trial at one growing-window time on every prime suffices, and a positive linear lower bound at every late time on unbounded primes rejects the specified dictionary.",
+        "For composite quotients and larger directed dictionaries impose the coset-channel and translated path-crossing constraints on the actual exposed supports. Evaluate the charged objective after those constraints, with the same rows across thresholds."
+      ]
+    },
+    {
+      "name": "/root/review_60",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "independent signed expansion, two arithmetic twists, finite normalization and moment audit",
+      "ranked_closeout": [
+        "Retune at 35/8 and seek mark below .017 with strict product positivity throughout [35/8,143/32]. A rigorous lower bound at least .017 on the fixed transfer expression at one point rejects only that profile. The present profile gives expression about .018635 at 35/8."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-rankeight-60.md": "33b777c67e958dbe80ca3aba5a25f79de75aa6a8f5faa1370495be6bddcb724a",
+    "research/astra-rankeight-60-check.py": "3f4ed5fe3b72d0005d733e28c35aeeb3444dca97fb486ef5798c6b9f33ce7b8c",
+    "research/astra-halfturn-60.md": "18ecb54839f71109ef34695d65370ccf2945bdb8ea3b54834a6a60405b1ec062",
+    "research/astra-halfturn-60-check.py": "f590168cc68b947ad6e839da84477e09000c3ad3f1c3327de753131de4e3ce0f",
+    "research/signed-compact-60.md": "792b7716c668ecbc62c05b0394cff5fac2ea4c6d88bbc16892d9dc0b9c9a47b5",
+    "research/signed-compact-60-check.py": "e3c689a6f143d1f37e36cb895250039245295f5c29e52ea0679dc478dde4dcf0"
+  },
+  "core_records": 17,
+  "replay_checks": [
+    {
+      "file": "research/astra-rankeight-60-checks.jsonl",
+      "records": 7,
+      "sha256": "6a1af6d580df397371c9ed988ce66647b046de83e47cb75bdcb7cb76406e92a3",
+      "scope": "Two exact representation checks, four exact finite norm-one identities, and the Arb192 fully debited all-pure-tag-return escape.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-halfturn-60-checks.jsonl",
+      "records": 6,
+      "sha256": "653e1b662f4e19219589d24afccbce1165ccdf93ac9a58bbe1a735b5038399ea",
+      "scope": "Three strict rational quartic cross-product checks, two Arb384 fixed-prime charged windows, and the exact sharp p=13 face and path check.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/signed-compact-60-checks.jsonl",
+      "records": 4,
+      "sha256": "3ec0458be459992a45acdbec703856c0ad8ed6936f80242abfd40ae902f512ee",
+      "scope": "Two-sided pointwise radius and its extended transfer at 19/4, and three Arb192 certificates covering 656 rational closed slabs.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "The cross Legendre negative lift has arithmetic and geometric group Sp8, with determinant 1 and joint derived independence from all previous factors. The arithmetic sign uses a norm-one quadratic-character identity and two orthogonal indicators extended in each characteristic. A rank-drop contradiction excludes the triple SL2 tensor group. The finite identities only check normalization.",
+    "At 2031/128 the specified disjoint-two-level grouping with every pure-tagged old return, full unary C2 grouping and full old multipliers still escapes at height 2146. This proof applies to that packet propagation. The established common actual marked domain has the round-58 reach.",
+    "Rank-three signed and prior Legendre collection plus seven fixed-field projections certify the actual limiting absolute mark below .019 on [35/8,143/32] and .01699 on [143/32,309/64], uniformly over these closed floors through the eligible primes and prime squares. The mathematical transfer uses exact compact moments; outward interval arithmetic checks the scalar inequalities. At 19/4 this specified collected radius is above the old three-field threshold, while the seven-field transfer is below .0148.",
+    "For a prime-index quotient every moved H-Fourier channel on opposite-unexposed H-cosets forces the corresponding channel of the opponent to vanish everywhere. For p=4l+1 with prime l, either neither true face moves by the half-turn, or the entire one movable face is accessible and the opponent is unique. The latter face dimension is bounded by the Jacobi signed frequency difference. The translated path identity holds for actual directed flow on every eligible prime.",
+    "Rational certificates exclude half-turn motion at 53,173,317 and a finite example at 13 attains dimension one. The certified positive charged normalized minima at 53 and 173 refer to the fixed integer window [16,32] and specific certified references, with no prime-uniform lower claim."
+  ],
+  "independent_review": [
+    "Main checked the norm-one sign identity, sign-preserving finite pushforward and rank contradiction, and replayed all seven group and propagation records.",
+    "Main checked the prime Fourier support argument, the folded theta objective including the root mass factor and the translated opposite-exposure path identity, and replayed all six flow records.",
+    "Fresh Astra checked twist pairing for every retained Pieri degree, all Legendre degrees, both endpoint debits, finite transforms and all mixed moments, and verified the scope of the 656 closed slabs. It found that upward rounding alone did not prove the advertised lower radius endpoint. Main added an independent downward sum over all terms, and replayed the four records byte-identically with the final checker."
+  ],
+  "next": [
+    "Prioritize a prime-uniform upper trial for the full-face one-time charged objective or a genuinely depth-matched nonnegative completion. Keep exact exposed support and Fourier constraints and the E_t/4 debit. The new quotient and crossing obstructions select which row changes can participate.",
+    "For actual marked continuation, test mixed old siblings with the two new tagged factors contracted to the unit. At arity j retain the full binomial multiplicity j choose 2 and the signed coefficient on each old residual label. Debit uncollected families before concluding any improvement below 2031/128.",
+    "Record the reviewer test of smaller real floors as a secondary scalar benchmark. Any positive improvement must eventually carry a depth-dependent proposal to close the main positivity gap.",
+    "Continuation to 1/2 and the all-prime ordinary Lovasz theta limit remain open."
+  ],
+  "window_closeout_workflow": "Collected two ranked follow-ups from each research route and one ranked test from the independent reviewer. Main incorporated the exact Sp8 moments, fixed two-sided rounding, consolidated the routes and verified the final receipts.",
+  "committed": false,
+  "pushed": false
+}

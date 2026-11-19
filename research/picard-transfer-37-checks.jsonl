@@ -1,0 +1,4 @@
+{"checked_steps": 50, "kind": "arb_actual_picard_transfer_check", "mean_square_mark_error": "[0.00616150370479338698 +/- 4.25e-21]", "order": 13, "precision": 256, "stationary_mark": "[-0.190801271468714724 +/- 1.76e-19]", "tau": "1/20"}
+{"checked_steps": 50, "kind": "arb_actual_picard_transfer_check", "mean_square_mark_error": "[0.00354451179827524370 +/- 4.36e-21]", "order": 17, "precision": 256, "stationary_mark": "[-0.185106120911530675 +/- 1.50e-19]", "tau": "1/20"}
+{"checked_steps": 50, "kind": "arb_actual_picard_transfer_check", "mean_square_mark_error": "[0.000597648328591836580 +/- 3.29e-22]", "order": 113, "precision": 256, "stationary_mark": "[-0.0148512763752442031 +/- 4.23e-20]", "tau": "1/20"}
+{"checked_steps": 50, "kind": "arb_actual_picard_transfer_check", "mean_square_mark_error": "[0.0313784520596766004 +/- 4.17e-20]", "order": 121, "precision": 256, "stationary_mark": "[0.235754438107173575 +/- 4.90e-20]", "tau": "1/20"}

@@ -1,0 +1,62 @@
+# The remaining six shifted transports have independent derived factors
+
+In the eight shifted transports of round 66, the two rank-six fields belong to the old rank-four group by the arithmetic exterior-square identities of round 67. The remaining four rank-seven objects give **two new independent \(\mathrm{SL}_7\) derived factors**, each with a standard and its dual. The remaining two rank-eight objects give **two new independent \(\mathrm{SO}_8\) factors** in their defining eight-dimensional actions. These conclusions hold uniformly on the eligible fields. In a product of a single shifted trace with a multiplier from the old nine-center group, the two rank-six transports are the only ones that can combine with a direct old label. [The eight weight lists and duals](astra-shifted-66.md#transport-and-compact-feedback) · [Arithmetic rank-six identities](astra-rank-six-67.md)
+
+Here \(L\) denotes the arithmetic Jacobi line, \(\chi\) is the Mellin twist, and \(Z_{s,F}=\mathcal T(L^{\star s}\star F)\). The two new rank-eight objects are \(Z_{+,D}\) and its twist \(Z_{-,D^\vee}\). The four rank-seven objects are \(Z_{s,U},Z_{s,U'}\) for \(s=\pm1\). We use the normalized arithmetic objects before the physical minus sign of the transport.
+
+## The new rank-seven pair
+
+The two nondual choices \(Z_{+,U},Z_{-,U}\) have the following Deligne-fiber lists.
+
+| Object | At the trivial character | At the quadratic character |
+| --- | --- | --- |
+| \(Z_{+,U}\) | \((-5,-1,-1,1,1,1,1)\) | \((0^6,3)\) |
+| \(Z_{-,U}\) | \((-3,0^6)\) | \((-1,-1,-1,-1,1,1,5)\) |
+
+At \(Z_{-,U}\) the trivial fiber exhibits a single unipotent block of length three at zero and no unipotent part at infinity. At \(Z_{+,U}\) the quadratic fiber has the opposite arrangement, so apply the same criterion after the quadratic twist and inversion. Each local system is geometrically irreducible with the unique interior singularity at one. This excludes every nontrivial multiplicative translate. Katz's single-boundary criterion gives geometric and arithmetic \(\mathrm{GL}_7\) in both cases. Their arithmetic determinant is \(L^3\), as computed in round 66. The \(U'\) objects are the respective arithmetic duals. [Katz, Theorems 16.1 and 17.1](https://web.math.princeton.edu/~nmk/mellin331.pdf)
+
+For independence, the two listed objects have ordered weight diameters \((6,3)\) and \((3,6)\). Every earlier rank-seven standard or dual on the old rank-five–six–seven family has unordered diameters \(\{3,4\}\). A rank-one twist shifts a weight list uniformly and duality negates it. Thus neither new standard matches an old one up to those operations, and the two new standards do not match one another. The only other old factors have different simple Lie types. A proper subdirect product identifying two \(\mathfrak{sl}_7\) factors would identify their standard representations up to duality and a rank-one twist, by the automorphisms of \(\mathfrak{sl}_7\). The differing diameters rule this out. The argument applies to a same-twist comparison in the full arithmetic family, where the Jacobi line is shared. [Goursat–Kolchin–Ribet](https://web.math.princeton.edu/~nmk/mellin331.pdf) · [The old rank-seven lists](weighted-arithmetic-57.md#constituents-and-boundary-weights)
+
+## The rank-eight pairing is symmetric
+
+Write \(S=\operatorname{Sym}^2_\star N\) for the symmetric square in the convolution category of the determinant-one Legendre object, so \(D=\mathcal T(S)\). Put \(P=L\star D\) and \(Z=\mathcal T(P)=Z_{+,D}\). It is simple and arithmetic self-dual, with arithmetic determinant one, by the two exact transports in round 66. In an extension of the fixed base of size \(u\), write \(B=\ker(N_{\mathbb F_{u^2}/\mathbb F_u})\) and \(\xi\) for the quadratic character of \(B\). On \(B\setminus\{1\}\) the larger field satisfies \(\chi(1-a)=-\xi(a)\). Each extension \(\beta\) of \(\xi\) to \(\mathbb F_{u^2}^\times\) is good for both \(D\) and \(P\). Its Jacobi-line Mellin value is one: \(\beta^u=\beta\chi\), the two Gauss sums agree with the trace-pulled additive character, and the quadratic Gauss sum over \(\mathbb F_{u^2}\) is \(-u\). Thus \(P\) and \(D\) have identical Mellin traces on these extensions, and Fourier orthogonality on \(B\) gives
+\[
+\sum_{a\in B}\xi(a)t_P(a)=\sum_{a\in B}\xi(a)t_D(a).
+\]
+The two ordinary twists then yield the exact identity of norm-one sums
+\[
+\sum_{a\in B} t_Z(a)=\sum_{a\in B} t_S(a)-t_S(1)+t_P(1).
+\]
+Here \(t_Z(1)=t_D(1)=0\). Both remaining stalk terms are \(O(u^{-1})\) because \(S,P\) are pure nonpunctual simple middle extensions. The norm-one indicator of \(S\) is \(+1\), since the symmetric square of the two-dimensional determinant-one standard has an orthogonal pairing. The limit of the identity therefore gives indicator \(+1\) for \(Z\), uniformly over choices of the base. The quadratic twist has the same symmetric pairing. [Jacobi line on norm-one extensions](astra-primitive-62.md#the-arithmetic-orthogonal-form-after-a-second-activation) · [Katz, Chapters 8–10](https://web.math.princeton.edu/~nmk/mellin331.pdf)
+
+## Each orthogonal group is full, and the two are independent
+
+The geometric group of \(Z\) is connected. In its tensor category products are tame and lisse away from the same interior point one, with punctual summands allowed only at one by local convolution. Thus the only simple punctual object is the unit and Katz's connectedness criterion applies. The connected geometric group is semisimple because a connected central torus of an irreducible group would act by scalars and the scalar subgroup in the orthogonal group is finite. The arithmetic group lies in \(\mathrm{SO}_8\) by the symmetric pairing and the exact determinant.
+
+At the first twist the weights of \(Z\) are
+\[
+(-5,-1,-1,-1,1,1,1,5).
+\tag{1}
+\]
+They are the weights of a cocharacter in the geometric group. Indeed the absolute-value cocharacter of the bad-character Frobenius is in the arithmetic group by Katz's Frobenius-torus theorem. The connected geometric group has finite normalizer quotient here. Its connected automorphisms are inner and its centralizer is scalar and finite. Taking a power of the Frobenius therefore gives the same numerical cocharacter in the connected geometric group. [Katz, Corollaries 6.7 and 16.2](https://web.math.princeton.edu/~nmk/mellin331.pdf) · [Tame local convolution](https://arxiv.org/pdf/1106.1398) · [The earlier rank-eight dimension analysis](astra-rankeight-60.md#the-connected-group)
+
+For an irreducible connected semisimple group acting in dimension eight, a product action has nontrivial factor dimensions \(2,4\) or \(2,2,2\). In the first case (1) would partition into four pairs with the same nonnegative difference. The pair containing \(-5\) forces this difference to be 4, 6 or 10. Pairing \(5\) at the same difference leaves values \(\pm1\) that cannot realize it. Difference zero is excluded by the simple extrema. In the second case the tensor of three two-dimensional standards is alternating. Equivalently its weights have the cube form \(\pm a\pm b\pm c\). In that form one can choose \(a,b,c\ge0\), and a simple maximum 5 requires all three positive. A value obtained by reversing the smallest of their signs satisfies \(5-2\min(a,b,c)\ge5/3\) and is strictly below 5, contradicting (1).
+
+For a simple group the dimension-eight list from the Weyl dimension formula comprises the standard or dual of type \(A_7\), the seventh symmetric power of \(A_1\), the adjoint of \(A_2\), the spin of \(B_3\), the standard of \(C_4\), and the vector and two half-spins of \(D_4\). The \(A_7\) standard cannot be self-dual. The \(A_1,C_4\) cases are alternating. The \(A_2\) adjoint has zero weights, absent from (1), and the spin weights of \(B_3\) have the same excluded cube form. The \(D_4\) cases have image \(\mathrm{SO}_8\) up to the triality change of representation. This exhausts the cases. Consequently \(Z\) and its twist each have geometric and arithmetic group \(\mathrm{SO}_8\).
+
+In the joint group of these two objects, the first-twist Frobenius cocharacter has weights (1) on \(Z\), and every weight is zero on the exchanged lift. If the two simple derived factors were identified, a cocharacter trivial on the second defining representation would also be trivial on the first, since each projection of the diagonal simple factor has finite kernel. This excludes a graph even under triality. The other old and new simple Lie types are different from \(D_4\), including the earlier symplectic rank-eight source. Goursat therefore gives the two new orthogonal groups independently of each other and of the rest of the group. [Exchanged lift and determinant](astra-shifted-66.md#transport-and-compact-feedback) · [Frobenius-torus argument and product criterion](https://web.math.princeton.edu/~nmk/mellin331.pdf)
+
+## Arithmetic projections for the next feedback
+
+Over the entire old arithmetic group the four new derived factors form a full product. The two new standard matrices of size seven have prescribed determinant \(L^3\), and the two new matrices of size eight lie in \(\mathrm{SO}_8\). The exact determinant constraints and surjection onto the old group identify the whole enlarged group: its kernel over the old group contains the two \(\mathrm{SL}_7\)'s and the two \(\mathrm{SO}_8\)'s just proved to be independent. Over the compact old probability law this gives independent conditional Haar laws on the two determinant cosets of \(\mathrm{SU}(7)\) and the two copies of \(\mathrm{SO}(8)\).
+
+If \(T=\operatorname{tr} M+\operatorname{tr} M^\vee\) for one of the rank-seven pairs, then its moments of orders \(2,4,6\) are \(2,12,120\). The odd moments below degree seven vanish. At degree seven the only terms are the determinant and its inverse, each with multiplicity one. In the positive Jacobi convention their sum is \(-m^3-m^{-3}\). The even evaluations follow by expanding the balanced words and counting the \(k!\) unit contractions in the standard to power \(k\) against its dual to power \(k\), for \(k=1,2,3\). For the rank-eight orthogonal standard the first even trace moments are \(1,3,15\) at orders \(2,4,6\), from the independent invariant pairings. Odd powers have no unit because \(-I\in\mathrm{SO}_8\).
+
+The exact table through degree 28 uses the minuscule tensor rule. The weights of the orthogonal vector are the eight steps \(\pm e_i\), retained only when the new weight lies in \(\lambda_1\ge\lambda_2\ge\lambda_3\ge|\lambda_4|\). The scalar is the multiplicity at zero. For the unitary standard and dual, the fourteen steps \(\pm e_i\) instead use the decreasing integer \(\mathrm{GL}_7\) chamber, and a constant row \(j(1,\ldots,1)\) contributes \((-m)^{3j}\) with its multiplicity. These rules follow from the Weyl character formula by distributing the minuscule weights inside its antisymmetrized numerator. When a step leaves the dominant chamber it reaches a wall after the Weyl-vector shift, where the numerator vanishes. In particular the orthogonal eighth moment is 106. The table supplies the conditional moments for each independent factor, and ordinary multinomial convolution combines the four factors. [Integer checker](shifted-groups-68-check.py) · [Moment record](shifted-groups-68-checks.jsonl)
+
+A single new non-rank-six shifted trace has conditional mean zero on the full old group. Thus its product with any old arithmetic multiplier has zero projection onto all direct old labels. More generally the complete old projection of products of the six new shifted traces is obtained by multiplying their conditional compact character moments, including the determinant exponents. This gives exact algebraic inputs for collective returns. It does not control the full absolute boundary charge of the new nontrivial sectors or the existence of a colder physical domain.
+
+## Ranked next tests
+
+1. Incorporate the independent conditional character tables along with the proved old rank-six labels into the complete old-label projection for a nonlinear block. A strict physical invariant across \(2031/128\) with the true marked and sibling costs passes. A fully debited escape with continued superlinear growth rejects that block.
+2. Track a nontrivial new factor across two levels to determine which of its tensor products with the actual old rank-six branches admit further signed returns. A candidate collection needs an explicit arithmetic character identity and an invariant or a fully debited counter-certificate.

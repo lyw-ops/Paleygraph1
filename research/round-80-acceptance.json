@@ -1,0 +1,89 @@
+{
+  "round": 80,
+  "accepted_at_utc": "2026-11-19T04:38:01Z",
+  "previous": "research/round-79-acceptance.json",
+  "previous_sha256": "28737bf47656975bd15db8717f0f7402b53181367f89e87f7819675c19b7c872",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/surviving_80",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Upper-bound clipped mass on the actual exposed Jacobi-bias heads by translating opposite feasible probabilities, or bound the allowed correlation of the actual distinct-site Jacobi product.",
+        "On the same true face and one terminal window, bound the low-density height after the larger deletion."
+      ]
+    },
+    {
+      "name": "/root/dissipation_80",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the actual squared increment on large-feedback sites at growing height, with a simultaneous physical-to-Haar error. On a complex tube also control the branch there.",
+        "Use a mixed fourth moment of signed transported increments and feedback to bound this exceptional increment mass."
+      ]
+    },
+    {
+      "name": "/root/audit_80",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use one true larger-face row and one terminal time for both the high-branch clipped-head upper and low-branch surviving height upper.",
+        "Compute normalized mixed fourth moments with growing-height finite-field errors. The exact conditional covariance for the signed increments gives a usable secant once the increment-weighted feedback tail is controlled."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Analyze the fixed-order distinct shifted Jacobi products against the actual exposed larger-side endpoint and price the explicit high Schur set with one genuine opposite law or translated mixture.",
+    "On the other density branch bound the surviving height after polynomially enlarged deletion for the same true optimizer and time.",
+    "Use the exact compact covariance for the actual feedback and increments and the quantitative centered inequality to test a growing-height complex predictor. A coordinate-tail bound and a finite-field transfer on that depth remain essential."
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-surviving-80.md": "9a666db4777e8f8e19e9f58ced7892a379d7383cf3ee72db0571fa295c7a0b3c",
+    "research/astra-surviving-80-check.py": "60442a49168c93c68e9d69abd0ffce06c42226b9be2fc4928c36bee4e6b54fbe",
+    "research/astra-surviving-80-checks.jsonl": "3b1ef23c4a80f2c81dcffb18fab3ebb7500db29e689ce3ebb86a36b62b530a0b",
+    "research/astra-dissipation-80.md": "a3c931667e734483352c20c49ba3f56a7d1322c9870c34f76c2526d8819fe931",
+    "research/astra-dissipation-80-check.py": "1ed129b4f465e135a58e70f5b34e9f2a2f43857fb21573c81956c8e9d70d95c0",
+    "research/astra-dissipation-80-checks.jsonl": "01f59f7c6c393cd4abc3f47584fa2a0c280cf3f22b19d62b09549e1481f87c3f",
+    "research/quantitative-centered-80.md": "eaca9ae5987f3822b69b192c61ce728758e5166d4b330b1b612665a9b58d934e"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 6,
+  "arithmetic_record_counts": {
+    "finite_endpoint_interval_records": 4,
+    "arb_scalar_quadrature_records": 1,
+    "exact_integer_recurrence_records": 1
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Arb384 outward records at p=101,257,409,769 reproduced byte-for-byte under pipefail. The terminal times are 4,5,6,7, with fixed deficit cutoff 0.01 and density clipping B=1. In addition to the signed head costs the final records enclose a bounded distinct-site quartic test with strictly positive allowed Fourier correlation.",
+    "Arb128 interval Chebyshev-angle Riemann upper sums and the exact integer check of 1025 Jacobi weight states reproduced byte-for-byte under pipefail. The sums give the normalized real and complex derivative constants through the already certified 600-step cap. The integer recurrence checks a branch, with its symbolic formula proved separately."
+  ],
+  "proof_scope": [
+    "Weighted translated Jacobi moments apply to arbitrary endpoint-selected distinct centers and weights. The retained-diagonal signed Schur identity localizes an order-L interaction to a Jacobi-bias exterior head set; the bound involves aggregate head prices. At fixed supercritical gap, either the low-density terminal height survives arbitrary deletion larger by p^(1/(4l)) at fixed moment l>=2 or high rows force clipped mass on explicit heads of relative size O_l(D^(-l)+p^(-1/4)). The analogous alternative on the small-correlation underestimate set has collision at least c_delta tau^(-2). Positive allowed correlation of an exact power, and then a single product at 2l distinct actual surviving sites, are necessary in the high branch. There is no unrestricted prime-uniform mass or height upper.",
+    "Every two transported compact fields have constant covariance conditional on the Jacobi angle, by exclusion of the rank-greater-than-one ±2 resonance. The actual leading coefficient Gram entries equal the exact diagonal values (s_p^4/32)(s_p^2/2)^(j-1) up to O(6^(j+k)/sqrt p) simultaneously to (log_2 p)/16. The compact full leading fields have all-height normalized Dirichlet ratio at most 1296; the worst individual path yields 2/(j+2) cumulative rank discount. A separate exact nonlinear energy balance is field-first at every real fixed height.",
+    "Using the exact Jacobi covariance on the already capped nine-center predictor, the real stationary mark limsup is strictly below 3.83e-221 on the real interval of half-width 2^-17 about 2031/128. The corresponding complex normalized residual limsup is strictly below 3.06e-208 on the closed small square. These are positive fixed bounds with no effective prime threshold or counting-size complex closure.",
+    "The first absolute boundary weight moment and Fejer difference kernel give a quantitative compact centered Taylor lower bound c r^10/(Q(1+log_+(C Q^2/r^10))) for an exact real correction under the stated caps. Fourth-moment transfer for the actual leading rows gives Var_n(L_j^2) >= c ||L_j||_(2,n)^4, uniformly for 1<=j<=(log_2 p)/32. The full nonlinear increment and stationary domain at growing depth remain open."
+  ],
+  "independent_review": [
+    "Checked Katz mixed Gauss moment theorem directly and verified that only monomial-local distinct twists contribute, including the p^-1/4 loss at the stated density split. Audited retained diagonal, head sign, weighted normalizations, enlarged deletion, and underestimate-set branches. Main also checked the last exact power, partition inclusion-exclusion and Hölder extraction in the final note.",
+    "Reviewed the three-puncture Kummer twist and Euler obstruction to ±2 resonance, conditional covariance and both slots of the true leading Gram relation, exact nonlinear energy telescope, rank paths, uniform averaged energy and the final scalar secant constants.",
+    "Reviewed first absolute weight and graph closure, Fejer kernel normalization and inverse logarithmic estimate, real saturated sign and power of r, and finite fourth-moment transfer. Algebraic and arithmetic results were audited separately from all interval records."
+  ],
+  "next": [
+    "A prime-uniform exposed-face upper of the exact high head mass or allowed distinct-product correlation, and an upper of the surviving low height for the same true row.",
+    "Use covariance for genuine growing Picard increments to control their mixed high-feedback tail and obtain a simultaneous finite-prime estimate.",
+    "ETH Randomstrasse101 Problem 26 and unbounded-prime common physical cold-end continuation remain open."
+  ],
+  "window_closeout_workflow": "Three proof files, four finite endpoint interval records, one interval secant record and one exact integer recurrence record. Independent ranked suggestions consolidated. No new finite-prime extrapolation.",
+  "committed": false,
+  "pushed": false
+}

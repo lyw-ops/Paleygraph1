@@ -1,0 +1,103 @@
+{
+  "round": 59,
+  "accepted_at_utc": "2026-11-18T15:14:27.940804+00:00",
+  "previous": "research/round-58-acceptance.json",
+  "previous_sha256": "1a0a99d7583e3ac6a50e41744feed38310600dee49b05ee182a3438c6377f41d",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/crossnode_59",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Identify joint derived factors of T(m^4) and test old terms in its products. A rigorous cancellation packet with actual overlap below 2031/128 succeeds. Derived independence excludes all linear coincidences with direct old labels. Main settled that independence and the parallel quadratic Legendre family.",
+        "Carry the larger inner sources through non-Jacobi outer labels, preserve their quadratic returns, and pay all complementary coefficients. A fully debited lower escape at the same floor rejects the specified larger dictionary."
+      ],
+      "prefix": "research/astra-crossnode-59"
+    },
+    {
+      "name": "/root/flow_59",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use the order-two quotient and Fourier projection on actual prime reference pairs. A charged trial o(t) at some growing-window time on each prime suffices; a positive order-t greedy lower bound throughout the window on unbounded primes rejects the stated references.",
+        "Use the opposite-optimum Poisson edge test for other directed dictionaries. All edge weights strictly below one force zero flow at a prime, and late normalized objective lower bounds are still required to reject the full one-time estimate."
+      ],
+      "prefix": "research/astra-flow-59"
+    },
+    {
+      "name": "/root/review_59",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "At 19/4 use scales (13/15,17/30) and projection (9/500,1/50,7/800) and signed Jacobi shifts of the rank-three terms. A radius at most 1.40323718 verifies the point test, while rigorous radius lower bound 1.40323719 or larger excludes the proposed pointwise-envelope change with other debits fixed. Main verified both exact decimal thresholds."
+      ],
+      "role": "independent Pieri, derivative and positivity audit"
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-crossnode-59.md": "feef6448af87f9b68a7d4425daac68ba78dc2da77f5af755c77985bf3e582885",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-flow-59.md": "a228905b8381b576256e24b5101370c8ce7bca2be313714ca8625e8134fbc391",
+    "research/astra-flow-59-check.py": "2962aff49027c8870f5a3de130e2cdedf1ac5230e675321d87dbe2fb43602fa6",
+    "research/compact-variance-59.md": "4143aa358bde91d97181d13ffd06aaef1c3cf81773d8801966c894614bbe991a",
+    "research/compact-variance-59-check.py": "650b892bc18d966f20d6a0d25e3705a3f439872e69e16e556e656dbf5a4177cd",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/two-node-groups-59-check.py": "f13955a15a9bf20704fd4db980ec98b9a6ee9ec8593bc82b2d993227acee0d2c"
+  },
+  "core_records": 16,
+  "replay_checks": [
+    {
+      "file": "research/astra-crossnode-59-checks.jsonl",
+      "records": 4,
+      "sha256": "9aaaf69cc9dd71386647efe05ac23f7b5e4d780270fb55478d96db16193973bf",
+      "scope": "All-degree shifted signature control, two-vertex arithmetic coefficient and cancellation enclosures, and two rigorous disjoint-two-level lower escapes.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-flow-59-checks.jsonl",
+      "records": 3,
+      "sha256": "c54499ebb059c447d611ec4d28a616882df0e841e2212f017b3cf7fefcb6ff31",
+      "scope": "Cyclotomic half-turn accessibility at p=97, actual cold-score and objective computations, and sharp pair-mass relaxation and Fourier-step repair.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/compact-variance-59-checks.jsonl",
+      "records": 6,
+      "sha256": "8265f4c51e893f997f9708dce279bf32f0d2e3885253a12621999e52ee4179b9",
+      "scope": "Exact compact t=5 variance, four Arb192 slab checks over 1248 closed intervals, and the 19/4 pointwise radius threshold.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/two-node-groups-59-checks.jsonl",
+      "records": 3,
+      "sha256": "efe6ba8c0738613a4e6116b6af6b627e3e422bb234c204ebbbadd805ed968496",
+      "scope": "Exact cyclotomic Newton determinant checks for the twisted quadratic Legendre source at all 18 good characters in the bases 5,9,13.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "At t=2031/128 the tagged inner C2 source and direct m^2 term destructively collide through a Legendre unit. The strict cost saving is 75-77 billionths per Jacobi sign. The fully debited disjoint two-level map retaining all unary labels on that tagged child still escapes at height 2114, and the smaller grouping escapes at 1209.",
+    "Full-degree shifted boundary lists exclude any additional pure-Jacobi linear outer collisions across the three stated C4 and quadratic Legendre source families and any direct old root labels. No enlargement of the actual common marked rectangle this round.",
+    "The C4 inner source has two independent Sp4 factors already isolated by the Chebyshev hypergeometric theorem. The individual quadratic Legendre lifts have a new independent SL4 factor, are arithmetic duals, and the untwisted determinant is exactly L^4 by the epsilon quotient. Thus arbitrary old linear outer multipliers cannot produce direct or cross-family cancellation for these two sources. Each averaged source has quadratic unit coefficient 1/2. Rank eight from the cross Legendre product remains open.",
+    "Exact compact variance of the round-58 polynomial trial at t=5 gives a stationary mark below .01694 with the round-58 pointwise envelope. With signed Legendre pointwise grouping and a three-field split transfer, strict bounds are .01699 on [309/64,83/16], .020 on [75/16,309/64], and .022 on [37/8,75/16] through suitable primes and prime squares.",
+    "Every source-independent generating displacement distribution forces zero outflow on any actual true face, even with arbitrary donor selection. At every actual growing-window time the same larger-face antipodal L1 cost is at least 4-o(1) for arbitrary couplings of true rows. These results leave cross-sign charged joint transport open.",
+    "The order-two quotient preserves pair masses and reduces Fourier constraints to odd frequencies. A common greedy lower bound and repaired upper trial are exact tools. At p=97 every even face pair is accessible by the half-turn, with finite strict improvements and a certified relaxation gap."
+  ],
+  "independent_review": [
+    "Checked the opposing and reinforcing coefficient signs, analytic projection tails, full unary reverse-triangle debit and even-height lower recurrence.",
+    "Checked the Sp4 identification against the existing hypergeometric normalization and Katz, the centered SL4 signature, arithmetic epsilon quotient and exact Mellin checks.",
+    "Checked the generating displacement and Poisson tests, Fourier half-turn quotient, same-face antipodal bound and finite p=97 primal and relaxation comparisons.",
+    "Fresh Astra independently matched all rank-three/rank-four conditional Laurent coefficients to degree 32 using a different highest-weight walk, checked finite q normalization, full 1248-slab replay, and proposed the 19/4 radius target. Main independently replayed the final six compact records and all other core records."
+  ],
+  "next": [
+    "Keep quadratic returns of the independent rank-four inner families, or characterize the rank-eight cross Legendre source, to test actual continuation below 2031/128. The small tagged unary channel and all old linear channels of the two independent families are now delimited.",
+    "Collect rank-three Jacobi shifts in the one-step positive trial, using the exact alternative coefficient and radius target at 19/4. Aim at new strictly positive uniform slabs after a successful point test.",
+    "Evaluate half-turn or more general source-conditioned directed flows over the growing prime window with exact Fourier constraints. The one-time actual cross-sign charged objective and matched marked-depth positivity completion remain open.",
+    "Continuation to 1/2 and the all-prime ordinary Lovasz theta limit remain open."
+  ],
+  "window_closeout_workflow": "Two ranked follow-ups from each research route and one ranked independent audit test were consolidated. Main completed the rank-four independence test and verified the exact pointwise target.",
+  "committed": false,
+  "pushed": false
+}

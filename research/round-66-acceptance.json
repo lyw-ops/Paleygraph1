@@ -1,0 +1,98 @@
+{
+  "round": 66,
+  "accepted_at_utc": "2026-11-18T17:22:13.176248+00:00",
+  "previous": "research/round-65-acceptance.json",
+  "previous_sha256": "2426fda167cd956d5f7084783b07643c6f848971e494ba909e913f2eb13c7df2",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/charged_66",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-charged-66",
+      "ranked_closeout": [
+        "At the fixed prime time L+1 upper-bound both full signed marginal minima after E_(L+1)/4. An o(L) maximum suffices for the actual pair at L, including the safeguarded chord version. Positive normalized lower bounds reject this certificate at L+1.",
+        "At L certify k_L>=eta L for one sign on unbounded primes. This rejects J_t^face/t->0 throughout the original late windows on that subsequence. An o(L) upper certificate for both signs at L instead gives an actual trial at L-1."
+      ]
+    },
+    {
+      "name": "/root/shifted_66",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-shifted-66",
+      "ranked_closeout": [
+        "Prove or distinguish Z_(−,D) isomorphic to L^−1 times exterior square of old A, including arithmetic phase and the exchanged compact lift. A single rigorously mismatching good character refutes it.",
+        "Pool the newly available non-Jacobi multipliers and rank-seven determinant shifts across overlapping levels. A full physical invariant across 2031/128 passes. A complete debit and surviving superlinear escape rejects the new prescribed grouping."
+      ]
+    },
+    {
+      "name": "/root/review_66",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "Independent audit of step loss and terminal conjugate, exact late-time quantifiers and square control, arithmetic projections and overlapping escape.",
+      "ranked_closeout": [
+        "Resolve J_L^face/L->0 for L=ceil(D/2) through primes. Two signed marginal upper bounds at L+1 suffice. A positive full-face constant price at L along a subsequence rejects the entire window estimate on that subsequence."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Estimate the next fixed early increment through eligible primes with actual arithmetic returns. A smaller fixed early cap transfers simultaneously to the marked window. A summable strong signed norm would support matching sufficient positivity.",
+    "Test both exact marked projected rows at one growing marked time with s=o(1) and a signed worst-site bound. Keep the full terminal charge and the antecedent inequalities."
+  ],
+  "proof_and_code_sha256": {
+    "research/terminal-step-66.md": "1e6908299f8df21138ead623b6f270b22626a9fef50b5059df83ae4ea6819b45",
+    "research/terminal-step-66-check.py": "c6868d094bba32368d9dbcf14afa291e9a4c9910a8b90e165d4667858e75cf35",
+    "research/astra-charged-66.md": "97f3e0c559f547a7f3c049c2407a5eb4e8522d142cf0d99bef73526f22b88e7d",
+    "research/astra-shifted-66.md": "8f0ca2670aac62c51c65b134311dce32eab6f847f780a684f9720a1977d1e035",
+    "research/astra-shifted-66-check.py": "1c7bbd4552317a5a3e3899a8d704850980de703aea6cb1b0599e3f095e448917"
+  },
+  "floating_diagnostics": [],
+  "exact_diagnostics": [
+    {
+      "file": "research/astra-shifted-66-collision.jsonl",
+      "sha256": "b79f4d09cb928946ddc154b2371049ec890781a6e951878e6885d877e009c7cc",
+      "checker": "research/astra-shifted-66-collision.py",
+      "checker_sha256": "2e1f7dd811d7f4b1d798b533562589353987955969942bfb58b917874831c919",
+      "records": 1,
+      "replay_byte_identical": true,
+      "scope": "Seven fixed fields, equality of good full Mellin traces for the rank-six candidate and old exterior square on all 194 tested nonzero values. The uniform arithmetic isomorphism is open."
+    }
+  ],
+  "core_records": 5,
+  "replay_checks": [
+    {
+      "file": "research/terminal-step-66-checks.jsonl",
+      "records": 1,
+      "sha256": "05aea4fefe17625ecca2bbbb385864c12359d7f7b5a4719c34e6ba3e7eb5f343",
+      "scope": "Arb160 crossing loss, uniform terminal variance floor, and two-activation conjugate bound constants.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-shifted-66-checks.jsonl",
+      "records": 4,
+      "sha256": "59df63ba829b12b0de91fc86a78312c67c9ab5abdc47e5614d6b83dc5e623393",
+      "scope": "Exact weights, arithmetic dual labels and compact field feedback. Arb192 profile contraction and m^2 correction, followed by fully debited escape.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "In normalized Euclidean norm the squared true step for floors tending to zero has a prime-uniform upper bound .177914+o(1) at all T>=2. Within the marked window (E_(T+1)-E_1)/4>=.00085-o(1). For T>=3 the full prefix and terminal charge is at least L2+(1-2 sqrt(2)/pi)^2+.0000025-o(1), yielding explicit necessary common completion budget .022976-o(1). No sufficient pointwise positivity follows.",
+    "An ordinary finite-time deterministic inequality for two optimal-face signed-mean minimizers at t yields charged error at most (3-(r+1)/t)T_t+2 sqrt((r+1)T_t)+5 at every r<t, with T_t=k_t+alpha B_t. The asymptotic full primal bound in the original [L,D] window is equivalent to the bound at L. An o(L) price at L+1 constructs the actual pair at L, including the modified chord proof. A positive margin eta L for k_L forces J_t^face/t>=eta/3-o(1) at each t in [L,D]. The exact prime-square comparison identifies the winning price and a positive normalized late margin. The prime marginal estimates remain open.",
+    "The shifted compact feedback and exact arithmetic duality cover eight outputs of ranks 6,7,8. The 13-source overlapping refresh at 2031/128 contracts below .427311 and decreases its signed m^2 coefficient when the eight larger inputs are admitted. The full charge exceeds 21 at height 1381, with continued growth from the debited quadratic atom. The rule collects the new Jacobi-line sectors and keeps non-Jacobi sectors separate. Actual physical continuation at that floor is open."
+  ],
+  "independent_review": [
+    "Main and fresh Astra replayed all five core records byte-identically. The reviewer checked each normalized true increment crossing and variance and conjugate bound, and audited the predecessor time and original-window equivalence including the square time-one case.",
+    "Main and fresh Astra read the complete shifted proof and checked the duality labels and uniform complementary debit. The auxiliary conditional coupling implements only the specified Jacobi projection and assumes no joint old/new derived-factor independence.",
+    "Main replayed the separate exact rank-six diagnostic independently. It uses Newton's formula with norm pullback at the square extension and exact cyclotomic arithmetic. Those fields are evidence for the candidate identity."
+  ],
+  "next": [
+    "Primary charged test: prove an o(L) upper bound on both actual signed marginal minima after energy at the one fixed time L+1. A lower obstruction at L prices one full marginal face and applies throughout the original prime window.",
+    "Primary positivity test: seek a vanishing common reserve with exact marks and worst-site signed control at a growing marked depth. Improve the fixed early step bound only when this gives quantitative help for the sufficient test.",
+    "Complex test: resolve the rank-six old/exterior-square identity and its exchanged lift, then include the genuine overlapping non-Jacobi returns with full arithmetic phases.",
+    "The all-prime ordinary Lovasz theta limit, sufficient positivity, and a colder common complex continuation remain open."
+  ],
+  "window_closeout_workflow": "Collected ranked tests with pass/fail thresholds from both research routes, main and independent review. Retained the escape proof and the separate finite field comparison with their scopes.",
+  "committed": false,
+  "pushed": false
+}

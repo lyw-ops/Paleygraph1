@@ -1,0 +1,87 @@
+{
+  "round": 65,
+  "accepted_at_utc": "2026-11-18T17:07:51.435792+00:00",
+  "previous": "research/round-64-acceptance.json",
+  "previous_sha256": "5d5781061b5f089d9b978bf37e560fb768cf1d8fa4d2601d6f8ec3b004f9d05a",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/charged_65",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-charged-65",
+      "ranked_closeout": [
+        "Test the actual whole chord pair at one growing late time per prime. A nonpositive limsup of its minimum charged J/t passes. A fixed normalized positive lower bound at all late times of an unbounded subsequence only rejects this trial.",
+        "Test the paired rounded dual with h=epsilon*t and the entire marginal LPs. A fixed positive normalized lower price throughout a subsequence late window rejects the full-face estimate. A genuine margin of 2*epsilon*t admits an epsilon*t certificate within the split budget."
+      ]
+    },
+    {
+      "name": "/root/joint_65",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-joint-65",
+      "ranked_closeout": [
+        "Propagate the larger m^±1 U,U-prime,D,D-dual sources through the next activation with all actual determinant shifts. An actual overlapping crossing of 2031/128 passes. A complete complementary debit and surviving superlinear term reject the specified block.",
+        "Close a recursion on signed dual coefficient functions at overlapping successive vertices, keeping m^-4 D and m^4 D-dual. Test the same crossing or a fully debited obstruction for those overlapping histories."
+      ]
+    },
+    {
+      "name": "/root/review_65",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "Independent audit of actual terminal charge, price rounding and chord trial, exact compact feedback and paired escape.",
+      "ranked_closeout": [
+        "For each prime select a whole pair from the common chord price within [D(p)/2,D(p)]. A nonpositive limsup of the normalized minimum passes the all-prime sufficient route. A fixed positive margin on a full-face dual lower bound at all late times along a prime subsequence rejects the window estimate."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Intersect constraints from several actual preceding nonnegative activations and track both P_T and terminal energy. Unbounded certified lower bounds of the full charge across increasing fixed prefixes would reject every fixed order 1/T reserve.",
+    "At the same growing marked depth show a vanishing mean allowance with a signed worst-site bound on both projected sectors. Failure of the necessary charge test first rejects the selected allowance."
+  ],
+  "proof_and_code_sha256": {
+    "research/terminal-budget-65.md": "b066dad0f17f787cdec4f8efb18687ffb4161d8c54af9d37efc95413a0737eee",
+    "research/astra-charged-65.md": "622aee4985ada5b51e57e50d54a7e9ced5eec3d75f5d77032e17dbadb37405aa",
+    "research/astra-charged-65-check.py": "cab65543ee2b4f353afea023540138d9b08c7298d65cde23b628eb808b7b86c0",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52"
+  },
+  "floating_diagnostics": [],
+  "core_records": 8,
+  "replay_checks": [
+    {
+      "file": "research/astra-charged-65-checks.jsonl",
+      "records": 4,
+      "sha256": "686550276c9a12c2d0e6228b4e729d1183c711c563bd2806dd75db3dbf9875c7",
+      "scope": "Arb audit at p=97,t=32 covering the feasible chord pair, both sides of the minimizing tie, and exhaustive best pure prices on the original grid.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-joint-65-checks.jsonl",
+      "records": 4,
+      "sha256": "986773a54d6e49dc9d1c3d1c5d18dc8c9b5d8041889598c3182104eb7c5047b1",
+      "scope": "Exact feedback on seven cyclic rings and Arb192 signed projections, one-vertex escape at the selected amplitude and on its annulus, and five-tag two-vertex escape.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "The terminal energy charge plus the final squared mean error is at least (1-2 sqrt(2)/pi)^2-o(1), uniformly on the actual marked window. A positive test from odd Chebyshev returns at j=3,5 uses precursor positivity to give a further fixed positive increment in the full charge. For 3<=T<=D(p) and tau_p tending to zero, any simultaneous mark-preserving completion requires 2Ts+T(1-1/n)tau_p >= L2+(1-2 sqrt(2)/pi)^2+eta-o(1), eta>0. The explicit bound 0.022973 follows already without eta.",
+    "On every nonconstant actual even optimal-face product the cap-normal norm can stay fixed and positive near an optimum. A common paired price gives an actual feasible pair via independent whole marginal solves and an integrated error bound. Prefix rounding at error h needs at most O(1+(nE_t/h^2)^(1/3)) split intervals. Exact duality needs at most the tie tangent rank. The numerical objective comparisons concern p=97,t=32. The all-prime late estimate remains open.",
+    "Two exact Sp4 outputs of the fourth Jacobi mode give an all-field Ke0 correction. At 2031/128 the signed m^2 coefficient decreases to (48530,48548)e-12. The one-vertex lower map escapes at height 1345 and at height 1951 uniformly in the relative modulus annulus [0.999,1.001]. The five-leaf signed paired return has positive increment (49188,49890)e-18. The fully debited disjoint-pair map still escapes at height 1346. Physical continuation there and overlapping recursions remain open."
+  ],
+  "independent_review": [
+    "Main derived the terminal charge and checked the explicit comparisons in Arb. Fresh Astra verified the marked identities, odd fields, finite cutoffs, precursor positivity, and uniform budget transfer. Main restored the missing plus sign in the displayed absolute-value remainder bound. The reviewer verified it.",
+    "Main and fresh Astra replayed all eight records byte-identically. Both checked the chamber argument, paired price duality, sparsity, rounding and true finite trial.",
+    "Main and fresh Astra checked the compact normalization and the specified recursion scope. The author repaired LaTeX escapes and clarified the scalar subtraction after the square root and before K. The reviewer verified the corrected source."
+  ],
+  "next": [
+    "Primary charged test: estimate one full feasible chord pair at a genuinely growing time for each prime, retaining the realized common price ambiguity and the terminal charge. For a lower obstruction use paired dual prices for both true faces.",
+    "Primary positivity test: seek signed worst-site control on both true projected averages at a matching actual depth with s=o(1). Keep the full variance and energy budget. Test multiple precursor constraints on the inverse-depth scale.",
+    "Complex test: propagate the larger Jacobi-shifted symplectic and dual special-linear leaves, or track their determinant-shifted signed coefficients on overlapping levels.",
+    "The all-prime ordinary Lovasz theta limit, enough depth for sufficient positive completion, and common cold continuation to 1/2 remain open."
+  ],
+  "window_closeout_workflow": "Collected ranked tests from main, both research routes and independent review, with concrete outcomes. Integrated the prime-uniform candidates and retained the rejected recursion bounds.",
+  "committed": false,
+  "pushed": false
+}

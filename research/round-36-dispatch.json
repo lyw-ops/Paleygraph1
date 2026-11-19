@@ -1,0 +1,36 @@
+{
+  "round": 36,
+  "dispatched_at_utc": "2026-11-18T04:30:01.214127+00:00",
+  "previous_round_acceptance": "research/averaged-complex-35-acceptance.json",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_chats": [
+    {
+      "thread_id": "01a1ecea-3bf2-7e21-aaa2-80ba39fb4a8e",
+      "host_id": "local",
+      "model": "gpt-6-astra",
+      "thinking": "high",
+      "role": "Actual prime averaged positive completion, starting with strict finite exact-input certificates",
+      "prefix": "research/astra-averaged-positive-36",
+      "status_at_last_observation": "completed",
+      "last_cursor": "2e01e8fd-bf73-44a5-9779-8f3d406fac71:6",
+      "observed_progress": "Reading accepted input and certificate flows, then certifying the two specified positive averaged trials before attacking the uniform endpoint deficit."
+    },
+    {
+      "thread_id": "01a1ecea-3db5-73f2-94d6-9dd3c5ea61c9",
+      "host_id": "local",
+      "model": "gpt-6-astra",
+      "thinking": "high",
+      "role": "Actual cold complex continuation along the marked-weight direction",
+      "prefix": "research/parallel-cold-complex-36",
+      "status_at_last_observation": "completed",
+      "last_cursor": "4a891190-cac0-43a4-8c39-920f81f9dc82:5",
+      "observed_progress": "Checking actual equations and previous acceptance before direction-sensitive continuation."
+    }
+  ],
+  "main_next_action": "Follow these exact existing handles. Audit positivity independently and distinguish reserve kappa from the output floor; direct theta needs nonnegativity. Test actual prime uniform claims and physical-branch continuation, not more unrelated surrogate families.",
+  "scope": "The new direct theta route does not additionally require conic fidelity, UI or HR, but its prime-uniform positive completion is wholly unproved. The original UI/HR branch retains its own marked bridge. The complex common hot domain misses cold floors.",
+  "no_restart_rule": "Timeout or missing draft files do not imply a terminal process. Re-poll the same confirmed handles.",
+  "acceptance": "research/phase-endpoint-36-acceptance.json",
+  "next_action": "Pause per user request after handoff. No round37 creation."
+}

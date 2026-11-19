@@ -1,0 +1,2 @@
+{"depths": [0, 1, 2, 3, 4, 5, 6], "floor": "30/19", "highest_mark_order": 13, "last_verified_defect": "-24078418618053207220561652223054269386402425536840968265/3133814198635573545656418864998311857316880063613525557248", "prime": 13, "test": "actual_variational_jets"}
+{"coefficients": ["-95/388", "-5420415/29205536", "-222674451335/1648769329344"], "prime": 13, "reflection_quadratic_form": "4161321005/549589776448", "test": "actual_signed_cubic_contraction"}

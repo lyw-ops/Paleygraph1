@@ -1,0 +1,93 @@
+{
+  "round": 77,
+  "accepted_at_utc": "2026-11-19T03:53:08Z",
+  "previous": "research/round-76-acceptance.json",
+  "previous_sha256": "77041e3acfa3b51e88acfe1884cb8266fc11675b9319e639cdb6404752f762e9",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/schur_77",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the intersection of the genuine negative mask and the intermediate density band by o(d/M_E^2) on one suitable window per true larger primary face.",
+        "If that intersection is large, remove sparse expensive pairs using the old absolute-price bound and estimate the signed interaction of the remaining density layers."
+      ]
+    },
+    {
+      "name": "/root/newton_77",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "At the 30-step proxy prove or reject positive variance of the first centered squared Newton coefficient and transfer the centered remainder through a true analytic corridor.",
+        "At the nine-center 600-step predictor test the full initial residual coefficient and an analytic bridge, or use a size-dependent signed predictor."
+      ]
+    },
+    {
+      "name": "/root/audit_77",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test high opposite height and clipped mass together on actual windows, retaining the geometric edge price and the genuine signed interaction.",
+        "Distinguish nonvanishing of the linear Newton residual from that of the centered square and verify any proposed inverse continuation."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the additive trimmed-mass bound to remove the small-tail class, then test the genuine intersection of intermediate densities and high height on one selected window for each larger true primary face.",
+    "On the complex route estimate the centered exact remainder or a signed invariant through a field-dependent horizon. The uniform fourth-norm test at fixed step 30 has a rigorous obstruction."
+  ],
+  "proof_and_code_sha256": {
+    "research/trimmed-mellin-77.md": "b9537739a2109b34159963fb80e82d7305457c9a7cf7c509aaf1565eee22c8df",
+    "research/relative-window-77.md": "4bbef88f48b7512717614002704e71d62a8107310621e52bfd283c623bbabc08",
+    "research/astra-newton-77.md": "405f03c6934a3693e77b6a8992919078ddb96d6b957aadb9a9ff778db94deb4d",
+    "research/astra-newton-77-check.py": "3ff957614cde2af338cb9b1645816fc430644793afcb5e28ef09a4f4dbf3bcd1",
+    "research/astra-newton-77-checks.jsonl": "41fb9ade65fbcb6bf7f33a7925896afc89909e63988e0785b5d45185ffce690b",
+    "research/astra-schur-77.md": "62fe67698d3f676059e4052c01b330db036400f00165bcef873bc6033736d110",
+    "research/astra-schur-77-check.py": "021ed9f141490843a1c5d222f7123c8db445ce1f0610559527f7062d48b0a48a",
+    "research/astra-schur-77-checks.jsonl": "2508031e043e0c8ca2caab1e1e79a342594c8f863304de29992258d7b0d1c55b"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/astra-fourth-75-check.py": "f7b807c25f0cd8981209d68b45eb3c6ee9aa401b2f24af78d92161c276cfcebf",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 6,
+  "arithmetic_record_counts": {
+    "finite_endpoint_interval_records": 4,
+    "uniform_scalar_interval_records": 1,
+    "exact_rational_scalar_record": 1
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Four revised Arb768 Schur records replayed byte-for-byte under pipefail in a second process. Floating ranking specifies the finite deletion lists; the acceptance uses their interval enclosures.",
+    "Arb160 proxy bridge and exact rational 600-step derivative bound replayed byte-for-byte under pipefail, also independently.",
+    "Verified file hashes, repaired parameter scopes, complete formula rendering and backlinks."
+  ],
+  "proof_scope": [
+    "Through eligible primes, for any fixed supercritical gap and fixed deletion fraction below the Jacobi coherence threshold, g=log_2^*p-log_2^*max(2,n^{1/4} M_E) is at most C(1+B), uniformly in feasible q, the chosen deleted coordinates and cutoff. The cold approximation uses the actual marked coefficient in the inherited Mellin closure at J=floor(g/8) in a hypothetical violating sequence. Only the bulk projection is approximated. The result excludes all specified small-tail classes but need not apply to all primary optimizers.",
+    "With a fixed sufficiently high taper power, true pinned sector rows have nonnegative paired sum and a bulk relative defect k-moment O(d^(-k)), weighted by the actual opposite row on negative sites. The weighted L^(k/(k-1)) moment is convex on the primary face and necessarily of scale d^(k/(k-1)) for supercriticality. The geometric taper gives a pointwise comparison by opposite height and an actual edge term, and an exponentially small low-height negative-mask counting fraction. Its clipped linear consequence requires B(tau+sqrt(w_star))=o(1). Neither result proves the needed density-height overlap bound.",
+    "Row-specific Schur recomputation with common exceptional columns retains all masked diagonals, giving a signed price near half of clipped collision under a weighted degree condition. A separate estimate bounds absolute prices on arbitrarily many private edges for the original common-deletion kernel. The true supercritical masked collision is forced on an intermediate density band determined by exterior clipped mass. Four finite examples verify the different prices on actual singleton supports at fixed windows.",
+    "For each compact positive-length real interval in the radius-1/4 disk and prescribed small discarded measure fraction, the exact counting L4 correction at actual V30 is at least c n^(1/4) on the remaining measure for all sufficiently large primes, including approximate linear defects o(sqrt(n)). The proxy bridge is holomorphic with a nonvanishing leading coefficient and the actual marked correction is restored. This does not show nonvanishing at a prescribed t or rule out the centered remainder test.",
+    "600-step actual correction on the width-2^-17 square gives finite physical holomorphic stationarity for 10^30<=n<=10^321. The real correction passes through n<=10^345 and the unbounded real mark limsup is below a fixed positive 7.1e-174. The unbounded-size common complex crossing and original ordinary theta limit remain open."
+  ],
+  "independent_review": [
+    "Checked exact signed coefficient identities, taper selection and positivity of the common bulk constants. Refined the ratio comparison and caught the necessary geometric edge condition on B.",
+    "Audited the trimmed-mass proof in both fractional and final additive log-star forms, including the arbitrary-deletion coherence step, Mellin coefficient cost, shortened time horizon and root-free signed pairing.",
+    "Checked actual signed Schur recomputation, row-specific norm estimates, exterior density threshold and arbitrary-degree absolute-price bounds. Replayed final finite examples independently.",
+    "Checked normal-family transfer and exact marked restoration in the all-prime Newton obstruction, and the finite exact correction radius and real tolerance separately."
+  ],
+  "next": [
+    "Estimate the true opposite-height overlap and signed interaction in the forced intermediate density band after arbitrary top-coordinate deletion and the trimmed Mellin exclusion.",
+    "Test the centered squared Newton coefficient and actual marked inverse on the true predictors, or prove a growing-depth signed closure for the small square.",
+    "The unrestricted all-prime ordinary theta limit in ETH Problem 26 and common physical cold-end continuation remain open."
+  ],
+  "window_closeout_workflow": "Ordinary analytic proofs, four finite endpoint interval records, one interval bridge record and one rational scalar record. Independent replay and ranked recommendations retained.",
+  "committed": false,
+  "pushed": false
+}

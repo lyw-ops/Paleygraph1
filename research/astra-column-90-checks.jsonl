@@ -1,0 +1,2 @@
+{"excess": "[0.054069769445562524 +/- 1.90e-19]", "imag": "2161/100000", "kappa": 2, "kind": "canonical_clipped_product_excess", "p": 173, "real": "1/50", "residual_upper": "1e-48"}
+{"cap_sqrt_product_per_normalized_squared_residual": 3400, "kind": "cold_clipped_residual_bounds", "total_excess_per_residual": "1.84"}

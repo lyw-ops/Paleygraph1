@@ -1,0 +1,97 @@
+{
+  "round": 31,
+  "accepted_at_utc": "2026-11-17T22:58:42.806006+00:00",
+  "target_status": "open",
+  "checks": [
+    {
+      "file": "research/nested-lift-31-check.jsonl",
+      "records": 9,
+      "sha256": "79341e5aebaeeaea556587440c2902b5fa84169af9743316dfaa59c8eb80a6aa",
+      "byte_identical_independent_replay": true,
+      "kinds": [
+        "exact integer subgroup convolution audit",
+        "finite sign certificate"
+      ]
+    },
+    {
+      "file": "research/nested-phase-31-certified.jsonl",
+      "records": 3,
+      "sha256": "3531ee54620474453a49ac583ad0a0cac809d0c47d4a46e27ef5ce5610053949",
+      "byte_identical_independent_replay": true,
+      "kinds": [
+        "finite sign certificate"
+      ]
+    },
+    {
+      "file": "research/astra-nested-moment-31.jsonl",
+      "records": 23,
+      "sha256": "50a5e0dec708de7dec74927e2de60c2aa2fdbf32ef0a44e986218348cd45c72b",
+      "byte_identical_independent_replay": true,
+      "kinds": [
+        "exact_integer_reduction",
+        "exact_real_phase_trace",
+        "floating_diagnostic"
+      ]
+    },
+    {
+      "file": "research/parallel-coherent-source-31.jsonl",
+      "records": 10,
+      "sha256": "1cf0372488a2fe8d333bcaa69502c15db267680b95d8ac3a1f1c446049b062e1",
+      "byte_identical_independent_replay": true,
+      "kinds": [
+        "algebraic_limit",
+        "full_matrix_stationary_replay",
+        "invariant_exact_stationary_block"
+      ]
+    }
+  ],
+  "proof_audit": "research/parallel-audit-31.md",
+  "claims": {
+    "nested_even_moments": [
+      "1/2+O(q^-1/2)",
+      "3/4+O(q^-1/2)"
+    ],
+    "nested_cubic": "c_q/8+O(q^-1/2), c_q in {+1,-1}, c_square=+1",
+    "finite_positive_sign_primes": [
+      9413,
+      153649
+    ],
+    "coherent_model": "exact stationary UI family with nonzero escaping inverse source mass; can start from actual prime Paley by rank<=12 change"
+  },
+  "scope": [
+    "No all-prime sign formula",
+    "No actual Paley stationary counterexample",
+    "Modified matrices lose cyclic convolution, inversion symmetry and original Jacobi root-row law",
+    "Finite-rank change is not small in operator norm",
+    "Fixed-word progress is not a uniform iteration/source-tail estimate"
+  ],
+  "completed_threads": [
+    {
+      "thread_id": "01a1eaec-4784-7671-8cb2-19b94dd48494",
+      "host_id": "local",
+      "last_cursor": "67d6e8c9-2560-4b58-af42-42e38a50dddf:7"
+    },
+    {
+      "thread_id": "01a1eaec-4941-77b0-b539-ac63fe5a5c03",
+      "host_id": "local",
+      "last_cursor": "90c74385-b5ab-4feb-8b07-1ecb00a1518a:8"
+    }
+  ],
+  "pending": [],
+  "remaining": [
+    "Uniform prime arithmetic sign or a common global model with proved ramification/normalization",
+    "Actual Paley convolution/arithmetic estimate for source tails or weighted opposite leakage",
+    "Growing-depth structured-error or relative-increment control sufficient for the endpoint"
+  ],
+  "note_hashes_are_snapshots": true,
+  "note_sha256": {
+    "README.md": "a4286a9a6a075f3828a7d2344dd2e4f27b5ffb159a6a250c14c1952601b2e93e",
+    "research/ledger.md": "3041796d33088dd515028100acdbbe0f9ec2840dd2a17c832cbe98fb8e51981f",
+    "research/nested-lift-31.md": "bd4b5a5f57e2d97181a5bf8070afedfbe34f7d49c2c3e9078b260e71c8421f24",
+    "research/nested-phase-31.md": "b6def9bbfcde5a6b4f1a6afd1375d82c08b7b46089dbf856cd7cf3f990412534",
+    "research/astra-nested-moment-31.md": "ecbe6d563cbdbf8433f4e5b04f214b50f5a16de0da26c69793b7ff8f6393000a",
+    "research/parallel-coherent-source-31.md": "7709fbf1f8b44df77c39101ef97c8bb972b331ae85f03f87187b1db8dcafa809",
+    "research/parallel-audit-31.md": "3abe58db5f05c20509a17f373e6f3f89dc2d088dadc9635762766c508dddef02"
+  },
+  "proof_audit_status": "complete: exact lift, rank-three/phase arguments, coherent completion/prime-seed corollary, explicit finite phase constants"
+}

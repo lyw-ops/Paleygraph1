@@ -1,0 +1,75 @@
+{
+  "round": 46,
+  "accepted_at_utc": "2026-11-18T11:19:17.968646+00:00",
+  "previous": "research/round-45-acceptance.json",
+  "previous_sha256": "9222588f4bc344e3daef43aef80e75fb4d57e266867cfc8b4bca9fb95913838e",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/face_46",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-face-46",
+      "ranked_closeout": [
+        "For an actual complementary endpoint and an eligible monochromatic subgroup, bound the signed reciprocal forbidden-count column averaged by the exterior probability by the exterior mass plus o(1). Fixed positive excess on a prime subsequence falsifies that upper bound.",
+        "Seek a bounded coset cover on the exact face with interior and exterior each contributing o(D(p)) normalized collision. The square-root exterior effective support estimate is insufficient at this scale. A positive subsequential normalized collision excess in either part refutes the proposed covers."
+      ]
+    },
+    {
+      "name": "/root/pick_46",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-pick-46",
+      "ranked_closeout": [
+        "On a fixed local disk chain, prove limsup at most zero for every fixed signed real stencil against the explicit boundary measure budget. A fixed strictly positive limiting excess through a prime subsequence refutes the corresponding disk condition.",
+        "For the geometric route, prove a lower bound on the detectable amplitude of actual accessible prime branch points from the Fourier equations. A subsequence passing every test up to the proposed budget with vanishing detection margin refutes a positive-margin theorem."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/astra-face-46.md": "e4097317aa7dd015afec9f01ba4b70376c04cfb649cc19d1dc193fbf0e3722eb",
+    "research/astra-pick-46.md": "2a5e26ef24f34b0b9eb007f709ebb5a9811f4c2f2470345f7aac7e3f5983cc0f",
+    "research/astra-face-46-check.py": "a4924a2fb06fe4bc91e13fdadac93c31e42d4528ad446cbdef72d8226bab585c",
+    "research/astra-pick-46-check.py": "c4d0490d9b3f39c881866e132b4ffc03715f4fe14892b6d740e6da987bc53c4d"
+  },
+  "core_records": 11,
+  "replay_checks": [
+    {
+      "file": "research/astra-face-46-checks.jsonl",
+      "records": 6,
+      "sha256": "0ee8e8d9f45b2431414d7df2a0578c685938ce65726d86cac2331108eb5c8b14",
+      "scope": "Six Arb192 reciprocal forbidden-count columns, including two actual complementary endpoints.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-pick-46-checks.jsonl",
+      "records": 5,
+      "sha256": "91837dec6ea27cf43eab95d86af1677fdc565f63e03938ab9caf7c8ee9f47224",
+      "scope": "Five exact rational checks of the partial fractions and constants in the eventual square margin. No sampled or certified theta or stationary data.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "For every sufficiently large eligible prime a nonnegative sign-feasible row of normalized root at least 1+delta has mass bounded below outside every marked frequency subgroup of size less than 2n/h_p. More than half mass in that subgroup forces its positional annihilator to be monochromatic. The clique doubling argument and the exact reciprocal-count column then force the uniform gap.",
+    "For any fixed union of cosets of one frequency subgroup, the exterior of an exact sector row is either zero or has effective support at least a constant times sqrt p. The same statement holds at square order. Together with the prime mass bound this gives genuine positive exterior mass and many nonzero coordinates even for subgroups just above sqrt n.",
+    "The logarithmic translated-mask bound controls complex filtered weights with an explicit forbidden-sector leakage term. On the true larger-side endpoint, a specified Bohr arc centered opposite the mark in any sufficiently long-order direction cannot contain the bulk support up to o(p^(1/6)/log p) exceptions. This exclusion gives no unrestricted atom or signed secant bound.",
+    "Two Pick functions with sum log W give an exact L1 measure budget for signed linear tests of real mark values. The field-first inequalities on a fixed disk chain suffice for hot-to-cold marked decay without finite-field extension. The required inequalities through primes remain open.",
+    "A fixed order-12000 Chebyshev extrapolation stencil across the right half-plane is violated by more than .04 on every sufficiently large actual square. The statement is asymptotic and does not determine an explicit first square. It concerns the entire half-plane.",
+    "In degree-two algebraic comparison models the phase and hot decay coexist with genuine accessible branch points and lifted distance 2 log n plus O(1). For any prescribed rank budget all ordinary Pick tests and both Loewner tests pass at arbitrary choices of nodes within that budget. This is an actual obstruction to detection under those generic hypotheses and supplies no Paley prime counterexample."
+  ],
+  "independent_review": [
+    "Checked prime clique doubling, the counted group-quotient and Fourier normalizations in the reciprocal-count column, the treatment of exceptional cells, and the fixed-union filter average.",
+    "Checked translated repeated-root exclusions in the Weil expansion, the logarithmically growing filter amplification, the leakage norm, and the marked-to-bulk exponents.",
+    "Checked Poisson representation and the converse Hahn\u2013Banach step, the local field-first limit order, the Chebyshev cancellation at the cold pole, and the all-node interpolation proof on the algebraic comparison cover.",
+    "Replayed both new record files byte-for-byte and verified round-45 proof and record hashes."
+  ],
+  "next": [
+    "Prioritize a signed real stencil estimate built from the actual stationary equations on a short cold-to-hot disk chain. Track subsequential excess instead of interpreting large finite coefficients as adequate numerical tests. Retain branch-amplitude control only where tied to actual Fourier structure.",
+    "Seek a prime bound on the signed late Picard secant directly on the actual exact endpoint or a structural step raising the effective support scale above sqrt p. Use reciprocal forbidden-count and translated-mask filters to test candidate shapes, with the critical-slice dual available without a coset hypothesis."
+  ],
+  "window_closeout_workflow": "Both routes supplied two ranked proposals and explicit refutation quantities. Main prioritized the weaker field-first linear inequalities over individual geometric extension and kept the signed secant alongside the exact-face concentration tests.",
+  "committed": false,
+  "pushed": false
+}

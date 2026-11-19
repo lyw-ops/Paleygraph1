@@ -1,0 +1,175 @@
+{
+  "round": 45,
+  "accepted_at_utc": "2026-11-18T11:02:21.206830+00:00",
+  "previous": "research/round-44-acceptance.json",
+  "previous_sha256": "a43a940b2688f210c4665e5284c7961107d1f7de49590d517508c1391d7744c3",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/endpoint_45",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-endpoint-45",
+      "ranked_closeout": [
+        "On the exact larger-side least-norm endpoint, estimate the inverse atom separately through the bulk support size and the centered weight energy. Both terms o(D(p)) suffice. Either term Omega(D(p)) on an unbounded prime subsequence rules out this sufficient condition.",
+        "If the full norm is large, estimate the signed directional energy per depth at one growing trusted depth per prime. A common positive lower bound throughout the growing trusted choices on a subsequence would exclude this directional test."
+      ]
+    },
+    {
+      "name": "/root/strip_45",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-strip-45",
+      "ranked_closeout": [
+        "Prove uniform relative coordinate motion and complementary Fourier product residual estimates that yield actual lifted distance at most log log n minus a diverging term. The dense real Pick criterion gives a finite obstruction to any false selected disk. A rejected polynomial predictor only rules out its certificate.",
+        "Estimate signed derivatives at higher fixed orders in the round-39 integrated quasi-analytic envelope, using square controls. A verified excess on arbitrarily large primes can invalidate an eventual bound."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/endpoint-direction-45.md": "b39f4754feb32ada9d61d73a8044a199a5d0188354c618334d5764032c4f3317",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-endpoint-45.md": "6288c9a268104fdb4ef80817a7fb57955e6b3645070607c10968fe294281e7c7",
+    "research/astra-endpoint-45-check.py": "0156b9d5f517354dcb2f8f012967ffe0c21ba57a07601fe7a5bca34f98efd2a5",
+    "research/astra-strip-45.md": "a1e921e4d672b4a1e2610df13faf2d587a8061a8f55f962beb3a6ceec0cd49d8",
+    "research/astra-strip-45-check.py": "711ea744ef4f9e09af9fbbbe18bcd14c49e18b84d78465974f83071b31a47c60",
+    "research/astra-strip-45-pick.py": "854fefbba67816773f9fbed8048eba5bd769132e3a5c98c1918569938b3be147",
+    "research/astra-strip-45-loewner.py": "60af3ea3b75f51e1774830f8f800423de10ae4e40f11bccece12d7d74a5a1bab"
+  },
+  "core_records": 93,
+  "record_kinds": {
+    "actual_prime_endpoint": 8,
+    "true_cold_direction": 65,
+    "square_active_system_failure": 2,
+    "actual_degenerate_prime_endpoint": 2,
+    "exact_square_endpoint": 3,
+    "critical_score_collision_pair": 1,
+    "physical_fourier_predictor_chain": 4,
+    "schur_scan_inconclusive": 3,
+    "loewner_scan_inconclusive": 3,
+    "multipoint_marked_obstruction": 1,
+    "physical_sector_loewner_obstruction": 1
+  },
+  "replay_checks": [
+    {
+      "file": "research/endpoint-direction-45-checks.jsonl",
+      "records": 80,
+      "sha256": "75fb1e9275c6e18eb0e3862a14c68ccd39c3f71f3b13afbd3b8cf6ee8085c66e",
+      "scope": "Arb224 larger-theta least-norm endpoint certification and true cold trajectories. Eight generic primes, two exactly resolved degenerate primes, three exact square optima, 65 depth records, two recorded failures of the generic active system.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-endpoint-45-checks.jsonl",
+      "records": 1,
+      "sha256": "9836efc80a9c456627d5ddf336698a25cb74b5bc18f29d30fb280c68cb8e711e",
+      "scope": "Arb384 distinct collision energies at equal exact critical mark and equal depth-three cold score for prime 101.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-q7681.jsonl",
+      "records": 1,
+      "sha256": "70191a404509c6dfd2b09f54d920ef17077de12315ae7fd0da43239b7633f965",
+      "scope": "Arb128 verified 118-chart physical plus section and signed derivative enclosures.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-pick-q7681.jsonl",
+      "records": 1,
+      "sha256": "09a5048178293fd23693c2fabd4185b0506761ca1b03f2ea5eb26dbf484c1924",
+      "scope": "Finite multipoint Schur search inconclusive. This record gives no upper bound on width.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-loewner-q7681.jsonl",
+      "records": 1,
+      "sha256": "ff287d1268e10323dfdfe12cc14d917d5178baa6ea1e6f2c49f862d05242b104",
+      "scope": "Finite Loewner search inconclusive. This record gives no upper bound on width.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-q12289.jsonl",
+      "records": 1,
+      "sha256": "877c8926f85d4d4770ff3309d88b7f27429fe4e39fd5197e8acc0ab2baeeb037",
+      "scope": "Arb128 verified 118-chart physical plus section and signed derivative enclosures.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-pick-q12289.jsonl",
+      "records": 1,
+      "sha256": "b7edd6f7f654e89864e20ae6973415cca1c30ef532cd58af5d8a710e0487c950",
+      "scope": "Finite multipoint Schur search inconclusive. This record gives no upper bound on width.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-loewner-q12289.jsonl",
+      "records": 1,
+      "sha256": "e6fb19973a49ca87a074ce99f639bd6fb4d720ec63c7db514a38b05dff242b8c",
+      "scope": "Finite Loewner search inconclusive. This record gives no upper bound on width.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-q40961.jsonl",
+      "records": 1,
+      "sha256": "70c70bab1fa4cd44aa5c2d060fa830c7ea85b841343ed1936b0f712457235a69",
+      "scope": "Arb128 verified 118-chart physical plus section and signed derivative enclosures.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-pick-q40961.jsonl",
+      "records": 1,
+      "sha256": "c5c0795f017f193f67fb5f559376588828eba6cdb5e45f34be282a9de35b2673",
+      "scope": "Finite multipoint Schur search inconclusive. This record gives no upper bound on width.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-loewner-q40961.jsonl",
+      "records": 1,
+      "sha256": "c87e881d6d99c7198729076be99ad9078ad85854bf1a3e0ec4b06981b2405e09",
+      "scope": "Finite Loewner search inconclusive. This record gives no upper bound on width.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-q7921.jsonl",
+      "records": 1,
+      "sha256": "d844e61bf232882de0fbef69b730493dd040385eb619ebc066b075af53543f7e",
+      "scope": "Arb128 verified 118-chart physical plus section and signed derivative enclosures.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-pick-q7921.jsonl",
+      "records": 1,
+      "sha256": "4207384bc1cedea2e80bca6daa09a2811d7ad465bbfc3364e69a21fd353132d5",
+      "scope": "Arb multipoint Schur obstruction to the actual marked section.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-strip-45-loewner-q7921.jsonl",
+      "records": 1,
+      "sha256": "9e29ee6c0a8b0b48e50624e6ed7a14fe7216ecba2ad0716b02fe526aed7250ec",
+      "scope": "Arb Loewner negative quadratic form obstructing the actual marked section.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "The exact late secant subtracts two true zero-floor time identities and keeps both monotone reserves, terminal energy difference, and marked loss. In the proved growing marked window an upper o(1) signed secant per elapsed depth after subtracting the energy difference suffices for the all-prime limit. Collision excess O(T) and true half-prefix motion o(sqrt T) together imply this upper bound.",
+    "The endpoint replay certifies eight generic larger-side prime endpoints via opposite-sector disjoint support and interval invertibility. At primes 29 and 97 it keeps the common-zero failure of the square system and verifies the least-norm endpoint using exact cyclotomic face equations. Exact square witnesses control the measurements. The true time differences use a nonexpansive propagated L2 error and both reserves.",
+    "Fejer translates and Caratheodory give even positive near-optimal rows at every sufficiently large eligible prime that agree exactly on the mark, all trusted signed cold projections and wrong-sign occupations, while collision energies differ by much more than the trusted depth. This excludes a general collision bound based only on these measurements and near-optimality. The actual exact least-norm optimizer remains a separate target.",
+    "The physical plus branch and derivatives through order four are certified across [1/32,2048] with angular half-width .065 at primes 7681, 12289, 40961 and square order 7921. These reach the finite hot disk. The cubic and quartic absolute derivative integrals increase from 12289 to 40961 in disjoint certified intervals.",
+    "A marked section exists on a proposed Cayley disk exactly when all finite ordinary Pick matrices on a dense real diameter are positive semidefinite. The inherited sector bound gives the disk-valued transform. Interpolation and normal-family compactness give the converse on the normalized marked surface.",
+    "At square order 7921, nine real nodes give an actual marked obstruction at Cayley radius 3/5 via Schur and at radius 1/2 via Loewner. The latter excludes a relative angular half-width .928 on the tested modulus interval. Six finite searches on prime cases are inconclusive."
+  ],
+  "independent_review": [
+    "Checked both signs and all terms in the secant identity, the L2 propagation of the unrounded iterates, the exact degenerate least-norm argument, and the square support control.",
+    "Checked the character-sum run in both signs, exact preservation of all linear measurements under convex combination, and removal of the cross term by the least-norm pairing test.",
+    "Checked the relative weighted contraction with nonzero projected constant, Fourier corrections, real gluing, derivative error propagation, Schur transform, normalized marked lifting, and the upper half-disk Loewner criterion.",
+    "Replayed all 14 data files byte-for-byte and checked existing round-44 source and record hashes."
+  ],
+  "next": [
+    "On the exact larger-side endpoint, use complementary support to bound the density and centered weight terms of the reciprocal atom. In parallel seek a signed directional or late cold secant upper bound inside the marked window. Use the round-44 critical slice as a direct dual route when the collision estimates fail.",
+    "Prove a prime-uniform complementary product residual or dense real Pick positivity with enough cold-to-hot access. Use fixed signed higher derivatives as an alternative only with a specified integrated envelope. Keep failed enclosures and actual obstructions separate."
+  ],
+  "window_closeout_workflow": "Both completed routes gave two ranked tests. Main used the near-optimal measurement obstruction to restrict atom estimates to the exact complementary face, combined the directional suggestion with a late secant, and combined strip access with a decisive real-data obstruction criterion.",
+  "committed": false,
+  "pushed": false
+}

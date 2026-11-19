@@ -1,0 +1,2 @@
+{"bits": 128, "intervals": 8192, "real_upper_sum": "[0.42823587101059002488068928952657593 +/- 6.18e-36]", "complex_upper_sum": "[0.44992116843713814727628350484360049 +/- 7.43e-36]"}
+{"checked_phases": 1025, "initial_rank": 2, "last_rank": 1026}

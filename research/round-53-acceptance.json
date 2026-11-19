@@ -1,0 +1,87 @@
+{
+  "round": 53,
+  "accepted_at_utc": "2026-11-18T13:17:43.642204+00:00",
+  "previous": "research/round-52-acceptance.json",
+  "previous_sha256": "7cd155d02f6111d30f1abdc3630440d44a7ec0275ac65d05a24c1457aefca442",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/histogram_53",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-histogram-53",
+      "ranked_closeout": [
+        "To cross 127/8, collect signed coefficients of identical geometric trace fields before taking absolute values. A lower monotone iterate passing a proven self-quadratic escape threshold refutes that grouped invariant.",
+        "At t=7, bound the third increment with its joint Jacobi and first-feedback law. A uniform positive pair whose mark transfer is below .0169 extends the tolerance; a rigorous lower bound beyond the allotted increment rejects the proposed estimate."
+      ]
+    },
+    {
+      "name": "/root/tail_53",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-tail-53",
+      "ranked_closeout": [
+        "Use the exact full-optimal-face quantile LP at one growing late time, keeping E_t/4. Positive normalized dual lower bounds at every late time along unbounded primes refute this face-window estimate.",
+        "Keep full completion, support and exact cold increment moments when estimating upper-tail capacities. A positive integrated lower certificate for the relaxation throughout the late window defeats that proposed bound."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-histogram-53.md": "3cd514c6c2c4e6b379e8a325233d363c23c9905a486b74f3756f2d09fd473849",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-tail-53.md": "48b0e1d646fa1b5e39e4357dba22e670d7a041f0cfc23e1e14c5a27ef7a17ab8",
+    "research/astra-tail-53-check.py": "3791e91955a0e2d777286c5b8280bf070072f58430b02a1d2c917b9c480230ca",
+    "research/marked-domain-53.md": "6066230b99e4b009fe5b50857735b2d42356cb467a52492b35b99cf08891ffb0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a"
+  },
+  "core_records": 12,
+  "replay_checks": [
+    {
+      "file": "research/astra-histogram-53-checks.jsonl",
+      "records": 4,
+      "sha256": "bac082f5a2d02842867736a0af0ddf9e98237316b64935e2e3c5ba9435f5f74b",
+      "scope": "Four Arb160 scalar records: the 18-component packet invariant, two positive centered polynomial trial intervals, and rigorous divergence of the full unsigned histogram at 127/8 from a 16-packet lower iteration.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-tail-53-checks.jsonl",
+      "records": 3,
+      "sha256": "7d0b1bfb82e73ff05677865b35fd2bfeed6a82b4d8447367789eb5a7c77375d6",
+      "scope": "Three Arb320 finite prime endpoint and actual-prefix records at 101, 173, 401. They enclose true quantile envelopes, support, and local frame comparisons. They do not numerically certify an optimum on a degenerate face.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/marked-domain-53-checks.jsonl",
+      "records": 5,
+      "sha256": "e3f45d24c1d049c6656efba683b77b8c9ae95f1e29d9caceb969e0b46aa839a0",
+      "scope": "Five Arb/Acb192 interval certificates covering the explicit complex neighborhoods by closed rectangular slabs and an outer radial majorant. These certify invariant scalar margins for the ordinary asymptotic proof.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "The full pooled signed-weight histogram preserves all 16 low packets with a rigorously bounded mixed and high-weight remainder. It supplies the previously used real approximate-pair argument down to 33/2 through eligible primes and prime squares.",
+    "At 127/8 the actual full unsigned Laurent tree majorant has no finite-total-mass positive invariant. The lower tree iteration reaches mass above 21 and the retained quadratic term forces subsequent escape. This concerns the absolute-cost majorant, not an actual stationary singularity.",
+    "The positive centered degree-16 four-update trial proves strict prime-uniform limsup .0169 on [15/2,63/8] and .0222 on [7,15/2]. Its positive bulk-product lower bounds are 4.7 and 3.3, respectively. Combining with previous rounds extends the fixed .017 band through primes to 15/2.",
+    "In the two-character category, all bad full Mellin twists 1 and chi restrict to a single cyclic frequency, the mark. Exact errors use the unshifted Jacobi column and stay in the category at every degree, with both rank-cost and second-moment error O(n^-1/2) times the product dimension.",
+    "The actual marked germ and full positive stationary factors on the real slice extend via the exact complex Picard contraction to a common domain for all sufficiently large eligible primes and prime squares. The union is {Re t>0,22<|t|<2048}, {2319/128<Re t<23, |Im t|<1/4}, and {527/32<Re t<145/8, |Im t|<1/32}. Throughout it |m_q(t)|<=3/sqrt(n).",
+    "The common radial domain and the known square cold mark force genuine accessible square marked ramification in Re t>1/16 and |t|<=22 for sufficiently large prime squares. No individual location and no prime ramification claim are made.",
+    "The round-52 combined endpoint cost is the integrated maximum of two increasing quantiles minus its bounded affine term. Optimizing over both full exposed optimal faces gives an exact LP with up to O(n) threshold variables, and permits choosing the endpoints separately at each time.",
+    "At the actual first Jacobi sample, simultaneous forbidden-position frame packings of dimension o(sqrt(p)) with no full positive completion can assign mass 1-o(1) to any fixed threshold below 2sqrt(2). The true smaller endpoint has a fixed gap from one for thresholds in (2,2sqrt(2)). The obstruction does not establish late-prime behavior."
+  ],
+  "independent_review": [
+    "Checked the symmetric packet update, residual propagation over every omitted descendant, interval coefficient envelopes, previous-core subtraction in the difference bound, and quadratic lower escape.",
+    "Checked the good-character criterion in Katz, the marked-only exceptional correction and exact iterative invariant, all complex domain overlaps, and contraction on vector line segments with nonvanishing marked square root.",
+    "Checked full-face exposure, quantile orientation and sign reserves, frame packing and the normalized polynomial-tilt proof, and the exact seed gap for the actual smaller endpoint.",
+    "Replayed all 12 records byte for byte and verified round-52 hashes, proof links and Python syntax."
+  ],
+  "next": [
+    "Go beyond the absolute-tree restriction by collecting coefficients for equal geometric trace fields. Attempt a new precise invariant below the proven 127/8 escape floor. With exact marked exception closure, any successful invariant of coordinate radius within the contraction range supplies actual complex extension.",
+    "Pursue the prime fixed-tolerance construction at floor 7 and below by retaining the joint third increment or choosing an even activation polynomial adapted to the true input intervals. Require strict product positivity and actual mark transfer.",
+    "On actual prime optimal faces, attack the joint quantile LP using exact cold increment moments and support. Retain the energy reserve at one growing late time. A support-free relaxation already fails at the seed.",
+    "The all-prime ordinary theta limit and a common marked domain reaching t=1/2 and then zero remain unresolved."
+  ],
+  "window_closeout_workflow": "Both Astra routes submitted two ranked next tests with explicit refutations. Main independently reviewed them, established the exact complex branch from marked-only correction and verified the explicit common domains. Retained the full unsigned escape and incomplete frame packing as separate failed proof routes.",
+  "committed": false,
+  "pushed": false
+}

@@ -1,0 +1,3 @@
+{"cap": "[0.494529 +/- 8.65e-7]", "g_lower": "[0.172234 +/- 1.39e-7]", "g_upper": "[0.172234 +/- 1.39e-7]", "leading_norm": "[0.0413851 +/- 7.43e-8]", "error_upper": "[0.00130 +/- 6.25e-6]", "mixed_lower": "[0.0231 +/- 4.70e-5]", "mixed_upper": "[0.0376 +/- 2.29e-5]"}
+{"tracking_huber_coefficient": "0.04", "tracking_residual_coefficient": 25, "real_residual_limsup_upper": "[4.092269943066962628956381001190963757187953245e-221 +/- 8.44e-267]"}
+{"adjoint_steps": 150, "growth": 12, "W_tilt_upper": "[5.8227743421471166806959414005377137547662267991 +/- 7.06e-47]", "physical_real_mark_limsup_upper": "[1.668447857822242975194621205712792042410843102e-275 +/- 7.63e-321]"}

@@ -1,0 +1,115 @@
+{
+  "round": 85,
+  "accepted_at_utc": "2026-11-19T06:14:41Z",
+  "previous": "research/round-84-acceptance.json",
+  "previous_sha256": "daed9e16bd1a2aa994233c6f439031ce9516ca90edf10a508dc623f518e5a73e",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/cubic_85",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the intermediate-output signed difference of the actual pair, retaining the deterministic partial root term on the same mask.",
+        "Estimate the centered cubic with within-displacement weights of the true pair. Match n B0/(n-2) to additive o(1) after scaling."
+      ]
+    },
+    {
+      "name": "/root/overflow_85",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Show d times the signed root leverage tends to infinity and bound the negative payment of the canonical signed row against the same actual terminal pin.",
+        "Bound cumulative marked leverage lost in a deletion sequence that retains a genuine optimizer, or prove divergence of the equivalent product with the positive-cone angular factor."
+      ]
+    },
+    {
+      "name": "/root/compression_85",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate the damped return of the genuine high-positive to high-negative phase sets on the actual height-600 path, retaining the real amplitudes.",
+        "Combine the exact endpoint budget with the locations of competing phase extremes to improve the unconditional n^(-1/2) width."
+      ]
+    },
+    {
+      "name": "/root/audit_85",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate the centered cubic against actual conditional displacement weights at the prescribed root.",
+        "Bound the damped Schur block along the genuine forcing path and the phase range beyond first contact."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Prove the signed within-displacement cubic estimate at the actual mark after removing the near-unit positional band. Treat the positive leverage and the exact negative pin price as a companion way to test the true larger optimum.",
+    "At the cold section control the damped opposite-sign return on the true branch. Use the exact phase rotation, the two compression eigenspaces and root-neutral floor compatibility at first contact to distinguish local singularity from later escape."
+  ],
+  "proof_and_code_sha256": {
+    "research/relative-phase-rotation-85.md": "dc96c5132aaf1ad27f5545e6f4cefa1781f7a3f68fb100fbc79e92b12c44a087",
+    "research/astra-cubic-85.md": "2ce11083c8442d922942b50cd118d43a456cb5766131e1f73a4abc92f2926352",
+    "research/astra-overflow-85.md": "4d4aa712353e7f2a9eea53c66b81f8730d679bfdf5eda25af3d1d382589aecbb",
+    "research/astra-compression-85.md": "03e3c07cd911457ad1febcfccc5dc97f6d1a3dfc80c321ad668a35e0e475d1f3",
+    "research/astra-cubic-85-check.py": "5c9dfce02dc75dbe8d446ab90d304d68f9101fce27366291ebc74a5162b64e15",
+    "research/astra-cubic-85-checks.jsonl": "97cdf1bda43d38c3bfb72cb2cc171341000c03769bb8cc056bd2c157e4b1abf4",
+    "research/astra-overflow-85-check.py": "a483b65a271dc2a9be227c490a77d6db1ccd119263514f6702dd0175bb58d514",
+    "research/astra-overflow-85-checks.jsonl": "06c0e0afce0e0fab82af8eddb5fed7b7b8d50c2b9d05b7f77abac4d35ea615f1",
+    "research/astra-compression-85-check.py": "a07349b6995dd97ca3e885afbc50002f42e0267d0524c73178c783a94dd9ab1c",
+    "research/astra-compression-85-checks.jsonl": "7ebadbe9fa078f0c3fb5b5ad969cb9c17ec4b08df4be956933836cacdb4f6d6f"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-capacity-84-check.py": "17fb99060b9e8d6a848ff1ead7a752d581be10395d4de88891962d3b31696e5f",
+    "research/astra-cold-37-monodromy.py": "e3bee2fc0b799e441e33f6d5c69b84a14fff23df79fddce8591b3ba1198352b3"
+  },
+  "additional_inherited_dependency_sha256": {
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-face-46.md": "e4097317aa7dd015afec9f01ba4b70376c04cfb649cc19d1dc193fbf0e3722eb",
+    "research/coset-progression-gap.md": "3fe9ac4506097217d86b8070bbe9c10caecbc5bd52f676a522cff272b0151bb1",
+    "research/astra-imaginary-84.md": "ccc164a42fbcdd40aee3b87d96c82dc5889b939f58d9ac44f5e385de9d2b93a4",
+    "research/phase-action-84.md": "ca649496c0b7f2b16f08cab673af25f20fff64cc0f3f2637e56624f5372a00cd",
+    "research/parallel-cold-complex-36.md": "6637d3e29a198fa357b0d193a3d256c215e3a81137d4eef215870f7385e43bed"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 8,
+  "arithmetic_record_counts": {
+    "marked_cubic_arb384": 5,
+    "positive_leverage_arb384": 1,
+    "phase_response_arb128": 2
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main and the independent audit replayed all three checkers under pipefail and byte-for-byte comparisons.",
+    "The five cubic records check 787 individual output identities, all distinct-center displacement means, and the two forbidden sign tests on 82 off-mark cosets of the finite genuine pairs.",
+    "The positive leverage record checks the exact p=97 signed and cone projections, the necessary reflected pair and the finite identity from the actual time-four pin. The pin has B<0 in this finite case.",
+    "The phase records check the explicit scale constants and the actual p=173 signed return after 65 interval path segments. All lifted phases are checked along the certified path, and the witness for the lower raw norm is rational.",
+    "Main independently verified the final nullity-dependent contact constant greater than 85.7 at 2031/128 and the rotated action factor by rational inequalities. The spectral multiplicity strengthening came from the independent audit."
+  ],
+  "proof_scope": [
+    "For every actual complementary optimal pair the marked cubic decomposes exactly by positional output. Removing outputs where either modulus exceeds 1-epsilon costs O(sqrt(epsilon)) in the absolute sum of scaled individual contributions uniformly for sufficiently large eligible primes, including complex or negative coefficients. At a fixed gap the larger-side near-unit count is at most half the Hanson-Petridis cap at a fixed cutoff. The relative-density-one divisor conclusion concerns smoothed convolution marks, not theta convergence.",
+    "The conditional uniform part of the true weighted distinct-center displacement sum is exactly -2 B0/(n-2)=O(p^(-1)). The centered within-displacement residual on the true pair remains an unknown signed term at the distinguished mark.",
+    "The true capacity trace is within O_delta(d^(-1/2)) of sqrt(1/ell_plus-1). The positive leverage factors into the signed root leverage times the squared sine against the optimal exterior positive direction. The actual pin and common head give simultaneous explicit nonnegative multipliers, with their separate prices on the same signed row. A positivity-preserving deletion chain yields a product lower bound. At p=97 one pair is negative on the signed row yet necessarily positive in all genuine completions.",
+    "The actual unforced stationary section exists in the right half-plane polar region (n-1)sin^2(arg(t)/2)<1+(1-2/n)|t|. It gives width 130/sqrt(n) at the nominated real interval through arbitrarily large primes and an angular sector approaching zero at each field. A real-amplitude transform gives the damped opposite-sign Schur response beyond the unit derivative regime. The finite p=173 example rigorously separates it from the raw cross-norm test.",
+    "Exact angular rotation of the Jacobian changes only the constant multiplier. At a first spread contact of pi/2 in the enlarged sector, a singularity of nullity m requires both signs of unit compression eigenvalues with multiplicity at least m, weighted cross norm at least one, and |Im t| at least (2m)^(1/4) 4 Re(t) sqrt((1+c Re(t))/(13 c sqrt(p))) at the unforced equation with n>=Re(t). This bound only excludes a singularity at the contact. At first contact on the cold square the root vanishes on the kernel and the true unforced floor derivative is orthogonal to the left nullspace, with signed complementary tangent balances and the listed cubic second variation. The rotated action controls any one admissible phase interval."
+  ],
+  "independent_review": [
+    "Checked the near-unit multiplicative word argument, Kneser stabilization, root localization using two forbidden signs, phase cutoff including noneven rows, and the signed centered displacement normalization.",
+    "Checked the true positive cone projection, the two actual nonnegative multipliers, finite locked-pair failure and the positivity-preserving sequential projector update.",
+    "Checked the unforced global angular budget, compact arc continuation, real-amplitude contraction, signed Schur and two-projection estimates, and the full-field finite continuation check.",
+    "Checked the exact complex Jacobian rotation, the nullity-dependent compression eigenspaces, the contact-only scope, the bilinear Fredholm floor identities and the rotated phase action."
+  ],
+  "next": [
+    "Bound the true marked cubic on the remaining positional output or obtain the genuine prime-uniform positivity estimate from marked leverage and terminal prices.",
+    "Continue the unforced cold branch on a positive common width across primes using signed future compression or actual phase spread and floor compatibility.",
+    "ETH Randomstrasse101 Problem 26 remains open."
+  ],
+  "window_closeout_workflow": "Four proof notes and eight interval records, checked by main and an independent read-only audit. Three research routes and the audit each returned ranked next tests.",
+  "committed": false,
+  "pushed": false
+}

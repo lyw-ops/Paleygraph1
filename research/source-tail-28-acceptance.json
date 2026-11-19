@@ -1,0 +1,92 @@
+{
+  "round": 28,
+  "accepted_at_utc": "2026-11-17T18:15:58.909043+00:00",
+  "target_status": "open",
+  "checks": [
+    {
+      "file": "research/astra-broad-source-28-check.jsonl",
+      "records": 5,
+      "sha256": "19660217df1353240af37e1aeddfa5763ed78a973d03290162e4a959e5731b1a",
+      "byte_identical_independent_replay": true,
+      "arithmetic": "floating point, not interval certification"
+    },
+    {
+      "file": "research/parallel-integrability-28.jsonl",
+      "records": 20,
+      "sha256": "494ffb76aa80f420c9ffa70ed0ff4c21ac91e3f7616b2c0c3e15f8d9397b381c",
+      "byte_identical_independent_replay": true,
+      "arithmetic": "floating point, not interval certification"
+    },
+    {
+      "file": "research/claude-fable-28-check.jsonl",
+      "records": 220,
+      "sha256": "bb7221fd32aeb35a3fc191b8fa0098674d6105cc0e54388404725ec1b13ab594",
+      "byte_identical_independent_replay": true,
+      "arithmetic": "floating point, not interval certification"
+    },
+    {
+      "file": "research/source-tail-28-replayed.jsonl",
+      "records": 20,
+      "sha256": "79c204b86d3f90faca04807c580a45db486cccf6a24c0b378cd3cded0834b73b",
+      "exact_optimizer_free_replay": true,
+      "arithmetic": "160-bit Arb outward interval arithmetic for rational trials",
+      "scope": "does not certify proposals as exact Picard prefixes"
+    },
+    {
+      "file": "research/source-tail-28-reciprocal-replayed.jsonl",
+      "records": 24,
+      "identity_error_maxima": {
+        "autocorrelation_mark_error": 2.220446049250313e-16,
+        "autocorrelation_mass_error": 7.451816941284051e-13,
+        "autocorrelation_sector_error": 6.77599954797753e-16,
+        "diagonal_pair_bulk_error": 2.0816681711721685e-17,
+        "dirichlet_error": 3.93796106834543e-13,
+        "explicit_test_norm_relative_error": 3.896438727224449e-12,
+        "explicit_test_root_error": 1.2212453270876722e-15,
+        "first_inverse_moment_error": 5.46007683510652e-13,
+        "mean_error": 2.8199664825478976e-14,
+        "reciprocal_error": 1.1102230246251565e-16,
+        "second_inverse_moment_relative_error": 3.8995473516934e-12,
+        "sector_error": 9.121602086335609e-13,
+        "signed_test_identity_error": 8.171241461241152e-14,
+        "source_error": 8.906997832914687e-13
+      },
+      "arithmetic": "floating point, not interval certification",
+      "scope": "independent small-field cases, not a replay of the original 36 rows"
+    }
+  ],
+  "pending": [],
+  "curated_note_audit": {
+    "file": "research/parallel-integrability-28.md",
+    "appendix_line": 242,
+    "accepted_algebra": "Fable A1-A3",
+    "corrections": [
+      "limiting-law support gives only a lower bound on maxima",
+      "frequency and positional sup norms are alternative sufficient hypotheses, not equivalent",
+      "finite tested depths do not bound an all-depth supremum",
+      "positional residual transfer needs its own argument"
+    ],
+    "arithmetic_matching_premise": "unproved"
+  },
+  "note_sha256": {
+    "README.md": "d705a6e05e445893391c1ca381775ef99db68bf33bf0e56acf0be4ff61f51d72",
+    "research/ledger.md": "bf4ab3e54e10051730f65f8db2503396180fb7850339826e72059bbed656b269",
+    "research/source-tail-28.md": "ff07bc4927ae2d97f7eafe3d8d271086f5ec3d23794e97da7ead573bcf9f03f1",
+    "research/claude-fable-28.md": "2a79704f3bae008c3935c461101cdc44676bddb868c1b24ccb8fadd6f46d1789",
+    "research/parallel-integrability-28.md": "29da079055d03ad616a7f83218c99f8b8cfe6a7dede10180a725d401948359fd"
+  },
+  "round_28_accepted_records": 19,
+  "round_29_supplemental_records": 1,
+  "accepted_certificates": 20,
+  "completed_supplement": {
+    "case": "p=1000033,tau=1/10000,Newton trial",
+    "terminal_session": 82328,
+    "terminal_exit_code": 0,
+    "independent_optimizer_free_replay": "passed",
+    "normalized_theta_outward_decimals": [
+      "1.0007690",
+      "1.0008822"
+    ]
+  },
+  "note_hashes_are_snapshots": true
+}

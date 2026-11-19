@@ -1,0 +1,298 @@
+{
+  "round": 34,
+  "accepted_at_utc": "2026-11-18T04:01:07.525260+00:00",
+  "target_status": "open",
+  "goal_status": "active",
+  "core_records": 193,
+  "record_categories": {
+    "exact_integer_rational": 15,
+    "interval": 41,
+    "success_summary": 6,
+    "floating_identity_diagnostic": 126,
+    "runtime_summary": 5
+  },
+  "checks": [
+    {
+      "file": "research/complex-branches-34-certified.jsonl",
+      "sha256": "e9ed77c3a246c020842dd3d8ab8c0fdf8dea0fa99a94e34ca30f6fd6500daca0",
+      "accepted_records": 14,
+      "independent_replay": "/tmp/paley-complex-branches34-replay.jsonl",
+      "ignored_fields": [],
+      "comparison": "JSON equality",
+      "byte_identical": true,
+      "kinds": {
+        "exact_curve_elimination": 2,
+        "exact_degree_ten_hurwitz": 2,
+        "validated_discriminant_locations": 2,
+        "validated_stationary_reconstruction": 8
+      }
+    },
+    {
+      "file": "research/parallel-audit-34.jsonl",
+      "sha256": "0e534c1734db946342c819515af8e5d8fb22f9c7d7aa716334d2e0fa7ad7f2dd",
+      "accepted_records": 17,
+      "independent_replay": "/tmp/paley-audit34-replay.jsonl",
+      "ignored_fields": [],
+      "comparison": "JSON equality",
+      "byte_identical": true,
+      "kinds": {
+        "exact_actual_sector_template": 2,
+        "exact_discriminant_and_hurwitz": 2,
+        "exact_reconstruction_identities": 2,
+        "validated_discriminant_roots": 2,
+        "validated_actual_stationary_branch": 8,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/astra-conic-primal-34-exact.jsonl",
+      "sha256": "a8481caa05e2f8c73bbbef94e74b33a79d0fcfc53e2c7a1a0a324579b486eac5",
+      "accepted_records": 2,
+      "independent_replay": "/tmp/paley-conic34-exact-replay.jsonl",
+      "ignored_fields": [],
+      "comparison": "JSON equality",
+      "byte_identical": true,
+      "kinds": {
+        "exact_actual_Paley_reflection_identity": 2
+      }
+    },
+    {
+      "file": "research/astra-conic-primal-34-replay224.jsonl",
+      "sha256": "ed84853242db0f52c849d20ed729d0f13e100c28a3d608616baebd70cdd4781c",
+      "accepted_records": 6,
+      "independent_replay": "/tmp/paley-conic34-replay224.jsonl",
+      "ignored_fields": [],
+      "comparison": "JSON equality keyed by exact_input",
+      "byte_identical": true,
+      "kinds": {
+        "arb_mark_preserving_conic_primal": 5,
+        "arb_repair_rejected": 1
+      }
+    },
+    {
+      "file": "research/parallel-schur-response-34.jsonl",
+      "sha256": "848e910d897e82fdfbf8e80465c8adc0cd38962790043bc03308d6aeb4944305",
+      "accepted_records": 130,
+      "independent_replay": "/tmp/paley-schur34-identities-replay.jsonl",
+      "ignored_fields": [],
+      "comparison": "JSON equality",
+      "byte_identical": true,
+      "kinds": {
+        "exact_prime_incidence": 3,
+        "actual_hinge_trace_and_CP": 70,
+        "actual_beta_small_source_split": 42,
+        "actual_joint_threshold_CP_Gram": 14,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/parallel-schur-response-34-certified-trial.jsonl",
+      "sha256": "7e7a08b5f953ab04870b3f6fed334d061df3fc5aa502e09d640b239850babb07",
+      "accepted_records": 5,
+      "independent_replay": "/tmp/paley-schur34-trial-replay.jsonl",
+      "ignored_fields": [
+        "elapsed_seconds"
+      ],
+      "comparison": "JSON equality",
+      "byte_identical": false,
+      "kinds": {
+        "rigorous_stationary_enclosure": 1,
+        "rigorous_continuous_all_threshold_HR": 2,
+        "finite_prime_completed": 1,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/parallel-schur-response-34-certified.jsonl",
+      "sha256": "ecbf64ef970fdb10e9f19dd9982f03a5ab86c681356e11195b4e8e081eeed614",
+      "accepted_records": 9,
+      "independent_replay": "/tmp/paley-schur34-core-replay.jsonl",
+      "ignored_fields": [
+        "elapsed_seconds"
+      ],
+      "comparison": "JSON equality",
+      "byte_identical": false,
+      "kinds": {
+        "rigorous_stationary_enclosure": 2,
+        "rigorous_continuous_all_threshold_HR": 4,
+        "finite_prime_completed": 2,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/parallel-schur-response-34-certified-large.jsonl",
+      "sha256": "7465f665dcd366c63f07ae16b67707c301ade1bf12fd73750c9c2d5120c09391",
+      "accepted_records": 5,
+      "independent_replay": "/tmp/paley-schur34-large-replay.jsonl",
+      "ignored_fields": [
+        "elapsed_seconds"
+      ],
+      "comparison": "JSON equality",
+      "byte_identical": false,
+      "kinds": {
+        "rigorous_stationary_enclosure": 1,
+        "rigorous_continuous_all_threshold_HR": 2,
+        "finite_prime_completed": 1,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/parallel-schur-response-34-certified-half.jsonl",
+      "sha256": "3b6a0f513ef720c55fd07937b6c45b600f5a268f3864eb84126f14cdccd3a189",
+      "accepted_records": 5,
+      "independent_replay": "/tmp/paley-schur34-half40009-replay.jsonl",
+      "ignored_fields": [
+        "elapsed_seconds"
+      ],
+      "comparison": "JSON equality",
+      "byte_identical": false,
+      "kinds": {
+        "rigorous_stationary_enclosure": 1,
+        "rigorous_continuous_all_threshold_HR": 2,
+        "finite_prime_completed": 1,
+        "all_checks_passed": 1
+      }
+    }
+  ],
+  "exact_witnesses": [
+    {
+      "file": "research/astra-conic-primal-34-q1000033-t40-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "61810ad0574356131c042fbfdc2d400dd09e67c451e7708b653600934688700f",
+      "uncompressed_sha256": "93b3f520f9f9053ca3691304090162c9c19de290a7325e35990e861773651529",
+      "order": 1000033,
+      "steps": 40,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q1000033-t48-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "575846ab5bc1c7a3970f5f67bcef53b4af8f7b6a468726f5c501b26c2d4a0097",
+      "uncompressed_sha256": "4b3e7cf2086c5e4250bc584c2f64f2772b61b9b62d639a4f7123447ef51e533f",
+      "order": 1000033,
+      "steps": 48,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q151321-t48-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "7cbbf685c97b9dedd029d1545047ee09cfbc8eb6281060a509e28343f2257349",
+      "uncompressed_sha256": "f433683038ff04ac6a1cf496a35bbade6c04a30da1a89ab8f362a7acde1105bb",
+      "order": 151321,
+      "steps": 48,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q9413-t40-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "a5f68cd6cf3eb515a0d6c183eb92b6572750dd24ec7cd0822e4058fe105d9638",
+      "uncompressed_sha256": "a28fbc8c6b265120cdf93ab8269e96ca7dfc8843a9b4f844078e762ad2111de1",
+      "order": 9413,
+      "steps": 40,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q9413-t44-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "0402884a43713e8523fe52698fc360cb04facb0f60cc7c7c8e6ec1de927a6806",
+      "uncompressed_sha256": "c8c37e39a29d6684e11a5b1e65915389f57ff05f87e8643671d0db13daff2188",
+      "order": 9413,
+      "steps": 44,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q9413-t48-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "ed880d47f93da7063f406812cee9e9c3acea1d795980af4398257dfe8866f9c6",
+      "uncompressed_sha256": "a0ab4bb549309e104eb6769ec553a1b8bd04acb40c071476c85b29c59e6d2ff6",
+      "order": 9413,
+      "steps": 48,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    }
+  ],
+  "proof_and_code_hashes": {
+    "research/astra-conic-primal-34.md": "bc78c10d8027d78935830244c5a12a125d96c8d0d3b8a2ae12ad138377df479a",
+    "research/astra-conic-primal-34.py": "bb9a6a129c37f35fee1354e16f463529f8ded014788abcdb5b23b87a9a2404ff",
+    "research/complex-branches-34.md": "78a3f35fadb83dfd628096d72ededb7dc4eba080154b29aec24a9cf6ef97c832",
+    "research/complex-branches-34.py": "dfa4406d91e22b80247f6f9e59d17affb1154b96c5091d1493b7dbc290ad3357",
+    "research/parallel-audit-34.md": "477cb71c64dd5ce7ff695af1b89cd8948000ed161a810287324bf44037e84533",
+    "research/parallel-audit-34.py": "7f3daf6bf8f2f7970ae100bb74576f1b10d0a5c70052ae22ccde7793d5f0f9d3",
+    "research/parallel-schur-response-34.md": "77077e9e539b523e777f10c878a4a9c0c236278488d8978a1e8ecab2e1acf48c",
+    "research/parallel-schur-response-34.py": "6fceb1e1734e8316dcee395ea90f1da837355106fcb09131fc43e2ef848a6a51",
+    "research/parallel-schur-response-34-certified.py": "11f3bc8495cae7a36fe103991cedb973694b1ac37af54c7918349822b4268503",
+    "research/parallel-schur-response-34-audit.py": "a91bc3f86b1ff3d8b2a658893c32391376ba0186841dcb1b8ccafc4d3ea75827"
+  },
+  "proof_scope": [
+    "Actual-Paley pinned clipped-reflection construction preserves mean, sector and both marks. Shallow-deficit repair displacement squared is O(BC*kappa/sqrt(n)); total conic fidelity requires a separate clipped-gap estimate. Main and independent auditor checked constants and n factors.",
+    "Five exact-input positive conic trials and one rigorously negative square trial replay at Arb224. Floating Picard depths are proposal provenance, not certified orbit prefixes. Square-trial failure does not disprove conic feasibility.",
+    "Joint CP Gram domination holds for all finite threshold families and signed combinations. Actual Paley incidence and corrected trace give Q_0/n -> (1+2*tau)/(4*(1+tau)), while H(0)^2/eta_0 is bounded. This excludes the positive-trace replacement as a uniform HR proof, not HR.",
+    "Continuous Arb/Banach covers certify all real nonnegative thresholds at distinct primes 4001,10009,40009,153649 and tau=.01. A repeated stronger 40009 case has ratio below .456. Eight distinct stationary sides, 754 cover intervals including 282 for the repeated case; zero hinges have zero energy.",
+    "Exact quintics, Hurwitz determinants, reconstruction denominators and original stationary equations prove nonvanishing holomorphic continuation of both actual reciprocal rows at p17 and q25 on Re(tau)>0. These are two fixed fields.",
+    "Written proofs are ordinary mathematical audits, not Lean kernel proofs. Floating identity checks and finite certificates are not asymptotic prime proofs."
+  ],
+  "native_consistency_audits": [
+    {
+      "file": "research/astra-conic-primal-34-checks.json",
+      "sha256": "a563c98090671d04ff2d4370c28eba13b6e60560f06c8bdfc04358cafe9e7ae5"
+    },
+    {
+      "file": "research/parallel-schur-response-34-acceptance.json",
+      "sha256": "0336a807ea01294ca8f6455394c0c5436eb1cfbe246b6784a58a146aae0be030",
+      "independently_replayed": true
+    }
+  ],
+  "non_core_exploration": [
+    {
+      "file": "research/astra-conic-primal-34-diagnostics.jsonl",
+      "rows": 42,
+      "sha256": "0b3720db4311ebf68b1781e61427ee4fc17e3ee0bb036c407d022eb1f3dddeac",
+      "scope": "Floating proposal exploration; not independently regenerated in main; not a uniform proof."
+    },
+    {
+      "file": "research/astra-conic-primal-34-large-diagnostics.jsonl",
+      "rows": 32,
+      "sha256": "94f5f175ba0dbb959680c4336b59ab26b9c01d7497d748243bd7b2ecd26950b2",
+      "scope": "Floating proposal exploration; not independently regenerated in main; not a uniform proof."
+    }
+  ],
+  "non_core_extra": {
+    "file": "/tmp/paley-schur34-half-replay.jsonl",
+    "scope": "Additional successful main C=.5 threshold cover at p10009; excluded from the 193 core owner records."
+  },
+  "research_chats": [
+    {
+      "thread_id": "01a1ecb5-4625-7921-8265-e5ec22caa596",
+      "host_id": "local",
+      "status": "completed",
+      "role": "Astra conic construction",
+      "last_cursor": "0dd67e1b-7fb8-4092-a425-2f362fb53683:4"
+    },
+    {
+      "thread_id": "01a1ecb5-9f32-7332-884b-88183ede4d90",
+      "host_id": "local",
+      "status": "completed",
+      "role": "Joint Schur and cold response",
+      "last_cursor": "3aa714c4-e65a-40b6-a113-e4422633f182:8"
+    }
+  ],
+  "independent_agent": {
+    "name": "/root/audit_square",
+    "status": "completed",
+    "prefix": "research/parallel-audit-34"
+  },
+  "open_obligations": [
+    "Prime-uniform source-free proposal fidelity and signed clipping spill, or the explicit shallow-deficit/cap hypotheses.",
+    "Prime-uniform o(kappa) conic rate and actual source UI.",
+    "Cold prime-uniform HR or a sufficient weaker uniform soft-integral estimate.",
+    "Subsequent regularized marked arithmetic comparison. UI and HR have not solved ETH26.",
+    "Common complex domains and subpolynomial complex growth through growing primes."
+  ],
+  "committed": false,
+  "pushed": false,
+  "static_checks": {
+    "scoped_python_ast": true,
+    "no_control_characters": true,
+    "no_trailing_whitespace": true,
+    "local_markdown_file_links": true
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "round": 88,
+  "accepted_at_utc": "2026-11-19T07:20:14Z",
+  "previous": "research/round-87-acceptance.json",
+  "previous_sha256": "1356392299a6f0b502f879ffd70415a8e2604c3ba159d71b5f37ba1e56d85b10",
+  "proof_and_code_sha256": {
+    "research/physical-two-floor-88.md": "04efb872ebd5088eea370b719d83f9cae17060806ead79254e3490527c4e796d",
+    "research/physical-two-floor-88-check.py": "5f873a0fd2950eec4b26d3e403755505e31dd6e619482db3c638abb6990459f0",
+    "research/physical-two-floor-88-checks.jsonl": "a9c25edae287f897eefe3f6b94a5310836f554d6a941547b4aa0b87798ffdc7a",
+    "research/astra-source-88.md": "80b4849d9f4e43c9a732af10731e6f1c38f895f0c726ad8df4420e591d746f88",
+    "research/astra-source-88-check.py": "e58df2133864c6c6fd687321068a9c40cc35fd6c0ad8db45ada89612344059f0",
+    "research/astra-source-88-checks.jsonl": "53770a4fe02ce5834d9977e8add10388d50ed8ba192305662032f4262414f180",
+    "research/astra-matched-88.md": "19216773eab997151b43c38b543c7d57c6a0477888e517d7440a1df0bc89cf75",
+    "research/astra-matched-88-check.py": "c8962f090161cfd5611a69b7101c1a94be524f94cde2a6fc04face0216f5c9dd",
+    "research/astra-matched-88-checks.jsonl": "2decfa3f667a8cdc2898edebe5c41f3c4a0a3f3d96519ee0af9bb082023249d1",
+    "research/astra-persistent-88.md": "56d6df9a10c4dc9abd5866aa325633238ea8b63fa455fef1fbdf3ca7636c3638",
+    "research/astra-persistent-88-check.py": "2f4ad0a7cae1d01d103982f14adcfd7861d18150bd78886bc3cfd2ca00336525",
+    "research/astra-persistent-88-checks.jsonl": "854dfc834e90b25c0ffbeb152a72d09e57278144b936f3dd98f936f2e6afb70e"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/astra-adjoint-82-checks.jsonl": "8a02bd8d5f43241e43344e8b83a6a17ae88874c4ed81e20e29335c03750af7b4",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-phase-86-check.py": "e824cc99ce0bc453495e770985cab0759dcecc8cb66d32bf77887071a0b8c503",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "additional_inherited_dependency_sha256": {
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/astra-cold-37-monodromy.py": "e3bee2fc0b799e441e33f6d5c69b84a14fff23df79fddce8591b3ba1198352b3",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "research/astra-terminal-87.md": "217f657f21390d8ce0837f713b5dc168cf95045bb23bc9c6fa07ebb3b9f8ee24",
+    "research/astra-diffuse-87.md": "c4d163a5b739c2497fa104c6267e50556c136ea3de3b587039a990874c27ae6e",
+    "research/astra-forced-87.md": "df2ca1e4f82027043cd42e97bd82225e13aa5ce4f5e7b92c129f5f8986cce666",
+    "research/astra-newton-77.md": "405f03c6934a3693e77b6a8992919078ddb96d6b957aadb9a9ff778db94deb4d",
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/astra-phase-86.md": "ba511d10d4de1912d4ffd06c1a4b656a9b2fd3ce32bab0a3e09405ac8432e809",
+    "research/astra-imaginary-84.md": "ccc164a42fbcdd40aee3b87d96c82dc5889b939f58d9ac44f5e385de9d2b93a4",
+    "research/terminal-height-79.md": "cce1001c879a8cb511c72da904c1f3a46a49b590c1cddb8f120c26d7e15b5e36"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "/root/source_88",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Apply the signed last-preimage sorting test after complementary-row subtractions on both actual amplitude tails, including imbalanced contact supports.",
+        "Control the amplification of the true stationary remainder in a coordinate-resolved predictor norm to move beyond the finite counting cutoff."
+      ]
+    },
+    {
+      "name": "/root/matched_88",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Prove signed first-price cancellation on a positive fraction of one short family after adaptive matched erasures, retaining the actual means and both endpoints.",
+        "Use convex convolution filters to estimate actual exterior overlap on translates of their exceptional character set, then examine the remaining first-moment gap."
+      ]
+    },
+    {
+      "name": "/root/persistent_88",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Certify a masked fourth-moment upper on one true optimizer at the same adaptively selected sparse mask.",
+        "Price the same low-density weighted-hinge deficit after the high branch is excluded; near d comparable to D an alternative selector is required for a vanishing counting factor."
+      ]
+    },
+    {
+      "name": "/root/audit_88",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Certify O(nK^2) fourth moment on the same true sparse mask, giving an inverse upper below the polynomial threshold.",
+        "Test a positive fraction of one short ratio family for o(1) signed first-price difference on its surviving matched pairs."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek a true-face certificate for the masked fourth moment or an upper contradicting the logarithmically enhanced inverse leverage at the adaptive time and length. In parallel attack the short-family matched first prices with exact count cancellation.",
+    "Use the relative complex-vs-real comparison to assess the overlap of actual phase-site amplitudes with the two forced tails. Apply the last-preimage signed pricing and the signed bulk tangent action to the real physical supports."
+  ],
+  "core_records": 10,
+  "arithmetic_record_counts": {
+    "matched_arb384": 3,
+    "persistent_arb384": 2,
+    "source_exact_rational_from_prior_outward_bounds": 3,
+    "two_floor_arb128": 2
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main and independent Astra reproduced all four final JSONL outputs byte for byte with PYTHONPATH=., .venv/bin/python -B, and pipefail.",
+    "The matched checker verifies 1790 strict product and axis identities across five filters and 358 fibers on p=53, 257 and 409. The latter two include genuine noneven endpoint pairs. Final versions verify shift-adaptive image erasure tolls at every shift and the short rational ratio comparisons.",
+    "The persistent checker verifies the true tilted prefix select at p=97, including b=11 and the mask counts for lengths 2, 4 and 8. Its other record verifies the genuine full even-face quartic minimum and pure terminal inverse norm.",
+    "Three source records verify the exact constants of the physical seed-centered derivative and counting contraction, finite-prime phase conditions and both amplitude tails against the prior outward-bounded predictor.",
+    "The two-floor checker validates the actual p=173 branch above Re(t)=1/50 at Im(t)=2161/100000 and 11/500. Both points are past first spread contact, and the second exits the enlarged absolute sector while all absolute phases remain less than pi/2. The forced comparison (7)–(8) follows from the analytic derivation."
+  ],
+  "proof_scope": [
+    "The tilted prefix selector fixes a single early terminal b comparable to D for the actual companion. A common growing d gives physical mask size O_delta(n/(d log D)) and weighted price O_delta(loglog D/log D). Under a fixed theta gap every optimizer then pays inverse pure terminal leverage of order at least d log D/loglog D. The vanishing saving requires a growing range b/d.",
+    "An upper O(nK^2) on the masked fourth moment for one actual comparison row at an admissible early time gives a pure terminal inverse upper o(nt) under the stated tower margin; the moment upper remains unresolved. The high inverse scale implies diverging localized fourth moment after the specified deletions, with no assumption about which hinge branch was selected.",
+    "True matched endpoint linear covariance tends to zero in short means at the unnormalized scale, without equality of the first marginals. Positive convolution-filter covariance is controlled by the actual exterior overlap and its exceptional character sets. Genuine large intermediate spectra give matched head witnesses on a positive fraction of short rational ratios. The jointly large pairs have o(1) normalized absolute linear cost.",
+    "At every shift, deleting pairs meeting K translated or inverted quadratic images costs O_tau(K p^(-1/1056)) at the normalized linear scale. The unnormalized covariance identity concerns complete matched fibers. No signed first-price cancellation on surviving pairs was proved.",
+    "For actual complex stationary pairs the normalized bulk two-floor Hermitian comparison leaves the weight-change source entirely at the mark. The resulting marked Lipschitz and bulk discrepancy bounds apply within their stated phase regimes, independently of a full inverse. The mean term improves the small-floor scale. On the actual height-600 forced inner-square path the same comparison has an explicit squared-residual error and uses completed factors.",
+    "The genuine cold section is certified for 10^30≤n≤10^347 with its stated marked bound. At n≥10^30, first spread contacts on the available enlarged-sector forcing path are regular for p≤10^692. Under the stated balanced active-count condition the two-sided tail obstruction excludes ramified first contacts for p≤10^699. At unbounded primes the tail lower bounds hold as necessary conditions and do not close the common domain."
+  ],
+  "independent_review": [
+    "Checked the exact two-floor and tangent identities, the common-mean gain down to small positive real floors, and the corrected domain of the forced analogue.",
+    "Checked the R82 right-envelope recurrence through the last five steps, the stronger derivative bound and both amplitude tail thresholds. Corrected the source abstract from log amplitude to its exponential.",
+    "Checked the tilted selection, energy and pin telescopes, dyadic weighting, and same-mask quartic estimates.",
+    "Checked signed strict axes, short ratio localization and adaptive erasure. Replayed the final matched checker after its last addition."
+  ],
+  "unresolved": [
+    "A prime-uniform upper for the actual masked fourth moment or weighted inverse leverage at the same selected window.",
+    "An o(1) actual first-price difference on a positive fraction of a short matched family, with both sides retained.",
+    "A common positive complex cold width through unbounded primes and beyond the phase exits of the genuine branch."
+  ]
+}

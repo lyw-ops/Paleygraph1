@@ -1,0 +1,35 @@
+# All arities and heights of the Jacobi-square return
+
+At the real floor $t=2031/128$, pool the fresh Jacobi-square return with **every ordered tree whose residual edges below that return all come from Jacobi-square returns**. At every vertex perform this merge simultaneously on both exponents and keep the resulting signed history. This includes every arity, arbitrary depth and arbitrarily many branch points. The round-70 lower map, charged for this change, crosses 21 at height **2568**. Outputs of the same inputs away from these two labels retain their per-list prices at the vertex (the input to future vertices carries the new signed coefficient). The unit may be pooled or discarded at the vertex since its activated mass is zero. The thirteen tag refreshes and the separate exceptional first packets have their inherited prescription. These are statements about the limiting real rule.
+
+Put $S=V+Y+W+N$ at each actual level, $G=A+B$ in the two standard Legendre characters, and $H_j=[y^j]f(S+y)$, with the inherited amendments at zero. Write $s$ for the signed coefficient per exponent of this class. Then the exact recurrence is
+$$
+ s_{k+1}=u_{k+1}+\sum_{j\ge1}s_k^j[m^2](H_j G^j),\qquad s_0=0 .
+$$
+The dual exponent gives the same answer by real self-duality. Transport of the pair on the bulk is exactly the choice of the two summands of $G$, with the exceptional first packet separately retained as in round 71. Every ordered $j$-tuple is included by the power. The zero-arity additive term is the old source $u$, including its root amendment. The same formula holds if one first expands all input trees separately by their most recent arity. In particular it accounts for the binary on two unary descendants and the unary on any previous arity, including descendants of previous combined net returns.
+
+For the fine price on an active exponent from $j=1$, reciprocity selects just the two equal-sign coefficients $[m^2 A]H_1,[m^2 B]H_1$ as in round 71. Their sum in absolute value is $<0.002$, by the joint interval including all regenerated choices and the zero-tag case (the latter has the smaller concentric error). For $j\ge2$ the fine price from the old multiplier irreducibles and the ordered lifts is at most $20\cdot4^j$ times the absolute input product. Indeed reciprocity restricts the old multiplier to the constituents of $m^2(G^*)^j$, counted with their tensor multiplicities. The sum of the multiplicities is at most the dimension $4^j$. Each old coefficient has magnitude $\le\|H_j\|_\infty$ by Haar orthogonality. Cauchy on the circle of radius one about the real center gives $\|H_j\|_\infty<20$, since $2\sqrt t>1$ and $\sqrt{(\|S\|_\infty+1)^2+4t}<20$; additive constants in $f$ can be dropped at positive arity. No tensor constituent is assumed distinct at high degree.
+
+Take $b=7.1\cdot10^{-8}$. The sum of the fine absolute values of **all nonzero-arity** contributions per exponent, conditional on the input bound $b$, is at most
+$$
+ P(b)=0.002b+20(4b)^2/(1-4b).
+$$
+Since $0<u<7\cdot10^{-8}$ and $7\cdot10^{-8}+P(b)<b$, induction controls even the sum of individual tree prices at that exponent. Combining with the existing zero-arity term loses at most $2P(b)<3\cdot10^{-10}$ from the old total price. This also pays for internal cancellation among the tensor multipliers and all arities. At each level compare on the *current actual inputs* with the old separate-list output. Each selected bin needs this one debit, regardless of level; subsequent descendants of changed inputs already use the new signed amplitudes. Downward comparison is then exactly round 71 with the larger debit. The checker charges all retained signed bins at the crossing stage. After the crossing only the two actual signed weights need charging, at mass cost at most $4(3\cdot10^{-10})$. Thus $(M-0.008345)^2/20-1.2\cdot10^{-9}>M$ for $M\ge21$, with increasing gap. [Arb192 replay](astra-arities-72-check.py) · [Receipt](astra-arities-72-checks.jsonl)
+
+## Contributors outside this class
+
+For any joint compact character model for the transported histories with limiting Haar law, write $R$ for the **sum** of all their signed transported residuals, and condition on the center factors and $m$, generating a sigma-algebra $\mathcal A$. At real inputs $R$ is real by paired duality. Assume the finite truncation or $L^2$ convergence necessary to form $R$. The *entire* unary and binary coefficients at exponent $e$ then equal
+$$
+ E[m^{-e}H_1 r],\qquad E[m^{-e}H_2(r^2+v)],\qquad
+ r=E[R\mid\mathcal A],\quad v=E[(R-r)^2\mid\mathcal A].
+$$
+These follow by conditioning, including every mixed ordered pair with its actual multiplicity. They also hold for finite empirical joint distributions as moment identities, where one uses the chosen observable in place of $m^{-e}$; finite empirical moments need not equal arithmetic character coefficients. For a compact joint group surjecting onto the center group with kernel $D$, integration over $D$ kills nontrivial $D$-types at arity one. At arity two two restrictions can contribute only if some irreducible $D$-types are dual, by character orthogonality on that kernel. No independence of the two input histories or determinants is used. In particular trivial conditional means of unknown new transports do *not* eliminate their quadratic returns. Even positivity of $v$ and $H_2$ only gives the unit bound $|E[m^{-2}H_2v]|\le E[H_2v]$. On a uniform Jacobi circle the nonnegative functions $1\pm\cos(2\theta)$ have the same mean and opposite second Fourier coefficients. Thus an unsigned innovation-energy estimate alone cannot determine the sign at $m^2$. This is an information limitation of the comparison, without any claim that both profiles arise physically.
+
+For the full real physical computation the averaged observable is available even without identifying the joint algebraic group. For any finite-field row $h$ containing the actual marked coordinate, symmetry and the all-lift identity give
+$$
+ \langle C_2,Kh\rangle_n=\langle Y-2C_1/\sqrt q,h\rangle_n .
+$$
+In particular use $h$ equal to the actual signed Taylor term in the exact finite-field update, with its own marked-site formula. This is an empirical scalar moment, not a projection onto an assumed irreducible at bad characters. At the level of the full physical map the unit moment of $Kh$ vanishes since $K1=0$. Projection, transport and the order of these moments matter.
+
+1. For all residuals outside the square class, price the signed conditional mean and the Jacobi Fourier coefficient of their conditional second moment, including their cross product with the known $sG$. Testing only conditional scalar variances leaves the active exponent undetermined.
+2. At the physical finite-field level use the displayed adjoint with the actual signed remainder, including the mark. Seek a prime-uniform bound on these moments and on the higher-arity tail on a common complex overlap. The signed square-subtree comparison supplies neither a general full-pooling escape nor physical continuation.

@@ -1,0 +1,91 @@
+{
+  "round": 43,
+  "accepted_at_utc": "2026-11-18T10:25:55.857968+00:00",
+  "previous": "research/round-42-acceptance.json",
+  "previous_sha256": "492a6ddf5454366a206d4e673876c7be1b44657004872817289b00511a8f3b0a",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/rooted_43",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-rooted-43"
+    },
+    {
+      "name": "/root/cold_43",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-cold-43"
+    }
+  ],
+  "closeout_advisers": [
+    {
+      "name": "/root/root_review_43",
+      "status": "completed",
+      "recommendations": [
+        "Bound the true rooted critical-shell Picard score by an actual Fourier dual majorant, in both signs and at fixed positive floors tending to zero after the field limit.",
+        "Replace cyclotomic leakage by a c/|S| lower bound on forbidden-projection energy, preferably first in the actual nonnegative stationary direction."
+      ]
+    },
+    {
+      "name": "/root/cold_review_43",
+      "status": "completed",
+      "recommendations": [
+        "Track certified relative strip width for the actual marked branch at scale 1/log log n, using prime-173 monodromy and square checks as positive controls. An enclosure failure alone is inconclusive.",
+        "Evaluate the true fixed-floor signed cubic Hessian contraction jointly with its two cancelling pieces. If the uniform sup bound fails, check the integrated bound from round 39."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/generator-blocking-43.md": "c0c4ad647842df1af6a72b8a9af714f10ac7c5c5ef282e86113dd8e6f3c1931c",
+    "research/generator-blocking-43-check.py": "27ea7ce3c3752c2d0ea6e414b8a137cf6aa2cb350ee8cd2a6d9a2a27fea0c9bb",
+    "research/astra-rooted-43.md": "e0cf930a3542335d543aa153d7dc8fe5e241e6b7964c6a1048b1cd62c891122f",
+    "research/astra-rooted-43-check.py": "70bd8cea6c7128250fa2348c1db3e4cb2e4b1114f755b497f5967b5eb96e3a56",
+    "research/astra-cold-43.md": "dd098c3097a3685fb6659a3ec13d7ff9af7a9bd4a325e24a25b8e859d8c88149",
+    "research/astra-cold-43-check.py": "43ed6903b1f3c426435ef621ca15fbc2b391eb23e6d6723ef025127881b6d1e0"
+  },
+  "core_records": 21,
+  "replay_checks": [
+    {
+      "file": "research/generator-blocking-43-checks.jsonl",
+      "records": 10,
+      "sha256": "ab4b012661d60ff0a3ef24834222c5f9452202ce472039421a6c175cbc269d00",
+      "scope": "Exact unit-direction gap and orbit counts; two exhaustive cyclic masks, two larger synthetic masks, and six prime annihilator enumerations",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-rooted-43-checks.jsonl",
+      "records": 9,
+      "sha256": "53fe03b313b4c0f3c61d896cd976d316553ca75f553f88868c1d822c88b08751",
+      "scope": "Arb256 strict rooted witnesses, exceptional shift, robust all-depth classification at p=101, and the square mixing control",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-cold-43-checks.jsonl",
+      "records": 2,
+      "sha256": "c8dac228fc8d20687d8938191af960a6c9e45c2c1cd0f60d522450c2cf8fae02",
+      "scope": "Exact physical marked cubic Taylor coefficients at prime 13 and square 25, from independent elimination equations",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "For either sign an exact affine prime support with m <= sqrt(n)+n^(1/4)/16 meets all generator-direction intervals of length m+1. Short directed pairs and averaging over the units force energy at least n^(3/2-o(1)) and a divisor of n at n^(1/2+o(1)). With width o(n^(1/4)), almost all support differences have order at most n^(1/2+o(1)). The stationary high-set consequence via cyclotomic leakage requires extremely small floors.",
+    "Every factorization of an exact prime feasible spectrum into Fourier squares has absolute forbidden autocorrelation budget at least ((M-H)/(H-1))_+ with the stated handling when H=1, where H is the sign-specific Hanson-Petridis clique bound. At fixed positive critical floor the lower limit is sqrt(1+tau)-1. The square control attains zero using positive mixed factors. An upper bound on the minimum cancellation cost of an arbitrary high-mark prime witness remains open.",
+    "At p=101 and tau=1/4 an exact strictly positive critical witness makes the marked translation uniquely exceed the threshold at depth seven. For all floors within 10^-8 of tau=1/20, simultaneous strict positive completion with both exact marks and means is possible exactly at integers T>=7. A uniform invariant ball certifies the infinite tail at that one prime. There is no field-uniform completion depth assertion.",
+    "At the actual zero-floor stationary face, a contraction gives a complex disk of radius [128 sqrt(n)(1+||L||)]^(-1) and a signed difference of two face-lift energies in the cubic coefficient. The cyclotomic bound gives moving-floor slope agreement up to O(n^(-n^2)) for 0<= t <= n^(-4n^2). For n=2 ell with ell prime, the inherited folding theorem gives slope magnitude at most 1/8+O(p^(-1/2)) there. No fixed-floor connection is obtained."
+  ],
+  "independent_review": [
+    "Checked the affine gap convention, orientation under dilation, inclusion-exclusion error, divisor asymptotics, and the moving-floor leakage consequence.",
+    "Checked the exact Fourier-square normalization, Motzkin-Straus argument, Hanson-Petridis Corollary 1.5, square normalization, and the fixed-mark invariant-ball proof. The checker now encloses extrema with extrema of interval endpoints and asserts all threshold margins individually.",
+    "Checked the complementary face chart, contraction, quadratic logarithmic error and cubic expansion, cyclotomic height argument and support-density transfer."
+  ],
+  "next": [
+    "First, test the short-window true critical-shell dual a*1+b*e0+w >= sigma*Y_T, w in V_opposite, against the round-42 sharp critical constant. Validate on the exact nonempty p=101 shell and square control. Aim for a structured prime-uniform majorant; finite empty shells are recorded with their exact scopes.",
+    "In parallel, use the existing actual branch continuation to calibrate accessible relative tube width at 1/log log n and the signed fixed-floor cubic contraction. Keep verified monodromy, failed enclosures and signed cancellation as independent observations.",
+    "If a short-window root bound needs structural help, target a c/|S| Rayleigh lower bound for the forbidden projection on the actual stationary high set. A counterexample on general masks should be preserved before narrowing to the actual stationary direction."
+  ],
+  "window_closeout_workflow": "Before closing each future window, ask each running research route to supply one or two prioritized next tests, stating the decisive quantity, scope and a criterion for failure. The main conversation checks and integrates them into the acceptance and ledger before another full window is dispatched. For this window, two fresh closeout reviewers supplied advice after the workflow request; no closed research session was restarted.",
+  "committed": false,
+  "pushed": false
+}

@@ -1,0 +1,4 @@
+{"kind": "all_even_face_net_only_nonwrapping_radii", "minimum": 5, "n": 48, "p": 97, "radii": {"1": 16, "5": 7, "7": 14, "11": 16, "13": 15, "17": 16, "19": 16, "23": 5, "25": 5, "29": 16, "31": 16, "35": 15, "37": 16, "41": 14, "43": 7, "47": 16}, "replayed_bulk_rerouting_minimum": 4, "sign_arrangement_lines": 6}
+{"counts": {"-1": [24, 12, 3, 0], "1": [25, 12, 6, 4]}, "kind": "mass_zero_forbidden_run_counts", "n": 48, "p": 97, "primitive_square": 25, "r_values": [1, 2, 3, 4]}
+{"counts": {"-1": [252, 126, 69, 42, 24], "1": [253, 126, 64, 32, 14]}, "kind": "mass_zero_forbidden_run_counts", "n": 504, "p": 1009, "primitive_square": 121, "r_values": [1, 2, 3, 4, 5]}
+{"counts": {"-1": [2353, 1160, 592, 294, 156, 78], "1": [2354, 1162, 553, 280, 145, 70]}, "kind": "mass_zero_forbidden_run_counts", "n": 4706, "p": 9413, "primitive_square": 9, "r_values": [1, 2, 3, 4, 5, 6]}

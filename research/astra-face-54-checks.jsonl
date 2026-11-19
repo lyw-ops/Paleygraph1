@@ -1,0 +1,6 @@
+{"charged_per_step": [884396391, 884396392], "field": 97, "free_anchor_ratios": [0.0, 0.0], "least_norm": [1863563058, 1863563059], "t": 1, "units": "1e-9", "whole_face": [1863563058, 1863563059]}
+{"charged_per_step": [476912550, 476912551], "field": 97, "free_anchor_ratios": [0.0, 0.0], "least_norm": [1891347130, 1891347131], "t": 2, "units": "1e-9", "whole_face": [1891347130, 1891347131]}
+{"charged_per_step": [305348099, 305348100], "field": 97, "free_anchor_ratios": [0.0, 0.0], "least_norm": [2240126047, 2240126048], "t": 4, "units": "1e-9", "whole_face": [2240126047, 2240126048]}
+{"charged_per_step": [162432281, 162432282], "field": 97, "free_anchor_ratios": [0.0, 0.0], "least_norm": [2386430122, 2386430123], "t": 8, "units": "1e-9", "whole_face": [2386430122, 2386430123]}
+{"charged_per_step": [83450840, 83450841], "field": 97, "free_anchor_ratios": [0.0, 0.0], "least_norm": [2358888698, 2358888699], "t": 16, "units": "1e-9", "whole_face": [2358888698, 2358888699]}
+{"charged_per_step": [47068071, 47068072], "field": 97, "free_anchor_ratios": [0.0, 0.03904132], "least_norm": [2565670275, 2565670276], "t": 32, "units": "1e-9", "whole_face": [2561786507, 2561786508]}

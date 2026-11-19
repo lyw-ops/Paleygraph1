@@ -1,0 +1,99 @@
+{
+  "round": 63,
+  "accepted_at_utc": "2026-11-18T16:33:51.728243+00:00",
+  "previous": "research/round-62-acceptance.json",
+  "previous_sha256": "4bf7007e642d5d21204d54b054103248e182c26337eef27d82e483cbcffbdbd9",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/legendre_63",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-legendre-63",
+      "ranked_closeout": [
+        "Resolve the nontrivial arithmetic parts of U_A tensor U_B and keep the signed R coefficient across consecutive updates. A physical overlapping crossing of 2031/128 passes. A fully debited higher-level escape with a surviving growth term rejects that precise grouping.",
+        "Center simultaneously on the two dual quadratic Legendre outputs along with R using their exact compact corrections and separate signed coefficients. A physical crossing passes. A complete one-vertex escape rejects that profile."
+      ]
+    },
+    {
+      "name": "/root/global_63",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-global-63",
+      "ranked_closeout": [
+        "Measure V/R on one late actual increasing score coupling per prime. A nonpositive limsup of (M_t(b)-E_t/4-V/R)/t proves the desired all-prime upper estimate by the explicit update. A reference generic within the true faces makes r=0 a global optimality certificate.",
+        "On a sequence with positive reference excess at all late times, bound every improvement by the full support scalar-price residual estimates. A gap at least eta*t after subtracting the improvement ceiling throughout the window rejects that all-prime upper estimate on the sequence."
+      ]
+    },
+    {
+      "name": "/root/review_63",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "independent true trajectory shadowing, continuous reserve, generic forest, and moving marked branch audit",
+      "ranked_closeout": [
+        "Use increasing fixed-depth prefixes to lower bound the actual sum P_T of squared mean errors in the prime limit. If these lower bounds are unbounded on a common prime sequence, every late endpoint there fails every fixed C/T allowance for any repair. Boundedness only passes this necessary gate and a positive certificate still needs pointwise signed control."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-legendre-63.md": "e552bb81f19ce942ab8d589050bb0343296dd04aa8425b699154b49a001bbe3c",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-global-63.md": "3d184b7b9040cccb1eb40a5855cc66ba71351d13a0aff5b8f527cc308a6662c7",
+    "research/astra-global-63-check.py": "b147d855a8237ccf80bdde3332c4f7a817d5ee5d191fce9d94cb673c2abc9a6e",
+    "research/true-spill-63.md": "4108f5cdcc72674502d52df64406dec9d726ecb54a43b24e1f27443fb41181f6",
+    "research/true-spill-63-check.py": "11f2ad806558e4fe4d67ab962488ac6d1168a1afdf41fb86783e481cf04f35e6"
+  },
+  "floating_diagnostics": [
+    {
+      "file": "research/astra-legendre-63-probe.py",
+      "sha256": "d004780e7ed720e7672b434db3f33ddb1e9babbc79525cedae5d3fec3b938fb1",
+      "scope": "Proposes the fifth center packet caps. Only the frozen rational caps and independent outward replay enter the proof."
+    }
+  ],
+  "core_records": 23,
+  "replay_checks": [
+    {
+      "file": "research/astra-legendre-63-checks.jsonl",
+      "records": 4,
+      "sha256": "b2183eea3f2f9114a0ea1c8efcdf651cede4d6cb55f6e5c5bb664a20fd56696f",
+      "scope": "Seven exact cyclic-ring checks of the all-lift feedback, the rank-24 dual return and signed coefficient enclosures, two fully debited escapes, and 16 closed slabs for the actual branch.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-global-63-checks.jsonl",
+      "records": 1,
+      "sha256": "239d372034ec9b77abc687cc110526891b55f612763fb1ea400a2b93083994e6",
+      "scope": "An Arb weighted two-by-two solve on the exact p=97 true face and independent quantile and energy-charge comparison at depth 32.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/true-spill-63-checks.jsonl",
+      "records": 18,
+      "sha256": "3b9791a9284e54c0105aaf3cb32d75fb0ccc3a5d06c2efbd633cc8b1d69f0976",
+      "scope": "Arb128 unrounded zero-floor trajectories at p=9413,153649 and q=9409, with both signs at T=32,64,128, signed spill, continuous reserve failures and the exact square optimum comparison.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "The exact arithmetic fifth field satisfies K(AB)=R at every cyclic frequency including the true mark, with no exceptional column. The non-Jacobi transports of A*R and B*R are distinct rank-24 arithmetic duals with one phase +1 cross-unit and no pure-square units.",
+    "The physical common branch through all sufficiently large eligible primes and prime squares extends onto (1040021,1040023)/65536 with imaginary half-width 2^-20 and |m_q|<=3/sqrt(n). It overlaps the previous section over (1040022,1040023)/65536. The fully collected direct prescription and the additional disjoint two-vertex cross-unit prescription both escape at height 1246 at 2031/128. This leaves actual continuation at that floor open.",
+    "An exact weighted projection on the true two-sign increasing score coupling permits a nonnegative global update with full Fourier, mark and exposed-support constraints. Its decrease in the E_t/4-charged objective is V/R. A generic reference over any finite time window gives a signed forest lift of all true target rows and certifies the full-face minimum when the residual vanishes. True volume barycenters and least-norm points supply explicit full-face improvement ceilings. At p=97 and time 32 the one-step solution strictly improves both the selected reference and the least-norm pair. The prime-uniform late magnitude of the gain remains unknown.",
+    "True zero-floor trajectories certify the one-sided signed spill on both signs at p=9413 with extra scaled mean 4/(3T), and p=153649 with 3/(2T), for T=32,64,128. The absolute spill sufficient envelope fails in every accepted prime case at those allowances. A rigorously bounded single-site piecewise-affine upper function rejects that same pinned reflection throughout 0<=s<=1/T at each such input. These are finite results about the unrounded orbits, with no uniform prime claim.",
+    "At the control q=97^2 any nonnegative minus completion of the same actual mark needs added scaled mean above .337 at all three tested depths, using the exact square theta. A separate ordinary argument at growing marked depths shows a successful C/T allowance with bounded T*tau forces bounded terminal energy and bounded cumulative squared mean error P_T, with prefix maximum energy O(sqrt(T)) and normalized endpoint negativity O(1/T). These are necessary conditions for arbitrary mark-preserving completion, not an asymptotic positivity certificate."
+  ],
+  "independent_review": [
+    "Main replayed all four Legendre records and checked the two boundary absolute sums, compact bad-lift replacement, cross-unit phase, exact arity charges and physical open overlap. Fresh Astra checked these normalizations and the escape interpretation independently.",
+    "Main replayed the weighted score record, verified the generic shared-prefix condition under independent marginal variation, and checked the volume and tangent-cone ceilings. Fresh Astra independently audited the forest lift and optimality implication.",
+    "Main independently regenerated all 18 true-orbit records, byte-identical to the concatenated per-field runs. Fresh Astra checked the exact trapezoid identity, norm shadowing and both signs of the continuous hinge envelope. It also checked the necessary whole-prefix estimate, which main extended to varying floors with bounded T*tau."
+  ],
+  "next": [
+    "Prioritize a prime-uniform worst-site signed spill estimate on the real zero-floor averages, and test the monotone cumulative squared mean errors on increasing fixed prefixes as a way to falsify an order-1/T reserve even for arbitrary completion.",
+    "Use the actual two-face increasing coupling projection and its competing improvement ceilings at a genuinely growing late time, maintaining the same whole pair and the terminal energy.",
+    "Analyze the nonscalar rank-24 tensor returns or recenter on the dual quadratic sources with the exact group phases before seeking a physical overlap across 2031/128.",
+    "Exact matching-depth positivity, common cold continuation to 1/2, and the all-prime ordinary Lovasz theta limit remain open."
+  ],
+  "window_closeout_workflow": "Collected two ranked tests from each research route and one from the independent review. Main integrated the actual weighted descent, fifth center, verified finite spill test and the new arbitrary-completion energy gate.",
+  "committed": false,
+  "pushed": false
+}

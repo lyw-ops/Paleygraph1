@@ -1,0 +1,1 @@
+{"patterns": 270, "prime_limit": 200000, "quartic_exclusion": {"b": 41, "p": 15581, "quartics": [15580]}, "quintic_fiber_exclusion": {"allowed_signs": [-1], "b": 47, "p": 20681}, "reflected_patterns": 249}

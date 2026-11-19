@@ -1,0 +1,87 @@
+{
+  "round": 67,
+  "accepted_at_utc": "2026-11-18T17:36:30.627421+00:00",
+  "previous": "research/round-66-acceptance.json",
+  "previous_sha256": "2b0d3510b486646aab9754fa617e4bbc4cd532ef6db4d4ef0d1aa6d4c19ff9b2",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/rank_six_67",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-rank-six-67",
+      "ranked_closeout": [
+        "Pool the full nonlinear rank-six pair with old arithmetic multipliers on overlapping levels. A strict physical invariant across 2031/128 with all marked and sibling costs passes. A fully debited crossing of mass 21 with surviving superlinear growth rejects the tested rule.",
+        "Test old-group candidates for the other six outputs using a bounded zero-Hom correlation and a matching arithmetic eigenline. A certified good-character mismatch rejects a proposed arithmetic identification."
+      ]
+    },
+    {
+      "name": "/root/charged_67",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-charged-67",
+      "ranked_closeout": [
+        "At L+1 prove the tilted value difference V(h)-V(2h)<=o(hL) on the true larger side. This suffices for the ordinary limit. Both signs give a whole pair at L. A positive normalized lower margin rejects this sufficient marginal bound.",
+        "For an actual reciprocal row use tau=o(Delta) or otherwise bound discarded vertex mass by o(1), then bound its signed late charge from above by o(L). Conditioning yields an exact primary optimizer without requiring that it solve the secondary optimization."
+      ]
+    },
+    {
+      "name": "/root/review_67",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "Independent audit of moving-degree peak arithmetic, masked Gram and vertex extraction, and the exact correlation plus relative specialization.",
+      "ranked_closeout": [
+        "Resolve V(h)-V(2h)<=o(hL) on the larger true prime side at L+1. A proof closes the target by the existing charged reserve. A positive normalized lower subsequence rejects this sufficient route."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Test the full late signed sum or projected correction on the early spike patches at matching marked depth. A signed worst-site bound for both rows with vanishing reserve passes. A surviving positive peak at all late times rejects the prescribed correction.",
+    "Estimate actual larger-face mass on the zero-floor second-state peaks. A late marginal upper proof requires o(L/loglog p) mass for its optimizing row. A positive lower bound of that order uniform over the larger face on an unbounded subsequence rejects the full late-window charge estimate."
+  ],
+  "proof_and_code_sha256": {
+    "research/early-peaks-67.md": "e7b516e7cf82f3dd7f32b2d8ed5c99cc43263c7e1e8fb4b9118e74f2b9a5a791",
+    "research/astra-charged-67.md": "b99640f1a84e4b1379c2d0046459648e029d656367269d4f0e0e77944716620f",
+    "research/astra-rank-six-67.md": "cc1d95ac1d0a0e1fd0d129a5bd20555d5b852a260ffa8d9fa88bd7579c746c57",
+    "research/astra-rank-six-67-check.py": "57c585fbdba068e15c4e879d0cd874c568c0ee34470b29b6453c9615728b906f",
+    "research/astra-rank-six-67-linear.py": "29b69b63834e7f8c0ee67800e984a8275c7062ee0abf1057d4a58b769dd461f3"
+  },
+  "floating_diagnostics": [],
+  "core_records": 2,
+  "replay_checks": [
+    {
+      "file": "research/astra-rank-six-67-checks.jsonl",
+      "records": 1,
+      "sha256": "ba3ec6ef89f214f8c84b98ee20e0fc2cb7f7a8e4594519956883e1e1ec15c224",
+      "scope": "Exact arithmetic on all 398 good Mellin characters at 401 and the strict rational separation of the Hom correlation from the zero-Hom bound.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-rank-six-67-linear.jsonl",
+      "records": 1,
+      "sha256": "c59dbfb22a309e5df76550e35b49c3107a660e43478afb3c2eedf6c78b331128",
+      "scope": "Arb192 projection onto the known rank-six exterior-square characters in the old nine-center group and the signed two-leaf linear return.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "The actual cold scaled second state has two-sided extremes of size at least m log H-O(1) on p^(1-o(1)) indices of each sign, for H=min(floor((log p)^(1/3)/loglog p),floor(tau_p^(-1/2))). The positive-floor bound is sharp to O(1) when tau_p>=H_p^(-2). At zero floor the top critical groups are already at least (m/3)loglog p-m logloglog p-O(1). The field estimate uses an explicit growing-degree compact tilt and a quantitative weighted-rank comparison. It rules out early flat mean injection with vanishing reserve and paying individual zero-floor sup norms over the short window. Late signed cancellation is open. A small exact larger-face charge forces small weight on these measured patches.",
+    "For a full sign face the real cyclotomic vertex gap permits two whole-polytope tilts giving the exact signed marginal and primary mark. Two positive log-barrier trials give bounded additive marginal error. Conditioning any vertex decomposition on its primary optimum yields a true optimal row with charge at most c_*+2. At sufficiently large primes a masked Gram estimate excludes normalized RMS distance 1/100 of the larger true face to single-variable Jacobi polynomial trials under rank budget 1+k+sum j^2=o(sqrt p), including arbitrary adaptive edits at k nonroot sites. Uniform o(L) charge remains open.",
+    "Both arithmetic rank-six identifications hold in every odd prime power congruent to one mod four. One strict finite-field correlation at 401 forces the geometric isomorphism there. Relative parabolic convolution and tame specialization transfer it, and the common weight -3 eigenline fixes the arithmetic constant. The exact compact mark correction is retained. At 2031/128 the two specified old-group linear returns decrease the signed m^2 coefficient by (10.901,10.941)e-12. Nonlinear propagation and the physical continuation remain open."
+  ],
+  "independent_review": [
+    "Main derived the explicit weighted growing-degree comparison and used the fresh audit's larger H choice. Fresh Astra checked the conductor costs, Haar cap mass, both tails and the exact peak-patch necessary avoidance test.",
+    "Main and fresh Astra independently replayed both rank-six records. Fresh Astra also checked all 398 good lifts individually using the earlier cyclotomic checker, and verified the relative specialization theorem, arithmetical phase and linear projection scopes.",
+    "Main and fresh Astra checked the Masked Gram rank-one extensions for data-dependent edits, the cyclotomic vertex gap across signs, h and 2h selection, barrier stationarity, and the primary-face conditioning. The charge estimate on actual primes is still unproved."
+  ],
+  "next": [
+    "Primary charged test: bound V(h)-V(2h) by o(hL) on the actual larger side at L+1. Avoid scalar Jacobi profiles even with sparse edits. Compare a signed analytic upper trial with a whole-face lower bound.",
+    "Primary positivity test: turn the growing early peaks into a same-depth signed control rather than a sum of sup norms. At zero floor compare the early peak patch with the weights of true marginal optimizing rows.",
+    "Complex test: use the uniform rank-six identification to pool higher-order non-Jacobi coefficients with their old arithmetic multipliers and retain all unpaired sibling charges.",
+    "The all-prime ordinary Lovasz theta limit, sufficient positive completion at a matching marked depth, and physical continuation across 2031/128 remain open."
+  ],
+  "window_closeout_workflow": "Collected ranked tests with explicit outcomes from main, both research routes and independent review. The finite-rank proof, exact check and interval linear calculation are recorded with their distinct scopes.",
+  "committed": false,
+  "pushed": false
+}

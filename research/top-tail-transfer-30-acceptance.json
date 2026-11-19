@@ -1,0 +1,97 @@
+{
+  "round": 30,
+  "accepted_at_utc": "2026-11-17T19:08:49.841763+00:00",
+  "target_status": "open",
+  "checks": [
+    {
+      "file": "research/parallel-source-pair-29.jsonl",
+      "records": 69,
+      "sha256": "25c8c51ba5e78eb2db9c56b147732f4aabbf760f8bf27f6fe8065e6df5b191c1",
+      "byte_identical_independent_replay": true,
+      "kinds": [
+        "exact_reflection_model",
+        "paley"
+      ]
+    },
+    {
+      "file": "research/astra-arithmetic-coset-30-check.jsonl",
+      "records": 20,
+      "sha256": "bc38517d19efc756f375b2b26fab238e396193a7b8df665786acffa83c109d5f",
+      "byte_identical_independent_replay": true,
+      "kinds": [
+        "exact_category_countermodel_not_a_paley_word",
+        "exact_cm_phase_example_not_a_paley_word",
+        "exact_cyclic_convolution",
+        "floating_word_diagnostic"
+      ]
+    },
+    {
+      "file": "research/parallel-depth-window-30-check.jsonl",
+      "records": 33,
+      "sha256": "1712085a26e35efc4370e1c2678ecfd0740c1c84ed7d01e9d95e893a32941497",
+      "byte_identical_independent_replay": true,
+      "kinds": [
+        "exact rational top-tail and word audits",
+        "floating Chebyshev audit",
+        "floating actual orbit and stability audit"
+      ]
+    },
+    {
+      "file": "research/top-tail-transfer-30-check.jsonl",
+      "records": 16,
+      "sha256": "2efcdb58a63a994710f26781eed290da39d20de365c3550ac95012e5bbf0da5a",
+      "byte_identical_independent_replay": true,
+      "kinds": [
+        "actual-kernel arbitrary-error propagation diagnostic",
+        "bounded-array sharpness example",
+        "compact-grid deterministic lemma check",
+        "exact rational norm and fractional-capacity audit",
+        "floating Holder consistency audit"
+      ]
+    },
+    {
+      "file": "research/top-tail-transfer-30-nested-probe.jsonl",
+      "records": 2,
+      "sha256": "9c0eb0acd10f9720c03401254cae644a876ba90fb55f6326039c8d45379a93c7",
+      "byte_identical_independent_replay": true,
+      "scope": "extra floating nested-word moments; no limiting-value claim"
+    }
+  ],
+  "arithmetic_scope": "rational identities and exact theoretical constructions are distinguished from floating numerical evaluations; no new orbit interval certificate",
+  "independent_proof_audit": "research/parallel-audit-30.md",
+  "completed_threads": [
+    {
+      "thread_id": "01a1eabc-e935-7653-adbb-c1cb5255c8e7",
+      "host_id": "local",
+      "last_cursor": "57189cac-3641-433b-b5fa-128c3a7e4503:9"
+    },
+    {
+      "thread_id": "01a1ead1-3ada-7fb2-964f-2b8ecf9ee935",
+      "host_id": "local",
+      "last_cursor": "76e6b0bd-4b4f-48f9-a992-e76a3f8c087f:6"
+    },
+    {
+      "thread_id": "01a1ead1-3c74-7633-b0d8-c73a8e438caa",
+      "host_id": "local",
+      "last_cursor": "20e8fe37-9bc8-49d3-9455-e1cc1e520ad8:7"
+    }
+  ],
+  "pending": [],
+  "remaining": [
+    "Actual prime source-tail or opposite-sector leakage estimate",
+    "Better structured-error propagation or normalized-increment control at a sufficient horizon",
+    "Actual nested-word invariant modules and nine-variable leading character-sum term; finite-Artin assumption unproved"
+  ],
+  "note_hashes_are_snapshots": true,
+  "note_sha256": {
+    "README.md": "5eb561e7aefd6d592461fde35128d1adfc8ea47467143a483683bd7a9e92b9cc",
+    "research/ledger.md": "f2e64715522f97db66aba22f1611a10623307a74307f56a82dc203330ccf6757",
+    "research/parallel-source-pair-29.md": "c5766e4f3342afb744b0a7f93ff00d37c56084267410c2e47475fe3d71f263f7",
+    "research/top-tail-transfer-30.md": "e869abef6bf5f31ab6386fdfce35bfe72ad162d50b4e28050ce12649a65bf20e",
+    "research/astra-arithmetic-coset-30.md": "91d61b76e9dcd43b8497c1ef98183d59f9f26229d46b4643501b73e8cdb5eba0",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/parallel-audit-30.md": "fe70478033a69253c0c3cab9cb06eec855f0a81bb81eee765ba9e51752397111"
+  },
+  "inherited_inputs": "Local-inertia, Mellin closure and rank lemmas audited in rounds13-14; not a new formal verification",
+  "independent_audit_status": "complete: source-pair, top-tail, positive-floor growing window and arithmetic-coset deductions accepted within stated scope"
+}

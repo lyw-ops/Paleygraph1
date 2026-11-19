@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "arb_precision_bits": 192,
+    "byte_identical_replay": true,
+    "exact_gaussian_rational_samples": 5,
+    "local_markdown_links": true,
+    "no_control_characters": true,
+    "no_trailing_whitespace": true,
+    "nonreal_samples_are_branch_tracking": false,
+    "python_ast": true,
+    "substantive_records": 7,
+    "total_records": 8
+  },
+  "committed": false,
+  "external_messages_sent": false,
+  "input_sha256": {
+    "research/averaged-complex-35-acceptance.json": "1f1c9ea6a89712239acd221b0f7aece134dc85886a24ce667770f98731fcace3",
+    "research/complex-floor-33.md": "700c08e6272947edeab927c2b28c9d25a4b9f37e10f00439844cac1d7f509f36",
+    "research/parallel-audit-35.md": "2db6d01db8a19415efb8a2877e8d6f37281d9b6dff82354195bcc40ccf3d8177",
+    "research/parallel-complex-structure-35.md": "742539d1b54c5a3895a3c7ff69be9aa332080cb85981e4da62c06407f4d41db4",
+    "research/square-order-control.md": "2946fe5f1a2b3bc614daef3e00ad38fb142e7b8bab25977b1d121ad191789b6b"
+  },
+  "output_sha256": {
+    "research/parallel-cold-complex-36-certified.jsonl": "18315bd7b184bc226d2d299da7e5f641dc80cf60c6711bff51b04b7542f9a1db",
+    "research/parallel-cold-complex-36.md": "6637d3e29a198fa357b0d193a3d256c215e3a81137d4eef215870f7385e43bed",
+    "research/parallel-cold-complex-36.py": "744c7303760517b60e53bf332f2f67026e41252de761159dbcc374c5aa99a652"
+  },
+  "phase_bound": "abs(Im m_q(tau)) <= abs(arg(1+(n-1)*tau/n))/2 < pi/4",
+  "proof_kind": "Ordinary written mathematical proof and exact/Arb replay, not Lean kernel verification",
+  "pushed": false,
+  "read_only_subagent_audit": {
+    "agent": "/root/audit_phase",
+    "excluded_scope": "Inherited mixed Mellin/sheaf hot theorem and square theta proof not reaudited",
+    "final_artifact_audit": "passed; all 8 JSONL records independently replayed byte-identically",
+    "initial_theorem_audit": "passed"
+  },
+  "remaining": [
+    "Prime common cold marked continuation domains",
+    "Prime arithmetic exclusion or control of physical marked ramification"
+  ],
+  "result": "Common actual scalar marked RHP continuation implies bounded unwrapped phase and uniform compact growth; no prime common cold domain proved.",
+  "round": 36,
+  "scalar_lift": "Saturated physical irreducible stationary curve; generic scalar lifts away from finitely many parameter values; identity theorem and continuity.",
+  "square_obstruction": {
+    "branch_selection": "Nearest singularity of the actual hot Taylor germ; identity with hot branch on connected overlap",
+    "condition": "q=2n+1 is an odd square prime power and n>exp(100000)",
+    "finite_location_computed": false,
+    "first_conclusion": "No single-valued holomorphic marked extension on disk center 2048 radius 2048-1/16",
+    "stronger_conclusion": "At least one genuine physical scalar marked branch point with Re tau>1/16 and abs(tau)<=1024",
+    "zero_pole_exclusion": "Local normalization parameter loop has zero marked winding by the positive phase cone"
+  },
+  "status": "ready_for_main_independent_audit",
+  "writes_confined_to": "research/parallel-cold-complex-36*"
+}

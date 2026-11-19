@@ -1,0 +1,85 @@
+{
+  "round": 55,
+  "accepted_at_utc": "2026-11-18T13:57:07.397526+00:00",
+  "previous": "research/round-54-acceptance.json",
+  "previous_sha256": "785411813dfa5742743b2c899977b7079c7752bf60a2336895a294de7a72eb63",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/rankthree_55",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-rankthree-55",
+      "ranked_closeout": [
+        "Expand rank-three powers in both full arithmetic GL3 representation rings with the correct Jacobi determinant factors, then collect all equal irreducibles. A strict invariant at 127/8 crosses the former barrier. A rigorous escaping lower iteration would refute the specified full map.",
+        "Incorporate the next K(C1 W) feedback through its four rank-four constituents, with correct arithmetic contractions and boundary weights. Overlapping lower rectangles extend the actual branch. An escape of the chosen positive lower map rejects that prescription."
+      ]
+    },
+    {
+      "name": "/root/translated_55",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-translated-55",
+      "ranked_closeout": [
+        "Test translated cycle bounds on the actual exposed supports at late times, allowing tests covering multiple cosets. A positive normalized lower certificate from support-tail coherence at every eligible late time refutes this covering route even with all cycles.",
+        "Use independently optimized pairs at each late time in the original full-face LP. A positive normalized dual lower bound for every time on an unbounded prime subsequence refutes the selected one-time criterion."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-rankthree-55.md": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/astra-translated-55.md": "35d0552788e6ce0ac28eff6f1fb8d3d70123c5232953a170ec93acb5afcd065d",
+    "research/astra-translated-55-check.py": "705d4ced5a9616e261d21f2a12a3acdf49c65d7008e6cfe4f9985b57550301ea",
+    "research/rank-four-positive-55.md": "7ecd2276edfdd93515cf8ef0407302a2cb68cb350e5bc04d06698dc386265b94",
+    "research/rank-four-positive-55-check.py": "9cb1381edf1872f7bb75504c1064374c6bfc519d5ed7a34fca8e49d040d5ca47"
+  },
+  "core_records": 10,
+  "replay_checks": [
+    {
+      "file": "research/astra-rankthree-55-checks.jsonl",
+      "records": 5,
+      "sha256": "6e6684138f1570419d8ae6e1ddd44c106f9b5ed668cc20b7d29b4f207b829428",
+      "scope": "Five Arb192 scalar certificates for four overlapping complex invariant rectangles and the quadratic-unit-only positive lower escape at floor 127/8.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-translated-55-checks.jsonl",
+      "records": 3,
+      "sha256": "e6a60f556f3be7efee38f170f138e1e69e459f4a1d579d6528e3b40e91cfdb7b",
+      "scope": "Three exact and Arb controls for the prime subgroup graph calculations, including 8214 signed subgroups, finite coefficient thresholds, and the sharp order-five example.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/rank-four-positive-55-checks.jsonl",
+      "records": 2,
+      "sha256": "c580986a8961e871a6da497e9ab3a4f8524a90d03f8377e5a59ffffbc3e8dae3",
+      "scope": "Two Arb192 rational slab interval verifications of the rank-four estimate of the fourth increment, the strict trial products, and transfer to the actual prime marked values.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Exact signed arithmetic collection of the rank-three distinguished feedback includes a quadratic unit, shifted exterior-square terms, and matching cubic contractions. Four overlapping complex rectangular invariants give an actual common section through sufficiently large eligible primes and prime squares on 8135/512<Re t<1027/64 and |Im t|<1/2048, with |m_q|<=3/sqrt(n).",
+    "At 127/8 the separate prescription collecting only the rank-three quadratic unit has a certified positive lower iteration crossing the quadratic escape threshold at height 832. There is no conclusion at that point for the more extensively grouped upper invariant or the actual branch.",
+    "Main identifies K(xz) by four rank-four geometric objects, all with SL4 derived group acting independently of one another and the old fields. Centered bad-character weights distinguish them even up to rank-one convolution twist and duality. The geometric determinant lines are L^2, L^(-2) and two units; the arithmetic constants are not identified.",
+    "The new fourth field has conditional second moment 1/2 and conditional fourth moment at most 25/32 relative to the older fields, with vanishing first and third conditional moments in the field limit. This holds through eligible primes and squares regardless of the new determinant phases. These are asymptotic moments, not finite-field bounds.",
+    "The conditional estimate gives a fourth Euclidean increment bound for a positive centered degree-16 trial. The actual prime mark has strict uniform limsup below .01699 on [27/4,7] and .0218 on [13/2,27/4]. Together with round 54 the prime .017 range begins at 27/4.",
+    "Prime clique exclusion and short forbidden odd cycles show that all cosets from subgroups at b>=(2+eta)sqrt(n) have mass <=cos(pi/13)/(1+cos(pi/13))<.4927 for both true endpoint signs eventually. Even-order plus subgroups sharpen to 1/3 at their exact threshold. These bounds also sharpen the exact canonical cap subgroup estimate.",
+    "Translated cycle tests give a finite covering upper bound for the actual exposed tails, and their normalized uniform tail coherence gives a lower falsification test for the whole relaxation. Even all cycles lose a fixed amount at the support-free prime seed. The late full-face estimate remains open."
+  ],
+  "independent_review": [
+    "Checked arithmetic sign and Jacobi exponents for the rank-three unit, exterior-square and cubic groupings, all-lift seed correction, frozen-zero bounds, complex interval overlaps and scope of the weaker escape calculation.",
+    "Checked the four rank-four weight tables, the Frobenius-torus self-duality obstruction, geometric independence, conditional compact moments, and the fourth increment with exact positive weight transfer.",
+    "Checked the prime short-cycle argument, odd-girth-to-coset inequality, complete even-plus triangle test, and upper and lower translated cycle LP estimates.",
+    "Independently replayed all 10 records byte for byte and verified round-54 acceptance hashes, Python syntax, and all local proof links. Separate floating field calculations checked the new moment normalizations but are not used for the theorem."
+  ],
+  "next": [
+    "Finish the rank-three signed collection and try crossing t=127/8 with an actual common overlapping complex domain. Determine the arithmetic constant factors of the new rank-four determinant lines to permit further signed collections and test possible prime-square differences.",
+    "Retain the next terms of the third increment, including K(yz), to push below 27/4 while enforcing the positive product bound. Use actual exposed support and translated cycle bounds or the full face LP for the separate growing late-window estimate.",
+    "The cold floor 1/2 and the original all-prime ordinary Lovasz theta limit remain open."
+  ],
+  "window_closeout_workflow": "Both Astra routes supplied ranked next tests and explicit failure conditions. Main independently reviewed and replayed their results and derived the rank-four conditional moments and fourth increment. The weaker positive escape and the support-free seed loss remain recorded as separate obstructions.",
+  "committed": false,
+  "pushed": false
+}

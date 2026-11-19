@@ -1,0 +1,4 @@
+{"cold_interval": ["0", "1/2"], "kind": "continuum-limiting-budget", "other_floors": [3, 28], "subdivisions": 512, "uniform_margin_gt": "0.049"}
+{"analytic_radius": "2^-62", "cold_center": "1/5", "excess_gt": 1998, "field": 113, "inherited_jet": true, "kernel_sign_change": true, "kind": "finite-stencil-transfer", "order": 48, "spacing": "2^-3300"}
+{"analytic_radius": "2^-62", "cold_center": "1/20", "excess_gt": 1998, "field": 173, "inherited_jet": true, "kernel_sign_change": true, "kind": "finite-stencil-transfer", "order": 47, "spacing": "2^-3300"}
+{"analytic_radius": "2^-62", "cold_center": "3/4", "excess_gt": 1998, "field": 121, "inherited_jet": true, "kernel_sign_change": true, "kind": "finite-stencil-transfer", "order": 48, "spacing": "2^-3300"}

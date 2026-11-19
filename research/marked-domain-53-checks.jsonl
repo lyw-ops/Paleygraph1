@@ -1,0 +1,5 @@
+{"divisions": 128, "imaginary_half_width": "1/4", "kind": "complex_rank_moment_rectangle", "moment_cap": "[3.68990000000000000000000000000000000000000000000000000000 +/- 1.11e-57]", "rank_cap": "[1.73930000000000000000000000000000000000000000000000000000 +/- 3.21e-58]", "slabs": [2319, 2336]}
+{"divisions": 64, "imaginary_half_width": "1/4", "kind": "complex_rank_moment_rectangle", "moment_cap": "[3.59500000000000000000000000000000000000000000000000000000 +/- 8.16e-58]", "rank_cap": "[1.69500000000000000000000000000000000000000000000000000000 +/- 4.34e-58]", "slabs": [1168, 1216]}
+{"divisions": 16, "imaginary_half_width": "1/4", "kind": "complex_rank_moment_rectangle", "moment_cap": "[3.42500000000000000000000000000000000000000000000000000000 +/- 7.65e-58]", "rank_cap": "[1.62000000000000000000000000000000000000000000000000000000 +/- 5.61e-58]", "slabs": [304, 368]}
+{"kind": "radial_rank_moment_majorant", "moment_cap": "3.45", "radius_minimum": 22, "rank_cap": "1.64"}
+{"component_ratio_cap": "0.9996", "divisions": 128, "imaginary_half_width": "1/32", "kind": "complex_packet_rectangle", "rank_cap": "1.47", "slabs": [2108, 2320]}

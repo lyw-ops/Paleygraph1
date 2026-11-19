@@ -1,0 +1,89 @@
+{
+  "round": 81,
+  "accepted_at_utc": "2026-11-19T04:51:36Z",
+  "previous": "research/round-80-acceptance.json",
+  "previous_sha256": "804d9399a39730dfef86fc582299fabbdc37274e7d7f9c43a4d251eabe0d07c2",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/cover_81",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Freeze the actual heads at a qualifying terminal time and bound full-cone mass and the facial tangent surcharge. Compare to the sorted-cap signed price.",
+        "For restricted translates compare their target capture efficiency before an LP fit, using genuine opposite laws."
+      ]
+    },
+    {
+      "name": "/root/mixed_81",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the actual stationary Taylor and large-site errors against the signed adjoint tests, or prove subexponential growth of their physical sup norms.",
+        "Use the all-height real truncated estimate with an increment-weighted mixed tail. As a finite test, verify the true third complex return with its arithmetic correlations."
+      ]
+    },
+    {
+      "name": "/root/audit_81",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Enclose the actual signed stationary remainder and the high-site part of the last adjoint term.",
+        "Retain determinant correlations in the third genuine mixed return. For the real face estimate measure the entropy and low-height price on the same optimizer and window."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Try a prime-uniform upper for actual clipped exterior entropy or exposed head mass, using the exact marked face and respecting the frozen-mask surcharge. Simultaneously price the surviving low-height portion of the same row and window.",
+    "Compute or bound the genuinely signed stationary Taylor remainder against its adjoint tests. Aim at a true growing-height mixed tail through actual finite fields.",
+    "Test exact third-step mixed moments before using a field-uniform short-prefix constant at growing depth."
+  ],
+  "proof_and_code_sha256": {
+    "research/entropy-heads-81.md": "7276c86f1eb06941fbd4922f045548cc6905cd79ee1471aee645971861e7ee7e",
+    "research/astra-cover-81.md": "e6b6029d54f456259984c1342024e6f3d86a238b71299b1c109a7acc676a4c32",
+    "research/astra-cover-81-check.py": "813d5bb89da238eaa6bfd2793f46717bf11f42bca01106d1cfeaa66d0b0a6105",
+    "research/astra-cover-81-checks.jsonl": "87324367a4cb8b9972ee427bb2b66c2d1ae886adc43aae3dd2075a12aba69db5",
+    "research/astra-mixed-81.md": "a2af1a9deb405d18930824f3d014727b8459f6063db3e36021756dcdfa401465",
+    "research/astra-mixed-81-check.py": "cd18de31d607fca7ee7c42454590dc4813a00531ed94c7c415a7f276d520136f",
+    "research/astra-mixed-81-checks.jsonl": "fd682875333e11fc95e2726c633dd0ba954ee77cadb58a4681327f43e83fece0"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 8,
+  "arithmetic_record_counts": {
+    "finite_endpoint_interval_records": 5,
+    "arb_scalar_interval_records": 3
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Arb384 cover replays at 97,101,257,409,769 match byte-for-byte under pipefail, also independently. Fixed-time mask geometry, true primal and opposite interpolation, and both restricted LP directions are enclosed. The finite proposed supports and pricing vectors can be obtained numerically; the acceptance uses the certified enclosures.",
+    "Arb160 checker for the short mixed return, scalar finite-field tracking coefficients, and 150-term adjoint bound reproduced all three records byte-for-byte under pipefail, also independently. The full physical comparison and arithmetic moment arguments are ordinary proofs with these scalar interval inputs."
+  ],
+  "proof_scope": [
+    "For fixed nonnegative bulk demand on an exact marked primary face, the best root-residual cover by unrestricted genuine opposite laws equals the maximum primal price on the marked face. A single genuine opposite probability attains the optimum for nonzero demand. For frozen clipped heads subtract the common floor; at p=97 a different genuine optimizer gives the certified strict surcharge even for the full cone. Four other fixed masks exhibit restriction cost for one prescribed opposite optimizer's translates. The lower sorted-cap price applies at unbounded primes under the stated high-branch collision and clipping assumptions.",
+    "The weighted translated Jacobi exponential test is bounded by exp(t^2/(2m))+C|t| exp(|t|)/sqrt(p) uniformly for every center set and probability. The total signed Schur interaction forces clipped-exterior relative entropy at least c min(L/M^2,rho log(p))-o(1). With the same terminal row and window, either the low-density portion retains its height through deletion enlarged by (log(p)/D(p))^2, or the high-density branch forces relative entropy of order at least D(p). A counting head bound with growing moment order is separate from bounds on the clipped mass. No prime-uniform upper has been proved.",
+    "For the first two actual marked Jacobi-seed returns uniformly on the closed complex square of half-width 2^-17 about 2031/128, the mixed fourth-moment ratio E_n(|V1-S|^2|V2-V1|^2)/E_n|V2-V1|^2 is strictly between 0.0230 and 0.0377 for all sufficiently large eligible primes. The proof includes the transported linear and quadratic terms and control of their arithmetic overlaps; the field threshold is not effective.",
+    "For the real nine-center orbit at every admitted finite field n>=10^30, the height-600 predictor W satisfies the truncated quadratic tracking inequality for any number of subsequent iterations. At the actual stationary row the normalized cost E_n min(h^2,|h|) is at most 625 r^2, with actual scaled difference h and normalized residual r. The exact fixed 150-step adjoint pairing then gives prime limsup of the real physical mark below 1.67e-275 on that small real interval. This is a positive fixed tolerance, not an effective counting or unbounded-size complex result."
+  ],
+  "independent_review": [
+    "Verified exponentiation of the weighted Jacobi bound through all powers, Gibbs variance and entropy bounds, growing moment accounting, and clipped low-density mass for each enlarged deletion.",
+    "Verified face LP duality, positivity by adding an exact opposite optimum, the full face surcharge and symmetry scope at p=97, and the normalization of clipping and fixed translates.",
+    "Reviewed true first-two-return mixed terms, noncoincidence of rank-eight factors, bounded moment transfer, exact finite-field Huber inequality, root scaling, parity cancellation, tilted sup bounds and the 150-step adjoint indexing. The mixed-note markup was regenerated and checked before acceptance."
+  ],
+  "next": [
+    "Prime-uniform upper on actual larger-face head/entropy cost and low-density survivor price for the same row and window.",
+    "Signed stationary remainder or growing-height feedback/increment mixed tail on a common cold complex corridor.",
+    "ETH Randomstrasse101 Problem 26 and unrestricted common physical cold-end continuation remain open."
+  ],
+  "window_closeout_workflow": "Three proof files, five finite endpoint interval records and three scalar interval records, independently replayed and ranked. The ordinary proof and the finite measurements remain separate.",
+  "committed": false,
+  "pushed": false
+}

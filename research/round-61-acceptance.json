@@ -1,0 +1,90 @@
+{
+  "round": 61,
+  "accepted_at_utc": "2026-11-18T15:53:00.044132+00:00",
+  "previous": "research/round-60-acceptance.json",
+  "previous_sha256": "c25bc0c1f41242358c4ad174e35f15d9ff5d19a2080e60ae6d07a76af583b5f5",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/mixed_61",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-mixed-61",
+      "ranked_closeout": [
+        "Keep a nontrivial Sp8 sector across adjacent vertices and its tensor-square return. A strict overlapping invariant below 2031/128 passes. A fully charged escape with surviving quadratic growth rejects that specified dictionary.",
+        "Refit the distinguished coefficients using the signed Jacobi and rank-two scalar equations. Verify the new frozen profile and either obtain an actual overlap below the floor or reject that profile with a fully debited lower escape."
+      ]
+    },
+    {
+      "name": "/root/charged_61",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-charged-61",
+      "ranked_closeout": [
+        "In the common radius n^(3/4+epsilon) dictionary find one true pair with charged o(t) objective at an eligible time on every prime. On unbounded primes a positive proportion of primitive orders with a persistent eta*t lower bound across all late times would reject the unrestricted face estimate.",
+        "Evaluate the complete score envelopes at actual exposed supports with both exact root atoms and E_t/4. A nonpositive limsup at a late time suffices. Persistent excess of the upper envelope rejects only that envelope. The top-k replacement obstruction already delimits neighborhood maximization."
+      ]
+    },
+    {
+      "name": "/root/review_61",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "independent compact support, mixed-sector debit, marked branch overlap, and adaptive transport review",
+      "ranked_closeout": [
+        "Use the true average as the starting row and rigorously control the worst-site pinned repair at exact sector and mark with o(1) extra scaled mean. An L2-negativity result alone cannot decide this. The true residual already bypasses a uniform support-cube obstruction on the enlarged family."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/pinned-corner-61.md": "e63cf416ba4f8fde1e25d89a2942bfa52a7515f5c87b3b48caf91d65e834fcf5",
+    "research/astra-mixed-61.md": "487eb5b69349f37360aba8900cb2c8eae91c80f69d280124c7c7940965226882",
+    "research/astra-mixed-61-check.py": "36e541c26b9fe81839b22c89aaf54440f6341de4e7805aa814a42d62b67f405e",
+    "research/astra-charged-61.md": "09f112344efca2a795b62581585f773c0e465949e25f0a61928ec9f34c550d38",
+    "research/astra-charged-61-check.py": "e47ab155556cdd4d4ab63357e761f791195d482f389bf7bf687c91fed3fe376a"
+  },
+  "floating_diagnostics": [
+    {
+      "file": "research/astra-mixed-61-probe.py",
+      "sha256": "6f54e59ea4dc7e7da969e1ce08453ee0c6db9d9bb903dd4e47c1aeebf960f563",
+      "scope": "Used only to find a candidate set of packet caps. The proof consumes the frozen rounded integers and no optimizer state."
+    }
+  ],
+  "core_records": 4,
+  "replay_checks": [
+    {
+      "file": "research/astra-mixed-61-checks.jsonl",
+      "records": 3,
+      "sha256": "3d1dc0d93fb736c019efbb1c0646011b65fe511fade481b30811c527a705c5b7",
+      "scope": "Arb192 signed saving at two Jacobi shifts, fully debited two-level escape at 2165, and ten closed slabs for the genuine overlapping complex section.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-charged-61-checks.jsonl",
+      "records": 1,
+      "sha256": "3b512244d246428b0680b5ec9ada027f8ceeb9570230388c06a6e4561ce8e113",
+      "scope": "Exact cyclotomic comparisons on the four true even vertices at p=97 in all sixteen primitive orders, identifying sharp nonwrapping radius four.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "After preserving all mixed residual sibling counts, every even old return, determinant shifts and the full previous C2 unary grouping, the specified lower propagation at 2031/128 escapes above mass 21 at height 2165. For a single residual sibling the pair of signed odd-Jacobi shifts incur a strict cancellation of about 3.993e-8 per shift and unit sibling measure. The conclusion concerns that fixed packet prescription.",
+    "The actual common physical marked branch through sufficiently large eligible primes and prime squares exists on the additional open rectangle (1040026/65536,1040036/65536) with imaginary half-width 2^-20 and |m_q|<=3/sqrt(n). It overlaps the round-58 section on (1040034,1040036)/65536. The cap refit used a floating proposal and a rigorous interval replay; the branch proof includes eventual finite-field corrections and does not rely on the escaping lower propagation.",
+    "For every reference pair and epsilon in (0,1/4), a fraction 1-O(n^(-epsilon+o(1))) of common primitive generator orders permit the exact full-face charged minima at all late times with nonwrapping bulk jumps at most ceil(n^(3/4+epsilon)). Separate arithmetic forbidden-run orders constrain the sign changes of every nonzero true-face difference and allow all face pairs at radius O(n/log p). The all-prime limiting upper estimate of the charged objective remains unproved.",
+    "Coordinatewise maximal score envelopes at the adaptive radius, in almost every order, promote top ceil(n^(1/2-epsilon)) exposed scores into a whole-bulk lower bound on that upper envelope, retaining the two exact root atoms and terminal energy. This is a limitation of the envelope and not a lower bound on the face minimum.",
+    "Ordinary proof: both signs of the seven pinned completion directions have a joint compact support cube of radius 1/4 at the unfavorable Jacobi endpoint. Uniform finite patch mass gives an obstruction including unbounded field-dependent coefficients. At a matched growing depth and fixed tau<1 the actual projected average stays a positive normalized bulk L2 distance from the entire affine seven-source family, despite its own O(T^-1/2) negative part. A bounded-density finite probability on the unfavorable arc annihilates all seven directions exactly and gives a linear test on additional corrections."
+  ],
+  "independent_review": [
+    "Main checked the mixed kernel parasitic charge, the binomial multiplicity, positive determinant shifts, and the quadratic post-escape debit. Main replayed all three Arb192 records and the finite charged record byte-identically.",
+    "Fresh Astra confirmed the real open overlap, both debits for the grouped lower map, the single debit for the surviving quadratic kernel, and the common generator probability and quantile claims.",
+    "Fresh Astra caught a sign-convention mismatch in the initial U5 cube witness. Main kept the perverse sign and proved that each determinant coset has the required real-trace interval. Main separately checked continuity, finite pinning, both sector symmetries, and the exact dual patch probability. The reviewer supplied the true-average L2 separation consequence from the earlier endpoint identity."
+  ],
+  "next": [
+    "Prioritize a prime-uniform worst-site repair of the true averaged row at marked depths or a true late charged upper trial with the full exposed-support equations. The seven-direction obstruction and the exact patch test identify a required contribution of the residual outside the static family. For transport retain the actual conservation weights rather than local score maxima.",
+    "On complex continuation keep the first nontrivial Sp8 sector across two levels, with its exact phase and square return, and retune signed old scalar offsets. Verify against an actual overlapping rectangle and a complete lower debit at the escape floor.",
+    "The all-prime theta limit, exact matching-depth positivity, and a prime common cold continuation to 1/2 remain open."
+  ],
+  "window_closeout_workflow": "Collected five ranked tests from the two routes and independent review. Main integrated the tests and retained the failed static and mixed-sector prescriptions alongside the actual small complex extension.",
+  "committed": false,
+  "pushed": false
+}

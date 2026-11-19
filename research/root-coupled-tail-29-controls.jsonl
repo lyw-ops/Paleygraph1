@@ -1,0 +1,7 @@
+{"kind": "independent floating LP containment diagnostic", "order": 61, "normalized_lp": 0.8947704913308321, "intervals_checked": 3, "passed": true}
+{"kind": "exact square-theta containment", "order": 9409, "steps": 8, "normalized_exact": "[1.3997084244475303418270194712605093668376842747 +/- 4.24e-47]", "passed": true}
+{"kind": "exact square-theta containment", "order": 9409, "steps": 32, "normalized_exact": "[1.3997084244475303418270194712605093668376842747 +/- 4.24e-47]", "passed": true}
+{"kind": "exact square-theta containment", "order": 9409, "steps": 128, "normalized_exact": "[1.3997084244475303418270194712605093668376842747 +/- 4.24e-47]", "passed": true}
+{"kind": "exact square-theta containment", "order": 151321, "steps": 32, "normalized_exact": "[1.4105827128331006678662905897517941215074235610 +/- 3.37e-47]", "passed": true}
+{"kind": "exact square-theta containment", "order": 151321, "steps": 128, "normalized_exact": "[1.4105827128331006678662905897517941215074235610 +/- 3.37e-47]", "passed": true}
+{"kind": "exact square-theta containment", "order": 151321, "steps": 512, "normalized_exact": "[1.4105827128331006678662905897517941215074235610 +/- 3.37e-47]", "passed": true}

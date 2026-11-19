@@ -1,0 +1,107 @@
+{
+  "round": 68,
+  "accepted_at_utc": "2026-11-18T17:51:24.876406+00:00",
+  "previous": "research/round-67-acceptance.json",
+  "previous_sha256": "08f95a68792366f45a6c757bfb378233fb3554e351c0b7525037152401279c3a",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/charged_68",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-charged-68",
+      "ranked_closeout": [
+        "Outside the rejected rank budget, seek a sign-feasible charge-aware trial on the true larger face at L+1. A certified tilt gap o(hL) and signed charge upper o(L) suffice.",
+        "Use untilted reciprocal rows at tau=o(Delta), or certify direct discarded vertex weight o(1). A signed charge upper o(L) transfers to the exact primary face. Large floors are obstructed for separate objective estimates."
+      ]
+    },
+    {
+      "name": "/root/nonlinear_68",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-nonlinear-68",
+      "ranked_closeout": [
+        "Price the excluded unary resultants nontrivial on the two selected SL4 factors, starting with m^(±1)Z and its exchanged lift. Retain their original prices and shared competitors. A paid zero-start crossing above 21 plus binary growth rejects the fully collected rule.",
+        "Resolve actual signed decrements on fixed one- and two-residual lists. A strict physical upper invariant through 2031/128 requires the complete complex cover, all marks and siblings."
+      ]
+    },
+    {
+      "name": "/root/review_68",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "Independent audit of moving-degree projected obstruction, shifted-group classification, signed refresh, original sibling prices and all four interval records.",
+      "ranked_closeout": [
+        "Bound the actual two-tilt difference directly or by two trials with certified individual o(hL) errors. A positive normalized lower subsequence rejects this sufficient one-time marginal condition.",
+        "Resolve the complete unary with separate SL4 Pieri projections and degree-28 moments. Require a paid crossing for the fully specified real rule, or a strict physical complex invariant with all untruncated residual costs."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "At the fixed larger-sign LP, express the positive barrier stationarity as a forced cold equation with the terminal price inside its exact sign projection. Compare signed charges without separately approximating the primary mark at the cyclotomic gap scale.",
+    "Control the actual endpoint probability on the measured two-sided early peaks and the late signed spill at the same marked depth. Local subset sizes and separate absolute early charges cannot give the required upper."
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-charged-68.md": "6eaf7b31a953b0ec9bde17d984159979f2a506aa1f066bf0210649efff60bb35",
+    "research/shifted-groups-68.md": "a953bd46b440af390e74d69e0ff5b065fc4de835a1c3b2cf40438e8e384a5b7e",
+    "research/shifted-groups-68-check.py": "03504955e5b94d94c1f4957a77c3a9c97bf43d3f43d6daa8c7130ce24cdc4081",
+    "research/astra-nonlinear-68.md": "95e882fcc9ad20d8f8d29143e0ee545d1e480fa70e6e56198b530d057a06b38c",
+    "research/astra-nonlinear-68-check.py": "4ea72cc8b8a9f016bd67e8fa15584e54dd3665303515b3073e3c44e35bdcbe09",
+    "research/astra-nonlinear-68-periodic.py": "04d0f2957b496336c3fe74dad82444b8024b7a5fe51346ac4dcf4b64450f3802"
+  },
+  "floating_diagnostics": [
+    {
+      "file": "research/astra-nonlinear-68-probe.py",
+      "sha256": "9773631432aa9aae5662374fc099672fa2375e8c093cab359f8ef01cd6a40592",
+      "scope": "Proposal search for periodic schedules. The accepted periodic height comes from the independent Arb program."
+    }
+  ],
+  "core_records": 5,
+  "replay_checks": [
+    {
+      "file": "research/shifted-groups-68-checks.jsonl",
+      "records": 1,
+      "sha256": "1843db6a5ae430cf0fd027a6043e5a4ee09c4126b110b684239c8c9e1b41468b",
+      "arithmetic": "exact integer",
+      "scope": "Moment tables through degree 28 for the independent shifted groups, including the separate SL7 determinant exponents.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-nonlinear-68-checks.jsonl",
+      "records": 3,
+      "sha256": "c43faf6ce6aa62bc957109c6716a07980c1e229efe4a8123995f0feafbe64620",
+      "arithmetic": "Arb192 and integer rounding",
+      "scope": "Signed all-level refresh and two signed coefficient comparisons, the supersolution for a dominating map of the tested lower iteration, and the fully debited escape of the all-level selected-unary rule at height 1612.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-nonlinear-68-periodic.jsonl",
+      "records": 1,
+      "sha256": "ce0a2d51597b9dd5e3c51f6ef46146a1ae6a28a52b154968a80016e54e51fbce",
+      "arithmetic": "Arb192 and integer rounding",
+      "scope": "Fully debited escape at height 3202 for complete collection on two consecutive levels per 256 and the round-66 rule in between.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "For the true anchored once-projected Jacobi polynomial trials at p>5, N_I=1+sum m^2=o(sqrt p) forces maximal feasible marked ratio to 1/sqrt(2)+o(1), even with unrestricted coefficients depending on the field. Positivity outside an adaptive bulk set A with N_I |A|=o(p) suffices for the upper. At bounded normalized marks at least 1, the negative-part RMS off A is at least (3 sqrt(2)/4-1)/100 in the liminf. Each separately tilted larger-face objective loses at least 1-1/sqrt(2)-o(1) for that class. The difference of the two true values is still open.",
+    "For an actual reciprocal row at positive floor tau, positivity and the opposite exact endpoint cap force a primary deficit of order at least tau/sqrt n. Each individual required O(hL) comparison fails when tau/(Delta sqrt L) diverges. Common trial errors may cancel. Conditioning at tau=o(Delta) still requires a prime-uniform signed upper charge.",
+    "The six remaining shifted lifts have, conditional on the old group, two independent determinant cosets with derived group SL7 (each with its arithmetic dual) and two independent SO8 groups. The rank-eight orthogonal sign follows from the norm-one torus indicator and full SO8 from its weight cocharacter. Their product description yields exact truncated moment tables. The old rank-six exterior-square pair is the only linear old collision among the eight large shifted lifts.",
+    "At 2031/128, controlled regeneration of all 13 tags contracts in the real box below 0.427311. Relative to conditional rank-six resampling, the complete old coupling decreases the m^2 coefficient by (8.676,13.166)e-12 at every regenerated level. Admitting the pair reinforces the same-input negative mZ coefficient by (22.000,26.951)e-6 in magnitude.",
+    "The all-level selected-unary prescription with all nonlinear old collection preserves the exact signed refresh of the full rule but keeps original separate prices on the remaining unary sectors. It exceeds mass 21 at height 1612 with paid binary atom above 0.058284. The periodic prescription exceeds 21 at height 3202. From a crossing the fully debited binary bound implies growth even after switching to the full rule. The complete every-level zero-start rule is still open. The 0.764477 cap bounds a dominating map for its particular triangle-debit lower iteration only. Physical continuation and the ordinary all-prime limit remain open."
+  ],
+  "independent_review": [
+    "Main and fresh Astra checked the exact sign-sector projections, finite p=5 exception, growing-rank and exceptional-site errors, explicit RMS constant, both tilted objectives and the distinction between individual-error and difference obstructions.",
+    "Fresh Astra checked main's Katz twisting and inversion, norm-one character computation, connectedness and classical subgroup exclusions, triality-safe cocharacter independence, Weyl moment walk and determinant phases. Main and reviewer separately reproduced the exact record.",
+    "Main and fresh Astra independently replayed the two nonlinear computations. The audit verified the positive Taylor proof for the unsigned original dimension-weighted G_A-trivial unary price, residual list accounting, binary growth and the small cap's strictly limited comparison scope."
+  ],
+  "next": [
+    "Primary: derive a direct all-prime upper for the actual charged marginal at L+1 on the larger sign. Use the forced stationarity or a genuine non-scalar positive completion if it controls the true value difference V(h)-V(2h).",
+    "Primary: bind the actual optimizing mass on the zero-floor second-state peaks and investigate signed worst-site spill over the late marked window.",
+    "Complex: price the remaining unary old sectors with signed arithmetic rather than their double absolute debit, retaining the original non-collected complement. Test the fully collected zero-start recursion and keep separate the actual physical continuation question.",
+    "The all-prime ordinary Lovasz theta limit, sufficient positive completion at a matching marked depth and actual continuation across 2031/128 remain open."
+  ],
+  "window_closeout_workflow": "Collected ranked tests from both research routes and independent review, then consolidated main priorities. The arithmetic proof, exact moment table, interval signed and packet results, and floating diagnostics retain separate scopes.",
+  "committed": false,
+  "pushed": false
+}

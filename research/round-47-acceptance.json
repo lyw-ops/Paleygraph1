@@ -1,0 +1,82 @@
+{
+  "round": 47,
+  "accepted_at_utc": "2026-11-18T11:36:08.540064+00:00",
+  "previous": "research/round-46-acceptance.json",
+  "previous_sha256": "b1b7b091363e7f2c20d27ba7904f7fa871f4c463805496f142ad4bfa4ad15525",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/measure_47",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-measure-47",
+      "ranked_closeout": [
+        "Use the actual real stationary equations to bound the prime excess of fixed genuinely cold sign-changing stencils. A fixed positive limiting excess refutes that stencil condition; the chosen square controls refute a field-general estimate.",
+        "Exploit signed even products before the generic rank triangle inequality. At a new floor use exactly complementary trial factors with bounded scaled mark and vanishing relative product error. A positive lower bound for the infimal error excludes the trial class."
+      ]
+    },
+    {
+      "name": "/root/secant_47",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-secant-47",
+      "ranked_closeout": [
+        "Analyze actual marked monochromatic subgroup patterns with bounded cyclic quotients. Any fixed excess of b M(Lprime,A)/sqrt(n) on unbounded primes supplies feasible theta counterexamples directly.",
+        "With the two exact endpoint occupations retained, bound the actual one-endpoint signed secant after subtracting terminal energy per elapsed time. A common positive lower bound over a comparable late interval family on a prime subsequence rules out that choice."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/seed-majorant-47.md": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4",
+    "research/seed-majorant-47-check.py": "106a54a70ba44ab1e1a113a3c82f7a7b60cdb62866380e843de04c631f51fa80",
+    "research/astra-measure-47.md": "685cb9205ac3fbc11e6efab7f0ed0549edf932d96f805bd6a64a30d0e6107895",
+    "research/astra-measure-47-check.py": "2182665db9c95556c1b54c4613ddbc92e3c2ae1261576a004dc4d3a318e07af1",
+    "research/astra-secant-47.md": "1011ecbb6a16b5bc84799d03fb324f67a2f5d0c0b707648ba37ce1c9c4554240",
+    "research/astra-secant-47-check.py": "f983e7eb1f5114d9bf1c0436735174d63cd4bb37a91ab9f1486b876b5169ae97"
+  },
+  "core_records": 11,
+  "replay_checks": [
+    {
+      "file": "research/seed-majorant-47-checks.jsonl",
+      "records": 2,
+      "sha256": "d7ca78f07b7ca07cfcadd836790c088b09d3f130d0c198fcea7645bb0eb9cd2f",
+      "scope": "Exact rational constants for the separated seed majorant, power decay and shortened square stencil.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-measure-47-checks.jsonl",
+      "records": 5,
+      "sha256": "471ed3fcbda0fba4d2688472b4043e1d219cea98fccd13bdc8bac805ce29720e",
+      "scope": "Arb192 constants for the unseparated majorant, signed measured-kernel stencil and square excess, and one exact rational stationary formal recurrence at order 25.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-secant-47-checks.jsonl",
+      "records": 4,
+      "sha256": "7acbfd32d7702ef7f2d559da5e06b469439c6a9d556d76dd4c32d48ea45a65cc",
+      "scope": "Arb192 actual complementary endpoint pairs and complete weighted quotient reconstruction, with prime sign, orders and support checks.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Cancelling dual powers of the rank-one Jacobi forcing in the mixed Mellin products gives a binomial expected-rank improvement. Keeping exceptional frequency corrections exactly through floor(log2(n)/3) degrees and repairing the product weights proves m_q(t)=O_t(n^(-1/125000)) at every real t at least 28, uniformly on compacts. This is a statement about actual real stationary marks on the eligible primes and squares, independent of a complex section.",
+    "With T=32 and a=1/2, a fixed Chebyshev stencil with 128 hot interpolation nodes violates the entire right-half-plane measure budget by more than .06 on every sufficiently large square. The simple quadratic term of the separated generic majorant precludes a radius improvement below (2+2 sqrt(2))^2 without a changed mixed-product bound.",
+    "The independent unseparated majorant proves the stronger power n^(-1/500) on t at least 40 and real marked decay above an explicit threshold between 39.25 and 39.26. A genuinely sign-changing fixed real test at 1, 3 and 41 has absolute marked limsup below .319 and limiting measure budget above .395 in both field families. A separate 135-hot-node square test has eventual excess above .05.",
+    "Near concentration on a marked subgroup is reduced via exact all-coordinate reciprocal-count reconstruction and a uniform positivity correction to the LP on the allowed quotient fibers. Hanson-Petridis gives (1+|A|)b^2 <= n+b for annihilator size b. If a supercritical sequence concentrates on the subgroup with c sqrt(n) <= b <= h_p/2, it forces a bounded-length odd relation. If b is at least (1/sqrt(5)+eta) sqrt(n), the quotient reduces to a bounded cyclic subgroup whose exact witness lifts to the full field.",
+    "The order-five allowed-fiber pattern would give a simple feasible supercritical witness if it occurred on an unbounded prime sequence at the stated b scale. Its occurrence is unresolved. A separate true zero-floor distance identity to complementary optima controls both occupations but leaves the signed one-endpoint late secant open."
+  ],
+  "independent_review": [
+    "Checked the seed duality and cancellation before twisting, uniform exceptional-character overhead by individual rank and degree, coefficient induction, real positivity of the exact sector product trial, and comparison to the desired stationary weights.",
+    "Checked the original rank-first majorant, derivative-free linear kernel test and its sign change, shorter square fixed coefficients and the exact Arb/rational arithmetic.",
+    "Checked the prime rectangle hypotheses in Hanson-Petridis Theorem 1.2, quotient Fourier normalization and sign of all-coordinate repair, parity test and bounded cyclic reduction, and the exact cold norm decrement.",
+    "Independently replayed all three data files byte-for-byte and verified the previous acceptance hashes."
+  ],
+  "next": [
+    "Start the real signed stencil chain from the new proved range t >= 28. Prioritize a genuinely prime-specific bound at colder floors over merely tightening the field-general majorant. Any attempt to lower the seeded threshold substantially must improve the quadratic cross term or change the ansatz.",
+    "Keep the actual one-endpoint late signed secant as the unrestricted endpoint target. On the structured branch, attack or construct the bounded odd quotient patterns with exact lifted mark above one, especially the order-five inverse pair, using prime arithmetic rather than numerical optimality."
+  ],
+  "window_closeout_workflow": "Both completed routes gave two ranked tests and measurable obstruction criteria. Main combined the rank improvement with a lower real anchor, grounded the remaining prime estimate in fixed signed tests, and retained the bounded-pattern counterexample test alongside the general secant.",
+  "committed": false,
+  "pushed": false
+}

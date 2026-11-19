@@ -1,0 +1,143 @@
+{
+  "round": 91,
+  "accepted_at_utc": "2026-11-19T08:24:15Z",
+  "previous": "research/round-90-acceptance.json",
+  "previous_sha256": "44cb91ad60571129182b57dc174631d4082475a8e89f2ce8f67a4b7832afd3da",
+  "proof_and_code_sha256": {
+    "research/real-two-marks-91.md": "4be9bd76789d4396330da21fb8073037624324eb939cb0779f6d6ff8000fc2ec",
+    "research/real-two-marks-91-check.py": "9ff7d4183b674e4c81dccac9be9bf0a6e90b96d252e50135f79b07eca48c5f14",
+    "research/real-two-marks-91-checks.jsonl": "993a025e6a44bb17995477afbdeb7006c8c67bb38178d91afdf0ec9b4bc535b2",
+    "research/astra-contact-91.md": "d8f68c855288a1863d966009734043136c96bf8ea8b7010b7fa0264313a6706c",
+    "research/astra-contact-91-check.py": "d416c0652d4d60691db7f3ed32147102b74f56db37c909dffe66fc8b2fe29bb7",
+    "research/astra-contact-91-checks.jsonl": "634378078e28dc32218f137b2f1f5e685e0584792e66c2dbe723bd8e206e01a5",
+    "research/astra-discount-91.md": "6e79bd5f21c02b97334132cc093e2e710a6a6faf7a53e75784dfbea9149192e9",
+    "research/astra-discount-91-check.py": "a66718a88bd9bd7b8d1d57fabb5658c7bcf0e0e263cff492a538d7292aa4475f",
+    "research/astra-discount-91-checks.jsonl": "49c8598aadaa9aa16f376c73369c28e0771060af0b1aa05fc6f1cc381113e855",
+    "research/astra-fiber-91.md": "ad693dce038750982553b06607a528d21e8009cca1c8a9e5cda6382ef1c0d7f9",
+    "research/astra-fiber-91-check.py": "2739cf8249b54fa5f8374419285df046dd6629aace32aaa44e4777715de8031a",
+    "research/astra-fiber-91-checks.jsonl": "b5c892a2d36e8f337782873476bf038fc9c3305c68a9a5182fa5910dcc92c892"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-phase-86-check.py": "e824cc99ce0bc453495e770985cab0759dcecc8cb66d32bf77887071a0b8c503",
+    "research/real-phase-projection-89-check.py": "18206c2736416936b3ef56be6d1911c801e2ab8cf4f5655f69d5e361f44994c6",
+    "research/astra-quartic-89-check.py": "eb695e305e87200958cda4e65046df9dcc0968f42f3277d12db90a3a4049c7c9",
+    "research/astra-matched-88-check.py": "c8962f090161cfd5611a69b7101c1a94be524f94cde2a6fc04face0216f5c9dd",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "additional_inherited_dependency_sha256": {
+    "research/astra-cold-37-monodromy.py": "e3bee2fc0b799e441e33f6d5c69b84a14fff23df79fddce8591b3ba1198352b3",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "research/marked-response.md": "5c9f8989e3e9b1ef1bce6e3b2b32cd224639289a463bf688b37b1405304765f7",
+    "research/response-locality.md": "c27dc4800790abee43b4933c83f808fd7ad975a0167c2f86baa363eb6b783428",
+    "research/real-phase-projection-89.md": "fabe652d3d6a401ab22d17ea09e5ee5fdfe2b0defd4d2c059aed6ef388c45612",
+    "research/astra-column-90.md": "ff9dfa314624d034f16f1d4a10036e3b3bc3057af4292b672fd7211b3d9985f8",
+    "research/clipped-signs-90.md": "69fdd51ffbf485f2c8c5866c433c92ee0d13faeb52cec1fa5acd240b33a52fa7",
+    "research/astra-dual-90.md": "4441c5b0d6068c405ed91bd457ffa02a40bc2a4e39d356f907ef12f9a0e2183b",
+    "research/astra-quartic-89.md": "ff09867a32a4fc5a51992c0943a5733f1abcbad0751802ea1fbf9c74eb268440",
+    "research/astra-persistent-88.md": "56d6df9a10c4dc9abd5866aa325633238ea8b63fa455fef1fbdf3ca7636c3638",
+    "research/astra-affine-90.md": "8d07746bb4d4fc2b1fdefbc1907a2295ebe1bd283c8e72b58a1647d15c95ac67",
+    "research/astra-diffuse-87.md": "c4d163a5b739c2497fa104c6267e50556c136ea3de3b587039a990874c27ae6e",
+    "research/astra-fibers-86.md": "8d921c3a26006927f4af6e824a4e19cae9790611f5c37cb1b4f4bca20dff01ee"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "primary_arithmetic_sources": [
+    {
+      "url": "https://arxiv.org/abs/math/0308286",
+      "use": "Inherited prime quotient convolution spreading via Cauchy–Davenport and Parseval"
+    },
+    {
+      "url": "https://escholarship.org/content/qt3qb1v3vw/qt3qb1v3vw.pdf",
+      "use": "Mixed character sum estimates used in the inherited distinct-root affine columns"
+    }
+  ],
+  "research_agents": [
+    {
+      "name": "/root/contact_91",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the actual two-column incoming response integral on a fixed cold vertical ray in the largest signed coordinates, with target below 1/sqrt(3).",
+        "Test the exact compression on the same-sign zero-sum space to identify corrections that can be redistributed without changing either signed total."
+      ]
+    },
+    {
+      "name": "/root/discount_91",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the excess capacity on each true shortfall walk using the projected fiber masses and the actual normalized cubic on the same pin.",
+        "Use the almost maximal displaced mark, its fixed cubic loss and actual height payment to estimate the translated cubic from below. Check the efficiency and prime quotient hypotheses."
+      ]
+    },
+    {
+      "name": "/root/fiber_91",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Compare the two genuine signed first marginal prices on one adaptive positive-density union at the admitted quotient resolution.",
+        "In a diffuse exterior test how many moderately large Fourier modes are needed to capture a nontrivial squared mass, or use a finer quotient to compare residual phases."
+      ]
+    },
+    {
+      "name": "/root/audit_91",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Push the actual coordinate integral in the reflected incoming velocity toward a uniform all-prime bound. The exact same-sign support criterion controls derivative uniqueness only.",
+        "Apply the actual physical capacity test on the shortfall walks, together with the effective-support and efficiency hypotheses."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Bound the coordinate integral of actual incoming cold velocity or the associated signed switch prices of the real pairs with common bulk weights below the first-switch cost.",
+    "Use actual near-optimal translates in the prime quotient shortfall walk to bound their excess capacity jointly with the physical height and normalized cubic.",
+    "Compare signed affine marginal prices on an adaptive union within the proved total-variation scale. An absolute transport approach needs to address persistent phase correlations and moderate-mode aggregates."
+  ],
+  "core_records": 7,
+  "arithmetic_record_counts": {
+    "real_endpoint_switch_arb192": 1,
+    "true_first_contact_and_reflected_derivatives_arb128": 2,
+    "optimal_root_discount_cyclotomic_and_arb384": 1,
+    "affine_quotient_and_transport_arb384": 3
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main and independent Astra replayed the four checkers with PYTHONPATH=., .venv/bin/python -B, and pipefail, with outputs matched against the JSONL. Main rechecked the final multi-mode affine addition and its updated record.",
+    "Arb192 preconditioned contraction verifies a clipped even root with precisely one saturated orbit, the positive switch, the real marked weights and the two objective gaps at p=173, t=1/50+13i/1000.",
+    "Arb128 checks the reflected and direct factor derivatives of the genuine p=173 branch near the cap, and the first-contact interval and one-sided unaveraged correction slope.",
+    "The p=97 replay checks the fixed physical mask and arbitrary-evenness full-polytope optimal discount equality over Q(zeta_48); Arb384 handles signs and outward numerical displays.",
+    "The p=53,257,409 replays check finite signed prices, exact centering, quotient Parseval, the conditional responses and transport inequalities. The p=409 record additionally checks the finite six-mode residual lower relative to any third-only fit."
+  ],
+  "proof_scope": [
+    "For the actual cold chart with positive marked real cone factors and u>|v|/a, a clipped pair equals two real stationary pairs on the same nonnegative bulk weights. For any proposed bulk weights the two marked weights are determined by one strictly monotone scalar equation. An objective gap identity prices each zero switch on the corresponding actual sign.",
+    "At a zero-correction first bulk tie and under the stated strict marked bounds, the weighted phase response eliminates its marked input with operator norm at most 1/sqrt(2). A monotone linear complementarity law gives both canonical signed correction totals, including after higher-order tangent contacts. Exact same-sign block singularity is a native-sector support condition. The local neighborhood and quantitative size bounds can depend on the field.",
+    "For any positive masked quartic minimum, the minimum signed root coefficient across sharp dual witnesses is a full primary-polytope secant. At the actual growing delayed pin, spreading of the sharp cubic on a prime quotient under almost unit efficiency forces real excess physical height on a near-maximally marked translate, without requiring boundedness of that coefficient.",
+    "The short-prime squared-moment estimate gives total variation of the signed price across the eligible third-coordinate quotient, simultaneously for adaptive unions. Persistent displaced atoms force phase-dependent absolute coupling cost after centering. Nonvanishing aggregate energy on a sufficiently small preselected set of modes still forces a least-squares residual against arbitrary per-coset fits."
+  ],
+  "independent_review": [
+    "The audit reviewed the zero-weight limits, scalar elimination, real switch and clipping reconstruction, and the signed objective comparison.",
+    "The audit identified the need to extend the strict marked secant argument explicitly to the finite p=173 floor extent. Main supplied the proof using the same-sign marked tangents and the original anisotropic Hilbert identity.",
+    "The audit derived the precise same-sign singularity support condition and its converse. Main verified and incorporated the proof.",
+    "The exact discount duality, translated height condition, quotient total variation and all-coupling lower were independently reviewed. Main reviewed the final centered dual mode calculation for arbitrary per-coset fits and replayed its final checker."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The stable scalar mark elimination leaves the real bulk weights and their possible cap switches. At a genuine prime outside the nominated cold square a switch has a positive price.",
+    "A uniform Hilbert response and local contact law still permit an individual coordinate to reach the cap. The common unforced continuation through all eligible primes remains open.",
+    "The physical replacement for the optimal corrected root price requires quotient spreading and near unit efficiency to force a displaced payment. Its excess capacity has not been bounded through primes, and intermediate efficiencies are still open.",
+    "Absolute transport and fitted third-coset predictions encounter provable residuals under the specified arithmetic hypotheses. None of these estimates gives the signed price cancellation on an original full affine window."
+  ]
+}

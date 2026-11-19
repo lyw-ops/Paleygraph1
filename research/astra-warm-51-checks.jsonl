@@ -1,0 +1,6 @@
+{"cost_upper_millionths": 1739900, "cutoff": 14, "divisions": 64, "kind": "laurent_decay", "rate_exponent": "1/21000", "slab_indices": [1576, 1600]}
+{"cost_upper_millionths": 1766000, "cutoff": 14, "divisions": 16, "kind": "laurent_decay", "rate_exponent": "1/2100", "slab_indices": [400, 448]}
+{"actual_log_mark_limsup_upper": "154/10000", "cutoff": 14, "family": "primes", "floor": [11, 25], "kind": "four_picard_steps", "slabs": 112}
+{"actual_log_mark_limsup_upper": "146/10000", "cutoff": 14, "family": "primes_and_squares", "floor": [12, 25], "kind": "four_picard_steps", "slabs": 104}
+{"actual_log_mark_limsup_upper": "170/10000", "cutoff": 14, "family": "primes", "floor": [10, 25], "kind": "four_picard_steps_sharp", "slabs": 120}
+{"actual_log_mark_limsup_upper": "170/10000", "cutoff": 14, "family": "primes_and_squares", "floor": [11, 25], "kind": "four_picard_steps_sharp", "slabs": 112}

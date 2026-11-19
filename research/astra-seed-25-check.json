@@ -1,0 +1,161 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "order": 29,
+      "sign": -1,
+      "max_scalar_error": 1.0981747178284706e-09,
+      "forbidden_roots": [
+        0.14880428812704682,
+        0.25967782336565753,
+        0.39389438838373597
+      ],
+      "signed_negative_weight": 0.6071411614389984,
+      "signed_min_entry": 0.0,
+      "signed_forbidden_norm": 0.12967550719537757
+    },
+    {
+      "order": 29,
+      "sign": 1,
+      "max_scalar_error": 2.219391337376919e-12,
+      "forbidden_roots": [
+        0.11826772889443056,
+        0.22080248944372088,
+        0.3396319936803595
+      ],
+      "signed_negative_weight": 0.5342674844505808,
+      "signed_min_entry": 0.0,
+      "signed_forbidden_norm": 0.017217804181967312
+    },
+    {
+      "order": 61,
+      "sign": -1,
+      "max_scalar_error": 5.4712429031766874e-11,
+      "forbidden_roots": [
+        0.16300043352026905,
+        0.27678948083897437,
+        0.4043133080390178
+      ],
+      "signed_negative_weight": 0.6754734236428184,
+      "signed_min_entry": 0.0,
+      "signed_forbidden_norm": 0.13310998165310978
+    },
+    {
+      "order": 61,
+      "sign": 1,
+      "max_scalar_error": 1.8383662647725174e-09,
+      "forbidden_roots": [
+        0.12857150499629166,
+        0.2399209637739916,
+        0.3693252930295978
+      ],
+      "signed_negative_weight": 0.5340373085988783,
+      "signed_min_entry": -0.0065563082501727075,
+      "signed_forbidden_norm": 0.06804665406498425
+    },
+    {
+      "order": 97,
+      "sign": -1,
+      "max_scalar_error": 2.4799717834866897e-10,
+      "forbidden_roots": [
+        0.15036458025935792,
+        0.2670609660036512,
+        0.40051081685044954
+      ],
+      "signed_negative_weight": 0.6011067058552454,
+      "signed_min_entry": -0.0017735061878638735,
+      "signed_forbidden_norm": 0.09101902824793963
+    },
+    {
+      "order": 97,
+      "sign": 1,
+      "max_scalar_error": 1.0341814626890766e-09,
+      "forbidden_roots": [
+        0.1491401350203344,
+        0.2627804140672004,
+        0.38784962326899947
+      ],
+      "signed_negative_weight": 0.6247767364193512,
+      "signed_min_entry": -0.004590795240999052,
+      "signed_forbidden_norm": 0.08524632532877806
+    },
+    {
+      "order": 25,
+      "sign": -1,
+      "max_scalar_error": 6.201043012410423e-10,
+      "forbidden_roots": [
+        0.13017031605238438,
+        0.2632727877077291,
+        0.40283216826658075
+      ],
+      "signed_negative_weight": 0.47740567664788625,
+      "signed_min_entry": -0.010727084680705806,
+      "signed_forbidden_norm": 0.0038813045032694282
+    },
+    {
+      "order": 25,
+      "sign": 1,
+      "max_scalar_error": 5.7144844411993745e-12,
+      "forbidden_roots": [
+        0.13381233111670213,
+        0.21625215078992643,
+        0.3224599487239552
+      ],
+      "signed_negative_weight": 0.7093242565898025,
+      "signed_min_entry": 0.0,
+      "signed_forbidden_norm": 0.19069558304137313
+    },
+    {
+      "order": 49,
+      "sign": -1,
+      "max_scalar_error": 1.2460350529153175e-09,
+      "forbidden_roots": [
+        0.1358364230761959,
+        0.25579190600763474,
+        0.39494594589357
+      ],
+      "signed_negative_weight": 0.5242432682489107,
+      "signed_min_entry": 0.0,
+      "signed_forbidden_norm": 0.046182719136025153
+    },
+    {
+      "order": 49,
+      "sign": 1,
+      "max_scalar_error": 1.5030976463492607e-11,
+      "forbidden_roots": [
+        0.14884003269339827,
+        0.25140806259573556,
+        0.3694329826907085
+      ],
+      "signed_negative_weight": 0.6747270603852622,
+      "signed_min_entry": 0.0,
+      "signed_forbidden_norm": 0.14651584800750464
+    },
+    {
+      "order": 121,
+      "sign": -1,
+      "max_scalar_error": 1.298550933448439e-09,
+      "forbidden_roots": [
+        0.1425972527952605,
+        0.2628749203764303,
+        0.39983589382822265
+      ],
+      "signed_negative_weight": 0.5543383848657027,
+      "signed_min_entry": -0.010343782256430444,
+      "signed_forbidden_norm": 0.09831958165119069
+    },
+    {
+      "order": 121,
+      "sign": 1,
+      "max_scalar_error": 6.907009408863019e-10,
+      "forbidden_roots": [
+        0.16270688895256072,
+        0.27337203788534525,
+        0.39386542188589263
+      ],
+      "signed_negative_weight": 0.7038757639091211,
+      "signed_min_entry": -0.014983642559878526,
+      "signed_forbidden_norm": 0.15427486080058136
+    }
+  ]
+}

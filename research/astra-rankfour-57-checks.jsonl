@@ -1,0 +1,4 @@
+{"degrees": [0, 1, 2, 3, 4], "dimension_base": 32, "kind": "rank_four_Pieri_and_boundary", "quadratic_unit": 8, "quartic_scalars": [2, 196, 2], "twists": [1, "chi"]}
+{"division": 65536, "full_cap": "468/100", "imaginary_half_width": "1/65536", "kind": "arithmetic_rank_four_marked_rectangle", "older_collection": [4, 3, 7, 6], "packets": 50, "precision": 192, "rank_four_scalar_source_exponent": 3, "residual_cap": "6/10000000", "residual_output_upper": "400/1000000000", "slabs": [1040052, 1040130]}
+{"arities": 9, "floor": "2031/128", "height": 1130, "kind": "full_GL4_arithmetic_map_escape", "legendre_degree": 4, "mass_lower": 21, "maximum_W_degree": 4, "packets": 28, "precision": 192, "quadratic_zero_lower": "1/20", "shifts": 18}
+{"arities": 9, "floor": "1015/64", "height": 334, "kind": "full_GL4_arithmetic_map_escape", "legendre_degree": 4, "mass_lower": 21, "maximum_W_degree": 4, "packets": 28, "precision": 192, "quadratic_zero_lower": "1/20", "shifts": 18}

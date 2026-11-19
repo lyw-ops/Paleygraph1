@@ -1,0 +1,5 @@
+{"asymptotic_power": "1/500", "kind": "quantitative-majorant", "rank_at_degree": "2^(d-1)", "threshold_check_n": "2^90", "truncation": "floor(log2(n)/3)"}
+{"fixed_floor_threshold_interval": ["39.25", "39.26"], "h": "2/5", "kind": "analytic-majorant", "rho": "201/200"}
+{"coefficient": "7/5", "floors": [1, 3, 41], "kind": "signed-stencil", "measure_lower": "0.395", "sign_change": true, "upper": "0.319"}
+{"anchor": 41, "cold": "2/3", "degree": 135, "excess_lower": "0.05", "kind": "square-asymptotic-stencil"}
+{"coefficients_checked": 120, "degree": 9, "exact_forcing": true, "field": 25, "floor": 48, "kind": "rational-coordinate-recurrence"}

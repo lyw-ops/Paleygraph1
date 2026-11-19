@@ -1,0 +1,74 @@
+{
+  "round": 29,
+  "accepted_at_utc": "2026-11-17T18:37:21.772887+00:00",
+  "target_status": "open",
+  "checks": [
+    {
+      "file": "research/astra-source-window-29-check.jsonl",
+      "records": 73,
+      "byte_identical_independent_replay": true,
+      "sha256": "b15fe17204fd0dd4089474f1c68979e1e2ca78dfde69da09aa9baf7f51add07f",
+      "arithmetic": "rational coefficient audit plus floating trajectory diagnostics, not orbit interval certificates"
+    },
+    {
+      "file": "research/astra-source-window-29-larger.jsonl",
+      "records": 19,
+      "byte_identical_independent_replay": true,
+      "sha256": "03ea8d92978d6370c99ffdc0261b7df976841b6e8ade682f37eafe3b4e33d9ce",
+      "arithmetic": "rational coefficient audit plus floating trajectory diagnostics, not orbit interval certificates"
+    },
+    {
+      "file": "research/root-coupled-tail-29-certified.jsonl",
+      "records": 20,
+      "byte_identical_optimizer_free_replay": true,
+      "sha256": "11e218ed622c59e088c3a2c908685c50f33e5931436330397b1ca8b99910fd55",
+      "arithmetic": "160-bit Arb enclosures for rational trials"
+    },
+    {
+      "file": "research/parallel-root-audit-29-replay.jsonl",
+      "records": 3,
+      "scope": "independent source audit and twice-replayed p61 inputs"
+    },
+    {
+      "file": "research/root-coupled-tail-29-controls.jsonl",
+      "records": 7,
+      "scope": "one floating independent LP containment and six rigorous exact square-theta containments"
+    }
+  ],
+  "completed_prior_job": {
+    "terminal_session": 82328,
+    "exit_code": 0,
+    "old_certificates_now": 20,
+    "independent_replay": "passed"
+  },
+  "pending": [],
+  "limitations": [
+    "No prime-uniform terminal-source tail estimate",
+    "Root-dependent finite refinement has no established strict asymptotic advantage on actual Paley trajectories",
+    "Source-window criterion relies on inherited fixed-depth marker proof draft",
+    "Square control limits are fixed-depth field-first, not uniform growing-depth limits"
+  ],
+  "note_sha256": {
+    "README.md": "d705a6e05e445893391c1ca381775ef99db68bf33bf0e56acf0be4ff61f51d72",
+    "research/ledger.md": "e059e167519b67a65841cd325a65b4268497a5a1abd5e2fbc7a88abfc87fbcb1",
+    "research/root-coupled-tail-29.md": "69c0b8c84fdfc68138a7beb2c034b0eb8cd711febbf4c2ab75840ac0341167bc",
+    "research/source-tail-28.md": "ff07bc4927ae2d97f7eafe3d8d271086f5ec3d23794e97da7ead573bcf9f03f1",
+    "research/astra-source-window-29.md": "01b3e73e63613698b28ccd84c46c373352f4c5b81c355b4ab9608b1e8078b50d",
+    "research/parallel-root-audit-29.md": "e7d69d00e7f4278fdfab3b9399be9044df187711d7ebbfafa548f23efe3ca81e"
+  },
+  "note_hashes_are_snapshots": true,
+  "paired_source_algebra_audit": {
+    "file": "research/parallel-root-audit-29.md",
+    "line": 430,
+    "status": "independent algebra accepted; no energy bound",
+    "scope": "Schur and Woodbury identities only; separate source-pair result completed and accepted in round30"
+  },
+  "completed_source_pair": {
+    "thread_id": "01a1eabc-e935-7653-adbb-c1cb5255c8e7",
+    "status": "completed and accepted in round30",
+    "records": 69,
+    "replay": "byte-identical",
+    "independent_proof_audit": "research/parallel-audit-30.md",
+    "prime_bound": "not proved"
+  }
+}

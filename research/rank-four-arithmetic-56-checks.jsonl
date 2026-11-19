@@ -1,0 +1,3 @@
+{"base": 5, "characters_per_object": 2, "feedback_positions": 2, "kind": "rank_four_mellin_determinants", "largest_field": 625, "norm_generator_logs": [1, 1, 1, 1]}
+{"base": 9, "characters_per_object": 6, "feedback_positions": 4, "kind": "rank_four_mellin_determinants", "largest_field": 6561, "norm_generator_logs": [1, 1, 1, 1]}
+{"base": 13, "characters_per_object": 10, "feedback_positions": 6, "kind": "rank_four_mellin_determinants", "largest_field": 28561, "norm_generator_logs": [1, 1, 1, 1]}

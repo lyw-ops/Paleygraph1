@@ -1,0 +1,2 @@
+{"derivative_upper": "1987/2000", "kind": "exact_separated_seed_majorant", "minimum_floor": 28, "remainder_radius": "33/20", "seed_upper": "5657/2000", "summed_terms": 12, "value_upper": "16493/10000"}
+{"anchor": 32, "cold": "1/2", "degree": 128, "eventual_excess_lower": "3/50", "kind": "exact_reduced_square_stencil_constants"}

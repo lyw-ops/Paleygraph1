@@ -1,0 +1,5 @@
+# Preserve the exact bytes used by recorded research and certificate hashes.
+* -text
+
+# Some archived CSV outputs use CRLF line endings.
+*.csv whitespace=cr-at-eol

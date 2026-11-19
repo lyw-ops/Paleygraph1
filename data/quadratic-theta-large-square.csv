@@ -1,0 +1,2 @@
+field_order,characteristic,width,width_times_root_order,trial_marker,marker_lower,marker_upper,normalized_mass,weighted_plus_energy,weighted_minus_energy,log_width_derivative,plus_bulk_support,minus_bulk_support,fixed_point_residual,metric_identity_error
+994009,997,0.004012036108324975,4.0,0.021217442070208307,0.02121744274880554,0.021217442748806263,0.9683044530725996,0.05170745853256363,0.010679026248510809,-0.02051421614202641,247784,249219,1.4317474464685116e-09,1.20350618259239e-15

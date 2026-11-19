@@ -1,0 +1,26 @@
+{
+  "round": 33,
+  "dispatched_at_utc": "2026-11-17T23:34:41.958176+00:00",
+  "previous_round_acceptance": "research/nested-joint-32-acceptance.json",
+  "target_status": "open",
+  "research_chats": [
+    {
+      "thread_id": "01a1ebdc-44a2-7863-b6a9-0b1c07111390",
+      "host_id": "local",
+      "role": "Astra: actual prime hard-tail response inequality",
+      "prefix": "research/astra-hardtail-33",
+      "last_cursor": "188cb341-523c-4f9c-9d5f-43c7775cfd30:1",
+      "status_at_last_observation": "inProgress"
+    },
+    {
+      "thread_id": "01a1ebdc-a101-75c1-bd7f-19af202131dc",
+      "host_id": "local",
+      "role": "Actual prime stationary source UI",
+      "prefix": "research/parallel-prime-ui-33",
+      "status_at_last_observation": "inProgress",
+      "last_cursor": "bc3b4223-5b3b-463d-8a0e-f24b8eac8ea3:1"
+    }
+  ],
+  "scope": "Separate complementary missing estimates; neither may assume the other without retaining that hypothesis. Current goal remains active.",
+  "main_next_action": "Read current progress by exact thread handles; audit outputs and compare actual prime/square scope. Do not restart on observation timeout."
+}

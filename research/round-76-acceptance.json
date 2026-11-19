@@ -1,0 +1,91 @@
+{
+  "round": 76,
+  "accepted_at_utc": "2026-11-19T03:32:31Z",
+  "previous": "research/round-75-acceptance.json",
+  "previous_sha256": "a392849cf2603c8b153c4db5bf74bbfe542f1607b0cb11c7078ddef84e8cb277",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/masked_76",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Minimize trimmed mass over the cutoff on true primary faces; allow bounded coset removal only at the actual measured hinge.",
+        "If the cost stays large, estimate the signed Schur-complement interaction on measured supports after deleting the root and the largest coordinates."
+      ]
+    },
+    {
+      "name": "/root/predictor_76",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the counting fourth norm of the exact signed correction at V600 on the width-2^-17 square, or certify the centered norm of its exact squared remainder.",
+        "For the R75 V30 row on the larger disk, certify the counting second norm of the signed linear defect below 1/32 and retain the marked activation."
+      ]
+    },
+    {
+      "name": "/root/audit_76",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Optimize the actual-mask split via its single scalar threshold or joint true-face convex upper certificate, retaining exact diagonal overlap.",
+        "Separate period hits from the outside tail and remove singleton root terms using the signed forbidden-space compression."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Optimize the true signed upper certificate on one actual late negative mask and test trimmed tail mass jointly over cutoff and optimizer, including singleton and bounded-coset exclusions.",
+    "For complex continuation certify counting fourth norm of the actual Newton correction or its centered exact quadratic remainder, aiming at a bound uniform for unbounded eligible primes."
+  ],
+  "proof_and_code_sha256": {
+    "research/mask-visible-budget-76.md": "5e7ebe68af6134cd91b2f98972f3c9e9c6f1bf8a2ce273d6d2e3b7ea41a3c175",
+    "research/astra-masked-76.md": "1802d66d4c11dd9ab6a220da4fdaeacd58abb3cb802661d7b1cdc6588dfe5a90",
+    "research/astra-masked-76-check.py": "6cc830a425fc8210caefb86f161b7834ba519a26a2b287ab09f0b42012bab73e",
+    "research/astra-masked-76-checks.jsonl": "a0748b925e68de576f3e8ea0d401cc7a87ff3d6169347bebd46876f8f44f27aa",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-predictor-76-checks.jsonl": "6c38965a6494576c6f881703cd41324bb74a7c11959b2fcb717c822541ecbfa9"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 6,
+  "arithmetic_record_counts": {
+    "finite_endpoint_interval_records": 4,
+    "uniform_scalar_interval_records": 1,
+    "exact_rational_scalar_record": 1
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Four 768-bit interval endpoint files replayed byte-for-byte with pipefail enabled. Independent review also certified root projection and strict density classification at the observed exterior sites.",
+    "The 192-bit 600-step physical packet comparison and the exact rational constants for the fourth-norm Newton test replayed byte-for-byte with pipefail enabled.",
+    "Independent mathematical audit checked the visibility split, Parseval budget with new forbidden Fourier coefficients, Schur compression, signed mask pricing, and physical stationary identification in the stated finite n range."
+  ],
+  "proof_scope": [
+    "A fixed supercritical mark implies B+sqrt(p) M_out^2 >= c_(delta,epsilon) D(p) after deleting any at most (1-epsilon)^2 n/(1+sqrt(p)) sites, uniformly through primes. The signed Schur complement deletes their interactions with the actual window. A positive forbidden annihilator for any bounded union of cosets charges those cosets only by actual masked collision. This is a necessary restriction on true optimizers, including singleton peaks, without a uniform upper on their remaining tail.",
+    "A split y+z of a clipped feasible row uses the actual hit fraction w_i of each site over selected negative masks and translations. The removed part pays n sum w_i z_i^2; the retained part has opposite budget at most min(M_y,M_y^2+C 2^L L^2 L_y/mu_Omega) minus exact diagonal. The Fourier estimate applies after mask-dependent clipping. The split can be optimized in a convex upper certificate together with the actual primary optimizer. For a singleton the bound retains the original masked diagonal. The illustrative small visible mass regime is conditional.",
+    "At p=101,257,409,769 the exact feasible endpoint pair has complementary support, and strict singleton caps are interval certified. Four finite chosen windows verify the signed Schur savings independently of any growing-prime hypothesis. At p=769 the signed term is near 0.25485 against 0.69004 with positive entries discarded.",
+    "On the width-2^-17 complex square at 2031/128, 600 exact physical Picard steps from the nine-center predictor have all-site cap 4.768, including the real marked activation. This gives physical holomorphic stationarity for 10^30<=n<=10^307 and |m_q|<=3/sqrt(n), also for eligible prime squares in this range. For unbounded sizes the uniform real limsup tolerance is strictly below 4e-170, not convergence of the mark.",
+    "The wider-disk signed Newton criterion takes a counting fourth norm at most one and counting second-norm linear defect at most 1/32. The centered exact squared remainder gives another sufficient test. The difference in scale from an uncorrected residual test is attained on the known warm physical branches and leaves the genuine unbounded-size cold correction open."
+  ],
+  "independent_review": [
+    "Verified the exact opposite mixture weights and all visibility lower-bound premises, including the zero-weight diagonal and the convex scalar minimizer with degenerate coefficients.",
+    "Checked the uniform Jacobi-coherence absorption, Schur interaction, and fixed-order annihilator even when subset products coincide. Replayed the four finite rows independently.",
+    "Replayed the full signed packet tail, checked the complete first-packet correction, and audited the fourth-norm Newton and separate real square-root weight transfer. Formulas were repaired after formatting defects in earlier drafts and checked again."
+  ],
+  "next": [
+    "At genuine selected windows through primes bound either the signed masked off-diagonal interaction after deleting the top coordinates or the convex visibility/trimmed tail cost.",
+    "On the actual 600-step physical row, solve the signed marked Newton equation with counting L4 control or control the centered exact remainder uniformly in prime size.",
+    "The ordinary all-prime theta limit and common physical cold-end continuation remain open."
+  ],
+  "window_closeout_workflow": "Ordinary mathematical proof, four finite endpoint interval records, one scalar uniform interval record with finite stationary size scope, one exact rational scalar record, and ranked independent recommendations.",
+  "committed": false,
+  "pushed": false
+}

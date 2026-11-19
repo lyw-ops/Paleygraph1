@@ -1,0 +1,84 @@
+{
+  "round": 49,
+  "accepted_at_utc": "2026-11-18T12:13:25.092109+00:00",
+  "previous": "research/round-48-acceptance.json",
+  "previous_sha256": "ac2bc51ef967c588b8228774a5a708f39453186971260e3f3bde8e42b2e6e05b",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/drift_49",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-drift-49",
+      "ranked_closeout": [
+        "At polynomial collision, minimize the squared endpoint-density imbalance over arithmetic-budget antipodal couplings of the full true orbit. An unbounded prime sequence with the optimum divided by D bounded below refutes the chosen sufficient criterion.",
+        "At greater collision, retain the signed weighted matching error and the energy difference in a late window. Positive order-D weighted error for every admissible coupling on a prime subsequence refutes that particular transfer after the imbalance is small."
+      ]
+    },
+    {
+      "name": "/root/odd_49",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-odd-49",
+      "ranked_closeout": [
+        "When 5 does not divide b, use the pointwise diagonal identity to bound the quadratic character sum of the fractional linear ratio on B strictly below b. An actual unbounded sequence with that entire ratio square defeats this isolated character test.",
+        "Estimate additive Paley image energy outside the ten fibers on the candidate high-Rayleigh eigenvectors. Exterior energy greater than p minus the squared interior eigenvalue rules out that eigenvalue by the exact full operator identity."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/paired-trial-49.md": "6bbfa60f1f36436de22fe89a5081cb7eb331dc911adfde0be146f26313f0f245",
+    "research/paired-trial-49-check.py": "46a4d0011eab700806f22cee9793c0124d744693f4d4ecc76193957a2b37ad5a",
+    "research/astra-drift-49.md": "49b3313d70ebe242208db403c197f679ea7e64990f2dbceb0040bcea85f4fc9f",
+    "research/astra-drift-49-check.py": "68910d742fa4e2b6c4d54891518db10e1a6318b4d9f64de005e851506515778d",
+    "research/astra-odd-49.md": "ed90a3b4fa1ff6ad04853b120f92f09cddbdb9e0de7361b8c1e952822f1b9ce4",
+    "research/astra-odd-49-check.py": "3e307418f8bf577d9c1e94b82d6a4f5fad0539bdbb19a707f16ca0abda4ff40e"
+  },
+  "core_records": 14,
+  "replay_checks": [
+    {
+      "file": "research/paired-trial-49-checks.jsonl",
+      "records": 5,
+      "sha256": "9e466446a1e585e48b1aae7fc82e30fcf3dbad2fe172addcd5dbac1319cf01c0",
+      "scope": "Arb160 exact Fourier row enclosures, positive paired secant checks at 97 and 173 and one fixed-reference harmonic dual deficit at 173. Replayed from dyadic inputs without optimization.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-drift-49-checks.jsonl",
+      "records": 8,
+      "sha256": "968c9513e5b6b716b3a56788fd41a80152f7eccd2dabe82ccee054209a6c6e64",
+      "scope": "Arb224 actual six-step orbits, exact identified endpoint support, proposed-transport cost and rigorous bounds on all uniform-marginal couplings at two primes and two squares.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-odd-49-checks.jsonl",
+      "records": 1,
+      "sha256": "ba1fd3fd235fefeff3747818c295ff202cfe88348014c824b70476cc555bbf4b",
+      "scope": "Exact integer recheck of quartic restrictions on all 270 odd order-five patterns through 200000 and exact reflection identities on 249, with two arithmetic exclusions.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "For one same-side and one opposite-side feasible trial, retaining the exact bulk complementary denominator gives a quadratic interval for the cold mark with a separate bulk dispersion term. The interval collapses on the true stationary pair. With the opposite trial fixed, a linear branch condition and a concave score give a constructive lower bound, with a harmonic dual upper certificate for the same score.",
+    "Rounded references from warmer floors provide paired certificates for absolute cold marks below .017 at primes 97 and 173 without solving at the cold floor. The round-48 one-row sufficient condition failed at 173 minus with a deficit greater than .028. The chosen floor-28 reference alone fails at that finite case by an exact harmonic dual deficit greater than .003. A floor-1 reference succeeds.",
+    "One simultaneous symmetric arithmetic coupling matches the whole true zero-floor history to its negative with arbitrary inverse powers of the marked window length in empirical RMS, through primes and squares. An exact split of the signed endpoint secant separates density imbalance from weighted matching error, and a fixed supercritical mark forces density-imbalance square at least (8 delta-o(1)) D if the weighted error is negligible.",
+    "At prime 173 the exhibited six-step history coupling has cost below 1.150, all support-preserving uniform-marginal couplings cost above 3.404, and every plan as cheap as the exhibited one crosses the exact endpoint support with probability greater than .2838. Both actual prime and square endpoints are included in the finite comparison.",
+    "The odd order-five candidate has exact quartic residue restrictions for every divisor of b and for the parity of the diagonal mismatch count. Two candidate ratios inside the unresolved interval are excluded before inspecting signs. When 5 does not divide b the two diagonal sign functions agree pointwise and are inverse symmetric.",
+    "Abstract reflection-symmetric ten-fiber kernels obeying the pointwise sign relations can attain the scalar c5 b norm up to o(b) even after retaining every internal point and Fourier mode. Thus no gain follows solely by adding internal Fourier modes to that relaxation. There is no asserted finite-field realization."
+  ],
+  "independent_review": [
+    "Checked stationary normalization, complementary bulk overlap, both roots and the lower-branch condition including g=0, and exact rounded trial and harmonic dual replay.",
+    "Checked resource use in the Wasserstein construction, signed split including both margins, time identity coefficients, and all-support lower bound for couplings.",
+    "Checked quartic signs by inverse pairs and odd fourth powers, the fifth-root product identity, and the norm of the abstract reflection model.",
+    "Independently replayed 14 data rows in three files and checked the previous acceptance hashes."
+  ],
+  "next": [
+    "Try to prove a genuinely prime-uniform bound on the endpoint density mismatch or weighted signed error under the common true-history coupling. Retain the exact late energy correction. Unweighted convergence alone and exact support-preserving matches cannot supply this estimate.",
+    "For stationary continuation, choose and propagate opposite trial rows using the paired overlap, and require simultaneous certified marks in both signs. Use fixed-reference duals to rule out unsuitable warm choices and seek a prime arithmetic construction away from individually solving the target cold rows.",
+    "For the unresolved order-five pattern, charge the exterior Paley energy or the fractional-linear shifted-subgroup character. Internal compression alone is saturated in the abstract model."
+  ],
+  "window_closeout_workflow": "Both completed routes gave two ranked tests and explicit refutations. Main integrated the new history-matching deficit ahead of total collision, retained the fixed warm reference failure, and focused the analytic direction on paired overlap instead of the one-row sufficiency gap.",
+  "committed": false,
+  "pushed": false
+}

@@ -1,0 +1,104 @@
+{
+  "round": 57,
+  "accepted_at_utc": "2026-11-18T14:33:27.728415+00:00",
+  "previous": "research/round-56-acceptance.json",
+  "previous_sha256": "8b7abf54117060f5be236bb238cd881332bcb22a4d8574aab4caebd3a85c3530",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/rankfour_57",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Keep signed K[C1 Kf] across two activations for leading arity-zero sources. Require a common overlapping rectangle below 2031/128 or full escape of the explicitly grouped two-node map.",
+        "Try real offsets on the three distinguished coefficients. Strict overlapping slack crosses the same floor. A uniform lower escape excludes the stated offset box."
+      ],
+      "prefix": "research/astra-rankfour-57"
+    },
+    {
+      "name": "/root/face_57",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use one common true full-face pair across thresholds. Charged late minimum per step at most o(1) through every prime suffices. A positive lower bound at all late times on an unbounded prime sequence rejects the criterion.",
+        "Test disjoint positive block completion on actual residual support via Gram slack or sparse Fourier dual. A growing-window integral lower margin on unbounded primes rejects that upper relaxation."
+      ],
+      "prefix": "research/astra-face-57"
+    },
+    {
+      "name": "/root/review_57",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test the same positive trial at 31/5. A transferred rigorous distance upper bound below .017 on an overlap confirms the gain. A true distance lower bound with transfer value at least .017 rejects that transfer at the floor. Main completed the upper test with the averaged chord refinement."
+      ],
+      "role": "independent arithmetic and split-root audit"
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-rankfour-57.md": "cc023b623511b254e20691b12067692783b0a95d26453c515ba8ca0e5c2e2c78",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-face-57.md": "fe8b096209a64c1dfc922a260c8d6f09931060a7ba753228c61fe8c14ab67d5b",
+    "research/astra-face-57-check.py": "bc0841e2e8e5b4e5e0738326dc12e74986b9f89a24aa3cccb24fd7e49dd05a06",
+    "research/weighted-arithmetic-57.md": "691134f5146f17877bda595b19ed937ab9859d388e2c5e2e34921eb30da35e30",
+    "research/weighted-arithmetic-57-check.py": "570499922f90517495afb11954a1ad09c8eee026406038737ef7debdf1b90bde",
+    "research/weighted-positive-57.md": "885d6e3d8794dd2fb64492d60a642bd55e0c0d5aa6d2bc5b20349eb00678e028",
+    "research/weighted-positive-57-check.py": "f70a5b2c2d8695624b607fd5c956a09cc28b09030d814b0a8e689a0d4ec1a921",
+    "research/astra-rankfour-57-probe.py": "5c13db237df4d9b9eeeab86a53f990823e9a32cf55b71e5f7a635ecda121e01a"
+  },
+  "core_records": 12,
+  "replay_checks": [
+    {
+      "file": "research/astra-rankfour-57-checks.jsonl",
+      "records": 4,
+      "sha256": "9d1da1c28e91a8704ff0e9a515d99a625daa4966c030548398e4c226dcbbc666",
+      "scope": "Exact GL4 Pieri and boundary controls; Arb192 complex rectangle; two full-arithmetic positive-map escapes.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-face-57-checks.jsonl",
+      "records": 3,
+      "sha256": "29bc031b31720f4edd6d92b9e06e7d80d13dd5bbe971b5cd885f8708ac5bebec",
+      "scope": "Finite p=97 certificates for 17 threshold-switching bounds, all 220 three-frequency completions and exact six-frequency pin with all 792 five-blocks.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/weighted-arithmetic-57-checks.jsonl",
+      "records": 3,
+      "sha256": "c70f0584073e66518f66b114b412865b47320698449c111005ed71fb90d5ae38",
+      "scope": "Exact weight and representation controls, Newton phase checks over q=5 and q=9, and exact lift identity on every square in those bases.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/weighted-positive-57-checks.jsonl",
+      "records": 2,
+      "sha256": "7cc782fd3984f2e7993c59349ce78f9c434115580bfab8f87ddf85da5f149198",
+      "scope": "Arb192 checks over 512+112 closed slabs of split fourth-increment transfer, with the 31/5 floor and strict products.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "The actual common marked section extends to 1040052/65536<Re t<1040130/65536, |Im t|<1/65536, |m_q|<=3/sqrt(n) through sufficiently large eligible primes and prime squares. The new rectangle crosses the round-56 rank-three escape and overlaps the preceding domain.",
+    "The fully arithmetic rank-four root collection with unsigned propagation between nodes escapes for the specified coefficients at 2031/128 at height 1130 and 1015/64 at height 334. The actual branch behavior at these floors remains unknown.",
+    "The next feedback has eight independent SL5, SL6, SL7 derived factors and exact arithmetic determinant exponents (0,1,-1,-3) for the four untwisted constituents. The exact K(C1 F4) alias supplies the next distinguished packet. The conditional moments through degree four are 0,1/2,0,3/4.",
+    "The split fourth-increment transfer with the same degree-16 trial gives prime mark strict limsup below .01699 on [31/5,25/4] and .0149 on [25/4,207/32], with strict product lower bounds .065 and .33 respectively.",
+    "Without exposed support, a common seed-tail mass approaching one admits separately positive disjoint completions for every o(sqrt p) forbidden block, fixing the actual optimal root and cap. The prime Gram gap and field-first tilt are uniform. Actual late exposed support remains outside this proof.",
+    "At p=97 separate exact completions at each actual threshold exceed the greatest common-pair objective at every tested integer 16 through 32. At time 32 a specific six-frequency block pins the true minus tail throughout [3.8,4.1], and all 792 five-blocks admit a shared positive excess. These are finite statements."
+  ],
+  "independent_review": [
+    "Checked GL4 determinant slopes, Pieri weights, signed upper split, disjoint retained lower sectors, complete tail debits and actual real branch identification.",
+    "Checked the prime Gram argument, exact root and cap, fixed-tail separate complements, switching certificate and six-frequency pin after all five-block checks.",
+    "Fresh Astra checked the rank-six classification and determinant phases, verified the positional lift in 10 fields (168 positions) and audited the initial split transfer. Main applied the recommended 31/5 test using the conditional chord and independently replayed the final 624 slabs.",
+    "All 12 final core records replayed byte for byte. Scope distinguishes ordinary proofs, Arb certificates, finite exact arithmetic, and the floating cap search."
+  ],
+  "next": [
+    "Use the exact next distinguished packet and a separate two-activation signed collection to seek an actual overlap below 2031/128 or a decisive escape of the new prescribed grouping.",
+    "Improve pointwise bulk positivity and the square-root weight distance with signed fields inside the same finite polynomial loop. The 31/5 test is already certified.",
+    "Prioritize the actual full-face pair across thresholds and retain the terminal energy in the growing prime window. Preserve the support-unrestricted obstruction, finite switching gap and unresolved matched-depth positivity completion.",
+    "Continuation to 1/2 and the all-prime ordinary Lovasz theta limit remain open."
+  ],
+  "window_closeout_workflow": "Two ranked follow-ups from each research route and one from the independent reviewer were checked and consolidated. Main carried out the suggested 31/5 test and recorded the final verified bound.",
+  "committed": false,
+  "pushed": false
+}

@@ -1,0 +1,74 @@
+{
+  "round": 38,
+  "accepted_at_utc": "2026-11-18T05:38:33.342702+00:00",
+  "previous": "research/round-37-acceptance.json",
+  "previous_sha256": "b2fe514e213c9c7b0ba8e8871ab4b2829fa77ae7dbc30aa3568bf0a5af5c4d88",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/prime_repair_38",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-prime-repair-38"
+    },
+    {
+      "name": "/root/surface_38",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-surface-38"
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-prime-repair-38-thresholds.py": "138eb48682deb0a825434caf7c80e01b647846013338186c92136b1368049d2e",
+    "research/astra-prime-repair-38.md": "ad7b82d735f145430b430fd2c16c34e5d5731a21f6ea1fe4190898cbbdab960b",
+    "research/astra-prime-repair-38.py": "02cf2bb98f5984fea0d5d28fdb243806954e75ed3205f84743a02a1f19131612",
+    "research/astra-surface-38-check.py": "dd8f57370ee8c2b2dd62233086d6952dcab2024a3972bb9dbf73cc4c09463e16",
+    "research/astra-surface-38.md": "fcbef5ddd7eea451ad644d5bcdae9ac24f03e573fc2ced5f47fd67e0aa7d350a",
+    "research/vanishing-floor-38.md": "a3d43dd4a461747d9e1e6d227028e2a172626dce16c6f8fa3b48167909c3a7ce"
+  },
+  "core_records": 7,
+  "replay_checks": [
+    {
+      "file": "research/astra-prime-repair-38-certified.jsonl",
+      "records": 4,
+      "sha256": "71a1a2dfa8c3ecf6b211ccbac011e971da8466a43f28182f62b3f14dbbb15476",
+      "scope": "Arb128 limiting signed integral and three closed floor intervals",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-prime-repair-38-thresholds.jsonl",
+      "records": 1,
+      "sha256": "80d3e8937b86802a8617afc325642b3ec984c0db9000b52821cf7f06d62303ac",
+      "scope": "Arb128 uniform nonnegative clip-threshold integral",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-surface-38-checks.jsonl",
+      "records": 2,
+      "sha256": "095c4fa57b45812f76a5c5b40a71d7984fa1e9931eaeec1ca83003f7790a0ec9",
+      "scope": "Exact rational stationary jet and contraction tests",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "For the true Picard proposal at T=1 and tau=1/5, a nonnegative degree-twelve test bounds the limiting signed repaired row below -0.01066, uniformly over all nonnegative thresholds and for each sign. A positive bulk fraction stays negative at all sufficiently large primes, despite marks which pass the product bound. This excludes the single pinned reflection in that regime only.",
+    "For T=2 and every fixed 0<tau<=1/10 the limiting scaled mean is below .998. The prescribed marks violate the complementary sector product inequality, excluding every joint completion at the same mean. Nonnegative decreasing weights do not resolve this fixed-depth obstruction.",
+    "The terminal activation removes the 1/T surplus in the fixed-depth limiting squared mean budget; the nonnegative bulk-variance reserve can also be retained. The square obstruction applies to each fixed depth and fixed 0<tau<1.",
+    "Main's Bernstein-polynomial replacement extends the inherited log-star marked window uniformly across 0<=tau<=1. By the Jacobi first moment and independent path truncations of the second iterate, along primes successful vanishing-floor schedules with T>=2 in this window must have liminf T*tau at least 0.012153606093... The corresponding length-one constant is 0.009936836824... Both apply to decreasing time weights. Allowing an additional O(1/T) scaled mean can remove this budget obstruction.",
+    "The round-37 all-shifts mean estimate gives a squared mean budget W+O(alpha_1 log(n)/sqrt(n)) even at unrestricted time, without claiming long-depth vanishing of the actual marks.",
+    "Actual marked-surface distance is bounded in terms of nearby branch count and the nearest branch value's distance from the physical interval via annular densities. Through squares, bounded count would force super-polylogarithmically small separation. The two-sheet example is non-Paley and tests the limits of the metric estimate.",
+    "A truncated Taylor polynomial of the actual directional Hessian response gives a local continuation radius and a cold-hot distance bound. Exact prime-13 jets reproduce the independent cubic through order 12. The required estimates for the growing prime family are unproved."
+  ],
+  "independent_review": [
+    "Checked weighted endpoint signs, true terminal reserve, spatial/time normalizations, full versus restricted Mellin lifts, finite cutoff order, nonnegative test orthogonality and the exact pinned subtraction.",
+    "Checked all-reserve comparison after removing the constant bulk deficit, the affine plateau, midpoint error estimates, the Laplace-Chebyshev monotonicity, and the exact field-first quantifiers.",
+    "Checked the nearest-center partition, annular metric constants, covering lift endpoints, and directional polynomial residual on the weighted ball. Public Jig #7 already treats real-fiber regularity and phase-exception null concentration."
+  ],
+  "next": [
+    "Seek prime-uniform multi-step signed completion within a marked window, with an o(1) scaled mean allowance where useful. The all-threshold counterexample concerns one step at T=1, while the growing-window mean obstruction constrains how tau may decrease.",
+    "Seek prime-uniform marked-surface distance via actual relative Hessian jets or branch geometry, allowing genuine monodromy."
+  ],
+  "committed": false,
+  "pushed": false
+}

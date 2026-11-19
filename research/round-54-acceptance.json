@@ -1,0 +1,85 @@
+{
+  "round": 54,
+  "accepted_at_utc": "2026-11-18T13:34:28.598164+00:00",
+  "previous": "research/round-53-acceptance.json",
+  "previous_sha256": "0b46a407161a189f98af885c2391c372580bd95a86f9cac00e37b421af875f90",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/signed_54",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-signed-54",
+      "ranked_closeout": [
+        "Extract the rank-three feedback with its arithmetic determinant, boundary weights, and exact unit contractions, then group its signed terms. A monotone lower iteration above a proven quadratic escape threshold refutes the proposed positive remainder invariant.",
+        "Optimize the holomorphic distinguished coefficient near 127/8, including the subtracted Jacobi mode. Certified lower escape uniformly over a parameter interval excludes that interval. Current escape applies to the natural coefficient and one short real interval."
+      ]
+    },
+    {
+      "name": "/root/face_54",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-face-54",
+      "ranked_closeout": [
+        "Find one late time through actual primes with a full-face primal pair giving the energy-corrected o(t) upper bound. Uniformly positive lower bounds at all eligible late times along unbounded primes refute the selected window.",
+        "Cover oriented tails on both actual face supports by cosets with the proved uniform capacities plus a controlled remainder. A positive lower bound on the best integrated cover cost above E_t/4 plus epsilon t rejects this cover relaxation for that window."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa",
+    "research/astra-face-54.md": "c19832b0d663c99fa08c45e80919865bc5e9ff57efb7930d85a837bb826defd8",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/nested-positive-54.md": "7b31e8fa7d8127a74e1089a1df7927fd0737f862245b7fd8d0f54a1f90769b3f",
+    "research/nested-positive-54-check.py": "94f35664f99e0d6bc0b2967426a1aa85832e07b6fec13eddfda9331ff5f6694b"
+  },
+  "core_records": 12,
+  "replay_checks": [
+    {
+      "file": "research/astra-signed-54-checks.jsonl",
+      "records": 4,
+      "sha256": "1772dee062c7b42e6291b5f26357731439702fe5c0e5a507039f2ae23e3e4856",
+      "scope": "Four Arb/Acb192 scalar records in the arithmetic Legendre expansion. They enclose the two complex rectangles and certify lower escape for the natural coefficient and on a short real coefficient interval at 127/8.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-face-54-checks.jsonl",
+      "records": 6,
+      "sha256": "03b10e00513d9c2d99dffeba265245a3cb525df0defaeaa8d0c554012051da70",
+      "scope": "Six Arb and exact rational controls on the full degenerate p=97 optimal face. Exact cyclotomic elimination, rational polygon subdivision, and positive endpoints give both lower and upper bounds on the scalar quantile minimum.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/nested-positive-54-checks.jsonl",
+      "records": 2,
+      "sha256": "564626f2ce0b769a21aa3a041ab7f3c297d5091bdcc4691757e6c209b3ba6fc7",
+      "scope": "Two Arb192 uniform rational-slab checks for the rank-three midpoint estimate and entrywise positivity of the centered degree-16 four-step trial through primes.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Collecting the two arithmetic Legendre symmetric-power characters before taking absolute values captures exact signed contractions. A fixed zero-weight cap with exponential residual norm yields an exact Picard invariant and a connected addition to the common marked domain on 513/32<Re t<1057/64, |Im t|<1/1024, all sufficiently large eligible primes and prime squares, with |m_q(t)|<=3/sqrt(n).",
+    "At 127/8 the positive remainder map after this signed Legendre collection escapes at the same distinguished coefficient as the upper invariant. A short interval |alpha-487/2000|<=10^-6 is also excluded. These are barriers for those majorants only.",
+    "Main derives the third Euclidean increment from the actual joint Jacobi, Legendre, and rank-three nested law. The exact tilted midpoint variance retains the determinant correlation, and the positive degree-16 trial yields prime-uniform limsup below .01699 on [223/32,15/2] and .0202 on [27/4,223/32]. Thus the prime .017 band extends to [223/32,25].",
+    "On true endpoints of either sign every coset of the annihilator of an odd subgroup of order b>=(1/2+eta)sqrt(p) has a uniform capacity strictly below one half. The exact cap-saturated sites of the least-norm larger endpoint form its period subgroup and carry at most half the mass through all sufficiently large eligible primes.",
+    "An upper relaxation with full mass, support, point caps and o(sqrt(n)) cold moments can attain its maximum with 1-o(1) mass at the point cap. The exact translated first-increment inequalities throughout an allowed support recover the missing Fourier constraints. This does not by itself bound the late quantile value.",
+    "At p=97 and time 32 the rigorously minimized full-face quantile cost lies in [2.561786507,2.561786508], while the least-norm pair gives [2.565670275,2.565670276]. This is a finite strict separation.",
+    "The ordinary all-prime theta limit and the continuation to t=1/2 remain open."
+  ],
+  "independent_review": [
+    "Checked the arithmetic symmetric-power normalizations, boundary-weight pooling, same-character cancellation, strict fixed-zero and finite packet remainders, exact exceptional closure, and monotone escape at the two coefficient choices.",
+    "Checked the conditional real trace moments and independent tilted-variance polynomial expansion in exact polynomial arithmetic, the error in the leading second increment, and positive product transfer to the actual mark.",
+    "Checked coset packing, odd phase spacing, the cap period characterization, support-translated residual identity, and both bounds for the finite full-face minimum.",
+    "Replayed all 12 records byte for byte and verified round-53 hashes, Python syntax, and proof links."
+  ],
+  "next": [
+    "Use the now explicit rank-three joint law to group a distinguished nested feedback in the signed complex invariant. Separately retain the exact fourth Euclidean increment for positive trials below 223/32.",
+    "Pursue the exact full-face one-time certificate retaining all translated seed constraints, or a proved tail cover on the real face supports. The least-norm pair and a small number of rooted moments can lose distinct quantities.",
+    "Keep the natural-coefficient escape at 127/8 as a genuine method obstruction. The actual common prime domain down to 1/2 and the original all-prime limit remain unresolved."
+  ],
+  "window_closeout_workflow": "Two Astra routes each supplied two ranked tests and explicit failure conditions. Main independently checked both, and derived and replayed the rank-three midpoint estimate before recording the next priorities.",
+  "committed": false,
+  "pushed": false
+}

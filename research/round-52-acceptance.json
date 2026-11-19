@@ -1,0 +1,85 @@
+{
+  "round": 52,
+  "accepted_at_utc": "2026-11-18T13:01:32.291362+00:00",
+  "previous": "research/round-51-acceptance.json",
+  "previous_sha256": "9aee0efde0b60cb6aa5f07d0eea6455caa4ee5f0aab206c18490f1ce1dce1891",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/feedback_52",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-feedback-52",
+      "ranked_closeout": [
+        "Retain the full pooled Mellin weight histogram with controlled tail below 145/8. A strict invariant extends genuine real decay. Monotone iteration violating a proposed coordinatewise bound rejects that invariant.",
+        "At lower floors propagate the finite prefix histogram and use positivity and marked error together. A failed rank certificate rejects that bound, and a certified negative trial coordinate along unbounded primes rejects the underlying predictor."
+      ]
+    },
+    {
+      "name": "/root/transport_52",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-transport-52",
+      "ranked_closeout": [
+        "On true prime optima bound the late minimum of (upward transport plus twice the signed smaller residual tail minus E_t/4)/t by o(1). A positive lower bound on some unbounded prime subsequence refutes the chosen window.",
+        "For a fixed mark excess delta seek strict margin below 4 delta for the late minimum of smaller positive directional collision plus twice upward transport, divided by time. Reaching or exceeding 4 delta on a subsequence rules out the proposed strict bound."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-transport-52.md": "eb8ae6f0d7436af041e3904031ed9f1fc41160106ecf9bba505d403509954bae",
+    "research/astra-transport-52-check.py": "870c92d939d1fd72b508a0ebd5bbf5117ca514973d5c92e5bf651464c196c5a7",
+    "research/prime-increments-52.md": "d4e9792af5a1815aecaa7d67db4a08b361ce33f5add1934ac7dd803c46e1a88f",
+    "research/prime-increments-52-check.py": "35e9eb661b45b161503416a7f8c3581db869b12a701556ed393243a0ed5322fa"
+  },
+  "core_records": 14,
+  "replay_checks": [
+    {
+      "file": "research/astra-feedback-52-checks.jsonl",
+      "records": 5,
+      "sha256": "088c5d2f27fe46d620844cdf2ca82237b2ff78684cd1ff5394fede07a5de6e6b",
+      "scope": "Arb160 scalar interval checks for three closed real marked-decay ranges and two positive four-step fixed-tolerance intervals through the indicated field families.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-transport-52-checks.jsonl",
+      "records": 5,
+      "sha256": "7b97f435d052df145cd53f33f7d8941c5db3f716a8ebfc54ebe2371116ad78dd",
+      "scope": "Arb384 exact endpoint and true history controls through depth 16 at primes 101, 173 and 401 and square orders 121 and 961. Checks one-sided transport, signed-tail identities and root-orthogonal directions.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/prime-increments-52-checks.jsonl",
+      "records": 4,
+      "sha256": "978dc949dd6f4897d4199a32f0cd47209167b5951c8ad9962f1429caef74e5fb",
+      "scope": "Arb192 rational slab bounds on limiting rank, positive products and Euclidean increment errors. Includes three-step and four-step coarse-rank controls and the second-moment four-step interval [63/8,9] through primes.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Pooled Frobenius weights at the two boundary characters give a nonnegative measure with mass the convolution dimension, zero signed first moment and absolute first moment the generic rank. K preserves its nonzero weight entries. Controlling mass and second moment proves power decay of the actual real mark down to 145/8 through eligible primes and squares on compact intervals. Exceptional translated columns are handled at a separate auxiliary radius.",
+    "Four positive updates with the two-moment rank bound give strict eventual 0.017 tolerance from 141/16 through primes and from 79/8 through primes and squares to 25.",
+    "Main tracks successive differences of the same polynomial iterates, preserving shared inputs in the positivity inequality and propagating Mellin weight mass and second moment through telescoping products. The tilted joint variance of the Jacobi seed and first feedback reduces the second Euclidean increment.",
+    "The combined positive predictor certifies a strict uniform limsup below .0169 on [63/8,9] and extends the prime .017 range to [63/8,25]. Coarse-rank three-step controls independently give .0169 on [35/4,10] and .0184 on [17/2,35/4]. This does not give a uniform estimate at floor 1/2.",
+    "Without any collision cap, a fixed larger endpoint excess delta forces a linear combined cost in upward scalar transport and smaller root-orthogonal directional collision at every late time. The smaller residual also admits an exact signed accumulated hinge formula. The square smaller residual vanishes, so the transport itself is linear there.",
+    "On genuine primes the first Jacobi sample requires at least 1-3/pi signed hinge correction to the larger affine representer, including in a hypothetical unbiased limit. Thus independent whole-history o(1) affine replacements fail, without refuting cross-endpoint cancellation or a late-only control.",
+    "The full cold continuation domain and ordinary all-prime limit remain open."
+  ],
+  "independent_review": [
+    "Checked Katz Theorem 16.1 against its statement, the two-character and inverse-seed convolution accounting, the fixed degree exception cutoff, weighted coefficient tail, and strictly positive product realization.",
+    "Checked difference telescoping and the two-moment product formula, independence under tilting, the quantitative Jensen gap, and the transfer from a positive polynomial pair to the actual mark.",
+    "Checked the complementary endpoint fixed-mean fixed-mark decomposition, root-projection norm and signed reserves, and the arcsine hinge value 1-3/pi.",
+    "Independently replayed all 14 records byte for byte and checked all round-51 acceptance hashes, new proof links and syntax."
+  ],
+  "next": [
+    "Propagate controlled full signed-weight histograms for geometric row and difference terms. Prioritize lower-floor positivity and actual marked error with retained covariance. Separately try to improve real decay below 145/8 with a strict bounded invariant, and preserve failures of the norm budget.",
+    "On actual prime endpoints use the one-time combined transport and opposite signed-tail estimate. Retain the late energy correction and seek the prime-specific upper bound, isolating an obstruction if the test already fails on nearly equal endpoints.",
+    "Keep t=1/2 and the full common cold marked continuation as explicit unresolved targets. Neither a fixed tolerance above 63/8 nor a square obstruction settles these."
+  ],
+  "window_closeout_workflow": "Both routes provided two ranked tests with explicit refutations. Main independently checked each and combined the two-moment rank method with the centered prime increment estimate before fixing next priorities.",
+  "committed": false,
+  "pushed": false
+}

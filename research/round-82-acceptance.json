@@ -1,0 +1,95 @@
+{
+  "round": 82,
+  "accepted_at_utc": "2026-11-19T05:13:23Z",
+  "previous": "research/round-81-acceptance.json",
+  "previous_sha256": "cf9aec809a11b6532ae5f098a6e9085a09606568df5b77c6a8a7f761a996a8a4",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/optimal_82",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use one genuine even optimizer and prescribed mass to minimize exterior split entropy while bounding one admissible terminal price. Compare its hard clip and keep the same mass in the density and height comparison.",
+        "At a prescribed clipping cutoff, account for odd sine directions and cutoff crossings on the exposed support. The even restriction need not preserve the hard-clip optimum."
+      ]
+    },
+    {
+      "name": "/root/adjoint_82",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate the signed second derivative twice in the actual directional inverse of R_0 along the cold homotopy. Use the known scalar residual and compare the resulting bound to the remaining 0.001044966 in parameter.",
+        "Bound the actual Newton-subtracted stationary remainder directly against the bounded height-250 adjoint, with separate control of the high physical coordinates."
+      ]
+    },
+    {
+      "name": "/root/audit_82",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Audit the sign-sensitive residual direction and analytic gluing when extending the certified branch toward the original cold equation.",
+        "Keep the density, split entropy and remaining terminal height on one actual endpoint and the same terminal time when seeking a contradiction."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the joint translated covariance on the actual adaptive heads to bound a true fixed-mass split or terminal pairing with a positive completion. Track the complementary low-density price after the same deletion. Counting energy alone leaves the true marked primary measure unbounded on the heads.",
+    "Bound the signed directional second derivative along the certified residual-forced cold branch, preserving the actual arity-zero source. Compare the improvement to the remaining distance to 1 and keep the genuine overlapping warm extension as the available unforced domain."
+  ],
+  "proof_and_code_sha256": {
+    "research/entropy-filter-82.md": "c1f010371b3609e91f0d78da493e4d951a341f084bb5f6934766aa032af98b5e",
+    "research/translated-covariance-82.md": "1712a8962c873f6f47586ab92af46f1d86c1d226c304fa10c5d85cd143806efa",
+    "research/astra-optimal-82.md": "635edfd28353d56414f98faa7cb9dfc475d62cac5f8030d0347e6f5501ba0ab8",
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/astra-adjoint-82-check.py": "ba506e6a5f1a174cb1d0ae704f02208df42bd8b1ef433212a46430afbde640ca",
+    "research/astra-adjoint-82-homotopy-check.py": "5612ce23cc42765c4f38519df069fb0f8801fb57c983b728b1ecb88123334e59",
+    "research/astra-optimal-82-checks.jsonl": "766350f6b46ab2be54558fcf7f2c9ea02f1be8de35d4243e587201932114cf6f",
+    "research/astra-adjoint-82-checks.jsonl": "8a02bd8d5f43241e43344e8b83a6a17ae88874c4ed81e20e29335c03750af7b4",
+    "research/astra-adjoint-82-homotopy-checks.jsonl": "55ff874e63bc7f78a06ab8a53babe32f890dad740794ae7db9ec9208445e3437"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 14,
+  "arithmetic_record_counts": {
+    "finite_endpoint_arb384_interval_records": 2,
+    "physical_adjoint_arb192_interval_records": 9,
+    "cold_and_warm_arb192_interval_records": 3
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "All three final checkers were replayed byte-for-byte under pipefail by main.",
+    "Independent Astra replay matched the two finite endpoint records and three final homotopy records. It also matched the first eight unchanged physical-adjoint records. Main independently checked the ninth appended scalar remainder coefficient with rational one-sided square-root bounds, giving a coefficient less than 0.012164."
+  ],
+  "proof_scope": [
+    "The signed Jacobi and entropy calculation gives a prime-uniform bound on the full high-density collision in terms of the clipped exterior relative entropy or the entropy of a positive split. The same high set can be removed before every qualifying true terminal time. At threshold H^(-1/4), a surviving uniform positive deficit on the high branch requires relative entropy of order at least H^(3/2); otherwise low-density height survives deletion up to H^(5/2)/M^2. Bounds on the actual optimum needed to exclude both branches remain open.",
+    "For fixed cutoff and exterior mass, the convex positive split and fixed even terminal objectives can be evenized jointly without loss; the fixed-row minimizer is the stated clamped level. A different ordinary comparison lowers a growing hard cutoff B to sqrt(B) with additive entropy cost O(B^(-1/2)). Two certified finite genuine full faces at primes 257 and 409 have strictly smaller minimum hard-clip entropy when odd directions are permitted at B=1 and unchanged even linear terminal price. At the selected masses the positive split lowers the entropy further.",
+    "Conditional covariance of transported rank-greater-than-one negative fields is constant against any distinct family of translated Jacobi lines. The two-center resonance is excluded by paired tame Euler inequalities; the weighted exponential comparison has errors independent of the number of chosen centers. With the actual mark coefficients and a growing-depth trace approximation, total normalized squared energy of true zero-floor rows on the adaptive high-density Jacobi heads through floor(D(p)/8) is o(1). This estimate measures counting energy, not the optimizer mass on those heads.",
+    "In the physical packet norm the height-250 derivative contracts uniformly on the cold square with rate less than 0.996681. Its signed stationary identity removes the parity-even exact Newton comparator and the remaining real first-norm cost is less than 0.013 times the squared normalized residual. A separate height-600 calculation and 568-step adjoint pairing yield real true stationary marked limsup less than 7.57e-426, a fixed positive tolerance.",
+    "For n >= 10^30 the common physical unforced branch has an additional warm square of half-width 2^(-21) centered at 16640292/2^20, glued to the earlier common rectangle. On the cold square of half-width 2^(-17) about 2031/128, the actual residual-forced joint holomorphic branch reaches |lambda| <= 0.998955034 with coordinate cap 4.654. The invariant alone reaches 0.998955 and the frozen directional estimate contributes the certified small extension. The original equation at lambda=1 on the cold square remains open."
+  ],
+  "independent_review": [
+    "Checked the entropy lower implication uses a uniform fixed-gap deficit, the root and clipping charges, the deletion sizes and same-time changes of mass.",
+    "Checked the hard-cutoff obstruction, convex feasible split, water-filling and independent finite full-face enclosures.",
+    "Checked the two-center Euler exclusions, pure tame monomial-local ranks, exceptional lifts and the summed growing-depth error for the actual cold trajectory.",
+    "Checked the symmetric positive upper-measure scope, exceptional physical columns, signed Newton parity pairing, interval constants, forced arity zero, uniform contraction, disk gluing and warm overlap."
+  ],
+  "next": [
+    "Find a prime-uniform upper for the true clipped head or surviving low terminal cost after positive completion on the same row and time.",
+    "Carry the cold homotopy to the original equation or find a different common unforced domain reaching the cold square through all large eligible primes.",
+    "ETH Randomstrasse101 Problem 26 is open."
+  ],
+  "window_closeout_workflow": "Four proof notes, fourteen interval records, separate independent review and consolidated next tests. The fixed finite cases and the residual-forced cold section retain their stated scopes.",
+  "committed": false,
+  "pushed": false
+}

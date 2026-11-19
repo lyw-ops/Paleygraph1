@@ -1,0 +1,128 @@
+{
+  "round": 86,
+  "accepted_at_utc": "2026-11-19T06:38:19Z",
+  "previous": "research/round-85-acceptance.json",
+  "previous_sha256": "7311ad326d6f2d532608d1de729358cbf1224f0697b17e4d443cb96ba1ab068b",
+  "proof_and_code_sha256": {
+    "research/root-neutral-unfolding-86.md": "5236b974e5f0966ab77980b0af7dd6cfbba46d5edc6e2953fbbf8d9c0490a51a",
+    "research/astra-fibers-86.md": "8d921c3a26006927f4af6e824a4e19cae9790611f5c37cb1b4f4bca20dff01ee",
+    "research/astra-leverage-86.md": "d708c37815e214e77849db2f8ca7834284c3079fc6c327eb9021302caae0aeb8",
+    "research/astra-phase-86.md": "ba511d10d4de1912d4ffd06c1a4b656a9b2fd3ce32bab0a3e09405ac8432e809",
+    "research/astra-fibers-86-check.py": "a4fff587f0b531762a22b2ab7d18f4606a3df81875469fe90ea132dfd44dcd3f",
+    "research/astra-fibers-86-checks.jsonl": "abda2f80f466180d9e9abd80db21fbf3e8b9b7e4141bcd7648d0619d5741a382",
+    "research/astra-leverage-86-check.py": "d9483d42ec32205dabeb74165c3a5443020f059b8e8bf1b69aa859e419e8a72c",
+    "research/astra-leverage-86-checks.jsonl": "0006fa44e80e641b3d64846b22b799844ab9980efadeba5a0d3c4b071a3ed1c0",
+    "research/astra-phase-86-check.py": "e824cc99ce0bc453495e770985cab0759dcecc8cb66d32bf77887071a0b8c503",
+    "research/astra-phase-86-checks.jsonl": "849e80342f6f6c9d76f6575dd8730e7ddb80caf5d1e0c5091a81a001a36f1e14"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/astra-capacity-84-check.py": "17fb99060b9e8d6a848ff1ead7a752d581be10395d4de88891962d3b31696e5f",
+    "research/astra-cold-37-monodromy.py": "e3bee2fc0b799e441e33f6d5c69b84a14fff23df79fddce8591b3ba1198352b3",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "additional_inherited_dependency_sha256": {
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "research/relative-phase-rotation-85.md": "dc96c5132aaf1ad27f5545e6f4cefa1781f7a3f68fb100fbc79e92b12c44a087",
+    "research/astra-cubic-85.md": "2ce11083c8442d922942b50cd118d43a456cb5766131e1f73a4abc92f2926352",
+    "research/astra-imaginary-84.md": "ccc164a42fbcdd40aee3b87d96c82dc5889b939f58d9ac44f5e385de9d2b93a4",
+    "research/astra-dissipation-80.md": "a3c931667e734483352c20c49ba3f56a7d1322c9870c34f76c2526d8819fe931",
+    "research/terminal-height-79.md": "cce1001c879a8cb511c72da904c1f3a46a49b590c1cddb8f120c26d7e15b5e36",
+    "research/astra-split-83.md": "6e503b7946ecad77b544f9c38f4ad571ce4c6d1b2d6dac3ff882c35ac1750740",
+    "research/trimmed-mellin-77.md": "b9537739a2109b34159963fb80e82d7305457c9a7cf7c509aaf1565eee22c8df",
+    "research/astra-height-78.md": "d2d14f4e7e12ce99306850f6335b913d5bd66e6deb87028199eb712c261df2c3"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "mathematical_source": {
+    "url": "https://arxiv.org/pdf/1507.05548",
+    "used": "Zhelezov Theorems 1 and 6, checked directly; initial restriction to at most sqrt(p) ensures the prime shift theorem applies"
+  },
+  "research_agents": [
+    {
+      "name": "/root/fibers_86",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate the signed centered price on the complement of the two balanced image masks, including the diffuse component when both fixed-threshold heads are small.",
+        "Test signed successive-image comparisons of the true diffuse linear terms with both sector prices and output-count terms retained."
+      ]
+    },
+    {
+      "name": "/root/leverage_86",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Evaluate the inverse terminal-only positive leverage at one available early good time, against an admissible precision tower. In a high branch, keep the slack debit on exactly the true source-exposed support.",
+        "Bound the retained physical terminal height at intermediate densities after deleting at most n/U_p^6 sites on the same row."
+      ]
+    },
+    {
+      "name": "/root/phase_86",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Trace the three-moment angular form on the genuinely continued post-contact branch at the candidate floor.",
+        "Estimate the two signed residual sums on the actual extreme-site supports along the remainder of the height-600 forcing path."
+      ]
+    },
+    {
+      "name": "/root/audit_86",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Optimize the post-contact angular orientation, use the rank obstruction and certify the moment form segmentwise before attempting an all-prime bound.",
+        "Compare the forced restricted residual with the quantitative angular cone threshold and estimate the remaining diffuse signed cubic or the same-row moderate collision and height cost."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Attack the actual signed cubic on the complement of the balanced masks, including coefficients of modulus tending to zero. In parallel, evaluate terminal-only leverage at the earlier good time and upper-bound the surviving cost on that same true face.",
+    "Follow physical branches after the now removable first contact. Use the low-rank Schur reduction and the full complementary sector equations when more than three orbits escape. On the forced line test the signed restricted residual while retaining the actual amplitudes."
+  ],
+  "core_records": 10,
+  "arithmetic_record_counts": {
+    "marked_fibers_arb384": 5,
+    "positive_leverage_arb384": 2,
+    "phase_constants_and_continuation_arb128": 3
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main and the independent audit replayed the three final checkers with PYTHONPATH=. and .venv/bin/python -B under pipefail, comparing against each saved JSONL with cmp.",
+    "The fiber records check 207840 conditional positional-output/displacement coefficients at primes 53, 101, 257, 409 and 769, and the masked centering on 787 nonzero displacements for each sign. They include negative selected coefficients.",
+    "The leverage records check both genuine p=97 time-four faces at the same capacity scale, with the frozen head omitted, against the exact terminal source. The second record frees coordinates 5 and 43 and certifies an exact source-exposed signed bound and the negative slack charge.",
+    "The phase records check the forced constants, the p=173 first spread crossing after 80 previous certified tubes and 3 crossing tubes, and the continued true p=173 factor form at 1/50+11i/500. The last record verifies a lower eigenvalue margin of 0.001 by interval preconditioning despite two negative raw cosines and enlarged-sector exit."
+  ],
+  "proof_scope": [
+    "The hereditary multiplicative energy and prime shifted-product bounds give uniform thinning on affine and squared affine images of arbitrary fixed-threshold subsets of true endpoints. On the same-sign quadratic image, the real marked cubic differs from its signed cardinality divided by sqrt(p) by O_tau(p^(-1/1056)). For balanced opposite subsets, this proves cancellation of the true masked centered displacement sum against its two actual boundary prices. A square-field subfield endpoint fails the prime analogue exactly.",
+    "Along a fixed-gap high-density subsequence at good times, the physical hinge enforces rho^2 m/(d^2 K^2)→∞ uniformly under the stated arithmetic tower margin. On the terminal-only metric this implies relative iterated-logarithm liminf of inverse positive leverage at least 7/8, and 12/13 if the earlier admissible time is in the high branch. The signed source-exposed leverage obeys the same loss. The proof survives the stated number of source erasures and arbitrary changes away from the source.",
+    "With a moderate collision bound on a true row, physical terminal height remains of order d on intermediate densities after arbitrary deletion of n/U_p^6 sites. For bounded masked signed energy the simultaneous negative pin charge or the retained positive height must pay the same gap.",
+    "At every fixed field the true unforced factor family is proper with finite fibers throughout Re(t)>0. The true forced family at fixed t has that property away from q=0, with a necessary escape-rate law at q=0. The height-600 marked phase is below 0.12 on the enlarged-sector segment; the exact separate signed contact sums and their single-orbit criterion depend on true weighted residuals.",
+    "At every finite mark-free unforced contact approached on a straight ray from the closed phase chamber, no noninteger Puiseux exponent is possible and the physical factor germ extends holomorphically. The cold-square mark exclusion uses the enlarged absolute sector. The proof has no corank or projected cubic assumption. The normalized discriminant records a separate local comparison for arbitrary corank-one germs. The forced analogue has the explicit sufficient active-support residual threshold (7) at q>0.",
+    "The even three-row angular form is a sufficient local factor Jacobian test after phase exit, including activation zeros. Its exact low-rank Schur complement keeps the damping of the positive block. A nonpositive diagonal sector of size exceeding its rank rules out that particular test at the given orientation."
+  ],
+  "independent_review": [
+    "Read-only Astra review independently checked Zhelezov's exact size and BSG hypotheses and the exponents 1/528 and 1/1056.",
+    "Reviewed the physical terminal estimates, the hinge transfer to every optimizer, and the early good time count. Checked the selected-time versus any-time distinction.",
+    "Reviewed the two-conjugate all-order contact proof, the properness argument, and the necessary cold-sector qualifier. Checked the mean term and support denominator in the forced threshold.",
+    "Reviewed the three exact post-contact rows and the interval positive-definiteness certificate. Replayed the final three-record phase checker after that addition."
+  ],
+  "boundaries_and_failed_paths": [
+    "Fixed-threshold image control does not control the diffuse residual of the actual complementary optima. The fiber cardinality and uniform displacement mean alone lose the weighted price.",
+    "High-density leverage loss is conditional on that branch, while the moderate-collision branch gives a surviving physical price and no upper bound sufficient to exclude a gap. The finite p=97 certificates do not instantiate the asymptotic branch.",
+    "The no-ramification result is local at a mark-free first contact. It gives no prime-uniform post-contact radius and no general common width. The finite p=173 check is at the small floor 1/50 rather than at 2031/128. The post-contact three-moment form fails at any orientation with too many nonpositive orbit entries.",
+    "The signed residual estimate on the remaining actual forcing segment and possible escape at q→0 remain unresolved."
+  ]
+}

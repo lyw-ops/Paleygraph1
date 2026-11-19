@@ -1,0 +1,83 @@
+{
+  "round": 50,
+  "accepted_at_utc": "2026-11-18T12:28:07.816351+00:00",
+  "previous": "research/round-49-acceptance.json",
+  "previous_sha256": "34d988c8d4dd2ff4f36b25ebbcd56d0cb75a8286a1bd61a6af93ce16abbd8c2c",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/ref_50",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-ref-50",
+      "ranked_closeout": [
+        "Certify positive warm tangent trials and both lower roots at a fixed prime-uniform step, initially against the existing 1/2 budget. A nonpositive coordinate or a definite budget failure on an unbounded sequence rejects that predictor and step.",
+        "Quantify a fixed-reference gap with bounded zero-mark tangent witnesses or harmonic duals at the prescribed target. A score bounded below W by a fixed deficit rules out the reference even with arbitrary same-side optimization."
+      ]
+    },
+    {
+      "name": "/root/coupling_50",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-coupling-50",
+      "ranked_closeout": [
+        "At polynomial collision, maximize average late shared absolute signal over true-history transport plans at the arithmetic budget. A uniform positive lower bound excludes fixed mark excess. A subsequence with optimum tending to zero rejects that lower bound.",
+        "At unrestricted collision use timewise sorted antitone defects and the actual terminal signed mean. A positive lower bound on the normalized terminal mean times the defect product on a positive-mean subsequence rejects this test."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-ref-50.md": "fa18848752834438cb7287f7142efc7ce5fe60cdf7a7b71a86f5117a50a3dd9f",
+    "research/astra-ref-50-check.py": "1419667326cc9c35892c6621e7b6fbadfdbc78c081408f5c007e039178df7f65",
+    "research/astra-coupling-50.md": "fa5aa29cc99202ce7eb77c016b63fbaa7ed36254cdbccd72670dd08ec76442cb",
+    "research/astra-coupling-50-check.py": "655c3bada524fbffd027c76119ad970320bbf950000426429b774f423dd6d3ce",
+    "research/reference-curvature-50.md": "a2a345ef2cdf40ca2dbf9bad4dc9c8282b8f26bd079c2c90d1f37ecc9f2369ee",
+    "research/reference-curvature-50-check.py": "5aa84bd4726c5ed21debe48753a3695045ec40a6edfa3ce88050d756a97a63f4"
+  },
+  "core_records": 11,
+  "replay_checks": [
+    {
+      "file": "research/astra-ref-50-checks.jsonl",
+      "records": 4,
+      "sha256": "4d875cbce0f0318d26c702d173d4deb30f7bbb7cecf0f815e83458e6e190ae94",
+      "scope": "Arb192 checks of four rounded Fourier trials proposed solely at floor 11/20, with certified marked-logarithm brackets at floor 1/2 at two primes and three distinct flat column entries in each prime.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-coupling-50-checks.jsonl",
+      "records": 4,
+      "sha256": "8b3f5350ad8c4bca91ba9b95469ed45e37794d259f0e6909e911f0dcd003c129",
+      "scope": "Arb320 checks at two actual least-norm prime endpoints and two square controls over six late times each, including the unrestricted antitone defect and its comparison with one whole-history assignment.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/reference-curvature-50-checks.jsonl",
+      "records": 3,
+      "sha256": "8bd3584a57fd6f1a1c8937aa6ac1218f9e64b383f286f59b002cffc072b34c77",
+      "scope": "Arb192 checks of positive flat curvature and agreement between calibrated normal projections and direct bulk regression at primes 97, 173 and 401.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "At fixed field, a warm stationary reference and explicit same-side first derivative trial give quartic score loss and cubic certified marked error for a small colder logarithmic step. The common warm reference can saturate both true cold scores at distinct floors only if the flat Fourier column takes at most two bulk values, excluded at every sufficiently large prime by the Jacobi law.",
+    "Four interval rows at primes 97 and 173 give signed cold logarithm brackets from floor 11/20 to 1/2 with neither a cold solve nor same-side optimization. No prime-uniform Taylor constants are established.",
+    "Main identifies the quartic coefficient of each unrestricted optimized fixed-reference loss with a squared zero-mark tangent projection. Their sum is one bulk quadratic regression residual times a/4, strictly positive at each fixed floor for sufficiently large primes. First taking the step to zero, then the field limit at a=n, gives n times the summed coefficient tending to 1/128. The sharp weighted norm of the inverse bulk restriction uses only the opposite marked leverage.",
+    "On a supercritical late half-window, the sum of minus log weighted antipodal defects is at most the log growth of the exact positive occupation budget. At polynomial collision, every whole-history plan at the arithmetic RMS budget carries at most O(log D/D) average common absolute endpoint signal. Both conclusions apply to primes and squares, conditional on the actual endpoint assumptions.",
+    "The independent antitone plan minimizes the one-time weighted defect. In all 24 checked field/time pairs it absorbs every available wrong-signed unit of signal. In the six prime-101 controls that signal is small enough that even the unrestricted cancellation is below 0.25 percent. These finite checks do not prove a uniform transport bound."
+  ],
+  "independent_review": [
+    "Checked the exact least-squares score loss, saturation ray, positivity at fixed field, sign of the marked score derivative, and cell algebra propagation by weighted relative tangent decomposition.",
+    "Derived the two optimized quartic coefficients via orthogonal projection, the sharp bulk lift, and the flat constant from the Jacobi moments. Independently verified the flat projections with integer construction of the Paley mask and Arb DFTs.",
+    "Checked the multiplicative occupation inequality, shared-density and matching-error terms, and the opposite sorting lower bound for every fractional plan.",
+    "Independently replayed all 11 records byte for byte and checked the previous acceptance hashes, proof links, and Python syntax."
+  ],
+  "next": [
+    "Seek a fixed positive logarithmic step on a prime-uniform interval for the warm tangent construction. Separate leverage-controlled lift, entrywise positivity and finite-step remainder; start where the proved hot estimate supplies actual reference control. Compare adaptive references if simultaneous scores fail at target tolerance.",
+    "Seek a genuinely prime-uniform lower bound for the late shared absolute signal of actual endpoints under the common arithmetic history budget, or a prime-uniform signed defect product bound at unrestricted collision. Feed those quantities to the exact multiplicative occupation constraint.",
+    "Keep the order-five exterior and fractional-linear arithmetic tests from round 49 available as a structural control. Neither the local stationary expansion nor the occupation budget excludes those patterns."
+  ],
+  "window_closeout_workflow": "Each Astra route independently supplied two ranked next tests with explicit refutations. Main checked and consolidated them with the sharp local calculation. Fixed positive tolerance on a warm step ranks ahead of exact saturation, and late shared absolute-signal overlap ranks ahead of an unweighted pairing.",
+  "committed": false,
+  "pushed": false
+}

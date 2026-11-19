@@ -1,0 +1,2 @@
+{"center_coordinate": "1/2", "cubic_residual_zero_through": 12, "first_marked_relative_jet": "-95/388", "floor": "30/19", "hessian": "1552/855", "kind": "exact_actual_stationary_direction", "last_marked_relative_jet": "-479205870522458822629905120070930148488074581056495/83266399156009500097152164549854178374877246881005568", "prime": 13}
+{"contraction_upper_bound": "16/49", "kind": "directional_repair_constants", "weighted_residual_over_sqrt_W": "21/320"}

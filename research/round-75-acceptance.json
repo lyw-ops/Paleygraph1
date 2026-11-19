@@ -1,0 +1,93 @@
+{
+  "round": 75,
+  "accepted_at_utc": "2026-11-19T03:16:22Z",
+  "previous": "research/round-74-acceptance.json",
+  "previous_sha256": "caecec7f67b64d8462458488f6d7fe1b4d78f3842a4c7b36f8c50f0b1053c105",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/fourth_75",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Build a signed multi-level invariant for the full residual at 2031/128, retaining both fourth-mode centers, the exact exceptional column and the physical mark.",
+        "Extend the signed physical cap beyond the fixed step bounds or certify one holomorphic predictor with counting residual below 1/6 in the improved complex contraction tube."
+      ]
+    },
+    {
+      "name": "/root/quotient_75",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Prove a two-layer probe or find a bounded return with true quotient Fourier overlap uniformly below k^(-2) in a growing prime regime.",
+        "Use weighted per-coset deficits on actual singleton cap supports to bound the collision on the true marked negative mask."
+      ]
+    },
+    {
+      "name": "/root/audit_75",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Seek a real-on-real predictor with direct residual below 1/6 uniformly at the candidate floor, using the local contraction radius 1/2. The increment condition is below 1/4.",
+        "Evaluate adaptive clipped mass and actual masked hinge on the larger true primary face and retain commonly positive exterior lift constraints."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Optimize the adaptive comparison in cutoff, run length, and phase conditioning on actual high-site difference profiles. Compare against the exact masked diagonal and Fourier overlap on the same true optimal face.",
+    "Use the exact positive-lift probes or signed weighted returns for periodic families. Control the original single-center negative-tail energy separately where no high-center averaging is available."
+  ],
+  "proof_and_code_sha256": {
+    "research/bohr-pricing-75.md": "4600d36b7e1ce2f5d02b1549a6a38f128f5eecb1b1ccb45b6a99e46ee4d88427",
+    "research/astra-quotient-75.md": "b630f9efdcb4056a907589320c6cd0e416bc1364ea78b58e456fdecc1aca787b",
+    "research/astra-quotient-75-check.py": "22319bdbc991fb07cd75584f2703bb9084783736ce1f22b37795679de5cdaefe",
+    "research/astra-quotient-75-checks.jsonl": "e1fc0b27435baf23f2eca3428121e51893747c17ffaf78ba89d6785109134bbb",
+    "research/astra-fourth-75.md": "c7b371977c17cfde3829ed6e6f408e4239e6d6f85cbd2f03740b5ed68bdf120f",
+    "research/astra-fourth-75-check.py": "f7b807c25f0cd8981209d68b45eb3c6ee9aa401b2f24af78d92161c276cfcebf",
+    "research/astra-fourth-75-checks.jsonl": "d68f9730fd35355bd4a780591d72e54a34c0e51a0b0cd58775c4f293abb5a09d"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "eth_blog_url": "https://randomstrasse101.math.ethz.ch/posts/PaleyGraph/",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "core_records": 56,
+  "arithmetic_record_counts": {
+    "uniform_complex_interval_records": 4,
+    "rational_scalar_record": 1,
+    "finite_rational_theta_records_with_Arb_cosine_enclosures": 51
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Rounded coefficient proposals for the 51 doubled-subgroup gaps all pass exact rational repair using 96-bit Arb cosine enclosures. The saved 51 records were reproduced byte-for-byte with pipefail enabled.",
+    "The complex replay reproduced the rational two-moment bound and all four interval records, including the finite complex contraction and both unbounded-size stationary rectangles.",
+    "Independent direct modular coset enumeration found 158 eligible sign-and-divisor cases through p=3000, including 107 excluded by R74 and precisely 51 survivors. Every survivor has a strict two-layer gap in the saved records."
+  ],
+  "proof_scope": [
+    "A weighted character-sum count works uniformly for adaptive nonnegative weights with Fourier coefficient absolute sum at most one. Circular tent products enforce simultaneous phases on a bounded sumset of prescribed directions, including high-order shifts, and yield a weighted opposite run mixture with a clipped tail budget M^2+O(2^L L^2 B(1-M)/(n mu_Omega)) before diagonal removal. The comparison separates the unconditioned unlocalized residual and conditioned bounds for the same specified profile and partition. It assumes an actual clipped-mass bound and makes no claim of such a profile on an optimizer. Singleton diagonal remains.",
+    "Prime quotient periodicity is equivalent to a common positive opposite lift of the uniquely determined quotient probability. Separation yields exact weighted per-fiber Fourier inequalities and a quantitative relative deficit. Weighted return estimate (k^-2-M(z))_+/2 holds for arbitrary subgroup order under its stated return premise. All 51 previous count survivors through p=3000 with b^2>=4n have certified strict theta gap already on the doubled subgroup B union (-B), minimum relative gain above 1.78 percent. This is finite and excludes only the specified periodic candidates.",
+    "For primes or prime squares with n>=10^14, the actual fourth output is <4.65 by rational upper bounds and <3.938 by Arb enclosures on the radius-1/4 disk about 2031/128. Cap 5 holds through steps 30 and 64 on disks of radii 1/4 and 1/128. Stationary continuation on those disks is certified for finite n ranges [10^14,10^16] and [10^14,10^36]. The unbounded-size real tolerances follow from positive trial factors; they do not imply a vanishing actual mark.",
+    "A separate weighted nine-center invariant gives actual common holomorphic stationary rectangles with real ranges (16640296,16640308)/2^20 and (16640292,16640308)/2^20 and imaginary half widths 2^-10,2^-11 for sufficiently large fields. The wide band expands prior width by factor 1024 on its small overlap, and the left edge lowers the prior frontier by 12/2^20. Both new left edges exceed 2031/128. Cold stationary domain remains open."
+  ],
+  "independent_review": [
+    "Fresh Astra checked the twisted run count and weighted clipped budget, found an overbroad comparison example, and checked the revised short-run comparison with its same-profile scope.",
+    "Independently checked the quotient lift, probe separation, integrated weighted return argument, near-cap bound, rational relative gain, and modular sign-case count.",
+    "Independently replayed four Arb records and checked the finite-n contraction, separate real-tolerance estimates and actual stationary identification. Main reviewed the added rational two-moment comparison and replayed the combined exact and interval suite."
+  ],
+  "next": [
+    "Real: seek an actual primary-face masked hinge upper bound on all primes with adaptive clipped mass, Bohr-selected difference prices, and the exact diagonal retained.",
+    "Real: turn the simultaneous positive lift or weighted return into a prime-uniform bound on periodic and near-periodic caps. Treat singleton concentration on the actual marked negative mask directly.",
+    "Complex: certify a genuine uniform predictor or signed invariant across 2031/128 with the actual mark and the full residual. The current stationary rectangles do not reach that floor for unbounded n.",
+    "The original ETH26 ordinary theta limit remains open."
+  ],
+  "window_closeout_workflow": "Ordinary analytic proofs, preserved scope and failed comparison cases, one exact rational scalar record, four Arb interval records, 51 finite rational theta bounds backed by Arb cosine enclosures, and independently ranked suggestions.",
+  "committed": false,
+  "pushed": false
+}

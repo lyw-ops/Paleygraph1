@@ -1,0 +1,85 @@
+{
+  "round": 51,
+  "accepted_at_utc": "2026-11-18T12:43:56.367094+00:00",
+  "previous": "research/round-50-acceptance.json",
+  "previous_sha256": "86d892d88ef495cdc3f1fed7e141597afcc6dd3996d4314e8af00f242f71e87f",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/warm_51",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-warm-51",
+      "ranked_closeout": [
+        "Retain the first nonconstant feedback together with the Jacobi seed. Strict slack in a rank-cost ball below 197/8 extends genuine decay. A certified positive minimum deficit rejects that proposed ball.",
+        "Keep covariance between successive polynomial updates to lower the positive-pair weight defect near 1/2. Entrywise positivity and the prescribed mark tolerance must both hold. Nonpositive entries through unbounded primes disprove the specified construction."
+      ]
+    },
+    {
+      "name": "/root/late_51",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-late-51",
+      "ranked_closeout": [
+        "Optimize average late coverage by the combined endpoint densities at the arithmetic history budget, testing at the same time whether opposite positive means average o(D). A vanishing plan-independent cap and vanishing optimal same-side coverage refute uniform positive combined coverage.",
+        "Sort the two oriented endpoint laws independently at each late time. A single adjacent pair with scalar Wasserstein sum o(1) per prime suffices at arbitrary collision. A uniform positive minimum on a prime subsequence rules out that sufficient test."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-warm-51.md": "cf51c847b5333e5ca970629e811c0895a8d2780d77cc78a8759ab59609bff9cc",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-late-51.md": "ea3393ed590bb447e02dedd61f6286da7ed7033fa4ca69ca32e15befc0cb93a3",
+    "research/astra-late-51-check.py": "1561572373a7d41475926fc609765c569f6ea5daa5ba6c068ef640df3ba9eac0",
+    "research/marked-affinity-51.md": "76b572dcbff4862478209f95ef4542dd4c950d3b415f30cadbb6e995e39a2399",
+    "research/marked-affinity-51-check.py": "6d6604ca4bd9e90fae9c084b1a1fd359ff725e84bf14df5ec82e80ee2c160a71"
+  },
+  "core_records": 15,
+  "replay_checks": [
+    {
+      "file": "research/astra-warm-51-checks.jsonl",
+      "records": 6,
+      "sha256": "851c4a2b62203e57df9c29d8ca12a37744b64de8e9d1b80871a9e036dddb91ca",
+      "scope": "Six Arb160 scalar tables covering closed floor intervals. The Laurent rank bounds and the positive four-update predictor use these interval constants in ordinary all-field or prime-uniform proofs.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-late-51-checks.jsonl",
+      "records": 4,
+      "sha256": "21a7d64f0dd9fb8da517ed5b560d84e4c4bbbdc75d13311de87f0e95b9f650e8",
+      "scope": "Four Arb320 true cold endpoint and orbit records, at two primes and two squares. They verify weighted union coverage, the exact opposite next-step identity and complementary scalar transport at the six late pairs per field.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/marked-affinity-51-checks.jsonl",
+      "records": 5,
+      "sha256": "29da30d6c9d775991bfe454c5ea0797896f310c899cd13abdadc369aee0faa45",
+      "scope": "Four Arb320 positive prefix and marked interval records at three primes and a square, plus exact rational comparisons for the new 93-hot-node square stencil.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "Grouping identical Jacobi Laurent modes before estimating ranks extends power decay of the actual real mark from 28 down to 197/8 on real compact intervals, through primes and eligible squares. The two new uniform rates are n^(-1/21000) on [197/8,25] and n^(-1/2100) on [25,28]. The truncated product rows are strictly positive and identify actual marks by a weight comparison.",
+    "Four positive polynomial updates give a strict eventual absolute-mark tolerance .017 uniformly through primes on [10,25] and through primes and squares on [11,25]. This proof has a fixed positive tolerance. It neither proves decay throughout those ranges nor reaches the cold floor 1/2.",
+    "Main retains both exact cross products and applies Jensen on the bulk to obtain an exact marked transfer bound for two positive complementary pairs. The bound separates total normalized bulk mass from bulk product dispersion. The same identities give weighted square-root and first-mass control of actual bulk rows from bounded positive trials.",
+    "At floor 1/2 direct actual Picard prefixes certify absolute marks below .017 at 97 and 173, whereas the older square-root weight bound for those prefixes exceeds .018. Independently the actual mark at 401 is below -.0184. A square prefix control at 121 separates the transfer radii. Equal marked-product shifts were a floating diagnostic and did not close the earlier prime-173 depth-15 test.",
+    "The new real hot range gives a whole-right-half-plane square obstruction using 93 hot nodes and eventual budget excess greater than .06 at cold floor 1/2. This is a square control and does not produce a common prime continuation section.",
+    "For a true supercritical endpoint of polynomial collision, positive late coverage by combined primal and complementary partner densities forces positive order-D opposite signed means at a positive fraction of the following times. The comparison error only charges larger-side collision. Through odd prime squares h^2, extra combined coverage is bounded by 2h/(h^2-1) with sharp order over unrestricted matchings.",
+    "At arbitrary collision the oriented scalar endpoint laws satisfy an adjacent-time Wasserstein lower bound retaining the exact marked injection. The finite coverage and transport comparisons at two primes and two squares do not establish the required prime-uniform estimates."
+  ],
+  "independent_review": [
+    "Checked the Chebyshev lift and bad-character correction, auxiliary degree filtration, bounded weighted majorant tails, positivity, and square-root weight transfer; replayed the six scalar records.",
+    "Checked both exact complementary pairings, the bulk Jensen inequality, its mass and profile square decomposition, positive prefix feasibility, and exact rational square-stencil constants.",
+    "Checked the opposite-step and combined coverage identities, error controlled by only the larger collision, the square density cap and independent-plan value, and the marginal coupling argument without collision restrictions.",
+    "Independently reproduced all 15 records byte for byte and checked the round-50 hashes, proof links, and Python syntax."
+  ],
+  "next": [
+    "Keep the first actual Jacobi feedback as a separate mode family and test sharper even-word rank cancellation across the current 197/8 boundary. For smaller positive floor, prioritize a positive trial with controlled centered bulk affinity and actual mark, including covariance of the last two updates. Track exact obstruction versus failed bound.",
+    "Test the two-endpoint distribution at each adjacent late time through actual prime optima. Seek order-o(1) summed oriented Wasserstein cost, or upper bounds on opposite positive signed means together with a positive combined-coverage lower bound at polynomial collision.",
+    "Use the 93-hot-node square control when screening real stencils, but retain the prime-uniform requirement at floor 1/2 and the common cold continuation domain as open."
+  ],
+  "window_closeout_workflow": "Both Astra routes supplied two ranked tests and explicit refutations. Main integrated positive predictor feasibility with the exact affinity bound, and separated a collision-free oriented-law test from the constrained combined coverage test.",
+  "committed": false,
+  "pushed": false
+}

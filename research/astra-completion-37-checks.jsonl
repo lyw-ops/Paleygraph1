@@ -1,0 +1,5 @@
+{"both_sectors": true, "depth": 26, "kind": "arb_actual_dense_completion_and_shift_check", "order": 37, "precision": 320, "prefix_tests": [1, 4, 12], "shifts": [1, 2, 5, 8], "square": false}
+{"both_sectors": true, "depth": 26, "kind": "arb_actual_dense_completion_and_shift_check", "order": 49, "precision": 320, "prefix_tests": [1, 4, 12], "shifts": [1, 2, 5, 8], "square": true}
+{"field_claim": false, "kind": "exact_scalar_relaxation_check", "m": 8, "n": 64}
+{"field_claim": false, "kind": "exact_scalar_relaxation_check", "m": 16, "n": 256}
+{"field_claim": false, "kind": "exact_scalar_relaxation_check", "m": 64, "n": 4096}

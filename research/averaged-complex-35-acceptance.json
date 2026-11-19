@@ -1,0 +1,257 @@
+{
+  "round": 35,
+  "accepted_at_utc": "2026-11-18T04:27:31.650378+00:00",
+  "target_status": "open",
+  "goal_status": "active",
+  "previous_goal_turn_classification": "progress",
+  "core_records": 109,
+  "record_categories": {
+    "exact_integer_rational": 15,
+    "interval_or_derived_interval": 17,
+    "success_summary": 3,
+    "floating_diagnostic": 74
+  },
+  "checks": [
+    {
+      "file": "research/averaged-mark-35-certified.jsonl",
+      "sha256": "214573b9945f91b1f2f63a979d6470a7540ea6d55e7293adacad7f3fa87d904d",
+      "accepted_records": 13,
+      "independent_replay": "/tmp/paley-averaged-mark35-replay.jsonl",
+      "byte_identical": true,
+      "kinds": {
+        "exact_actual_projector_and_mark_identities": 1,
+        "validated_actual_picard_mean_budget": 5,
+        "derived_interval_theta_from_preserved_marks": 5,
+        "exact_square_all_root_preserving_repairs_impossible": 1,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/parallel-audit-35.jsonl",
+      "sha256": "ef23ec0f3075de785be59d7331ff6f8752fa73c5c4bf81060dbd77768234de2c",
+      "accepted_records": 10,
+      "independent_replay": "/tmp/paley-audit35-replay.jsonl",
+      "byte_identical": true,
+      "kinds": {
+        "exact_regularized_source_check": 4,
+        "arb_actual_zero_Picard_average_check": 4,
+        "exact_fixed_mark_completion_obstruction": 1,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/parallel-complex-structure-35-certified.jsonl",
+      "sha256": "6e11dee85559a5dc5613eaf374c661918d5d3459699fd3e96bdcf88a700061b7",
+      "accepted_records": 7,
+      "independent_replay": "/tmp/paley-complex-structure35-replay.jsonl",
+      "byte_identical": true,
+      "kinds": {
+        "exact_actual_p13_Pick_obstruction": 3,
+        "exact_actual_p13_jet_identity": 1,
+        "validated_uniform_hot_complex_contraction": 1,
+        "exact_general_barrier_local_constants": 1,
+        "all_checks_passed": 1
+      }
+    },
+    {
+      "file": "research/astra-signed-repair-35-exact.jsonl",
+      "sha256": "4a1b9115bef98bc39f5126935932cf5fa80a09913429f28d25e8d799b16772d9",
+      "accepted_records": 3,
+      "independent_replay": "/tmp/paley-signed35-exact-replay.jsonl",
+      "byte_identical": true,
+      "kinds": {
+        "exact_actual_Paley_polynomial_scatter": 2,
+        "exact_corner_penalty_audit": 1
+      }
+    },
+    {
+      "file": "research/astra-signed-repair-35-constants.jsonl",
+      "sha256": "357226755b7715a1c775c06b8c53809886bc630ea2490e6d5f5694ed426cea37",
+      "accepted_records": 2,
+      "independent_replay": "/tmp/paley-signed35-constants-replay.jsonl",
+      "byte_identical": true,
+      "kinds": {
+        "arb_compact_gap_constant": 1,
+        "arb_actual_Paley_C1_exceeds_W": 1
+      }
+    },
+    {
+      "file": "research/astra-signed-repair-35-diagnostics.jsonl",
+      "sha256": "750556222bdfc6951c1330a442491a4cb18f872c26f34ba32267d4b69829f353",
+      "accepted_records": 42,
+      "independent_replay": "/tmp/paley-signed35-diagnostics-replay.jsonl",
+      "byte_identical": true,
+      "kinds": {
+        "floating_quadratic_scatter": 18,
+        "floating_first_nested_trial": 24
+      }
+    },
+    {
+      "file": "research/astra-signed-repair-35-averaged.jsonl",
+      "sha256": "3ac071356aee1805f12799a662a7901fb01462438f2263d088fba2599e81a8b8",
+      "accepted_records": 24,
+      "independent_replay": "/tmp/paley-signed35-averaged-replay.jsonl",
+      "byte_identical": true,
+      "kinds": {
+        "floating_averaged_Picard_repair": 24
+      }
+    },
+    {
+      "file": "research/astra-signed-repair-35-averaged-large.jsonl",
+      "sha256": "4c57d9ab24e4ec0cc7e8f4869aad20f29add41d079c41972c1d793faa1357f45",
+      "accepted_records": 8,
+      "independent_replay": "/tmp/paley-signed35-averaged-large-replay.jsonl",
+      "byte_identical": true,
+      "kinds": {
+        "floating_averaged_Picard_repair": 8
+      }
+    }
+  ],
+  "proof_and_code_hashes": {
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/averaged-mark-35.py": "6ec73e2e36a8192e55ca591e6683b638a3be28822b95bfe8287a7556392fbf7a",
+    "research/parallel-audit-35.md": "2db6d01db8a19415efb8a2877e8d6f37281d9b6dff82354195bcc40ccf3d8177",
+    "research/parallel-audit-35.py": "6cf10775c33d856bb4af31bed6f72e2f6c71921b05dccd9b5201c612eb0578d4",
+    "research/parallel-complex-structure-35.md": "742539d1b54c5a3895a3c7ff69be9aa332080cb85981e4da62c06407f4d41db4",
+    "research/parallel-complex-structure-35.py": "9b0ba534e815f71d76e3d32e6437241d78a2bb42d1094271314e3d21f11202e8",
+    "research/astra-signed-repair-35.md": "941cfd31344cf62ed893d160cf61afe8a24908631ca02bce5cce21ec3bfbd845",
+    "research/astra-signed-repair-35.py": "e3cd1d1eb450ea617cbde24aa3b2518d181e52cee7c8b16a88040a6b39e67e73"
+  },
+  "inherited_dependencies": [
+    {
+      "file": "research/repair-response-34-acceptance.json",
+      "sha256": "0760407ab3910d5e26708d86c27c16dff0a13c6df45af5e3f9ac12d822668513",
+      "scope": "Accepted positivity and root preservation of five rational trials; exact square input."
+    },
+    {
+      "file": "research/large-smoothing.md",
+      "sha256": "3330f154d3c26941bc3ffced1e9c0a1b6d667412d44b2e775766557b8ec4aac4",
+      "scope": "Mixed rank-squared Mellin norm inequality, including exceptional characters; the complex theorem does not reaudit its sheaf input."
+    },
+    {
+      "file": "research/joint-law-32.md",
+      "sha256": "b9aae9238545ad13d174732cf2bfed8c0bf2d5446c1843119dd1ec5796681dfd",
+      "scope": "Compact determinant-constrained model, pointwise aliases and fixed-polynomial equidistribution for precisely the first three nested fields."
+    },
+    {
+      "file": "research/iteration-parity.md",
+      "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+      "scope": "Inherited fixed-depth marked cancellation, not a new all-depth arithmetic claim."
+    }
+  ],
+  "inherited_exact_witnesses": [
+    {
+      "file": "research/astra-conic-primal-34-q1000033-t40-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "61810ad0574356131c042fbfdc2d400dd09e67c451e7708b653600934688700f",
+      "uncompressed_sha256": "93b3f520f9f9053ca3691304090162c9c19de290a7325e35990e861773651529",
+      "order": 1000033,
+      "steps": 40,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q1000033-t48-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "575846ab5bc1c7a3970f5f67bcef53b4af8f7b6a468726f5c501b26c2d4a0097",
+      "uncompressed_sha256": "4b3e7cf2086c5e4250bc584c2f64f2772b61b9b62d639a4f7123447ef51e533f",
+      "order": 1000033,
+      "steps": 48,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q151321-t48-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "7cbbf685c97b9dedd029d1545047ee09cfbc8eb6281060a509e28343f2257349",
+      "uncompressed_sha256": "f433683038ff04ac6a1cf496a35bbade6c04a30da1a89ab8f362a7acde1105bb",
+      "order": 151321,
+      "steps": 48,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q9413-t40-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "a5f68cd6cf3eb515a0d6c183eb92b6572750dd24ec7cd0822e4058fe105d9638",
+      "uncompressed_sha256": "a28fbc8c6b265120cdf93ab8269e96ca7dfc8843a9b4f844078e762ad2111de1",
+      "order": 9413,
+      "steps": 40,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q9413-t44-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "0402884a43713e8523fe52698fc360cb04facb0f60cc7c7c8e6ec1de927a6806",
+      "uncompressed_sha256": "c8c37e39a29d6684e11a5b1e65915389f57ff05f87e8643671d0db13daff2188",
+      "order": 9413,
+      "steps": 44,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    },
+    {
+      "file": "research/astra-conic-primal-34-q9413-t48-tau1_20-k1_1000-input.json.gz",
+      "compressed_sha256": "ed880d47f93da7063f406812cee9e9c3acea1d795980af4398257dfe8866f9c6",
+      "uncompressed_sha256": "a0ab4bb549309e104eb6769ec553a1b8bd04acb40c071476c85b29c59e6d2ff6",
+      "order": 9413,
+      "steps": 48,
+      "tau": "1/20",
+      "kappa": "1/1000"
+    }
+  ],
+  "proof_scope": [
+    "The exact actual Picard energy telescope gives the projected-average mean budget B=W+(1-sqrt(c))^2*(1-1/n)/T, tending to 1+tau+1/T. Mean/sector/mark-preserving nonnegative completion would give a direct ordinary-theta squeeze, without requiring conic o(kappa), UI or HR on this constructive route. No such prime-uniform completion is proved.",
+    "For growing depth, the stated Cesaro squared-mark condition includes time T+1. The square prescribed averaged minus mark is infeasible when tau+1/T<1 (fixed depth) or tau<1 under the growing-depth hypotheses.",
+    "The saved q151321 depth48 minus mark exceeds its exact feasible maximum 195 by a positive exact rational. All mean-one minus-sector nonnegative completions preserving this mark are impossible. This is stronger than one repair rejection and is not conic infeasibility.",
+    "Five finite theta intervals and marked-gap comparisons are derived from accepted round34 exact-input positive certificates. No new large positivity transform is run for them; the new averaged positivity observations are floating only.",
+    "Actual quadratic-profile signed spill has a sharp dimension-independent limit. The first nonscalar nested affine correction family retains normalized mark cap mu/sqrt(2), uniformly for field-dependent coefficients and with positive-density obstruction. These use only the accepted first-three-field compact law and do not identify later clipped deficits.",
+    "The inherited mixed Mellin norm proves a common hot complex domain Re(tau)>0,1024<abs(tau)<n with coordinatewise nonzero actual reciprocal spectra and marked log bound 4/sqrt(n). It does not reach cold floors.",
+    "An explicit cold weighted-barrier disk is proved. Tangent-rank trace forces only this full-Hessian isotropic certificate to shrink as n^(-1/2); no singularity at that distance is asserted.",
+    "Exact actual p13 jets exclude global upper-half-plane Pick/Stieltjes representations of the specified observables in either direction, not right-half-plane holomorphy.",
+    "A common square-family marked-log extension would require polynomially growing unwrapped phase. Subpolynomial prime phase on a common cold-hot domain would suffice, but neither is established.",
+    "First-inverse source tightness gives sector-preserving bounded-energy affine L1 approximants with error sqrt(Delta/tau), potentially signed and still source-dependent. Exact positive-floor regularization retains an unknown distributed forcing, so the original inverse arithmetic bridge remains open.",
+    "All written proofs are ordinary mathematical audits, not Lean kernel verification. The 74 floating diagnostics are not stationary enclosures or asymptotic positivity evidence."
+  ],
+  "native_consistency_audit": {
+    "file": "research/astra-signed-repair-35-checks.json",
+    "sha256": "5757dcb8bb04b2f15df883bcf2f00f1971d6c91ef56760618d8e81bce2b3a325"
+  },
+  "independent_agent": {
+    "name": "/root/audit_square",
+    "status": "completed",
+    "prefix": "research/parallel-audit-35",
+    "audited": [
+      "Main averaged marks",
+      "complex structure",
+      "regularized source bridge"
+    ]
+  },
+  "research_chats": [
+    {
+      "thread_id": "01a1ecd1-b81a-7a70-b1e2-a741c840c677",
+      "host_id": "local",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "role": "Signed arithmetic and averaged proposal comparison",
+      "last_cursor": "0402aa0e-57fa-4555-bc77-a4c0928ebbf4:6"
+    },
+    {
+      "thread_id": "01a1ecd2-396d-7ec2-9c80-021324f8dc15",
+      "host_id": "local",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "role": "Actual complex structure",
+      "last_cursor": "628273af-03db-4857-b217-ce965bf14e77:5"
+    }
+  ],
+  "open_obligations": [
+    "Actual prime-uniform nonnegative completion of the specified averaged proposals, preserving both means, sectors and marks.",
+    "If using growing depth, genuine marked Cesaro control on that horizon; no extension of the established arithmetic window may be assumed.",
+    "Common cold complex domains and subpolynomial complex growth or unwrapped phase through primes.",
+    "The original conic/UI/HR route still lacks its own prime estimates and subsequent stationary marked arithmetic comparison."
+  ],
+  "committed": false,
+  "pushed": false,
+  "static_checks": {
+    "scoped_python_ast": true,
+    "no_control_characters": true,
+    "no_trailing_whitespace": true,
+    "local_markdown_file_links": true
+  }
+}

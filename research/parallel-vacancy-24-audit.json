@@ -1,0 +1,148 @@
+{
+  "coverage": "all cases matched independent prime-first enumeration",
+  "cases": 4887,
+  "distinct_primes": 2554,
+  "directly_recomputed_cases": 34,
+  "strata": [
+    {
+      "lower_prime": 0,
+      "cases": 4887,
+      "vacancy_min": [
+        320,
+        1056
+      ],
+      "vacancy_min_at": [
+        2113,
+        48
+      ],
+      "squared_twist_max": [
+        9,
+        17
+      ],
+      "squared_twist_max_at": [
+        17,
+        4
+      ],
+      "best_sign_mismatch_min": [
+        0,
+        8
+      ],
+      "best_sign_mismatch_min_at": [
+        17,
+        4
+      ]
+    },
+    {
+      "lower_prime": 1000,
+      "cases": 4879,
+      "vacancy_min": [
+        320,
+        1056
+      ],
+      "vacancy_min_at": [
+        2113,
+        48
+      ],
+      "squared_twist_max": [
+        1089,
+        4481
+      ],
+      "squared_twist_max_at": [
+        4481,
+        70
+      ],
+      "best_sign_mismatch_min": [
+        36,
+        140
+      ],
+      "best_sign_mismatch_min_at": [
+        4481,
+        70
+      ]
+    },
+    {
+      "lower_prime": 10000,
+      "cases": 4833,
+      "vacancy_min": [
+        10406,
+        32186
+      ],
+      "vacancy_min_at": [
+        64373,
+        266
+      ],
+      "squared_twist_max": [
+        1521,
+        13217
+      ],
+      "squared_twist_max_at": [
+        13217,
+        112
+      ],
+      "best_sign_mismatch_min": [
+        72,
+        224
+      ],
+      "best_sign_mismatch_min_at": [
+        13217,
+        112
+      ]
+    },
+    {
+      "lower_prime": 100000,
+      "cases": 4298,
+      "vacancy_min": [
+        25652,
+        78660
+      ],
+      "vacancy_min_at": [
+        157321,
+        414
+      ],
+      "squared_twist_max": [
+        9801,
+        185401
+      ],
+      "squared_twist_max_at": [
+        185401,
+        412
+      ],
+      "best_sign_mismatch_min": [
+        312,
+        824
+      ],
+      "best_sign_mismatch_min_at": [
+        185401,
+        412
+      ]
+    },
+    {
+      "lower_prime": 500000,
+      "cases": 2353,
+      "vacancy_min": [
+        100838,
+        306606
+      ],
+      "vacancy_min_at": [
+        613213,
+        822
+      ],
+      "squared_twist_max": [
+        24025,
+        506689
+      ],
+      "squared_twist_max_at": [
+        506689,
+        728
+      ],
+      "best_sign_mismatch_min": [
+        572,
+        1456
+      ],
+      "best_sign_mismatch_min_at": [
+        506689,
+        728
+      ]
+    }
+  ]
+}

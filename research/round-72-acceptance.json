@@ -1,0 +1,99 @@
+{
+  "round": 72,
+  "accepted_at_utc": "2026-11-18T18:44:58.192815+00:00",
+  "previous": "research/round-71-acceptance.json",
+  "previous_sha256": "f7f5d8cc2d7910e5c88fec913f9e973d0fb61f9548189f28fb36fd37766617eb",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/face_72",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Minimize the localized convex quadratic on the actual even primary face with both Fourier constraints and nonnegativity; use feasible primal and true tangent gap.",
+        "If retaining any linear upper certificate, use both exact coordinate endpoints. An order-d lower certificate on a growing prime subsequence would reject that optimized chord test, not follow from the finite example."
+      ]
+    },
+    {
+      "name": "/root/arities_72",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Outside the known all-square subtree, control the signed conditional first and second moments, including the cross term with the square-class return and the Jacobi Fourier coefficient of the variance.",
+        "Use the exact physical finite-field adjoint on the complete marked remainder, seeking uniform mixed and higher-arity estimates on overlapping complex neighborhoods."
+      ]
+    },
+    {
+      "name": "/root/review_72",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Minimize the squared positive-part high-density collision on one actual selected window per side. A true-face o(d) upper at fixed deficit cutoff passes; dual order-d lower bounds at all selected windows along a prime subsequence reject this test.",
+        "Use the physical finite-field adjoint with the complete signed marked remainder. A paid escape at a real floor cannot reject physical analytic continuation."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "On the smooth selected windows bound the true-face high-density hinge minimum at every fixed deficit cutoff and B growing with B=o(d). It is sufficient to find one genuine primary optimizer and selected window on each side.",
+    "Try to bound the weighted spectral response or true signed late charge without requiring a uniform upper for low-density sites, which are already paid by the normalized L1 defect."
+  ],
+  "proof_and_code_sha256": {
+    "research/smooth-windows-72.md": "af04c126b9ac58cdfa70470f2fccc86dab71e659d2b0a585f0b9084a2f32f94c",
+    "research/astra-face-72.md": "c6315bf69c07799f26d6bbdf7b2e42be751638a99cb9fa6f371a713f7a796710",
+    "research/astra-face-72-check.py": "4a05254b0820be15cae4e2827d0b8fd8b16385db81d2bfd3d3ef8a84e609e4b9",
+    "research/astra-arities-72.md": "d477a31c0506467d8df47d205fb0c1cf0c05f7894ea55bcb84a1ac8e9d3759da",
+    "research/astra-arities-72-check.py": "77e1a6ce822c044a7d28490891603ab9f435b6c1245fb8dbb2e96b33325b624c"
+  },
+  "replay_inputs_sha256": {
+    "research/translated-caps-71-checks.jsonl": "3d2a7f109ae40c7470d063758df1c3d13bd2858816cfdbc0986552f3e1eb2e20",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-new-sectors-70-check.py": "85e306737db18fed7f13f6544498fd956f22e4b68df0e867eff810c7fba3ad02",
+    "research/astra-histories-71-check.py": "1c2ccbc249589f59ab4600a3909dfd5bfe8e218ec36b6f3e7a98276ecb8be80b"
+  },
+  "floating_diagnostics": [],
+  "core_records": 2,
+  "replay_checks": [
+    {
+      "file": "research/astra-face-72-checks.jsonl",
+      "records": 1,
+      "sha256": "c2004a0355e79610e1ca25d9eb886b7a254043a191fd9c428dd98fc925741c26",
+      "arithmetic": "Arb320 and rational polygon optimization",
+      "scope": "Actual p=97 primary face and exact prior defect weights. True-face minimum, even-face maximum, origin and two-sided coordinate chord extrema.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-arities-72-checks.jsonl",
+      "records": 1,
+      "sha256": "3b3d4ad6535b2b7c858fc08ca508623b9bd03b4140337f74e9aedd8cf9eb4217",
+      "arithmetic": "Arb192 and downward integer rounding",
+      "scope": "All-arity ordered Jacobi-square residual trees in the defined real rule, including fresh return and uniform bin allowance. Threshold 21 at height 2568.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "For the exact undamped cold trajectory and each d→∞ with d=o(D), there are many common polynomial-weighted delayed windows with small marked mean excess and raw overlap, normalized negative L1 O(1/d), and normalized negative L2 O(1/sqrt(d)). Padded energy is used only to select the actual profile, with the prescribed root retained. A fixed supercritical primary mark forces order-d collision on the joint fixed-deficit and nq_i>const*d cutoff. The convex squared positive-part comparison accepts actual true-face upper certificates without worst-optimizer chord loss.",
+    "At p=97 a fully constrained even-face coordinate chord remains strictly more expensive than the corresponding quadratic extrema even with both exact coordinate endpoints. Evenization gives the full-face true minimum because the objective is convex and inversion-even. The reported maximum concerns only the even face, and no finite result supplies a growing-prime lower or upper.",
+    "At t=2031/128, all ordered residual subtrees whose internal labels are m^±2 combine in a scalar recurrence of all arities and heights. An all-level debit of 3e-10 per signed exponent gives escape at 2568. The general conditional first and second moment formula includes omitted histories but bounds no joint physical full-pool sign. Finite-field adjoint retains the actual marked input."
+  ],
+  "independent_review": [
+    "Astra audited common smooth window selection, defect norms, actual mark normalization and joint density threshold. Main used normalized endpoint padding to extend the width range to every d→∞, d=o(D); the added selection does not alter the profile. Astra supplied the convex hinge strengthening.",
+    "Astra independently replayed the actual prime face interval comparison and audited all even/full face scope and outward costs.",
+    "Main and Astra independently replayed the paid escape. Review checked the signed recurrence, fine multiplicity bound, per-bin charge and post-crossing growth."
+  ],
+  "next": [
+    "Primary: prove a prime-uniform o(d) for the actual convex high-density collision minimum on the smooth marked windows.",
+    "Primary: estimate the signed terminal charge using actual primary support and residual Fourier interpolation.",
+    "Complex: control the joint conditional signed return of all remaining histories and the full physical marked remainder on a common complex overlap.",
+    "Original all-prime ordinary Lovasz theta limit and common physical cold-end continuation remain open."
+  ],
+  "window_closeout_workflow": "Reviewed the analytic proof and two independently replayed interval checks, incorporated ranked tests, and preserved finite limitations.",
+  "usage_reset": {
+    "threshold_percent_remaining": 2,
+    "outcome": "reset",
+    "verified_percent_remaining": 100,
+    "available_resets_after": 0
+  },
+  "committed": false,
+  "pushed": false
+}

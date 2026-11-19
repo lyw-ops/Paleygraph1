@@ -1,0 +1,85 @@
+{
+  "round": 48,
+  "accepted_at_utc": "2026-11-18T11:59:29.341592+00:00",
+  "previous": "research/round-47-acceptance.json",
+  "previous_sha256": "1bd6c23465104fa95b11cbeb725834376d23a03fdd47bb17e4aa951b00cef001",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/coset_48",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-coset-48",
+      "ranked_closeout": [
+        "Use prime arithmetic to exclude the remaining diagonal-mean window for order-five patterns with a fixed supercritical ratio and gcd(b,6)=1. Actual eligible prime patterns realizing such a ratio along an unbounded sequence give counterexamples directly.",
+        "For unrestricted optima, bound one signed late secant on a comparable-length interval. A positive lower bound over every prescribed interval on a prime subsequence excludes that choice."
+      ]
+    },
+    {
+      "name": "/root/stencil_48",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-stencil-48",
+      "ranked_closeout": [
+        "Try feasible prime-mask rows reaching the static objective at a=1/2, with the exact stencil budget, in both signs. A uniform positive upper deficit on an unbounded sequence falsifies this sufficient condition.",
+        "Measure the asymptotic real finite-stencil excess for genuinely cold intervals. Positive limiting excess refutes the corresponding field-first domain budget. A positive finite excess only refutes a per-field condition."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/static-trial-48.md": "bdbc802673d067dc8cbc2ed1bc9ba25b67a6c9850ee049d03b8520a821f27900",
+    "research/static-trial-48-check.py": "c2633816fb47c73d6ab4286775a0f472705e0ab914fcd8e536cd56a909f0f243",
+    "research/astra-stencil-48.md": "d79f9f273d6294d756e04b33fc9613d5bb23948b1e136c40c0af2f41423c711d",
+    "research/astra-stencil-48-check.py": "409072a16095e67c0f99ad10c7e6d9c03d82c010276d1fa0f0a6bc0000e44ff9",
+    "research/astra-coset-48.md": "b75a5b9efa050cd53d843b471642dfd08af61835650b212522df37797468f618",
+    "research/astra-coset-48-check.py": "bb9db80c97f9f779a47b8a7120759cb772aca955f7d8b52be210d8816dc3a471"
+  },
+  "core_records": 13,
+  "replay_checks": [
+    {
+      "file": "research/static-trial-48-checks.jsonl",
+      "records": 7,
+      "sha256": "a6e2b690222f2ea70e50423ae7fd7b3f6a69d6fec772443fa6bba04bc063a879",
+      "scope": "Arb enclosures of the exact limiting measure budget, five fixed harmonic duals with rational inputs, and actual cold marked chart at prime 173.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-stencil-48-checks.jsonl",
+      "records": 4,
+      "sha256": "ed019a9dd711a4227ceb8276bc00746caf1ef87c90ba63717494b1a75b764781",
+      "scope": "Arb interval continuum and exact rational stencil transfer checks, with previously certified actual jets as input. Not a fresh computation of the three jets.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-coset-48-checks.jsonl",
+      "records": 2,
+      "sha256": "0a24c1bf71b55a9ff92e7e48cb0eba7b4b64f377c2fa1ba4e259f957d9e1e6fa",
+      "scope": "Exact integer exhaustive sieve through 200000 with 932 critical choices, plus Arb192 bounds on algebraic thresholds.",
+      "replay_byte_identical": true
+    }
+  ],
+  "inherited_replay_hashes": {
+    "research/astra-cold-37-certified.jsonl": "925fe7e42cfc2f7b92672783df9e8cbd01a857bb4df0b921601cc9397bc4e6b8"
+  },
+  "proof_scope": [
+    "For an order-five witness with even b>2, squaring all available plus fibers gives a clique of size 5b/2, so the prime clique bound excludes fixed excess. For odd b divisible by three, a genuinely twisted additive Paley compression gives b<=3(sqrt p+3)/10, also asymptotically below the required ratio.",
+    "All remaining order-five candidates have limsup b/sqrt(n)<=0.465531. The interval above 1/sqrt(5) remains open and an actual family there could refute the limit. The putative supercritical diagonal mean lies between about -0.207883 and -0.139620 asymptotically, with a smaller interval for fixed strict excess. The integer scan finds no critical candidate through 200000.",
+    "An explicit sign-changing three-node measure inequality at (a,3,28) holds with a uniform limiting margin above .049 for 0<a<=1/2, including moving floors, in both primes and squares. A different real forward-difference stencil with hot addendum has rigorous excess above 1998 at primes 113,173 and square 121 by transfer from inherited jets. These positive finite excesses do not contradict the field-first prime hypothesis.",
+    "A static positive row trial rewarding both its mark and squared bulk Hellinger mean suffices for the specific asymptotic half-plane stencil if both signs reach W_a. The exact harmonic opposite-sector dual proves sharp dual equivalence. The limiting budget of the 128-hot-node stencil at a=1/2 lies strictly between .017 and .0195.",
+    "Five interval-certified harmonic duals prove finite deficits even at the conservative upper budget. At prime 173 the actual cold mark is below the exact limiting budget lower bound, yet the minus static objective misses W_a by more than .028. This strict gap concerns the single cold scalar and is not a claim about the full finite stencil or an asymptotic obstruction."
+  ],
+  "independent_review": [
+    "Checked sign closure under squaring and odd powering, the ten-fiber and order-three character compression eigenvalues, and Hanson-Petridis prime clique application.",
+    "Checked the actual local complex radius, forward-difference transfer and sign-changing kernel against the certified round-37 jet hash and whole-half-plane measure bound.",
+    "Checked the static Cauchy comparison, harmonic minimax exchange and LP dual elimination, Chebyshev budget change of variables, and cold chart versus certified dual gaps.",
+    "Replayed all 13 rows in three files byte-for-byte, with rounded harmonic dual witnesses supplied as saved inputs rather than optimized again."
+  ],
+  "next": [
+    "Continue the actual prime fixed-real-stencil route beginning at 28. The basic static Hellinger sufficient condition can be strict even when the cold scalar meets its budget; focus on a stationary-dependent improvement of the Cauchy step or direct signed contractions rather than treating the static optimization as equivalent.",
+    "Complete the prime arithmetic exclusion or construction for gcd(b,6)=1 in the order-five interval above 1/sqrt(5). In parallel preserve the general late secant without a subgroup assumption."
+  ],
+  "window_closeout_workflow": "Both completed routes supplied two ranked tests and explicit ways to disprove them. Main added exact dual upper certificates, retained a finite unsuccessful static case, and kept the original asymmetric prime targets.",
+  "committed": false,
+  "pushed": false
+}

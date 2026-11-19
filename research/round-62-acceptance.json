@@ -1,0 +1,84 @@
+{
+  "round": 62,
+  "accepted_at_utc": "2026-11-18T16:11:46.821283+00:00",
+  "previous": "research/round-61-acceptance.json",
+  "previous_sha256": "683bbb7d0c8e2ad5ec485c8508e97b4bbf077179b0be7f099c39dc2e9f084ee3",
+  "goal_status": "active",
+  "target_status": "open",
+  "research_agents": [
+    {
+      "name": "/root/primitive_62",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-primitive-62",
+      "ranked_closeout": [
+        "Identify arithmetic overlaps of the traceless symmetric and exterior squares of P_1 and P_-1 with existing fields and keep a signed return at a further vertex. A strict physical overlap below 2031/128 passes. A fully debited escape with a surviving growth term rejects the chosen prescription.",
+        "Recenter the distinguished trial on the larger AB residual or its full Sp8 output and keep the linear non-Jacobi interactions. Verify a strict overlap below the target floor or a fully debited escape with the new coefficients."
+      ]
+    },
+    {
+      "name": "/root/weighted_62",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-weighted-62",
+      "ranked_closeout": [
+        "Seek a globally coordinated net-only pair with full Fourier equations in one typical adaptive order and the common masses on the diagonal. One o(t) excess after E_t/4 on every prime passes. An individually feasible small-patch method always has the reference cost.",
+        "If a positive reference excess persists on unbounded primes, test all true target differences with their weighted score outside o(t) extreme sites. A bound for all true changes strictly smaller than the reference excess proves a full-face lower barrier."
+      ]
+    },
+    {
+      "name": "/root/review_62",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "role": "independent stochastic rigidity, true-root window, Casoratian, net-only transport, arithmetic sign and physical overlap audit",
+      "ranked_closeout": [
+        "For the two actual prime average rows at a growing marked depth add s times the canonical root-neutral mean vector to the scaled average. With d=(s/4-Y)_+ off the root test min[(2L-I)d]>=-s/4 in both signs for s=o(1). This proves positivity with the exact sector and mark. The prior absolute RMS bound diverges in the short window."
+      ]
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/stochastic-repair-62.md": "3251deb90d4d54d98d27dfb98f055a842a0308bdbc279b6a810c4ac879062425",
+    "research/astra-primitive-62.md": "0914645a841e24a80dea68bc2d7569cc4da9908e0b269f49f7b937bb2811a77a",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-weighted-62.md": "1c49c2a923518a6064a541968d0cc23a8aeb7a9fbd44ce9ea875660a24ee37fe",
+    "research/astra-weighted-62-check.py": "8458216b665f8732f9cc687dfbece26480fb502ecc2892d2763c047c46aa9777"
+  },
+  "core_records": 8,
+  "replay_checks": [
+    {
+      "file": "research/astra-primitive-62-checks.jsonl",
+      "records": 4,
+      "sha256": "2203f7dc92752a4ccc4e30435f5f512e5832ddf3bd77fda218ab7e70dce9a421",
+      "scope": "Exact norm-one Jacobi identities in five bases, Arb192 signed return including all odd transports, fully debited triple escape, and 18 closed slabs of actual physical overlap.",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-weighted-62-checks.jsonl",
+      "records": 4,
+      "sha256": "10e072593b0c884c22e7b4944f9d6809e1114ece16b8fcf519529f3f7fe8a374",
+      "scope": "Exact cyclotomic net-only transport radii for the entire even p=97 face and three exact prime forbidden-run comparisons.",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "With signed scalar retuning and frozen rational packet caps the actual common physical marked branch reaches (1040022,1040028)/65536 at imaginary half-width 2^-20 and |m_q|<=3/sqrt(n), through all sufficiently large eligible primes and prime squares. It overlaps the prior accepted rectangle over (1040026,1040028)/65536. Floating fitting proposed the caps. The proof uses the frozen integers, outward intervals and a field-uniform Picard argument.",
+    "Every odd Jacobi transport P_h of the independent Sp8 source is geometrically simple and arithmetically orthogonally self dual, with one unit in its symmetric square and unit phase +1. Distinct odd indices have no cross-unit. P_1 and P_-1 have dimension twelve. At the specified real floor the all-odd contraction saves between 849119 and 849123 times 1e-15 at each Jacobi sign. The specified triple propagation crosses mass 21 at height 1247 and escapes via its surviving quadratic channel. This is a lower obstruction for that propagation only.",
+    "An actual nonzero true-face difference is a Fourier-sector eigenvector. Its two normalized net laws have absolute point cap 2 sqrt(p)/n, uniform down to arbitrarily small total net mass. Almost every common primitive order for a prescribed reference pair and O(D) minimizing pairs realizes the full charged late minima by moving only the net mass with nonwrapping radius ceil(n^(3/4+epsilon)). A fixed proportion of net mass in those orders needs Omega(n/R) local source and recipient intervals.",
+    "For every primitive order a nonzero sector update supported in r cyclic intervals must have total diameter at least the number of r-run forbidden starts, which is at least n2^-r-r(sqrt(p)+1)/2. At the stated radius any method using o(log p) individually feasible local patches has zero change. By applying the same zero-mean sector argument, this restriction also holds for root-pinned signed corrections after removing any extra canonical mean. The p=97 full even-face radii of five net-only and four with common mass rerouting are finite exact checks.",
+    "A doubly stochastic map preserving one prescribed sector, or its even part on the true even input, cannot change the actual averaged row if it preserves its root value in the proved marked window. This holds even for adaptive choice and separate maps for the two signs. An exact stability estimate bounds the counting Euclidean change by O(T sqrt(root leakage)+sqrt(W)*T^(3/2)*sqrt(norm of the symmetric commutator)). The bound concerns the actual scaled normalized L2 change and does not furnish worst-site completion."
+  ],
+  "independent_review": [
+    "Main checked the norm-one factor +1 by the quadratic norm Gauss sum, the two twists and the phase in the pure squares, the exact residual count used for continued escape, and the actual analytic branch matching. Fresh Astra independently spot-checked the same arithmetic phase and debit. Main independently replayed all four primitive records.",
+    "Main and fresh Astra checked the positive and negative amplitude caps, monotone quantile coupling of the normalized excess laws, score Lipschitz bound, and the nonzero lowest-degree Vandermonde coefficient. Main independently replayed the four exact weighted records.",
+    "Fresh Astra checked the unique maximum from the inherited normalized RMS estimate, the invariant fixed space under the one-sector projection, the activation induction and the Dirichlet stability constants. Main extended the exact invariance statement to input-even sectors and applied the Casoratian proof to the full signed completion step after removing the allowed mean."
+  ],
+  "next": [
+    "Prioritize the signed one-sided worst bulk spill on the genuine growing-depth prime averages with a vanishing root-neutral mean reserve. Test one exact correction with global cross-patch support and certify all sites. A restricted no-change result for stochastic maps or individually feasible local patches has already been proved.",
+    "Use net-only conservation over globally coupled real exposed supports and exact Fourier constraints while retaining the terminal charge. One O(D)-window true trial with o(t) charged excess on every prime is still needed.",
+    "On the complex path use nonscalar square constituents of the odd transports or a distinguished Sp8 seed. Seek an overlapping physical cap across 2031/128 with the stated phases fully propagated.",
+    "The all-prime ordinary Lovasz theta limit, exact matching-depth positivity and common cold continuation to 1/2 remain open."
+  ],
+  "window_closeout_workflow": "Collected two ranked tests from each research route and one from the independent review. Integrated the exact stochastic and local patch limitations with the verified new extension and the two constructive target estimates.",
+  "committed": false,
+  "pushed": false
+}

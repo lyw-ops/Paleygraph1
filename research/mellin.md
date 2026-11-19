@@ -1,0 +1,49 @@
+# Joint symmetry in the third smoothing update
+
+This note gives a proof draft that the marked coordinate $v^{(3)}_0$ in [complementary smoothing](smoothing.md) tends to zero for each fixed $\tau>0$. It handles every term of the third-update feedback by joint Mellin symmetry. The proof uses Katz's convolution category and a uniform rank bound, and awaits independent mathematical review.
+
+## The feedback fields as Mellin traces
+
+For positive even $m$, use $\mathcal H_m$ and $H_m$ as in the hypergeometric calculation in [smoothing.md](smoothing.md). Define $N_m$ on $\mathbb G_m$ as the middle extension, shifted by $[1]$, of $\mathcal H_m(m)\otimes\mathcal L_{\chi(1-a)}$. Also include $N_m\otimes\mathcal L_{\chi(a)}$ to restrict to $Q$ by averaging over the two character lifts. On $a\ne1$ the perverse trace of $N_m$ over a field of order $q$ is $-q^{-m}\chi(1-a)H_m(a)$. At $1$ it vanishes because the even-degree hypergeometric has unipotent inertia there and the quadratic twist changes each inertia eigenvalue to $-1$.
+
+The bulk values of $K T_m(\lambda/\sqrt p)$ are the average of these two Mellin traces up to $O_m(p^{-1/2})$. Indeed, the inverse-Fourier comparison preceding the Parseval estimate has an error **constant in the group coordinate**. After multiplication by $s$ and forward Fourier transform its error is $O_m(\lambda_k/p)$, uniformly small. This structure also gives bounded feedback fields for fixed polynomial degree using purity of the Mellin cohomology away from finitely many bad characters.
+
+## Symplectic sign via the norm-one torus
+
+The normalized hypergeometric trace is real since conjugating the additive character is equivalent to sending the $2m$ sum variables to their negatives. With $q\equiv1\pmod4$, the Gauss-sum formula for the Mellin transform gives $H_m(a^{-1})=\chi_q(a)H_m(a)$. In the transform, replacing $\psi$ by $\psi^{-1}$ conjugates $G(\psi)\overline{G(\psi\chi_q)}$ and hence is equivalent to replacing $\psi$ by $\psi\chi_q$. This holds at the exceptional characters as well. Since $\chi_q(1-a^{-1})=\chi_q(a)\chi_q(1-a)$, the trace of $N_m$ is real and inversion-invariant over every extension. This is the arithmetic self-duality relevant to middle convolution. The same holds after twisting by $\chi_q(a)$.
+
+For $q=p^d$, take the norm-one torus $T=\{a\in\mathbb F_{q^2}^{\times}:a^{q+1}=1\}$, and let $\xi(a)=a^{(q+1)/2}\in\{\pm1\}$. On $T\setminus\{1\}$,
+
+$$\chi_{q^2}(1-a)=(-a^{-1})^{(q+1)/2}=-\xi(a),\qquad \chi_{q^2}(a)=1.$$
+
+Each character $\psi$ of $\mathbb F_{q^2}^\times$ restricting to $\xi$ satisfies $\psi^q=\psi\chi_{q^2}$. With an additive character obtained from the trace to $\mathbb F_q$, $G(\psi^q)=G(\psi)$ by a Frobenius change of variables. Neither $\psi$ nor $\psi\chi_{q^2}$ is trivial. Thus the Mellin transform of $H_m$ equals $-q^{2m}$ at **all** the $q-1$ extensions of $\xi$. Averaging over them projects onto $T$ and gives
+
+$$\sum_{a\in T}\xi(a)H_m(a)=-q^{2m}.$$
+
+Consequently the sum of the perverse traces over $T$ is $-1+O_m(q^{-1})$, including the correction at $1$. [Katz, Theorem 9.1 and the norm-one calculation at the start of Chapter 10](https://web.math.princeton.edu/~nmk/mellin331.pdf) identify its limit as the Frobenius–Schur sign of $N_m$. The sign is $-1$ for both $N_m$ and its quadratic $a$-twist. These are geometrically irreducible, and their unique singularity on $\mathbb G_m$ is at $1$, so no nonidentity multiplicative translation fixes them. The Lie-irreducibility criterion in Katz Corollary 8.3 then gives irreducibility even on the identity component of the geometric convolution group.
+
+## Joint sign symmetry
+
+Adjoin to the direct sum of any finite number of these feedback objects the rank-one Mellin object giving $z=G(\psi)/G(\psi\chi)$, up to a scalar of modulus one. Its geometric convolution character has infinite image. A finite image would force the values over each extension to lie in a rotation of a fixed finite set, incompatible with [Katz 9.5 for Gauss sums](https://web.math.princeton.edu/~nmk/Katz-GKM.pdf). Write $G$ for the resulting joint geometric convolution group.
+
+On $G^\circ$, the central Frobenius–Schur element of the derived group acts as $-I$ on all the feedback representations because each is irreducible and symplectic. This uses the standard [central-character formula for the Frobenius–Schur indicator](https://arxiv.org/abs/1203.1901). That element acts trivially on the one-dimensional character. On the other hand, the connected center maps onto the one-dimensional character's torus. It acts trivially on the symplectic representations by Schur's lemma. Multiplying these elements produces a joint geometric symmetry sending $(z,B_2,B_4,\ldots)$ to $(-z,-B_2,-B_4,\ldots)$, simultaneously for the quadratic-twisted fields.
+
+Any tensor product corresponding to a monomial of odd total degree in $z,z^{-1}$ and the feedback traces has no trivial geometric representation. In particular the conclusion applies after replacing these variables by the real part of $z$ and the averages of the two character lifts. We use a uniform rank estimate and character orthogonality to turn this into a prime-aspect moment bound.
+
+## Uniform rank for a fixed product
+
+Write $\dim_T M=\chi_c(\mathbb G_m,M)$ for the convolution-category dimension, and $r_M$ for the sum of the generic ranks of the nonpunctual summands. Each original input $N$ is pure perverse of weight zero, has bounded $\dim_T N$ and $r_N$, is tame at $0,\infty$, and is lisse off $1$ in $\mathbb G_m$. This includes the one-dimensional Kummer object for $z$ and its convolution dual. A fixed iterated middle convolution is pure and geometrically semisimple, and its $\dim_T$ is the product of the dimensions of the inputs. Inductively it is adapted to $\{1\}$ by applying [Katz, Lemma 19.4 and its proof](https://web.math.princeton.edu/~nmk/mellin331.pdf) with the new tame input first. In particular any punctual part is supported at $1$ and its dimension is bounded by $\dim_T M$. This induction needs tameness at the boundaries only for the new input, so it does not assume a tameness assertion for the accumulated product.
+
+For the nonpunctual part write $N=F[1]$ and $M_{\rm np}=L[1]$, where $F,L$ are middle extension sheaves on $\mathbb G_m$. At a generic $a\ne1$, the generic rank of $N\star_{\rm mid} M_{\rm np}$ is bounded by the dimension of $H_c^1(\mathbb G_m,F\otimes[a/x]^*L)$. This follows from the compactly supported multiplication pushforward and the construction of middle convolution as an image. The only interior singularities of this tensor product are at $1,a$. The conductor of the new tensor product is bounded by
+
+$$r_N\dim_T(M_{\rm np})+r_M\dim_T N.$$
+
+At the two interior points only one factor is singular, so its conductor is multiplied by the rank of the other factor. At $0,\infty$ the $F$ factor is tame, hence the Swan conductors are bounded by $r_N$ times those of $L$ with the boundary points exchanged. These are the Euler characteristic estimates in the proof of Lemma 19.4 (use conductor $\mathrm{drop}+\mathrm{Swan}$ on $\mathbb G_m$ and Swan at the two missing boundary points). The compactly supported degree-zero group vanishes, and $\dim H_c^2\le r_N r_M$. The Euler characteristic formula therefore gives a uniform bound for the displayed $H_c^1$. Convolving the punctual part of $M$ contributes rank at most $r_N\dim_T M$. Starting from the fixed ranks and dimensions, this gives a bound for each fixed product independent of $p$.
+
+## Moment cancellation and the third update
+
+For a fixed monomial of odd total degree, let $M$ be the corresponding middle convolution. For all characters good for the chosen direct sum, the product of Mellin traces is the Mellin trace of $M$ by the tensor-functor property. The bad set has bounded size, since the input ranks are bounded and bad characters must cancel tame boundary characters. For every character, compactly supported cohomology of the twisted $M$ is concentrated in degree zero and of weights at most zero by purity and Katz Lemma 2.1. Its trace is bounded by $\dim_T M$, so restoring all bad characters costs $O(1/p)$ in the average. Character orthogonality makes the all-character average equal to the perverse trace of $M$ at $1$. Joint sign symmetry excluded a geometric $\delta_1$ summand. Every remaining middle extension contributes at most its generic rank times $p^{-1/2}$ by the stalk weight bound. This proves $O(p^{-1/2})$ for each fixed odd monomial, with a constant allowed to depend on the polynomial and the input degrees. The tensor compatibility and trace argument follow [Katz, Chapters 4, 5 and 7](https://web.math.princeton.edu/~nmk/mellin331.pdf).
+
+For fixed $\tau>0$, approximate the even function fed into $K$ by an even polynomial in the bounded Jacobi modes. The operator norm of $K$ and the Lipschitz bound of the outer square root control this approximation in normalized $\ell_2$. The fixed polynomial feedback has bounded coordinates by the same Mellin trace bound (and the uniform Fourier comparison above). On its bounded joint range approximate the outer function multiplied by $x$ by a polynomial and take its odd part under simultaneous reversal of both arguments. The mixed moment estimate implies this average tends to zero. Letting the approximation errors tend to zero proves $v^{(3)}_0=o(1)$. The marked self-term is $O(1/n)$ and omitting the trivial mode from the bulk convolution changes its normalized $\ell_2$ norm by $O_\tau(n^{-1/2})$. The fourth update introduces further twists of convolution products. Control of the limiting smoothing residual remains open.
+
+`feedback.py` measures low-degree versions of the mixed moments. The [recorded run](../data/mixed-moments.csv) compares degrees $2,4,6$ through $p=1000033$. All the measured odd correlations at that prime have absolute value below $0.0017$.

@@ -1,0 +1,74 @@
+{
+  "round": 39,
+  "accepted_at_utc": "2026-11-18T06:01:47.543486+00:00",
+  "previous": "research/round-38-acceptance.json",
+  "previous_sha256": "f5a4b5d5d14cfb08a72e4f416324acc2e131e51e3ca59db1be3b6f19ec511b8d",
+  "target_status": "open",
+  "goal_status": "active",
+  "research_agents": [
+    {
+      "name": "/root/positive_39",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-positive-39"
+    },
+    {
+      "name": "/root/complex_39",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "prefix": "research/astra-complex-39"
+    }
+  ],
+  "proof_and_code_sha256": {
+    "research/astra-complex-39-check.py": "297b31bf49b7de2a83578b8e3316c78d67066c898cb39cf482ac70db5b40858f",
+    "research/astra-complex-39.md": "4a09b0fda9d5d4dd43d4282e7f063ac70fcd488d4d79004fd869d2c342dbfeff",
+    "research/astra-positive-39-check.py": "068eed58c5490f6be68ea680aba855688d983bdbe84b3f5ba35d3e82c0d522f6",
+    "research/astra-positive-39.md": "f8537a945d274efb7f6a143dbceb9f1c51e1ce460190fff510ec6e2dcca61062",
+    "research/twisted-coset-occupancy-39-check.py": "8d3a1273d29f965d4df019d5174866b8c7f64015cf6765966d40fd05189f7fce",
+    "research/twisted-coset-occupancy-39.md": "21ac833bd2579eca927085d333d3be957ecc0e510c93f99103f3db24a44d46b9"
+  },
+  "core_records": 9,
+  "replay_checks": [
+    {
+      "file": "research/astra-positive-39-certified.jsonl",
+      "records": 1,
+      "sha256": "70af6ce15f73104ba0484ac6e50957d308245753d31d5a29aee9696cc07c7751",
+      "scope": "Arb128 compact signed test for two actual pinned reflections",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/astra-complex-39-checks.jsonl",
+      "records": 2,
+      "sha256": "79a040ac5e5c39b5b42e0c931b7990b3c979ff13d5872b53da2a08958f1d009e",
+      "scope": "Exact rational physical marked jets through order 13",
+      "replay_byte_identical": true
+    },
+    {
+      "file": "research/twisted-coset-occupancy-39-checks.jsonl",
+      "records": 6,
+      "sha256": "ad65ef437c1e40803ac5c78596081b885923bc41b2303fe8e0a31fe884a8b542",
+      "scope": "Exact integer prime and square coset fiber counts",
+      "replay_byte_identical": true
+    }
+  ],
+  "proof_scope": [
+    "At actual T=1 and tau=7/50, two zero-threshold pinned reflections have limiting signed-test limsup less than -0.01212878 for each sign on all sufficiently large eligible primes. This uses an Arb compact limiting integral plus a norm bound for the unknown transformed first threshold. It tolerates total nonnegative threshold at most .01 and vanishing canonical mean or mark perturbations.",
+    "At the same T and tau, complementary theta ensures an interior feasible completion for at least one sign. Iterating the actual pinned reflections at threshold 1/2000 produces a nonnegative row in some sign within O(n) reflections. The sign is not specified in advance and simultaneous positivity is open.",
+    "For the true time-averaged rows, add a mark-zero anchored row and apply one reflection. The sufficient scaled mean increment is at most 2 n^(1/4) times the corresponding opposite projected terminal difference norm divided by T. It is O(sqrt(n)/T) uniformly for floors in [0,1], so this gives explicit simultaneous completion at any T much larger than sqrt(n). The known short marked-cancellation window does not reach this horizon.",
+    "For the true stationary curve, the variational envelope gives the first 2J signed scalar coefficients from J directional Hessian jets and an explicit square norm defect at order 2J+1. A finite Bang inequality permits field-first fixed-order quasi-analytic derivative bounds to propagate actual hot decay. The real test allows marked ramification.",
+    "On actual squares the hot and cold data force violation of these derivative envelopes in finite blocks above any fixed starting order, both for supremum and integrated derivative tests. The prime-uniform scalar derivative envelopes remain unproved.",
+    "For an even subgroup B of nonzero squares, the signed shifted coset fiber second moment over opposite cells is exactly (q-S^2)/2, with S the twisted character sum. A near-critical twist forces almost two-to-one fibers outside the (+,+) cells with an explicit parity law for collisions. Positive linear-in-p odd-cell counts would exclude this twisted single-coset obstruction through primes. Finite exact records show the square norm-one subgroup has zero odd cells; no all-prime count or general critical-support gap is proved."
+  ],
+  "independent_review": [
+    "Checked endpoint normalization, the coherence and mean allowance, clipped reflection as an affine absolute-value map, both signs of the second threshold calculation, all contraction and quadrature errors, and the feasible-sign distance charge.",
+    "Checked the actual stationary variational jet formula and signed coefficients, the derivative-level crossing estimate, the field-first quantifiers and square high-order extraction.",
+    "Checked the coset pair parametrization, the exact diagonal count, the signed second and total moments, the parity after inversion, and direct integer verification at three primes and three square orders."
+  ],
+  "next": [
+    "At a depth in the short marked window seek a genuinely prime uniform control of the signed terminal projection or of many repair steps. The two-step obstruction and one-sign feasible construction do not settle the simultaneous question.",
+    "Try an arithmetic estimate for the signed stationary derivatives or direct cold access of the physical marked scalar.",
+    "For the alternating critical coset branch, seek a prime occupancy lower bound in the shifted coset map, or a separate argument for the two-point fiber profile."
+  ],
+  "committed": false,
+  "pushed": false
+}
