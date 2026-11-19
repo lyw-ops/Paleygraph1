@@ -38,3 +38,16 @@ python3 scripts/research_index.py --check
 The verification option checks the latest record's explicit file-hash maps and previous-record hash. It does not establish review independence, replay output, mathematical correctness or a complete dependency closure. Use the record's own scope and the [replay guide](REPLAY.md) for those checks.
 
 A handoff should name the exact acceptance record and relevant files, list the remaining proof obligations and explain the next proposed test. Keep historical handoffs as snapshots; link the new checkpoint rather than rewriting the old history. Navigation updates and research acceptance are separate changes and can be reviewed separately.
+
+## Maintain the published Python catalogue
+
+The [Python catalogue](PYTHON.md) is generated from a chosen published Git revision. It covers both shared tools and round-specific scripts, while retaining their original paths. Local drafts are excluded until they are part of the chosen revision.
+
+```sh
+git fetch origin
+python3 scripts/paley.py index --ref origin/main --write
+python3 scripts/paley.py index --check
+python3 -B -m unittest discover -s tests -p 'test_python_tools.py'
+```
+
+The check compares the generated catalogue and guide with the recorded source revision. Refreshing it changes navigation metadata only. A tool launched through the common runner executes the current checkout version, so its source snapshot and relevant evidence still need to be checked for a mathematical replay.

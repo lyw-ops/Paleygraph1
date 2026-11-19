@@ -12,6 +12,19 @@ python3 -m venv .venv
 
 This certifies finite theta bounds for the listed primes. The asymptotic conjecture requires a separate proof.
 
+## Unified Python entry point
+
+The [Python catalogue](PYTHON.md) groups the published scripts and provides a common runner:
+
+```sh
+python3 scripts/paley.py list --group quadratic
+python3 scripts/paley.py show real-two-marks-91-check
+.venv/bin/python -B scripts/paley.py run theta --certify 5 13 41
+.venv/bin/python -B scripts/paley.py run research/real-two-marks-91-check.py
+```
+
+The runner uses the invoking interpreter, runs from the repository root and supplies that root on `PYTHONPATH`. It preserves the selected script's arguments, output and exit status. Listing and inspection do not execute the selected script. Its catalogue comes from a published Git snapshot; new local scripts can still be run directly at their original paths.
+
 ## Replaying an accepted record
 
 1. Run `python3 scripts/research_index.py` to locate the latest acceptance record in this checkout.

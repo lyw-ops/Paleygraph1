@@ -1,0 +1,3026 @@
+{
+  "schema_version": 1,
+  "source_revision": "76b8dfcf21e4276cb56320bf8f699215a0566ce3",
+  "tools": [
+    {
+      "path": "bulk_caps.py",
+      "group": "repairs",
+      "round": null,
+      "description": "Compare capped stationary Fourier mass with fixed-depth smoothing.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "1977be789d8d515bf4a274cb2a8fb95120ded460e9d8fcc99a0af1fa02814ce0"
+    },
+    {
+      "path": "coset_activation_probe.py",
+      "group": "response",
+      "round": null,
+      "description": "Compare marked inverses after splitting the stationary diagonal by cosets.",
+      "static_imports": [
+        "poisson_weights.py",
+        "sensitivity.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "3646c6dc6c57daae04d033af9889dc7229c22daec9a877482f9a5f1aeb028ee2"
+    },
+    {
+      "path": "coset_bands.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Compare signed spectral gaps on unions of frequency cosets.",
+      "static_imports": [
+        "sensitivity.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "96dacd1d0039bd5b477db3e0e625f249b246eb658cea33c6fee0c34ac39c3352"
+    },
+    {
+      "path": "coset_defects.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Enumerate sign defects on self-inverse cosets at near-square prime orders.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "694e096a1592cf84421f1b6c1100871a5795167dc063e04833a1e0bebd66c811"
+    },
+    {
+      "path": "coset_majorants.py",
+      "group": "repairs",
+      "round": null,
+      "description": "Compare Fourier repairs that combine point and subgroup-coset witnesses.",
+      "static_imports": [
+        "iterate_majorants.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "a0795e51c8e8dd678b43f41a913db80f14e30678cf55aea9f16af394c6a1f813"
+    },
+    {
+      "path": "coset_phase_certificate.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Exhaust the necessary Fourier profiles for a critical coset cover.",
+      "static_imports": [
+        "coset_phase_check.py"
+      ],
+      "sha256": "2acdfdfe26f2df0d24a278df02c4ecb5cbc4b3138b030ed29ffe6a6a4591cdc0"
+    },
+    {
+      "path": "coset_phase_check.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Check difference cliques for cyclic sums of equally weighted characters.",
+      "static_imports": [],
+      "sha256": "d279f91772322b8e8dfaf35bbabec271022d2ec7d6e893922c4fa561ee31215c"
+    },
+    {
+      "path": "critical_sets.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Search for critical-size frequency sets with small mean Jacobi deficit.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "88e6be554244da2a83b34daa2515171c6c8da0bba934e77530f2161e4e0c484f"
+    },
+    {
+      "path": "endpoint_extension_certificate.py",
+      "group": "endpoints",
+      "round": null,
+      "description": "Check an endpoint extension with a genuinely active nonnegativity constraint at p=97.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e"
+    },
+    {
+      "path": "endpoint_mixture.py",
+      "group": "repairs",
+      "round": null,
+      "description": "Combine projected reference trials and selected Fourier tests at the theta endpoint.",
+      "static_imports": [
+        "quadratic_gap.py",
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "b3c0374b48f534b63fca2e1ebb7315dabad58150ab186a81fbdc04c149b4dc24"
+    },
+    {
+      "path": "endpoint_norm.py",
+      "group": "endpoints",
+      "round": null,
+      "description": "Probe least-norm theta endpoints and marked support compressions.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69"
+    },
+    {
+      "path": "endpoint_tangent.py",
+      "group": "endpoints",
+      "round": null,
+      "description": "Compare the first one-sided penalty switch and its mark sensitivity.",
+      "static_imports": [
+        "endpoint_norm.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "ef3502ce59d9addc17e79fbe5b2248ebafc1fa753d14a99c6fa52fc436b23776"
+    },
+    {
+      "path": "endpoint_tangent_certificate.py",
+      "group": "endpoints",
+      "round": null,
+      "description": "Certify the first one-sided switch on the larger theta side at p=809.",
+      "static_imports": [
+        "endpoint_norm.py",
+        "theta.py"
+      ],
+      "sha256": "e717969054a57d57b949ae2a2ca3a713576546afb0234a01f9f3976409ff85bb"
+    },
+    {
+      "path": "exterior_focus.py",
+      "group": "response",
+      "round": null,
+      "description": "Compare an exterior chosen by Jacobi products with a stationary reference.",
+      "static_imports": [
+        "coset_activation_probe.py",
+        "poisson_weights.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "57525fe1858d0c55ab31b95804bc28ae21770e429eddcbe75166da43e0b529ae"
+    },
+    {
+      "path": "face_ranks.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Check the two-label rank integral for small Paley localizations.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "a41ed1c1bab3935492dad757892558cb253a98723a8129d56f6524d9e9b0223a"
+    },
+    {
+      "path": "feedback.py",
+      "group": "smoothing",
+      "round": null,
+      "description": "Measure mixed correlations and fourth-update terms in Fourier smoothing.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "f327097da5182b77da68b72bf25c62b5245a5b9f69a19b1619ebfe4ce78f831f"
+    },
+    {
+      "path": "iterate_majorants.py",
+      "group": "repairs",
+      "round": null,
+      "description": "Build Fourier certificates from averaged iterates and translated witnesses.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "65426831bcfb1c570383f5cecd5a961045eb684a3d13fe94679b57399e1288c7"
+    },
+    {
+      "path": "log_means.py",
+      "group": "smoothing",
+      "round": null,
+      "description": "Probe the mean bulk logarithm along the Paley smoothing path.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "09007d6a019fa6f4a95ef1e31e7a45fcfc8f4b1fb62055917dec3b266db34010"
+    },
+    {
+      "path": "mobius_probe.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Count overlaps of subgroups under the Möbius map on square roots.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "58e152f6caaf03cf978b7cf5a12a9532f7c5afac8c4ac1926ecb57cb78f35343"
+    },
+    {
+      "path": "negative_pairing.py",
+      "group": "repairs",
+      "round": null,
+      "description": "Compare the projected-iterate negative pairing with stationary-free bounds.",
+      "static_imports": [
+        "iterate_majorants.py",
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "3f4eda972e79b3696189462282637a8d5b4278495b620ee363bbbc9d01d21680"
+    },
+    {
+      "path": "neighbor_compression.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Measure the largest signed additive Paley eigenvalue on common neighbors.",
+      "static_imports": [],
+      "sha256": "a61f182737605f1dd3c73643efdedb3ce23b9834262e2e5eecb926da2b501902"
+    },
+    {
+      "path": "one_sided_penalty.py",
+      "group": "quadratic",
+      "round": null,
+      "description": "Measure and enclose marks at fixed inverse penalties along the one-sided path.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "d9cf57235341274201aec07bbce88c635386aae4176d4d76d7395a1945321444"
+    },
+    {
+      "path": "parallel_kernel_11.py",
+      "group": "endpoints",
+      "round": 11,
+      "description": "Replay marked endpoint norm bounds using the paired-support linear programs.",
+      "static_imports": [
+        "endpoint_extension_certificate.py",
+        "endpoint_norm.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "b2b95fe1ed59be586ed670b9928685e2454ab85b31710121b6f015c5354f6f60"
+    },
+    {
+      "path": "parallel_sampling_12.py",
+      "group": "endpoints",
+      "round": 12,
+      "description": "Replay folded support counts and centered leakage on Paley interval samples.",
+      "static_imports": [
+        "endpoint_extension_certificate.py",
+        "endpoint_norm.py",
+        "theta.py"
+      ],
+      "sha256": "2f6f28faa80b59d4cfb223f3c9393163c3997e274ccdc6ff78cbbaf5c4a9ee19"
+    },
+    {
+      "path": "parallel_sparse_check.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Recheck the collision comparison and deterministic sparse square control.",
+      "static_imports": [
+        "poisson_weights.py",
+        "square_control.py"
+      ],
+      "sha256": "cb9dbe1fa79c3bb6014e6ad320d8210ac3e1c692db474f17253f6fc4c74b98d0"
+    },
+    {
+      "path": "poisson_weights.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Probe random sparse frequency weights with the FFT log certificate.",
+      "static_imports": [
+        "rank_partitions.py",
+        "sensitivity.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "0750feda55c588da2dfd8c66ced7c75dfebb0e1f81d17006194e1bf6c660efef"
+    },
+    {
+      "path": "progression_boxes.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Compare critical-size frequency boxes, intervals, and subfield controls.",
+      "static_imports": [
+        "critical_sets.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "947ae3dfb063010065578fb3105239ea73781584476dbbfe1fc901014add84af"
+    },
+    {
+      "path": "quadratic_angle.py",
+      "group": "quadratic",
+      "round": null,
+      "description": "Certify normalized sector energies using a single larger-width trial.",
+      "static_imports": [
+        "quadratic_gap.py",
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "29e617179241f6bce2a0cdc2d2f09132232be96d99f7ef3061c18011f237a629"
+    },
+    {
+      "path": "quadratic_compression.py",
+      "group": "quadratic",
+      "round": null,
+      "description": "Measure the two marked compression costs on the actual quadratic support.",
+      "static_imports": [
+        "endpoint_norm.py",
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "591d60543b549a181f6a896e22dffbb8a9ace1745848f576ea18a73a94471bf7"
+    },
+    {
+      "path": "quadratic_fourth.py",
+      "group": "quadratic",
+      "round": null,
+      "description": "Enclose the reciprocal theta path's fourth moments and signed derivative.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "58032aa1ae3da5f19427a4381055697c644cf14530ef976a80c0632e01ba449f"
+    },
+    {
+      "path": "quadratic_gap.py",
+      "group": "quadratic",
+      "round": null,
+      "description": "Bound one sign's energy at a width from a nonnegative larger-width trial.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "5143fd70070c32da483fc89dae20f38dab153049ce6448aa4e90785ad36833f7"
+    },
+    {
+      "path": "quadratic_theta.py",
+      "group": "quadratic",
+      "round": null,
+      "description": "Evaluate reciprocal regularized Paley theta programs by FFT.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "14ab02d1fa1f8f1a10b1bb944f26b06cab523167dcb25e5a6e6f881dda9709fe"
+    },
+    {
+      "path": "rank_partitions.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Measure the exterior signs and localized eigenspaces at random weights.",
+      "static_imports": [
+        "face_ranks.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "b391f38da1c201dda3d7af83c5d7f3c00be41182c95de94cb031a65c7c6ee09f"
+    },
+    {
+      "path": "rational_endpoint.py",
+      "group": "quadratic",
+      "round": null,
+      "description": "Test rational rooted Paley spectra using exact primitive-layer resultants.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "f181cadf078932aafbd640aa112fdbc46344c1d0dc115df654ff1566a8785a39"
+    },
+    {
+      "path": "research/anchored-repair-20-square.py",
+      "group": "rounds",
+      "round": 20,
+      "description": "Certify exact saturation of the pinned square defect at mean one.",
+      "static_imports": [],
+      "sha256": "c4a3bd9ca5ce1b1030aa11661f530edc7133d19d963352a07e306aef3cfa4661"
+    },
+    {
+      "path": "research/anchored-repair-20.py",
+      "group": "rounds",
+      "round": 20,
+      "description": "Repair a Fourier row while keeping its marked coordinate fixed.",
+      "static_imports": [
+        "smoothing.py"
+      ],
+      "sha256": "4e32f7157eecd07d549f1017d843ca948cb16ef64800c01adccaed9658adce30"
+    },
+    {
+      "path": "research/astra-adjoint-82-check.py",
+      "group": "rounds",
+      "round": 82,
+      "description": "Arb packet Schur tests at physical nine-center predictors on the closed square.",
+      "static_imports": [],
+      "sha256": "ba506e6a5f1a174cb1d0ae704f02208df42bd8b1ef433212a46430afbde640ca"
+    },
+    {
+      "path": "research/astra-adjoint-82-homotopy-check.py",
+      "group": "rounds",
+      "round": 82,
+      "description": "Uniform cold residual homotopy and warm stationary packet certificates.",
+      "static_imports": [],
+      "sha256": "5612ce23cc42765c4f38519df069fb0f8801fb57c983b728b1ecb88123334e59"
+    },
+    {
+      "path": "research/astra-affine-90-check.py",
+      "group": "rounds",
+      "round": 90,
+      "description": "Replay two true endpoint responses, affine Fourier columns, and sharp cells.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "d9e15eea66fe9d8b26c51cd830632fb041b6aed0b9a04999fc1d58b17a5032e2"
+    },
+    {
+      "path": "research/astra-arithmetic-coset-30-check.py",
+      "group": "rounds",
+      "round": 30,
+      "description": "Exact normalization audits and float word diagnostics; no stationary solve.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "7e8d134f2e492ce93abe304b48e24ad89108474fe51f671e264cf5fec13abf38"
+    },
+    {
+      "path": "research/astra-arities-72-check.py",
+      "group": "rounds",
+      "round": 72,
+      "description": "All-arity price for trees with only internal Jacobi-square edges.",
+      "static_imports": [],
+      "sha256": "77e1a6ce822c044a7d28490891603ab9f435b6c1245fb8dbb2e96b33325b624c"
+    },
+    {
+      "path": "research/astra-average-83-check.py",
+      "group": "rounds",
+      "round": 83,
+      "description": "Interval checks for a clipped exterior row used as the Jacobi source.",
+      "static_imports": [],
+      "sha256": "2aac245bd470f2b803ce8012ecb7e0fec7d12041a64229620f6766ae2a6bdd69"
+    },
+    {
+      "path": "research/astra-averaged-positive-36.py",
+      "group": "rounds",
+      "round": 36,
+      "description": "Exact Fourier witnesses for averaged Paley proposals; positivity, not a floor.",
+      "static_imports": [
+        "smoothing.py",
+        "theta.py"
+      ],
+      "sha256": "ad4dfe8076fcf2c3fb13dad4ad8f37b8a3478fb6a783782dea272344dad01711"
+    },
+    {
+      "path": "research/astra-background-19-certificate.py",
+      "group": "rounds",
+      "round": 19,
+      "description": "Arb certificate: first Picard cost cap misses actual prime initial tail.",
+      "static_imports": [],
+      "sha256": "1f793b7331a6a40ee9f04131dc861f2489baa3faae6912eb344a57e527966b20"
+    },
+    {
+      "path": "research/astra-background-19.py",
+      "group": "rounds",
+      "round": 19,
+      "description": "Actual Picard references and localized errors; floating diagnostics only.",
+      "static_imports": [
+        "smoothing.py"
+      ],
+      "sha256": "ca718cd295230e330afb7553c6b9cdc720e0f4afc274bf4cd7dac8228ff22422"
+    },
+    {
+      "path": "research/astra-branch-41-check.py",
+      "group": "rounds",
+      "round": 41,
+      "description": "Check real reciprocal moment identities at an actual cold prime and the constants.",
+      "static_imports": [],
+      "sha256": "79016b47076ad21aa53d45d36273f4b9d5a36d94ec18a568e1b03604c7c2cdc5"
+    },
+    {
+      "path": "research/astra-broad-21-check.py",
+      "group": "rounds",
+      "round": 21,
+      "description": "Normalization checks for the Round 21 inequalities; not certificates.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "eedc3827dbf02d3e1d3735454716b473dd7b9d4285eff0bfa09cb921100fc0c9"
+    },
+    {
+      "path": "research/astra-broad-source-28-check.py",
+      "group": "rounds",
+      "round": 28,
+      "description": "Replay the mass- and root-preserving source construction of Round 28.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "b49415231e6cb0e8b94ef04c71074538a06c103ee991885877c033adafed0379"
+    },
+    {
+      "path": "research/astra-cap-74-check.py",
+      "group": "rounds",
+      "round": 74,
+      "description": "Exact prime-mask sieve for periodic caps with prime quotient order.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "5c4a17d0655cc968abdb58923d402371c0d3dfd82da78baf361a7524de8514d5"
+    },
+    {
+      "path": "research/astra-capacity-84-check.py",
+      "group": "rounds",
+      "round": 84,
+      "description": "Outward replay of full-face descent for the same physical height and root.",
+      "static_imports": [],
+      "sha256": "17fb99060b9e8d6a848ff1ead7a752d581be10395d4de88891962d3b31696e5f"
+    },
+    {
+      "path": "research/astra-charged-61-check.py",
+      "group": "rounds",
+      "round": 61,
+      "description": "Exact optimal-face vertices and root-fixed bulk bottleneck radii at p=97.",
+      "static_imports": [],
+      "sha256": "e47ab155556cdd4d4ab63357e761f791195d482f389bf7bf687c91fed3fe376a"
+    },
+    {
+      "path": "research/astra-charged-65-check.py",
+      "group": "rounds",
+      "round": 65,
+      "description": "Outward checks of survival price ranges and both one-sided price failures.",
+      "static_imports": [],
+      "sha256": "cab65543ee2b4f353afea023540138d9b08c7298d65cde23b628eb808b7b86c0"
+    },
+    {
+      "path": "research/astra-cold-37-monodromy.py",
+      "group": "rounds",
+      "round": 37,
+      "description": "Arb continuation of the actual p=173 scalar around a rational cold rectangle.",
+      "static_imports": [],
+      "sha256": "e3bee2fc0b799e441e33f6d5c69b84a14fff23df79fddce8591b3ba1198352b3"
+    },
+    {
+      "path": "research/astra-cold-37.py",
+      "group": "rounds",
+      "round": 37,
+      "description": "Certify actual marked Taylor coefficients on Cayley disks by Arb arithmetic.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e"
+    },
+    {
+      "path": "research/astra-cold-43-check.py",
+      "group": "rounds",
+      "round": 43,
+      "description": "Exact signed endpoint cubic checked on independent Paley elimination curves.",
+      "static_imports": [],
+      "sha256": "43ed6903b1f3c426435ef621ca15fbc2b391eb23e6d6723ef025127881b6d1e0"
+    },
+    {
+      "path": "research/astra-column-90-check.py",
+      "group": "rounds",
+      "round": 90,
+      "description": "Check the canonical clipped excess on a finite prime and the cold constants.",
+      "static_imports": [],
+      "sha256": "36f3ab06983551790d5f543e53d9641e9bdff2687df05b0620f4f6f4ab7e54dd"
+    },
+    {
+      "path": "research/astra-complement-84-check.py",
+      "group": "rounds",
+      "round": 84,
+      "description": "Interval replay of complementary mixed Jacobi transport at actual optimal pairs.",
+      "static_imports": [],
+      "sha256": "8e555fb97c81bc4dc35861c4cee4606eef790a43556953d9969cee865f886df6"
+    },
+    {
+      "path": "research/astra-completion-37-check.py",
+      "group": "rounds",
+      "round": 37,
+      "description": "Independent small dense checks of the written deterministic estimates.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "0f08ed374956ca228c489f7d17a62dc133566b49b090ef6c53a6702e5e54e1ba"
+    },
+    {
+      "path": "research/astra-completion-37.py",
+      "group": "rounds",
+      "round": 37,
+      "description": "Certify a second pinned repair of round 36's saved Fourier input at p=7340033.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "0d77147c35fdb8dc4d455a089483de6bdaba838ada2afcfaadcb73ad17f3f00c"
+    },
+    {
+      "path": "research/astra-completion-40-check.py",
+      "group": "rounds",
+      "round": 40,
+      "description": "Verify the limiting constants and finite true Picard endpoint identities.",
+      "static_imports": [],
+      "sha256": "0d988f9b12addda9e34a97d3b3e11638141ccb30c1b3ccc938e3917a53afa1ba"
+    },
+    {
+      "path": "research/astra-complex-39-check.py",
+      "group": "rounds",
+      "round": 39,
+      "description": "Check the signed stationary action against the independent prime-13 cubic.",
+      "static_imports": [],
+      "sha256": "297b31bf49b7de2a83578b8e3316c78d67066c898cb39cf482ac70db5b40858f"
+    },
+    {
+      "path": "research/astra-compression-85-check.py",
+      "group": "rounds",
+      "round": 85,
+      "description": "Check the physical p=173 phase Schur test and the all-size strip constants.",
+      "static_imports": [],
+      "sha256": "a07349b6995dd97ca3e885afbc50002f42e0267d0524c73178c783a94dd9ab1c"
+    },
+    {
+      "path": "research/astra-conic-primal-34.py",
+      "group": "rounds",
+      "round": 34,
+      "description": "Source-free Picard proposals and marked-preserving Paley floor repair.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "bb9a6a129c37f35fee1354e16f463529f8ded014788abcdb5b23b87a9a2404ff"
+    },
+    {
+      "path": "research/astra-contact-91-check.py",
+      "group": "rounds",
+      "round": 91,
+      "description": "Certify first clipped-cap contact on the real-start prime-173 ray.",
+      "static_imports": [],
+      "sha256": "d416c0652d4d60691db7f3ed32147102b74f56db37c909dffe66fc8b2fe29bb7"
+    },
+    {
+      "path": "research/astra-convolution-11.py",
+      "group": "rounds",
+      "round": 11,
+      "description": "Replay the convolution identities in astra-convolution-11.md.",
+      "static_imports": [
+        "poisson_weights.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "775e98e020b6eb4d77a26616c00635ea8cdd8664f33539fadbad657d0183e764"
+    },
+    {
+      "path": "research/astra-coset-48-check.py",
+      "group": "rounds",
+      "round": 48,
+      "description": "Exact prime sweep and interval check for the five-coset sign pattern.",
+      "static_imports": [],
+      "sha256": "bb9db80c97f9f779a47b8a7120759cb772aca955f7d8b52be210d8816dc3a471"
+    },
+    {
+      "path": "research/astra-coupling-50-check.py",
+      "group": "rounds",
+      "round": 50,
+      "description": "Verify endpoint-weighted antipodal cancellation on genuine cold histories.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "655c3bada524fbffd027c76119ad970320bbf950000426429b774f423dd6d3ce"
+    },
+    {
+      "path": "research/astra-coupling-64-check.py",
+      "group": "rounds",
+      "round": 64,
+      "description": "Outward verification of an entire failing ray of generic reference pairs.",
+      "static_imports": [],
+      "sha256": "ddcf2cf8ae30cd4564e0d43edfffb1314cd3094b3c722a0a2595a97de2f0a02f"
+    },
+    {
+      "path": "research/astra-cover-81-check.py",
+      "group": "rounds",
+      "round": 81,
+      "description": "Certify root-residual prices of genuine opposite laws on the round-80 heads.",
+      "static_imports": [],
+      "sha256": "813d5bb89da238eaa6bfd2793f46717bf11f42bca01106d1cfeaa66d0b0a6105"
+    },
+    {
+      "path": "research/astra-critical-44-check.py",
+      "group": "rounds",
+      "round": 44,
+      "description": "Check the cold Picard collision identity on actual critical probabilities.",
+      "static_imports": [
+        "square_control.py"
+      ],
+      "sha256": "385bd4971b2c560d8949e2b0eb507ecd985d7f8f24ad7089c128882a1f87cf65"
+    },
+    {
+      "path": "research/astra-crossnode-59-check.py",
+      "group": "rounds",
+      "round": 59,
+      "description": "Two-vertex signature, signed matrix-coefficient, and escape certificates.",
+      "static_imports": [],
+      "sha256": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a"
+    },
+    {
+      "path": "research/astra-cubic-85-check.py",
+      "group": "rounds",
+      "round": 85,
+      "description": "Verify individual cubic output frequencies and displacement centering with Arb.",
+      "static_imports": [],
+      "sha256": "5c9dfce02dc75dbe8d446ab90d304d68f9101fce27366291ebc74a5162b64e15"
+    },
+    {
+      "path": "research/astra-curve-44-check.py",
+      "group": "rounds",
+      "round": 44,
+      "description": "Arb certificates for real marked cubic contractions and relative analytic disks.",
+      "static_imports": [],
+      "sha256": "5f0c9350eb714f454d447d36156c194503c6da14ac814b862e3f97393f83c343"
+    },
+    {
+      "path": "research/astra-cuts-15.py",
+      "group": "rounds",
+      "round": 15,
+      "description": "Signed cut and mass-floor replay for astra-cuts-15.md.",
+      "static_imports": [],
+      "sha256": "fc349c0a34099617b9ddaa438a11fa47be2fb5dbeacb72bdf5eec9c6e162855d"
+    },
+    {
+      "path": "research/astra-diffuse-87-check.py",
+      "group": "rounds",
+      "round": 87,
+      "description": "Arb replay of the two diffuse signed prices and a distinct-center test.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "1e0d66967a88ba4c09d6d180783c147fc49a7ca879b302ee1127604811feb655"
+    },
+    {
+      "path": "research/astra-direction-70-check.py",
+      "group": "rounds",
+      "round": 70,
+      "description": "Rational marked inverse-moment replay at p=13, n=6, larger minus face.",
+      "static_imports": [],
+      "sha256": "337888305ed408cdfb703348fd6b69b2e3cb3f73f19c7a9f7aaf32f314c35ef0"
+    },
+    {
+      "path": "research/astra-direction-83-check.py",
+      "group": "rounds",
+      "round": 83,
+      "description": "Arb lower certificates for three cold packet comparison obstructions.",
+      "static_imports": [],
+      "sha256": "89160e6a0f6020788327bacb279d1958f2d7f28984480e85cecf08b6ccfbba1c"
+    },
+    {
+      "path": "research/astra-direction-83-invariant.py",
+      "group": "rounds",
+      "round": 83,
+      "description": "Direct cold physical packet cap, resolving the first eight omitted binomial orders.",
+      "static_imports": [],
+      "sha256": "a92c1d8f3251bbe33cb6a71d32824e23f069ec7f155fcd6b6c518669795d091d"
+    },
+    {
+      "path": "research/astra-discount-91-check.py",
+      "group": "rounds",
+      "round": 91,
+      "description": "Match the global sharp discount by exact cyclotomic primal and dual data.",
+      "static_imports": [],
+      "sha256": "a66718a88bd9bd7b8d1d57fabb5658c7bcf0e0e263cff492a538d7292aa4475f"
+    },
+    {
+      "path": "research/astra-dissipation-80-check.py",
+      "group": "rounds",
+      "round": 80,
+      "description": "Certified seed-angle secants and an integer replay of the slow Jacobi path.",
+      "static_imports": [],
+      "sha256": "1ed129b4f465e135a58e70f5b34e9f2a2f43857fb21573c81956c8e9d70d95c0"
+    },
+    {
+      "path": "research/astra-drift-49-check.py",
+      "group": "rounds",
+      "round": 49,
+      "description": "Verify a common antipodal coupling on actual cold histories and optimal rows.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "68910d742fa4e2b6c4d54891518db10e1a6318b4d9f64de005e851506515778d"
+    },
+    {
+      "path": "research/astra-dual-90-check.py",
+      "group": "rounds",
+      "round": 90,
+      "description": "Replay shortfall propagation at every translate of a true p=97 sharp law.",
+      "static_imports": [],
+      "sha256": "6c66340375805f9e7ddc99be3f303f8e0f4bfd49d57ef9f73a7da5fa4edbb8ee"
+    },
+    {
+      "path": "research/astra-dynamics-24-check.py",
+      "group": "rounds",
+      "round": 24,
+      "description": "Floating-point checks of bounded root-preserving dynamics; not certificates.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "d4c14f582cc7e1fecbb0384514d2c3c39c858da140e4bb6e89fa986d3241eddf"
+    },
+    {
+      "path": "research/astra-endpoint-45-check.py",
+      "group": "rounds",
+      "round": 45,
+      "description": "Certify indistinguishable critical rows on the actual cold orbit at p=101.",
+      "static_imports": [],
+      "sha256": "0156b9d5f517354dcb2f8f012967ffe0c21ba57a07601fe7a5bca34f98efd2a5"
+    },
+    {
+      "path": "research/astra-energy-13.py",
+      "group": "rounds",
+      "round": 13,
+      "description": "Current-width centered response checks for astra-energy-13.md.",
+      "static_imports": [],
+      "sha256": "8a0ca7edba167c7e5da717554892d0d64e87a6497ea323f4474431c77c5ffee7"
+    },
+    {
+      "path": "research/astra-excess-79-check.py",
+      "group": "rounds",
+      "round": 79,
+      "description": "Check compact time coefficients exactly and enclose true finite endpoint profiles.",
+      "static_imports": [],
+      "sha256": "eefe6a9dc7a4369741a416f080da8085b9da479947b69c57aea020479b3714ec"
+    },
+    {
+      "path": "research/astra-extraction-26-check.py",
+      "group": "rounds",
+      "round": 26,
+      "description": "Exact algebra and Arb checks for astra-extraction-26.md.",
+      "static_imports": [],
+      "sha256": "90b058d1bc2e9bd1d33278b1297ac01af20bc772e7c6a062dda63cbfafb08c4e"
+    },
+    {
+      "path": "research/astra-face-46-check.py",
+      "group": "rounds",
+      "round": 46,
+      "description": "Certify reciprocal forbidden-count columns and two exact complementary endpoints.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "a4924a2fb06fe4bc91e13fdadac93c31e42d4528ad446cbdef72d8226bab585c"
+    },
+    {
+      "path": "research/astra-face-54-check.py",
+      "group": "rounds",
+      "round": 54,
+      "description": "Enclose the quantile LP on both entire optimal faces at p=97.",
+      "static_imports": [
+        "endpoint_extension_certificate.py",
+        "theta.py"
+      ],
+      "sha256": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d"
+    },
+    {
+      "path": "research/astra-face-57-check.py",
+      "group": "rounds",
+      "round": 57,
+      "description": "Full positive completion separately at each genuine p=97 cold score threshold.",
+      "static_imports": [],
+      "sha256": "bc0841e2e8e5b4e5e0738326dc12e74986b9f89a24aa3cccb24fd7e49dd05a06"
+    },
+    {
+      "path": "research/astra-face-72-check.py",
+      "group": "rounds",
+      "round": 72,
+      "description": "Rational polygon enclosures of optimal chords and collision on the prime 97 face.",
+      "static_imports": [],
+      "sha256": "4a05254b0820be15cae4e2827d0b8fd8b16385db81d2bfd3d3ef8a84e609e4b9"
+    },
+    {
+      "path": "research/astra-feedback-52-check.py",
+      "group": "rounds",
+      "round": 52,
+      "description": "Certify simultaneous generic-rank and Mellin second-moment radii.",
+      "static_imports": [],
+      "sha256": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362"
+    },
+    {
+      "path": "research/astra-fiber-91-check.py",
+      "group": "rounds",
+      "round": 91,
+      "description": "Outward checks for conditional Fourier modulation and centered affine transport.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "2739cf8249b54fa5f8374419285df046dd6629aace32aaa44e4777715de8031a"
+    },
+    {
+      "path": "research/astra-fibers-86-check.py",
+      "group": "rounds",
+      "round": 86,
+      "description": "Replay positional pair fibers and the quadratic transport of genuine endpoint heads.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "a4fff587f0b531762a22b2ab7d18f4606a3df81875469fe90ea132dfd44dcd3f"
+    },
+    {
+      "path": "research/astra-flow-59-check.py",
+      "group": "rounds",
+      "round": 59,
+      "description": "Exact half-turn reachability and interval checks on the prime 97 faces.",
+      "static_imports": [],
+      "sha256": "2962aff49027c8870f5a3de130e2cdedf1ac5230e675321d87dbe2fb43602fa6"
+    },
+    {
+      "path": "research/astra-forced-69-check.py",
+      "group": "rounds",
+      "round": 69,
+      "description": "Outward bounds on the true larger-sign forced barrier at p=13, t=3.",
+      "static_imports": [],
+      "sha256": "43e4ab89293b8ee7f228000fac066433f27a19debbce22ce80b8e07ae8c5f0e7"
+    },
+    {
+      "path": "research/astra-forced-87-check.py",
+      "group": "rounds",
+      "round": 87,
+      "description": "Check the forced-contact constants from the certified predictor inputs using rationals.",
+      "static_imports": [],
+      "sha256": "8d71dfdae375dbcadbfcf9d5127dd5b5d081c13ce100656c40b71e1794ad35c6"
+    },
+    {
+      "path": "research/astra-fourth-12.py",
+      "group": "rounds",
+      "round": 12,
+      "description": "Replay the fourth-moment baseline and contact bounds in astra-fourth-12.md.",
+      "static_imports": [],
+      "sha256": "89b64eeda0b13fc2c8286322c1f2c055c3b7cea827f0389a9503a671eb708e4a"
+    },
+    {
+      "path": "research/astra-fourth-75-check.py",
+      "group": "rounds",
+      "round": 75,
+      "description": "Arb enclosures for the exact marked complex Picard iterates.",
+      "static_imports": [],
+      "sha256": "f7b807c25f0cd8981209d68b45eb3c6ee9aa401b2f24af78d92161c276cfcebf"
+    },
+    {
+      "path": "research/astra-global-63-check.py",
+      "group": "rounds",
+      "round": 63,
+      "description": "One genuine cold-time certificate using the overlap forest and two tangent columns.",
+      "static_imports": [],
+      "sha256": "b147d855a8237ccf80bdde3332c4f7a817d5ee5d191fce9d94cb673c2abc9a6e"
+    },
+    {
+      "path": "research/astra-halfturn-60-check.py",
+      "group": "rounds",
+      "round": 60,
+      "description": "Exact-product obstructions and charged finite intervals on true prime faces.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "f590168cc68b947ad6e839da84477e09000c3ad3f1c3327de753131de4e3ce0f"
+    },
+    {
+      "path": "research/astra-hardtail-33-actual.py",
+      "group": "rounds",
+      "round": 33,
+      "description": "Actual-Paley signed/weighted-operator diagnostics; not certificates.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "e12177d3ba9a18f80a4d8730e571aae5b38a0c158d4a6d491c0c4d3d9f7c70c8"
+    },
+    {
+      "path": "research/astra-hardtail-33-audit.py",
+      "group": "rounds",
+      "round": 33,
+      "description": "Replay every primary computation and compare parsed JSON exactly. Stdout only.",
+      "static_imports": [],
+      "sha256": "3f5911844de588d215e8c73884c9dd6848c50acd7485007532cbfe7c1c8b4928"
+    },
+    {
+      "path": "research/astra-hardtail-33-certified.py",
+      "group": "rounds",
+      "round": 33,
+      "description": "Rigorous finite all-threshold HR checks using Arb and a Banach enclosure.",
+      "static_imports": [
+        "poisson_weights.py",
+        "theta.py"
+      ],
+      "sha256": "62a30fc4bcbdc125371dde524a72b8987625511abdcd055b9667df0ac503cf01"
+    },
+    {
+      "path": "research/astra-hardtail-33-exact.py",
+      "group": "rounds",
+      "round": 33,
+      "description": "Exact rational replay of the cyclic dyadic obstruction. Stdout only.",
+      "static_imports": [],
+      "sha256": "9a4160d7c468dfd5e0b9306aa6730f0013b6dc437467b70944edce3b496fd592"
+    },
+    {
+      "path": "research/astra-hardtail-33-explore.py",
+      "group": "rounds",
+      "round": 33,
+      "description": "Exploratory floating probes; stdout only. Run with -B.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py"
+      ],
+      "sha256": "7e8e12bb55d2ac6c978851b0f57a46002d39233a56d53ab39f47d40f3ef2ae49"
+    },
+    {
+      "path": "research/astra-height-78-check.py",
+      "group": "rounds",
+      "round": 78,
+      "description": "Enclose infinite one-sided geometric windows on genuine complementary endpoints.",
+      "static_imports": [],
+      "sha256": "0667db9623db7410920f1f334cee9b36d66d648cb0e4b0a402b67d66cef231d3"
+    },
+    {
+      "path": "research/astra-height-92-check.py",
+      "group": "rounds",
+      "round": 92,
+      "description": "Check prime spectral escape, the two coset limits, and a square physical control.",
+      "static_imports": [],
+      "sha256": "3d338fb204f264eaaf26a5c9b27c2940c666f29bcbccb4ffecc5e1ab5c2da298"
+    },
+    {
+      "path": "research/astra-histogram-53-check.py",
+      "group": "rounds",
+      "round": 53,
+      "description": "Certify an invariant for the pooled Jordan-weight distribution.",
+      "static_imports": [],
+      "sha256": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3"
+    },
+    {
+      "path": "research/astra-histories-71-check.py",
+      "group": "rounds",
+      "round": 71,
+      "description": "Directed cross-list unit collision, using the nine-center moment tables.",
+      "static_imports": [],
+      "sha256": "1c2ccbc249589f59ab4600a3909dfd5bfe8e218ec36b6f3e7a98276ecb8be80b"
+    },
+    {
+      "path": "research/astra-histories-71-escape.py",
+      "group": "rounds",
+      "round": 71,
+      "description": "Replay the round 70 rounded lower map after pricing the selected cross-list merge.",
+      "static_imports": [],
+      "sha256": "6e01f4cd8b7bcaac419eab21174c669ae5da1457429f1b5bb67cc678875f41f8"
+    },
+    {
+      "path": "research/astra-imaginary-84-check.py",
+      "group": "rounds",
+      "round": 84,
+      "description": "Arb192 certificate for rank-four returns, a physical rectangle, and the cold source.",
+      "static_imports": [],
+      "sha256": "c89b732a65097673feef817926e9d5913fa914d01188946cdadc7ce462530b7e"
+    },
+    {
+      "path": "research/astra-increments-27-check.py",
+      "group": "rounds",
+      "round": 27,
+      "description": "Positive-cone compression and actual-source checks for Round 27.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "fe87308c3c56c21d0212283bcf136b81e5b6a787ec71483f1ff618d8523f3205"
+    },
+    {
+      "path": "research/astra-joint-64-check.py",
+      "group": "rounds",
+      "round": 64,
+      "description": "Arb replay of the two dual symmetric-square centers alongside the mixed Sp8 center.",
+      "static_imports": [],
+      "sha256": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee"
+    },
+    {
+      "path": "research/astra-joint-64-probe.py",
+      "group": "rounds",
+      "round": 64,
+      "description": "Floating fitting for the certified dyadic slabs; prints caps and outward margins.",
+      "static_imports": [],
+      "sha256": "e8cc59c3f0b72e6adcb0709278121af2126d6fa42b86f4e1b041f2faa8e36b0a"
+    },
+    {
+      "path": "research/astra-joint-65-check.py",
+      "group": "rounds",
+      "round": 65,
+      "description": "Collect the two Sp4 outputs of the fourth Jacobi mode in the joint seed.",
+      "static_imports": [],
+      "sha256": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52"
+    },
+    {
+      "path": "research/astra-jointface-58-check.py",
+      "group": "rounds",
+      "round": 58,
+      "description": "Verify actual cold histories, rooted Dirichlet costs, and a full-face move.",
+      "static_imports": [],
+      "sha256": "dde96aeb98f2a08abd22810737c050ac2078b933277c59966d4cc44ab2b0d6d7"
+    },
+    {
+      "path": "research/astra-late-51-check.py",
+      "group": "rounds",
+      "round": 51,
+      "description": "Check two-endpoint coverage and consecutive true cold scores using Arb.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "1561572373a7d41475926fc609765c569f6ea5daa5ba6c068ef640df3ba9eac0"
+    },
+    {
+      "path": "research/astra-legendre-63-check.py",
+      "group": "rounds",
+      "round": 63,
+      "description": "Signed Sp8 recentering with full old multiplication; outward-rounded replay.",
+      "static_imports": [],
+      "sha256": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138"
+    },
+    {
+      "path": "research/astra-legendre-63-probe.py",
+      "group": "rounds",
+      "round": 63,
+      "description": "Optional floating cap selection, separate from the proof replay.",
+      "static_imports": [],
+      "sha256": "d004780e7ed720e7672b434db3f33ddb1e9babbc79525cedae5d3fec3b938fb1"
+    },
+    {
+      "path": "research/astra-leverage-86-check.py",
+      "group": "rounds",
+      "round": 86,
+      "description": "Certify the time-four hinge-source price after removing the frozen head.",
+      "static_imports": [],
+      "sha256": "d9483d42ec32205dabeb74165c3a5443020f059b8e8bf1b69aa859e419e8a72c"
+    },
+    {
+      "path": "research/astra-linear-89-check.py",
+      "group": "rounds",
+      "round": 89,
+      "description": "Arb replay of the two affine marginal columns and their shifted-atom tests.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "55806ebeec86bac3ff9fddf0fa3a944a7826b6ee934ffd1bd02202fa8ec20d61"
+    },
+    {
+      "path": "research/astra-low-layer-18.py",
+      "group": "rounds",
+      "round": 18,
+      "description": "Round 18: signed low-layer root contributions and Schur screening.",
+      "static_imports": [],
+      "sha256": "b42e75a9fb900c2a1d9db003b1857c53402d32100dd9f6ce1dfa1db3ea8a5932"
+    },
+    {
+      "path": "research/astra-masked-76-check.py",
+      "group": "rounds",
+      "round": 76,
+      "description": "Enclose clipped-tail tests on four certified prime endpoints and cold windows.",
+      "static_imports": [],
+      "sha256": "6cc830a425fc8210caefb86f161b7834ba519a26a2b287ab09f0b42012bab73e"
+    },
+    {
+      "path": "research/astra-matched-88-check.py",
+      "group": "rounds",
+      "round": 88,
+      "description": "Reconstruct actual optima and replay matched fiber moments with Arb balls.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "c8962f090161cfd5611a69b7101c1a94be524f94cde2a6fc04face0216f5c9dd"
+    },
+    {
+      "path": "research/astra-measure-47-check.py",
+      "group": "rounds",
+      "round": 47,
+      "description": "Replay the finite rank-majorant, stencil, and rational coefficient checks.",
+      "static_imports": [],
+      "sha256": "2182665db9c95556c1b54c4613ddbc92e3c2ae1261576a004dc4d3a318e07af1"
+    },
+    {
+      "path": "research/astra-mixed-61-check.py",
+      "group": "rounds",
+      "round": 61,
+      "description": "Signed old-sector regrouping with arbitrary residual siblings, at the limiting floor.",
+      "static_imports": [],
+      "sha256": "36e541c26b9fe81839b22c89aaf54440f6341de4e7805aa814a42d62b67f405e"
+    },
+    {
+      "path": "research/astra-mixed-61-probe.py",
+      "group": "rounds",
+      "round": 61,
+      "description": "Floating diagnostics for fitting a one-step packet cap. The Arb replay verifies the chosen cap.",
+      "static_imports": [],
+      "sha256": "6f54e59ea4dc7e7da969e1ce08453ee0c6db9d9bb903dd4e47c1aeebf960f563"
+    },
+    {
+      "path": "research/astra-mixed-81-check.py",
+      "group": "rounds",
+      "round": 81,
+      "description": "Arb bounds for the first two full complex Jacobi returns and the real tracker.",
+      "static_imports": [],
+      "sha256": "cd18de31d607fca7ee7c42454590dc4813a00531ed94c7c415a7f276d520136f"
+    },
+    {
+      "path": "research/astra-nested-moment-31.py",
+      "group": "rounds",
+      "round": 31,
+      "description": "Exact nested-kernel reductions and independent floating moment diagnostics.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "14b1c8eafc1b1b27abe08c9428e1ffccc2a1e9e2bd221c0def6757c85b8eb698"
+    },
+    {
+      "path": "research/astra-new-sectors-70-check.py",
+      "group": "rounds",
+      "round": 70,
+      "description": "Replay the old and independent-factor debits, bounding off-strip maxima separately.",
+      "static_imports": [],
+      "sha256": "85e306737db18fed7f13f6544498fd956f22e4b68df0e867eff810c7fba3ad02"
+    },
+    {
+      "path": "research/astra-newton-77-check.py",
+      "group": "rounds",
+      "round": 77,
+      "description": "Interval bridge for the large-floor expansion of the seed's 30th residual.",
+      "static_imports": [],
+      "sha256": "3ff957614cde2af338cb9b1645816fc430644793afcb5e28ef09a4f4dbf3bcd1"
+    },
+    {
+      "path": "research/astra-nonlinear-68-check.py",
+      "group": "rounds",
+      "round": 68,
+      "description": "Uniform old-exterior refresh and a supersolution for its fully debited lower test.",
+      "static_imports": [],
+      "sha256": "4ea72cc8b8a9f016bd67e8fa15584e54dd3665303515b3073e3c44e35bdcbe09"
+    },
+    {
+      "path": "research/astra-nonlinear-68-periodic.py",
+      "group": "rounds",
+      "round": 68,
+      "description": "Fully old rank-six refresh on two consecutive levels per 256, then unrestricted.",
+      "static_imports": [],
+      "sha256": "04d0f2957b496336c3fe74dad82444b8024b7a5fe51346ac4dcf4b64450f3802"
+    },
+    {
+      "path": "research/astra-nonlinear-68-probe.py",
+      "group": "rounds",
+      "round": 68,
+      "description": "Floating diagnostic for the one-tag triangle debit. Not proof evidence.",
+      "static_imports": [],
+      "sha256": "9773631432aa9aae5662374fc099672fa2375e8c093cab359f8ef01cd6a40592"
+    },
+    {
+      "path": "research/astra-odd-49-check.py",
+      "group": "rounds",
+      "round": 49,
+      "description": "Exact arithmetic checks of the order-five quartic and reflection tests.",
+      "static_imports": [],
+      "sha256": "3e307418f8bf577d9c1e94b82d6a4f5fad0539bdbb19a707f16ca0abda4ff40e"
+    },
+    {
+      "path": "research/astra-optimal-82-check.py",
+      "group": "rounds",
+      "round": 82,
+      "description": "Certify clipped entropy minima on two full one-dimensional primary faces.",
+      "static_imports": [],
+      "sha256": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf"
+    },
+    {
+      "path": "research/astra-overflow-85-check.py",
+      "group": "rounds",
+      "round": 85,
+      "description": "Interval checks for positive and signed marked projections at prime 97.",
+      "static_imports": [],
+      "sha256": "a483b65a271dc2a9be227c490a77d6db1ccd119263514f6702dd0175bb58d514"
+    },
+    {
+      "path": "research/astra-persistent-88-check.py",
+      "group": "rounds",
+      "round": 88,
+      "description": "Whole even-face coordinate capacities and masked quartic moment at 97.",
+      "static_imports": [],
+      "sha256": "2f4ad0a7cae1d01d103982f14adcfd7861d18150bd78886bc3cfd2ca00336525"
+    },
+    {
+      "path": "research/astra-phase-86-check.py",
+      "group": "rounds",
+      "round": 86,
+      "description": "Enclose the first right-angle spread of the real-start stationary row at p=173.",
+      "static_imports": [],
+      "sha256": "e824cc99ce0bc453495e770985cab0759dcecc8cb66d32bf77887071a0b8c503"
+    },
+    {
+      "path": "research/astra-pick-46-check.py",
+      "group": "rounds",
+      "round": 46,
+      "description": "Exact rational checks of the extrapolation formula and square margin.",
+      "static_imports": [],
+      "sha256": "c4d0490d9b3f39c881866e132b4ffc03715f4fe14892b6d740e6da987bc53c4d"
+    },
+    {
+      "path": "research/astra-positive-39-check.py",
+      "group": "rounds",
+      "round": 39,
+      "description": "Interval certificate for two consecutive pinned reflections of the true T=1 proposal.",
+      "static_imports": [],
+      "sha256": "068eed58c5490f6be68ea680aba855688d983bdbe84b3f5ba35d3e82c0d522f6"
+    },
+    {
+      "path": "research/astra-predictor-76-check.py",
+      "group": "rounds",
+      "round": 76,
+      "description": "Certified finite time nine-center comparison with tilted loss accounting.",
+      "static_imports": [],
+      "sha256": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e"
+    },
+    {
+      "path": "research/astra-preimage-17.py",
+      "group": "rounds",
+      "round": 17,
+      "description": "Round 17: localized actual duals and signed current across potential levels.",
+      "static_imports": [],
+      "sha256": "867678c243f4600b4b4f22a639930f5ee0fce8d9916ccb73d8d8ed44cc669597"
+    },
+    {
+      "path": "research/astra-price-92-check.py",
+      "group": "rounds",
+      "round": 92,
+      "description": "Outward checks for affine signed quantiles and two independent dilations.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "7eff385a5f8d88141de84ba8cce2df9fc2293e99b554c695621d9b94487b90c2"
+    },
+    {
+      "path": "research/astra-prime-phase-32-check.py",
+      "group": "rounds",
+      "round": 32,
+      "description": "Exact checks for the round-32 epsilon-factor determinant calculation.",
+      "static_imports": [],
+      "sha256": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71"
+    },
+    {
+      "path": "research/astra-prime-repair-38-thresholds.py",
+      "group": "rounds",
+      "round": 38,
+      "description": "All-reserve interval test via convolution of the marked threshold masses.",
+      "static_imports": [],
+      "sha256": "138eb48682deb0a825434caf7c80e01b647846013338186c92136b1368049d2e"
+    },
+    {
+      "path": "research/astra-prime-repair-38.py",
+      "group": "rounds",
+      "round": 38,
+      "description": "Interval check of the one-reflection signed Paley incidence integral.",
+      "static_imports": [],
+      "sha256": "02cf2bb98f5984fea0d5d28fdb243806954e75ed3205f84743a02a1f19131612"
+    },
+    {
+      "path": "research/astra-primitive-62-check.py",
+      "group": "rounds",
+      "round": 62,
+      "description": "Arb192 replay for the retuned four inputs and the transported rank-twelve pair.",
+      "static_imports": [],
+      "sha256": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1"
+    },
+    {
+      "path": "research/astra-quartic-89-check.py",
+      "group": "rounds",
+      "round": 89,
+      "description": "Certify the masked quartic minimizers on three delayed pins of one true companion.",
+      "static_imports": [
+        "square_control.py"
+      ],
+      "sha256": "eb695e305e87200958cda4e65046df9dcc0968f42f3277d12db90a3a4049c7c9"
+    },
+    {
+      "path": "research/astra-quotient-75-check.py",
+      "group": "rounds",
+      "round": 75,
+      "description": "Certify prime-quotient gaps on previously surviving prime masks.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "22319bdbc991fb07cd75584f2703bb9084783736ce1f22b37795679de5cdaefe"
+    },
+    {
+      "path": "research/astra-rank-six-67-check.py",
+      "group": "rounds",
+      "round": 67,
+      "description": "Exact Parseval witness for the geometric rank-six Hom space.",
+      "static_imports": [],
+      "sha256": "57c585fbdba068e15c4e879d0cd874c568c0ee34470b29b6453c9615728b906f"
+    },
+    {
+      "path": "research/astra-rank-six-67-linear.py",
+      "group": "rounds",
+      "round": 67,
+      "description": "Arb projection of the first rank-six linear return against the nine-center seed.",
+      "static_imports": [],
+      "sha256": "29b69b63834e7f8c0ee67800e984a8275c7062ee0abf1057d4a58b769dd461f3"
+    },
+    {
+      "path": "research/astra-rankeight-60-check.py",
+      "group": "rounds",
+      "round": 60,
+      "description": "Exact weight obstructions and Arb disjoint-pair signed-return obstruction.",
+      "static_imports": [],
+      "sha256": "3f4ed5fe3b72d0005d733e28c35aeeb3444dca97fb486ef5798c6b9f33ce7b8c"
+    },
+    {
+      "path": "research/astra-rankfour-57-check.py",
+      "group": "rounds",
+      "round": 57,
+      "description": "Arb interval proof with the third distinguished field and GL4 determinant collection.",
+      "static_imports": [],
+      "sha256": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07"
+    },
+    {
+      "path": "research/astra-rankfour-57-probe.py",
+      "group": "rounds",
+      "round": 57,
+      "description": "Floating cap generation only. The proof uses the fixed tables in the checker.",
+      "static_imports": [],
+      "sha256": "5c13db237df4d9b9eeeab86a53f990823e9a32cf55b71e5f7a635ecda121e01a"
+    },
+    {
+      "path": "research/astra-ranknext-58-check.py",
+      "group": "rounds",
+      "round": 58,
+      "description": "Arb192 proof of the signed fourth-seed rectangle and full character-map obstruction.",
+      "static_imports": [],
+      "sha256": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f"
+    },
+    {
+      "path": "research/astra-ranknext-58-probe.py",
+      "group": "rounds",
+      "round": 58,
+      "description": "Floating cap search only. The certificate uses the frozen rational table.",
+      "static_imports": [],
+      "sha256": "dced54fbea0ac22d26d9234a3eaaee6ce1d739114fc956ae3bf7d436d073aee5"
+    },
+    {
+      "path": "research/astra-rankthree-55-check.py",
+      "group": "rounds",
+      "round": 55,
+      "description": "Uniform interval certificate with the first rank-three feedback distinguished.",
+      "static_imports": [],
+      "sha256": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0"
+    },
+    {
+      "path": "research/astra-rankthree-56-check.py",
+      "group": "rounds",
+      "round": 56,
+      "description": "Arb interval replay for arithmetic GL(3)^2 root collections.",
+      "static_imports": [],
+      "sha256": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7"
+    },
+    {
+      "path": "research/astra-rankthree-56-probe.py",
+      "group": "rounds",
+      "round": 56,
+      "description": "Floating diagnostics for choosing core caps for the interval replay.",
+      "static_imports": [],
+      "sha256": "b1383fb1fd30e7a31e0e8b829ed3fb240fad0170d75f8076e237809b8fe6dc5a"
+    },
+    {
+      "path": "research/astra-ref-50-check.py",
+      "group": "rounds",
+      "round": 50,
+      "description": "Replay warm Fourier tangent trials and flat three-value obstructions.",
+      "static_imports": [],
+      "sha256": "1419667326cc9c35892c6621e7b6fbadfdbc78c081408f5c007e039178df7f65"
+    },
+    {
+      "path": "research/astra-repair-41-check.py",
+      "group": "rounds",
+      "round": 41,
+      "description": "Check the finite reserve identities and inequalities on actual subfield tests.",
+      "static_imports": [
+        "square_control.py"
+      ],
+      "sha256": "e2a40c1c2220929d9663c12e712d7b0a1e09aace5d211bf6351d5c8ea135f699"
+    },
+    {
+      "path": "research/astra-rooted-43-check.py",
+      "group": "rounds",
+      "round": 43,
+      "description": "Certified rooted prime witnesses, all-depth Picard completion, and square control.",
+      "static_imports": [
+        "square_control.py"
+      ],
+      "sha256": "70bd8cea6c7128250fa2348c1db3e4cb2e4b1114f755b497f5967b5eb96e3a56"
+    },
+    {
+      "path": "research/astra-sampling-14.py",
+      "group": "rounds",
+      "round": 14,
+      "description": "Potential, cut, and coordinate-residual checks for astra-sampling-14.md.",
+      "static_imports": [],
+      "sha256": "67439bccadac3394565098cc31aaf21c062b1af5421e88bd613de174fdf909f4"
+    },
+    {
+      "path": "research/astra-scalar-40-check.py",
+      "group": "rounds",
+      "round": 40,
+      "description": "Exact independent low-floor checks on two accepted stationary curves.",
+      "static_imports": [],
+      "sha256": "57c4090aeb1116885ca79d38f01e9481d613204c0091ca2c50085650445ca5e9"
+    },
+    {
+      "path": "research/astra-schur-77-check.py",
+      "group": "rounds",
+      "round": 77,
+      "description": "Enclose selective Schur rows at four genuine primary endpoints and cold windows.",
+      "static_imports": [],
+      "sha256": "021ed9f141490843a1c5d222f7123c8db445ce1f0610559527f7062d48b0a48a"
+    },
+    {
+      "path": "research/astra-secant-23-check.py",
+      "group": "rounds",
+      "round": 23,
+      "description": "Numerical formula checks only; no asymptotic or interval certificate.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "0db23c1304ae65a2b67297a36227e75206f8e0a6ea6158fc31addb654ff34bf3"
+    },
+    {
+      "path": "research/astra-secant-47-check.py",
+      "group": "rounds",
+      "round": 47,
+      "description": "Verify the quotient Fourier reconstruction, including missing forbidden fibers.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "f983e7eb1f5114d9bf1c0436735174d63cd4bb37a91ab9f1486b876b5169ae97"
+    },
+    {
+      "path": "research/astra-seed-25-check.py",
+      "group": "rounds",
+      "round": 25,
+      "description": "Finite floating-point algebra checks; no asymptotic certification.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "ddce28ce964ca0b13695cffdc83aac43a1831e1819655a001a4b5b240bf31fbf"
+    },
+    {
+      "path": "research/astra-shifted-66-check.py",
+      "group": "rounds",
+      "round": 66,
+      "description": "Overlapping signed refresh with eight transported Jacobi shifts at round 65's floor.",
+      "static_imports": [],
+      "sha256": "1c7bbd4552317a5a3e3899a8d704850980de703aea6cb1b0599e3f095e448917"
+    },
+    {
+      "path": "research/astra-shifted-66-collision.py",
+      "group": "rounds",
+      "round": 66,
+      "description": "Fieldwise Newton comparison for the putative rank-six exterior square.",
+      "static_imports": [],
+      "sha256": "2e1f7dd811d7f4b1d798b533562589353987955969942bfb58b917874831c919"
+    },
+    {
+      "path": "research/astra-signed-20.py",
+      "group": "rounds",
+      "round": 20,
+      "description": "Floating diagnostics for signed hinge descent; no interval certification.",
+      "static_imports": [],
+      "sha256": "b3d2be1539fe98eb4f73657e73e62374158de3144cb76e19fab5f0920a93b60d"
+    },
+    {
+      "path": "research/astra-signed-54-check.py",
+      "group": "rounds",
+      "round": 54,
+      "description": "Check the lower escape barrier for a signed Jacobi and Legendre expansion.",
+      "static_imports": [],
+      "sha256": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa"
+    },
+    {
+      "path": "research/astra-signed-repair-35.py",
+      "group": "rounds",
+      "round": 35,
+      "description": "Round 35: actual Paley quadratic scatter and first nested repair audit.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "e3cd1d1eb450ea617cbde24aa3b2518d181e52cee7c8b16a88040a6b39e67e73"
+    },
+    {
+      "path": "research/astra-source-16.py",
+      "group": "rounds",
+      "round": 16,
+      "description": "Replay the source-propagation results in astra-source-16.md.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "5b4d5a274a174f8060a059de42909bf896ce99b1ebd146ef05088f3e695a9dc9"
+    },
+    {
+      "path": "research/astra-source-88-check.py",
+      "group": "rounds",
+      "round": 88,
+      "description": "Replay the finite-prime prefix and contact inequalities with rational bounds.",
+      "static_imports": [],
+      "sha256": "e58df2133864c6c6fd687321068a9c40cc35fd6c0ad8db45ada89612344059f0"
+    },
+    {
+      "path": "research/astra-source-window-29.py",
+      "group": "rounds",
+      "round": 29,
+      "description": "Replay exact weight algebra and floating actual-orbit source-window identities.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "321b498ba64cefe1ae3f196b359f2489a2968e5e408aabe2e2c5589d3b482c59"
+    },
+    {
+      "path": "research/astra-split-83-check.py",
+      "group": "rounds",
+      "round": 83,
+      "description": "Certify a common optimizer head and least energy-envelope cap at prime 97.",
+      "static_imports": [],
+      "sha256": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90"
+    },
+    {
+      "path": "research/astra-stencil-48-check.py",
+      "group": "rounds",
+      "round": 48,
+      "description": "Exact and interval checks for the real marked stencils.",
+      "static_imports": [],
+      "sha256": "409072a16095e67c0f99ad10c7e6d9c03d82c010276d1fa0f0a6bc0000e44ff9"
+    },
+    {
+      "path": "research/astra-strip-45-check.py",
+      "group": "rounds",
+      "round": 45,
+      "description": "Verified Fourier-supported primal and dual predictors on physical disk chains.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "711ea744ef4f9e09af9fbbbe18bcd14c49e18b84d78465974f83071b31a47c60"
+    },
+    {
+      "path": "research/astra-strip-45-loewner.py",
+      "group": "rounds",
+      "round": 45,
+      "description": "Find an upper-half-disk Loewner obstruction from finitely many real stationary jets.",
+      "static_imports": [],
+      "sha256": "60af3ea3b75f51e1774830f8f800423de10ae4e40f11bccece12d7d74a5a1bab"
+    },
+    {
+      "path": "research/astra-strip-45-pick.py",
+      "group": "rounds",
+      "round": 45,
+      "description": "A marked obstruction from real spectral certificates and multipoint Schwarz tests.",
+      "static_imports": [],
+      "sha256": "854fefbba67816773f9fbed8048eba5bd769132e3a5c98c1918569938b3be147"
+    },
+    {
+      "path": "research/astra-surface-38-check.py",
+      "group": "rounds",
+      "round": 38,
+      "description": "Replay the root-directed recurrence on an exact nonconstant physical row.",
+      "static_imports": [],
+      "sha256": "dd8f57370ee8c2b2dd62233086d6952dcab2024a3972bb9dbf73cc4c09463e16"
+    },
+    {
+      "path": "research/astra-surviving-80-check.py",
+      "group": "rounds",
+      "round": 80,
+      "description": "Interval replay for aggregated exterior Schur prices on actual terminal windows.",
+      "static_imports": [],
+      "sha256": "60442a49168c93c68e9d69abd0ffce06c42226b9be2fc4928c36bee4e6b54fbe"
+    },
+    {
+      "path": "research/astra-tail-53-check.py",
+      "group": "rounds",
+      "round": 53,
+      "description": "Certify quantile envelopes and feasible restricted frame packings at prime fields.",
+      "static_imports": [],
+      "sha256": "3791e91955a0e2d777286c5b8280bf070072f58430b02a1d2c917b9c480230ca"
+    },
+    {
+      "path": "research/astra-tail-56-check.py",
+      "group": "rounds",
+      "round": 56,
+      "description": "Certify lower bounds for all-cycle coverings on the actual p=97 optimal faces.",
+      "static_imports": [],
+      "sha256": "fef9760b4d903761feebc8b6bf71f184357540db5eabfe1acac55fe018e18b86"
+    },
+    {
+      "path": "research/astra-tails-89-check.py",
+      "group": "rounds",
+      "round": 89,
+      "description": "Exact replay of the physical translated-tail constants and cofactor bound.",
+      "static_imports": [],
+      "sha256": "261bd7e783d804ae21cda82f1dbbd2e38efd2e5692f6e6f1101f245e420d4928"
+    },
+    {
+      "path": "research/astra-terminal-87-check.py",
+      "group": "rounds",
+      "round": 87,
+      "description": "Certify a weighted hinge and the leverage cost of deleting one terminal site.",
+      "static_imports": [],
+      "sha256": "57ea85692aa863b20ee5d7f8790fb249c7db3ba29dbb78c4eb1b67b727c3663c"
+    },
+    {
+      "path": "research/astra-translated-55-check.py",
+      "group": "rounds",
+      "round": 55,
+      "description": "Check subgroup graphs exactly and enclose the odd-cycle constant.",
+      "static_imports": [],
+      "sha256": "705d4ced5a9616e261d21f2a12a3acdf49c65d7008e6cfe4f9985b57550301ea"
+    },
+    {
+      "path": "research/astra-transport-22.py",
+      "group": "rounds",
+      "round": 22,
+      "description": "Actual reciprocal supports: moving-width raw rescaling and pinned descent.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "05f9269881bd23d04e31fde887338c79dc84728a5dd37a88482ad40f255b53c0"
+    },
+    {
+      "path": "research/astra-transport-52-check.py",
+      "group": "rounds",
+      "round": 52,
+      "description": "Outward-rounded transport and root-orthogonal cold histories on true endpoints.",
+      "static_imports": [],
+      "sha256": "870c92d939d1fd72b508a0ebd5bbf5117ca514973d5c92e5bf651464c196c5a7"
+    },
+    {
+      "path": "research/astra-unary-69-base.py",
+      "group": "rounds",
+      "round": 69,
+      "description": "Strengthen the two original translated lower kernels on proved disjoint cubic and quartic sectors.",
+      "static_imports": [],
+      "sha256": "a0f2ec38a08620209352309de15b3589e822a1a74de8d11ce3e1ec51d03a0433"
+    },
+    {
+      "path": "research/astra-unary-69-check.py",
+      "group": "rounds",
+      "round": 69,
+      "description": "Pieri signed unary credits and lower sibling prices at the real floor.",
+      "static_imports": [],
+      "sha256": "3b00e5a0bdeebeb1fa8a2bbba992dc03ae48938c5102a28ac270979fc06714c5"
+    },
+    {
+      "path": "research/astra-unary-69-prices.py",
+      "group": "rounds",
+      "round": 69,
+      "description": "Exact original unary prices and the signed old-group debit on exterior translates.",
+      "static_imports": [],
+      "sha256": "7505dd40961d5048b80e97af8c07cc902f95418a79704696abe1542dd3b6d173"
+    },
+    {
+      "path": "research/astra-unary-69-sector.py",
+      "group": "rounds",
+      "round": 69,
+      "description": "Selected-factor exterior competitor and unary original-price envelopes.",
+      "static_imports": [],
+      "sha256": "89c129e405e02292f03c5b0c8e3afe1781217b9caac503677120ee1a63499d88"
+    },
+    {
+      "path": "research/astra-velocity-92-check.py",
+      "group": "rounds",
+      "round": 92,
+      "description": "Check the real-column transfer on an actual cold ray, with Arb enclosures.",
+      "static_imports": [],
+      "sha256": "e4c7558ec60c897777c666d9da096650a28361517e2e4f3b4065c263c9dbbc3c"
+    },
+    {
+      "path": "research/astra-warm-51-check.py",
+      "group": "rounds",
+      "round": 51,
+      "description": "Certify the Jacobi-Laurent radius and four positive Picard steps.",
+      "static_imports": [],
+      "sha256": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505"
+    },
+    {
+      "path": "research/astra-weighted-62-check.py",
+      "group": "rounds",
+      "round": 62,
+      "description": "Net donor-to-recipient radii over the complete p=97 even face and interval tests.",
+      "static_imports": [],
+      "sha256": "8458216b665f8732f9cc687dfbece26480fb502ecc2892d2763c047c46aa9777"
+    },
+    {
+      "path": "research/astra-witness-resume-42-check.py",
+      "group": "rounds",
+      "round": 42,
+      "description": "Interval replay of finite true-orbit witness inequalities.",
+      "static_imports": [
+        "square_control.py"
+      ],
+      "sha256": "0bb91b59042dbea58162e56564a6ce27ac1bc8c010ab6a188f90f5116d85151a"
+    },
+    {
+      "path": "research/averaged-mark-35.py",
+      "group": "rounds",
+      "round": 35,
+      "description": "Direct theta bounds from preserved marks and an averaged Picard budget.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "6ec73e2e36a8192e55ca591e6683b638a3be28822b95bfe8287a7556392fbf7a"
+    },
+    {
+      "path": "research/cap-sweep-92-check.py",
+      "group": "rounds",
+      "round": 92,
+      "description": "Outward validation of the physical correction as three real caps vary.",
+      "static_imports": [],
+      "sha256": "6b3e03a399e3d15bb10ba9dfac2c959de511aa170f0cc2f6924b1b2fc8cd616b"
+    },
+    {
+      "path": "research/centered-positive-56-check.py",
+      "group": "rounds",
+      "round": 56,
+      "description": "Certify a centered Taylor bound for the four successive positive trials.",
+      "static_imports": [],
+      "sha256": "14c3bb5b9f9a7788f8271b9cd1f403828c830207167d0cfb21bbdd5c71e5c191"
+    },
+    {
+      "path": "research/claude-fable-28-check.py",
+      "group": "rounds",
+      "round": 28,
+      "description": "Replay for research/claude-fable-28.md (floating point; diagnostics, not certificates).",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "7412335218f0bf43e850e2836190ce872055a02616981d788a98f0ef07187159"
+    },
+    {
+      "path": "research/clipped-signs-90-check.py",
+      "group": "rounds",
+      "round": 90,
+      "description": "Check the actual unforced angle data in the clipped-defect lower bound.",
+      "static_imports": [],
+      "sha256": "91f19e6c896acaa6aee437ab79f822a564df70f9fff1b5d95baea7a7437d5f4c"
+    },
+    {
+      "path": "research/compact-variance-59-check.py",
+      "group": "rounds",
+      "round": 59,
+      "description": "Exact compact moments and interval bounds for the distinguished trial.",
+      "static_imports": [],
+      "sha256": "650b892bc18d966f20d6a0d25e3705a3f439872e69e16e556e656dbf5a4177cd"
+    },
+    {
+      "path": "research/complex-branches-34.py",
+      "group": "rounds",
+      "round": 34,
+      "description": "Exact two-variable Paley central curves, discriminants and Arb checks.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "dfa4406d91e22b80247f6f9e59d17affb1154b96c5091d1493b7dbc290ad3357"
+    },
+    {
+      "path": "research/complex-floor-33.py",
+      "group": "rounds",
+      "round": 33,
+      "description": "Exact p=13 central-path discriminant and Arb stationary normalization.",
+      "static_imports": [],
+      "sha256": "01e5e7c35081137799506b4eadf6f051e89daf53bfd2fe40d7425bde01876cdf"
+    },
+    {
+      "path": "research/critical-shell-44-check.py",
+      "group": "rounds",
+      "round": 44,
+      "description": "Arb brackets on the true rooted Picard critical slice.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "3b70cb5855e44ed69e871287ece02caa21c063d248c0a4fee8c403f353e895b3"
+    },
+    {
+      "path": "research/distinguished-positive-58-check.py",
+      "group": "rounds",
+      "round": 58,
+      "description": "One positive polynomial update from the exact distinguished fields.",
+      "static_imports": [],
+      "sha256": "ff8dac07340ada00542687af5907e41135a49f0af7282fbc1c2a8847537591c1"
+    },
+    {
+      "path": "research/endpoint-direction-45-check.py",
+      "group": "rounds",
+      "round": 45,
+      "description": "Certify actual least-norm endpoints and true cold orbit projections.",
+      "static_imports": [
+        "endpoint_extension_certificate.py",
+        "endpoint_norm.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed"
+    },
+    {
+      "path": "research/endpoint-stress-36.py",
+      "group": "rounds",
+      "round": 36,
+      "description": "Stress the specified averaged repair using one Picard FFT per step.",
+      "static_imports": [
+        "smoothing.py",
+        "theta.py"
+      ],
+      "sha256": "ecc9fc50f2c151e0cd68957636b05cc4adc39342d176622bb26f2ca1ded4f1db"
+    },
+    {
+      "path": "research/generator-blocking-43-check.py",
+      "group": "rounds",
+      "round": 43,
+      "description": "Exact counting checks for near-square cyclic interval blockers.",
+      "static_imports": [],
+      "sha256": "27ea7ce3c3752c2d0ea6e414b8a137cf6aa2cb350ee8cd2a6d9a2a27fea0c9bb"
+    },
+    {
+      "path": "research/harmonic-orbit-27.py",
+      "group": "rounds",
+      "round": 27,
+      "description": "Certify finite actual Picard prefixes using norm shadowing and Arb FFTs.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "eb48c30cf478a5e988b522fe4a12d9f29b2370556914846775777edb3d6fe44a"
+    },
+    {
+      "path": "research/joint-law-32.py",
+      "group": "rounds",
+      "round": 32,
+      "description": "Exact compact-group moments and finite nested Paley diagnostics.",
+      "static_imports": [],
+      "sha256": "18aec199f1b44f745d8683cab109585b94c0ba14641b6be6e05900ca1ffb9ba3"
+    },
+    {
+      "path": "research/marked-affinity-51-check.py",
+      "group": "rounds",
+      "round": 51,
+      "description": "Enclose marked transfer bounds using exact positive Picard prefix rows.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "6d6604ca4bd9e90fae9c084b1a1fd359ff725e84bf14df5ec82e80ee2c160a71"
+    },
+    {
+      "path": "research/marked-domain-53-check.py",
+      "group": "rounds",
+      "round": 53,
+      "description": "Interval margins for an exact complex Picard invariant.",
+      "static_imports": [],
+      "sha256": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a"
+    },
+    {
+      "path": "research/marked-pick-jets-36.py",
+      "group": "rounds",
+      "round": 36,
+      "description": "Exact rational jets of the actual marked central path at equal weights.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "879a06f951b5ccba85c8e868b179d269444a78e36ec216c412484089e9593979"
+    },
+    {
+      "path": "research/mean-energy-64-check.py",
+      "group": "rounds",
+      "round": 64,
+      "description": "Outward checks of a uniform second-mean bound and true Picard mean deficits.",
+      "static_imports": [],
+      "sha256": "78b916640658bdc668953f94a85f23ff4e6336f6797b08bb320e57212fe8ddaf"
+    },
+    {
+      "path": "research/mixed-shape-witness-23.py",
+      "group": "rounds",
+      "round": 23,
+      "description": "Compare Paley Fourier trials built from paths and mixed graph shapes.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "830c3f51a5fde42709fdb76f46a754cb81532fa3155a73efc830f95879464fea"
+    },
+    {
+      "path": "research/nested-lift-31.py",
+      "group": "rounds",
+      "round": 31,
+      "description": "Unfold the nested Paley field to full-character complex fields.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "b73ae277bc9a98352d1b9b90117b8b0953c50dc14f3e46b3f0b198ce7f6846c4"
+    },
+    {
+      "path": "research/nested-phase-31.py",
+      "group": "rounds",
+      "round": 31,
+      "description": "Exact cyclic-convolution certificate for a finite nested arithmetic sign.",
+      "static_imports": [],
+      "sha256": "ad7e51d98c8053780dca755f4e25d57fa44b92f304e71caafd3211cd3e0063b9"
+    },
+    {
+      "path": "research/nested-positive-54-check.py",
+      "group": "rounds",
+      "round": 54,
+      "description": "Certify a positive four-step trial using the rank-three feedback law.",
+      "static_imports": [],
+      "sha256": "94f35664f99e0d6bc0b2967426a1aa85832e07b6fec13eddfda9331ff5f6694b"
+    },
+    {
+      "path": "research/one-sided-quadratic-22.py",
+      "group": "rounds",
+      "round": 22,
+      "description": "Compute interval bounds for the reciprocal one-sided Fourier quadratic.",
+      "static_imports": [],
+      "sha256": "3b11fc4db8f681035e5ea754095b4d1a529652dd866de4ed58f713462bfa6c10"
+    },
+    {
+      "path": "research/paired-trial-49-check.py",
+      "group": "rounds",
+      "round": 49,
+      "description": "Verify two feasible Fourier trials for a real cold marked bound.",
+      "static_imports": [],
+      "sha256": "46a4d0011eab700806f22cee9793c0124d744693f4d4ecc76193957a2b37ad5a"
+    },
+    {
+      "path": "research/paired-windows-70-check.py",
+      "group": "rounds",
+      "round": 70,
+      "description": "Outward check of two actual delayed cold-orbit profiles and their common mix.",
+      "static_imports": [],
+      "sha256": "a7f9f95e330719b64807536a491ac3a54172053f46ed34572cd06b0382f77125"
+    },
+    {
+      "path": "research/parallel-activation-26.py",
+      "group": "rounds",
+      "round": 26,
+      "description": "Actual Paley smoothing increments, including weighted saturation tails.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "66b99edc3e08eec63db277f266cc5804fec796c49b7775ddbe779f8d0919107c"
+    },
+    {
+      "path": "research/parallel-audit-32.py",
+      "group": "rounds",
+      "round": 32,
+      "description": "Exact small checks for the mod-four nested determinant-sign proof.",
+      "static_imports": [],
+      "sha256": "a9c6cf392bf97a198b9f357273b2dbaacbc4e7aa2fcd3a6f8840f5fc354c5514"
+    },
+    {
+      "path": "research/parallel-audit-33.py",
+      "group": "rounds",
+      "round": 33,
+      "description": "Small actual-Paley checks for Schur clipping and precision sign mass.",
+      "static_imports": [
+        "poisson_weights.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "cbe3a589a866f12b816d93e0f5fc2d0745fc9e4ccde71cb90b53135b684ee507"
+    },
+    {
+      "path": "research/parallel-audit-34.py",
+      "group": "rounds",
+      "round": 34,
+      "description": "Independent exact elimination and Arb checks for the p17/q25 branches.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "7f3daf6bf8f2f7970ae100bb74576f1b10d0a5c70052ae22ccde7793d5f0f9d3"
+    },
+    {
+      "path": "research/parallel-audit-35.py",
+      "group": "rounds",
+      "round": 35,
+      "description": "Minimal independent checks for the regularization and averaged-mark bridge.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "6cf10775c33d856bb4af31bed6f72e2f6c71921b05dccd9b5201c612eb0578d4"
+    },
+    {
+      "path": "research/parallel-audit-36.py",
+      "group": "rounds",
+      "round": 36,
+      "description": "Independent exact endpoint algebra and small floating implementation checks.",
+      "static_imports": [],
+      "sha256": "c61912cc7bd4b0d9b53c1700e084616099d69931ff89fac9cad418c192e142f8"
+    },
+    {
+      "path": "research/parallel-cells-25-check.py",
+      "group": "rounds",
+      "round": 25,
+      "description": "Exact cell and two-tail checks for parallel-cells-25.md.",
+      "static_imports": [],
+      "sha256": "674fbc6b469c228eaab6b87eba2480be6d57a108adf22a8cf42e0de078902b0a"
+    },
+    {
+      "path": "research/parallel-circulant-source-32.py",
+      "group": "rounds",
+      "round": 32,
+      "description": "Round 32: actual Paley clipping, cyclic identities and triangle reductions.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "f35652c35d36727049cf76100190d71b5db5cd3a865db6413a33bcf76e8e5441"
+    },
+    {
+      "path": "research/parallel-coherent-source-31.py",
+      "group": "rounds",
+      "round": 31,
+      "description": "Round 31: an exact stationary coherent-reflection counterfamily.",
+      "static_imports": [],
+      "sha256": "f57e41c3d3e8b8d42b8d5f21a3bef162ce99cf8c98c1ceb3787a40530cf6f98b"
+    },
+    {
+      "path": "research/parallel-cold-complex-36.py",
+      "group": "rounds",
+      "round": 36,
+      "description": "Exact stationary phase identities and Arb square-obstruction constants.",
+      "static_imports": [],
+      "sha256": "744c7303760517b60e53bf332f2f67026e41252de761159dbcc374c5aa99a652"
+    },
+    {
+      "path": "research/parallel-complex-structure-35.py",
+      "group": "rounds",
+      "round": 35,
+      "description": "Round 35 exact/interval checks for the structural complex-path note.",
+      "static_imports": [],
+      "sha256": "9b0ba534e815f71d76e3d32e6437241d78a2bb42d1094271314e3d21f11202e8"
+    },
+    {
+      "path": "research/parallel-complexity-14.py",
+      "group": "rounds",
+      "round": 14,
+      "description": "Replay the marked contraction loss and the first harmonic cutoff.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "9417c5c3e32f0d4bb320d805e2363ac721b820cbeb5c810226c1e19833b138a9"
+    },
+    {
+      "path": "research/parallel-crossratio-21-check.py",
+      "group": "rounds",
+      "round": 21,
+      "description": "Exact finite checks for parallel-crossratio-21.md; Python standard library only.",
+      "static_imports": [],
+      "sha256": "3ed3c21381057e1af2fc9f52d630e48fd8ef86e9672db4b379a0fcc3b0966351"
+    },
+    {
+      "path": "research/parallel-crossratio-22-check.py",
+      "group": "rounds",
+      "round": 22,
+      "description": "Exact finite checks for parallel-crossratio-22.md (standard library only).",
+      "static_imports": [],
+      "sha256": "40991212c415af360cc22d32047b24501483fadcba99351af0e23c69d9351ca9"
+    },
+    {
+      "path": "research/parallel-defect-16.py",
+      "group": "rounds",
+      "round": 16,
+      "description": "Replay positive and signed Fourier repairs of the projected reciprocal row.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "43d801993ad9c143f4dccbd36d211de3c55f4ec3188e4c974dc332740e29acbf"
+    },
+    {
+      "path": "research/parallel-depth-window-30.py",
+      "group": "rounds",
+      "round": 30,
+      "description": "Minimal algebra audits and actual-orbit depth-window diagnostics.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "17a6d05586e6809dc3a415bb6bf345e21d128f0e7eb0a018bdf4726193cb89e3"
+    },
+    {
+      "path": "research/parallel-directions-23-check.py",
+      "group": "rounds",
+      "round": 23,
+      "description": "Exact checks for parallel-directions-23.md, using only the standard library.",
+      "static_imports": [],
+      "sha256": "10973e91ed0e1af86473e520655daa7cf154128b0ca96e7f8fb9b5260224c147"
+    },
+    {
+      "path": "research/parallel-extrapolation-26.py",
+      "group": "rounds",
+      "round": 26,
+      "description": "Replay exact-form signed extrapolation and anchored finish bounds.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "55d6a5e4e5c6d61b0970ce5c8f861a0017697b24da422bd8f32a2036398e4b10"
+    },
+    {
+      "path": "research/parallel-graph-shapes-23.py",
+      "group": "rounds",
+      "round": 23,
+      "description": "Replay the first graph-shape moments on the actual Paley localization.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "5e9942885180c26d0d8674b23c43d23885e2994f6080980c77502e805968db3f"
+    },
+    {
+      "path": "research/parallel-integrability-28.py",
+      "group": "rounds",
+      "round": 28,
+      "description": "Evaluate the explicit uniformly integrable residual-pairing example.",
+      "static_imports": [],
+      "sha256": "aac12495fc25afdd211c7dc2adb30f0909443066130c19b1e86f5aec94084484"
+    },
+    {
+      "path": "research/parallel-prime-ui-33-conic.py",
+      "group": "rounds",
+      "round": 33,
+      "description": "Small actual-Paley conic optimizations with rigorous primal/dual replay.",
+      "static_imports": [],
+      "sha256": "36c650bdb03e95aff70ccb5161bf05f899950fd507f216f598eab7609005eb65"
+    },
+    {
+      "path": "research/parallel-prime-ui-33.py",
+      "group": "rounds",
+      "round": 33,
+      "description": "Round 33: positive-pair fidelity certificates for the actual Paley source.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "6367d4548117b97f2ad511d0b621a3f775dd65991147b72271c10ce6a36b8996"
+    },
+    {
+      "path": "research/parallel-random-circulant-25.py",
+      "group": "rounds",
+      "round": 25,
+      "description": "Compare the first Paley feedback fields with Gaussian tree normalization.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "5a21331f0b8f30827f9f005cd9c14a2f5bc5bccb7e1ea61df76694eebf422eb4"
+    },
+    {
+      "path": "research/parallel-rate-27-orbit-audit.py",
+      "group": "rounds",
+      "round": 27,
+      "description": "Independently check the q=61 certified prefix with a dense Arb matrix.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "ae68f93ae407fe072a7627b887a4925a149a850e72fe92e6e59fd15a08e31748"
+    },
+    {
+      "path": "research/parallel-rate-27.py",
+      "group": "rounds",
+      "round": 27,
+      "description": "Small deterministic checks of unequal-rate and time-block comparisons.",
+      "static_imports": [
+        "smoothing.py",
+        "theta.py"
+      ],
+      "sha256": "dd352a903c844de4833c7d5a11e8ba97828102411ff2c7da7597c7738b072d30"
+    },
+    {
+      "path": "research/parallel-ratio-18.py",
+      "group": "rounds",
+      "round": 18,
+      "description": "Optimize the endpoint ratio of a translated Fourier repair.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "973ce8e55b61b63e030c387df5b28bb3be55bd03b6dbcf5c28841007566cd51f"
+    },
+    {
+      "path": "research/parallel-reciprocal-28.py",
+      "group": "rounds",
+      "round": 28,
+      "description": "Floating diagnostics for the actual reciprocal stationary source (Round 28).",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "d3c47215e68a56c8e3e53446f9f4e7d8b56126daf62b5594230d487cb7af83bf"
+    },
+    {
+      "path": "research/parallel-repair-17.py",
+      "group": "rounds",
+      "round": 17,
+      "description": "Four clipped Fourier projections, with a positive Jacobi finish (no theta LP).",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "28a6650f5294171861fab4a75c7ee5af8c7c5b2ec300a2ed0baf04543f362246"
+    },
+    {
+      "path": "research/parallel-schur-response-34-audit.py",
+      "group": "rounds",
+      "round": 34,
+      "description": "Audit saved round-34 records and replay the exact incidence arithmetic.",
+      "static_imports": [],
+      "sha256": "a91bc3f86b1ff3d8b2a658893c32391376ba0186841dcb1b8ccafc4d3ea75827"
+    },
+    {
+      "path": "research/parallel-schur-response-34-certified.py",
+      "group": "rounds",
+      "round": 34,
+      "description": "Arb finite actual-Paley HR certificates using a continuous threshold cover.",
+      "static_imports": [
+        "poisson_weights.py",
+        "theta.py"
+      ],
+      "sha256": "11f3bc8495cae7a36fe103991cedb973694b1ac37af54c7918349822b4268503"
+    },
+    {
+      "path": "research/parallel-schur-response-34.py",
+      "group": "rounds",
+      "round": 34,
+      "description": "Exact small Paley incidence checks and floating actual-source diagnostics.",
+      "static_imports": [
+        "poisson_weights.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "6fceb1e1734e8316dcee395ea90f1da837355106fcb09131fc43e2ef848a6a51"
+    },
+    {
+      "path": "research/parallel-source-pair-29.py",
+      "group": "rounds",
+      "round": 29,
+      "description": "Round 29: reciprocal Schur identities, stripped tails, and an exact model.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "fbddbbbcd9a464e9c6300c1962f2e2a72d4bb95ccb9e18f7aab7182f5f18f3e6"
+    },
+    {
+      "path": "research/parallel-tail-18.py",
+      "group": "rounds",
+      "round": 18,
+      "description": "Measure the bulk excess transfer of the actual Round 17 repair orbit.",
+      "static_imports": [],
+      "sha256": "fb6af1bd3a70718981bde65d114635e643ef6feff762f688a822b7ba8a16be44"
+    },
+    {
+      "path": "research/parallel-transport-15.py",
+      "group": "rounds",
+      "round": 15,
+      "description": "Replay one-sided Fourier deflation and nonnegative repair across growing ratios.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "19530516bb3246382150d618a55f57305cf107a842a3387a29e0df23b16820a7"
+    },
+    {
+      "path": "research/parallel-transport-27.py",
+      "group": "rounds",
+      "round": 27,
+      "description": "Actual-increment signed flat-rectangle diagnostics for Round 27.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "a2d0fba75f7fe3f417f8005af247b7e5b66bd5f4fb97a9af59225c84898c27c2"
+    },
+    {
+      "path": "research/parallel-vacancy-24-audit.py",
+      "group": "rounds",
+      "round": 24,
+      "description": "Independent coverage and exact integer audit of the finite vacancy certificate.",
+      "static_imports": [],
+      "sha256": "582de0693d492ddde9bf4e30d8ed5b9c2f183293a7078b1a1543a041ad27421e"
+    },
+    {
+      "path": "research/parallel-vacancy-24-check.py",
+      "group": "rounds",
+      "round": 24,
+      "description": "Exact nonsquare vacancies for every critical even subgroup in a finite range.",
+      "static_imports": [],
+      "sha256": "77068244661e41236ef32588dff7c4a07dd25c7932f066ec24dcf00aa6e932d9"
+    },
+    {
+      "path": "research/parallel-vacancy-24-square-check.py",
+      "group": "rounds",
+      "round": 24,
+      "description": "Exact norm-one square-field checks for the cell-square identity in Round 24.",
+      "static_imports": [],
+      "sha256": "0f0bf4b6494ab23335d5409927f3360f41b3798c4c357c8ef56782a5638f789d"
+    },
+    {
+      "path": "research/physical-two-floor-88-check.py",
+      "group": "rounds",
+      "round": 88,
+      "description": "Replay the two-floor and tangent identities at two true p=173 points.",
+      "static_imports": [],
+      "sha256": "5f873a0fd2950eec4b26d3e403755505e31dd6e619482db3c638abb6990459f0"
+    },
+    {
+      "path": "research/picard-transfer-37-check.py",
+      "group": "rounds",
+      "round": 37,
+      "description": "Validate transfer normalization on actual prime- and square-field orbits.",
+      "static_imports": [],
+      "sha256": "82d02b1605f777890f4e0e7acb9547d454fa2d7adcd3ee655813846cae011890"
+    },
+    {
+      "path": "research/pinned-penalty-24.py",
+      "group": "rounds",
+      "round": 24,
+      "description": "Enclose the fixed-mark squared defect and the scaled smoothed tail.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "7009fe9632a187c03e147a09e601e09f3781672b7f2bd5118a6796eaebf79265"
+    },
+    {
+      "path": "research/prime-increments-52-check.py",
+      "group": "rounds",
+      "round": 52,
+      "description": "Enclose the three-step positive predictor with prime joint moments.",
+      "static_imports": [],
+      "sha256": "35e9eb661b45b161503416a7f8c3581db869b12a701556ed393243a0ed5322fa"
+    },
+    {
+      "path": "research/quadratic-mark-42-check.py",
+      "group": "rounds",
+      "round": 42,
+      "description": "Exact compact-probability checks for the quadratic marked bound.",
+      "static_imports": [],
+      "sha256": "a2a7b69eeb3233c51f7d4fdc21c90a7a0af210412286afe08f6c21818349d552"
+    },
+    {
+      "path": "research/rank-four-arithmetic-56-check.py",
+      "group": "rounds",
+      "round": 56,
+      "description": "Check the rank-four Mellin determinant identities by exact Newton traces.",
+      "static_imports": [],
+      "sha256": "16013ac8b19b4a4cf0ad93f91b5f7af95858c58f4c04d077798b5feb5dfe3258"
+    },
+    {
+      "path": "research/rank-four-positive-55-check.py",
+      "group": "rounds",
+      "round": 55,
+      "description": "Certify the fourth increment using independent rank-four derived groups.",
+      "static_imports": [],
+      "sha256": "9cb1381edf1872f7bb75504c1064374c6bfc519d5ed7a34fca8e49d040d5ca47"
+    },
+    {
+      "path": "research/real-phase-projection-89-check.py",
+      "group": "rounds",
+      "round": 89,
+      "description": "Check the real weighted phase reflection on the genuine prime-173 ray.",
+      "static_imports": [],
+      "sha256": "18206c2736416936b3ef56be6d1911c801e2ab8cf4f5655f69d5e361f44994c6"
+    },
+    {
+      "path": "research/real-two-marks-91-check.py",
+      "group": "rounds",
+      "round": 91,
+      "description": "Outward enclosure of the two real endpoint problems at a clipped prime row.",
+      "static_imports": [],
+      "sha256": "9ff7d4183b674e4c81dccac9be9bf0a6e90b96d252e50135f79b07eca48c5f14"
+    },
+    {
+      "path": "research/reciprocal-seed-26.py",
+      "group": "rounds",
+      "round": 26,
+      "description": "Signed reciprocal seed mixtures with full Gram and padded positivity checks.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "627daee9f98a57f59682446fe895faa5e27a4184baf2dae33a8c3f56e5ef2534"
+    },
+    {
+      "path": "research/reference-curvature-50-check.py",
+      "group": "rounds",
+      "round": 50,
+      "description": "Independently enclose the regression and the two flat tangent norms.",
+      "static_imports": [],
+      "sha256": "5aa84bd4726c5ed21debe48753a3695045ec40a6edfa3ce88050d756a97a63f4"
+    },
+    {
+      "path": "research/resolvent-repair-18.py",
+      "group": "rounds",
+      "round": 18,
+      "description": "Check the convolution resolvent at thresholds from the clipped repair.",
+      "static_imports": [
+        "quadratic_theta.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "f4850e5fb422f578325d765bbf6aef3078a145c3948bc79dfc2bd5fdfafd08da"
+    },
+    {
+      "path": "research/root-coupled-tail-29.py",
+      "group": "rounds",
+      "round": 29,
+      "description": "Replay a reciprocal tail certificate without maximizing over the root first.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "f2f18d62378aaa42e7ef307f7d0ebb99dcac9adc26f97846c478f5cb8d09ced4"
+    },
+    {
+      "path": "research/scalar-seed-25.py",
+      "group": "rounds",
+      "round": 25,
+      "description": "Compare scalar Jacobi seed corrections to their compact-group limit.",
+      "static_imports": [],
+      "sha256": "24150a8c8ef81ee850262778beafeeea673d7ea8e3bf91e6789db151c8a1e8ad"
+    },
+    {
+      "path": "research/schur-mixing-32.py",
+      "group": "rounds",
+      "round": 32,
+      "description": "Round 32: exact Schur spectra and actual marked first-moment diagnostics.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "645b582b150b0e576cbcb65cbfb5bc3e137bc5bd8947ca580f1c601017d4ab3f"
+    },
+    {
+      "path": "research/seed-majorant-47-check.py",
+      "group": "rounds",
+      "round": 47,
+      "description": "Exact bounds for the separated-seed rank majorant at floor 28.",
+      "static_imports": [],
+      "sha256": "106a54a70ba44ab1e1a113a3c82f7a7b60cdb62866380e843de04c631f51fa80"
+    },
+    {
+      "path": "research/shifted-groups-68-check.py",
+      "group": "rounds",
+      "round": 68,
+      "description": "Exact determinant-weight moment tables for the shifted rank-seven and eight factors.",
+      "static_imports": [],
+      "sha256": "03504955e5b94d94c1f4957a77c3a9c97bf43d3f43d6daa8c7130ce24cdc4081"
+    },
+    {
+      "path": "research/signed-compact-60-check.py",
+      "group": "rounds",
+      "round": 60,
+      "description": "Arb enclosure with exact Jacobi/rank-three coefficient collection.",
+      "static_imports": [],
+      "sha256": "e3c689a6f143d1f37e36cb895250039245295f5c29e52ea0679dc478dde4dcf0"
+    },
+    {
+      "path": "research/soft-tail-21.py",
+      "group": "rounds",
+      "round": 21,
+      "description": "Minimize a smoothed upper-tail cost on the fixed-mark Fourier slice.",
+      "static_imports": [],
+      "sha256": "ff5610b1345e24bd77eab15ba3563dd5882675e1ceb7f1850af24975c73a6d65"
+    },
+    {
+      "path": "research/source-tail-28.py",
+      "group": "rounds",
+      "round": 28,
+      "description": "Signed transformed-residual certificate using reciprocal source caps.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "936b887ac0dd743792dba90eccf3696d784bd8da96123f519898ab42827336de"
+    },
+    {
+      "path": "research/square-pinned-22.py",
+      "group": "rounds",
+      "round": 22,
+      "description": "Certify pinned square defects and the corresponding one-sided width range.",
+      "static_imports": [],
+      "sha256": "f6b52e3aea776e3c9de4736e294e86d555d78148fa73b5793d6c9ca059bf8c73"
+    },
+    {
+      "path": "research/static-trial-48-check.py",
+      "group": "rounds",
+      "round": 48,
+      "description": "Enclose the measure budget and certify opposite-sector harmonic duals.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "c2633816fb47c73d6ab4286775a0f472705e0ab914fcd8e536cd56a909f0f243"
+    },
+    {
+      "path": "research/terminal-step-66-check.py",
+      "group": "rounds",
+      "round": 66,
+      "description": "Outward comparisons for the two-activation terminal budget.",
+      "static_imports": [],
+      "sha256": "c6868d094bba32368d9dbcf14afa291e9a4c9910a8b90e165d4667858e75cf35"
+    },
+    {
+      "path": "research/threshold-repair-19-certificate.py",
+      "group": "rounds",
+      "round": 19,
+      "description": "Enclose the initial active set in two prime cases beyond the support barrier.",
+      "static_imports": [],
+      "sha256": "d5fd53e1b7f77a9fcd5096025a683c3b0e11bc60d0bf501da92bbb26bfe54a74"
+    },
+    {
+      "path": "research/threshold-repair-19.py",
+      "group": "rounds",
+      "round": 19,
+      "description": "Repair a clipped Fourier shadow through its positive transfer matrix.",
+      "static_imports": [],
+      "sha256": "e7305afb1949c680ab455130deeb8123df174dcfd80590ed3a2df7b677539af2"
+    },
+    {
+      "path": "research/timed-pinning-69-check.py",
+      "group": "rounds",
+      "round": 69,
+      "description": "Interval check of one fixed weighted pinning rule on actual cold orbits.",
+      "static_imports": [],
+      "sha256": "43327558dea674241bdf2a3ae28d21170a80cdfefb2e5d289f77e7de872aad7e"
+    },
+    {
+      "path": "research/top-tail-transfer-30.py",
+      "group": "rounds",
+      "round": 30,
+      "description": "Deterministic top-tail checks; no Paley arithmetic or stationary solve.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "b3d1d230c27ba18a8a37e1c495c91f9cc1a22c284055e1ca3d187851f0ef9cd0"
+    },
+    {
+      "path": "research/translated-caps-71-check.py",
+      "group": "rounds",
+      "round": 71,
+      "description": "Outward comparison of three translated covers on actual prime-97 defects.",
+      "static_imports": [],
+      "sha256": "76c0ca3d2cb050498b1f088789789f7029e5cfc22d1c1e073182292e2091d147"
+    },
+    {
+      "path": "research/true-spill-63-check.py",
+      "group": "rounds",
+      "round": 63,
+      "description": "Outward checks of the pinned reflection on unrounded zero-floor Picard averages.",
+      "static_imports": [],
+      "sha256": "11f2ad806558e4fe4d67ab962488ac6d1168a1afdf41fb86783e481cf04f35e6"
+    },
+    {
+      "path": "research/twisted-coset-defect-40-check.py",
+      "group": "rounds",
+      "round": 40,
+      "description": "Verify the twisted coset transform and rational terms over prime fields.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "0f12ce04ce1ce317c7fed96c7a73260587911493627e1bea7bfd2b7223a058b8"
+    },
+    {
+      "path": "research/twisted-coset-occupancy-39-check.py",
+      "group": "rounds",
+      "round": 39,
+      "description": "Count signed shifted coset cells in prime and prime-square fields.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "8d3a1273d29f965d4df019d5174866b8c7f64015cf6765966d40fd05189f7fce"
+    },
+    {
+      "path": "research/twisted-lattice-defect-41-check.py",
+      "group": "rounds",
+      "round": 41,
+      "description": "Exact prime reductions for complex-twisted cosets of orders 3, 4, 6.",
+      "static_imports": [],
+      "sha256": "34a716aeb68f8b97ab04a0c9c6ec6ee4eae8dd80930e5f676cb1552ceef5104d"
+    },
+    {
+      "path": "research/two-node-groups-59-check.py",
+      "group": "rounds",
+      "round": 59,
+      "description": "Exact Mellin determinant checks for the quadratic Legendre source.",
+      "static_imports": [],
+      "sha256": "f13955a15a9bf20704fd4db980ec98b9a6ee9ec8593bc82b2d993227acee0d2c"
+    },
+    {
+      "path": "research/weighted-arithmetic-57-check.py",
+      "group": "rounds",
+      "round": 57,
+      "description": "Exact tests for the next feedback's boundary table and Mellin determinants.",
+      "static_imports": [],
+      "sha256": "570499922f90517495afb11954a1ad09c8eee026406038737ef7debdf1b90bde"
+    },
+    {
+      "path": "research/weighted-positive-57-check.py",
+      "group": "rounds",
+      "round": 57,
+      "description": "Interval check for transferring the leading fourth increment separately.",
+      "static_imports": [],
+      "sha256": "f70a5b2c2d8695624b607fd5c956a09cc28b09030d814b0a8e689a0d4ec1a921"
+    },
+    {
+      "path": "response_shift.py",
+      "group": "response",
+      "round": null,
+      "description": "Replay the marked response for a prescribed, nearly saturated frequency set.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "f2a9c0bd0822f2dec3f036ad09aad82405f77666c0c224ed0a299c67b28353f9"
+    },
+    {
+      "path": "response_windows.py",
+      "group": "response",
+      "round": null,
+      "description": "Compare signed resolvent windows and the mixed stationary tail at the mark.",
+      "static_imports": [
+        "sensitivity.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "6193640c0ba798673b41a2ebf9025023eed00d888b576fa53727915ad69404e3"
+    },
+    {
+      "path": "scripts/research_index.py",
+      "group": "maintenance",
+      "round": null,
+      "description": "Summarize acceptance records and maintain the research navigation page.",
+      "static_imports": [],
+      "sha256": "096af16e7a73b2db6a3cb88594e83dd92faa2f1a4db5775dfa81430b84e083e9"
+    },
+    {
+      "path": "sensitivity.py",
+      "group": "response",
+      "round": null,
+      "description": "Measure the theta certificate's response to the marked smoothing weight.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "4516ac592a13a90f6d2e7e47a00635588f4d291f19c31bb89672a8ec8e0ac15c"
+    },
+    {
+      "path": "signed_drift.py",
+      "group": "smoothing",
+      "round": null,
+      "description": "Compare signed iterate correlations with stationary and LP spectra.",
+      "static_imports": [
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "c9513d764b791ab559a0b7a8a645b4cc3b14ef40a03e6be09113039f54b9223a"
+    },
+    {
+      "path": "smoothing.py",
+      "group": "smoothing",
+      "round": null,
+      "description": "Probe the marked coordinate in complementary Fourier smoothing.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb"
+    },
+    {
+      "path": "square_control.py",
+      "group": "smoothing",
+      "round": null,
+      "description": "Compare smoothing over prime and prime-square field orders.",
+      "static_imports": [
+        "smoothing.py",
+        "theta.py"
+      ],
+      "sha256": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122"
+    },
+    {
+      "path": "square_endpoint_rank.py",
+      "group": "endpoints",
+      "round": null,
+      "description": "Certify the finite cases in square-endpoint uniqueness by exact modular rank.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "25a5b7ec197d5e9807b24ae8e6e1703e3d1487fe75880dc5502e7bcbbd0c9420"
+    },
+    {
+      "path": "stationary_attenuation.py",
+      "group": "response",
+      "round": null,
+      "description": "Check the weighted transfer identities for sitewise diagonal changes.",
+      "static_imports": [
+        "coset_activation_probe.py",
+        "poisson_weights.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "61e03d94d686fb12728a7acd43546c34a3d3062aad264297a6c380b3ab7c786e"
+    },
+    {
+      "path": "stationary_defect_tail.py",
+      "group": "response",
+      "round": null,
+      "description": "Separate the low dissipation modes in the averaged half-angle tail.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "23ce337cbb75b7b8149aeb3099131cf61e7e51b899acd3ae50b5a75d38605484"
+    },
+    {
+      "path": "stationary_mark_constant.py",
+      "group": "response",
+      "round": null,
+      "description": "Compare marked and constant responses in each stationary sign block.",
+      "static_imports": [
+        "poisson_weights.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "8d7a21c6e99cd5b5a2fbde3203fe79d0ee08b889fb65b8e34f7e0ca641c84307"
+    },
+    {
+      "path": "stationary_modes.py",
+      "group": "response",
+      "round": null,
+      "description": "Probe the coupling of a near-zero direction to the stationary Paley iterate.",
+      "static_imports": [
+        "sensitivity.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "f9db225ff2d3ac1ad8b073359ef2e4435087bfd79fdd46faf559c740ccf492e9"
+    },
+    {
+      "path": "stationary_ordered.py",
+      "group": "response",
+      "round": null,
+      "description": "Replay the one-sided weighted bulk identities at a stationary pair.",
+      "static_imports": [
+        "coset_activation_probe.py",
+        "poisson_weights.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "6e464b8b4a2853205e5f3f9a736ea457f76cd5ba6c741b5e9c667b5481e8af45"
+    },
+    {
+      "path": "stationary_secant.py",
+      "group": "response",
+      "round": null,
+      "description": "Compare a half-angle inverse and weighted trial residuals at Paley orders.",
+      "static_imports": [
+        "coset_activation_probe.py",
+        "poisson_weights.py",
+        "sensitivity.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "33875c868cb3fe7106bbbbf704bb5131f5b3ccc8694048f5203c1a0ddb4ef26a"
+    },
+    {
+      "path": "subgroup_modes.py",
+      "group": "response",
+      "round": null,
+      "description": "Compare Paley subgroup compressions with the stationary marked response.",
+      "static_imports": [
+        "sensitivity.py",
+        "smoothing.py",
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "e1624e2b09183fad7d3d1c7c32d2f75b05d689382f90ecfb4ae63dc46b1acf4a"
+    },
+    {
+      "path": "theta.py",
+      "group": "theta",
+      "round": null,
+      "description": "Compute and certify ordinary theta for both Paley localization supports.",
+      "static_imports": [],
+      "sha256": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+    },
+    {
+      "path": "two_mark_frontier.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Enclose two-mark rank integrals using several linear Fourier LP costs.",
+      "static_imports": [
+        "face_ranks.py",
+        "square_control.py",
+        "theta.py",
+        "two_mark_geometry.py"
+      ],
+      "sha256": "9df478dda443950ab54aeba837558d4ffcb7929a3681d852ce39045be365af21"
+    },
+    {
+      "path": "two_mark_geometry.py",
+      "group": "geometry",
+      "round": null,
+      "description": "Compute the diagonal of the two-frequency projected Fourier polytopes.",
+      "static_imports": [
+        "square_control.py",
+        "theta.py"
+      ],
+      "sha256": "ab4b211eb771bd649ee3155f785b86a8d77f14e78a8082fcafd78e43fa6a2eef"
+    },
+    {
+      "path": "witnesses.py",
+      "group": "theta",
+      "round": null,
+      "description": "Compare low-dimensional, edge-supported theta witness families.",
+      "static_imports": [
+        "theta.py"
+      ],
+      "sha256": "3c35daf2434c1a001e1c6eaa3e750a2a56588d5234df933eb36f7fc6d72c1dce"
+    }
+  ]
+}
