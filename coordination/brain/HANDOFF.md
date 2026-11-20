@@ -28,7 +28,7 @@ retireQueue 为空。
 
 ## 待办
 
-1. **提交**：Round 180 到 182 的全部成果都还没提交（当前分支 `research/rounds-92-180`）。提交前先问用户。
+1. **已提交并推送**：Round 180–182 的成果已提交到 `research/rounds-92-180`（commit c79dc74 和 08bed6e），并推送到 origin。**用户要求先暂停**：等电脑上的文件管理（迁出 iCloud）结束后，再接着推进 Round 183。
 2. **派出 Round 183**：三个任务已导出到 `coordination/missions/round-183/`：
    - `ordinary-prime-first-mass-fibre-dilation`：把 M_w 当作 slope fibre 内的 dilation 相关来处理
    - `cold-prime-seed-multiplier-power-rate`：把 seed-only 的 Taylor 项并入 L_S，求幂次 rate
