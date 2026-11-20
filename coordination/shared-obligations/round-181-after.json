@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment; the same coordinator role wrote the pre-dispatch comparison, so this measures consistency, not independent detection)",
+  "comparison": "The three dispatched routes were compared using the recovered hand-back summaries and audit excerpts (the full drafts were lost with the launching session's scratchpad). The slope-fibre route reduced the one-match target to the generic bound S_gen(t)=O(p^2) and to the conditional criteria (b1') ||pi(mu)||_op=O(p^(3/4)) or (b2) a distinct-slope rich-line bound for level sets U of h_t; these concern the affine-group operator pi(mu) of the twisted physical interior. The first-mass route reduced M_w to M_w<=E_Q(h)/4 and to near-sharp shifted multiplicative energy E^x(1-S_t) of level sets S_t of g. Both residues are additive-combinatorial statements about level sets of the actual g, but they are different estimates: neither the operator-norm / rich-line bound nor the shifted-energy bound implies the other at the stated hypotheses and scales, and the objects (affine maps acting on U versus the multiplicative energy of the shifted set 1-S) differ. The cold route shares no estimate with either. No overlap group is recorded.",
+  "groups": [],
+  "dispatch": "coordination/round-181-inflight.json",
+  "launched_at_utc": "2026-11-20T07:39:52.536502Z",
+  "launched_calls": [
+    "ordinary-prime-one-match-slope-fibres",
+    "ordinary-prime-direct-first-mass",
+    "cold-prime-delocalization-price"
+  ],
+  "before_sha256": "c1761aa2f158b8581e7cdc363144a2132c23129c8cc17eb2a9e6eed80610d698"
+}

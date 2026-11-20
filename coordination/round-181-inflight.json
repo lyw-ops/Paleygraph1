@@ -1,0 +1,55 @@
+{
+  "round": 181,
+  "dispatch_status": "Native Claude subagents; started_utc_epoch recorded immediately before launch",
+  "provider": "Claude Code native subagents (Claude Opus 5.5); PALEY_GATEWAY_API_KEY not available in this session",
+  "accepted_checkpoint": {
+    "path": "research/round-180-acceptance.json",
+    "sha256": "489e1a259667fe13a6f2e6893358de175eaf8240bc49f02bb9679186702e128a"
+  },
+  "coordinator": {
+    "path": "coordination/round-180.json",
+    "sha256": "7037e26f9bd685e695f4b90801d59b0e2027d8e93c2bd9db0f846d6ce65accf5"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-181-before.json",
+    "sha256": "c1761aa2f158b8581e7cdc363144a2132c23129c8cc17eb2a9e6eed80610d698"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-one-match-slope-fibres",
+      "agent_label": "native-claude/one_match_181",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-181/ordinary-prime-one-match-slope-fibres.md",
+        "sha256": "01893e6570c5d80d31146f8374f93fe25808715260eda31e7248f6496a3aeee6"
+      },
+      "pending_candidate": "/private/tmp/claude-501/-Users-lyuyuwei--claude-spares-spare-6UwrMo/5c2fbe9f-e42f-418e-9bd9-cc365745ecfe/scratchpad/r181/ordinary-prime-one-match-slope-fibres-candidate.md",
+      "started_utc_epoch": 1795160392.5365021,
+      "timestamp_role": "immediately before launch"
+    },
+    {
+      "call_id": "ordinary-prime-direct-first-mass",
+      "agent_label": "native-claude/first_mass_181",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-181/ordinary-prime-direct-first-mass.md",
+        "sha256": "5501ba58f98ecf371daf28965256e558a9c672f7c1b4b46ecc9db8dbd6b4f454"
+      },
+      "pending_candidate": "/private/tmp/claude-501/-Users-lyuyuwei--claude-spares-spare-6UwrMo/5c2fbe9f-e42f-418e-9bd9-cc365745ecfe/scratchpad/r181/ordinary-prime-direct-first-mass-candidate.md",
+      "started_utc_epoch": 1795160392.5365279,
+      "timestamp_role": "immediately before launch"
+    },
+    {
+      "call_id": "cold-prime-delocalization-price",
+      "agent_label": "native-claude/cold_deloc_181",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-181/cold-prime-delocalization-price.md",
+        "sha256": "5862e2b2320b9042f62c73f85857a932f311594da9cfdc63fb6660b110376d50"
+      },
+      "pending_candidate": "/private/tmp/claude-501/-Users-lyuyuwei--claude-spares-spare-6UwrMo/5c2fbe9f-e42f-418e-9bd9-cc365745ecfe/scratchpad/r181/cold-prime-delocalization-price-candidate.md",
+      "started_utc_epoch": 1795160392.5365582,
+      "timestamp_role": "immediately before launch"
+    }
+  ]
+}

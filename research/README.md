@@ -6,33 +6,29 @@ Refresh with `python3 scripts/research_index.py --write` from the repository roo
 
 ## Latest recorded acceptance
 
-- Round: **180** — [round-180-acceptance.json](round-180-acceptance.json).
+- Round: **182** — [round-182-acceptance.json](round-182-acceptance.json).
 - Target status reported by this record: `open`.
-- Acceptance timestamp in the record: `2026-11-20T04:04:21Z`.
+- Acceptance timestamp in the record: `2026-11-20T10:30:00Z`.
 - Read the [latest ledger entries](ledger.md) alongside the record and its route notes.
 - Files from later rounds may be in progress; their presence alone gives them no acceptance status.
 - The working tree can contain unpublished records. Use Git status to distinguish local work from a committed snapshot.
 
 ### Route notes named in this record
 
-- [round-179.md](../coordination/checkpoints/round-179.md)
-- [cold-prime-signed-growing-prefix.md](../coordination/missions/round-180/cold-prime-signed-growing-prefix.md)
-- [ordinary-prime-mixed-row-slope-product.md](../coordination/missions/round-180/ordinary-prime-mixed-row-slope-product.md)
-- [ordinary-prime-paired-J-fibers.md](../coordination/missions/round-180/ordinary-prime-paired-J-fibers.md)
-- [cold-growing-prefix-delocalization-180.md](cold-growing-prefix-delocalization-180.md)
-- [native-claude-audit-180.md](native-claude-audit-180.md)
-- [native-claude-cold-prime-signed-growing-prefix-180.md](native-claude-cold-prime-signed-growing-prefix-180.md)
-- [native-claude-ordinary-prime-mixed-row-slope-product-180.md](native-claude-ordinary-prime-mixed-row-slope-product-180.md)
-- [native-claude-ordinary-prime-paired-J-fibers-180.md](native-claude-ordinary-prime-paired-J-fibers-180.md)
-- [native-claude-review-180.md](native-claude-review-180.md)
-- [ordinary-mixed-row-autocorrelation-180.md](ordinary-mixed-row-autocorrelation-180.md)
-- [ordinary-paired-J-cross-ratio-180.md](ordinary-paired-J-cross-ratio-180.md)
+- [round-181.md](../coordination/checkpoints/round-181.md)
+- [cold-prime-signed-nonseed-price.md](../coordination/missions/round-182/cold-prime-signed-nonseed-price.md)
+- [ordinary-prime-one-match-operator-norm.md](../coordination/missions/round-182/ordinary-prime-one-match-operator-norm.md)
+- [ordinary-prime-shifted-level-energy.md](../coordination/missions/round-182/ordinary-prime-shifted-level-energy.md)
+- [native-claude-audit-182.md](native-claude-audit-182.md)
+- [native-claude-cold-prime-signed-nonseed-price-182.md](native-claude-cold-prime-signed-nonseed-price-182.md)
+- [native-claude-ordinary-prime-one-match-operator-norm-182.md](native-claude-ordinary-prime-one-match-operator-norm-182.md)
+- [native-claude-ordinary-prime-shifted-level-energy-182.md](native-claude-ordinary-prime-shifted-level-energy-182.md)
 
 ### Priorities recorded by the research session
 
-1. Bound the one-match covariance directly by slope fibres with the new fixed-slope first masses C(a)=O(p^(11/8)); any route through E(mu) and Rudnev-Shkredov stops at p^(13/8) when M_1 is comparable to p.
-2. Seek a direct first-mass bound M_w=sum_s w(s)P_s=O(p^(1+1/1280)), which closes J in {0,1}; the generic J sum of the whole diagonal remains at O(p^(9/4)).
-3. For the cold prefix, prove n-independent delocalization of the increments (Criterion D) by a signed collected price with rate below 0.966 on the 3/8 polydisk or by a compact coset supremum with sup transfer.
+1. First mass: bound M_w = sum_r sum_{b!=b'} mu(r,b)mu(r,b')w(b/b') directly as a w-weighted dilation correlation inside the slope fibres of mu, aiming at O(p^(1+1/1280)) without the BSG size loss that caps the level-set route at E^x(h)=O(p^(4/3)).
+2. Cold prefix: re-price the seed multiplier as K Phi'_t(S) including its seed-only Taylor terms and prove a power rate ||L^m||_P <= C lambda^m with lambda < 1 - C(1 - 0.77414706), i.e. Gamma_{k_n} bounded uniformly in n.
+3. One-match: the row-deleted criterion b1'' ||R pi(mu)||_op = O(p^(3/4)), through the k=3 translation discrepancy of slope-closed six-words (verified O(p^(177/32)), need O(p^(144/32))); first decide whether sum g^2 = o(sqrt p) for the actual law.
 
 ## Acceptance record archive
 
@@ -40,6 +36,8 @@ Rows are ordered by round, not by filename. A record may cover one route or an e
 
 | Round | Acceptance record |
 | --- | --- |
+| 182 | [round-182-acceptance.json](round-182-acceptance.json) |
+| 181 | [round-181-acceptance.json](round-181-acceptance.json) |
 | 180 | [round-180-acceptance.json](round-180-acceptance.json) |
 | 179 | [round-179-acceptance.json](round-179-acceptance.json) |
 | 178 | [round-178-acceptance.json](round-178-acceptance.json) |

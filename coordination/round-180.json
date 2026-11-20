@@ -2,7 +2,7 @@
   "schema_version": 1,
   "round": 180,
   "record_status": "ready",
-  "prepared_by": "Claude Opus 5.5 coordinator (agent assessment after an independent agent audit; not human acceptance or mathematical certification)",
+  "prepared_by": "Claude Opus 5.5 coordinator (agent assessment resuming the Round 180 hold after the user's disk cleanup; not human acceptance). The changes array is unchanged from coordination/round-180-hold.json.",
   "sources": {
     "baseline": {
       "path": "research/round-179-acceptance.json",
@@ -55,8 +55,96 @@
       ]
     }
   ],
-  "decision": "hold",
-  "decision_reason": "The user asked to stop after Round 180. All three routes were audited; the ranked continuation tests are retained in the acceptance record main_ranked_closeout. No call is proposed for dispatch. On resumption, a coordinator should propose the one-match slope-fibre call, the direct first-mass M_w call and the cold delocalization call; note that the GPT gateway account was out of quota on 2026-11-20.",
-  "next_calls": [],
+  "decision": "continue",
+  "decision_reason": "The user asked to continue. No mathematics has changed since the Round 180 acceptance, so the proof plan is unchanged. The three calls are the ranked Round 180 closeout tests: the one-match covariance by slope fibres without the energy route, a direct first mass M_w closing J in {0,1}, and n-independent delocalization for the cold prefix. The GPT gateway key is not available in this session, so the calls run as native Claude subagents as in Round 180.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-one-match-slope-fibres",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the one-match covariance be bounded at O(p^(3/2)) (or any power below O(p^(115/64))) directly by slope fibres h=(a,c), using the new fixed-slope first masses sum_c Delta(a,c)=C(a)=O(p^(11/8)) for a≠1 and the translation overlaps of the level sets, without passing through the energy E(mu) and Rudnev–Shkredov?",
+      "why_now": "Round 180 improved the one-match covariance to O(p^(115/64)) but proved that any route through E(mu) and the Rudnev–Shkredov second norm stops at p^(13/8) when M_1 is comparable to p. The new fixed-slope masses C(a)=O(p^(11/8)) are the first input that prices individual slope fibres.",
+      "scope": "Use the actual mu(r,b)=g(Y)g(D) with the square mask and interior exclusions of Round 171, the twisted physical chart of Rounds 169 and 173 and its one-match normalization, the actual w and the D amplitudes, counting norms. Write Delta(h)=sum_j mu(j)mu(jh) and m_U(h)=|U∩hU| for level sets U of the actual h_t. Treat a=1 (translations) separately. State any external incidence or sum-product input exactly with its hypotheses. Report exponents exactly and say which weights are majorized by one.",
+      "if_yes": "A bound O(p^(3/2)) proves the one-match estimate, leaving the zero-match estimate and the whole diagonal for the ordinary route; any power below 115/64 is an accepted improvement.",
+      "if_no": "A configuration of slope-fibre masses consistent with all proved constraints and forcing the covariance above p^(3/2) shows the one-match target needs input beyond fibre masses.",
+      "if_inconclusive": "Return the exact remaining fibre class (range of a, size of Delta(a,·), richness of m_U) with its verified bound.",
+      "inputs": [
+        {
+          "path": "research/ordinary-mixed-row-autocorrelation-180.md",
+          "sha256": "357f5058dd8ef16cf330a252680252d77c815ec5f3f6175e86bfa904d68e85aa"
+        },
+        {
+          "path": "research/ordinary-weighted-slope-product-incidence-178.md",
+          "sha256": "9e4589c664dc84d30e86206288183a3af9dfb1ae29f8d49ebd6faa1db01f1d71"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-two-torus-projective-overlap-176.md",
+          "sha256": "9d18188f1e3faced380ba0903f0b4c8577db72f794239a7095c41015aa194d99"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-direct-first-mass",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Is the weighted first mass M_w=sum_s w(s)P_s of the actual positive diagonal O(p^(1+1/1280)), proved directly rather than by Cauchy–Schwarz from the second moment?",
+      "why_now": "Round 180 showed D_0+D_1<=4R_*M_w with R_*=O(p^(1/2-1/1280)) and each generic class D_J<=2G M_w. Currently M_w=O(p^(11/8)) only through Round 179's diagonal. A direct first-mass bound O(p^(1+1/1280)) closes J in {0,1} at target scale and lowers each generic class to O(p^(3/2+1/1280)).",
+      "scope": "Actual g, w=g(1-g), G, physical masks and nonzero interior of Round 178, the cross-ratio chart of Round 180 (A,C,Y,D as cross-ratios of X,pi,rho), counting norms. Keep w(s) and as many of the four amplitudes as possible; state which are majorized by one. Note M_w is a sum over lines e and outputs s of w(s)g(A)g(C)g(Y)g(D): exploit that Y and D do not depend on s and A,C are Möbius images of X with the same line. Distinguish proved bounds from heuristics.",
+      "if_yes": "Closes the classes J in {0,1} at O(p^(3/2)) and reduces the sufficient diagonal to the generic J sum alone.",
+      "if_no": "A lower bound M_w>>p^(1+1/1280) under the proved constraints shows Criterion 7 of Round 180 cannot be met and J in {0,1} needs a second-copy saving.",
+      "if_inconclusive": "Return the precise exponent obtained and the line or output class that blocks it.",
+      "inputs": [
+        {
+          "path": "research/ordinary-paired-J-cross-ratio-180.md",
+          "sha256": "f800b53b7d6678f7d12f79352255261a0808823e137d79d898c286d1693ef0fa"
+        },
+        {
+          "path": "research/ordinary-affine-triple-diagonal-179.md",
+          "sha256": "1511abc52dacf6b6785fe7ff9544b9c55b473e9e7dc0fa6fc10ead61983e42ee"
+        },
+        {
+          "path": "research/ordinary-parabolic-row-mean-square-178.md",
+          "sha256": "89d64995b12626f4983f1594fe3e80f266b972b274737f4e28647f6c91d02282"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-delocalization-price",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Is there an n-independent delocalization bound for the actual increments R_{602+k} along the confined prefix — for example a signed, cross-vertex collected sup-dominating price of the secant operator on the 3/8 polydisk about V_602 with rate below 0.966, or a fixed-height compact coset supremum with sup transfer — or a coordinate that defeats Criterion D?",
+      "why_now": "Round 180 proved the normalized R_602 lies in (0, 9.07e-209) and that confinement holds iff increments stay delocalized; Criterion D (n-independent sup/RMS ratio with growth gamma, q*gamma<1) is sufficient. The audit showed the moving-predictor no-go is only heuristic and that Criterion D is not necessary.",
+      "scope": "Genuine nine-center start, both lifts, physical t0=n, original closed square, actual K Phi_t, coordinate sup norm. Inherited fixed-height compact transfer may not be used at heights growing with n without proof. Distinguish (a) proofs for all large eligible primes, (b) conditional criteria, (c) numerics (state start row, primes, precision). Prefer exact or outward-rounded arithmetic for any constant used in a proof.",
+      "if_yes": "Proves the Round 173 finite-prefix test and common stationary continuation on the interior of the original square; derivative transfer becomes the next cold obligation.",
+      "if_no": "A proved coordinate concentration at some height 602+k with k<k_n refutes Criterion D (not confinement itself) and directs the cold route to signed cumulative sums.",
+      "if_inconclusive": "Return the exact price norm or coset quantity that is not controlled, with verified bounds on the controlled parts.",
+      "inputs": [
+        {
+          "path": "research/cold-growing-prefix-delocalization-180.md",
+          "sha256": "3a8eb51ab257dc2b834142c7954357e533472676b4c5a06e1a0953db64e9b8c8"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-seed-centered-larger-tube-177.md",
+          "sha256": "12c7cff4f9a20dc1c7bfeabef28ed87f3018a863a325c95b7b008f9a9a180c3c"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        }
+      ]
+    }
+  ],
   "shared_candidates": []
 }

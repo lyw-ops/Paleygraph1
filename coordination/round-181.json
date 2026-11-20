@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "round": 181,
+  "record_status": "ready",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment of an evidence-only round whose full drafts were lost; not human acceptance or mathematical certification)",
+  "sources": {
+    "baseline": {
+      "path": "research/round-180-acceptance.json",
+      "sha256": "489e1a259667fe13a6f2e6893358de175eaf8240bc49f02bb9679186702e128a"
+    },
+    "current": {
+      "path": "research/round-181-acceptance.json",
+      "sha256": "ad983e94b84fce4466bd29303e579f9bbf1d34576ec81bd92a27ab5f63bb0910"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "unchanged",
+      "before": "One-match covariance O(p^(115/64)); the energy route stops at p^(13/8) when M_1 is comparable to p. Direct first mass M_w=O(p^(11/8)) only through Cauchy-Schwarz from Round 179; J in {0,1} cost O(p^(2399/1280)).",
+      "after": "No accepted change (evidence only; proofs lost). Audited claims to re-prove before use: S(t)=M_1^2G^2/p+||pi(mu)h_t°||^2, ||pi(mu)||_HS^2=p sum mu^2 - sum m^2, a=1 and c=0 fibre costs O(p^(2-3/418)); slope-fibre masses with the listed inequalities cannot pass 115/64 (abstract configuration of value p^(147/64), realisability unchecked); conditional criteria b1, b1', b2, b3. First mass: M_w <= E_Q(h)/4 with an exact row-pair reformulation over kappa=1-r; target needs near-sharp shifted multiplicative energy E^x(1-S_t) of actual level sets; Shkredov Theorem 6 settles only exact coset models.",
+      "remaining": "One-match covariance O(p^(3/2)), e.g. via ||pi(mu)||_op=O(p^(3/4)) for the actual twisted physical interior. Direct first mass M_w=O(p^(1+1/1280)), e.g. via shifted multiplicative energy of actual level sets below Round 177's exponent 36/13. The generic J sum (O(p^(9/4))) and the zero-match estimate are unchanged.",
+      "evidence": [
+        {
+          "path": "research/native-claude-ordinary-prime-one-match-slope-fibres-181.md",
+          "sha256": "54e743fb43c3047a1e52443dd89b52c2923821e8f905939f288cb1382dcb7855"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-direct-first-mass-181.md",
+          "sha256": "ccd61cf9d7f3838b93572c80e1b24b27a50367675222963143cdbc31458d55c6"
+        },
+        {
+          "path": "research/native-claude-audit-181.md",
+          "sha256": "08ac949cb99eefc6425aae0ff5d4c015e5eb4528ed3bb1e6140b97fb9be02d57"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "Criterion D (n-independent sup/RMS ratio with q*gamma<1) is sufficient for growing-prefix confinement; the target was a signed collected secant price with rate below 0.966 on the 3/8 polydisk.",
+      "after": "No accepted change (evidence only). Proposition 1 (text preserved; audited with two added hypotheses: price-class closure under the recursion and uniform correction constants) reformulates the price route as a small-ball Kantorovich criterion: u_{j+1} <= p0 + kappa0 u_j + c u_j^2 with (1-kappa0)^2 > 4 c p0 bounds every displacement price and gives confinement without Criterion D or compact transfer; with p0=0.01272 and c<=1.0043 this needs kappa0 < 0.77395. The existing P_5000 has rate 1.066. The seed-linear multiplier is priced exactly (L2 0.2510, dimension price <= 0.7101, weighted <= 0.5326).",
+      "remaining": "A signed cross-vertex collected price at V_602 with kappa0 < 0.77395 and its own p0, c, class closure and uniform corrections; the uncontrolled part is the transported non-seed multiplier (h=V_602-S and higher Taylor terms), budget about 0.24 against a crude h-linear cost about 0.50. Alternatively a signed source price p0 <= 1e-6 relaxes the target to kappa0 < 0.998. Uniform complex stationary domain and derivative transfer remain separate.",
+      "evidence": [
+        {
+          "path": "research/native-claude-cold-prime-delocalization-price-181.md",
+          "sha256": "dff5a06d39cfbbab7066d16d8044afd761f2f45c01059a07a4225143b21bf4a6"
+        },
+        {
+          "path": "research/native-claude-audit-181.md",
+          "sha256": "08ac949cb99eefc6425aae0ff5d4c015e5eb4528ed3bb1e6140b97fb9be02d57"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The user chose to record Round 181 as evidence only and continue. The proof plan is unchanged, but the three routes are sharpened: the slope-fibre approach is blocked for the listed inequalities, the first mass is reduced to shifted multiplicative energy of level sets, and the cold price route is reduced to one number kappa0 < 0.77395. Each Round 182 call must re-prove any Round 181 claim it uses, because the Round 181 proofs are lost. Calls run as Claude Code research sessions (the GPT gateway key is not available), each writing its candidate to a repository path before hand-back.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-one-match-operator-norm",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Is ||pi(mu)||_op = O(p^(3/4)) (or any bound giving one-match covariance below O(p^(115/64))) for the actual twisted physical interior mu, where pi is the (p-1)-dimensional representation of the affine group — for example through a mean-subtracted sixth-moment energy E_3 of mu?",
+      "why_now": "Round 181 (evidence only) showed that slope-fibre masses together with the listed proved inequalities cannot beat 115/64, and that ||pi(mu)||_op=O(p^(3/4)) (criterion b1') would give the one-match target O(p^(3/2)); the auxiliary sinc model has ||pi(mu)||_op/p^(3/4) between 0.32 and 0.56.",
+      "scope": "Use the actual mu(r,b)=g(Y)g(D) with the square mask and interior exclusions of Round 171, the twisted physical chart of Rounds 169 and 173 and its one-match normalization, the actual w and D amplitudes, counting norms. First re-prove the splitting S(t)=M_1^2G^2/p+||pi(mu)h_t°||^2 and the Hilbert-Schmidt identity you use. A trace-moment route bounds ||pi(mu)||_op^(2k) by tr((pi(mu)pi(mu)*)^k); state exactly which energy each moment equals, which part of it the trivial representation removes, and which incidence or sum-product input (with hypotheses) controls it. Report exponents exactly and say which weights are majorized by one. Any Round 181 claim used (see research/round-181-acceptance.json proof_scope) must be re-proved in full in this draft; the Round 181 proofs are lost and are not citable.",
+      "if_yes": "||pi(mu)||_op=O(p^(3/4)) proves the one-match estimate O(p^(3/2)), leaving the zero-match estimate and the whole diagonal; any operator bound improving 115/64 is an accepted improvement.",
+      "if_no": "A mu consistent with the proved constraints whose operator norm exceeds p^(3/4) by a power (for instance a level set concentrated near a coset of a subgroup of the affine group) shows criterion b1' is false and the one-match target needs the vector h_t°, not the operator norm.",
+      "if_inconclusive": "Return the exact moment k and the energy term that blocks it, with its verified bound.",
+      "inputs": [
+        {
+          "path": "research/round-181-acceptance.json",
+          "sha256": "ad983e94b84fce4466bd29303e579f9bbf1d34576ec81bd92a27ab5f63bb0910"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-one-match-slope-fibres-181.md",
+          "sha256": "54e743fb43c3047a1e52443dd89b52c2923821e8f905939f288cb1382dcb7855"
+        },
+        {
+          "path": "research/paley-181-one-match-identity-check.py",
+          "sha256": "25771ca9c8bfabe077668f8897f76fbe61a3b880dc219516084e5c97fabd9344"
+        },
+        {
+          "path": "research/ordinary-mixed-row-autocorrelation-180.md",
+          "sha256": "357f5058dd8ef16cf330a252680252d77c815ec5f3f6175e86bfa904d68e85aa"
+        },
+        {
+          "path": "research/ordinary-weighted-slope-product-incidence-178.md",
+          "sha256": "9e4589c664dc84d30e86206288183a3af9dfb1ae29f8d49ebd6faa1db01f1d71"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-shifted-level-energy",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Is the shifted multiplicative energy E^x(1-S) of the actual level sets S of g (or of log-intervals P_N with N ~ sqrt(p) as the first model) bounded by p^(o(1))(|S|^2+|S|^4/p) — or by any exponent below the Round 177 incidence exponent 36/13 — enough to give the direct first mass M_w=O(p^(1+1/1280))?",
+      "why_now": "Round 181 (evidence only) reduced the direct first mass to M_w <= E_Q(h)/4 with h(z)=g(1-z) and showed the target needs near-sharp shifted multiplicative energy for level sets with t >= p^(-1/2); exact coset models are settled by Shkredov's Theorem 6 (arXiv:1504.04522) but the high levels are only approximate subgroups.",
+      "scope": "Actual g, w=g(1-g), G, physical masks and nonzero interior of Round 178, the Round 180 cross-ratio chart. First re-prove the row-pair reformulation over kappa=1-r and M_w <= E_Q(h)/4 (research/paley-181-first-mass-check.py checks the reformulation exactly at p<=41). Then attack E^x(1-S) for the level-set structure that the actual g has (state which structural facts about g you use and where they are proved). State any external input (Stepanov, Shkredov, Rudnev, Stevens-de Zeeuw) exactly with its hypotheses and check them against the sets used. Separate proved, conditional and floating evidence. Any Round 181 claim used (see research/round-181-acceptance.json proof_scope) must be re-proved in full in this draft; the Round 181 proofs are lost and are not citable.",
+      "if_yes": "M_w=O(p^(1+1/1280)) closes J in {0,1} at target scale and lowers each generic J class to O(p^(3/2+1/1280)); a shifted-energy exponent below 36/13 alone is an accepted improvement of the Round 177 input.",
+      "if_no": "An admissible level-set family (consistent with all proved constraints on g) with E^x(1-S) or M_w/G^2 growing by a power of p shows the direct first mass needs cancellation, not positivity.",
+      "if_inconclusive": "Return the exact level range t and set structure (approximate subgroup size, doubling) where the energy bound fails, with its verified bound.",
+      "inputs": [
+        {
+          "path": "research/round-181-acceptance.json",
+          "sha256": "ad983e94b84fce4466bd29303e579f9bbf1d34576ec81bd92a27ab5f63bb0910"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-direct-first-mass-181.md",
+          "sha256": "ccd61cf9d7f3838b93572c80e1b24b27a50367675222963143cdbc31458d55c6"
+        },
+        {
+          "path": "research/paley-181-first-mass-check.py",
+          "sha256": "28b380ffe337a1da1f851e9b52e4fc1381001abfb6d3ce1a3371d9db1ad25941"
+        },
+        {
+          "path": "research/ordinary-paired-J-cross-ratio-180.md",
+          "sha256": "f800b53b7d6678f7d12f79352255261a0808823e137d79d898c286d1693ef0fa"
+        },
+        {
+          "path": "research/ordinary-shifted-energy-four-factor-diagonal-177.md",
+          "sha256": "8d230eebf51c30edfe4c55b4655036e455e90d7f71ad95ec49d1e909f3aacb34"
+        },
+        {
+          "path": "research/ordinary-affine-triple-diagonal-179.md",
+          "sha256": "1511abc52dacf6b6785fe7ff9544b9c55b473e9e7dc0fa6fc10ead61983e42ee"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-signed-nonseed-price",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Is there a signed cross-vertex collected price at V_602 whose frozen rate satisfies kappa0 < 0.77395 — in particular, can the transported non-seed multiplier (the h-linear term with h=V_602-S, plus higher Taylor terms) be priced below its budget of about 0.24 — or alternatively a signed source price p0 <= 1e-6, so that the small-ball Kantorovich criterion gives growing-prefix confinement?",
+      "why_now": "Round 181 (evidence only) turned the cold price route into one number: with p0=0.01272 and c<=1.0043, the small-ball criterion needs kappa0 < 0.77395, against the proved 1.066 for P_5000; the seed-linear part is priced exactly (weighted rate <= 0.5326) and the non-seed h-linear term costs about 0.50 crudely.",
+      "scope": "True cold orbit on the original closed square, physical t0=n, the frozen-base identity at V_602 and the Round 174/177 recursion u_{j+1} <= p0 + kappa0 u_j + c u_j^2. First restate and re-prove Proposition 1 of research/native-claude-cold-prime-delocalization-price-181.md (its text survives) with the audit's two added hypotheses: closure of the price class under the recursion and uniformity of the correction constants over inputs. Any new price must come with its own p0, c, sup domination, class closure and uniform corrections. Separate exact/outward interval computations from floating diagnostics. Any Round 181 claim used (see research/round-181-acceptance.json proof_scope) must be re-proved in full in this draft; the Round 181 proofs are lost and are not citable.",
+      "if_yes": "kappa0 < 0.77395 (with the criterion's hypotheses) proves the Round 173 finite-prefix confinement and common stationary continuation on the interior of the original square; derivative transfer becomes the next cold obligation.",
+      "if_no": "A signed lower bound on the non-seed multiplier rate showing every price in the stated class has kappa0 >= 0.77395 retires the small-ball price route and sends the cold route back to Criterion D or sup transfer.",
+      "if_inconclusive": "Return the best certified kappa0 and the exact multiplier term that blocks the remainder.",
+      "inputs": [
+        {
+          "path": "research/round-181-acceptance.json",
+          "sha256": "ad983e94b84fce4466bd29303e579f9bbf1d34576ec81bd92a27ab5f63bb0910"
+        },
+        {
+          "path": "research/native-claude-cold-prime-delocalization-price-181.md",
+          "sha256": "dff5a06d39cfbbab7066d16d8044afd761f2f45c01059a07a4225143b21bf4a6"
+        },
+        {
+          "path": "research/native-claude-audit-181.md",
+          "sha256": "08ac949cb99eefc6425aae0ff5d4c015e5eb4528ed3bb1e6140b97fb9be02d57"
+        },
+        {
+          "path": "research/paley-181-cold-kantorovich-check.py",
+          "sha256": "b0b6842fcdd3eb7563191e92b73a2bbc4e4f356ca1f148a39f62344054491bb4"
+        },
+        {
+          "path": "research/cold-growing-prefix-delocalization-180.md",
+          "sha256": "3a8eb51ab257dc2b834142c7954357e533472676b4c5a06e1a0953db64e9b8c8"
+        },
+        {
+          "path": "research/cold-seed-centered-larger-tube-177.md",
+          "sha256": "12c7cff4f9a20dc1c7bfeabef28ed87f3018a863a325c95b7b008f9a9a180c3c"
+        },
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

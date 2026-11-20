@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T09:14:46.731796Z",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment)",
+  "coordinator": "coordination/round-181.json#next_calls",
+  "coordinator_sha256": "f237fdabcd6e145d9f29bd8512ab62d67eb41b26d091f20d033237e245dd2d51",
+  "call_ids": [
+    "ordinary-prime-one-match-operator-norm",
+    "ordinary-prime-shifted-level-energy",
+    "cold-prime-signed-nonseed-price"
+  ],
+  "routes": {
+    "r182/ordinary-prime-one-match-operator-norm": {
+      "question": "Is ||pi(mu)||_op = O(p^(3/4)) (or any bound giving one-match covariance below O(p^(115/64))) for the actual twisted physical interior mu, where pi is the (p-1)-dimensional representation of the affine group — for example through a mean-subtracted sixth-moment energy E_3 of mu?",
+      "scope": "Use the actual mu(r,b)=g(Y)g(D) with the square mask and interior exclusions of Round 171, the twisted physical chart of Rounds 169 and 173 and its one-match normalization, the actual w and D amplitudes, counting norms. First re-prove the splitting S(t)=M_1^2G^2/p+||pi(mu)h_t°||^2 and the Hilbert-Schmidt identity you use. A trace-moment route bounds ||pi(mu)||_op^(2k) by tr((pi(mu)pi(mu)*)^k); state exactly which energy each moment equals, which part of it the trivial representation removes, and which incidence or sum-product input (with hypotheses) controls it. Report exponents exactly and say which weights are majorized by one. Any Round 181 claim used (see research/round-181-acceptance.json proof_scope) must be re-proved in full in this draft; the Round 181 proofs are lost and are not citable.",
+      "remaining": "One-match covariance O(p^(3/2)), e.g. via ||pi(mu)||_op=O(p^(3/4)) for the actual twisted physical interior. Direct first mass M_w=O(p^(1+1/1280)), e.g. via shifted multiplicative energy of actual level sets below Round 177's exponent 36/13. The generic J sum (O(p^(9/4))) and the zero-match estimate are unchanged."
+    },
+    "r182/ordinary-prime-shifted-level-energy": {
+      "question": "Is the shifted multiplicative energy E^x(1-S) of the actual level sets S of g (or of log-intervals P_N with N ~ sqrt(p) as the first model) bounded by p^(o(1))(|S|^2+|S|^4/p) — or by any exponent below the Round 177 incidence exponent 36/13 — enough to give the direct first mass M_w=O(p^(1+1/1280))?",
+      "scope": "Actual g, w=g(1-g), G, physical masks and nonzero interior of Round 178, the Round 180 cross-ratio chart. First re-prove the row-pair reformulation over kappa=1-r and M_w <= E_Q(h)/4 (research/paley-181-first-mass-check.py checks the reformulation exactly at p<=41). Then attack E^x(1-S) for the level-set structure that the actual g has (state which structural facts about g you use and where they are proved). State any external input (Stepanov, Shkredov, Rudnev, Stevens-de Zeeuw) exactly with its hypotheses and check them against the sets used. Separate proved, conditional and floating evidence. Any Round 181 claim used (see research/round-181-acceptance.json proof_scope) must be re-proved in full in this draft; the Round 181 proofs are lost and are not citable.",
+      "remaining": "One-match covariance O(p^(3/2)), e.g. via ||pi(mu)||_op=O(p^(3/4)) for the actual twisted physical interior. Direct first mass M_w=O(p^(1+1/1280)), e.g. via shifted multiplicative energy of actual level sets below Round 177's exponent 36/13. The generic J sum (O(p^(9/4))) and the zero-match estimate are unchanged."
+    },
+    "r182/cold-prime-signed-nonseed-price": {
+      "question": "Is there a signed cross-vertex collected price at V_602 whose frozen rate satisfies kappa0 < 0.77395 — in particular, can the transported non-seed multiplier (the h-linear term with h=V_602-S, plus higher Taylor terms) be priced below its budget of about 0.24 — or alternatively a signed source price p0 <= 1e-6, so that the small-ball Kantorovich criterion gives growing-prefix confinement?",
+      "scope": "True cold orbit on the original closed square, physical t0=n, the frozen-base identity at V_602 and the Round 174/177 recursion u_{j+1} <= p0 + kappa0 u_j + c u_j^2. First restate and re-prove Proposition 1 of research/native-claude-cold-prime-delocalization-price-181.md (its text survives) with the audit's two added hypotheses: closure of the price class under the recursion and uniformity of the correction constants over inputs. Any new price must come with its own p0, c, sup domination, class closure and uniform corrections. Separate exact/outward interval computations from floating diagnostics. Any Round 181 claim used (see research/round-181-acceptance.json proof_scope) must be re-proved in full in this draft; the Round 181 proofs are lost and are not citable.",
+      "remaining": "A signed cross-vertex collected price at V_602 with kappa0 < 0.77395 and its own p0, c, class closure and uniform corrections; the uncontrolled part is the transported non-seed multiplier (h=V_602-S and higher Taylor terms), budget about 0.24 against a crude h-linear cost about 0.50. Alternatively a signed source price p0 <= 1e-6 relaxes the target to kappa0 < 0.998. Uniform complex stationary domain and derivative transfer remain separate."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-one-match-operator-norm": [],
+    "ordinary-prime-shifted-level-energy": [],
+    "cold-prime-signed-nonseed-price": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The operator-norm call targets ||pi(mu)||_op for the twisted physical interior mu of the one-match covariance (affine-group representation, criterion b1'). The shifted-level-energy call targets E^x(1-S) for level sets S of g, feeding the direct first mass M_w <= E_Q(h)/4 that closes J in {0,1}. Both are additive-combinatorial bounds on the actual g, but neither implies the other at the stated hypotheses and scales: a multiplicative-energy bound for 1-S does not bound the operator norm of the affine-group convolution by mu, and an operator-norm bound does not control the shifted energy of a single level set. They are dispatched as independent, with a request that each report state any level-set structure input it proves so that the closeout can test for a shared lemma. The cold call concerns the price of the non-seed multiplier at V_602 and shares no estimate with either ordinary call. No earlier call is active."
+}
