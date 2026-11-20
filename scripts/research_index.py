@@ -174,6 +174,9 @@ def main() -> int:
             print(f'Target status reported by the record: {latest.data.get("target_status", "not specified")}')
             for i, text in enumerate(latest.data.get('main_ranked_closeout', []), 1):
                 print(f'{i}. {text}')
+            review = ROOT / 'coordination' / f'round-{latest.round_number}.json'
+            print('Coordinator assessment:', review.relative_to(ROOT) if review.exists() else 'not prepared for this round')
+            print('Before preparing the next mission: python3 scripts/round_review.py status')
         return 0
     except (OSError, ValueError, TypeError) as error:
         parser.exit(2, f'Error: {error}\n')

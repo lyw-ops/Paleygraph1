@@ -1,0 +1,110 @@
+## Result
+
+The proposed \(0.074\) bound is **not established** by the supplied work. The precise failure is that every currently checked estimate for
+\[
+R_h:=K\,\operatorname{diag}\!\bigl(d'_{t_i}(S_i)Y_{h,i}\bigr),
+\qquad h=601,602,
+\]
+takes absolute values before the residual is regrouped by actual arithmetic labels.
+
+The relevant setup remains:
+
+- the original closed cold square centered at \(2031/128\), of half-width \(2^{-17}\);
+- the genuine height rows \(h=601,602\);
+- \(t_0=n\) at the exceptional physical mark and \(t_i=t\) off the mark;
+- the actual fully marked finite-field operators, with both boundary-pair lifts retained;
+- the translated \(P_{5000}\) packet norm;
+- the limit taken uniformly on the square first, followed by sufficiently large eligible primes in the original prime family, so that the compact-lift and marked-diagonal repairs are \(O_{P_{5000}}(n^{-1/2})\).
+
+The positive estimates currently available are
+\[
+\|R_h\|_{P_{5000}}<0.260
+\]
+from the separate center/residual calculation, and
+\[
+\left\|K\operatorname{diag}\!\bigl(d'_{t_i}(S_i)
+(\mathcal C_{{\rm oth},i}+Y_{h,i})\bigr)\right\|_{P_{5000}}<0.408
+\]
+for the first-omitted piece. Neither estimate proves, nor disproves,
+\[
+\|R_h\|_{P_{5000}}<0.074.
+\]
+
+The \(0.074\) figure is only the residual budget obtained if the fixed-other-center contribution is charged separately at \(<0.150\) against a joint \(0.224\) target. That separation is not itself a signed estimate: the \(0.150\) and \(0.260\) bounds arise from different positive envelope constructions and cannot be subtracted or combined without a new common decomposition.
+
+## Why the existing obstructions do not settle the signed question
+
+The checked positive witnesses are not obstructions to the actual residual:
+
+1. The first-omitted retained envelope has a positive witness exceeding \(0.356\) on the first twelve weights. This rules out repricing that particular positive homogeneous envelope, not the signed operator \(R_h\).
+
+2. The direct positive packet has a two-step witness exceeding \(1.073296\), and the resummed positive comparison has a witness exceeding \(0.570\). These comparisons discard cancellations between distinct actual arithmetic objects.
+
+3. The selected-pool calculation through the \(\beta^2\) block separates several named higher-center contributions, but it does not provide a signed old Jacobi/Legendre projection of the actual \(Y_h\). In particular, it does not identify the residual with the old labels after the physical mark, both lifts, and the final \(K\)-transport are restored.
+
+Thus the current evidence supports only the statement:
+
+> A positive repricing of the existing first-omitted envelope cannot reach the required price, while the actual signed residual remains unresolved.
+
+The same-row alternative
+\[
+\|A_{601}^2-B^2\|_{P_{5000}}<0.580184
+\]
+is likewise still open. The height-transfer estimate
+\[
+\|A_{602}-A_{601}\|_{P_{5000}}<0.017
+\]
+does not supply the missing signed square estimate.
+
+## Remaining gap
+
+A valid \(0.074\) result must construct, for each \(h=601,602\), an actual signed decomposition of \(Y_h\) into old Jacobi/Legendre labels—after one or two actual Picard steps—with:
+
+- both full lifts;
+- the exceptional physical mark \(t_0=n\);
+- both boundary-pair contributions;
+- the exact finite-prime \(K\)-transport;
+- a uniform tail estimate on the original square;
+- and an eventual \(O_{P_{5000}}(n^{-1/2})\) bound for compact and marked repairs.
+
+The finite coefficient check must be followed by a uniform analytic-tail and physical-repair argument. A finite retained-label calculation alone would not settle the asymptotic prime-family claim.
+
+## Ranked next tests
+
+### 1. Actual signed old-label projection of \(Y_h\) — highest priority
+
+For \(h=601,602\), expand one and then two actual Picard steps for \(Y_h\) in the old Jacobi/Legendre label basis. Keep the two full lifts and the exceptional \(t_0=n\) mark separate until after the signed label collection. For each retained label:
+
+1. compute the exact signed coefficient before taking modulus;
+2. transport it through \(K\,d'_t(S)\);
+3. form the induced signed \(P_{5000}\) column map;
+4. include the actual marked and compact-lift corrections;
+5. bound all omitted labels and analytic orders uniformly on the closed square.
+
+**Pass criterion:** an eventual physical bound
+\[
+\sup_{h\in\{601,602\}}\|R_h\|_{P_{5000}}<0.074.
+\]
+
+A failure of this test is informative only if the failed label family is named and its signed coefficient or transport contribution is rigorously bounded away from the required budget.
+
+### 2. Direct same-row signed square test — second priority
+
+At \(h=601\), collect the signed difference
+\[
+A_{601}^2-B^2
+\]
+before applying positive packet majorants. Separate terms according to whether the two derivative factors carry matching old labels, mismatched lifts, or the exceptional marked coordinate. Use the known
+\[
+\|B\|_{P_{5000}}<0.634,\qquad
+\|B^2\|_{P_{5000}}<0.402,
+\]
+but do not charge the residual by the triangle inequality until after all available label cancellations have been collected.
+
+**Pass criterion:**
+\[
+\|A_{601}^2-B^2\|_{P_{5000}}<0.580184
+\]
+uniformly on the square and eventually over the eligible primes.
+
+This test is independent of proving the one-step \(0.074\) residual estimate and could establish the stated same-row alternative. Neither test is currently completed by the supplied records.

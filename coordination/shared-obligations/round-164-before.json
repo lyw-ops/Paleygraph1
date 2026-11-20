@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T23:47:46.937130Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-163.json#next_calls",
+  "coordinator_sha256": "cb2479ba0ca6c71a9d6120fc2d11ea81aa0c8fb114e2ad48cb5bf9707c767cae",
+  "call_ids": [
+    "ordinary-prime-signed-cofactor-exchange",
+    "ordinary-prime-weighted-affine-ratio",
+    "cold-prime-quadratic-source-block"
+  ],
+  "routes": {
+    "r164/ordinary-prime-signed-cofactor-exchange": {
+      "question": "Can the actual signed Jacobi mass of one-row cofactor replacements give a weighted Fourier-minor deficit above 1/T?",
+      "scope": "Use the actual unmarked zero columns, constant row, real signs, full squared minors and one admissible growing T. Cofactor trace alone is tautological. The actual signed leakage alternative must keep mean and norm scales.",
+      "remaining": "Control the actual signed cofactor deficit or leakage, and the full remaining moderate critical block with the true slope weight."
+    },
+    "r164/ordinary-prime-weighted-affine-ratio": {
+      "question": "Can actual pointwise affine overlap and weighted ratio information reach a new moderate slope region beyond the existing prime energy savings?",
+      "scope": "Keep actual a,b thresholds, true f(t), the mark v, physical square masks and the signed cross conditions. Distinguish r_u(x) from the slope r_u(y)/r_u(x) and include cross-ratio normalization.",
+      "remaining": "Control the actual signed cofactor deficit or leakage, and the full remaining moderate critical block with the true slope weight."
+    },
+    "r164/cold-prime-quadratic-source-block": {
+      "question": "Does a finite signed block admit a translated invariant for the actual quadratic source, or can one construct a compatible growing starter?",
+      "scope": "Retain both lifts, original complex square and t0=n. Distinguish inverse times Kr from inverse times K squared r. Verify the finite signed block, its invariance or tail, and actual nonlinear transfer.",
+      "remaining": "Bound an actual finite block and its signed invariant tail or construct a growing starter with the original sheets, valid residual and translated transfer."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-signed-cofactor-exchange": [],
+    "ordinary-prime-weighted-affine-ratio": [],
+    "cold-prime-quadratic-source-block": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "Actual signed cofactor replacement tests all fixed ordinary gaps. The affine ratio and slope lane tests a distinct weighted physical block on the critical branch. The cold finite-source block has separate analytic obligations. The calls ask distinct estimates."
+}

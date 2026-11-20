@@ -1,0 +1,61 @@
+{
+  "round": 150,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-149-acceptance.json",
+    "sha256": "c47e784846ea673136f5c95e96497ef1672cccc5eab530743db8389e44f0239b"
+  },
+  "coordinator": {
+    "path": "coordination/round-149.json",
+    "sha256": "f10c577e24246fda369d29f6751a236cca1ab32456be7546a37c5afaa462726b"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-150.py",
+    "sha256": "650c5630874826f703e36c7cd5132d6f7300f5eb3ce596d1796343a0410827bc"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-150-before.json",
+    "sha256": "c633596dbadbe9e57743966070927b846d18a023394cb7adbb67c9e45694bdc4"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-selected-defect-phase",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "a1cf3f2ea477cbf4198d75752626a3990795615df8459cc482660b444e4f728b",
+      "mission_file": {
+        "path": "coordination/missions/round-150/ordinary-prime-selected-defect-phase.md",
+        "sha256": "bdadd4baf51a2a131f34afd5b49aa4ce3adead85fc04686971fe60c900a07ee5"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r150-api-01a1ed0a/ordinary-prime-selected-defect-phase-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r150-api-01a1ed0a/ordinary-prime-selected-defect-phase-candidate.md",
+      "started_utc_epoch": 1795122367.789227
+    },
+    {
+      "call_id": "ordinary-prime-first-spill-dyadic",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "fffe8c704774dbdee8adeb19e573be9da66f07c83486611680a3ee5a04da8a49",
+      "mission_file": {
+        "path": "coordination/missions/round-150/ordinary-prime-first-spill-dyadic.md",
+        "sha256": "e0f1f2bb45e8dcd55f2968af161e9de505e48216399f3b4750e8a2e644b60f12"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r150-api-01a1ed0a/ordinary-prime-first-spill-dyadic-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r150-api-01a1ed0a/ordinary-prime-first-spill-dyadic-candidate.md",
+      "started_utc_epoch": 1795122367.789963
+    },
+    {
+      "call_id": "cold-signed-legendre-unit",
+      "model": "claude-fable-5-1",
+      "prompt_sha256": "5c94361565e5768946b386c0c60cb726840e097f4ee823e9ccbe6fceebc04156",
+      "mission_file": {
+        "path": "coordination/missions/round-150/cold-signed-legendre-unit.md",
+        "sha256": "860b7137a6a4d477778be0a71c1368810f5ec3d96317ca9811a05e011286d2c8"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r150-api-01a1ed0a/cold-signed-legendre-unit-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r150-api-01a1ed0a/cold-signed-legendre-unit-candidate.md",
+      "started_utc_epoch": 1795122367.7909398
+    }
+  ]
+}

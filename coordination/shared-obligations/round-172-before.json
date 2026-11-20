@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T01:02:38.040252Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-171.json#next_calls",
+  "coordinator_sha256": "192d7ccc18def7a831f8a3b43072eca8b6d11fcbd431ba8335bbfc7b8dccc3f4",
+  "call_ids": [
+    "ordinary-prime-weighted-affine-action",
+    "ordinary-prime-full-slope-diagonal",
+    "cold-prime-shared-two-remainder-response"
+  ],
+  "routes": {
+    "r172/ordinary-prime-weighted-affine-action": {
+      "question": "Can the actual weighted b-square affine line action improve the new O(p^23/8) twisted collision bound toward O(p^5/2)?",
+      "scope": "Keep the true g and w, the affine chart and b-square condition. Seek actual weighted energy, operator cancellation, or an improvement using row test functions. Track light levels and full primes. Zero-match is separate.",
+      "remaining": "Reach O(p^5/2) in the twisted energy and control zero-match, or bound the actual full positive completed diagonal at O(p^3/2). A centered fixed-gap escape remains separate."
+    },
+    "r172/ordinary-prime-full-slope-diagonal": {
+      "question": "Can the actual full positive completed slope diagonal H(s,s) be controlled at O(p^3/2) with w(s)?",
+      "scope": "Use actual g, w, physical mark and b-square mask with the exact completed positive majorant. Analyze the two genuine fractional-linear argument factors on t=s. A two-dimensional norm does not imply the requested diagonal bound.",
+      "remaining": "Reach O(p^5/2) in the twisted energy and control zero-match, or bound the actual full positive completed diagonal at O(p^3/2). A centered fixed-gap escape remains separate."
+    },
+    "r172/cold-prime-shared-two-remainder-response": {
+      "question": "Can one obtain a true summable translated response or a sufficient moving nonlinear starter for the shared mixed bulk packets?",
+      "scope": "Use both lifts, physical t0=n, original square and true R,V_s. Try a genuine signed restricted transport mechanism with true growth rate or a moving-starter bound. Keep the separate remaining words and repairs.",
+      "remaining": "Obtain prime-uniform summable translated transport on the true distributed source or a viable moving-starter nonlinear continuation."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-weighted-affine-action": [],
+    "ordinary-prime-full-slope-diagonal": [],
+    "cold-prime-shared-two-remainder-response": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The first call seeks an improved two-dimensional one-match estimate. The second instead treats the diagonal of the full positive completed slope kernel and its possible zero-match implication. The two tests share affine coordinates, but the first norm does not control the second. The third concerns complex cold continuation."
+}

@@ -1,0 +1,156 @@
+## Result
+
+Work along the actual ordinary-prime sequence \(p\to\infty\), with the selected near-critical short block \(b\), the physical marking \(b_0=0\), and
+\[
+\nu_a=\frac{b_a}{nr},\qquad r=\mathbb E b,\qquad a\in Q.
+\]
+Here \(Q\subset \mathbb F_p^\times\) is the actual multiplicative set used in the construction, \(k(a)\) is the global completed-root coefficient, and \(k(a-b)\) denotes the distinct within-set coefficient appearing after translating by the marked coordinate. They must not be identified.
+
+For the two nonzero additive-frequency signs, the already established formula is
+\[
+\mathcal F_\pm
+=
+\frac12\sum_{a\in Q}\nu_a\bigl(1\pm k(a)\bigr)M_a+O(p),
+\]
+where \(M_a\ge 0\) is the true anchor-dependent squared-correlation moment. The \(O(p)\) term includes the full-field extension, zero-frequency removal, wrong physical sign, \(t=1\), and the fixed Jacobi/Gauss degeneracies.
+
+### 1. The completed-root average
+
+With the normalization in which the completed root is \(q(1+O(\delta))\), the marking identity
+\[
+B=-\frac{\ell^{\mathsf T}b}{\ell_0}
+\]
+gives, after dividing by \(nr\),
+\[
+\rho\sqrt p\sum_{a\in Q}\nu_a k(a)
+=
+q\bigl(1+O(\delta)\bigr)+O(1).
+\]
+Consequently
+\[
+\boxed{\;
+\rho\sum_{a\in Q}\nu_a k(a)
+=
+\frac{q}{\sqrt p}
++O\!\left(\delta+p^{-1/2}\right).
+\;}
+\]
+The \(O(p^{-1/2})\) term is the normalization/completion error after division by \(\sqrt p\). This is the claimed relation, with the actual \(\nu\), not a uniform or squared-weight replacement.
+
+The same calculation does **not** produce a relation with \(k(a-b)\). The latter occurs only after translating the physical correlation by the actual anchor and remains a separate within-set quantity.
+
+### 2. What this implies for the two signs
+
+Set
+\[
+T=\sum_a\nu_aM_a,\qquad
+K_M=\sum_a\nu_a k(a)M_a.
+\]
+Then
+\[
+\mathcal F_\pm=\frac12(T\pm K_M)+O(p).
+\]
+The completed-root identity controls only
+\[
+\bar k_\nu:=\sum_a\nu_a k(a)
+=
+\rho\frac{q}{\sqrt p}
++O(\delta+p^{-1/2}),
+\]
+not \(K_M\). Precisely,
+\[
+K_M
+=
+\bar k_\nu\,T
++
+\sum_a\nu_a\bigl(k(a)-\bar k_\nu\bigr)M_a.
+\]
+Therefore
+\[
+\mathcal F_\pm
+=
+\frac12(1\pm\bar k_\nu)T
+\pm\frac12
+\sum_a\nu_a\bigl(k(a)-\bar k_\nu\bigr)M_a
++O(p).
+\]
+
+The final covariance term is the unresolved coupled-law quantity. No independence assumption is valid: \(M_a\) is formed from the same physical anchor \(a\) whose law is \(\nu_a\).
+
+The available marginal estimates give only
+\[
+\sum_aM_a=O(np),\qquad
+M_a\ge0,\qquad
+\max_aM_a=O(p^{3/2}),
+\]
+and, using \(\max_a\nu_a=O(p^{-1/2})\),
+\[
+T\le \max_a\nu_a\sum_aM_a=O(n\sqrt p).
+\]
+This is not an \(O(p)\) estimate uniformly in the actual range of \(n\). More importantly, the scalar constraint on \(\sum\nu_a k(a)\) does not control the covariance: \(M_a\) could in principle concentrate on anchors where \(k(a)\) has one preferred sign while preserving the same small \(\nu\)-average of \(k\).
+
+Thus the proposed sign coupling is **not sufficient by itself** to bound either favorable form by \(O(p)\).
+
+## Checked conclusion
+
+The new valid joint-law statement is
+\[
+\boxed{
+\sum_a\nu_a k(a)M_a
+=
+\left(
+\rho\frac q{\sqrt p}+O(\delta+p^{-1/2})
+\right)\sum_a\nu_aM_a
++
+\sum_a\nu_a
+\left(k(a)-\rho\frac q{\sqrt p}\right)M_a
++O\!\left((\delta+p^{-1/2})T\right).
+}
+\]
+Hence an \(O(p)\) upper for at least one physical sign would follow from either
+
+\[
+\sum_a\nu_aM_a=O(p),
+\]
+or the genuinely coupled estimate
+\[
+\sum_a\nu_a
+\left(k(a)-\rho\frac q{\sqrt p}\right)M_a=O(p)
+\]
+together with a suitable bound on \(T\). Neither is presently established.
+
+The actual prime family remains the ordinary primes on the selected near-critical branch; the physical signs are the two additive-frequency signs \(+\) and \(-\); and all limits are taken first along the actual selected block for each ordinary \(p\), then \(p\to\infty\). No replacement of \(\nu_aM_a\) by independent marginals has been used.
+
+## Remaining gap
+
+The missing estimate is a many-slope ordinary-prime bound for the covariance
+\[
+\operatorname{Cov}_{\nu}(k,M)
+=
+\sum_a\nu_a
+\left(k(a)-\sum_b\nu_bk(b)\right)M_a.
+\]
+The complete-kernel expansions show where it enters, but the available Jacobi and additive-convolution bounds control \(M_a\) pointwise or after uniform-anchor averaging, not under the correlated law \(\nu_aM_a\).
+
+## Ranked next tests
+
+1. **Highest priority: coupled covariance estimate.**  
+   Insert \(k(a)-\rho q/\sqrt p\) directly into the completed three-root kernel and test whether the resulting many-slope sum has an \(O(p)\) bound. The target is
+   \[
+   \sum_a\nu_a
+   \left(k(a)-\rho\frac q{\sqrt p}\right)M_a=O(p).
+   \]
+   This is the shortest route to controlling one of \(\mathcal F_\pm\), and it preserves the actual anchor law and both physical signs.
+
+2. **Localization stress test on the actual law.**  
+   Partition anchors by the phase of \(k(a)\), for example
+   \[
+   E_\pm=\{a:\ \pm\Re k(a)\ge c\},
+   \]
+   and compare
+   \[
+   \sum_{a\in E_\pm}\nu_aM_a
+   \quad\text{with}\quad
+   \sum_{a\in E_\pm}\nu_a.
+   \]
+   A valid \(O(p)\) result requires a nontrivial restriction estimate for \(M_a\) on these phase sets. If only the marginal mass of \(E_\pm\) is controlled, the test fails: it does not exclude concentration of \(M_a\) on the favorable phase set.

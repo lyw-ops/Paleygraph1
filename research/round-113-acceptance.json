@@ -1,0 +1,79 @@
+{
+  "round": 113,
+  "accepted_at_utc": "2026-11-19T13:53:03Z",
+  "previous": "research/round-112-acceptance.json",
+  "previous_sha256": "d6bf50f7b176b40b4405d7b3b0d8eaec6f6132263eac6f539d04f20f3746801d",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-112.json",
+    "sha256": "8411f050146ecdf2b0ed4b4938ded22fb2aaf1721b733e3c58386477e69494b1"
+  },
+  "proof_and_code_sha256": {
+    "research/reciprocal-repair-moments-113.md": "33483032709f14b6802b353111ff180ad41cf37ad4e0c55012d921dd276715c9",
+    "research/api-astra-review-113.md": "21af676714a74d6c1e6aef7c506a32de4d40fce56a6bb1230dbd749519ae78ed",
+    "research/api-astra-113-receipt.json": "ea37109727fe7837db7bf371676317c26186722c0d4da55f10802dabe0e90343",
+    "research/api-astra-overflow-113.txt": "9b831c8056f65c7f9b51d9b47b3700fd6bb59f5310a29445afb5c0177e0a1067"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/repair-core-defect-balance-110.md": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591",
+    "research/distinct-cubic-repair-111.md": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242",
+    "research/full-repair-moments-112.md": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, square transport and reciprocal pair",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Estimate the actual internal sum L_H.",
+        "Test budget failure on the centered exterior branch."
+      ]
+    },
+    {
+      "name": "/root/audit_113",
+      "status": "completed",
+      "ranked_closeout": [
+        "Isolate input marks, including the potentially critical opposite mark.",
+        "Estimate the unmarked paired moments at the required signs."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Resolve the opposite-factor input mark at precision n^(-1), distinct from the output mark Kh(0).",
+    "Seek the signed n^(-1) arithmetic bounds on unmarked mixed tuples with the two actual reciprocal laws.",
+    "Keep independent cap, slack and common cold branches."
+  ],
+  "proof_scope": [
+    "Under the actual fixed-floor critical cap-rate marked obstruction, the genuine reciprocal product gives the polynomial moment identity (1) with O(n^(-5/4)) error. P_A(z)=z^2(z−A)^2 cancels the genuine output mark exactly.",
+    "For each fixed d>=2, the d+2 tuple moment with d repair draws and one draw from each actual reciprocal probability law has total signed collision contribution O_d(n^(-5/4)). Single pair events use unconditioned transformed products, and the two-pair intersections use actual factor overlap.",
+    "The API Cauchy–Schwarz budget retains the internal weighted sum L_H. Its deletion-only specialization plus the actual positive opposite mark yield the strict cap q^2 omega(D)<=1−delta on every unmarked D of O(sqrt(n)) with fixed size coefficient.",
+    "The signed conclusion max(−U2,V)>=c0 follows under the actual obstruction. U2,V are n times the true fourth and modified degree-four-to-six moments at u=epsilon Kh, respectively with polynomials z^2 and P_A(z). The conclusion persists with o(1) error for the distinct expansions."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The coarse budget charges max(d,S). A larger estimate needs the true internal overlap term L_H, which the returned draft does not control at the required margin.",
+    "Generic collision error O(n^(-1)) is at the new critical scale. The improved signed collision bound supplies no prime cancellation on distinct shifts. The opposite-factor input mark may still be critical.",
+    "The required mixed prime bounds, cap premise, common cold complex domain, and ordinary all-prime theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. The gateway receipt and raw response are retained."
+  ],
+  "independent_review": [
+    "Verified the reciprocal identity and error estimates, all collision cases, API budget, positive opposite-mark improvement and signed max lower."
+  ]
+}

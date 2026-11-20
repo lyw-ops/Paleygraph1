@@ -1,0 +1,91 @@
+### Checked result: the positive coupled band forces an \(n^{-1}\) anchored contribution
+
+Under the simultaneous residual hypotheses from the cited branch, define
+\[
+L_n:=\mathbb E_n(h^2g),\qquad 
+\omega_y=\frac{g_y}{n\mathbb E_n g},\qquad
+W=1-\beta_*z,\quad \beta_*=\frac{c_-}{\mu}.
+\]
+The established bounds give
+\[
+L_n\gtrsim n^{-1/2},\qquad \mathbb E_n g\asymp n^{-1/2},
+\]
+and, along the residual subsequence,
+\[
+\mathbb E_\rho W^2\to0,\qquad
+\rho_y=\frac{h_y^2g_y}{nL_n}.
+\]
+Consequently,
+\[
+\mathbb E_n(h^2gW^2)
+=L_n\,\mathbb E_\rho W^2=o(L_n)=o(n^{-1/2}).
+\]
+Weighted Cauchy–Schwarz then yields
+\[
+\big|\mathbb E_n(h^2gW)\big|
+\le L_n^{1/2}\,\mathbb E_n(h^2gW^2)^{1/2}
+=o(L_n)=o(n^{-1/2}).
+\]
+Since \(z=(1-W)/\beta_*\),
+\[
+\boxed{\;
+\mathbb E_n(h^2gz)
+=\frac{L_n}{\beta_*}+o(n^{-1/2})
+\gtrsim n^{-1/2}.
+\;} \tag{T}
+\]
+
+For the opposite marked input, \(c_-=g_-(0)\sqrt p/n\asymp n^{-1/2}\) on the R109 marked subsequence. Therefore the exact marked term satisfies
+\[
+c_-\,\mathbb E_n(h^2gz)
+=\frac{c_-}{\beta_*}L_n+o(n^{-1})
+\ge C n^{-1} \tag{1}
+\]
+for some fixed \(C>0\), after passing sufficiently far along the subsequence. Equivalently, in the normalization used in the acceptance record,
+\[
+n c_-\,\mathbb E_n(h^2gz)
+=q^2\mathbb E_\omega[h^2(1-W)]
+=q^2\mathbb E_\omega h^2+o(1),
+\]
+with a strictly positive lower bound.
+
+Thus a prime-uniform estimate of the form
+\[
+c_-\,\mathbb E_n(h^2gz)=o(n^{-1})
+\]
+is not merely unproved: it is incompatible with the residual assumptions themselves. This is a quantified obstruction to the proposed residual-only saving.
+
+The same mechanism applies to \(P_A\) provided the previously established \(A\to0\) and \(\mathbb E_\omega h^4\gtrsim1\) bounds are retained. Indeed,
+\[
+\mathbb E_n\!\left[g\,h^2(h-A)^2\right]
+=n\mathbb E_n g\,
+ \mathbb E_\omega[h^2(h-A)^2]
+\gtrsim n^{-1/2},
+\]
+after using boundedness of \(h\), \(A\to0\), and
+\(\mathbb E_\omega h^4\ge(\mathbb E_\omega h^2)^2\). The same \(W\)-concentration argument then gives an \(n^{-1}\) lower bound for the corresponding opposite-mark contribution.
+
+### What this does—and does not—settle
+
+This proves that the moving positive Jacobi level is genuinely compatible with, and in fact forces, the positive \(h^2g\)-weighted opposite-mark contribution. It does **not** contradict the separate negative first-moment statement
+\[
+\mathbb E_n\!\left[hz\,1_{\{g<\eta\}}\right]\le -c n^{-1/2}.
+\]
+The two quantities use different measures:
+
+- the negative band is measured by \(h\,dz\) on the low-\(g\) region;
+- (T) is measured by \(h^2g\,dz\), which suppresses that low-\(g\) region.
+
+Hence no uncertainty conclusion follows from the near-eigen relation alone. A relation between these two weighted measures would require a genuinely new prime-specific estimate; the existing \(L^2\) near-eigen control does not provide one.
+
+### Ranked next tests
+
+1. **Test the only remaining possible exclusion:** seek a through-primes inequality directly coupling the two measures, for example
+   \[
+   \left|\mathbb E_n(hz\,1_{\{g<\eta\}})\right|
+   \le C_\eta\,\mathbb E_n(h^2g)^{1/2}
+        \,\mathbb E_n(g^{-1}1_{\{g<\eta\}})^{1/2},
+   \]
+   with a usable uniform gain. No such bound follows from entrywise estimates, and the \(g^{-1}\) factor is potentially singular.
+
+2. **Check the actual alternating repair rows against (T):** numerically or arithmetically test whether the low-\(g\), negative-\(z\) mass can remain \(h\)-large while its \(h^2g\)-mass is negligible. This is the first place where the cone/sector origin of consecutive rows could yield an additional restriction.

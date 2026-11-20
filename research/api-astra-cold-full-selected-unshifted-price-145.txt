@@ -1,0 +1,263 @@
+## Result
+
+I can derive a uniform all-order analytic tail for the Jacobi series, but the supplied record does **not** determine the requested \(P_{5000}\) price on the **unshifted \(C_1\) source**. The obstruction is specific: the available majorant in *cold-translated-leading-weight-table-142.md* is for a genuinely translated source with initial price vector \((A,b)=(0,1)\), whereas the requested source has a base Jacobi boundary and must be initialized with \((A,b)=(\pi(1),0)=(1,0)\). The corresponding base-column price recursion and the finite marked/lift constants are not supplied.
+
+The all-order tail itself admits the following uniform rational majorant.
+
+---
+
+## 1. Actual parameters and domain
+
+Use the actual family
+\[
+q=2n+1,\qquad n\ \text{prime or eligible prime-square},
+\]
+with the original closed square
+\[
+Q=\left\{t:\left|\Re t-\frac{2031}{128}\right|\le 2^{-17},\
+|\Im t|\le2^{-17}\right\},
+\]
+and the actual marked floor
+\[
+t_0=n.
+\]
+
+The Jacobi scale is
+\[
+s_n=2\sqrt{\frac pn},\qquad
+2.828427\le s_n\le2.828428
+\]
+for the stated large-\(n\) range. The cold coefficient \(\alpha\) remains explicit; the supplied records only establish
+\[
+|\alpha|<1.
+\]
+
+For every bulk point of \(Q\),
+\[
+\Re t\ge \frac{2031}{128}-2^{-17}>15.867,
+\]
+and at the mark \(t_0=n\). Thus, uniformly on the closed square,
+\[
+|t|^{-1/2}<0.252,\qquad
+u:=\frac{s_n}{2\sqrt{|t|}}<0.356,\qquad
+z:=u^2<0.127.
+\]
+The marked point is much smaller, since \(|t_0|^{-1/2}=n^{-1/2}\).
+
+---
+
+## 2. Exact scalar Jacobi expansions
+
+Write
+\[
+q_k=4^{-k}\binom{2k}{k}.
+\]
+For one Jacobi factor,
+\[
+d_t(s_n C_1)
+ =\sum_{k\ge0}(-1)^k\,u\,q_k z^k\,C_1^{\,2k+1}.
+\]
+For one \(\alpha Y\)-factor,
+\[
+\alpha Yd_t'(s_nC_1)
+ =\frac{\alpha}{2\sqrt{|t|}}
+ \sum_{k\ge0}(-1)^k(2k+1)q_kz^k\,C_1^{\,2k}Y.
+\]
+
+The symmetric two-step action is
+\[
+KD^{\rm J}KD^{\rm L}+KD^{\rm L}KD^{\rm J},
+\]
+with common physical prefactor
+\[
+\frac{\alpha s_n}{4t}.
+\]
+
+The \(\beta\)-parameter used in the signed pool calculation is
+\[
+\beta=\frac{s_n^2}{8t}.
+\]
+The actual marked point uses \(t=t_0=n\), not the bulk value.
+
+---
+
+## 3. Uniform tail after the \(\beta^2\) block
+
+The displayed signed coefficient pools through \(\beta^2\) are
+\[
+\begin{array}{c|c}
+\text{pool}&\text{coefficient}\\ \hline
+K(CW)&1-3\beta+\frac{117}{16}\beta^2\\[2mm]
+\frac12K(Y^2)&1-\frac52\beta+\frac{183}{32}\beta^2\\[2mm]
+\mathcal R_{10}&-\frac34\beta+\frac{93}{32}\beta^2.
+\end{array}
+\]
+
+For the absolute remainder, retain \(k=0,1,2\) in each one-dimensional Jacobi series and put all terms with total order \(k+\ell\ge3\) into the tail.
+
+Using \(q_k\le1\), the omitted Jacobi mass and first-moment bounds are
+
+\[
+\overline m_{\rm J}
+ \le u\sum_{k\ge3}z^k
+ =\frac{u z^3}{1-z},
+\]
+\[
+\overline a_{\rm J}
+ \le u\sum_{k\ge3}(2k+1)z^k
+ =\frac{u z^3(7-5z)}{(1-z)^2},
+\]
+and
+\[
+\overline m_{\rm L}
+ \le \frac{|\alpha|}{\sqrt{|t|}}
+       \sum_{k\ge3}(2k+1)z^k
+ =\frac{|\alpha|z^3(7-5z)}
+        {\sqrt{|t|}(1-z)^2},
+\]
+\[
+\overline a_{\rm L}
+ \le \frac{|\alpha|}{\sqrt{|t|}}
+       \sum_{k\ge3}(2k+1)^2z^k.
+\]
+
+The last sum is explicitly
+\[
+\sum_{k\ge3}(2k+1)^2z^k
+=
+\frac{1+6z+z^2}{(1-z)^3}
+-\left(1+9z+25z^2\right),
+\]
+so
+\[
+\boxed{\;
+\overline a_{\rm L}
+ \le \frac{|\alpha|}{\sqrt{|t|}}
+ \left[
+ \frac{1+6z+z^2}{(1-z)^3}
+ -(1+9z+25z^2)
+ \right].
+\;}
+\]
+
+At the worst bulk endpoint \(u<0.356\), \(z<0.127\), \(|t|^{-1/2}<0.252\), and \(|\alpha|<1\), these give the reproducible bounds
+\[
+\overline m_{\rm J}<8.3\times10^{-4},
+\qquad
+\overline a_{\rm J}<7.0\times10^{-3},
+\]
+\[
+\overline m_{\rm L}<4.3\times10^{-3},
+\qquad
+\overline a_{\rm L}<4.2\times10^{-2}.
+\]
+
+At the actual mark \(t_0=n\), the same expressions are smaller by the factor
+\[
+O(n^{-3})
+\]
+in the Jacobi order and by the explicit factor \(n^{-1/2}\) in the Legendre-insertion series. Hence the bulk endpoint controls the uniform tail.
+
+For either temporal order, the absolute discarded multiplier is bounded by
+\[
+\overline\mu
+\le
+\overline\mu_{\rm J}\mu_{\rm L}
++\mu_{\rm J}\overline\mu_{\rm L}
+-\overline\mu_{\rm J}\overline\mu_{\rm L},
+\]
+where one may use the full majorants from the supplied record,
+\[
+m_{\rm J}\le \frac{u}{\sqrt{1-z}},
+\qquad
+a_{\rm J}\le \frac{u}{(1-z)^{3/2}},
+\]
+\[
+m_{\rm L}\le \frac{1}{\sqrt{|t|}(1-z)^{3/2}},
+\qquad
+a_{\rm L}\le \frac{1+2z}{\sqrt{|t|}(1-z)^{5/2}}.
+\]
+
+Consequently, any valid base-column price functional \(B(A,b;\mu)\) satisfying the additive-fiber inequality
+\[
+A'\le \mu A+\nu b,\qquad b'\le m b
+\]
+has tail bounded by applying it to the four products
+\[
+(\overline m_{\rm J},\overline a_{\rm J})
+  (\ m_{\rm L},a_{\rm L}),
+\qquad
+(m_{\rm J},a_{\rm J})
+  (\overline m_{\rm L},\overline a_{\rm L}),
+\]
+in both orders, and multiplying by
+\[
+\left|\frac{\alpha s_n}{4t}\right|.
+\]
+
+This is a uniform ordinary analytic majorant on the original closed square, with the actual \(t_0=n\) included.
+
+---
+
+## 4. Why the requested \(P_{5000}\) conclusion does not follow
+
+The signed pools are not enough by themselves to price the unshifted source.
+
+The records establish the translated-source estimate
+\[
+(A,b)=(0,1)
+\quad\Longrightarrow\quad
+\text{full selected block}<0.237\,\Lambda+O_\Lambda(n^{-1/2}),
+\qquad \Lambda=5000.
+\]
+
+The requested input instead has
+\[
+(A,b)=(\pi(1),0)=(1,0).
+\]
+
+For that input, the relevant base price after multiplication depends on the actual \(\pi\)-charges of the base fibers generated by
+
+- \(K(CW)\),
+- \(K(Y^2)\),
+- \(\mathcal R_{10}\),
+- and every separated residual family.
+
+The supplied documents give ranks and folded moments for many residual families, but they do **not** give:
+
+1. the actual \(P_{5000}\) price list \(\pi(k)\), rather than only
+   \[
+   k\le\pi(k)\le2k;
+   \]
+2. the exact base/off-base decomposition for the unshifted \(C_1\) input;
+3. the finite marked and bad-lift constants for this specific unshifted block;
+4. a demonstrated inequality converting the three signed pool coefficients into their physical \(P_{5000}\) prices.
+
+Therefore I cannot honestly claim either a strict bound below \(1\) or a refutation above \(1\).
+
+The available \(0.237\Lambda\) estimate is not applicable: it prices a translated source whose initial mass lies in the off-base coordinate \(b\), whereas the present source starts in the base coordinate \(A=1\).
+
+---
+
+## Hypotheses used
+
+- The actual family is the eligible prime / prime-square family with \(q=2n+1\).
+- The physical marking is retained at \(t_0=n\).
+- The original closed cold square is used, not an enlarged disk.
+- \(|\alpha|<1\) is used only for absolute tail bounds; \(\alpha\) remains explicit in the prefactor.
+- Signed pooling is used only for the three named pools through \(\beta^2\).
+- Every later Jacobi order is charged absolutely.
+- Additive fiber weights are used; no product-of-ranks estimate is invoked.
+- Finite mark and lift corrections remain \(O_{P_{5000}}(n^{-1/2})\), but their constants for this exact unshifted action are not present in the supplied record.
+
+## Ranked next tests
+
+1. **Compute the exact unshifted base-column price table.**  
+   Determine the folded base/off-base weight measures for the \(C_1\) input after each of the two orders, then price the three signed pools and all residual sectors using the actual rational \(\pi(k)\). This is the decisive missing computation.
+
+2. **Replay the finite marked/lift corrections for the unshifted source.**  
+   Produce explicit rational constants \(E_{\rm mark}\) and \(E_{\rm lift}\) in
+   \[
+   E_{\rm mark}+E_{\rm lift}=O_{P_{5000}}(n^{-1/2}),
+   \]
+   and combine them with the tail formula above. Without this replay, even a finite signed-pool subtotal cannot certify the physical \(P_{5000}\) price.

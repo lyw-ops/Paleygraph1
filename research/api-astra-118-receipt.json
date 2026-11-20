@@ -1,0 +1,19 @@
+{
+  "overflow": {
+    "provider_host": "api.appintheloop.com",
+    "call_id": "cold-combined-derivative",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "7bb6287716886c8f90b652837ce485db45e06f7a4c7ad22fb2348dca00db0f0f",
+    "started_utc_epoch": 1795099096,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8270,
+      "completion_tokens": 1731,
+      "total_tokens": 10001
+    },
+    "draft_sha256": "70e18a21199a1f2077df1a79a6c0e226d184b25cb62a39a4bd9dd2247d94b66f",
+    "status": "returned-draft"
+  }
+}

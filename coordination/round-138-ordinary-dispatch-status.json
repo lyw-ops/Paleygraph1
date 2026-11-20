@@ -1,0 +1,54 @@
+{
+  "provider": "api.appintheloop.com",
+  "attempts": [
+    {
+      "batch": "round-138",
+      "model_requested": "claude-fable-5-2",
+      "launch_manifest": {
+        "path": "coordination/round-138-inflight.json",
+        "sha256": "e5435cd7918683d6ee56f00d7e4e7a58c213c009d4a578db3cbe9b8301c93abf"
+      },
+      "started_utc_epoch": 1795114201.827494,
+      "receipt_sha256": "f985b852a88bafc5b137f08cf4a825a768ea8f2e71eb5a204ac220107600c7b3",
+      "receipt": {
+        "completion": false,
+        "http_status": 429
+      }
+    },
+    {
+      "batch": "round-138-b2",
+      "model_requested": "claude-fable-5-1",
+      "launch_manifest": {
+        "path": "coordination/round-138-b2-inflight.json",
+        "sha256": "bb4cd8e61c06445b56c017ed9e5ff39db8d62a312a96b2057e130462179d7423"
+      },
+      "started_utc_epoch": 1795114282.321239,
+      "receipt_sha256": "b4b962827d8bb2472e75af2a2dccec5bd4f1fff50cfd6149593769340545d011",
+      "receipt": {
+        "completion": false,
+        "http_status": 200,
+        "model_matches": true,
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 12483,
+          "completion_tokens": 5000,
+          "total_tokens": 17483,
+          "input_tokens": 12483,
+          "output_tokens": 0,
+          "claude_cache_creation_5_m_tokens": 12479,
+          "claude_cache_creation_1_h_tokens": 0
+        }
+      }
+    },
+    {
+      "batch": "round-138-b3",
+      "model_requested": "gpt-6.2-astra",
+      "launch_manifest": {
+        "path": "coordination/round-138-b3-inflight.json",
+        "sha256": "0238a422b12799123f1b9e8c6aaeb6f58a452107f0956bf3c0e0b206fa83334f"
+      },
+      "started_utc_epoch": 1795114405.5792232,
+      "receipt_status": "pending at this checkpoint"
+    }
+  ]
+}

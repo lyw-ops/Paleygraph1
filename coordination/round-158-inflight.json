@@ -1,0 +1,61 @@
+{
+  "round": 158,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-157-acceptance.json",
+    "sha256": "8677dff7b1d73d638fc5caaf71ee36f709cf018f58d0e60e9c1f00adae615363"
+  },
+  "coordinator": {
+    "path": "coordination/round-157.json",
+    "sha256": "13c380ee6bfc10123c4b67f305cc8e8b5684045bd542c0efa9d8c1b0fc1efd0f"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-158.py",
+    "sha256": "6a65d7a4f4a2d70c54843ea813f8cb95a6a9e6059833222f3a5058b478c7f30d"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-158-before.json",
+    "sha256": "a0f9cfe86109ac239061fc191c1cc613ffaceeadfc79e9ada1fef065d8a8646f"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-marked-phase-arc",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "9c78baa486a910d27ec0ad9e03e2120f6a3921a8030158baa1813d764082426c",
+      "mission_file": {
+        "path": "coordination/missions/round-158/ordinary-prime-marked-phase-arc.md",
+        "sha256": "9082f0ef9e71a194ae3718be5a4b43da6297f8e592380e78480188aad986b528"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r158-api-01a1ed0a/ordinary-prime-marked-phase-arc-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r158-api-01a1ed0a/ordinary-prime-marked-phase-arc-candidate.md",
+      "started_utc_epoch": 1795128170.335068
+    },
+    {
+      "call_id": "ordinary-prime-clean-five-root-average",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "5d61d79872a436975b02b60a7cb18f773b8240e0242ebf4c66cf9ebe294b3fc8",
+      "mission_file": {
+        "path": "coordination/missions/round-158/ordinary-prime-clean-five-root-average.md",
+        "sha256": "926b74526996542a7b1b9b846133d1a70ca22f300190dc569b432fa6452814be"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r158-api-01a1ed0a/ordinary-prime-clean-five-root-average-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r158-api-01a1ed0a/ordinary-prime-clean-five-root-average-candidate.md",
+      "started_utc_epoch": 1795128170.334733
+    },
+    {
+      "call_id": "cold-signed-gap-alternative",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "59ea6448659b2d7473bba121ada62ef949343f1774620d12cab77e81a6f4ba54",
+      "mission_file": {
+        "path": "coordination/missions/round-158/cold-signed-gap-alternative.md",
+        "sha256": "687257d2ea7748fd3c6f084c13801f20f782de4faecd54ce457629252b5f8b37"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r158-api-01a1ed0a/cold-signed-gap-alternative-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r158-api-01a1ed0a/cold-signed-gap-alternative-candidate.md",
+      "started_utc_epoch": 1795128170.335802
+    }
+  ]
+}

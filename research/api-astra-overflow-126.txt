@@ -1,0 +1,108 @@
+## Quantitative test for the actual first insertion
+
+Let \(D=\operatorname{diag}\Phi_t'(V)\) at a genuine moving starter \(V\), \(B=KD\), and
+\[
+A_\ell=B^\ell K,\qquad E_i=D_i-D.
+\]
+Assume the common-sheet and bounded-boundary hypotheses from the frozen parity construction: every physically represented prefix has only the base pair and the translated-source pair as Mellin boundary fibers. Thus the union of bad characters for
+\[
+A_uE_iA_v
+\]
+has bounded cardinality, independent of \(n,u,v\); after projection, it contributes at most a fixed number of exceptional physical coordinates. This is the relevant actual union, not a generic “more cancellation” assertion.
+
+Define \(\mathfrak p(X)\) to be the sum of absolute coefficient times generic convolution dimension in a negative-field representation of \(X\). For a physically represented frozen column, suppose
+\[
+\mathfrak p(A_\ell e_x)\le C n^{-1/2}\alpha^\ell,\qquad 0\le \ell\le J,       \tag{1}
+\]
+uniformly in the translated source \(x\), where \(\alpha\) is the actual packet-growth factor at the moving starter. Suppose also that the actual derivative difference has a representation with
+\[
+\mathfrak p(E_i)\le C_E\rho_E,                                           \tag{2}
+\]
+apart from a set of \(O(n^\beta)\) exceptional coordinates. Here \(\rho_E\) is the normalized second-norm displacement scale; on the common curvature disks one expects \(\rho_E\ll r/(1-q)\), but (2) is an additional arithmetic representation hypothesis.
+
+For an odd product of three negative fields, the parity estimate gives a nonpunctual trace bounded by
+\[
+O\!\left(p^{-1/2}\mathfrak p(A_u e_x)\mathfrak p(E_i)\mathfrak p(A_v e_y)\right).
+\]
+The bounded bad-character union contributes the same expression with \(p^{-1/2}\) replaced by \(p^{-1}\), hence is smaller. Summing the physical insertion over \(u,v<J\) therefore gives
+\[
+\sum_{u,v<J}\|A_uE_iA_v\|_{\max}
+ \ll n^{-1/2}\rho_E
+       \left(\sum_{u<J}\alpha^u\right)^2
+ + O\!\left(n^{-1}\rho_E
+       \left(\sum_{u<J}\alpha^u\right)^2\right).                       \tag{3}
+\]
+
+The exceptional-coordinate part is independent of the parity estimate. If \(E_i^{\rm exc}\) is supported on \(O(n^\beta)\) coordinates with bounded entries, the already established counting estimate gives
+\[
+\sum_{u,v\ge0}\|A_uE_i^{\rm exc}A_v\|_{\max}
+       \ll n^\beta\Delta^2.                                           \tag{4}
+\]
+Thus \(\Delta=O(n^{-\beta})\) spends exactly \(O(n^{-\beta})\), compatibly with the target, provided the exceptional set is genuinely \(O(n^\beta)\).
+
+### Explicit power loss
+
+For \(\alpha>1\), with
+\[
+J=\left\lceil\frac{\beta\log n}{2|\log q|}\right\rceil,
+\]
+equation (3) is
+\[
+\ll n^{-1/2}\rho_E\,
+ n^{\,\beta\log\alpha/|\log q|}.                                      \tag{5}
+\]
+Put
+\[
+s(\alpha,q)=\frac{\beta\log\alpha}{|\log q|}.
+\]
+If the physical residual supplies
+\[
+\rho_E=o\!\left(n^{-(1-\beta)/2}\right),
+\]
+then the signed insertion is
+\[
+o\!\left(n^{-1+\beta/2+s(\alpha,q)}\right).                           \tag{6}
+\]
+Consequently it is \(O(n^{-\beta})\) whenever
+\[
+\boxed{\quad
+\frac{\beta\log\alpha}{|\log q|}
+   \le 1-\frac{3\beta}{2}.
+\quad}                                                                \tag{7}
+\]
+At \(\alpha=1\), (3) has only a \((\log n)^2\) loss. For \(\alpha<1\), there is no logarithmic power loss.
+
+For comparison, the fixed-height numerical pair \(q=0.514\), \(\alpha=1.048\) would satisfy (7) throughout \(0<\beta\le1/2\): at \(\beta=1/2\),
+\[
+\frac{\beta\log(1.048)}{|\log(0.514)|}<0.071<0.25.
+\]
+This is only a fixed-height comparison; it does not certify the same \(\alpha\) at a moving genuine starter.
+
+## What is actually verified and what fails
+
+The physical parity mechanism does give a structurally admissible representation for finite prefixes: bulk odd derivatives, negative columns, and curvature factors preserve the bounded boundary union, while marked corrections are explicit columns \(Ke_0\). This verifies the *form* of the insertion test.
+
+It does **not** verify (1) or (2) uniformly at growing height. Finite interpolation proves only that a representation exists. Its coefficient-times-rank mass can grow with the number of distinct physical values. In the worst case the interpolation degree is \(O(n)\), and repeated products can have rank/price growth at least exponential in the prefix length. With \(J\asymp\log n\), an unbounded per-step price \(\alpha_n\) gives
+\[
+\alpha_n^{2J}
+ =\exp\!\left(\frac{\beta\log n}{|\log q|}\log\alpha_n\right).
+\]
+If \(\alpha_n=n^c\), this is
+\[
+\exp\!\left(\frac{c\beta}{|\log q|}(\log n)^2\right),
+\]
+which overwhelms every available power of \(n\). Therefore the first unbounded actual cost is the coefficient-times-rank mass of the moving derivative packet (and, separately, of the truncated susceptibility columns), not the number of bad characters and not the quadratic remainder.
+
+### Feasibility verdict
+
+**Inconclusive, with a precise obstruction.** A compatible moving starter would follow from a uniform moving-height packet bound \(\alpha<\infty\), a derivative-difference mass bound (2), and the residual scale \(n^{(1-\beta)/2}\rho_E\to0\). The insertion then obeys (5), with feasibility criterion (7). None of these uniform arithmetic bounds is presently established at a genuine moving starter. The fixed-height bounds cannot be transferred merely by finite interpolation.
+
+## Ranked next tests
+
+1. **Highest priority:** for one genuine moving starter, compute/estimate the packet mass of the first \(J\) actual derivative prefixes and determine whether
+   \[
+   \sup_{\ell\le J}\mathfrak p(A_\ell e_x)\,n^{1/2}\alpha^{-\ell}
+   \]
+   stays bounded with an \(\alpha\) satisfying (7). Track the base-plus-translated boundary union explicitly.
+
+2. **Second:** represent the actual first outgoing derivative difference \(E_0=D_1-D\) on the same sheets and measure \(\mathfrak p(E_0)/\rho_E\). A failure here is the earliest direct obstruction to the signed insertion, even if the frozen columns retain acceptable price.

@@ -1,0 +1,141 @@
+## Result: no verified new confinement from the supplied data
+
+I find a precise obstruction to the proposed **cross-height signed pooling as currently formulated**, but not to the actual signed operator.
+
+The physical setting remains:
+
+- prime family \(p\equiv1\pmod 4\), with \(n=(p-1)/2\), along eligible primes \(p\to\infty\);
+- physical mark \(t_0=n\), with \(t_i=t\) off the marked coordinate;
+- the original closed square centered at \(2031/128\);
+- both lifts and the translated \(P_{5000}\) norm;
+- actual heights \(h=601,602\);
+- the required comparison is
+  \[
+  \|A_{602}A_{601}-B_3^2\|_{P_{5000}}<0.51961239.
+  \]
+
+The existing quartic collection reaches only
+\[
+\|A_{602}A_{601}-B_3^2\|_{P_{5000}}<0.66349297,
+\]
+while its retained positive comparison has a twelve-coordinate lower factor \(>0.61707\). This rules out further \(W\)-only regrouping with the fixed positive \(H_h\) envelope and the old \(A_{601}\) pricing, but it does not rule out the actual signed operator.
+
+### Formal cross-height obstruction
+
+Write
+\[
+E_h=A_h-B_3.
+\]
+The exact product difference is
+\[
+A_{602}A_{601}-B_3^2
+ =E_{602}A_{601}+B_3E_{601}.
+\]
+
+At a fixed multiplier vertex, with \(H_h\) retained as the genuine residual variable, the signed coefficient at a full label \(\lambda\) is
+\[
+[H_h^jW^l]_\lambda
+ =\binom{j+l}{l}\beta^l\Gamma_{j+l,h}(\lambda).
+\]
+
+The proposed cross-height cancellation would require identifying terms from the \(H_{602}\)-part of \(E_{602}A_{601}\) with terms from the \(H_{601}\)-part of \(B_3E_{601}\). However, the supplied construction treats \(H_{601}\) and \(H_{602}\) as distinct residual envelopes. In the corresponding formal coefficient ring,
+\[
+\mathbb C[\text{labels}][[H_{601},H_{602},W]],
+\]
+the two terms lie in different monomial sectors:
+\[
+H_{602}^jW^l
+\quad\text{and}\quad
+H_{601}^jW^l.
+\]
+They cannot cancel before a genuine identity relating \(H_{601}\) and \(H_{602}\) is proved.
+
+Thus, signed collection across the two height vertices has no certified debit under the present hypotheses. Taking moduli after separately collecting the two residual variables returns exactly the type of positive comparison already obstructed by the \(0.61707\) lower witness.
+
+This is a rigorous obstruction to the named method:
+
+> **Independent-\(H_{601},H_{602}\) cross-vertex pooling with the original positive residual measures does not create a new signed contraction.**
+
+It is not an obstruction to a method using an explicit relation such as
+\[
+H_{602}=H_{601}+\Delta_H
+\]
+with \(\Delta_H\) represented in the same physical label space and quantitatively priced.
+
+### Why the existing derivative estimate does not close the gap
+
+The genuine height-601 derivative has the useful mixed estimates
+\[
+\|KD_{601}\|_{2\to2}<0.5145,
+\qquad
+\text{translated }P_{5000}\text{-rate}<1.048,
+\]
+and its resolvent has entrywise size \(O(n^{-0.467})\). These estimates are for the linearized operator and its resolvent. They do not provide the missing nonlinear bridge from the actual residual \(H_h\) to a uniform invariant ball for the two-step map. In particular, the data do not bound the full signed nonlinear cross-height remainder in a norm simultaneously compatible with:
+
+1. the physical \(P_{5000}\) translation cost;
+2. both lifts and the marked coordinate \(t_0=n\);
+3. the common complex square;
+4. the nonlinear product \(A_{602}A_{601}-B_3^2\).
+
+Therefore the actual arithmetic question remains open, but the specific independent-\(H\) pooling route fails.
+
+## Hypotheses used
+
+The conclusion above uses only:
+
+1. \(H_{601}\) and \(H_{602}\) are retained as separate actual residual envelopes in the cited constructions;
+2. the common label collection is performed before moduli only within each vertex;
+3. the physical norm is the translated \(P_{5000}\) norm;
+4. the prime family and marking are unchanged;
+5. no unproved relation between the two residuals is introduced.
+
+No finite-prefix computation is being treated as an asymptotic proof.
+
+## Ranked next tests
+
+### 1. Highest priority: explicit height-difference decomposition
+
+Construct, on the common complex square and for both lifts,
+\[
+H_{602}=H_{601}+\Delta_H
+\]
+at the level of actual Jacobi–Legendre labels, preserving determinant exponents and the marked \(t_0=n\) contribution.
+
+Then expand
+\[
+E_{602}A_{601}+B_3E_{601}
+\]
+in the variables \(H_{601},\Delta_H,W\), and collect identical labels across both vertices before taking moduli. The required quantitative bridge is an outward \(P_{5000}\) estimate of the form
+\[
+\|\Delta_H\|_{P_{5000}}
+\le c_\Delta
+\]
+together with a signed cross-height saving exceeding
+\[
+0.66349297-0.51961239=0.14388058.
+\]
+
+This is the only test presently capable of proving the requested gain through genuine \(H\)-arithmetic.
+
+### 2. Second priority: mixed nonlinear invariant using the actual derivative
+
+Use the actual height-601 estimates
+\[
+\|KD_{601}\|_{2\to2}<0.5145,
+\qquad
+\text{translated rate}<1.048,
+\]
+in a mixed norm, for example
+\[
+\|x\|_*=\max\{\|x\|_2,\;c\,\|x\|_{P_{5000}}\}.
+\]
+
+The test must establish a complete nonlinear estimate
+\[
+\|F_{602}(F_{601}(x))-B_3^2x\|_*
+ \le \rho\|x\|_*+\eta,
+\qquad \rho<1,
+\]
+with \(\eta\) including the marked repair, both lifts, analytic tails, and the \(601\to602\) height transfer. The current resolvent bounds alone do not imply this inequality; the missing item is a uniform quadratic remainder bound in the same mixed norm.
+
+

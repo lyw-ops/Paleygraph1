@@ -1,0 +1,271 @@
+## Result: inconclusive, with a uniform high-spectrum bound
+
+Fix the actual ordinary-prime family \(p\to\infty\), a sign \(\epsilon\), and the fixed floor/convention from the original problem. For each actual prime, retain:
+
+- the physical mark \(0\);
+- the pure sector \(P_\epsilon\);
+- the marked compression
+  \[
+  P_0=P_\epsilon-\frac{P_\epsilon e_0e_0^*P_\epsilon}{d},
+  \qquad d=(P_\epsilon)_{00}=\frac{|\Gamma|}{n},
+  \]
+  where \(\Gamma=\Omega_\epsilon\setminus\{1\}\), and \(1\) is the constant Fourier row;
+- the actual independent column set \(U'\), containing the actual positive support
+  \[
+  A=\{i:w_i>0\};
+  \]
+- the actual zero-coefficient block
+  \[
+  B=U'\setminus A.
+  \]
+
+All norms below are counting \(\ell^2\)-norms. Write
+\[
+G_{0,BB}=E_B^*P_0E_B,
+\qquad
+c_{0,B}=E_B^*c_0.
+\]
+
+The physical entry estimates give, uniformly over the actual columns,
+\[
+|(c_0)_i|\ll n^{-1/2},
+\qquad
+\|c_{0,B}\|_2^2\ll \frac b n,
+\qquad b=|B|.
+\]
+Since \(w_B=0\) and \(\ker G_0=\mathbb Rw\), \(G_{0,BB}\) is positive definite whenever \(B\neq\varnothing\).
+
+Define the source spectral measure
+\[
+\mu_B(E)
+=
+\left\langle c_{0,B},1_E(G_{0,BB})c_{0,B}\right\rangle .
+\]
+Then the exact zero-block debit is
+\[
+D_B
+=
+\langle c_{0,B},G_{0,BB}^{-1}c_{0,B}\rangle
+=
+\int_{(0,1]}\lambda^{-1}\,d\mu_B(\lambda).
+\]
+
+### 1. The part above \(T^{-1/2}\) is always negligible
+
+For any admissible growing window \(T=T(p)\to\infty\), put
+\[
+s=T^{-1/2}.
+\]
+Since \(G_{0,BB}\le I\),
+\[
+\int_{(s,1]}\lambda^{-1}\,d\mu_B(\lambda)
+\le s^{-1}\mu_B((0,1])
+\ll \frac{b\sqrt T}{n}.
+\]
+Because \(b\le |U'|\le n\),
+\[
+\boxed{
+\int_{(T^{-1/2},1]}\lambda^{-1}\,d\mu_B(\lambda)
+\ll \sqrt T=o(T).
+}
+\]
+
+Thus, along any hypothetical fixed-gap sequence of actual primes \(p_j\to\infty\), with one admissible \(T_j=T(p_j)\to\infty\), the only possible order-\(T_j\) contribution from the actual zero block lies in
+\[
+\lambda\le T_j^{-1/2}.
+\]
+
+This conclusion is basis-compatible in the restricted sense required here: it applies to every actual independent extension \(U'\) that retains the actual positive support \(A\). It uses the actual physical mark and \(P_0\), not a relaxed circulant model.
+
+### 2. A sufficient actual-prime low-window test
+
+The following source-specific estimate would finish the zero-block debit. For some fixed \(\rho>0\), require
+\[
+\mu_B([0,x])
+\ll
+\frac b n
+\left(\frac{x}{s}\right)^{1+\rho},
+\qquad
+0<x\le s=T^{-1/2}.
+\tag{LW}
+\]
+Indeed, decomposing \((0,s]\) dyadically gives
+\[
+\begin{aligned}
+\int_{(0,s]}\lambda^{-1}\,d\mu_B(\lambda)
+&\ll
+\sum_{j\ge0}
+\frac{2^j}{s}\,
+\mu_B([0,2^{-j}s]) \\
+&\ll
+\frac b{ns}
+\sum_{j\ge0}2^{-j\rho}
+\ll_\rho \frac{b\sqrt T}{n}.
+\end{aligned}
+\]
+Consequently, (LW) implies
+\[
+D_B\ll_\rho \frac{b\sqrt T}{n}\le C_\rho\sqrt T=o(T).
+\]
+
+So the remaining zero-block problem is sharply identified:
+
+> Prove (LW), or any comparable source-weighted estimate, for the actual marked compression \(G_{0,BB}\) on one admissible growing \(T(p)\) along every relevant fixed-gap sequence.
+
+No trace estimate is sufficient here; the measure must be weighted by the actual source \(c_{0,B}\).
+
+## Precise failure of the currently available hypotheses
+
+The known facts
+\[
+G_{0,BB}\le I,\qquad
+(G_{0,BB})_{ii}=\tfrac12+O(n^{-1}),\qquad
+|(G_{0,BB})_{ij}|\ll \frac{\sqrt p+1}{n},
+\qquad
+\|c_{0,B}\|^2\ll \frac b n
+\]
+do not imply (LW), or even a useful lower bound on the source-relevant eigenvalues.
+
+For example, abstractly let \(b\asymp n\), let \(0<\delta<1/2\), and define a \(b\times b\) matrix with diagonal \(1/2\) and off-diagonal entries
+\[
+-\frac{1/2-\delta}{b-1}.
+\]
+Its eigenvalue in the constant direction is \(\delta\), while all orthogonal eigenvalues are \(1/2+O(b^{-1})\). The off-diagonal size is \(O(b^{-1})\), compatible with the displayed local entry scale when \(b\asymp n\). If \(c_{0,B}\) has a constant-direction component of size \(\asymp1\), then
+\[
+D_B\asymp \delta^{-1}.
+\]
+Taking \(\delta\asymp T^{-1}\) produces an order-\(T\) debit.
+
+This is not a refutation of the actual-prime claim: the example is not asserted to arise from the Jacobi compression \(P_0\) and the actual adaptive support. It proves only that the present diagonal, entrywise, contraction, and positive-kernel information cannot establish the required low-window estimate.
+
+The relation \(c_0\perp w\) does not repair this obstruction, because \(w_B=0\). Hence it imposes no cancellation on \(c_{0,B}\).
+
+## The signed Schur leakage remains uncontrolled for large \(B\)
+
+The exact Schur decomposition is
+\[
+Q_A
+=
+G_{0,AA}
+-
+S_A,
+\qquad
+S_A=G_{0,AB}G_{0,BB}^{-1}G_{0,BA},
+\]
+and
+\[
+q_A=c_{0,A}-G_{0,AB}G_{0,BB}^{-1}c_{0,B}.
+\]
+The term \(S_A\) is positive as an operator but is subtracted from the actual signed form. It cannot be absorbed into the zero-block debit.
+
+Let
+\[
+\lambda_B=\lambda_{\min}(G_{0,BB}).
+\]
+For the high-weight set
+\[
+A_H=\{i\in A:w_i\ge H\},
+\]
+the mass identity \(\sum_iw_i=n-r\) gives
+\[
+|A_H|\le \frac nH.
+\]
+Using the actual off-diagonal bound,
+\[
+\|G_{0,BA_H}\|_{\mathrm{HS}}^2
+\ll
+\frac{p+1}{n^2}\,b|A_H|
+\ll
+\frac{(p+1)b}{nH}.
+\]
+Therefore, for \(\xi\) supported on \(A_H\),
+\[
+\langle \xi,S_A\xi\rangle
+\le
+\frac{\|G_{0,BA_H}\|_{\mathrm{HS}}^2}{\lambda_B}\|\xi\|_2^2
+\ll
+\frac{(p+1)b}{nH\lambda_B}\|\xi\|_2^2.
+\tag{SL}
+\]
+Independently,
+\[
+0\le S_A\le G_{0,AA}\le I,
+\]
+so the unconditional bound is only
+\[
+\langle \xi,S_A\xi\rangle\le \|\xi\|_2^2.
+\]
+
+For the previously treated small block, \(\lambda_B\gg_\eta1\), and (SL) recovers the useful \(O_\eta(b/H)\)-type leakage. For a larger actual \(B\), no prime-uniform lower bound on \(\lambda_B\) is known. Thus the signed Schur term can still be order one on high-weight directions even if the source debit \(D_B\) happens to be small.
+
+This also shows why controlling \(D_B\) alone is insufficient: \(D_B\) sees only the source \(c_{0,B}\), whereas \(S_A\) must be controlled on the weighted high-support directions.
+
+## Basis dependence
+
+Changing the independent extension \(U'\) while retaining the actual positive support \(A\) changes:
+
+- the coordinate block \(B\);
+- \(G_{0,BB}\);
+- \(c_{0,B}\);
+- the separate debit \(D_B\);
+- the Schur term \(S_A\).
+
+The total centered inverse cost does not change: exact block Gaussian elimination gives
+\[
+\langle c_0,G_0^\dagger c_0\rangle
+=
+D_B+\langle q_A,Q_A^\dagger q_A\rangle.
+\]
+Thus a basis can redistribute the cost between the zero-block debit and the Schur term, but cannot remove it. Any admissible basis-selection argument must use actual columns, retain \(A\), and preserve the full actual span; arbitrary linear recombinations would change the physical marking and are not admissible for this question.
+
+## Verdict
+
+**Inconclusive, but with a genuine partial result.**
+
+- The inverse cost of the actual zero block above \(T^{-1/2}\) is uniformly
+  \[
+  O\!\left(\frac{b\sqrt T}{n}\right)=O(\sqrt T)=o(T),
+  \]
+  for every actual prime, actual physical marking, and admissible actual basis.
+- The unresolved contribution is exactly the source-weighted low spectral window
+  \[
+  \int_{(0,T^{-1/2}]}\lambda^{-1}\,d\mu_B(\lambda).
+  \]
+- The present physical entry estimates and positive interpolant do not imply the needed low-window regularity.
+- The signed Schur leakage is separately unresolved for large \(B\), because no lower bound for \(\lambda_{\min}(G_{0,BB})\), or equivalent weighted resolvent estimate, is available.
+- No asymptotic fixed-gap conclusion follows yet.
+
+The order of limits is: fix the sign and floor, take actual primes \(p_j\to\infty\) along a hypothetical fixed-gap sequence, and choose one admissible \(T_j=T(p_j)\to\infty\). The estimates above are not statements obtained by first sending \(T\to\infty\) at a fixed prime.
+
+## Ranked next tests
+
+1. **Actual source-weighted low-window test.**  
+   For actual primes and an admissible basis extension \(U'_p\supset A_p\), test whether, for some fixed \(\rho>0\),
+   \[
+   \mu_{B_p}([0,x])
+   \ll
+   \frac{b_p}{n_p}
+   \left(\frac{x}{T_p^{-1/2}}\right)^{1+\rho},
+   \qquad
+   0<x\le T_p^{-1/2},
+   \]
+   along every relevant fixed-gap sequence. This directly closes the remaining zero-block inverse cost.
+
+2. **Actual weighted Schur-resolvent test.**  
+   For the same physical mark and actual basis, estimate
+   \[
+   \Lambda_{H,p}
+   =
+   \sup_{\substack{\xi\ne0\\ \operatorname{supp}\xi\subset A_{H,p}}}
+   \frac{\langle \xi,
+   G_{0,AB}G_{0,BB}^{-1}G_{0,BA}\xi\rangle}
+   {\|\xi\|_2^2},
+   \]
+   or prove a usable substitute such as
+   \[
+   \Lambda_{H,p}
+   \ll
+   \frac{(p+1)b_p}{n_pH\,\lambda_{\min}(G_{0,B_pB_p})}
+   =o(1)
+   \]
+   for a high-weight threshold \(H=H(p)\). This is the separate test needed to control the signed Schur leakage rather than only the source debit.

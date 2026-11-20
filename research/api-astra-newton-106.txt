@@ -1,0 +1,123 @@
+## Quantitative result for one candidate mechanism
+
+Let
+\[
+r_j=\|R_j\|_{2,n},\qquad R_j=V_{j+1}-V_j,\qquad
+\|x\|_{2,\mathrm{count}}=\sqrt n\,\|x\|_{2,n}.
+\]
+The residual requirement for a starter at height \(a=a(n)\) is
+\[
+n^{(1-\beta)/2}r_a\longrightarrow0. \tag{A}
+\]
+
+I tested the following compatible mechanism on the actual nine-center orbit, retaining the Jacobi kernel and the real positive sheets.
+
+Assume that, from height \(a\) onward,
+
+1. the physical packet norm contracts:
+   \[
+   \|R_{a+k}\|_\pi\le r_a q^k,\qquad q<1; \tag{B}
+   \]
+2. the actual derivative secants have a packet representation with coefficient mass at most
+   \[
+   \|D_b-D_a\|_{2,n}\le C_D\sum_{k=0}^{b-a-1}\|R_{a+k}\|_\pi
+   \le \frac{C_Dr_a}{1-q}; \tag{C}
+   \]
+3. the exceptional diagonal part has mass
+   \[
+   M_{\rm exc}\le C_{\rm exc}r_a;
+   \]
+4. the truncated negative-field columns at depth \(h\) have dimension mass
+   \(Bn^{-1/2}\rho^h\), with tail \(O(q^h)\);
+5. the bad Mellin boundary fibers occurring in a product of depth-\(h\) approximants number at most \(F_h\).
+
+Then the three-field parity calculation gives the following actual-resource inequality:
+\[
+\begin{aligned}
+\|Z_a(D_b-D_a)Z_a\|_{\max}
+\ll{}&
+ B^2W_a\rho^{2h}
+ \left(p^{-1/2}+\frac{F_h}{p}\right)\\
+&+B^2M_{\rm exc}n^{-1}\rho^{2h}
++\Delta_a(\rho q)^h
++\|D_b-D_a\|_\infty q^{2h}, \tag{D}
+\end{aligned}
+\]
+where
+\[
+W_a\le \frac{C_Dr_a}{1-q},\qquad
+\Delta_a\le \frac{C_Dr_a}{1-q}.
+\]
+The units are consistent: \(W_a\) and \(M_{\rm exc}\) are field-dimension masses, while \(r_a\) and \(\Delta_a\) are normalized counting quantities. The factor \(p^{-1/2}\) is the nonpunctual three-field trace gain; \(F_h/p\) is the accumulated boundary loss.
+
+Thus a linearly growing boundary count, \(F_h=O(h)\), is not by itself fatal. For \(h=O(\log n)\),
+\[
+p^{-1/2}+F_h/p=n^{-1/2}O(1)+O((\log n)n^{-1}),
+\]
+so the boundary contribution is still below the principal \(n^{-1/2}\) term. What remains genuinely unverified is (B), (C), and the uniform exceptional-row bound at a growing actual height.
+
+### Depth compatibility
+
+Suppose the residual contraction in (B) is uniform with \(q=e^{-x}\), \(x>0\), so that
+\[
+r_a\ll q^{a-a_0}.
+\]
+Condition (A) requires
+\[
+a(n)>\frac{1-\beta}{2x}\log n+o(\log n). \tag{E}
+\]
+
+The column balance in the partial Neumann argument uses
+\[
+h(n)\sim\frac{\log n}{4\log(\rho/q)},\qquad
+\beta=\frac{x}{2\log(\rho/q)}. \tag{F}
+\]
+A significant quantified failure is that taking the starter at the *same* depth as this column cutoff cannot work. Indeed, if \(a=h\), then
+\[
+q^h=n^{-x/[4\log(\rho/q)]}=n^{-\beta/2}.
+\]
+The required residual scale is \(o(n^{-(1-\beta)/2})\). Since \(\beta\le 1/2\),
+\[
+\frac{\beta}{2}\le\frac{1-\beta}{2},
+\]
+with equality only at \(\beta=1/2\), where strict little-\(o\) still fails. Therefore the starter must be substantially deeper than the single-column cutoff. This is not an asymptotic impossibility: one may take \(a(n)\) according to (E), while retaining \(h(n)\) according to (F). It does show that “the same growing depth” is not compatible with the residual requirement.
+
+For the only presently certified contracting rate near the physical orbit,
+\[
+q=0.996681,\qquad x=-\log q=0.0033245\ldots,
+\]
+(E) demands approximately
+\[
+a(n)-a_0>
+\begin{cases}
+112.8\log n,&\beta=1/4,\\
+75.2\log n,&\beta=1/2.
+\end{cases}
+\]
+These are genuine logarithmic depths, not fixed-height perturbations.
+
+## What the actual packet evidence supports
+
+The physical replay gives rates
+
+\[
+q_{250}<0.996681,\qquad q_{300}<0.999421,\qquad
+q_{600}<1.046434.
+\]
+
+Consequently, the proposed positive packet induction does **not** currently establish any uniform \(q<1\) through the required growing starter heights. The height-600 value is not a lower bound on the true operator norm and therefore does not refute the asymptotic target; it only shows that the available absolute packet estimate has lost contraction before the needed logarithmic regime. Signs and parity can improve (D), but they do not repair this residual-resource failure, because (B) is an unsigned physical contraction requirement.
+
+The second unverified step is more specific: no growing-depth construction currently proves that the actual derivative difference \(D_b-D_a\) has a negative-field representation satisfying (C) with uniform \(C_D\), bounded exceptional mass, and controlled boundary union. The existing signed estimate therefore remains conditional even though the \(F_h=O(h)\) loss itself would be harmless.
+
+### Ranked next tests
+
+1. **Cumulative residual test.** Replay the actual nine-center packet rates and compute
+   \[
+   \sum_{j=a_0}^{a-1}\log q_j.
+   \]
+   Test directly whether it beats
+   \(-\frac{1-\beta}{2}\log n\) at \(a=A\log n\), rather than seeking a pointwise uniform \(q<1\).
+
+2. **Combined signed-source test.** At those same candidate heights, represent the actual \(D_b-D_a\), including its marked exceptional row, and evaluate (D) with the measured \(F_h\). This separates the potentially recoverable signed middle estimate from the presently failed absolute contraction resource.
+
+**Conclusion:** a compatible mechanism exists algebraically only with a starter deeper than the column cutoff, roughly \(a\asymp ((1-\beta)/(2|\log q|))\log n\). The current actual packet data do not verify the necessary growing residual contraction or the derivative-difference representation; they give a precise sufficient-bound failure, not an arithmetic obstruction.

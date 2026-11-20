@@ -1,0 +1,132 @@
+## Result
+
+For the actual prime family
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2\to\infty,
+\]
+with the physical marking
+\[
+t_0=n,\qquad t_i=t\quad(i\ne0),
+\]
+both actual lifts, and the original complex square \(Q\) centered at \(2031/128\) with half-width \(2^{-17}\), the available estimates do **not** prove a bounded translated norm for the full quadratic-source response.
+
+Write
+\[
+B_h=KD_h,\qquad D_h=\operatorname{diag}\Phi_t'(V_h),
+\]
+and
+\[
+r=\Phi_t(V_{600}+R)-\Phi_t(V_{600})-D_{600}R,
+\qquad R=V_{601}-V_{600}.
+\]
+The established estimate is
+\[
+\|Kr\|_{P_{5000}}<1.15\cdot10^{-4}
+\]
+eventually, uniformly on \(Q\) and on both lifts. This is a genuine estimate for the actual quadratic source, before outer transport.
+
+The relevant outer expressions must remain distinct:
+\[
+Z_h r=(I-B_h)^{-1}Kr
+\]
+and
+\[
+Z_hKr=(I-B_h)^{-1}K^2r
+       =(I+Z_hD_h)(I-\Pi)r.
+\]
+Thus
+\[
+Z_hKr=(r-\bar r)+Z_hD_h(r-\bar r),
+\]
+where \(\bar r\) is the constant-vector average. The first term is the direct coordinate contribution; it cannot be charged as a smoothed \(K\)-term. The second is the genuinely transported part.
+
+## What the fixed-height estimates do give
+
+At height \(602\), the actual frozen operator satisfies
+
+\[
+\|B_{602}\|_{P_{5000}}<1.066,
+\qquad
+\|B_{602}\|_{2\to2}<0.518.
+\]
+
+The first estimate is a translated operator estimate for the multiplier step, not for the inverse. Therefore, for the specific source \(Kr\), one obtains only the formal majorant
+\[
+\|B_{602}^jKr\|_{P_{5000}}
+\le (1.066)^j\|Kr\|_{P_{5000}}
+<1.15\cdot10^{-4}(1.066)^j.
+\]
+This does not sum over \(j\). In particular, the available source price does not overcome the translated growth factor.
+
+The independent counting estimate gives decay
+\[
+\|B_{602}^j\|_{2\to2}\le (0.518)^j,
+\]
+but no proved inequality converts the counting norm of the actual source into a summable \(P_{5000}\)-norm estimate for the translated response. The height-\(602\) entrywise resolvent estimate
+\[
+\sum_{j\ge0}\|(B_{602})^jK\|_{\max}=O(n^{-0.455})
+\]
+also does not solve this: it is an entrywise estimate, and multiplying it by the normalized first norm of \(r\) introduces the physical factor \(n\). It is therefore not a translated operator bound and does not control the cyclic translated orbit.
+
+The same obstruction applies, with the extra transport retained, to
+\[
+Z_{602}Kr=(I-B_{602})^{-1}K^2r.
+\]
+The direct term \(r-\bar r\) remains separate, while the smoothed term still lacks a source-specific translated contraction.
+
+## Precise failure
+
+The failed sufficient reduction is:
+
+> “Since \(\|Kr\|_{P_{5000}}<0.000115\), the translated quadratic response is bounded by applying the frozen translated resolvent.”
+
+The known data only imply a power bound with rate \(1.066>1\):
+\[
+\sum_{j\ge0}\|B_{602}^jKr\|_{P_{5000}}
+\le
+0.000115\sum_{j\ge0}(1.066)^j,
+\]
+which diverges. The counting rate \(0.518\) cannot be combined with the translated estimate without an additional source-specific relation between the two norms. Consequently, no bounded translated source-resolvent estimate, no translated confinement estimate, and no growing-depth starter follow.
+
+This is a failure of the proposed sufficient bound, not a proof that the actual translated response is unbounded.
+
+## Remaining gap
+
+A successful argument must exploit the particular cyclic orbit of the actual source \(r\), rather than the general translated operator rate. One needs, for example, a signed estimate of the form
+\[
+\sum_{j\ge0}\|B_{602}^jK r\|_{P_{5000}}=O(\|Kr\|_{P_{5000}})
+\]
+or an equivalent estimate for the corrected source
+\[
+(I-\Pi)r,\qquad
+Z_{602}Kr=(r-\bar r)+Z_{602}D_{602}(r-\bar r).
+\]
+Such an estimate must preserve the direct term, both actual lifts, the physical mark \(t_0=n\), and the additional \(K\) in \(Z_hKr\).
+
+The conclusions above are uniform for each fixed height \(h=600,601,602\), after taking sufficiently large eligible primes \(p\). They do not justify a limit with \(h=h(n)\to\infty\). A growing starter would additionally require a residual rate compatible with the orbit-transfer condition
+\[
+n^{1-\beta}r_{\mathrm{res}}^2=o(1),
+\]
+with a verified moving-height analogue of the signed partial-sum or shifted-resolvent bounds.
+
+## Ranked next tests
+
+1. **Source-specific cyclic test — highest priority.**  
+   Expand the actual \(r\) using its two explicit \(R\)-factors and the common Jacobi seed, and track the signed orbit
+   \[
+   Kr,\ B_{602}Kr,\ B_{602}^2Kr,\ldots
+   \]
+   in \(P_{5000}\), retaining the base/off-base decomposition and the direct correction in \(Z_{602}Kr\). The target is a rate strictly below \(1\), or a summable two-norm/translated-price interpolation specifically for this source. This directly tests the missing assertion.
+
+2. **Growing-starter residual test.**  
+   Construct a genuine predictor at height \(m=m(n)\) with all physical sheets and both lifts, then verify simultaneously:
+   \[
+   \|F_t(V_m)-V_m\|_{2,n}=r_{\mathrm{res}}(n),
+   \qquad
+   n^{1-\beta}r_{\mathrm{res}}(n)^2=o(1),
+   \]
+   together with signed partial sums
+   \[
+   \sup_{j\le c\log n}\|B_m^jZ_m\|_{\max}=O(n^{-\beta})
+   \]
+   for some \(\beta>0\). This would yield genuine nonlinear confinement, but it requires new moving-height input rather than the fixed \(602\) estimates.

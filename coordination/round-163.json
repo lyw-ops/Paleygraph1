@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "round": 163,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 163 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-162-acceptance.json",
+      "sha256": "37994bf29da429a51c9d44c29a1f012bd001a2b39c3d074fca17d24685975844"
+    },
+    "current": {
+      "path": "research/round-163-acceptance.json",
+      "sha256": "0c86f81edcac89a94a80c79f2ee9dfc37be40edfc66e21ce80454f67ca229b3e"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "Exact Fourier-minor deficit and unmarked signed leakage were known. The actual small-slope block was covered only at sigma≥1 or bounded first mass.",
+      "after": "Actual high-rank isolation and Gram fluctuations exclude the two simple determinant comparisons. One-row cofactor exchange has explicit signed mass. True shifted-layer energy gains a power on every fixed positive amplitude block; direct high-high overlap reaches sigma≥26/27.",
+      "remaining": "Control the actual signed cofactor deficit or leakage, and the full remaining moderate critical block with the true slope weight.",
+      "evidence": [
+        {
+          "path": "research/ordinary-fourier-minor-orbit-isolation-163.md",
+          "sha256": "79f45f26552ea734d0712544b8ef9f171bad005bd47f32fb0cc429e5baaa701e"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/astra-paired-96.md",
+          "sha256": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e"
+        },
+        {
+          "path": "research/smoothing.md",
+          "sha256": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        },
+        {
+          "path": "research/ordinary-physical-slope-fiber-count-162.md",
+          "sha256": "ddc91f28cfbc56ffe805567d7aa85f1fedc5ba8f42a8bd559f436b17a2c3e005"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/astra-fibers-86.md",
+          "sha256": "8d921c3a26006927f4af6e824a4e19cae9790611f5c37cb1b4f4bca20dff01ee"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "The true frozen height-602 kernel is entrywise summable at O(n^-0.455), and the transported Taylor source price is <0.000115.",
+      "after": "The raw orbit rate 1.066 has no summable translated consequence. The distinction between the two source transports is retained.",
+      "remaining": "Bound an actual finite block and its signed invariant tail or construct a growing starter with the original sheets, valid residual and translated transfer.",
+      "evidence": [
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "High-rank whole-row translation and scalar Gram flatness fail. Actual prime shifted-layer energy gains a power, opening a quantitative physical route. The cold source has no new translated estimate.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-signed-cofactor-exchange",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the actual signed Jacobi mass of one-row cofactor replacements give a weighted Fourier-minor deficit above 1/T?",
+      "why_now": "Whole-row translates cannot exchange any high-rank actual row set, and the macroscopic Gram is necessarily non-scalar. Single-row exchange retains nonzero freedom and has an exact signed mass formula.",
+      "scope": "Use the actual unmarked zero columns, constant row, real signs, full squared minors and one admissible growing T. Cofactor trace alone is tautological. The actual signed leakage alternative must keep mean and norm scales.",
+      "if_yes": "Prove an aggregate signed replacement lower above (k/T) times the marked weight, or a comparable actual-prime fixed-gap exclusion.",
+      "if_no": "Prove a precise mathematical limitation of a named cofactor simplification, with actual versus relaxed scope.",
+      "if_inconclusive": "Derive an exact additional constraint depending on true optimizer zero columns that could force the cofactor mass to remain outside the constant row.",
+      "inputs": [
+        {
+          "path": "research/ordinary-fourier-minor-orbit-isolation-163.md",
+          "sha256": "79f45f26552ea734d0712544b8ef9f171bad005bd47f32fb0cc429e5baaa701e"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/astra-paired-96.md",
+          "sha256": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e"
+        },
+        {
+          "path": "research/smoothing.md",
+          "sha256": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-weighted-affine-ratio",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can actual pointwise affine overlap and weighted ratio information reach a new moderate slope region beyond the existing prime energy savings?",
+      "why_now": "Both high reflected layers give pointwise count O(p^(13/27)) for nonidentity u and O(p) when sigma≥26/27. The true ratios on a+b>1 themselves have bounded-below characteristic amplitudes.",
+      "scope": "Keep actual a,b thresholds, true f(t), the mark v, physical square masks and the signed cross conditions. Distinguish r_u(x) from the slope r_u(y)/r_u(x) and include cross-ratio normalization.",
+      "if_yes": "Prove a new O(p) amplitude block or a prime-uniform signed saving that materially reduces the remaining weighted estimate.",
+      "if_no": "Find a precise obstruction to a selected weighted incidence or joint ratio attempt on the actual hypotheses.",
+      "if_inconclusive": "Give a stronger joint count on actual affine overlaps and ratio fibers, beyond the known unweighted maximum and energy bounds.",
+      "inputs": [
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        },
+        {
+          "path": "research/ordinary-physical-slope-fiber-count-162.md",
+          "sha256": "ddc91f28cfbc56ffe805567d7aa85f1fedc5ba8f42a8bd559f436b17a2c3e005"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/astra-fibers-86.md",
+          "sha256": "8d921c3a26006927f4af6e824a4e19cae9790611f5c37cb1b4f4bca20dff01ee"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-quadratic-source-block",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Does a finite signed block admit a translated invariant for the actual quadratic source, or can one construct a compatible growing starter?",
+      "why_now": "The entrywise height-602 bound and small true Kr source are known. The global translated estimate grows and a duplicate entry or coordinate estimate would not control this source.",
+      "scope": "Retain both lifts, original complex square and t0=n. Distinguish inverse times Kr from inverse times K squared r. Verify the finite signed block, its invariance or tail, and actual nonlinear transfer.",
+      "if_yes": "Prove a source-local translated bound with valid tail and sufficient bridge for continuation.",
+      "if_no": "Give a direct mathematical obstruction for a named signed block or a rigorous failure of an attempted invariant.",
+      "if_inconclusive": "Isolate and estimate one genuine signed cyclic block coefficient with an explicit remaining tail obligation.",
+      "inputs": [
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 164 deductions survive independent review?",
+      "why_now": "The source-specific cofactor and ratio estimates and the growing cold iteration need independent hypotheses and signs checked.",
+      "scope": "Read-only. Keep actual prime eligibility and support, complex lifts and marks, and exact quantifiers. Rank two next suggestions.",
+      "if_yes": "State the verified scope and remaining estimates.",
+      "if_no": "Locate an invalid step.",
+      "if_inconclusive": "Separate proof from finite or conditional information.",
+      "inputs": [
+        {
+          "path": "research/ordinary-fourier-minor-orbit-isolation-163.md",
+          "sha256": "79f45f26552ea734d0712544b8ef9f171bad005bd47f32fb0cc429e5baaa701e"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/astra-paired-96.md",
+          "sha256": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e"
+        },
+        {
+          "path": "research/smoothing.md",
+          "sha256": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        },
+        {
+          "path": "research/ordinary-physical-slope-fiber-count-162.md",
+          "sha256": "ddc91f28cfbc56ffe805567d7aa85f1fedc5ba8f42a8bd559f436b17a2c3e005"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

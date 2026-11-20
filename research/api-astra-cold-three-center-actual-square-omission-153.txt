@@ -1,0 +1,117 @@
+## Result
+
+**Inconclusive: the supplied records do not prove the required signed square bound.** They also do not refute it. The obstruction is specifically that the available signed collection stops before the internal labels of the genuine omitted centers and Picard residual are combined with the \(B_3\) factors.
+
+The statement concerns the actual rows
+\[
+A_h=K\operatorname{diag}\bigl(d_{t_i}(V_{h,i})\bigr),\qquad h=601,602,
+\]
+with the original closed square, physical marking \(t_0=n\), both physical lifts, and the translated \(P_{5000}\) norm, over sufficiently large eligible odd primes and the corresponding prime-square/two-lift family. All limits are eventual limits in this family after the finite Taylor and weight cutoffs, with the analytic and physical-repair tails then restored.
+
+The established bounds are
+\[
+\|B_3\|<0.6931,\qquad
+\|A_{601}-B_3\|<0.4112,\qquad
+\|A_{602}-B_3\|<0.4122.
+\]
+
+Writing \(E_h=A_h-B_3\), the elementary square identity gives
+\[
+A_h^2-B_3^2=E_hB_3+B_3E_h+E_h^2,
+\]
+and therefore only the following absolute consequences:
+\[
+\|A_{601}^2-B_3^2\|
+ <0.4112(2\cdot0.6931+0.4112)
+ =0.73909088,
+\]
+and
+\[
+\|A_{602}^2-B_3^2\|
+ <0.4122(2\cdot0.6931+0.4122)
+ =0.74130048.
+\]
+Even using the inherited \(\|A_h\|<1.048\) estimate gives
+\[
+\|A_h^2-B_3^2\|
+ \le \|A_h-B_3\|(\|A_h\|+\|B_3\|)
+ >0.715
+\]
+at height \(601\), still above the required post-transfer budget
+\[
+0.50179639.
+\]
+
+Thus the current positive estimates do not close the square.
+
+## What the signed evidence does establish
+
+The signed Jacobi/Legendre calculation collects equal seed and Legendre labels before taking moduli. In the actual omission recurrence, however,
+\[
+J_0=0,\qquad
+J_j=(H_h+P_W)*J_{j-1}+H_h*P_W^{*(j-1)},
+\]
+where \(H_h\) contains the genuine fixed other centers together with the actual height-\(h\) Picard residual. The resulting \(\Gamma_j*J_j\) comparison preserves the signed seed and Legendre collection but **positively envelopes the internal labels of every \(H_h\) object**.
+
+Consequently:
+
+- the fixed other centers and the actual Picard residual are retained in the correct physical rows;
+- the physical mark \(t_0=n\), both lifts, and translated \(P_{5000}\) columns are retained;
+- the omitted family is correctly separated from the actual \(B_3\);
+- but no certified cancellation among the internal labels of \(H_h\), nor between those labels and the \(B_3\) factors, has been priced.
+
+The bound
+\[
+\|JM+MJ\|<0.05956
+\]
+from the all-order \(W\)-return calculation is an internal \(B_3\)-type estimate. It does not control the mixed terms \(B_3E_h+E_hB_3\), because those contain the genuine \(H_h\) factors. Likewise, the paired-height estimate
+\[
+\|A_{602}-A_{601}\|<0.017
+\]
+only transfers a completed same-height estimate between the two actual rows; it supplies no missing same-height cancellation.
+
+Therefore neither the required square bound
+\[
+\|A_h^2-B_3^2\|<0.50179639
+\]
+nor the stronger one-step bound
+\[
+\|A_h-B_3\|<0.3069
+\]
+has been proved.
+
+This is a failure of the present sufficient argument, not a signed refutation of the target.
+
+## Ranked next tests
+
+### 1. Full signed square packet with \(H_h\)-label retention — highest priority
+
+Expand
+\[
+A_h^2-B_3^2=E_hB_3+B_3E_h+E_h^2
+\]
+at the level of translated coefficient packets, retaining:
+
+1. the signed seed/Jacobi/Legendre labels already used in \(\Gamma_j\);
+2. the internal arithmetic labels of at least one genuine factor from \(H_h\);
+3. the distinction between fixed other centers and the actual Picard residual;
+4. the exact \(W\)-weight measure;
+5. both physical lifts and both base fibers;
+6. the physical marking \(t_0=n\);
+7. the translated \(P_{5000}\) column norm.
+
+Collect equal full signatures before modulus, then debit the unmatched complementary packets positively. The test succeeds if, after the finite orders \(0,\ldots,13\), weight cutoff, actual residual-tilt correction, \(0.0000407\) analytic tail, compact-lift repairs, and eventual \(O_{5000}(n^{-1/2})\) marking corrections, the resulting bound is strictly below \(0.50179639\) for both \(h=601,602\). A height-\(601\) bound may be transferred to \(602\) using the certified \(0.017\) row difference, but the transfer terms must be included before taking the eventual prime-family limit.
+
+### 2. Isolate a leading \(F_4\) or Picard signed slice — second priority
+
+Use the actual arithmetic \(F_4\) packet and test its overlap with the leading \(H_h\)-containing terms in \(E_hB_3+B_3E_h\) and \(E_h^2\). The \(F_4\) measure and its \(C_1W\) feedback identity are already explicit, but the required test must preserve the correct physical mark and the actual Picard residual tail rather than replacing them by a generic envelope.
+
+For each candidate signature:
+
+- verify an actual arithmetic/sheaf identity, not merely equal dimensions or weight support;
+- compute the signed coefficient on both lifts;
+- subtract only the certified common packet;
+- charge the complementary root packets positively;
+- include the finite truncation and all eventual physical corrections.
+
+A successful slice need not prove the whole square immediately, but must yield a certified debit that reduces the remaining square budget toward \(0.50179639\). A failed signature-equivalence test would rule out that proposed source of cancellation while leaving the global signed target open.

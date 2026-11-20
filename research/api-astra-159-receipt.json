@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-159-inflight.json",
+    "sha256": "4e322587946bddbddab92ae4f4a6837ba16ca3788ad4ec86ad772bc82b35cccf"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-quantitative-slope-spread",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 14206,
+        "completion_tokens": 17446,
+        "total_tokens": 31652
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-quantitative-slope-spread-159.txt",
+        "sha256": "c30609dfec42b88f661690fb9b6173c221a8a89196e796e5a7478347d06de40b"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-weighted-rank-two-transform",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 12604,
+        "completion_tokens": 4233,
+        "total_tokens": 16837
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-weighted-rank-two-transform-159.txt",
+        "sha256": "9e458a86da63ef7a80a90e1bdfe1e32529c239df90d497333cc405b314f4c14e"
+      }
+    },
+    {
+      "call_id": "cold-actual-H-vertex-or-invariant",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 13176,
+        "completion_tokens": 2028,
+        "total_tokens": 15204
+      },
+      "archive": {
+        "path": "research/api-astra-cold-actual-H-vertex-or-invariant-159.txt",
+        "sha256": "444a3460bbdd31fb10aad49a08d20687943ccbb53e7afcca85664c07a8e22794"
+      }
+    }
+  ]
+}

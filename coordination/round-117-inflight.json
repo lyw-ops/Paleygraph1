@@ -1,0 +1,36 @@
+{
+  "round": 117,
+  "dispatch_status": "terminal; response saved and independently reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-116-acceptance.json",
+    "sha256": "cb79cd034562bac1aef54787a5c0db284ba48f4e21e2f1c0545b70a86ff4de5b"
+  },
+  "coordinator": {
+    "path": "coordination/round-116.json",
+    "sha256": "6da4a3d21e32ffcdfa4974ee9c73ad8f95ed39efb236cf4cc3d8be7923cf4d9f"
+  },
+  "call_id": "direct-cap-slack",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "162e1d3c958bc5747d3304ef7e9ccc9530be469a2f529909fba791dc6465f51b",
+  "started_utc_epoch": 1795098513,
+  "local_session_id": 92063,
+  "mission_file": "/tmp/paley-r117-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r117-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r117-api-01a1ed0a/overflow-candidate.md",
+  "local_draft": "research/reciprocal-reweighting-117.md",
+  "next_step": "Use the checked Round 117 coordinator before dispatching new calls.",
+  "audit_agent": "/root/audit_117",
+  "extra_local_draft": "research/weighted-adjusted-cap-117.md",
+  "response": {
+    "path": "research/api-astra-overflow-117.txt",
+    "sha256": "bbff33070292996115f9e6ffe43cbd914224c254ad51d754c18aba5f26d44bd3"
+  },
+  "receipt": {
+    "path": "research/api-astra-117-receipt.json",
+    "sha256": "4d63182282c281d72601859df8760dd6196e3233e0b94e55c6b6ad712cdf5e59"
+  },
+  "acceptance": {
+    "path": "research/round-117-acceptance.json",
+    "sha256": "da278829b372d92a497d6b359f67f2ae547cf80eb5ccf9dc1818311d444b0794"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T23:37:43.142488Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-162.json#next_calls",
+  "coordinator_sha256": "b523738c75a71da695a74115223d7f0ced38d53a437debab180c7c1d88d170d8",
+  "call_ids": [
+    "ordinary-prime-Fourier-minor-ratio",
+    "ordinary-prime-shifted-layer-energy",
+    "cold-prime-actual-source-resolvent"
+  ],
+  "routes": {
+    "r163/ordinary-prime-Fourier-minor-ratio": {
+      "question": "Can the actual Fourier-minor mass omitting the constant row dominate 1/T on the genuine Jacobi zero sets?",
+      "scope": "Use the actual sector Omega and actual maximal independent spatial columns U prime from the least-energy optimizer. Keep the sign, physical mark, possible high rank and one admissible growing T. A quantified signed leakage exclusion is also valid.",
+      "remaining": "Prove an actual-prime lower ratio omega(1/T) or an equivalent gap exclusion. Bound nontrivial shifted-layer energy for a moderate actual slope exponent."
+    },
+    "r163/ordinary-prime-shifted-layer-energy": {
+      "question": "Can the off-diagonal multiplicative energy of the two true high reflected layers be bounded at O(p^(1+sigma/2)) for one remaining slope exponent sigma<1?",
+      "scope": "Use actual reflected high-level sets X,Y for the chosen v, with actual f, physical signs and slope cutoff. Retain the true level constraints. State whether all shifts or only stabilizing or sign-restricted shifts are controlled.",
+      "remaining": "Prove an actual-prime lower ratio omega(1/T) or an equivalent gap exclusion. Bound nontrivial shifted-layer energy for a moderate actual slope exponent."
+    },
+    "r163/cold-prime-actual-source-resolvent": {
+      "question": "Can the translated norm of the actual quadratic-source frozen response be bounded or the height-602 entry estimate used at a growing starter?",
+      "scope": "Retain both actual lifts and original square with t0=n. Distinguish Z_h r from Z_h K r, keep direct and smoothed pieces and the exact corrected insertion. Do not infer translated operator boundedness from max entries.",
+      "remaining": "Price the full translated response on the actual orbit and find a compatible growing-depth residual or genuine nonlinear confinement."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-Fourier-minor-ratio": [],
+    "ordinary-prime-shifted-layer-energy": [],
+    "cold-prime-actual-source-resolvent": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The actual Jacobi Fourier-minor mass targets all fixed gaps. The shifted-layer energy targets one selected moderate critical block. The actual cold source resolvent is separate. No duplicated immediate estimate is assigned."
+}

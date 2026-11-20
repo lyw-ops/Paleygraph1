@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T00:26:33.771014Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-167.json#next_calls",
+  "coordinator_sha256": "79dfb62eb779ab1d56c47ace80429e4b4f1e9d9ff1e30817e74628de89f90b88",
+  "call_ids": [
+    "ordinary-prime-one-match-Gauss",
+    "ordinary-prime-positive-support-quotient",
+    "cold-prime-all-order-shared-unit"
+  ],
+  "routes": {
+    "r168/ordinary-prime-one-match-Gauss": {
+      "question": "Can the one-match weighted complete 3+3 Gauss class be controlled at the genuine covariance scale O(p^1.5)?",
+      "scope": "Use actual omega and ell, fixed ratio phase factors, both outer square lifts and the exact prime cap. Condition on one specified match without replacing the remaining source law. Zero-match is a separate obligation.",
+      "remaining": "Bound the one-match and zero-match true weighted covariances, or prove a fixed-gap exclusion through actual centered source-weighted spectrum."
+    },
+    "r168/ordinary-prime-positive-support-quotient": {
+      "question": "Can the actual positive-support or basis-invariant orthogonal quotient inverse cost be bounded on fixed-gap prime sequences?",
+      "scope": "Use the actual marked pure sector, w, c0, true support A and full actual zero span. Track both positive and quotient debits and one admissible growing T. Do not trade source dependence for an unweighted rank estimate.",
+      "remaining": "Bound the one-match and zero-match true weighted covariances, or prove a fixed-gap exclusion through actual centered source-weighted spectrum."
+    },
+    "r168/cold-prime-all-order-shared-unit": {
+      "question": "Can the all-order common pure-seed scalar and first surviving transported channel be priced with a useful signed cold transfer?",
+      "scope": "Use actual increment R, V_s, n=t0=(p-1)/2, both lifts and original square. Charge removed unit branches once, all regular branches and marked repairs. Distinguish first outer price from a summable full transport.",
+      "remaining": "Find a summable signed transported response or a genuine moving starter and nonlinear bridge, keeping the actual mark and full square."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-one-match-Gauss": [],
+    "ordinary-prime-positive-support-quotient": [],
+    "cold-prime-all-order-shared-unit": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The one-match completed Gauss covariance targets an actual moderate critical geometry. The positive-support quotient targets all fixed ordinary gaps and uses the true adaptive columns. The all-order cold source and actual outer transport have distinct analytic hypotheses."
+}

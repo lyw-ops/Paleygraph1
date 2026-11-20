@@ -1,0 +1,162 @@
+### New signed upper
+
+Let \(U=Ka\) be the actual zero-floor capped fixed point at fixed cap \(M\), let \(Y=Kb\) be the actual ordinary optimizer row with the same marked coordinate, and retain the notation
+\[
+C=C_M(U),\qquad h=U-C,\qquad
+\mu=\mathbb E_n a,\qquad \nu=\mathbb E_n b,\qquad
+\eta=Y_0/b_0.
+\]
+On the bulk,
+\[
+b_i=|Y_i|,\qquad
+G_i=\frac{b_i-\eta Y_i}{\nu}
+     =\frac{(1-\eta\tau_i)|Y_i|}{\nu},
+\quad \tau_i=\operatorname{sgn}Y_i.
+\]
+
+Define the exact signed endpoint statistic
+\[
+S_p=
+\mathbb E_n\!\left[
+1_{\{i\ne0\}}G_i
+\bigl(
+1_{\{\tau_iU_i<0\}}(2|C_i|+|h_i|)
+-
+1_{\{\tau_iU_i\ge0\}}|h_i|
+\bigr)\right].
+\]
+By the fixed-point form of the signed identity, \(S_p=\mu-(a_0/b_0)\nu\).
+
+#### Proposition: weighted signed upper
+
+Assume the ordinary pair satisfies the exact zero-floor equations above and the quadratic comparison
+\[
+(\mu-\nu)^2+\cdots+
+4\mathbb E_n[(CY)_-]
+\le 2\mathbb E_n(hY). \tag{A}
+\]
+Then
+\[
+\boxed{
+S_p\le
+2(1+|\eta|)\frac{\|Y\|_{2,n}}{\nu}\,\|h\|_{2,n}.
+}
+\tag{B}
+\]
+
+Indeed, discard the negative aligned-spill term and use
+\[
+G_i\le \frac{1+|\eta|}{\nu}|Y_i|.
+\]
+The mismatch contribution is supported where \(CY<0\), hence
+\[
+S_p\le \frac{1+|\eta|}{\nu}
+\left(2\mathbb E_n[(CY)_-]+\mathbb E_n(|Y||h|)\right).
+\]
+From (A) and Cauchy–Schwarz,
+\[
+4\mathbb E_n[(CY)_-]
+\le 2\mathbb E_n(hY)
+\le2\|h\|_{2,n}\|Y\|_{2,n},
+\]
+while \(\mathbb E_n(|Y||h|)\le\|Y\|_{2,n}\|h\|_{2,n}\). This proves (B). Notice that the aligned and mismatched sets remain in the same signed test; no separate positive-overlap estimate was substituted.
+
+Since the cap deficit is
+\[
+\alpha_M(p)=4-\mu^2
+=\text{(bulk and marked spill energy)},
+\]
+we have \(\|h\|_{2,n}^2\le\alpha_M(p)\). Therefore
+\[
+\boxed{
+S_p\le
+2(1+|\eta|)
+\frac{\|Y\|_{2,n}}{\nu}
+\sqrt{\alpha_M(p)}.
+}
+\tag{C}
+\]
+
+This is a genuine prime-family inequality for the actual optimizer and actual capped fixed point. It is not a reflection or finite-dimensional endpoint comparison.
+
+### Explicit unconditional version
+
+The ordinary entry bound gives
+\[
+|Y_i|\le \sqrt p\,\nu,
+\]
+hence
+\[
+\frac{\|Y\|_{2,n}}{\nu}\le \sqrt p.
+\]
+Also \(b_0^2=4n+C_M(Y_0)^2\ge4n\), \(\nu\le2\), and
+\[
+|Y_0|\le\sqrt p\,\nu,
+\]
+so
+\[
+|\eta|=\frac{|Y_0|}{b_0}\le\sqrt{\frac pn}.
+\]
+Consequently
+\[
+\boxed{
+S_p\le
+2\left(1+\sqrt{\frac pn}\right)\sqrt{p\,\alpha_M(p)}.
+}
+\tag{D}
+\]
+For \(n=(p-1)/2\), the prefactor is bounded by \(2(1+\sqrt2+o(1))\).
+
+Thus the proposed signed upper follows unconditionally under the quantified rate
+\[
+\alpha_M(p)=o(p^{-1}).
+\]
+This rate is not presently available from the fixed-cap mean comparison. The existing energy identities only give \(\alpha_M(p)\to0\) if one first establishes the relevant large-cap unweighted convergence, without the \(p^{-1}\) rate.
+
+### What would close the asymptotic target
+
+A stronger and natural ordinary-support hypothesis is
+\[
+\sup_{\substack{p\equiv1(4)\\p\ge p_0}}
+\frac{\|Y_p\|_{2,n}}{\nu_p}<\infty,
+\qquad
+\inf_{p\ge p_0}\nu_p>0. \tag{E}
+\]
+Under (E), (C) gives
+\[
+\limsup_{p\to\infty}S_p
+\le C_M\limsup_{p\to\infty}\sqrt{\alpha_M(p)}.
+\]
+Therefore the following precise input would suffice:
+\[
+\lim_{M\to\infty}\limsup_{p\to\infty}\alpha_M(p)=0
+\quad\text{together with (E).} \tag{F}
+\]
+The signed endpoint statistic then has vanishing large-cap upper bound, and the exact identity
+\[
+\mu-\frac{a_0}{b_0}\nu=S_p,
+\qquad \frac{a_0}{b_0}=1+O_M(n^{-1}),
+\]
+transfers this to the ordinary endpoint comparison. The fixed-horizon averaging errors remain \(O_M(J^{-1})+O_M(J^{-1/2})\), so one takes the prime limit first, then \(J\to\infty\), and finally \(M\to\infty\).
+
+### Remaining gap
+
+The new estimate reduces the arithmetic problem to one of two concrete alternatives:
+
+1. prove the ordinary optimizer support ratio in (E), or a weaker bound
+   \[
+   \frac{\|Y_p\|_{2,n}}{\nu_p}=o(\alpha_M(p)^{-1/2});
+   \]
+2. prove the stronger prime-family deficit rate \(\alpha_M(p)=o(p^{-1})\), which would make (D) sufficient without any ordinary-support improvement.
+
+No claim is made here that either input is known. The finite-depth parity results do not provide (E), because the ordinary optimizer is a prime-dependent infinite-depth object.
+
+### Ranked next tests
+
+1. **Highest priority:** numerically and analytically test
+   \[
+   R_p=\|Y_p\|_{2,n}/\nu_p
+   \]
+   for the actual ordinary optimizer across primes and fixed \(M\). A uniform \(O(1)\) bound would convert mere large-cap unweighted convergence into the desired signed upper.
+
+2. **Second:** derive a prime-uniform estimate for \(\alpha_M(p)\) from averaged iterates, specifically whether \(\alpha_M(p)\ll_M p^{-1-\delta}\) or even \(o(p^{-1})\) is plausible. Failure at the \(p^{-1}\) threshold would identify the exact limitation of the unconditional bound (D).

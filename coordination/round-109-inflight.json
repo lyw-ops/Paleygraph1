@@ -1,0 +1,35 @@
+{
+  "round": 109,
+  "dispatch_status": "terminal; response saved and reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-108-acceptance.json",
+    "sha256": "6411446e960c146aa32657efb93f64a294045aa82074665e1be12c45b733ac2f"
+  },
+  "coordinator": {
+    "path": "coordination/round-108.json",
+    "sha256": "97baedf9e0ced2665e3bd49a44c0f916ab391af0a7610fb112b956b2de9003c8"
+  },
+  "call_id": "persistent-repair-near-edge",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "67cb6e3e2e4b72d2c93c3a4542cad8aec119d1da4748bfdf170d78eb7b597486",
+  "started_utc_epoch": 1795093841,
+  "local_session_id": 86853,
+  "mission_file": "/tmp/paley-r109-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r109-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r109-api-01a1ed0a/overflow-candidate.md",
+  "local_draft": "research/persistent-repair-deficit-109.md",
+  "audit_agent": "/root/audit_109",
+  "next_step": "Use the checked Round 109 coordinator record for subsequent assignments.",
+  "response": {
+    "path": "research/api-astra-overflow-109.txt",
+    "sha256": "c2d849b904cf511d67f2ef46ddb4adce09fb3ddf46e6bc7fe31eee81cc3ee2ee"
+  },
+  "receipt": {
+    "path": "research/api-astra-109-receipt.json",
+    "sha256": "f3079ccbfa777e807dacd517b39b40ad6cf3934da29df115a332e9880e1c340b"
+  },
+  "acceptance": {
+    "path": "research/round-109-acceptance.json",
+    "sha256": "3bf001e1ef90a9a71105b8981ed1bfff0b94793287d69efb1c1963c8d3f232f1"
+  }
+}

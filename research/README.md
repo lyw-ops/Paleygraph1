@@ -6,25 +6,33 @@ Refresh with `python3 scripts/research_index.py --write` from the repository roo
 
 ## Latest recorded acceptance
 
-- Round: **91** — [round-91-acceptance.json](round-91-acceptance.json).
+- Round: **180** — [round-180-acceptance.json](round-180-acceptance.json).
 - Target status reported by this record: `open`.
-- Acceptance timestamp in the record: `2026-11-19T08:24:15Z`.
+- Acceptance timestamp in the record: `2026-11-20T04:04:21Z`.
 - Read the [latest ledger entries](ledger.md) alongside the record and its route notes.
 - Files from later rounds may be in progress; their presence alone gives them no acceptance status.
 - The working tree can contain unpublished records. Use Git status to distinguish local work from a committed snapshot.
 
 ### Route notes named in this record
 
-- [astra-contact-91.md](astra-contact-91.md)
-- [astra-discount-91.md](astra-discount-91.md)
-- [astra-fiber-91.md](astra-fiber-91.md)
-- [real-two-marks-91.md](real-two-marks-91.md)
+- [round-179.md](../coordination/checkpoints/round-179.md)
+- [cold-prime-signed-growing-prefix.md](../coordination/missions/round-180/cold-prime-signed-growing-prefix.md)
+- [ordinary-prime-mixed-row-slope-product.md](../coordination/missions/round-180/ordinary-prime-mixed-row-slope-product.md)
+- [ordinary-prime-paired-J-fibers.md](../coordination/missions/round-180/ordinary-prime-paired-J-fibers.md)
+- [cold-growing-prefix-delocalization-180.md](cold-growing-prefix-delocalization-180.md)
+- [native-claude-audit-180.md](native-claude-audit-180.md)
+- [native-claude-cold-prime-signed-growing-prefix-180.md](native-claude-cold-prime-signed-growing-prefix-180.md)
+- [native-claude-ordinary-prime-mixed-row-slope-product-180.md](native-claude-ordinary-prime-mixed-row-slope-product-180.md)
+- [native-claude-ordinary-prime-paired-J-fibers-180.md](native-claude-ordinary-prime-paired-J-fibers-180.md)
+- [native-claude-review-180.md](native-claude-review-180.md)
+- [ordinary-mixed-row-autocorrelation-180.md](ordinary-mixed-row-autocorrelation-180.md)
+- [ordinary-paired-J-cross-ratio-180.md](ordinary-paired-J-cross-ratio-180.md)
 
 ### Priorities recorded by the research session
 
-1. Bound the coordinate integral of actual incoming cold velocity or the associated signed switch prices of the real pairs with common bulk weights below the first-switch cost.
-2. Use actual near-optimal translates in the prime quotient shortfall walk to bound their excess capacity jointly with the physical height and normalized cubic.
-3. Compare signed affine marginal prices on an adaptive union within the proved total-variation scale. An absolute transport approach needs to address persistent phase correlations and moderate-mode aggregates.
+1. Bound the one-match covariance directly by slope fibres with the new fixed-slope first masses C(a)=O(p^(11/8)); any route through E(mu) and Rudnev-Shkredov stops at p^(13/8) when M_1 is comparable to p.
+2. Seek a direct first-mass bound M_w=sum_s w(s)P_s=O(p^(1+1/1280)), which closes J in {0,1}; the generic J sum of the whole diagonal remains at O(p^(9/4)).
+3. For the cold prefix, prove n-independent delocalization of the increments (Criterion D) by a signed collected price with rate below 0.966 on the 3/8 polydisk or by a compact coset supremum with sup transfer.
 
 ## Acceptance record archive
 
@@ -32,6 +40,95 @@ Rows are ordered by round, not by filename. A record may cover one route or an e
 
 | Round | Acceptance record |
 | --- | --- |
+| 180 | [round-180-acceptance.json](round-180-acceptance.json) |
+| 179 | [round-179-acceptance.json](round-179-acceptance.json) |
+| 178 | [round-178-acceptance.json](round-178-acceptance.json) |
+| 177 | [round-177-acceptance.json](round-177-acceptance.json) |
+| 176 | [round-176-acceptance.json](round-176-acceptance.json) |
+| 175 | [round-175-acceptance.json](round-175-acceptance.json) |
+| 174 | [round-174-acceptance.json](round-174-acceptance.json) |
+| 173 | [round-173-acceptance.json](round-173-acceptance.json) |
+| 172 | [round-172-acceptance.json](round-172-acceptance.json) |
+| 171 | [round-171-acceptance.json](round-171-acceptance.json) |
+| 170 | [round-170-acceptance.json](round-170-acceptance.json) |
+| 169 | [round-169-acceptance.json](round-169-acceptance.json) |
+| 168 | [round-168-acceptance.json](round-168-acceptance.json) |
+| 167 | [round-167-acceptance.json](round-167-acceptance.json) |
+| 166 | [round-166-acceptance.json](round-166-acceptance.json) |
+| 165 | [round-165-acceptance.json](round-165-acceptance.json) |
+| 164 | [round-164-acceptance.json](round-164-acceptance.json) |
+| 163 | [round-163-acceptance.json](round-163-acceptance.json) |
+| 162 | [round-162-acceptance.json](round-162-acceptance.json) |
+| 161 | [round-161-acceptance.json](round-161-acceptance.json) |
+| 160 | [round-160-acceptance.json](round-160-acceptance.json) |
+| 159 | [round-159-acceptance.json](round-159-acceptance.json) |
+| 158 | [round-158-acceptance.json](round-158-acceptance.json) |
+| 157 | [round-157-acceptance.json](round-157-acceptance.json) |
+| 156 | [round-156-acceptance.json](round-156-acceptance.json) |
+| 155 | [round-155-acceptance.json](round-155-acceptance.json) |
+| 154 | [round-154-acceptance.json](round-154-acceptance.json) |
+| 153 | [round-153-acceptance.json](round-153-acceptance.json) |
+| 152 | [round-152-acceptance.json](round-152-acceptance.json) |
+| 151 | [round-151-acceptance.json](round-151-acceptance.json) |
+| 150 | [round-150-acceptance.json](round-150-acceptance.json) |
+| 149 | [round-149-acceptance.json](round-149-acceptance.json) |
+| 148 | [round-148-acceptance.json](round-148-acceptance.json) |
+| 147 | [round-147-acceptance.json](round-147-acceptance.json) |
+| 146 | [round-146-acceptance.json](round-146-acceptance.json) |
+| 145 | [round-145-acceptance.json](round-145-acceptance.json) |
+| 144 | [round-144-acceptance.json](round-144-acceptance.json) |
+| 143 | [round-143-acceptance.json](round-143-acceptance.json) |
+| 142 | [round-142-acceptance.json](round-142-acceptance.json) |
+| 141 | [round-141-acceptance.json](round-141-acceptance.json) |
+| 140 | [round-140-acceptance.json](round-140-acceptance.json) |
+| 139 | [round-139-acceptance.json](round-139-acceptance.json) |
+| 138 | [round-138-acceptance.json](round-138-acceptance.json) |
+| 137 | [round-137-acceptance.json](round-137-acceptance.json) |
+| 136 | [round-136-acceptance.json](round-136-acceptance.json) |
+| 135 | [round-135-acceptance.json](round-135-acceptance.json) |
+| 134 | [round-134-acceptance.json](round-134-acceptance.json) |
+| 133 | [round-133-acceptance.json](round-133-acceptance.json) |
+| 132 | [round-132-acceptance.json](round-132-acceptance.json) |
+| 131 | [round-131-acceptance.json](round-131-acceptance.json) |
+| 130 | [round-130-acceptance.json](round-130-acceptance.json) |
+| 129 | [round-129-acceptance.json](round-129-acceptance.json) |
+| 128 | [round-128-acceptance.json](round-128-acceptance.json) |
+| 127 | [round-127-acceptance.json](round-127-acceptance.json) |
+| 126 | [round-126-acceptance.json](round-126-acceptance.json) |
+| 125 | [round-125-acceptance.json](round-125-acceptance.json) |
+| 124 | [round-124-acceptance.json](round-124-acceptance.json) |
+| 123 | [round-123-acceptance.json](round-123-acceptance.json) |
+| 122 | [round-122-acceptance.json](round-122-acceptance.json) |
+| 121 | [round-121-acceptance.json](round-121-acceptance.json) |
+| 120 | [round-120-acceptance.json](round-120-acceptance.json) |
+| 119 | [round-119-acceptance.json](round-119-acceptance.json) |
+| 118 | [round-118-acceptance.json](round-118-acceptance.json) |
+| 117 | [round-117-acceptance.json](round-117-acceptance.json) |
+| 116 | [round-116-acceptance.json](round-116-acceptance.json) |
+| 115 | [round-115-acceptance.json](round-115-acceptance.json) |
+| 114 | [round-114-acceptance.json](round-114-acceptance.json) |
+| 113 | [round-113-acceptance.json](round-113-acceptance.json) |
+| 112 | [round-112-acceptance.json](round-112-acceptance.json) |
+| 111 | [round-111-acceptance.json](round-111-acceptance.json) |
+| 110 | [round-110-acceptance.json](round-110-acceptance.json) |
+| 109 | [round-109-acceptance.json](round-109-acceptance.json) |
+| 108 | [round-108-acceptance.json](round-108-acceptance.json) |
+| 107 | [round-107-acceptance.json](round-107-acceptance.json) |
+| 106 | [round-106-acceptance.json](round-106-acceptance.json) |
+| 105 | [round-105-acceptance.json](round-105-acceptance.json) |
+| 104 | [round-104-acceptance.json](round-104-acceptance.json) |
+| 103 | [round-103-acceptance.json](round-103-acceptance.json) |
+| 102 | [round-102-acceptance.json](round-102-acceptance.json) |
+| 101 | [round-101-acceptance.json](round-101-acceptance.json) |
+| 100 | [round-100-acceptance.json](round-100-acceptance.json) |
+| 99 | [round-99-acceptance.json](round-99-acceptance.json) |
+| 98 | [round-98-acceptance.json](round-98-acceptance.json) |
+| 97 | [round-97-acceptance.json](round-97-acceptance.json) |
+| 96 | [round-96-acceptance.json](round-96-acceptance.json) |
+| 95 | [round-95-acceptance.json](round-95-acceptance.json) |
+| 94 | [round-94-acceptance.json](round-94-acceptance.json) |
+| 93 | [round-93-acceptance.json](round-93-acceptance.json) |
+| 92 | [round-92-acceptance.json](round-92-acceptance.json) |
 | 91 | [round-91-acceptance.json](round-91-acceptance.json) |
 | 90 | [round-90-acceptance.json](round-90-acceptance.json) |
 | 89 | [round-89-acceptance.json](round-89-acceptance.json) |

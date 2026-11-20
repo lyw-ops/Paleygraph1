@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "round": 150,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 150 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-149-acceptance.json",
+      "sha256": "c47e784846ea673136f5c95e96497ef1672cccc5eab530743db8389e44f0239b"
+    },
+    "current": {
+      "path": "research/round-150-acceptance.json",
+      "sha256": "5cdb097c5787d89ae8e318de319d5cc01faca570322526fd054f3a4e7377fe8d"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "reformulated",
+      "before": "Need prime control of the selected phase and the entire first reflected source.",
+      "after": "Both extreme source ranges can be removed and the first receiver restricted to true defects of fixed positive height. A retargeted actual flow selects a near-optimal row with the original signed endpoint charge on an O(1/T) mask and bounded normalized effective support.",
+      "remaining": "The exact first-reflection core needs a prime-only bound. For the retargeted route use true negative-part history or true terminal-source control beyond the static matching identities. The separate direct critical-mask route is unchanged from Round 149.",
+      "evidence": [
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        },
+        {
+          "path": "research/ordinary-averaged-repair-dual-149.md",
+          "sha256": "524778e008719783a38a2cde0ded9cf7069a822ee631c48e0429a204e0e5d987"
+        },
+        {
+          "path": "research/anchored-repair-20.md",
+          "sha256": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "Positive all-order omission rate below 0.542. Need signed overlap.",
+      "after": "Exact same-label Jacobi–Legendre sum at each positive omitted degree gives actual eventual rate below 0.540 at both heights.",
+      "remaining": "Actual signed step rate <0.356 or actual same-height square difference <0.567184 remains open. Nonlinear invariance, the half step and growing marks are separate.",
+      "evidence": [
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-two-center-omitted-envelope-149.md",
+          "sha256": "b9523e161fde83eb32f92dbb5d1f7c2336ab85f37523d705d1b48bfbdc17e142"
+        },
+        {
+          "path": "research/cold-higher-legendre-step-148.md",
+          "sha256": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9"
+        },
+        {
+          "path": "research/cold-first-omitted-envelope-147.md",
+          "sha256": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The real core is narrower and the capped static model exposes which descriptors lack orbit information. Collecting all repeated Jacobi and Legendre labels gives a modest cold improvement without closing the contraction.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-first-spill-core",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can genuine prime arithmetic bound the signed sum on the high first-reflection receiver and surviving input core?",
+      "why_now": "Both source extremes are now negligible and the true high receiver has relative size O(1/T). This targets the short actual orbit.",
+      "scope": "Use all p=1 mod 4, fixed tau, true marked growing T, exact first projection and actual d. Keep n^(-1/4)<d<=sqrt(n)T^(-2/3), true same/opposite optima, output b^(0)>=b_* and both roots and the diagonal excluded.",
+      "if_yes": "Give a prime-uniform o(1) upper for the full signed sum at one selectable true optimum and marked time.",
+      "if_no": "Prove a genuine obstruction to a specified summable dyadic, high-moment or restricted Jacobi estimate, keeping its scope explicit.",
+      "if_inconclusive": "Bound one part of the arithmetic remainder, such as a summable level estimate or an estimate for the exact weighted common-zero-set transfer.",
+      "inputs": [
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/filtered-support-46.md",
+          "sha256": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e"
+        },
+        {
+          "path": "research/parallel-depth-window-30.md",
+          "sha256": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-retargeted-endpoint",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the actual retargeted relaxed negative-part history rule out its forced signed endpoint charge on primes?",
+      "why_now": "At this very step a near-optimal completed row has effective size O(n/T), small complementary overlap and a weighted endpoint lower on a sparse signed source.",
+      "scope": "Use actual x=(1-lambda)Z+lambda k, mark (1+delta)n/q, delta=T^(-1/6), same j selected by R150, true q and R, omega fixed and original marked T separate from m=n^2. The static F replica already passes several isolated descriptors.",
+      "if_yes": "Prove a prime-uniform contradiction to the joint endpoint and actual iterate conditions, or a quantitative uniform descent before the chosen gap scale.",
+      "if_no": "Prove an explicit counterexample to a named abstract estimate, with square or stationary scope stated.",
+      "if_inconclusive": "Use the dynamics and actual terminal mask to obtain one quantitative restriction in the broad or low-energy critical range.",
+      "inputs": [
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-averaged-repair-dual-149.md",
+          "sha256": "524778e008719783a38a2cde0ded9cf7069a822ee631c48e0429a204e0e5d987"
+        },
+        {
+          "path": "research/anchored-repair-20.md",
+          "sha256": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721"
+        },
+        {
+          "path": "research/ordinary-terminal-approximate-face-144.md",
+          "sha256": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4"
+        },
+        {
+          "path": "research/ordinary-oriented-terminal-mask-147.md",
+          "sha256": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456"
+        },
+        {
+          "path": "research/parallel-cap-19.md",
+          "sha256": "da976e583abac8c86974f25da13f44fffe5fd29486d79ec2ae0c4d6bd36a552e"
+        }
+      ]
+    },
+    {
+      "id": "cold-two-vertex-other-center",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Is there a concrete signed two-vertex overlap in the actual square difference involving one of the fixed other centers?",
+      "why_now": "The same-vertex full Jacobi and Legendre collection only changes 0.542 to 0.540. A repeated transported label or an exact obstruction would select the next cold representation.",
+      "scope": "Use A_601^2-B2^2 on the original square, both physical lifts, t0=n and P5000. Separate the actual Picard residual and choose one named fixed center such as beta W for the first test. Track both orders, exact label and arithmetic phase, and keep analytic and exceptional costs.",
+      "if_yes": "Price a concrete signed overlap or obtain the actual signed same-height square estimate below 0.567184.",
+      "if_no": "Prove the selected transported labels cannot overlap in the relevant class, or that a named comparison still exceeds its budget.",
+      "if_inconclusive": "Give one exact two-vertex expansion that covers a genuine fixed-center contribution and exposes the remaining signed comparison.",
+      "inputs": [
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-two-center-omitted-envelope-149.md",
+          "sha256": "b9523e161fde83eb32f92dbb5d1f7c2336ab85f37523d705d1b48bfbdc17e142"
+        },
+        {
+          "path": "research/cold-higher-legendre-step-148.md",
+          "sha256": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9"
+        },
+        {
+          "path": "research/cold-first-omitted-envelope-147.md",
+          "sha256": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/two-node-groups-59.md",
+          "sha256": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac"
+        },
+        {
+          "path": "research/astra-legendre-63.md",
+          "sha256": "e552bb81f19ce942ab8d589050bb0343296dd04aa8425b699154b49a001bbe3c"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which Round 151 arguments survive independent review?",
+      "why_now": "The real core and the transported cold expressions require distinct scope and exact sign checks.",
+      "scope": "Read-only. Preserve all-prime quantifiers, chosen marks, exact adaptive weights, both lifts and actual rows.",
+      "if_yes": "State verified scope and ranked follow-ups.",
+      "if_no": "Find the first invalid inference.",
+      "if_inconclusive": "Separate verified subclaims and unresolved estimates.",
+      "inputs": [
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/ordinary-averaged-repair-dual-149.md",
+          "sha256": "524778e008719783a38a2cde0ded9cf7069a822ee631c48e0429a204e0e5d987"
+        },
+        {
+          "path": "research/anchored-repair-20.md",
+          "sha256": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-two-center-omitted-envelope-149.md",
+          "sha256": "b9523e161fde83eb32f92dbb5d1f7c2336ab85f37523d705d1b48bfbdc17e142"
+        },
+        {
+          "path": "research/cold-higher-legendre-step-148.md",
+          "sha256": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9"
+        },
+        {
+          "path": "research/cold-first-omitted-envelope-147.md",
+          "sha256": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

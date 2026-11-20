@@ -1,0 +1,12 @@
+{
+  "captured_at_utc": "2026-11-19T17:44:10.177561Z",
+  "prepared_by": "Codex coordinator",
+  "coordinator": "coordination/round-133.json#next_calls",
+  "coordinator_sha256": "b9d96253ca6fd01e93f6f96744fd39a78241e1596bdf1a06cd03f65f9317b995",
+  "routes": {
+    "r134/ordinary-weighted-jacobi-cancellation": "Upper on absolute b-weighted signed seed pairing through eligible primes with actual ordinary complementary positivity and supports, zero floor.",
+    "r134/cold-joint-nonlinear-packet-remainder": "Physical translated packet price for the actual cold mixed and nonlinear two-step remainder after subtracting the designated seed-seed term, original full complex square and both marked boundary corrections."
+  },
+  "known_shared": [],
+  "comparison": "Both routes use the Jacobi seed, but their proof obligations differ. The real route pairs it with a growing ordinary activation weight at zero floor, while the cold route excludes the seed-seed term and prices analytic transported higher contributions at the positive cold floor. Neither estimate supplies a required step of the other. All prior research and audit calls are terminal; other proposals are unlaunched."
+}

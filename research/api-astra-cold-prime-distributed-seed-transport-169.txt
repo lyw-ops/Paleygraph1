@@ -1,0 +1,217 @@
+## Result
+
+A signed two-step telescope exists for the **true \(R^2\) channel**, but the available estimates do not yet convert it into the required uniformly summed translated price. The telescope is exact for the frozen height-\(602\) operator and preserves the distinction between the genuine \(R^2\) source and the mixed-word debit.
+
+Keep
+\[
+p\equiv1\pmod 4,\qquad n=\frac{p-1}{2},\qquad
+R=V_{601}-V_{600},\qquad
+B=KD_{602},
+\]
+with both lifts, the original complex square, and the physical mark \(t_0=n\). Write
+\[
+Z=(I-B)^{-1}K.
+\]
+On the bulk coordinates, the all-even seed resummation gives the actual \(R^2\) source
+\[
+q_{\mathrm{true}}^{\mathrm b}(t)
+=
+\Xi(t)\,\frac{R^2}{2\sqrt{4t}},
+\]
+where
+\[
+\Xi(t)=
+\sum_{l\ge0}(-1)^l(2l+1)c_l^2
+\left(\frac{s_n^2}{4t}\right)^l,
+\qquad
+s_n=2\sqrt{\frac pn},
+\qquad
+c_l=4^{-l}\binom{2l}{l}.
+\]
+The first terms are
+\[
+\Xi(t)=1-\frac34y+\frac{45}{64}y^2-\frac{175}{256}y^3+\cdots,
+\qquad
+y=\frac{s_n^2}{4t}.
+\]
+The previously established uniform bound on the original square is
+\[
+|\Xi(t)|<0.906
+\]
+for all sufficiently large eligible primes. This scalar applies only to the common actual \(R^2\) packet. The mixed-source terms retain their separate debit, including the positive pure-seed debit
+\[
+\varepsilon^2s_n^{2l}d_l,
+\qquad
+d_l=l+2(1-l)c_l,
+\]
+and the old mixed-word bound. No cancellation with those mixed terms is being asserted.
+
+### Exact telescope
+
+Since
+\[
+Z=(I-B)^{-1}K,
+\]
+we have the exact coboundary identity
+\[
+K=(I-B)Z.
+\]
+Therefore, for every \(J\ge0\) and every source vector \(q\),
+\[
+\sum_{j=0}^{J}B^jKq
+=
+\sum_{j=0}^{J}B^j(I-B)Zq
+=
+Zq-B^{J+1}Zq.
+\tag{1}
+\]
+This applies in particular to \(q=q_{\mathrm{true}}^{\mathrm b}\), with no movement of \(K\) through a multiplier.
+
+Equivalently, defining
+\[
+H_{\mathrm{true}}:=Zq_{\mathrm{true}}^{\mathrm b},
+\]
+the true \(R^2\) transport is the signed difference
+\[
+B^jKq_{\mathrm{true}}^{\mathrm b}
+=
+B^jH_{\mathrm{true}}-B^{j+1}H_{\mathrm{true}}.
+\tag{2}
+\]
+Thus the natural moving signed starter is \(H_{\mathrm{true}}\), not the unsigned source norm.
+
+The frozen \(2\to2\) estimate from height \(602\),
+\[
+\|B\|_{2\to2}\le 0.518,
+\]
+implies, for each fixed eligible prime,
+\[
+B^{J+1}H_{\mathrm{true}}\longrightarrow0
+\quad(J\to\infty),
+\]
+provided \(H_{\mathrm{true}}\) is in the relevant second-norm space. Hence the signed infinite transport satisfies
+\[
+\sum_{j\ge0}B^jKq_{\mathrm{true}}^{\mathrm b}
+=
+Zq_{\mathrm{true}}^{\mathrm b}
+=
+H_{\mathrm{true}}
+\tag{3}
+\]
+in the frozen linear problem.
+
+This is a genuine signed telescope for the actual distributed \(R^2\) source.
+
+## Physical mark and bulk decomposition
+
+The scalar identity is valid on the bulk coordinates. Restoring the physical mark gives
+\[
+q_{\mathrm{true}}
+=
+q_{\mathrm{true}}^{\mathrm b}
++\delta_{\mathrm{mark}}e_0
++\delta_{\mathrm{bad}},
+\]
+where the prior estimates give a marked/bad-coordinate charge of order
+\[
+O(n^{-1/2}\varepsilon^2)
+\]
+after the first \(K\), with the stated physical \(t_0=n\) radicand. Consequently,
+\[
+\sum_{j=0}^{J}B^jKq_{\mathrm{true}}
+=
+Zq_{\mathrm{true}}^{\mathrm b}
++Z(\delta_{\mathrm{mark}}e_0+\delta_{\mathrm{bad}})
+-B^{J+1}Zq_{\mathrm{true}}.
+\tag{4}
+\]
+The frozen entrywise estimate controls the marked part after the appropriate \(K\)-smoothing at scale \(O(n^{-0.455})\) in the previously treated form. It does **not** presently give the required translated bound for the bulk quantity
+\[
+Zq_{\mathrm{true}}^{\mathrm b}.
+\]
+
+## What is proved and what is not
+
+### Proved
+
+For the genuine \(R^2\) channel:
+
+1. The all-order seed resummation produces the scalar \(\Xi(t)\) on the original square.
+2. The cancellation is attached to the same actual \(R^2\) packet under every frozen outer power \(B^jK\).
+3. The exact signed identity (1) gives a two-step telescope.
+4. The physical mark and bad-coordinate terms remain separate \(O(n^{-1/2}\varepsilon^2)\)-type repairs after the first \(K\).
+5. The mixed-word source is not included in the telescope and must retain its independent debit.
+
+### Not proved
+
+The telescope does **not** imply the absolute translated summability
+\[
+\sum_{j\ge0}
+\bigl\|B^jKq_{\mathrm{true}}\bigr\|_{P_{5000}}
+<\infty
+\]
+with a useful uniform constant. Indeed, (2) only gives
+\[
+\|B^jKq_{\mathrm{true}}\|_{P_{5000}}
+\le
+\|B^jH_{\mathrm{true}}\|_{P_{5000}}
++
+\|B^{j+1}H_{\mathrm{true}}\|_{P_{5000}},
+\]
+and the existing translated estimates do not bound \(H_{\mathrm{true}}=Zq_{\mathrm{true}}^{\mathrm b}\) in \(P_{5000}\).
+
+The available entrywise estimate
+\[
+\|(KD_{602})^jK\|_{\max}
+\ll
+\min\{n^{-1/2}(1.066)^j,\;0.518^j\}
+\]
+controls frozen columns and their tails, but it is not a translated operator estimate on the distributed bulk source. Applying it directly would require a compatible first/counting norm bound for the full \(q_{\mathrm{true}}^{\mathrm b}\), which is exactly the missing step.
+
+The nonlinear bridge is also unresolved: one must show that the moving starter
+\[
+H_{\mathrm{true}}=Zq_{\mathrm{true}}^{\mathrm b}
+\]
+remains inside the common physical coordinate disks and that its nonlinear correction can be charged without reintroducing an unsummed mixed-source term.
+
+Therefore the current status is:
+
+\[
+\boxed{\text{Exact signed telescope: proved.}}
+\]
+\[
+\boxed{\text{Uniform summed translated price or sufficient nonlinear bridge: open.}}
+\]
+
+The order of limits remains important: first obtain estimates uniform in sufficiently large eligible primes on the original square, then take \(J\to\infty\) in the frozen telescope. The present argument does not justify interchanging an absolute \(j\)-sum with the prime limit.
+
+## Ranked next tests
+
+### 1. Highest priority: translated bound for the moving starter
+
+Prove directly, on the original square and both lifts, a bound of the form
+\[
+\|Zq_{\mathrm{true}}^{\mathrm b}\|_{P_{5000}}
+\le C_{\mathrm{move}},
+\]
+with \(C_{\mathrm{move}}\) below the available common-domain margin. The calculation should retain the scalar factor \(\Xi(t)\), use
+\[
+|\Xi(t)|<0.906,
+\]
+and split the source into:
+
+- the bulk true \(R^2\) packet;
+- the physical marked correction;
+- the bad-coordinate correction;
+- the mixed-source debit, charged without cancellation.
+
+A successful estimate would turn (3) into a sufficient moving-starter construction.
+
+### 2. Secondary: quantify failure of absolute transport
+
+Compute or bound
+\[
+\sum_{j=0}^{J}
+\|B^jKq_{\mathrm{true}}^{\mathrm b}\|_{P_{5000}}
+\]
+using the two available rates \(1.066\) and \(0.518\), while preserving the paired \(R^2\) saving. If the resulting lower/upper comparison shows that the absolute sum cannot be made uniformly small, record the obstruction explicitly: the signed telescope remains valid, but absolute translated summability is the wrong target and must be replaced by the moving-starter bridge above.

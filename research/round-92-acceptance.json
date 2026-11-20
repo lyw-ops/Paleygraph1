@@ -1,0 +1,149 @@
+{
+  "round": 92,
+  "accepted_at_utc": "2026-11-19T08:43:53Z",
+  "previous": "research/round-91-acceptance.json",
+  "previous_sha256": "32a4aea919cfe2fb1ae5bf8ed38a2c788e55de3d5d505ffdbc5b87e2da5018f3",
+  "proof_and_code_sha256": {
+    "research/cap-sweep-92.md": "17e659359729d2062bb9562ea28b2675f8f3db29bc0007d0448262cd7d4202d3",
+    "research/cap-sweep-92-check.py": "6b3e03a399e3d15bb10ba9dfac2c959de511aa170f0cc2f6924b1b2fc8cd616b",
+    "research/cap-sweep-92-checks.jsonl": "54db2f0eac883fb1ef8e7762ba16553ab2de79c01a479e41798958f5aabfa721",
+    "research/astra-velocity-92.md": "f1b94d7a571e92fb54387fd2e09af16ff45610a516b257b8858f462db04b0fa7",
+    "research/astra-velocity-92-check.py": "e4c7558ec60c897777c666d9da096650a28361517e2e4f3b4065c263c9dbbc3c",
+    "research/astra-velocity-92-checks.jsonl": "7c3518204f43db8e99d38394f33e4e45d7bf80460c630ba4d5637cc6e79c258b",
+    "research/astra-height-92.md": "3bdb315820ca19a88d1d381803a98b70c30dd219ff51e60093da2a31afa3f378",
+    "research/astra-height-92-check.py": "3d338fb204f264eaaf26a5c9b27c2940c666f29bcbccb4ffecc5e1ab5c2da298",
+    "research/astra-height-92-checks.jsonl": "ff616fac036f8779c9aa1acb7d634a1a23ea6ab2c606b69f5fbfb3f9a79507ac",
+    "research/astra-price-92.md": "69edf2b6f5ab334505b4de97aa689c2257f52336aa4a7bbab014d9a9271ac52d",
+    "research/astra-price-92-check.py": "7eff385a5f8d88141de84ba8cce2df9fc2293e99b554c695621d9b94487b90c2",
+    "research/astra-price-92-checks.jsonl": "a2e2698068d359684701a3ccec13d714c11bf6be721ebabcea875ac904cfa26a"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/real-two-marks-91-check.py": "9ff7d4183b674e4c81dccac9be9bf0a6e90b96d252e50135f79b07eca48c5f14",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-quartic-89-check.py": "eb695e305e87200958cda4e65046df9dcc0968f42f3277d12db90a3a4049c7c9",
+    "research/astra-matched-88-check.py": "c8962f090161cfd5611a69b7101c1a94be524f94cde2a6fc04face0216f5c9dd",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "additional_inherited_dependency_sha256": {
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "research/astra-contact-91.md": "d8f68c855288a1863d966009734043136c96bf8ea8b7010b7fa0264313a6706c",
+    "research/real-two-marks-91.md": "4be9bd76789d4396330da21fb8073037624324eb939cb0779f6d6ff8000fc2ec",
+    "research/real-phase-projection-89.md": "fabe652d3d6a401ab22d17ea09e5ee5fdfe2b0defd4d2c059aed6ef388c45612",
+    "research/clipped-signs-90.md": "69fdd51ffbf485f2c8c5866c433c92ee0d13faeb52cec1fa5acd240b33a52fa7",
+    "research/astra-column-90.md": "ff9dfa314624d034f16f1d4a10036e3b3bc3057af4292b672fd7211b3d9985f8",
+    "research/marked-response.md": "5c9f8989e3e9b1ef1bce6e3b2b32cd224639289a463bf688b37b1405304765f7",
+    "research/astra-persistent-88.md": "56d6df9a10c4dc9abd5866aa325633238ea8b63fa455fef1fbdf3ca7636c3638",
+    "research/astra-quartic-89.md": "ff09867a32a4fc5a51992c0943a5733f1abcbad0751802ea1fbf9c74eb268440",
+    "research/astra-dual-90.md": "4441c5b0d6068c405ed91bd457ffa02a40bc2a4e39d356f907ef12f9a0e2183b",
+    "research/astra-discount-91.md": "6e79bd5f21c02b97334132cc093e2e710a6a6faf7a53e75784dfbea9149192e9",
+    "research/astra-quadratic-10.md": "de90785bceb8c5a11a283891e2e7f1130e037203584be1e2e0f3d95a32f6108c",
+    "research/astra-linear-89.md": "b415ec32eb69afe06b44de2e5e04e8871cd809060cc10d2d9225ff16b65ae26e",
+    "research/astra-affine-90.md": "8d07746bb4d4fc2b1fdefbc1907a2295ebe1bd283c8e72b58a1647d15c95ac67",
+    "research/astra-fiber-91.md": "ad693dce038750982553b06607a528d21e8009cca1c8a9e5cda6382ef1c0d7f9"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "primary_sources": [
+    {
+      "url": "https://doi.org/10.2307/2374240",
+      "use": "Piecewise semialgebraic selection for actual clipped stationary rows while varying the cap"
+    },
+    {
+      "url": "https://arxiv.org/abs/1905.09134",
+      "use": "Hanson–Petridis prime Paley clique upper used for the shortfall frequency test"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10941333/",
+      "use": "Mixed Weil bound for the fixed-root affine columns"
+    }
+  ],
+  "research_agents": [
+    {
+      "name": "/root/velocity_92",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the native weighted Fourier minors or marked-column averages on the genuine nearly flat bulk profile throughout the short real marked interval.",
+        "At exactly unit bulk bound the signed fourth-power matching charge in the necessary tie estimate, retaining the data-defined paying coordinates."
+      ]
+    },
+    {
+      "name": "/root/height_92",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "For the finitely specified quotient types per order, bound the restricted-sign quotient mark or the actual average physical height on the subgroup and its possible self-inverse coset.",
+        "In the escaped alternative bound the marked translate's excess on sites where the true opposite masses are o of the charged deficit."
+      ]
+    },
+    {
+      "name": "/root/price_92",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "On the original short-prime probes control the actual clipped Fourier tail weighted by the median deviations, and retain the signed price of the complementary selection.",
+        "Test uniform integrability for the scaled independent-sector difference of the actual optimal rows, including rare positional values."
+      ]
+    },
+    {
+      "name": "/root/audit_92",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Target either of the two determinantal covariance bounds on the selected nearly flat real marked interval.",
+        "Enumerate critical divisors and test restricted quotient mark and forbidden clique size before bounding the physical height on an actual self-inverse coset."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek a through-primes upper for one of the genuine real weighted projection columns at the nearly flat profile over the actual marked interval, then test the exact unit-bulk signed fourth-moment alternative.",
+    "Test the sharply charged critical coset by the restricted-sign quotient mark, actual order-length height, and forbidden quotient clique. In the bounded-time escape branch upper-bound the same translate's positive excess charge.",
+    "Check the signed contribution of the complementary half or omitted points on true fixed-gap affine data. For the short probes use the actual weighted clipped Fourier tail."
+  ],
+  "core_records": 12,
+  "arithmetic_record_counts": {
+    "physical_cap_sweep_arb192": 3,
+    "real_column_transfer_arb256": 4,
+    "height_escape_prime_and_square_arb384_exact": 2,
+    "actual_affine_quantiles_arb384": 3
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "All four final checkers were run by main under pipefail with PYTHONPATH=., .venv/bin/python -B, matching all 12 records byte-for-byte. The independent audit matched 11 records before the final unit-bulk velocity addition. That fourth velocity record was separately verified by the route worker and main.",
+    "Three Arb192 calculations on the small-real-part p=173 ray enclose the actual clipped row at caps 7/10, 707/1000 and 143/200. The two positive rates are differentiated by a strict outward interval solve. The third is genuinely uncorrected with all bulk cap slack strict.",
+    "The Arb256 velocity tests use the p=173 real-start point in the nominated cold square before any tie. They check the selected real-profile transfer and the additional unit-bulk signed fourth-moment inequality. Two further records give explicit necessary constants if a first true tie occurs.",
+    "The height calculation checks two genuine mask lengths at p=97, including exact rational convolution on six points, and the physical p=31^2 square-order subgroup comparison.",
+    "The affine checker measures actual product quantiles and prices at p=53,257,409 and exhausts 26^2 square dilations of one test at p=53. The fractional balancing at p=409 follows from a strict comparison of the measured median lower and intact signed price; the 210 floor-half choices are independently enumerated."
+  ],
+  "proof_scope": [
+    "At any fixed right-half-plane floor and over a compact cap interval with a>|Im(t)|/(2 Re(t)) and a<1, the counting total correction is canonical and continuous. Its loss dominates (1-a^2)/(2a(1+a^2)) times the summed product on positively corrected sites. The coefficient doubles for one sign. The integrated and exponential bounds hold across changes of the active set and possible nonuniqueness.",
+    "At any positively corrected cap in the stronger marked cone the real-column transfer applies to the truncated common bulk weights and gains an explicit weighted sum of the logarithms of the corrected products.",
+    "A first true cold tie imposes a necessary signed average of the real marked projection column for the actual nearly flat bulk profile in [1-1e-8,1], with scaled magnitude above 956. The two determinantal covariance tests refer to the same real mark. For exact unit bulk an actual log-balance gives a fourth-norm comparison and a signed tie-payment inequality.",
+    "For a fixed gap, asymptotically unit efficiency and positive primary mass of the sharp shortfall, there is either finite escape to a translation paying signed physical excess or localization to a critical self-inverse coset along a subsequence. Almost complete saturation on the subgroup and coset, on the same genuine optimizer, restricts both candidate divisor and opposite mass. The proof imposes no large-prime-factor condition.",
+    "The genuine half-selection yields an exact interval governed by within-bin median deviations. In the long-probe regime the Wasserstein law gives simultaneous extrema for arbitrary retention fractions and adaptive third unions. Vanishing-deletion statements use an o(1) Wasserstein error and their respective stated distribution hypotheses."
+  ],
+  "independent_review": [
+    "The auditor independently verified the cap-sweep algebra including one-sign coefficient, continuity, and integrated boundary treatment. The velocity route independently checked main's added positive-correction log-price transfer.",
+    "The independent audit checked the first-contact nearly-flat real transfer and third-moment comparison. Main checked the subsequent optimized choice of factor and its fourth-moment inequalities and their final replay.",
+    "The auditor checked the height spectral plateau, elementary subgroup proof, and actual physical coset scope.",
+    "The auditor checked the long-probe bilateral orthogonality, weighted threshold integration and quantile arguments. Several finite comparisons are interval compatibility checks of proved identities. The claimed strict finite balancing uses a strict outward inequality."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The cap extinction condition is in counting units. The available physical residual controls the averaged correction and does not yield extinction for unbounded primes.",
+    "Real bulk weights near one still permit uncontrolled real amplitude changes in the weighted projection. The large necessary column or covariance has not been excluded through primes.",
+    "The height trap/escape alternative leaves low primary shortfall mass, intermediate efficiency, unexcluded critical divisors, and the actual upper on escaped excess.",
+    "A balanced half or near-full retained subset may leave the entire original signed gap on the omitted sites. Long-prime nonlinear transport does not supply the missing signed comparison on the complete short-probe window."
+  ]
+}

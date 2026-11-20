@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T01:56:44.958127Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-176.json#next_calls",
+  "coordinator_sha256": "76fd67c04cfc1e19c0fa72d2195ee6c5f6a1aae226e6106ca5f9ccf432d063c9",
+  "call_ids": [
+    "ordinary-prime-coupled-output-set-incidence",
+    "ordinary-prime-rich-right-distribution",
+    "cold-prime-signed-source-bundle"
+  ],
+  "routes": {
+    "r177/ordinary-prime-coupled-output-set-incidence": {
+      "question": "Can the true weighted distinct-pole block gain by using both input labels in an output-set incidence inequality?",
+      "scope": "For X=1/s use 1/A=1/r-(b/r)X and C=(A-r)/(1-r) together, or an equivalent exact chart. Keep both input factors and w(s) and both line weights with all original masks. Seek a joint level estimate on the physical distinct-b pairs. The common-b class remains separate.",
+      "remaining": "Obtain the sufficient O(p^3/2) full weighted bound by retaining both coupled physical inputs, or prove the sufficient one-match and separate zero-match bounds. The summed generic right energy and pure rows are still above target."
+    },
+    "r177/ordinary-prime-rich-right-distribution": {
+      "question": "How many true generic right differences carry a given weighted correlation?",
+      "scope": "Estimate the weighted tail count #{(a,c): Delta_gen(a,c)>t} with both square masks and full levels, using the two-torus multiplicities or a suitable actual family of right action maps. Integrate its squared energy with no implicit unproved mixed-level reduction. Separate the pure terms and zero match.",
+      "remaining": "Obtain the sufficient O(p^3/2) full weighted bound by retaining both coupled physical inputs, or prove the sufficient one-match and separate zero-match bounds. The summed generic right energy and pure rows are still above target."
+    },
+    "r177/cold-prime-signed-source-bundle": {
+      "question": "Can signed frozen propagation of the true initial source and the actual quadratic sources yield a summable displacement bound?",
+      "scope": "At V602 or V605 on the original square and both lifts, keep the real mark t0=n. Seek an actual signed bundle or explicit multi-step cancellation in B^j R and B^j K times true Taylor sources, with clearance. A V605 shortcut needs the unnormalized counting norm below 0.0038967 with strict slack. Compare to the R122 exact frozen orbit formula and verify every size hypothesis.",
+      "remaining": "Prove actual signed growing-prefix confinement with strict clearance or a genuine sufficient bridge, and address distinct derivative transfer separately."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-coupled-output-set-incidence": [],
+    "ordinary-prime-rich-right-distribution": [],
+    "cold-prime-signed-source-bundle": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The primary lane studies two simultaneous input amplitudes in the positive weighted physical distinct-pole diagonal. The second studies the separate fully weighted relative affine energy and its rich parameter distribution. The third prices actual signed cold linear and nonlinear sources, with the same physical mark. Each retains its own actual hypotheses and norm."
+}

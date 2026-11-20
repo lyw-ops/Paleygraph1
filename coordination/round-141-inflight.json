@@ -1,0 +1,61 @@
+{
+  "round": 141,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-140-acceptance.json",
+    "sha256": "60c0b7ff03413725d9b29888254f1628e9391d3b613389166a1bf77bb74040e0"
+  },
+  "coordinator": {
+    "path": "coordination/round-140.json",
+    "sha256": "42d7debff588c26e1a1b7e6921e616f9099ea48188ae82b99df2cf82512033a9"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-141.py",
+    "sha256": "2ad80621d1e4227e74e7259cb91da4ad4dd18067f30169c9533c8b59b45d96a4"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-141-before.json",
+    "sha256": "c4619e0a0fb831d86039452fc8bfd6ab06990856ce62d6130c801fc27fc293b0"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-signed-hinge-image",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "967ba21e028c38b8dbdc20ded36d9e1232e6b17988f2a033b116374e6825e9aa",
+      "mission_file": {
+        "path": "coordination/missions/round-141/ordinary-signed-hinge-image.md",
+        "sha256": "5a91986cfc2e85777d146775c4ca1f23e49e53fb7ccce5e42aa4f28fa6799718"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r141-api-01a1ed0a/ordinary-signed-hinge-image-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r141-api-01a1ed0a/ordinary-signed-hinge-image-candidate.md",
+      "started_utc_epoch": 1795116504.751829
+    },
+    {
+      "call_id": "cold-first-mixed-inverse-collision",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "7479db122f062b2a26406443f4dd4e683d9bdd54eef42888c9500067c143265c",
+      "mission_file": {
+        "path": "coordination/missions/round-141/cold-first-mixed-inverse-collision.md",
+        "sha256": "e385b6fe20eb07babacac9554b67eb18fa17853972065caf82b37e391579fb8c"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r141-api-01a1ed0a/cold-first-mixed-inverse-collision-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r141-api-01a1ed0a/cold-first-mixed-inverse-collision-candidate.md",
+      "started_utc_epoch": 1795116504.7522528
+    },
+    {
+      "call_id": "cold-unseparated-pullback-action",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "49e3606965b263434037003336883d07afe1829625186c9ce4e12f8070ccb16d",
+      "mission_file": {
+        "path": "coordination/missions/round-141/cold-unseparated-pullback-action.md",
+        "sha256": "f46a6e250c5b3beb2f022fb6d24cba86ed3ec5146667a980970ae414bffb8dd2"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r141-api-01a1ed0a/cold-unseparated-pullback-action-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r141-api-01a1ed0a/cold-unseparated-pullback-action-candidate.md",
+      "started_utc_epoch": 1795116504.751425
+    }
+  ]
+}

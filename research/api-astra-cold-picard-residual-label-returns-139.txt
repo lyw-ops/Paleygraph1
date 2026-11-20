@@ -1,0 +1,148 @@
+## Checked result
+
+The actual Picard residuals that return to the five named linear labels are precisely the five arity-zero leaves created by the root-amended fourth-Jacobi activation:
+\[
+T=v_*(U+U')+w_*D+w_*D^\vee+z_*R.
+\]
+
+Here, with the same ordinary twist \(\mathcal T\) and determinant-one Legendre object \(N\) as in the cited group calculations,
+\[
+\begin{aligned}
+U&=\mathcal T(L^{\star4}),&
+U'&=\mathcal T(L^{\star4})^\chi,\\
+D&=\mathcal T(\operatorname{Sym}^2_\star N),&
+D^\vee&=D^\chi,\\
+R&=\mathcal T(N\star N^\chi).
+\end{aligned}
+\]
+
+They are not merely representation-theoretic candidates: they are the actual residual leaves after the exact root amendment. Their signed coefficients satisfy
+\[
+\begin{aligned}
+10^{12}v_*&\in(1081,1098),\\
+10^{12}w_*&\in(-1529,-1511),\\
+10^{12}z_*&\in(-3049,-3031),
+\end{aligned}
+\]
+with the same \(v_*\) on \(U,U'\) and the same \(w_*\) on \(D,D^\vee\).
+
+### Matching derived types
+
+The matching is exact on the connected derived product
+\[
+Sp_4^{(U)}\times Sp_4^{(U')}\times SL_4^{(D)}\times Sp_8^{(R)}.
+\]
+
+- \(U\) and \(U'\) are the two independent \(Sp_4\) standards.
+- \(D\) is the \(SL_4\) standard.
+- \(D^\vee\) is its arithmetic dual, still a distinct \(SL_4\) label.
+- \(R\) is the defining \(Sp_8\) representation.
+
+No old-center constituent has any of these derived restrictions, and no two different members of this list become equal merely after a Jacobi twist. Thus the only same-label pooling is:
+1. repetition of \(U\), \(U'\), \(D\), \(D^\vee\), or \(R\) itself; and
+2. the explicit arithmetic duality \(D^\vee=D^\chi\), with its corresponding Jacobi shift.
+
+### Jacobi exponents and determinant phases
+
+The relevant exponent data are preserved as follows.
+
+- \(U,U'\) arise from the two lifts of \(L^{\star4}\). Their \(Sp_4\) determinants are trivial.
+- \(D\) has determinant
+  \[
+  \det D=L^{\star4}
+  \]
+  with arithmetic phase \(+1\).
+- \(D^\vee\) is the arithmetic dual branch. In transported powers, the two standard branches carry the shifted cubic labels
+  \[
+  m^{-4}D,\qquad m^{4}D^\vee.
+  \]
+  More generally, the Pieri calculation gives shifts \(4j\) for the \(D\)-branch and \(4(j+1)\) for the dual branch.
+- \(R\) is arithmetically self-dual, symplectic, and has determinant phase \(+1\). Its quadratic contraction produces no determinant shift.
+
+Consequently, a residual can pool with a named linear field only when both its derived label and its Jacobi exponent agree. In particular, \(D\) and \(D^\vee\) cannot be pooled as though they were the same \(SL_4\) representation; they match only after retaining the appropriate duality and exponent shift.
+
+## First nonzero signed return
+
+At the next exact activation, the first nonzero return to the old \(m^2\) label occurs in the \(r=0\) residual channel:
+\[
+[m^2](S_0-H_0)
+\in
+(49188,49890)\times 10^{-18}.
+\]
+
+The three \(H_1T\) contributions, ordered as \((U+U'),D+D^\vee,R\), are
+\[
+\begin{aligned}
+(9924,10077)\times10^{-18},\\
+(13105,13251)\times10^{-18},\\
+(26287,26434)\times10^{-18}.
+\end{aligned}
+\]
+
+All three are positive after the exact root-amended signed collection. Therefore the first signed return is nonzero and reinforcing:
+\[
+[m^2](S_0-H_0)>0.
+\]
+
+This is the first actual residual return, rather than a formal contraction estimate. It uses the exact five-leaf residual sum and preserves the \(D,D^\vee\) determinant shifts while taking the conditional moments of the marked trace sum.
+
+The return is small in absolute size, approximately \(4.9\times10^{-14}\), but its sign is certified.
+
+## Physical marking, norms, and order of limits
+
+The physical setup remains the original closed square of halfwidth
+\[
+2^{-17}
+\]
+centered at
+\[
+t=\frac{2031}{128},
+\]
+with actual mark
+\[
+t_0=n
+\]
+and physical heights
+\[
+h=601,\qquad h=602.
+\]
+
+The relevant physical norm bounds from the cold split are
+\[
+\|K E_{\rm cen}\|_{P_{5000}}<0.267,\qquad
+\|K E_{{\rm res},h}\|_{P_{5000}}<0.260
+\]
+for sufficiently large members of the specified eligible prime and prime-square family. These are separate positive comparison bounds; the signed return above does not yet replace them by a signed physical estimate.
+
+The correct order is:
+
+1. Fix an eligible prime or prime-square field and perform the exact root-amended activation, including the actual marked coordinate \(t_0=n\), the heights \(601,602\), determinant phases, and Jacobi exponents.
+2. Form the signed residual return and keep posttransport collisions separate.
+3. Only afterward take the large-field limit along the stated eligible prime/prime-square family, uniformly on the original square.
+4. Finally compare with the \(P_{5000}\) physical norm and the invariant-margin budget.
+
+The finite-field and compact-group calculations therefore establish a genuine signed return, but they do not by themselves prove a physical cancellation after \(K\).
+
+## Remaining gap
+
+The same-row signed budget is not closed. The positive \(m^2\) return proves that the five residuals can reinforce a named old label, but its size is far below the physical linear budgets. In particular:
+
+- the residual leaves have coefficients of order \(10^{-9}\);
+- the transported linear coefficients such as \([mU]H_0\) and \([mD]H_0\) are of order \(10^{-4}\);
+- the physical residual norm is still charged by the uniform \(0.260\) estimate;
+- no bound has yet shown that the signed return survives the full physical marking and transport with enough magnitude to reduce the \(0.472\) remainder target.
+
+Thus the result supports the proposed mission, but does not close the asymptotic invariant or establish genuine growing depth.
+
+## Ranked next tests
+
+1. **Highest priority: transported five-label return.**  
+   Propagate the actual
+   \[
+   m^{\pm1}U,\quad m^{\pm1}U',\quad
+   m^{\pm1}D,\quad m^{\pm1}D^\vee,\quad m^{\pm1}R
+   \]
+   through the next activation, retaining the \(m^{\mp4}\) determinant branches of \(D,D^\vee\). Collect only equal derived labels with equal Jacobi exponents, then apply the physical \(K\), actual marking, and the \(h=601,602\) rows. A strict reduction below the separately charged \(0.267+0.260\) budget would establish a usable same-row signed margin.
+
+2. **Overlapping-level recursion with all opposite-sign channels.**  
+   Build a signed coefficient recursion for the five dual-standard fields across overlapping adjacent levels, retaining the \(m^{-4}D\) and \(m^4D^\vee\) branches and all transported \(R\)-sectors. Bound the complementary unsigned mass and the marked exceptional packet simultaneously. A strict invariant crossing at \(2031/128\) would settle the physical target; failure with a surviving positive quadratic coefficient would show that this five-label return mechanism cannot close the budget.

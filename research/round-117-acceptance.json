@@ -1,0 +1,83 @@
+{
+  "round": 117,
+  "accepted_at_utc": "2026-11-19T14:37:03Z",
+  "previous": "research/round-116-acceptance.json",
+  "previous_sha256": "cb79cd034562bac1aef54787a5c0db284ba48f4e21e2f1c0545b70a86ff4de5b",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-116.json",
+    "sha256": "6da4a3d21e32ffcdfa4974ee9c73ad8f95ed39efb236cf4cc3d8be7923cf4d9f"
+  },
+  "proof_and_code_sha256": {
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50",
+    "research/reciprocal-reweighting-117.md": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764",
+    "research/api-astra-review-117.md": "19c9b4cff095b6007f7c5155aaee69ba610293c407dfdb9a8c81efa20c87150e",
+    "research/api-astra-117-receipt.json": "4d63182282c281d72601859df8760dd6196e3233e0b94e55c6b6ad712cdf5e59",
+    "research/api-astra-overflow-117.txt": "bbff33070292996115f9e6ffe43cbd914224c254ad51d754c18aba5f26d44bd3"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/smoothing.md": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95",
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/projected-cap-completion-108.md": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5",
+    "research/real-inner-cap-quadratic-107.md": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/full-repair-moments-112.md": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954",
+    "research/cold-newton-mark-transfer-115.md": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a",
+    "research/frozen-entry-transfer-105.md": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1",
+    "research/translated-newton-103.md": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, direct fixed-cap slack",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Try a family of true small-slack transport estimates.",
+        "Retain genuine source and actual favored factor alignment."
+      ]
+    },
+    {
+      "name": "/root/audit_117",
+      "status": "completed",
+      "ranked_closeout": [
+        "Truncate the real source to bounded positive levels and test source transport on actual high favored overshoot recipients, with slack retained.",
+        "Test the two favored and one opposite spectral Legendre covariance, preserving the opposite singleton."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek a prime-uniform stationary/optimizer-weighted overshoot estimate or a concrete incompatibility of the true bounded rectangle.",
+    "Work on the Legendre twist of the actual trilinear reweighting without dropping the positive singleton.",
+    "On the complex route test the combined derivative at one genuine moving starter with independently controlled inverse cutoffs."
+  ],
+  "proof_scope": [
+    "For the actual M=10 capped row at fixed 0<t<=1, the adjusted overshoot S may be tested only in a true favored row F. The exact inequality (1) gives sqrt(1+t) at that floor if an ordinary maximizing Fourier-LP row with mean 1 has vanishing weighted overshoot. It gives (1+t)^(3/2) when the corresponding actual stationary factor is used. Either sufficient test at both signs along fixed floors decreasing to zero yields the original limit, with no cap-rate premise.",
+    "A persistent matching mark forces a positive true factor-weighted adjusted overshoot without a cap rate. At the critical cap rate a bounded actual source of order sqrt(n) and high favored recipients of order sqrt(n) survive truncations with a fixed margin above their actual local slack.",
+    "For the genuine late repair/opposite-factor pair without reweighting, the k^2 mean equals (n−1)/p+O(n^(-1/4)). In the actual Legendre reweighting the opposite projection of h can be removed with O(n^(-1/4)) error. The projected signed w_* has exact total mass 1 and O(n^(-1/4)) negative mass. The remaining positional trilinear term has two actual favored inputs and one opposite factor, with an explicit reciprocal baseline for constant twist."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The API entry estimate and its converse do not yield a cap or slack rate. The small-slack family would require all relevant thresholds; without a bounded transport budget it does not address growing offending slacks.",
+    "None of the true factor-weighted overshoot estimates or the genuine trilinear Legendre arithmetic has been proved through primes. The full distinct cubic still includes the critical opposite singleton.",
+    "A common cold complex domain and the original ordinary theta asymptotic remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. Raw API output and response metadata are preserved."
+  ],
+  "independent_review": [
+    "Independently checked the exact cap budget and optimizer-versus-stationary implications, high-set localization and bounded-source truncation, Fourier normalizations, projected mass and Hasse replacement errors. The coordinator verified the exact baseline by reciprocal convolution and separated it from the remaining trace estimate."
+  ]
+}

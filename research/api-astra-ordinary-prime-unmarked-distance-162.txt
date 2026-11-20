@@ -1,0 +1,225 @@
+## Result: precise failure of the generic projection/trial-vector route
+
+I did not find an actual-prime estimate of the required strength. The obstruction is precise: the complementary optimizer gives a particular solution of the wrong equation, not an orthogonal-distance witness, and the available pointwise Jacobi-kernel bounds give no \(T\)-scale coercivity on the adaptive support.
+
+Fix an eligible ordinary prime
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+a physical sign \(\epsilon\in\{+1,-1\}\), and the actual least-bulk-energy optimizer \(F=qe_0+E_Sx\), where \(S\subset\{1,\dots,n-1\}\) is its genuine positive bulk support. All norms and inner products below are counting norms. Put
+\[
+U=(S\cup\{0\})^c,\qquad W=U\cup\{0\}=S^c,
+\]
+and
+\[
+P=\frac12(I-\epsilon K-\Pi),\qquad J=I-P=\frac12(I+\epsilon K+\Pi).
+\]
+
+### 1. Exact distance variational formula
+
+Let \(A=JE_U\). Since \(J\) is a projection and \(J\mathbf1=\mathbf1\), the residual from projecting \(\mathbf1\) onto \(\operatorname{Ran}(A)\) lies in
+\[
+\mathcal Q:=\operatorname{Ran}(J)\cap E_W\mathbb R^W.
+\]
+Consequently
+\[
+\operatorname{dist}(\mathbf1,\operatorname{Ran}(JE_U))^2
+=
+\sup_{0\ne y\in\mathcal Q}
+\frac{|\langle \mathbf1,y\rangle|^2}{\|y\|_2^2}.
+\tag{1}
+\]
+
+This gives the correct direction for a trial-vector argument: a proposed \(y\) must be both
+
+1. supported on the genuine \(W=S^c\), including the physical mark \(0\), and
+2. \(J\)-invariant.
+
+A vector merely supported on \(W\) is not enough.
+
+Equivalently, if \(z\) is supported on \(W\) and satisfies
+\[
+(Jz)_U=J_{UW}z_W=0,
+\tag{2}
+\]
+then \(y=Jz\in\mathcal Q\), and
+\[
+\operatorname{dist}(\mathbf1,\operatorname{Ran}(JE_U))^2
+\ge
+\frac{|\langle\mathbf1,z\rangle|^2}{\langle z,Jz\rangle}.
+\tag{3}
+\]
+Thus (2), or an explicit controlled transfer to (2), is indispensable.
+
+### 2. Why the complementary optimizer is not such a witness
+
+For every true complementary optimizer \(R\), exact complementarity gives
+\[
+R_i=0\quad(i\in S),
+\]
+so \(R\) is indeed supported on \(W\). However,
+\[
+PR=R-\mathbf1,\qquad JR=\mathbf1.
+\]
+Therefore
+\[
+(JR)_U=\mathbf1_U,
+\]
+and hence
+\[
+(JE_U)^*R=\mathbf1_U\ne0.
+\tag{4}
+\]
+
+Thus \(R\) is a particular solution of
+\[
+J_{UW}r_W=\mathbf1_U,
+\]
+whereas an orthogonal-distance witness must solve the homogeneous equation
+\[
+J_{UW}z_W=0.
+\]
+Using \(R\) as a lower-bound witness reverses the required direction. The vector \(R-\mathbf1\) lies in the \(P\)-sector, but it is not supported on \(W\) and has no nonzero pairing with the target \(\mathbf1\) in the required \(J\)-sector.
+
+This is the concrete failure of the natural complementary-row argument.
+
+### 3. Exact Schur-complement identity
+
+Writing
+\[
+H=E_U^*JE_U,
+\]
+the exact identity from the marked exterior decomposition is
+\[
+d_{p,\epsilon}^2
+:=
+\operatorname{dist}(\mathbf1,\operatorname{Ran}(JE_U))^2
+=
+n-\langle \mathbf1_U,H^\dagger\mathbf1_U\rangle.
+\tag{5}
+\]
+With \(q=F_0\) and \(x=F|_S\), it simplifies to
+\[
+d_{p,\epsilon}^2
+=
+\frac{n^2}{q^2+\|x\|_2^2}.
+\tag{6}
+\]
+
+Hence, for one admissible \(T=T(p)\to\infty\) in the simultaneous marked window,
+\[
+d_{p,\epsilon}^2=\omega(n/T)
+\]
+is equivalent, since \(q^2=O(n)\), to
+\[
+\|x\|_2^2=o(nT).
+\tag{7}
+\]
+
+The known fixed-gap implication goes in the opposite direction:
+\[
+\|x\|_2^2\ge c\,nT,
+\]
+and therefore only yields
+\[
+d_{p,\epsilon}^2\le C\,\frac nT.
+\tag{8}
+\]
+This is compatible with the desired contradiction but does not provide it.
+
+### 4. What the physical Jacobi kernel currently supplies
+
+On the genuine \(U\),
+\[
+H
+=
+\frac12\left(I_U+\epsilon K_{UU}+\frac1n\mathbf1_U\mathbf1_U^*\right),
+\tag{9}
+\]
+and the cross block is
+\[
+J_{UW}
+=
+\frac12\left(\epsilon K_{UW}+\frac1n\mathbf1_U\mathbf1_W^*\right).
+\tag{10}
+\]
+
+The physical diagonal is exact:
+\[
+K_{ii}=-\frac1n,
+\qquad
+J_{ii}=\frac12+\frac{1-\epsilon}{2n}.
+\]
+The pointwise Jacobi estimate
+\[
+|K_{ij}|\le \frac{\sqrt p}{n}
+\]
+only gives, for example,
+\[
+\|K_{UW}\|_{\mathrm{HS}}^2
+\le
+\frac{p}{n^2}|U||W|,
+\]
+which is \(O(n)\) when both sets have macroscopic size. It gives neither a lower bound for the Schur complement in (5) nor a \(T\)-dependent control of the adaptive compression.
+
+The relaxed projection model confirms that projection algebra, exact reciprocity, optimization, and complementarity alone cannot imply the desired bound. That model is not an actual-prime counterexample: it lacks the circulant Jacobi kernel and its physical diagonal. It therefore establishes a limitation of the generic argument, not a refutation of the prime statement.
+
+## Remaining gap
+
+For both physical signs \(\epsilon=\pm1\), with the actual least-energy support \(S_{p,\epsilon}\), physical mark \(0\), and one fixed admissible function \(T(p)\to\infty\), the missing estimate is either
+
+\[
+\|x_{p,\epsilon}\|_2^2=o(nT(p)),
+\]
+or equivalently
+\[
+\operatorname{dist}(\mathbf1,\operatorname{Ran}(JE_U))^2
+=\omega(n/T(p)).
+\]
+
+The currently available fixed-gap spectral window instead forces a source-weighted low-spectrum contribution of order \(T\), so no fixed-regularization or trace estimate can bridge this gap.
+
+## Ranked next tests
+
+### 1. Direct actual marked-return test — highest priority
+
+For the actual \(W=S^c\), let
+\[
+D_{p,\epsilon}=E_W^*PE_W.
+\]
+For a fixed \(b>0\), with
+\[
+L(p)=\lfloor bT(p)\rfloor,
+\]
+test or prove, uniformly for \(p\to\infty\) through eligible primes and separately for both \(\epsilon=\pm1\),
+\[
+\sum_{j>L(p)}
+\langle e_0,D_{p,\epsilon}^j e_0\rangle
+=o(T(p)).
+\tag{11}
+\]
+
+At each fixed prime the series is nonnegative and convergent, and the exact identity is
+\[
+\sum_{j>L}
+\langle e_0,D_{p,\epsilon}^j e_0\rangle
+=
+\frac{\langle x,(I-C)^Lx\rangle}{q^2},
+\]
+where \(C=E_S^*PE_S\). This route directly targets the required contradiction and preserves the adaptive support and physical marking. A trace bound or a bound for a nonadaptive mask would not suffice.
+
+### 2. Construct an exact \(J\)-sector witness on \(W\)
+
+Search for \(z_{p,\epsilon}\) supported on the genuine \(W=S^c\) satisfying
+\[
+J_{UW}z_W=0,
+\]
+with
+\[
+\frac{|\langle\mathbf1,z\rangle|^2}{\langle z,Jz\rangle}
+\ge L_p\,\frac n{T(p)},
+\qquad L_p\to\infty.
+\tag{12}
+\]
+
+Then (3) gives the desired lower bound. A near-mask \(z\) is not enough unless one explicitly solves or controls the leakage equation \(J_{UW}z_W\ne0\). The complementary optimizer \(R\) cannot be used directly because its leakage is exactly \(\mathbf1_U\), as in (4). This test would require a genuinely prime-sensitive use of the circulant Jacobi entries and the actual complementary zero set.

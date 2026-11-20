@@ -1,0 +1,141 @@
+## Result: inconclusive
+
+For the actual height-\(601\) row, the available estimates do **not** prove or refute
+\[
+\left\|A_{601}^{\,2}-J^2\right\|_{P_{5000}}<0.69218,
+\]
+where, on the original closed square \(Q\),
+\[
+A_{601}=K D_{601},\qquad J=K D^{\mathrm J},
+\]
+\(D_{601}\) is formed from the actual marked row \(V_{601}\), and \(D^{\mathrm J}\) is the pure Jacobi-seed derivative. The physical mark remains \(t_0=n\), both boundary pairs are retained, and \(K^2=I-J_0\) is kept through the word expansions.
+
+The conclusion applies only to the sufficiently large **eligible prime family** used in the cited records: primes for which the good full Mellin-character, boundary-pair, and original-square enclosures hold. It is not a statement for all primes or for growing height.
+
+### Exact same-row decomposition
+
+Put
+\[
+E_{601}=D_{601}-D^{\mathrm J}.
+\]
+Then the exact identity
+\[
+A_{601}^{\,2}-J^2
+ =K E_{601} K D_{601}+K D^{\mathrm J}K E_{601}
+\]
+holds. Equivalently,
+\[
+A_{601}^{\,2}-J^2
+ = (K E_{601})J+J(K E_{601})+(K E_{601})^2.
+\]
+Thus the required bound is a genuinely signed estimate for the actual same-row remainder \(E_{601}\), not merely a bound for the height change \(D_{602}-D_{601}\).
+
+The related anticommutator target is
+\[
+\|R_{601}J+JR_{601}\|_{P_{5000}}<0.262924,
+\qquad R_{601}=K E_{601}.
+\]
+
+## Evidence obtained
+
+1. **Pure seed.**  
+   The all-order signed collection of the pure seed powers, including the analytic tail beyond order \(13\), gives
+   \[
+   \|J\|_{P_{5000}}<0.528,
+   \qquad
+   \|J^2\|_{P_{5000}}<0.279.
+   \]
+   The omitted analytic tail is bounded by \(0.0000407\), while exceptional-lift and marked corrections are \(O_{5000}(n^{-1/2})\). These estimates are taken after restoring the actual mark \(t_0=n\) and both boundary pairs.
+
+2. **Actual remainder, but only positively priced.**  
+   The resummed remainder calculation gives
+   \[
+   \|K E_{601}^{(1)}\|_{P_{5000}}<0.527,\qquad
+   \|K(E_{601}-E_{601}^{(1)})\|_{P_{5000}}<0.142,
+   \]
+   and hence
+   \[
+   \|K E_{601}\|_{P_{5000}}<0.666.
+   \]
+   This is an actual height-\(601\) estimate on \(Q\), with analytic tail and marked corrections included. However, it is a positive-envelope estimate: it discards precisely the cancellation needed in
+   \[
+   (K E_{601})J+J(K E_{601})+(K E_{601})^2.
+   \]
+
+3. **Height transport does not solve the same-row problem.**  
+   The actual transition from \(601\) to \(602\) satisfies
+   \[
+   \|A_{602}-A_{601}\|_{P_{5000}}<0.0275,
+   \]
+   so the height correction to the anticommutator costs less than \(0.01452\). This correctly reduces the mixed-height target to the same-row target, but it gives no new cancellation inside \(A_{601}^2-J^2\).
+
+4. **The actual quadratic insertion estimate is for the varying kernel, not for \(E_{601}\) against \(J\).**  
+   The estimates with rates \(1.048\), \(1.063\), \(0.514\), and \(0.5145\) control insertions involving
+   \[
+   D_{601}-D_{600}.
+   \]
+   They yield fixed-height transport bounds such as \(O(n^{-0.4579})\), but they do not provide a signed expansion for
+   \[
+   D_{601}-D^{\mathrm J}.
+   \]
+   Therefore they cannot be substituted into the same-row target.
+
+## Precise obstruction
+
+The current word calculus has two separate limitations.
+
+### 1. Positive resummation cannot reach the needed remainder threshold
+
+To obtain a direct contraction estimate from the pure seed one would need roughly
+\[
+\|K E_{601}\|_{P_{5000}}<0.472.
+\]
+The present positive resummation gives \(0.666\). Moreover, its retained positive transport matrix has a checked componentwise witness with growth rate \(>0.570\) on weights \(1,\ldots,12\). Consequently, merely changing the positive packet price cannot reduce that comparison to the required \(0.472\). This is an obstruction to the current **positive** route, not a lower bound for the actual signed operator.
+
+### 2. Transpose symmetry does not create physical cancellation
+
+At the two original heights, the mixed expression splits into a transpose-symmetric and a transpose-skew part. Algebraically, this prevents cancellation between those two matrix classes unless both parts vanish. Since \(P_{5000}\) is a physical translated packet norm rather than a Hilbert-space norm, transpose symmetry supplies no useful cancellation by itself.
+
+Thus the first missing ingredient is an actual identification of repeated physical Mellin words—especially words containing the Jacobi seed and one or more nonseed factors—before taking absolute values. No such identification is established in the cited work.
+
+## Status of the requested inequality
+
+The evidence supports neither implication
+\[
+\|A_{601}^2-J^2\|_{P_{5000}}<0.69218
+\]
+nor its negation. In particular:
+
+- the pure-seed contribution is safely below the target;
+- the actual remainder is bounded only by a too-large positive envelope;
+- the height-\(601\) to height-\(602\) correction is controlled;
+- no actual lower witness for the signed same-row expression has been found.
+
+All analytic tails are already treated before taking the prime limit. The remaining \(O_{5000}(n^{-1/2})\) marked and exceptional-lift terms vanish only in the limit along the eligible prime family. None of these fixed-row estimates supplies uniform growing-depth control.
+
+## Ranked next tests
+
+### 1. Highest priority: signed anticommutator replay
+
+Expand \(E_{601}\) in the actual seed/nonseed decomposition and compute, before modulus,
+\[
+(K E_{601})J+J(K E_{601})
+\]
+with \(K\) retained between every factor. The replay should:
+
+- preserve the actual base pair and the translated input pair;
+- collect equal Mellin words across derivative orders before taking absolute values;
+- retain the physical mark \(t_0=n\);
+- price the result directly in \(P_{5000}\);
+- bound the analytic tail separately and add marked corrections only as \(O_{5000}(n^{-1/2})\).
+
+A successful bound below \(0.262924\), after the \(0.01452\) height correction, would settle the mixed target.
+
+### 2. Second priority: quadratic same-row word test
+
+Use the exact identity
+\[
+A_{601}^2-J^2
+=(K E_{601})J+J(K E_{601})+(K E_{601})^2
+\]
+and test whether paired seed insertions in the linear terms cancel against part of the quadratic term before positive pricing. This must be done for the actual \(E_{601}\), not for \(D_{601}-D_{600}\). If no repeated-field identification survives the two \(K\)-transports and the physical marking, that would establish the first genuine structural obstruction of the present calculus.

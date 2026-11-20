@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator",
+  "comparison": "All three API requests terminally returned HTTP 403 without drafts. Their comparison remains attached to the actual failed dispatch. The independent native replacement batch has its own snapshot.",
+  "groups": [],
+  "dispatch": "coordination/round-179-inflight.json",
+  "launched_at_utc": "2026-11-20T02:30:05.752285Z",
+  "launched_calls": [
+    "ordinary-prime-inverted-coupled-distinct-b",
+    "ordinary-prime-slope-product-distribution",
+    "cold-prime-directional-source-bridge"
+  ],
+  "before_sha256": "24f8635bc026fe273b9df78bdcaf9e0193ee7ade0d8e819ac9ca8db22577b46c"
+}

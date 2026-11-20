@@ -1,0 +1,61 @@
+{
+  "round": 154,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-153-acceptance.json",
+    "sha256": "9e89fecce300c3eeaf8f1c823f16ec50781cb7ee5045192e3eca342c3cb6fe23"
+  },
+  "coordinator": {
+    "path": "coordination/round-153.json",
+    "sha256": "901ade695d8bbcfe2ced62766700cc56b5f423f1bf85753a2906f0bdfc6b665b"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-154.py",
+    "sha256": "8313f2c0b0550afc30020e674c3243bba487cc66ad964d6cd286cc2de34ead52"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-154-before.json",
+    "sha256": "05527cd075386777b842254316f57668f6ba78638cbbeea093fdbbea17255b16"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-regular-jacobi-average",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "7a37e3929d4ad7ef2829c53ee4ef9b2321f1269d5ea4ca860cf6c8481fed17ce",
+      "mission_file": {
+        "path": "coordination/missions/round-154/ordinary-prime-regular-jacobi-average.md",
+        "sha256": "89e23bc6421273080e12c267d16c011de93025cc74a1ddf8cf90bf8e8bb0f23b"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r154-api-01a1ed0a/ordinary-prime-regular-jacobi-average-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r154-api-01a1ed0a/ordinary-prime-regular-jacobi-average-candidate.md",
+      "started_utc_epoch": 1795125840.372478
+    },
+    {
+      "call_id": "ordinary-prime-high-face-selection",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "821f43bd7e41653efa1aa367afef93fd6266a4c666ac5177273f9d5dd09a8b90",
+      "mission_file": {
+        "path": "coordination/missions/round-154/ordinary-prime-high-face-selection.md",
+        "sha256": "6a498a3143b9bb7108033e157ce86638cb372e0f2562dea5e5375b0ad6d785d9"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r154-api-01a1ed0a/ordinary-prime-high-face-selection-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r154-api-01a1ed0a/ordinary-prime-high-face-selection-candidate.md",
+      "started_utc_epoch": 1795125840.3730712
+    },
+    {
+      "call_id": "cold-genuine-label-after-three-center-composition",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "83d47498fa72d6158cd5a8c8b7dc1c7b812b88aecf7d4b0a4325b7f402bdfc9e",
+      "mission_file": {
+        "path": "coordination/missions/round-154/cold-genuine-label-after-three-center-composition.md",
+        "sha256": "52d5751a331f05e5acd97bcd2b24a329c70a06af9c519bf1122760e759149e3a"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r154-api-01a1ed0a/cold-genuine-label-after-three-center-composition-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r154-api-01a1ed0a/cold-genuine-label-after-three-center-composition-candidate.md",
+      "started_utc_epoch": 1795125840.371867
+    }
+  ]
+}

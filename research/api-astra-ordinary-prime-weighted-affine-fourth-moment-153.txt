@@ -1,0 +1,367 @@
+## Checked result: the proposed \(O(p)\) bound is incompatible with the actual near-critical branch
+
+Let \(p\to\infty\) through ordinary primes \(p\equiv1\pmod4\), with
+
+\[
+Q=(\mathbb F_p^\times)^2,\qquad n=|Q|=(p-1)/2,\qquad G=\widehat Q.
+\]
+
+Keep the actual R150 retargeted deficit \(b\), with physical marked coordinate \(0\), so \(b_0=0\), and define the actual anchor law
+
+\[
+\nu_j=\frac{b_j}{\sum_{\ell\in G}b_\ell}.
+\]
+
+No uniform replacement for \(\nu\) is made below.
+
+Assume the near-critical R150/R151 branch:
+
+\[
+\frac{m_{\mathrm{eff}}}{m_0}\to1,\qquad
+\frac{\|L_\sigma b\|_{2,n}}{\mathbb E b}\to0,\qquad
+m_0=\frac n{\sqrt p}.
+\]
+
+The conclusion is conditional on this branch existing along an ordinary-prime sequence.
+
+---
+
+### 1. Exact five-factor expansion
+
+Put \(\rho=-\sigma\), choose the actual \(v\) with \(\chi(v)=\rho\), and write
+
+\[
+f(t)=\sum_{\alpha\in G}\nu_\alpha\,\alpha(t),\qquad t\in Q,
+\]
+
+with \(f=0\) off \(Q\). Define
+
+\[
+F_0(x)=f(1-vx),\qquad x\in Q,
+\]
+
+where \(f(0)=0\). Thus \(x=0\), the physical marked coordinate, is never included in the \(Q\)-sums, and the root \(1-vx=0\) is also excluded by the support of \(f\).
+
+For \(a\in G\),
+
+\[
+g_a(x)=F_0(x)\overline{a(1-vx)}
+\]
+
+and, for \(u\in Q\setminus\{1\}\),
+
+\[
+C_a(u)=\sum_{x\in Q}g_a(ux)\overline{g_a(x)}.
+\]
+
+Since
+
+\[
+r_u(x)=\frac{1-vux}{1-vx},
+\]
+
+averaging over the actual anchor law gives
+
+\[
+\mathbb E_\nu |C_a(u)|^2
+=
+\sum_{x,y}
+F_0(ux)\overline{F_0(x)F_0(uy)}F_0(y)
+f\!\left(\frac{r_u(y)}{r_u(x)}\right).
+\]
+
+The off-diagonal portion is the sum over \(x\neq y\).
+
+Now set
+
+\[
+z=1-vx,\qquad T_u z=1-u+uz.
+\]
+
+Because \(x\in Q\) and \(\chi(v)=\rho\),
+
+\[
+x\in Q \Longleftrightarrow \chi(1-z)=\rho.
+\]
+
+Define the shifted Jacobi sum
+
+\[
+J_u(A,B)
+=
+\sum_{\substack{z\in Q\\ z\neq1,\ T_u z\in Q\\ \chi(1-z)=\rho}}
+A(T_u z)B(z),
+\]
+
+for \(A,B\in G\). The conditions \(z\in Q\), \(T_u z\in Q\), and \(\chi(1-z)=\rho\) retain all quadratic lift conditions and all physical roots.
+
+Expanding the five copies of \(f\), the exact off-diagonal term is
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal O_p
+={}&
+\sum_{u\in Q\setminus\{1\}}
+\sum_{\alpha,\beta,\gamma,\delta,\varepsilon\in G}
+\nu_\alpha\nu_\beta\nu_\gamma\nu_\delta\nu_\varepsilon\\
+&\quad\cdot
+\Big[
+J_u(\alpha\bar\varepsilon,\bar\beta\varepsilon)
+J_u(\bar\gamma\varepsilon,\delta\bar\varepsilon)
+-
+J_u(\alpha\bar\gamma,\bar\beta\delta)
+\Big].
+\end{aligned}}
+\]
+
+The second term is the \(x=y\) subtraction. Summing it exactly gives
+
+\[
+\mathcal D_p
+=
+N^2-\sum_{x\in Q}|F_0(x)|^4,
+\qquad
+N=\|F_0\|_2^2.
+\]
+
+Hence
+
+\[
+\mathbb E_\nu\sum_{u\neq1}|C_a(u)|^2
+=
+\mathcal D_p+\mathcal O_p.
+\]
+
+In the near-critical branch, \(N\asymp\sqrt p\), so
+
+\[
+\mathcal D_p=O(p).
+\]
+
+---
+
+### 2. Ordinary-prime Jacobi estimate and resonance classification
+
+Lift \(A,B\in G\) to multiplicative characters \(\widetilde A,\widetilde B\) of \(\mathbb F_p^\times\). Expanding the three quadratic conditions gives
+
+\[
+J_u(A,B)
+=
+\frac18
+\sum_{e_0,e_1,e_2\in\{0,1\}}
+\rho^{e_1}
+\sum_z
+\widetilde B(z)\chi^{e_0}(z)
+\chi^{e_1}(1-z)
+\widetilde A(T_u z)\chi^{e_2}(T_u z),
+\]
+
+up to the explicitly omitted roots \(z=0,1,T_u z=0\).
+
+For \(u\in Q\setminus\{1\}\), the three linear forms
+
+\[
+z,\qquad 1-z,\qquad T_u z=1-u+uz
+\]
+
+have distinct zeros. Therefore the ordinary-prime Weil bound gives
+
+\[
+J_u(A,B)=O(\sqrt p)
+\]
+
+unless the corresponding Kummer sheaf is geometrically constant. The only constant contribution occurs when
+
+\[
+A=B=1_G.
+\]
+
+Consequently,
+
+\[
+\boxed{
+J_u(1,1)=\frac p8+O(\sqrt p),\qquad
+J_u(A,B)=O(\sqrt p)\quad\text{if }(A,B)\neq(1,1).
+}
+\]
+
+The constants are uniform in \(u\in Q\setminus\{1\}\).
+
+For the first shifted sum in the five-factor expression, the exceptional condition is
+
+\[
+\alpha\bar\varepsilon=1,\qquad
+\bar\beta\varepsilon=1,
+\]
+
+equivalently
+
+\[
+\alpha=\beta=\varepsilon.
+\]
+
+For the second, it is
+
+\[
+\gamma=\delta=\varepsilon.
+\]
+
+Thus the doubly exceptional resonance is exactly
+
+\[
+\boxed{\alpha=\beta=\gamma=\delta=\varepsilon.}
+\]
+
+Its leading contribution is
+
+\[
+\sum_{u\neq1}\sum_{\varepsilon\in G}
+\nu_\varepsilon^5
+\left(J_u(1,1)^2-J_u(1,1)\right)
+=
+\frac{p^3}{128}\sum_{\varepsilon}\nu_\varepsilon^5
++O\!\left(p^{5/2}\sum_\varepsilon\nu_\varepsilon^5\right).
+\]
+
+For an exactly flat law on \(m\asymp\sqrt p\) anchors,
+
+\[
+\sum_\varepsilon\nu_\varepsilon^5=m^{-4}\asymp p^{-2},
+\]
+
+so this fully resonant component is only \(O(p)\). It does not by itself obstruct an \(O(p)\) theorem.
+
+The remaining Weil decomposition gives the crude bound
+
+\[
+|\text{five-factor product contribution}|
+\ll
+p^2
++
+p^{5/2}\sum_\varepsilon\nu_\varepsilon^3
++
+p^3\sum_\varepsilon\nu_\varepsilon^5.
+\]
+
+For an exactly flat \(m\asymp\sqrt p\) law this is
+
+\[
+O(p^2)+O(p^{3/2})+O(p).
+\]
+
+Thus ordinary-prime Weil estimates alone do **not** prove the desired \(O(p)\) bound. The unresolved \(O(p^2)\) term is the diffuse nonresonant contribution and would require cancellation after summing over \(u\), not merely pointwise Jacobi bounds.
+
+---
+
+### 3. Exact obstruction from the actual critical distribution
+
+The stronger conclusion comes from the actual near-critical geometry, without a coset template.
+
+The R150/R151 flattening statement gives a set \(S\subset G\), \(|S|\sim m_0\), such that:
+
+1. the actual anchor law \(\nu\) is asymptotically concentrated and flat on \(S\);
+2. the squared law \(b_j^2/\sum_i b_i^2\) is also asymptotically uniform on \(S\);
+3. the within-\(S\) phase deficit tends to zero.
+
+Therefore, with
+
+\[
+d_a=
+\frac{\sum_j b_j^2(1-\rho k(j-a))}
+{\sum_j b_j^2},
+\]
+
+one has
+
+\[
+\mathbb E_{\nu}d_a=o(1).
+\]
+
+For the actual reflected function \(g_a\), the affine-reflection estimate gives
+
+\[
+\eta_{g_a}
+\ll d_a+\frac{L}{\sqrt p},
+\qquad
+\|g_a\|_2^2\gg \frac{\sqrt p}{L},
+\]
+
+where \(L=\max(1,m_{\mathrm{eff}}/m_0)\to1\).
+
+The ordinary-prime cap estimate then implies
+
+\[
+L^2(1+D_{g_a})\log(2L(1+D_{g_a}))
+\gg
+\min\{\eta_{g_a}^{-1/2},p^{1/4}\}.
+\]
+
+Hence
+
+\[
+D_{g_a}\longrightarrow\infty
+\quad\text{in }\nu\text{-probability}.
+\]
+
+By definition,
+
+\[
+pD_{g_a}
+\le
+\sum_{u\neq1}|C_a(u)|^2.
+\]
+
+Consequently, taking the \(\nu\)-expectation and using the order of limits \(p\to\infty\) first along the actual ordinary-prime sequence,
+
+\[
+\boxed{
+\frac1p\,
+\mathbb E_{\nu}
+\sum_{u\neq1}|C_a(u)|^2
+\longrightarrow\infty.
+}
+\]
+
+Since \(\mathcal D_p=O(p)\), the exact off-diagonal expression itself satisfies
+
+\[
+\boxed{
+\frac{\mathcal O_p}{p}\longrightarrow\infty.
+}
+\]
+
+Thus the proposed deficit-weighted \(O(p)\) estimate is false on any actual near-critical branch satisfying the stated R150/R151 hypotheses. This is not a finite computation and does not use uniform anchors. It is a conditional ordinary-prime obstruction: if the branch exists, the weighted moment is necessarily \(\omega(p)\), and the off-diagonal five-factor sum supplies the excess.
+
+---
+
+## Precise remaining gap
+
+The five-factor Jacobi expansion identifies the arithmetic bottleneck:
+
+- the fully exceptional resonance is only \(O(p)\) for a flat \(m_0\)-scale law;
+- pointwise ordinary-prime Weil bounds leave a diffuse \(O(p^2)\) envelope;
+- the actual critical distribution has no permitted coset, periodicity, or additive-energy hypothesis that would currently control this diffuse term;
+- nevertheless, the cap/correlation argument proves that the complete weighted sum is \(\omega(p)\) whenever the actual critical branch survives.
+
+Therefore a complete \(O(p)\) upper bound cannot be the correct theorem for the actual near-critical branch. A successful arithmetic analysis should instead identify the positive main contribution or prove that the near-critical branch cannot occur.
+
+## Ranked next tests
+
+1. **Complete the \(u\)-summed shifted-Jacobi analysis.**  
+   For each nonresonant quintuple \((\alpha,\beta,\gamma,\delta,\varepsilon)\), study the complete \(u\)-correlation of
+   \[
+   J_u(\alpha\bar\varepsilon,\bar\beta\varepsilon)
+   J_u(\bar\gamma\varepsilon,\delta\bar\varepsilon)
+   \]
+   using the corresponding rank-\(1\) Kummer sheaves. Classify geometrically constant components and compute their signs. This is the most direct route to locating the \(\omega(p)\) contribution in the exact five-factor formula.
+
+2. **Quantify the actual critical lower bound without passing through \(D_g\).**  
+   Use the actual \(\nu\), the squared-weight law, and the near-flat set \(S\) to extract a lower bound on a specified family of \(u\)-fibres in the five-factor expansion. The target is a statement of the form
+   \[
+   \sum_{u\in\mathcal U_{\mathrm{actual}}}
+   \mathbb E_\nu |C_a(u)|^2
+   \ge p\,\Lambda_p,
+   \qquad \Lambda_p\to\infty,
+   \]
+   with \(\mathcal U_{\mathrm{actual}}\) described arithmetically rather than via the abstract supremum defining \(D_g\). This would turn the conditional obstruction into an explicit resonance theorem for the genuine R150 orbit.

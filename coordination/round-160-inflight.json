@@ -1,0 +1,61 @@
+{
+  "round": 160,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-159-acceptance.json",
+    "sha256": "1fda276a1540f303df5d1fff1c1be5f6695aa5e943eab6e7d778f31055317190"
+  },
+  "coordinator": {
+    "path": "coordination/round-159.json",
+    "sha256": "c6d0d3825caa65cc411cc0d5626589110d0709a4472030b99d052f1e14d50627"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-160.py",
+    "sha256": "85a2294eccc9c44c6813d6e1303459696137d59d475f60b69ca085fe151209d1"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-160-before.json",
+    "sha256": "f2efafdac381bc18adc0b66ed6f21d81367020f28a7df651a51e340958856a39"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-moderate-layer-incidence",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "89423a722ccf842f371ad00daa437fa662d84913adfd9a12ecc8e79bfc4dea43",
+      "mission_file": {
+        "path": "coordination/missions/round-160/ordinary-prime-moderate-layer-incidence.md",
+        "sha256": "1a39ee26cda1405e086db5832259a9afcf1e70aa11475b4dfc49a2555e8dd92f"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r160-api-01a1ed0a/ordinary-prime-moderate-layer-incidence-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r160-api-01a1ed0a/ordinary-prime-moderate-layer-incidence-candidate.md",
+      "started_utc_epoch": 1795129498.329639
+    },
+    {
+      "call_id": "ordinary-prime-single-lift-trace-correlation",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "d07df58b7ffcee37d407e1801b9a2fc216856fdeca6bd8cbbd91e96d80bcf55f",
+      "mission_file": {
+        "path": "coordination/missions/round-160/ordinary-prime-single-lift-trace-correlation.md",
+        "sha256": "1ba9a7dacaad444adc24ce17539af4cd7516e932507dd1bb0ce999d57a683c03"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r160-api-01a1ed0a/ordinary-prime-single-lift-trace-correlation-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r160-api-01a1ed0a/ordinary-prime-single-lift-trace-correlation-candidate.md",
+      "started_utc_epoch": 1795129498.330135
+    },
+    {
+      "call_id": "cold-cross-vertex-fixed-H-field",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "e5ee5f5191148020e47bc056cf061f8c21134470a20c6129642471e55e72c01e",
+      "mission_file": {
+        "path": "coordination/missions/round-160/cold-cross-vertex-fixed-H-field.md",
+        "sha256": "2fd4114c8e1e3824ad3d7970a0bde3edc1e807f910d1130abd16dd1fe6d104fc"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r160-api-01a1ed0a/cold-cross-vertex-fixed-H-field-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r160-api-01a1ed0a/cold-cross-vertex-fixed-H-field-candidate.md",
+      "started_utc_epoch": 1795129498.3292532
+    }
+  ]
+}

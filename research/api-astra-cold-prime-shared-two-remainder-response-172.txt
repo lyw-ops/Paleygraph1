@@ -1,0 +1,146 @@
+## Result
+
+No true prime-uniform summable translated transport has been established for the pooled mixed source packets, and the present estimates do not yield a sufficient moving nonlinear starter.
+
+The obstruction is not an arithmetic contradiction. It is a precise norm-conversion gap: the source-side signed compression is uniform and improves the fixed source price, but it has no decay in the frozen depth \(j\), while the available \(j\)-dependent estimate is only entrywise.
+
+Throughout, the actual family remains:
+
+- eligible primes \(p\to\infty\) in the previously fixed prime family;
+- physical coordinate \(t_0=n=(p-1)/2\);
+- both lifts;
+- the original complex square;
+- \(R=V_{601}-V_{600}\);
+- \(V_s=V_{600}+sR\);
+- \(V_s=S+W_s\), with \(S=s_n(z+z^{-1})/2\) the common Jacobi seed and \(W_s\) the true remainder, including its \(sR\)-component;
+- \(B=KD_{602}\), with the actual height-\(602\) frozen derivative.
+
+The pure seed, exactly-one-\(W_s\), exactly-two-\(W_s\), bad-character, marked, and remaining mixed words are kept as separate branches.
+
+### 1. The two-remainder packet is genuinely compressed, but not transported
+
+For the exactly two-remainder branch, the actual common packet is
+\[
+R^2\int_0^1(1-s)W_s^2\,ds,
+\]
+and its scalar compression is
+\[
+\Xi_2(t)=\sum_{k\ge0}(-1)^k f_k^{(2)}
+\left(\frac{s_n^2}{4t}\right)^k,
+\qquad
+f_k^{(2)}=\frac43(k+1)^2a_{k+1}.
+\]
+
+The source-side estimate
+\[
+|\Xi_2(t)|\le U_2<0.635
+\]
+on the original square is valid, and the corresponding branch debits are disjoint from the pure and one-remainder debits. In particular, the first four two-remainder debits give the stated full source price below \(0.00008312\), and below \(0.00008861\) after one genuine \(KD_{602}\) step, including the separate vanishing repairs.
+
+The same conclusion holds for the exactly-one-\(W_s\) packet:
+\[
+R^2S\int_0^1(1-s)W_s\,ds,
+\]
+with
+\[
+|\Xi_1(t)|\le U_1<0.802,
+\]
+source price below \(0.00008874\), and one-step price below \(0.00009460\).
+
+These are checked source and fixed-step bounds. They do not imply decay in \(j\). In particular, \(\Xi_2\) is not an outer-power factor: at the real center its alternating series has positive, nonzero sum. Thus repeated application of \(B=KD_{602}\) does not acquire scalar decay from the reassembled packet.
+
+### 2. The available frozen-depth estimate is only entrywise
+
+At height \(602\), the established estimate is
+\[
+\|(KD_{602})^jK\|_{\max}
+\ll
+\min\{n^{-1/2}(1.066)^j,\;0.518^j\}.
+\]
+Interpolation gives
+\[
+\sum_{j\ge0}\|(KD_{602})^jK\|_{\max}
+=O(n^{-0.455}).
+\]
+
+This is a genuine summable entrywise estimate for individual matrix entries and physical columns. It does not automatically give a bound on
+\[
+\sum_{j\ge0}B^jKq
+\]
+for the distributed mixed source vector \(q\).
+
+Indeed, if \(q\) is expanded in physical columns and
+\[
+L_n:=\|q\|_{\ell^1(\text{physical columns})},
+\]
+then the available estimate only yields
+\[
+\|(KD_{602})^jKq\|_\infty
+\ll
+L_n\,\min\{n^{-1/2}(1.066)^j,\;0.518^j\},
+\]
+and hence
+\[
+\sum_{j\ge0}\|(KD_{602})^jKq\|_\infty
+\ll L_n\,n^{-0.455}.
+\]
+
+The pooled source prices \(0.00008312\), \(0.00008874\), etc., control the prescribed translated/first-moment source norm. They do not establish \(L_n=O(1)\), nor do they establish a signed source-specific estimate that avoids the \(\ell^1\)-conversion. Therefore the factor \(L_n\) is uncontrolled. If \(L_n\) is of order \(n^\gamma\), the displayed bound only decays when \(\gamma<0.455\).
+
+This is the exact remaining gap. It applies to the two-remainder packet, the one-remainder packet, and the complementary mixed words. The separate bad-character and physical-marked repairs remain \(O(n^{-1/2})\) at the source as before, but no transported bound for them follows merely from their first-source price.
+
+### 3. The moving-starter route also remains unavailable
+
+The frozen-orbit continuation hypothesis requires, for some \(\beta\le 1/2\),
+\[
+n^{1-\beta}r_n^2=o(1),
+\]
+where \(r_n\) is the normalized residual or initial nonlinear increment, together with a suitable signed partial-sum or shifted-resolvent estimate.
+
+The present mixed-packet bounds give a small constant source price, but not an \(n\)-decaying residual \(r_n\). The fixed height estimates
+\[
+\|R\| \lesssim 0.011,\qquad
+\|V_{602}-V_{601}\|\lesssim0.012
+\]
+are constant-scale bounds. Substitution of a constant \(r_n\) into \(n^{1-\beta}r_n^2\) fails for every fixed \(\beta\le1/2\). Thus the moving-starter criterion cannot presently be invoked.
+
+This is a failure of a sufficient hypothesis, not a proof that a moving starter is impossible. A different correction could work if it produced a residual with a sufficiently strong \(n\)-decay and simultaneously supplied signed partial sums at the moving starter.
+
+## Conclusion
+
+The proposed mission is presently **inconclusive, with a sharply identified norm-conversion failure**:
+
+1. The actual two-remainder and one-remainder packets are valid common signed packets on the original square, with checked source and one-step prices.
+2. Their scalar factors \(\Xi_2\) and \(\Xi_1\) have no depth decay.
+3. The height-\(602\) frozen estimate supplies summable entrywise transport, but not transport of the full distributed source.
+4. The nonlinear moving-starter theorem is unusable because no residual estimate of the required \(n\)-dependent size has been proved.
+5. No arithmetic obstruction to a stronger restricted transport has been demonstrated.
+
+## Ranked next tests
+
+### 1. Resolve the source \(\ell^1\)-conversion for the actual pooled packets
+
+For each of
+\[
+q_1=R^2S\int_0^1(1-s)W_s\,ds,
+\qquad
+q_2=R^2\int_0^1(1-s)W_s^2\,ds,
+\]
+and the complementary mixed-word source, compute the physical-column expansion after the first \(K\), retaining signs and lift labels. Test whether
+\[
+\|q_i\|_{\ell^1(\text{physical columns})}=O(1)
+\]
+or, more generally, whether \(\|q_i\|_{\ell^1}=O(n^\gamma)\) with \(\gamma<0.455\). If so, the existing entrywise resolvent estimate immediately gives a prime-uniform summable translated response for that packet. This is the highest-value test because it directly closes the current gap without changing the prime family, marking, lifts, or norms.
+
+### 2. Test a moving corrected starter with an explicit residual rate
+
+Construct a candidate starter from the actual \(V_{600},V_{601},V_{602}\) and the pooled mixed correction, then estimate its residual \(r_n\) in the physical first norm and its signed shifted partial sums. The decisive target is
+\[
+r_n=o\!\left(n^{-(1-\beta)/2}\right)
+\quad\text{for some }\beta\le\tfrac12,
+\]
+together with a uniform moving-starter analogue of
+\[
+\sup_j\|B_n^jZ_n\|_{\max}=O(n^{-\beta}).
+\]
+If the residual remains constant-scale, this route fails under the existing nonlinear bridge and should be abandoned in favor of packet-specific signed transport.

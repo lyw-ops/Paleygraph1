@@ -1,0 +1,159 @@
+## Result
+
+**Status: inconclusive; the proposed repricing is not proved by the available records.**
+
+The relevant family is the actual eligible primes
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+with \(p\) sufficiently large, on the original closed marked square centered at \(2031/128\). The physical marking must remain
+\[
+t_0=n,\qquad t_i=t\quad(i\ne0),
+\]
+and both boundary pairs and both lift choices must be retained in the \(P_{5000}\) norm.
+
+For \(h=601,602\), write
+\[
+C_h=V_h-S,\qquad S=s_nC_1,
+\]
+and let \(\alpha(t)\) and \(Y\) be the fixed actual coefficient and nine-center predictor from the accepted predictor row. The first omitted center contribution is
+\[
+R_h^{(1)}
+ =K\,d'_t(S)\bigl(C_h-\alpha Y\bigr).
+\]
+The desired estimate is, uniformly on the marked square and eventually through the eligible prime family,
+\[
+\|R_h^{(1)}\|_{P_{5000}}<0.224
+\qquad(h=601,602),
+\]
+with the separate higher-order bound
+\[
+\|R_h^{(\ge2)}\|_{P_{5000}}<0.142.
+\]
+
+Equivalently, a same-row signed estimate
+\[
+\|A_{601}^2-B^2\|_{P_{5000}}<0.580184
+\]
+would suffice, where
+\[
+A_h=KD_h,\qquad
+B=K(D^{\rm J}+D^{\rm L}),
+\]
+\[
+D^{\rm J}=d_t(S),\qquad
+D^{\rm L}=\alpha Yd'_t(S).
+\]
+
+## What is actually established
+
+The accepted records give the following eventual bounds:
+
+1. The actual coefficient satisfies
+   \[
+   |\alpha|<0.244
+   \]
+   on the whole square.
+
+2. The selected retained block satisfies
+   \[
+   \|B\|_{P_{5000}}<0.634,
+   \qquad
+   \|KD^{\rm L}\|_{P_{5000}}<0.119.
+   \]
+
+3. The resummed actual first-order remainder without subtracting the selected center has the bound
+   \[
+   \|K E_h^{(1)}\|_{P_{5000}}<0.527,
+   \qquad
+   E_h^{(1)}=d'_t(S)C_h.
+   \]
+
+4. The nonseed and higher-order part is bounded by
+   \[
+   \|K(E_h-E_h^{(1)})\|_{P_{5000}}<0.142.
+   \]
+
+5. The height transfer obeys
+   \[
+   \|A_{602}-A_{601}\|_{P_{5000}}<0.017.
+   \]
+
+These facts leave the exact signed quantity
+\[
+K d'_t(S)(C_h-\alpha Y)
+\]
+unpriced. The bound \(0.527\) applies to \(K d'_t(S)C_h\), not to the difference after subtracting the actual \(\alpha Y\) component. The bound \(0.119\) prices \(KD^{\rm L}\) after taking absolute values and therefore cannot be subtracted from \(0.527\). The only immediate triangle estimate is of the wrong direction:
+\[
+\|K d'_t(S)(C_h-\alpha Y)\|
+\le 0.527+0.119,
+\]
+which gives no useful improvement toward \(0.224\).
+
+Likewise, the positive direct comparison cannot be repriced by changing only its packet norm: its retained \(12\times12\) positive submatrix has a strictly positive witness with growth \(>1.035\) at both heights. That obstruction concerns the positive majorant only. It is **not** a lower bound for the signed finite-field operator \(A_h\), because it discards exactly the arithmetic identifications and cancellations that the present mission needs to recover.
+
+Thus there is no contradiction, but there is also no proof of the \(0.224\) budget.
+
+## Precise remaining gap
+
+A successful proof must collect, before taking absolute values, the signed coefficients of the actual residual
+\[
+C_h-\alpha Y
+\]
+for both \(h=601\) and \(h=602\), including:
+
+- the actual Jacobi seed and all other center pieces;
+- both physical lifts;
+- the marked coordinate \(t_0=n\);
+- the off-mark coordinates \(t_i=t\);
+- the two boundary pairs in the \(P_{5000}\) packet class;
+- repeated old labels that are genuinely identical in the finite-field representation.
+
+The current resummed argument collects repeated powers of the Jacobi seed, but then applies a positive envelope to the remaining nonseed words. The direct-envelope obstruction shows that this positive envelope cannot itself reach the required price. A new signed collection or a same-row signed product calculation is therefore necessary.
+
+All finite truncation checks must be converted into a uniform statement by first controlling the analytic tail and lift/mark corrections, and only then taking
+\[
+n\to\infty
+\]
+through the eligible primes. A finite check at \(h=601,602\) alone does not establish the asymptotic target.
+
+## Ranked next tests
+
+### 1. Exact signed residual collection for \(C_h-\alpha Y\)
+
+For each \(h=601,602\), expand the finite truncation of
+\[
+d'_t(S)(C_h-\alpha Y)
+\]
+in the actual Mellin objects, retaining signs and collecting only genuinely identical labels before applying modulus. Keep the two lift fibers separate until their exact averaging is performed. Then:
+
+- price every collected base column with the \(P_{5000}\) column formula;
+- price translated/off-base columns using the extra-pair first-moment rule;
+- include the true marked diagonal \(t_0=n\);
+- bound the omitted analytic orders and exceptional corrections uniformly by \(O_{5000}(n^{-1/2})\);
+- prove a strict rational margin below \(0.224\).
+
+**Success criterion:** a uniform eventual bound \(<0.224\) for both heights.
+
+**Failure criterion:** one explicit collected label or family of labels has price \(\ge0.224\), or the residual tail cannot be absorbed. That would identify a genuine obstruction rather than merely a failure of the old positive majorant.
+
+### 2. Direct same-row signed square difference
+
+Expand
+\[
+A_{601}^2-B^2
+\]
+as
+\[
+(A_{601}-B)A_{601}+B(A_{601}-B),
+\]
+but collect the two factors jointly before taking absolute values. In particular, preserve cancellations between the Jacobi part, the \(\alpha Y\) part, and repeated center labels across the two factors. Use the exact height-601 physical marking and both lifts; only afterward use the separate height-transfer estimate \(<0.017\) if a two-height product is required.
+
+**Success criterion:**
+\[
+\|A_{601}^2-B^2\|_{P_{5000}}<0.580184.
+\]
+
+**Failure criterion:** a signed product sector has a positive lower obstruction or the collected upper remains above \(0.580184\). The existing \(1.035\) witness does not decide this test, because it belongs to the discarded positive comparison rather than to the signed product.
+
+The first test is preferable: it targets the exact \(0.224\) obligation and should expose which old labels, if any, actually renew after the subtraction.

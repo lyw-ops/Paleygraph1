@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_146",
+  "comparison": "The signed clipped deletion and near-cap shift questions yield different sufficient bounds and different actual joint statistics. The replacement complementary mask applies to the near-cap route, with a separate exact support observation for deleted tails. Neither shares the cold actual derivative obligation. There was no shared exact candidate.",
+  "groups": [],
+  "dispatch": "coordination/round-146-inflight.json",
+  "launched_at_utc": "2026-11-19T20:22:44.193312Z",
+  "launched_calls": [
+    "ordinary-prime-deleted-tail",
+    "ordinary-near-cap-shift-frontier",
+    "cold-actual-remaining-derivative"
+  ],
+  "before_sha256": "efff63dc8c9d47dbc74733e5010614154da788a64d80b74a86357de79cafa357"
+}

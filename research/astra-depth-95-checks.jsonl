@@ -1,0 +1,4 @@
+{"real_endpoints_units": [16640237, 16640247], "imaginary_halfwidth_units": 1, "real_cells": 5, "tilted_excess": "[1.840e-10 +/- 1.24e-14]", "coordinate_cap": "[4.65301384839 +/- 3.54e-12]", "secant_rate": "[0.525271333804 +/- 5.45e-13]", "field_minimum_n": "10^30"}
+{"real_endpoints_units": [16640245, 16640254], "imaginary_halfwidth_units": 1, "real_cells": 5, "tilted_excess": "[1.8398e-10 +/- 9.31e-15]", "coordinate_cap": "[4.65301179638 +/- 2.85e-12]", "secant_rate": "[0.525271013802 +/- 5.09e-13]", "field_minimum_n": "10^30"}
+{"real_endpoints_units": [16640250, 16640262], "imaginary_halfwidth_units": 1, "real_cells": 6, "tilted_excess": "[1.840e-10 +/- 2.98e-14]", "coordinate_cap": "[4.65301065280 +/- 3.27e-12]", "secant_rate": "[0.525270828551 +/- 2.30e-13]", "field_minimum_n": "10^30"}
+{"comparison": "same coldest cap without eight new pools", "first_packet_overrun": "[1.43857764e-7 +/- 2.36e-16]"}

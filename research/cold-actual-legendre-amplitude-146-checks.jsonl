@@ -1,0 +1,2 @@
+{"amplitude_upper": "0.244", "eventual_joint_square_upper": "0.402", "eventual_joint_upper": "0.634", "eventual_linear_upper": "0.119", "eventual_mixed_two_step_upper": "0.126", "geometric_joint_upper": "0.6333", "kind": "actual_legendre_amplitude_selected_block"}
+{"heights": [601, 602], "kind": "retained_direct_positive_repricing_obstruction", "principal_weights": 12, "single_step_lower": "1.035", "two_step_lower": "1.071225"}

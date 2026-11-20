@@ -1,0 +1,12 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_179",
+  "comparison": "The two native agents supplied separate results: a true physical full-diagonal estimate and a fixed-height actual cold source obstruction. Neither closes the original target. No downstream batch is to be launched because the user requested a pause at this round.",
+  "groups": [],
+  "dispatch": "coordination/round-179-b2-inflight.json",
+  "launched_at_utc": "2026-11-20T02:31:39.056373Z",
+  "launched_calls": [
+    "ordinary-prime-inverted-coupled-distinct-b",
+    "cold-prime-directional-source-bridge"
+  ],
+  "before_sha256": "9b3acc2333e62ba7e605d215bb81012284de348a31e3f7e8a9f0985872edfb41"
+}

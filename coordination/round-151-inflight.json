@@ -1,0 +1,61 @@
+{
+  "round": 151,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-150-acceptance.json",
+    "sha256": "5cdb097c5787d89ae8e318de319d5cc01faca570322526fd054f3a4e7377fe8d"
+  },
+  "coordinator": {
+    "path": "coordination/round-150.json",
+    "sha256": "1628ed2c4ee1be9a544fbac5c1becd4d9825cac5576b0abe12eaae0c00b88a3a"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-151.py",
+    "sha256": "714c7b011cd2fc352033272e86dad031ee8f58240dd71e0eaa03b1001bb307af"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-151-before.json",
+    "sha256": "9676ac64e808c67d23d176b8e63478a83a30431406916dd029014345f4caa21d"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-first-spill-core",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "28dfc26787705b3fa9b4f293d06c6d008f2bf42350efa710430e1252c7677de4",
+      "mission_file": {
+        "path": "coordination/missions/round-151/ordinary-prime-first-spill-core.md",
+        "sha256": "a9deee3539a63531faa67b1c1c292aa5220f60bd37fccacb745f8b49184a23e1"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r151-api-01a1ed0a/ordinary-prime-first-spill-core-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r151-api-01a1ed0a/ordinary-prime-first-spill-core-candidate.md",
+      "started_utc_epoch": 1795123201.241173
+    },
+    {
+      "call_id": "ordinary-prime-retargeted-endpoint",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "c0c6b9b963ba6be75191e05c1a8723256d8bc87aea528630287f7ee2dd872d68",
+      "mission_file": {
+        "path": "coordination/missions/round-151/ordinary-prime-retargeted-endpoint.md",
+        "sha256": "c9ed0f22ab786f7a89ba734c9fedb3f7bbcb10c418d16a6835313fe8beb13152"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r151-api-01a1ed0a/ordinary-prime-retargeted-endpoint-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r151-api-01a1ed0a/ordinary-prime-retargeted-endpoint-candidate.md",
+      "started_utc_epoch": 1795123201.24173
+    },
+    {
+      "call_id": "cold-two-vertex-other-center",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "3d9c584b5edf5366df9876e5a8152cd84050310b68e317b9a5e6f9834707ed8c",
+      "mission_file": {
+        "path": "coordination/missions/round-151/cold-two-vertex-other-center.md",
+        "sha256": "4d9730441f7381de693936be521b5c30a1dccb8fd7ba1337f6bd7fb199935591"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r151-api-01a1ed0a/cold-two-vertex-other-center-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r151-api-01a1ed0a/cold-two-vertex-other-center-candidate.md",
+      "started_utc_epoch": 1795123201.242482
+    }
+  ]
+}

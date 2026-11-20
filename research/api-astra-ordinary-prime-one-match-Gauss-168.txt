@@ -1,0 +1,289 @@
+## Result
+
+I do not obtain the required \(O(1)\) signed average for the one-match class. The exact reduction is clear, and it isolates a genuine remaining source-weighted \(3+3\) spectral estimate. Existing cap, physical-slope, and positive-energy estimates do not imply that estimate.
+
+All statements below are for the selected ordinary-prime family \(p\to\infty\) in the cited rounds, with the actual law \(\nu_p\), actual lifted character law \(\omega_p\), actual nonzero physical mark \(v_p\), and fixed physical thresholds \(a,b>0\). No averaging over \(v_p\), the prime family, or the square lifts is being introduced. The two lifts \(i,i'\in\{0,1\}\) remain explicit.
+
+Write
+\[
+m=p-1,\qquad \kappa_p=\|\omega_p\|_\infty\ll p^{-1/2},
+\qquad \ell_p=\omega_p-\omega_p*\omega_p .
+\]
+With counting norms,
+\[
+\|\ell_p\|_1\le 2,\qquad \|\ell_p\|_\infty\le 2\kappa_p.
+\]
+
+The zero-match \(4+4\) class remains separate and is not controlled by the argument below.
+
+---
+
+## Exact one-match decomposition
+
+At fixed \(h=\psi'/\psi\), the plus labels are
+\[
+\{\alpha,\delta,\bar\beta'/h,\bar\gamma'/h\},
+\]
+and the minus labels are
+\[
+\{\bar\beta,\bar\gamma,\alpha'/h,\delta'/h\}.
+\]
+
+The within-copy matches are excluded on the regular set. Thus the eight possible cross-copy matches are the only one-match subclasses. Consider the representative match
+\[
+\alpha=\alpha'/h,
+\qquad\text{equivalently}\qquad
+\alpha'=h\alpha.
+\]
+
+After cancelling this pair, the residual \(3+3\) labels are
+\[
+A_M=(\delta,\bar\beta'/h,\bar\gamma'/h),
+\qquad
+B_M=(\bar\beta,\bar\gamma,\delta'/h).
+\]
+
+Let \(E_M\) denote the event that this is the only cross-copy match. The exact normalized residual correlation is
+\[
+\mathcal R_3(A;B)
+=
+\sum_{\psi}
+\prod_{j=1}^3g_{A_j/\psi}\,
+\overline{g_{B_j/\psi}}.
+\]
+
+On \(E_M\), the two residual multisets are disjoint, so the exact Gauss expansion from Round 167 gives
+\[
+\boxed{
+\mathcal R_3(A;B)
+=
+\frac{m}{p^3}
+\prod_{j=1}^3G(A_j\bar B_j)
+\sum_{\substack{t_1t_2t_3=1\\ t_j\neq1}}
+\prod_{j=1}^3
+A_j(t_j)\,
+\overline{A_j\bar B_j}(t_j-1).
+}
+\tag{1}
+\]
+
+The fixed phase is not discarded. For \(i,i'\in\{0,1\}\),
+\[
+C_i(\alpha,\beta,\gamma,\delta)
+=
+(\beta\gamma)(-1)\,
+\overline{g_{\chi^i\alpha\gamma}}\,
+g_{\alpha\beta\gamma\delta}\,
+\overline{
+g_{\chi^i\beta\delta}\,
+g_{\gamma\delta}\,
+g_{\alpha\beta}
+},
+\]
+and the one-match summand contains
+\[
+C_i(\alpha,\beta,\gamma,\delta)\,
+\overline{C_{i'}(\alpha',\beta',\gamma',\delta')}.
+\]
+
+Therefore the exact representative one-match average is
+\[
+\begin{aligned}
+\mathcal A_{M}^{i,i'}
+={}&
+\sum_{h}\ell_p(h)
+\sum_{\alpha,\beta,\gamma,\delta}
+\sum_{\beta',\gamma',\delta'}
+\omega_p(\alpha)\omega_p(\beta)\omega_p(\gamma)\omega_p(\delta)
+\\
+&\quad\cdot
+\omega_p(h\alpha)\omega_p(\beta')\omega_p(\gamma')\omega_p(\delta')
+\,
+1_{E_M}
+\\
+&\quad\cdot
+C_i(\alpha,\beta,\gamma,\delta)
+\overline{C_{i'}(h\alpha,\beta',\gamma',\delta')}
+\,
+\mathcal R_3(A_M;B_M).
+\end{aligned}
+\tag{2}
+\]
+
+The full one-match class is the sum of (2) over the eight match equations and \(i,i'\in\{0,1\}\), with the usual \(1/4\) lift factor if both outer lifts are averaged uniformly.
+
+---
+
+## What the cap actually pays
+
+For this match define
+\[
+q_p(h)=\sum_{\alpha}\omega_p(\alpha)\omega_p(h\alpha).
+\]
+Then
+\[
+q_p(h)\le \kappa_p,\qquad \sum_hq_p(h)=1.
+\]
+
+Consequently, for any pointwise bound
+\[
+|\mathcal R_3(A_M;B_M)|\le B_p,
+\]
+the absolute estimate from the actual source law gives only
+\[
+|\mathcal A_M^{i,i'}|
+\le
+\sum_h|\ell_p(h)|q_p(h)B_p
+\le
+\kappa_p\|\ell_p\|_1 B_p
+\le 2\kappa_p B_p.
+\tag{3}
+\]
+
+The true quadratic-form prefactor is
+\[
+\frac{p^3}{m}\asymp p^2.
+\]
+Hence the target \(O(p^{3/2})\) requires
+\[
+\boxed{
+\mathcal A_M^{i,i'}=O(\kappa_p)=O(p^{-1/2}),
+}
+\tag{4}
+\]
+or, equivalently, an \(O(1)\) bound after extracting the single match cap \(\kappa_p\).
+
+A pointwise \(O(1)\) estimate for \(\mathcal R_3\) would suffice. The exact formula (1), however, does not provide such a bound. The residual two-dimensional character sum can have the generic bounded-conductor square-root scale, and the currently available estimates do not show uniform \(O(1)\) cancellation after the \(C_i\overline{C_{i'}}\), actual \(\omega_p\), and \(\ell_p\) averages are inserted.
+
+Even a generic pointwise \(O(p^{1/2})\) estimate would give only
+\[
+|\mathcal A_M^{i,i'}|=O(\kappa_p p^{1/2})=O(1),
+\]
+which becomes \(O(p^2)\) after multiplication by \(p^3/m\), one factor \(p^{1/2}\) above the target.
+
+Thus the needed estimate is genuinely signed and source-weighted:
+\[
+\boxed{
+\left|
+\sum_h\ell_p(h)\,
+\mathbb E_{\omega_p^{\otimes 8}}
+\left[
+1_{E_M}\,
+C_i\overline{C_{i'}}\,
+\mathcal R_3(A_M;B_M)
+\mid \alpha'=h\alpha
+\right]
+q_p(h)
+\right|
+\ll \kappa_p .
+}
+\tag{5}
+\]
+
+No such estimate is established in the cited rounds.
+
+---
+
+## Why the existing physical estimates do not close this
+
+The physical mark remains
+\[
+A_x=1-v_px,\qquad C_x=1-v_pu x,
+\]
+with the actual square masks, actual slope set, and actual amplitudes \(f_p\). The positive completion and the shifted-layer energy estimates control physical counts and positive squared masses. They do not control the phase-weighted source kernel in (2).
+
+In particular:
+
+1. The one-match constraint only gives \(q_p(h)\le\kappa_p\).  
+   It does not provide a second \(\kappa_p\) factor.
+
+2. \(\|\ell_p\|_1\le2\) is not enough to force cancellation.  
+   The identity
+   \[
+   \ell_p=\omega_p-\omega_p*\omega_p
+   \]
+   would help only after proving that the \(h\)-dependence of the completed \(3+3\) kernel has suitable centered spectrum.
+
+3. The sign-selective completion results show that a uniform convolution-norm shortcut is unavailable on the genuine critical sequence: the relevant actual slope filter can have norm of order \(\sqrt p\), not \(O(1)\).
+
+4. The two outer lifts cannot be merged before this step.  
+   The factors \(C_i\overline{C_{i'}}\) remain in (2), and their dependence on \(\alpha,\beta,\gamma,\delta\) is part of the cancellation problem.
+
+The known two-or-more-match bounds and frequency-deletion bounds remain valid and already cost only \(O(p^{3/2})\). They do not improve (5).
+
+---
+
+## Zero-match class
+
+The zero-match class has four residual factors on each side:
+\[
+\mathcal R_4(A;B)
+=
+\sum_\psi\prod_{j=1}^4g_{A_j/\psi}
+\overline{g_{B_j/\psi}}.
+\]
+
+There is no match probability \(q_p(h)\le\kappa_p\). Therefore its required normalized estimate is stronger:
+\[
+\left|
+\sum_h\ell_p(h)\,
+\mathbb E_{\omega_p^{\otimes8}}
+\left[
+1_{E_0}\,
+C_i\overline{C_{i'}}\,
+\mathcal R_4(A;B)
+\right]
+\right|
+\ll p^{-1/2}.
+\tag{6}
+\]
+
+Nothing in the one-match reduction proves (6), and it would be incorrect to fold the zero-match \(4+4\) class into the one-match argument.
+
+---
+
+## Conclusion
+
+**Status: inconclusive, with a precise remaining gap.**
+
+The actual one-match contribution reduces exactly to eight source-weighted \(3+3\) phase subclasses, each retaining:
+
+- the actual \(\omega_p\)-draws;
+- the fixed ratio phases \(C_i\overline{C_{i'}}\);
+- both outer square lifts \(i,i'\);
+- the exact physical marking \(v_p\) through the source law and physical completion;
+- the signed weight \(\ell_p(h)\);
+- the exact completed residual correlation (1).
+
+The cap pays one factor \(\kappa_p\), but the required residual signed average is still \(O(1)\). Existing results only give a potentially \(O(p^{1/2})\) residual scale, which is insufficient by one square root. The independent zero-match \(4+4\) estimate remains completely open at its stronger \(O(p^{-1/2})\) normalized scale.
+
+## Ranked next tests
+
+### 1. Highest priority: exact source-weighted \(3+3\) spectral test
+
+For each of the eight match equations and all four lift pairs \((i,i')\), insert formula (1) into (2), then sum the free source characters with the actual \(\omega_p\). The target is the uniform estimate (5):
+\[
+|\mathcal A_M^{i,i'}|\ll \kappa_p.
+\]
+
+The first symbolic test should be the subclass
+\[
+\alpha' = h\alpha,
+\qquad
+A_M=(\delta,\bar\beta'/h,\bar\gamma'/h),
+\quad
+B_M=(\bar\beta,\bar\gamma,\delta'/h),
+\]
+because it exposes all three remaining \(h\)-dependent ratios. A successful proof would need a centered-spectrum estimate for the resulting two-dimensional \(t\)-sum, not merely a Weil bound before \(\omega_p\)-averaging.
+
+### 2. Second priority: actual-family obstruction test for one-match and zero-match spectra
+
+For the same selected ordinary-prime family, compute the exact quantities
+\[
+p^{1/2}\mathcal A_M^{i,i'}
+\quad\text{and}\quad
+p^{1/2}\mathcal A_0^{i,i'}
+\]
+using the actual \(\omega_p,\ell_p,C_i\), without replacing them by flat or model laws. A persistent nonzero limit or growth in the one-match quantity would refute the proposed \(O(1)\) signed-average mechanism; growth in the zero-match quantity would identify an independent obstruction to (6).
+
+Such finite checks would not settle the asymptotic theorem, but they would distinguish whether the next analytic effort should target a genuine cancellation identity or a different decomposition of the completed covariance.

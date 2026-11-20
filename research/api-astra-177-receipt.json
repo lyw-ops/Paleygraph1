@@ -1,0 +1,67 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatches": [
+    {
+      "dispatch": {
+        "path": "coordination/round-177-inflight.json",
+        "sha256": "59b8184e807acb30c14286a2f1f177fe9fae02ee11aa99b6478ed4b55d40941b"
+      },
+      "lanes": [
+        {
+          "call_id": "ordinary-prime-coupled-output-set-incidence",
+          "model": "gpt-6.2-astra",
+          "completion": false,
+          "error_class": "TimeoutError"
+        },
+        {
+          "call_id": "ordinary-prime-rich-right-distribution",
+          "model": "gpt-6.2-astra",
+          "completion": true,
+          "http_status": 200,
+          "model_matches": true,
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 7650,
+            "completion_tokens": 3530,
+            "total_tokens": 11180
+          },
+          "archive": {
+            "path": "research/api-astra-ordinary-prime-rich-right-distribution-177.txt",
+            "sha256": "0183cac32ce7656f056b1ffe3ee77827d721164534eae42086f223a60db6cde1"
+          }
+        },
+        {
+          "call_id": "cold-prime-signed-source-bundle",
+          "model": "gpt-6.2-astra",
+          "completion": true,
+          "http_status": 200,
+          "model_matches": true,
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 7946,
+            "completion_tokens": 3069,
+            "total_tokens": 11015
+          },
+          "archive": {
+            "path": "research/api-astra-cold-prime-signed-source-bundle-177.txt",
+            "sha256": "9fd1431cc81fd260086e10fa387f3dfe62341e514221d3558d3293cdc3cbdd63"
+          }
+        }
+      ]
+    },
+    {
+      "dispatch": {
+        "path": "coordination/round-177-b2-inflight.json",
+        "sha256": "77a697434a87a39489612d1b469df12a7f52b4ed5812cd658c00968d85c53d06"
+      },
+      "lanes": [
+        {
+          "call_id": "ordinary-prime-coupled-output-set-incidence",
+          "model": "gpt-6.2-astra",
+          "completion": false,
+          "http_status": 403
+        }
+      ]
+    }
+  ]
+}

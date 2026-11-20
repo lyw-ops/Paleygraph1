@@ -1,0 +1,13 @@
+# Review of the round-133 gateway drafts
+
+Both Astra 6.2 [responses](api-astra-133-receipt.json) returned and supplied ranked next tests.
+
+The [real response](api-astra-overflow-133.txt) validly bounds the signed endpoint statistic by a product of the true ordinary second norm and the true spill second norm. Its sufficient \(o(p^{-1})\) rate obtained from the entry bound is weaker than the current route. The normalized ordinary bulk second moment is at most of order \(\sqrt p\), using positivity, its first moment, and its entry bound. Alternatively \(\|h\|_{1,n}\le\alpha_M/(2M)\) and the ordinary entry bound recover the \(o(p^{-1/2})\) sufficient rate from Round 129. The ordinary mean is bounded below by the theta product and entry bounds.
+
+The [sector calculation](zero-floor-sector-133.md) instead keeps both signs of the exact bulk terms. Their difference is a direct prime-first test of the ordinary marked ratio, without another cap-defect or variance hypothesis. Their equal-sign average detects both the ordinary ratio and the actual fixed-cap defect. A paired bounded polynomial surrogate preserves the antisymmetric test with rank-independent error, but proving cancellation against the actual ordinary activation weight remains open.
+
+The [cold response](api-astra-cold-133.txt) cites a real-center \(0.517\) bound for the full square without the needed complex-coordinate argument. In position coordinates the averaging projection can act nontrivially on rows with \(f(1)=0\). A unitary position character also corresponds to a frequency-coordinate delta, so the proposed character experiment does not price general physical packets. A generic \(O(1)\) bound on a relative directional cost gives no strict margin and does not show that another prime power is necessary.
+
+The [corrected cold estimate](cold-seed-packet-133.md) uses certified seed-centered disks on the whole original square. It separates the frozen derivative at \(601,602\) from the actual secants on the \(600\) and \(601\) segments. The exact seed–seed contribution alone has translated physical packet rate below \(0.287\), including both marked corrections. This is a strict physical price for one contribution, while the residual terms of the full block and invariant-ball closure remain unresolved.
+
+The highest-priority real test is a genuine upper on the \(b\)-weighted signed Jacobi seed using complementary ordinary positivity and support. On the cold side, test the jointly collected mixed and remaining terms, including the signed action on actual residual directions and the arithmetic tail. The two dispatched [obligations](../coordination/shared-obligations/round-133-after.json) retained different domains, scales and trial objects.

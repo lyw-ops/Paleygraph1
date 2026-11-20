@@ -1,0 +1,196 @@
+## Result
+
+Let \(p\equiv1\pmod 4\) run through the ordinary primes, \(n=(p-1)/2\), and let \(T=T(p)\to\infty\) with \(T+1\) in the simultaneous marked window at fixed \(\tau>0\). Retain the actual zero-start trajectory, physical terminal activation
+\[
+G_i=\sqrt n\,g_T(i)\ge 0,
+\]
+the true ordinary optimizers \(F\) and \(R\) on opposite signs, and
+\[
+S=\{i\ne0:G_i\ge cT,\ R_i\le \delta G_i/T\},
+\]
+with fixed \(c>0\), \(\delta\to0\), \(\epsilon=o(\delta)\), and \(L=o(T)\).
+
+For
+\[
+X_j^\circ=1_{\{j\ne0\}}(F_j-L)_+,\qquad
+X_\mu^\circ=\sum_h\mu_h X^\circ_{i+h},
+\]
+the exact masked shifted energy is
+\[
+\mathcal E_S(\mu)
+:=\mathbb E[1_S(X_\mu^\circ)^2]
+=\frac1n\sum_{i\in S}
+   \left(\sum_h\mu_hX^\circ_{i+h}\right)^2.
+\]
+
+### Lemma: a quantified bounded-difference class
+
+Let \(A=\operatorname{supp}\mu\), \(|A|=a\), and first take \(\mu\) uniform on \(A\). Define
+\[
+K_S(A):=
+\max_{\substack{y\ne z\\X_y^\circ X_z^\circ>0}}
+\bigl|S\cap (y-A)\cap(z-A)\bigr|.
+\]
+Then
+\[
+\boxed{\quad
+\mathcal E_S(\mu)
+\le \frac{q_s}{a}
++\frac{K_S(A)\,n}{a^2},
+\quad q_s=F_0.
+\quad} \tag{A}
+\]
+
+Indeed, expanding the square gives
+\[
+\mathcal E_S(\mu)
+=\frac1{na^2}\sum_{y,z}X_y^\circ X_z^\circ
+ |S\cap(y-A)\cap(z-A)|.
+\]
+For \(y=z\), the intersection has size at most \(a\), while
+\[
+\sum_y (X_y^\circ)^2\le q_s\sum_yX_y^\circ\le q_s n,
+\]
+because \(0\le X^\circ\le F\le q_s\) and \(\mathbb E F=1\). Thus the diagonal contributes at most \(q_s/a\). For \(y\ne z\), use the definition of \(K_S(A)\) and
+\[
+\sum_yX_y^\circ\le n
+\]
+to obtain the second term in (A).
+
+The same argument for a nonuniform probability \(\mu\) gives
+\[
+\boxed{\quad
+\mathcal E_S(\mu)
+\le q_s\|\mu\|_{\ell^2}^2
++\frac{K_S(\mu)\,n}{1},
+\quad}
+\]
+where
+\[
+K_S(\mu):=
+\max_{y\ne z:X_y^\circ X_z^\circ>0}
+\sum_{h}\mu_h\mu_{h+y-z}\,
+1_S(y-h)\,1_S(z-h).
+\]
+The uniform form (A) is more useful for a concrete class.
+
+Since the ordinary endpoint cap gives \(q_s\ll\sqrt n\), (A) yields
+\[
+\mathcal E_S(\mu)=o(T)
+\]
+whenever
+\[
+a\gg \frac{\sqrt n}{T}
+\qquad\text{and}\qquad
+K_S(A)\ll \frac{a^2T}{n}
+\]
+with both ratios tending to the required limits. In particular, if \(a\asymp\sqrt n\) and \(K_S(A)=o(T)\), then the masked energy is \(o(T)\).
+
+This is a genuine nontrivial lemma for a precisely quantified class: shift sets whose score-dependent mask intersections have bounded multiplicity.
+
+### Prime-sensitive version for algebraically majorized masks
+
+There is also a prime-sensitive estimate, but only under an additional algebraic containment hypothesis. Suppose the actual mask satisfies
+\[
+S\subseteq B_{\mathbf a,\boldsymbol\sigma}
+:=\bigcap_{\ell=1}^k
+\{i:\chi(1-a_\ell t_i)=\sigma_\ell\},
+\]
+where the \(a_\ell\in Q=(\mathbb F_p^\times)^2\) are distinct, the signs \(\sigma_\ell\in\{\pm1\}\) are fixed, and the frequency coordinate \(i\) corresponds to \(t_i\in Q\). Then the Weil estimate used in the filtered-support argument gives, uniformly for \(y\ne z\),
+\[
+\bigl|B_{\mathbf a,\boldsymbol\sigma}
+ \cap(y-A)\cap(z-A)\bigr|
+\le 2^{-k}n+O(k\sqrt p).
+\]
+Consequently
+\[
+\boxed{\quad
+\mathcal E_S(\mu)
+\le \frac{q_s}{a}
++\left(2^{-k}n+O(k\sqrt p)\right)\frac{n}{a^2}.
+\quad} \tag{B}
+\]
+
+For \(k\le \frac14\log_2p\), the error is lower order relative to the main mask size. Thus (B) proves \(o(T)\) for, for example,
+\[
+a\asymp\sqrt n,\qquad
+2^{-k}n=o(T),\qquad
+k\sqrt p=o(T),
+\]
+which is a nonempty quantified algebraic class.
+
+The prime input is explicit: \(p\equiv1\pmod4\), \(n=(p-1)/2\), and the error is \(O(k\sqrt p)\), coming from multiplicative Weil bounds. No assertion is made for square orders \(p=r^2\), since that is not the requested prime family.
+
+## Relation to the actual complementary mask
+
+The complementary-overlap identity remains valid:
+\[
+\mathbb E[1_{\rm bulk}\bar F R]
+=1-\frac{\bar F_0q_{-s}}n
+\le C\epsilon.
+\]
+Together with the definition of \(S\), this gives the already established reduction
+\[
+\frac{\mathbb E[1_{\rm bulk}\bar F G]}T
+\le c+\frac{C\epsilon}{\delta}
++\frac{C_\tau}{\sqrt T}
+\left(\sqrt L+\|1_SX_\mu^\circ\|_{2,n}
++\|\mu\|_{\ell^2}\right).
+\]
+Therefore, if the actual mask satisfied either hypothesis of (A) or the algebraic majorization hypothesis of (B), then the order-\(T\) lower bound forced by the near-cap terminal comparison would be contradicted.
+
+For a diffuse near-cap law with
+\[
+\|\mu\|_{\ell^2}^2=o(T/\sqrt n),
+\]
+the equal-shift term is already \(o(T)\). The remaining distinct-shift term is controlled by (A) whenever the actual score-dependent intersections obey
+\[
+K_S(A)=o(a^2T/n).
+\]
+
+## Precise failure of the unconditional prime route
+
+The missing statement is not a prime-counting estimate for ordinary primes alone. The actual set
+\[
+S=\{G\ge cT,\ R\le\delta G/T\}
+\]
+depends simultaneously on:
+
+1. the physical marked orbit at time \(T\);
+2. the chosen true optimizer \(R\);
+3. the pointwise score \(G\);
+4. the chosen optimizer \(F\) through the shifted energy.
+
+None of the supplied ordinary-prime character-sum estimates shows that this set is contained in a bounded-complexity quadratic-character mask, nor that its intersections with translated cap supports satisfy \(K_S(A)=o(a^2T/n)\). Unmasked difference counts for \(A\) do not imply this score-dependent intersection bound.
+
+Indeed, at the purely combinatorial level, a set \(S\) of density \(O(1/T)\) can be arranged to contain many simultaneous intersections
+\[
+S\cap(y-A)\cap(z-A)
+\]
+for a structured \(A\), even when \(A\) has acceptable unmasked difference counts. Thus the prime estimate cannot be applied until an algebraic or dynamical description of the actual score mask is proved.
+
+This leaves the central asymptotic target open:
+
+\[
+\boxed{\text{No unconditional prime-uniform }o(T)
+\text{ bound for the actual }\mathcal E_S(\mu)\text{ is proved.}}
+\]
+
+The result does establish a checked \(o(T)\) bound for the quantified bounded-intersection class (A), and a genuinely prime-sensitive \(o(T)\) bound for the algebraically majorized class (B). It does not prove that the actual complementary terminal mask belongs to either class.
+
+## Ranked next tests
+
+1. **Highest priority: prove score-mask pseudorandomness.**  
+   For the actual \(S\), test whether one can prove
+   \[
+   K_S(A)\ll 2^{-k}n+O(k\sqrt p)
+   \]
+   for cap-support classes \(A\) arising from true optimizers, perhaps after conditioning on \(G\ge cT\). This would connect the physical marking to the ordinary-prime Weil estimate without assuming that \(S\) itself is algebraic.
+
+2. **Second priority: classify the exact-cap obstruction.**  
+   Analyze true optimizers whose cap set \(A\) is periodic or nearly periodic. For such \(A\), compute the actual weighted intersections
+   \[
+   \sum_{y\ne z}X_y^\circ X_z^\circ
+   |S\cap(y-A)\cap(z-A)|
+   \]
+   rather than replacing them by unmasked difference counts. Either a uniform \(o(T)\) bound here or an explicit family with \(K_S(A)\asymp a^2T/n\) would decide whether periodic cap structure is the remaining obstruction.

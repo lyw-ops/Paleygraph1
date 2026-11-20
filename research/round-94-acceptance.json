@@ -1,0 +1,154 @@
+{
+  "round": 94,
+  "accepted_at_utc": "2026-11-19T09:29:11Z",
+  "previous": "research/round-93-acceptance.json",
+  "previous_sha256": "7634b1411675de0f1ce6eff2b87ea4e63e4e364fd0cd6058b4dc3033104f937d",
+  "proof_and_code_sha256": {
+    "research/cap-curvature-94.md": "ae41b1af6790deb2e0fd3bb80d941631cecf90d9cd4eeb85a89cc912d379cd3b",
+    "research/cap-curvature-94-check.py": "32dbc75156deb8d0a2ab8b0c6d0d334c503da96b470b74e801ce7933ed922f57",
+    "research/cap-curvature-94-checks.jsonl": "a7f872d0203660d994b1913bfcd819173c4bd8d2038515b6a0269bec2a98b668",
+    "research/astra-center-94.md": "3f196f53059ae3a3c173302237521228a0d746db5a90da497c499a60f83db011",
+    "research/astra-center-94-check.py": "6fed13d71b099684c82784746575ecd297500357dadd4a24f2b75edef594ab11",
+    "research/astra-center-94-checks.jsonl": "5f617c4439affc7e1eee360131e47aa4f9123e072868ba6f97eb66486fa7a9d2",
+    "research/astra-minors-94.md": "dc04a1cfd53ea00cd3adda7b05ca5af9b720f21625e8d0c2c25dbb26056cd36a",
+    "research/astra-minors-94-check.py": "039e4b104d9b77adae5691998cc7be23d61f085cacebb3d9c766158b28243d43",
+    "research/astra-minors-94-checks.jsonl": "294cefaea67dc3a4e5f909ccd66d2cf8d506349a74999438a5be628ec2c7a473",
+    "research/astra-quotient-94.md": "d74538d6545394d9b59dc6cb10149590ac659555171149037fea7d00961a7861",
+    "research/astra-quotient-94-check.py": "2bf6024f73872d79d18f19ce794b0e118440a8b8c2d0a52a82d24ab7ec742156",
+    "research/astra-quotient-94-checks.jsonl": "9540c926947430376fe6a5a3e8213ffdb85078a9afc49924ead04e160f09ad8b"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/rotated-cap-93-check.py": "bca6ca4e93db31c4b2f6410bd2446fc6af61f3603d471deb10a0a6cfcda3288a",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-velocity-92-check.py": "e4c7558ec60c897777c666d9da096650a28361517e2e4f3b4065c263c9dbbc3c",
+    "research/astra-contact-91-check.py": "d416c0652d4d60691db7f3ed32147102b74f56db37c909dffe66fc8b2fe29bb7",
+    "research/astra-quartic-89-check.py": "eb695e305e87200958cda4e65046df9dcc0968f42f3277d12db90a3a4049c7c9",
+    "research/astra-quotient-75-check.py": "22319bdbc991fb07cd75584f2703bb9084783736ce1f22b37795679de5cdaefe"
+  },
+  "additional_replay_dependency_sha256": {
+    "research/cap-sweep-92-check.py": "6b3e03a399e3d15bb10ba9dfac2c959de511aa170f0cc2f6924b1b2fc8cd616b",
+    "research/real-two-marks-91-check.py": "9ff7d4183b674e4c81dccac9be9bf0a6e90b96d252e50135f79b07eca48c5f14",
+    "research/astra-phase-86-check.py": "e824cc99ce0bc453495e770985cab0759dcecc8cb66d32bf77887071a0b8c503",
+    "research/astra-cold-37-monodromy.py": "e3bee2fc0b799e441e33f6d5c69b84a14fff23df79fddce8591b3ba1198352b3",
+    "research/real-phase-projection-89-check.py": "18206c2736416936b3ef56be6d1911c801e2ab8cf4f5655f69d5e361f44994c6",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/rotated-cap-93.md": "80fa9a35009d12935e9c25f2e0579c65250c070d3caafc48a9391b67d473274a",
+    "research/clipped-signs-90.md": "69fdd51ffbf485f2c8c5866c433c92ee0d13faeb52cec1fa5acd240b33a52fa7",
+    "research/real-phase-projection-89.md": "fabe652d3d6a401ab22d17ea09e5ee5fdfe2b0defd4d2c059aed6ef388c45612",
+    "research/astra-column-90.md": "ff9dfa314624d034f16f1d4a10036e3b3bc3057af4292b672fd7211b3d9985f8",
+    "research/parallel-cold-complex-36.md": "6637d3e29a198fa357b0d193a3d256c215e3a81137d4eef215870f7385e43bed",
+    "research/smoothing.md": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95",
+    "research/astra-source-88.md": "80b4849d9f4e43c9a732af10731e6f1c38f895f0c726ad8df4420e591d746f88",
+    "research/astra-velocity-92.md": "f1b94d7a571e92fb54387fd2e09af16ff45610a516b257b8858f462db04b0fa7",
+    "research/marked-response.md": "5c9f8989e3e9b1ef1bce6e3b2b32cd224639289a463bf688b37b1405304765f7",
+    "research/astra-phase-86.md": "ba511d10d4de1912d4ffd06c1a4b656a9b2fd3ce32bab0a3e09405ac8432e809",
+    "research/real-two-marks-91.md": "4be9bd76789d4396330da21fb8073037624324eb939cb0779f6d6ff8000fc2ec",
+    "research/astra-minors-93.md": "115def73eba82f72cbb90d567c7cd809c6c10967ac1632dca781d825504f8e62",
+    "research/astra-contact-91.md": "d8f68c855288a1863d966009734043136c96bf8ea8b7010b7fa0264313a6706c",
+    "research/astra-coset-93.md": "09ac31141d07f30b6b7e261a39962e5631630422f085f7c2564ef8f81ab14d83",
+    "research/astra-persistent-88.md": "56d6df9a10c4dc9abd5866aa325633238ea8b63fa455fef1fbdf3ca7636c3638",
+    "research/terminal-height-79.md": "cce1001c879a8cb511c72da904c1f3a46a49b590c1cddb8f120c26d7e15b5e36"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/abs/1303.3539",
+      "use": "Aperiodic five-fold quotient sumset lower bound"
+    },
+    {
+      "url": "https://arxiv.org/html/0804.4847v1",
+      "use": "Theorem 2 on one group product equation for genuine pentagon supersaturation"
+    }
+  ],
+  "research_agents": [
+    {
+      "name": "/root/center_94",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the true signed real reflection integral on like-cost upper and lower subsets of a cold balanced survivor.",
+        "Bound the unnormalized remainder oscillation on a single-boundary motion, or prove vanishing curvature on a physical patch through increasing predictor heights."
+      ]
+    },
+    {
+      "name": "/root/minors_94",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the same-site, opposite-sector oriented integral on the deficit quantile. Construct the real profile and the signs from the actual midpoint column.",
+        "Use the endpoint signed-square reconstruction to constrain the full clamped profile in the real fixed-point comparison."
+      ]
+    },
+    {
+      "name": "/root/quotient_94",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound recurrent order-depth companion heights at actual good terminal times on the one optimizer's bounded coset family.",
+        "Use the bounded fifth-root character support near equality to test the remaining critical odd subgroups whose order is divisible by five."
+      ]
+    },
+    {
+      "name": "/root/audit_94",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Vary predictor height on an open patch adjoining the known hot interval and require the field-first residual to tend to zero with that height. Continue toward floors tending to zero.",
+        "At a fixed positive shortfall mass prioritize recurrent exterior height on the actual bounded critical family."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Prove a vanishing weak curvature estimate on a connected physical continuation domain, first on a patch adjoining the hot region. Test increasing predictor heights with uniform cap margins or a direct bound of the actual action modulo a harmonic term.",
+    "Control marked signed curvature or the real two-sector contrast on balanced clipped survivors. Use the deficit-weighted joint minor condition separately on an actual first tie.",
+    "Bound recurrent true mask occupancy on the bounded family of critical cosets, with the true restricted theta in the pin selector. Near the sharp pentagon threshold also test the allowed-sign subgroup forced by common kernels of the finite-order characters."
+  ],
+  "core_records": 10,
+  "arithmetic_record_counts": {
+    "physical_clipped_curvature_arb192": 1,
+    "quadratic_cap_and_balanced_pair_arb256": 4,
+    "actual_signed_endpoint_deficit_arb256": 3,
+    "odd_quotient_exact_and_arb192_physical_selector_arb384": 2
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main ran all final checkers under pipefail with PYTHONPATH=., .venv/bin/python -B, comparing every JSONL byte with cmp. The independent Astra reproduced the four checker outputs and reran the final center and quotient files.",
+    "The Arb192 curvature record compares independent clipped real derivatives with the corrected-product complex Jacobian at p=173 and t=1/50+13i/1000. It checks strict active and marked cap inequalities in the underlying enclosing system.",
+    "Four center Arb256 records verify arithmetic constants, a strict positive upper/lower balance at the actual p=173 row and t=1/50+17i/1000, the separate exact-product spread obstruction for every eligible tilt at the same width, and both positive real endpoint rows for the signed reflection test.",
+    "Three minors Arb256 records certify quantile constants, recovery of the signed-square energy at a strict cold p=173 pre-contact row, and actual wrong signs on two sites at the p=173 small-floor first tie.",
+    "The quotient records exhaust the five Kneser quotient types via exact enumeration and interval bounds, and check the physical p=97 three-length score via repaired rational and interval certificates. The auxiliary numerical solves supply seeds only."
+  ],
+  "proof_scope": [
+    "The common canonical action is C^1 on the open admissible product and cap chart. Its local curvature is minus the real active-block generalized inverse quadratic form of the true marked cross-response. One active sign gives a definite curvature sign. The centered canonical marks are uniformly locally Lipschitz on a common reciprocal-floor cone. Distributional vanishing there, or on a connected domain spanning hot floors and a sequence of cold floors tending to zero, suffices for the original ordinary theta asymptotic by the inherited hot limit.",
+    "Comparing to the same holomorphic complementary completion on the nominated cold square makes the normalized action error quadratic in the height-600 residual. One-boundary monotonicity bounds each signed average correction in that order. The same action yields a weak curvature bound, and on one-sign open patches a positive integrated active marked sensitivity bound. The normalized squared saturated-column mass is quadratic for the centered cap. A two-sign repair on a true tilted row cancels both mean scales in one oriented real Hellinger integral.",
+    "The two genuine real comparisons at a hypothetical first tie imply an exact signed-square budget, including old zero factors. At least 13/1013 of the actual deficit has same-site pairwise oriented exterior caps above the stated interval-average threshold, as well as the large oriented real column. The same budget bounds signed phase and clipped-profile reconstruction from the true real log integrals.",
+    "For odd square-subgroup order b >= 1500 and sqrt(p)/b <= 18/25, either sign has a forbidden triangle or pentagon. The obstruction persists under the stated symmetric deletions for b >= 3000 and implies many rooted simple pentagons via group removal. For sufficiently large eligible b the near-optimal nonroot mass is supported up to a deficit-proportional error on characters of order at most 10^6 divisible by five, giving a strict uniform gap when 5 does not divide b. At fixed target mass, one optimizer bounds the critical candidate list and guarantees a recurrent-site obstruction if the score-minimizing admissible pin remains trapped."
+  ],
+  "independent_review": [
+    "Independent Astra and main checked the action weights, exact complementary completion cross term, harmonic reference, angular monotonicity, curvature sign and normalization, and the common-domain implication.",
+    "Independent review checked the signed-square loss, deficit quantile and same-site simultaneous orientation on the common real interval, and the finite contact and balanced comparison scopes.",
+    "Independent review checked Kneser quotient classification and Jacobi errors, bounded-coset quantifiers, final deletion stability, group-removal application and pure winding near-equality argument."
+  ],
+  "failed_paths_and_open_bounds": [
+    "A finite prime has an actually nonholomorphic clipped mark on a separate small-floor ray. A positive balanced correction can survive all center translations at the tested width on another finite sample. Exact finite holomorphy or balance by itself is insufficient.",
+    "The quadratic height-600 weak curvature estimate on the nominated cold square has a fixed positive field-first upper. It does not yet imply distributional convergence to zero or supply a connected route across floors.",
+    "An all-sites sign statement for the real column fails at the genuine small-floor p=173 first tie. No uniform bound on the cold actual joint deficit quantile or on arbitrary near-flat profiles was proved.",
+    "A constant restricted-theta gap still allows small positive trapped mass. The recurrent physical upper for the actual masks, the eligible odd orders divisible by five near equality, and the escaped branch remain unresolved."
+  ]
+}

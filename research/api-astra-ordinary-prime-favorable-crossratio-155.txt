@@ -1,0 +1,306 @@
+## Verdict
+
+The favorable-sign \(O(p)\) upper is incompatible with the stated near-critical actual branch, provided the Round-152 weighted-anchor flattening and the Round-154 wrong-sign estimate are used exactly as stated.
+
+More precisely, along the true ordinary-prime sequence \(p\equiv1\pmod 4\), with \(p\to\infty\) and the coupled marked-window parameter \(T=T(p)\to\infty\), the actual retargeted deficit \(b\) selected in the Round-151 block satisfies
+\[
+b\ge0,\qquad b_0=0,\qquad
+m_{\rm eff}=\frac{nr^2}{\mathbb E b^2}\sim \frac n{\sqrt p},
+\qquad
+\frac{\|L_\sigma b\|_{2,n}}r=o(1),
+\]
+where \(n=(p-1)/2\), \(r=\mathbb E b\), and \(\mathbb E,\|\cdot\|_{2,n}\) use divisor \(n\). The physical marked coordinate is \(0\), with
+\[
+z_*=(1+\delta)\frac nq,\qquad \delta=T^{-1/6},
+\]
+where \(q\) is the true opposite optimum.
+
+For this actual \(b\), the favorable off-diagonal is not \(O(p)\); conditionally on the stated Round-152 and Round-154 estimates, it is superlinear:
+\[
+\frac{S_+}{p}\longrightarrow+\infty.
+\]
+
+The obstruction is the ordinary-prime multiplicative-correlation tail estimate for the actual reflected functions \(g_a\).
+
+---
+
+## 1. Exact physical expansion with the true anchor law
+
+Put
+\[
+\nu_a=\frac{b_a}{nr},\qquad
+f(t)=\sum_{a\in G}\nu_a\,a(t),
+\]
+where \(G=\widehat Q\), and \(f\) is zero off \(Q\). Thus \(f\) retains its actual complex phase.
+
+Fix \(v\) with \(\chi(v)=\rho=-\sigma\), and define
+\[
+F_0(x)=f(1-vx).
+\]
+For a physical anchor \(a\in G\), put
+\[
+g_a(x)=F_0(x)\,\overline{a(1-vx)}
+\]
+on the contributing \(x\in Q\). For \(u\in Q\setminus\{1\}\), write
+\[
+C_a(u)=\sum_x F_0(ux)\overline{F_0(x)}\,
+          \overline{a(r_u(x))},
+\qquad
+r_u(x)=\frac{1-vux}{1-vx}.
+\]
+
+Averaging over the **true** anchor law \(\nu\), not the uniform law on \(G\), gives exactly
+\[
+\mathcal M
+=\mathbb E_{a\sim\nu}\sum_{u\in Q\setminus\{1\}}|C_a(u)|^2
+=\sum_{u,x,y} A_u(x)\overline{A_u(y)}
+   f\!\left(\frac{r_u(y)}{r_u(x)}\right),
+\]
+where
+\[
+A_u(x)=F_0(ux)\overline{F_0(x)}.
+\]
+
+The diagonal \(x=y\) has \(f(1)=1\). For \(x\ne y\),
+\[
+1-\frac{r_u(y)}{r_u(x)}
+=
+\frac{v(u-1)(y-x)}{(1-vy)(1-vux)}.
+\]
+All denominator factors are squares on the contributing set, hence
+\[
+\chi(1-t)=\rho\,\chi((u-1)(y-x)).
+\]
+
+Define \(S_\pm\) to be the off-diagonal contributions with
+\[
+\chi((u-1)(y-x))=\pm1.
+\]
+Then
+\[
+\mathcal M=D+S_++S_-,
+\]
+where \(D\) is the physical diagonal.
+
+This is the required favorable/wrong sign split, with the original \(F_0\), \(f\), and true weights intact.
+
+---
+
+## 2. The diagonal is \(O(p)\)
+
+By multiplicative Parseval,
+\[
+\sum_{y\in Q}|f(y)|^2
+=n\sum_{a\in G}\nu_a^2
+=\frac n{m_{\rm eff}}
+\sim \sqrt p.
+\]
+The map \(x\mapsto1-vx\) is injective, so
+\[
+\|F_0\|_2^2\le \frac n{m_{\rm eff}}\sim\sqrt p.
+\]
+Therefore
+\[
+D
+=\sum_{u\ne1,x}|F_0(ux)F_0(x)|^2
+\le \|F_0\|_2^4
+=O(p).
+\]
+
+This uses counting norms on the physical field; there is no divisor in this estimate.
+
+---
+
+## 3. The total true-anchor moment is superlinear
+
+For each anchor \(a\), define
+\[
+D_{g_a}
+=\sup_{s\ge1}\frac{s^2}{p}
+ \bigl|\{u\ne1:|C_a(u)|\ge s\}\bigr|.
+\]
+Then directly
+\[
+\frac1p\sum_{u\ne1}|C_a(u)|^2\ge D_{g_a}.
+\]
+
+The ordinary-prime incidence estimate from Round 152 says that, for the reflected \(g_a\),
+\[
+L^2(1+D_{g_a})\log(2L(1+D_{g_a}))
+\gg
+\min(\eta_a^{-1/2},p^{1/4}),
+\]
+where
+\[
+L=\max\left(1,\frac{m_{\rm eff}}{m_0}\right),
+\qquad m_0=\frac n{\sqrt p},
+\]
+and
+\[
+\eta_a
+=\frac{\langle g_a,(I-\mathcal T)g_a\rangle}{\|g_a\|_2^2}.
+\]
+
+The actual affine reflection gives
+\[
+\eta_a=O\!\left(d_a+\frac L{\sqrt p}\right),
+\]
+with
+\[
+d_a=
+\frac{\sum_j b_j^2(1-\rho k(j-a))}
+     {\sum_jb_j^2}.
+\]
+
+The near-critical flattening statement for the actual \(b\) gives
+\[
+\mathbb E_{a\sim\nu}d_a=o(1).
+\]
+Hence \(d_a=o(1)\), and therefore \(\eta_a=o(1)\), in \(\nu\)-probability. Since \(L\to1\), the incidence estimate implies
+\[
+D_{g_a}\longrightarrow\infty
+\qquad\text{in }\nu\text{-probability}.
+\]
+Consequently,
+\[
+\frac{\mathcal M}{p}
+=
+\mathbb E_{a\sim\nu}
+ \frac1p\sum_{u\ne1}|C_a(u)|^2
+\ge
+\mathbb E_{a\sim\nu}D_{g_a}
+\longrightarrow\infty.
+\]
+
+Thus the true weighted total moment is superlinear.
+
+This is not a generic positive-energy argument: it uses the actual reflected \(g_a\), the ordinary-prime incidence estimate, and the true deficit-weighted anchor law.
+
+---
+
+## 4. The wrong-sign contribution is only \(O(p)\)
+
+On the wrong sector,
+\[
+\chi((u-1)(y-x))=-1,
+\]
+equivalently \(\chi(1-t)=\sigma\). The exact pin gives
+\[
+f(t)=c+e(t)
+\]
+there, with
+\[
+c=O(p^{-1/2}),
+\qquad
+\|e\|_2
+\le \frac{\|L_\sigma b\|_{2,n}}r
+=O(n^{-1/3}T^{-2/9}).
+\]
+
+The Round-154 calculation retains the full complex values of \(A_u(x)\) and proves
+\[
+S_-=O(p)
++
+O\!\left(p^{11/12}T^{-2/9}\right)
+=O(p),
+\]
+because \(T\to\infty\) in the actual coupled limit. The \(c\)-part is controlled by the signed character mask and the additive convolution norm of \(\chi\); the \(e\)-part is controlled using the same actual block estimate.
+
+Therefore
+\[
+S_+=\mathcal M-D-S_-.
+\]
+Since \(\mathcal M/p\to\infty\), while \(D=O(p)\) and \(S_-=O(p)\),
+\[
+\boxed{\displaystyle \frac{S_+}{p}\longrightarrow+\infty.}
+\]
+
+The aggregate \(S_+\) is real because it equals the favorable-sector contribution to a sum of squared correlations after subtracting the real diagonal. Thus this disproves not only an absolute \(O(p)\) bound but also a signed upper bound \(S_+\le Cp\).
+
+---
+
+## Named obstruction and its relaxed hypotheses
+
+The obstruction is the ordinary-prime weighted multiplicative-correlation estimate
+\[
+L^2(1+D_g)\log(2L(1+D_g))
+\gg
+\min(\eta_g^{-1/2},p^{1/4}).
+\]
+
+For the contradiction, one does **not** need the full optimizer or the entire retargeted flow. It is enough to have, along ordinary primes \(p\equiv1\pmod4\):
+
+1. \(b\ge0\), \(b_0=0\), with
+   \[
+   m_{\rm eff}/m_0\to1;
+   \]
+2. \(\|L_\sigma b\|_{2,n}/r=o(1)\);
+3. true-anchor concentration
+   \[
+   \mathbb E_{a\sim\nu}d_a=o(1);
+   \]
+4. the physical wrong-sector estimate \(S_-=O(p)\).
+
+No additive-energy assumption, pointwise correlation cap, uniform anchor law, or prime averaging over moduli is required.
+
+Under these relaxed assumptions, the incidence estimate forces
+\[
+\mathbb E_{a\sim\nu}\sum_{u\ne1}|C_a(u)|^2\gg p\,\omega(p),
+\qquad \omega(p)\to\infty,
+\]
+and the \(O(p)\) diagonal and wrong sector force the favorable off-diagonal to carry the same superlinear mass.
+
+---
+
+## Remaining verification gap
+
+The only substantive audit point is the weighted anchor concentration
+\[
+\mathbb E_{a\sim\nu}d_a=o(1)
+\]
+for the **same actual** \(b\). The supplied Round-152 record states this through the near-flat set \(S\), namely that both
+\[
+\nu
+\quad\text{and}\quad
+\frac{b_a^2}{\sum_jb_j^2}
+\]
+are \(o(1)\)-close in \(\ell^1\) to the uniform law on \(S\), while the within-\(S\) phase deficit is \(o(1)\). If that statement is accepted, the obstruction above is complete. If it has not yet been independently rederived from the actual retargeted block, it is the precise point requiring verification.
+
+## Ranked next tests
+
+### 1. Verify the true-anchor phase concentration
+
+Prove directly that
+\[
+\mathbb E_{a\sim\nu}
+\frac{\sum_j b_j^2(1-\rho k(j-a))}
+     {\sum_jb_j^2}
+=o(1).
+\]
+
+A sufficient exact hypothesis is the existence of \(S\subset G\) such that
+\[
+\|\nu-u_S\|_1+
+\left\|
+\frac{b^2}{\sum b_j^2}-u_S
+\right\|_1=o(1),
+\]
+and
+\[
+\frac1{|S|^2}\sum_{a,j\in S}(1-\rho k(j-a))=o(1).
+\]
+This is the highest-priority test because it is the only nontrivial bridge from the ordinary-prime incidence theorem to the actual true anchor distribution.
+
+### 2. Recheck the exact sector transfer with all exclusions
+
+Independently verify, for the actual \(b\),
+\[
+\mathcal M=D+S_++S_-,
+\]
+including \(u=1\), \(x=y\), zero arguments, Jacobi-degenerate tuples, and the physical marking at coordinate \(0\), and re-establish
+\[
+D=O(p),\qquad S_-=O(p)
+\]
+with the original complex \(f\)-phase.
+
+If this audit succeeds, an \(O(p)\) favorable upper is definitively ruled out on the actual near-critical branch.

@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T22:53:43.513301Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-158.json#next_calls",
+  "coordinator_sha256": "cb68d53a4809233cb2dada639db76dc12a7e968f873eaa57fb594eaeef7c9265",
+  "call_ids": [
+    "ordinary-prime-quantitative-slope-spread",
+    "ordinary-prime-weighted-rank-two-transform",
+    "cold-actual-H-vertex-or-invariant"
+  ],
+  "routes": {
+    "r159/ordinary-prime-quantitative-slope-spread": {
+      "question": "Can the genuine near-unit slope exclusion be quantified and extended to a nontrivial portion of the actual marked phase-arc moment?",
+      "scope": "Retain the actual short block, cap, quantitative pin, mass, marked phase sign and original reflected rows. Ordinary-prime incidence thresholds and varying subgroup size must be explicit.",
+      "remaining": "Connect the prime-only slope exclusion or convolution smoothing to moderate actual amplitudes or a real coupled upper on the marked arc. Pointwise trace geometry does not control the true weight law."
+    },
+    "r159/ordinary-prime-weighted-rank-two-transform": {
+      "question": "Can a regular rank-two phase transform yield cancellation with the actual five independent base draws and coupled ratios?",
+      "scope": "Use both slope and outer lifts, the exact true weight laws, actual sign, and the nine regular exclusions. Compare with genuine convolution smoothing only after deriving a correct weighting relation.",
+      "remaining": "Connect the prime-only slope exclusion or convolution smoothing to moderate actual amplitudes or a real coupled upper on the marked arc. Pointwise trace geometry does not control the true weight law."
+    },
+    "r159/cold-actual-H-vertex-or-invariant": {
+      "question": "Can genuine arithmetic inside H or signed interactions across the two height vertices produce a sufficient new confinement?",
+      "scope": "Use original two heights, both lifts, physical t0=n, original square and actual H center or residual terms. Keep denominator restoration and quantitative nonlinear invariant scope clear.",
+      "remaining": "Change the confinement or incorporate arithmetic of true H and interactions across vertices. The actual signed contraction and common complex domain are open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-quantitative-slope-spread": [],
+    "ordinary-prime-weighted-rank-two-transform": [],
+    "cold-actual-H-vertex-or-invariant": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "Quantitative true near-one dispersion and the regular rank-two trace-transform problem are distinct immediate prime obligations. The cold task changes H or the invariant after a W-only obstruction. No shared candidate is assumed."
+}

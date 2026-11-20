@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_149",
+  "comparison": "The first-reflected source d and true failure mask E0 test the first step. The relaxed-flow call tests an actual later deficit with small pinned projection and true optimizer weight. Its replacement of the later source by the original d was an invalid equivalence, so the exact obligations stay distinct. The cold two-center omission is independent.",
+  "groups": [],
+  "dispatch": "coordination/round-149-inflight.json",
+  "launched_at_utc": "2026-11-19T20:53:17.675782Z",
+  "launched_calls": [
+    "ordinary-prime-first-reflected-spill",
+    "ordinary-prime-relaxed-defect-structure",
+    "cold-actual-remainder-two-center"
+  ],
+  "before_sha256": "2a93e9cfd98d7f01a3c2c8855ea436c1dc4f9400b5280835065a567c0f82ee49"
+}

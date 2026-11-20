@@ -1,0 +1,82 @@
+{
+  "round": 118,
+  "accepted_at_utc": "2026-11-19T14:47:35Z",
+  "previous": "research/round-117-acceptance.json",
+  "previous_sha256": "da278829b372d92a497d6b359f67f2ae547cf80eb5ccf9dc1818311d444b0794",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-117.json",
+    "sha256": "13687dba0cdfa93fbce7fe9ef3f584dce6f7ab98938068efead0878153e84c4d"
+  },
+  "proof_and_code_sha256": {
+    "research/cold-exact-exception-budget-118.md": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe",
+    "research/api-astra-review-118.md": "273d121779c564f23f385bdfa58d890b72e94880c277ef94955feb3c403c586a",
+    "research/api-astra-118-receipt.json": "fdf96e3c01911650c830914fc75dab71585260adf6281482fcf8c32325914335",
+    "research/api-astra-overflow-118.txt": "70e18a21199a1f2077df1a79a6c0e226d184b25cb62a39a4bd9dd2247d94b66f"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50",
+    "research/reciprocal-reweighting-117.md": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764",
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/projected-cap-completion-108.md": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5",
+    "research/cold-newton-mark-transfer-115.md": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a",
+    "research/frozen-entry-transfer-105.md": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1",
+    "research/translated-newton-103.md": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, cold combined derivative",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test the common exceptional union and its scaled outer entries at the same true moving starter.",
+        "Compute the signed punctual contributions before taking absolute values and then price the nonpunctual words."
+      ]
+    },
+    {
+      "name": "/root/audit_118",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use a third cutoff for the susceptibility inside the good word while keeping P_a exact.",
+        "Test the actual remaining growth of absolute coefficient and rank cost at the three distinct cutoffs."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Find a true moving starter and control the odd finite word at separate outer, residual and marked inverse cutoffs.",
+    "Return to the rate-free weighted real adjusted overshoot or a genuine bounded source/favored recipient rectangle above its slack.",
+    "Retain the standalone marked scalar continuation and whole reciprocal cubic alternatives."
+  ],
+  "proof_scope": [
+    "At a supplied actual moving complex starter with the R115 assumptions, (1) removes a common exceptional set using the exact outer inverse before Neumann truncation. At the quadratic residual scale it costs o(1) for O(n^beta) actual coordinates without a packet supremum on that set. The direct physical mark term is O(n^(-1)) under the bounded predictor and susceptibility assumptions.",
+    "The returned alternative uses the scaled truncated outer entry bound and the actual normalized inner norm, with the compatible exponent threshold stated in the draft. Both variants require separate arithmetic control on the complement and transfer an angular bound only in the fixed interior domain.",
+    "Under the common sheet and established negative initial packets and closure rules, finite interpolation gives a structural exact representation at each field and floor. The bulk curvature is even and the outer row, susceptibility and inner row are negative. Every word has odd total parity, hence no geometric punctual constituent at the identity. The inherited full-character boundary union projects to at most the physical mark and one translated summation coordinate, before any extra deletions.",
+    "The susceptibility inside the trilinear word may also be truncated independently at m=k+ceil(log log n), with error O(n^(1−beta) q_*^m r+sqrt(n) q_*^(j+m))=o(1). The standalone P_a remains exact. These three finite cutoffs do not bound the rank or coefficient price of the finite word."
+  ],
+  "failed_paths_and_open_bounds": [
+    "Deleting a prescribed number of actual coordinates has a small analytic loss under the displayed hypotheses. It is distinct from pricing additional good-coordinate omissions when taking a complement trace mean.",
+    "A structural finite representation, even with no punctual component and a fixed bad-character union, yields no uniform bound on its coefficients or ranks at growing Picard and inverse depths. The moving starter and combined derivative cap remain unproved.",
+    "The weighted real positivity route and the full prime trilinear reciprocal test remain open. No new cold domain is certified and the original ordinary all-prime limit is unresolved."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. Raw API output and response metadata are preserved."
+  ],
+  "independent_review": [
+    "Independently verified all three norm estimates, direct marked summand, conditional finite-word parity and common boundary union, the API alternative, and the third cutoff error."
+  ]
+}

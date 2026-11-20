@@ -1,0 +1,35 @@
+{
+  "round": 114,
+  "dispatch_status": "terminal; response saved and independently reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-113-acceptance.json",
+    "sha256": "ed8b2247eafffbf724f9aaffdc8b22cc277d0638fc24090b9d6a5297c769edc5"
+  },
+  "coordinator": {
+    "path": "coordination/round-113.json",
+    "sha256": "e69b0e754bbcddd7df3dc078f4431bb9f98616e9e02e3bcd21911bf3abea0c3f"
+  },
+  "call_id": "opposite-input-mark",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "1b41b479ed3bb1eb6893fd68d0c8a884430e9f31b95c974899ce2e2f11885c00",
+  "started_utc_epoch": 1795096653,
+  "local_session_id": 43159,
+  "mission_file": "/tmp/paley-r114-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r114-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r114-api-01a1ed0a/overflow-candidate.md",
+  "local_draft": "research/reciprocal-input-marks-114.md",
+  "next_step": "Use the checked Round 114 coordinator before dispatching new calls.",
+  "audit_agent": "/root/audit_114",
+  "response": {
+    "path": "research/api-astra-overflow-114.txt",
+    "sha256": "9744608b2bdcf59b4e227c37565df34fa57600b85c8c5c9b22521b8a1cc3c6ff"
+  },
+  "receipt": {
+    "path": "research/api-astra-114-receipt.json",
+    "sha256": "4d7b6fdfdd3901bcaacfe2f53d32862634649c8de1c522211300509f5c507f5a"
+  },
+  "acceptance": {
+    "path": "research/round-114-acceptance.json",
+    "sha256": "0ed40361aefe129ec7ba1caccddf934d85fbf489316b5835e2d3388ce6f2f2db"
+  }
+}

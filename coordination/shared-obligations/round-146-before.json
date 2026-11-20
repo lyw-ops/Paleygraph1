@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T20:22:44.179891Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-145.json#next_calls",
+  "coordinator_sha256": "c7b48953b288e4b16d645e85e7d2e7fe433f757989a5b73f5d37eec8eaf0fac3",
+  "call_ids": [
+    "ordinary-prime-deleted-tail",
+    "ordinary-near-cap-shift-frontier",
+    "cold-actual-remaining-derivative"
+  ],
+  "routes": {
+    "r146/ordinary-prime-deleted-tail": {
+      "question": "Can genuine prime arithmetic bound the weighted signed deleted tail of a true ordinary optimizer?",
+      "scope": "Use all ordinary primes p=1 mod 4, fixed positive tau, the actual zero-start trajectory, and selectable T tending to infinity with T+1 in the simultaneous window. Seek the bound for both signs or the genuinely larger optimum sign at each p. Use the true optimizer and exact Xi and take tau down after the prime limit.",
+      "remaining": "Establish the prime-uniform one-sided deleted-tail or near-cap terminal estimate at genuine growing marked times. No estimate on optimizer support alone substitutes for the joint cost."
+    },
+    "r146/ordinary-near-cap-shift-frontier": {
+      "question": "Can a true ordinary prime optimizer supply one near-cap shift with sublinear actual terminal cost?",
+      "scope": "Use actual even F and G, mark left at zero, true q_s and shifts in the cyclic frequency group. Preserve fixed tau, all ordinary primes and selectable growing marked times. Target the larger sign or both signs. This task does not clip the true row.",
+      "remaining": "Establish the prime-uniform one-sided deleted-tail or near-cap terminal estimate at genuine growing marked times. No estimate on optimizer support alone substitutes for the joint cost."
+    },
+    "r146/cold-actual-remaining-derivative": {
+      "question": "Can the selected contracting cold derivative absorb the omitted terms of the actual height-601 and height-602 rows?",
+      "scope": "Use A_h=KD_h for both genuine actual cold rows on the original closed square with t0=n. Let B=K(D^J+D^L), matching the actual chosen Legendre coefficient. Include other center and higher Legendre terms and Picard residuals. Keep the nonlinear invariant and half step separate.",
+      "remaining": "Price the actual neglected derivative terms at heights 601 and 602 below 0.041 per step or the two-step error below 0.080. A bound for the full frozen derivative and a nonlinear invariant with a marked half step remain open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-deleted-tail": [],
+    "ordinary-near-cap-shift-frontier": [],
+    "cold-actual-remaining-derivative": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The deleted-tail mission asks for one signed bound of a true cutoff tail and its exact orbit score. The near-cap frontier mission tests a distinct simultaneous shift mark loss and true positive activation comparison. Either is sufficient for the same ordinary theorem, but no shared exact estimate is asserted. The actual cold remainder concerns a separate nested analytic operator."
+}

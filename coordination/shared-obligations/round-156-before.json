@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T22:23:28.933250Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-155.json#next_calls",
+  "coordinator_sha256": "53bbac87f98b08e0bd97eefa37d214c8cb0e8aeaee04fd82ed12838da27e1ad2",
+  "call_ids": [
+    "ordinary-prime-affine-growing-fibers",
+    "cold-moving-output-translation",
+    "ordinary-prime-quantitative-face-support"
+  ],
+  "routes": {
+    "r156/ordinary-prime-affine-growing-fibers": {
+      "question": "Can a weighted affine-incidence argument control a growing portion of the actual favorable slope fibers?",
+      "scope": "Use actual nonnegative b near critical on the selected short block, complex f, true weights and the explicit chart. Supply a new upper; the conditional lower under a hypothetical sequence is an accepted input.",
+      "remaining": "Prove a signed estimate for growing favorable weighted fibers retaining the transported weights. For the earlier route obtain an adaptive cost bound on the actual optimal face."
+    },
+    "r156/cold-moving-output-translation": {
+      "question": "Can a true omitted arithmetic family with output shift depending on canonical input weight produce signed gain at large width?",
+      "scope": "Keep both actual heights, both physical lifts, common square and floor, t0=n and actual coefficient. Work on a family growing with j and price the result on actual translated columns, with exceptional and analytic tails stated.",
+      "remaining": "Find a genuinely translated overlap with moving output shifts or alternative confinement. The whole signed difference, invariant ball and half-step remain open."
+    },
+    "r156/ordinary-prime-quantitative-face-support": {
+      "question": "Can the exact relative-interior support description yield a quantitative upper for the original first-spill optimal face?",
+      "scope": "Preserve F in U_{−σ}, dual in U_σ, actual complementary zero set and original signed middle source with roots and diagonal deleted at admissible T.",
+      "remaining": "Prove a signed estimate for growing favorable weighted fibers retaining the transported weights. For the earlier route obtain an adaptive cost bound on the actual optimal face."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-affine-growing-fibers": [],
+    "cold-moving-output-translation": [],
+    "ordinary-prime-quantitative-face-support": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The new favorable assignment concerns growing real weighted affine slope fibers in the late selected near-critical branch. The early quantitative face assignment uses an unrelated first-spill source and true tight face. The cold assignment studies omitted arithmetic signatures traveling with the input shift. Each has a distinct shown obligation."
+}

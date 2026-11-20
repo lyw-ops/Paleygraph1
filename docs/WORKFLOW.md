@@ -8,11 +8,14 @@ From the repository root, run:
 
 ```sh
 python3 scripts/research_index.py
+python3 scripts/round_review.py status
 ```
 
 Read the latest acceptance record it names, its `proof_scope`, `failed_paths_and_open_bounds` and `main_ranked_closeout`, then the relevant route notes and latest ledger entries. The [generated index](../research/README.md) links the available acceptance records. The root handoff and coordinator prompt describe round 36 and are useful historical context.
 
 Check `git status --short` to see which material is still local. A later filename or an agent's completion message alone gives a draft no acceptance status. The acceptance records describe the project's review and computation process; this navigation layer does not independently certify it.
+
+Read the latest [coordinator assessment](ROUND_REVIEW.md) alongside the acceptance record. If it is missing, draft or stale, prepare it before exporting another research mission. `status` checks source references and required assessment fields; it does not judge the mathematics.
 
 ## Work on a route
 
@@ -26,6 +29,27 @@ Keep existing proof notes, scripts and saved evidence at their current paths. Th
 ## Close a round and prepare the next session
 
 Record the result, scope, review, saved inputs, replay commands and remaining estimates in the route notes and acceptance record. The coordinator consolidates overlapping proposals and records ranked next tests in the ledger and acceptance record. For each proposed mission, say what its possible outcomes would decide.
+
+Then record the change from the previous acceptance in `coordination/round-N.json`:
+
+```sh
+python3 scripts/round_review.py init
+# Fill the new coordinator record and set record_status to ready.
+python3 scripts/round_review.py check --current
+python3 scripts/round_review.py show
+```
+
+The coordinator writes the before/after assessment and remaining obligation. The tool supplies source references and a draft only; it never infers that a new theorem was proved or a proof obligation disappeared. An unchanged plan is a valid assessment.
+
+Before a new agent call, export the selected proposed mission:
+
+```sh
+python3 scripts/round_review.py mission --call CALL_ID > /tmp/paley-next-mission.md
+```
+
+Use the exported text as the research assignment, adding the existing role and file-ownership instructions. Export checks that the record covers the latest acceptance, its cited sources still match, and the proposal explains why this call matters and what supported, refuted or inconclusive outcomes would decide. It does not launch an agent. Actual launch identifiers remain in the existing dispatch records. See the [field guide](ROUND_REVIEW.md) for the record format and limitations.
+
+For each new research batch, save the [shared-obligation comparison](../coordination/shared-obligations/README.md) before launching it. Automated launchers can capture the selected calls and bind the snapshot in their inflight manifest. At closeout, classify confirmed overlaps and note which ones would have changed the dispatch. An unavailable pre-dispatch comparison goes down as unknown.
 
 After creating or updating an acceptance record, refresh the navigation page:
 

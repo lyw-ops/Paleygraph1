@@ -1,0 +1,61 @@
+{
+  "round": 177,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-176-acceptance.json",
+    "sha256": "a8ff13ae167d3b53b6e601bed7190daec6c68c6dbe984596e0b2bd78b7cbaf7c"
+  },
+  "coordinator": {
+    "path": "coordination/round-176.json",
+    "sha256": "76fd67c04cfc1e19c0fa72d2195ee6c5f6a1aae226e6106ca5f9ccf432d063c9"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-177.py",
+    "sha256": "024bd7861938cc80f4cf75ed6dd0c9b83c58edb77b6167a6c2f979d7edea26c6"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-177-before.json",
+    "sha256": "8016775c22b37e8bb7a8f37b7e617de5253d3433c033eafa7524947bf3fc8328"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-coupled-output-set-incidence",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "e4a6a2caeee010a50f311b837a303de713c0b139129e41065383500b7d52fd06",
+      "mission_file": {
+        "path": "coordination/missions/round-177/ordinary-prime-coupled-output-set-incidence.md",
+        "sha256": "af1fcca0ccf18c592f5fb7a66cf8b909aef360de4844e6816adefde19790c591"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r177-api-01a1ed0a/ordinary-prime-coupled-output-set-incidence-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r177-api-01a1ed0a/ordinary-prime-coupled-output-set-incidence-candidate.md",
+      "started_utc_epoch": 1795139804.971879
+    },
+    {
+      "call_id": "ordinary-prime-rich-right-distribution",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "7c3f90088a1e2969c9a1757f8e9244f7e695230969c2a0e0cd87768f72c50077",
+      "mission_file": {
+        "path": "coordination/missions/round-177/ordinary-prime-rich-right-distribution.md",
+        "sha256": "cdba195ac01b08d9ef39e64d63d6e8d2092bc268482d5e6d9bda99c522fc3b83"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r177-api-01a1ed0a/ordinary-prime-rich-right-distribution-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r177-api-01a1ed0a/ordinary-prime-rich-right-distribution-candidate.md",
+      "started_utc_epoch": 1795139804.9713411
+    },
+    {
+      "call_id": "cold-prime-signed-source-bundle",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "92a0f0fe57cb2bc7308e708e4ff883ed655e51569bffe304168860706b11028a",
+      "mission_file": {
+        "path": "coordination/missions/round-177/cold-prime-signed-source-bundle.md",
+        "sha256": "9137c458983371bfbed73b89ad7a3e436ec1dcbb975bcae3f13bd563106b0b69"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r177-api-01a1ed0a/cold-prime-signed-source-bundle-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r177-api-01a1ed0a/cold-prime-signed-source-bundle-candidate.md",
+      "started_utc_epoch": 1795139804.9710631
+    }
+  ]
+}

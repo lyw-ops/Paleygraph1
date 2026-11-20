@@ -1,0 +1,131 @@
+## Result
+
+**Inconclusive; the requested bound \(<0.721\) is not established.** The available certified estimates miss the target by a small but genuine amount, and the positive comparison obstruction does not refute the actual signed block.
+
+Let
+\[
+A_h=K D_h,\qquad J=K D^{\mathrm J},\qquad R_h=K E_h=A_h-J,
+\]
+with \(h=601,602\). On the original closed square \(Q\), with the actual marked coordinate \(t_0=n\), both boundary pairs retained, and the physical translated norm \(P_{5000}\), the accepted resummation gives, for sufficiently large eligible primes,
+\[
+\|A_h\|_{P_{5000}}<0.666,\qquad
+\|J\|_{P_{5000}}<0.528.
+\]
+
+The desired block is
+\[
+A_{602}A_{601}-J^2.
+\]
+Without a new joint signed identity, the available submultiplicative estimate is only
+\[
+\|A_{602}A_{601}-J^2\|_{P_{5000}}
+\le
+\|A_{602}A_{601}\|_{P_{5000}}+\|J^2\|_{P_{5000}}
+<
+0.666^2+0.528^2.
+\]
+Numerically,
+\[
+0.666^2+0.528^2
+=0.443556+0.278784
+=0.722340,
+\]
+which is above \(0.721\).
+
+Equivalently, using
+\[
+A_{602}A_{601}-J^2
+=R_{602}A_{601}+J R_{601},
+\]
+would require correlated control of the two signed remainders. The current estimate \(\|R_h\|_{P_{5000}}<0.666\) is an upper bound for each actual step, not the required joint signed transport estimate.
+
+## What is genuinely supported
+
+The resummed calculation does establish the following useful facts.
+
+1. **Actual one-step signed collection.**  
+   Pure seed powers are collected exactly before modulus. For the nonseed factors, the calculation uses the positive envelope \(\beta\), including the excess-zero charge and residual envelope. The resulting eventual actual prices are
+   \[
+   \|K E_h^{(1)}\|_{P_{5000}}<0.527,\qquad
+   \|K(E_h-E_h^{(1)})\|_{P_{5000}}<0.142,
+   \]
+   and hence
+   \[
+   \|K E_h\|_{P_{5000}}<0.666.
+   \]
+   These include the analytic tail, exceptional-lift repair, actual marked corrections, and both boundary pairs.
+
+2. **Pure Jacobi block.**  
+   The all-order pure-seed estimate gives
+   \[
+   \|J\|_{P_{5000}}<0.528,
+   \qquad
+   \|J^2\|_{P_{5000}}<0.278784.
+   \]
+
+3. **The positive-comparison obstruction is not a counterexample.**  
+   The positive transport witness with rate \(>0.570\) only applies after cancellation between distinct nonseed words has been discarded. It therefore does not lower-bound the actual signed operator
+   \[
+   A_{602}A_{601}-J^2.
+   \]
+   It shows only that repricing that particular comparison cannot reach the one-step target \(0.472\).
+
+4. **Counting and fixed-height confinement are not the missing block estimate.**  
+   The prior counting estimates give useful fixed-height contraction and outgoing control, but they do not provide a \(P_{5000}\)-priced joint block bound or a growing-depth invariant-ball argument.
+
+## Remaining hypotheses and order of limits
+
+The calculation is on the **original closed square**
+\[
+Q=\left\{a:\left|a-\frac{2031}{128}\right|\le 2^{-17}\right\},
+\]
+with the physical marking at \(t_0=n\), bulk coordinates using the actual \(t_i\), and the translated physical norm \(P_{5000}\). The prime family is the sufficiently large **eligible/good prime family** for which the Mellin lifts, exceptional repairs, and analytic-tail estimates hold.
+
+The established estimates are eventual in that family: for every fixed frozen block \(h=601,602\), the finite retained computation is followed by the limit \(n\to\infty\), with the \(O_{5000}(n^{-1/2})\) marked and exceptional corrections then absorbed. This does **not** yet justify the second required limit in which Picard depth grows. A complete result would need uniform sheet confinement and invariant-ball control for all depths \(k\), after the large-\(n\) estimates have been made uniform.
+
+## Quantitative size of the missing improvement
+
+Using the current pure-seed bound \(0.528\), the actual factor would need to satisfy
+\[
+\|A_h\|_{P_{5000}}
+<
+\sqrt{0.721-0.528^2}
+=
+\sqrt{0.442216}
+\approx 0.664993.
+\]
+Thus the displayed \(0.666\) bound is only about \(0.00101\) too weak at the factor level.
+
+Alternatively, retaining \(0.666\) for the actual factor would require improving the pure-seed bound to
+\[
+\|J\|_{P_{5000}}
+<
+\sqrt{0.721-0.666^2}
+=
+\sqrt{0.277444}
+\approx 0.526729.
+\]
+
+These are fallback numerical targets, not established estimates.
+
+## Ranked next tests
+
+1. **Joint signed two-step Laurent/word aggregation — highest priority.**  
+   Expand
+   \[
+   A_{602}A_{601}-J^2
+   \]
+   before applying the positive envelope, retaining the common pure-seed powers and the translated pair through both steps. In particular, identify repeated actual nonseed words across the two heights and preserve their signs through the intermediate \(K\). A certified \(P_{5000}\) outward computation below \(0.721\), including the infinite tail and \(O_{5000}(n^{-1/2})\) marked repairs, would settle the frozen block.
+
+2. **Sharpen one factor or isolate a signed cross-term — second priority.**  
+   Either:
+   - improve the actual translated factor bound from \(0.666\) to \(<0.664993\), or
+   - improve the pure-seed factor from \(0.528\) to \(<0.526729\), or
+   - directly bound the cross expression
+     \[
+     R_{602}A_{601}+J R_{601}
+     \]
+     below \(0.721\) while retaining cancellation between the two terms.  
+   After such a bound, separately verify the half-step margin, the invariant-ball radius, and uniform growing-depth confinement in the order \(n\to\infty\) first and Picard depth \(k\to\infty\) second.
+
+Thus the present record supports a **near miss for the frozen physical block**, not a proof or refutation of the \(0.721\) target.

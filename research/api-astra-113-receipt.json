@@ -1,0 +1,19 @@
+{
+  "overflow": {
+    "provider_host": "api.appintheloop.com",
+    "call_id": "square-transport-reciprocal",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "afabde0e19f007ce519972eb9f93429d8950860c89440ca3fb50e92ae101dd98",
+    "started_utc_epoch": 1795095832,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7861,
+      "completion_tokens": 2228,
+      "total_tokens": 10089
+    },
+    "draft_sha256": "9b831c8056f65c7f9b51d9b47b3700fd6bb59f5310a29445afb5c0177e0a1067",
+    "status": "returned-draft"
+  }
+}

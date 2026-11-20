@@ -1,0 +1,240 @@
+## Result: the endpoint charge alone does not force the required spectral alternative
+
+I obtain a precise partial result, but not the desired contradiction.
+
+Fix a hypothetical ordinary-prime gap and parameters \(\tau,\eta,\omega\), with \(0<\omega<2\). Let \(p\equiv1\pmod 4\) range over ordinary primes, \(n=(p-1)/2\), and choose one admissible growing marked time \(T=T(p)\) with \(T,T+1\) in the simultaneous marked window. Keep the true optimum \(q=q(p)\), the actual mark
+\[
+z_*=(1+\delta)\frac nq,\qquad \delta=T^{-1/6},
+\]
+the actual retargeted row \(x\), and the actual negative-part history
+\[
+b_{j+1}-b_j=-\omega D_jL_\sigma b_j,\qquad b_0=0.
+\]
+Take the actual step \(j\) selected in the R151 argument with \(m=n^2\), and write
+\[
+r=\mathbb E b_j,\qquad h=\frac{b_j}{r}.
+\]
+All norms below are normalized counting norms over the \(n\) divisor coordinates.
+
+For every true complementary optimum \(R\), retain the fixed-floor endpoint cost
+\[
+C_R
+ =
+1_{\rm bulk}\Bigl(-(1-\lambda)e_\sigma-c-\delta^{-1/2}R\Bigr)_+,
+\]
+where \(c=c_{\tau,\eta}>0\) is fixed before \(p\to\infty\). The actual R151 bounds give
+\[
+\mathbb E(hC_R)\ge c_0-o(1),\qquad
+\|C_R\|_{2,n}=O_\tau(T^{-1/2}),\qquad
+|\operatorname{supp}C_R|/n=O_{\tau,\eta}(T^{-1}).
+\tag{1}
+\]
+
+They also give
+\[
+\|L_\sigma h\|_{2,n}=o(1),
+\tag{2}
+\]
+and, with
+\[
+m_{\rm eff}=\frac{n}{\mathbb E h^2},
+\qquad
+m_0=\frac n{\sqrt p},
+\qquad
+L=\max\left(1,\frac{m_{\rm eff}}{m_0}\right),
+\]
+the actual pinned-projection estimate implies
+\[
+m_{\rm eff}\ge (1-o(1))m_0.
+\tag{3}
+\]
+
+### What the endpoint charge does force
+
+From (1), with \(S_R=\operatorname{supp}C_R\),
+\[
+c_0-o(1)
+ \le \|1_{S_R}h\|_{2,n}\,\|C_R\|_{2,n},
+\]
+so
+\[
+\mathbb E\bigl[1_{S_R}h^2\bigr]\gg_{\tau,\eta}T.
+\tag{4}
+\]
+Consequently
+\[
+m_{\rm eff}\ll_{\tau,\eta}\frac nT.
+\tag{5}
+\]
+Thus the actual endpoint charge forces concentration of the **coordinate vector \(h=b_j/r\)** on the actual endpoint mask \(S_R\), at the scale \(n/T\). This is a genuine consequence of the signed endpoint lower bound.
+
+Combining (3) and (5),
+\[
+(1-o(1))m_0\le m_{\rm eff}\ll_{\tau,\eta}\frac nT.
+\tag{6}
+\]
+
+This is the full support/effective-size conclusion currently available from the actual endpoint charge.
+
+## Prime consequence in the accessible effective-size range
+
+Define, as in the prime restriction,
+\[
+f(x)=\frac1n\sum_j h_jj(x),\qquad x\in Q.
+\]
+Then \(h\ge0\), \(\mathbb Eh=1\), \(|f|\le1\), and
+\[
+\|f\|_{2,Q}^2=\frac n{m_{\rm eff}}.
+\]
+
+For a union \(B\subset Q\) of at most \(K\) multiplicative cosets, with each constituent subgroup having size between \(c_1\sqrt p\) and \(c_2\sqrt p\), put
+\[
+t_B=\frac{\|1_{Q\setminus B}f\|_2^2}{\|f\|_2^2}.
+\]
+For an anchor \(a\), put
+\[
+d_a
+ =
+\frac{\sum_j h_j^2\bigl(1-\rho k(j-a)\bigr)}
+     {\sum_j h_j^2},
+\qquad \rho=-\sigma.
+\]
+
+The ordinary-prime coset-spread estimate applies to the **actual** \(h\), because (2) is stronger than the required fixed \(C\)-bound. Uniformly in \(B\) and \(a\),
+\[
+\boxed{
+t_B+d_a\gg_{K,c_1,c_2,\tau,\eta}
+\frac1{L^4\log^2(2L)}
+}
+\qquad
+\left(L\le p^{1/12}\right).
+\tag{7}
+\]
+
+In particular, if the actual step is critical,
+\[
+\frac{m_{\rm eff}}{m_0}\to1,
+\]
+then the flattening argument supplies an anchor \(a\) with
+\[
+d_a=o(1),
+\]
+and (7) yields
+\[
+t_B\gg 1
+\tag{8}
+\]
+for every bounded union \(B\) of the specified square-root cosets. Therefore the critical actual deficit cannot have Fourier mass concentrated in such a \(B\).
+
+This is a genuine excluded prime configuration. It uses the true \(b_j\), the true \(q\), the true mark, and the true \(R151\) history; it is not a replacement by an arbitrary feasible row.
+
+There is also a concrete range condition. Since (6) gives
+\[
+L\ll \max\left(1,\frac{\sqrt p}{T}\right),
+\]
+the full prime bound (7) is available whenever
+\[
+T\gtrsim p^{5/12}.
+\tag{9}
+\]
+Equivalently, one needs
+\[
+m_{\rm eff}\lesssim p^{7/12}.
+\]
+If the admissible marked window only gives \(T\ll p^{5/12}\), then (7) has not yet been established uniformly over the entire actual effective-size range.
+
+## Precise remaining gap
+
+The endpoint charge does **not** presently imply either
+
+1. \(d_a=o(1)\) for a useful anchor \(a\), except in the separately controlled critical regime; or
+2. \(t_B=o(1)\) for a bounded union \(B\) of square-root cosets.
+
+The reason is structural. The endpoint lower bound is only
+\[
+\mathbb E(hC_R)\ge c_0-o(1),
+\]
+where \(C_R\) is the actual positive-part mask
+\[
+\bigl(-(1-\lambda)e_\sigma-c-\delta^{-1/2}R\bigr)_+.
+\]
+It forces \(h\) to place \(L^2\)-mass on the actual coordinate set \(S_R\), but gives no multiplicative-coset description of \(S_R\), nor any relation between \(C_R\) and the multiplicative Fourier transform \(f\).
+
+The following relaxed construction shows that this missing bridge cannot be supplied from the endpoint inequalities alone. On the same ordinary-prime coordinate set, choose \(S\) with \(|S|=n/T\), and define
+\[
+h_S=T1_S,\qquad C_S=1_S.
+\]
+Then
+\[
+\mathbb Eh_S=1,\qquad
+\mathbb E(h_SC_S)=1,\qquad
+\|C_S\|_{2,n}=T^{-1/2},\qquad
+m_{\rm eff}(h_S)=\frac nT.
+\]
+Thus \(h_S,C_S\) satisfy exactly the endpoint-size and endpoint-charge estimates (1), while
+\[
+f_S(x)=\frac Tn\sum_{j\in S}j(x)
+\]
+need not concentrate on any prescribed bounded union \(B\). For a uniformly random \(S\), and any fixed such \(B\),
+\[
+\mathbb E_S\|1_Bf_S\|_2^2
+ \le 1+O\!\left(\frac{T|B|}{n}\right)
+ =1+O\!\left(\frac T{\sqrt p}\right),
+\]
+whereas \(\|f_S\|_2^2=T\). Hence \(t_B\to1\) whenever \(T\to\infty\) and \(T=o(\sqrt p)\).
+
+This example deliberately does **not** satisfy the actual low-motion condition (2). It therefore does not refute an endpoint-to-spectral implication for the actual history. It does rigorously identify the missing ingredient: one must use the exact active-set operators \(L_\sigma D_jL_\sigma\), or an arithmetic property of the actual endpoint mask, beyond the scalar charge and support bounds.
+
+## Verdict
+
+**Inconclusive for the actual asymptotic target.**
+
+What is proved is:
+
+- actual endpoint charge \(\Rightarrow\) coordinate concentration of \(h=b_j/r\) on \(S_R\);
+- actual history \(\Rightarrow\) low projected motion;
+- in the range \(L\le p^{1/12}\), ordinary-prime arithmetic excludes simultaneous small anchor deficit and bounded-coset Fourier concentration;
+- in the critical regime \(m_{\rm eff}\sim m_0\), the anchor deficit is already \(o(1)\), so bounded-coset Fourier concentration is excluded.
+
+What is not proved is that the actual endpoint charge forces the second side of that alternative. In particular, diffuse critical low-energy directions remain compatible with all presently established endpoint inequalities.
+
+## Two ranked next tests
+
+### 1. Highest priority: exact active-set endpoint estimate
+
+For the actual R151 block, retain the exact matrices \(D_j\) and prove a restricted estimate of the form
+\[
+\mathbb E(hC_R)
+\le o(1)+\Psi\bigl(t_B+d_a\bigr)
+\]
+for every actual \(R\), with \(\Psi(u)\to0\) as \(u\to0\), or directly prove that
+\[
+\mathbb E(hC_R)\ge c_0
+\quad\Longrightarrow\quad
+t_B+d_a\le \varepsilon_p
+\]
+for some bounded-coset \(B\) and \(\varepsilon_p\to0\).
+
+This must use the same actual \(b_j\) history and the secant relation
+\[
+h_{j+1}-h_j=-\omega D_jL_\sigma h_j,
+\]
+not an arbitrary vector with the same effective support. A successful estimate would combine with (7) and close the prime contradiction.
+
+### 2. Second priority: isolate the effective-size and endpoint-mask ranges
+
+First establish either
+\[
+T\gtrsim p^{5/12}
+\]
+at one admissible marked time, or directly prove for the actual step that
+\[
+m_{\rm eff}\le p^{7/12}.
+\]
+This activates the prime restriction over the entire relevant actual range.
+
+In parallel, test whether the actual masks
+\[
+S_R=\left\{-(1-\lambda)e_\sigma>c+\delta^{-1/2}R\right\}
+\]
+have a uniform affine/multiplicative correlation bound strong enough to transfer coordinate concentration of \(h\) into Fourier concentration of \(f\). Without such an estimate, the endpoint mask remains an arbitrary-looking sparse physical set, and prime coset-spread alone cannot control it.

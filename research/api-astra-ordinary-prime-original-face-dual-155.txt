@@ -1,0 +1,164 @@
+## Result
+
+For the actual ordinary-prime family \(p\to\infty\) through the admissible primes of the construction, with
+\[
+n=\frac{p-1}{2},
+\]
+normalized expectation \(\mathbb E=n^{-1}\sum\), fixed floor \(\tau>0\), and an admissible marked time
+\[
+T=T(p)\to\infty,\qquad T+1\ \text{in the simultaneous marked window},
+\]
+the exact secondary-dual reduction is available, but the requested ordinary-prime \(o(1)\) upper is not presently proved.
+
+The reduction applies to the original signed first-spill source, not to the later affine fourth-moment weight.
+
+Let \(F\) be a true opposite-sign optimum with root \(q=F_0\), and let \(\mathcal R\) be the full true optimal face of the opposite sign. Define the actual common complementary zero set
+\[
+I_p(T)=\{i\neq 0:R_i=0\ \text{for every }R\in\mathcal R\}.
+\]
+With
+\[
+u=T^{-1/3},\qquad
+d_{\rm mid}
+=d\,1_{\{n^{-1/4}T^{1/12}<d\le \sqrt n\,T^{-5/6}\}},
+\]
+and
+\[
+S=\{i\in I_p(T):b_i^{(0)}\ge b_*\},
+\]
+the original signed cost is
+\[
+w_i=-\sigma\,1_S(i)(K^\circ d_{\rm mid})_i,\qquad w_0=0,
+\]
+where \(K^\circ\) deletes the diagonal and both physical roots are excluded.
+
+The exact face dual is
+\[
+\boxed{
+\max_{\substack{Z\in U_{-\sigma}\\ Z_i\le w_i\ (i\in I_p(T))}}
+\left(\mathbb EZ-\frac qn Z_0\right)
+}
+\tag{D}
+\]
+with \(U_{-\sigma}=\mathbb R\mathbf 1\oplus V_{-\sigma}\). The same formula holds for the clipped nonnegative comparison cost \(w_+\).
+
+### What is proved about this cost
+
+The first-spill analysis gives, uniformly over true opposite optima \(F\),
+
+\[
+\mathbb E(Fw)\ge g-b_*
+-O_\tau\!\left(
+T^{-1/12}+T^{-1/6}+n^{-1/2}T^{-2/3}
+\right),
+\]
+where
+\[
+g=\frac{qz_0}{n}-1.
+\]
+
+Thus, under a fixed hypothetical gap \(q\ge (1+\eta)\sqrt n\), choosing \(b_*>0\) sufficiently small gives a fixed positive lower bound for the primal pairing.
+
+Moreover, replacing the signed cost by the positive clipped cost changes every true primal minimum by only
+\[
+O_\tau\!\left(
+T^{-1/12}+T^{-1/6}+n^{-1/2}T^{-2/3}
+\right).
+\]
+Hence a normalized \(o(1)\) upper for either version of (D) would exclude the fixed gap.
+
+This part preserves the original signed middle source, the opposite optimum sign, the full high receiver, the actual zero set \(I_p(T)\), both physical roots, and the deleted diagonal.
+
+## Separation/multiplier test
+
+The natural separation test is to prove, uniformly for every admissible \(Z\in U_{-\sigma}\),
+\[
+\mathbb EZ-\frac qn Z_0=o(1)
+\quad\text{whenever}\quad
+Z_i\le w_i\quad(i\in I_p(T)).
+\tag{S}
+\]
+
+A useful exact observation is that \(Z=0\) is feasible: on \(S\), the signed first-spill analysis gives
+\[
+-\sigma(K^\circ d_{\rm mid})_i\ge b^{(0)}_i\ge b_*>0,
+\]
+while \(w_i=0\) on \(I_p(T)\setminus S\). Therefore the dual value is at least \(0\).
+
+Also, every true complementary optimizer \(R\in\mathcal R\) gives a neutral feasible direction:
+\[
+R_i=0\quad(i\in I_p(T)),\qquad
+\mathbb ER-\frac qnR_0=1-\frac qn\frac nq=0.
+\]
+Thus the obvious positive face direction cannot produce a positive dual value.
+
+However, this does not establish (S). The constraints only control \(Z\) on the adaptive set \(I_p(T)\), and on the active subset \(S\) they allow positive values of size comparable to the signed kernel spill. No available ordinary-prime estimate controls the functional
+\[
+Z\longmapsto \mathbb EZ-\frac qn Z_0
+\]
+for all \(Z\in U_{-\sigma}\) under these adaptive pointwise inequalities.
+
+In particular, the ordinary-prime estimates reviewed in Round 154 concern favorable signed off-diagonal averages after a specific lift/kernel reduction. They do not imply a uniform estimate for the exact family of dual residuals \(Z\), whose support and signs may depend on:
+
+1. the true face \(\mathcal R\);
+2. the common zero set \(I_p(T)\);
+3. the first-spill deficit \(d\);
+4. the selected high receiver \(S\).
+
+The later retargeted affine fourth-moment weight is a different source and cannot be substituted for \(w\). Therefore the proposed transfer to the original high first-spill optimum fails.
+
+## Precise failure
+
+The checked conclusion is:
+
+\[
+\boxed{
+\text{The exact dual reduction and the positive primal lower bound are valid, but no ordinary-prime }o(1)
+\text{ upper for (D) follows from the presently available estimates.}
+}
+\]
+
+This is a failure of the sufficient separation bound, not a refutation of the asymptotic target. No explicit dual obstruction \(Z\) with a positive limiting objective has been constructed.
+
+Equivalently, the remaining gap is the following adaptive ordinary-prime statement:
+
+> For the actual prime family \(p\), actual marked \(T(p)\), actual common zero set \(I_p(T)\), and original signed cost \(w=-\sigma1_S K^\circ d_{\rm mid}\), prove a uniform \(o(1)\) bound for the dual functional in (D).
+
+A finite-prime computation, or a bound for a fixed nonadaptive slice of \(I_p(T)\), would not settle this asymptotic statement.
+
+## Ranked next tests
+
+### 1. Highest priority: prove an adaptive restricted-correlation estimate
+
+Establish a prime-uniform estimate directly for all \(Z\in U_{-\sigma}\) satisfying
+\[
+Z_i\le -\sigma(K^\circ d_{\rm mid})_i
+\quad(i\in S),\qquad
+Z_i\le0
+\quad(i\in I_p(T)\setminus S),
+\]
+with
+\[
+\mathbb EZ-\frac qn Z_0=o(1).
+\]
+
+The estimate must retain the actual \(I_p(T)\), the actual \(S\), both root exclusions, and diagonal deletion. A successful bound should exploit the ordinary-prime kernel structure only after conditioning on the true face; a bound for independent or nonadaptive subsets is insufficient.
+
+### 2. Second priority: test for a genuine dual obstruction via the recession cone
+
+Analyze the finite-dimensional cone
+\[
+\mathcal C=
+\{H\in U_{-\sigma}:H_i\le0\text{ on }I_p(T)\}.
+\]
+
+If there exists \(H\in\mathcal C\) with
+\[
+\mathbb EH-\frac qnH_0>0,
+\]
+then the exact dual would be unbounded above, contradicting primal finiteness; this provides a sharp algebraic consistency test. If no such recession direction exists, compute or estimate the extremal normalized multiplier on the active set \(S\). This may reveal either:
+
+- a uniform \(o(1)\) bound compatible with prime cancellation, or
+- a concrete positive dual residual showing that the proposed face regularization cannot work.
+
+The test must use the actual ordinary primes, \(I_p(T)\), physical root marking, and the fixed-floor/admissible-\(T(p)\) order of limits; it should not replace the original signed source by the later fourth-moment weight.

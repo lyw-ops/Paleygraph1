@@ -1,0 +1,110 @@
+## Checked conclusion
+
+No exact arithmetic pooling result can be certified from the supplied record excerpts. The first required datum—the eight **actual center fields**, their finite-field trace definitions, independent lifts, and determinant twists—is not present in the quoted material. The references describe derived labels such as
+\[
+U,\ U',\ D,\ D^\vee,\ R
+\]
+and state some identities among their aggregate kernels, but they do not define the eight center objects as actual finite-field trace functions with their physical marked-coordinate values.
+
+Consequently, the requested comparison cannot be completed without risking an invalid identification of numerically similar but representation-theoretically distinct objects.
+
+### What is established
+
+The cold-linear records keep the center and residual pieces separate:
+\[
+E_h^{(1)}=E_{\rm cen}+E_{{\rm res},h},
+\qquad
+E_{\rm cen}
+=\operatorname{diag}\!\bigl(d'_{t_i}(S_i)(\mathcal C_i-S_i)\bigr).
+\]
+The available bounds are only positive comparison bounds:
+\[
+\|K E_{\rm cen}\|_{P_{5000}}<0.267,\qquad
+\|K E_{{\rm res},h}\|_{P_{5000}}<0.260,
+\]
+while the earlier jointly priced linear bound is \(<0.527\). None of these proves a signed identity among the eight actual center fields. In particular, the \(0.070\) target is the **center-only** budget after separately charging \(0.260\) residual and \(0.142\) nonlinear terms; it is not equivalent to proving a whole-linear bound below \(0.330\).
+
+The resummed calculation explicitly preserves this distinction: it collects repeated seed powers, but then replaces the actual nonseed words by a positive envelope \(\beta\). It therefore does **not** identify different nonseed representations.
+
+The Astra material gives related, but insufficient, identities. For example,
+\[
+K(2C_4)=U+U'
+ +2(1-8/q+7/q^2)K e_0
+\]
+is an aggregate feedback identity. It does not imply \(U=U'\), nor does it show that either object equals one of the eight cold center fields. Likewise, the labels \(D,D^\vee\) retain opposite determinant shifts, including the branches
+\[
+m^{-4}D,\qquad m^4D^\vee.
+\]
+Thus they cannot be pooled merely because their real numerical weights or untwisted dimensions agree. Any pooling would require equality after including the actual determinant character and lift convention.
+
+The physical marking also remains relevant. Every proposed identity must hold simultaneously:
+
+1. on all good full Mellin lifts, with the specified independent lift choices;
+2. after the stated determinant twist;
+3. at the marked coordinate \(t_0=n\), not only at bulk coordinates \(t_i=t\);
+4. with the finite-field exceptional correction retained;
+5. before taking \(p\to\infty\), and uniformly on the original closed square.
+
+The existing asymptotic statements such as \(O_{5000}(n^{-1/2})\) do not establish exact equality of the marked objects.
+
+## Precise failure
+
+The first undecided comparison is already between the two purported fourth-Jacobi symplectic labels:
+\[
+\boxed{\text{compare }U(\ell)\text{ with }U'(\ell)}
+\]
+for an actual full lift \(\ell\), including their determinant twists and the marked value at \(t_0=n\).
+
+The supplied text gives only their sum through \(K(2C_4)\), not their individual trace formulas. Therefore the scalar equality to be checked cannot be written from the record as given. In particular, one cannot decide whether
+\[
+\operatorname{Tr}_{U}(\ell)
+\stackrel{?}{=}
+\operatorname{Tr}_{U'}(\ell),
+\]
+or whether the actual relation is instead a duality
+\[
+\operatorname{Tr}_{U'}(\ell)
+=
+\operatorname{Tr}_{U}(\ell^{-1})\det(\ell)^{r},
+\]
+with a nonzero determinant exponent \(r\). The same obstruction applies to the pairs \(D,D^\vee\) and to comparisons between \(R\) and the older four center labels.
+
+Thus the present evidence supports **inconclusive**, not either “all labels distinct” or “exact pooling exists.”
+
+## Ranked next tests
+
+### 1. Highest priority: reconstruct the eight actual trace objects
+
+For each center \(c\), record explicitly
+\[
+\mathcal T_c(\ell)
+ =
+ \det(\ell)^{r_c}
+ \operatorname{Tr}\!\left(\rho_c(\ell)\right),
+\]
+including:
+
+- the derived group representation \(\rho_c\);
+- the actual lift \(\ell\) and its independent conjugate/inverse lift;
+- the determinant exponent \(r_c\);
+- the seed twist;
+- the bulk coordinate \(t_i=t\);
+- the physical marked coordinate \(t_0=n=(p-1)/2\);
+- the finite-\(p\) correction.
+
+Then compare characters symbolically on a generic Mellin torus. Equality must be an identity in the Laurent variables, not an equality of evaluated real weights. If two objects differ in a Laurent exponent or determinant shift, they are separated immediately.
+
+### 2. Second priority: finite-field marked verification of every surviving candidate
+
+For each symbolically surviving pair, evaluate the two actual trace objects on both independent lifts for several eligible primes \(p\equiv1\pmod4\), using the physical marking \(t_0=n\) and the same original closed square. Check exact equality in the relevant cyclotomic or finite-field trace algebra, not floating-point agreement.
+
+Only after this finite-\(p\) identity is established should one propagate the pooled object through the linear packet and recompute:
+
+- the strict signed center saving;
+- the residual charge \(0.260\);
+- the nonlinear charge \(0.142\);
+- the \(P_{5000}\) translated tails;
+- the \(O_{5000}(n^{-1/2})\) marked and exceptional repairs;
+- the half-step and invariant-ball margins.
+
+Until those trace formulas are supplied, no exact degree-one pooling across the eight actual centers is proved, and the existing \(0.267\), \(0.260\), and \(0.527\) bounds remain positive comparison estimates rather than signed savings.

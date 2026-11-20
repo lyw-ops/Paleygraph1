@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T21:51:02.710421Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-152.json#next_calls",
+  "coordinator_sha256": "c2cb0e9d82fbbcc93630a046cd5a663772546ebdc29d0e16576863b3986510eb",
+  "call_ids": [
+    "ordinary-prime-weighted-affine-fourth-moment",
+    "ordinary-prime-first-spill-face-upper",
+    "cold-three-center-actual-square-omission"
+  ],
+  "routes": {
+    "r153/ordinary-prime-weighted-affine-fourth-moment": {
+      "question": "Can the actual deficit-weighted affine fourth moment be bounded by O(p) in the near-critical prime branch?",
+      "scope": "Use ordinary p=1 mod 4, the genuine R150 retargeted orbit and same R151 block, L_sigma b/E b tending to zero and m_eff/m0 tending to one. Maintain all roots, the fixed floor, and the actual normalized anchor weights. No assumption of a coset template.",
+      "remaining": "Prove a true prime estimate for the deficit-weighted moment, or a prime upper for the full high first-spill face maximum. Even exclusion of the critical case leaves the diffuse regime."
+    },
+    "r153/ordinary-prime-first-spill-face-upper": {
+      "question": "Can a true optimal-face selection or uniform minorant estimate bound the first-reflection signed cost on its full high receiver?",
+      "scope": "Use the original first reflection, not the retargeted flow. Keep input d_mid, full adaptive high receiver S, both roots and diagonal removed, true sign and optimal face, fixed floor and selectable marked T.",
+      "remaining": "Prove a true prime estimate for the deficit-weighted moment, or a prime upper for the full high first-spill face maximum. Even exclusion of the critical case leaves the diffuse regime."
+    },
+    "r153/cold-three-center-actual-square-omission": {
+      "question": "Can the remaining-center and true residual contribution to the actual same-height square relative to B3 be priced with signs?",
+      "scope": "Use the true h=601 and h=602 rows, original closed square and marked t0=n, both lifts, and complete translated P5000. Treat genuine fixed other centers and actual Picard residual distinctly. Choose gamma F4 or an actual Picard label if a narrower signed slice is necessary.",
+      "remaining": "Prove actual signed same-height square difference from B3 below 0.50179639 or one-step omission below 0.3069. Nonlinear invariant and half-step remain separate."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-weighted-affine-fourth-moment": [],
+    "ordinary-prime-first-spill-face-upper": [],
+    "cold-three-center-actual-square-omission": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The exact deficit-weighted affine fourth moment tests the late near-critical repair. The first-reflection face maximum uses an earlier different actual source and true optimal weights. The cold three-center signed comparison is independent. No repeated exact assignment."
+}

@@ -1,0 +1,35 @@
+{
+  "round": 116,
+  "dispatch_status": "terminal; response saved and independently reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-115-acceptance.json",
+    "sha256": "de5bd10808c168cc4556b6b79dd45336ada131821bfa81b4115e32e5d72935f2"
+  },
+  "coordinator": {
+    "path": "coordination/round-115.json",
+    "sha256": "f25c4342bea4b15fc5d38d5966de16af74c6a166ad3fc47da633f8a57ec02559"
+  },
+  "call_id": "true-two-bands",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "39bc917aa4fc54811b6fcee40a5baf199d5ea417cacfb3b90cdc603202b4aab4",
+  "started_utc_epoch": 1795097796,
+  "local_session_id": 57455,
+  "mission_file": "/tmp/paley-r116-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r116-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r116-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Use the checked Round 116 coordinator before dispatching new calls.",
+  "audit_agent": "/root/audit_116",
+  "local_draft": "research/paired-legendre-cubic-116.md",
+  "response": {
+    "path": "research/api-astra-overflow-116.txt",
+    "sha256": "39a0e8f0bb9ba3c9c5be847e303c3a70a180a3612d4eec7af0f6d1539ebd0c69"
+  },
+  "receipt": {
+    "path": "research/api-astra-116-receipt.json",
+    "sha256": "b2aef0e18884d94533d7bd408553b8a2f0a60d8cb44d1c7f42838c134ba77acf"
+  },
+  "acceptance": {
+    "path": "research/round-116-acceptance.json",
+    "sha256": "cb79cd034562bac1aef54787a5c0db284ba48f4e21e2f1c0545b70a86ff4de5b"
+  }
+}

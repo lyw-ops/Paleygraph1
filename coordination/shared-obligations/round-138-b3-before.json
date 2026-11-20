@@ -1,0 +1,22 @@
+{
+  "captured_at_utc": "2026-11-19T18:53:25.566409Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-137.json#next_calls",
+  "coordinator_sha256": "56ecfc57321942eafdafba4190d73a4dd9fedd83fe81df24ac19658173de5f83",
+  "call_ids": [
+    "ordinary-marked-source-infsup"
+  ],
+  "routes": {
+    "r138/ordinary-marked-source-infsup": {
+      "question": "Does actual opposite-face structure yield the forcing-specific inf-sup or the signed tail on the genuine optimal supports?",
+      "scope": "Actual pinned minimum-energy ordinary rows of both signs over primes p=1 mod 4. Keep the physical mark, true complementary opposite support and the product of marked values equal to n. Treat clipped window parity and finite diagnostics separately.",
+      "remaining": "Prove a prime-uniform source estimate or direct signed tail and independently obtain clipped even-window approximation for the actual rows."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-marked-source-infsup": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "Both cold Round 138 research calls have returned. The two earlier ordinary calls also ended, one with gateway HTTP 429 and one with an empty length-limited completion. This new Astra call retries the ordinary question after both, with no concurrency with those same obligations."
+}

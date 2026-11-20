@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "round": 128,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent Round 128 Astra audit and standard validation on a byte-verified local snapshot",
+  "sources": {
+    "baseline": {
+      "path": "research/round-127-acceptance.json",
+      "sha256": "54c5bed26e1b752160850cab3aa5dd3717551afe0484a3f922a8cc5eb7f34d25"
+    },
+    "current": {
+      "path": "research/round-128-acceptance.json",
+      "sha256": "f3232af30ae99b03279c1e065a479ff6bca493ec7720331394a81668d995a73b"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "reformulated",
+      "before": "The actual height-601 endpoint has a weaker n^(-0.45) bound and the signed quadratic insertion is unresolved.",
+      "after": "The actual signed quadratic mixed bound and updated all-source shifted kernels have exponent 0.4579 using paired seed weights and the original disk.",
+      "remaining": "Preserve the old exponent by pricing the combined actual derivative more sharply, and establish compatible physical confinement and residual at a moving starter.",
+      "evidence": [
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/api-astra-review-128.md",
+          "sha256": "db0e0f7bcddb8d4777e774c5d511573012e4365f4e2d3dbb3c9c5c425545bb0e"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-signed-time-kernel-transfer-124.md",
+          "sha256": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Rate-free real prime arithmetic",
+      "effect": "unchanged",
+      "before": "The actual stationary-weighted overshoot criterion and real critical masked route are open.",
+      "after": "The accepted cold estimates do not furnish a real prime upper. Separate zero-floor drafts propose a new filter and need independent review.",
+      "remaining": "Check the actual zero-floor ordinary optimizer and fixed-depth high-weight spill reduction. Then obtain a real prime-uniform upper or identify the first specifically missing signed trace bound.",
+      "evidence": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        },
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        }
+      ]
+    },
+    {
+      "id": "fixed-masked",
+      "route": "Fixed real critical endpoint and large jumps",
+      "effect": "unchanged",
+      "before": "The comparison with a fixed successor window requires an independently controlled real endpoint.",
+      "after": "The exact cold quadratic insertion bounds a different observable.",
+      "remaining": "Find a real endpoint bound and establish the needed large-jump tail control on its actual successor window.",
+      "evidence": [
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        },
+        {
+          "path": "research/real-masked-cap-adjoint-125.md",
+          "sha256": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+        },
+        {
+          "path": "research/early-ordinary-masked-cubic-121.md",
+          "sha256": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual cold quadratic bound is stronger at the fixed endpoint. The next window reviews the rate-free zero-floor real reduction and tests its prime arithmetic.",
+  "next_calls": [
+    {
+      "id": "zero-floor-real-weighted-tail",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can a genuine fixed-depth zero-floor cap iterate be tested against the high part of an exact ordinary optimizer through primes?",
+      "why_now": "The weighted overshoot route is rate-free in principle, and three new local working drafts propose an ordinary zero-floor pair and a finite-height weighted criterion.",
+      "scope": "Review supplemental drafts as candidates, validating zero-floor marked cap and the exact ordinary theta pair and averaged reserve, then seek one numerical-scale-independent mathematical estimate. Do not assume cap-defect vanishing or bounded optimizer coordinates.",
+      "if_yes": "Give the actual prime-uniform estimate and precise implication for both theta signs.",
+      "if_no": "Identify the first invalid identity or a concrete obstruction to a tested upper, preserving the actual zero-floor scope.",
+      "if_inconclusive": "Give a checked reformulation with an explicit arithmetic suppression factor or exact required signed bound.",
+      "inputs": [
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        },
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        }
+      ]
+    },
+    {
+      "id": "cold-combined-height-601",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "Does collecting the combined actual height-601 derivative improve the middle rate enough for the old exponent?",
+      "why_now": "The actual two-insertion budget is established and identifies the long middle power as its limiting price direction.",
+      "scope": "Use the original physical square, same marked branch, and independently valid counting rate. No inference from fixed-height to moving depth without a compatible starter.",
+      "if_yes": "Give actual jointly validated translated and counting rates and state the endpoint scope.",
+      "if_no": "Locate the first strictly missed weight-price inequality or an actual mathematical obstruction.",
+      "if_inconclusive": "Bound a concrete signed combined coefficient or rank cost with verified inputs.",
+      "inputs": [
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/api-astra-review-128.md",
+          "sha256": "db0e0f7bcddb8d4777e774c5d511573012e4365f4e2d3dbb3c9c5c425545bb0e"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "real-critical-cap-jump-tail",
+      "priority": 3,
+      "change_id": "fixed-masked",
+      "question": "Can an independently controlled critical real endpoint be combined with prime-uniform small actual fixed-size jump tails in its successor window?",
+      "why_now": "The strict cap loss and sparse adjoint turn a fixed endpoint gap into a necessary critical loss within bounded cap-height increments.",
+      "scope": "Keep both actual reciprocal factors, both adjacent repair trajectories, exact masks, the critical cap rate where required and one independently bounded endpoint. Alternatively test the genuine weighted lag and signed repair drift.",
+      "if_yes": "Give a verified prime bound and its exact obstruction scope.",
+      "if_no": "Identify a concrete obstruction to the proposed arithmetic estimate or transfer and its actual hypotheses.",
+      "if_inconclusive": "Locate a specific missing weighted prime bound or show a precise obstruction to the proposed mechanism. Do not repeat absolute Cauchy\u2013Schwarz or the known proxy truncation.",
+      "inputs": [
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        },
+        {
+          "path": "research/api-astra-review-127.md",
+          "sha256": "4fa83b6c1ad00edad44108d4ac0ebc2cea6129bf88285f89559ff319b9c079df"
+        },
+        {
+          "path": "research/real-masked-cap-adjoint-125.md",
+          "sha256": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+        },
+        {
+          "path": "research/early-ordinary-masked-cubic-121.md",
+          "sha256": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        }
+      ]
+    },
+    {
+      "id": "audit-zero-floor-drafts",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which proposed zero-floor mixed-cap and averaged inequalities pass independent mathematical review?",
+      "why_now": "The acceptance record does not yet include the new real drafts. Their normalization and order of limits are decisive.",
+      "scope": "Read only, keep actual zero-floor rows, exact theta optimizers and fixed prime-first horizons. Check cap midpoint energy, large weights and the marked coordinates.",
+      "if_yes": "Return exact checked claims, assumptions and ranked genuine arithmetic next tests.",
+      "if_no": "Identify the first unsupported step and propose a scoped correction.",
+      "if_inconclusive": "Report the checked portion and the exact missing evidence.",
+      "inputs": [
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        },
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        }
+      ]
+    }
+  ]
+}

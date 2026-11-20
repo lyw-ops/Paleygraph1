@@ -1,0 +1,203 @@
+## Result
+
+Let \(\mathcal P_{\mathrm{elig}}\) be the actual eligible-prime family from the selected near-critical block, and let \(p\to\infty\) through \(\mathcal P_{\mathrm{elig}}\). Write
+\[
+Q=(\mathbb F_p^\times)^2,\qquad n=\frac{p-1}{2},\qquad
+G=\sum_{z\in\mathbb F_p}g(z)=O(\sqrt p),
+\]
+with the original
+\[
+g=|f|^2,\qquad w=g(1-g).
+\]
+The physical mark is \(v\neq0\), with
+\[
+\rho=\chi(v),\qquad \sigma=-\rho,
+\]
+and all terms below retain the original square reconstruction of \(x,y\), the \(b\in Q\) condition, the exclusions, and all four original \(g\)-factors.
+
+I obtain a target-scale bound for the distinct-\(b\) block localized to the pinned output sector \(B_-\), but not for the full output-weighted distinct-\(b\) block.
+
+### 1. Exact distinct-\(b\) block
+
+For a retained physical line \(\ell\) at slope \(s\), write its affine parameters as \((r,b)\) and its four physical arguments as \(A,C,Y,D\). Keep the full line weight
+\[
+\lambda(\ell)
+ =g(A)g(C)g(Y)g(D)
+ =[g(A)g(C)]\,[g(Y)g(D)].
+\]
+Thus neither input pair is discarded.
+
+Let \(\varepsilon(\ell)\) be the indicator of the three exact favorable tests
+\[
+\chi(1-A)=\rho,\qquad
+\chi(1-Y)=\rho,\qquad
+\chi(A-Y)=\rho\,\chi(r),
+\]
+together with the physical square and exclusion conditions. Define
+\[
+P_s=\sum_{\ell\in\mathcal L_s}\lambda(\ell)
+\]
+and the positive distinct-pole contribution
+\[
+\mathcal D_s^{\neq b}
+ =
+ \sum_{\substack{\ell_1,\ell_2\in\mathcal L_s\\ b_1\neq b_2}}
+ \varepsilon(\ell_1)\varepsilon(\ell_2)
+ \lambda(\ell_1)\lambda(\ell_2).
+\]
+Since this is a positive subblock of the full physical diagonal,
+\[
+0\le \mathcal D_s^{\neq b}\le P_s^2.
+\]
+
+The already checked two-role and three-role pins give, after the priced endpoint removal,
+\[
+\sup_s P_s\le 2G^2,\qquad
+\sum_sP_s\le G^3.
+\]
+Consequently
+\[
+\sum_sP_s^2\le 2G^5,\qquad
+\sup_sP_s^2\le4G^4.
+\tag{1}
+\]
+
+### 2. Output in the pinned sector \(B_-\)
+
+Put
+\[
+B_-=\{s\in Q\setminus\{1\}:\chi(1-s)=\sigma\}.
+\]
+The actual pin gives, uniformly on the selected block,
+\[
+f(s)=c+e(s)\quad(s\in B_-),
+\]
+with
+\[
+|c|=O(p^{-1/2}),\qquad
+\|e\|_{\ell^2(B_-)}^2
+ =O\!\left(n^{-2/3}T^{-4/9}\right).
+\]
+Since \(0\le w\le g\),
+\[
+w(s)\le 2|c|^2+2|e(s)|^2.
+\]
+Therefore, using (1),
+\[
+\begin{aligned}
+\sum_{s\in B_-}w(s)\mathcal D_s^{\neq b}
+&\le
+2|c|^2\sum_sP_s^2
++2\|e\|_{\ell^2(B_-)}^2\sup_sP_s^2\\
+&\ll
+p^{-1}G^5
++n^{-2/3}T^{-4/9}G^4.
+\end{aligned}
+\]
+With \(G=O(p^{1/2})\) and \(n\asymp p\),
+\[
+\boxed{
+\sum_{s\in B_-}w(s)\mathcal D_s^{\neq b}
+ =
+O\!\left(p^{3/2}+p^{4/3}T^{-4/9}\right)
+ =O(p^{3/2})
+}
+\tag{2}
+\]
+uniformly for admissible \(T\ge1\). The previously priced endpoint terms are also \(O(p^{3/2})\).
+
+This estimate keeps both input weights on both lines until the final use of the positive pins. It does not invoke a Jacobi factor, and it does not mix in the common-\(b\) block.
+
+## Why (2) does not close the full distinct-\(b\) question
+
+The three exact sign tests imply an additional exact output relation. Since
+\[
+1-s=\frac{r(A-Y)}{(1-r)CY},
+\]
+and \(C,Y\in Q\), we get
+\[
+\chi(1-s)
+ =\chi(r)\chi(A-Y)\chi(1-r)
+ =\rho\,\chi(1-r).
+\tag{3}
+\]
+Thus
+\[
+s\in B_-
+\iff \chi(1-r)=-1,
+\qquad
+s\in B_+
+\iff \chi(1-r)=1,
+\]
+where
+\[
+B_+=\{s:\chi(1-s)=\rho\}.
+\]
+
+The sign tests therefore do not force the output into \(B_-\). They leave the genuine surviving block
+\[
+\mathcal D_{+,s}^{\neq b}
+=
+\mathcal D_s^{\neq b}\,
+1_{B_+}(s),
+\]
+equivalently the part with \(\chi(1-r)=1\). On \(B_+\), the wrong-sector pin is unavailable. The elementary positive estimate gives only
+\[
+\sum_{s\in B_+}w(s)\mathcal D_s^{\neq b}
+\le
+\sum_sP_s^2
+=O(G^5)
+=O(p^{5/2}).
+\]
+The current output-first incidence estimate inherited from the full diagonal improves this to at most
+\[
+O\!\left(p^{37/16}(1+\log p)\right),
+\]
+but still not to \(O(p^{3/2})\).
+
+Hence the checked conclusion is:
+
+\[
+\boxed{
+\text{The pinned }B_-\text{ portion of the actual distinct-}b\text{ block is }O(p^{3/2}).
+}
+\]
+
+\[
+\boxed{
+\text{The full output-weighted distinct-}b\text{ block remains open; the surviving }B_+\text{ block is the precise gap.}
+}
+\]
+
+This is not an asymptotic refutation. The obstruction is only that the available pin is localized to \(B_-\), while (3) shows that the exact sign conditions permit a separate \(B_+\) sector.
+
+## What would decide the target
+
+It is sufficient to prove the coupled estimate
+\[
+\sum_{s\in B_+}w(s)\mathcal D_s^{\neq b}
+=O(p^{3/2}).
+\tag{4}
+\]
+Together with (2), this would settle the full favorable distinct-\(b\) contribution at the required scale.
+
+### Ranked next tests
+
+1. **Highest priority: two-pole incidence/energy estimate.**  
+   Parameterize two retained lines at the same output \(s\) by
+   \[
+   s=b+\frac rE=b'+\frac{r'}{E'},\qquad b\neq b',
+   \]
+   retain the three sign indicators and the full product
+   \[
+   [g(A)g(C)] [g(Y)g(D)]
+   [g(A')g(C')] [g(Y')g(D')],
+   \]
+   and seek an output-set estimate for the positive kernel on \(B_+\). A bound of the form (4), or any uniform power saving sufficient to offset the \(B_+\) output mass, would close the distinct-pole target without touching the common-pole terms.
+
+2. **Character test for the surviving \(r\)-sector.**  
+   Use (3) to insert the exact factor
+   \[
+   1_{B_+}(s)=\frac12\bigl(1+\rho\,\chi(1-r)\bigr)
+   \]
+   into the two-pole expansion, while retaining \(w(s)\) and all original amplitudes. Test whether the nontrivial \(\chi(1-r)\) component supplies square-root cancellation in the distinct-\(b\) sum. The trivial component must still be controlled by a genuine coupled two-pole estimate; an individual Jacobi bound or a common-\(b\) subnorm multiplied by a Jacobi factor would not address the surviving positive block.

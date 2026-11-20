@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "round": 178,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 178 mathematical review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-177-acceptance.json",
+      "sha256": "2364df1ff153b3278ede6c5c76ef4f00947c6269f0515223bdf65008f643199f"
+    },
+    "current": {
+      "path": "research/round-178-acceptance.json",
+      "sha256": "10dceeac23ed58c55637d159d8804d83e445c239ccc84608195160ae3e0d394e"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The genuine full diagonal exponent was 37/16−1/4320−1/512 and the original affine right energy used a uniform unsquared vertical occupancy.",
+      "after": "True weighted slope-product incidence and two bounded-fiber projected families improve the full diagonal to p^(3673/1600), the whole affine right energy to p^(11/4−3/836), and the one-match covariance to p^(29/16−3/3344), all without logarithms.",
+      "remaining": "Reach the sufficient O(p^3/2) true coupled full diagonal or close the target-scale one-match and separate zero-match estimates. The generic summed rich range stays open.",
+      "evidence": [
+        {
+          "path": "research/ordinary-parabolic-row-mean-square-178.md",
+          "sha256": "89d64995b12626f4983f1594fe3e80f266b972b274737f4e28647f6c91d02282"
+        },
+        {
+          "path": "research/ordinary-shifted-energy-four-factor-diagonal-177.md",
+          "sha256": "8d230eebf51c30edfe4c55b4655036e455e90d7f71ad95ec49d1e909f3aacb34"
+        },
+        {
+          "path": "research/ordinary-favorable-sign-identity-175.md",
+          "sha256": "2f3fa64a22b5435edda3c9ba7ba63c8c167bbeb7737a2a1f7786b025a31e919f"
+        },
+        {
+          "path": "research/ordinary-weighted-slope-product-incidence-178.md",
+          "sha256": "9e4589c664dc84d30e86206288183a3af9dfb1ae29f8d49ebd6faa1db01f1d71"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "Ten true fixed displacements fit radius 3/8 with a conditional growing cutoff and counting source threshold at V611.",
+      "after": "The fixed steps and threshold are independently checked again. No new actual signed bound was found.",
+      "remaining": "Prove growing-prefix confinement with fixed clearance or a sufficient genuine alternate predictor. Derivative transfer remains separate.",
+      "evidence": [
+        {
+          "path": "research/cold-seed-centered-larger-tube-177.md",
+          "sha256": "12c7cff4f9a20dc1c7bfeabef28ed87f3018a863a325c95b7b008f9a9a180c3c"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-full-sup-derivative-obstruction-175.md",
+          "sha256": "a061db2aca41c5327261be5957061f2520dcdbea64457cce61b101f9f610afbe"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual whole diagonal and one-match bounds both improve without a logarithm. The true cold prefix is unchanged and requires a distinct signed continuation argument.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-inverted-coupled-distinct-b",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the inverse common-output chart estimate the true distinct-b correlation with both input amplitudes?",
+      "why_now": "The actual inverted slope mass and the shared-k cuts now have precise bounds. The dominant output-first upper still completes one input.",
+      "scope": "Retain genuine w(s), g(A)g(C)g(Y)g(D) in both copies and the exact masks. Use the weighted inverted parameter families with 1/A=1/r-(b/r)X and C=(A-r)/(1-r); keep distinct b distinct from distinct r. The common r, b and k and bounded role-match cuts retain their actual separate scopes.",
+      "if_yes": "Prove the sufficient actual diagonal or a new transverse coupled inequality reaching its target.",
+      "if_no": "Locate a proved obstruction to a specific arithmetic incidence hypothesis on the real family.",
+      "if_inconclusive": "Give a nonempty remaining coupled class with a new verified uniform bound.",
+      "inputs": [
+        {
+          "path": "research/ordinary-parabolic-row-mean-square-178.md",
+          "sha256": "89d64995b12626f4983f1594fe3e80f266b972b274737f4e28647f6c91d02282"
+        },
+        {
+          "path": "research/ordinary-shifted-energy-four-factor-diagonal-177.md",
+          "sha256": "8d230eebf51c30edfe4c55b4655036e455e90d7f71ad95ec49d1e909f3aacb34"
+        },
+        {
+          "path": "research/ordinary-favorable-sign-identity-175.md",
+          "sha256": "2f3fa64a22b5435edda3c9ba7ba63c8c167bbeb7737a2a1f7786b025a31e919f"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-slope-product-distribution",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the actual slope-product first distribution improve the summed energy beyond using its maximum?",
+      "why_now": "The two weighted point-plane energies are governed by the true terms sum_xi W_xi^(3/2). Fixed-c projections are now much smaller but alone do not close the generic summed norm.",
+      "scope": "For W_xi=sum_r m(r)m(xi/r), retain the actual row weights and masks. Try to prove a nontrivial summed estimate from the shifted or inverted rational row shape; use exact projected relative caps without identifying different norms. Preserve zero match separately.",
+      "if_yes": "Obtain a strict gain on whole actual energy or a sufficient target-scale one-match bound.",
+      "if_no": "Find a precise obstruction to a genuine weighted slope-product estimate.",
+      "if_inconclusive": "Quantify a rich range or a true special slope-product class with a new saving.",
+      "inputs": [
+        {
+          "path": "research/ordinary-weighted-slope-product-incidence-178.md",
+          "sha256": "9e4589c664dc84d30e86206288183a3af9dfb1ae29f8d49ebd6faa1db01f1d71"
+        },
+        {
+          "path": "research/ordinary-parabolic-row-mean-square-178.md",
+          "sha256": "89d64995b12626f4983f1594fe3e80f266b972b274737f4e28647f6c91d02282"
+        },
+        {
+          "path": "research/ordinary-shifted-energy-four-factor-diagonal-177.md",
+          "sha256": "8d230eebf51c30edfe4c55b4655036e455e90d7f71ad95ec49d1e909f3aacb34"
+        },
+        {
+          "path": "research/ordinary-affine-difference-pins-174.md",
+          "sha256": "5fdb141391f7a0ee8f3c17895ee22928f840db63f5e647585c871ed3ff103325"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-directional-source-bridge",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the actual signed cold source close a growing prefix or supply a stationary predictor directly?",
+      "why_now": "The true ten steps and wider radius are known. Generic infinity contraction is excluded and fixed unnormalized source requires normalized n^(-1/2) decay.",
+      "scope": "Keep original square, both lifts and actual t0=n. Prove or refute the real unnormalized R611 bound with strict margin from genuine source arithmetic, or use directional signed Neumann or Newton estimates with explicit clearance and compatible residual scaling. Track unnormalized and normalized norms and avoid assuming the growing tube.",
+      "if_yes": "Prove unconditional continuation on the common square or a genuinely sufficient signed bridge.",
+      "if_no": "Prove an obstruction for a precisely specified true source route.",
+      "if_inconclusive": "A verified signed reduction on the true source or directional partial sums.",
+      "inputs": [
+        {
+          "path": "research/cold-seed-centered-larger-tube-177.md",
+          "sha256": "12c7cff4f9a20dc1c7bfeabef28ed87f3018a863a325c95b7b008f9a9a180c3c"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-full-sup-derivative-obstruction-175.md",
+          "sha256": "a061db2aca41c5327261be5957061f2520dcdbea64457cce61b101f9f610afbe"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which new deductions pass independent review?",
+      "why_now": "The coupled physical incidence, slope-product sums and directional cold source need separate hypothesis checks.",
+      "scope": "Read-only. Verify exact action orientation, masks and weights, norms and physical marks; give two ranked next actions.",
+      "if_yes": "Record verified deductions and remaining obligations.",
+      "if_no": "Identify an invalid step.",
+      "if_inconclusive": "Record checked progress and finite scope.",
+      "inputs": [
+        {
+          "path": "research/ordinary-parabolic-row-mean-square-178.md",
+          "sha256": "89d64995b12626f4983f1594fe3e80f266b972b274737f4e28647f6c91d02282"
+        },
+        {
+          "path": "research/ordinary-shifted-energy-four-factor-diagonal-177.md",
+          "sha256": "8d230eebf51c30edfe4c55b4655036e455e90d7f71ad95ec49d1e909f3aacb34"
+        },
+        {
+          "path": "research/ordinary-weighted-slope-product-incidence-178.md",
+          "sha256": "9e4589c664dc84d30e86206288183a3af9dfb1ae29f8d49ebd6faa1db01f1d71"
+        },
+        {
+          "path": "research/cold-seed-centered-larger-tube-177.md",
+          "sha256": "12c7cff4f9a20dc1c7bfeabef28ed87f3018a863a325c95b7b008f9a9a180c3c"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

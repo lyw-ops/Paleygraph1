@@ -1,0 +1,19 @@
+{
+  "overflow": {
+    "model": "gpt-6.2-astra",
+    "lane": "overflow",
+    "max_completion_tokens": 7200,
+    "prompt_sha256": "853046b26ff09a4a1e6c5375649db722da8b9ce75d55948dc67289ae30d38a63",
+    "utc_epoch": 1795092363,
+    "http_status": 200,
+    "completion": true,
+    "model_matches": true,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9612,
+      "completion_tokens": 9909,
+      "total_tokens": 19521
+    },
+    "status": "returned-draft"
+  }
+}

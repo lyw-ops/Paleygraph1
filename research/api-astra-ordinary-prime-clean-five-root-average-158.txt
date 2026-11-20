@@ -1,0 +1,166 @@
+## Result: inconclusive; the proposed \(O(p)\) bound is not proved
+
+I retain the actual prime family and marking as follows. Let \(p\to\infty\) through the selected ordinary primes \(p\equiv1\pmod 4\), with
+\[
+Q=(\mathbb F_p^\times)^2,\qquad n=|Q|=(p-1)/2,
+\]
+and with \(b=b^{(p)}\) the actual retargeted near-critical deficit on the selected short block. The physical mark is \(b_0=0\), and
+\[
+\nu_a=\frac{b_a}{nr},\qquad
+w_\gamma=\frac12\nu_{\gamma|_Q}
+\]
+for each of the two full-field lifts \(\gamma\) of a character of \(Q\). The five-root law is the genuine product law
+\[
+w_Tw_Uw_Vw_{U'}w_{V'},
+\]
+with all relations retained inside the kernel; it is not replaced by a uniform or independently smoothed model. The limits are taken first in the prime parameter \(p\), uniformly over the actual short block, and only then in any block-length or near-critical auxiliary limit.
+
+### What is established
+
+For each fixed slope-lift \(q\) and outer-sign index \(i\), the exact completed favorable kernel has the variables
+\[
+\beta=\frac VU,\qquad C=\frac{U'}{V'},\qquad
+\alpha=\frac U{U'},\qquad \delta=\frac T{U'},
+\]
+with
+\[
+AD\chi=\alpha,\qquad
+A=\alpha\bar\delta\,\chi^{q+1},\qquad
+D=\delta\chi^q.
+\]
+
+The six exact trivial-root slices are already controlled at total absolute cost \(O(p)\), under the actual five weights:
+
+- \(\beta=1\);
+- \(C=1\);
+- \(A=1\);
+- \(D=1\);
+- the two corresponding infinity-trivial slices after simultaneous inversion.
+
+The exceptional Jacobi resonances on these slices impose at least three independent character constraints and therefore have total weight \(O(\kappa^3)\), with \(\kappa=\max w_\gamma=O(p^{-1/2})\). Their worst possible kernel sizes still contribute only \(O(p)\). This part is compatible with the actual physical marking and does not use a fictitious product law.
+
+The wrong Legendre sign is also controlled:
+\[
+S_{\mathrm{wrong}}=O(p)
+\]
+for the actual short block, using the exact pin
+\[
+f=c+e,\qquad c=O(p^{-1/2}),\qquad \|e\|_2=o(1),
+\]
+together with the additive \(\chi\)-convolution estimate. The physical diagonal and the six trivial slices are likewise \(O(p)\).
+
+Thus one has the rigorous reduction
+\[
+S_{\mathrm{fav}}
+=
+S_{\mathrm{clean,regular}}+O(p),
+\]
+where the \(O(p)\) is uniform over the actual short block and retains both \(u\)- and slope-lifts.
+
+### The clean geometric claim is only conditional
+
+On the clean affine locus, where the three dense-edge inertias
+\[
+\beta C\chi,\qquad AD\chi,\qquad (\beta ACD)^{-1}\chi
+\]
+are all nontrivial, the substitution \(z=yt\), together with the affine vanishing relations, is consistent with a rank-two \(H_c^2\) trace. If that sheaf calculation is completed with no additional exceptional monodromy, it would give a pointwise estimate of the form
+\[
+|\mathscr K_{\mathrm{clean}}|\le 2p+O(\sqrt p)
+\]
+for the corresponding normalized two-variable trace.
+
+However, this does **not yet give the required estimate for the actual five-root kernel**. In the separated formula the clean two-variable trace is accompanied by the outer Jacobi factor
+\[
+J\!\left(\frac V{V'},L\right),
+\qquad
+L=\frac{U/V}{U'/V'}.
+\]
+Without a coupled phase estimate, the direct pointwise bound is only
+\[
+\left|J(V/V',L)\,\mathscr K_{\mathrm{clean}}\right|
+\ll p^{3/2},
+\]
+on the regular locus. Summing this against the true five-weight law gives at best \(O(p^{3/2})\), not \(O(p)\).
+
+Equivalently, after removing the six trivial slices, the remaining contribution has the schematic form
+\[
+S_{\mathrm{clean,regular}}
+=
+p^{3/2}
+\mathbb E_{T,U,V,U',V'\sim w}
+\bigl[\Phi(T,U,V,U',V')\bigr]
++O(p),
+\]
+where \(|\Phi|\ll1\). The required result is the genuinely coupled phase estimate
+\[
+\Re\,\mathbb E_w\Phi
+\ll p^{-1/2}.
+\]
+Neither the rank-two geometric description nor the individual Jacobi bounds imply this estimate.
+
+There is also a geometric gap before even reaching that averaging issue: nontriviality of the three displayed boundary inertias is necessary for the proposed rank-two description, but it has not been shown sufficient for geometric irreducibility, absence of extra \(H_c^1\) or \(H_c^0\) terms, or uniformity at the remaining dense-edge intersections. The \(\beta C\chi=1\) calculation gives a product of Jacobi factors plus a correction, but the analogous \(AD\chi=1\) and \((\beta ACD)^{-1}\chi=1\) calculations have not been fully assembled with the physical outer factor.
+
+## Precise remaining gap
+
+A sufficient theorem would be either:
+
+1. **Geometric-plus-coupled trace estimate.** For the actual regular five-root kernel,
+   \[
+   \sum_{\mathrm{clean,regular}}
+   w_Tw_Uw_Vw_{U'}w_{V'}
+   \Re K(T,U,V,U',V')
+   \ll p;
+   \]
+   or equivalently a normalized phase bound \(O(p^{-1/2})\) after extracting the \(p^{3/2}\) regular size.
+
+2. **Direct coupled moment estimate.** In the additive-frequency formulation, prove on the actual marked law
+   \[
+   \sum_a \nu_a(1+\rho k(a))M_a\ll p,
+   \qquad
+   M_a=\sum_{u\in Q\setminus\{1\}}|C_a(u)|^2.
+   \]
+   This is exactly the positive matching class localized by the physical mark. The known lower bound on the critical branch is
+   \[
+   \sum_{a\in I_{\rm arc}}\nu_aM_a
+   \gg
+   \frac{pE^{-1/2}}{\log(2/E)},
+   \]
+   so a successful upper must exploit structure beyond the pointwise cap, the pin, and the rank-two trace estimate. The square-field model shows those hypotheses alone cannot imply such an upper.
+
+Therefore the mission is **inconclusive**, not supported or refuted. The clean geometry is plausible but incomplete, and even a completed \(2p\) pointwise trace bound would not by itself settle the actual five-weight average.
+
+## Ranked next tests
+
+### 1. Analytic: complete the coupled positive-class estimate
+
+Work directly with the actual quantity
+\[
+S_\rho^{\mathrm{add}}
+=
+\frac12\sum_a\nu_a(1+\rho k(a))M_a+O(p).
+\]
+The highest-value test is to exploit the common \(a\)-dependence of \(k(a)\), \(M_a\), and the true mark \(b_0=0\), rather than applying separate bounds to \(\nu_a\) and \(M_a\). A successful result should prove
+\[
+\sum_{a\in I_{\rm arc}}\nu_aM_a=O(p)
+\]
+under the actual short-block hypotheses. If this fails, identify an explicit resonant family of \(a,u\) producing the lower bound.
+
+In parallel, finish the three dense-edge monodromy calculation and verify whether the clean trace is genuinely rank two after the outer Jacobi factor is included. This is the primary analytic test because it can either supply the required \(O(p)\) estimate or expose an exact trace resonance.
+
+### 2. Finite diagnostic: evaluate the exact marked five-root sum
+
+For the actual selected primes and actual \(b,\nu\), compute—not a surrogate uniform law—the quantities
+\[
+S_{\mathrm{clean,regular}},\qquad
+S_\rho^{\mathrm{add}},\qquad
+\sum_{a\in I_{\rm arc}}\nu_aM_a,
+\]
+after separately removing the six trivial slices and the wrong-sign contribution. Normalize by \(p\) and \(p^{3/2}\).
+
+This cannot settle the asymptotic question, but it will distinguish three possibilities:
+
+- normalized clean sums remain \(O(1)\), supporting the desired coupled cancellation;
+- they grow like a positive power of \(p\), indicating a missing resonance;
+- they track the lower bound \(pE^{-1/2}/\log(2/E)\), suggesting that the selected critical branch itself obstructs an \(O(p)\) upper.
+
+The finite test must preserve the physical marking, both lifts, the true favorable sign \(\rho\), and the exact order of limits; a finite check with an independent or flattened weight law would not be probative.

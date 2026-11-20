@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T18:59:15.933398Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-138.json#next_calls",
+  "coordinator_sha256": "09868eafa9859505a47213a5bcdf83e853cdf1bb1d4209c815f08f44f7cbba77",
+  "call_ids": [
+    "cold-same-row-square-difference",
+    "cold-picard-residual-label-returns",
+    "ordinary-direct-signed-jacobi-tail"
+  ],
+  "routes": {
+    "r139/cold-same-row-square-difference": {
+      "question": "Can the signed actual same-row square difference at height 601 have translated price below 0.69218?",
+      "scope": "Original closed square, actual marked floor t0=n, both boundary pairs, actual P5000 and intermediate K. Separate fixed-row margin from genuine uniform depth.",
+      "remaining": "Close a same-row signed budget, or find actual residual and transported returns for the linear remainder. Separate physical invariant margins and genuine growing depth."
+    },
+    "r139/cold-picard-residual-label-returns": {
+      "question": "Which actual Picard residual terms have the same five derived types and Jacobi exponents as the named linear fields?",
+      "scope": "Begin at the first exact outgoing activation or first explicit return. Track determinants, both lift phases, actual marks, h=601 and 602, and the original square; keep posttransport collisions separate.",
+      "remaining": "Close a same-row signed budget, or find actual residual and transported returns for the linear remainder. Separate physical invariant margins and genuine growing depth."
+    },
+    "r139/ordinary-direct-signed-jacobi-tail": {
+      "question": "Can one control the actual signed Jacobi tail using positivity of the ordinary exposed pair and true opposite support?",
+      "scope": "All sufficiently large eligible primes p=1 mod 4 and actual ordinary marked optimal faces. Keep the physical mark and express the tail against signed S with L after the prime limit. Distinguish clipped parity from tail control.",
+      "remaining": "Obtain weighted tail cancellation on ordinary positive exposed faces, or obtain the stronger bulk complexity bound, with separate clipped parity."
+    }
+  },
+  "candidate_ids_by_call": {
+    "cold-same-row-square-difference": [],
+    "cold-picard-residual-label-returns": [],
+    "ordinary-direct-signed-jacobi-tail": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The selected cold tests share physical marking but have distinct exact obligations: a full same-row transported signed square bound and a genuine first residual arithmetic coefficient at the new derived-factor label. A match at one center tag does not determine the square estimate. The third test is the actual signed ordinary tail and is independent of both cold obligations. The preceding three research returns and two gateway attempts are closed."
+}

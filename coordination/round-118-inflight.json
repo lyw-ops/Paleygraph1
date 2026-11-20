@@ -1,0 +1,35 @@
+{
+  "round": 118,
+  "dispatch_status": "terminal; response saved and independently reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-117-acceptance.json",
+    "sha256": "da278829b372d92a497d6b359f67f2ae547cf80eb5ccf9dc1818311d444b0794"
+  },
+  "coordinator": {
+    "path": "coordination/round-117.json",
+    "sha256": "13687dba0cdfa93fbce7fe9ef3f584dce6f7ab98938068efead0878153e84c4d"
+  },
+  "call_id": "cold-combined-derivative",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "7bb6287716886c8f90b652837ce485db45e06f7a4c7ad22fb2348dca00db0f0f",
+  "started_utc_epoch": 1795099096,
+  "local_session_id": 26090,
+  "mission_file": "/tmp/paley-r118-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r118-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r118-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Use the checked Round 118 coordinator before dispatching new calls.",
+  "audit_agent": "/root/audit_118",
+  "local_draft": "research/cold-exact-exception-budget-118.md",
+  "response": {
+    "path": "research/api-astra-overflow-118.txt",
+    "sha256": "70e18a21199a1f2077df1a79a6c0e226d184b25cb62a39a4bd9dd2247d94b66f"
+  },
+  "receipt": {
+    "path": "research/api-astra-118-receipt.json",
+    "sha256": "fdf96e3c01911650c830914fc75dab71585260adf6281482fcf8c32325914335"
+  },
+  "acceptance": {
+    "path": "research/round-118-acceptance.json",
+    "sha256": "30ceb37502c5d209b16dbdc54ec5ea54808b042da8588b8618e403b177546ea2"
+  }
+}

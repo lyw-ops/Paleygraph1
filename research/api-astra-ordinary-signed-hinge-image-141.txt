@@ -1,0 +1,176 @@
+## Result: inconclusive, with a precise missing estimate
+
+Let \(p\equiv1\pmod 4\) run through the **actual eligible primes**, put
+\[
+n=\frac{p-1}{2},\qquad q=2n+1=p,
+\]
+and use the actual Paley operator \(K\), the actual zero-start Picard orbit, and the actual projected Cesàro row
+\[
+X_{\sigma,T}=M_T\mathbf 1+\frac1T\sum_{t=1}^T P_\sigma A_{\sigma,t},
+\qquad z_{\sigma,T}=\frac{X_{\sigma,T}}{M_T}.
+\]
+The physical marking is coordinate \(0\), with
+\[
+a=X_{\sigma,T}(0),\qquad z_{\sigma,T}(0)=a/M_T.
+\]
+All expectations below are normalized counting averages over the \(n\) physical coordinates, with \(d_0=0\).
+
+Take
+\[
+u=T^{-1/3},\qquad d_i=(u-z_{\sigma,T}(i))_+ \quad (i\ne0).
+\]
+
+For a genuine opposite-sector nonnegative mean-one optimizer \(F\), with marked value \(q_*=F_0\), the pinned reflection calculation gives
+\[
+\boxed{
+1-\frac{q_*a}{nM_T}
+\;\ge\;
+\left(1-\frac{q_*}{n}\right)u
+-\mathbb E(Fd)
+-O_\tau(T^{-2/3}).
+}
+\tag{A}
+\]
+The \(O_\tau(T^{-2/3})\) term includes the mean and pin corrections already controlled by the reciprocal-row argument. Thus the proposed route would succeed if, uniformly for both signs,
+\[
+\boxed{\mathbb E(Fd)=o(1)}
+\tag{B}
+\]
+along the simultaneous marked window, with the order of limits
+\[
+p\to\infty\ \text{through }p\equiv1\pmod4
+\quad\text{at fixed }\tau>0,
+\qquad\text{then }\tau\downarrow0.
+\]
+
+### What is proved
+
+The actual-row estimates establish only the unweighted bounds
+\[
+\mathbb E d=O_\tau(T^{-2/3}),
+\qquad
+\mathbb E d^2=O_\tau(T^{-2/3}),
+\]
+using
+\[
+z=U+e,\qquad \mathbb E(1/U)=O_\tau(1),\qquad \mathbb E e^2=O_\tau(T^{-1}).
+\]
+
+These do not imply (B). The available pointwise bound for an arbitrary opposite optimizer is
+\[
+0\le F_i\le 1+\sqrt p,
+\]
+so the direct estimate is only
+\[
+\mathbb E(Fd)\le (1+\sqrt p)\mathbb E d
+=O_\tau(\sqrt p\,T^{-2/3}),
+\]
+which is useless in the proved simultaneous window. Cauchy–Schwarz gives
+\[
+\mathbb E(Fd)\le \|F\|_{2}\,\|d\|_{2},
+\]
+but no prime-uniform bound on \(\|F\|_2\) is known; assuming one would be precisely the unresolved uniform-energy input.
+
+A useful decomposition makes the remaining arithmetic requirement explicit:
+\[
+d\le (2u-U)_+ +(-e-u)_+,
+\]
+hence
+\[
+\mathbb E(Fd)
+\le
+2u\,\mathbb E\!\left[F\,1_{\{U<2u\}}\right]
++\frac1{4u}\mathbb E(F e^2).
+\tag{C}
+\]
+Therefore one needs a **weighted small-ball estimate** for the actual opposite optimizer and a weighted endpoint estimate. The existing reciprocal estimate controls \(\mathbb E(1/U)\), not
+\[
+\mathbb E\!\left[F\,1_{\{U<2u\}}\right],
+\]
+and the endpoint RMS estimate controls \(\mathbb E e^2\), not \(\mathbb E(F e^2)\).
+
+Consequently, the claimed vanishing signed spill on ordinary primes is **not proved**.
+
+## Square-control obstruction
+
+The same inequality correctly detects a positive obstruction on the exact square controls, without treating squares as prime counterexamples.
+
+For \(q=r^2\), the exact opposite optimum has normalized mark asymptotic \(1/\sqrt2\), whereas the actual fixed-depth marked average satisfies, for fixed \(\tau,T\) with
+\[
+\tau+\frac1T<1,
+\]
+the lower bound
+\[
+\liminf_{r\to\infty}\frac{z_{-,T}(0)}{\sqrt n}
+\ge (1+\tau+1/T)^{-1/2}>\frac1{\sqrt2}.
+\]
+Thus no nonnegative opposite-sector completion preserving the actual mean and mark can exist for all sufficiently large squares. Applying (A) to the exact square optimizer forces
+\[
+\liminf_{r\to\infty}\mathbb E(F_{\square}d)
+\ge
+\Delta_{\tau,T}-O_\tau(T^{-2/3}),
+\]
+where \(\Delta_{\tau,T}>0\) is the corresponding mark-budget gap. For fixed \(\tau>0\), choosing \(T\) sufficiently large makes the right-hand side positive.
+
+This is a genuine obstruction to a **prime-insensitive** weighted-hinge estimate. It does not refute (B) on the actual prime family \(p\equiv1\pmod4\), because the square optimizer has different arithmetic support and the prime and square limits are not interchangeable.
+
+## Evidence and remaining gap
+
+Evidence supporting the route:
+
+1. The unweighted hinge mass is already smaller than the reserve:
+   \[
+   \mathbb E d=O_\tau(T^{-2/3})=o(T^{-1/3}).
+   \]
+2. The pinned reflection identity isolates the only unresolved quantity as the positive weighted spill \(\mathbb E(Fd)\).
+3. Broad LP information shows that a positive-cost dual witness must have substantial support; this is compatible with a prime weighted small-ball estimate, but does not prove one.
+4. The finite prime tests and the \(p=97\) strict cone-gap example show that actual prime opposite optimizers can have nontrivial support leakage behavior, but they provide no asymptotic estimate.
+
+The gap is therefore not local feasibility. It is the absence of a prime-uniform estimate coupling the **actual deficit field \(d\)** to the **actual opposite optimal row \(F\)**.
+
+## Ranked next tests
+
+### 1. Weighted small-ball test for the actual opposite optimizer
+
+For each actual prime \(p\), sign \(\sigma\), and depth \(T\) in the proved simultaneous marked window, compute or bound
+\[
+S_{p,\sigma}(u)
+=
+\mathbb E\!\left[
+F_{p,-\sigma}\,
+1_{\{U_{\sigma,T}<2u\}}
+\right],
+\]
+where \(F_{p,-\sigma}\) is the genuine nonnegative opposite-sector optimizer, not a square control or a surrogate LP row.
+
+The target is
+\[
+u\,S_{p,\sigma}(u)=o(1),
+\]
+together with
+\[
+\mathbb E(F_{p,-\sigma}e_{\sigma,T}^2)=o(u).
+\]
+This directly verifies the two terms in (C), preserves the physical marking, and uses the required prime-first limit.
+
+**Why first:** it tests exactly the weighted quantity needed by (A), rather than attempting an unnecessary max-norm spill estimate.
+
+### 2. Localized Jacobi-transform / support-saturation test
+
+Use the zero set or near-zero set of the actual opposite optimizer to bound the signed Jacobi transform
+\[
+(Kd)(i)
+\quad\text{or directly}\quad
+\mathbb E(Fd),
+\]
+while retaining the true arithmetic support of \(F\). A useful finite target is a uniform estimate of the form
+\[
+\sum_{i\in B_{p,\sigma}}F_i d_i
+\le
+C_\tau T^{-2/3}+o_p(1),
+\]
+where \(B_{p,\sigma}\) is the actual low-value set of \(z_{\sigma,T}\), together with a separate estimate on the endpoint-error part.
+
+**Why second:** the marked-kernel and support-saturation results indicate that the relevant obstruction is concentrated on the actual opposite support, but a localized Jacobi estimate is technically more demanding and must avoid replacing the actual optimizer by an ordinary LP relaxation.
+
+No checked result currently establishes either test, so the ordinary-prime vanishing signed-spill question remains open.

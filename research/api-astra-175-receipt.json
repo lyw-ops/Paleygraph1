@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-175-inflight.json",
+    "sha256": "3c2127702206b7d62ebeb4a0e04bf276a4e0f15f31d0ebd750604b93f18c5a64"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-favorable-two-pole",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 14862,
+        "completion_tokens": 9537,
+        "total_tokens": 24399
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-favorable-two-pole-175.txt",
+        "sha256": "267d1195cc310cc6154b2e36be4c16322a1f47fd86f37e706a7cfbd6ec23e50d"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-generic-right-energy",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 10961,
+        "completion_tokens": 2954,
+        "total_tokens": 13915
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-generic-right-energy-175.txt",
+        "sha256": "ea716d9789b99b8641b5abb058dc31c6ba2726e5326965b327ede71ecdbe7673"
+      }
+    },
+    {
+      "call_id": "cold-prime-beyond-three-prefix",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 7305,
+        "completion_tokens": 2992,
+        "total_tokens": 10297
+      },
+      "archive": {
+        "path": "research/api-astra-cold-prime-beyond-three-prefix-175.txt",
+        "sha256": "dcb42dc1cf8ed8effa2ab23b75f13134bd94d46cc63add1db38f6e19bbb023bf"
+      }
+    }
+  ]
+}

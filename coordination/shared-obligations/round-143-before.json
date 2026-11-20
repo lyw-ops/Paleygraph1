@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T19:57:25.096952Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-142.json#next_calls",
+  "coordinator_sha256": "e4f227156907bcf4d88bad708e77b5a6d9480d920eaf2aeed1c831aaddbc5810",
+  "call_ids": [
+    "ordinary-terminal-distinct-triples",
+    "cold-translated-label-intersection",
+    "cold-unshifted-rank-ten-return"
+  ],
+  "routes": {
+    "r143/ordinary-terminal-distinct-triples": {
+      "question": "Can the genuine opposite optimal face give a subquadratic signed distinct-index sum on ordinary primes?",
+      "scope": "Use the actual p=1 mod 4 family, zero-start trajectory, fixed tau then tau down to zero, and selectable times T growing with T+1 in the simultaneous marked window. Use true opposite mean-one optima at each sign and preserve signs in the triple sum.",
+      "remaining": "Prove a one-sided upper o(T^2) of the signed distinct triple at selectable true optimum and growing marked time on ordinary primes, or the weaker first-moment test. Use a fixed positive floor first and take it down last."
+    },
+    "r143/cold-translated-label-intersection": {
+      "question": "Which derived arithmetic labels actually coincide across the leading mixed orders on the canonical disjoint translated input?",
+      "scope": "Keep the pure seed and Legendre multiplier unshifted, one genuine translated source, both full lifts and actual marked denominator. Work across the original cold square and the generic disjoint added pair. Do not specialize unverified inertia at a nearby cycle.",
+      "remaining": "Determine generic arithmetic intersections on the translated column and the exact next returns of the new unshifted types. Full derivative, nonlinear half-step and growing-depth confinement on the cold square are open."
+    },
+    "r143/cold-unshifted-rank-ten-return": {
+      "question": "Do the new unshifted rank-ten words return to a named old label in the next Jacobi order?",
+      "scope": "Use the unshifted actual C1 column, original cold square and actual t0=n. Keep full Jacobi and Legendre factors at all steps, and track the next Jacobi order of the single-linear-Legendre block. This is separate from the leading translated label task.",
+      "remaining": "Determine generic arithmetic intersections on the translated column and the exact next returns of the new unshifted types. Full derivative, nonlinear half-step and growing-depth confinement on the cold square are open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-terminal-distinct-triples": [],
+    "cold-translated-label-intersection": [],
+    "cold-unshifted-rank-ten-return": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The actual prime terminal distinct-index estimate is a real opposite optimal-face question. The first translated label intersection and the next unshifted higher-order return use different sources, Taylor orders, and exact label obligations. They share some arithmetic methods but no exact candidate."
+}

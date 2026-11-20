@@ -1,0 +1,26 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_144",
+  "comparison": "The ordinary primal and dual obligations are identically the same exact face-selected first moment under R143 strong LP duality. This was registered before dispatch. Both valid residual and cap observations were consolidated. The cold named-pool arithmetic question was separate.",
+  "groups": [
+    {
+      "id": "cand:actual-face-terminal-first-moment",
+      "routes": [
+        "r144/ordinary-terminal-select-primal",
+        "r144/ordinary-terminal-select-dual"
+      ],
+      "classification": "recognized",
+      "math_evidence": "research/ordinary-terminal-face-dual-143.md, equation (1), identifies the common objective at each prime, sign, marked time and fixed floor before minimization over the choice of time.",
+      "prior_evidence": "The plan and bound before record list the same cand ID for both routes.",
+      "dispatch_effect": "same",
+      "effect_reason": "The routes deliberately tested different proof mechanisms for the same named estimate."
+    }
+  ],
+  "dispatch": "coordination/round-144-inflight.json",
+  "launched_at_utc": "2026-11-19T20:04:34.620638Z",
+  "launched_calls": [
+    "ordinary-terminal-select-primal",
+    "ordinary-terminal-select-dual",
+    "cold-quintic-residual-labels"
+  ],
+  "before_sha256": "d0bf7958bd0bdecf60c9d048a83fe6aba1302869193f6f26da736170e8cf8bea"
+}

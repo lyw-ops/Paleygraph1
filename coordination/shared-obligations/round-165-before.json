@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T23:56:55.167851Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-164.json#next_calls",
+  "coordinator_sha256": "ddd59a82c3c55acef9209ecb0dff8962686fe311706ef57f7cec523b804d431c",
+  "call_ids": [
+    "ordinary-prime-unmarked-directional-spectrum",
+    "ordinary-prime-moderate-slope-collisions",
+    "cold-prime-actual-bulk-Taylor-orbit"
+  ],
+  "routes": {
+    "r165/ordinary-prime-unmarked-directional-spectrum": {
+      "question": "Can the actual unmarked Gram constant-source spectral mass below T^(-1/2) obey a sufficient dyadic upper on every fixed-gap sequence?",
+      "scope": "Use true zero columns Uprime, G from the nonconstant Jacobi sector, c=1_Uprime/sqrt(n), physical sign and admissible T. This source is distinct from the marked bulk A and the physical slope.",
+      "remaining": "Prove the source-specific dyadic tail on actual unmarked columns or otherwise exclude fixed gaps. Bound full fixed moderate slope collisions at O(p^1.5)."
+    },
+    "r165/ordinary-prime-moderate-slope-collisions": {
+      "question": "Can the actual slope collision count on a genuine fixed moderate band satisfy sum N_t^2=O(p^1.5)?",
+      "scope": "Keep actual levels and mark, coupled r,s=tr, original physical squares, true slope band and sign. Avoid replacing them by fixed unshifted energy or claiming signed cancellation from a frozen sign.",
+      "remaining": "Prove the source-specific dyadic tail on actual unmarked columns or otherwise exclude fixed gaps. Bound full fixed moderate slope collisions at O(p^1.5)."
+    },
+    "r165/cold-prime-actual-bulk-Taylor-orbit": {
+      "question": "Can the actual bulk Taylor source be transported in a summable signed translated orbit after separating the leading term and the marked atom?",
+      "scope": "Keep both lifts, actual t0=n and original square. Distinguish inverse times Kr from inverse times K squared r. Use the exact bulk part of the real increment, with finite radius and translated norm.",
+      "remaining": "Bound the actual signed bulk translated orbit and nonlinear tail, or prove a compatible growing starter with valid sheets."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-unmarked-directional-spectrum": [],
+    "ordinary-prime-moderate-slope-collisions": [],
+    "cold-prime-actual-bulk-Taylor-orbit": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The actual unmarked constant-source spectrum asks for prime-uniform fixed-gap exclusion. The moderate-slope collision lane targets a distinct selected critical block, and the cold source bulk estimates are separate."
+}

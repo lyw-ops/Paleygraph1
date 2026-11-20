@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_158",
+  "comparison": "The actual high-amplitude arc filtering and the complete regular geometry use different immediate inputs. The proposed generic prime multiplicative progression does not realize the actual arc, and the clean pointwise geometry alone is insufficient. The nonlinear cold comparison is independent. No confirmed duplicate candidate between lanes.",
+  "groups": [],
+  "dispatch": "coordination/round-158-inflight.json",
+  "launched_at_utc": "2026-11-19T22:42:50.334733Z",
+  "launched_calls": [
+    "ordinary-prime-marked-phase-arc",
+    "ordinary-prime-clean-five-root-average",
+    "cold-signed-gap-alternative"
+  ],
+  "before_sha256": "a0f9cfe86109ac239061fc191c1cc613ffaceeadfc79e9ada1fef065d8a8646f"
+}

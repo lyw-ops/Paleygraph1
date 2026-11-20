@@ -1,0 +1,61 @@
+{
+  "round": 139,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-138-acceptance.json",
+    "sha256": "4cb0f4250122055ade08c40232bdbabf6be60d8e14e061e91eda4a361ada4378"
+  },
+  "coordinator": {
+    "path": "coordination/round-138.json",
+    "sha256": "09868eafa9859505a47213a5bcdf83e853cdf1bb1d4209c815f08f44f7cbba77"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-139.py",
+    "sha256": "210f7728901c4ed547bb068d3b809beb75331dff3b54731cd440abf65285548c"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-139-before.json",
+    "sha256": "69849f9410e729084cf1d9583f90bcd593a7eb5d1ae0699e06d6270bb1a5123d"
+  },
+  "lanes": [
+    {
+      "call_id": "cold-same-row-square-difference",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "2030a1eed87d6dbd51614105a1107212ea4c5002e36d7ea32a36cdf983f6652a",
+      "mission_file": {
+        "path": "coordination/missions/round-139/cold-same-row-square-difference.md",
+        "sha256": "9fd89be71861ccd93266b266219452eceb5c26911a29df7d94a9279a3e13b994"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r139-api-01a1ed0a/cold-same-row-square-difference-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r139-api-01a1ed0a/cold-same-row-square-difference-candidate.md",
+      "started_utc_epoch": 1795114755.949833
+    },
+    {
+      "call_id": "cold-picard-residual-label-returns",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "0b6d83c7d17489ffd075bf47406cb6fed457871a88aeb613c971f6fa3a86f20a",
+      "mission_file": {
+        "path": "coordination/missions/round-139/cold-picard-residual-label-returns.md",
+        "sha256": "ed62a0199989df1637dbac7935143b39089283c1dd7d3734e9ac7c7ff3b6c368"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r139-api-01a1ed0a/cold-picard-residual-label-returns-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r139-api-01a1ed0a/cold-picard-residual-label-returns-candidate.md",
+      "started_utc_epoch": 1795114755.949379
+    },
+    {
+      "call_id": "ordinary-direct-signed-jacobi-tail",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "cbc0c0e39da8c02782118dc4c66401273839711246418992b474cfe45f9a16cf",
+      "mission_file": {
+        "path": "coordination/missions/round-139/ordinary-direct-signed-jacobi-tail.md",
+        "sha256": "6bece21703081b5bf0e876c66079a7d1a3453a7c76b97865ce4db83acef37563"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r139-api-01a1ed0a/ordinary-direct-signed-jacobi-tail-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r139-api-01a1ed0a/ordinary-direct-signed-jacobi-tail-candidate.md",
+      "started_utc_epoch": 1795114755.949041
+    }
+  ]
+}

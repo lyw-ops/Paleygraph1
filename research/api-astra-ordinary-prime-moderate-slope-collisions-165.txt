@@ -1,0 +1,160 @@
+## Result
+
+Along the selected ordinary-prime branch \(p\to\infty\), with the actual subgroup \(Q\subset \mathbb F_p^\times\), the actual physical mark \(v=v_p\neq0\), the original square masks, and counting norms, I cannot prove
+\[
+\sum_{t\in D_p}N_t^2\ll p^{3/2}
+\]
+for a fixed moderate slope band. The available incidence estimates give a substantially weaker bound, and the missing input is precisely a two-copy estimate for the paired multiplicities.
+
+Take, explicitly,
+\[
+D_p=\Bigl\{t\in Q\setminus\{1\}:
+\frac1{16}\le |f(t)|^2\le \frac14,\quad
+\chi(1-t)=\rho\Bigr\}.
+\]
+If this set is empty, the assertion is trivial. Otherwise it is a genuine fixed moderate band: its amplitude thresholds are independent of \(p\), while the favorable sign \(\chi(1-t)=\rho\) is retained.
+
+Fix physical squared levels
+\[
+\mathcal A=\{A\in Q:|f(A)|^2\ge a\},\qquad
+\mathcal B=\{C\in Q:|f(C)|^2\ge b\},
+\]
+with fixed \(a,b>0\), and count only the original physical configurations
+\[
+A_x=1-vx,\qquad C_x=1-vux,
+\]
+\[
+A_y=1-vy,\qquad C_y=1-vuy,
+\]
+including \(x,y,u\in Q\), the original square masks, all nonzero constraints, \(u\neq1\), \(x\neq y\), and the favorable sign. Define
+\[
+r=\frac{A_y}{A_x},\qquad
+s=\frac{C_y}{C_x},\qquad
+t=\frac sr.
+\]
+Let \(N_t\) be the number of such actual triples at slope \(t\).
+
+The physical affine relation is
+\[
+C_x=1-u+uA_x,
+\]
+and, for fixed \(r,s\), equivalently
+\[
+ C_x^{-1}
+ =
+ \frac{r-s}{r-1}
+ +
+ \frac{s-1}{r-1}A_x^{-1}.
+\]
+For \(t\neq1\), the coefficients are nonzero in the genuine off-diagonal block. Thus the previously established affine-intersection estimate gives, uniformly in the actual physical restrictions,
+\[
+\#\{A_x\text{ for fixed }r,s\}
+\ll_{a,b}p^{1/2-\gamma},
+\]
+where
+\[
+\gamma=
+\begin{cases}
+1/54,&\min(a,b)>1/2,\\
+1/211,&\max(a,b)>1/2,\ \min(a,b)\le1/2.
+\end{cases}
+\]
+Together with the quotient-coordinate counting from the physical slope-fiber argument, this yields only
+\[
+N_t\ll_{a,b}p^{1-\gamma},
+\]
+and the total actual off-diagonal mass satisfies
+\[
+\sum_tN_t\ll_{a,b}p^{3/2-\gamma}.
+\]
+
+Consequently, the strongest collision estimate obtainable by combining these two bounds mechanically is
+\[
+\sum_{t\in D_p}N_t^2
+\le
+\bigl(\sup_{t\in D_p}N_t\bigr)\sum_{t\in D_p}N_t
+\ll_{a,b}p^{5/2-2\gamma}.
+\]
+This is far above \(p^{3/2}\). Even in the stronger both-high-layer case \(\gamma=1/54\), the exponent is \(5/2-1/27\).
+
+The moderate-band size estimate does not repair this. Parseval gives
+\[
+|\{t:|f(t)|^2\ge1/16\}|\ll \sqrt p,
+\]
+but an upper bound on the number of slopes does not provide an upper bound for the sum of their squared multiplicities. The trivial estimate remains of order \(p^{5/2-2\gamma}\).
+
+## Exact form of the missing estimate
+
+For fixed \(t\), write the affine-chart intercept as
+\[
+b=\frac{u(t-1)}{1-u},
+\]
+so that, with
+\[
+X=(1-vx)^{-1},\qquad Y=(1-vy)^{-1},
+\]
+the slope relation is
+\[
+Y=tX+b.
+\]
+Let \(R_t(b)\) denote the number of actual physical \(X\)'s producing a valid marked triple with this \(t,b\). Then
+\[
+N_t=\sum_b R_t(b),
+\]
+and the desired collision bound is exactly
+\[
+\sum_{t\in D_p}\sum_{b,b'}R_t(b)R_t(b')
+\ll p^{3/2}.
+\]
+
+The existing affine-intersection argument controls each individual \(R_t(b)\), essentially by
+\[
+R_t(b)\ll p^{1/2-\gamma},
+\]
+but gives no sufficiently strong control of the coupled \(b,b'\) sum. In particular, it does not show either of the plausible sufficient estimates
+\[
+\sum_{t\in D_p}\sum_b R_t(b)^2\ll p^{3/2},
+\]
+or
+\[
+\sum_{t\in D_p}
+\left(\sum_bR_t(b)\right)^2
+\ll p^{3/2}.
+\]
+The latter is the actual target. The former would be useful only after an additional control of cross-intercept terms.
+
+The shifted-layer energy estimate also does not close this gap. It gives, for a high physical layer \(X\),
+\[
+E^\times(X)\ll p^{3/2-\delta}
+\]
+for a fixed \(\delta>0\), but this controls multiplicities of the single dilation parameter \(u\). The collision condition fixes the same true slope \(t\) in two copies and couples two different affine intercepts. No deduction from the one-parameter shifted energy to the required \((t,b,b')\)-energy is currently available.
+
+Thus the proposed \(O(p^{3/2})\) collision bound is **not established**, but the failure is precise: the known pointwise affine pinning and one-parameter shifted-layer energy do not control the joint repeated-pair multiplicities.
+
+## Evidence and remaining gap
+
+- All estimates above retain the actual prime family, actual \(Q\), actual \(v\), original physical square masks, actual signs, and counting norms.
+- No replacement by an unshifted energy or frozen-sign cancellation was used.
+- The obstruction is not a normalization issue: the known bounds genuinely lose approximately one full power of \(p\) when converted from individual slope fibers to squared multiplicities.
+- No asymptotic counterexample to the \(p^{3/2}\) conjecture has been produced. The conclusion is therefore a failure of the present sufficient route, not a refutation of the target.
+
+## Ranked next tests
+
+1. **Analytic paired-intercept test.** Prove, on the same fixed high physical layers and with all masks retained, a two-copy estimate of the form
+   \[
+   \sum_{t\in D_p}\sum_{b,b'}R_t(b)R_t(b')
+   \ll p^{3/2}.
+   \]
+   The most promising route is to expand the two affine relations
+   \[
+   Y=tX+b,\qquad Y'=tX'+b'
+   \]
+   simultaneously and seek cancellation or orthogonality in the shared \(t\)-variable. A bound for the diagonal term \(\sum_{t,b}R_t(b)^2\) alone is insufficient unless cross-intercept terms are also controlled.
+
+2. **Exact finite collision experiment on the actual branch.** For several selected ordinary primes, compute \(N_t\) using the true \(v\), the original square masks, the actual favorable sign, and fixed thresholds \(a,b\). Record
+   \[
+   \sum_{t\in D_p}N_t^2,\qquad
+   \sum_{t\in D_p}\sum_bR_t(b)^2,\qquad
+   \max_tN_t.
+   \]
+   This cannot settle the asymptotic question, but it can distinguish whether collisions are concentrated in a small number of intercepts or distributed across many \(b\)'s, thereby identifying which two-copy estimate is realistic.

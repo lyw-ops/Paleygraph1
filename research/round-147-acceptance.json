@@ -1,0 +1,151 @@
+{
+  "round": 147,
+  "accepted_at_utc": "2026-11-19T20:40:57Z",
+  "previous": "research/round-146-acceptance.json",
+  "previous_sha256": "68d21a801fc1da69445f480906caa4f64fab4b563f95162da991c0332b40db21",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-146.json",
+    "sha256": "3b0f4babcd472e7e6f6ecbc4054764dd251b7c821e45d250e71538d3c6a2e204"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-oriented-terminal-mask-147.md": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456",
+    "research/cold-first-omitted-envelope-147.md": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921",
+    "research/cold-first-omitted-envelope-147-check.py": "c9ca78de3ce69b95d2ec81db3b482b7beecc614e6c9c2068442218a9334c99fa",
+    "research/cold-first-omitted-envelope-147-checks.jsonl": "ca22a2636d4fd48f412a8357ffeb45368f59fe9f37aeecb30e8be1d8ad767986",
+    "research/api-astra-review-147.md": "da2bdbca70609d6fc9c5946126789ca2e4bdae4dbcffd803d1cb9a241fae110f",
+    "research/api-astra-147-receipt.json": "59e9dc199a940ead083b45bec1be12bb00d6e45d3ae260401f8916364e649a90",
+    "research/api-astra-ordinary-prime-complementary-mask-energy-147.txt": "2dd229d8e848f46209761d4aeed535fe8564d02ff8433506b2177976b91cf167",
+    "research/api-astra-ordinary-zero-set-deletion-sign-147.txt": "d92dfd57ee5622f7707a5a958ba50135f3f71073c4eeb841ba9cfe39f86cc621",
+    "research/api-astra-cold-signed-first-omitted-center-147.txt": "f4e2d749aee4767714fb7b6d16e677347ed1e6b268e0e251d12187b174c33235",
+    "coordination/launchers/round-147.py": "9f005492a59757598b09d43b80c9054624575a9e70fa172fdd5d094fb9207f23",
+    "coordination/round-147-inflight.json": "6081b0b04a86016cd1df8cba9b32c4c7b8073ff79e9c3241d85ff0b4daa88d77",
+    "coordination/shared-obligations/round-147-before.json": "b0786e6e46cffe50967edce187304f6e9200ced2e2e3f9787b7cbb4f6309c538",
+    "coordination/shared-obligations/round-147-after.json": "9aa895bf898690c07c799f92dbccd6a6a2f66ff0aec9f5bf9fe74c6cf6b581c1",
+    "coordination/missions/round-147/ordinary-prime-complementary-mask-energy.md": "86b47c3b3b9641ed1115738cd411eefb30416f5de0bd9aed42f1fb80270c0040",
+    "coordination/missions/round-147/ordinary-zero-set-deletion-sign.md": "8ea8267755c06dcfa74f75188c5d54afe4d90ddb327125cd34359fd0f0f35cb5",
+    "coordination/missions/round-147/cold-signed-first-omitted-center.md": "6bea5449e7723e62a302e70a98f02352b0295ca83f6a08287002af021fe28a3c"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-near-cap-complementary-mask-146.md": "06c1dd62076c275cbbdbd79c7976dc1da2c2eca05723c681d64b1fd310e2d43f",
+    "research/ordinary-terminal-clipped-shift-145.md": "49b618a03e88ac99ca07a05d2f6abc5192fa484eb8bd102b2ead048176d97fcf",
+    "research/ordinary-terminal-approximate-face-144.md": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4",
+    "research/ordinary-terminal-offdiagonal-142.md": "958ff834c39cdb71002730a3017aecfdd33acb909147eed83f0245c587801e03",
+    "research/ordinary-terminal-face-dual-143.md": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/astra-completion-37.md": "7c0ec52d48c6eb801063ff9b8afadf1573cab2814d667fc5625680df02257269",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/astra-hinge-73.md": "20ba0f8f3527e7b431ec6218c8ff668a8120859ba5fe3a6c0bac12f7f2a608c3",
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/astra-face-54.md": "c19832b0d663c99fa08c45e80919865bc5e9ff57efb7930d85a837bb826defd8",
+    "research/cold-actual-legendre-amplitude-146.md": "4e72c15a598bb4451152ff9a8ab5bf4d7aae38ffc13914041687b1963c89d4e2",
+    "research/cold-jacobi-linear-legendre-145.md": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1",
+    "research/cold-quintic-complete-selected-pools-144.md": "65d491945951070b9db8565942bcec62ce32784750acfa7d7e417c361c36fa06",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-linear-split-137.md": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01",
+    "research/cold-remainder-135.md": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-resummed-136-check.py": "81dbc6e21637e04a5bf39bf503a6172fee8ba4dffe308d0dce7fb6fe068a3784",
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three complete responses, independently audited signed real-mask refinement and actual cold omitted-price replay.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 2,
+  "arithmetic_record_counts": {
+    "actual_first_omitted_linear_positive_envelope": 2
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra ordinary complementary mask energy",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Control actual score-dependent intersection multiplicities",
+        "Test exact periodic or sparse cap configurations"
+      ]
+    },
+    {
+      "name": "Gateway Astra ordinary zero-set deletion sign",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Use weighted active Fourier rows on the true opposite zero set",
+        "Quantify a uniform obstruction on the true optimizer face and time selection"
+      ]
+    },
+    {
+      "name": "Gateway Astra signed first omitted cold center",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Collect actual signed first-order residual labels",
+        "Test the actual same-row signed square difference"
+      ]
+    },
+    {
+      "name": "/root/audit_147",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate the actual oriented prime mask using the T-1 signed source at a selectable growing time",
+        "Match the true cold Picard residual at both heights against its old signed labels within 0.074 separately or 0.224 jointly"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the actual positive sign of the terminal Jacobi transport, the true dual weight and the two input zero sets to bound the oriented masked collision or a signed bulk correlation on all ordinary primes.",
+    "Seek a separate prime-sensitive weighted estimate on the true opposite zero set that handles sparse caps, possibly directly bounding the negative signed deletion or its oriented weighted spike.",
+    "Recover a signed price for the true height-601 and height-602 Picard residual. A separate first-order 0.074 rate suffices with the new 0.150 center estimate; joint signed 0.224 and same-row 0.580184 remain alternatives."
+  ],
+  "proof_scope": [
+    "The genuine last positive-time-average term gives an exact signed terminal balance for any true near-cap mixture. At fixed tau and a gap eta with sqrt(1+tau)<1+eta the normalized bulk signed linear terminal pair has liminf at least 2(1+eta-sqrt(1+tau)). Thus the order-T translated clipped-tail collision is forced also on the true positive-orientation mask x_T>=cT, R<=delta x_T/T, with x_T=s sqrt(n) v_T and both roots removed. The sharper mask is inside the earlier unsigned mask with halved terminal threshold and doubled relative opposite-weight threshold. A prime-uniform upper remains conditional.",
+    "The nonuniform weighted intersection kernel uses a single common masked output with both source offsets. Valid bounded-intersection conditions require the actual weighted support and genuine near-cap set. The proposed ambient Weil scale k sqrt(p)=o(T) cannot hold for positive k within the proved growing marked window.",
+    "Removing the actual Legendre field from the Round 136 nonseed representation before the absolute price yields eventual two-pair physical rates below 0.150 for the other fixed centers at arity one, below 0.408 for the whole first omission, and below 0.550 for A_h-B after charging the inherited higher-order bound. The same specific retained first-omitted positive comparison has monotone repricing lower exceeding 0.356 at both heights. That comparison is distinct from the full direct envelope and supplies no signed lower for A_h-B."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw weighted collision kernel has an extra mask factor and an incorrect offset. The raw algebraically majorized class is empty at the quoted Weil error scale in the actual window. No uniform genuine prime oriented-mask bound has been proved.",
+    "The raw zero-set return does not give the needed weighted sign, and its proposed face obstruction alone does not defeat a selectable growing time and cutoff.",
+    "The raw cold return does not price the actual first omission. The checked 0.408 upper remains above 0.224. The old direct positive-envelope repricing obstruction was already proved with stronger constants at Round 131. Signed full derivative, confinement and original theta limit remain open."
+  ],
+  "floating_diagnostics": [
+    "A finite numerical eigenvector was used to choose an integer trial vector for the first omitted comparison. Only its subsequent strict Arb componentwise validation is used as evidence."
+  ],
+  "replay_checks": [
+    "Both outward 192-bit saved records replayed byte for byte and the inherited Round 136 checker inputs match the recorded acceptance digests. The bounds are uniform comparisons on the chosen closed marked square, with separate eventual repair arguments.",
+    "The auditor independently verified both saved records and re-derived the ordinary orientation also from the terminal identity at time T-1.",
+    "Three complete HTTP 200 drafts with matching advertised models were archived; none of the distinct exact objectives overlapped."
+  ],
+  "independent_review": [
+    "The read-only auditor checked terminal signs and root constants, single-mask energy expansion, genuine near-cap and cutoff quantifiers, and verified the cold arity-one subtractions, positive witness scope and analytic corrections."
+  ]
+}

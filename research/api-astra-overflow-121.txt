@@ -1,0 +1,139 @@
+## New exact contraction and the remaining prime-specific bottleneck
+
+Assume the reflected critical source \(q\) satisfies the accepted estimates
+\[
+\|q\|_\infty=O(1),\qquad \mathbb E_n(qg)\asymp n^{-1/2},\qquad
+\mu\asymp n^{-1/2},
+\]
+and use the exact favored projection
+\[
+q_*=q-\Pi_-q,\qquad 
+\pi_*(a)=\frac{q_*(a)}{n m}.
+\]
+Let
+\[
+\xi_d(b)=n\omega_b\omega^-_{b+d},
+\]
+so that \(\xi_d\) is a probability distribution for every \(d\). For distinct shifts, write \(e=a-b\), \(d=c-b\). The output-masked conditional contraction is exactly
+\[
+\begin{aligned}
+\mathscr C(e,d)
+&:=\sum_b \xi_d(b)\pi_*(b+e)
+ \left[
+ T_3(e,0,d)
+ -\frac1n k(-b-e)k(-b)k(-b-d)
+ \right]  \\
+&=T_3(e,0,d)\,R(e,d)-\frac1n D(e,d), \tag{A}
+\end{aligned}
+\]
+where
+\[
+R(e,d):=\sum_b\xi_d(b)\pi_*(b+e),
+\]
+and
+\[
+D(e,d):=\sum_b\xi_d(b)\pi_*(b+e)
+ k(-b-e)k(-b)k(-b-d).
+\]
+
+This is the required full-input formula: the opposite-factor singleton remains in \(\xi_d\), and the deleted output term is retained inside the same conditional average.
+
+### Quantified bound that is available uniformly in \(d\)
+
+The favored projection has total mass one. Moreover, the accepted projection estimate gives
+\[
+\|\pi_*\|_{\mathrm{TV}}
+=\sum_a|\pi_*(a)|
+\le 1+O(n^{-1/4}). \tag{B}
+\]
+Indeed, the negative mass of the projected reweighting is \(O(n^{-1/4})\), while its signed total mass is exactly one.
+
+Since \(|k|\le1\) and \(\xi_d\) is a probability,
+\[
+|D(e,d)|
+\le \sum_b\xi_d(b)|\pi_*(b+e)|
+\le \|\pi_*\|_\infty
+\]
+is not the right bound, because the conditional translate need not be uniform. The unconditional bound that follows directly from (B) is
+\[
+|D(e,d)|\le \|\pi_*\|_{\mathrm{TV}}
+\le 1+O(n^{-1/4}), \tag{C}
+\]
+and therefore
+\[
+\boxed{\left|
+\frac1n D(e,d)\right|
+\le \frac{1+O(n^{-1/4})}{n}.} \tag{D}
+\]
+
+Thus the output deletion is at the exact critical scale \(n^{-1}\). Neither the exact uniformity of the difference variable \(d\), nor the small negative mass of \(\pi_*\), improves (D) to \(o(n^{-1})\).
+
+The exceptional values \(b\in\{0,-e,-d\}\) do not repair this. At such a value one factor is \(k(0)=-p^{-1/2}\), so their contribution is smaller provided one has a pointwise conditional-mass estimate. From the normalized factor bounds,
+\[
+\omega_b,\omega^-_b=O(n^{-1/2}),\qquad
+\pi_*(b+e)=O(n^{-1/2}),
+\]
+one obtains only
+\[
+\sum_{b\in\{0,-e,-d\}}\xi_d(b)|\pi_*(b+e)|
+=O(n^{-1/2}),
+\]
+hence an exceptional contribution
+\[
+O(n^{-1}p^{-1/2}n^{-1/2})=O(n^{-3/2})
+\]
+after the outside \(1/n\). The critical part of \(D(e,d)\) therefore comes from the nonexceptional \(b\), where all three \(k\)-factors have ordinary size \(O(1)\).
+
+### Why prime arithmetic has not yet supplied the needed gain
+
+For constant weights in \(b\), the nonexceptional sum
+\[
+\sum_b k(-b-e)k(-b)k(-b-d)
+\]
+is a complete reciprocal/Jacobi correlation and is accessible to Deligne-type estimates. The actual coefficient is instead
+\[
+r_{e,d}(b):=\xi_d(b)\pi_*(b+e)
+=\frac{q_*(b+e)\,g(b+e)\,g(b)\,g_-(b+d)}
+ {n^2\mu^2\,\mathbb E_n(qg)}
+\]
+(with the displayed normalization understood in the normalized \(n\)-mean convention). It is a translated product of three true stationary rows and the projected source. The exact law
+\[
+\sum_b\xi_d(b)=1
+\]
+controls only the mass of \(r_{e,d}\); it gives no cancellation against the reciprocal triple.
+
+In particular, even the strongest immediate consequence,
+\[
+|D(e,d)|\le 1+O(n^{-1/4}),
+\]
+leaves a possible contribution \(c/n\) with \(c\neq0\). A bound such as
+\[
+D(e,d)=o(1)
+\quad\text{uniformly or after the actual }(e,d)\text{-average}
+\]
+would be sufficient, but it does not follow from uniformity in \(d\), from \(\|\Pi_-q\|_{2,n}=O(n^{-1/2})\), or from Hasse bounds alone.
+
+The exact arithmetic target is therefore the weighted estimate
+\[
+\sum_{e\ne0,d\ne0,e\ne d}
+\sum_b \xi_d(b)\pi_*(b+e)
+ k(-b-e)k(-b)k(-b-d)
+=o(1), \tag{E}
+\]
+with the same conditional weights as in (A). This is a genuinely stronger statement than any fixed-\(d\) estimate for \(T_3(e,0,d)\).
+
+## Conclusion
+
+The proposed \(o(n^{-1})\) upper remains unproved. More precisely:
+
+* The full-input, output-masked contraction has the exact decomposition (A).
+* The deleted-output term is bounded uniformly only by \(n^{-1}+O(n^{-5/4})\), see (D).
+* The three exceptional input locations contribute \(O(n^{-3/2})\), so they are not the obstruction.
+* The unresolved obstruction is the nonexceptional weighted reciprocal correlation (E), where the conditional weight is the actual product \(\xi_d(b)\pi_*(b+e)\).
+* Therefore the accepted prime-uniform Legendre bound for the unmasked \(T_3\) or the exact uniformity of \(d\) does not settle the masked full-input cubic.
+
+### Ranked next tests
+
+1. **Weighted sheaf/Fourier test.** Expand \(r_{e,d}(b)\) in positional Fourier modes and determine whether its nonconstant modes have an \(o(1)\) correlation with the reciprocal triple. A bound of \(O(p^{-1/2})\) for the low modes plus an \(L^2\) tail estimate would prove (E).
+
+2. **Exact finite-prime diagnostic.** For actual stationary rows, compute \(D(e,d)\) and its \((e,d)\)-average separately from \(T_3(e,0,d)R(e,d)\). The relevant failure signature is a nonzero limiting average of \(D\), not merely a large individual \(T_3\).

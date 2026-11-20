@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T01:46:21.988861Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-175.json#next_calls",
+  "coordinator_sha256": "37a526801f5cb8a802039d81a130795609b3a089958b4aafeb17669273b72159",
+  "call_ids": [
+    "ordinary-prime-output-weighted-distinct-poles",
+    "ordinary-prime-nonmonomial-projective-gain",
+    "cold-prime-actual-signed-displacement"
+  ],
+  "routes": {
+    "r176/ordinary-prime-output-weighted-distinct-poles": {
+      "question": "Can the output-localized true distinct-pole collision with both input amplitudes reach O(p^3/2)?",
+      "scope": "Keep original w(s), all four g factors per line, marks and exclusions. Use the exact output shift sign and true two-pole relation or another coupled arithmetic estimate. Price common poles separately. Do not multiply the positive common-pole subnorm by an individual Jacobi factor.",
+      "remaining": "Estimate the true coupled favorable distinct- and common-pole contributions, or close both one match and zero match with original weights. Generic and pure affine energy obligations remain."
+    },
+    "r176/ordinary-prime-nonmonomial-projective-gain": {
+      "question": "Can a genuine two-level estimate for the projective map in D improve the summed all-weight right energy?",
+      "scope": "Try the true cap and hereditary energy of heavy g sets, or a coupled h-average, to exceed the existing affine estimate. Preserve both physical square masks. Explain how a pointwise gain translates into a new summed bound or why it cannot. Keep pure classes and zero match separate.",
+      "remaining": "Estimate the true coupled favorable distinct- and common-pole contributions, or close both one match and zero match with original weights. Generic and pure affine energy obligations remain."
+    },
+    "r176/cold-prime-actual-signed-displacement": {
+      "question": "Can actual signed increments remain summably small with strict slack after the three verified steps?",
+      "scope": "Use the true marked row, both lifts and original square. Attack finite-to-growing transport on actual signed residuals, signed partial sums at the true fixed base, or a genuinely sufficient replacement starter. For an unnormalized counting-norm test at V605 the source threshold is 0.0038967 with fixed slack. Do not infer this from normalized second norm, or confinement from a bare signed rate below one.",
+      "remaining": "Prove signed propagation of the true residuals and total displacement with strict slack or an actual alternative starter. Keep derivative transfer as a separate task."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-output-weighted-distinct-poles": [],
+    "ordinary-prime-nonmonomial-projective-gain": [],
+    "cold-prime-actual-signed-displacement": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "Distinct pole estimates must retain both positive input amplitudes and the output weight. Generic affine right energy asks for a separate all-level nonmonomial map estimate. Cold work concerns the actual signed trajectory after excluding the full coordinate operator criterion. The calls address separate remaining bounds."
+}

@@ -1,0 +1,131 @@
+{
+  "round": 131,
+  "accepted_at_utc": "2026-11-19T17:12:31Z",
+  "previous": "research/round-130-acceptance.json",
+  "previous_sha256": "9926f0996cb5270560856af0e94e7be14a65185fbf1774b35a6bc64ce12e7564",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-130.json",
+    "sha256": "6580bd2b9df5b7e2eea3b1624109a392cd9906a0aee3a1215d58c6df758a9380"
+  },
+  "proof_and_code_sha256": {
+    "research/zero-floor-mean-131.md": "4abe4c232ff3219cc99c073d9c605941a5e1519b5a53d41012ac212f7d0faa86",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2",
+    "research/cold-positive-block-131-check.py": "4f550d016008324cb258aab4b3df91b01b27df684d7d19bb9e7ea06831d8da56",
+    "research/cold-positive-block-131-checks.jsonl": "cbbfcb9854e54711299ec6db9076227c95d6ad564baccee27e9d8371b10f7465",
+    "research/api-astra-review-131.md": "2d18363a9bba60230cc0f627e16fec8736a696d5b5b539878375c1b8703f0713",
+    "research/api-astra-131-receipt.json": "6c456627db97bbb836d51e27274e8bb9b95562a50ceb6ad06e1cb6af6797fbb1",
+    "research/api-astra-overflow-131.txt": "fa177a5f04c29ec34acfd664e480182d0607616c77db8dc908497bfd27b134cd",
+    "research/api-astra-cold-131.txt": "728c77556b1f73370db9b6ef36c1f1d8378fa9352bc4dce46dff6ab574207a13",
+    "coordination/round-131-inflight.json": "e4fa16bea7054dea8f39bf8c4d6b7c1a520b77fccee652a668e03c0526bbc066"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/zero-floor-mark-and-cap-budget.md": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8",
+    "research/zero-floor-averaged-weighted-tail.md": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1",
+    "research/zero-floor-two-sided-reserve-129.md": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5",
+    "research/zero-floor-ordinary-mixed-cap.md": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/cold-actual-quadratic-128.md": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c"
+  },
+  "additional_replay_dependency_sha256": {
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa"
+  },
+  "core_records": 3,
+  "arithmetic_record_counts": {
+    "positive_comparison_subeigenvector": 2,
+    "positive_comparison_two_step_lower": 1
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra real mean",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Depth-uniform actual means",
+        "Second and later fixed-height laws"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold block",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Common sheet and true all-pair secant",
+        "Same-starter signed residual and shifted kernels"
+      ]
+    },
+    {
+      "name": "/root/audit_131",
+      "status": "completed",
+      "ranked_closeout": [
+        "Single-height residual certificate for the actual capped mean",
+        "Actual two-step signed residual with cross-half secants"
+      ]
+    },
+    {
+      "name": "/root/packet_replay_131",
+      "status": "completed",
+      "ranked_closeout": [
+        "Collect signed terms with the same output packet before absolute pricing of the genuine two-step product"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Try a genuine prime comparison between a fixed-cap mean and the cap-inactive ordinary mean, or give a structural obstruction. Local cap monotonicity fails in the general reflection class.",
+    "Seek a conclusion-changing prime bound on the actual unweighted mean at a large fixed cap. The single-height comparison isolates the required input without auxiliary variance.",
+    "At the cold endpoint compose signed derivative kernels before positive majorization, including both marked exceptional corrections and odd-half-sheet geometry."
+  ],
+  "proof_scope": [
+    "For every prime and fixed cap, the true all-site zero-floor deficit is exactly 4 minus the squared fixed activation mean. At a single averaged height j the mean differs by at most 2 sqrt(M^2+4) (j+1)^(-1/4); the a posteriori bound uses the actual residual. This gives the exact prime-first limsup defect identity.",
+    "At cap 10 the first activation mean tends to 2 sqrt(2)/pi, and the second is eventually bounded within a bracket whose limiting lower exceeds 1.254 and whose limiting upper is less than 1.517. The proof uses the actual Jacobi seed and the normalized K isometry.",
+    "An exact five-coordinate non-Paley reflection preserves K^2=I-J and has a pair of larger and smaller caps with decreasing activation means. It is an algebraic control against generic cap monotonicity.",
+    "On a physical half-step segment with a counting secant q<1, the exact signed two-step defect is comparable to the normalized one-step residual between factors 1-q and 1+q. In an invariant even ball a cross-half control is needed to use counting contraction through the whole actual orbit.",
+    "On the genuine height-601 and height-602 positive envelopes the same positive 12-coordinate integer subeigenvector certifies factors exceeding 1.036 for both retained positive derivative comparisons. Repricing or a monotone homogeneous gauge cannot make their separate-majorant product contract, since it dominates that witness by a factor exceeding 1.073296. This concerns that positive majorant only."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw cold draft uses an invalid two-cycle equality, insufficient domain for its half-step comparison, and normalized second norm in place of maximum norm for the frozen partial sums.",
+    "The raw real draft leaves the unweighted cap-10 test open. A separate variance condition is unnecessary. Generic cap monotonicity fails without Paley arithmetic.",
+    "The separate positive packet product cannot close the proposed cold block around height 601. A genuinely signed product or sharper representation remains open, as do prime-uniform real large-cap defect vanishing, the optimizer-weighted high spill, and the original theta limit."
+  ],
+  "floating_diagnostics": [
+    "A floating eigensolver selected the finite positive integer witness. The accepted inequalities were independently certified by outward Arb replay and rational multiplication. No eigensolver value is used as a proof."
+  ],
+  "replay_checks": [
+    "The three saved positive comparison records reproduce byte for byte with 192-bit python-flint 0.9.0. The replay imports the unmodified Round 130 checker and uses its byte-verified legacy arithmetic mirror containing one matched Git-index object.",
+    "The non-Paley example and strict decimal bounds in the second-height mean comparison were checked by rational arithmetic."
+  ],
+  "independent_review": [
+    "Independent Astra audit found the actual cold draft defects and supplied the exact two-step residual comparison and single-height capped-mean certificate. Its second-height estimate was checked and recorded with explicit rational margins.",
+    "A separate read-only replay verified exact JSONL bytes and the folded positive kernel, strict witness inequalities, principal projection, valid height-602 envelope, and distinction from the true signed derivative product."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "round": 144,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-143-acceptance.json",
+    "sha256": "4556186fcb37a735c72d1878966f216394799d9178f8ad4c58e40ce3fa75d3b7"
+  },
+  "coordinator": {
+    "path": "coordination/round-143.json",
+    "sha256": "96bf377e5aac06ecc6bd14562ae7c7bae1912647a5752fe8719ebb0136f8245d"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-144.py",
+    "sha256": "6717744627bb0ee5dbac01f17f5e0c7702deaa4c1b316eb70be2bce68100efa0"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-144-before.json",
+    "sha256": "d0bf7958bd0bdecf60c9d048a83fe6aba1302869193f6f26da736170e8cf8bea"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-terminal-select-primal",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "a1f78fbdc9e5e819de45588807c0662bef85144256f094c672969626823673ba",
+      "mission_file": {
+        "path": "coordination/missions/round-144/ordinary-terminal-select-primal.md",
+        "sha256": "3b8d711bb236d3f39f6076a58c39caa0fb2d012258a48057fd1509d4d4e0bd8d"
+      },
+      "shared_candidate_ids": [
+        "cand:actual-face-terminal-first-moment"
+      ],
+      "pending_receipt": "/private/tmp/paley-r144-api-01a1ed0a/ordinary-terminal-select-primal-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r144-api-01a1ed0a/ordinary-terminal-select-primal-candidate.md",
+      "started_utc_epoch": 1795118674.6217759
+    },
+    {
+      "call_id": "ordinary-terminal-select-dual",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "89e4c8dcfcc819b77282c3d9b24a1958a084313401d21992f980c5e8f1ea04b4",
+      "mission_file": {
+        "path": "coordination/missions/round-144/ordinary-terminal-select-dual.md",
+        "sha256": "a15dc625fd2b997d2ec299745a6d9ba3bf9f0fbcd6e90f11d2046c15648e5f3c"
+      },
+      "shared_candidate_ids": [
+        "cand:actual-face-terminal-first-moment"
+      ],
+      "pending_receipt": "/private/tmp/paley-r144-api-01a1ed0a/ordinary-terminal-select-dual-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r144-api-01a1ed0a/ordinary-terminal-select-dual-candidate.md",
+      "started_utc_epoch": 1795118674.620638
+    },
+    {
+      "call_id": "cold-quintic-residual-labels",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "947592d116a2cddb00d0021e2700c9872ed78681de4005da4701672d935d9d32",
+      "mission_file": {
+        "path": "coordination/missions/round-144/cold-quintic-residual-labels.md",
+        "sha256": "5769886203bc95c526d84301544d1977244c022c9c98f0712e471043c64a9f8f"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r144-api-01a1ed0a/cold-quintic-residual-labels-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r144-api-01a1ed0a/cold-quintic-residual-labels-candidate.md",
+      "started_utc_epoch": 1795118674.6209621
+    }
+  ]
+}

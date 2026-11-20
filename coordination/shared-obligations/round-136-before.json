@@ -1,0 +1,49 @@
+{
+  "captured_at_utc": "2026-11-19T18:29:22.727144Z",
+  "prepared_by": "Codex coordinator",
+  "coordinator": "coordination/round-135.json#next_calls",
+  "coordinator_sha256": "96f922b9740fc3db00b65ca0aaba09be007e310dbda36d3b5a57ef2030377cb5",
+  "call_ids": [
+    "cold-linear-relative-resummation",
+    "cold-remainder-physical-dual",
+    "ordinary-signed-tail-prime"
+  ],
+  "routes": {
+    "r136/cold-linear-relative-resummation": {
+      "question": "Can exact signed aggregation of the linear and remaining nonseed terms certify the existing 0.472 shared step bound?",
+      "scope": "Use the actual h=601,602 closed-square marked P5000 norm of K(D_h-D^J). Collect linear-in-C via identical Laurent exponent times identical field and add the remaining signed multi-C orders; keep the stated small tail and repair.",
+      "remaining": "Collect actual identical Laurent-by-field terms in the remainder and price their signed sum for both frozen rows. Half-step and moving starter issues remain separate."
+    },
+    "r136/cold-remainder-physical-dual": {
+      "question": "Can the same 0.472 actual physical remainder estimate be independently settled by an explicit coherent packet or price-dual argument?",
+      "scope": "Same original square, physical marking, h=601,602 and P5000. A proxy on unsigned weights alone cannot be used as a dual functional on the actual price space.",
+      "remaining": "Collect actual identical Laurent-by-field terms in the remainder and price their signed sum for both frozen rows. Half-step and moving starter issues remain separate."
+    },
+    "r136/ordinary-signed-tail-prime": {
+      "question": "Can prime arithmetic control the true signed tail or ordinary even clipped-window approximation without a square-tail hypothesis?",
+      "scope": "Use genuine complementary ordinary factors, fixed marked cap and prime-first fixed windows. Seek a signed first-moment estimate or an even trace approximation to the actual row.",
+      "remaining": "Prove a genuine signed support-sensitive upper or actual bounded-window parity without assuming optimizer concentration properties."
+    }
+  },
+  "candidate_ids_by_call": {
+    "cold-linear-relative-resummation": [
+      "cand:cold-pure-seed-remainder-472"
+    ],
+    "cold-remainder-physical-dual": [
+      "cand:cold-pure-seed-remainder-472"
+    ],
+    "ordinary-signed-tail-prime": []
+  },
+  "known_shared": [
+    {
+      "id": "cand:cold-pure-seed-remainder-472",
+      "statement": "For all sufficiently large primes p=1 mod 4, uniformly on the original closed cold square and for h=601 and h=602, the actual physical translated P5000 operator norm of K(D_h-D^J) is strictly below 0.472 with a field-uniform gap. D^J is the full derivative at the Jacobi seed using the actual marked floor n.",
+      "routes": [
+        "r136/cold-linear-relative-resummation",
+        "r136/cold-remainder-physical-dual"
+      ]
+    }
+  ],
+  "comparison_status": "assessed",
+  "comparison": "The two cold calls require the same exact marked physical norm K(D_h-D^J) below 0.472 for both frozen heights on the original square, so they intentionally reuse the existing candidate. Their methods are signed analytic resummation and a coherent physical packet or dual. The ordinary zero-floor signed-tail call is independent. All previously launched research and audit sessions have finished."
+}

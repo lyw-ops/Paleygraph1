@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T18:50:01.811406Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-137.json#next_calls",
+  "coordinator_sha256": "56ecfc57321942eafdafba4190d73a4dd9fedd83fe81df24ac19658173de5f83",
+  "call_ids": [
+    "cold-center-field-identity",
+    "ordinary-marked-source-infsup",
+    "cold-mixed-seed-cross-transport"
+  ],
+  "routes": {
+    "r138/cold-center-field-identity": {
+      "question": "Which of the eight actual center fields and their seed twists lie in the same arithmetic label at linear nonseed degree?",
+      "scope": "Use the same nine-center C, h=601,602, marked floor t0=n, original closed square and translated physical P5000. Keep exact signed coefficients, independent lifts, and determinant twists, and use equality of actual trace objects.",
+      "remaining": "Identify new exact signed field returns or joint block cancellation, and then prove half-step/invariant margins and genuine growing-depth confinement on actual marked primes."
+    },
+    "r138/ordinary-marked-source-infsup": {
+      "question": "Does actual opposite-face structure yield the forcing-specific inf-sup or the signed tail on the genuine optimal supports?",
+      "scope": "Actual pinned minimum-energy ordinary rows of both signs over primes p=1 mod 4. Keep the physical mark, true complementary opposite support and the product of marked values equal to n. Treat clipped window parity and finite diagnostics separately.",
+      "remaining": "Prove a prime-uniform source estimate or direct signed tail and independently obtain clipped even-window approximation for the actual rows."
+    },
+    "r138/cold-mixed-seed-cross-transport": {
+      "question": "Can the mixed signed pair R602 J + J R601 be priced below 0.277444, or can the full difference be priced below 0.721 by using the intermediate K jointly?",
+      "scope": "Actual frozen rows h=601,602 on the original closed square in physical translated P5000, fully marked floors. Define J=KD^J and R_h=K(D_h-D^J). Keep both translated boundary pairs and use the actual intermediate K, not independent positive repricing.",
+      "remaining": "Identify new exact signed field returns or joint block cancellation, and then prove half-step/invariant margins and genuine growing-depth confinement on actual marked primes."
+    }
+  },
+  "candidate_ids_by_call": {
+    "cold-center-field-identity": [],
+    "ordinary-marked-source-infsup": [],
+    "cold-mixed-seed-cross-transport": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The exact first-degree return-label test on the actual eight-center field and the mixed two-step cross pair in physical translated price share their cold geometry and seed inputs. A trace catalogue may be reused, but the selected questions have distinct numerical sufficient estimates and neither exact estimate implies the other. The true ordinary support source bound concerns a different operator and no cold candidate. No earlier active call duplicates these three missions."
+}

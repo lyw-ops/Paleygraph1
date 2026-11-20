@@ -65,7 +65,6 @@ One can also keep the \(E(a)\) term by integrating \(-\partial_a\log(1+E)\) whil
 At any cap in the sweep with the stronger marked condition \(|v|/u<a\), the [two-real-mark representation](real-two-marks-91.md) still applies when \(E(a)>0\). Its shared bulk profile is \(k_i=q_i-(1+a^{-2})z_i^2\in[0,1]\). The marked absolute phases stay in the cone, since both marked tangents have modulus at most \(|v|/u\). Let \(r_\pm=\sqrt{h\pm v/a}\) be the endpoints of its real column integral and choose any \(0<\xi<1\). Set \(k'_i=\max(k_i,\xi)\), \(b_i=(\xi-k_i)_+\), and \(\lambda_i=b_i/\sum_B b_j\) when this sum is positive. Write \(\sigma_i=\operatorname{sign}z_i\). The Hellinger comparison of [the real-column transfer](astra-velocity-92.md#simultaneous-changes-to-the-real-weights) uses only nonnegative stationary endpoints with common bulk weights, so it gives
 \[
  \int_{r_-}^{r_+}\sum_i\lambda_i\sigma_i(J_{(r^2,k')})_{i0}\,dr
- \ 
  \ge \sqrt\xi\left[2\operatorname{arctanh}\sqrt{\frac{1-\xi}{1+a^2\xi}}
              +\frac{\xi}{\sum_B b_j}\sum_{i\in\mathcal A}\log(1+e_i)\right].       \tag{4}
 \]
@@ -73,7 +72,7 @@ In fact the favorable original product in that comparison is \(F_i=(\nu_i+|z_i|/
 
 ## Prime validation
 
-At \(p=173\) and \(t=1/50+13i/1000\), the real-start branch has one site near first contact. The checker encloses the true clipped solution at three rational caps and applies a differentiated fixed-point equation at each positively charged cap. Floating-point iterations propose the centers, while outward contraction and interval derivatives certify all records. At \(a=7/10\) and \(a=707/1000\) the positive orbit \(43\) is the only charged site. At \(a=143/200\) it is strictly inside the cap and the original product equations hold on every site. This parameter lies outside the nominated cold square. [Checker](cap-sweep-92-check.py) · [Outward records](cap-sweep-92-checks.jsonl)
+At \(p=173\) and \(t=1/50+13i/1000\), the real-start branch has one site near first contact. The checker encloses the true clipped solution at three rational caps and applies a differentiated fixed-point equation at each positively charged cap. Floating-point iterations propose the centers, while outward contraction and interval derivatives certify all records. At \(a=7/10\) and \(a=707/1000\) the positive orbit \(43\) is the only charged site. Their correction slopes lie in \((-10.483,-10.482)\) and \((-10.286,-10.285)\), respectively. At \(a=143/200\) the site is strictly inside the cap and the original product equations hold on every site. This parameter lies outside the nominated cold square. [Checker](cap-sweep-92-check.py) · [Outward records](cap-sweep-92-checks.jsonl)
 
 1. Combine the integrated loss (3) with a lower bound on the number or the total product of active coordinates forced by the same physical residual on an interval of caps. The threshold for a single site is insufficient at unbounded \(p\).
 2. Seek a compression estimate for the actual two sign blocks that improves the coefficient or separately controls the signed transfer in (1). Track the same floor throughout the comparison.

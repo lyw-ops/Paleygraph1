@@ -1,0 +1,123 @@
+## Checked obstruction: the fixed-factor pairing is strictly positive
+
+Assume the persistent critical-rate obstruction on a prime subsequence, and let \(q=h_j\) be any actual ordinary negative row in the fixed late window
+\[
+j_0\le j\le 2c_*\sqrt n,
+\]
+with \(j_0\) fixed sufficiently large. Retain \(q(0)=0\), both true factors \(g,g_-\), and the deleted output.
+
+Define
+\[
+S(y):=\sum_x\omega^-_x\,k(x-y)^2.
+\]
+Since
+\[
+w_y=\frac{q_y g_y}{n\,\mathbb E_n(qg)},
+\]
+the fixed-factor statistic in (1) is exactly
+\[
+\mathcal L(q)
+ =\sum_{x,y}\omega^-_xw_y k(x-y)^2
+ =\frac{\mathbb E_n\!\left[q\,g\,S\right]}
+        {\mathbb E_n(qg)}.
+\]
+Consequently the main term in the distinct output-masked cubic is the linear functional
+\[
+\boxed{\;
+\mathscr F_n(q)
+ :=p\mu\,\mathbb E_n(qg)\mathcal L(q)
+ =p\mu\,\mathbb E_n\!\left[q\,g\,S\right].
+\;} \tag{A}
+\]
+
+This identity keeps the actual capped fixed-point seed through the actual row \(q\), and keeps both true factors: \(g\) appears explicitly and \(g_-\) is retained in the positive measure \(\omega^-\) defining \(S\).
+
+By the uniform paired-spreading estimate already established for the actual row class, there is a constant \(c_{\mathrm{pair}}>0\), independent of \(n\), the prime, and \(j\) in the persistent window, such that
+\[
+\mathcal L(q)\ge c_{\mathrm{pair}}.
+\]
+The marked lower bound gives
+\[
+\mathbb E_n(qg)\ge c_{\mathrm{mark}}\,n^{-1/2},
+\]
+while \(\mu\) and \(p\) have the fixed normalization used in (1). Hence
+\[
+\mathscr F_n(q)\ge c_0>0 \tag{B}
+\]
+for a constant \(c_0\) depending only on the fixed obstruction parameters.
+
+Substituting (A) into the genuine distinct expansion gives
+\[
+n\,T(q)
+=\mathscr F_n(q)+O\!\left(\eta_q+n^{-1/4}\right), \tag{C}
+\]
+where
+\[
+\eta_q=n^{1/4}\|q-\epsilon Kq\|_{2,n}.
+\]
+For the actual ordinary orbit,
+\[
+\eta_q=O((j+1)^{-1/2}).
+\]
+Choose \(j_0\) so large that the implied fixed bound satisfies
+\[
+\sup_{j\ge j_0}\eta_{h_j}\le \frac{c_0}{4C_{\mathrm{err}}},
+\]
+where \(C_{\mathrm{err}}\) is the constant in (C). Then, for all sufficiently large primes in the obstruction subsequence,
+\[
+n\,T(h_j)\ge \frac{c_0}{2},
+\qquad j_0\le j\le 2c_*\sqrt n.
+\]
+Therefore
+\[
+\boxed{\;
+T(h_j)\ge \frac{c_0}{2n}
+\;}
+\]
+uniformly throughout that fixed-depth portion of the genuine ordinary orbit.
+
+### Consequence
+
+Under the stated critical cap-rate marked obstruction, a genuine fixed-depth bound
+\[
+T(h_{j_0})=o(n^{-1})
+\]
+through primes is false. The obstruction is not a failure to find sufficiently strong prime arithmetic: the retained fixed-factor pairing is a positive linear functional of the actual repair row, with a uniform positive lower bound.
+
+In particular, any arithmetic replacement \(r\) of \(q\) that is intended to preserve the fixed-factor statistic must satisfy
+\[
+\mathscr F_n(r)
+=-\mathscr F_n(q)+o(1)
+\]
+if it is to prove \(nT(q)=o(1)\). A genuine approximation \(r\approx q\) in the pairing sense instead gives
+\[
+\mathscr F_n(r)=\mathscr F_n(q)+o(1),
+\]
+which has the same positive sign and cannot yield the desired upper bound. The exact residual that must be controlled is
+\[
+\boxed{\;
+\mathscr R_n(q-r)
+=p\mu\,\mathbb E_n\!\left[(q-r)gS\right].
+\;}
+\]
+Thus an \(L^2\) approximation is relevant only after proving a prime-uniform operator estimate for the multiplier \(gS\). An unquantified \(o(n^{-1/4})\) row error does not suffice by itself.
+
+## Remaining gap
+
+The conclusion is conditional on the persistent obstruction and on the established expansion (C). The unresolved issue is whether that obstruction can actually occur for the capped fixed-point seed along infinitely many primes. Arithmetic analysis should therefore target exclusion of the obstruction itself, not an \(o(n^{-1})\) estimate for \(T(h_{j_0})\) while the obstruction hypotheses remain valid.
+
+## Ranked next tests
+
+1. **Prime-uniform residual test.** Prove or disprove
+   \[
+   \inf_{\substack{q\ \text{actual persistent row}}}
+   p\mu\,\mathbb E_n(qgS)\ge c_0>0
+   \]
+   with all normalizations explicit. Any failure must come from a genuine loss in the paired-spreading estimate, not from output deletion.
+
+2. **Seed-to-row obstruction test.** Use the capped fixed-point equation and the actual alternating ordinary updates to test whether rows satisfying simultaneously
+   \[
+   \mathbb E_n(qg)\asymp n^{-1/2},\qquad
+   \|q-\epsilon Kq\|_{2,n}=O(n^{-1/2})
+   \]
+   can persist for \(j\asymp\sqrt n\) along infinitely many primes. Excluding this near-eigenrow window would remove the conditional lower bound; arithmetic cancellation inside the fixed-factor pairing would not.

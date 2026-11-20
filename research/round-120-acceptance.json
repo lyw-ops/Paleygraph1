@@ -1,0 +1,81 @@
+{
+  "round": 120,
+  "accepted_at_utc": "2026-11-19T15:06:21Z",
+  "previous": "research/round-119-acceptance.json",
+  "previous_sha256": "ac8cd476c1defe1042339f9c6fed908b59718975d3cef786f20cc6a285867a91",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-119.json",
+    "sha256": "08d3b818ca80872299b98e82c238fbffdca5de186791e2cab60bbd7ff93c7b57"
+  },
+  "proof_and_code_sha256": {
+    "research/reflected-offmark-cubic-120.md": "54fff3721239a49bda1da861ca1efa4aaac8cf2a204f95401f672eeca714a62b",
+    "research/api-astra-review-120.md": "f212aeb182f46f7df7114a11bb864ab2978abdab2c2f61af70ae6508765f8670",
+    "research/api-astra-120-receipt.json": "d7eae620a64ec61e95e36e8ea2106719d2d9ffe49d9cf695e2ee185b76f2ba48",
+    "research/api-astra-overflow-120.txt": "6184ba8970f2622b5af1ed00e3188ff0feadcf3cb4ee9a7e665b545874a06b6b"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/reflected-slack-repair-119.md": "6e6f566b87d31c4ea76ba223fab3f65a359c83eee78de0c9c0210a068a9fed25",
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/reciprocal-reweighting-117.md": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764",
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/cold-exact-exception-budget-118.md": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe",
+    "research/cold-newton-mark-transfer-115.md": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, actual reflected pair",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Check normalization of the genuine weighted source and the paired Legendre lower.",
+        "Test actual transported marks together with the paired square."
+      ]
+    },
+    {
+      "name": "/root/audit_120",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use the valuable exact favored projection of the actual source at subcritical error.",
+        "Estimate the conditional translated trace, retaining the true opposite input mark and actual single-output subtraction."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek a genuinely prime-specific upper for the full-input output-masked cubic using the actual conditional laws after exact favored projection.",
+    "Test the actual marked drop on complete reflected slabs as a different constraint.",
+    "Continue the rate-free real weighted overshoot and common cold complex domain."
+  ],
+  "proof_scope": [
+    "The actual reflected pair q=h_j+h_{j+1} at fixed floor and critical cap rate satisfies all R116 genuine repair and normalized stationary factor conditions. The genuine weighted domination w_q<=C omega and fixed positive paired square hold with no extra collision assumptions.",
+    "Removing the output mark from the otherwise full-input distinct cubic cancels the transported output A_q at error O(n^(-5/4)). This actual output-masked signed distinct cubic is at least c/n throughout the stated reflected marked branch, independent of whether A_q tends to zero or trimmed moment hypotheses are used. The opposite input singleton is retained and its normalization and all-unmarked remainder are explicit.",
+    "The same result holds for a whole actual reflected late slab of square-root length, without selecting a specific low-loss index. Its full distinct cubic plus its actual total marked drop divided by slab length has a fixed positive lower after cubic scaling by n.",
+    "Projecting the repair input to exact favored positional support plus constants changes the full-input output-masked distinct cubic by O(n^(-5/4)). The true factor pair determines an exact conditional translation law at each uniformly distributed difference; the output deletion must remain inside the conditioned trace average."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw API mixes normalized and unnormalized true factors, giving an erroneous pairing scale and spurious failure of w_q domination. The output mark comes from the exceptional product, not an input collision. A paired square lower alone does not exclude the full unmasked branch.",
+    "The output-masked cubic needs a genuinely uniform one-sided o(n^(-1)) upper. The paired differences are uniform but the conditional source and trace remain correlated, and the input opposite singleton cannot be dropped.",
+    "The critical cap-rate premise, rate-free weighted overshoot, common cold domain, and original ordinary all-prime theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. Raw API draft and gateway receipt are preserved separately."
+  ],
+  "independent_review": [
+    "Independently verified the reflected source hypotheses, weighted domination, masked output, input singleton, full slab and drift, and the exact favored projection error. Corrected the raw API factor and mark issues."
+  ]
+}

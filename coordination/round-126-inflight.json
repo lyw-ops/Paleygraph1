@@ -1,0 +1,32 @@
+{
+  "round": 126,
+  "dispatch_status": "returned and reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-125-acceptance.json",
+    "sha256": "8a33f12fad1a64d0d62b4cb65866c6dcadf27ead3b501bc248392e479552a4b1"
+  },
+  "coordinator": {
+    "path": "coordination/round-125.json",
+    "sha256": "32ab2e4e20d802f8cac4f4214af04e3b8b9abee8a0b3361468332d0ba5e80318"
+  },
+  "call_id": "moving-cold-time-insertion",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "7d0d98b3f657692dbcd10e0cd30ec6d01e49afa1624f0ad1eeb0a339409bdd96",
+  "started_utc_epoch": 1795103377,
+  "local_session_id": 42442,
+  "mission_file": "/tmp/paley-r126-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r126-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r126-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Closed after independent audit and coordinator acceptance.",
+  "artifact_sha256": {
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/api-astra-review-126.md": "a269d3a9b5a6f34275c8c36ca354a304a3f82e0cdb86e6ea56b81c47700814e4",
+    "research/api-astra-overflow-126.txt": "873128e989c8d3ad3c2878abfb218d74f83d0f48dffc438bb1874567738652c1",
+    "research/api-astra-126-receipt.json": "1245ff42e7ed6bb7ed10e83e3d1025d86efc5969155fbce8a1627d9970bb9df8",
+    "research/round-126-acceptance.json": "45bda6d064a5c5ba02754d2a7a43a7d93ae3b08301485f3a0b7e43ccc49594c4"
+  },
+  "audit": {
+    "agent": "/root/audit_126",
+    "status": "completed"
+  }
+}

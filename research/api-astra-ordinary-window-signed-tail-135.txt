@@ -1,0 +1,170 @@
+## Result: inconclusive; complementary support alone does not presently give the required tail bound or clipped-window parity
+
+Fix \(M>0\). Let \(p\equiv1\pmod 4\) range over the actual prime family, \(n=(p-1)/2\), and let \(i=0\) be the physical marked coordinate. Write \(\mathbb E_n\) and \(\|\cdot\|_{2,n}\) for normalized mean and normalized \(\ell _2\)-norm.
+
+For the actual zero-floor ordinary optimizer, denote the activation by \(b\), the ordinary row by
+\[
+Y=Kb,
+\]
+and the ordinary complementary factors by
+\[
+F_\pm=\frac{b\pm Y}{\nu},\qquad \nu=\mathbb E_n b.
+\]
+On the bulk \(i\neq0\),
+\[
+b_i=|Y_i|,\qquad F_+(i)F_-(i)=0,
+\]
+while the physical mark is retained separately. The bulk seed is
+\[
+S_{\rm Jac}=2\sqrt n\,Ke_0,
+\]
+with
+\[
+(S_{\rm Jac})_0=-\frac2{\sqrt n},
+\qquad
+\|S_{\rm Jac}\|_\infty=2\sqrt{p/n}=2\sqrt2+O(p^{-1}).
+\]
+
+The exact bulk pairing is
+\[
+\mathbb E_n[1_{\{i\ne0\}}b_i(S_{\rm Jac})_i]
+   =4\eta+O_M(n^{-1}),
+\]
+where \(\eta=Y_0/b_0\). Thus a signed tail estimate would indeed control the ordinary ratio.
+
+### The proposed support argument does not close
+
+For a fixed window \(L\), define
+\[
+T_{p,L}
+ =\mathbb E_n\!\left[1_{\{i\ne0\}}(b_i-L)_+(S_{\rm Jac})_i\right].
+\]
+The desired prime-uniform statement is
+\[
+\boxed{
+\lim_{L\to\infty}\limsup_{\substack{p\to\infty\\p\equiv1(4)}}
+ |T_{p,L}|=0
+}
+\tag{A}
+\]
+for each fixed cap \(M\), with \(p\to\infty\) taken before \(L\to\infty\).
+
+The complementary representation gives only
+\[
+b_i=\frac{\nu}{2}\bigl(F_+(i)+F_-(i)\bigr)
+\qquad(i\ne0),
+\]
+and hence
+\[
+|T_{p,L}|
+\le
+\|S_{\rm Jac}\|_\infty\,
+\mathbb E_n[1_{\{i\ne0\}}(b_i-L)_+].
+\]
+Since \(\mathbb E_n b=\nu\le2\),
+\[
+\mathbb E_n[(b-L)_+]\le \mathbb E_n b\le2,
+\]
+which gives only an \(O(1)\) bound, not decay in \(L\). The disjointness
+\(F_+F_-=0\) does not improve this: it identifies which sector carries a large value of \(b\), but gives no estimate for the correlation of that adaptive sector with the seed \(S_{\rm Jac}\).
+
+A second-moment estimate would yield
+\[
+\mathbb E_n[(b-L)_+]\le L^{-1}\mathbb E_n b^2,
+\]
+but a uniform bound on \(\mathbb E_n b^2\) is precisely the unavailable optimizer-\(L^2\) input. The identities
+\[
+Y=Kb,\qquad \|Y\|_{2,n}^2=\|b\|_{2,n}^2-\nu^2
+\]
+do not bound \(\|b\|_{2,n}\). The pointwise bound \(b_i\le2\sqrt p\) is also insufficient uniformly in \(p\).
+
+This is a genuine adaptive-support obstruction: a nonnegative row can have bounded mean while placing \(O(1)\) mass on a set of size \(O(L^{-1})\), and the seed has constant pointwise size on such a set. Fixed-complexity parity estimates do not apply to the moving support
+\[
+\{i:b_i>L\}.
+\]
+
+The bounded auxiliary profile
+\[
+b'_i=1+\frac14(S_{\rm Jac})_i
+\]
+on the bulk, with \(b'_0=0\), makes the same obstruction concrete:
+\[
+0\le b'_i\le2
+\]
+for large \(p\), but
+\[
+\mathbb E_n[b'S_{\rm Jac}]
+ =1-\frac1n+\frac{2}{n^{3/2}}-\frac1{n^2}.
+\]
+Thus boundedness, positivity, and a seed-compatible support profile do not imply parity cancellation. This is not an optimizer counterexample, but it refutes the proposed sufficient principle based only on complementary support and boundedness.
+
+### What bounded-window parity would require
+
+For fixed \(M,L\), a sufficient arithmetic input would be a fixed-complexity negative-field approximation \(q_{p,L}\) satisfying, for every \(\rho>0\),
+\[
+\limsup_{\substack{p\to\infty\\p\equiv1(4)}}
+\mathbb E_n\!\left[
+1_{\{i\ne0\}}\,
+|b_i^{[L]}-q_{p,L,i}|
+\right]\le\rho,
+\qquad
+b_i^{[L]}=\min(b_i,L),
+\tag{B}
+\]
+with the polynomial complexity and coefficients chosen before the prime limit. The fixed-expression trace estimate would then give
+\[
+\mathbb E_n[1_{\{i\ne0\}}q_{p,L,i}S_{{\rm Jac},i}]
+   =O_{L,\rho}(p^{-1/2})+O_M(n^{-1}),
+\]
+while (A) would control the replacement of \(b\) by \(b^{[L]}\). The resulting estimate is
+\[
+|4\eta-T_{p,L}|
+ \le 2\sqrt{p/n}\,\rho
+      +O_{L,\rho}(p^{-1/2})
+      +O_M(n^{-1}),
+\]
+with the order
+\[
+\text{choose }M,L,\rho\text{ and the polynomial first;}
+\quad p\to\infty;
+\quad \rho\downarrow0,\ L\to\infty.
+\]
+Neither (A) nor (B) follows from the complementary relation \(F_+F_-=0\).
+
+## Remaining gap
+
+The unresolved support-sensitive statement is one of the following genuinely stronger estimates:
+\[
+\lim_{L\to\infty}\limsup_{p\to\infty}
+\left|
+\mathbb E_n[1_{\{i\ne0\}}(b_i-L)_+S_{{\rm Jac},i}]
+\right|=0,
+\]
+or a sector-weighted version such as
+\[
+\lim_{L\to\infty}\limsup_{p\to\infty}
+\sum_{\epsilon=\pm}
+\left|
+\mathbb E_n\!\left[
+1_{\{i\ne0\}}F_\epsilon(i)
+(\epsilon Y_i-L)_+
+\right]\right|=0.
+\]
+The latter uses the actual ordinary complementary pair, but still requires cancellation against an adaptive high-value support. No proof is available from the fixed-depth parity estimates.
+
+## Ranked next tests
+
+1. **Direct sector-weighted tail test.**  
+   Prove or disprove, for fixed \(M\),
+   \[
+   \lim_{L\to\infty}\limsup_{p\to\infty}
+   \mathbb E_n\!\left[
+   1_{\{i\ne0\}}
+   \bigl(F_+(i)(Y_i-L)_+
+        +F_-(i)(-Y_i-L)_+\bigr)
+   \right]=0.
+   \]
+   This is the most direct support-sensitive estimate and is aligned with the actual positive complementary pair. A finite-prime verification would only be evidence; the required prime-first asymptotic remains open.
+
+2. **Clipped-window polynomial completion.**  
+   For fixed \(M,L\), construct a bounded negative-field expression \(q_{p,L}\) satisfying (B), with complexity fixed before \(p\to\infty\). The key test is whether the actual optimizer’s clipped row, not merely fixed-depth iterates, admits such a bulk \(L^1\) approximation. Success would combine with (A) to yield true clipped-window parity; failure would identify the missing non-compactness of the ordinary optimizer.

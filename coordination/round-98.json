@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "round": 98,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinating agent after separate Astra read-only review of Round 98",
+  "sources": {
+    "baseline": {
+      "path": "research/round-97-acceptance.json",
+      "sha256": "c4e99f617a2aa4f284bc13b285f34adabf81e72e2408d00201cf3c9405b60fb0"
+    },
+    "current": {
+      "path": "research/round-98-acceptance.json",
+      "sha256": "af13066f1fed471b7ec1a443f7caa09fc8c5c2d5b93a46a995cb72f32fab20ae"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold-first-contact",
+      "route": "Cold first comparison activation",
+      "effect": "weakened",
+      "before": "Round 97 needs a same-floor signed exterior upper, or an erasure alternative with n^(1/4) residual scale.",
+      "after": "One actual Newton correction and a segmented Cauchy contour give sqrt(n) r^2 > 1.4e-9 at every first activation on the nominated square, eventually through eligible primes. Low-level trimmed cuts or signed excess remain separate tests. Finite p=173 and p=181 evidence uses a tailored cutoff.",
+      "remaining": "Bound the actual rotated signed imaginary Newton remainder by 4.4470e-5 or calibrate a genuinely decaying-height residual rate and compatible inverse and nominal phase estimates.",
+      "evidence": [
+        {
+          "path": "research/same-floor-97.md",
+          "sha256": "60803d1e7e47f578ddf8bb6b243fe21954e6ecd398cc375c23724358ff9e4a70"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/newton-boundary-98.md",
+          "sha256": "cad7d20caf547e671e6b1a11d6588ee05bd382a49169fd552955f14ab4227d24"
+        },
+        {
+          "path": "research/astra-cuts-98.md",
+          "sha256": "7ffe0be606304a48be1de3d933892eb35948b43025c25e14ce616c4bdb78e139"
+        }
+      ]
+    },
+    {
+      "id": "true-exterior-forcing",
+      "route": "Trapped recurrent masks and quotient positivity",
+      "effect": "reformulated",
+      "before": "Round 97 uses the maximum over original-block prefix means and the genuine fixed whole-prefix quotient objective.",
+      "after": "One signed triangular mean on the candidate's identity positional fiber and a signed flat original-eroded quotient charge now suffice at the same predetermined horizon. The finite p=769 signed LP scope is unchanged by recurrence.",
+      "remaining": "Prove a one-sided bound o(J) for the signed triangular mean and produce a legal quotient row with one-sided signed charge o(J^2), uniformly on the same recurrent trapped list. The escaped branch remains open.",
+      "evidence": [
+        {
+          "path": "research/astra-prefix-97.md",
+          "sha256": "6b475d889420dc55de0bc0a61f51c16178a74358ea8d9833cba76fee0aa5c2e5"
+        },
+        {
+          "path": "research/astra-quotient-98.md",
+          "sha256": "069ca1575345ed5b045afec44e846f5a1cbb7d43b8ef1e98f13adfd5e02da0a1"
+        }
+      ]
+    },
+    {
+      "id": "common-continuation",
+      "route": "Real pre-exit tails and common unforced cold rectangle",
+      "effect": "weakened",
+      "before": "Round 97 gives a signed nonlinearity history at a true first real exit and leaves a common cold gap 2256/2^20.",
+      "after": "A first exit now gives one signed log tail above 0.00139 for any allowed family of per-time order-sqrt(n) erasures, with the witnessing tail depending on that family. The rank-four collection advances the common real left edge by 22/2^20.",
+      "remaining": "Control the two signed realized one-sided tails after suitable erasures, and test the remaining arithmetic shift collection to close the 2234/2^20 gap.",
+      "evidence": [
+        {
+          "path": "research/astra-incoming-97.md",
+          "sha256": "38efd65265f3a76c49c7a1a4d9088f894bd063b9163fd3e378caccb7a033e6ba"
+        },
+        {
+          "path": "research/astra-exit-98.md",
+          "sha256": "03f0b91acbeb0d1c5c063d2a6b19cd737755594472621fd8865ce096ce391537"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The signed Newton and signed temporal prefix tests now give explicit quantities on the genuine rows. The all-prime ordinary theta limit and common cold section remain open.",
+  "next_calls": [
+    {
+      "id": "rotated-newton",
+      "priority": 1,
+      "change_id": "cold-first-contact",
+      "question": "Can the rotated signed imaginary correction on the actual hitting site be bounded by 4.4470e-5?",
+      "why_now": "The nominal corrected row is already bounded by 7.1e-5 on the entire nominated square. A through-primes estimate of the remaining component would exclude the first comparison activation on the square.",
+      "scope": "Use the actual first comparison row, exact complex tangent remainder and physical height-100 translated inverse. Keep the rotation inside the imaginary part. Try the exact hyperbolic square identity and separate the real and imaginary response using realized amplitudes. A growing-height comparison needs its own residual, inverse and phase proof.",
+      "if_yes": "Exclude any first activation for sufficiently large primes and check the consequence for common unforced stationary continuation.",
+      "if_no": "Record a genuine obstruction at the precise original cutoff or scope, with the domain and quantifier.",
+      "if_inconclusive": "Isolate the exact signed pairing whose upper fails and preserve any smaller localized improvement.",
+      "inputs": [
+        {
+          "path": "research/same-floor-97.md",
+          "sha256": "60803d1e7e47f578ddf8bb6b243fe21954e6ecd398cc375c23724358ff9e4a70"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/newton-boundary-98.md",
+          "sha256": "cad7d20caf547e671e6b1a11d6588ee05bd382a49169fd552955f14ab4227d24"
+        },
+        {
+          "path": "research/astra-cuts-98.md",
+          "sha256": "7ffe0be606304a48be1de3d933892eb35948b43025c25e14ce616c4bdb78e139"
+        }
+      ]
+    },
+    {
+      "id": "signed-quotient",
+      "priority": 2,
+      "change_id": "true-exterior-forcing",
+      "question": "Can the actual opposite-sign identity-fiber sum be bounded below by minus o(nJ), and can one legal signed quotient trial attain one-sided o(J^2)?",
+      "why_now": "The time weights and the full horizon are now fixed, and the two objectives use only actual signed exterior data.",
+      "scope": "Use the original recurrent allowed block list, genuine zero-start orbit, prescribed horizon, legal independent erasures and positive root floor. Keep the escaped branch outside this reduction.",
+      "if_yes": "State exactly which necessary trapped branch term is excluded and which companion estimate is still needed.",
+      "if_no": "Record a true-orbit obstruction with its scale and original-block scope.",
+      "if_inconclusive": "Return an exact one-sided reduction or a checked finite diagnostic without asymptotic claims.",
+      "inputs": [
+        {
+          "path": "research/astra-prefix-97.md",
+          "sha256": "6b475d889420dc55de0bc0a61f51c16178a74358ea8d9833cba76fee0aa5c2e5"
+        },
+        {
+          "path": "research/astra-quotient-98.md",
+          "sha256": "069ca1575345ed5b045afec44e846f5a1cbb7d43b8ef1e98f13adfd5e02da0a1"
+        }
+      ]
+    },
+    {
+      "id": "exit-or-rectangle",
+      "priority": 3,
+      "change_id": "common-continuation",
+      "question": "Can the signed frozen rows be controlled on actual one-sided pre-exit log tails, or can the missing determinant-shift returns advance the common cold rectangle?",
+      "why_now": "The real exit requires one signed tail above 0.00139 even with growing site erasures, and the complex pilot gives further explicitly uncollected quartic labels.",
+      "scope": "For the exit retain the time-dependent deletions and actual first four-root amplitude exit. For the complex domain apply an unforced invariant with open overlap and outward replay.",
+      "if_yes": "State the proved unbounded real contraction consequence or guaranteed complex domain, with the remaining gap.",
+      "if_no": "Retain the specific failed tail bound, label collection or cap instead of moving its proof scope.",
+      "if_inconclusive": "Preserve a usable signed-cut estimate or independent continuation step.",
+      "inputs": [
+        {
+          "path": "research/astra-incoming-97.md",
+          "sha256": "38efd65265f3a76c49c7a1a4d9088f894bd063b9163fd3e378caccb7a033e6ba"
+        },
+        {
+          "path": "research/astra-exit-98.md",
+          "sha256": "03f0b91acbeb0d1c5c063d2a6b19cd737755594472621fd8865ce096ce391537"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold-first-contact",
+      "question": "Are the Round 99 candidate statements about the real physical rows and all eligible primes under the stated hypotheses?",
+      "why_now": "A second reader is required before the new round is assembled.",
+      "scope": "Verify each proof against inherited and new inputs, and independently replay final checkers in read-only mode.",
+      "if_yes": "Confirm precise scopes and rank decisive next measurements.",
+      "if_no": "Identify the first substantive mathematical flaw or failing replay.",
+      "if_inconclusive": "Identify which arguments and bytes were independently checked.",
+      "inputs": [
+        {
+          "path": "research/same-floor-97.md",
+          "sha256": "60803d1e7e47f578ddf8bb6b243fe21954e6ecd398cc375c23724358ff9e4a70"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/newton-boundary-98.md",
+          "sha256": "cad7d20caf547e671e6b1a11d6588ee05bd382a49169fd552955f14ab4227d24"
+        },
+        {
+          "path": "research/astra-cuts-98.md",
+          "sha256": "7ffe0be606304a48be1de3d933892eb35948b43025c25e14ce616c4bdb78e139"
+        },
+        {
+          "path": "research/astra-prefix-97.md",
+          "sha256": "6b475d889420dc55de0bc0a61f51c16178a74358ea8d9833cba76fee0aa5c2e5"
+        },
+        {
+          "path": "research/astra-quotient-98.md",
+          "sha256": "069ca1575345ed5b045afec44e846f5a1cbb7d43b8ef1e98f13adfd5e02da0a1"
+        },
+        {
+          "path": "research/astra-incoming-97.md",
+          "sha256": "38efd65265f3a76c49c7a1a4d9088f894bd063b9163fd3e378caccb7a033e6ba"
+        },
+        {
+          "path": "research/astra-exit-98.md",
+          "sha256": "03f0b91acbeb0d1c5c063d2a6b19cd737755594472621fd8865ce096ce391537"
+        }
+      ]
+    }
+  ]
+}

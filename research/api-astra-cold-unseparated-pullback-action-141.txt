@@ -1,0 +1,160 @@
+## Result: exact signed packet identity, but no sub-budget physical estimate
+
+Let \(p\) run through the eligible primes in the nominated family, with \(\chi(-1)=1\), and let
+\[
+G=\mathbb F_p^{\times 2},\qquad n=|G|=(p-1)/2.
+\]
+All identities below are at the actual height \(601\), on the original closed square, with the physical mark \(t_0=n\) retained. Let \(d,j\) be the inverse Fourier rows of the actual height-601 derivative and the pure Jacobi derivative, respectively, and put \(e=d-j\). Thus the marked entries are already included in \(e\) and \(j\); no unmarked surrogate is being used.
+
+For \(x,y\in G\), write \(c=xy\). The mixed same-row term is
+\[
+\mathcal A(x,y)
+=
+s(x)\sum_{z\in G}\bigl(s(z)+s(c/z)\bigr)e(x/z)j(z/y),
+\qquad s(u)=\chi(1-u).
+\tag{1}
+\]
+
+### 1. Symmetrized whole-kernel pullback for \(c\neq1\)
+
+Define
+\[
+F_{x,y}(z)
+=
+\frac12\Bigl(
+e(x/z)j(z/y)+e(z/y)j(x/z)
+\Bigr).
+\]
+Since \(c/z\) interchanges the two factors, \(F_{x,y}(c/z)=F_{x,y}(z)\). The complete mixed kernel is therefore
+\[
+\mathcal A(x,y)
+=
+s(x)\sum_{z\in G}\bigl(s(z)+s(c/z)\bigr)F_{x,y}(z).
+\tag{2}
+\]
+
+Let
+\[
+z_c(r)=\frac{r^2-c}{r^2-1},
+\qquad r^2\notin\{1,c\}.
+\]
+Using a symmetric actual trace extension \(\widetilde F_{x,y}\) to \(\mathbb F_p^\times\), the one-branch identity gives, for \(c\neq1\),
+\[
+\boxed{
+\mathcal A(x,y)
+=
+s(x)s(c)F_{x,y}(1)
++
+s(x)s(c)
+\sum_{\substack{r\in\mathbb F_p\\ r^2\notin\{1,c\}}}
+\chi(r^2-1)\,
+\widetilde F_{x,y}\!\left(z_c(r)\right).
+}
+\tag{3}
+\]
+
+This is a genuine signed packet-level identity for the complete two-step operator. The nonsquare cutoff has disappeared inside the summed kernel; it was not removed by separately pricing either inverse branch. Both trace lift pairs remain inside \(e\) and \(j\), and the physical mark remains inside the same rows.
+
+The term \(F_{x,y}(1)\) is the actual \(z=1\) contribution:
+\[
+F_{x,y}(1)
+=
+\frac12\left(e(x)j(1/y)+e(1/y)j(x)\right).
+\]
+Thus the \(z=1\) contribution is retained explicitly and is not absorbed into an already-priced inverse operator.
+
+### 2. The \(c=1\) inverse line is genuinely different
+
+When \(c=1\), \(y=x^{-1}\), and because \(z\in G\) and \(\chi(-1)=1\),
+\[
+s(1/z)=s(z).
+\]
+Hence
+\[
+\boxed{
+\mathcal A(x,x^{-1})
+=
+2s(x)\sum_{z\in G}s(z)e(x/z)j(zx).
+}
+\tag{4}
+\]
+Equivalently, after \(u=x/z\),
+\[
+\boxed{
+\mathcal A(x,x^{-1})
+=
+2s(x)\sum_{u\in G}s(x/u)e(u)j(x^2/u).
+}
+\tag{5}
+\]
+
+There is no paired-sign cancellation on this line. The \(z=1\) term itself vanishes because \(s(1)=0\), but the remaining mask has
+\[
+\sum_{z\in G}\left|2s(z)\right|^2=4(n-1).
+\tag{6}
+\]
+This is the exact inverse-line norm at the physical level. It is substantially different from the generic \(c\neq1\) mask, whose squared norm is
+\[
+2n-4-a_p(c),
+\]
+with \(a_p(c)\) the Legendre trace.
+
+Consequently, the generic one-branch cancellation cannot by itself supply a uniform \(P_{5000}\) estimate: the inverse line must be priced separately as a whole operator.
+
+## Local geometry
+
+For \(c\neq1\), the pullback \(z_c(r)\) has the two branch loci
+\[
+r^2=1,\qquad r^2=c,
+\]
+and the exceptional target values \(z=1,c\). The symmetric trace extension is legitimate because the two branch contributions are exchanged by
+\[
+r\longmapsto \frac{\sqrt c}{r},
+\]
+while the full weight is invariant under \(z\mapsto c/z\).
+
+At \(c=1\), these two branch loci coalesce and the rational parametrization degenerates to the inverse line. Therefore \(c=1\) is not a limiting generic case for the weighted estimate; it is a separate local geometry.
+
+The known pure leading term also has a Legendre collision at the parameter \(x=-1\), corresponding to the unipotent point \(\lambda=1\) under \(x\mapsto-1/x\). That establishes a local-system collision for the pure comparator, but it does **not** prove a lower bound for the mixed difference \(e\cdot j\), nor does it show that the mixed contribution survives after the full signed packet sum.
+
+## Physical estimate and failure point
+
+The identity (3) is stronger than a pointwise Weil estimate because it sums the two inverse branches before absolute values. However, I cannot verify from the supplied data a weighted whole-operator price
+\[
+\|\mathcal A\|_{P_{5000}}
+<
+0.268468
+\]
+for the mixed anticommutator, nor the corresponding square-difference target
+\[
+\|(KD)^2-(KD^{\mathrm J})^2\|_{P_{5000}}
+<
+0.703184.
+\]
+
+The precise obstruction is the inverse line (5). Its mask has no sign saving and squared norm \(4(n-1)\). The one-branch identity controls the generic \(c\neq1\) fibers, but it supplies no decay for the translated packet
+\[
+u\longmapsto e(u)j(x^2/u)
+\]
+on \(c=1\). A counting estimate would be insufficient, and individual Weil bounds on the two trace factors do not control the \(P_{5000}\) norm of the complete operator.
+
+Thus the proposal is **inconclusive, not refuted**:
+
+- the required signed whole-kernel identity exists;
+- the generic mixed geometry is compatible with the proposed pullback;
+- the inverse line remains an unpriced physical component;
+- no invariant confinement or half-step conclusion follows yet.
+
+The order of limits is important. The identities hold for each finite eligible prime \(p\). A physical estimate would need to be proved for the exact finite-prime, physically marked \(P_{5000}\) norm, with analytic packet truncation or closure taken first at fixed \(p\), followed by a uniform \(p\to\infty\) limit through the eligible prime family. A finite numerical replay at fixed \(p\), or a counting decay estimate without the physical marking, would not settle the asymptotic target.
+
+## Ranked next tests
+
+1. **Inverse-line whole-packet replay — highest priority.**  
+   Apply the actual \(P_{5000}\) packet representation directly to (5), retaining both trace lift pairs and the \(t_0=n\) mark. Separate the \(u=1\) local contribution, then price the remaining translated packet uniformly in \(x\). This is the first place where a genuine obstruction or a sub-\(0.268468\) estimate can appear.
+
+2. **Local cohomology at the mixed collision \((x,u)=(-1,1)\).**  
+   Analyze the two actual trace sheaves in
+   \[
+   s(x/u)e(u)j(x^2/u)
+   \]
+   with their Kummer factors retained. Determine whether the local monodromies cancel in the symmetrized mixed packet or produce a surviving unipotent component. A surviving component would be a precise representation-level obstruction; cancellation would justify a refined inverse-line packet identity.

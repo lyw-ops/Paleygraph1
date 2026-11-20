@@ -1,0 +1,132 @@
+## Report: exact reduced dual remains unbounded at the required scale
+
+Fix \(0<\tau\) sufficiently small, an ordinary sign \(s\in\{\pm1\}\), and primes
+\[
+p\equiv1\pmod 4,\qquad p\to\infty,\qquad n=(p-1)/2.
+\]
+The physical mark is the distinguished coordinate \(0\). Let \(G=\sqrt n\,g_T\), where \(g_T\) is the actual fixed-\(\tau\), zero-start activation increment, and choose \(T=T(p)\to\infty\) with \(T+1\) in the proved simultaneous marked window.
+
+For the ordinary mean-one optimum on sign \(s\), the exact reduced dual is
+\[
+L(G)=
+\max\left\{
+\mathbb EZ-\frac{q_s}{n}Z_0:
+Z\in U_{-s},\quad Z_i\le G_i\ (i\in I)
+\right\}, \tag{1}
+\]
+where \(q_s\) is the physical root value of the sign-\(s\) optimum and
+\[
+I=\{i\ne0:R_i=0\text{ for every true opposite optimum }R\in\mathcal R_{-s}\}.
+\]
+The constraints are only on this common zero set \(I\), not on the full bulk.
+
+### Checked result
+
+I do not obtain a prime-uniform \(o(T)\) upper bound for (1). The available prime autocorrelation estimates do not control the exact reduced dual, because they apply to nonnegative feasible opposite rows, whereas \(Z\in U_{-s}\) is generally signed and is constrained only on \(I\). In particular:
+
+1. The Fejér and quotient-character profiles from the opposite-autocorrelation argument price repeated differences of nonnegative rows.
+2. A dual certificate may have large positive and negative parts away from \(I\); those sites impose no inequalities in (1).
+3. The reduction from full-bulk constraints to \(I\) is exact, so replacing \(I\) by a synthetic support or by a finite LP support would not prove the stated theorem.
+4. The square obstruction is irrelevant to the requested prime family: it shows that no all-order argument can work, but it does not produce a prime obstruction.
+
+The energy estimate \(\mathbb E G^2=O_\tau(T)\) also does not suffice. It controls a signed certificate only after an additional norm or support estimate, and no such estimate is currently available uniformly for the actual common zero set \(I\).
+
+### A precise new sufficient boundary comparison
+
+There is, however, an exact interpolation criterion that would prove the desired bound.
+
+Let
+\[
+d:=\mathbf1-q_s e_0,
+\]
+so that for every \(Z\in U_{-s}\),
+\[
+\left\langle d,Z\right\rangle
+=\mathbb EZ-\frac{q_s}{n}Z_0.
+\]
+Suppose there exist nonnegative weights \(a_i\ge0\), supported on \(I\), such that
+\[
+P_{U_{-s}}a=P_{U_{-s}}d, \tag{2}
+\]
+where \(P_{U_{-s}}\) is orthogonal projection under normalized counting measure. Equivalently,
+\[
+\sum_{i\in I}a_i Z_i
+=
+\mathbb EZ-\frac{q_s}{n}Z_0
+\qquad (Z\in U_{-s}). \tag{3}
+\]
+Then every feasible \(Z\) in (1) satisfies
+\[
+\mathbb EZ-\frac{q_s}{n}Z_0
+=\sum_{i\in I}a_iZ_i
+\le \sum_{i\in I}a_iG_i. \tag{4}
+\]
+Therefore the prime-uniform estimate
+\[
+\sum_{i\in I}a_iG_i=o(T) \tag{5}
+\]
+at a selectable \(T=T(p)\) would imply
+\[
+L(G)=o(T).
+\]
+
+This is a genuine boundary comparison for the exact reduced dual. It preserves the physical mark, the actual common zero set \(I\), and the order of limits:
+\[
+\text{fixed }\tau
+\quad\longrightarrow\quad
+p\to\infty\text{ through }p\equiv1\pmod4
+\quad\longrightarrow\quad
+\tau\downarrow0.
+\]
+The unresolved issue is existence of nonnegative interpolating weights \(a\) satisfying (2), together with the weighted terminal estimate (5). Neither follows from the currently proved character-arc or autocorrelation bounds.
+
+A useful variant is to seek approximate interpolation:
+\[
+\left\|P_{U_{-s}}a-P_{U_{-s}}d\right\|_{U_{-s}^*}
+=o(T^{-1})
+\]
+with \(\sum_{i\in I}a_iG_i=o(T)\) and a prime-uniform bound on the residual action against admissible \(Z\). This would still suffice, but requires a norm bound on the admissible dual certificates that is presently missing.
+
+## Evidence and remaining gap
+
+The exact duality proof ensures that no omitted bulk coordinate can be used to evade (1): a true opposite optimizer positive on the omitted complement can be subtracted without changing the objective. Thus the correct arithmetic target is genuinely the common zero set \(I\).
+
+Conversely, the existing prime-specific autocorrelation inequality
+\[
+n\sum_{h\ne0}C_q(h)C_r(h)
+=1-nL_qL_r
+\]
+controls correlations of nonnegative feasible rows \(q,r\). It does not imply (2), because interpolation requires a nonnegative measure on \(I\) whose \(U_{-s}\)-projection equals the signed representer \(d\). This is a different, stronger statement involving the actual face \(I\), not merely the ambient prime Fourier geometry.
+
+Hence the current status is **inconclusive**, not refuted: the exact reduced dual is identified, and (2)–(5) give a precise sufficient route, but the required prime-uniform boundary comparison is open.
+
+## Ranked next tests
+
+### 1. Exact character-interpolation LP on the actual common zero set \(I\)
+
+For each eligible prime \(p\), compute or characterize the cone
+\[
+\mathcal C_I
+=\{P_{U_{-s}}a:a_i\ge0,\ \operatorname{supp}(a)\subseteq I\}.
+\]
+Test whether \(P_{U_{-s}}d\in\mathcal C_I\), first exactly at moderate primes and then through a prime-uniform structural proof. If membership holds, estimate the minimizing weighted cost
+\[
+\inf\left\{\sum_{i\in I}a_iG_i:
+a\ge0,\ \operatorname{supp}(a)\subseteq I,\ 
+P_{U_{-s}}a=P_{U_{-s}}d\right\}. \tag{6}
+\]
+This is the most direct test because it uses the actual face, the actual physical mark, and the exact mean-minus-mark functional.
+
+### 2. Prime-specific level-set control for signed dual certificates
+
+For admissible \(Z\in U_{-s}\), study
+\[
+A_\lambda(Z)=\{i\in I:Z_i>\lambda T\}.
+\]
+Combine the pointwise constraint \(Z_i\le G_i\), the energy bound for \(G\), and prime character/interpolation restrictions on \(U_{-s}\) to prove that every such level set either has negligible weighted mass or forces a large dual norm cost. A sufficient target is
+\[
+\sup_{\substack{Z\in U_{-s}\\ Z_i\le G_i\ (i\in I)}}
+\left(\mathbb EZ-\frac{q_s}{n}Z_0\right)
+\le o(T).
+\]
+This should be attempted after the interpolation test, since failure of (2) would identify the precise signed residual that the level-set argument must control.

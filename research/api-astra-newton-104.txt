@@ -1,0 +1,138 @@
+## New quantified propagation statement
+
+Let \(U_m\) be the physical adjacent Picard rows and
+\[
+\Delta U_m=U_{m+1}-U_m,\qquad
+D_m=\Phi'(U_m),\qquad
+Z_m=(I-KD_m)^{-1}K.
+\]
+Assume on the common physical sheets:
+
+1. \(\|Z_m\|_{2\to2}\le z\);
+2. \(\sup_m\|K E_m\|_{2\to2}\le \kappa<1\), where
+   \[
+   \Phi(U_m)-\Phi(U_{m-1})=E_m\Delta U_{m-1};
+   \]
+3. \(\|\Delta U_0\|_2\le L\);
+4. \(\Phi'\) has curvature at most \(C\), so
+   \[
+   |D_{m+1,a}-D_{m,a}|\le C|\Delta U_m(a)|.
+   \]
+
+Then the actual increment recurrence gives
+\[
+\|\Delta U_m\|_2\le L\kappa^m,
+\]
+and hence
+\[
+\|\Delta D_m\|_1
+ \le C\|\Delta U_m\|_1
+ \le CL\sqrt n\,\kappa^m.                                      \tag{A}
+\]
+
+Using
+\[
+Z_{m+1}-Z_m=Z_{m+1}\Delta D_m Z_m,
+\]
+write
+\[
+\delta_m=\max_{i,j}|(Z_m)_{ij}|.
+\]
+Taking absolute values only after the diagonal summation yields
+\[
+\delta_{m+1}
+ \le \delta_m+\delta_{m+1}\delta_m\|\Delta D_m\|_1.              \tag{B}
+\]
+Consequently, whenever
+\[
+\delta_m CL\sqrt n\,\kappa^m<1,
+\]
+\[
+\delta_{m+1}\le
+\frac{\delta_m}{1-\delta_m CL\sqrt n\,\kappa^m}.                 \tag{C}
+\]
+
+Iterating (C), for \(b>a\),
+\[
+\boxed{\quad
+\delta_b\le
+\frac{\delta_a}{
+1-\delta_a\,CL\sqrt n\,
+       \dfrac{\kappa^a-\kappa^b}{1-\kappa}}
+\quad}                                                          \tag{D}
+\]
+provided the denominator is positive. This is a genuine propagation estimate across physical adjacent iterates; it uses the actual increment recurrence rather than a fixed packet estimate.
+
+### Quantified scaling barrier
+
+Suppose at depth \(a\)
+\[
+\delta_a\le Bn^{-\beta}.
+\]
+The sufficient condition in (D) becomes
+\[
+\frac{BCL}{1-\kappa}\,
+n^{1/2-\beta}\kappa^a<1.                                       \tag{E}
+\]
+
+Thus the unsigned \(L^1\) propagation has the following precise limitation:
+
+- If \(\beta<1/2\), it requires a burn-in depth
+  \[
+  a\ge
+  \frac{(1/2-\beta)\log n+
+        \log\!\big(BCL/(1-\kappa)\big)}
+       {|\log\kappa|}.                                         \tag{F}
+  \]
+- If \(\beta=1/2\), it gives no asymptotic gain: it requires the fixed constant
+  \[
+  \frac{BCL}{1-\kappa}<1.
+  \]
+  The \(n\)-dependence cancels exactly.
+- For \(\beta>1/2\), the condition would become asymptotically automatic, but this is beyond the natural \(n^{-1/2}\) translated scale.
+
+For the recorded height-600 values \(\beta=0.467\) and \(\kappa=0.514\), (F) predicts a burn-in of approximately
+\[
+\frac{0.033}{|\log(0.514)|}\log n\approx0.050\log n,
+\]
+apart from the constant term. This is only a scaling consequence, not a proof that the required translated bound is available at that depth.
+
+## What a signed incremental estimate would need to prove
+
+The obstruction in (E) is caused by replacing the signed increment kernel by \(\|\Delta D_m\|_1\). A sufficient genuinely signed estimate is
+\[
+\max_{i,j}
+\left|
+\sum_a (Z_{m+1})_{ia}\,
+       \Delta D_m(a)\,
+       (Z_m)_{aj}
+\right|
+\le C_{\mathrm{sgn}}\,n^{-\beta}\kappa^m,                       \tag{G}
+\]
+with \(C_{\mathrm{sgn}}\) independent of \(n\). Then
+\[
+\delta_b\le \delta_a+
+ C_{\mathrm{sgn}}n^{-\beta}
+ \frac{\kappa^a-\kappa^b}{1-\kappa},                            \tag{H}
+\]
+so any translated \(n^{-\beta}\) bound at one depth propagates uniformly through all later depths. In particular, at \(\beta=1/2\), (G) supplies the missing \(n^{-1/2}\) scale without the constant smallness requirement in (E).
+
+A weaker but still useful target is (G) with
+\[
+C_{\mathrm{sgn}}\kappa^m
+\quad\text{replaced by}\quad
+C_{\mathrm{sgn}}n^{-\sigma}\kappa^m
+\]
+for some \(\sigma>0\); this would make the propagation margin asymptotically strict even at \(\beta=1/2\).
+
+The barrier (E) is **not a demonstrated Paley obstruction**. It is produced by absolute summation over \(a\), which costs \(\sqrt n\) through (A). The Paley kernel itself has signed Mellin structure, so cancellation in the three-factor kernel in (G) remains plausible. What is presently missing is a rank/arithmetic estimate for the *increment-weighted product*, not merely separate translated bounds for \(Z_m\) and \(Z_{m+1}\).
+
+### Ranked next tests
+
+1. **Primary:** compute the Mellin boundary-price evolution for
+   \[
+   Z_{m+1}\operatorname{diag}(\Delta D_m)Z_m
+   \]
+   before taking absolute values. Test whether its translated price is \(O(n^{-1/2}\kappa^m)\), rather than the unsigned \(O(n^{1/2-2\beta}\kappa^m)\).
+
+2. **Secondary:** if the signed test fails, verify whether the actual \(\|\Delta U_m\|_2\) has an extra \(n^{-1/2}\) factor after the first few physical iterates. Such a factor would replace (A) by \(\|\Delta D_m\|_1=O(\kappa^m)\) and remove the barrier entirely.

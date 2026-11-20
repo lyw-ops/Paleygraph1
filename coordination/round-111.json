@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "round": 111,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 111 review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-110-acceptance.json",
+      "sha256": "e2098121429c07e7e40913afe7a1e462fbca83c4f5f7fbb17a8f0db786fe764e"
+    },
+    "current": {
+      "path": "research/round-111-acceptance.json",
+      "sha256": "609da2ee9f2a7a81d3daa2d752b80cfd58cc59f946540dd6a1e9492c633bd87b"
+    }
+  },
+  "changes": [
+    {
+      "id": "signed-cubic",
+      "route": "Genuine signed distinct-shift moments and exterior pairing",
+      "effect": "reformulated",
+      "before": "The moving core had a power-small Rayleigh loss and forced centered opposite-sector defect.",
+      "after": "The signed distinct cubic has a positive critical lower on the genuine source, with collision contribution of lower order and an exact sharp square comparison.",
+      "remaining": "Exclude the signed cubic divergence at the prime scale by a prime-field estimate or by using the extra mark and bulk defect from actual repair. All deductions assume the fixed-floor critical cap-rate marked obstruction.",
+      "evidence": [
+        {
+          "path": "research/distinct-cubic-repair-111.md",
+          "sha256": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/api-astra-review-111.md",
+          "sha256": "e5a7576b88b0a98ff7f3188651cfab8890f64dff1d7d0721ea5c8a6032ce2a68"
+        }
+      ]
+    },
+    {
+      "id": "critical-cap",
+      "route": "Actual critical cap rate or slack",
+      "effect": "unchanged",
+      "before": "A small explicit critical cap coefficient guarantees repair at the specified floor.",
+      "after": "The signed cubic route still assumes a bounded critical cap coefficient.",
+      "remaining": "Establish the critical cap rate with a small coefficient, or a separately sufficient adjusted overshoot bound, for genuine capped rows.",
+      "evidence": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    },
+    {
+      "id": "complex-domain",
+      "route": "Prime common cold complex domain",
+      "effect": "unchanged",
+      "before": "A moving physical starter and compatible growing-depth resource estimates remain required.",
+      "after": "The new tests concern real repair at fixed positive floor.",
+      "remaining": "Establish common analytic continuation and the prime growing-depth resources for the actual shifted branch.",
+      "evidence": [
+        {
+          "path": "research/round-110-acceptance.json",
+          "sha256": "e2098121429c07e7e40913afe7a1e462fbca83c4f5f7fbb17a8f0db786fe764e"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The genuine positive repair forces a signed distinct-triple arithmetic obstruction, whose critical scale is sharp on static square cosets. Test the actual factor pairing at the mark and in the bulk, preserving prime-specific alternatives.",
+  "next_calls": [
+    {
+      "id": "mark-versus-bulk",
+      "priority": 1,
+      "change_id": "signed-cubic",
+      "question": "Can the forced negative exterior pairing on actual late repairs be excluded once its anchored Jacobi mark and its genuinely unmarked bulk are priced separately?",
+      "why_now": "The full late source can retain the distinct moment test while its zero marked coordinate identifies the mark of the exact centered sector defect with a signed linear Jacobi average.",
+      "scope": "Establish the exact dichotomy first. Treat genuine full-source repair, actual positive starting mark and exterior. Seek a new prime-uniform bound that changes either branch. A static symmetric cosine or a pure coset model can only check scope.",
+      "if_yes": "State the exact new inequality, premises and which branch it excludes.",
+      "if_no": "Give a genuine example or precise obstruction to a proposed bound, preserving the mark and exterior scales.",
+      "if_inconclusive": "Isolate an exact mixed relation of the two branches that a uniform arithmetic bound would control.",
+      "inputs": [
+        {
+          "path": "research/distinct-cubic-repair-111.md",
+          "sha256": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    },
+    {
+      "id": "prime-relative-triples",
+      "priority": 2,
+      "change_id": "signed-cubic",
+      "question": "Can an actual weighted triple-pattern sum over relative Jacobi shifts exhibit uniformly better than square-root signed cancellation through primes?",
+      "why_now": "Collision removal exposes the true signed target and square fields attain its scale.",
+      "scope": "Use the operator on the dual of the multiplicative squares. Keep positivity, effective width and available repair hypotheses separate. Any inverse statement needs proof on prime fields.",
+      "if_yes": "Give a uniform signed small-o bound and identify every extra structural hypothesis.",
+      "if_no": "Give an explicit prime obstruction or a checked boundary showing which premise is necessary.",
+      "if_inconclusive": "Derive a prime-specific identity or distinct-pattern criterion beyond entrywise Katz.",
+      "inputs": [
+        {
+          "path": "research/distinct-cubic-repair-111.md",
+          "sha256": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242"
+        },
+        {
+          "path": "research/api-astra-review-111.md",
+          "sha256": "e5a7576b88b0a98ff7f3188651cfab8890f64dff1d7d0721ea5c8a6032ce2a68"
+        },
+        {
+          "path": "research/parallel-arithmetic-2.md",
+          "sha256": "cc98e7e614ad423490bef236966b392e8eb6374eba02eab769c5eb7e0d9db337"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        }
+      ]
+    },
+    {
+      "id": "actual-small-cap",
+      "priority": 3,
+      "change_id": "critical-cap",
+      "question": "Can the actual cap deficit meet the explicit small critical coefficient or a sufficient slack-adjusted upper?",
+      "why_now": "This suffices independently of the new signed moment route.",
+      "scope": "Fixed cap and positive floor before the prime limit. Preserve the limit order and both signs.",
+      "if_yes": "Identify the allowed floors, signs and constants.",
+      "if_no": "Identify the first rigorously unavailable estimate.",
+      "if_inconclusive": "Give a new checkable bound on the genuine cap or slack.",
+      "inputs": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "signed-cubic",
+      "question": "Which full-source signed moments and marked versus bulk formulas survive independent verification?",
+      "why_now": "Read-only independent review is needed before accepting new mixed estimates.",
+      "scope": "Check ambient field and dual group, exact projection at the mark, constants on the true late block, collision partitions, and scope of the square control.",
+      "if_yes": "Record exact checked statements and ranked tests.",
+      "if_no": "Identify the first invalid line and the affected scope.",
+      "if_inconclusive": "State the portions that are fully checked.",
+      "inputs": [
+        {
+          "path": "research/distinct-cubic-repair-111.md",
+          "sha256": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/api-astra-review-111.md",
+          "sha256": "e5a7576b88b0a98ff7f3188651cfab8890f64dff1d7d0721ea5c8a6032ce2a68"
+        }
+      ]
+    }
+  ]
+}

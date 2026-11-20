@@ -1,0 +1,126 @@
+{
+  "round": 144,
+  "accepted_at_utc": "2026-11-19T20:11:45Z",
+  "previous": "research/round-143-acceptance.json",
+  "previous_sha256": "4556186fcb37a735c72d1878966f216394799d9178f8ad4c58e40ce3fa75d3b7",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-143.json",
+    "sha256": "96bf377e5aac06ecc6bd14562ae7c7bae1912647a5752fe8719ebb0136f8245d"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-terminal-approximate-face-144.md": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4",
+    "research/cold-quintic-complete-selected-pools-144.md": "65d491945951070b9db8565942bcec62ce32784750acfa7d7e417c361c36fa06",
+    "research/api-astra-review-144.md": "ce10214472a33c0c76f5207fdfcbb1f28c8743404cfea16cabc453fc87f68116",
+    "research/api-astra-144-receipt.json": "f92ecd2dca6e37e285d3dc2c7c3df949eb4a33e8ff0e6ceec34121d6bf7aba03",
+    "research/api-astra-ordinary-terminal-select-primal-144.txt": "9e9878fa6de2d4e7f7e8450d933a2c84c945ad0d03ae429ad1be6bf6696ac15c",
+    "research/api-astra-ordinary-terminal-select-dual-144.txt": "bd06004485a4b99b6dd69ad31b3bf10e5165eb34248483629f0ae0da6ff1ea43",
+    "research/api-astra-cold-quintic-residual-labels-144.txt": "e331174d6b92d5a08df3dc8bbc5989eb6e25cd29bd6039600913e17df65cec08",
+    "coordination/launchers/round-144.py": "6717744627bb0ee5dbac01f17f5e0c7702deaa4c1b316eb70be2bce68100efa0",
+    "coordination/round-144-inflight.json": "b03a1e4d0c95ee08671449a2d20fc218bb574f3ff9696dd7fec38acae849895a",
+    "coordination/shared-obligations/round-144-before.json": "d0bf7958bd0bdecf60c9d048a83fe6aba1302869193f6f26da736170e8cf8bea",
+    "coordination/shared-obligations/round-144-after.json": "5d6fb74c2b491e209fe3a4c64c044f0d13ac9e18f566533f0a27d687913576ac",
+    "coordination/missions/round-144/ordinary-terminal-select-primal.md": "3b8d711bb236d3f39f6076a58c39caa0fb2d012258a48057fd1509d4d4e0bd8d",
+    "coordination/missions/round-144/ordinary-terminal-select-dual.md": "a15dc625fd2b997d2ec299745a6d9ba3bf9f0fbcd6e90f11d2046c15648e5f3c",
+    "coordination/missions/round-144/cold-quintic-residual-labels.md": "5769886203bc95c526d84301544d1977244c022c9c98f0712e471043c64a9f8f"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-terminal-face-dual-143.md": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/ordinary-terminal-offdiagonal-142.md": "958ff834c39cdb71002730a3017aecfdd33acb909147eed83f0245c587801e03",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/astra-face-54.md": "c19832b0d663c99fa08c45e80919865bc5e9ff57efb7930d85a837bb826defd8",
+    "research/astra-discount-91.md": "6e79bd5f21c02b97334132cc093e2e710a6a6faf7a53e75784dfbea9149192e9",
+    "research/cold-quintic-mixed-placements-143.md": "56321890bdb77295cee12227454d344dbc9708324534ea951c7c7036ed4cacb6",
+    "research/cold-cubic-mixed-pooling-142.md": "41eaada8394ffa67ddae6814718bc26bdb5b01686513d45c590ac1a40e703476",
+    "research/cold-mixed-seed-column-141.md": "0c09cd0b907b85540da510809612c64bc2953db2d0c0970120ce9242dcfff468",
+    "research/parallel-graph-shapes-23.md": "53e5a612bb2b00e14de44bb9d0a332de14ffed6ffa2e560c39b114add7cf0236",
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/astra-rankthree-55.md": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48",
+    "research/astra-rankfour-57.md": "cc023b623511b254e20691b12067692783b0a95d26453c515ba8ca0e5c2e2c78",
+    "research/astra-joint-64.md": "22573cbd9625893d6bacf6bf02da9a665876aab8a5783d2931c333e442339808",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/cold-translated-leading-weight-table-142.md": "81ceea21e0fe16566ab14d1a46b39ec790eedf08f95da9e30288a83169e3d049",
+    "research/prime-additive-rigidity.md": "b7ed92a086e84a03ba9709ba2790dfeebd89b1367f6f164a19d975e6422d5eb6",
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three returned drafts and independent verification of the approximate opposite-sector criterion and named cold polynomial pools.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "research_agents": [
+    {
+      "name": "Gateway Astra ordinary primal face selection",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Assess the actual cap-translation correlation",
+        "Use the reduced common-zero-set dual"
+      ]
+    },
+    {
+      "name": "Gateway Astra ordinary reduced dual selection",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test the actual nonnegative interpolation cone",
+        "Control signed dual certificate level sets"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold quintic residual labels",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Calculate the sixth harmonic feedback with both lifts",
+        "Compare all residual harmonic labels with the named pools"
+      ]
+    },
+    {
+      "name": "/root/audit_144",
+      "status": "completed",
+      "ranked_closeout": [
+        "Build genuine near-root nonnegative rows that simultaneously control weighted terminal cost and forbidden residual",
+        "Price the all-order selected cold block, then study the rest of the full analytic derivative"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "At actual selectable marked times, clip true near-root optima and prove a prime-uniform lower bound on the deleted tail paired with the exact signed score from the approximate-face criterion.",
+    "Try a separate constructive prime arithmetic selection of approximately feasible positive near-root rows with forbidden-sector RMS o(T^-1/2) and weighted actual terminal first moment o(T).",
+    "Evaluate the complete selected single-linear-Legendre action on the actual unshifted C1 source by combining three signed pools, explicit residual prices and the full Taylor tail on the original marked closed square."
+  ],
+  "proof_scope": [
+    "The actual Picard endpoint comparison extends to every nonnegative mean-one row F with q=F0=O(sqrt n). For s=-sigma and r=P_sigma(F-1), it adds the exact signed penalty E[r(Z-1-g_T/(2TM))], whose magnitude is O_tau(sqrt(T)||r||_{2,n}). Given true near-optimal q and sublinear weighted activation, a vanishing positive penalty suffices on each sign. A fixed gap forces a positive lower on the sum of this penalty and the scaled terminal cost for all such near-root rows in the true growing window.",
+    "The exact projected boundary interpolation cone automatically contains the required vector, and its admissible weights are exactly the ordinary optimal rows with the root removed after normalization. It does not give an extra uniform estimate.",
+    "The complete three selected unshifted pools through beta^2 have total coefficients 1-3 beta+(117/16)beta^2 for K(CW), 1-(5/2)beta+(183/32)beta^2 for K(Y^2)/2, and -(3/4)beta+(93/32)beta^2 for the rank-ten word. The nine remaining harmonic families are separated from those three named pools, using existing Sp6 and Sp4 group independence, simple lift ranks, folded multiplicities and Jacobi shifts. Mark and lift corrections have physical price O_{P5000}(n^-1/2) on this fixed source."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The ordinary primal draft gives exact cap translation as a restricted method but reverses an upper-bound inference for the attained dual maximum. The dual draft has the wrong normalization for interpolation weights and treats automatic membership as unknown. No prime-uniform near-root construction or actual selected terminal estimate is established.",
+    "The cold draft confuses harmonics with ordinary powers in two feedback identities and leaves the sixth harmonic unresolved. The corrected finite selected block does not bound its analytic tail, pairwise residual coincidences, the full derivative or any marked half-step invariant.",
+    "The full ordinary Lovasz theta limit over the primes remains open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "An exact rational harmonic expansion reproduced all twelve coefficients, and 88 integer phase calculations reproduced the decisive ranks and folded counts. These are symbolic checks, separate from finite-prime and interval certificates.",
+    "All three Astra drafts are complete with matching HTTP 200 and stop receipts. The exact real shared candidate was registered before launch and confirmed by the existing finite strong-duality identity."
+  ],
+  "independent_review": [
+    "Read-only mathematical audit checked both exact draft file digests, the physical mark and coefficient signs, the approximate-sector criterion, and all named-pool separations including the rank-ten folded-count test and independent symplectic products."
+  ]
+}

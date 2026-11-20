@@ -1,0 +1,3 @@
+{"coordinate_ratio_lower": "[1.03613434833297477411560710599328255351286736470211132038 +/- 6.44e-59]", "height": 601, "kind": "positive_comparison_subeigenvector", "rational_strict_lower": "1.036", "retained_columns": 12}
+{"coordinate_ratio_lower": "[1.03665429087350449053085467465378816699001791659485437871 +/- 9.22e-58]", "height": 602, "kind": "positive_comparison_subeigenvector", "rational_strict_lower": "1.036", "retained_columns": 12}
+{"heights": [601, 602], "kind": "positive_comparison_two_step_lower", "rational_strict_lower": "1.073296"}

@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T21:06:07.773705Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-149.json#next_calls",
+  "coordinator_sha256": "f10c577e24246fda369d29f6751a236cca1ab32456be7546a37c5afaa462726b",
+  "call_ids": [
+    "ordinary-prime-selected-defect-phase",
+    "ordinary-prime-first-spill-dyadic",
+    "cold-signed-legendre-unit"
+  ],
+  "routes": {
+    "r150/ordinary-prime-selected-defect-phase": {
+      "question": "Can prime arithmetic contradict the anchored Jacobi phase bias of the selected actual relaxed-repair deficit?",
+      "scope": "Use all ordinary p=1 mod 4 under a hypothetical fixed gap. Use fixed floor tau, one growing original marked T, and actual finite m with T sqrt(n)/m and n/(mT) tending to zero. Do not invoke first-spill arithmetic for later iterates. Retain selected j and cover diffuse or low-energy critical cases, or isolate one such quantitative subregime.",
+      "remaining": "Exclude the actual simultaneous prime constraints, including diffuse and low-energy regimes, with original optimizer weight. The separate first reflected pairing still needs a prime-uniform upper."
+    },
+    "r150/ordinary-prime-first-spill-dyadic": {
+      "question": "Can a genuinely prime-sensitive bound control a specified dyadic portion of the actual first reflected spill?",
+      "scope": "Use exact y0=Z+2Ld, adaptive threshold max(Z_i,u) with exact mean and pin corrections, true optimizer and its complementary zero set, nonroot distinct pair, one growing marked T and a selectable cutoff H=o(T). F and R may be chosen to make the actual bound strongest.",
+      "remaining": "Exclude the actual simultaneous prime constraints, including diffuse and low-energy regimes, with original optimizer weight. The separate first reflected pairing still needs a prime-uniform upper."
+    },
+    "r150/cold-signed-legendre-unit": {
+      "question": "Can the signed Legendre tensor-unit coefficient be collected in the derivative linear in the actual omitted factors?",
+      "scope": "Use true h=601,602 on the original cold square, exact physical mark t0=n, both lifts and inherited P5000. Isolate one H_h occurrence before expanding in S and alpha Y. Resolve repeated symmetric-power labels and the unit multiplicities of both Legendre factors, verifying all normalization at good characters and the exceptional repair.",
+      "remaining": "Need a signed actual bound below 0.356 for the step or below 0.585 for the pair or 0.567184 at the same-height square. Nonlinear invariance, half step and growing marks remain open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-selected-defect-phase": [],
+    "ordinary-prime-first-spill-dyadic": [],
+    "cold-signed-legendre-unit": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The selected later phase-biased actual deficit and first reflected dyadic signed pairing have different sources, selection constraints and target bounds. The later projection does not substitute for the first source. The cold unit-label coefficient is independent. There is one call per exact obligation."
+}

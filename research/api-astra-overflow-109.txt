@@ -1,0 +1,89 @@
+### Consecutive-row constraint
+
+Let \(S_j=\{x:b^j_x<0\}\), \(h_j=(b^j)_-\), and
+\[
+r_j:=(I-P)h_j
+=\frac{h_j+\epsilon Kh_j-m_j\mathbf 1}{2}.
+\]
+On \(S_j\), \(b^j=-h_j\), hence
+\[
+b^{j+1}=b^j+Ph_j=-r_j,
+\]
+and therefore the next negative row satisfies the **exact identity**
+\[
+\boxed{\quad (h_{j+1})_{S_j}=(r_j)_+{}_{S_j}.\quad} \tag{C1}
+\]
+Outside \(S_j\), only the inequality \(h_{j+1}\le (r_j)_+\) is available.
+
+Put
+\[
+d_j:=r_j-h_j
+=\frac{\epsilon Kh_j-h_j-m_j\mathbf1}{2}.
+\]
+Then, directly from \(K^2=I-J_0\) and normalized pairings,
+\[
+\|d_j\|_{2,n}^2
+=\frac{2\|h_j\|_{2,n}^2-2\epsilon\langle h_j,Kh_j\rangle_{2,n}
++3m_j^2}{4}. \tag{C2}
+\]
+Thus the persistent near-eigen conditions (1) imply
+\[
+\|d_j\|_{2,n}=O(n^{-1/2}),\qquad
+\|h_j\|_{2,n}\asymp n^{-1/4},\qquad
+m_j\asymp n^{-1/2}. \tag{C3}
+\]
+
+Since \(u\mapsto u_+\) is 1-Lipschitz, (C1) gives the consecutive-row estimate
+\[
+\boxed{\quad
+\|(h_{j+1}-h_j)\mathbf1_{S_j}\|_{2,n}
+\le \|d_j\|_{2,n}=O(n^{-1/2}).
+\quad} \tag{C4}
+\]
+In particular,
+\[
+\langle h_{j+1},h_j\rangle_{2,n}
+\ge \|h_j\|_{2,n}^2
+-\|h_j\|_{2,n}\|d_j\|_{2,n}
+= \|h_j\|_{2,n}^2-O(n^{-3/4}), \tag{C5}
+\]
+where the contribution from \(S_j^c\) is nonnegative. Hence
+\[
+\frac{\langle h_{j+1},h_j\rangle_{2,n}}
+{\|h_{j+1}\|_{2,n}\|h_j\|_{2,n}}
+=1-O(n^{-1/4})
+\]
+whenever \(\|h_{j+1}\|_{2,n}\asymp n^{-1/4}\).
+
+This is a genuine constraint on the **actual consecutive repair rows**, not on arbitrary weighted rows: throughout the persistent block, the next negative row must reproduce the preceding row on the preceding negative set, up to normalized \(L^2\)-error \(O(n^{-1/2})\). In particular, a putative near-eigen sequence cannot rapidly relocate its negative mass between unrelated Paley sets.
+
+There is also an exact sign-threshold form. If \(x\in S_j\cap S_{j+1}\), then
+\[
+\epsilon(Kh_j)(x)>h_j(x)+m_j, \tag{C6}
+\]
+whereas if \(x\in S_j\setminus S_{j+1}\), then
+\[
+\epsilon(Kh_j)(x)\le h_j(x)+m_j. \tag{C7}
+\]
+Thus any substantial loss of overlap between consecutive negative sets requires a substantial \(L^2\)-deviation of \(\epsilon Kh_j\) from \(h_j+m_j\), quantified by (C2).
+
+### What this does and does not prove
+
+For the critical persistent block, (C4) is only \(O(n^{-1/2})\) per step. Over \(c\sqrt n\) steps, the triangle inequality permits an \(O(1)\) cumulative displacement, so this does **not** exclude persistence or close the repair argument. It does, however, rule out the stronger possible mechanism in which each near-eigen row is replaced by a fresh, essentially unrelated sparse row.
+
+The calculation also identifies the remaining prime-specific gap precisely: one would need an arithmetic estimate forcing, for the actual sets \(S_j\),
+\[
+\|(h_{j+1}-h_j)\mathbf1_{S_j}\|_{2,n}
+\gg n^{-1/2}
+\]
+at a positive proportion of persistent steps, or an incompatible sign estimate in (C6)–(C7). No such estimate follows from the standard Paley operator norm or from arbitrary sparse-sequence bounds.
+
+### Ranked next tests
+
+1. **Character-sum sign test:** for \(h_j\) satisfying the weighted support and amplitude bounds, estimate the mass of
+   \[
+   \{x\in S_j:\epsilon(Kh_j)(x)\le h_j(x)+m_j\}.
+   \]
+   A lower bound stronger than the \(O(n^{-1/2})\) error permitted by (C2) would contradict persistence.
+
+2. **Iterated overlap test:** combine (C4) over \(j\le c\sqrt n\) with the true marked-factor correlation \(\langle h_j,f_\epsilon\rangle\). A quantitative lower bound preventing \(O(1)\) cumulative drift would convert the consecutive constraint into an actual width obstruction.

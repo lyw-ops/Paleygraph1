@@ -1,0 +1,102 @@
+### New consequence: the core balance is a near-extremal character-sum requirement, not an automatic contradiction
+
+Assume the standard Paley normalization
+\[
+K_{xy}=\frac{\chi(x-y)}{\sqrt p},\qquad K\mathbf 1=0,\qquad K^2=I-J_0,
+\]
+with normalized inner product \(\langle u,v\rangle_p=p^{-1}\sum_xu_xv_x\). Write \(c=|C|=a\sqrt p\), where \(a\) is bounded above and below by positive constants, and decompose
+\[
+\bar h=1_C\bar h+r,\qquad r=1_{C^c}\bar h.
+\]
+The persistent-core estimates give, for fixed \(\eta\) and sufficiently small \(\kappa\),
+\[
+\bar h_x\ge s\quad(x\in C),\qquad
+\|r\|_{2,p}\le \rho\,p^{-1/4},
+\]
+where
+\[
+\rho=O\!\left(\sqrt{\eta+C_\eta\sqrt\kappa+p^{-1/2}}\right).
+\]
+
+Taking \(v=1_C\) in (2), and using
+\[
+\|1_C\|_{2,p}=\sqrt{a}\,p^{-1/4},
+\]
+gives the explicit lower bound
+\[
+\epsilon\langle 1_C,K1_C\bar h\rangle_p
+\ge
+\left(sa-\sqrt a\,\rho\right)p^{-1/2}
++O(p^{-1}).                                      \tag{A}
+\]
+The term \(\bar m\,|C|/p\) is only \(O(p^{-1})\), while the exterior contribution satisfies
+\[
+|\langle 1_C,Kr\rangle_p|
+ \le \sqrt a\,\rho\,p^{-1/2}.
+\]
+Thus the low exterior is genuinely present at the same \(p^{-1/2}\) transport scale as the core term. It may be made a small fraction of the core contribution by taking \(\eta,\kappa\) small, but it cannot simply be deleted.
+
+Since
+\[
+\langle 1_C,K1_C\bar h\rangle_p
+=\frac1{p\sqrt p}
+ \sum_{x\in C}\sum_{y\in\mathbb F_p}\chi(x-y)\bar h_y,
+\]
+(A) implies the checkable prime-specific requirement
+\[
+\sum_{x\in C}\sum_y\chi(x-y)\bar h_y
+\ge
+\frac{p}{\epsilon}\left(sa-\sqrt a\,\rho\right)-O(\sqrt p).       \tag{B}
+\]
+
+This is a substantial requirement: the Paley spectral bound gives, after removing constants,
+\[
+\left|\sum_{x,y}\chi(x-y)\,u_xv_y\right|
+\le \sqrt p\,\|u\|_{\ell^2}\|v\|_{\ell^2}.
+\]
+For \(u=1_C\) and \(v=\bar h-\bar m\mathbf1\), the right side is \(O(p)\). Hence (B) asks for a fixed positive proportion of the maximal spectral correlation whenever
+\[
+sa>\sqrt a\,\rho.
+\]
+The persistent balance therefore forces the weighted pair \((C,\bar h-\bar m\mathbf1)\) to be near-extremal for the Paley character operator.
+
+### Precise remaining arithmetic condition
+
+Define the spectral defect
+\[
+\mathcal D_C(\bar h)
+=
+\|1_C\|_{2,p}^2\,
+ \|\bar h-\bar m\mathbf1\|_{2,p}^2
+-
+\langle 1_C,K\bar h\rangle_p^2.
+\]
+A sufficient prime-specific obstruction would be a uniform estimate
+\[
+\mathcal D_C(\bar h)\ge \delta p^{-1}                         \tag{C}
+\]
+for every admissible persistent \(C\) and every nonnegative \(\bar h\) obeying the carrier bounds, with some \(\delta>0\) depending only on the fixed obstruction parameters. Combined with (A), (C) would exclude the persistent core when the lower bound in (A) lies within \(\delta^{1/2}p^{-1/2}\) of the spectral maximum.
+
+However, (C) does **not** follow from support size, positivity, or abstract reflection geometry. The sets \(C\) are adaptive subsets of \(\mathbb F_p\), not intervals or fixed low-complexity sets, so ordinary Weil bounds do not apply. The usual bilinear character estimate is exactly the spectral bound above and leaves room for (B).
+
+### Delimiting example for abstract reflection geometry
+
+In a general Hilbert-space reflection model, let
+\[
+e=\frac{1_C}{\|1_C\|},\qquad
+q=\frac{\bar h-\bar m\mathbf1}
+        {\|\bar h-\bar m\mathbf1\|}.
+\]
+An orthogonal involution can be chosen to interchange \(e\) and \(q\), while acting arbitrarily on their orthogonal complement. For that reflection,
+\[
+\langle 1_C,K\bar h\rangle
+=
+\|1_C\|\,\|\bar h-\bar m\mathbf1\|,
+\]
+so the spectral defect is zero and the signed balance can hold exactly after choosing the scalar parameters. Positivity of \(\bar h\) and a small exterior component do not prevent this construction. Therefore no contradiction can follow from the reflection identities alone; one needs a genuine arithmetic non-extremality statement such as (C), or a structural theorem showing that Paley-near-extremizers cannot have a persistent positive core of size \(\asymp\sqrt p\).
+
+### Status and ranked next tests
+
+1. **Highest priority:** test the defect \(\mathcal D_C(\bar h)\) numerically on actual repair cores for primes \(p\), retaining the full exterior \(r\). The decisive scale is \(p^{-1}\), not merely the sign of the core correlation.
+
+2. **Second:** impose and verify an additional structure condition on \(C\) (for example, bounded additive energy or interval-like localization), then seek a character-sum improvement over the spectral bound. Without such a condition, the current argument gives the near-extremal requirement (B) but does not exclude the obstruction.

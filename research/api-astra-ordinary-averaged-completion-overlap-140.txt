@@ -1,0 +1,176 @@
+## Result: not supported; the proposed completion remains unproved
+
+For the actual prime family
+\[
+q=p\equiv1\pmod 4,\qquad n=(q-1)/2,
+\]
+with physical mark \(0\), weights
+\[
+w_0=1,\qquad w_i=\tau/n\quad(i\ne0),\qquad W=1+(n-1)\tau/n,
+\]
+and counting norm \(\|\,\cdot\,\|_2\), the available results do **not** produce a sector-preserving completion inside the proved marked window.
+
+The relevant order of limits is:
+
+1. fix \(0<\tau<1\);
+2. take primes \(q\to\infty\) through the simultaneous marked window;
+3. only then send \(\tau\downarrow0\).
+
+The certified arithmetic window is
+\[
+T(q)\le \log_2^*q-\log_2^*\log_2^*q-O_{\tau,B}(1),
+\]
+with marked cancellation
+\[
+\max_{t\le T(q)}|v_{t,0}|=O_{\tau,B}(T(q)^{-B})
+\]
+for the actual zero-start orbit
+\[
+v^{(0)}=0,\qquad v^{(t+1)}=K\sqrt{(v^{(t)})^2+4w}.
+\]
+
+Within this window, the projected averages \(X_{\sigma,T}\) have the required sector and mean, and their raw marked coordinates satisfy
+\[
+X_{\sigma,T}(0)=1+o(1).
+\]
+The Picard budget is
+\[
+nM_T^2\le B_{n,T},\qquad
+B_{n,T}\to1+\tau+1/T
+\]
+in the prime-first order.
+
+### Why the known completion does not fit
+
+The explicit pinned reflection preserves sector, mean, and the physical mark exactly, but its sufficient positivity condition requires
+\[
+T\ge C_\tau n
+\]
+with an explicit \(C_\tau>0\). This is incompatible with the proved arithmetic window, since
+\[
+T(q)=o(n).
+\]
+The unmodified-prefix positivity argument is even weaker: direct positivity for every prefix is only proved at
+\[
+T=O_\tau(n\log n),
+\]
+while selected positive prefixes occur at \(O_\tau(n)\).
+
+Thus the existing positive completion is valid only after the marked window has expired. It does not establish the requested fixed-\(\tau\), prime-uniform completion with additional mean \(o(n^{-1/2})\).
+
+### What is genuinely obstructed
+
+Two restricted repair classes are ruled out, but neither obstruction rules out an arbitrary signed sector correction.
+
+1. **Doubly stochastic repairs.**  
+   If \(M\) is doubly stochastic, preserves the relevant sector, and preserves the marked coordinate, then for the actual prime orbit in the window the mark is the unique macroscopic maximum. This forces \(Me_0=e_0\). The sector and orbit are then fixed by \(M\), so
+   \[
+   MX_{\sigma,T}=X_{\sigma,T}.
+   \]
+   Such a map cannot remove any negative coordinate.
+
+2. **The seven pinned arithmetic directions.**  
+   For the affine representative with scaled mean \(G\), scaled mark \(a\), and coefficients \(c\in\mathbb R^7\), the pinned-corner support estimate gives, on a positive fraction of bulk sites,
+   \[
+   R_{\sigma,q}(i)
+   \le G-(\sqrt2-\varepsilon)a
+      -(1/4-\varepsilon)\|c\|_1+\varepsilon.
+   \]
+   In the marked window,
+   \[
+   G=\sqrt n\,M_T\le\sqrt{1+\tau}+o(1),\qquad a=X_{\sigma,T}(0)=1+o(1).
+   \]
+   For fixed \(\tau<1\),
+   \[
+   \sqrt2-\sqrt{1+\tau}>0.
+   \]
+   Hence no correction confined to those seven pinned directions can make the actual projected average nonnegative while retaining \(o(1)\) scaled mark loss and \(o(n^{-1/2})\) extra mean.
+
+These are precise failures of two proposed repair mechanisms. They are **not** a no-go theorem for the full cone
+\[
+V_\sigma\cap\{r:r(0)=0\},
+\]
+so the unrestricted signed-completion question remains open.
+
+## Exact remaining gap
+
+The missing object is an endpoint-dependent signed correction for the actual row \(X_{\sigma,T}\), not an ordinary theta optimization and not a fixed source ansatz.
+
+Let
+\[
+\ell_\sigma=P_\sigma e_0,\qquad
+k_\sigma=1-\frac{\ell_\sigma}{(\ell_\sigma)_0}.
+\]
+Then \(k_\sigma\) is sector-compatible, has \(k_\sigma(0)=0\), and has mean one. The exact completion cost is
+\[
+\delta_{\sigma}(q,T)
+=
+\inf\left\{
+\delta\ge0:
+\begin{array}{l}
+\exists r\in V_\sigma,\quad r(0)=0,\\[2mm]
+X_{\sigma,T}+r+\delta k_\sigma\ge0
+\end{array}
+\right\}.
+\]
+The target required by the mission is
+\[
+\delta_{\sigma}(q,T)=o(n^{-1/2})
+\]
+uniformly for primes in the proved growing window, while retaining
+\[
+X_{\sigma,T}(0)=1+o(1).
+\]
+
+Neither the pinned-reflection estimate nor the seven-direction support calculation bounds this full-cone quantity. The stochastic result says only that a positive doubly stochastic repair cannot help.
+
+## Ranked next tests
+
+### 1. Highest priority: actual endpoint-dependent signed-reserve LP
+
+For each actual prime \(q\equiv1\pmod4\) and each certified \(T\), solve the exact finite-dimensional problem above using the true \(X_{\sigma,T}\), the exact projector \(P_\sigma\), and the physical mark \(0\).
+
+Its dual is especially informative. A nonnegative dual weight \(\lambda\) satisfying
+\[
+\lambda\perp\{r\in V_\sigma:r(0)=0\}
+\]
+gives
+\[
+\delta_\sigma(q,T)
+\ge
+-\frac{\langle\lambda,X_{\sigma,T}\rangle}
+        {\langle\lambda,k_\sigma\rangle}
+\quad
+\text{whenever }\langle\lambda,k_\sigma\rangle>0.
+\]
+The first test should be nonstatic: allow \(\lambda\) to depend on the actual endpoint \(v_T,v_{T+1}\), not merely on the seven fixed arithmetic sources.
+
+A successful result would need an explicit bound
+\[
+\delta_\sigma(q,T)\le C(\tau)\,o(n^{-1/2})
+\]
+with \(C(\tau)\) independent of \(q\) and \(T\) throughout the certified window. Finite feasibility alone would not settle the asymptotic claim.
+
+### 2. Second priority: prove or refute a full-cone weighted endpoint inequality
+
+Establish a prime-uniform inequality controlling the full signed correction by the actual endpoint defect, for example in the form
+\[
+\delta_\sigma(q,T)
+\le
+C(\tau)\,\mathcal D_{\sigma,T},
+\]
+where \(\mathcal D_{\sigma,T}\) is computed from the actual endpoint difference
+\[
+\frac{P_\sigma(v_{T+1}-v_1)}{2T}
+\]
+and the actual negative part of the raw averaged row, with no replacement by an ordinary sector-row optimization.
+
+The required conclusion would be
+\[
+\mathcal D_{\sigma,T}=o(n^{-1/2})
+\]
+in the prime-first order. The constant \(C(\tau)\) must be explicit and independent of the unknown prime growth; otherwise this is only a fixed-depth diagonal argument.
+
+At present, the available endpoint estimates give only \(L^2\)-scale control such as \(O(T^{-1/2})\) after normalization. That is far too weak when \(T\) is restricted to the log-star window, and no full-cone signed reserve estimate converts it into the required \(o(n^{-1/2})\) mean cost.
+
+**Conclusion:** the mission is presently inconclusive, with a precise failure of the known repair mechanisms rather than a refutation of all sector-preserving signed completions.

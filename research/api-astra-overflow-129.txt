@@ -1,0 +1,108 @@
+### Checked result
+
+The fixed-depth weighted reserve identity is algebraically valid, but its claimed uniform terminal bound can be stated more explicitly.
+
+Let
+\[
+A_M=\sqrt{4+M^2},\qquad a_j=\Phi_0(C_M(W_j)),
+\]
+and let \(F_\epsilon\ge 0\), \(\mathbb E_nF_\epsilon=1\), with
+\[
+F_\epsilon(0)=\theta_\epsilon,\qquad \theta_\epsilon\le 1+\sqrt p.
+\]
+Since the bulk entries of \(a_j\) are at most \(A_M\), while
+\[
+a_j(0)=\sqrt{4n+C_M(W_j(0))^2}
+       \le 2\sqrt n+\frac{M^2}{4\sqrt n},
+\]
+one has
+\[
+\mathbb E_n(F_\epsilon a_j)
+ \le A_M+\frac{(1+\sqrt p)}n
+       \left(2\sqrt n+\frac{M^2}{4\sqrt n}\right)
+ =:S_{M,p}.
+\]
+Using
+\[
+B_{\epsilon,j+1}
+=\frac12B_{\epsilon,j}
++\frac12\bigl(\mathbb E_n(F_\epsilon a_j)-\mu_j\bigr),
+\qquad B_{\epsilon,0}=0,
+\]
+and \(\mu_j\ge0\), gives the prime-uniform bound
+\[
+B_{\epsilon,J}\le S_{M,p}
+\le A_M+2\sqrt2+o_M(1).                                      \tag{A}
+\]
+Thus the \(2B_J/J\) term in (2) is indeed \(O_M(J^{-1})\), uniformly in \(p\), although the draft’s informal notation \(M+C_M\) should be replaced by an explicit bound such as (A).
+
+The norm identity is also correct:
+\[
+\|W_{j+1}\|_{2,n}^2-\|W_j\|_{2,n}^2
+=2-\frac12\mu_j^2-\frac12\alpha_j-\frac14\|r_j\|_{2,n}^2.
+\]
+Consequently,
+\[
+\overline{\mu}
+\le
+2-\frac14\overline{\alpha}
+-\frac18\overline{\|r_j\|_{2,n}^2}
+-\frac{\|W_J\|_{2,n}^2}{2J},
+\]
+so the reserve coefficients in (2) are valid (the \(\alpha\)-coefficient is deliberately weakened from the sharper \(1/2\) to \(1/4\)).
+
+### Precise remaining gap
+
+The fixed-height Jacobi/parity argument proves, for each fixed \(J\),
+\[
+\frac1J\sum_{j<J}\frac{W_j(0)}{\sqrt n}\longrightarrow0
+\qquad(p\to\infty),
+\]
+and hence \(d_{\epsilon,J}\to2\). It does **not** provide a prime-uniform estimate for
+\[
+\mathcal T_{\epsilon,M,J}(p)
+=
+\mathbb E_n\!\left[
+ (F_\epsilon-M/2)_+
+ \frac1J\sum_{j<J}T_{\epsilon,j}
+\right].                                                     \tag{B}
+\]
+The missing estimate is exactly
+\[
+\liminf_{J\to\infty}\limsup_{p\to\infty}
+\mathcal T_{\epsilon,M,J}(p)=0.                               \tag{C}
+\]
+
+There is a concrete reason fixed-depth trace cancellation does not imply (C). The iterate \(W_j\) has bounded-complexity trace structure for fixed \(j\), but \(F_\epsilon\) is an **exact ordinary optimizer whose complexity and coordinates may grow with \(p\)**. The available generic estimates give only
+\[
+\mathcal T_{\epsilon,M,J}(p)
+\le
+\|F_\epsilon\|_\infty\,\overline{\mathbb E_nT_{\epsilon,j}}
+\le
+(1+\sqrt p)\frac{\overline{\alpha_j}}{2M},                    \tag{D}
+\]
+because \(\alpha_j\ge2M\mathbb E_nT_{\epsilon,j}\). Formula (D) is not prime-uniform unless one proves the additional rate
+\[
+\overline{\alpha_j}=o(p^{-1/2}),
+\]
+which is explicitly unavailable and cannot be assumed. Cauchy–Schwarz does not repair this: no \(p\)-uniform \(L^2\) bound for the ordinary optimizer follows from its mean-one and sector identities.
+
+This is an arbitrary-data obstruction at the level of current norms, not yet a genuine prime obstruction: a prime-specific proof would need cancellation between the high-weight set \(\{F_\epsilon>M/2\}\) and the signed/capped spill, not merely fixed-complexity cancellation of the iterate.
+
+### Consequence for the theta target
+
+With (A), (2) rigorously reduces the ordinary upper bound to (C), and the same reduction applies to both signs \(\epsilon=\pm1\). No cap-defect vanishing, critical cap rate, or bounded optimizer coordinates are used in this reduction. But no prime-uniform upper for (B) has been obtained.
+
+### Ranked next tests
+
+1. **Actual signed Fourier test.** Prove, for fixed \(M,J\), a correlation estimate for the optimizer-dependent set
+   \[
+   \{i:F_\epsilon(i)>M/2\}
+   \]
+   against \(T_{\epsilon,j}\), preferably by replacing the indicator with a bounded polynomial and identifying the first signed trace/mixed-convolution term that survives. This directly targets (C).
+
+2. **Conditional-moment route.** Establish a prime-uniform bound for
+   \[
+   \mathbb E_n\!\left[(F_\epsilon-L)_+T_{\epsilon,j}\right]
+   \]
+   with \(L=M/2\), using Jacobi conditional moments or reciprocal-support separation. A successful bound must exploit arithmetic structure of \(F_\epsilon\); the generic estimate (D) is insufficient.

@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "round": 169,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 169 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-168-acceptance.json",
+      "sha256": "3737f77b1e5c216470d4df78bb3b3f9f161c95b2538abfd5bc44eb7b40b255fa"
+    },
+    "current": {
+      "path": "research/round-169-acceptance.json",
+      "sha256": "a9108919cdb63360c5181f87f1264297b284383a77deb14c4c69a1bc4c3088bd"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The one-match mass was expressed through co-moving character rows with actual phases. The positive support quotient had a cone dual without a quantitative estimate.",
+      "after": "The one-match criterion is now an equivalent-scale twisted physical collision, with actual easy rows and same-ratio terms paid. An abstract scaled control excludes relying on the cone and marginal scales alone.",
+      "remaining": "Bound the coupled distinct ratios at common slope with the genuine weights, and independently the zero-match term, or prove a fixed-gap exclusion through a true Jacobi bound on centered optimizer energy.",
+      "evidence": [
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        },
+        {
+          "path": "research/ordinary-quotient-scaled-cone-control-169.md",
+          "sha256": "d5de64e9d4eb2042004630ed30320d4c8af9b84dc7576888fe500a07cbe33d8e"
+        },
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        },
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "The full cold source price is below 0.00009657 before the frozen inverse.",
+      "after": "The gateway resolvent telescope returns the same unknown translated response. The exact all-order scalar bound and all existing prices are unchanged.",
+      "remaining": "Provide a noncircular prime-uniform translated transport bound or a growing moving starter with confinement on the original square.",
+      "evidence": [
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The true one-match obligation is a positive weighted different-ratio physical collision. A scaled abstract example isolates the need for Jacobi-specific quotient coercivity. The cold bound and the original target remain open.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-distinct-ratio-dilations",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the distinct-z twisted physical correlations at a common slope be bounded by O(p^5/2) after the actual outer weight?",
+      "why_now": "The exact physical test has no unresolved Gauss phases, pays all z=z-prime terms, and converts the square condition to a slope mask.",
+      "scope": "Use actual g, w=g(1-g), lambda_z=(1-z)/(1-sz), both square slope masks, and the common affine parameter 1-s. Price the distinct-z terms. A physical or arithmetic argument is allowed. Zero-match is separate.",
+      "if_yes": "Prove the target-scale distinct-ratio bound and thus the one-match contribution.",
+      "if_no": "Prove an actual obstruction to a specified distinct-ratio mechanism or a scoped counterexample for strictly weaker inputs.",
+      "if_inconclusive": "Give a new quantitative gain on a precise off-diagonal subclass or reduce to a smaller genuine arithmetic estimate.",
+      "inputs": [
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-centered-source-coercivity",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can actual signed Jacobi control on the complementary positive support or its quotient bound one part of the true centered inverse?",
+      "why_now": "Abstract forcing and cap bounds permit arbitrarily small projection. The unanswered positive-support cost is as important as the quotient.",
+      "scope": "Keep genuine optimizer, mark, w and A. Try a levelwise signed bound for the positive-support source or a one-sided actual projected-mass bound for a representing dual. Track which cost remains and the growing T window.",
+      "if_yes": "Prove an actual prime-uniform o(T) partial cost or the complete fixed-gap exclusion.",
+      "if_no": "Give a mathematically scoped obstruction tied to the stated estimate; a relaxed projector does not refute the arithmetic claim.",
+      "if_inconclusive": "Prove a new directional gain restricted to a quantified actual support regime.",
+      "inputs": [
+        {
+          "path": "research/ordinary-quotient-scaled-cone-control-169.md",
+          "sha256": "d5de64e9d4eb2042004630ed30320d4c8af9b84dc7576888fe500a07cbe33d8e"
+        },
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        },
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-restricted-response-gain",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can a genuine translated packet argument bound a signed growing-depth response of the actual distributed R squared channel?",
+      "why_now": "The all-order seed price is available but the inverse-defined telescope gives no estimate. A quantitative restricted response could advance the true moving bridge.",
+      "scope": "Keep original square, t0=n and both lifts. Give a noncircular bound for a defined restricted part of the forward transport, or an actual moving starter constructed without presuming the needed inverse price. Account for mixed-word and mark repairs.",
+      "if_yes": "Prove a sufficient translated response and stated nonlinear bridge, or a genuine moving-starter estimate adequate for the existing bridge.",
+      "if_no": "Prove a concrete limitation of a specified restricted packet or signed transport mechanism.",
+      "if_inconclusive": "Derive a nontrivial uniform decay or price on a precise transported part with an explicit remaining tail.",
+      "inputs": [
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 170 deductions survive independent review?",
+      "why_now": "Distinct physical dilations, actual Jacobi source bounds and nonlinear cold transport have different proof inputs.",
+      "scope": "Read-only. Verify masks and mark, whole prime limit, arithmetic hypotheses and evidence level. Give two ranked next tests.",
+      "if_yes": "State the checked deduction and remaining estimate.",
+      "if_no": "Locate invalid steps.",
+      "if_inconclusive": "Separate proof and evidence.",
+      "inputs": [
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-quotient-scaled-cone-control-169.md",
+          "sha256": "d5de64e9d4eb2042004630ed30320d4c8af9b84dc7576888fe500a07cbe33d8e"
+        },
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

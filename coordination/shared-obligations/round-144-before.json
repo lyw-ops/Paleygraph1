@@ -1,0 +1,49 @@
+{
+  "captured_at_utc": "2026-11-19T20:04:34.608801Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-143.json#next_calls",
+  "coordinator_sha256": "96bf377e5aac06ecc6bd14562ae7c7bae1912647a5752fe8719ebb0136f8245d",
+  "call_ids": [
+    "ordinary-terminal-select-primal",
+    "ordinary-terminal-select-dual",
+    "cold-quintic-residual-labels"
+  ],
+  "routes": {
+    "r144/ordinary-terminal-select-primal": {
+      "question": "Can we construct or select an optimizer on the actual mean-one face with sublinear terminal activation?",
+      "scope": "For each sufficiently small fixed tau>0 and each ordinary sign s, along all p=1 mod 4 primes p tending to infinity, there is a choice of a genuine mean-one optimum F on sign s and T=T(p) tending to infinity with T+1 in the proved simultaneous marked window for which E[1_bulk F sqrt(n) g_T]=o(T), with n=(p-1)/2 and g_T the actual fixed-tau zero-start activation increment. The tau limit follows the prime limit. Use the primal side and keep the exact root optimum throughout.",
+      "remaining": "Obtain a prime-uniform o(T) upper on the minimum weighted actual terminal activation or its exact reduced dual, each sign at selectable growing time. Keep the floor fixed until after the prime limit."
+    },
+    "r144/ordinary-terminal-select-dual": {
+      "question": "Can arithmetic bound the exact reduced opposite-sector dual mean-minus-mark for the same first moment?",
+      "scope": "For each sufficiently small fixed tau>0 and each ordinary sign s, along all p=1 mod 4 primes p tending to infinity, there is a choice of a genuine mean-one optimum F on sign s and T=T(p) tending to infinity with T+1 in the proved simultaneous marked window for which E[1_bulk F sqrt(n) g_T]=o(T), with n=(p-1)/2 and g_T the actual fixed-tau zero-start activation increment. The tau limit follows the prime limit. Use the dual of the same objective with G=sqrt(n) g_T and bulk mark excluded.",
+      "remaining": "Obtain a prime-uniform o(T) upper on the minimum weighted actual terminal activation or its exact reduced dual, each sign at selectable growing time. Keep the floor fixed until after the prime limit."
+    },
+    "r144/cold-quintic-residual-labels": {
+      "question": "Which residual second higher unshifted words return to the named old pools or to the rank-ten label?",
+      "scope": "Use the original marked cold square and unshifted actual C1. Keep the entire six-placement beta-squared block linear in alpha Y. Classify the remaining Y K(C6) and symplectic products first and retain all exact twists and finite repair accounting.",
+      "remaining": "Compare the new residual arithmetic objects with the named old pools and rank-ten word, then control the full analytic block, actual frozen norm and marked half step."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-terminal-select-primal": [
+      "cand:actual-face-terminal-first-moment"
+    ],
+    "ordinary-terminal-select-dual": [
+      "cand:actual-face-terminal-first-moment"
+    ],
+    "cold-quintic-residual-labels": []
+  },
+  "known_shared": [
+    {
+      "id": "cand:actual-face-terminal-first-moment",
+      "statement": "For each sufficiently small fixed tau>0 and each ordinary sign s, along all p=1 mod 4 primes p tending to infinity, there is a choice of a genuine mean-one optimum F on sign s and T=T(p) tending to infinity with T+1 in the proved simultaneous marked window for which E[1_bulk F sqrt(n) g_T]=o(T), with n=(p-1)/2 and g_T the actual fixed-tau zero-start activation increment. The tau limit follows the prime limit.",
+      "routes": [
+        "r144/ordinary-terminal-select-primal",
+        "r144/ordinary-terminal-select-dual"
+      ]
+    }
+  ],
+  "comparison_status": "assessed",
+  "comparison": "The two ordinary lanes deliberately attack the same exact face-selected first moment. Finite strong LP duality in the checked R143 note identifies their objectives at the same p, sign, actual marked T and fixed tau. The cold residual label lane tests a separate arithmetic obligation with no dependence on the real optimum face."
+}

@@ -1,0 +1,65 @@
+{
+  "round": 135,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-134-acceptance.json",
+    "sha256": "973ea5167f20223c46026f40f9e651656b036370c051879bf1a9c6924f4c17fd"
+  },
+  "coordinator": {
+    "path": "coordination/round-134.json",
+    "sha256": "3ac61efe7f80c53ce534bcc0f5c5c5aa5c0a0c19bc2153b8c67b17531f39282e"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-135.py",
+    "sha256": "03496a4781c7836fa79eebc78ad508302408515c88df7ed0c12e91c465ed6d0c"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-135-before.json",
+    "sha256": "d1121f1fa42fb9a5f494266d8731e87b471635abf0ff1ee031aeefbc0bc84314"
+  },
+  "lanes": [
+    {
+      "call_id": "cold-remainder-envelope",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "1dca328cea4eb66c41938e8a875fb7d18ebbd4f2ea80e33bf02d88f361563540",
+      "mission_file": {
+        "path": "coordination/missions/round-135/cold-remainder-envelope.md",
+        "sha256": "62b7011cc34a14c0f5e7d20217a81d3bcd1a8282c7feab74ce6d2f19c2fe662b"
+      },
+      "shared_candidate_ids": [
+        "cand:cold-pure-seed-remainder-472"
+      ],
+      "pending_receipt": "/private/tmp/paley-r135-api-01a1ed0a/cold-remainder-envelope-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r135-api-01a1ed0a/cold-remainder-envelope-candidate.md",
+      "started_utc_epoch": 1795111257.728096
+    },
+    {
+      "call_id": "cold-remainder-geometric",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "e6ddf1c4a87c52992a14ff52081adee9965300a8103db454154227e857e50256",
+      "mission_file": {
+        "path": "coordination/missions/round-135/cold-remainder-geometric.md",
+        "sha256": "2815c53e3b568653fdef2313fed3ce486cbb6f969d4ada18e4156a09ec9aaa82"
+      },
+      "shared_candidate_ids": [
+        "cand:cold-pure-seed-remainder-472"
+      ],
+      "pending_receipt": "/private/tmp/paley-r135-api-01a1ed0a/cold-remainder-geometric-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r135-api-01a1ed0a/cold-remainder-geometric-candidate.md",
+      "started_utc_epoch": 1795111257.728487
+    },
+    {
+      "call_id": "ordinary-window-signed-tail",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "2a896fc66d4d99203ce504174440af3041b356b0a595a18c8f074cfd90fbc125",
+      "mission_file": {
+        "path": "coordination/missions/round-135/ordinary-window-signed-tail.md",
+        "sha256": "4d7ca76cc879d2963c0ac7776525b8a5b8381ff82b275fc583eb2ec28ab912cf"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r135-api-01a1ed0a/ordinary-window-signed-tail-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r135-api-01a1ed0a/ordinary-window-signed-tail-candidate.md",
+      "started_utc_epoch": 1795111257.729103
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+## Result
+
+I cannot certify the \(0.472\) target from the supplied records. The existing \(0.6404\) computation is not a lower bound for the actual signed remainder operator, and no valid physical dual functional or coherent packet is specified in the records.
+
+The precise unresolved object is, for each \(h\in\{601,602\}\),
+\[
+E_h=D_h-D^{\mathrm J},
+\qquad
+K E_h,
+\]
+where \(D_h\) is the actual diagonal derivative at the actual predictor \(V_h\), \(D^{\mathrm J}\) is the full pure Jacobi-seed derivative, and \(K\) is evaluated with the actual physical marking \(t_0=n=(p-1)/2\). The required assertion is
+\[
+\sup_{(a,b)\in Q}
+ \|K E_h(a,b)\|_{P_{5000}}
+<0.472-\delta
+\]
+for some \(\delta>0\), uniformly for all sufficiently large primes
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+with the prime limit taken after the fixed physical norm and fixed heights \(h=601,602\).
+
+## What is established
+
+The supplied records establish three relevant facts.
+
+1. **The unsigned comparison fails.**  
+   At \(a=2031/128\), the positive envelope formed from the linear and cubic orders gives an affine-limit charge \(>0.6404\). This proves only that this particular coefficientwise-positive majorant cannot certify \(0.472\).
+
+2. **The analytic seed has already been separated.**  
+   The full pure-seed derivative \(D^{\mathrm J}\), including all pure odd powers of \(S\), has a translated physical rate below \(0.5279\) by the recorded finite-order aggregation and geometric tail. Thus the remaining issue really is the signed remainder \(E_h\), not an omitted pure-seed term.
+
+3. **Counting estimates are insufficient.**  
+   The records give
+   \[
+   \|K E_h\|_{2\to2}<0.275,
+   \]
+   but the flat-entry example shows that a counting contraction does not produce a physical translated-price bound. Hence the \(0.275\) estimate cannot be converted into the required \(P_{5000}\)-estimate without additional physical support information.
+
+## Why the \(0.6404\) number is not a signed lower bound
+
+Write \(C_h=V_h-S\). The first remainder term is schematically
+\[
+d_t'(S)\,C_h,
+\qquad
+d_t'(S)=\frac{4t}{(4t+S^2)^{3/2}},
+\]
+and higher terms contain one or more occurrences of \(C_h\) mixed with powers of \(S\).
+
+A valid signed calculation must perform the following operations in this order:
+
+1. expand the actual \(C_h\) and the actual powers of \(S\) into Laurent-by-field terms;
+2. identify terms with exactly the same Laurent exponent and the same underlying field;
+3. add their signed coefficients;
+4. only then take the physical price or a dual pairing.
+
+The \(0.6404\) computation instead takes absolute values of the positive envelope before this aggregation. It therefore replaces, for a collection of coefficients \(c_{\lambda,\chi}\), the actual quantity
+\[
+\left|\sum_{\lambda,\chi\ \text{with same physical object}}
+c_{\lambda,\chi}\right|
+\]
+by
+\[
+\sum_{\lambda,\chi}|c_{\lambda,\chi}|.
+\]
+This is an upper bound for the price of a chosen representation, not a lower bound for the norm of the signed operator. Numerical coincidence of boundary weights is also insufficient: the records correctly note that distinct Mellin fields with the same numerical weight are not automatically the same physical Laurent object.
+
+Consequently, the current records neither prove nor disprove
+\[
+\|K E_h\|_{P_{5000}}<0.472.
+\]
+
+## Explicit coherent-packet test
+
+The natural packet to test is the part of \(K E_h\) linear in the actual nonseed row \(C_h\):
+\[
+\mathcal L_h
+=
+K\left[
+\sum_{\ell\ge0}
+(-1)^\ell
+\frac{\binom{2\ell+1}{\ell}}{4^\ell}
+\frac{S^{2\ell}C_h}{(4t)^{\ell+3/2}}
+\right],
+\]
+with the product interpreted in the actual Laurent-by-field algebra, including the physical marked coordinate \(t_0=n\). The finite truncation through \(\ell=13\) is the relevant first test; the recorded tail estimate beginning at order \(29\) is \(<0.0000407\) for the corresponding unsigned remainder tail.
+
+For this packet, a valid positive price certificate would be obtained by exact aggregation of all equal Laurent-by-field terms. If the resulting folded coefficients are \(c_k(a,b)\), the physical translated price must be computed from the actual signed coefficients, for example through the exact column ratios
+\[
+\frac{(j-1)\nu+
+ \sum_{k>0}2|c_k|
+ \bigl(\pi(|j+k|)+\pi(|j-k|)\bigr)/2}
+{\pi(j)},
+\]
+with the same fixed rational \(\pi\) and \(\Lambda=5000\) used in the seed calculation. The absolute values here occur only after coefficient aggregation.
+
+The current material does not contain the required \(c_k(a,b)\) table for \(C_{601}\) or \(C_{602}\). Therefore this coherent-packet test cannot be completed from the supplied evidence.
+
+## Precise failure
+
+The proposed coherent-packet argument currently fails at the **field-identification step**, not at the tail estimate:
+
+- the records provide unsigned boundary weights and rank/dimension bounds;
+- they do not provide the actual signed Laurent expansion of \(C_h\) through the retained orders;
+- without that expansion, one cannot determine which terms are identical physical objects;
+- without those identifications, neither cancellation nor a bounded physical dual pairing can be certified.
+
+The failure is therefore genuine and sharply localized. It does not show that the \(0.472\) claim is false.
+
+## Ranked next tests
+
+### 1. Exact signed aggregation of the linear packet — highest priority
+
+For each \(h=601,602\):
+
+1. compute the actual Laurent-by-field expansion of \(C_h\) through derivative order \(27\) (orders \(1,3,\ldots,27\));
+2. multiply by the pure-seed powers \(S^{2\ell}\);
+3. key terms by the full physical identity: Laurent exponent, field/character label, lift, and marked correction;
+4. sum signed coefficients exactly or with outward Arb;
+5. price the aggregated columns with the fixed \(P_{5000}\) and rational \(\pi\);
+6. maximize over the original closed cold square.
+
+**Decision criterion:**  
+- a bound \(<0.472-\delta\) with explicit \(\delta>0\) supports the candidate, after adding the recorded \(<0.0000407\) tail and \(O_{5000}(n^{-1/2})\) physical-marking corrections;
+- a single certified value \(>0.472\) for an actual bounded dual pairing refutes the candidate.
+
+This is the narrowest arithmetic test because the linear term is expected to dominate and is exactly where the records identify the need for signed aggregation.
+
+### 2. Physical dual LP on the aggregated finite support
+
+If the first test does not close the estimate, construct the finite physical support of the aggregated order-\(\le27\) remainder and solve the dual price problem directly.
+
+The dual must be defined on the actual physical translated coordinates, not on unsigned weights. Its norm constraint must be the dual of \(P_{5000}\), with the actual base mark \(t_0=n\), translated pair, and boundary transport included. Test separately the bulk and marked columns, then add the certified \(O_{5000}(n^{-1/2})\) correction uniformly as \(p\to\infty\).
+
+This test can either produce:
+
+- a bounded dual functional pairing \(>0.472\), which would refute the desired upper bound; or
+- an exact finite-support upper certificate below \(0.472\), leaving only the already-controlled tail and asymptotic marking correction.
+
+Until one of these two tests is performed, the \(0.472\) remainder estimate remains genuinely open.

@@ -1,0 +1,225 @@
+## Result
+
+A genuine moving starter is available formally, but the existing estimates do **not** yet prove the required moving-depth coordinate bridge on the original square.
+
+Keep throughout:
+
+\[
+t_0=n=\frac{p-1}{2},
+\]
+
+the original closed complex square \(Q\), both physical lifts, and the actual map
+
+\[
+F_t(W)=K\Phi_t(W),
+\]
+
+where the marked coordinate uses the physical radicand \(4n+W_0^2\), while the other coordinates use \(4t+W_i^2\).
+
+Let \(V_m\) denote the actual cold Picard orbit. The genuine physical residual at height \(m\) is
+
+\[
+\mathcal R_m(t):=F_t(V_m)-V_m=V_{m+1}-V_m.
+\]
+
+This is not an inverse-defined correction.
+
+### Candidate moving starter
+
+Take
+
+\[
+m=m(p):=602+\left\lceil \frac12\log n\right\rceil,
+\qquad
+\widehat V_p:=V_{m(p)}.
+\]
+
+The proposed residual is therefore the actual next orbit increment
+
+\[
+\widehat{\mathcal R}_p
+=
+F_t(\widehat V_p)-\widehat V_p
+=
+V_{m(p)+1}-V_{m(p)}.
+\]
+
+The order of limits is: for each eligible prime \(p\), form \(m(p)\), prove estimates uniformly on \(Q\) and on both lifts, and only then let \(p\to\infty\).
+
+## What the existing counting estimates would give
+
+Suppose, in addition to the fixed-height estimates already recorded, that the actual orbit remains in a common coordinate tube on which
+
+\[
+\sup_{W\text{ in the tube}}\|K\Phi_t'(W)\|_{2\to2}\le q
+\]
+
+with, for example, \(q=0.520\). The height-602 curvature calculation is compatible with this numerically: starting from the quoted \(0.51358\) bound, the displayed curvature \(0.248\) and radius \(0.011+0.012/2\) give
+
+\[
+0.51358+0.248(0.011+0.012/2)
+<0.5169<0.520.
+\]
+
+Under this additional tube hypothesis, the normalized counting residual satisfies
+
+\[
+\|\mathcal R_{602+k}\|_{2,n}
+\le q^k\|\mathcal R_{602}\|_{2,n}.
+\]
+
+Since \(m(p)-602=\lceil \frac12\log n\rceil\),
+
+\[
+\|\widehat{\mathcal R}_p\|_{2,n}
+\ll q^{\frac12\log n}
+=
+n^{\frac12\log q}.
+\]
+
+For \(q=0.520\),
+
+\[
+\gamma:=-\frac12\log(0.520)>0.326,
+\]
+
+so
+
+\[
+\|\widehat{\mathcal R}_p\|_{2,n}=O(n^{-\gamma}),
+\qquad \gamma>0.326.
+\]
+
+This is enough for the quadratic residual condition in the existing continuation bridge with \(\beta=0.455\), because
+
+\[
+n^{1-\beta}\|\widehat{\mathcal R}_p\|_{2,n}^{\,2}
+\ll
+n^{0.545-2\gamma}
+=
+O(n^{-0.107}),
+\]
+
+which tends to zero.
+
+Thus the arithmetic choice \(m(p)=602+\lceil \frac12\log n\rceil\) is sufficient **if** one has a uniform moving-height contraction tube and the corresponding shifted resolvent estimate.
+
+## Physical coordinate norm remains unresolved
+
+The preceding estimate is only in the normalized counting norm. It does not imply a decaying coordinate residual. The trivial conversion gives merely
+
+\[
+\|\widehat{\mathcal R}_p\|_\infty
+\le \sqrt n\,\|\widehat{\mathcal R}_p\|_{2,n}
+=
+O(n^{1/2-\gamma}),
+\]
+
+which with \(\gamma>0.326\) is \(O(n^{0.174})\), not \(o(1)\).
+
+Therefore:
+
+- **Counting residual:** conditionally decays at a rate sufficient for the quadratic continuation term.
+- **Physical coordinate residual:** not proved to decay; the trivial norm comparison is inadequate.
+- **Translated norm:** not proved at the moving starter. The existing \(P_{5000}\) estimates are at fixed heights and do not supply a uniform bound for \(V_{m(p)}\).
+- **Physical marking:** the marked coordinate remains governed by \(4n+W_0^2\). The already quoted \(O(n^{-1/2})\) marked/bad-character repairs are harmless at fixed height, but their uniform accumulation through \(m(p)=O(\log n)\) steps has not been established. A bound of \(O((\log n)n^{-1/2})\) would still be harmless, but it is not currently recorded.
+
+## Why the existing bridge cannot yet be applied
+
+The bridge requires, at the moving starter, analogues of
+
+\[
+\sup_{k\ge0}\|B_p^k Z_p\|_{\max}
+\le C n^{-\beta},
+\qquad
+B_p=K\Phi_t'(\widehat V_p),
+\]
+
+together with coordinate confinement of the signed linear sums
+
+\[
+S_{p,k}:=\sum_{j<k}B_p^j\widehat{\mathcal R}_p.
+\]
+
+The available height-602 result proves only
+
+\[
+\sum_{j\ge0}
+\|(KD_{602})^jK\|_{\max}
+=O(n^{-0.455})
+\]
+
+for the frozen derivative at \(V_{602}\). It does **not** prove the same estimate uniformly for
+
+\[
+D_{m(p)}=\operatorname{diag}\Phi_t'(V_{m(p)}).
+\]
+
+Nor does the fixed-height source price for the mixed seed packets produce outer-power decay in \(j\). The one-step translated estimates at height 601 or 602 therefore cannot be iterated to depth \(m(p)\).
+
+Consequently, the proposed moving starter is a valid **conditional construction**, but the requested genuine moving-prime confinement theorem is not proved by the current record.
+
+## Precise remaining gap
+
+One needs a theorem uniform for all heights
+
+\[
+602\le h\le 602+\left\lceil \frac12\log n\right\rceil
+\]
+
+that simultaneously supplies:
+
+1. a common physical coordinate tube containing \(V_h(Q)\) on both lifts;
+2. a counting contraction \(q<1\) for \(K\Phi_t'(V_h)\);
+3. a translated or entrywise shifted-resolvent bound
+   \[
+   \sup_{h\le 602+\lceil\frac12\log n\rceil}
+   \sup_{j\ge0}
+   \|(K D_h)^jK\|_{\max}
+   \ll n^{-\beta};
+   \]
+4. uniform control of the marked-coordinate corrections with \(t_0=n\);
+5. a coordinate bound for the signed partial sums \(S_{p,k}\), not merely a counting bound.
+
+Without item 3, the existing \(O(n^{-0.455})\) bridge cannot be transferred from \(V_{602}\) to the moving starter. Without item 5, even the decaying counting residual does not imply physical coordinate confinement.
+
+## Ranked next tests
+
+### 1. Highest priority: moving-height resolvent replay
+
+For each
+
+\[
+h=602,\ldots,602+\left\lceil \frac12\log n\right\rceil,
+\]
+
+replay the actual two-lift translated-column argument with \(V_h\) in place of \(V_{602}\). The decisive target is a uniform estimate such as
+
+\[
+\sup_h\sup_j
+\|(K D_h)^jK\|_{\max}
+\ll n^{-0.44}
+\]
+
+together with a uniform \(P_{5000}\) rate below one. This directly tests the missing hypothesis of the bridge.
+
+### 2. Second priority: finite moving-orbit coordinate test
+
+Using the actual physical recursion, propagate \(V_{602}\) through \(m(p)-602=O(\log n)\) steps while retaining separately:
+
+\[
+\|V_{h+1}-V_h\|_{2,n},
+\qquad
+\|V_{h+1}-V_h\|_\infty,
+\qquad
+\|V_{h+1}-V_h\|_{P_{5000}}.
+\]
+
+The test should also retain the marked \(4n+W_0^2\) term rather than replacing it by the bulk \(4t+W_i^2\). A successful bound of the form
+
+\[
+\sup_{h\le m(p)}
+\|V_h-V_{602}\|_\infty<d-\eta
+\]
+
+would establish the physical tube needed for the first test. A failure would give a quantitative obstruction to this specific moving starter, without settling other possible starters.

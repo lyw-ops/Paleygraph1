@@ -1,0 +1,121 @@
+{
+  "round": 134,
+  "accepted_at_utc": "2026-11-19T17:58:27Z",
+  "previous": "research/round-133-acceptance.json",
+  "previous_sha256": "29b8d7a50c56e3c2f97f67739295f88cf12b23f4bd6f4bc12ca88d8320fb30ed",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-133.json",
+    "sha256": "b9d96253ca6fd01e93f6f96744fd39a78241e1596bdf1a06cd03f65f9317b995"
+  },
+  "proof_and_code_sha256": {
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/cold-pure-seed-134-check.py": "240c4b46be170bfad3bae8991c9606d0659b5b93111e707133e9dfd343695bb7",
+    "research/cold-pure-seed-134-checks.jsonl": "efee6ab5bce1685430299867fb1b33761d076804cef8474e5d45f661b9a15861",
+    "research/ordinary-seed-window-134.md": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb",
+    "research/api-astra-review-134.md": "afeedfbe0d64017836f031cf0c79f1b09f4c5fd9780d3b60170460fee48399b8",
+    "research/api-astra-overflow-134.txt": "ae839b105cc8792e58762e1c99028ffa290c35230a45702e1552df061258b12c",
+    "research/api-astra-cold-134.txt": "61b66811e008a14d35c0fdd4d17a9e0002efda4f7a1d72803dec48b4003aac1d",
+    "research/api-astra-134-receipt.json": "4189083dfedd44806f3e0fbc33247b86bb514f44637e8d87f8c2b100f90447bb",
+    "coordination/round-134-inflight.json": "d7c8f37b96f6445dfec934f748aef0c1e7f7dd1f1e5bd4175234200f8b82f9b0",
+    "coordination/shared-obligations/round-134-before.json": "af9f40303ecfe4a8ed71578e379a6223d4f249050bc6219eba7de9bc4605fdee",
+    "coordination/shared-obligations/round-134-after.json": "777872930963b8f8834f9c4b448909dfb5127c5640aa31d33799dceb5cc82254"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/zero-floor-sector-133.md": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8",
+    "research/zero-floor-ordinary-mixed-cap.md": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb",
+    "research/zero-floor-endpoint-132.md": "87c9411595262ab7b92882c5c544aae12c2635dd93a5fbd5613ce8fe0c451d54",
+    "research/zero-floor-mean-131.md": "4abe4c232ff3219cc99c073d9c605941a5e1519b5a53d41012ac212f7d0faa86",
+    "research/zero-floor-mark-and-cap-budget.md": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8",
+    "research/zero-floor-averaged-weighted-tail.md": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/seed-majorant-47.md": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4",
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/cold-seed-packet-133.md": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2",
+    "research/cold-seed-block-132.md": "3eb541a4daf53ad81446b0a32f0ee691ad6bf7a6ac35c10dbb4aeb4a8e9da6c8",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "paused",
+  "research_execution": "Continued in the current session at user request. The desktop goal status remains paused.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 1,
+  "arithmetic_record_counts": {
+    "pure_seed_analytic_packet": 1
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra real bounded-window route",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Actual ordinary support-tail test",
+        "Parity of a bounded clipped ordinary window"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold remainder route",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Joint low-arity coefficient projection",
+        "Explicit rank-and-tail certificate"
+      ]
+    },
+    {
+      "name": "/root/audit_134",
+      "status": "completed",
+      "ranked_closeout": [
+        "Independent true ordinary window and signed tail",
+        "Include linear center-remainder and higher-odd terms before signed joint collection"
+      ]
+    },
+    {
+      "name": "/root/replay_134",
+      "status": "completed",
+      "ranked_closeout": [
+        "Joint price on the actual block minus the full analytic pure seed block"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Try to certify or obstruct the same actual one-step nonlinear remainder estimate below 0.472 at heights 601 and 602 using two distinct arithmetic treatments.",
+    "Independently seek an ordinary-support bound for the signed high tail or the bounded-window parity of the actual ordinary optimizer.",
+    "If separate remainder pricing cannot close, try joint signed two-step remainder below 0.721 and retain the invariant ball as a separate condition."
+  ],
+  "proof_scope": [
+    "A fixed bounded even polynomial of bounded fixed-complexity negative fields has actual bulk mean against the Jacobi seed of order p^-1/2. An exact window error bound separates approximation of the clipped true ordinary activation from its signed high tail. Uniform integrability alone does not prove bounded-window parity.",
+    "The actual seed-weighted pairing of the bounded nonnegative auxiliary profile 1+S/4 off the mark tends to one. This does not use an ordinary optimizer and gives no prime-family endpoint lower.",
+    "The full odd derivative of the pure Jacobi seed, with actual marks and the original closed square, has geometric translated rate below 0.5279 by signed Laurent collection and outward tail. The actual rates are below 0.528 per step and 0.279 for the pure-seed pair, including both boundary corrections for all sufficiently large eligible primes.",
+    "An exact auxiliary symmetric rank-two operator has counting norm at most 1/4, position entries O(n^-1) and frequency entries O(n^-1/2), but its output on the genuine bounded-price Jacobi seed has frequency mark at least (n-1)/(4 sqrt(n)). This rules out using entry and counting control alone for physical packet rate."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The bounded polynomial of the real response is not an approximant to the actual ordinary optimizer by default. The seed bound tends to 2 sqrt(2), and uniform integrability alone cannot resolve the ordinary bias.",
+    "The cold response quotes an inapplicable 602 translated rate and a rank-one example whose counting norm grows. Its arity list omits terms linear in the predictor remainder; no full signed derivative contraction or growing-depth confinement is proved.",
+    "The actual prime theta limit, bounded-window ordinary parity and signed support tail, and full cold physical invariant ball remain open."
+  ],
+  "floating_diagnostics": [
+    "A real-center floating probe located the useful all-order seed rate. It was replaced by the outward full-square certificate and is not used as mathematical evidence."
+  ],
+  "replay_checks": [
+    "The new 192-bit python-flint 0.9.0 pure-seed proof record matched an independent replay byte for byte. It imports the rational price list as inert data.",
+    "Both prior R134 HTTP responses were consumed without rerunning dispatch; the new closeout hook checked the historical pre-launch snapshot and launch manifest digests."
+  ],
+  "independent_review": [
+    "A separate mathematical audit checked fixed-complexity real parity and its exact scope, and corrected the cold response example and rate quantifiers.",
+    "Independent cold review checked Laurent signs, mark restoration, the absolute tail, exact rank-two counterexample, and reproduced the certificate."
+  ]
+}

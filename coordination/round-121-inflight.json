@@ -1,0 +1,40 @@
+{
+  "round": 121,
+  "dispatch_status": "terminal; response saved and independently reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-120-acceptance.json",
+    "sha256": "e2993e8da474b342f30f33936f8bc435023a073624fb1cd8fa30dfcbb9500c04"
+  },
+  "coordinator": {
+    "path": "coordination/round-120.json",
+    "sha256": "81fe50049c6d962cf0f5aa70a99a6565341fe724bdef5b469c32478057687c5d"
+  },
+  "call_id": "masked-reciprocal-trace",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "ffa46093fa1ec3a3440ee77c744a640ea553fae86798906cee9d56e80f266968",
+  "started_utc_epoch": 1795100841,
+  "local_session_id": 2338,
+  "mission_file": "/tmp/paley-r121-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r121-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r121-api-01a1ed0a/overflow-candidate.md",
+  "local_draft": "research/ordinary-slack-dissipation-121.md",
+  "next_step": "Use the checked Round 121 coordinator before dispatching new calls.",
+  "audit_agent": "/root/audit_121",
+  "extra_local_draft": "research/masked-conditional-spectrum-121.md",
+  "response": {
+    "path": "research/api-astra-overflow-121.txt",
+    "sha256": "697a623ab16cc5c1fd6097540400df2e7896af5aa0cec7018ffad6273660c061"
+  },
+  "receipt": {
+    "path": "research/api-astra-121-receipt.json",
+    "sha256": "5e484a6a24146215fe132af04aed25fca3696b09d2466cc5e157ccb748868e93"
+  },
+  "audit_agents": [
+    "/root/audit_121",
+    "/root/audit_121_fixed"
+  ],
+  "acceptance": {
+    "path": "research/round-121-acceptance.json",
+    "sha256": "036fa0ec2698795480b5e88aef18a427b00a16c924b5ebc715c8cfe252faef18"
+  }
+}

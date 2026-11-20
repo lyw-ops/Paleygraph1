@@ -1,0 +1,172 @@
+## Result
+
+For the eligible family \(q=p\) and \(q=p^{2}\) with \(p\equiv1\pmod 4\), let  
+\[
+G=\mathbb F_q^{\times 2},\qquad n=|G|=(q-1)/2,
+\]
+retain the physical marked seed
+\[
+S=2\sqrt n\,K e_0,\qquad t_0=n,
+\]
+and use the original closed square. The mixed first-seed/\(Y\)-term does **not** become lisse at \(x=-1\) after subtracting the pure comparator and symmetrizing the two mixed orders.
+
+More precisely, its parameter-local vanishing-cycle class contains the rank-two Legendre class pulled back by
+\[
+\lambda=x^2,
+\]
+together with its arithmetic quadratic mate. Both mates have the same nontrivial unipotent inertia at \(x=-1\). The exceptional seed correction is lisse and therefore cannot remove this class.
+
+Thus the pure subtraction removes the \(a^{2}\)-pure obstruction, but it does not remove the first genuine mixed obstruction.
+
+This is a local result only. It does **not** yet establish a weighted whole-operator price below the frozen budget.
+
+---
+
+## Local calculation
+
+Write the first seed row, including its marked correction, in the linearized normalization as
+\[
+d_S(v)=a\,s(v)+b,\qquad
+a=\frac1{\sqrt{tn}},\qquad
+b=\frac{a-1/n}{n},
+\]
+away from the closed-square boundary point \(v=1\). Here
+\[
+s(v)=\chi(1-v),
+\]
+and the \(b\)-term is exactly the inverse-Fourier image of the exceptional change
+\[
+S_0=-\frac2{\sqrt n}
+\]
+relative to the bulk prescription.
+
+The \(Y\)-part of \(KC_2\) is the rank-two Legendre object; the remaining term
+\[
+-\frac{2\sqrt q}{q}C_1
+\]
+is lisse at the collision and is irrelevant to the vanishing-cycle class. The inverse-line kernel for two rows is
+\[
+s(x)\sum_{u\in G}s(x/u)\,d_1(u)d_2(x^2/u).
+\]
+
+For the order
+\[
+(d_1,d_2)=(d_S,d_Y),
+\]
+the collision is
+\[
+(x,u)=(-1,1).
+\]
+At this point
+\[
+x/u=-1,\qquad x^2/u=1.
+\]
+Therefore the seed contributes the nonzero scalar
+\[
+d_S(-1)=a\,\chi(2)+b
+\]
+in the leading seed normalization, while the \(Y\)-factor is evaluated at its singular parameter \(1\). The local contribution is consequently
+\[
+\bigl(a\chi(2)+b\bigr)\,
+\bigl(\mathcal L_{\mathrm{Leg}}\circ[x\mapsto x^2]\bigr)
+\]
+up to the fixed nonzero normalization of the \(Y\)-summand.
+
+The two quadratic mates arise from the square restriction. They are the Legendre local system and its quadratic arithmetic mate. At \(x=-1\), the square map \(x\mapsto x^2\) is étale, and the mate is unramified at the collision. Hence both have the same nontrivial unipotent inertia. Their coefficients agree at \(u=1\), since the quadratic factor takes the value \(1\) there. They therefore add rather than cancel.
+
+The reverse order is different:
+\[
+(d_1,d_2)=(d_Y,d_S).
+\]
+At the same collision it contains
+\[
+d_S(x^2/u)=d_S(1).
+\]
+For the original closed square, the physical marked row satisfies
+\[
+d_S(1)=0.
+\]
+Consequently the reverse mixed order has no corresponding Legendre vanishing-cycle contribution at this collision. Symmetrization therefore leaves the first-order class rather than cancelling it.
+
+The exceptional correction \(b\), and the \(C_1\)-correction in
+\[
+KC_2=Y-\frac{2\sqrt q}{q}C_1,
+\]
+are lisse near \(x=-1\). They alter the scalar coefficient but cannot cancel the unipotent inertia. Unless the accidental scalar identity
+\[
+a\chi(2)+b=0
+\]
+holds, the mixed class is nonzero. For the actual seed normalization this is not an identity in the prime family; at most it could occur at isolated finite parameters.
+
+---
+
+## What pure subtraction does and does not remove
+
+The pure leading term has the local class
+\[
+-a^2\bigl(\mathcal L_{\mathrm{Leg}}\circ[x\mapsto -1/x]\bigr)
+\]
+from the formula in the supplied pure calculation. The square difference subtracts this pure comparator, so that class is removed.
+
+The mixed term instead has the class
+\[
+\boxed{
+\bigl(a\chi(2)+b\bigr)
+\left[
+\mathcal L_{\mathrm{Leg}}\circ[x\mapsto x^2]
+\;+\;
+\mathcal L_{\mathrm{Leg}}^{\mathrm{quad}}\circ[x\mapsto x^2]
+\right]
+}
+\]
+up to the common nonzero \(Y\)-normalization and the physical symmetrization factor. This is a different parameter-local object. Pure subtraction does not touch it.
+
+The collision is in the parameter \(x\), not in the global convolution variable \(z\). The usual argument that
+\[
+H_c^2=0
+\]
+from nontrivial inertia at \(z=1\) remains valid. It does not imply lissity in the parameter \(x\), nor does it remove the \(x=-1\) nearby-cycle contribution.
+
+---
+
+## Hypotheses and evidence
+
+### Hypotheses used
+
+1. \(q=p\) or \(p^2\), with \(p\equiv1\pmod4\), and \(G=\mathbb F_q^{\times2}\).
+2. The physical mark is retained: \(S=2\sqrt n\,Ke_0\), \(t_0=n\).
+3. The \(Y\)-part means the rank-two Legendre component of \(KC_2\), with the displayed \(C_1\)-correction kept separately.
+4. The original closed square is used, so the physical seed row vanishes at the boundary position \(1\).
+5. The square restriction retains both arithmetic quadratic mates.
+
+### Evidence
+
+- The local convolution coordinate is \(u=x/z\), with the second parameter \(x^2/u\).
+- At \((x,u)=(-1,1)\), the forward mixed order sees \(d_S(-1)\) against the Legendre singularity at parameter \(1\).
+- The reverse order sees the physical boundary value \(d_S(1)=0\).
+- \(x\mapsto x^2\) is étale at \(-1\), so it preserves the nontrivial unipotent inertia.
+- Arithmetic quadratic twisting is unramified at the collision and does not change that inertia.
+- Exceptional seed and \(C_1\) terms are lisse corrections, not vanishing-cycle terms.
+
+---
+
+## Remaining gap
+
+The requested **weighted whole-operator price below the frozen budgets** has not been proved. The local calculation gives a surviving mixed rank-two class, but it does not by itself provide a lower bound for the full price or exclude cancellation with other mixed words at the global packet level.
+
+The correct order of limits also remains essential:
+
+1. Fix the mixed word and its physical normalization.
+2. Take \(q\to\infty\) through \(q=p,p^2\) in the eligible prime family.
+3. Only afterward sum analytic words or increase Picard depth.
+4. Any subsequent \(\tau\downarrow0\) limit must come last.
+
+A finite-prime check or the nonvanishing of this one word does not settle the asymptotic full-operator target.
+
+## Ranked next tests
+
+1. **Rank 1 — exact packet-level cancellation test.**  
+   Expand all first mixed words containing \(S\) and the \(Y\)-part, including both quadratic mates, the \(C_1\)-correction, the exceptional seed term, and both orderings. Collect equal parameter-local Legendre representations before taking absolute values. The decisive test is whether the coefficient of the displayed \(x^2\)-pulled-back unipotent class remains nonzero after this complete collection.
+
+2. **Rank 2 — weighted budget certification.**  
+   Assign the surviving mixed class its actual convolution dimension and arithmetic multiplicity, then insert it into the existing \(4.8\)-type weighted norm estimate for the whole inverse-line operator. A strict bound below the frozen budget would establish compatibility with the packet scheme; failure would refute only that pricing prescription, not the underlying geometric collision.

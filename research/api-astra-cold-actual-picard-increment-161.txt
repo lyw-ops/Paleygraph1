@@ -1,0 +1,210 @@
+## Result: the signed increment is identifiable, but no sufficient bound is currently certified
+
+Let \(p\equiv1\pmod 4\) run through the original eligible prime family, put
+\[
+n=\frac{p-1}{2},\qquad t_0=n,
+\]
+and retain the original complex square \(Q\), both physical lifts \(\ell\in\{+,-\}\), and the translated \(P_{5000}\)-norm.
+
+For each lift write \(V_h^\ell(t)\) for the genuine height-\(h\) Picard orbit and
+\[
+D_h^\ell(t)=\operatorname{diag}\!\left(\Phi_t'(V_h^\ell(t))\right),\qquad
+A_h^\ell=I-KD_h^\ell,\qquad
+Z_h^\ell=(A_h^\ell)^{-1}K.
+\]
+The fixed-center terms cancel in the genuine comparison, so
+\[
+J_{602}^\ell-J_{601}^\ell
+   =V_{602}^\ell-V_{601}^\ell
+   =:\delta_{601}^\ell .
+\tag{1}
+\]
+
+This is an identity on the actual orbit, not a fixed-height formal residual.
+
+### Exact signed transport identity
+
+Let
+\[
+\delta_h^\ell=V_{h+1}^\ell-V_h^\ell .
+\]
+Since \(V_{h+1}^\ell=K\Phi_t(V_h^\ell)\), Taylor's formula between \(V_{600}^\ell\) and \(V_{601}^\ell\) gives
+\[
+\delta_{601}^\ell
+ =KD_{600}^\ell\delta_{600}^\ell+N_{600}^\ell,
+\tag{2}
+\]
+where the nonlinear remainder is the signed vector
+\[
+N_{600,i}^\ell
+ =
+ K_i\!\left[
+ \Phi_t(V_{601}^\ell)-\Phi_t(V_{600}^\ell)
+ -\Phi_t'(V_{600}^\ell)\delta_{600}^\ell
+ \right].
+\]
+Equivalently, coordinatewise,
+\[
+N_{600}^\ell
+ =
+ K\left[
+ \int_0^1(1-s)
+ \Phi_t''\!\left(V_{600}^\ell+s\delta_{600}^\ell\right)
+ \bigl(\delta_{600}^\ell\bigr)^2\,ds
+ \right].
+\tag{3}
+\]
+
+Thus the input transported by the outer operator \(Z_{602}^\ell\) is not a same-row derivative bound. It is the signed combination
+\[
+\delta_{601}^\ell
+ =
+ KD_{600}^\ell\delta_{600}^\ell+N_{600}^\ell,
+\]
+and hence
+\[
+Z_{602}^\ell(J_{602}^\ell-J_{601}^\ell)
+ =
+ Z_{602}^\ell KD_{600}^\ell\delta_{600}^\ell
+ +Z_{602}^\ell N_{600}^\ell .
+\tag{4}
+\]
+The intervening multiplier is therefore \(D_{600}^\ell\), and the two lifts must be carried separately through both \(D_{600}^\ell\) and the nonlinear remainder \(N_{600}^\ell\). Replacing \(D_{600}^\ell\) by \(D_{601}^\ell\), or pricing only \(Z_{602}^\ell\), does not estimate (4).
+
+A second exact form, useful when comparing the two outer resolvents, is
+\[
+Z_{602}^\ell-Z_{601}^\ell
+ =
+ Z_{602}^\ell K(D_{602}^\ell-D_{601}^\ell)Z_{601}^\ell .
+\tag{5}
+\]
+Consequently every signed comparison of the two actual heights contains the insertion
+\[
+Z_{602}^\ell K(D_{602}^\ell-D_{601}^\ell)Z_{601}^\ell
+\]
+together with the transported input (4). This is the required resolvent bridge; a same-row bound on \(D_{601}^\ell\) alone does not control it.
+
+## Quantitative nonlinear remainder
+
+Assume, uniformly for \(t\in Q\) and both lifts, that the physical sheets remain in the established coordinate disks and
+\[
+\sup |\Phi_t''|\le C_{\rm curv}.
+\]
+Then
+\[
+\|N_{600}^\ell\|_{1,n}
+ \le \frac{C_{\rm curv}}2
+       \|\delta_{600}^\ell\|_{2,n}^{\,2}.
+\tag{6}
+\]
+
+The available translated resolvent estimate at height \(601\), and the same estimate required at height \(602\), have the form
+\[
+\max_{i,j}|Z_h^\ell{}_{ij}|
+ \le C_Z n^{-\beta},
+ \qquad \beta=0.467
+\tag{7}
+\]
+for sufficiently large eligible primes. Since normalized first norm carries a factor \(n\) when multiplied by a maximal-entry bound,
+\[
+\|Z_h^\ell N_{600}^\ell\|_\infty
+ \le
+ \frac{C_ZC_{\rm curv}}2\,
+ n^{1-\beta}
+ \|\delta_{600}^\ell\|_{2,n}^{\,2}.
+\tag{8}
+\]
+
+More generally, if the frozen-orbit hypothesis is written with
+\[
+r_{600}:=\sup_{t\in Q,\ell}\|V_{601}^\ell-V_{600}^\ell\|_{2,n},
+\]
+then
+\[
+\sup_{t\in Q,\ell}
+\|Z_h^\ell N_{600}^\ell\|_\infty
+ =O\!\left(n^{1-\beta}r_{600}^{\,2}\right).
+\tag{9}
+\]
+This is the available nonlinear transfer scale. It is conditional on a bound for the actual height-600 increment. The cited frozen-orbit result explicitly notes that the required residual scale is not yet controlled as \(n\to\infty\).
+
+The same issue appears in the height insertion. If
+\[
+e_{601}^\ell:=D_{602}^\ell-D_{601}^\ell,
+\]
+then the curvature bound gives only
+\[
+\|e_{601}^\ell\|_{2,n}
+ \le C_{\rm curv}\,
+ \|V_{602}^\ell-V_{601}^\ell\|_{2,n},
+\tag{10}
+\]
+and therefore the quantitative resolvent bridge requires an actual bound on the height increment, not merely the derivative estimate at height \(601\).
+
+## Margin
+
+The best retained positive comparison is currently
+\[
+\|A_{602}A_{601}-B_3^2\|_{P_{5000}}
+ <0.66348896,
+\]
+whereas the required bound is
+\[
+0.51961239.
+\]
+The unresolved margin is therefore
+\[
+0.66348896-0.51961239
+ =0.14387657.
+\tag{11}
+\]
+
+The genuine signed increment would need to produce a certified saving exceeding \(0.14387657\), after adding the nonlinear transfer error from (9), the two-lift discrepancy, the marked-coordinate correction, and the analytic tail. The existing scalar-unit saving, \(>2.9\cdot10^{-7}\), is many orders of magnitude too small and does not address (11).
+
+## Precise failure
+
+No asymptotically sufficient signed estimate has been proved.
+
+The exact obstruction is not the absence of an algebraic identity: (1)–(5) provide the relevant identities. The missing bound is a uniform estimate, over the original prime family, \(t\in Q\), and both lifts, for at least one of
+\[
+\|Z_{602}^\ell KD_{600}^\ell\delta_{600}^\ell\|_{P_{5000}},
+\qquad
+\|Z_{602}^\ell N_{600}^\ell\|_{P_{5000}},
+\]
+with enough signed cancellation to save \(0.14387657\). In particular:
+
+1. the actual size and transported signed profile of \(\delta_{600}^\ell\) and \(\delta_{601}^\ell\) are not bounded in the required physical norm;
+2. the remainder estimate \(O(n^{1-\beta}r_{600}^2)\) is conditional because \(r_{600}\) has no verified asymptotic rate;
+3. the dependence of both lifts on \(h\) has not been incorporated into a common signed label transport;
+4. the positive \(H_h\)-degree comparison deliberately separates the true Picard residuals, so it cannot exploit (1).
+
+Accordingly, the proposed mission is **inconclusive**, not supported or refuted.
+
+## Ranked next tests
+
+### 1. Highest priority: exact signed two-height transport replay
+
+Construct the finite-prefix signed label representation of
+\[
+Z_{602}^\ell KD_{600}^\ell\delta_{600}^\ell
+ +Z_{602}^\ell N_{600}^\ell
+\]
+for \(\ell=+,-\), retaining the original Jacobi and Legendre labels, physical \(t_0=n\), both lift maps, and the translated \(P_{5000}\)-price. Check whether the resulting lower signed saving exceeds
+\[
+0.14387657+\varepsilon_{\rm nl},
+\]
+where \(\varepsilon_{\rm nl}\) is the independently charged nonlinear remainder. This directly tests the only mechanism capable of overcoming the current gap.
+
+### 2. Second priority: certify the actual increment scale
+
+Prove a uniform bound for
+\[
+r_{600}
+ =\sup_{t\in Q,\ell}
+ \|V_{601}^\ell(t)-V_{600}^\ell(t)\|_{2,n}
+\]
+and the analogous \(601\to602\) increment, strong enough that
+\[
+C_ZC_{\rm curv}n^{1-\beta}r_{600}^{\,2}
+\]
+is below a specified fraction of \(0.14387657\). If no such rate holds, the proposed nonlinear transfer cannot close the gap even if the signed first-order identity is favorable.

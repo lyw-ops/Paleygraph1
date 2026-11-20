@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "round": 117,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 117 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-116-acceptance.json",
+      "sha256": "cb79cd034562bac1aef54787a5c0db284ba48f4e21e2f1c0545b70a86ff4de5b"
+    },
+    "current": {
+      "path": "research/round-117-acceptance.json",
+      "sha256": "da278829b372d92a497d6b359f67f2ae547cf80eb5ccf9dc1818311d444b0794"
+    }
+  },
+  "changes": [
+    {
+      "id": "true-weighted-cap",
+      "route": "Actual weighted adjusted overshoot",
+      "effect": "reformulated",
+      "before": "The direct fixed-cap condition used the maximum signed overshoot after slack.",
+      "after": "The optimizer-weighted and stationary-weighted overshoot give separate sufficient real criteria without assuming the critical rate. The critical rate localizes a genuine source and high favored receiver above its local slack.",
+      "remaining": "Prove the weighted prime-uniform bound at each of a sequence of fixed floors tending to zero, or exclude a true persistent mark on its relevant opposite completion.",
+      "evidence": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    },
+    {
+      "id": "legendre-reweight",
+      "route": "True paired Legendre cubic",
+      "effect": "reformulated",
+      "before": "The genuine full cubic has a positive singleton and a restricted Legendre statistic.",
+      "after": "The unweighted repair/opposite pair has the uniform second moment. The true reweighting is a two-favored and one-opposite positional sum with a constant-twist baseline.",
+      "remaining": "Use genuine prime arithmetic to estimate the correlated trace reweighting or independently exclude the residual; keep the full signed singleton contribution.",
+      "evidence": [
+        {
+          "path": "research/reciprocal-reweighting-117.md",
+          "sha256": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common cold complex domain",
+      "effect": "unchanged",
+      "before": "An interior conditional combined derivative transfer reduces the angular estimate to P+ZCH.",
+      "after": "This round addresses real cap and cubic arithmetic.",
+      "remaining": "Obtain the moving starter and genuine combined derivative bounds, or directly continue the correct marked scalar.",
+      "evidence": [
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The direct real cap route now needs a genuine weighted overshoot rather than a uniform maximum. The paired cubic has a precise positional reweighting. Continue each direct estimate and test the independent cold branch.",
+  "next_calls": [
+    {
+      "id": "weighted-real-slack",
+      "priority": 1,
+      "change_id": "true-weighted-cap",
+      "question": "Can the genuine stationary- or optimizer-weighted adjusted overshoot vanish through primes at fixed floors?",
+      "why_now": "The ordinary target has a direct weaker sufficient criterion with actual factor weight, independent of the critical cap rate.",
+      "scope": "Use the genuine M=10 row and the true favored factor of the same prime and floor. Preserve slack in any source/receiver bound. Distinguish the two resulting fixed-floor constants.",
+      "if_yes": "Give the verified weighted bound and resulting two-sign limiting argument.",
+      "if_no": "Give exact scope and arithmetic failure of the proposed inequality.",
+      "if_inconclusive": "Derive one new usable true weighted estimate or a more precise bound on the actual bounded rectangle.",
+      "inputs": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    },
+    {
+      "id": "cold-combined-derivative",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "Can the actual combined derivative P+ZCH be controlled at one genuine moving starter using the independent cutoffs?",
+      "why_now": "A fixed inner square reduces it to a concrete signed term at the original quadratic residual scale.",
+      "scope": "Use the exact physical predictor and correct selected sheets. Keep the Picard depth, two inverse cutoffs, normalized residual and finite-domain proof separately. Seek one quantitative prime estimate and identify unproved resources.",
+      "if_yes": "Give the verified prime-uniform moving starter and derivative or direct scalar bound.",
+      "if_no": "State the precise rigorously failing estimate without inferring an actual singularity from a certificate.",
+      "if_inconclusive": "Derive an executable signed word or a new compatible uniform resource estimate.",
+      "inputs": [
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        }
+      ]
+    },
+    {
+      "id": "legendre-trilinear",
+      "priority": 3,
+      "change_id": "legendre-reweight",
+      "question": "Can the true two-favored/one-opposite Legendre sum be controlled beyond the unweighted baseline?",
+      "why_now": "The near-eigen error is already subleading, and stationary reciprocity determines the baseline without a trace.",
+      "scope": "Use exact supports and preserve the positive singleton in the full moment.",
+      "if_yes": "State the actual through-primes bound and conditional branch it excludes.",
+      "if_no": "Give an exact bounded scope for the failure.",
+      "if_inconclusive": "Isolate a new checkable correlated trace term.",
+      "inputs": [
+        {
+          "path": "research/reciprocal-reweighting-117.md",
+          "sha256": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "true-weighted-cap",
+      "question": "Which new estimates survive independent read-only checking?",
+      "why_now": "Both real and complex routes require genuine inputs and exact norms.",
+      "scope": "Check all arithmetic regimes, floor order, and finite-versus-uniform scope.",
+      "if_yes": "Report precise verified statements and ranked follow-ups.",
+      "if_no": "Find the first invalid mathematical step.",
+      "if_inconclusive": "State audited parts and remaining gaps.",
+      "inputs": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/reciprocal-reweighting-117.md",
+          "sha256": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764"
+        },
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_162",
+  "comparison": "The actual zero-set distance for every fixed gap and the physical slope count on a critical amplitude block use different hypotheses and immediate bounds. The cold fixed-height transfer and local remainder concern the original complex square. There is no shared estimate among these three calls.",
+  "groups": [],
+  "dispatch": "coordination/round-162-inflight.json",
+  "launched_at_utc": "2026-11-19T23:28:49.131157Z",
+  "launched_calls": [
+    "ordinary-prime-unmarked-distance",
+    "ordinary-prime-conditional-slope-block",
+    "cold-prime-local-smoothed-remainder"
+  ],
+  "before_sha256": "ee315d522b3cf101476f1e850c1ff8fa9abe38b64a41ddfc022bf2101b19f908"
+}

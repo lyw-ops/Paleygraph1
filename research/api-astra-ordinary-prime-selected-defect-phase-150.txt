@@ -1,0 +1,243 @@
+## Result: the available descriptors do not imply a prime contradiction
+
+I find a precise obstruction to the requested abstract prime estimate. It holds on the ordinary-prime family
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,\qquad m_0=\frac n{\sqrt p},
+\]
+with the physical mark fixed at \(0\), normalized inner product
+\[
+\mathbb E f=\frac1n\sum_i f_i,
+\]
+and with the limits taken in the prescribed order: fixed \(\tau>0\), then \(T=T(p)\to\infty\) inside the marked window, and finally \(m=m(p)\) satisfying
+\[
+\frac{T\sqrt n}{m}\to0,\qquad \frac{n}{mT}\to0.
+\]
+
+The obstruction is not a square-order phenomenon. It is an exact identity for any nonnegative opposite-sector feasible row.
+
+### 1. Exact opposite rows reproduce all current scalar constraints
+
+Let \(H\ge0\) be a mean-one row in the opposite sector:
+\[
+\mathbb EH=1,\qquad P_\sigma H=0,\qquad H_0=q,
+\]
+where along the hypothetical gap subsequence
+\[
+q\ge(1+\eta)\sqrt n.
+\]
+Such an \(H\) may be taken to be a true opposite optimizer.
+
+Set
+\[
+h=H-qe_0,\qquad b=t\,h,
+\]
+where \(t>0\) is arbitrary. Thus \(b_0=0\), \(b\ge0\) on the bulk, and
+\[
+r:=\mathbb Eb=t\left(1-\frac qn\right).
+\]
+
+Since \(P_\sigma H=0\),
+\[
+P_\sigma h=-q\ell,\qquad \ell=P_\sigma e_0.
+\]
+Consequently
+\[
+\ell^{\mathsf T}h=-q\ell_0,\qquad B:=-\frac{\ell^{\mathsf T}b}{\ell_0}=tq,
+\]
+and therefore
+\[
+Lb=0.
+\]
+This is stronger than the selected actual conclusion
+\[
+\frac{\|Lb_j\|_{2,n}}{r_j}=o(1).
+\]
+
+The normalized completion of \(b\) is exactly \(H\):
+\[
+\frac{b+Be_0}{r+B/n}
+=
+\frac{t(H-qe_0)+tqe_0}{t(1-q/n)+tq/n}
+=H.
+\]
+Thus this model has:
+
+- physical mark \(0\);
+- nonnegative bulk deficit;
+- exactly zero pinned projection;
+- completed root \(q\);
+- original optimizer weight, if \(H\) is chosen as the true opposite optimizer.
+
+The scale \(t\) can be chosen so that \(r\) has the same order as the selected actual \(r_j\), including \(r\asymp n^{-1/2}\). Scaling does not change the completed row, effective support, phase ratio, or normalized weighted cost.
+
+### 2. Its favorable phase correlation is exactly the required one
+
+Use the supplied identity
+\[
+2\ell_0B=r+\sqrt p\,\mathbb E(bc_\sigma),
+\qquad
+c_\sigma(i)=-\sigma m_0K_{i0}.
+\]
+For the above \(b\),
+\[
+\boxed{
+\frac{\mathbb E(bc_\sigma)}{\mathbb Eb}
+=
+\frac{2\ell_0q/(1-q/n)-1}{\sqrt p}.
+}
+\tag{A}
+\]
+
+Since \(\ell_0=\frac12+O(n^{-1})\) and \(q=o(n)\),
+\[
+\frac{\mathbb E(bc_\sigma)}{\mathbb Eb}
+=
+\frac q{\sqrt p}+o(1).
+\]
+Under the gap,
+\[
+\frac q{\sqrt p}\ge \frac{1+\eta}{\sqrt2}+o(1).
+\]
+
+On the other hand, the actual pinned mark satisfies
+\[
+z_0=\frac aM,\qquad
+\frac n{z_0}\le \sqrt{n(1+\tau)}+o(\sqrt n),
+\]
+because \(a=1+o(1)\) and \(nM^2\le1+\tau+o(1)\). Hence
+\[
+\frac{n}{\sqrt p\,z_0}
+\le \sqrt{\frac{1+\tau}{2}}+o(1).
+\]
+The hypothesis \(\sqrt{1+\tau}<1+\eta\) gives a fixed positive separation:
+\[
+\frac{\mathbb E(bc_\sigma)}{\mathbb Eb}
+\ge
+\frac{n}{\sqrt p\,z_0}+c_{\tau,\eta}+o(1)
+\]
+for some \(c_{\tau,\eta}>0\).
+
+Thus an estimate of the form
+\[
+\frac{\mathbb E(bc_\sigma)}{\mathbb Eb}
+\le
+\frac{n}{\sqrt p\,z_0}-\delta+o(1)
+\]
+cannot follow from the current scalar hypotheses, even with \(Lb=0\).
+
+### 3. The true weighted cost is also order one
+
+Taking \(H\) itself as the true opposite optimizer,
+\[
+\frac{\mathbb E(Hb)}{\mathbb Eb}
+=
+\frac{\frac1n\sum_{i\ne0}H_i^2}{(n-q)/n}.
+\]
+By Cauchy–Schwarz on the bulk,
+\[
+\sum_{i\ne0}H_i^2
+\ge
+\frac{(n-q)^2}{n-1}.
+\]
+Therefore
+\[
+\boxed{
+\frac{\mathbb E(Hb)}{\mathbb Eb}
+\ge
+\frac{n-q}{n-1}
+=1-o(1).
+}
+\tag{B}
+\]
+
+So the exact opposite-row model simultaneously has:
+
+1. completed root larger than the actual target root;
+2. zero pinned projection;
+3. the required favorable Jacobi phase correlation;
+4. order-one true optimizer-weighted cost.
+
+This directly falsifies any proposed abstract bound depending only on those four quantities.
+
+## What the prime input can and cannot do
+
+The concentrated-defect result R20 still has genuine content. If the selected \(b_j\) lies in the tight regime
+\[
+m_{\rm eff}(b_j)\le(1+\xi)m_0
+\]
+and its threshold layer has additive energy above
+\[
+\left(\frac12+\Delta\right)|S|^3,
+\]
+then the prime Jacobi gap gives
+\[
+\|Lb_j\|_{2,n}\ge \varepsilon\|b_j\|_{2,n},
+\]
+contradicting the selected small-projection property.
+
+Therefore the actual selected deficit must lie in one of two regimes:
+
+- effective support above the concentrated threshold; or
+- tight support with low-energy threshold layer.
+
+The exact opposite-row construction shows why this does not yet settle either remaining regime. If an opposite optimizer \(H\) is diffuse or low-energy, its scaled bulk part \(b=t(H-qe_0)\) satisfies all the scalar constraints above and is not excluded by R20.
+
+The missing estimate is therefore genuinely orbit-specific. It must use that the selected \(b_j\) is the negative part of
+\[
+y^{(j)}
+=
+y^{(0)}+\omega\sum_{k<j}Lb_k,
+\]
+not merely a nonnegative approximate annihilator. A sufficient missing statement would be a prime-uniform estimate of the form
+\[
+\frac{\mathbb E(b_jc_\sigma)}{r_j}
+\le
+\frac{n}{\sqrt p\,z_0}-\delta_{\tau,\eta}+o(1)
+\tag{C}
+\]
+for the selected actual \(j\), or an equivalent upper bound that uses the orbit history and contradicts (B). No such estimate follows from character sums for arbitrary feasible rows, because the exact rows above already realize the opposite behavior.
+
+## Evidence and remaining gap
+
+The existing evidence is consistent with this diagnosis:
+
+- R20 excludes concentrated high-energy approximate annihilators on ordinary primes.
+- The prime numerical trajectories move toward broad effective support, while square examples retain the critical obstruction.
+- The complementary-mask and near-cap arguments identify an order-\(T\) weighted collision that must be bounded, but do not provide that bound.
+- The exact opposite-row calculation shows that a bound using only root, phase mass, small \(Lb\), and true weighted cost is impossible.
+
+Hence the proposed asymptotic contradiction is **not proved**. The unavoidable missing estimate is an all-ordinary-prime, history-conditioned Jacobi restriction on the actual negative-part iterate.
+
+## Ranked next tests
+
+### 1. Highest priority: orbit-conditioned Jacobi estimate
+
+For the actual selected \(b_j\), use
+\[
+y^{(j)}=y^{(0)}+\omega\sum_{k<j}Lb_k,\qquad
+b_j=(-y^{(j)})_+\mathbf1_{\rm bulk},
+\]
+and attempt to bound directly
+\[
+\mathbb E(b_jc_\sigma)
+=
+-\frac{\sigma m_0}{n}\,(Kb_j)_0.
+\]
+The needed target is (C), or a weighted analogue involving the true optimizer \(H\). This must retain the actual initial \(y^{(0)}\), the relaxed-flow history, and the sign condition \(y^{(j)}+b_j\ge0\). A character-sum argument that treats \(b_j\) as an arbitrary nonnegative vector will necessarily fail by the exact construction above.
+
+### 2. Diffuse/low-energy layer test
+
+For
+\[
+S_{j,\lambda}
+=
+\left\{i:
+b_j(i)\ge
+\lambda\frac{\|b_j\|_2}{\sqrt{m_0}}
+\right\},
+\]
+measure or prove an actual-orbit bound on
+\[
+\sum_{i\in S_{j,\lambda}}b_j(i)c_\sigma(i)
+\]
+in terms of the additive energy of \(S_{j,\lambda}\). The desired theorem must be conditional on the iterate history; a bound for arbitrary weights or arbitrary low-energy sets is not credible. If the layer has low energy, one needs a genuine Jacobi restriction estimate; if it has high energy, R20 should supply the contradiction.

@@ -1,0 +1,120 @@
+## Result
+
+I tested the shortest genuine even-word Taylor block: the \(l=0\) term in the actual remainder
+\[
+r_i
+=
+R_i^2\int_0^1(1-s)(4t_i)^{-1/2}
+\left(1+\frac{(V_{600,i}+sR_i)^2}{4t_i}\right)^{-3/2}ds,
+\]
+with the two factors equal to the actual
+\[
+R=V_{601}-V_{600},
+\]
+not comparison copies. The block contains both physical lifts, the original complex square \(Q\), the physical mark \(t_0=n\), and the base character pair after the physical \(K\)-twist. I used the translated price \(P_{5000}\), taking \(p\to\infty\) first along the eligible-prime family, uniformly on \(Q\) and on both lifts; only afterward is any power or tail limit considered.
+
+The finite source block itself is controlled:
+\[
+\|Kr\|_{P_{5000}}<1.15\times 10^{-4}
+\]
+eventually. This is the genuine \(K r\) source, with both actual \(R\)-factors. Its leading \(l=0\) contribution is bounded by
+\[
+\frac{2(0.011)^2}{\sqrt N}
+(1+x'/2)(1-x')^{-5/2}+O(n^{-1/2}),
+\]
+where \(M'=4.811\), \(x'=(M')^2/N\), and \(N=4(2031/128-2^{-17})\).
+
+However, the proposed translated invariant does not close for powers of the genuine \(D_{602}\). The available label-by-label signed comparison gives only
+\[
+\|K D_{602}\|_{P_{5000}}<1.066,
+\]
+whereas the counting estimate is
+\[
+\|K D_{602}\|_{2\to2}<0.518.
+\]
+Thus the natural translated price is expanding, not invariant. The first-moment correction from the actual derivative difference is also insufficient to repair this: its certified mass and first moment are
+\[
+m_0<0.002988,\qquad m_1<0.007281,
+\]
+which lead to the \(1.066\) bound rather than a factor below one.
+
+Therefore the specific short-block test supports the following conclusion:
+
+> The actual two-\(R\) Taylor source is small before outer transport, but the currently certified signed label comparison does not provide a translated invariant for \((KD_{602})^j\). The finite block is controlled; the infinite translated tail is not.
+
+This is a failure of the proposed sufficient invariant, not a proof that no other signed invariant exists.
+
+## Tail and order-of-\(K\) issue
+
+The source entering the Picard equation is \(Kr\). The relevant outer transport is therefore
+\[
+(I-KD_{602})^{-1}Kr
+=
+\sum_{j\ge0}(KD_{602})^jKr.
+\]
+
+This must not be replaced by the different expression
+\[
+Z_{602}Kr
+=
+(I-KD_{602})^{-1}K^2r,
+\qquad
+Z_{602}=(I-KD_{602})^{-1}K.
+\]
+The latter uses \(K^2=I-\Pi\) and contains the direct coordinate component of \(r\). It is not the same source as inverse times \(Kr\).
+
+The frozen entrywise estimate does give
+\[
+\bigl\|(KD_{602})^jK\bigr\|_{\max}
+\ll
+\min\{n^{-1/2}(1.066)^j,\; (0.518)^j\},
+\]
+and hence
+\[
+\sum_{j\ge0}\bigl\|(KD_{602})^jK\bigr\|_{\max}
+=O(n^{-0.455}).
+\]
+But this is an entrywise estimate for columns beginning with \(K\). It does not imply a translated \(P_{5000}\)-bound for the full inverse acting on \(Kr\). In particular, the small number \(1.15\times10^{-4}\) cannot be multiplied by a geometric translated factor, because the certified translated factor is \(1.066>1\).
+
+The same obstruction is visible in the two-height retained comparison: the positive retained block has a lower witness rate \(>0.6174\), while the desired direct budget is \(0.51961239\). This rules out repairing the present argument merely by changing the weight prices in that retained positive block. It does not rule out cancellation in a genuinely signed, label-refined block.
+
+## Remaining gap
+
+No compatible growing starter has been constructed. In particular, the data do not yet provide:
+
+1. a uniform translated invariant for the actual \(D_{602}\) powers acting on \(Kr\);
+2. a residual rate \(r=r(n)\) strong enough to combine with the counting tail;
+3. a nonlinear transfer valid at growing height with both lifts and the physical marked coordinate.
+
+The finite source estimate and the frozen entrywise tail are therefore insufficient for continuation.
+
+## Ranked next tests
+
+### 1. Exact signed cyclic-block test for the actual \(l=0\) source
+
+Build the finite signed block from the actual labels occurring in
+\[
+K(R\odot R)
+\]
+at \(l=0\), retaining the base pair and both lift labels, and apply the exact \(KD_{602}\) transition repeatedly through a cutoff \(L\). Record separately:
+
+- the signed return coefficient to the base pair;
+- leakage into each non-base label;
+- the boundary leakage after \(L\) steps;
+- the translated price of the signed partial sum.
+
+A successful result must prove a uniform bound below one for the block plus an explicit tail estimate. This is the most direct test of whether actual sign cancellation, absent from the \(1.066\) majorant, can close the invariant.
+
+### 2. Source-local hybrid tail distinguishing \(A^{-1}Kr\) from \(ZKr\)
+
+For the same actual \(r\), obtain a counting norm bound on \(Kr\) and separately on \(K^2r\). Then use the crossover
+\[
+\min\{P_{5000}\text{-growth},\;0.518^j\text{-decay}\}
+\]
+only after proving the required initial source norm and a residual rate uniform in the growing height. The calculation must treat
+\[
+A^{-1}Kr
+\quad\text{and}\quad
+A^{-1}K^2r
+\]
+as distinct quantities. If the resulting hybrid sum is \(o(1)\), it could support a source-local nonlinear transfer; without that residual input, it will remain only another frozen finite-height estimate.

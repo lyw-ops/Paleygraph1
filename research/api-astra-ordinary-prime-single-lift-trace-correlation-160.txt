@@ -1,0 +1,219 @@
+## Result: exact Fourier transform exists, but the present identities do not transfer cancellation
+
+I work on the actual ordinary-prime family \(p\to\infty\) along the selected critical branch, with
+\[
+Q=(\mathbb F_p^\times)^2,\qquad n=|Q|=(p-1)/2,
+\]
+the true five-draw law \(w\), and the genuine five-variable pushforward
+\[
+P(\beta,C,\alpha,\delta)
+=\sum_xw(x)w(\alpha x)w(\beta\alpha x)w(x/C)w(\delta x).
+\]
+No independent-ratio replacement is made. The physical marking remains the favorable \(\chi(1-t)=\rho\) marking, and the clean rank-two trace is the single \((q,i)=(0,0)\) trace.
+
+After the checked \(O(p)\) removal of the nine clean-locus boundary pieces, the remaining quantity is
+\[
+\mathcal S
+=\mathbb E_P\!\left[
+J(\beta\alpha C,(\beta C)^{-1})\,
+\mathscr K(\beta,C,\alpha,\delta)
+\right]+O(p),
+\]
+where, for \(q=0,s=1\),
+\[
+\mathscr K
+=\sum_{z,y}
+ \beta(z)\,(\alpha\bar\delta\chi)(z+1)\,
+ C(y)\,\delta(y+1)\,\chi(z-y).
+\]
+The \(O(p)\) here uses the previously checked algebraic relations on the exact resonance strata; it is not a cardinality estimate for a varying determinant locus.
+
+### 1. Exact Fourier expansion of the true pushforward
+
+Fix the standard multiplicative pairing on \(Q\), identifying \(Q\) with its character group. With the normalized Fourier convention,
+\[
+P(r)=n^{-4}\sum_{\xi_1,\ldots,\xi_4}
+ \widehat P(\xi_1,\ldots,\xi_4)
+ \,\xi_1(\beta)\xi_2(C)\xi_3(\alpha)\xi_4(\delta),
+\]
+the exact coefficient is
+\[
+\widehat P(\xi_1,\xi_2,\xi_3,\xi_4)
+=
+f(\xi_1)f(\xi_2)f(\xi_3)f(\xi_4)
+f\!\left((\xi_1\xi_2\xi_3\xi_4)^{-1}\right),
+\]
+where \(f\) is the actual Fourier transform of \(w\). Thus
+\[
+\mathcal S
+=n^{-4}\sum_{\xi_1,\dots,\xi_4}
+\prod_{j=1}^4 f(\xi_j)\,
+f((\xi_1\xi_2\xi_3\xi_4)^{-1})
+\,\widehat G(\xi_1,\dots,\xi_4)+O(p),
+\]
+with
+\[
+G(\beta,C,\alpha,\delta)
+=J(\beta\alpha C,(\beta C)^{-1})\mathscr K(\beta,C,\alpha,\delta).
+\]
+
+This is an exact five-factor Fourier identity retaining the true overlap weights.
+
+### 2. A nontrivial exact transform of the clean trace
+
+Expanding the outer Jacobi sum gives
+\[
+J(\beta\alpha C,(\beta C)^{-1})
+=
+\sum_{t}
+ (\beta\alpha C)(t)\,
+ (\beta C)^{-1}(1-t).
+\]
+Substituting this and \(\mathscr K\), the dependence on the four ratio variables is
+\[
+\beta\!\left(\frac{tz}{1-t}\right),\qquad
+C\!\left(\frac{ty}{1-t}\right),\qquad
+\alpha\!\bigl(t(z+1)\bigr),\qquad
+\delta\!\left(\frac{y+1}{z+1}\right).
+\]
+Therefore Fourier orthogonality gives the following exact transform. If \(\iota(x)\) denotes the dual character corresponding to \(x\in Q\), then
+\[
+\boxed{
+\begin{aligned}
+\widehat G(a,b,c,d)
+={}&n^4
+\sum_{\substack{t,z,y\\
+\iota(\frac{tz}{1-t})=a\\
+\iota(\frac{ty}{1-t})=b\\
+\iota(t(z+1))=c\\
+\iota(\frac{y+1}{z+1})=d}}
+\chi(z+1)\chi(z-y).
+\end{aligned}}
+\]
+All variables are restricted to the nonzero, nondegenerate locus inherited from the clean trace; the deleted boundary terms are already part of the \(O(p)\) contribution above.
+
+Equivalently, the Fourier transform is supported on the three-parameter rational image
+\[
+(a,b,c,d)
+=
+\iota\!\left(
+\frac{tz}{1-t},
+\frac{ty}{1-t},
+t(z+1),
+\frac{y+1}{z+1}
+\right),
+\]
+with the exact quadratic phase \(\chi(z+1)\chi(z-y)\).
+
+This is a genuine trace-specific transform; it is not a transform of a smoothed or independent-ratio model.
+
+### 3. Why this does not yet yield the required cancellation
+
+Substitution into the Fourier expansion gives the equivalent identity
+\[
+\mathcal S
+=
+\sum_{t,z,y}
+\chi(z+1)\chi(z-y)\,
+\prod_{r\in\mathcal R(t,z,y)} f(r)
++O(p),
+\]
+where
+\[
+\mathcal R(t,z,y)=
+\left\{
+\frac{tz}{1-t},
+\frac{ty}{1-t},
+t(z+1),
+\frac{y+1}{z+1},
+\left(
+\frac{t^3zy(y+1)}{(1-t)^2}
+\right)^{-1}
+\right\}.
+\]
+The fifth argument follows from
+\[
+\prod_{j=1}^4 r_j
+=
+\frac{t^3zy(y+1)}{(1-t)^2}.
+\]
+
+This identity is useful because it exposes the exact overlap geometry. However, it does not provide the desired \(O(p)\) bound for the following reasons.
+
+1. **The transform is only a reparametrization of the same coupled sum.**  
+   The phase \(\chi(z+1)\chi(z-y)\) is oscillatory, but the five \(f\)-factors are the actual critical Fourier coefficients. The near-unit part of \(f\) can concentrate precisely on rational images of the above map. No independent square-root cancellation is available for the weighted triple sum.
+
+2. **The known overlap identity controls only an unweighted norm.**  
+   The exact identity
+   \[
+   \sum_{\beta,C,\alpha,\delta}P(\beta,C,\alpha,\delta)^2
+   =\sum_{d}R(d)^5,\qquad R=w*\check w,
+   \]
+   gives the collision mass of the true pushforward. It does not control
+   \[
+   \sum P(\beta,C,\alpha,\delta)\,
+   J(\beta\alpha C,(\beta C)^{-1})\mathscr K(\beta,C,\alpha,\delta).
+   \]
+   Cauchy–Schwarz against \(\sum P^2\) loses the trace-specific phase and is too large on the critical branch.
+
+3. **The low-to-middle Fourier modes are not perturbative.**  
+   The exact coefficient contains
+   \[
+   f(\xi_1)f(\xi_2)f(\xi_3)f(\xi_4)
+   f((\xi_1\xi_2\xi_3\xi_4)^{-1}),
+   \]
+   and the marked critical branch permits a growing set of \(\xi\)'s with \(|f(\xi)|\approx1\). Thus an \(L^2\) estimate for \(\widehat G\), or a generic \(p^{3/2}\) Weil bound for individual transform pieces, does not imply the required normalized \(p^{-1/2}\) cancellation.
+
+4. **The exact transform does not commute with the favorable marking in a simplifying way.**  
+   The physical marking survives as the factor \(\chi(z-y)\), while the outer Jacobi phase contributes the independent factor \(\chi(z+1)\). Their product is not a single Jacobi character after the five \(f\)-weights are inserted. Hence the previous one-variable pin and the overlap identity do not collapse the transform to a positive or diagonal form.
+
+### Checked conclusion
+
+For the actual ordinary-prime family, true five-draw law \(w\), physical marking, and the single clean \((q,i)=(0,0)\) trace:
+
+- the exact Fourier transform above is valid;
+- it preserves all five shifted weights and the correct overlap normalization;
+- it gives a nontrivial three-parameter trace representation;
+- but it does **not** presently imply the required \(O(p)\) estimate.
+
+Thus the proposed transfer is **inconclusive**, with a precise failure: exact Fourier expansion plus the known overlap identity does not control the correlation of the five-factor coefficient
+\[
+f(\xi_1)f(\xi_2)f(\xi_3)f(\xi_4)f((\xi_1\xi_2\xi_3\xi_4)^{-1})
+\]
+against the transformed clean trace.
+
+The obstruction is not total-variation smoothing; that obstruction remains valid and is avoided here. The missing input is a trace-specific estimate on the rational image above.
+
+## Ranked next tests
+
+### 1. Highest priority: a weighted three-variable trace estimate
+
+Prove, on the actual critical ordinary-prime branch, a bound of the form
+\[
+\left|
+\sum_{t,z,y}
+\chi(z+1)\chi(z-y)
+\prod_{r\in\mathcal R(t,z,y)} f(r)
+\right|
+\ll p.
+\]
+The relevant test is to split each \(f=f_{\mathrm{near}}+f_{\mathrm{rem}}\), where \(f_{\mathrm{near}}\) is supported on the near-unit set, and apply the marked phase relation only after fixing \(t\) or \(z/y\). A successful argument must retain the five rational arguments jointly; bounding them by separate \(L^2\) norms will lose the required scale.
+
+### 2. Second priority: conditional overlap correlation
+
+For
+\[
+P_{\beta,C}(\alpha,\delta)
+=\sum_xw(x)w(\alpha x)w(\beta\alpha x)w(x/C)w(\delta x),
+\]
+test whether the conditional trace satisfies a variance estimate
+\[
+\sum_{\beta,C}
+\mathbb E_{\alpha,\delta\mid\beta,C}
+\left|
+G(\beta,C,\alpha,\delta)
+-\mathbb E_{\alpha,\delta\mid\beta,C}G
+\right|^2
+\ll p^{2+o(1)}.
+\]
+Combined with the exact collision formula \(\sum P^2=\sum R^5\), this could yield an \(O(p)\) aggregate bound without replacing \(P\) by a smoothed law. The test must preserve the common-shift fiber \(x\); discarding it would revert to the already ruled-out independent-ratio model.

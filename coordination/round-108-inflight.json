@@ -1,0 +1,31 @@
+{
+  "round": 108,
+  "dispatch_status": "local runner terminal after timeout; no candidate received",
+  "accepted_checkpoint": {
+    "path": "research/round-107-acceptance.json",
+    "sha256": "ac8e6233eb07dbe04d2cb344758579efce275a8724db2e1fbadea94d02c215a6"
+  },
+  "coordinator": {
+    "path": "coordination/round-107.json",
+    "sha256": "0208752bf1a2574cbcd016f86004a7d8f43c2203852ed7aa17f1cdfa24144d4b"
+  },
+  "call_id": "match-one-sided-jacobi",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "2d2ff99ca3bd8f95c291e102096feda6bc02d6c62ca1bb40a300b75b8d449e28",
+  "started_utc_epoch": 1795093057,
+  "local_session_id": 34119,
+  "mission_file": "/tmp/paley-r108-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r108-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r108-api-01a1ed0a/overflow-candidate.md",
+  "local_draft": "research/projected-cap-completion-108.md",
+  "audit_agent": "/root/audit_108",
+  "next_step": "Use the checked Round 108 coordinator record for subsequent assignments; this request has no candidate.",
+  "receipt": {
+    "path": "research/api-astra-108-receipt.json",
+    "sha256": "941ecbf130d95e1aef517bd39f2fa3ca7d829b4d78d33d7faee8994a1eeb1533"
+  },
+  "acceptance": {
+    "path": "research/round-108-acceptance.json",
+    "sha256": "6411446e960c146aa32657efb93f64a294045aa82074665e1be12c45b733ac2f"
+  }
+}

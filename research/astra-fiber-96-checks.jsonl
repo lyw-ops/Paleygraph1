@@ -1,0 +1,1 @@
+{"contracting_set": [0, 48, 96, 144, 192, 240, 288, 336], "contraction": [331239477, 331239478], "mask_in_coset": [48, 336], "normalized_history": [4228786045, 4228786046], "precision_bits": 384, "prefix": 8, "prime": 769, "signed_exterior": [1525942091, 1525942092], "signed_minority": [11385957, 11385958], "terminal": 10, "true_mark": [2691457996, 2691457997], "units": "1e-9"}

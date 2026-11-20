@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_148",
+  "comparison": "The two original real missions are distinct exact obligations: one is the terminal Jacobi orientation weighted by true near-cap optima and one is the pointwise charge from an actual pinned hinge. A weighted relaxation of the latter still uses the reflected failure mask, not the terminal mask. The cold Picard residual obligation is independent.",
+  "groups": [],
+  "dispatch": "coordination/round-148-inflight.json",
+  "launched_at_utc": "2026-11-19T20:41:32.622043Z",
+  "launched_calls": [
+    "ordinary-prime-oriented-terminal-mask",
+    "ordinary-prime-pinned-repair-charge",
+    "cold-signed-picard-residual"
+  ],
+  "before_sha256": "bfff087271e12de664de06d516f7f289df7b559078b6b44078bc5408f8867b0d"
+}

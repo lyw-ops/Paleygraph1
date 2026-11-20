@@ -1,0 +1,138 @@
+### New checked statement: the opposite-mark term is exactly an anchored Jacobi value
+
+Assume the fixed-floor late-source hypotheses from Rounds 112–114, in particular
+
+\[
+0\le h\le H,\qquad 0\le g\le G,\qquad 
+\mathbb E_n g\asymp n^{-1/2},\qquad 
+\mathbb E_n(hg)=O(n^{-1/2}),
+\]
+
+with \(H,G\) fixed, and let \(z(y)=\epsilon k(y)=\epsilon\lambda(y)/\sqrt p\). For every fixed polynomial \(P\) satisfying \(P(0)=P'(0)=0\),
+
+\[
+\boxed{\;
+\mathbb E_n[P(h)gz]
+   =\frac{\epsilon}{n}\,K(P(h)g)(0).
+\;} \tag{A}
+\]
+
+Indeed, by symmetry of the Jacobi kernel,
+
+\[
+K(P(h)g)(0)
+ =\sum_y \lambda(-y)p^{-1/2}P(h_y)g_y
+ =\epsilon n\,\mathbb E_n[P(h)gz].
+\]
+
+Since \(K1=0\), the right side is genuinely an off-mark through-primes quantity; the mark \(y=0\) contributes nothing because \(\lambda(0)=0\).
+
+For the actual opposite-factor coefficient
+
+\[
+c_-=\frac{\sqrt p}{n}g_-(0)=O(n^{-1/2}),
+\]
+
+(A) gives the exact normalization
+
+\[
+\boxed{\;
+c_-\,\mathbb E_n[P(h)gz]
+ =\frac{\epsilon c_-}{n}\,K(P(h)g)(0).
+\;} \tag{B}
+\]
+
+Thus the unresolved term is not an uncontrolled bulk average: it is a single anchored Jacobi transform of the genuine product \(P(h)g\).
+
+### Prime-uniform size bound at the critical scale
+
+Because \(P(0)=P'(0)=0\), there is \(C_{P,H}\) such that
+\(|P(x)|\le C_{P,H}x^2\) on \([0,H]\). Hence
+
+\[
+\left|\mathbb E_n[P(h)gz]\right|
+ \le C_{P,H}\mathbb E_n(h^2g)
+ \le C_{P,H}H\,\mathbb E_n(hg)
+ =O_P(n^{-1/2}).
+\]
+
+Consequently
+
+\[
+\boxed{\;
+\left|c_-\,\mathbb E_n[P(h)gz]\right|
+ =O_P(n^{-1}).
+\;} \tag{C}
+\]
+
+This is the sharp scale allowed by the current hypotheses. It proves that the opposite input mark cannot exceed the critical \(n^{-1}\) scale, but it does **not** prove \(o(n^{-1})\), nor does it determine its sign.
+
+For the two relevant tests this specializes to
+
+\[
+|c_-\,\mathbb E_n[h^2gz]|=O_P(n^{-1}),
+\]
+
+and, with \(P_A(x)=x^2(x-A)^2\),
+
+\[
+|c_-\,\mathbb E_n[P_A(h)gz]|=O_P(n^{-1}).
+\]
+
+The unmarked expression is therefore exactly
+
+\[
+\mathbb E_n[P(h)g(\mu-c_-z)]
+ =\mu\,\mathbb E_n[P(h)g]
+ -\frac{\epsilon c_-}{n}K(P(h)g)(0), \tag{D}
+\]
+
+up to the already established \(O_P(n^{-5/4})\) replacement error.
+
+### What the reciprocal law does—and does not—control
+
+The genuine reciprocal identity gives, pointwise,
+
+\[
+g\,g_-=\frac tn+\left(1-\frac tn\right)1_{\{0\}}.
+\]
+
+It controls the weighted magnitude and the collision terms, but it does not determine
+
+\[
+K(P(h)g)(0)=\sum_y \lambda(-y)p^{-1/2}P(h_y)g_y.
+\]
+
+In particular, replacing \(g_-\) off the mark by \(t/(ng)\) does not remove the signed character \(\lambda(-y)\). The reciprocal law is invariant under rearrangements of the \(g\)-mass among sites with different \(\lambda(y)\), whereas (A) changes under precisely those rearrangements. Therefore the reciprocal identity alone cannot supply a sign for the opposite-mark correction.
+
+The exact surviving obstruction is thus:
+
+\[
+\boxed{\text{A prime-uniform }o(n^{-1})\text{ result requires }
+K(P(h)g)(0)=o(\sqrt n).} \tag{E}
+\]
+
+A one-sided \(n^{-1}\) estimate would follow from the stronger anchored criterion
+
+\[
+\epsilon\,K(P(h)g)(0)\ge -C_P\sqrt n
+\]
+
+with the appropriate sign, while cancellation would require \(o(\sqrt n)\). Neither follows from the reciprocal product or from the existing \(L^1\) and collision estimates.
+
+### Consequence for the two signed moments
+
+For \(P(z)=z^2\), the known unmarked term has size \(n^{-1}\), and (C) shows that the opposite mark can modify its coefficient by another bounded \(n^{-1}\) amount. Hence the sign of the combined coefficient remains unresolved.
+
+For \(P=P_A\), the earlier mark cancellation still removes the explicit \(A\)-atom, but (D) leaves the anchored term (B). Thus the concentration alternative from \(P_A\) is unaffected at the level of scale, but its coefficient cannot yet be made one-sided without controlling \(K(P_A(h)g)(0)\).
+
+### Ranked next tests
+
+1. **Primary:** Evaluate or bound, for the genuine late \(h\) and \(g\),
+   \[
+   \frac1{\sqrt n}K(h^2g)(0),\qquad
+   \frac1{\sqrt n}K\!\left(h^2(h-A)^2g\right)(0)
+   \]
+   along the prime subsequence. A fixed-sign bound would settle the corresponding signed moment; \(o(\sqrt n)\) would eliminate the opposite-mark contribution at \(o(n^{-1})\).
+
+2. **Secondary:** Use the actual high-\(g\) support from the favored transport estimate and test whether its \(\lambda\)-weighted mass has a prime-uniform sign. This is the smallest arithmetic test that can combine the anchored term with the unmarked distinct sum without replacing the genuine trajectory by a square model.

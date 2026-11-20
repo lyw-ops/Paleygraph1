@@ -1,0 +1,84 @@
+{
+  "round": 129,
+  "accepted_at_utc": "2026-11-19T16:43:12Z",
+  "previous": "research/round-128-acceptance.json",
+  "previous_sha256": "f3232af30ae99b03279c1e065a479ff6bca493ec7720331394a81668d995a73b",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-128.json",
+    "sha256": "f5dfe4648494e4fe857471da06ddea4d8f62f91eaf3cc2602992b988e2e0effd"
+  },
+  "proof_and_code_sha256": {
+    "research/zero-floor-mark-and-cap-budget.md": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8",
+    "research/zero-floor-ordinary-mixed-cap.md": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb",
+    "research/zero-floor-averaged-weighted-tail.md": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1",
+    "research/zero-floor-two-sided-reserve-129.md": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5",
+    "research/api-astra-review-129.md": "99ac738f0f0b5f693485868e982750e63bd1ad2d03c844259dade8b4cc3d39a0",
+    "research/api-astra-overflow-129.txt": "46200c2d4d5119ac2772523abde303238e91eeb2d11fef9562a5305c3ac3ffa7",
+    "research/api-astra-129-receipt.json": "a985744573f654d0cdca16a5e5bc8bb4c11dac09b6ea239ae0a8cfaa687a96f8"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/cold-actual-quadratic-128.md": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/cold-signed-time-kernel-transfer-124.md": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1",
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, rate-free zero-floor weighted tail",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Seek the actual signed correlation of a fixed-depth capped spill with the high part of an ordinary optimizer.",
+        "Test reciprocal-support-conditioned Jacobi moments against that same true weight."
+      ]
+    },
+    {
+      "name": "/root/audit_129",
+      "status": "completed",
+      "ranked_closeout": [
+        "At a larger fixed cap, determine whether the actual unweighted zero-floor deficit vanishes.",
+        "If the deficit vanishes, estimate the actual weighted finite-depth spill independently, retaining the original order of limits."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "On the cold side, replay the combined actual height-601 derivative before absolute pricing and compare against the required middle rate at its true counting rate.",
+    "On the real side, test unweighted zero-floor deficit at a sufficiently large fixed cap and, separately, the exact high ordinary-optimizer weight on the fixed-depth averaged spill."
+  ],
+  "proof_scope": [
+    "For a fixed cap the actual zero-floor marked coordinate is unique even if the full fixed row is not, and the normalized capped mark vanishes through primes including moving floors tending to zero. Two distinct caps admit an exact rate-free comparison of their means and signed spills, with decreasing spill first norm.",
+    "An exact Jacobi seed saturation budget shows a positive limiting zero-floor cap defect for each fixed M at most 9/4, and liminf greater than 0.012 on 2<=M<=9/4. This uses fixed-character Jacobi equidistribution and a finite rational comparison.",
+    "A genuine mixed zero-floor fixed point with only a fixed marked cap yields exact nonnegative ordinary theta optimizers in both sectors. Its bulk cap chosen at 2 sqrt p is inactive. A finite exact bulk energy identity charges its difference from the fixed bulk cap to actual signed spill overlap.",
+    "At every fixed horizon the genuine averaged capped iterate has a negligible normalized mark through primes. Its exact mean reserve pays the low-weight component of optimizer-weighted spill. The high-weight test with (F_epsilon-M/2)_+ and the actual average is sufficient in the prime-first order of limits without assuming cap-defect vanishing or a critical cap rate.",
+    "At one fixed cap, simultaneous success of the two averaged tail criteria forces zero-floor cap-defect vanishing, even if the signs use different horizon subsequences. The positive small-cap defect rules out this strategy at those caps. No claim of weighted vanishing at a large cap follows."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw API reaches only the generic critical-scale weighted estimate for the actual optimizer. Its comment about a sharper slope 1/2 for the square-root mean reserve is unsupported. Fixed-depth controlled approximation does not imply trace control when multiplied by an arbitrary growing exact optimizer.",
+    "The unweighted cap defect at a satisfactory large fixed cap, actual ordinary-optimizer weighted tail, growing cold continuation and original theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Exact small-cap comparisons checked with rational bounds for the square root and trigonometric expression. The legacy Fourier source was validated against its exact Git index object in a recovery snapshot. The raw API response and model receipt are preserved."
+  ],
+  "independent_review": [
+    "Read-only Astra audit checked all three original zero-floor notes, including the actual ordinary optimizer normalization, midpoint budget, fixed-depth parity, weighted charge and small-cap constant. It also derived the two-sided averaged-deficit comparison."
+  ]
+}

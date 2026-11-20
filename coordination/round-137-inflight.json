@@ -1,0 +1,61 @@
+{
+  "round": 137,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-136-acceptance.json",
+    "sha256": "eb418d58b958d53114bcd7022a7d6bc1e2e8f1458cd9f659ed22d9113a93cfa3"
+  },
+  "coordinator": {
+    "path": "coordination/round-136.json",
+    "sha256": "03784a5bbe402f15b907c34a9996ab42e7ae1f5566b3c0edcbc5e8a59f153481"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-137.py",
+    "sha256": "61bb7ede3da07e23f28f6b5956085ee31763040e7bfb9df03e7065ec3fee7abb"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-137-before.json",
+    "sha256": "bbb95a477f4e30cbd541041ad23977ac7edf05e418ec70d72fdb62f944312ef1"
+  },
+  "lanes": [
+    {
+      "call_id": "cold-labelled-center-cancellation",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "b28ee8ca508210103632db10908402db1501cb7f5f0aa41970b8b899a27a533a",
+      "mission_file": {
+        "path": "coordination/missions/round-137/cold-labelled-center-cancellation.md",
+        "sha256": "e1ff0ea2202cb6519c0edfc150679e33ff2ca486b1e885f9b15708502cb53f73"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r137-api-01a1ed0a/cold-labelled-center-cancellation-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r137-api-01a1ed0a/cold-labelled-center-cancellation-candidate.md",
+      "started_utc_epoch": 1795113544.7760808
+    },
+    {
+      "call_id": "cold-direct-joint-block",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "9681b249e6266e69dbee14239a3d9bde71bfef9befd1b169d3083ff5d68cdb99",
+      "mission_file": {
+        "path": "coordination/missions/round-137/cold-direct-joint-block.md",
+        "sha256": "03b7fecf9b4a42ed92e389d495bee8c152519d0e3d7bfbad4b2d99a619a0cc3a"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r137-api-01a1ed0a/cold-direct-joint-block-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r137-api-01a1ed0a/cold-direct-joint-block-candidate.md",
+      "started_utc_epoch": 1795113544.776872
+    },
+    {
+      "call_id": "ordinary-optimal-bulk-energy",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "beffd34dc239192d47f4abf2e5910e97997a3a720ede43224fdd12f9eb8b96ed",
+      "mission_file": {
+        "path": "coordination/missions/round-137/ordinary-optimal-bulk-energy.md",
+        "sha256": "9012360eb9f1ec1b651722bdaf1bee9446f2c4a797c529ca11cefcbb8177e7b4"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r137-api-01a1ed0a/ordinary-optimal-bulk-energy-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r137-api-01a1ed0a/ordinary-optimal-bulk-energy-candidate.md",
+      "started_utc_epoch": 1795113544.776431
+    }
+  ]
+}

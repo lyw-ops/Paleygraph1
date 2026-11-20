@@ -1,0 +1,20 @@
+{
+  "overflow": {
+    "provider_host": "api.appintheloop.com",
+    "call_id": "mark-versus-bulk",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "ae7700498a5ac906671f68070bc24354020564a523d20a589d9febf3baebbc60",
+    "started_utc_epoch": 1795095494,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7794,
+      "completion_tokens": 3376,
+      "total_tokens": 11170
+    },
+    "draft_sha256": "91009d3015ec46e468f6414d7f9e86dbe3521c0f5e89e23494e2edcf8956e5cf",
+    "input_note_pre_correction_sha256": "93ce25c9e4493f91e2ea1a0aab515a72f5eaeeb76f362d5b612b99214af08781",
+    "status": "returned-draft"
+  }
+}

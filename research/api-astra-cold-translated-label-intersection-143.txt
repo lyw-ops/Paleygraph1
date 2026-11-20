@@ -1,0 +1,98 @@
+## Checked result
+
+Work with the actual eligible odd-prime family \(q\) (and, where the cited construction permits it, the separately verified prime-square extensions), with
+\[
+n=(q-1)/2,\qquad t_0=n,
+\]
+the bulk floors \(t_i=t\) on the original cold square, the pure seed \(S=s_nC_1\) unshifted, the actual Legendre multiplier \(Y\) unshifted, and exactly one translated source \(X_\xi\). Both full lifts are retained, and the marked denominator is restored at the end. The translated pair is assumed genuinely disjoint from the base pair:
+\[
+\{\xi,\chi\xi\}\cap\{1,\chi\}=\varnothing .
+\]
+
+### 1. Folded rank coincidences are not arithmetic coincidences
+
+The four phase rows have the following total generic dimensions, obtained from
+\[
+r=\sum_{k>0} k h_k+b,\qquad b=2:
+\]
+
+\[
+\begin{array}{c|c|c}
+\text{order and phase} & \sum k h_k & r\\ \hline
+S\text{ then }Y,\ \text{same fiber} & 1+3=4 & 6\\
+S\text{ then }Y,\ \text{different fibers} & 2+4=6 & 8\\
+Y\text{ then }S,\ \text{same sign} & 3+1=4 & 6\\
+Y\text{ then }S,\ \text{opposite sign} & 4 & 6
+\end{array}
+\]
+
+Thus the first, third, and fourth rows have the same rank, and the second row has rank eight. This is only a folded inertia statement. It does not identify the corresponding arithmetic constituents.
+
+### 2. Generic global arithmetic labels are separated
+
+For the actual leading mixed block on the unshifted seed column, the two corrected orders have the form
+\[
+\frac{\alpha s_n}{4t}
+ \left(F_4+\frac{D+D^\vee}{8}+\frac R4\right)
+ +O_{P_{5000}}(n^{-1/2}).
+\]
+
+The rank-four field \(F_4\) and the newer fields \(D,D^\vee,R\) have distinct derived arithmetic types. The independence calculations cited in the record separate their \(SL_2^2\), \(SL_3^2\), and rank-four factors, with the common Jacobi exponent retained. Therefore no constituent of \(F_4\) is equal to a constituent of \(D\), \(D^\vee\), or \(R\), even when their folded ranks agree.
+
+The same separation persists on the genuinely translated column: tensoring by either translated full-lift character \(\xi\) or \(\chi\xi\) changes the common Jacobi/twist coordinate but does not identify the independent derived factors. Consequently, under the stated disjointness hypothesis, there is **no generic arithmetic label pooling between the \(F_4\) sector and the \(D,D^\vee,R\) sectors**. In particular, the equal-rank rows do not produce opposite signed copies of a common global label.
+
+This is the exact arithmetic separation currently supported by the supplied records.
+
+### 3. There is one exact physical coincidence, but it is not yet a global label identity
+
+For the selected degree-one inverse-line mixed block, the two physical orders are exactly equal after retaining the actual marking:
+\[
+H_{S,Y}(x)=H_{Y,S}(x).
+\]
+The equality follows from
+\[
+u\longmapsto x^2/u,
+\]
+which preserves the relevant quadratic-sign factor and exchanges the two mixed orders. It includes the constant marked corrections and both full-field square-selector branches.
+
+At the collision \(x=-1\), the two local sections have arithmetic twists whose product is trivial at the collision. The local geometric vanishing-cycle inertia in both orders is
+\[
+\operatorname{Unip}(2).
+\]
+Thus the two orders have the same local inertia label for this selected inverse-line realization.
+
+However, the supplied argument does **not** prove equality of the complete global arithmetic sheaf labels or of their full Frobenius character decompositions. It proves equality of the physical position-domain kernels and equality of the displayed local inertia contribution. The intrinsic local Frobenius matrix and the rest of the global nearby representation remain unspecified.
+
+Hence the correct conclusion is:
+
+- **Generic global derived labels:** separated between \(F_4\) and \(D,D^\vee,R\).
+- **Selected inverse-line physical block:** exactly equal in the two orders, with common local inertia \(\operatorname{Unip}(2)\).
+- **Full global arithmetic label of that coincident physical block:** not established.
+
+### Error and limit statement
+
+The physical lift and marking repairs are bounded by
+\[
+O_{P_{5000}}(n^{-1/2})
+\]
+relative to the canonical translated-column price, uniformly on the nominated cold square and for the fixed disjoint translated pair. This error is taken after forming the exact finite-field expressions and then sent to zero along the eligible-prime family:
+\[
+q\to\infty,\qquad n=(q-1)/2\to\infty.
+\]
+The exact physical equality of the two inverse-line orders holds before this limit; the \(O_{P_{5000}}(n^{-1/2})\) term concerns the comparison with the simplified leading arithmetic realization, not a failure of the order-exchange identity.
+
+## Remaining gap
+
+The argument does not classify all exceptional translated twists. The disjointness condition removes the obvious collisions
+\[
+\{\xi,\chi\xi\}\cap\{1,\chi\}\neq\varnothing,
+\]
+but the records do not prove that these are the only exceptional twists after determinant/Jacobi shifts and possible accidental identifications in the rank-four representation ring. Nor does the local vanishing-cycle calculation determine the complete global arithmetic label of the exactly equal inverse-line block.
+
+## Ranked next tests
+
+1. **Exact full-label comparison for the inverse-line collision.**  
+   Compute the two full Mellin/Frobenius decompositions of the marked kernels \(H_{S,Y}\) and \(H_{Y,S}\), retaining both lifts, the Jacobi exponent, and the exceptional coordinate. Use the substitution \(u\mapsto x^2/u\) to construct an explicit label-preserving bijection. This would upgrade the present physical equality and common \(\operatorname{Unip}(2)\) inertia to a genuine global arithmetic-label equality, or expose the precise residual discrepancy.
+
+2. **Exceptional-twist classification on the translated pair.**  
+   Enumerate the translated twists for which a rank-four, rank-three, or Legendre-derived label can agree after the common Jacobi shift. First test the finite obvious set where \(\xi\) or \(\chi\xi\) equals \(1\) or \(\chi\); then test determinant-shift coincidences in the rank-four Pieri labels. This should be done before any \(q\to\infty\) estimate and separately for eligible primes and prime squares.

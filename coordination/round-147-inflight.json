@@ -1,0 +1,61 @@
+{
+  "round": 147,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-146-acceptance.json",
+    "sha256": "68d21a801fc1da69445f480906caa4f64fab4b563f95162da991c0332b40db21"
+  },
+  "coordinator": {
+    "path": "coordination/round-146.json",
+    "sha256": "3b0f4babcd472e7e6f6ecbc4054764dd251b7c821e45d250e71538d3c6a2e204"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-147.py",
+    "sha256": "9f005492a59757598b09d43b80c9054624575a9e70fa172fdd5d094fb9207f23"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-147-before.json",
+    "sha256": "b0786e6e46cffe50967edce187304f6e9200ced2e2e3f9787b7cbb4f6309c538"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-complementary-mask-energy",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "1e8607393a20242670518b95cb99a673c93ba3cdc78d2808fec0b9a1e3ceb6f0",
+      "mission_file": {
+        "path": "coordination/missions/round-147/ordinary-prime-complementary-mask-energy.md",
+        "sha256": "86b47c3b3b9641ed1115738cd411eefb30416f5de0bd9aed42f1fb80270c0040"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r147-api-01a1ed0a/ordinary-prime-complementary-mask-energy-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r147-api-01a1ed0a/ordinary-prime-complementary-mask-energy-candidate.md",
+      "started_utc_epoch": 1795120370.176105
+    },
+    {
+      "call_id": "ordinary-zero-set-deletion-sign",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "8ac390cf6788b488e1cfae12ebd08a757ef9e8e340fa72a850e5fa623409dc1d",
+      "mission_file": {
+        "path": "coordination/missions/round-147/ordinary-zero-set-deletion-sign.md",
+        "sha256": "8ea8267755c06dcfa74f75188c5d54afe4d90ddb327125cd34359fd0f0f35cb5"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r147-api-01a1ed0a/ordinary-zero-set-deletion-sign-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r147-api-01a1ed0a/ordinary-zero-set-deletion-sign-candidate.md",
+      "started_utc_epoch": 1795120370.17646
+    },
+    {
+      "call_id": "cold-signed-first-omitted-center",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "deb9e5e8127f6ef657b3febeb8f494a0a2e71abdfff5536dd4d6a799a54d847a",
+      "mission_file": {
+        "path": "coordination/missions/round-147/cold-signed-first-omitted-center.md",
+        "sha256": "6bea5449e7723e62a302e70a98f02352b0295ca83f6a08287002af021fe28a3c"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r147-api-01a1ed0a/cold-signed-first-omitted-center-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r147-api-01a1ed0a/cold-signed-first-omitted-center-candidate.md",
+      "started_utc_epoch": 1795120370.177037
+    }
+  ]
+}

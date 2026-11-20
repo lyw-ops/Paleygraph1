@@ -1,0 +1,303 @@
+## Result
+
+For the actual ordinary-prime family \(p\equiv1\pmod 4\), with
+\[
+n=\frac{p-1}{2},\qquad Q=(\mathbb F_p^\times)^2,
+\]
+fixed sign \(\epsilon\in\{\pm1\}\), physical mark \(0\), and Fourier constant row indexed by \(1\), the proposed aggregate signed cofactor mass is exactly a reformulation of the existing determinant ratio. It gives no new lower bound without an additional estimate.
+
+Thus the cofactor simplification is **refuted as a sufficient new argument**, while the asymptotic deficit itself remains **inconclusive**.
+
+All norms below are counting \(\ell^2\)-norms on the physical coordinates. The Fourier matrix \(M\) is normalized unitary.
+
+---
+
+## 1. Actual setup
+
+Let \(U\) be the genuine zero-column set of the least-bulk-energy optimizer, excluding the physical mark \(0\). Let
+\[
+U'\subseteq U,\qquad k=|U'|,
+\]
+be a maximal linearly independent subset of the actual columns \(JE_U\). Put
+\[
+\Omega_\epsilon=\{1\}\cup\{a\in Q:\chi(1-a)=\epsilon\}.
+\]
+
+Define
+\[
+H=M_{\Omega_\epsilon,U'}^*M_{\Omega_\epsilon,U'},
+\]
+and let
+\[
+c=M_{\{1\},U'}=\frac1{\sqrt n}(1,\ldots,1)^T.
+\]
+The row \(1\) is the Fourier constant row; it is not the physical mark \(0\).
+
+Removing that row gives
+\[
+G=H-cc^*.
+\]
+Write
+\[
+\mathsf D=\det H,\qquad
+\mathsf N=\det G,\qquad
+\mathsf B=\mathsf D-\mathsf N.
+\]
+
+By Cauchy–Binet:
+
+- \(\mathsf N\) is the total squared-minor mass omitting the constant row;
+- \(\mathsf B\) is the total squared-minor mass containing the constant row.
+
+The desired deficit is
+\[
+\frac{\mathsf N}{\mathsf N+\mathsf B}
+=\frac{\det G}{\det H}
+=\frac{d_U^2}{n},
+\]
+where \(d_U\) is the actual distance from the all-ones physical vector to \(\operatorname{Ran}(JE_U)\).
+
+For a fixed-gap subfamily of ordinary primes, with the admissible spectral parameter \(T=T(p)\to\infty\) chosen along that subfamily, the target replacement estimate is
+\[
+\mathsf N\ge \frac{L_p}{T_p}\mathsf B,
+\qquad L_p\to\infty,
+\]
+equivalently
+\[
+k\mathsf N\ge \frac{kL_p}{T_p}\mathsf B.
+\]
+
+---
+
+## 2. Exact aggregate cofactor identity
+
+For every \((k-1)\)-set
+\[
+I\subseteq\Omega_\epsilon\setminus\{1\},
+\]
+let \(v_I\) be the actual cofactor vector for adjoining one row, and let
+\[
+g_I=M E_{U'}v_I.
+\]
+Then \(w(I,a)=|g_I(a)|^2\).
+
+Cauchy–Binet gives the exact double counts
+\[
+\sum_I |g_I(1)|^2=\mathsf B,
+\]
+and
+\[
+\sum_I\sum_{a\in\Omega_\epsilon\setminus\{1\}}|g_I(a)|^2
+=k\mathsf N.
+\]
+The factor \(k\) occurs because each \(k\)-row minor omitting \(1\) has \(k\) possible \((k-1)\)-row cofactors.
+
+For each individual \(I\), the actual signed Jacobi-sector identity is
+\[
+\sum_{a\in\Omega_\epsilon\setminus(I\cup\{1\})}|g_I(a)|^2
+=
+\frac12\left(
+\|v_I\|_2^2
++\epsilon\langle E_{U'}v_I,K E_{U'}v_I\rangle
+-|g_I(1)|^2
+\right).
+\]
+Therefore, summing over \(I\),
+\[
+\mathcal L
+=
+\frac12\left(
+\sum_I\|v_I\|_2^2
++\epsilon\sum_I\langle E_{U'}v_I,K E_{U'}v_I\rangle
+-\mathsf B
+\right)
+=k\mathsf N.
+\]
+
+This is the desired “aggregate replacement mass,” but it is exactly \(k\det G\).
+
+---
+
+## 3. Why the adjugate step is circular
+
+The cofactor covariance is
+\[
+\sum_I v_Iv_I^*=\operatorname{adj}(G).
+\]
+Let
+\[
+A=\operatorname{adj}(G),\qquad
+S=\operatorname{tr}A,\qquad
+C=\operatorname{tr}(E_{U'}^*KE_{U'}A).
+\]
+Then
+\[
+\mathcal L=\frac12(S+\epsilon C-\mathsf B),
+\qquad
+\mathsf B=c^*Ac.
+\]
+
+The sector decomposition itself gives
+\[
+G=\frac12\left(I_k+\epsilon E_{U'}^*KE_{U'}-cc^*\right),
+\]
+hence
+\[
+\epsilon E_{U'}^*KE_{U'}=2G-I_k+cc^*.
+\]
+Taking the trace against \(A=\operatorname{adj}(G)\), and using
+\[
+GA=(\det G)I_k=\mathsf N I_k,
+\]
+gives
+\[
+\epsilon C
+=
+2k\mathsf N-S+\mathsf B.
+\]
+Substitution yields
+\[
+\mathcal L
+=
+\frac12\bigl(S+2k\mathsf N-S+\mathsf B-\mathsf B\bigr)
+=k\mathsf N.
+\]
+
+So the signed Jacobi term is not an independent source of positivity. It is algebraically forced to cancel the cofactor norm and constant-row terms.
+
+### Consequence
+
+Any argument using only
+
+1. \(\sum_Iv_Iv_I^*=\operatorname{adj}(G)\),
+2. the signed Jacobi decomposition,
+3. \(\|K\|_{2\to2}\le1\), and
+4. determinant or trace identities,
+
+recovers the original determinant ratio and cannot prove
+\[
+\mathsf N/\mathsf B\gg 1/T
+\]
+without a genuinely new estimate on the actual adaptive matrix \(G\), its inverse, or the actual cofactor family.
+
+This is a limitation of the **cofactor simplification**, not a counterexample to the desired ordinary-prime deficit.
+
+---
+
+## 4. Norm information alone is insufficient
+
+Even at the relaxed matrix level, positivity and contraction do not force a useful determinant ratio.
+
+Take \(a=k/n\le 1/2+O(n^{-1})\), choose a unit vector \(e\), and let
+\[
+c=\sqrt a\,e,\qquad
+G_\delta=\delta\, ee^*+(I-ee^*),
+\]
+with \(0<\delta\ll1\). Then
+\[
+H_\delta=G_\delta+cc^*
+\]
+remains positive and contractive for \(\delta+a<1\), while
+\[
+\frac{\det G_\delta}{\det H_\delta}
+=\frac{\delta}{\delta+a}\longrightarrow0.
+\]
+The corresponding signed cofactor terms cancel exactly as above.
+
+This relaxed example does not describe an actual Fourier prime, but it proves that a lower bound cannot follow from the abstract Gram, norm, and contraction constraints alone. The missing input must use actual prime arithmetic or actual adaptive leakage.
+
+---
+
+## 5. Evidence from the supplied results
+
+The existing results support the following conclusions.
+
+- Whole-row translation isolation gives no lower bound for actual minor weights at the relevant high ranks.
+- The macroscopic Gram is not asymptotically scalar in the required regime.
+- The actual entrywise-square mixing estimate for \(K\circ K\) does not control the adaptive matrix \(\operatorname{adj}(G)\).
+- The exact marked leakage identity already gives
+  \[
+  \frac{\mathsf N}{\mathsf D}=\frac{d_U^2}{n}.
+  \]
+- The fixed-gap hypothesis forces a marked low-spectrum window, but no prime-uniform estimate on the actual adaptive zero set has yet been proved.
+
+There is therefore no checked prime-uniform cofactor estimate above \(1/T\).
+
+---
+
+## Ranked next tests
+
+### 1. Direct actual leakage/capacity estimate — highest priority
+
+For the actual zero set \(U\), with the physical mark \(0\) retained separately, prove along the fixed-gap ordinary-prime family
+\[
+n-\langle u,H^\dagger u\rangle
+\ge \frac{L_p n}{T_p},
+\qquad
+u=\mathbf1_U,
+\qquad L_p\to\infty.
+\]
+For the independent reduction \(U'\), this is
+\[
+n-\langle u,H^{-1}u\rangle
+\ge \frac{L_p n}{T_p}.
+\]
+
+Since
+\[
+\frac{d_U^2}{n}
+=
+\frac{\mathsf N}{\mathsf D}
+=
+1-\frac{\langle u,H^\dagger u\rangle}{n},
+\]
+this directly yields the required deficit, with the correct physical mark, mean scale, norm scale, and order of limits
+\[
+p\to\infty\ \text{through the fixed-gap ordinary primes},\qquad T_p\to\infty.
+\]
+
+This is the cleanest non-circular route.
+
+### 2. Actual cofactor-weighted signed cancellation, with the true critical block
+
+Measure
+\[
+C_p=\operatorname{tr}\!\left(E_{U'_p}^*K E_{U'_p}\operatorname{adj}(G_p)\right)
+\]
+with the actual \(U'_p\), rather than replacing \(\operatorname{adj}(G_p)\) by a scalar or using only its trace.
+
+A first diagnostic is whether
+\[
+\epsilon C_p
+\ge -\eta\,\operatorname{tr}\operatorname{adj}(G_p)
+\]
+holds with some \(\eta<1/2\) uniformly on the ordinary-prime family. Because
+\[
+\mathsf B_p
+=c_p^*\operatorname{adj}(G_p)c_p
+\le \frac{k_p}{n}\operatorname{tr}\operatorname{adj}(G_p)
+\le \left(\frac12+o(1)\right)\operatorname{tr}\operatorname{adj}(G_p),
+\]
+such a bound would force a nontrivial cofactor deficit at least at the \(1/k_p\) scale. It beats the desired \(1/T_p\) scale whenever \(T_p/k_p\to\infty\); otherwise the estimate must be refined at the true \(k_p/T_p\) scale.
+
+In parallel, the remaining moderate critical block must be tested with the actual slope-weighted source measure
+\[
+\mu_p(B)=\frac1n\|\mathbf1_B(A_p)g_{S,p}\|_2^2,
+\]
+not with an unweighted spectral trace. The relevant test is a prime-uniform bound on
+\[
+\int_{0<\lambda\le A_0/T_p}\lambda^{-2}\,d\mu_p(\lambda)
+\]
+or an equivalent direct signed-tail estimate.
+
+---
+
+## Final status
+
+The actual signed cofactor formula is correct, but its aggregate use is exactly
+\[
+\text{replacement mass}=k\det G.
+\]
+The adjugate identity and the signed Jacobi decomposition therefore do not supply the missing lower bound; they merely rewrite the original Fourier-minor deficit.
+
+The ordinary-prime asymptotic target remains open. The best next route is the actual marked leakage estimate; the cofactor route requires a genuinely new prime-uniform estimate for the adaptive cofactor covariance or for the true slope-weighted critical block.

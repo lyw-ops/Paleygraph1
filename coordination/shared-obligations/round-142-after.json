@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_142",
+  "comparison": "The three lanes test distinct exact objects: a real weighted terminal endpoint, the leading marked mixed transport on one disjoint translated input, and higher Jacobi orders on the unshifted C1 input. The two cold results share kernel and multipliers but compare different input classes and orders. Full returned drafts, corrected results and failed derivations were compared. No exact common candidate was tested.",
+  "groups": [],
+  "dispatch": "coordination/round-142-inflight.json",
+  "launched_at_utc": "2026-11-19T19:41:27.491359Z",
+  "launched_calls": [
+    "ordinary-actual-terminal-weight",
+    "cold-first-translated-mixed-column",
+    "cold-seed-resummed-linear-action"
+  ],
+  "before_sha256": "bf253d3f697a7c63bbc3e448754a0653c0ceb30eff8bb75058e06bf171c4c5de"
+}

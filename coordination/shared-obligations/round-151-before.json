@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T21:20:01.224635Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-150.json#next_calls",
+  "coordinator_sha256": "1628ed2c4ee1be9a544fbac5c1becd4d9825cac5576b0abe12eaae0c00b88a3a",
+  "call_ids": [
+    "ordinary-prime-first-spill-core",
+    "ordinary-prime-retargeted-endpoint",
+    "cold-two-vertex-other-center"
+  ],
+  "routes": {
+    "r151/ordinary-prime-first-spill-core": {
+      "question": "Can genuine prime arithmetic bound the signed sum on the high first-reflection receiver and surviving input core?",
+      "scope": "Use all p=1 mod 4, fixed tau, true marked growing T, exact first projection and actual d. Keep n^(-1/4)<d<=sqrt(n)T^(-2/3), true same/opposite optima, output b^(0)>=b_* and both roots and the diagonal excluded.",
+      "remaining": "The exact first-reflection core needs a prime-only bound. For the retargeted route use true negative-part history or true terminal-source control beyond the static matching identities. The separate direct critical-mask route is unchanged from Round 149."
+    },
+    "r151/ordinary-prime-retargeted-endpoint": {
+      "question": "Can the actual retargeted relaxed negative-part history rule out its forced signed endpoint charge on primes?",
+      "scope": "Use actual x=(1-lambda)Z+lambda k, mark (1+delta)n/q, delta=T^(-1/6), same j selected by R150, true q and R, omega fixed and original marked T separate from m=n^2. The static F replica already passes several isolated descriptors.",
+      "remaining": "The exact first-reflection core needs a prime-only bound. For the retargeted route use true negative-part history or true terminal-source control beyond the static matching identities. The separate direct critical-mask route is unchanged from Round 149."
+    },
+    "r151/cold-two-vertex-other-center": {
+      "question": "Is there a concrete signed two-vertex overlap in the actual square difference involving one of the fixed other centers?",
+      "scope": "Use A_601^2-B2^2 on the original square, both physical lifts, t0=n and P5000. Separate the actual Picard residual and choose one named fixed center such as beta W for the first test. Track both orders, exact label and arithmetic phase, and keep analytic and exceptional costs.",
+      "remaining": "Actual signed step rate <0.356 or actual same-height square difference <0.567184 remains open. Nonlinear invariance, the half step and growing marks are separate."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-first-spill-core": [],
+    "ordinary-prime-retargeted-endpoint": [],
+    "cold-two-vertex-other-center": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "First-spill core and late retargeted endpoint use distinct actual flows, source coordinates and receiver weights. The cold square term is independent. There is one call per exact obligation."
+}

@@ -1,0 +1,2 @@
+{"real_endpoints_units": [16640190, 16640195], "imaginary_halfwidth_units": 1, "real_cells": 10, "tilted_excess": "[1.8400e-10 +/- 4.67e-15]", "coordinate_cap": "[4.65301540092 +/- 4.94e-12]", "secant_rate": "[0.525272098718 +/- 2.85e-13]", "field_minimum_n": "10^30"}
+{"kind": "previous_first_packet_overrun", "excess": "[1.5494130e-8 +/- 3.09e-16]", "exterior_quartic_shifts": [[-2, 0], [0, 2]], "multiplicity_per_shift": 48}

@@ -1,0 +1,128 @@
+## Exact signed block decomposition
+
+Let
+\[
+B_h:=K D_h,\qquad D_h=\operatorname{diag}\bigl(\Phi_t'(V_h)\bigr),
+\]
+where \(V_h\) is the genuine fully marked row on the closed complex square \(Q\). The requested center derivative is
+\[
+B_{602}B_{601}=K D_{602}K D_{601}.
+\]
+
+Use the exact finite-field identity
+\[
+K^2=I-P_{\mathbf 1},
+\]
+where \(P_{\mathbf 1}\) is the rank-one trivial-character projection. Choose scalar bulk centers
+\[
+c_h(t):=\frac{a}{\sqrt{4t+a^2}},\qquad a=\frac{2031}{128},
+\]
+and define the full diagonal remainders
+\[
+E_h:=D_h-c_h(t)I.
+\]
+The marked coordinate is included in \(E_h\); in particular, no marked correction or exceptional sheet term is omitted. Direct expansion gives the signed identity
+\[
+\boxed{
+KD_{602}KD_{601}
+=
+c_{602}c_{601}(I-P_{\mathbf 1})
++c_{602}(I-P_{\mathbf 1})E_{601}
++c_{601}K E_{602}K
++K E_{602}K E_{601}.
+}
+\tag{S}
+\]
+
+This is an actual representation of the center derivative, not a secant estimate. For a two-step secant, the same identity holds with \(D_h\) replaced by the corresponding averaged diagonal derivative on the genuine sheet segments.
+
+### Quantified cancellation
+
+At the real center \(t=a\),
+\[
+c(a)=\frac{a}{\sqrt{4a+a^2}}
+      =0.8936\ldots,
+\qquad
+c(a)^2=0.7986\ldots .
+\]
+Thus the constant-background part of the true two-step chain is exactly
+\[
+c(a)^2(I-P_{\mathbf 1}),
+\]
+whose nontrivial-character multiplier is \(0.7986\ldots\), rather than the \(1.073296\) produced by multiplying the two positive packet majorants.
+
+The cancellation is visible entrywise. If \(i,b\) are physical coordinates, then
+\[
+\sum_x K_{ix}\,c(a)\,K_{xb}\,c(a)
+=
+c(a)^2\left(\delta_{ib}-\frac1n\right).
+\]
+The positive comparison instead bounds the summands
+\[
+\sum_x |K_{ix}|\,|K_{xb}|\,|c(a)|^2
+\]
+before summing over \(x\). Hence the entire orthogonality cancellation
+\[
+\sum_xK_{ix}K_{xb}
+=\delta_{ib}-\frac1n
+\]
+is lost. This is a genuine same-output-class cancellation and directly targets the obstruction \(1.073296\).
+
+The scalar term is not merely a formal toy: it is the arity-zero/constant-background component of the actual derivative expansion. The three remaining terms in (S) contain all deviations of the genuine rows from that background, including:
+
+* bulk row variation across the nine-center expansion;
+* both marked derivative corrections;
+* the exceptional coordinate;
+* all signs of the finite-field convolution coefficients;
+* the full complex-square dependence of \(t\).
+
+No absolute value has yet been taken in (S).
+
+## What is and is not certified
+
+The decomposition proves a precise reduction. In any operator norm \(\|\cdot\|_\star\),
+\[
+\|KD_{602}KD_{601}\|_\star
+\le
+|c_{602}c_{601}|\,\|I-P_{\mathbf1}\|_\star
++\|c_{602}(I-P_{\mathbf1})E_{601}\|_\star
++\|c_{601}KE_{602}K\|_\star
++\|KE_{602}KE_{601}\|_\star.
+\tag{1}
+\]
+
+At the center, the first term is approximately \(0.7986\) on the nontrivial-character subspace. Therefore a sufficient signed closure in the same norm would be a certified remainder bound below approximately
+\[
+1-0.7986=0.2014.
+\]
+This is substantially smaller than the full positive two-step excess, but it is not yet established by the supplied records.
+
+The existing height-600/601 estimates control absolute translated packet prices and counting contractions, but they do not bound the three signed remainder terms in (S) after collecting equal output packets. In particular, the available \(1.046434\) and \(1.047425\) rates apply to separately priced factors, so they cannot be inserted into (1) as a signed estimate. Likewise, the fixed-height counting bound does not provide the growing-height confinement or normalized residual required for the eventual stationary construction.
+
+The center-versus-ball distinction is material: (S) is an identity at \(V_{601},V_{602}\). To use it on an invariant ball, one must replace \(D_h\) by averaged diagonal derivatives along both half-step sheets and prove that the corresponding \(E_h\) bounds hold uniformly on the entire square and all connecting coordinate disks.
+
+## Earliest finite calculation that would decide the threshold
+
+Expand each \(E_h\) in the same nine-center arity basis,
+\[
+E_h=\sum_{r\ge1} E_{h,r}+E_{h,\mathrm{mark}},
+\]
+with the signed coefficient collections formed before packet absolute values. Then compute, for low arities,
+\[
+c_{602}(I-P_{\mathbf1})E_{601,1}
++c_{601}K E_{602,1}K
++K E_{602,1}K E_{601,1},
+\]
+and the mixed terms involving \(E_{h,2}\). A finite outward interval check of the resulting collected packets would give a decisive bound for the low-arity part. The remaining arities can then be charged by the existing tilted tail, but only after preserving the signed low-arity coefficients.
+
+### Ranked next tests
+
+1. **Highest priority:** exact finite-field computation of the signed arity-one and arity-two block in (S), including the two marked coordinates, on the full square. Compare its norm with the \(0.2014\) remainder budget.
+
+2. **Second:** certify a uniform secant version of (S) on the two genuine half-step sheets, bounding the collected signed remainder by a split
+   \[
+   \text{low arities}+\text{marked/exceptional}+\text{summable high-arity tail}.
+   \]
+   This would simultaneously test the required ball margin and distinguish center derivative from invariant-ball control.
+
+Thus the positive product obstruction is not an obstruction to the actual chain: its constant-background component is exactly \(0.7986\ldots\), with the \(1.073296\) growth arising from premature absolute pricing. The remaining gap is a quantified signed bound for the three \(E\)-terms, not the existence of a signed representation.

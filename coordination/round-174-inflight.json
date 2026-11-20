@@ -1,0 +1,61 @@
+{
+  "round": 174,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-173-acceptance.json",
+    "sha256": "f0bbf26dcb2401b20a7ef6817c1d5a53f0a80427341b1b37ef3abf8d04588ea4"
+  },
+  "coordinator": {
+    "path": "coordination/round-173.json",
+    "sha256": "e8dd9606379c696d018ab8221a0b841f34b6e50252980cfab2a83b7675ea7b37"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-174.py",
+    "sha256": "e0c162cbbf85de6e1fb7585180df3cf98d1749eaf479eaf1ef36209a8434f289"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-174-before.json",
+    "sha256": "a45df382f82ce0ad03872d83ef2078cd28179b6d7ecb9e4ba2969d2c4537655e"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-regular-pole-coupling",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "ff82248dce4dce8c06bdc240501ac521197355c2b50b057550f28ab3166a1227",
+      "mission_file": {
+        "path": "coordination/missions/round-174/ordinary-prime-regular-pole-coupling.md",
+        "sha256": "44380bffefcb91c212bc63c7321565fde1e61675bec63ae4405f4f9522676634"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r174-api-01a1ed0a/ordinary-prime-regular-pole-coupling-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r174-api-01a1ed0a/ordinary-prime-regular-pole-coupling-candidate.md",
+      "started_utc_epoch": 1795137835.145657
+    },
+    {
+      "call_id": "ordinary-prime-affine-difference-distribution",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "b32f5e2416ca96d8f135cf9a68a771b004c41a4f8ce2e265ec74cf0a1279ebab",
+      "mission_file": {
+        "path": "coordination/missions/round-174/ordinary-prime-affine-difference-distribution.md",
+        "sha256": "81692841351b033945073c6219539fe749bf1592398711eb80fdf60c3f8ae19b"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r174-api-01a1ed0a/ordinary-prime-affine-difference-distribution-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r174-api-01a1ed0a/ordinary-prime-affine-difference-distribution-candidate.md",
+      "started_utc_epoch": 1795137835.1453571
+    },
+    {
+      "call_id": "cold-prime-actual-log-prefix-confinement",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "13259ef87630416b007e456282347adfc6ed9a68d2f848bd7021816436ec93c0",
+      "mission_file": {
+        "path": "coordination/missions/round-174/cold-prime-actual-log-prefix-confinement.md",
+        "sha256": "5d8183365686c9323ef069485c93adb27838076308303e5bbeb79819008519df"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r174-api-01a1ed0a/cold-prime-actual-log-prefix-confinement-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r174-api-01a1ed0a/cold-prime-actual-log-prefix-confinement-candidate.md",
+      "started_utc_epoch": 1795137835.1463249
+    }
+  ]
+}

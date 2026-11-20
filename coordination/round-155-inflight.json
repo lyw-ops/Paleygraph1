@@ -1,0 +1,61 @@
+{
+  "round": 155,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-154-acceptance.json",
+    "sha256": "9c8f669fb938dbf0899d1763faa2fd65eb89043c7b68d6dfb540f9092a0e59d7"
+  },
+  "coordinator": {
+    "path": "coordination/round-154.json",
+    "sha256": "7bbd4b53d24b3a647d4ffbedd181f615580174838b56a3e0fb2bfe32034eb699"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-155.py",
+    "sha256": "aac9c3324f513b7e2993d0d5813c3356eb3acc038b8e6b3d9685616770e8158c"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-155-before.json",
+    "sha256": "5c06ad50d13238c9490ba44d50970c1568e7081434945afb743dd7fa333a4ca2"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-favorable-crossratio",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "8687a7af15cfb2d0eb3afbeaf9669c302a0effa141c1a09c82ad869aff50d3ce",
+      "mission_file": {
+        "path": "coordination/missions/round-155/ordinary-prime-favorable-crossratio.md",
+        "sha256": "52da1e23840fcb31b02476eabe6612ea05d0962c2d4441a60ead6a5a6970d7ab"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r155-api-01a1ed0a/ordinary-prime-favorable-crossratio-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r155-api-01a1ed0a/ordinary-prime-favorable-crossratio-candidate.md",
+      "started_utc_epoch": 1795126588.167852
+    },
+    {
+      "call_id": "cold-actual-opposing-residual-signature",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "3ed794e27856f7d3291ee8af2a38e43194159d340e80aa9eb6a594aeed7d6cf5",
+      "mission_file": {
+        "path": "coordination/missions/round-155/cold-actual-opposing-residual-signature.md",
+        "sha256": "462953a7a6a9c6a6a1849ea8e34c345ad2606d6a553067ecf309a8ba2ee162cf"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r155-api-01a1ed0a/cold-actual-opposing-residual-signature-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r155-api-01a1ed0a/cold-actual-opposing-residual-signature-candidate.md",
+      "started_utc_epoch": 1795126588.167391
+    },
+    {
+      "call_id": "ordinary-prime-original-face-dual",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "563d22238cdc8510d19ef1d8e672e0a4543e5b6dcaf4ee4ef1e48d041728e93d",
+      "mission_file": {
+        "path": "coordination/missions/round-155/ordinary-prime-original-face-dual.md",
+        "sha256": "7e636e033e23898a05be7dec34db786517bc7f27e69449696c10f34a12aad1cd"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r155-api-01a1ed0a/ordinary-prime-original-face-dual-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r155-api-01a1ed0a/ordinary-prime-original-face-dual-candidate.md",
+      "started_utc_epoch": 1795126588.1683352
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Review of the reflected-pair cubic response
+
+The [returned draft](api-astra-overflow-120.txt) correctly applies the norm estimate for the sum of two actual negative rows. It then uses unscaled factors \(f,f_-\) in formulas for the normalized pair \(g,g_-\). On the actual low-loss block \(\mathbb E_n(qf)\asymp1\) and \(\mathbb E_n(qf_-)=O(n^{-1/4})\); dividing both factors by \(\sqrt n\) gives the corresponding critical orders \(n^{-1/2}\) and \(n^{-3/4}\). The unscaled full cubic is \(n\) times the normalized one. The kept output mark comes from the exceptional reciprocal product, rather than from the leading equal-input term.
+
+With the actual normalizations, \(w_q/\omega=q\mathbb E_n f/\mathbb E_n(qf)=O(1)\) pointwise. This bound holds regardless of small values of \(f\). The asserted lack of domination comes from the incorrect unscaled pairing, and the proposed low-factor mass bound already follows in the correct units. The [receipt](api-astra-120-receipt.json) and raw draft are retained.
+
+The [verified local output-masked calculation](reflected-offmark-cubic-120.md) uses this domination and the true all-translate law. Removing the marked summation coordinate cancels the transported output term, while retaining the critical opposite input singleton. The actual signed distinct lower then requires no hypothesis that the output mark tends to zero. The corresponding one-sided arithmetic upper and the cap premise remain open, as does the original ordinary theta limit.

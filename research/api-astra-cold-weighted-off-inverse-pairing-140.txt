@@ -1,0 +1,170 @@
+## Result: inconclusive; the required strict-margin estimate is not established
+
+I cannot certify that the two signed rational pullbacks price the off-inverse part below either target. The available identities give exact cancellation and pointwise/entrywise square-root bounds, but they do not give the required translated physical norm bound for the actual weighted packets.
+
+The statement concerns the fixed actual family
+
+- primes \(p\) in the previously specified eligible-prime family, with \(p\to\infty\);
+- \(G=\mathbb F_p^{\times 2}\), \(n=|G|\);
+- height \(h=601\) and the pure Jacobi seed;
+- the original closed square;
+- the actual marked rows, including \(t_0=n\), both boundary pairs, and the actual trace lifts;
+- the physical translated packet norm \(P_{5000}\), with the exceptional-lift and marked corrections retained.
+
+The desired eventual bounds are
+
+\[
+\|{\cal S}_{\mathrm{off}}\|_{P_{5000}}<0.703184
+\]
+
+for the square difference, or
+
+\[
+\|{\cal T}_{\mathrm{off}}\|_{P_{5000}}<0.268468
+\]
+
+for the anticommutator, with a separate inverse-line contribution and a strict residual margin.
+
+### 1. Exact signed pairing
+
+For \(c=xy\neq1\), the actual square-difference kernel is
+
+\[
+{\cal S}(x,y)=
+\frac{s(x)}2\sum_{z\in G}
+\bigl(s(z)+s(c/z)\bigr)
+\bigl(d(x/z)d(z/y)-j(x/z)j(z/y)\bigr).
+\]
+
+For the anticommutator it is
+
+\[
+{\cal T}(x,y)=
+s(x)\sum_{z\in G}
+\bigl(s(z)+s(c/z)\bigr)e(x/z)j(z/y).
+\]
+
+Thus the opposite-sign intermediate positions cancel exactly. On \(c=1\), however, the two signs agree for every \(z\in G\), so this mechanism supplies no saving. That inverse line must remain separate.
+
+The exact rational parametrization is
+
+\[
+z_c(r)=\frac{r^2-c}{r^2-1},
+\]
+
+and, for a weight \(F\),
+
+\[
+\begin{aligned}
+\sum_{z\in G}(s(z)+s(c/z))F(z)
+={}&s(c)F(1)\\
+&+\frac{s(c)}2
+\sum_{\substack{r\in\mathbb F_p\\r^2\notin\{1,c\}}}
+\bigl(\chi(r^2-1)+\chi(r^2-c)\bigr)
+F(z_c(r)).
+\end{aligned}
+\]
+
+This identity is applicable to the actual weights
+
+\[
+F(z)=d(x/z)d(z/y)-j(x/z)j(z/y)
+\]
+
+and
+
+\[
+F(z)=e(x/z)j(z/y).
+\]
+
+Consequently, the off-inverse contribution is exactly the sum of two signed quadratic pullbacks of the actual convolution weights.
+
+### 2. What is proved
+
+The existing evidence establishes the following.
+
+1. **Exact half-mask cancellation.**  
+   For \(c\neq1\), the nonzero sign mask has approximately half the positions, with exact squared norm
+
+   \[
+   2n-4-a_p(c),
+   \]
+
+   where \(a_p(c)\) is the Legendre trace. This gives uniform \(n/2+O(\sqrt p)\) support size.
+
+2. **Entrywise arithmetic control.**  
+   The actual derivative rows admit trace expansions
+
+   \[
+   d_i(a)=\sum_u c_u t_u(a)+e_i(a),
+   \qquad
+   \sum_u |c_u|r_u=O(1),
+   \qquad
+   \|e_i\|_\infty=O(p^{-1}).
+   \]
+
+   For individual trace pairs, the intermediate \(z\)-sum has a nontrivial quadratic inertia and is \(O(r_ur_v/\sqrt p)\). This gives the previously recorded uniform position-kernel estimate
+
+   \[
+   |(KD_1KD_2)(x,y)|\ll p^{-1/2}
+   \]
+
+   for \(y\neq1\).
+
+3. **Inverse-line counting control.**  
+   The \(xy=1\) part has counting norm \(O(p^{-1/2})\), because it is supported on one inverse-line entry per row. This does not imply a small \(P_{5000}\)-price: on translated packets the inverse-line operator is a position multiplier, and its physical cost has not been bounded.
+
+4. **Actual marking and height data.**  
+   The height-transfer argument gives the actual \(601\to602\) cost \(<0.017\) in \(P_{5000}\), with the same marking. The resummed remainder estimate gives, separately,
+
+   \[
+   \|KE_h\|_{P_{5000}}<0.666,
+   \]
+
+   but that is a positive comparison for the remainder and is not an estimate for the present signed off-inverse transport. The positive comparison is known to have a rate exceeding \(0.570\), so repricing alone cannot supply the missing signed improvement.
+
+### 3. Precise remaining gap
+
+The missing assertion would have to be a uniform translated-packet estimate of the form
+
+\[
+\left\|
+\frac{s(x)}2
+\sum_{r}
+\bigl(\chi(r^2-1)+\chi(r^2-c)\bigr)
+F_{x,y}(z_c(r))
+\right\|_{P_{5000},\,c\neq1}
+\leq \rho_{\mathrm{off}}+o(1),
+\]
+
+where \(F_{x,y}\) is one of the two actual weighted products above, and where \(\rho_{\mathrm{off}}\) is small enough that, after the separately priced inverse line and marking errors, the total is below \(0.703184\) or \(0.268468\).
+
+No such estimate is currently available. In particular:
+
+- the half-mask count does not control the correlation of the mask with \(F_{x,y}\);
+- pointwise Weil bounds do not control the translated packet coefficients;
+- the sheaf estimate for each fixed trace pair is an entrywise \(O(p^{-1/2})\) statement, not a bound after the physical packet supremum and the actual marked trace-lift summation;
+- the inverse-line counting estimate cannot be substituted for a physical inverse-line price;
+- the positive resummed comparison deliberately discards the signed identifications needed here.
+
+The **first weighted approximation that fails** is therefore the replacement
+
+\[
+\sum_z (s(z)+s(c/z))F_{x,y}(z)
+\quad\leadsto\quad
+\text{“half the unsigned mass of }F_{x,y}\text{.”}
+\]
+
+This replacement is valid for support counting but not for the physical weighted norm: the actual pullbacks \(F_{x,y}(z_c(r))\) may correlate with either quadratic branch. No strict numerical slack can be claimed from the present records.
+
+## Conclusion
+
+The mission is **inconclusive**, not refuted. Exact signed cancellation off the inverse line is proved, and the actual trace expansions and entrywise cohomological bounds are compatible with a strict physical saving. But the decisive weighted rational-pullback estimate, including the actual marked rows and the separate inverse-line price, has not been proved. Hence neither the square threshold \(0.703184\) nor the anticommutator threshold \(0.268468\) is currently certified.
+
+## Ranked next tests
+
+1. **Rank 1 — Actual finite packet pullback replay.**  
+   For the exact \(h=601\) derivative and pure seed, expand the retained trace labels and actual marking, then form the two rational pullback matrices from (3), with \(c\neq1\) and the inverse line removed. Evaluate their \(P_{5000}\) translated prices using outward rational/interval arithmetic. Separately evaluate the \(c=1\) multiplier. This directly tests whether a strict margin exists before any asymptotic extrapolation; failure would identify the first offending label or packet column.
+
+2. **Rank 2 — Uniform sheaf estimate after packet summation.**  
+   For each retained pair of trace constituents, apply the two quadratic pullbacks in (3) as a single family over the \(c\)-parameter and prove a cohomological bound for the translated packet coefficients, not merely for each \((x,y)\)-entry. The estimate must retain the actual trace lifts, marked floors, and boundary pairs, and must produce an explicit \(\rho_{\mathrm{off}}\) plus an independently priced inverse-line term. This is the route capable of settling the asymptotic target, but it requires a new packet-level monodromy or cancellation argument.

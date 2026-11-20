@@ -1,0 +1,292 @@
+## Checked conclusion
+
+For the selected ordinary-prime family, with \(m=p-1\), the actual full-lift law \(\omega\), both square lifts \(i=0,1\), the regular indicators \(R_i\), and the physical marking
+\[
+\{\alpha,\delta\}\quad\text{versus}\quad\{\bar\beta,\bar\gamma\},
+\]
+the positive one-match form is indeed
+\[
+\mathcal P_1
+ =\frac1m\sum_{\sigma,r,t}
+ g(t)(1-g(t))\,|\widetilde U_{\sigma,r}(t)|^2,
+\]
+where \(g(t)=|f(t)|^2\), \(r\) ranges over the full character group, and
+\[
+\widetilde U_{\sigma,r}(t)=\sum_a U_{\sigma,r}(a)a(t).
+\]
+
+The existing hypotheses imply the checked bound
+\[
+\boxed{\mathcal P_1\ll m\kappa\ll p^{1/2}},
+\qquad
+\kappa=\|\omega\|_\infty\ll p^{-1/2},
+\]
+but they do **not** imply the required
+\[
+\boxed{\mathcal P_1\ll p^{-1/2}}.
+\]
+
+Thus the target remains open. The precise missing input is a physical spectral-localization estimate for the co-moving rows, not another pointwise Gauss bound.
+
+---
+
+## 1. What follows from the actual probability law
+
+For either sign \(\sigma\), each marked slot has marginal law \(\omega\), or its inverse-reflection, which has the same cap. Since \(|D_{i,k}|=1\) on the regular set and \(0\le R_i\le1\),
+\[
+|U_{\sigma,r}(a)|\le 2\omega(a)\le 2\kappa,
+\]
+and
+\[
+\sum_a |U_{\sigma,r}(a)|
+ \le \frac12\sum_{i=0}^1\sum_{k\in\sigma}
+       \mathbb E_W R_i(W,a_k/r)
+ \le 2.
+\]
+
+Consequently, with counting norms and unnormalized Mellin transforms,
+\[
+\frac1m\sum_t|\widetilde U_{\sigma,r}(t)|^2
+ =\sum_a |U_{\sigma,r}(a)|^2
+ \le 4\kappa.
+\]
+Summing over both signs and all \(m\) values of \(r\),
+\[
+\frac1m\sum_{\sigma,r,t}
+ |\widetilde U_{\sigma,r}(t)|^2
+ \ll m\kappa
+ \ll p^{1/2}.
+\tag{1}
+\]
+
+The actual lifted autocorrelation satisfies
+\[
+\ell=\omega-\omega*\omega,
+\qquad
+\|\ell\|_\infty
+ \le \|\omega\|_\infty+\|\omega*\omega\|_\infty
+ \le 2\kappa.
+\]
+Using the exact physical-to-character identity,
+\[
+\mathcal P_1
+ =\sum_{\sigma,r}\sum_{a,a'}
+   \ell(a'/a)\,
+   U_{\sigma,r}(a)\overline{U_{\sigma,r}(a')},
+\]
+up to the harmless inversion convention fixed by the symmetry of \(\ell\). Therefore
+\[
+\mathcal P_1
+ \le 2\kappa
+ \sum_{\sigma,r}
+ \left(\sum_a|U_{\sigma,r}(a)|\right)^2
+ \ll m\kappa
+ \ll p^{1/2}.
+\tag{2}
+\]
+
+This uses the actual \(\omega\), its actual cap, both lifts, and the regular indicators. It is a valid bound, but it is three powers of \(p^{1/2}\) away from the desired normalized estimate.
+
+The prior paid errors remain valid: in the original normalization,
+\[
+\text{one-match contribution}
+ =\frac{p^3}{m}\mathcal P_1+O(p^{3/2}).
+\]
+Hence \(\mathcal P_1=O(p^{-1/2})\) would give the desired \(O(p^{3/2})\) contribution.
+
+---
+
+## 2. The exact physical localization required
+
+Let
+\[
+D_{s_0,s_1}
+ =\{t\in\mathbb F_p^\times:
+    s_0\le g(t)\le s_1\},
+\qquad
+0<s_0\le s_1<1.
+\]
+On this fixed moderate physical band,
+\[
+g(t)(1-g(t))\ge c_{s_0,s_1}:=s_0(1-s_1).
+\]
+Therefore
+\[
+\mathcal P_1
+ \ge \frac{c_{s_0,s_1}}m
+   \sum_{\sigma,r}\sum_{t\in D_{s_0,s_1}}
+       |\widetilde U_{\sigma,r}(t)|^2.
+\]
+Thus the target would require
+\[
+\boxed{
+\sum_{\sigma,r}\sum_{t\in D_{s_0,s_1}}
+       |\widetilde U_{\sigma,r}(t)|^2
+ \ll_{s_0,s_1} p^{1/2}.
+}
+\tag{3}
+\]
+
+This is a genuine localization statement. By (1), the unrestricted spectral mass is only known to be \(O(p^{3/2})\), whereas (3) permits only \(O(p^{1/2})\) on the moderate physical range. Cap bounds and individual residual Gauss estimates do not supply this factor-\(p\) localization.
+
+The moderate band itself has size \(O(\sqrt p)\), since
+\[
+\sum_t g(t)
+ =m\sum_a\omega(a)^2
+ \le m\kappa
+ \ll\sqrt p.
+\]
+But its small cardinality is not enough: the rows could still place essentially all of their spectral mass there.
+
+---
+
+## 3. Exact \(r\)-averaged reduction
+
+The co-moving parametrization gives a useful exact reduction. Fix marked labels \(a,a'\), write
+\[
+h=a'/a,
+\qquad
+\psi=a/r.
+\]
+Then \(a'/r=h\psi\), and hence
+\[
+\begin{aligned}
+&\sum_{r}
+ R_i(W,a/r)D_{i,k}(W,a/r)\,
+ \overline{
+ R_{i'}(W',a'/r)D_{i',k'}(W',a'/r)}
+\\
+&\qquad =
+\sum_{\psi}
+ R_i(W,\psi)D_{i,k}(W,\psi)\,
+ \overline{
+ R_{i'}(W',h\psi)D_{i',k'}(W',h\psi)}.
+\end{aligned}
+\tag{4}
+\]
+
+All fixed Gauss factors remain inside \(D\). In particular, for each lift,
+\[
+D_{i,k}(W,\psi)
+ =
+C_i(W)\times
+\text{the other three moving normalized Gauss factors},
+\]
+with
+\[
+C_i=(\beta\gamma)(-1)\,
+ \overline{g_{\chi^i\alpha\gamma}}\,
+ g_{\alpha\beta\gamma\delta}\,
+ \overline{g_{\chi^i\beta\delta}\,
+ g_{\gamma\delta}\,g_{\alpha\beta}}.
+\]
+No \(C_i\), lift average, regular cut, or physical mark is removed in (4).
+
+Expanding the moderate-band mass gives the exact reduced convolution
+\[
+\begin{aligned}
+&\sum_{\sigma,r}\sum_{t\in D_{s_0,s_1}}
+ |\widetilde U_{\sigma,r}(t)|^2
+\\
+&=
+\sum_{\sigma}\sum_{a,a'}
+ \left(\sum_{t\in D_{s_0,s_1}}(a/a')(t)\right)
+ \sum_r U_{\sigma,r}(a)\overline{U_{\sigma,r}(a')},
+\end{aligned}
+\tag{5}
+\]
+and the last \(r\)-sum is given by (4), followed by the actual four-character expectations.
+
+Equation (5) identifies the remaining problem precisely: one needs cancellation in the \(h\)-shifted \(3+3\) Gauss correlation after averaging with the actual marked-label probabilities. The generic complete Katz bound gives only the previously known \(O(\sqrt p)\)-scale residual, which is sufficient for the already-paid two-match terms but not for (3).
+
+---
+
+## 4. Why autocorrelation alone is insufficient
+
+The actual autocorrelation identity gives positivity and the exact multiplier \(g(1-g)\), but it does not by itself force the rows away from the moderate band.
+
+For example, in the formal phase-free model
+\[
+R_i\equiv1,\qquad D_{i,k}\equiv1,
+\]
+one gets
+\[
+U_{\sigma,r}(a)=2\omega(a),
+\]
+for every \(\sigma,r\). Then
+\[
+\mathcal P_1
+ =8\sum_t g(t)^2(1-g(t)).
+\tag{6}
+\]
+The cap and Parseval estimates only give
+\[
+\sum_t g(t)^2(1-g(t))
+ \le \sum_t g(t)
+ \ll\sqrt p.
+\]
+They do not give \(O(p^{-1/2})\).
+
+This is not a counterexample using the genuine Gauss phases; it is a precise obstruction to deriving the target from the autocorrelation law and cap alone. The genuine \(C_i\) and moving Gauss factors must produce additional cancellation or physical localization.
+
+---
+
+## 5. Zero-match class
+
+The zero-match class is separate and remains open even if the one-match estimate is proved.
+
+After all exact matches are removed, its residual regular correlation is a genuine \(4+4\) Gauss sum. The frequency-deletion errors are already controlled: at a deleted frequency there is at least one \(g_1=-p^{-1/2}\), giving an \(O(p^{3/2})\) cost in the original normalization.
+
+The surviving complete zero-match term has no matching probability factor \(\kappa\). Thus the generic complete \(4+4\) estimate cannot be paid for by the cap in the way available for two or more matches. A separate weighted estimate is needed, at the same normalized target scale:
+\[
+\text{zero-match normalized mass}\ll p^{-1/2}
+\]
+if the original contribution is to be \(O(p^{3/2})\).
+
+In particular, the one-match positive form does not absorb the zero-match term, and no conclusion about zero matches follows from (2)–(5).
+
+---
+
+## Ranked next tests
+
+### 1. Analytic test: prove the \(r\)-averaged shifted-correlation bound
+
+Target the exact quantity in (3), using the reduction (4). Split the \(h=a'/a\) sum into:
+
+1. \(h=1\), repeated-label, and product-balance pieces, already controlled at \(O(p^{3/2})\) in the original normalization;
+2. nontrivial \(h\) with all regular factors retained;
+3. the \(g\approx0\) and \(g\approx1\) tails outside fixed moderate bands.
+
+The decisive estimate is
+\[
+\sum_{\substack{\sigma,a,a'\\a'/a\ne1}}
+\left|\sum_{t\in D_{s_0,s_1}}(a/a')(t)\right|
+\left|
+\sum_{\psi}
+ R_i(W,\psi)D_{i,k}(W,\psi)
+ \overline{R_{i'}(W',h\psi)D_{i',k'}(W',h\psi)}
+\right|
+\ll p^{1/2},
+\]
+after the actual \(\omega^{\otimes4}\) averaging and the two-lift average.
+
+This is the highest-value test because it directly addresses the missing factor \(p^{-1}\) relative to the unrestricted Parseval bound and preserves the actual prime family, physical marking, and normalized Gauss parameters.
+
+### 2. Diagnostic test: compute the exact decomposition along the selected prime family
+
+For many primes in the already-selected ordinary family, compute without replacing any weights:
+
+- the actual \(\omega\) and \(\ell=\omega-\omega*\omega\);
+- both lifts \(i=0,1\);
+- every regular indicator \(R_i\);
+- the fixed factors \(C_i\);
+- the exact rows \(U_{\sigma,r}\);
+- \(\mathcal P_1\), \(p^{1/2}\mathcal P_1\), and the moderate-band mass in (3);
+- the contributions grouped by \(h=a'/a\).
+
+This cannot settle the asymptotic statement, but it will distinguish the two relevant possibilities:
+
+- genuine physical localization, with the moderate-band mass \(O(\sqrt p)\);
+- a persistent \(h\)-sector obstruction, suggesting that the target requires a new cancellation mechanism rather than a refinement of the current cap argument.
+
+All limits here are in the order: fix the physical thresholds and regular conventions, evaluate the exact finite-\(p\) quantity on the selected ordinary primes, then study \(p\to\infty\).

@@ -1,0 +1,61 @@
+{
+  "round": 161,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-160-acceptance.json",
+    "sha256": "df9321f60cc540471f201427517927bbea3c361bcf1a1257ea19bdaf6eaa5640"
+  },
+  "coordinator": {
+    "path": "coordination/round-160.json",
+    "sha256": "ebf3eb033c898e3608d13ed43ec89f267e3e4ff9ac6e5eacb28d57823f74c546"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-161.py",
+    "sha256": "0df13a7f70dadcf830d5a868b66df2593410ace99afc1548cfa2d1e17f92657c"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-161-before.json",
+    "sha256": "2ed2c7f6e02b95b11acdd95f54d9cc1a7fb803c5a96a3249aabea414276d38bf"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-marked-low-spectrum",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "77a733f240486a82622b383502dcf3fc22f351cb60cb9e8e11368c51f04e075e",
+      "mission_file": {
+        "path": "coordination/missions/round-161/ordinary-prime-marked-low-spectrum.md",
+        "sha256": "601ace4bc684df659b264eaee4843b29b0439e9fb9b90cfaf3c7374fb3316258"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r161-api-01a1ed0a/ordinary-prime-marked-low-spectrum-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r161-api-01a1ed0a/ordinary-prime-marked-low-spectrum-candidate.md",
+      "started_utc_epoch": 1795130382.6679838
+    },
+    {
+      "call_id": "ordinary-prime-centered-middle-graph",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "dccabf8a068dbb2f294d8423a9348018fc5269fb106e07d5fff5980adcd81620",
+      "mission_file": {
+        "path": "coordination/missions/round-161/ordinary-prime-centered-middle-graph.md",
+        "sha256": "ea6dc76d0d1cfa8b68314cf6be830d838a26b58d42c694243a4ccc611ceebdac"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r161-api-01a1ed0a/ordinary-prime-centered-middle-graph-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r161-api-01a1ed0a/ordinary-prime-centered-middle-graph-candidate.md",
+      "started_utc_epoch": 1795130382.668703
+    },
+    {
+      "call_id": "cold-actual-picard-increment",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "ddd7bd6571ad022cd4d111d7297f9bf772ef355913f2a733626ec0faea813dfb",
+      "mission_file": {
+        "path": "coordination/missions/round-161/cold-actual-picard-increment.md",
+        "sha256": "7853e3e93ba5ea725dd4b523b65b27bb0e83e96af53004b54a760478591904e1"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r161-api-01a1ed0a/cold-actual-picard-increment-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r161-api-01a1ed0a/cold-actual-picard-increment-candidate.md",
+      "started_utc_epoch": 1795130382.667535
+    }
+  ]
+}

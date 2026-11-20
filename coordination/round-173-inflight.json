@@ -1,0 +1,61 @@
+{
+  "round": 173,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-172-acceptance.json",
+    "sha256": "e3bbc8a87d6a670f53dd2c49ccfe970e2f853da32736eee331387ced485785b1"
+  },
+  "coordinator": {
+    "path": "coordination/round-172.json",
+    "sha256": "65fb3bc28cb979a01e63703ec3b02b869fc2d4b9cd3cb62fd08c11e2b0b9f042"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-173.py",
+    "sha256": "5a36218c90221dea622fdb1dbccde7b1db46657b54e4034fa205c1feeaf9308f"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-173-before.json",
+    "sha256": "eb9c64414494182f9cc7976d767111479130821766070c7a321a6642ec36e8d3"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-coupled-diagonal-incidence",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "d17ee292ff837f1b117f1324d9cbe1660bdc33b2158da6215f24137ac35922cc",
+      "mission_file": {
+        "path": "coordination/missions/round-173/ordinary-prime-coupled-diagonal-incidence.md",
+        "sha256": "350f4e8a1179586d5b5c4418ede4dfbc3be04f83e387712de081bd27a517f576"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r173-api-01a1ed0a/ordinary-prime-coupled-diagonal-incidence-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r173-api-01a1ed0a/ordinary-prime-coupled-diagonal-incidence-candidate.md",
+      "started_utc_epoch": 1795137051.872621
+    },
+    {
+      "call_id": "ordinary-prime-full-weight-affine-energy",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "05763a36df77861b18713fd4bba1761cc1a33885a871f50f16bff22005e370ce",
+      "mission_file": {
+        "path": "coordination/missions/round-173/ordinary-prime-full-weight-affine-energy.md",
+        "sha256": "098b90589967b44a741f693ce9b23361077d44235008ef6b83fb1142aaa0fd0d"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r173-api-01a1ed0a/ordinary-prime-full-weight-affine-energy-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r173-api-01a1ed0a/ordinary-prime-full-weight-affine-energy-candidate.md",
+      "started_utc_epoch": 1795137051.87356
+    },
+    {
+      "call_id": "cold-prime-moving-residual-coordinate-transfer",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "7f052f39b2440b806a102ac7279072de4fe7544e7f499d4b7673807f2bc0055d",
+      "mission_file": {
+        "path": "coordination/missions/round-173/cold-prime-moving-residual-coordinate-transfer.md",
+        "sha256": "972a93a90583d51d7b25c349b9dc73254463a60f5e337fcaa6d2c6d5c7a049e5"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r173-api-01a1ed0a/cold-prime-moving-residual-coordinate-transfer-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r173-api-01a1ed0a/cold-prime-moving-residual-coordinate-transfer-candidate.md",
+      "started_utc_epoch": 1795137051.8730218
+    }
+  ]
+}

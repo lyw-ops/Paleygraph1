@@ -1,0 +1,88 @@
+{
+  "round": 128,
+  "accepted_at_utc": "2026-11-19T16:14:48Z",
+  "previous": "research/round-127-acceptance.json",
+  "previous_sha256": "54c5bed26e1b752160850cab3aa5dd3717551afe0484a3f922a8cc5eb7f34d25",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-127.json",
+    "sha256": "d553f5851e208b8706273e483f38e9491b0111331aa091c10ec76662184ce95b"
+  },
+  "proof_and_code_sha256": {
+    "research/cold-actual-quadratic-128.md": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52",
+    "research/api-astra-review-128.md": "db0e0f7bcddb8d4777e774c5d511573012e4365f4e2d3dbb3c9c5c425545bb0e",
+    "research/api-astra-overflow-128.txt": "010a62259e61d080d6577358701beb4463b4c285151b25a6dbe26c02093d6426",
+    "research/api-astra-128-receipt.json": "20bdc2f87eba63c5690302a7926ff1bf94f8fd0ad057e9aca118bd4d2d8d8c6e"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/api-astra-review-126.md": "a269d3a9b5a6f34275c8c36ca354a304a3f82e0cdb86e6ea56b81c47700814e4",
+    "research/cold-signed-time-kernel-transfer-124.md": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/frozen-entry-transfer-105.md": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/astra-adjoint-82-check.py": "ba506e6a5f1a174cb1d0ae704f02208df42bd8b1ef433212a46430afbde640ca",
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/astra-source-88.md": "80b4849d9f4e43c9a732af10731e6f1c38f895f0c726ad8df4420e591d746f88",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/api-astra-review-127.md": "4fa83b6c1ad00edad44108d4ac0ebc2cea6129bf88285f89559ff319b9c079df",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1",
+    "research/early-ordinary-masked-cubic-121.md": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, actual cold quadratic insertion",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Replay the combined actual height-601 multiplier before absolute pricing and compare the result against its jointly computed counting threshold.",
+        "Carry the actual boundary cost and normalized residual to one compatible growing height."
+      ]
+    },
+    {
+      "name": "/root/audit_128",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use the actual combined derivative at height 601 and test a middle rate below the threshold set by its counting bound.",
+        "Independently prove a growing confined prefix with the compatible translated estimate and same-index quadratic residual."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Test one separately controlled critical real endpoint and its actual fixed-size jump tails before the limit, retaining the exact masked coefficient and capped trajectory.",
+    "On the cold side, replay the combined height-601 derivative at the exact original square and test whether it clears the sharper middle price threshold, then seek a compatible growing block."
+  ],
+  "proof_scope": [
+    "The actual derivative difference E=D601-D600 has total base-pair mass below 0.002727 and first absolute moment below 0.006611. The designated Jacobi seed contributes a saving from each pair of seed factors in the upper weight comparison. All series use the true physical prefix and the actual outgoing residual.",
+    "A Lipschitz bound on the affine packet price gives actual translated rate below 1.063 at height 601. The original seed-centered disk gives its actual counting derivative rate below 0.5145.",
+    "A genuine negative representation of the first transported insertion keeps only its original source pair and the base pair. Pairing that representation against the other column and the second actual derivative difference preserves an odd word on at most six full characters. Mixed price/counting interpolation gives the true quadratic entry sum over all three powers O(epsilon^2 n^(-0.4579)).",
+    "The whole transported frozen sequence and every shifted resolvent at the actual height-601 endpoint obey maximum entry sum or bound O(n^(-0.4579)). The previous 0.467 exponent at height 600 is stronger and is not claimed for the entire updated kernel. All bounds are on the original Q for sufficiently large eligible primes."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The middle-power rate produced by the geometric upper is above the rate required to preserve the old exponent 0.467 under the same interpolation. This gives no lower bound on any true entry.",
+    "No genuine growing-depth confinement, compatible normalized residual, common cold domain, real endpoint upper or original theta limit has been proved."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "The mass, moment, seed disk, affine price slope and interpolation inequalities were checked with exact rationals. The numerical middle threshold is illustrative and does not enter the proof. Raw API draft and model receipt are preserved."
+  ],
+  "independent_review": [
+    "Read-only Astra audit verified designated seed pricing and independent lift averaging, both absolute moments, counting and packet bounds, boundary exceptions and mixed quadratic interpolation. The raw weaker exponent 0.454 was independently verified as well."
+  ]
+}

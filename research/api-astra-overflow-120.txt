@@ -1,0 +1,120 @@
+## New governing identity for the actual two-step pair
+
+Let
+\[
+q=h_j+h_{j+1},\qquad u=\epsilon Kq,\qquad
+A_q=u(0),
+\]
+and let \(f=f_\epsilon\), \(f_-=f_{-\epsilon}\) be the two true reciprocal factors. From (2),
+\[
+\|u-q\|_{2,n}
+\le \|\epsilon Kh_j-h_{j+1}\|_{2,n}
++\|\epsilon Kh_{j+1}-h_{j+2}\|_{2,n}
++\|h_{j+2}-h_j\|_{2,n}
+=O(n^{-1/2}).                                      \tag{4}
+\]
+Thus \(q\) is the genuine nonnegative two-step source; it is not a projected or truncated surrogate. Its mean and second norm remain on the critical scales
+\[
+\mathbb E_nq\asymp n^{-1/2},\qquad \|q\|_{2,n}^2\asymp n^{-1/2},
+\]
+and \(q(0)=0\) whenever the two actual negative rows have positive marked coordinate, as they do on the persistent window.
+
+Define
+\[
+w_q(y)=\frac{q(y)f(y)}{n\,\mathbb E_n(qf)},\qquad
+\mathcal L_q=\sum_{x,y}\omega^-_xw_q(y)\,k(x-y)^2,
+\]
+where \(\omega^- =f_-/(n\mathbb E_n f_-)\). The same distinct-shift expansion used for the single repair gives the following conditional identity.
+
+### Proposition (two-step reciprocal cubic)
+
+Assume, in addition to the displayed critical bounds, that the collision estimates used in the single-repair cubic hold with \(q\) in place of \(h\):
+\[
+\mathbb E_n(qf_-)=O(n^{-3/4}),\qquad
+\|q\|_\infty,\|f\|_\infty,\|f_-\|_\infty=O(\sqrt n),
+\]
+and that the two-equal-shift contributions are \(O(n^{-5/4})\). Set
+\[
+M_q^{\rm dist}
+=\mathbb E_n\!\left[u\,(Kf)(Kf_-)\right]_{\rm distinct}.
+\]
+Then
+\[
+\boxed{
+nM_q^{\rm dist}
+=p\,\mathbb E_n(f_-)\,\mathbb E_n(qf)\,\mathcal L_q
+-(1-t/n)A_q+O(n^{-1/4}).
+}                                                     \tag{5}
+\]
+The error is uniform for \(j\) in the four-step low-loss block, provided the constants in the collision hypotheses are uniform.
+
+The proof is algebraically the same as the single-repair calculation, but (4) is needed to replace \(u\) by \(q\) in the noncollision term. The \(h,f\) equal-pair contribution is the only order-\(n^{-1}\) collision; summing it over the marked coordinate produces \(-(1-t/n)A_q\). Thus the transported mark is not discardable: the two-step source has \(q(0)=0\), but its transported output \(A_q=(\epsilon Kq)(0)\) can remain order one.
+
+The Legendre expansion is also unchanged:
+\[
+\mathcal L_q
+=\frac{n-1}{p}
+-\frac1{2p}
+\sum_{\substack{v\in Q\\s(v)=-\epsilon}}
+(a_p(v)+2)\,
+\widehat{\omega^-}(v)\overline{\widehat{w_q}(v)}.       \tag{6}
+\]
+Consequently, excluding the reflected pair by a full reciprocal cubic requires one of the following genuinely new assertions:
+\[
+\liminf \mathcal L_q>0,                                  \tag{7a}
+\]
+or
+\[
+A_q\to0\quad\text{and}\quad M_q^{\rm dist}=o(n^{-1}),     \tag{7b}
+\]
+or a prime-uniform upper bound on the trace term in (6) with a strict margin.
+
+## Precise obstruction to transferring the earlier spreading argument
+
+The exact translate identity
+\[
+\sum_y\omega_y\omega^-_{y+d}=1/n
+\]
+does **not** by itself imply (7a). In the single-repair argument, the crucial extra input was
+\[
+w_h(y)\le C\omega_y,
+\]
+which transferred uniform spreading of \((\omega,\omega^-)\) to the repair-weighted difference law.
+
+For the actual two-step source, the corresponding ratio is
+\[
+\frac{w_q(y)}{\omega_y}
+=\frac{q(y)\,\mathbb E_n f}{\mathbb E_n(qf)}.             \tag{8}
+\]
+The persistent-window hypotheses provide only
+\[
+q(y)=O(1),\qquad \mathbb E_n(qf)\asymp n^{-1/2},
+\]
+whereas \(f(y)\) may be arbitrarily small on a set carrying a non-negligible portion of \(q\). Hence no bound \(w_q\le C\omega\) follows. More precisely, if \(E\) is a set on which \(f\le \tau\sqrt n\), then
+\[
+w_q(E)
+\le \frac{\tau\sqrt n\,\mathbb E_n q}{\mathbb E_n(qf)}
+\asymp \tau,
+\]
+but this tends to zero only after a separate \(\tau\)-uniform argument. The existing pair estimates do not supply such an argument. Therefore the exact all-translate spreading of the two true factors does not presently yield a positive lower bound for \(\mathcal L_q\).
+
+Likewise, Hasse plus Parseval applied to (6) gives only an \(O(1)\) bound on the weighted trace term. Since the coefficients \(\widehat{w_q}(v)\) are orbit-dependent and may correlate with the signs of \(a_p(v)\), this does not produce the strict margin required to contradict (5). This is a genuine asymptotic gap, not a finite-check issue.
+
+## What the pair does establish
+
+The two-step relation supplies a better target than either individual transport:
+\[
+\epsilon Kq=q+O_{2,n}(n^{-1/2}),                         \tag{9}
+\]
+with \(q\ge0\), \(q(0)=0\), and \(A_q\) retained explicitly. Thus the unresolved arithmetic problem is now a reciprocal cubic for a nonnegative near-\(\epsilon\)-eigenrow with effective support \(\asymp\sqrt n\), rather than an arbitrary rectangle or a single negative row.
+
+### Ranked next tests
+
+1. **Weighted domination test (decisive):** prove, on the actual low-loss block, either
+   \[
+   \sum_{y:f(y)\le\tau\sqrt n}q(y)f(y)=o(\mathbb E_n(qf))
+   \quad(\tau\downarrow0),
+   \]
+   uniformly in the prime, or directly \(\liminf\mathcal L_q>0\). This would activate the true-factor translate identity and force a positive cubic.
+
+2. **Prime computation of the transported mark:** compute \(A_q=(\epsilon K(h_j+h_{j+1}))(0)\) together with \(\mathcal L_q\) on growing prime samples. A persistent \(A_q\not\to0\) already prevents the proposed “vanishing output” cancellation in (5); if \(A_q\to0\), the data should test whether \(\mathcal L_q\) has a uniform positive floor.

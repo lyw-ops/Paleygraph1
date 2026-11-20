@@ -1,0 +1,114 @@
+## Result: the obvious translated family does not yet give a signed gain
+
+I kept the actual family from the cold construction: the two physical lifts, actual heights \(601,602\), the physical mark \(t_{0}=n\), the actual coefficient normalization, the common square, and the \(P_{5000}\) norm. The limits below are taken first along the eligible prime family with \(n\to\infty\), so that the marked-floor, exceptional, and physical-denominator errors are \(O_{P_{5000}}(n^{-1/2})\); only afterward is the translated input weight \(j\) sent to infinity.
+
+Let
+\[
+D=d_t(S)=\sum_{r\ {\rm odd}}a_r C_r,\qquad
+Q=d_t'(S)=\sum_{r\ {\rm even}}b_r C_r .
+\]
+For \(j\) outside the finite collision set, the Chebyshev product rule gives
+\[
+D C_j
+ =\frac12\sum_{r\ {\rm odd}}a_r(C_{j+r}+C_{|j-r|}),
+\]
+and similarly
+\[
+Q C_j
+ =b_0C_j+\frac12\sum_{r>0\ {\rm even}}b_r(C_{j+r}+C_{|j-r|}).
+\]
+
+Thus a translated inner harmonic \(C_{j+r}\), with \(r\) fixed and \(j\to\infty\), has coefficient
+\[
+\frac{a_r}{2}\quad\text{or}\quad \frac{b_r}{2},
+\]
+independent of \(j\). This is the important difference from the fixed-return \(C_1\) or \(C_2\) selection: the coefficient does not decay with the canonical input weight.
+
+### Affine translated norm
+
+Write the eventual affine part of the \(P_{5000}\) price as
+\[
+\pi(k)=\lambda k+\mu
+\]
+for \(k\) beyond the finite prefix. For every fixed shift \(r\),
+\[
+\frac{\pi(j+r)}{\pi(j)}
+ =\frac{\lambda(j+r)+\mu}{\lambda j+\mu}
+ \longrightarrow 1
+ \qquad (j\to\infty).
+\]
+The same statement holds after any fixed finite convolution of harmonic measures. Consequently, for a fixed translated word \(T_r\) whose coefficient is \(c_r+O(n^{-1/2})\),
+\[
+\frac{\|T_r C_j\|_{P_{5000}}}{\|C_j\|_{P_{5000}}}
+\longrightarrow |c_r|\,\mathcal A_r
+\]
+where \(\mathcal A_r\) is the nonzero affine-limit multiplier from the remaining fixed arithmetic factors. There is no geometric suppression in \(j\). The \(O(n^{-1/2})\) term is uniform in the finite physical repairs and in both lifts, but it does not create a negative limiting contribution.
+
+This verifies that a genuinely translated family can survive at large width. It does **not**, by itself, produce a gain.
+
+## Why the translated term does not presently merge with the opposing term
+
+The harmonic index \(j+r\) is not enough to identify two arithmetic terms. The candidate translated contribution and the existing opposing \(C_1/C_2\)-return contribution can have the same harmonic weight only after a second coincidence of their derived arithmetic labels.
+
+For the known families, the retained label distinctions are:
+
+- \(C_1F_4\) carries the rank-four derived factor;
+- \(WY\) carries a rank-three factor together with a nontrivial Legendre factor;
+- \(WG\) and \(F_4G\) carry the rank-five/six/seven constituents described in the earlier composition;
+- translated Jacobi multiplication changes the Jacobi-line shift but does not remove these independent derived constituents.
+
+Hence equality of the harmonic output \(C_{j+r}\) would still require equality of the derived arithmetic object. The existing determinant/rank arguments rule this out for the already checked low-degree families. In particular, the translated \(C_{j+r}\) terms are not automatically the same object as the fixed-return \(K(C_1F_4)\), \(K(WY)\), \(K(WG)\), or \(K(F_4G)\) packets.
+
+What remains unproved is the stronger statement that **all** translated higher-degree words have distinct arithmetic labels from every opposing word. The available rank arguments only cover the listed low-degree constituents and selected Taylor orders. Therefore exact noncoincidence for the complete translated family has not been established.
+
+## Real-slice sign
+
+On the real slice, the seed coefficient signs from the binomial expansion are alternating:
+\[
+\operatorname{sgn}(a_{2m+1})=(-1)^m,
+\qquad
+\operatorname{sgn}(b_{2m})=(-1)^m
+\]
+in the cold range. The two shifted outputs \(C_{j+r}\) and \(C_{|j-r|}\) therefore inherit the same coefficient sign from a fixed \(r\). For the previously checked odd inputs \(j\ge 3\), the fixed-return terms were constructive rather than opposing. The same sign mechanism persists for the translated pair unless another outer factor reverses it.
+
+Thus the large-\(j\) translated family supplies a nonvanishing affine-limit contribution, but the available sign information points toward reinforcement on the real slice, not a uniform negative debit. Passing from the real slice to the common complex square would additionally require a sector estimate comparable to the \(5\cdot10^{-6}\) argument used in the fixed-return calculation; no such estimate has been supplied for the full translated family.
+
+## Large-input affine limit
+
+For each fixed \(r\), after the physical and exceptional corrections are removed by
+\[
+n\to\infty\quad\text{along the eligible prime family},
+\]
+the translated column has a finite nonzero affine limit:
+\[
+\lim_{j\to\infty}
+\lim_{n\to\infty}
+\frac{\|T_r C_j\|_{P_{5000}}}{\|C_j\|_{P_{5000}}}
+=
+|c_r|\,\mathcal A_r,
+\]
+provided the corresponding arithmetic label is nonzero. The limit is not a decaying \(O(\rho^j)\) term. However, because no complete opposite-label coincidence has been proved, this affine limit currently contributes only to the absolute translated envelope. It does not yield a signed reduction of the \(0.51961239\) budget.
+
+### Status
+
+**Inconclusive, with a precise obstruction:** translated output shifts survive the large-input affine limit, but harmonic translation alone does not produce overlap. A complete result requires either:
+
+1. an exact arithmetic-label coincidence between a translated omitted term and an opposing term, together with a complex-square phase bound; or  
+2. a proof that all such translated labels are distinct, followed by a constructive-sign estimate showing reinforcement.
+
+## Ranked next tests
+
+1. **Exact label test for the first nontrivial translated family.**  
+   Compute the full two-lift arithmetic labels for
+   \[
+   C_j\longmapsto C_{j+1},\qquad
+   C_j\longmapsto C_{j+3}
+   \]
+   in the lowest omitted-center words containing \(F_4\) and \(G\). Compare them against the \(C_1F_4\), \(WY\), \(WG\), and \(F_4G\) labels using determinants of the Jacobi lines and the independent rank-\(4\) through rank-\(7\) constituents. This is the highest-value test: an exact noncoincidence would rule out the proposed translated overlap mechanism, while a coincidence would identify the first candidate signed gain.
+
+2. **Affine-limit complex-sector test.**  
+   For the first label family that survives test 1, retain \(j\) symbolically and bound the ratio
+   \[
+   \frac{T_r(C_j)(z)}{\pi(j)}
+   \]
+   on the common cold square for both physical lifts. First take \(n\to\infty\), then \(j\to\infty\), and determine whether the limiting phase is uniformly opposing or constructive. A constructive limit would prove reinforcement; an opposing limit would provide the needed translated signed debit.

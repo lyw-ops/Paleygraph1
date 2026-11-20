@@ -1,0 +1,11 @@
+# Round 177 gateway drafts and mathematical review
+
+The initial batch had two complete Astra outputs. Its coupled-output lane had a terminal timeout without text. One retry used the same checked mission with a smaller reasoning budget and returned HTTP 403 without text. Both receipts and both dispatches are retained. The model catalog subsequently returned HTTP 200. The coordinator independently developed the ordinary and cold deductions, which /root/audit_177 checked.
+
+| Assignment | Draft outcome | Checked continuation | Returned ranked tests |
+|---|---|---|---|
+| Coupled output-set incidence | No draft on either attempt. | The actual four-heavy-role kernel has a stronger first mass by shifted multiplicative energy and a size-dependent BSG cover. Combining this with the output-first incidence and the light and leftover cuts improves the whole weighted diagonal. | No reply. |
+| Rich right distribution | The max and Markov tail are inherited. The saturation example can fit its listed first-mass and row inequalities but exceeds the known full affine bound. Its stated high tail identity omits the threshold term. | The new weighted shifted energy improves the actual \(r\)- and \(b\)-row budgets, pure differences and both separate physical common-parameter classes. The summed generic energy stays open. | Mixed-level two-torus incidence first, then a separate genuinely weighted one-match and zero-match test. |
+| True cold signed-source bundle | The displayed Duhamel identity is valid. Its proposed nonlinear test replaces powers by partial sums, and the smoothing test applies an extra \(K\) to already transported sources. No growth bound follows. | The seed-centered geometry permits radius \(3/8\) with the same logarithmic cutoff. Actual packet estimates prove ten fixed steps and a more generous conditional source threshold at \(V_{611}\). | Certified signed prefix first, then a signed resolvent bridge or the actual counting source test. |
+
+The combined next tests are to retain genuine distinct-pole amplitude coupling, quantify transverse projected row masses for the summed generic energy, and propagate the actual cold sources with strict clearance. New scalar bounds were checked in exact rational arithmetic. No new outward interval certificate is used.

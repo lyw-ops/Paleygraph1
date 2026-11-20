@@ -1,0 +1,126 @@
+{
+  "round": 145,
+  "accepted_at_utc": "2026-11-19T20:21:06Z",
+  "previous": "research/round-144-acceptance.json",
+  "previous_sha256": "535511b40cc4d5cd786c6bd8dd8bd24603e17b9cb88cac69cfc6544a351cd1b4",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-144.json",
+    "sha256": "fa29fe3b7092c68b6ca98e7391ed6a1b33ea3c89734eab068cacdfa22b358e20"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-terminal-clipped-shift-145.md": "49b618a03e88ac99ca07a05d2f6abc5192fa484eb8bd102b2ead048176d97fcf",
+    "research/cold-jacobi-linear-legendre-145.md": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1",
+    "research/cold-jacobi-linear-legendre-145-check.py": "f088e0428236b89b6fc2a2024a4c3c1239df5fc104b5f3d7e01697f07e9ed1d6",
+    "research/cold-jacobi-linear-legendre-145-checks.jsonl": "40540342a8e92403f2b6a92776f56186340ecf77b1178057fe058274133a2ecc",
+    "research/api-astra-review-145.md": "0cce2c2a658576afb497c62e594d1916d330304bb81b4f1651462f7a08023585",
+    "research/api-astra-145-receipt.json": "c6a6229622341edabbbb2b8b4cf3a98d548ab70c3972e021aa731cc4974c9146",
+    "research/api-astra-ordinary-terminal-signed-clipping-145.txt": "b63ce3a902b95171846eba112e50838ae91669ffff7f95ac7300052b1f859d4f",
+    "research/api-astra-ordinary-terminal-approx-sector-145.txt": "9a9b7c9c791b993938a4de50f03cd2497372772c41f26515f820c5f38ea90da3",
+    "research/api-astra-cold-full-selected-unshifted-price-145.txt": "c91cdb5c5716d08eac5c54cd3202663632940eaf463807dc91809bbb72972522",
+    "coordination/launchers/round-145.py": "62ecbc9c351c032b4d701990619ab2ecbf82e4ad2cc78cb1d3096a2fcd235406",
+    "coordination/round-145-inflight.json": "5b2b59d4b241966a03319af55e11353888772121047ab6067e61e31fb46ed6c3",
+    "coordination/shared-obligations/round-145-before.json": "aabeb658308a20f3df04d540211bf5ef84a2a30c4779db3d11a37a04e34dafc9",
+    "coordination/shared-obligations/round-145-after.json": "8ee93b529712fec2e64e767b95c0ca6de71fb394c5efbe06a0d3d44ac1498d2d",
+    "coordination/missions/round-145/ordinary-terminal-signed-clipping.md": "2098b8070de4657674c63a97377e0d54e40ca5b6218b999b5343c2377d4bda2d",
+    "coordination/missions/round-145/ordinary-terminal-approx-sector.md": "4ae91de2558e71c2bfee66e6a862f9945fda81450d015432a9840755fe252c69",
+    "coordination/missions/round-145/cold-full-selected-unshifted-price.md": "24a09ad646606e6776698d90302ea37fa7ce81ed220e9f7576cdfe95bbe15f53"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-terminal-approximate-face-144.md": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/astra-face-54.md": "c19832b0d663c99fa08c45e80919865bc5e9ff57efb7930d85a837bb826defd8",
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/prime-additive-rigidity.md": "b7ed92a086e84a03ba9709ba2790dfeebd89b1367f6f164a19d975e6422d5eb6",
+    "research/cold-quintic-complete-selected-pools-144.md": "65d491945951070b9db8565942bcec62ce32784750acfa7d7e417c361c36fa06",
+    "research/cold-translated-leading-weight-table-142.md": "81ceea21e0fe16566ab14d1a46b39ec790eedf08f95da9e30288a83169e3d049",
+    "research/cold-mixed-seed-column-141.md": "0c09cd0b907b85540da510809612c64bc2953db2d0c0970120ce9242dcfff468",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/cold-frozen-cross-reduction-138.md": "6a4283f05e6c58c7a1a0b581917838d2174303f2a9b82e40e8c1921aa7640225",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three Astra returns, separately reviewed ordinary reductions and exact rational replay for the full selected cold operator.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 1,
+  "arithmetic_record_counts": {
+    "jacobi_linear_legendre_exact_column_price": 1
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra ordinary signed clipping",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Measure the exact signed deleted tail of the true endpoint",
+        "Test normalized tail localization jointly with the actual projected score"
+      ]
+    },
+    {
+      "name": "Gateway Astra ordinary approximate sector",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Find an admissible low-cost Fourier convolution of the actual optimum",
+        "Seek uniform endpoint second norm or weighted terminal control"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold full selected unshifted price",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Compute the actual unshifted base-column price table",
+        "Verify finite marked and lift repairs throughout the analytic series"
+      ]
+    },
+    {
+      "name": "/root/audit_145",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the true prime deleted tail or find a low-cost near-cap shift",
+        "Control the actual omitted derivative at heights 601 and 602 below the selected cold contraction slack"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Prove a one-sided prime-uniform lower bound on the actual signed deleted tail E[D Xi], with any L=o(T), in the proved growing marked window and with real floor taken down last.",
+    "Test the remaining joint near-cap shift estimate on actual prime endpoints, keeping both normalized root loss and terminal activation at the same physical mark.",
+    "Compare the full two actual cold derivatives with the selected Jacobi-linear-Legendre baseline. Prove a uniform strict error below 0.041 per step or a joint difference below 0.080, with separate accounting for the nonlinear invariant and half step."
+  ],
+  "proof_scope": [
+    "Clipping the bulk of a true optimal row, retaining q_s and restoring mean uniformly on the bulk, gives normalized terminal cost O_tau(sqrt((L+2)/T)). Any L=o(T) suffices for sublinear first moment. The paired residual is exactly -E(D Xi)-d Xi_0/(n-1) and the restoration is O_tau(n^-1/2), eventually favorable. A one-sided lower E(D Xi)>=-o(1) suffices. A fixed prime gap at the true mark forces a fixed negative pairing at every such growing time and cutoff for every actual optimizer. The genuine square minus-window diagnostic is a control.",
+    "For a fixed even true optimizer the two admissible normalized losses of inversion-symmetric positive convolution form the convex hull of same-mark shift pairs. Two shift orbits suffice at a finite mark budget; a single shift orbit suffices if both losses jointly vanish. Small weight away from the identity cannot remove an order-T nonnegative bulk cost.",
+    "On the original closed cold square with t0=n, eventual P5000 rates on the entire Round 96 two-boundary-pair packet class are below 0.487 for the all-order operator KD^L, where D^L=alpha Y d_t prime(S), and below 0.959 for K(D^J+D^L). The pure Jacobi rate and the linear bound give mixed two-step rate below 0.515; the selected sum has square below 0.920. Complex harmonic coefficients are collected before modulus, the two retained positive prices add before taking the input-column supremum, and all analytic and exact physical repairs are included."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw clipping note asks for equality instead of a one-sided signed condition and overstates the needed restoration control. Its cold-independent argument gives no prime cancellation.",
+    "The raw convolution note omits divisor n from the mark subtraction and a separate mark term is unnecessary for the bulk cost. Its almost-identity smoothing cannot lower the existing cost enough. A low-cost near-cap shift, for both signs at selectable actual times, remains open.",
+    "The raw cold tail omits cross terms at total order at least three with both indices less than three and uses absolute t in complex equalities. The checked selected rates do not include the higher Legendre orders or the other derivative centers and physical residuals, nor do they establish any common marked domain or the original theta limit."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "The exact Fraction replay reads Round 130 rational prices as data and gives one verified result. Both coordinator and auditor matched the saved record byte for byte. The finite rational constants concern a uniform geometric comparison, with strict slack absorbing proved finite-field repairs.",
+    "Three matching complete HTTP 200 returns with stop status were archived. The two real approaches were compared on their distinct exact residual obligations, without claiming a common bound."
+  ],
+  "independent_review": [
+    "The read-only auditor verified clipping, normalized marked restoration and positive shift convexity, and strengthened the allowable cutoff to L=o(T). The auditor independently checked both fiber measures, column maximization, whole tails and uniform physical corrections, and replayed the exact record."
+  ]
+}

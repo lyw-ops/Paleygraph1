@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_171",
+  "comparison": "The three responses concern one-match physical mixing, a directional actual optimal-face inverse cost, and a distributed cold source. The verified new quantitative improvements are on the first and third, with their distinct target gaps retained.",
+  "groups": [],
+  "dispatch": "coordination/round-171-inflight.json",
+  "launched_at_utc": "2026-11-20T00:53:16.242829Z",
+  "launched_calls": [
+    "ordinary-prime-regular-dilation-jacobi",
+    "ordinary-prime-inverse-spectral-tail",
+    "cold-prime-shared-linear-mixed-transport"
+  ],
+  "before_sha256": "58c5b44e3a6983f43159a52f7885a14f437539886fcf64cd8f9149ea140fb61f"
+}

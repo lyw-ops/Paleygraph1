@@ -1,0 +1,127 @@
+## Result
+
+I do not obtain the required prime-only \(o(1)\) upper for either exact face maximum. The strongest checked estimate available from the stated hypotheses is a genuine bound for the **middle-deficit component**, but it is not small in the proved marked window.
+
+Fix \(\tau>0\), \(b_*>0\), and let \(p\to\infty\) through the eligible ordinary primes. Put
+\[
+n=\frac{p-1}{2},\qquad
+u=T^{-1/3},
+\]
+where \(T=T(p)\to\infty\), \(T+1\) lies in the simultaneous marked window, and retain the original first reflection. The physical marked coordinate and the other physical root are excluded, as is the diagonal \(i=j\). All expectations and norms below are normalized by \(n\).
+
+Let
+\[
+d_{\rm mid}
+=d\,1_{\{n^{-1/4}T^{1/12}<d\le \sqrt n\,T^{-5/6}\}},
+\qquad
+S=\{i\in I:b_i^{(0)}\ge b_*\},
+\]
+and
+\[
+w_{\rm mid}=-\sigma\,1_S K^\circ d_{\rm mid}.
+\]
+
+For every true opposite optimal face element \(F\), with \(F_0=q\), one has
+\[
+0\le F_i\le q,\qquad \mathbb EF=1,\qquad q\asymp_\tau \sqrt n,
+\]
+and the first-reflection estimates give
+\[
+\mathbb E d_{\rm mid}^2\le \mathbb E d^2=O_\tau(T^{-1}).
+\]
+Since \(K\) is an orthogonal-sector contraction,
+\[
+\|K d_{\rm mid}\|_2\le \|d_{\rm mid}\|_2=O_\tau(T^{-1/2}).
+\]
+
+The true high receiver satisfies
+\[
+\frac{|S|}{n}=O_{\tau,b_*}(T^{-1}).
+\]
+Consequently,
+\[
+\|F1_S\|_2^2
+=\mathbb E(F^2 1_S)
+\le q^2\frac{|S|}{n}
+=O_{\tau,b_*}\!\left(\frac nT\right),
+\]
+and hence
+\[
+\begin{aligned}
+\left|\mathbb E(Fw_{\rm mid})\right|
+&\le \|F1_S\|_2\,\|K d_{\rm mid}\|_2
+   +O_\tau\!\left(q\,\frac{\mathbb E d}{n}\right)\\
+&\ll_{\tau,b_*}\frac{\sqrt n}{T}
+   +O_\tau\!\left(n^{-1/2}T^{-2/3}\right).
+\end{aligned} \tag{A}
+\]
+The second term is the already-controlled diagonal-removal cost; both physical roots remain excluded throughout.
+
+Thus the middle-deficit contribution is \(o(1)\) only under the additional growth condition
+\[
+T/\sqrt n\longrightarrow\infty.
+\]
+That condition is not part of the presently proved simultaneous marked window and is not known to be compatible with the required marking construction. Therefore (A) does **not** prove the requested prime-uniform upper.
+
+The same obstruction applies to the exact face maximum. The face identity is
+\[
+\max_{\substack{Z\in U_{-\sigma}\\ Z_i\le w_i\ (i\in I)}}
+\left(\mathbb EZ-\frac qn Z_0\right)
+=
+\min_{F\in\mathcal R_\sigma}\mathbb E(Fw),
+\]
+where \(\mathcal R_\sigma\) is the true opposite optimal face and \(I\) is its true common complementary-zero set. Estimate (A) bounds the middle piece for every \(F\in\mathcal R_\sigma\), but only by \(O(\sqrt n/T)\), not \(o(1)\). The low and high pieces are already \(O_\tau(T^{-1/12})\) and \(O_\tau(T^{-1/6})\), respectively, while the signed high-receiver main term remains order one under a fixed gap:
+\[
+\mathbb E(Fw)\ge g-b_*-o(1).
+\]
+Hence the unresolved term is genuinely the adaptive correlation of \(F\) with the signed Jacobi image on \(S\), not merely the truncation error.
+
+## Why the ordinary-prime hypothesis has not yet entered
+
+The estimate above uses only:
+
+1. the actual first-reflection geometry;
+2. the true common complementary zero set;
+3. the cap \(F_i\le q\);
+4. the \(O(T^{-1})\) density of the full high receiver;
+5. the \(L^2\)-contraction of \(K\).
+
+No ordinary-prime character-sum input controls
+\[
+\mathbb E\!\left(F\,1_S Kd_{\rm mid}\right)
+\]
+because both \(S\) and \(d_{\rm mid}\) are selected from the actual orbit and therefore depend on the same Jacobi kernel. Applying a Weil bound to fixed masks does not justify cancellation against this adaptive mask. The filtered-support estimate likewise gives only directional mass outside Bohr arcs and does not control the weighted face correlation on the full \(S\).
+
+The square-family calculation confirms that a purely field-independent relaxation cannot suffice: on the eligible square family, the true opposite optimizer gives a positive lower bound for the analogous weighted hinge cost. This does not refute a prime-only theorem, but it shows that the missing step must use arithmetic specific to ordinary primes, rather than only the sector identities, operator norm, or generic Weil estimates.
+
+## Precise remaining gap
+
+To finish the proposed mission one needs one of the following, uniformly for the actual ordinary-prime family and selectable \(T\):
+
+\[
+\sup_{F\in\mathcal R_\sigma}
+\left|\mathbb E\bigl(F\,1_S K^\circ d_{\rm mid}\bigr)\right|
+=o(1),
+\]
+or an equivalent upper for the dual maximum with \(w=-\sigma1_S K^\circ d_{\rm mid}\) or \(w_+\).
+
+The available bound is only
+\[
+O_{\tau,b_*}\!\left(\frac{\sqrt n}{T}\right)
++O_\tau(n^{-1/2}T^{-2/3}),
+\]
+which is insufficient in the known order of limits: first \(p\to\infty\) through eligible ordinary primes with \(T=T(p)\) in the proved marked window, and only afterward any \(\tau\downarrow0\) or \(b_*\downarrow0\) procedure.
+
+## Ranked next tests
+
+1. **Prime-specific adaptive correlation test.**  
+   Prove a decoupling estimate for the actual orbit mask:
+   \[
+   \sup_{F\in\mathcal R_\sigma}
+   \left|\mathbb E(F\,1_S Kd_{\rm mid})\right|
+   \le o(1),
+   \]
+   by expanding the endpoint error \(e_\sigma=-P_{-\sigma}g_T/(2TM)\) and using ordinary-prime character sums after conditioning on a coarse level decomposition of \(d_{\rm mid}\). The essential test is whether the dependence of \(F,S,d\) can be reduced to \(O(\log p)\) fixed translated masks without losing the \(o(1)\) gain.
+
+2. **Exact finite-prime face computation on ordinary primes.**  
+   For increasing eligible ordinary primes, solve the exact primal and dual linear programs with the original \(d_{\rm mid}\), full \(S\), both roots removed, and diagonal deleted. Record whether the dual optimizer concentrates on a small number of Jacobi phases or remains diffuse. This cannot settle the asymptotic theorem, but it directly tests whether the obstruction is a concentrated arithmetic pattern or a genuinely diffuse face phenomenon.

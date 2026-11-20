@@ -1,0 +1,130 @@
+## Verdict
+
+**Inconclusive; no asymptotic obstruction is proved, but the required growing-depth estimate is not currently established.** The exact elimination is compatible with the desired argument, and the fixed-height \(m=527\) calculation must remain separate from the ordinary-theta limit.
+
+### 1. Exact source identity and units
+
+For \(t\in Q\), \(p=2n+1\), and the physical nine-center predictor \(V=V_m\), set
+\[
+A=I-KD,\qquad Z=A^{-1}K,\qquad R=K\Phi-V,
+\]
+with \(t_0=n\) and \(t_i=t\) off the mark. On the physical square and positive-real sheets,
+\[
+(1-\eta)P
+ =Zb-\frac{2V-S}{2t\sqrt t}-\frac{A^{-1}R}{t\sqrt t}, \tag{1}
+\]
+where \(P=fZe_0\), \(|\eta|<9/\sqrt n\), and, for \(i\neq0\),
+\[
+b_i=\frac1t\left[
+\frac{x_i^2}{u_i(1+u_i)^2}
++\frac{(S_i-V_i)V_i}{4tu_i}
+\right],\quad
+x_i=\frac{V_i^2}{4t},\quad u_i=\sqrt{1+x_i},
+\]
+with \(b_0=0\).
+
+The identity is algebraically consistent: applying \(A\) to
+\[
+P+\frac{2V-S}{2t\sqrt t}
+\]
+and using \(AV=K(4t_i/\Phi_i)-R\), \(AS=S-KDS\), leaves off the mark
+\[
+\frac1t\left(\frac{2+x_i}{\sqrt{1+x_i}}-2\right)
+=\frac{x_i^2}{t\,u_i(1+u_i)^2},
+\]
+while the residual mark coefficient is exactly \(\eta f\).
+
+The bookkeeping is important:
+
+- \(\rho_m=\|R_m\|_{2,n}\) is a **normalized counting** residual.
+- The corresponding unnormalized counting size is \(c_m=\sqrt n\,\rho_m\).
+- The desired asymptotic hypothesis is \(c_m\to0\), not merely \(\rho_m\to0\).
+- \(\|Zb\|_\infty\) and the bound \(15\) are **coordinate/sup-norm units**, not normalized \(2\)-norm units.
+- The argument is complex on \(Q\), although the stationary row is real on the real diameter.
+
+The mixed term is absent for the Jacobi seed \(V=S\), leaving the quartic term beginning in degree four. For the actual predictor, however, the signed term
+\[
+\frac{(S_i-V_i)V_i}{4t^2u_i}
+\]
+remains.
+
+### 2. Conditional implication
+
+Suppose there is a sequence \(m=m(n)\to\infty\), uniform over eligible primes, such that:
+
+1. the physical disks, sheet choice, and a uniform inverse bound for \(A_m\) persist on \(Q\);
+2. \(c_m=\sqrt n\,\rho_m\to0\);
+3. the genuine signed source satisfies
+   \[
+   \sup_{t\in Q}\|Z_mb_m\|_\infty\le 15+o(1);
+   \]
+4. the stationary branch and the physical midpoint-secant uniqueness statement remain valid.
+
+The known coordinate shift in (1) is \(<0.1\). Hence, with a uniform inverse constant \(M\),
+\[
+\|P_m\|_\infty
+ \le (1-|\eta|)^{-1}\bigl(15+0.1+O(c_m)\bigr)
+ =15.1+o(1).
+\]
+The transfer from the predictor derivative to the stationary derivative has the form recorded in the notes and is \(o(1)\) when \(c_m\to0\). Vertical integration from the real diameter then gives
+\[
+\|\Im(Y/\sqrt t)\|_\infty
+ \le h(15.1+o(1))
+ <\frac{2\cdot10^{-4}}{\sqrt3},
+\]
+because the corresponding coordinate threshold is \(>15.13\). The first-hit secant argument would then exclude activation. This is a valid **conditional** route to the desired angular exclusion, not a proof of the original limit.
+
+### 3. What is actually established
+
+- The finite signed marked propagation gives, at height \(527\), a frozen cap \(15.014563\), with stationary motion below \(0.002093\). This is a fixed-height result and does not estimate \(Zb\) at increasing depths.
+- The physical products give finite residual bounds through height \(600\), including
+  \[
+  \rho_{600}<1.140\cdot10^{-180}
+  \]
+  in normalized counting units. This only yields an unnormalized residual estimate for a finite range of \(n\).
+- The shifted-resolvent work controls individual translated entries at fixed heights:
+  \(O(n^{-1/2})\) at height \(250\), and \(O(n^{-0.467})\) at height \(600\). These estimates do not control a dense bulk vector \(b\): summing entrywise bounds against \(O(1)\) bulk coordinates still permits growth like \(\sqrt n\) or \(n^{0.533}\). The missing ingredient is signed structural cancellation, not another absolute entrywise price.
+- The predictor package is compatible with growth only conditionally. If the disk bounds persisted for all depths with \(d_k\le d_0<1\), then
+  \[
+  \rho_m\le0.169724\,d_0^m,
+  \]
+  and choosing \(m(n)\) proportional to \(\log n\) would make \(\sqrt n\rho_m\to0\). The supplied records certify this only through finite depth; they do not prove the all-depth disk package.
+
+### 4. First genuine loss
+
+The first unproved step is precisely
+\[
+\|Z_mb_m\|_\infty\le15
+\]
+for increasing \(m\). Erasing \(b_0\) removes the explicit marked source, but \(Z_m\) still contains the physical marked coupling, and the mixed bulk term is not shown to lie in a uniformly contracting signed cone.
+
+A useful decomposition is
+\[
+V_m-S=(V_0-S)+\sum_{k<m}R_k,
+\]
+giving
+\[
+b=b^{(4)}
++\operatorname{diag}\!\left(\frac{V_m}{4t^2u}\right)(V_0-S)
++\sum_{k<m}\operatorname{diag}\!\left(\frac{V_m}{4t^2u}\right)R_k.
+\]
+The first two pieces should be pooled with the quartic term before taking absolute prices. The remaining transported \(R_k\)-terms require a signed, not absolute, estimate. No uniform bound for that decomposition is supplied.
+
+## Ranked decisive next tests
+
+1. **Growing-depth signed replay.** For increasing \(m\), compute and interval-bound the full quantity \(Z_mb_m\) on the original complex square, retaining the signs of the quartic and mixed pieces and the exact transported inverse. Record separately:
+   \[
+   \sup_Q\|Z_mb_m\|_\infty,\qquad
+   \sqrt n\,\rho_m,
+   \]
+   and the disk margins. The decisive outcome is a uniform source cap below \(15\) (or a certified first loss), not another finite ceiling.
+
+2. **Prove a compatible all-depth package.** Establish a uniform disk bound \(d_k\le d_0<1\) and a signed packet/Fourier norm for the pooled source decomposition above. A successful certificate should simultaneously imply
+   \[
+   \sqrt n\,\rho_{m(n)}\to0
+   \quad\text{and}\quad
+   \sup_Q\|Z_{m(n)}b_{m(n)}\|_\infty\le15+o(1).
+   \]
+   Failure of either the disk continuation or the signed transport contraction would identify the first physical obstruction.
+
+Thus the mission remains open: the finite marked result and finite residual products support the proposed mechanism, but neither the all-depth predictor package nor the prime-uniform signed combined-source estimate has been proved.

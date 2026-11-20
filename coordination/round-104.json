@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "round": 104,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 104 review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-103-acceptance.json",
+      "sha256": "c1a0913d9a0f9e8bac7013cd983178ea9c6bad4061eaf35420a9974a6383c74c"
+    },
+    "current": {
+      "path": "research/round-104-acceptance.json",
+      "sha256": "27e21786daae607d22869326e176a896c44fa7912a65ace4c6ad389d60bc88a6"
+    }
+  },
+  "changes": [
+    {
+      "id": "adjacent-signed-kernel",
+      "route": "Translated inverse on the growing genuine physical orbit",
+      "effect": "reformulated",
+      "before": "The direct Newton branch needs a positive translated exponent at genuine growing depth.",
+      "after": "The actual increment diagonal gives exact two-ended resolvent propagation. The corrected unsigned bounds lose a factor n or sqrt(n) from normalized data.",
+      "remaining": "Bound the signed resolved difference on the physical matrices, with a genuinely summable depth weight at the desired field exponent.",
+      "evidence": [
+        {
+          "path": "research/api-astra-review-104.md",
+          "sha256": "15c7cc0638630cb082056196cf3d3d00112c035c978eea7f969e961bbf54deee"
+        },
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "true-overflow-rectangle",
+      "route": "Real clipped overflow and the true stationary source",
+      "effect": "reformulated",
+      "before": "The cap deficit and a one-sided signed transport or positive-source pairing suffice.",
+      "after": "At critical cap-defect rate a nonzero real mark forces a specific signed Jacobi rectangle with a bounded overflow send level and a genuine high-source receiver.",
+      "remaining": "Prove the cap-defect rate and exploit genuine nonlinear structure to rule out the restricted rectangle. The prescribed obstruction concerns only a trial.",
+      "evidence": [
+        {
+          "path": "research/cap-overflow-rectangle-104.md",
+          "sha256": "06cdc9aa345343dd2715cd0e5b3aefcb6a2aa7e276450cf6e672f41720b9ef9d"
+        },
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        },
+        {
+          "path": "research/api-astra-review-104.md",
+          "sha256": "15c7cc0638630cb082056196cf3d3d00112c035c978eea7f969e961bbf54deee"
+        }
+      ]
+    },
+    {
+      "id": "terminal-price",
+      "route": "Actual terminal increment trial on original recurrent candidates",
+      "effect": "unchanged",
+      "before": "The exact split Abel lower requires a cheap genuine terminal law independently of a cheap prior.",
+      "after": "No Round 104 estimate changes this exception.",
+      "remaining": "Find genuine one-sided trial bounds at A/J and keep the triangular estimate and escaped branch explicit.",
+      "evidence": [
+        {
+          "path": "research/astra-prior-102.md",
+          "sha256": "46a564a030f41d8a282092160a045e024f0b316cf09583a2be02b8857b792f88"
+        },
+        {
+          "path": "research/astra-price-101.md",
+          "sha256": "44c8b9a7d9bf77c445f87770bbe082223f9c34adcdcef39100a88d670800450d"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The receiving set in the real rectangle is now genuine high positive mass. A signed growing-depth resolved difference remains a direct complex approach. The original ordinary theta limit remains open.",
+  "next_calls": [
+    {
+      "id": "signed-adjacent-mellin",
+      "priority": 1,
+      "change_id": "adjacent-signed-kernel",
+      "question": "Can one obtain a signed Mellin estimate for a concrete nontrivial part of the adjacent translated kernel at growing depths?",
+      "why_now": "The exact term Z_(j+1)(D_(j+1)-D_j) Z_j and its corrected counting losses are now isolated.",
+      "scope": "Use physical nine-center rows and the actual Fourier multiplier. State the depth, rank, operator and counted entry powers precisely. Do not re-use the unnormalized initial estimate assumed in the discarded draft.",
+      "if_yes": "Quantify how far the signed estimate supports the translated exponent and what other pieces remain.",
+      "if_no": "Exhibit the first genuine signed obstruction or mathematical limitation of a specified expansion.",
+      "if_inconclusive": "Prove a new labelled kernel estimate beyond the unsigned resolvent identity.",
+      "inputs": [
+        {
+          "path": "research/api-astra-review-104.md",
+          "sha256": "15c7cc0638630cb082056196cf3d3d00112c035c978eea7f969e961bbf54deee"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        }
+      ]
+    },
+    {
+      "id": "genuine-critical-overflow",
+      "priority": 2,
+      "change_id": "true-overflow-rectangle",
+      "question": "Can actual real cap and stationary equations exclude the signed critical overflow rectangle, or prove the required cap-defect rate?",
+      "why_now": "The sending set is one genuine bounded overflow level and the receiving set is among actual high stationary source sites; it can be restricted to one physical Y sign.",
+      "scope": "Use the actual Jacobi Fourier operator K and fixed real floor. Keep the prescribed centered obstruction separate. Preserve the conditional alpha rate unless proved.",
+      "if_yes": "Give the precise real mark implication and remaining floor sequence.",
+      "if_no": "Explain which genuine estimate fails and under which conditions.",
+      "if_inconclusive": "Provide a stricter structural relation between the sending and receiving sets or a quantitative new route to the cap rate.",
+      "inputs": [
+        {
+          "path": "research/cap-overflow-rectangle-104.md",
+          "sha256": "06cdc9aa345343dd2715cd0e5b3aefcb6a2aa7e276450cf6e672f41720b9ef9d"
+        },
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        }
+      ]
+    },
+    {
+      "id": "actual-terminal-trial",
+      "priority": 3,
+      "change_id": "terminal-price",
+      "question": "Can the true terminal law at the original shrinking root be priced one-sidedly on the actual recurrent shelf?",
+      "why_now": "Taking separate laws reduces the terminal test to the much smaller true velocity head.",
+      "scope": "Preserve the genuine original orbit and filters. Keep the prior estimate and triangular budget independent.",
+      "if_yes": "State which genuine alternative is excluded.",
+      "if_no": "Save a real dual obstruction or exact failure of a single proposed trial.",
+      "if_inconclusive": "Record a new exact tradeoff usable on the actual small head.",
+      "inputs": [
+        {
+          "path": "research/astra-prior-102.md",
+          "sha256": "46a564a030f41d8a282092160a045e024f0b316cf09583a2be02b8857b792f88"
+        },
+        {
+          "path": "research/astra-price-101.md",
+          "sha256": "44c8b9a7d9bf77c445f87770bbe082223f9c34adcdcef39100a88d670800450d"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "adjacent-signed-kernel",
+      "question": "Which Round 105 candidates follow at their stated genuine and asymptotic scope?",
+      "why_now": "Independent mathematical checking precedes acceptance of each window.",
+      "scope": "Verify signs, normalization, field, actual versus prescribed scope and arithmetic replays if any. Give one or two ranked tests.",
+      "if_yes": "Record verified statements with exact hypotheses.",
+      "if_no": "Identify the first substantive mathematical or replay failure.",
+      "if_inconclusive": "Record what was verifiable.",
+      "inputs": [
+        {
+          "path": "research/api-astra-review-104.md",
+          "sha256": "15c7cc0638630cb082056196cf3d3d00112c035c978eea7f969e961bbf54deee"
+        },
+        {
+          "path": "research/cap-overflow-rectangle-104.md",
+          "sha256": "06cdc9aa345343dd2715cd0e5b3aefcb6a2aa7e276450cf6e672f41720b9ef9d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "round": 114,
+  "accepted_at_utc": "2026-11-19T14:05:17Z",
+  "previous": "research/round-113-acceptance.json",
+  "previous_sha256": "ed8b2247eafffbf724f9aaffdc8b22cc277d0638fc24090b9d6a5297c769edc5",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-113.json",
+    "sha256": "e69b0e754bbcddd7df3dc078f4431bb9f98616e9e02e3bcd21911bf3abea0c3f"
+  },
+  "proof_and_code_sha256": {
+    "research/reciprocal-input-marks-114.md": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7",
+    "research/api-astra-review-114.md": "f8879caa5e92c9513d3e4dd13d6fe973f3fdf1208946428ad6bc3e877ed5bd38",
+    "research/api-astra-114-receipt.json": "4d7b6fdfdd3901bcaacfe2f53d32862634649c8de1c522211300509f5c507f5a",
+    "research/api-astra-overflow-114.txt": "9744608b2bdcf59b4e227c37565df34fa57600b85c8c5c9b22521b8a1cc3c6ff"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/repair-core-defect-balance-110.md": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591",
+    "research/distinct-cubic-repair-111.md": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242",
+    "research/full-repair-moments-112.md": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/reciprocal-repair-moments-113.md": "33483032709f14b6802b353111ff180ad41cf37ad4e0c55012d921dd276715c9",
+    "research/frozen-entry-transfer-105.md": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1",
+    "research/translated-newton-103.md": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc",
+    "research/api-astra-review-106.md": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, opposite input mark",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Estimate the anchored weighted source in the correct normalization.",
+        "Test the signed anchored distribution on the actual high favored set."
+      ]
+    },
+    {
+      "name": "/root/audit_114",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test prime-specific nonconcentration at the genuine moving Jacobi level jointly with the distinct tuple averages.",
+        "Use the simultaneous actual high and low favored-factor first-moment partitions."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek a prime-uniform level nonconcentration or a contradiction to the coupled low-g negative and high-g positive first moments on the true late source.",
+    "Work in parallel on a genuine prime-uniform complex moving starter at the correct residual scale.",
+    "Preserve the actual cap coefficient and slack routes."
+  ],
+  "proof_scope": [
+    "With the fixed-floor marked critical cap-rate obstruction, the full versus trimmed moment difference is c_- E_n[P(h)g z]+O_P(n^(-5/4)). The isolated anchor is epsilon g_-(0) K(P(h)g)(0)/n with actual K. The favored input mark is below that scale, and the output mark is separate.",
+    "For 0<t<=1/4 on the same obstruction, the exact trimmed product gives the multiplier identity (2), including its normalized output mark and positive-part mass q^2 E_omega W_+<=7/8+o(1). Trimmed collision error remains O(n^(-5/4)); for the W-weighted moment a second distinct expansion includes one fixed marked Jacobi shift.",
+    "If the two signed trimmed bounds can simultaneously be small, A=epsilon Kh(0) tends to zero and the actual h^2 g law concentrates at the level z=1/beta_* in the precise E_rho W^2 sense. Under that residual branch a fixed low-g region must pay negative first marked pairing of order n^(-1/2), while a high-g part contributes a positive first moment of the same order. The branch lies in the original actual exterior alternative."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw draft uses the wrong matrix normalization and wrongly assigns lambda_0=0. The transform criterion for a small isolated opposite mark is K(P(h)g)(0)=o(1), not the weaker scale quoted in the draft.",
+    "The absolute O(n^(-1)) bound supplies neither sign nor saving. A fixed marked test shift in the W-weighted polynomial is distinct from a draw from a full stationary law.",
+    "The true level concentration with low-g cancellation and the signed distinct prime estimates have not been ruled out. The critical cap premise, common cold complex domain and ordinary all-prime theta target are open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. Raw response, submitted input digest and gateway receipt are retained."
+  ],
+  "independent_review": [
+    "Independently checked the exact input mark split, all multiplier and collision estimates, positive-part mass, the level branch and the required low-g negative first moment. Identified the API normalization failure."
+  ]
+}

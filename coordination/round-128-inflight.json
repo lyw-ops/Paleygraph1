@@ -1,0 +1,44 @@
+{
+  "round": 128,
+  "dispatch_status": "returned and reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-127-acceptance.json",
+    "sha256": "54c5bed26e1b752160850cab3aa5dd3717551afe0484a3f922a8cc5eb7f34d25"
+  },
+  "coordinator": {
+    "path": "coordination/round-127.json",
+    "sha256": "d553f5851e208b8706273e483f38e9491b0111331aa091c10ec76662184ce95b"
+  },
+  "call_id": "cold-actual-quadratic-insertion",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "db7b3269e0949c1fcff02ab4da83de775bc9dfb7176da24cf7695318f708d332",
+  "started_utc_epoch": 1795104368,
+  "local_session_id": 92724,
+  "mission_file": "/tmp/paley-r128-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r128-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r128-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Closed mathematically and validated the standard coordinator on a byte-verified local archive snapshot. The original dataless files were not replaced.",
+  "artifact_sha256": {
+    "research/cold-actual-quadratic-128.md": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52",
+    "research/api-astra-review-128.md": "db0e0f7bcddb8d4777e774c5d511573012e4365f4e2d3dbb3c9c5c425545bb0e",
+    "research/api-astra-overflow-128.txt": "010a62259e61d080d6577358701beb4463b4c285151b25a6dbe26c02093d6426",
+    "research/api-astra-128-receipt.json": "20bdc2f87eba63c5690302a7926ff1bf94f8fd0ad057e9aca118bd4d2d8d8c6e",
+    "research/round-128-acceptance.json": "f3232af30ae99b03279c1e065a479ff6bca493ec7720331394a81668d995a73b"
+  },
+  "audit": {
+    "agent": "/root/audit_128",
+    "status": "completed"
+  },
+  "archive_validation": {
+    "status": "snapshot validation passed",
+    "manifest": "/tmp/paley-archive-hydration-01a1ed0a/snapshot-manifest.json",
+    "manifest_sha256": "c87ec5252951e722c75c4624d4adf48eacebb233cf888cd11d56af7d0cb5fef5",
+    "restored_in_original": false,
+    "completed_standard_commands": [
+      "round_review.py init",
+      "round_review.py check --current",
+      "round_review.py mission",
+      "research_index.py --verify-latest --check"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "round": 153,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-152-acceptance.json",
+    "sha256": "af601ab0ae825255a1fe806d0f40496699503c3d35c9ae688d69c4a13e5c24cb"
+  },
+  "coordinator": {
+    "path": "coordination/round-152.json",
+    "sha256": "c2cb0e9d82fbbcc93630a046cd5a663772546ebdc29d0e16576863b3986510eb"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-153.py",
+    "sha256": "dae8f392bce4f78e28ccd1691167431111badf63cfcbf0f3fe418c9f525934f1"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-153-before.json",
+    "sha256": "3bfb06be0fd43bec994ff562cf18ada554c1a3c09a88e4179f7f80900a2c0427"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-weighted-affine-fourth-moment",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "946323f240f926934873a6c364860b0a7d73f18c5fc75fc8514d5565614f0fd8",
+      "mission_file": {
+        "path": "coordination/missions/round-153/ordinary-prime-weighted-affine-fourth-moment.md",
+        "sha256": "bd4f17f1f27dda3b0a78247d9579b9bf962794651f76342c117d845763cf35ab"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r153-api-01a1ed0a/ordinary-prime-weighted-affine-fourth-moment-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r153-api-01a1ed0a/ordinary-prime-weighted-affine-fourth-moment-candidate.md",
+      "started_utc_epoch": 1795125062.725686
+    },
+    {
+      "call_id": "ordinary-prime-first-spill-face-upper",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "091acef6cadf8a69c800424f85f4b58b5ea89b7970b71fb6a9dc3dacb7561db3",
+      "mission_file": {
+        "path": "coordination/missions/round-153/ordinary-prime-first-spill-face-upper.md",
+        "sha256": "e7da59671207b0b36357ade54c41bd72c1125cd6625674015e36b30afdaa10ba"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r153-api-01a1ed0a/ordinary-prime-first-spill-face-upper-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r153-api-01a1ed0a/ordinary-prime-first-spill-face-upper-candidate.md",
+      "started_utc_epoch": 1795125062.724792
+    },
+    {
+      "call_id": "cold-three-center-actual-square-omission",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "a93d1855ecd413f61bdce9510ca0b99ab1d8ba91716e9af2b311e083267b9f54",
+      "mission_file": {
+        "path": "coordination/missions/round-153/cold-three-center-actual-square-omission.md",
+        "sha256": "792058b239bbd728e204f6bc5109dc96eae122e89218dce97e931600eb1003c1"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r153-api-01a1ed0a/cold-three-center-actual-square-omission-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r153-api-01a1ed0a/cold-three-center-actual-square-omission-candidate.md",
+      "started_utc_epoch": 1795125062.725201
+    }
+  ]
+}

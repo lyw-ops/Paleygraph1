@@ -1,0 +1,81 @@
+{
+  "round": 116,
+  "accepted_at_utc": "2026-11-19T14:27:28Z",
+  "previous": "research/round-115-acceptance.json",
+  "previous_sha256": "de5bd10808c168cc4556b6b79dd45336ada131821bfa81b4115e32e5d72935f2",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-115.json",
+    "sha256": "f25c4342bea4b15fc5d38d5966de16af74c6a166ad3fc47da633f8a57ec02559"
+  },
+  "proof_and_code_sha256": {
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/api-astra-review-116.md": "afaf6e6bdfd03bc3f4f4b69c5b0511976001bc61269be0fec620168d6195dc0b",
+    "research/api-astra-116-receipt.json": "b2aef0e18884d94533d7bd408553b8a2f0a60d8cb44d1c7f42838c134ba77acf",
+    "research/api-astra-overflow-116.txt": "39a0e8f0bb9ba3c9c5be847e303c3a70a180a3612d4eec7af0f6d1539ebd0c69"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/reciprocal-input-marks-114.md": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7",
+    "research/reciprocal-repair-moments-113.md": "33483032709f14b6802b353111ff180ad41cf37ad4e0c55012d921dd276715c9",
+    "research/full-repair-moments-112.md": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/residual-level-bands-115.md": "52c5da5c7666bc10f43de8ef440f3df832c95cb5d2d76499a81e620f0ac8e5c4",
+    "research/cold-newton-mark-transfer-115.md": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a",
+    "research/projected-cap-completion-108.md": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5",
+    "research/real-inner-cap-quadratic-107.md": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, real two bands",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Seek a weighted inequality coupling the true high and low regions.",
+        "Test the actual alternating repair restrictions."
+      ]
+    },
+    {
+      "name": "/root/audit_116",
+      "status": "completed",
+      "ranked_closeout": [
+        "Preserve the opposite singleton and test the necessary joint cancellation, or independently exclude A tending to zero.",
+        "Use the uniform second moment for the unweighted repair/opposite pair to isolate the extra true reweighting."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the single-repair trilinear form with the genuine favored/opposite weights, keeping the positive singleton in the full cubic.",
+    "Isolate truly prime effects in the h to hg Legendre reweighting, or obtain an independent real cap coefficient or sufficient actual slack.",
+    "Keep the cold combined derivative and scalar continuation alternatives."
+  ],
+  "proof_scope": [
+    "For the fixed-floor critical cap-rate actual late repair, the signed reciprocal cubic with one repair draw and both true factor draws has exact scale-n formula (1) after deleting collisions with O(n^(-1/4)) error. The repair/favored collision is retained analytically; its constant term cancels the cubic baseline, leaving the paired square and original output mark.",
+    "The positive paired square has the exact Legendre expansion (3) restricted to the actual opposite positional sector. The true normalized factors have a uniform paired difference law for all translates by sector orthogonality. Because the genuine hg law is bounded by a constant multiple of the favored law, unweighted Jacobi arcsine equidistribution gives a fixed positive lower for the paired square and a fixed upper margin below 1 for the normalized Legendre trace sum.",
+    "In the simultaneous small trimmed-moment branch with A tending to zero the full signed distinct cubic is at least c n^(-1). The opposite singleton contributes n mu E_n(hg)+o(1) after scaling by n; the fully unmarked term is minus that leading coefficient times the restricted Legendre statistic, up to o(1). The true favored singleton is smaller."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The API rederived the previously accepted opposite singleton lower conditional on the residual branch, with an extra factor n in one weighted moment. Its proposed Cauchy–Schwarz gives only O(1) at a true n^(-1/2) scale. The conditional lower does not exhibit a genuine prime counterexample or establish coexistence of the bands.",
+    "Small fully unmarked cubic alone cannot eliminate the branch, because the positive opposite singleton would remain. A prime-uniform bound on the full signed cubic or another exclusion of the actual branch is still missing.",
+    "The true cap coefficient, sufficient adjusted slack, common cold domain, and original ordinary all-prime limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. Raw API draft and gateway receipt are stored separately from the mathematical verification."
+  ],
+  "independent_review": [
+    "Independently verified scale, collision subtraction, Legendre character sum, spectral supports, translate spreading, explicit arcsine lower, and singleton split. The raw draft errors were independently identified."
+  ]
+}

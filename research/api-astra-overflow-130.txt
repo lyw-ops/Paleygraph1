@@ -1,0 +1,102 @@
+## Result: the available joint arithmetic still misses the required rate
+
+Let \(D=D_{600}\), \(D'=D_{601}\), \(E=D'-D\), and retain the translated price with \(\Lambda=5000\). Assume the actual nine-center prefix bounds on the original square \(Q\), including the marked \(K\)-column and both boundary pairs, as in the supplied records.
+
+The accepted signed/pair-collected estimate for the actual update gives
+\[
+m_0<0.002727,\qquad m_1<0.006611.
+\]
+For a translated input of base price \(A\), off-base moment \(b\), and dimension \(d\), the collected update obeys
+\[
+A' \le m_0A+2dm_1,\qquad b'\le m_0b.
+\]
+Since \(d\le P_\Lambda\), the resulting geometric price contribution of \(KE\) is bounded by
+\[
+(m_0+2m_1)P_\Lambda<0.015949\,P_\Lambda.
+\]
+
+The inherited height-600 rate, including the \(\Lambda\)-boundary correction, is
+\[
+q_{600}\left(1+\frac2{5000}\right)
+ <1.046434(1.0004)
+ =1.0468525736.
+\]
+Consequently the directly combined bound is
+\[
+q_{601}^{\rm comb}
+<
+1.0468525736+0.002727+2(0.006611)
++O_\Lambda(n^{-1/2})
+=
+1.0628015736+O_\Lambda(n^{-1/2}).                 \tag{A}
+\]
+
+This is numerically the same obstruction as the separate estimate, but the calculation shows exactly what a genuinely signed collection must improve.
+
+### Quantified obstruction
+
+With counting rate \(r=0.5145\), retaining exponent \(0.467\) requires a middle translated rate below approximately
+\[
+r^{-(1-2\cdot0.467)/(2\cdot0.467)}
+\approx 1.04808.                                      \tag{B}
+\]
+Thus (A) exceeds the required rate by
+\[
+1.0628015736-1.04808>0.01472.                         \tag{C}
+\]
+
+Moreover, even an unrealistically perfect elimination of the first-moment term \(2m_1\) would leave
+\[
+1.0468525736+m_0
+=
+1.0495795736,
+\]
+still larger than \(1.04808\) by more than \(0.00149\). Therefore a successful joint \(D+E\) argument must obtain a signed cancellation involving the base-mass term \(m_0\), not merely sharpen the \(m_1\) estimate.
+
+This is a precise failure of the tested sufficient arithmetic bound on the true height-601 word. It does **not** refute the asymptotic target: \(m_0,m_1\) are positive majorants, and no signed overlap between the old derivative packet and the actual update packet has yet been evaluated.
+
+## What is and is not jointly justified
+
+The following hypotheses remain compatible with the current records:
+
+1. The actual endpoint satisfies the seed-centered confinement
+   \[
+   \|V_{601}-S\|_\infty<1.951,
+   \]
+   giving the genuine counting estimate
+   \[
+   \|KD_{601}\|_{2\to2}<0.5145
+   \]
+   on \(Q\).
+
+2. The actual update \(E=D_{601}-D_{600}\) is represented on the physical sheets by the secant series, with one residual \(R=V_{601}-V_{600}\), and the pair-saving estimates for \(m_0,m_1\) preserve the marked exceptional column and the base/translated boundary pairs.
+
+3. The resulting fixed endpoint has the weaker geometric exponent already recorded, approximately \(0.4579\), rather than \(0.467\).
+
+What is absent is a jointly collected signed measure for \(D+E\). The available \(m_0,m_1\) bounds first take absolute values of the \(E\)-packet and then compare it to the old translated price. They therefore cannot detect cancellation between coefficients of \(D\) and \(E\), particularly on the two boundary pairs. The \(O_\Lambda(n^{-1/2})\) exceptional corrections also have no certified opposing sign and cannot be included in a cancellation claim without an explicit ledger.
+
+## Required form of a successful signed test
+
+For each retained arity and each pair of boundary fibers, one should form the signed coefficient measure
+\[
+\mu_{601}=\mu_D+\mu_E
+\]
+before absolute pricing, and evaluate
+\[
+\|\mu_{601}\|_{\pi,\Lambda}
+=
+\sum_w c_w\,\pi_\Lambda(|w|)
+\]
+after the two independent lift averages. Relative to the present estimate, the ledger must certify a saving of at least \(0.01472\) in the normalized price rate. Even if the entire \(2m_1\) contribution were removed analytically, it must still certify a further saving of at least \(0.00150\) from cancellation involving the \(m_0\) mass or the inherited \(D\)-packet.
+
+No such signed inequality follows from the aggregate quantities \(m_0,m_1\): two signed packets with the same values of these quantities can be aligned, producing no cancellation, or oppositely aligned, producing substantial cancellation. Hence the present data do not determine the sign of the needed overlap.
+
+## Remaining gap
+
+A fixed endpoint has confinement and counting contraction, but there is still no compatible moving starter: one would need a residual estimate and a transported signed price that remain controlled along the relevant growing sequence. The failure in (A) is therefore only a failure of the current arithmetic sufficient condition, not a failure of height-601 stability itself.
+
+### Ranked next tests
+
+1. **Direct joint coefficient ledger.** For the true nine-center prefix, compute \(\mu_D+\mu_E\) arity by arity at the real center and all four complex corners of \(Q\), retaining the marked column and both boundary pairs until the final price. The decisive threshold is a rate \(\le1.04808-\delta\); first test whether the required \(0.01472\) saving occurs before tail and exceptional corrections.
+
+2. **Directional translated test at the actual endpoint.** Apply the signed ledger only to the explicit direction \(E=D_{601}-D_{600}\), while bounding the orthogonal/off-base remainder by the existing translated norm. This could establish a partial saving of at least \(0.00150\), which is the minimum needed after optimally eliminating the \(m_1\) overhead, and would identify whether a full \(0.467\) transfer is arithmetically plausible.

@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T23:28:49.115804Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-161.json#next_calls",
+  "coordinator_sha256": "42c7b9027bb6c334c04053b62d58c5e2c283caf9c5f4766d97ae3439fc3ee801",
+  "call_ids": [
+    "ordinary-prime-unmarked-distance",
+    "ordinary-prime-conditional-slope-block",
+    "cold-prime-local-smoothed-remainder"
+  ],
+  "routes": {
+    "r162/ordinary-prime-unmarked-distance": {
+      "question": "Can an actual-prime lower bound for the distance from 1 to Ran((I-P)E_U) on the genuine unmarked exterior U be proved at scale omega(n/T), or an equivalent actual marked tail upper?",
+      "scope": "Use the actual circulant Jacobi involution, U from the genuine least-bulk-energy support, both physical signs as required, and one admissible growing T. A near mask needs an explicit transfer. Distinguish a proposed vector lower witness from an upper approximation.",
+      "remaining": "Prove a prime-uniform distance lower far above n/T or exterior long-return upper o(T) on the genuine supports. The signed O(p) moderate block remains independent and open."
+    },
+    "r162/ordinary-prime-conditional-slope-block": {
+      "question": "Can a specified moderate-amplitude block gain from the actual signed slope moment after the exact Fourier graph change?",
+      "scope": "State the dyadic amplitude regime and required exponent with counting measures. Use the exact column triple, actual sign, slope and physical ratio. Do not replace the conditional ratio law by uniform. Use the already proved O(p) exclusions only after the true weighted expectation.",
+      "remaining": "Prove a prime-uniform distance lower far above n/T or exterior long-return upper o(T) on the genuine supports. The signed O(p) moderate block remains independent and open."
+    },
+    "r162/cold-prime-local-smoothed-remainder": {
+      "question": "Can the direct Taylor remainder and its smoothed portion for the actual height increment be priced separately in the translated norm?",
+      "scope": "Keep the original complex square, mark t0=n and both lifts. Resolve the direct local term separately at the mark and elsewhere. A coordinate sup estimate, or a height-601 entry bound alone, is insufficient for a translated norm at height 602.",
+      "remaining": "Derive an actual two-lift quantitative increment estimate, with separate mark and bulk and a certified height transfer."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-unmarked-distance": [],
+    "ordinary-prime-conditional-slope-block": [],
+    "cold-prime-local-smoothed-remainder": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The first call targets a new actual unmarked distance or equivalent exterior tail for any fixed ordinary gap. The second targets a distinct five-weight critical block with a moderate physical slope. The third targets actual local and smoothed cold remainders. Their immediate mathematical obligations are distinct."
+}

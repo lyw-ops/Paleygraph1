@@ -1,0 +1,32 @@
+{
+  "round": 125,
+  "dispatch_status": "returned and reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-124-acceptance.json",
+    "sha256": "2cc363e32f643d2b608da0755ea980b67148c75a582b44dd8b4c6543cad52ed7"
+  },
+  "coordinator": {
+    "path": "coordination/round-124.json",
+    "sha256": "f70837236018b74442575bb7ff91c45829f3b4c8b1c9a12bc07136c46c33b9f1"
+  },
+  "call_id": "log-height-masked-arithmetic",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "1eb7c5db046d3cd70ea4130ac40c0fce2fdac1f7bd5c5bed7d2fc04aeb7b1c28",
+  "started_utc_epoch": 1795102988,
+  "local_session_id": 6909,
+  "mission_file": "/tmp/paley-r125-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r125-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r125-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Closed after independent audit and coordinator acceptance.",
+  "artifact_sha256": {
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1",
+    "research/api-astra-review-125.md": "f374489c15ccb1a5ad23065f25e36110355fc61905dff6c2ef41e4ab6eb79c40",
+    "research/api-astra-overflow-125.txt": "f25b503a182acb09456381bf866fecf22fe9fb13a62c2dec31a98b15e6612bcb",
+    "research/api-astra-125-receipt.json": "d614f5988d66dd4af98f72b64cc239a52130cc5656398719460f738b9b1ca9c2",
+    "research/round-125-acceptance.json": "8a33f12fad1a64d0d62b4cb65866c6dcadf27ead3b501bc248392e479552a4b1"
+  },
+  "audit": {
+    "agent": "/root/audit_125",
+    "status": "completed"
+  }
+}

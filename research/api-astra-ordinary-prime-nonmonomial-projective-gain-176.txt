@@ -1,0 +1,139 @@
+## Result: the proposed two-level gain is not available from the present hypotheses
+
+Work on the same selected family of ordinary eligible primes \(p\to\infty\) as in the cited rounds, with the physical set \(Q\), both square masks, and the endpoint exclusions retained. Put
+\[
+\mu_0(r,b)=g(Y)g(D),\qquad G=\sum_{x\in Q}g(x)=O(\sqrt p),
+\]
+and
+\[
+\Delta(h)=\sum_{j:\,j,jh\text{ physical}}\mu_0(j)\mu_0(jh),
+\qquad
+E=\sum_{h\in\operatorname{Aff}(\mathbb F_p)}\Delta(h)^2.
+\]
+All sums here are counting-norm sums; the relevant limit is \(p\to\infty\) along the selected ordinary-prime family.
+
+### 1. The unavoidable identity contribution is already of target size
+
+At \(h=e=(1,0)\),
+\[
+\Delta(e)=\sum_{(Y,D)\text{ physical}}g(Y)^2g(D)^2
+ \le \left(\sum_Y g(Y)^2\right)^2
+ \le G^2.
+\]
+Therefore
+\[
+\Delta(e)^2\le G^4=O(p^2).
+\]
+
+This bound is sharp under the available hypotheses \(0\le g\le1\) and \(G=O(\sqrt p)\): if \(g\) is approximately an indicator of a set of size \(\asymp\sqrt p\), then \(\sum g^2\asymp\sqrt p\), and the identity term is \(\asymp p^2\), subject only to the physical masks. Hence no uniform argument based solely on the cap, \(G=O(\sqrt p)\), and hereditary heavy-set information can produce \(o(p^2)\) for the full energy.
+
+This does not obstruct the desired \(O(p^2)\) bound, but it shows that any successful two-level argument must isolate the identity and prove
+\[
+\sum_{h\ne e}\Delta(h)^2=O(p^2)
+\]
+rather than seek a global power saving.
+
+### 2. Fixed projective-label cuts do not yield a further saving
+
+For
+\[
+Y'=\frac{aY}{1-cY},\qquad
+D'=\frac{(a-Y')D+Y'-aY}{(a-1)D+1-aY},
+\]
+the preceding fixed-map argument gives, for every fixed \(T\in\mathrm{PGL}_2(\mathbb F_p)\),
+\[
+\sum_h \Delta_T(h)^2=O(G^4)=O(p^2),
+\]
+where \(\Delta_T\) denotes the portion satisfying one prescribed projective relation among \(Y,D,Y',D'\).
+
+The proof is already essentially optimal at the level of the supplied information:
+
+- for fixed \(h,Y\), the \(D\)-map is injective;
+- for \(Y'=T(Y)\), there are at most two \(Y\)'s unless the maps coincide identically;
+- for \(D'=T(D)\), the same holds except for at most two exceptional \(Y\)'s;
+- the exceptional identity difference contributes \(O(G^4)\);
+- the total first mass over all right differences is \(O(G^3)\), and the pointwise bound is \(O(G)\).
+
+Thus the estimate is \(O(G^3)\cdot O(G)=O(G^4)\). A heavy threshold \(g\ge\tau\), with \(\tau=p^{-\varepsilon_*}\), does not improve this calculation: it changes cardinalities but not the available weighted marginal bounds, because the weights remain bounded above by \(1\) and the total mass is still only controlled by \(G\).
+
+The nonmonomial nature of the \(D\)-map does not by itself supply a second independent saving. Its pole is
+\[
+D=\frac{aY-1}{a-1}\qquad(a\ne1),
+\]
+which is affine in \(Y\). The fixed-map argument controls coincidences after \(Y\) is fixed, but gives no new global incidence estimate when \(h=(a,c)\) is also summed. This is precisely the missing two-level input.
+
+### 3. Quantified gap to the target
+
+The existing heavy-level estimate gives
+\[
+E=O\!\left(p^{11/4-\delta_*/2}\right),
+\qquad
+\delta_*=\frac1{640},
+\]
+so
+\[
+E^{1/4}=O\!\left(p^{11/16-\delta_*/8}\right).
+\]
+The target \(E=O(p^2)\) would require
+\[
+E^{1/4}=O(p^{1/2}),
+\]
+hence an additional fourth-root saving of
+\[
+p^{-3/16-\delta_*/8}.
+\]
+Equivalently, after the identity term is separated, the nonidentity contribution must improve by roughly
+\[
+p^{-3/4-\delta_*/2}
+\]
+relative to the current energy estimate.
+
+The current heavy vertical-fiber result
+\[
+m_{\mathcal L}=O(p^{1/2-\delta_*})
+\]
+only contributes the factor \(m_{\mathcal L}^{1/8}\), namely \(p^{-\delta_*/8}\). It is therefore quantitatively far too small to close the all-weight energy target. The same conclusion applies to the current one-match gain: it improves the exponent but does not imply the required \(O(p^{3/2})\) matching estimate or the zero-match estimate.
+
+## Precise failure
+
+No new two-level overlap estimate has been established. More specifically, the available hypotheses—ordinary-prime cap, \(G=O(\sqrt p)\), both physical square masks, and hereditary energy bounds for heavy \(g\)-sets—prove only:
+
+1. the identity contribution is \(O(p^2)\) and can be saturated;
+2. every fixed projective-label cut is already \(O(p^2)\) in squared energy;
+3. the nonidentity all-distinct contribution still lacks a global incidence estimate over \(h\).
+
+Therefore the proposed gain is **inconclusive**, not refuted for the actual Fourier weights \(g=|f|^2\). The obstruction is genuine for the weaker abstract class \(0\le g\le1\), \(G=O(\sqrt p)\), but it does not prove that the actual \(g\)'s arising from the selected ordinary primes realize the obstruction.
+
+## Ranked next tests
+
+### 1. Highest priority: a nonidentity heavy-projective incidence estimate
+
+For dyadic levels \(g\asymp u\), \(g\asymp v\), define the corresponding physical line set \(\mathcal L_{u,v}\). Prove, uniformly along the same ordinary-prime family and with both square masks retained,
+\[
+\sum_{h\ne e}
+\left(
+\sum_{\substack{j,jh\in\mathcal L_{u,v}\\
+\text{all four labels distinct}}}
+g(Y)g(D)g(Y')g(D')
+\right)^2
+\ll p^{2+o(1)}
+\]
+after summing the dyadic levels.
+
+A sufficient stronger form would be a power-saving bound for heavy levels,
+\[
+\sum_{h\ne e}\Delta_{u,v}(h)^2
+\ll p^{2-\eta}(uv)^{-\!O(1)}
+\]
+for some fixed \(\eta>0\). This is the direct test of whether the reciprocal-affine \(D\)-map supplies a genuine second incidence constraint beyond the one-label cuts.
+
+### 2. Second priority: test arithmetic realizability of the obstruction
+
+Construct or rule out, for the actual selected ordinary primes, Fourier weights \(g=|f|^2\) having simultaneously:
+
+- \(G\asymp\sqrt p\);
+- a heavy support of size \(\asymp\sqrt p\);
+- large overlap with its reciprocal-affine images;
+- physical points surviving both square masks.
+
+If such weights can be realized, the identity-size obstruction is not merely abstract and any improvement must target only the nonidentity part. If they cannot be realized, the missing ingredient should be formulated as a hereditary Fourier restriction on heavy sets, stronger than the current multiplicative-energy and shifted-set bounds. Finite-prime experiments can guide this test, but the conclusion must ultimately be uniform as \(p\to\infty\) along the ordinary-prime family.

@@ -1,0 +1,218 @@
+## Status: inconclusive, with an exact reduction to two genuinely arithmetic estimates
+
+Fix the actual ordinary-prime family from Rounds 164–165, a sign \(\epsilon\), and a hypothetical fixed-gap sequence \(p\to\infty\) with the associated fixed floor. Write \(n=n(p)\), retain the actual adaptive independent zero-column set \(U'(p)\), the actual complementary coefficients \(w=w(p)\ge 0\), and choose the admissible marked time \(T=T(p)\to\infty\) in the prescribed order: first fix the gap/sign/floor, then let \(p\to\infty\) and select \(T(p)\) inside the marked window. All norms below are counting norms.
+
+The physical coordinate is the actual marked coordinate \(0\). With
+\[
+P_\epsilon=\frac{I+\epsilon K-\Pi}{2},\qquad
+d=(P_\epsilon)_{00}=\frac{|\Gamma|}{n},\qquad
+b_0=E_{U'}^*P_\epsilon e_0,
+\]
+the centered operator and source are exactly
+\[
+G_0
+ =E_{U'}^*\left(P_\epsilon-
+     \frac{P_\epsilon e_0e_0^*P_\epsilon}{d}\right)E_{U'},
+\]
+and
+\[
+c_0=\frac1{\sqrt n}
+ \left(\mathbf 1_{U'}+\frac{q-1}{d}b_0\right).
+\]
+The actual complementary row satisfies
+\[
+G_0w=0,\qquad
+\mathbf 1_{U'}^*w=n-\frac nq,
+\qquad
+Lw=-\frac{n/q}{\sqrt n}\mathbf 1_\Gamma .
+\]
+Moreover \(\ker G_0=\mathbb Rw\) and \(c_0\perp w\).
+
+### 1. Exact separation of the zero-coefficient and positive-kernel costs
+
+Let
+\[
+A=\{i\in U':w_i>0\},\qquad B=\{i\in U':w_i=0\}.
+\]
+The \(B\)-block \(G_{0,BB}\) is positive definite whenever \(B\neq\varnothing\). Define
+\[
+E_B:=\langle c_{0,B},G_{0,BB}^{-1}c_{0,B}\rangle ,
+\]
+and
+\[
+Q_A=G_{0,AA}-G_{0,AB}G_{0,BB}^{-1}G_{0,BA},
+\]
+\[
+d_A=c_{0,A}-G_{0,AB}G_{0,BB}^{-1}c_{0,B}.
+\]
+Then the centered inverse cost is exactly
+\[
+\boxed{
+\langle c_0,G_0^\dagger c_0\rangle
+   =E_B+\langle d_A,Q_A^\dagger d_A\rangle .
+}
+\]
+Thus the two requested debits are genuinely distinct.
+
+Because \(0\le G_0\le I\), the block-Schur inequality gives
+\[
+\bigl\|G_{0,AB}G_{0,BB}^{-1}c_{0,B}\bigr\|_2
+ \le E_B^{1/2},
+\]
+hence
+\[
+\|d_A\|_2\le \|c_{0,A}\|_2+E_B^{1/2}.
+\]
+The entry cap from Round 165 gives \(c_{0,i}=O(n^{-1/2})\), so \(\|c_0\|_2=O(1)\) when \(|U'|\le n\). This is useful, but it does not control \(E_B\): a positive definite principal block can have arbitrarily small eigenvalues despite bounded diagonal entries.
+
+### 2. Explicit low/high-weight and elimination split
+
+Fix a cutoff \(H>0\) and write
+\[
+A_H=\{i\in A:w_i\ge H\},\qquad
+A_L=\{i\in A:0<w_i<H\}.
+\]
+After the \(B\)-elimination, split \(Q_A\) according to \(A_H\cup A_L\). If \(A_H\neq\varnothing\), the \(A_L\)-block is positive definite. Put
+\[
+E_L:=\langle d_{A_L},Q_{A_LA_L}^{-1}d_{A_L}\rangle ,
+\]
+\[
+e_H=d_{A_H}
+ -Q_{A_HA_L}Q_{A_LA_L}^{-1}d_{A_L},
+\]
+and
+\[
+Q_H=
+ Q_{A_HA_H}
+ -Q_{A_HA_L}Q_{A_LA_L}^{-1}Q_{A_LA_H}.
+\]
+Then
+\[
+\boxed{
+\langle d_A,Q_A^\dagger d_A\rangle
+   =E_L+\langle e_H,Q_H^\dagger e_H\rangle .
+}
+\]
+Again, this is exact. Also,
+\[
+\|e_H\|_2\le \|d_{A_H}\|_2+E_L^{1/2}.
+\]
+
+Consequently, a sufficient bound for the complete centered cost is
+\[
+E_B=o(T),\qquad
+E_L=o(T),\qquad
+\frac{(\|d_{A_H}\|_2+E_L^{1/2})^2}
+     {\kappa_{p,H}}=o(T),
+\]
+where
+\[
+\kappa_{p,H}
+=
+\inf_{\substack{x\perp w_{A_H}\\x\ne0}}
+ \frac{\langle x,Q_Hx\rangle}{\|x\|_2^2}.
+\]
+This is an actual-prime, source-compatible criterion. It is not presently proved.
+
+### 3. What the signed Jacobi form does and does not give
+
+For real \(z\), the exact kernel identity gives
+\[
+z^*D_wG_0D_wz
+ =
+-\sum_{i<j}(G_0)_{ij}w_iw_j(z_i-z_j)^2.
+\]
+On vectors supported on \(A_H\), the physical entries satisfy
+\[
+(G_0)_{ij}=\frac{\epsilon}{2}K_{ij}+O(n^{-1}),
+\]
+with \(K_{ij}\) the actual Jacobi-field entries for the given ordinary prime. Therefore
+\[
+z^*D_wG_0D_wz
+ =
+\mathcal J_{p,H}(z)
+ +O\!\left(H^{-1}\|D_wz\|_2^2\right),
+\]
+where
+\[
+\mathcal J_{p,H}(z)
+=
+-\frac{\epsilon}{2}
+ \sum_{i<j}K_{ij}w_iw_j(z_i-z_j)^2
+\]
+uses the actual adaptive support and the actual prime \(p\). The \(O(H^{-1})\) comparison follows from \(\sum_iw_i=n-n/q\) and the \(O(n^{-1})\) rank-correction entries.
+
+However, this is not yet a lower bound for \(Q_H\). If \(C=B\cup A_L\), then
+\[
+Q_H=G_{0,A_HA_H}
+   -G_{0,A_HC}G_{0,CC}^{-1}G_{0,CA_H}.
+\]
+Thus, for \(x_H=D_{w,A_H}z\),
+\[
+\langle x_H,Q_Hx_H\rangle
+ =
+\mathcal J_{p,H}(z)
+ -\underbrace{
+ \langle G_{0,CA_H}x_H,
+ G_{0,CC}^{-1}G_{0,CA_H}x_H\rangle
+ }_{\mathcal L_{p,H}(x_H)\ge0}
+ +O\!\left(H^{-1}\|x_H\|_2^2\right).
+\]
+The term \(\mathcal L_{p,H}\) is the explicit transfer through the low-weight and zero-coefficient coordinates. It is precisely the missing elimination term. Positivity only says that the displayed combination is nonnegative; it gives no prime-uniform lower bound for it.
+
+A sufficient actual arithmetic statement would therefore be a source-weighted coercivity estimate of the form
+\[
+\mathcal J_{p,H}(z)-\mathcal L_{p,H}(D_wz)
+ \ge
+ \kappa_{p,H}\,
+ \operatorname{dist}(D_{w,A_H}z,\mathbb Rw_{A_H})^2
+ -o(T)
+\]
+on the relevant source directions, with \(\kappa_{p,H}\) large enough to make the preceding quotient \(o(T)\). No such estimate follows from Jacobi orthogonality, the diagonal value, or the pointwise kernel bound alone.
+
+## Precise failure of the present argument
+
+The requested \(o(T)\) conclusion is not established because both required upper bounds remain open:
+
+1. **Zero-coefficient debit**
+   \[
+   E_B=\langle c_{0,B},G_{0,BB}^{-1}c_{0,B}\rangle .
+   \]
+   The source entries are \(O(n^{-1/2})\), but there is no lower bound on the actual-prime \(B\)-block sufficient to control its inverse.
+
+2. **Positive-kernel Schur debit**
+   \[
+   \langle d_A,Q_A^\dagger d_A\rangle .
+   \]
+   The signed Jacobi squared-difference expression controls the uneliminated high-weight block up to \(O(H^{-1})\), but the actual low-weight/zero-coordinate transfer \(\mathcal L_{p,H}\) can cancel the apparent high-weight coercivity. No source-weighted lower bound for the actual \(K_p\), actual \(U'(p)\), and actual \(w(p)\) is available.
+
+The relaxed circulant construction only shows that positivity, diagonal information, and a positive interpolant do not imply the needed inverse bound. It is not a refutation for the actual ordinary-prime family. Conversely, the finite-prime identities and the forced low spectral window do not supply an asymptotic upper bound. Hence the correct status is **inconclusive**, not supported or refuted.
+
+## Ranked next tests
+
+### 1. Highest priority: actual signed-Jacobi transfer test
+
+For the actual ordinary primes \(p\), compute or prove a source-specific bound for
+\[
+Q_H=
+G_{0,A_HA_H}
+-G_{0,A_HC}G_{0,CC}^{-1}G_{0,CA_H},
+\qquad C=B\cup A_L,
+\]
+retaining the actual \(K_p\), \(U'(p)\), \(w(p)\), and physical mark \(0\). The decisive quantity is
+\[
+\langle e_H,Q_H^\dagger e_H\rangle ,
+\]
+not merely \(\lambda_{\min}(Q_H)\). A successful estimate
+\[
+\langle e_H,Q_H^\dagger e_H\rangle=o(T)
+\]
+together with \(E_L=o(T)\) would settle the positive-kernel Schur debit. Finite computations can diagnose the required cutoff \(H(p)\) and the size of \(\mathcal L_{p,H}\), but do not settle the asymptotic claim.
+
+### 2. Zero-block inverse test
+
+For the same actual primes and the same order of limits, establish directly
+\[
+\langle c_{0,B},G_{0,BB}^{-1}c_{0,B}\rangle=o(T).
+\]
+The most targeted route is an actual Fourier-minor/Cauchy–Binet or Jacobi-character estimate for the source-weighted resolvent, rather than a uniform lower bound on \(\lambda_{\min}(G_{0,BB})\). If \(B=\varnothing\) along a subfamily, this debit vanishes there; otherwise it must be controlled independently of the Schur estimate.

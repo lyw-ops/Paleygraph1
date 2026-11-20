@@ -1,0 +1,61 @@
+{
+  "round": 157,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-156-acceptance.json",
+    "sha256": "8ada0a42c88f82c1e41f146d8f1f25e651d6161960fbbe7db3431ce59c329c8c"
+  },
+  "coordinator": {
+    "path": "coordination/round-156.json",
+    "sha256": "057da6cc0c5427050c320475b826373285efa2eb3217667e3f6bea864051368b"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-157.py",
+    "sha256": "8ac2ff49dcbe1ee889f9885a421a2c98c491ea4cfcd9697ed608b553cecd7738"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-157-before.json",
+    "sha256": "a76ee90aa0811b4a9487096c80850c14dbafcc4e1b54834bea49f2324a4d00d2"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-three-root-slope-cancellation",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "a4302305d8a945b3b89afa25db9b24e54950822dae53b94121eb8efdbf0c7e32",
+      "mission_file": {
+        "path": "coordination/missions/round-157/ordinary-prime-three-root-slope-cancellation.md",
+        "sha256": "15e779775d0390c73229fc608bd58f47babacd71ead0290f610e86a7cb158cdf"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r157-api-01a1ed0a/ordinary-prime-three-root-slope-cancellation-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r157-api-01a1ed0a/ordinary-prime-three-root-slope-cancellation-candidate.md",
+      "started_utc_epoch": 1795127562.241941
+    },
+    {
+      "call_id": "ordinary-prime-additive-sign-coupling",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "5e0b478878622752e8545d02c56327f4842b97109a22cdc7435d2a527e3b853f",
+      "mission_file": {
+        "path": "coordination/missions/round-157/ordinary-prime-additive-sign-coupling.md",
+        "sha256": "0c0a9a4aeacc6eec067e92ebf66dce13d9c265bba5fa84311e12953ad7eb1959"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r157-api-01a1ed0a/ordinary-prime-additive-sign-coupling-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r157-api-01a1ed0a/ordinary-prime-additive-sign-coupling-candidate.md",
+      "started_utc_epoch": 1795127562.2412858
+    },
+    {
+      "call_id": "cold-full-rank-three-unit-collection",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "a8e944b932fca5a5edae1fff9ec1a734646ce3c39284a2c0d5fcfe2207f52870",
+      "mission_file": {
+        "path": "coordination/missions/round-157/cold-full-rank-three-unit-collection.md",
+        "sha256": "b1ffee381ce44abf3001addf4e61f11f5b6746655abccb83a9a2f2ebd6391f6f"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r157-api-01a1ed0a/cold-full-rank-three-unit-collection-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r157-api-01a1ed0a/cold-full-rank-three-unit-collection-candidate.md",
+      "started_utc_epoch": 1795127562.240921
+    }
+  ]
+}

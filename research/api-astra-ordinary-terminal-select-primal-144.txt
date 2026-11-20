@@ -1,0 +1,156 @@
+## Result
+
+For fixed \(0<\tau\) and ordinary primes \(p\equiv1\pmod 4\), let
+\[
+n=\frac{p-1}{2},\qquad G_i=\sqrt n\,g_T(i)\quad(i\ne0),
+\]
+where \(g_T\) is the actual fixed-\(\tau\), zero-start activation increment at the physical mark \(0\). Let \(s\in\{\pm1\}\), and write
+\[
+\mathcal F_s=\{F\ge0:\ \mathbb EF=1,\ F\in U_s,\ F_0=q_s\}
+\]
+for the exact ordinary optimal face, with normalized expectation
+\[
+\mathbb EF=\frac1n\sum_iF_i.
+\]
+
+The target is to find, for every sufficiently small fixed \(\tau\), a genuine \(F_p\in\mathcal F_s\) and \(T=T(p)\to\infty\), with \(T+1\) in the proved simultaneous marked window, such that
+\[
+\mathbb E[1_{\{i\ne0\}}F_pG]=o(T)
+\]
+along all \(p\equiv1\pmod4\) primes. The \(\tau\downarrow0\) limit is taken only after this prime limit.
+
+I cannot prove this bound. The available primal selection mechanism gives the following exact conditional reduction.
+
+### Translation selection
+
+Let \(F\in\mathcal F_s\), and define its true cap set
+\[
+C(F)=\{h:F_h=q_s\}.
+\]
+For a translation \((\tau_hF)_i=F_{i+h}\), one has
+\[
+(\tau_hF)_0=F_h.
+\]
+Hence every \(h\in C(F)\) produces another genuine optimizer \(\tau_hF\in\mathcal F_s\). If the ambient space requires inversion symmetry, replace \(\tau_hF\) by the exact symmetrized translate whenever the corresponding reflected cap site is also available.
+
+For the physical, unshifted terminal source \(G\),
+\[
+\mathcal W_T(\tau_hF)
+ :=\mathbb E[1_{\{i\ne0\}}(\tau_hF)_iG_i]
+ =\frac1n\sum_{i\ne0}F_{i+h}G_i.                       \tag{A}
+\]
+Thus the uniform convex combination over cap translations,
+\[
+\overline F=\frac1{|C(F)|}\sum_{h\in C(F)}\tau_hF,
+\]
+is a genuine optimizer and satisfies
+\[
+\mathcal W_T(\overline F)
+=\frac1{|C(F)|\,n}
+ \sum_{h\in C(F)}\sum_{i\ne0}F_{i+h}G_i.                \tag{B}
+\]
+
+Therefore the translation mechanism proves the desired \(o(T)\) estimate only under the prime-specific correlation estimate
+\[
+\frac1{|C(F)|\,n}
+ \sum_{h\in C(F)}\sum_{i\ne0}F_{i+h}G_i=o(T)             \tag{C}
+\]
+for some exact primary optimizer \(F\), at a selectable \(T(p)\) in the actual marked window.
+
+This keeps the physical marking fixed: \(G\) is not translated. Only the optimizer row is translated, and the cap condition is what preserves its root value \(q_s\).
+
+### Singleton-cap obstruction
+
+If \(C(F)=\{0\}\), then translation closure provides no new optimizer at all. In that case (B) reduces to the original row:
+\[
+\mathcal W_T(\overline F)=\mathcal W_T(F).
+\]
+Consequently no argument based only on cap-supported translations can establish the target for a singleton-cap optimizer. More generally, even if \(C(F)\) is nonempty, (C) is an unproved correlation estimate; positivity, mean one, and exact optimality do not imply it.
+
+Selection among the full face \(\mathcal F_s\) is exactly described by the reduced dual from the supplied derivation. If \(\mathcal R\) is the opposite exact optimal face and
+\[
+I=\{i\ne0:R_i=0\text{ for every }R\in\mathcal R\},
+\]
+then for \(w_i=G_i\),
+\[
+\min_{F\in\mathcal F_s}\mathbb E(Fw)
+=
+\max_{\substack{Z\in U_{-s}\\ Z_i\le w_i\ (i\in I)}}
+\left(\mathbb EZ-\frac{q_s}{n}Z_0\right).                \tag{D}
+\]
+Thus the unrestricted primal selection problem is solved if one can construct a prime-uniform dual minorant \(Z\) with
+\[
+\mathbb EZ-\frac{q_s}{n}Z_0=o(T).                         \tag{E}
+\]
+No such \(Z\) is currently available for the actual \(G\).
+
+## Evidence supporting the reduction
+
+1. **Exactness of the face description.** The root condition, sector condition, nonnegativity, and mean-one condition are finite-dimensional and compact; the primal and reduced dual optima are attained. Thus (D) does not use a generic optimizer or assumed support positivity.
+
+2. **Actual terminal statistic.** The supplied terminal identity gives, in the simultaneous marked window,
+\[
+1-\frac{q_*a}{nM}
+\ge
+-\frac{\mathbb E[1_{\{i\ne0\}}F g_T]}{2TM}
+-O_{\tau,B}(T^{-B-1}),
+\]
+so the required primal estimate is genuinely sufficient for the original squeeze. Here \(g_T\), \(M\), \(a\), and the physical root are the actual fixed-\(\tau\) quantities.
+
+3. **Existing arithmetic does not close (C) or (E).** The prime autocorrelation and Fejér arguments control repeated differences of high-site sets. They do not control the weighted correlation of the actual nonlinear terminal source \(G\) against a selected exact optimizer. The off-diagonal reduction similarly leaves an exact optimizer weight in the signed sum.
+
+4. **The square diagnostic prevents a positivity-only argument.** On the eligible square family, the exact opposite root ratio is supercritical and the actual terminal source is provably \(\Omega(T)\) in the growing marked window. This does not refute the ordinary-prime claim, but it shows that exact-face selection cannot be justified by a field-independent positivity or support argument alone.
+
+## Precise remaining gap
+
+The mission remains open for the actual prime family
+\[
+p\equiv1\pmod4,\qquad p\to\infty,
+\]
+with \(n=(p-1)/2\), actual physical mark \(0\), actual zero-start \(g_T\), and the order of limits
+\[
+\text{fixed }\tau
+\quad\longrightarrow\quad
+p\to\infty,\ T(p)\to\infty
+\quad\longrightarrow\quad
+\tau\downarrow0.
+\]
+
+What is missing is one of the following prime-uniform statements:
+
+- the translation correlation bound (C) for a genuine optimizer and its true cap set; or
+- the exact reduced-dual bound (E) on the common zero set \(I\); or
+- a prime-specific obstruction showing that every \(F\in\mathcal F_s\) has terminal cost \(\gg T\).
+
+No supplied result establishes any of these.
+
+## Ranked next tests
+
+### 1. Exact cap-translation correlation test — highest priority
+
+For each ordinary prime and sign:
+
+1. Solve or characterize one exact primary optimizer \(F\).
+2. Determine its true cap set \(C(F)=\{h:F_h=q_s\}\), including the possibility \(C(F)=\{0\}\).
+3. Evaluate or bound the exact correlation in (B) with the actual \(G=\sqrt n\,g_T\), keeping \(T+1\) in the simultaneous marked window.
+4. Seek a prime-uniform estimate
+   \[
+   \sum_{h\in C(F)}\sum_{i\ne0}F_{i+h}G_i=o(|C(F)|\,nT).
+   \]
+
+A failure should be classified as: singleton cap, insufficient cap density, or a genuine arithmetic correlation between cap translates and the terminal high set. This is the most direct primal test and does not invoke a surrogate optimizer.
+
+### 2. Reduced-dual construction on the true common zero set
+
+For the opposite exact face \(\mathcal R\), determine the actual set
+\[
+I=\{i\ne0:R_i=0\ \forall R\in\mathcal R\}.
+\]
+Then attempt to construct \(Z\in U_{-s}\) satisfying \(Z_i\le G_i\) on \(I\) and
+\[
+\mathbb EZ-\frac{q_s}{n}Z_0=o(T).
+\]
+
+The first useful subtest is whether the prime Fejér/autocorrelation profiles can be converted into such a \(Z\) without assuming that \(I\) has positive density or that a chosen optimizer is positive on its complement. If this fails, the exact failure should identify the missing arithmetic condition: uncontrolled terminal peaks on \(I\), lack of a suitable opposite-sector minorant, or a singleton/common-zero geometry.
+
+Neither test currently proves the proposed \(o(T)\) bound; the first gives the most economical genuine-primal route.

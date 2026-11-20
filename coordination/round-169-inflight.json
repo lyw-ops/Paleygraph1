@@ -1,0 +1,61 @@
+{
+  "round": 169,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-168-acceptance.json",
+    "sha256": "3737f77b1e5c216470d4df78bb3b3f9f161c95b2538abfd5bc44eb7b40b255fa"
+  },
+  "coordinator": {
+    "path": "coordination/round-168.json",
+    "sha256": "37b9d0edf3dda5c1be4b407ebe96c8f9f3ecbdc4074ebca31c4cc968bcd203fa"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-169.py",
+    "sha256": "6208086ce4f3aa9243124a101ff1a79022c1498c338509e5824ff2c926e6f422"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-169-before.json",
+    "sha256": "bf0272b63aa03c6254e9700a68ed2df84d103c7dda2ac51a7df24c435ea17871"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-match-physical-spectrum",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "3591f4e4bdbd026c1f154faead05c7f2bcb4d9fd2ad11504960cd8289b1af521",
+      "mission_file": {
+        "path": "coordination/missions/round-169/ordinary-prime-match-physical-spectrum.md",
+        "sha256": "60e9bd58a7874efd4a4419db556128f4eb42b74b56e41c85aab4513001ddf774"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r169-api-01a1ed0a/ordinary-prime-match-physical-spectrum-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r169-api-01a1ed0a/ordinary-prime-match-physical-spectrum-candidate.md",
+      "started_utc_epoch": 1795134951.901083
+    },
+    {
+      "call_id": "ordinary-prime-quotient-positive-forcing",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "5267d02cf55c3a0318adc2fbe2e2a5b3b5e72ee0b12566c1e5a30f4045fba696",
+      "mission_file": {
+        "path": "coordination/missions/round-169/ordinary-prime-quotient-positive-forcing.md",
+        "sha256": "7dc38a95ba6dde4a6cc3a15bfd9db8ef86f8d6c8d33add5fdd03638945cc739c"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r169-api-01a1ed0a/ordinary-prime-quotient-positive-forcing-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r169-api-01a1ed0a/ordinary-prime-quotient-positive-forcing-candidate.md",
+      "started_utc_epoch": 1795134951.900542
+    },
+    {
+      "call_id": "cold-prime-distributed-seed-transport",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "ddd97f31d74e1b1aeb0a511d4c3d686b43bc5599eb285d8acc62c6a224497d50",
+      "mission_file": {
+        "path": "coordination/missions/round-169/cold-prime-distributed-seed-transport.md",
+        "sha256": "3169ab62901bb4f86b0d623e2150f00c9b6af5db2716cb420203326a7518bfba"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r169-api-01a1ed0a/cold-prime-distributed-seed-transport-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r169-api-01a1ed0a/cold-prime-distributed-seed-transport-candidate.md",
+      "started_utc_epoch": 1795134951.9015129
+    }
+  ]
+}

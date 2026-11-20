@@ -1,0 +1,108 @@
+## Result: a quantified cutoff obstruction at height 600
+
+Let \(q_*=0.515\) be the verified two-step/linearized contraction bound available on the physical height-600 branch, and let \(\beta=0.467\) be the shifted-resolvent exponent. The moving-starter hypothesis required by the transfer argument is
+\[
+r=o\!\left(n^{-(1-\beta)/2}\right)
+   =o(n^{-0.2665}).
+\tag{A}
+\]
+
+Suppose one tries to obtain such a starter solely by taking \(k\) Picard steps from a height-600 predictor whose initial normalized residual is merely \(r_0=O(1)\). The contraction estimate gives
+\[
+r_k\lesssim q_*^k r_0.
+\]
+To force (A), one needs
+\[
+k\ge \frac{1-\beta}{2|\log q_*|}\log n+o(\log n).
+\]
+Since
+\[
+|\log(0.515)|=0.66359\ldots,
+\]
+this requires
+\[
+k\ge 0.4016\ldots\log n+o(\log n).
+\tag{B}
+\]
+
+By contrast, the signed displacement-prefix cutoff supplied by the frozen-orbit argument is
+\[
+k_S=\left\lceil\frac{\beta}{2|\log q_*|}\log n\right\rceil
+   =0.3520\ldots\log n+O(1).
+\tag{C}
+\]
+At this cutoff,
+\[
+q_*^{k_S}=n^{-\beta/2+o(1)}
+         =n^{-0.2335+o(1)},
+\]
+which is weaker than the required \(n^{-0.2665}\) by the factor
+\[
+n^{(1-2\beta)/2+o(1)}
+=n^{0.033+o(1)}.
+\tag{D}
+\]
+
+Thus the following sufficient route fails with a power margin:
+
+> Start with a bounded-residual height-600 predictor, use only the verified \(q_*=0.515\) contraction, and stop at the signed-prefix cutoff \(k_S\).
+
+More generally, if \(r_0\asymp1\), compatibility of “residual reduction by contraction” with the available \(S_k\) cutoff would require
+\[
+\frac{1-\beta}{2|\log q_*|}
+\le
+\frac{\beta}{2|\log q_*|},
+\]
+hence \(\beta\ge\tfrac12\). The available \(\beta=0.467\) is strictly below this threshold. This is a genuine quantitative obstruction to that construction, not a refutation of the existence of another moving starter.
+
+The shifted-resolvent cutoff does not cause the same problem:
+\[
+k_L=\frac{\beta}{|\log q_*|}\log n
+=0.7040\ldots\log n,
+\]
+which is longer than the residual-reduction requirement (B). The mismatch is specifically in the signed displacement prefix \(S_k\), whose cutoff is half as long.
+
+## What would repair the construction?
+
+At least one of the following additional inputs is necessary.
+
+1. **A pre-small residual.** If the initial height-600 residual already satisfies
+   \[
+   r_0=o(n^{-\delta})
+   \quad\text{with}\quad
+   \delta>\frac{1-2\beta}{2}=0.033,
+   \]
+   then the missing exponent in (D) is supplied before applying the \(S_k\) cutoff.
+
+2. **A longer signed-prefix estimate.** Prove the \(S_k\) comparison through
+   \[
+   k\ge \frac{1-\beta}{2|\log q_*|}\log n
+   =0.4016\ldots\log n,
+   \]
+   while retaining a uniform displacement bound. This requires new signed arithmetic, not merely the existing entrywise shifted-resolvent estimate.
+
+3. **A stronger effective contraction.** If the relevant moving-depth contraction is \(q_{\rm eff}\), the same calculation gives
+   \[
+   k_S\sim\frac{\beta}{2|\log q_{\rm eff}|}\log n,\qquad
+   k_{\rm req}\sim\frac{1-\beta}{2|\log q_{\rm eff}|}\log n.
+   \]
+   The ratio is independent of \(q_{\rm eff}\); therefore improving \(q\) alone does not remove the exponent mismatch when the same contraction controls both cutoffs.
+
+The exact-exception budget remains useful once a moving starter is supplied: for \(|F|=O(n^\beta)\), its omitted-coordinate error is
+\[
+O\!\left(n^{1/2-\beta}\sqrt{|F|}\,r\right)
+=O(r)=o(1),
+\]
+but this does not create the missing power decay in \(r\). Likewise, a fixed normalized residual cap cannot pay the factor \(n^{1-\beta}\) in the nonlinear error \(O(n^{1-\beta}r^2)\).
+
+## Status of the two requested prefixes
+
+- **Shifted resolvent \(B^jZ\):** the height-600 bound \(O(n^{-0.467})\) is available for the frozen predictor and is compatible with the longer \(k_L\) cutoff.
+- **Signed displacement \(S_k\):** no prime-uniform bound through the required \(0.4016\log n\) depth is established. The current cutoff only reaches \(0.3520\log n\), and absolute shifted-entry bounds do not imply the needed cancellation.
+
+Consequently the angular conclusion remains conditional. The first violated quantitative comparison is the exponent inequality (D), under the explicit hypothesis that the starting residual is only \(O(1)\) rather than already \(o(n^{-0.033})\).
+
+### Ranked next tests
+
+1. **Highest priority:** compute or prove a lower/upper power estimate for the actual height-600 residual \(r_0\). Showing \(r_0=o(n^{-0.033-\epsilon})\) would close the cutoff gap without extending the signed prefix.
+2. **Second:** establish a prime-uniform signed \(S_k\) estimate through \(0.402\log n\), keeping the physical exceptional coordinates separate; this directly tests whether the obstruction is merely an artifact of the present cutoff.

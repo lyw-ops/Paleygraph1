@@ -1,0 +1,12 @@
+{
+  "overflow": {
+    "model": "gpt-6.2-astra",
+    "lane": "overflow",
+    "max_completion_tokens": 7200,
+    "prompt_sha256": "2d2ff99ca3bd8f95c291e102096feda6bc02d6c62ca1bb40a300b75b8d449e28",
+    "utc_epoch": 1795093057,
+    "completion": false,
+    "error_class": "TimeoutError",
+    "status": "local-runner-terminal-no-response"
+  }
+}

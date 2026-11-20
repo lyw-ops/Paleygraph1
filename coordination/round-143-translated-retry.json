@@ -1,0 +1,17 @@
+{
+  "original_dispatch": {
+    "path": "coordination/round-143-inflight.json",
+    "sha256": "d013c042b8f21ade6cad39b8d97857db4b8422c10e188998bc90a00fc9d73a3c"
+  },
+  "original_http_status": 429,
+  "call_id": "cold-translated-label-intersection",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "0549141a00aab050f810443743f73fcfe319f956da589f84dbc1e06f595419f5",
+  "launcher": {
+    "path": "coordination/launchers/round-143-translated-retry.py",
+    "sha256": "e33f01aba98455d874051f4911a47fa65e281eaafbbed2deb49d92191121a351"
+  },
+  "started_utc_epoch": 1795118302.3712482,
+  "pending_receipt": "/private/tmp/paley-r143-api-01a1ed0a/cold-translated-label-intersection-astra-retry-receipt.json",
+  "pending_candidate": "/private/tmp/paley-r143-api-01a1ed0a/cold-translated-label-intersection-astra-retry-candidate.md"
+}

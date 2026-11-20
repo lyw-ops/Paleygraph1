@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "round": 173,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 173 audits",
+  "sources": {
+    "baseline": {
+      "path": "research/round-172-acceptance.json",
+      "sha256": "e3bbc8a87d6a670f53dd2c49ccfe970e2f853da32736eee331387ced485785b1"
+    },
+    "current": {
+      "path": "research/round-173-acceptance.json",
+      "sha256": "f0bbf26dcb2401b20a7ef6817c1d5a53f0a80427341b1b37ef3abf8d04588ea4"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The full weighted diagonal was O(p^37/16 times (1+log p)) and the normalized one-match bound used the previous general affine estimate.",
+      "after": "Output-first incidence removes that logarithm. Actual two-label collisions and degenerate common-pole terms are paid. A uniform high-level vertical saving improves the full weighted affine energy.",
+      "remaining": "Control the still genuinely coupled full diagonal to O(p^3/2), or the goal-scale one-match and separate zero-match bounds, with the original weights.",
+      "evidence": [
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "Fixed source estimates and column tails did not give a moving starter or a transported analytic bridge.",
+      "after": "After confinement of a specified true logarithmic prefix and last-index clearance, coordinate continuation follows just from the fixed-height counting contraction disks.",
+      "remaining": "Prove actual finite-prefix confinement uniformly on the original square or another genuinely sufficient actual bridge. The distinct derivative-transfer inputs are still open.",
+      "evidence": [
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-two-remainder-seed-unit-171.md",
+          "sha256": "30ad14ab2223af6ce9fadc6edca3c985ca351745d9963b81495a6e4a6dc66905"
+        },
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The true full diagonal has lost its logarithm and paid quantitative collision classes. All-level energy improves via genuine vertical fibers. Cold closure can be reduced to an explicit finite prefix under a physical confinement hypothesis.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-regular-pole-coupling",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the actual regular same-pole or genuinely distinct-pole physical couples reach the needed full diagonal scale?",
+      "why_now": "Two-label intersections and same-pole character degeneracies are paid. The fixed-b row and per-line weights have power savings but still give O(p^(2-1/640)) for entire common-pole physical collisions.",
+      "scope": "Keep true four factors g(A),g(C),g(Y),g(D), w(s), mark and b-square. Try to exploit C=(A-r)/(1-r) and the forced pole r/(1-r) parameter, or treat distinct-pole correlations by a weighted incidence with both inputs. Do not subtract physical and character cuts twice.",
+      "if_yes": "Prove the full sufficient O(p^3/2) weighted diagonal, or handle a major unresolved class at target scale.",
+      "if_no": "Give a precise arithmetic obstruction to a named actual coupling or signed estimate.",
+      "if_inconclusive": "Give a prime-uniform power gain on the regular common-pole or distinct-pole block with all actual hypotheses.",
+      "inputs": [
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-affine-difference-distribution",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the true weighted affine difference distribution improve the full energy beyond the max-vertical argument?",
+      "why_now": "High-level vertical occupancies are quantitatively smaller, and the previous use of a generic maximum leaves an explicit O(p^(11/4-1/1280)) energy. The inverse chart Y=r/(1-b) makes differences structurally analyzable.",
+      "scope": "Use the actual coefficients g(Y)g(D), b-square, endpoints and all levels. For right differences (a,c) use r-prime=a r, b-prime=b+c r and Y-prime=aY/(1-cY) to expose real weighted gain or apply a phase-sensitive analogue. Do not assert an unweighted counterexample is arithmetic. Keep zero match separate.",
+      "if_yes": "Prove O(p^2) for the true weighted energy or a sufficient one-match bound.",
+      "if_no": "Give a precise obstruction to the specified weighted difference or convolution approach.",
+      "if_inconclusive": "Improve a true energy exponent or prove a target-scale nontrivial difference class.",
+      "inputs": [
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-actual-log-prefix-confinement",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the actual signed coordinate displacements stay below the radius through the explicit logarithmic finite prefix?",
+      "why_now": "The post-prefix counting contraction now gives the common holomorphic continuation under an explicit finite test, without needing a moving resolvent for this conclusion.",
+      "scope": "Keep true V_602, both lifts, physical t0=n and original square. Test max_j ||V_(602+j)-V_602||_infty through ceil((4/7)log_2 n) with slack at the end. Seek a genuine signed transfer or arithmetic bound along this prefix. A finite diagnostic alone does not prove uniform confinement.",
+      "if_yes": "Prove the actual fixed-margin prefix through the required growing depth and hence common continuation.",
+      "if_no": "Prove a genuine obstruction to that specific tube or starter on the actual family.",
+      "if_inconclusive": "Give a quantitatively verified decay or bounded segment materially reducing the growing-prefix gap.",
+      "inputs": [
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-two-remainder-seed-unit-171.md",
+          "sha256": "30ad14ab2223af6ce9fadc6edca3c985ca351745d9963b81495a6e4a6dc66905"
+        },
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 174 deductions survive independent review?",
+      "why_now": "Actual physical pole couplings, affine differences and logarithmic cold confinement need different checks.",
+      "scope": "Read-only. Verify hypotheses, actual marks and lifts, scales, and evidence type. Give two ranked next tests.",
+      "if_yes": "Record checked deductions and remaining estimates.",
+      "if_no": "Locate an invalid step.",
+      "if_inconclusive": "Separate theorem, conditional criterion and finite evidence.",
+      "inputs": [
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

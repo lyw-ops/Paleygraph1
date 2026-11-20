@@ -1,0 +1,166 @@
+{
+  "round": 97,
+  "accepted_at_utc": "2026-11-19T10:23:23Z",
+  "previous": "research/round-96-acceptance.json",
+  "previous_sha256": "dddd539dd1957ac8fa5b8a232a5a282e68c0e1d88b1fecff3fe14bd09d8d8b46",
+  "previous_round_closeout": "The previous turn was interrupted after writing the R96 manifest. Before R97 all 70 bound files and all four frozen R96 checker streams were verified again, with 11 byte-identical records.",
+  "proof_and_code_sha256": {
+    "research/same-floor-97.md": "60803d1e7e47f578ddf8bb6b243fe21954e6ecd398cc375c23724358ff9e4a70",
+    "research/same-floor-97-check.py": "b8e4e97965fbeb4195ec7861a54cb9d47b1cb68d1a5d6295fc6edddd80dec684",
+    "research/same-floor-97-checks.jsonl": "59d51ada9bb2f2823d9962d313fa00a8046bd5837e16c64bf16961c57b55e3d7",
+    "research/astra-signed-97.md": "a41f69a802bd1aaae809153b444bbc86f8020063ac2440fa966149558085f2c6",
+    "research/astra-signed-97-check.py": "7cf5bca08c4795bca7f4cae660c0098548ed91eb2a7562fc1b65d7ba05ea3b42",
+    "research/astra-signed-97-checks.jsonl": "af6b6974a442be42f7ac5262d657c427e4830c0d3d5a61c29d1edc5ec5388876",
+    "research/astra-incoming-97.md": "38efd65265f3a76c49c7a1a4d9088f894bd063b9163fd3e378caccb7a033e6ba",
+    "research/astra-incoming-97-check.py": "7e6060be12b148f6dc81f472542e8ecb05f0fc27af195e4813faea4c7c0481ea",
+    "research/astra-incoming-97-checks.jsonl": "50fb294c0c8d16cbff428a7cdcccb02c8c638a8c27451a1f4675f86a08b35d17",
+    "research/astra-prefix-97.md": "6b475d889420dc55de0bc0a61f51c16178a74358ea8d9833cba76fee0aa5c2e5",
+    "research/astra-prefix-97-check.py": "472e2911f51f207938a2a67b0ee6dd0140cd8346c6f8b05af5b950c2fbe63bf7",
+    "research/astra-prefix-97-checks.jsonl": "72fe171512d7f1172be02850a907d9d61e7bda41bf67ebce7376d1d7abc58511",
+    "research/astra-incoming-97-caps.json": "ba524be49e3e91729bbdf564197a7f9d35c3fc8af356b86a340388082ac6f02e"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/astra-adjoint-82-checks.jsonl": "8a02bd8d5f43241e43344e8b83a6a17ae88874c4ed81e20e29335c03750af7b4",
+    "research/astra-count-96-check.py": "d6b7fe6b3fa1e2e1b437b2488f7e764ef37219dd199e982fdb919204f657d9e1",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-paired-96-check.py": "1fade1e82039862e8e302bbb71aeb8674bfec97a3d533b61dd73d7a751f5128f",
+    "research/astra-recur-95-check.py": "e61efbc6a079641348661c051e1e07d4905434bc97cc42f6532b630e04167a55"
+  },
+  "additional_replay_dependency_sha256": {
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-depth-95-caps.json": "9b1585e431e383af149c78f5cdae461cb983913c2033aeb02eee58abf0fee1ae",
+    "research/astra-depth-95-check.py": "22cf35f7349cfbbc716f2c3d93fa772471f9ac21e889e12357374137e47dcc4c",
+    "research/astra-direction-83-caps.json": "e99f0b9842ef9afcb4ab791f2464aed52ba1397fddbee3ee760cff4516e254b6",
+    "research/astra-direction-83-invariant.py": "a92c1d8f3251bbe33cb6a71d32824e23f069ec7f155fcd6b6c518669795d091d",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-imaginary-84-caps.json": "0e7c981df462550c8283b939f72d5a1cf274be562e7aaef22bc65c7985768a44",
+    "research/astra-imaginary-84-check.py": "c89b732a65097673feef817926e9d5913fa914d01188946cdadc7ce462530b7e",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/astra-paired-96-caps.json": "549deae71c6af1493ee95126fa063928e3437fbf75ea8904e4e888102fab44f6",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-velocity-92-check.py": "e4c7558ec60c897777c666d9da096650a28361517e2e4f3b4065c263c9dbbc3c",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/astra-count-96.md": "14c8531047e2453f19a8546ac4bc2732fb5bfebc757a12095cd641d4ca93fdcd",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-paired-96.md": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e",
+    "research/astra-fiber-96.md": "0ddd495c6abb4abf3914a796753c21d6bb37d331a9452829d1aa487c86ef28e7",
+    "research/astra-tie-95.md": "b29150a773883ceed9e07e1b345e2054e9b16415d35ed04878e19a5da5a3fc18",
+    "research/astra-recur-95.md": "eca2076672cd9850740eaea81b1e42fb4718d5ee092f5cced082d184ec847d9b",
+    "research/astra-depth-95.md": "7afa02763663c1b1bb14a4bbbd810e356e8f4e6eaed7714e7dd4a8d0cc0a4dd4",
+    "research/astra-quotient-94.md": "d74538d6545394d9b59dc6cb10149590ac659555171149037fea7d00961a7861",
+    "research/phase-action-84.md": "ca649496c0b7f2b16f08cab673af25f20fff64cc0f3f2637e56624f5372a00cd",
+    "research/astra-mixed-81.md": "a2af1a9deb405d18930824f3d014727b8459f6063db3e36021756dcdfa401465",
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/astra-source-88.md": "80b4849d9f4e43c9a732af10731e6f1c38f895f0c726ad8df4420e591d746f88",
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/response-locality.md": "c27dc4800790abee43b4933c83f808fd7ad975a0167c2f86baa363eb6b783428",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/terminal-height-79.md": "cce1001c879a8cb511c72da904c1f3a46a49b590c1cddb8f120c26d7e15b5e36",
+    "research/astra-critical-44.md": "8df7fbbc6e2070d1227038b11eb788669c79256bca7d5ebaaa4dc2647665450a"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "/root/signed_97",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the actual first-hit signed exterior after erasing the largest actual source entries and control the remaining source counting second norm at scale n^(1/4).",
+        "Test the signed Jacobi discrepancy on the two true superlevel cuts at the same physical imaginary maximum, allowing a separate deletion for each cut pair."
+      ]
+    },
+    {
+      "name": "/root/incoming_97",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate the signed pre-exit nonlinear history or its actual weighted square sum, allowing different top erasures each time.",
+        "On the nominated complex square estimate the corresponding actual imaginary secants and continue toward a common unforced domain."
+      ]
+    },
+    {
+      "name": "/root/prefix_97",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Minimize the fixed full-prefix original-eroded exterior objective over qualifying companion quotient laws and find an o(J^2) trial.",
+        "Bound the original-block restricted absolute prefix transform by o(J) on the same filtered family."
+      ]
+    },
+    {
+      "name": "/root/audit_97",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Combine the same-floor Hellinger lag with one of the actual signed or erased first-boundary tests.",
+        "Test the required signed history on the actual incoming increments and the original-eroded linear quotient test, preserving the separate asymptotic hypotheses."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Bound the actual same-floor signed singleton after deleting the largest lags. The signed indicator test on the two realized cuts at the physical imaginary maximum offers an independent route.",
+    "Control the real pre-exit signed history in the frozen all-source response. For the complex route either construct a sufficiently accurate higher same-floor predictor or advance the true unforced rectangle using a disjoint signed return.",
+    "Test both original thresholds in the real trapped branch, on the maximum of the original-block prefix means and on the single original-eroded full-prefix quotient objective."
+  ],
+  "core_records": 9,
+  "arithmetic_record_counts": {
+    "same_floor_odd_derivative_and_erasure_arithmetic_arb192": 1,
+    "growing_signed_erasure_and_finite_transport_arb256": 2,
+    "incoming_real_constants_and_unforced_rectangle_arb192": 5,
+    "actual_quotient_prefix_and_lp_arb384": 1
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main reproduced each frozen checker stream under pipefail with PYTHONPATH=., .venv/bin/python -B, and cmp. The independent reviewer also reproduced the four streams and checked all final proof texts.",
+    "The same-floor record verifies the Cauchy amplitude bounds, nominal rate, actual complex residual constants, and the growing trimmed arithmetic margin.",
+    "The signed erasure checker has an arithmetic record and a p=173 interval record at a tailored cutoff. The finite record checks the transport identity at individual sites, twelve erased sites by Schur elimination and the signed level-set integral.",
+    "The incoming checker has three overlapping real subdivisions of unforced complex rectangles, one old frozen cap overrun record, and one arithmetic record for the finite all-height real secants and the eventual signed history.",
+    "The p=769 prefix record checks the true orbit, the weighted translated identity, the single positional fiber and the rational-primal and residual-debited dual bounds for the whole finite quotient LP. Floating seeds do not supply the final objective certificate."
+  ],
+  "proof_scope": [
+    "At the actual first activation of the near-flat comparison on the nominated complex square, a same-floor nominal real reflection has eventual scaled bounds below 92 on the bulk marked column and below 182 off diagonal. The normalized real half-log tilt is at most twice the complex height-100 residual. The untrimmed signed singleton exceeds 7.55e-5 and requires sqrt(n) times that residual above 1.9. After deleting the hit and the largest lag entries to size floor(sqrt(n)/500), a signed lower of 5e-5 survives or n^(1/4) times the complex residual exceeds 0.0029.",
+    "At the genuine first hit, the real-axis trial gives a growing erasure dichotomy with threshold 7.05e-7 n^(1/4) for counting second norm. At a fixed real physical imaginary maximum one pair of actual signed cuts has bare Jacobi discrepancy above 0.2910 after every allowed sqrt(n)/2 erasure, with a distinct translated-resolvent signed-cut bound for smaller erasures.",
+    "For real t on the nominated interval and eligible n >= 10^30 with p <= 4e695, all consecutive true secant pairs after height 600 have norm at most 0.8. For sufficiently large primes any nonzero slow incoming projection forces an actual first exit and a signed nonlinear source above 9.4 even after independent per-time erasures up to 10^434. The unforced rectangle advances 4/2^20, with open overlap, fixed imaginary half-width and the all-height actual normalized residual bound.",
+    "On the bounded recurrent trapped family, the genuine temporal minority admits one full-prefix quotient bound. Recurrent visits force either an order-J original-block absolute prefix mean or a signed order-J^2 translated mean at the full predetermined prefix. Under the small original-block alternative the original-eroded single-prefix objective is order J^2 for every qualifying quotient law."
+  ],
+  "independent_review": [
+    "Checked the same-floor physical derivative estimate, absolute power-series transport, weighted marked loss and actual lag. The proof text distinguishes marked-column bounds for the transported inverse from the bulk marked entries of the real reflection.",
+    "Checked the two Schur erasure estimates, the actual physical amplitude sign and cutoff tests, and the same-floor combination at the fourth-root scale.",
+    "Checked the finite real induction order, principal-angle estimate, true pre-exit signed expansion and the new unforced quadratic/cubic debits against the previous rounds.",
+    "Checked the prefix telescope, simultaneous quotient-law scope, single-fiber identity and comparison record for the finite LP."
+  ],
+  "failed_paths_and_open_bounds": [
+    "A fixed-height complex residual tolerance, even at the same floor, does not give a size-independent signed upper. Both first-hit and cut inequalities remain necessary conditions.",
+    "The finite real interval estimate does not establish uniform absence of slow directions along unbounded primes. The necessary signed pre-exit history lacks the required upper.",
+    "The new unforced common domain remains 2256/2^20 above the nominated cold square's right edge. It does not yield an all-prime continuation there or to floors tending to zero.",
+    "The two recurrent prefix bounds and the finite-power escaped branch remain open, so neither the trapped nor the overall ordinary theta asymptotic is closed."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "round": 139,
+  "accepted_at_utc": "2026-11-19T19:10:28Z",
+  "previous": "research/round-138-acceptance.json",
+  "previous_sha256": "4cb0f4250122055ade08c40232bdbabf6be60d8e14e061e91eda4a361ada4378",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-138.json",
+    "sha256": "09868eafa9859505a47213a5bcdf83e853cdf1bb1d4209c815f08f44f7cbba77"
+  },
+  "proof_and_code_sha256": {
+    "research/cold-same-row-involution-139.md": "e0d2570bcaffd070c340cfcef899fe1df8e8b3cfa4fde45e7b6b6e053530c9f9",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/cold-position-kernel-139.md": "e32150283aa8f1aa51fc3b02e126d9b9cb4c0890c5c613b4dd75174ae1cd3cda",
+    "research/api-astra-review-139.md": "f31c0671e82ce5a639507bf8b474ad8fa5ad3344e9148f67a26d8f5d30aabdb6",
+    "research/api-astra-139-receipt.json": "8ddc99757774de3370526a79265b02a267c300dbdfdf92a6d3c52a897c6e1574",
+    "research/api-astra-cold-same-row-square-difference-139.txt": "51fcc05eff53a65d11ce0185ee30dfc6076656ba87f6312b19341138c9ffe141",
+    "research/api-astra-cold-picard-residual-label-returns-139.txt": "f386d17ffd91eda6d84a5f95d5dcd24dfb3c64e748d022a697601b7b937e9437",
+    "research/api-astra-ordinary-direct-signed-jacobi-tail-139.txt": "3a147ee3181362f741f0a062ae25d053b73ad33bf6c981d2756fffc0669eb6e6",
+    "coordination/launchers/round-139.py": "210f7728901c4ed547bb068d3b809beb75331dff3b54731cd440abf65285548c",
+    "coordination/round-139-inflight.json": "75dea269f714baaf1f68842c2eb64926909a5dfa4268720c1a7ff955793383bf",
+    "coordination/shared-obligations/round-139-before.json": "69849f9410e729084cf1d9583f90bcd593a7eb5d1ae0699e06d6270bb1a5123d",
+    "coordination/shared-obligations/round-139-after.json": "acbe6b7f00be3015c3c15cf7c3f2df1982a3c71942faebffefacf1d1785d9e52",
+    "coordination/missions/round-139/cold-same-row-square-difference.md": "9fd89be71861ccd93266b266219452eceb5c26911a29df7d94a9279a3e13b994",
+    "coordination/missions/round-139/cold-picard-residual-label-returns.md": "ed62a0199989df1637dbac7935143b39089283c1dd7d3734e9ac7c7ff3b6c368",
+    "coordination/missions/round-139/ordinary-direct-signed-jacobi-tail.md": "6bece21703081b5bf0e876c66079a7d1a3453a7c76b97865ce4db83acef37563"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/cold-frozen-cross-reduction-138.md": "6a4283f05e6c58c7a1a0b581917838d2174303f2a9b82e40e8c1921aa7640225",
+    "research/cold-linear-label-separation-138.md": "01a092349e7769d493d28faa5c0a3f6eb36935adfd7aa0ded009ad478a0fbb4b",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/cold-actual-quadratic-128.md": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-linear-split-137.md": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01",
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/astra-rankeight-60.md": "33b777c67e958dbe80ca3aba5a25f79de75aa6a8f5faa1370495be6bddcb724a",
+    "research/ordinary-seed-window-134.md": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb",
+    "research/ordinary-sector-square-tail-135.md": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a",
+    "research/ordinary-bulk-spectrum-137.md": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/picard-transfer-37.md": "b2a9d09b16fe4e97ac43e09843c778bc407aef7e6b5f8c2e71c26e5af92e88a7",
+    "research/astra-completion-37.md": "7c0ec52d48c6eb801063ff9b8afadf1573cab2814d667fc5625680df02257269",
+    "research/pinned-corner-61.md": "e63cf416ba4f8fde1e25d89a2942bfa52a7515f5c87b3b48caf91d65e834fcf5",
+    "research/stochastic-repair-62.md": "3251deb90d4d54d98d27dfb98f055a842a0308bdbc279b6a810c4ac879062425",
+    "research/zero-floor-sector-133.md": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-resummed-136-check.py": "81dbc6e21637e04a5bf39bf503a6172fee8ba4dffe308d0dce7fb6fe068a3784"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three completed research calls and independent review of new exact cold deductions.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "research_agents": [
+    {
+      "name": "Gateway Astra actual same-row square difference",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Keep the intermediate K and price the signed anticommutator",
+        "Compare linear and quadratic words in the same-row square"
+      ]
+    },
+    {
+      "name": "Gateway Astra actual Picard residual label returns",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Track transported five-label return",
+        "Build overlapping level recursion with actual phases"
+      ]
+    },
+    {
+      "name": "Gateway Astra ordinary direct signed Jacobi tail",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Retain the signed seed on the actual opposite supports",
+        "Use the forcing-specific energy criterion as fallback"
+      ]
+    },
+    {
+      "name": "/root/audit_139",
+      "status": "completed",
+      "ranked_closeout": [
+        "Price the inverse-line position multiplier before treating it as an error",
+        "Estimate the signed rational pullbacks and keep finite-prime residual projection distinct from limiting labels"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Translate the actual inverse-line multiplier into the P5000 packet class or locate the precise independent collision at x=-1 or boundary-pair obstruction.",
+    "Price the actual weighted rational pullbacks in the remaining paired same-row kernel, with sufficient signed budgets 0.268468 for the anticommutator or 0.703184 for the full square difference after accounting for every piece.",
+    "Revisit positive completion of the genuine projected average within the proved growing marked arithmetic depth. Preserve sector, raw mark up to o(1) and additional mean o(n^-1/2) at each fixed positive floor."
+  ],
+  "proof_scope": [
+    "For the actual frozen height-601 square and anticommutator, the exact swap of intermediate position z with xy/z cancels opposite signs before pricing. The inner mask outside xy=1 has exactly (n+1)/2-a_p(xy)/4 nonzero positions and the two signed quadratic rational pullbacks are exact. The inverse-line sign mask has no such cancellation.",
+    "For any of the actual derivative rows at 601,602 and the pure-seed derivative, the position entries of KD1 KD2 with y≠1 are O(p^-1/2) uniformly on the original square through large eligible primes, with all physical mark and exceptional-lift errors restored. This gives counting norm O(p^-1/2) for the inverse-line component by a weighted permutation. It does not yield a translated packet bound.",
+    "Pairing the common Jacobi seed weights in the actual derivative height change gives translated physical P5000 less than 0.017 eventually at the genuine 601,602 rows. The new sufficient same-row anticommutator and square budgets are 0.268468 and 0.703184, respectively."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The positive one-step remainder comparison obstruction does not decide the signed same-row square difference. The weighted rational kernel and the inverse line still lack physical pricing, followed by the half-step and invariant margins.",
+    "The recovered Round 65 intervals concern selected limiting compact-group tags at the real center. They do not determine the exact all-label residual at either frozen height or its coefficient on the full marked square.",
+    "The ordinary tail response gives only the known unsigned domination. The true signed tail, clipped window, and time-window alignment for averaged positive completion remain open.",
+    "The original ordinary Lovasz theta asymptotic remains open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Independent exact Fraction comparisons verified 0.017 and both new margins. Direct integer sign-mask and rational-pullback cross-checks passed for 200 nontrivial c over ten primes.",
+    "All three API response archives match their complete receipts and dispatch times. The chronological overlap comparison binds the saved before snapshot and reports no shared group."
+  ],
+  "independent_review": [
+    "A separate mathematical reviewer checked the permutation/swap and exact endpoint counts, rational pullback, actual paired height correction, and all-order sheaf rank and middle-inertia proof of the position kernel. The review also checked the precise limitation of the old residual tags."
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "round": 100,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinating agent after the independent Astra audit of Round 100",
+  "sources": {
+    "baseline": {
+      "path": "research/round-99-acceptance.json",
+      "sha256": "3015191b9a3c8675ec3b56ea9801b1db01cee2326838c5bfa25a2b8250c7292a"
+    },
+    "current": {
+      "path": "research/round-100-acceptance.json",
+      "sha256": "92017b6a7afa6b973cd5d819a1490326e029fbe63d39c98d55bbbfb1046cfb15"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold-first-contact",
+      "route": "Physical comparison first activation and marked time response",
+      "effect": "weakened",
+      "before": "Round 99 requires an actual signed Newton exterior above 3.41e-5 after a hit-containing square-root erasure and gives a fixed-envelope threshold.",
+      "after": "Segmentwise physical residuals exclude the former calibrated regime. Independent finite-prime no-hit via the height-510 angular source reaches n<=1e296, and height-600 stationary existence reaches n<=1e358 on the entire nominated square.",
+      "remaining": "Control compatible growing-depth signed marked-only derivatives and counting residuals, or prove an actual erased signed exterior upper outside the fixed-depth regimes.",
+      "evidence": [
+        {
+          "path": "research/schur-newton-99.md",
+          "sha256": "0f602ddc7ddef65c4d1b13a05b35297ca11789a4977df0c7557c317f50730370"
+        },
+        {
+          "path": "research/astra-mixed-100.md",
+          "sha256": "2a55170920bbe2ff60de667568397447f2b0255dfcebf8792d56a61a1fc0140c"
+        }
+      ]
+    },
+    {
+      "id": "true-exterior-forcing",
+      "route": "True recurrent quotient at a shrinking trial root",
+      "effect": "reformulated",
+      "before": "Round 99 gives exact sparse-head avoidance and permits order-1/J trial root on the original candidate list. The signed triangular term is separate.",
+      "after": "An exact head projector and signed autocorrelation repairs give independent primal options, and the soft dual retains signed coefficients. The p=769 four-block replay separates full avoidance from clique and proper-subgroup trials.",
+      "remaining": "Prove a sufficient projector head-root or centered soft signed price at A/J through primes, together with the one-sided triangular sum on the genuine recurrent block. The escaped branch remains open.",
+      "evidence": [
+        {
+          "path": "research/quotient-floor-99.md",
+          "sha256": "73d912071f50e70497fe51662437caad2429b31ea0fcda37fec0f2f2fde7a59e"
+        },
+        {
+          "path": "research/astra-root-100.md",
+          "sha256": "2ea0a887e72cef8b572d5f262215766a6e5fbf177f93b24515965016d1218a02"
+        },
+        {
+          "path": "research/quotient-soft-100.md",
+          "sha256": "971215792b9ad8f5a965476a61d49309942cc23a5163b2f891aec588a1ab8cac"
+        }
+      ]
+    },
+    {
+      "id": "common-continuation",
+      "route": "Unforced complex return and actual real tails",
+      "effect": "weakened",
+      "before": "Round 99 advances the true common slab to left edge 16640190/2^20 and leaves the real selected logarithmic tails.",
+      "after": "Disjoint rank-three determinant and rank-four repeated-shift charges move the common edge five units colder at the same imaginary width.",
+      "remaining": "Close the remaining gap of 2225/2^20 by new disjoint rank-five linear/cubic debits, or control the actual real common-erasure tails.",
+      "evidence": [
+        {
+          "path": "research/astra-cold-99.md",
+          "sha256": "8276688cd79e36e4948cc9e297e81615c0c07840d32904b7644e1484bed1b6c3"
+        },
+        {
+          "path": "research/astra-exit-98.md",
+          "sha256": "03f0b91acbeb0d1c5c063d2a6b19cd737755594472621fd8865ce096ce391537"
+        },
+        {
+          "path": "research/astra-return-100.md",
+          "sha256": "3e269ee06441aba87d97d860b0c93da299e170dfe24ff2c44c9eba55c05618bc"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The new finite ranges, exact quotient candidates and common slab localize the remaining estimates. The intended all-prime ordinary theta limit remains open.",
+  "next_calls": [
+    {
+      "id": "marked-increments",
+      "priority": 1,
+      "change_id": "cold-first-contact",
+      "question": "Do consecutive actual marked-source derivatives cancel enough to support the angular margin at increasing depths?",
+      "why_now": "The normalized time source is exactly one marked Jacobi column and explicit height-varying second norms already give sizable finite scope.",
+      "scope": "Use the genuine nine-center prefix and the derivative of V_h/sqrt(t), with the common marked source canceled before pricing. For an eventual claim require an angular margin and a compatible counting residual estimate, or control the actual oriented exterior by a legal hit-containing erasure.",
+      "if_yes": "Prove the corresponding original-cutoff exclusion and check what unforced domain it establishes.",
+      "if_no": "Record a genuine obstruction at the precise source or signed target.",
+      "if_inconclusive": "Give a checked signed increment identity, a smaller directional estimate or an explicit unused term.",
+      "inputs": [
+        {
+          "path": "research/schur-newton-99.md",
+          "sha256": "0f602ddc7ddef65c4d1b13a05b35297ca11789a4977df0c7557c317f50730370"
+        },
+        {
+          "path": "research/astra-mixed-100.md",
+          "sha256": "2a55170920bbe2ff60de667568397447f2b0255dfcebf8792d56a61a1fc0140c"
+        }
+      ]
+    },
+    {
+      "id": "projected-soft-root",
+      "priority": 2,
+      "change_id": "true-exterior-forcing",
+      "question": "Can the genuine signed flat price be made o(J^2) at trial root A/J with a head projector or signed centered repair?",
+      "why_now": "The true head repair reduces to scalar constraints, while the soft gap has zero root and prices the previous actual absolute states.",
+      "scope": "Keep the original filtered list, fixed marked horizon and legal erasures, and use the independent one-sided triangular sum. A failure of an avoidance family does not bound the full soft optimum.",
+      "if_yes": "State the signed trapped branch condition removed on the original list.",
+      "if_no": "Retain the actual signed dual or projector obstruction with the precise trial family and floor.",
+      "if_inconclusive": "Return an exact estimator for the signed soft gap or triangular sum, separating finite data.",
+      "inputs": [
+        {
+          "path": "research/quotient-floor-99.md",
+          "sha256": "73d912071f50e70497fe51662437caad2429b31ea0fcda37fec0f2f2fde7a59e"
+        },
+        {
+          "path": "research/astra-root-100.md",
+          "sha256": "2ea0a887e72cef8b572d5f262215766a6e5fbf177f93b24515965016d1218a02"
+        },
+        {
+          "path": "research/quotient-soft-100.md",
+          "sha256": "971215792b9ad8f5a965476a61d49309942cc23a5163b2f891aec588a1ab8cac"
+        }
+      ]
+    },
+    {
+      "id": "rank-five-or-tails",
+      "priority": 3,
+      "change_id": "common-continuation",
+      "question": "Can the 48-copy linear/cubic rank-five return prove a colder common slab, or can both actual one-sided tails be bounded after the same legal erasure?",
+      "why_now": "The new strict overlapping slab leaves explicit rank-five physical charges and an independent real exit test.",
+      "scope": "Preserve native distinguished debits and the one-child law for complex continuation. For the real route enforce the original actual orbit, both tails and one legal per-time deletion family.",
+      "if_yes": "State the unforced common domain or real first-exit exclusion with exact quantifiers.",
+      "if_no": "Preserve the failed arithmetic budget or realized signed obstruction.",
+      "if_inconclusive": "Report disjoint bookkeeping or a narrower checked criterion.",
+      "inputs": [
+        {
+          "path": "research/astra-return-100.md",
+          "sha256": "3e269ee06441aba87d97d860b0c93da299e170dfe24ff2c44c9eba55c05618bc"
+        },
+        {
+          "path": "research/astra-exit-98.md",
+          "sha256": "03f0b91acbeb0d1c5c063d2a6b19cd737755594472621fd8865ce096ce391537"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold-first-contact",
+      "question": "Are the new Round 101 estimates on the actual rows with their asserted scope?",
+      "why_now": "Independent read-only review precedes new acceptance.",
+      "scope": "Verify proofs, qualifications, and final replays. Distinguish analytic argument, interval certificate, and finite diagnostics.",
+      "if_yes": "Return scoped verified statements and ranked next tests.",
+      "if_no": "Identify the first substantive flaw or failed replay.",
+      "if_inconclusive": "Report which evidence was checked and what remains unverified.",
+      "inputs": [
+        {
+          "path": "research/astra-mixed-100.md",
+          "sha256": "2a55170920bbe2ff60de667568397447f2b0255dfcebf8792d56a61a1fc0140c"
+        },
+        {
+          "path": "research/astra-root-100.md",
+          "sha256": "2ea0a887e72cef8b572d5f262215766a6e5fbf177f93b24515965016d1218a02"
+        },
+        {
+          "path": "research/quotient-soft-100.md",
+          "sha256": "971215792b9ad8f5a965476a61d49309942cc23a5163b2f891aec588a1ab8cac"
+        },
+        {
+          "path": "research/astra-return-100.md",
+          "sha256": "3e269ee06441aba87d97d860b0c93da299e170dfe24ff2c44c9eba55c05618bc"
+        }
+      ]
+    }
+  ]
+}

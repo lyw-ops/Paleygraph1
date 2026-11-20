@@ -1,0 +1,177 @@
+## Result: inconclusive; the prime-specific upper bound remains open
+
+For the actual ordinary family
+\[
+p\to\infty,\qquad p\equiv1\pmod 4,\qquad n=\frac{p-1}{2},
+\]
+with the Jacobi kernel \(K\), physical coordinate \(0\), zero-start orbit, fixed floor \(\tau>0\), and \(T=T(p)\to\infty\) chosen so that \(T+1\) lies in the simultaneous marked window, the available arguments do **not** prove
+\[
+\mathscr D_{F,T}=o(T^2)
+\]
+for a selectable true opposite optimizer \(F\) on either sign.
+
+Here
+\[
+H=\sqrt n\,g_{T-1},\qquad
+G=\sqrt n\,g_T,
+\]
+and, for an actual opposite mean-one optimizer \(F\), with
+\[
+q_*=F_0,\qquad \lambda=F-q_*e_0,
+\]
+the exact distinct-index statistic is
+\[
+\boxed{
+\mathscr D_{F,T}
+=
+\frac1n
+\sum_{\substack{i,j,k\ne0\\ i,j,k\ {\rm distinct}}}
+F_iH_jH_kK_{ij}K_{ik}.
+}
+\]
+
+The physical mark is retained throughout; it is removed only after the weighted contribution of the source coordinate has been bounded by the marked-window estimate.
+
+### What is proved
+
+The exact quadratic comparison gives
+\[
+\mathbb E\!\left[\lambda(KH^\circ)^2\right]
+=
+\mathscr D_{F,T}+O_\tau(T),
+\]
+where \(H^\circ=1_{\{j\ne0\}}H\), and all expectations are normalized by \(1/n\). The \(O_\tau(T)\) term includes:
+
+- the diagonal \(j=k\);
+- the terms with \(i=j\) or \(i=k\);
+- the physical source \(j=0\) or \(k=0\);
+- the Jacobi diagonal contribution.
+
+The source removal is valid because, in the actual growing marked window,
+\[
+|H_0|\max_i|K_{i0}|=O_{\tau,B}(T^{-2B}).
+\]
+
+Moreover, the terminal identity implies that if an ordinary prime gap persisted on one sign, namely
+\[
+\frac{q_*}{\sqrt n}\ge 1+\eta,
+\]
+then for every actual opposite optimizer and every admissible growing \(T\),
+\[
+\mathbb E(\lambda G)\ge c_{\tau,\eta}T.
+\]
+By Cauchy–Schwarz this forces
+\[
+\mathscr D_{F,T}\ge c'_{\tau,\eta}T^2
+\]
+eventually. Thus the distinct-index statistic is genuinely the obstruction: coincidence terms, the physical mark, and the diagonal cannot supply the required quadratic mass.
+
+The desired sufficient estimate would be, for at least one selectable true optimizer \(F\) on each sign,
+\[
+\boxed{\mathscr D_{F,T}=o(T^2).}
+\]
+Equivalently, the weaker first-moment target
+\[
+\boxed{
+\frac{\sqrt n}{T}\,
+\mathbb E\!\left[1_{\{i\ne0\}}F_i g_T(i)\right]=o(1)
+}
+\]
+would suffice. The terminal identity also gives the equivalent signed form
+\[
+\frac{\sqrt n}{T}\,s\,\mathbb E(F\Delta v)=o(1),
+\qquad
+\Delta v=v_{T+1}-v_1,
+\]
+up to \(O_\tau(T^{-1/2})\) and marked-window errors.
+
+### Why the present bounds do not settle it
+
+The spectral estimate only gives
+\[
+\mathbb E[\lambda(KH)^2]
+\le \|\lambda\|_\infty\,\mathbb E H^2
+\ll \sqrt p\,T,
+\]
+since \(F_i\le 1+\sqrt p\) and \(\mathbb E H^2\ll_\tau T\). This is much too large when \(T\) is the available growing depth, which is only of iterated-logarithmic size in \(p\).
+
+Entrywise Jacobi bounds are also insufficient. Using
+\[
+|K_{ij}|\le \frac{\sqrt p}{n}
+\]
+destroys the signed cancellation and gives no \(o(T^2)\) estimate. The existing Fejér/autocorrelation arguments control difference multiplicities of supercritical or high-site sets, but they do not control the weighted signed kernel
+\[
+(i,j,k)\longmapsto F_iH_jH_kK_{ij}K_{ik}
+\]
+for the actual nonlinear terminal field \(H\).
+
+The true opposite-face constraints,
+\[
+F\ge0,\qquad \mathbb EF=1,\qquad
+KF=-s(F-\mathbf1),\qquad F_0=q_*,
+\]
+have not yet been combined with the actual \(H\)-dependent quadratic form in a way that produces a prime-uniform upper bound. The optimizer may concentrate its second moment on the actual terminal high set; the existing concentration argument only shows that such concentration is necessary under a prime gap, not that arithmetic forbids it.
+
+The order of limits therefore remains:
+
+1. Fix \(\tau>0\) and the relaxation/trajectory parameters.
+2. Let \(p\to\infty\) through ordinary primes \(p\equiv1\pmod4\), selecting \(T(p)\to\infty\) with \(T(p)+1\) inside the marked window.
+3. Prove the signed upper bound or first-moment bound uniformly along that choice.
+4. Only then take \(\tau\downarrow0\).
+
+No such prime-uniform estimate is currently proved.
+
+## Ranked next tests
+
+### 1. Exact-face quadratic minimization — highest priority
+
+For each actual \(H\), minimize
+\[
+F\longmapsto
+\frac1n\sum_{\substack{i,j,k\ne0\\i,j,k\ {\rm distinct}}}
+F_iH_jH_kK_{ij}K_{ik}
+\]
+over the genuine opposite optimal face
+\[
+F\ge0,\quad \mathbb EF=1,\quad KF=-s(F-\mathbf1),\quad F_0=q_*.
+\]
+
+This is linear in \(F\) once \(H\) is fixed, so it is a finite LP over the true face. Its dual should be written with the physical coordinate and all distinct-index corrections retained. The first useful outcome would be an exact dual certificate showing
+\[
+\min_{F\ {\rm on\ the\ face}}\mathscr D_{F,T}
+\le o(T^2),
+\]
+or, conversely, an explicit dual obstruction proving that every face point has quadratic cost.
+
+This test directly exploits the selectable optimizer and avoids imposing an artificial support model.
+
+### 2. Prime-specific character expansion of the signed triple form
+
+Expand the actual \(H_jH_k\) and the two Jacobi factors in multiplicative characters, retaining:
+
+- the true prime family \(p\equiv1\pmod4\);
+- the physical mark \(0\);
+- the exact opposite-face equations;
+- the growing depth \(T(p)\);
+- the normalized \(1/n\) norm.
+
+The target is a cancellation estimate for
+\[
+\mathscr D_{F,T}
+=
+\frac1n\sum_{i,j,k\ {\rm distinct}}
+F_iH_jH_kK_{ij}K_{ik},
+\]
+not an absolute-value estimate. A successful route would need a prime-uniform bound on the relevant character sums with coefficient growth controlled at the actual marked depth. Fixed-complexity trace estimates are inadequate unless their conductor/rank growth and the floor \(\tau\) are tracked through the whole limit.
+
+At present, the first precise missing arithmetic estimate is therefore:
+
+\[
+\boxed{
+\text{For ordinary }p\equiv1\pmod4,\text{ bound the exact face-weighted signed triple sum }
+\mathscr D_{F,T}
+\text{ by }o(T^2).
+}
+\]
+
+No actual prime subsequence obstruction has been found, but no argument excludes one.

@@ -1,0 +1,82 @@
+{
+  "round": 109,
+  "accepted_at_utc": "2026-11-19T13:16:49Z",
+  "previous": "research/round-108-acceptance.json",
+  "previous_sha256": "6411446e960c146aa32657efb93f64a294045aa82074665e1be12c45b733ac2f",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-108.json",
+    "sha256": "97baedf9e0ced2665e3bd49a44c0f916ab391af0a7610fb112b956b2de9003c8"
+  },
+  "proof_and_code_sha256": {
+    "research/api-astra-109-receipt.json": "f3079ccbfa777e807dacd517b39b40ad6cf3934da29df115a332e9880e1c340b",
+    "research/api-astra-overflow-109.txt": "c2d849b904cf511d67f2ef46ddb4adce09fb3ddf46e6bc7fe31eee81cc3ee2ee",
+    "research/api-astra-review-109.md": "7bd7a5665d0aa683d1ab514d04d59ad86cde7b6562fb8b454e5aff45d3cdcd71",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/repair-carrier-109.md": "b2230d264c55f4d91152761333d5b59d8b9aa3b9c5b4d702c8d261f83778407b"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/parallel-arithmetic-2.md": "cc98e7e614ad423490bef236966b392e8eb6374eba02eab769c5eb7e0d9db337",
+    "research/projected-cap-completion-108.md": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/real-cap-exterior-103.md": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988",
+    "research/real-inner-cap-quadratic-107.md": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, persistent near-edge repair",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Examine the exact sign threshold for disappearance on the actual active negative set, using the corrected threshold.",
+        "Use the true marked factor and a telescoped overlap budget on actual consecutive rows."
+      ]
+    },
+    {
+      "name": "/root/audit_109",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test the prime arithmetic on the actual common high carrier from the negative-part telescope.",
+        "Test the explicit small critical cap coefficient that gives the entire effective-width induction."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Test the genuine common high carrier and the exact persistent-core linear update. Target an arithmetic obstruction using the true signs, time history, and actual stationary factor.",
+    "Seek the explicit small critical cap bound on capped spill or inner excess. This closes the fixed-floor repair without needing a separate compression gap.",
+    "Keep the real slack-adjusted LP certificate and the complex moving-starter conditions as independent routes to the ordinary target."
+  ],
+  "proof_scope": [
+    "At a fixed real floor t<exp(delta_0)-1 with critical actual cap deficit and persistent matching log mark at least delta_0, the genuine projected negative repair has a block of order sqrt(n) steps whose normalized squared norm and mean are both of order 1/sqrt(n). Its favored-sector Rayleigh loss is O(n^(-1/2)), with effective support comparable to sqrt(n).",
+    "Firm antimonotonicity of the negative part gives a telescope bounding summed normalized squared consecutive changes by O(n^(-1)) on that late block. Level integration yields a single common genuine high carrier of size O_eta(sqrt(n)). A short enough constant multiple of sqrt(n) consecutive steps also has a high intersection of size comparable to sqrt(n) at a single common threshold. The signed Rayleigh deficits of the restricted rows on the carrier are O(eta+n^(-1/2)).",
+    "An explicit sufficiently small critical cap-deficit coefficient makes the effective width induction valid at all genuine steps. This proves the fixed-floor Fourier-LP upper under the displayed small-constant rate.",
+    "The API active-set positive-part formula is valid. The norm formula and the exact departure threshold are corrected in the review. Its proposed sign test with the uncorrected threshold is not a valid departure test."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The API draft's consecutive support estimate did not provide an arithmetic gap. Its raw C2 constant and C6-C7 threshold errors are retained with explicit corrections.",
+    "The actual carrier need not be at its smallest entry-scale size. Near-minimal-support arithmetic estimates need an additional extremality condition.",
+    "The actual cap rate or a prime-specific exclusion of the persistent carrier, the common cold analytic square and the all-prime ordinary asymptotic conclusion remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. The API completion receipt preserves the prompt digest and response metadata, and the raw draft is retained separately from the corrected review."
+  ],
+  "independent_review": [
+    "Verified the true factor pairing, the small-cost square-root window, monotone correction displacement and the exact critical cap bootstrap.",
+    "The independent reviewer supplied the firm negative-map telescope and common-threshold carrier argument. The coordinator checked the restricted compression estimate and both API corrections."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "newton": {
+    "model": "gpt-6.2-astra",
+    "lane": "newton",
+    "max_completion_tokens": 7600,
+    "prompt_sha256": "332b093231d8fbd94cb961b9b955b1e3ae81c35e864306c690fdcbc9eb01a85d",
+    "utc_epoch": 1795091229,
+    "http_status": 200,
+    "completion": true,
+    "model_matches": true,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5271,
+      "completion_tokens": 6558,
+      "total_tokens": 11829
+    },
+    "status": "returned-draft"
+  },
+  "overflow": {
+    "model": "gpt-6.2-astra",
+    "lane": "overflow",
+    "max_completion_tokens": 7600,
+    "prompt_sha256": "285a6298cec37a393bc44d6a8b228b9c7e5eb197101acc0b8896dc689359037e",
+    "utc_epoch": 1795091229,
+    "http_status": 200,
+    "completion": true,
+    "model_matches": true,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3581,
+      "completion_tokens": 9802,
+      "total_tokens": 13383
+    },
+    "status": "returned-draft"
+  }
+}

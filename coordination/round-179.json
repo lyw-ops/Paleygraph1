@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "round": 179,
+  "record_status": "ready",
+  "prepared_by": "Claude Opus 5.5 coordinator (agent assessment resuming the paused Round 179 plan; not human acceptance or mathematical certification). The changes array is carried unchanged from the Codex coordinator's hold record, preserved at coordination/round-179-hold.json.",
+  "sources": {
+    "baseline": {
+      "path": "research/round-178-acceptance.json",
+      "sha256": "10dceeac23ed58c55637d159d8804d83e445c239ccc84608195160ae3e0d394e"
+    },
+    "current": {
+      "path": "research/round-179-acceptance.json",
+      "sha256": "2c7ee0603b7d5ebdac1773b4b43573530fcacc84c81f2e8b345b0fdafd1ec414"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The whole actual weighted diagonal was O(p^(3673/1600)), with the coupled distinct-pole estimate above target.",
+      "after": "The equal-output product chart and a weighted affine triple moment give O(p^(9/4)) for the whole actual diagonal. Single-role and paired-map cuts and the common J invariant refine the structure of the remaining genuinely weighted problem.",
+      "remaining": "Reach O(p^(3/2)) while retaining both D amplitudes and w; test the summed matched J classes, with J=0 separated. The completed triple moment itself has lower bound (p−1)G^6/p^2, hence cannot reach target scale when G is comparable to sqrt(p). Separate one-match and zero-match estimates remain open.",
+      "evidence": [
+        {
+          "path": "research/ordinary-affine-triple-diagonal-179.md",
+          "sha256": "1511abc52dacf6b6785fe7ff9544b9c55b473e9e7dc0fa6fc10ead61983e42ee"
+        },
+        {
+          "path": "research/ordinary-parabolic-row-mean-square-178.md",
+          "sha256": "89d64995b12626f4983f1594fe3e80f266b972b274737f4e28647f6c91d02282"
+        },
+        {
+          "path": "research/ordinary-weighted-slope-product-incidence-178.md",
+          "sha256": "9e4589c664dc84d30e86206288183a3af9dfb1ae29f8d49ebd6faa1db01f1d71"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "The true ten-step cap and a hypothetical fixed counting budget at V611 were available.",
+      "after": "The actual normalized R611 has positive lower liminf even with varying floors on the original closed square. This excludes the uniform fixed-height counting threshold.",
+      "remaining": "Prove cap-controlled signed growing-height confinement or construct a genuine moving starter. The uniform complex stationary domain and derivative transfer remain separate.",
+      "evidence": [
+        {
+          "path": "research/cold-fixed-counting-source-obstruction-179.md",
+          "sha256": "eb5594666fc3a815c40a539ca9fd40d3c3bcb71ef2afaa215b921010d2a09152"
+        },
+        {
+          "path": "research/cold-seed-centered-larger-tube-177.md",
+          "sha256": "12c7cff4f9a20dc1c7bfeabef28ed87f3018a863a325c95b7b008f9a9a180c3c"
+        },
+        {
+          "path": "research/astra-fixed-79.md",
+          "sha256": "7cc7526d04f12499f5a437ab3f4ef306d228bc7a2b35443964308601f0f70e71"
+        },
+        {
+          "path": "research/astra-dissipation-80.md",
+          "sha256": "a3c931667e734483352c20c49ba3f56a7d1322c9870c34f76c2526d8819fe931"
+        },
+        {
+          "path": "research/astra-direction-83.md",
+          "sha256": "241d871d9b6c767177f7301bdc85b8b370b0cbafd80dcb23b1b91dcd43a3d62d"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The user asked to resume after the pause. The two route assessments of the hold record are unchanged; no new mathematics has been accepted since Round 179. The proof plan is unchanged: the ordinary route still needs the sufficient actual weighted diagonal O(p^(3/2)) together with the separate one-match and zero-match estimates, and the cold route still needs the finite-prefix confinement of Round 173 at the growing height 602+k_n. Round 179 removed the fixed-height shortcut for the cold route and reduced the ordinary diagonal to O(p^(9/4)) with an exact J invariant, so the next calls test the summed J classes and a moving signed predictor. The slope-product call is kept at lower priority because Round 179 showed that interpolation alone reproduces the old scale; it is dispatched only with the mixed row structure retained.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-paired-J-fibers",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Do the genuine paired affine maps, sorted by the exact invariant J=d(k+d-1)/k, admit a summed bound over J≠0 below the completed affine triple moment, with the J=0 class priced separately, while retaining both D and D' amplitudes and the actual w(s)?",
+      "why_now": "Round 179 proved the J invariance of the paired maps h_k, h_{λ/k}, priced each single J class at O(p^2) (O(p^(2-1/640)) for J≠0), and showed the completed triple moment Σ_h m(h)^3 has lower bound (p−1)G^6/p^2, so it cannot reach target scale when G is comparable to sqrt(p). A summed J estimate is the next place where a power saving below O(p^(9/4)) could come from the genuine structure rather than the completion.",
+      "scope": "Use the actual g, w, G, physical masks and nonzero interior of Round 178 with counting norms, p≡1 mod 4 prime. Keep the exact two-copy product chart of Round 179: (x−v)(u−v)=f_0(v)(s−1), D=s/(axu), x'=h_k(x), u'=h_{λ/k}(u), λ=f_0(v')/f_0(v). Do not majorize D, D' and w by one before the J sorting; if a step does so, state it and what it loses. Treat J=0 (d=0 or k+d=1) as its own class. Do not conflate distinct b with distinct r or k, and do not use a single-label coincidence cut that the chart does not provide. Report exponents exactly.",
+      "if_yes": "A summed J bound at O(p^(3/2)) proves the sufficient whole actual diagonal; any power saving below 9/4 is a new accepted reduction, and the next call targets the remaining J range or the zero class.",
+      "if_no": "A proved lower bound or explicit configuration showing the summed J classes carry mass ≫ p^(3/2) even with D, D', w retained would refute this sufficient diagonal as stated, forcing the ordinary route to a different completion or to the one-match criterion alone.",
+      "if_inconclusive": "Return the precise remaining J range with its verified bound and the exact quantity (in J, k, d, v, v') that would need to be estimated, so a later call can attack only that class.",
+      "inputs": [
+        {
+          "path": "research/ordinary-affine-triple-diagonal-179.md",
+          "sha256": "1511abc52dacf6b6785fe7ff9544b9c55b473e9e7dc0fa6fc10ead61983e42ee"
+        },
+        {
+          "path": "research/ordinary-parabolic-row-mean-square-178.md",
+          "sha256": "89d64995b12626f4983f1594fe3e80f266b972b274737f4e28647f6c91d02282"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        },
+        {
+          "path": "research/ordinary-shifted-energy-four-factor-diagonal-177.md",
+          "sha256": "8d230eebf51c30edfe4c55b4655036e455e90d7f71ad95ec49d1e909f3aacb34"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-signed-growing-prefix",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "Do the actual marked Picard rows V_602,…,V_{602+k_n}, k_n=ceil((4/7)log2 n), stay in the coordinate disks of radius 0.025 around V_602 with a fixed clearance η>0, uniformly on the original closed square and both lifts, using the actual signed coordinate increments rather than a fixed unnormalized threshold?",
+      "why_now": "Round 173 reduced common continuation on the original square to this single finite-prefix confinement test. Round 179 proved the normalized fixed residual R_611 has positive liminf, so no fixed-height unnormalized counting threshold can supply the prefix. A coordinate (sup-norm) confinement must therefore use signed cancellation in the moving increments or a genuine moving predictor.",
+      "scope": "Genuine nine-center start, both lifts, physical t_0=n, original closed square around a=2031/128 of half-width 2^(-17), actual KΦ_t. Coordinate supremum norms for confinement; second-norm contraction q=0.525 only inside the disks. The compact transfer of Rounds 79–80 is fixed-height; any use at height growing with n must be justified separately. State whether the argument is a proof for all sufficiently large eligible primes, a conditional criterion, or finite evidence.",
+      "if_yes": "Proves the finite-prefix test and hence common stationary continuation on the interior of the original square for the cold route; derivative transfer remains the separate next obligation.",
+      "if_no": "An explicit coordinate whose signed increments accumulate beyond 0.025 within k_n steps (proved, or shown for the compact limit with justified transfer) refutes this criterion and sends the cold route to a different domain or starter.",
+      "if_inconclusive": "Return the precise signed coordinate sum or source term that is not controlled, with verified bounds on the parts that are, and say whether a larger radius disk with q<1 could replace 0.025.",
+      "inputs": [
+        {
+          "path": "research/cold-fixed-counting-source-obstruction-179.md",
+          "sha256": "eb5594666fc3a815c40a539ca9fd40d3c3bcb71ef2afaa215b921010d2a09152"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-seed-centered-larger-tube-177.md",
+          "sha256": "12c7cff4f9a20dc1c7bfeabef28ed87f3018a863a325c95b7b008f9a9a180c3c"
+        },
+        {
+          "path": "research/astra-direction-83.md",
+          "sha256": "241d871d9b6c767177f7301bdc85b8b370b0cbafd80dcb23b1b91dcd43a3d62d"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-mixed-row-slope-product",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Can the summed weighted slope-product distribution Σ_ξ W_ξ^(3/2) in the actual point-plane energy be improved below the Round 178 scale by retaining the genuine mixed row structure (m(r) together with the shifted or inverted row correlations), rather than max W_ξ and interpolation?",
+      "why_now": "Round 178 gave E(μ)=O(p^(11/4−3/836)) for the genuine right energy, with the W_ξ^(3/2) term dominant. Round 179 showed that Young's inequality at exponent 6/5 plus interpolation between row first and second norms reproduces the same bound, so any gain must use structure of the actual rows.",
+      "scope": "Actual μ(r,b)=g(Y)g(D) with the square mask and interior exclusions of Round 171, counting normalization, the point-plane chart of Round 178. Keep W_ξ=Σ_r m(r)m(ξ/r) and state any extra arithmetic input with its exact hypotheses. Disclose whether a gain changes the whole right energy E(μ), the weighted affine incidence and the one-match bound for H_α.",
+      "if_yes": "A power gain in Σ_ξ W_ξ^(3/2) improves the right energy and propagates through the Round 178 one-match criterion; the next call then checks whether it reaches the one-match target.",
+      "if_no": "A proved or explicit lower bound for Σ_ξ W_ξ^(3/2) from the actual rows shows this energy cannot improve, and the one-match estimate must avoid the point-plane route.",
+      "if_inconclusive": "Return the precise row correlation that would be needed, with its exact size requirement.",
+      "inputs": [
+        {
+          "path": "research/ordinary-weighted-slope-product-incidence-178.md",
+          "sha256": "9e4589c664dc84d30e86206288183a3af9dfb1ae29f8d49ebd6faa1db01f1d71"
+        },
+        {
+          "path": "research/ordinary-shifted-energy-four-factor-diagonal-177.md",
+          "sha256": "8d230eebf51c30edfe4c55b4655036e455e90d7f71ad95ec49d1e909f3aacb34"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

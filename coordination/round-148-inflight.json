@@ -1,0 +1,61 @@
+{
+  "round": 148,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-147-acceptance.json",
+    "sha256": "b67124de0a2a50b95eeaa82249b8b89c1da7e3112c79b636e09f09b98bf1bdf0"
+  },
+  "coordinator": {
+    "path": "coordination/round-147.json",
+    "sha256": "c3e43301f34dd4efd17d9a3adc471fb67aa93c3748631976c91a164b006be475"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-148.py",
+    "sha256": "8b35bae094fa6a49c7182b77b996d4c5fadaf858c8531a24a4917b6536fcdf0c"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-148-before.json",
+    "sha256": "bfff087271e12de664de06d516f7f289df7b559078b6b44078bc5408f8867b0d"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-oriented-terminal-mask",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "3ab32faccd168cddd1e7d1c7c11104e6b6d9340af18b334bcc6db72f84c88440",
+      "mission_file": {
+        "path": "coordination/missions/round-148/ordinary-prime-oriented-terminal-mask.md",
+        "sha256": "f21aa364a2a25f2cab565575918686d7a6cb8695757873036e7cdc7b3faf983e"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r148-api-01a1ed0a/ordinary-prime-oriented-terminal-mask-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r148-api-01a1ed0a/ordinary-prime-oriented-terminal-mask-candidate.md",
+      "started_utc_epoch": 1795120892.622043
+    },
+    {
+      "call_id": "ordinary-prime-pinned-repair-charge",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "db5217b02338737dc97286a9eb93347336867e34c8b7662c39a5b71a0f24c46e",
+      "mission_file": {
+        "path": "coordination/missions/round-148/ordinary-prime-pinned-repair-charge.md",
+        "sha256": "c45d43d17d2f37b652b241fc7ba3707775617e3f674655bec24402062b40920b"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r148-api-01a1ed0a/ordinary-prime-pinned-repair-charge-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r148-api-01a1ed0a/ordinary-prime-pinned-repair-charge-candidate.md",
+      "started_utc_epoch": 1795120892.623025
+    },
+    {
+      "call_id": "cold-signed-picard-residual",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "907cbcf1dc5ef1fc9446b55585f7dac227dfba0bfb6ff99e30ec265de0b49146",
+      "mission_file": {
+        "path": "coordination/missions/round-148/cold-signed-picard-residual.md",
+        "sha256": "e676d7793a8c4d0f172e690223eed2338b0224250424dbeb3bcde0827a01bc33"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r148-api-01a1ed0a/cold-signed-picard-residual-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r148-api-01a1ed0a/cold-signed-picard-residual-candidate.md",
+      "started_utc_epoch": 1795120892.622421
+    }
+  ]
+}

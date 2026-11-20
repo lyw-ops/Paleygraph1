@@ -1,0 +1,90 @@
+{
+  "round": 121,
+  "accepted_at_utc": "2026-11-19T15:18:00Z",
+  "previous": "research/round-120-acceptance.json",
+  "previous_sha256": "e2993e8da474b342f30f33936f8bc435023a073624fb1cd8fa30dfcbb9500c04",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-120.json",
+    "sha256": "81fe50049c6d962cf0f5aa70a99a6565341fe724bdef5b469c32478057687c5d"
+  },
+  "proof_and_code_sha256": {
+    "research/masked-conditional-spectrum-121.md": "467bc6f347d4dbbdb07b14ff5de99488e99dd89b4fe7aa8d28494ac7366d0fa4",
+    "research/ordinary-slack-dissipation-121.md": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01",
+    "research/early-ordinary-masked-cubic-121.md": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e",
+    "research/api-astra-review-121.md": "72d76f8b1841b3dd96f4849e7bf2aa6af85b9861d5c07bd46a6fdd0550e9700e",
+    "research/api-astra-overflow-121.txt": "697a623ab16cc5c1fd6097540400df2e7896af5aa0cec7018ffad6273660c061",
+    "research/api-astra-121-receipt.json": "5e484a6a24146215fe132af04aed25fca3696b09d2466cc5e157ccb748868e93"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/reflected-offmark-cubic-120.md": "54fff3721239a49bda1da861ca1efa4aaac8cf2a204f95401f672eeca714a62b",
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/reciprocal-reweighting-117.md": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764",
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/cold-exact-exception-budget-118.md": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe",
+    "research/cold-newton-mark-transfer-115.md": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, masked reciprocal trace",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Resolve the actual conditional transform, with normalization corrected.",
+        "Separate the exact output term from the remaining true joint arithmetic."
+      ]
+    },
+    {
+      "name": "/root/audit_121",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use the early actual ordinary source and L2 density spreading.",
+        "Test whether prime structure forces genuine old-to-new mass against the block retention."
+      ]
+    },
+    {
+      "name": "/root/audit_121_fixed",
+      "status": "completed",
+      "ranked_closeout": [
+        "Try the genuine masked upper at a sufficiently large fixed ordinary repair depth without a bounded source assumption."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Target the actual fixed-depth masked arithmetic without replacing its true capped initial row by an uncontrolled approximation.",
+    "Use the true early arrival mass and separate real weighted overshoot route.",
+    "Continue the cold odd-word bound and genuine moving starter."
+  ],
+  "proof_scope": [
+    "For the actual two-favored/one-opposite conditional triple law, both opposite pair differences are exactly uniform and the pairwise-centered positional spectrum has the specified sign support. The complete unmasked unrestricted kernel is exactly the corresponding direct reciprocal contraction. The total deleted-output term factorizes to the genuine input Jacobi values after the specified collision error.",
+    "The ordinary P(b_+) trajectory has an exact positive old-slack energy charge with no cap-rate premise. Its new arriving negative mass obeys (1), using the genuine initial capped row and the true downward drift. Some growing early dyadic block has average newly arriving mass O(alpha/sqrt(log n)); in the critical-rate marked obstruction most steps there retain all but o(1) of negative first mass on previously negative sites.",
+    "The output-masked reciprocal cubic satisfies the tolerant identity with scaled O(eta_q+n^(-1/4)) error using only a critical upper on the squared second norm and positive favored pairing, with no bounded amplitude or critical mean upper. The L2 density of the actual repair reweighting pushes through the exactly uniform opposite difference law, yielding a fixed positive paired-square lower.",
+    "Applied to the actual original ordinary projection orbit with the fixed-floor critical cap-rate marked obstruction, this yields an order n^(-1) positive masked distinct cubic at every sufficiently large but fixed step j_0 or later inside the persistent window. It also holds for its early selected dyadic-block average. The actual capped fixed point is still the input."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw API confuses the signed source with the favored-reweighted law, inserts a nonexistent extra factor, and omits the aggregate difference normalization. Its formal conditional decomposition is correct but does not furnish a prime upper. The deleted output alone is an explicit potentially critical contribution, not a little-oh hypothesis.",
+    "First-moment retention in most early steps does not identify a single common support across a growing block. The fixed ordinary depth does not supply a power-scale finite-depth approximation to the genuine capped fixed point.",
+    "The genuine masked cubic upper, critical cap premise, rate-free weighted overshoot, common cold domain, and original ordinary theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. Raw API response and completion receipt are preserved."
+  ],
+  "independent_review": [
+    "Independently verified the exact joint spectrum and raw normalization corrections, deleted-output factorization, old-slack and early block estimates. A separate read-only audit verified the tolerant raw collision estimates, L2 density and sufficiently large fixed-depth consequence."
+  ]
+}

@@ -1,0 +1,197 @@
+## Result
+
+For the actual eligible-prime family used in the cited estimates—sufficiently large eligible primes \(p\), with
+\[
+n=t_0=(p-1)/2,
+\]
+the physical mark at coordinate \(0\), both lifts, the original closed square \(Q\), and the actual radicand at the mark—the paired Jacobi calculation gives a genuine preinverse estimate
+\[
+\|Kr\|_{P_{5000}}<10^{-4}+O(n^{-1/2}),
+\]
+more precisely \(<0.000103\) eventually, for the actual even Taylor source
+\[
+r=\Phi_t(V_{600}+R)-\Phi_t(V_{600})-D_{600}R,
+\qquad R=V_{601}-V_{600}.
+\]
+
+This is a valid improvement, but it does **not** presently yield either
+
+1. a summable translated bound for
+   \[
+   (I-KD_{602})^{-1}Kr
+   =\sum_{j\ge 0}(KD_{602})^jKr,
+   \]
+   or
+
+2. a moving-starter/confinement proof for the nonlinear orbit.
+
+The precise failure is that the paired Jacobi saving is attached to the two actual \(R\)-factors in the source. After multiplication by powers of \(KD_{602}\), no corresponding signed packet estimate has been proved for the newly inserted derivative factors.
+
+---
+
+## What is established
+
+Put
+\[
+B=KD_{602}.
+\]
+The actual paired source argument gives, uniformly on \(Q\), for both lifts and the physical marked coordinate \(t_0=n\),
+\[
+\|Kr\|_{P_{5000}}
+ \le
+ \frac{\varepsilon^2}{\sqrt N}
+ (2+x-12/N)(1-x)^{-5/2}
+ +O(n^{-1/2})
+ <0.000103,
+\]
+with
+\[
+\varepsilon=0.011,\qquad
+N=4(2031/128-2^{-17}),\qquad
+x=\frac{4.811^2}{N}<1.
+\]
+
+The subtraction \(12/N\) is a genuine positive first-moment saving from the common Jacobi seed in the two \(R\)-factors. It is not an unsigned cancellation and remains valid for the actual source before the outer inverse.
+
+At height \(602\), the available frozen estimates are
+\[
+\|B\|_{P_{5000}}<1.066
+\]
+and
+\[
+\|B\|_{2\to2}<0.518.
+\]
+The latter is a normalized second-norm estimate on the closed square; the former is the translated physical price.
+
+The entrywise column estimate
+\[
+\sum_{j\ge0}\|B^jK\|_{\max}=O(n^{-0.455})
+\]
+is also valid, but it is a **column estimate**. It cannot be applied directly to a bulk vector \(r\) without a source representation in the corresponding column/translated class.
+
+---
+
+## Failure of the first transport route
+
+For the first requested inverse,
+\[
+(I-B)^{-1}Kr=\sum_{j\ge0}B^jKr,
+\]
+the only directly available translated estimate gives
+\[
+\|B^jKr\|_{P_{5000}}
+\lesssim
+0.000103\,(1.066)^j.
+\]
+The absolute translated series therefore diverges. This is not a numerical issue: the available multiplier price is strictly larger than one.
+
+One can combine this with the counting estimate, but the resulting hybrid estimate does not close. The source bound is a bulk vector bound, not a single physical column bound. Its normalized second norm is at best \(O(\varepsilon^2)\), so conversion to a coordinate bound costs \(\sqrt n\):
+\[
+\|B^jKr\|_\infty
+\lesssim
+\sqrt n\,O(\varepsilon^2)(0.518)^j.
+\]
+Combining
+\[
+0.000103(1.066)^j
+\quad\text{and}\quad
+\sqrt n\,O(\varepsilon^2)(0.518)^j
+\]
+only gives a cutoff estimate with a possible polynomial loss in \(n\); it does not produce a uniformly bounded or summable translated orbit. In particular, the cutoff occurs at logarithmic depth, while the translated prefix grows like \(1.066^j\).
+
+The missing statement would have to be a **source-local transported packet estimate**, not merely another application of the preinverse source estimate.
+
+---
+
+## Failure of the \(K^2r\) route
+
+The second requested inverse is
+\[
+(I-B)^{-1}K^2r
+=\sum_{j\ge0}B^jK^2r.
+\]
+Since
+\[
+K^2=I-P_1,
+\]
+this source contains the direct bulk term
+\[
+r-\Bigl(\frac1n\sum_i r_i\Bigr)\mathbf 1.
+\]
+Thus the \(K^2\)-route is not equivalent to the \(Kr\)-route. In particular, the direct coordinate/constant component cannot be priced using only the already established \(\|Kr\|_{P_{5000}}\) estimate.
+
+The cited marked-atom estimate controls the difference between the actual and bulk source after transport at scale
+\[
+O(\varepsilon^2n^{-0.455})
+\]
+for the smoothed part, but it explicitly leaves a direct atom in the \(K^2\)-transport. No bound has been proved that absorbs this atom into a summable translated bulk orbit.
+
+Therefore the \(K^2r\) expression has an additional, explicit obstruction: the direct \(I-P_1\) component must be priced separately before any outer Neumann summation.
+
+---
+
+## Consequence for a moving starter
+
+The nonlinear propagation theorem requires, in addition to signed shifted-resolvent control, a residual condition of the form
+\[
+n^{1-\beta}\rho^2=o(1),
+\qquad \beta\le \tfrac12,
+\]
+where \(\rho\) is the normalized second-norm size of the actual residual.
+
+The bound
+\[
+\|Kr\|_{P_{5000}}<0.000103
+\]
+is a translated source price and supplies no \(n\)-decay for \(\rho\). Hence it does not verify
+\[
+n^{1-\beta}\rho^2=o(1).
+\]
+Nor does the frozen entrywise estimate supply a compatible growing-height residual estimate. Consequently, no moving-starter proof follows from the present data.
+
+This is a failure of the proposed sufficient mechanism, not a refutation of the asymptotic target. The actual source may still have additional cancellation after outer transport, but that cancellation has not been identified or bounded.
+
+---
+
+## Ranked next tests
+
+### 1. Highest priority: source-local signed outer packet
+
+Construct the joint packet for
+\[
+B^jKr=(KD_{602})^jKr
+\]
+before taking absolute prices. Retain the two actual \(R\)-factors as a designated Jacobi pair and expand the \(j\) derivative factors jointly with them. The required output is a quantitative recurrence for the translated source price, for example
+\[
+S_{j+1}\le \rho S_j+\eta_j,
+\qquad \rho<1,
+\]
+or a directly summable estimate
+\[
+\sum_{j\ge0}\|B^jKr\|_{P_{5000}}<\infty
+\]
+with a numerical margin sufficient for nonlinear confinement.
+
+This test must preserve the actual mark \(t_0=n\), both lifts, and the physical source. Reapplying the \(0.000103\) preinverse estimate independently at each \(j\) will not suffice.
+
+### 2. Second priority: quantitative moving-starter residual
+
+Compute an actual normalized residual estimate after one outer step, separately for
+\[
+(I-B)^{-1}Kr
+\quad\text{and}\quad
+(I-B)^{-1}K^2r.
+\]
+The target is an \(n\)-dependent bound
+\[
+\rho_n=O(n^{-\gamma})
+\]
+with
+\[
+\gamma>\frac{1-\beta}{2},
+\]
+or an equivalent direct confinement estimate that bypasses the general \(n^{1-\beta}\rho_n^2\) criterion.
+
+For the \(K^2\) case, the direct \(I-P_1\) atom must be isolated and priced explicitly; the existing marked-column \(O(n^{-0.455})\) estimate cannot be substituted for it.
+
+

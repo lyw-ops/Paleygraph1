@@ -1,0 +1,1 @@
+{"contour_half_width": "0.008", "full_square_sqrt_n_residual_squared_lower": "[1.4216722466714e-9 +/- 3.20e-23]", "kind": "newton_predictor_full_square_cauchy_contour", "newton_correction_derivative_upper": "[15.810721 +/- 1.39e-7]", "rotated_nominal_imaginary_upper": "[7.0796422e-5 +/- 3.38e-13]", "segments": 32}

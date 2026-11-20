@@ -1,0 +1,121 @@
+{
+  "round": 142,
+  "accepted_at_utc": "2026-11-19T19:56:01Z",
+  "previous": "research/round-141-acceptance.json",
+  "previous_sha256": "c58410d5dfd55effe14ecf378ce04b4de9dbc23ac46e4767e77d02e8c2528c7b",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-141.json",
+    "sha256": "014a11fcfa3374f0f1ae7ccd109994ef833eb4888c66814b112427af5f2c092c"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-terminal-offdiagonal-142.md": "958ff834c39cdb71002730a3017aecfdd33acb909147eed83f0245c587801e03",
+    "research/cold-translated-leading-weight-table-142.md": "81ceea21e0fe16566ab14d1a46b39ec790eedf08f95da9e30288a83169e3d049",
+    "research/cold-cubic-mixed-pooling-142.md": "41eaada8394ffa67ddae6814718bc26bdb5b01686513d45c590ac1a40e703476",
+    "research/api-astra-review-142.md": "db7270cfea576ebfbc91bba82d3cffba05259bf6edf2516ca1093beb295defde",
+    "research/api-astra-142-receipt.json": "30c61093a36d65328f3014eceedd3ea74025411271f932fd19d74544b92da420",
+    "research/api-astra-ordinary-actual-terminal-weight-142.txt": "a59ab7cf4256543096e79d7c272056e49e254d1eb18d29022d8a0ce263ee3899",
+    "research/api-astra-cold-first-translated-mixed-column-142.txt": "abeaec3601bab5f6fe0de5ec4dee02807994c003ae6d6174f946a82e43fa4f10",
+    "research/api-astra-cold-seed-resummed-linear-action-142.txt": "4e3a774e4b2e5754f942441a94665e247ebd92d6fdc96ebba4a87a24a25b1727",
+    "coordination/launchers/round-142.py": "4d51dcbe15d6ac688ee1a07e2bf28f68e57964a16c6485a826436cce658cffbf",
+    "coordination/round-142-inflight.json": "7a86d717fb6774b359eba9af09e2e4f6e421b9b74c0cf40942f021fdd2f5d48c",
+    "coordination/shared-obligations/round-142-before.json": "bf253d3f697a7c63bbc3e448754a0653c0ceb30eff8bb75058e06bf171c4c5de",
+    "coordination/shared-obligations/round-142-after.json": "e074fb238602080fc006784ea97039bb0fef947f1a550a9ab9f92005c2ed0730",
+    "coordination/missions/round-142/ordinary-actual-terminal-weight.md": "2883939ed760e3fe4074f07559d0cc3915699e437ff2b79fe05a0893a1b1ac83",
+    "coordination/missions/round-142/cold-first-translated-mixed-column.md": "f84b180f034d498c62409ecfdccfb18b06f2543d4a7d04a90f0a2d2e02d2a1ec",
+    "coordination/missions/round-142/cold-seed-resummed-linear-action.md": "dd21c592e6597f65ee6cefbb176b52d94986c105d733fa89c7802a20b5f85426"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/cold-mixed-seed-column-141.md": "0c09cd0b907b85540da510809612c64bc2953db2d0c0970120ce9242dcfff468",
+    "research/cold-mixed-line-vanishing-cycles-141.md": "e799e1cd9e7c33ce621b09fd339a4f8ed5ff2fda19e5520bd0c98a2d7b01779b",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/astra-rankthree-55.md": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48",
+    "research/astra-rankfour-57.md": "cc023b623511b254e20691b12067692783b0a95d26453c515ba8ca0e5c2e2c78",
+    "research/astra-joint-64.md": "22573cbd9625893d6bacf6bf02da9a665876aab8a5783d2931c333e442339808",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three completed Astra drafts and independent mathematical review led to a terminal distinct-index reduction and two selected marked cold block results.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "research_agents": [
+    {
+      "name": "Gateway Astra ordinary actual terminal weight",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Actual support-sensitive terminal correlation on ordinary primes",
+        "Secondary minimization on the true opposite optimal face"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold first translated mixed column",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Compute the full translated label table with both lifts",
+        "Evaluate exact marked coefficients in both selected orders"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold seed resummed linear action",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test the new corrected words for complete arithmetic pooling",
+        "Derive and price the next actual feedback rows"
+      ]
+    },
+    {
+      "name": "/root/audit_142",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use selectable actual optimizers to bound the unmarked distinct triple sum on primes",
+        "Use the new all-Jacobi-order bound as the baseline for other actual center insertions"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek an upper o(T^2) of the signed actual distinct-index triple sum at selectable growing marked times and true opposite optima, or the weaker o(T) terminal first moment.",
+    "Determine generic translated arithmetic label intersections in the leading mixed block and exceptional characters, retaining both lifts at both stages.",
+    "Track next unshifted returns of the new rank-ten words and their separation from named old labels, with exact signed coefficients and actual marks."
+  ],
+  "proof_scope": [
+    "At fixed tau in the established growing marked window, removal of the marked input has weighted root-mean-square cost O_{tau,B}(T^(-2B)). Coinciding indices cost O_tau(T) in the normalized actual terminal quadratic comparison. The signed sum on fully unmarked pairwise distinct indices suffices if it is upper o(T^2) for one actual opposite optimizer per sign at selectable times. A fixed positive prime gap, with tau chosen small, forces this sum to be positive of order at least T^2 for every such optimizer and time. It also forces optimizer second moment of order at least T on the true terminal high set, which has density O(1/T).",
+    "The leading two marked mixed orders on the canonical disjoint translated Jacobi input keep only the base pair and the single added pair. Their four exact folded base cases and common off-base first moment give physical price below 0.180 times the canonical representation budget Lambda=5000. This is a selected-source comparison.",
+    "For the symmetric selected block on the same canonical disjoint translated source, all pure Jacobi powers and exactly one linear Legendre insertion cost below 0.237 Lambda on the original square for all sufficiently large eligible primes. The argument is an absolute moment comparison including both exceptional lifts and the true marked floor.",
+    "On the unshifted Jacobi input the leading block plus the first higher Jacobi order pools the named old labels with factors 1-3 beta and 1-5 beta/2, beta=s_n^2/(8t). The respective coefficient magnitudes are below 0.812 and 0.844 eventually. The new terms are separated from those labels by derived factors, Jacobi shifts or rank ten. The omitted analytic tail is separate from physical repairs."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw ordinary argument reverses the signed projection. Its use of Fejer constraints at a low optimizer threshold does not supply prime cancellation. The real endpoint criterion and original ordinary theta limit remain open.",
+    "The raw translated prompt entangles two factors in the source twist, creates a spurious added pair, and does not compare the full physical mixed orders. The checked bound has no complete translated label intersection statement.",
+    "The raw unshifted formula loses the extra input C1 and a factor of two in the mixed coefficient. The four new corrected words still have price and can return at later orders. The whole frozen block, actual nonlinear confinement and common cold domain remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Root and independent auditor reproduced exact finite weight enumerations for the translated phase cases and the rank-ten continuation. Exact rational comparisons checked both pooled magnitudes and the two selected translated prices. These are small symbolic checks, separate from finite-prime and interval certificates.",
+    "Three HTTP 200 returns with matching advertised models and stop reasons were retained together with the exact before/after launch evidence. No shared exact candidate group was identified."
+  ],
+  "independent_review": [
+    "Read-only Codex agent /root/audit_142 verified the signed distinct-index comparison and its opposite-face quantifiers, the two translated weight tables, the relative higher coefficients and rank-ten separation. The auditor proposed and separately checked the absolute moment formulas and rational bound for the full selected Jacobi series."
+  ]
+}

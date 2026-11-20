@@ -1,0 +1,141 @@
+### New genuine structural constraint
+
+Let \(P=I-J_0\), where \(J_0x=\mathbb E_n(x)\mathbf 1\). For the actual Jacobi operator,
+\[
+K^*=K,\qquad K\mathbf 1=0,\qquad K^2=P.
+\]
+Write
+\[
+g=b-2\sqrt t\,\mathbf 1,\qquad Y=Kb=Kg,\qquad G=K\tau,
+\]
+and let \(R\) be a receiving subset of nonmark sites satisfying, for some \(\varepsilon\in\{\pm1\}\),
+\[
+G_j\ge d,\qquad \varepsilon Y_j\ge \lambda\sqrt n\qquad(j\in R).
+\]
+Thus \(R\) is the fixed-sign portion of the genuine high stationary receiving set. Put
+\[
+\rho=\frac{|R|}{n},\qquad u=\mathbf 1_R,
+\]
+and use normalized inner products \(\langle x,y\rangle=\mathbb E_n(x_iy_i)\).
+
+Define
+\[
+A=\langle u,G\rangle,\qquad B_R=\langle u,\varepsilon Y\rangle,\qquad
+H=\langle G,\varepsilon Y\rangle.
+\]
+The actual stationary equations and the sign assumptions give
+\[
+A\ge d\rho,\qquad B_R\ge \lambda\sqrt n\,\rho. \tag{A}
+\]
+
+#### 1. Exact Fourier-sector cap-defect obstruction
+
+Since \(G=K\tau\), reciprocity gives
+\[
+A=\langle Ku,\tau\rangle.
+\]
+Moreover,
+\[
+\|Ku\|_2^2=\langle u,K^2u\rangle
+=\langle u,Pu\rangle=\rho(1-\rho). \tag{B}
+\]
+Because \(\tau\) is supported on the genuine capped overflow set and
+\[
+\|\tau\|_2^2\le \alpha,
+\]
+Cauchy–Schwarz applied to (A)–(B) yields
+\[
+d^2\rho^2
+\le A^2
+\le \rho(1-\rho)\alpha.
+\]
+Hence every such fixed-sign rectangle necessarily satisfies
+\[
+\boxed{\alpha\ge \frac{d^2\rho}{1-\rho}.} \tag{C}
+\]
+
+This is a genuine actual-\(K\) constraint, not an arbitrary-set entry estimate. In particular, if the rectangle construction supplies
+\[
+|R|\ge r_0\sqrt n
+\]
+and one assumes the conditional critical rate
+\[
+\alpha\le \frac{B_0}{\sqrt n},
+\]
+then (C) forces
+\[
+B_0\ge d^2r_0+o(1). \tag{D}
+\]
+Therefore the signed rectangle is excluded whenever the cap-defect constant is smaller than \(d^2r_0\). For an unspecified constant \(B_0\), this does not settle the target, but it gives a quantified necessary lower constant for the cap defect.
+
+There is also a stronger localization statement. If \(S=\operatorname{supp}\tau\) is the genuine sending set, then
+\[
+A=\langle (Ku)|_S,\tau\rangle,
+\]
+so
+\[
+\boxed{\|(Ku)|_S\|_2^2\ge \frac{A^2}{\alpha}
+\ge \frac{d^2\rho^2}{\alpha}.} \tag{E}
+\]
+At the critical scales \(\rho\asymp n^{-1/2}\), \(\alpha\asymp n^{-1/2}\), the Fourier transform \(K\mathbf 1_R\) must place a fixed positive fraction of its exact sector energy
+\[
+\|Ku\|_2^2=\rho(1-\rho)
+\]
+inside the genuine capped sending set \(S\). Thus the sending set cannot merely be a large overflow support: it must capture a quantitatively prescribed portion of the Jacobi Fourier energy of the actual receiving set.
+
+#### 2. Reciprocity forces a three-vector feasibility condition
+
+The same equations give the exact identity
+\[
+H=\langle K\tau,\,\varepsilon Kg\rangle
+=\varepsilon\langle \tau,Pg\rangle. \tag{F}
+\]
+The Gram determinant of \(u,G,\varepsilon Y\) therefore implies
+\[
+\boxed{
+\left|H-\frac{AB_R}{\rho}\right|
+\le
+\left[
+\left(\|G\|_2^2-\frac{A^2}{\rho}\right)
+\left(\|Y\|_2^2-\frac{B_R^2}{\rho}\right)
+\right]^{1/2}.
+} \tag{G}
+\]
+Here
+\[
+\|G\|_2^2=\|K\tau\|_2^2\le \|\tau\|_2^2\le\alpha.
+\]
+This uses both actual updates (\(Y=Kg\), \(G=K\tau\)) and exact Fourier-sector feasibility (\(K^2=P\)); it is unavailable for the vertex sign matrix.
+
+At the critical rectangle scales,
+\[
+\rho\asymp n^{-1/2},\quad A\asymp n^{-1/2},\quad B_R\asymp 1,
+\]
+so \(AB_R/\rho\) is order one. Consequently, unless one of the residual factors in (G) is large, the rectangle forces the global reciprocity pairing
+\[
+\varepsilon\langle \tau,Pg\rangle
+\]
+to be order one with a prescribed sign. This is a substantial additional requirement: the positive contribution from the fixed-sign high receiving set cannot be canceled arbitrarily by the rest of the stationary configuration.
+
+### Status and remaining gap
+
+The argument supports a restricted structural statement:
+
+* If \(\alpha\le B_0/\sqrt n\), a fixed-sign high receiving rectangle of density \(\rho\asymp n^{-1/2}\) requires \(B_0\ge d^2r_0+o(1)\).
+* Its genuine sending set must capture the Fourier-sector energy in (E).
+* The actual overflow and stationary source must satisfy the reciprocity constraint (G).
+
+This does **not** prove the required cap-defect rate, nor does it exclude the rectangle for arbitrary \(B_0\). The unresolved estimate is either:
+
+1. a prime-uniform bound showing that \(K\mathbf 1_R\) cannot concentrate the amount in (E) on the genuine capped sending set \(S\); or  
+2. a genuine nonlinear estimate forcing
+   \[
+   \varepsilon\langle \tau,Pg\rangle=o(1),
+   \]
+   which would contradict (G) when the residual terms are \(o(1)\).
+
+### Ranked next tests
+
+1. Prove a Jacobi-sector concentration bound for \(R\) equal to the actual fixed-sign high-\(Y\) set and \(S\) equal to the capped overflow support, rather than arbitrary sets.
+
+2. Estimate \(\langle\tau,Pg\rangle\) directly from the capped update \(U=K\Phi_t(C)\), retaining the sign relation between \(\tau\) and \(U\); an \(o(1)\) bound would rule out the critical rectangle.

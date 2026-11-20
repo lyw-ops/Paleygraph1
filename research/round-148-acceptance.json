@@ -1,0 +1,132 @@
+{
+  "round": 148,
+  "accepted_at_utc": "2026-11-19T20:51:55Z",
+  "previous": "research/round-147-acceptance.json",
+  "previous_sha256": "b67124de0a2a50b95eeaa82249b8b89c1da7e3112c79b636e09f09b98bf1bdf0",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-147.json",
+    "sha256": "c3e43301f34dd4efd17d9a3adc471fb67aa93c3748631976c91a164b006be475"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-pinned-reflection-flow-148.md": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce",
+    "research/cold-higher-legendre-step-148.md": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9",
+    "research/cold-higher-legendre-step-148-check.py": "f2f82882844bc05e6ea6a26a88f155faf17ebe271c572838d0cc783d1803033a",
+    "research/cold-higher-legendre-step-148-checks.jsonl": "1b42807cb91598e37250df0e104bd507d04ab19a3831c25d3cf42cc36ea9017b",
+    "research/api-astra-review-148.md": "e5e68b11f993212535a579334a281271700187831ccc67e845374ed028a99606",
+    "research/api-astra-148-receipt.json": "32963d3b76493bb0f1bef1ce095d4bb6900da2074c77c5cdaf3399f2eab60f1c",
+    "research/api-astra-ordinary-prime-oriented-terminal-mask-148.txt": "3a10fd78f9f1c3b4ae9e040beabeefd91c46ab8532242c327d250655e6da0576",
+    "research/api-astra-ordinary-prime-pinned-repair-charge-148.txt": "0f87cbe7c87f6a27149e42b5bbe70e12c6ea264d6d86338062348e29c4d52f17",
+    "research/api-astra-cold-signed-picard-residual-148.txt": "47eaa478d031723aeb8b6f65b759f3b7d26daaf1252b831f7afb2363dc8ce1f4",
+    "coordination/launchers/round-148.py": "8b35bae094fa6a49c7182b77b996d4c5fadaf858c8531a24a4917b6536fcdf0c",
+    "coordination/round-148-inflight.json": "a05f239d72bcee260096e1571cdb8efc218187eabd1018a8be06a1a43cd5fd20",
+    "coordination/shared-obligations/round-148-before.json": "bfff087271e12de664de06d516f7f289df7b559078b6b44078bc5408f8867b0d",
+    "coordination/shared-obligations/round-148-after.json": "08113cfe6e6152195dbde027ce4791b79deff3e0a499ef5d435ef9017f4475da",
+    "coordination/missions/round-148/ordinary-prime-oriented-terminal-mask.md": "f21aa364a2a25f2cab565575918686d7a6cb8695757873036e7cdc7b3faf983e",
+    "coordination/missions/round-148/ordinary-prime-pinned-repair-charge.md": "c45d43d17d2f37b652b241fc7ba3707775617e3f674655bec24402062b40920b",
+    "coordination/missions/round-148/cold-signed-picard-residual.md": "e676d7793a8c4d0f172e690223eed2338b0224250424dbeb3bcde0827a01bc33"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-oriented-terminal-mask-147.md": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456",
+    "research/ordinary-near-cap-complementary-mask-146.md": "06c1dd62076c275cbbdbd79c7976dc1da2c2eca05723c681d64b1fd310e2d43f",
+    "research/ordinary-terminal-clipped-shift-145.md": "49b618a03e88ac99ca07a05d2f6abc5192fa484eb8bd102b2ead048176d97fcf",
+    "research/ordinary-terminal-approximate-face-144.md": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4",
+    "research/ordinary-terminal-face-dual-143.md": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/astra-completion-37.md": "7c0ec52d48c6eb801063ff9b8afadf1573cab2814d667fc5625680df02257269",
+    "research/astra-positive-39.md": "f8537a945d274efb7f6a143dbceb9f1c51e1ce460190fff510ec6e2dcca61062",
+    "research/parallel-defect-16.md": "e38b5b820fcc78f0c08d502c21e64693511af008a9d73e8f31c02d930f1204c7",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/astra-hinge-73.md": "20ba0f8f3527e7b431ec6218c8ff668a8120859ba5fe3a6c0bac12f7f2a608c3",
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/true-spill-63.md": "4108f5cdcc72674502d52df64406dec9d726ecb54a43b24e1f27443fb41181f6",
+    "research/cold-first-omitted-envelope-147.md": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921",
+    "research/cold-actual-legendre-amplitude-146.md": "4e72c15a598bb4451152ff9a8ab5bf4d7aae38ffc13914041687b1963c89d4e2",
+    "research/cold-jacobi-linear-legendre-145.md": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-linear-split-137.md": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-jacobi-linear-legendre-145-check.py": "f088e0428236b89b6fc2a2024a4c3c1239df5fc104b5f3d7e01697f07e9ed1d6",
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three answered calls, independently reviewed pinned-repair analysis and full marked two-center derivative price.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 1,
+  "arithmetic_record_counts": {
+    "whole_two_center_cold_derivative": 1
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra ordinary oriented terminal mask",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Center the actual score mask and bound its weighted Fourier pairing",
+        "Analyze the singleton and sparse-cap regimes separately"
+      ]
+    },
+    {
+      "name": "Gateway Astra ordinary pinned repair",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Price the actual signed optimizer-weighted Jacobi spill",
+        "Retain the orientation and true opposite mask in terminal estimates"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold signed Picard residual",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Project actual heights onto signed old labels with full repairs",
+        "Collect the same-row signed product before applying positive estimates"
+      ]
+    },
+    {
+      "name": "/root/audit_148",
+      "status": "completed",
+      "ranked_closeout": [
+        "Control the actual optimizer-weighted reflected deficit on the true zero set at a chosen marked depth and repair index",
+        "Price the signed actual cold Picard residual at both heights while retaining the actual marks"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Prove an ordinary-prime upper on the signed first reflected spill with both physical roots and the diagonal removed and the actual true opposite zero set retained.",
+    "Test the actual high-level support of the almost pinned-annihilator selected by the relaxed repair dissipation, with its true optimal weight and selected physical T, using genuine prime arithmetic.",
+    "Extend the genuine two-center cold derivative price to the other actual fixed centers and Picard residual, or find a signed old-label projection at 601 and 602 that reduces the true omission."
+  ],
+  "proof_scope": [
+    "The actual first reserving reflection has O_tau(T^-1) normalized negative-part second moment. Under a fixed ordinary gap it forces a positive normalized signed two-distinct-coordinate Jacobi spill pairing on its actual negative set and the true complementary zero set, with original inputs and outputs unmarked. A prime-uniform upper o(1) on this pairing would exclude the gap.",
+    "Further zero-reserve reflected repairs preserve mean and mark and satisfy an exact quadratic dissipation for changes of their positive parts and newly negative mass at old positive sites. Their averaged nonnegative deficits have L_sigma projection O_tau((mT)^-1/2). In a relaxed step 0<omega<2 an additional nonnegative omega(2-omega) term pays the projection norm squared, so an individual actual deficit has the same projection estimate. A fixed gap continues to force an order-one true optimal-weighted deficit and order-T optimizer second moment on its sparse high set. These are field-general identities and necessary tests.",
+    "For B2=K diag(d_{t_i}(S_i+alpha(t)Y_i)) on the original marked square, actual higher Legendre terms beyond the linear baseline cost below 0.0092 eventually. The whole selected two-center operator has rate below 0.644 and square below 0.415 on the inherited two-boundary-pair P5000 class. The geometric positive price below 0.00905 is checked by rational convolution and a whole-series analytic tail. Uniform eventual lift and actual mark repairs are absorbed. The full actual height derivatives are not covered."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The pinned raw response confuses counting and normalized squared spill in a proposed follow-up. Small normalized squared spill alone is compatible with a bad point on a sparse set. Actual prime-weighted positivity or reflected spill estimates remain open.",
+    "The oriented raw response omits the convolution factor in its centered weighted kernel and needs separate control of the unmasked density term. It does not give a prime upper for the actual oriented mask.",
+    "The raw cold response finds no signed old-label cancellation in the actual Picard residual. The new higher Legendre estimate closes that two-center sector only. The full actual signed derivative, nonlinear confinement, stationary common cold domain and ordinary theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "The standalone exact rational higher Legendre script reproduced its saved result byte for byte. The read-only auditor independently computed the rational retained-plus-tail comparison. Twelve simple exact rational projection examples checked the relaxed dissipation identity separately from its algebraic proof.",
+    "Three complete advertised-model HTTP 200 returns were archived. Their exact mathematical proposals were compared without conflating the two real tests."
+  ],
+  "independent_review": [
+    "The read-only audit checked the marked reflection dissipation, actual weighted obstruction, projection and moment comparisons, and the corrections to the centered kernel and normalized spill. The audit separately reconstructed the cold folded coefficients, analytic tail and repair proof."
+  ]
+}

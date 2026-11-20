@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_153",
+  "comparison": "The weighted affine phase product, first-reflection face upper, and actual omitted cold pair have distinct sources and targets. The raw repetition of the R152 conditional omega(p) implication remains in the affine-moment call; it does not duplicate another R153 call.",
+  "groups": [],
+  "dispatch": "coordination/round-153-inflight.json",
+  "launched_at_utc": "2026-11-19T21:51:02.724792Z",
+  "launched_calls": [
+    "ordinary-prime-weighted-affine-fourth-moment",
+    "ordinary-prime-first-spill-face-upper",
+    "cold-three-center-actual-square-omission"
+  ],
+  "before_sha256": "3bfb06be0fd43bec994ff562cf18ada554c1a3c09a88e4179f7f80900a2c0427"
+}

@@ -1,0 +1,218 @@
+## Status
+
+**Inconclusive for the actual prime family.** I obtain the exact reduction to the required source-weighted spectral estimate, and I find a precise failure in the proposed use of nonnegative complementary interpolation: it supplies a lower bound on the constant-source inverse cost, not the required upper bound. The actual Jacobi/Fourier arithmetic may still force the desired estimate, but none of the supplied macroscopic constraints proves it.
+
+The family and marking are as follows:
+
+- \(p\to\infty\) through ordinary primes \(p\equiv1\pmod 4\);
+- \(Q=(\mathbb F_p^\times)^2\), \(n=|Q|=(p-1)/2\);
+- fixed sector sign \(\epsilon\) and fixed-gap/floor data;
+- \(\Omega_\epsilon=\{1\}\cup\{a\in Q:\chi(1-a)=\epsilon\}\);
+- \(\Gamma=\Omega_\epsilon\setminus\{1\}\), with \(|\Gamma|\asymp n\);
+- \(U'\) is the actual independent subset of true zero columns \(U\);
+- \(L=M_{\Gamma,U'}\), \(G=L^*L\), \(k=|U'|\);
+- the physical marking is the row \(1\), whose restriction to \(U'\) is
+  \[
+  c=\frac{\mathbf 1_{U'}}{\sqrt n}.
+  \]
+
+All norms below are the counting/Euclidean norms used in the cited records.
+
+---
+
+## 1. Exact source spectral reduction
+
+Because the physical row is appended to \(L\), the full sector Gram matrix is
+
+\[
+H=M_{\Omega_\epsilon,U'}^*M_{\Omega_\epsilon,U'}
+   =G+cc^*.
+\]
+
+Since \(G\) is positive definite on the actual independent columns,
+
+\[
+\frac{d_U^2}{n}
+ =\frac{\det G}{\det(G+cc^*)}
+ =\frac{1}{1+c^*G^{-1}c}.
+\]
+
+Let
+
+\[
+\vartheta(B)=\|1_B(G)c\|_2^2.
+\]
+
+Then
+
+\[
+c^*G^{-1}c=\int_{(0,1]}\lambda^{-1}\,d\vartheta(\lambda).
+\]
+
+This is the relevant **unmarked constant-source** cost. It is distinct from the marked bulk operator \(A\) and from the physical slope.
+
+For \(t=T^{-1/2}\),
+
+\[
+\int_{(t,1]}\lambda^{-1}\,d\vartheta(\lambda)
+ \le t^{-1}\vartheta((0,1])
+ =\sqrt T\,\frac{k}{n}
+ \le \sqrt T=o(T)
+\]
+
+along every admissible growing \(T=T(p)\). Thus only \((0,T^{-1/2}]\) matters.
+
+Put \(s_j=2^{-j}T^{-1/2}\). A sufficient bound is
+
+\[
+\vartheta((0,s])
+ \ll s^{1+\eta}T^{1+\eta/2-\alpha},
+ \qquad 0<s\le T^{-1/2},
+\tag{1}
+\]
+
+for fixed \(\eta,\alpha>0\). Indeed,
+
+\[
+\begin{aligned}
+\int_{(0,T^{-1/2}]}\lambda^{-1}\,d\vartheta(\lambda)
+&\ll \sum_{j\ge0}s_{j+1}^{-1}\vartheta((0,s_j])\\
+&\ll T^{1+\eta/2-\alpha}
+   \sum_{j\ge0}s_j^\eta\\
+&\ll T^{1-\alpha}.
+\end{aligned}
+\]
+
+Therefore (1), on the actual \(U'\), would exclude a fixed gap.
+
+The order of limits is important: first fix the sign and floor/gap constants, then let \(p\to\infty\) through \(p\equiv1\pmod4\), choose the admissible \(T=T(p)\to\infty\), and require (1) uniformly over all dyadic scales below \(T^{-1/2}\).
+
+---
+
+## 2. What the nonnegative complementary interpolant actually gives
+
+Let \(R\) be the actual nonnegative complementary optimizer and \(r=n/q\). With \(w=R|_{U'}\ge0\), the exact interpolation identity is
+
+\[
+Lw=-\frac r{\sqrt n}\mathbf 1_\Gamma,
+\qquad
+\mathbf 1_{U'}^*w=n-r.
+\tag{2}
+\]
+
+Consequently,
+
+\[
+w^*Gw=\|Lw\|_2^2
+      =\frac{r^2}{n}|\Gamma|,
+\]
+
+while
+
+\[
+c^*w=\frac{n-r}{\sqrt n}.
+\]
+
+Cauchy–Schwarz in the \(G\)-metric gives
+
+\[
+|c^*w|^2
+\le (c^*G^{-1}c)(w^*Gw),
+\]
+
+hence
+
+\[
+c^*G^{-1}c
+\ge
+\frac{(n-r)^2}{r^2|\Gamma|}.
+\tag{3}
+\]
+
+This is a valid source-specific consequence of the actual nonnegative interpolant, but it is a **lower** bound. It does not control the desired upper bound \(o(T)\), nor does it bound the low spectral mass \(\vartheta((0,s])\).
+
+More structurally, (2) controls one vector in \(\operatorname{Ran}L\), namely \(\mathbf 1_\Gamma\). The source \(c\) enters through the additional physical row in \(G+cc^*\). Without an estimate on how the actual source direction interacts with the small-eigenvalue subspace of \(G\), positivity of \(w\) gives no upper estimate for
+
+\[
+\int_{(0,T^{-1/2}]}\lambda^{-1}\,d\vartheta(\lambda).
+\]
+
+The same obstruction appears in the centered complementary-interpolant formula: its centered term is equivalent, up to bounded terms, to the actual energy obstruction. The nonnegative coefficient vector does not presently provide a new directional inequality.
+
+---
+
+## 3. Why the available arithmetic evidence is insufficient
+
+The actual sector arithmetic does give:
+
+- exact Jacobi-sector overlap estimates;
+- the macroscopic squared-fluctuation estimate
+  \[
+  \frac1k\left\|H'-\frac rn I\right\|_{\mathrm{HS}}^2
+  =\frac{k}{4n}+O(n^{-1/2});
+  \]
+- fixed diagonal and contraction information;
+- exact Fourier-minor and cofactor identities.
+
+However, these are either trace/Hilbert–Schmidt statements or aggregate determinant identities. They do not control
+
+\[
+\|1_{(0,s]}(G)c\|_2^2
+\]
+
+for the particular constant source \(c\) on the actual adaptive \(U'\).
+
+The relaxed directional construction from Round 164 already shows that diagonal, contraction, and macroscopic squared fluctuation permit arbitrarily bad inverse behavior in a selected direction. The positive interpolation identity adds (3), but (3) is in the wrong direction. Since the relaxed construction is not an actual Jacobi principal block and does not use the actual optimizer support, it is **not** an obstruction to the prime family; it only shows that the current summary constraints cannot prove the target.
+
+---
+
+## Remaining gap
+
+The unresolved statement is the following actual-prime estimate:
+
+> For every fixed-gap sequence, fixed sign \(\epsilon\), and admissible \(T(p)\to\infty\), prove a prime-uniform bound of the form (1) for \(G=L^*L\), \(c=\mathbf1_{U'}/\sqrt n\), where \(U'\) is the actual independent true-zero set.
+
+Equivalently, it is enough to prove directly that
+
+\[
+\int_{(0,T^{-1/2}]}\lambda^{-1}\,d\vartheta(\lambda)=o(T)
+\]
+
+on every such sequence. No such estimate follows from the nonnegative interpolation, diagonal, contraction, trace, or squared-fluctuation identities alone.
+
+Thus the target is **not refuted**, but it is also **not supported by a checked asymptotic proof**.
+
+---
+
+## Ranked next tests
+
+### 1. Highest priority: actual source-weighted Jacobi resolvent/projector estimate
+
+Work only with the actual \(U'\) produced by the ordinary optimizer and the actual Jacobi entries. Prove or disprove, uniformly along \(p\equiv1\pmod4\),
+
+\[
+\|1_{(0,s]}(G)c\|_2^2
+\ll s^{1+\eta}T^{1+\eta/2-\alpha}
+\]
+
+for all \(s\le T^{-1/2}\). A useful route is a polynomial or resolvent approximation to the low spectral projector, with the resulting quadratic forms expanded into actual Jacobi character sums. The estimate must retain the source \(c\) and the adaptive support \(U'\); a bound for arbitrary trace directions or arbitrary subsets is not sufficient.
+
+A weaker first milestone is to establish the bound at \(s=T^{-1/2}\) and then test whether the same character-sum mechanism survives dyadic iteration.
+
+### 2. Lower priority: exact finite-prime obstruction audit
+
+For increasing ordinary primes \(p\equiv1\pmod4\), and for both sector signs and relevant floors:
+
+1. solve the actual primal/dual optimization;
+2. form the true zero set \(U\) and an independent \(U'\);
+3. compute the exact \(G\), \(c\), and \(\vartheta\);
+4. record
+   \[
+   \frac{\vartheta((0,s])}
+        {s^{1+\eta}T^{1+\eta/2-\alpha}}
+   \quad\text{and}\quad
+   \int_{(0,T^{-1/2}]}\lambda^{-1}\,d\vartheta(\lambda);
+   \]
+5. separately verify the interpolation identities (2).
+
+A persistent growth of the normalized ratio would identify a concrete directional obstruction and suggest which source-weighted character sum fails. Bounded ratios would only be evidence: finite checks cannot settle the asymptotic prime-uniform claim.

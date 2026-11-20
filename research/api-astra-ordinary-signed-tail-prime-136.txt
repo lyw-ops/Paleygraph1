@@ -1,0 +1,197 @@
+## Result: no new prime estimate; the first missing step is support-sensitive
+
+I worked with the actual prime family
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+the normalized inner product
+\[
+\langle f,g\rangle_n=\frac1n\sum_i f_i g_i,
+\]
+and the physical marked coordinate \(i=0\). The bulk is \(i\neq0\). Fix the zero-floor ordinary complementary pair at a fixed marked cap \(M\):
+\[
+Y=Kb,\qquad b_i=|Y_i|\quad(i\neq0),
+\]
+with \(b_0=\sqrt{4n+C_M(Y_0)^2}\), and
+\[
+\nu=\mathbb E_n b,\qquad
+F_\pm=\frac{b\pm Y}{\nu}.
+\]
+Thus \(F_\pm\ge0\), \(\mathbb E_nF_\pm=1\), and the two factors have complementary bulk support.
+
+Let
+\[
+S_{\rm Jac}=2\sqrt n\,Ke_0.
+\]
+The kernel bound gives
+\[
+\|S_{\rm Jac}\|_\infty\le 2\sqrt{p/n}=2\sqrt2+O(p^{-1}).
+\]
+
+### 1. The exact signed seed identity
+
+Since \(Y=Kb\) and \(K=K^*\),
+\[
+\langle b,S_{\rm Jac}\rangle_n
+ =2\sqrt n\,\langle b,Ke_0\rangle_n
+ =\frac{2\sqrt n}{n}Y_0.
+\]
+Writing \(Y_0=\eta b_0\), with
+\[
+b_0=2\sqrt n+O_M(n^{-1/2}),
+\]
+gives
+\[
+\langle b,S_{\rm Jac}\rangle_n
+=4\eta+O_M(n^{-1}).
+\]
+Removing the marked summand yields
+\[
+\boxed{
+\mathbb E_n\!\left[1_{\{i\ne0\}}b_i(S_{\rm Jac})_i\right]
+=4\eta+O_M(n^{-1}).
+}
+\tag{1}
+\]
+This is an exact reduction of the ordinary theta question to the actual signed bulk pairing. It uses the genuine ordinary optimizer \(b=|Y|\), not a surrogate.
+
+For a fixed cutoff \(L\), define
+\[
+b_i^{[L]}=\min(b_i,L),\qquad
+T_{p,L}
+=\mathbb E_n\!\left[1_{\{i\ne0\}}(b_i-L)_+(S_{\rm Jac})_i\right].
+\]
+Then
+\[
+4\eta+O_M(n^{-1})
+=
+\mathbb E_n[1_{\{i\ne0\}}b_i^{[L]}(S_{\rm Jac})_i]
++T_{p,L}.
+\tag{2}
+\]
+
+### 2. What prime trace estimates actually control
+
+For every fixed bounded even polynomial \(Q_p\) in a fixed-complexity collection of negative Mellin fields, the existing prime trace estimate gives
+\[
+\mathbb E_n[1_{\{i\ne0\}}Q_p(i)(S_{\rm Jac})_i]
+=O_Q(p^{-1/2}).
+\tag{3}
+\]
+The parity is correct: \(Q_pS_{\rm Jac}\) has odd total arity, including exceptional frequencies, and omitting the mark costs \(O_Q(n^{-1})\).
+
+However, \(b^{[L]}=\min(|Y|,L)\) is the clip of the **actual ordinary row**. No fixed-complexity negative-field expression approximating \(b^{[L]}\) in bulk \(L^1\) or \(L^2\) is presently available. Therefore (3) cannot be applied to the first term on the right of (2).
+
+This is the first missing support step.
+
+### 3. The unconditional tail bound is nonvanishing
+
+The actual solution satisfies
+\[
+0\le b_i\le 2\sqrt p
+\]
+on the bulk, because the bulk cap is inactive and
+\[
+|Y_i|=|(Kb)_i|\le \sqrt p\,\nu\le2\sqrt p.
+\]
+Consequently,
+\[
+|T_{p,L}|
+\le \|S_{\rm Jac}\|_\infty\,
+   \mathbb E_n[1_{\{i\ne0\}}(b_i-L)_+]
+\le 2\sqrt{p/n}\,\nu
+\le 4\sqrt{p/n}.
+\tag{4}
+\]
+Hence
+\[
+\limsup_{p\to\infty}|T_{p,L}|\le4\sqrt2
+\]
+uniformly in fixed \(L\). This does not tend to zero as \(L\to\infty\) in the required prime-first order
+\[
+\lim_{L\to\infty}\limsup_{p\to\infty}.
+\]
+
+The quadratic identity gives the sharper formal statement
+\[
+H_{p,L}
+=\frac2\nu\,
+ \mathbb E_n[1_{\{i\ne0\}}b_i(b_i-L)_+],
+\]
+but no uniform-integrability estimate for the actual \(b_i^2\) is known. Thus neither the absolute tail nor the signed tail is controlled by the available arithmetic input.
+
+The cancellation in \(T_{p,L}\) could in principle make the signed tail small even when \(H_{p,L}\) is large, but no prime trace argument currently detects that cancellation because the sign pattern of \(S_{\rm Jac}\) is being tested against the nonlinear support profile \((b-L)_+\).
+
+### 4. Consequence for the bounded-window parity route
+
+A bounded-window argument would need, for fixed \(L\), a prime-uniform approximation such as
+\[
+\inf_{Q\in\mathcal P_{\rm even}^{\rm fixed}}
+\mathbb E_n[1_{\{i\ne0\}}|b_i^{[L]}-Q_i|]
+\longrightarrow0
+\]
+or an analogous normalized \(L^2\) estimate, with the polynomial complexity fixed before \(p\to\infty\). Then (3) would imply that the clipped pairing is \(o(1)\), and one would only need the signed tail \(T_{p,L}\).
+
+Neither approximation is presently proved for the actual ordinary optimizer. Fixed-depth approximations to capped iterates do not imply such an approximation for the actual fixed point \(Y=Kb\). In particular, the argument cannot replace \(b\) by a bounded negative-field polynomial without an additional support theorem.
+
+## Status
+
+**Inconclusive, with a precise failure.** The actual complementary ordinary factors give the exact identity (1), but the existing prime trace estimates stop at fixed-complexity polynomial expressions. The first unavailable implication is
+\[
+\text{fixed-expression trace control}
+\quad\Longrightarrow\quad
+\text{trace control of }\min(|Y|,L)
+\]
+for the actual optimizer.
+
+No genuine signed-tail estimate, ordinary bounded-window parity theorem, or square-tail theorem has been established here. The result does not refute the asymptotic theta target.
+
+## Ranked next tests
+
+### 1. Actual weighted signed-tail test — highest priority
+
+For fixed \(M,L\), attempt to prove directly
+\[
+\limsup_{p\to\infty}
+\left|
+\mathbb E_n\!\left[
+1_{\{i\ne0\}}(b_i-L)_+(S_{\rm Jac})_i
+\right]
+\right|
+\le \varepsilon(L),
+\qquad
+\varepsilon(L)\to0.
+\tag{5}
+\]
+This is the weakest arithmetic statement that closes the signed route through (2), and it allows cancellation unavailable to absolute square-tail estimates. The order must be
+\[
+p\to\infty\quad\text{for fixed }M,L,
+\qquad\text{then }L\to\infty.
+\]
+A useful first subtest is a weighted pairing estimate with the actual sector factors:
+\[
+\mathbb E_n\!\left[
+1_{\{i\ne0\}}(b_i-L)_+
+(F_{+,i}-F_{-,i})
+\right],
+\]
+since \(S_{\rm Jac}\) is the marked Jacobi seed corresponding to the same antisymmetric sector.
+
+### 2. Fixed-window support approximation — second priority
+
+For every fixed \(M,L\), seek an even bounded negative-field polynomial \(Q_{p,L}\), with complexity chosen before the prime limit, satisfying
+\[
+\limsup_{p\to\infty}
+\mathbb E_n[1_{\{i\ne0\}}|b_i^{[L]}-Q_{p,L}(i)|]
+\le \rho(L),
+\qquad \rho(L)\to0.
+\tag{6}
+\]
+Then the odd-arithmetic trace estimate gives
+\[
+\mathbb E_n[1_{\{i\ne0\}}Q_{p,L}S_{\rm Jac}]
+=O_{L}(p^{-1/2}),
+\]
+while (6) transfers this to the clipped actual row. The remaining input would again be (5), or an independently proved signed tail bound.
+
+This test directly targets the missing support-sensitive approximation and does not assume optimizer concentration or an unproved \(L^2\) estimate.

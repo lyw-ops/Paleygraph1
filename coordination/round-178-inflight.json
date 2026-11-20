@@ -1,0 +1,61 @@
+{
+  "round": 178,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-177-acceptance.json",
+    "sha256": "2364df1ff153b3278ede6c5c76ef4f00947c6269f0515223bdf65008f643199f"
+  },
+  "coordinator": {
+    "path": "coordination/round-177.json",
+    "sha256": "b93fb1163ab66229a4ab05cd948ac154827fe9065f7de366b5cd0e440d589ce4"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-178.py",
+    "sha256": "852e50e7024d10b3632b1c2cd4876ecaf6e46d395526bb9b3140ca630f3c7cec"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-178-before.json",
+    "sha256": "3503bd6fbf4ba790e3ac6c74c50f03985b4a0c2c62a771a33bf50f2e692e86c3"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-shifted-coupled-second-moment",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "460b920b39b4b9f72c3002d27746778289a623657352d179803c623a0e848dc6",
+      "mission_file": {
+        "path": "coordination/missions/round-178/ordinary-prime-shifted-coupled-second-moment.md",
+        "sha256": "d9a00c9856dd32d372707da0907eea554af0d6d79c88ba7a6b4d95bc06828fe4"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r178-api-01a1ed0a/ordinary-prime-shifted-coupled-second-moment-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r178-api-01a1ed0a/ordinary-prime-shifted-coupled-second-moment-candidate.md",
+      "started_utc_epoch": 1795140776.2974532
+    },
+    {
+      "call_id": "ordinary-prime-transverse-shifted-rows",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "4b6bd425ac6190ef64f210b1b78d0a4b216fad7adea420dd01302d92f3aa520b",
+      "mission_file": {
+        "path": "coordination/missions/round-178/ordinary-prime-transverse-shifted-rows.md",
+        "sha256": "509392592547c10040de2d2622bfd62e6b6ee65a1c662315149d233dc0d90482"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r178-api-01a1ed0a/ordinary-prime-transverse-shifted-rows-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r178-api-01a1ed0a/ordinary-prime-transverse-shifted-rows-candidate.md",
+      "started_utc_epoch": 1795140776.2970781
+    },
+    {
+      "call_id": "cold-prime-ten-step-signed-extension",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "65a4f7b2b454bc036773bfb14e1fb2289951da77e9ddaf98c091f4c6d025f762",
+      "mission_file": {
+        "path": "coordination/missions/round-178/cold-prime-ten-step-signed-extension.md",
+        "sha256": "7ea8117e011cea731fc8a3f374a9f50d02d1c1b0d453e6d78ab4b38e00d2ea1a"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r178-api-01a1ed0a/cold-prime-ten-step-signed-extension-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r178-api-01a1ed0a/cold-prime-ten-step-signed-extension-candidate.md",
+      "started_utc_epoch": 1795140776.296669
+    }
+  ]
+}

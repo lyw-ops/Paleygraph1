@@ -1,0 +1,67 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-150-inflight.json",
+    "sha256": "bfd6fc83ce6c6eecfe36f17ffa21f5acdf95f14b90c2a4f5e57d8264d210a8f1"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-selected-defect-phase",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 21135,
+        "completion_tokens": 12626,
+        "total_tokens": 33761
+      },
+      "review_class": "returned-draft",
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-selected-defect-phase-150.txt",
+        "sha256": "5e1b4d93af96793b1d60b6f3ad5584ae446f340c02473f7639f5df896042158b"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-first-spill-dyadic",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 12099,
+        "completion_tokens": 3438,
+        "total_tokens": 15537
+      },
+      "review_class": "returned-draft",
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-first-spill-dyadic-150.txt",
+        "sha256": "2d43e81afadf61846d1a470dfc1c9c511323e37baabab2fed171310e9914ea00"
+      }
+    },
+    {
+      "call_id": "cold-signed-legendre-unit",
+      "model": "claude-fable-5-1",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "length",
+      "usage": {
+        "prompt_tokens": 19437,
+        "completion_tokens": 7000,
+        "total_tokens": 26437,
+        "input_tokens": 19437,
+        "output_tokens": 0,
+        "claude_cache_creation_5_m_tokens": 19433,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "review_class": "truncated",
+      "archive": {
+        "path": "research/api-fable-cold-signed-legendre-unit-150.txt",
+        "sha256": "57678fee355cc160a7bce23dd7900af37179f2330a7ca99c5b669d382d492be3"
+      }
+    }
+  ]
+}

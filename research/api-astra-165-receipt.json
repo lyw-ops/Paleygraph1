@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-165-inflight.json",
+    "sha256": "8acf8979cdfca71184833106dc8c5d1f0af6d15e90229788fe48bcb773fa0327"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-unmarked-directional-spectrum",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 9676,
+        "completion_tokens": 13480,
+        "total_tokens": 23156
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-unmarked-directional-spectrum-165.txt",
+        "sha256": "314210a38bf1d95e4bad1b08810c3c9d89b7f6930404985fdf1ef2b99d82b540"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-moderate-slope-collisions",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 11282,
+        "completion_tokens": 3398,
+        "total_tokens": 14680
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-moderate-slope-collisions-165.txt",
+        "sha256": "9f83088449ee228eb8d012e8e443dfa98237d377c51d70c0d8f5765067ed0ccf"
+      }
+    },
+    {
+      "call_id": "cold-prime-actual-bulk-Taylor-orbit",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 9997,
+        "completion_tokens": 3821,
+        "total_tokens": 13818
+      },
+      "archive": {
+        "path": "research/api-astra-cold-prime-actual-bulk-Taylor-orbit-165.txt",
+        "sha256": "b234ac9793b7c6be0a53c8fdb172f487c06eaabb8a83f7e01c6aff3489c01bab"
+      }
+    }
+  ]
+}

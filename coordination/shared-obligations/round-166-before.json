@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T00:07:02.696066Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-165.json#next_calls",
+  "coordinator_sha256": "2419e98a9f84ff3d351ebe654fccc58aaa15f439da4b91dd2724aee406330be4",
+  "call_ids": [
+    "ordinary-prime-positive-kernel-Schur",
+    "ordinary-prime-disjoint-slope-collisions",
+    "cold-prime-paired-source-propagation"
+  ],
+  "routes": {
+    "r166/ordinary-prime-positive-kernel-Schur": {
+      "question": "Can the actual zero-coefficient inverse debit and positive-kernel Schur source cost both be controlled by o(T), or an equally sufficient bound?",
+      "scope": "Use the actual independent zero columns, G0 and c0, the complementary coefficients and genuine prime signs, and an admissible growing T. Retain both Schur debit terms, signed edge weights, high versus low w cutoff and actual support.",
+      "remaining": "Bound both centered costs on true zero columns or otherwise exclude fixed gaps, and bound the remaining disjoint fixed-moderate collisions."
+    },
+    "r166/ordinary-prime-disjoint-slope-collisions": {
+      "question": "Can either high-overlap equal-u collisions or distinct-u collisions be bounded at O(p^1.5) on a genuine fixed moderate slope band?",
+      "scope": "Use genuine physical (u,z) graph, original mask and true f; state fixed amplitude thresholds and band. Subtract the identity slope; separate actual shared endpoints and equal-u versus different-u. No unshifted energy substitution.",
+      "remaining": "Bound both centered costs on true zero columns or otherwise exclude fixed gaps, and bound the remaining disjoint fixed-moderate collisions."
+    },
+    "r166/cold-prime-paired-source-propagation": {
+      "question": "Can the improved true even Taylor source price be turned into a signed translated bulk orbit bound or a genuine moving-starter proof?",
+      "scope": "Keep genuine n=t0=(p-1)/2, both lifts, closed square, actual source and norm. Treat inverse times Kr and inverse times K squared r separately. Price a specified block, its signed long tail and nonlinear transfer.",
+      "remaining": "Prove a summable translated actual bulk orbit and nonlinear transfer, or a compatible growing starter on the original square."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-positive-kernel-Schur": [],
+    "ordinary-prime-disjoint-slope-collisions": [],
+    "cold-prime-paired-source-propagation": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The actual centered Schur source applies to every hypothetical fixed gap. The true disjoint-slope collision estimate is a separate critical geometry test. The cold paired-source transport keeps the correct independent physical parameters."
+}

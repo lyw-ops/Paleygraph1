@@ -1,0 +1,135 @@
+{
+  "round": 138,
+  "accepted_at_utc": "2026-11-19T18:57:59Z",
+  "previous": "research/round-137-acceptance.json",
+  "previous_sha256": "ce0f368124a7d5da4652d4a492b67e40c99cb16cf56e3b524e370c02005805a5",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-137.json",
+    "sha256": "56ecfc57321942eafdafba4190d73a4dd9fedd83fe81df24ac19658173de5f83"
+  },
+  "proof_and_code_sha256": {
+    "research/cold-linear-label-separation-138.md": "01a092349e7769d493d28faa5c0a3f6eb36935adfd7aa0ded009ad478a0fbb4b",
+    "research/cold-frozen-cross-reduction-138.md": "6a4283f05e6c58c7a1a0b581917838d2174303f2a9b82e40e8c1921aa7640225",
+    "research/api-gateway-review-138.md": "613268d357dd0f4dcd87edf25a9711ffdf9af39f824d86cb132c9482826cf7de",
+    "research/api-gateway-138-receipt.json": "bd0204ebf379a899d0931104ea4c1a0df021535e8a0f766dd6484972ee3738ec",
+    "coordination/round-138-ordinary-dispatch-status.json": "962509c0a1f273cca040aae482fe538c13396d887be209663d9a51c3b52d8264",
+    "research/api-astra-cold-center-field-identity-138.txt": "ffd79be03609880f78779815523d97a7475507a6cf6895830fcad9a698886aa9",
+    "research/api-astra-cold-mixed-seed-cross-transport-138.txt": "d50ff23dddadb21c57d6571077a25bc0123246d95c045cb19b78f28ed3fb29a7",
+    "research/api-astra-ordinary-marked-source-infsup-138.txt": "b40987ad2c93dc8f143c98c1729eac8e399433e2c5cfaf41e403bd5283098cde",
+    "coordination/launchers/round-138.py": "f6fcdd545b205a8a914e3635e233ca0a83b222de758f94e24eb3e51be5b8f264",
+    "coordination/launchers/round-138-b2.py": "0c3e3408389c5c4aa82880bb0fcc2dbfd0afd9993debfe4e30a10d08eb62b4ba",
+    "coordination/launchers/round-138-b3.py": "c8d86b4bead5481582c00d85eb93f0fb2824e57362af39d7489e39526602d75d",
+    "coordination/round-138-inflight.json": "e5435cd7918683d6ee56f00d7e4e7a58c213c009d4a578db3cbe9b8301c93abf",
+    "coordination/round-138-b2-inflight.json": "bb4cd8e61c06445b56c017ed9e5ff39db8d62a312a96b2057e130462179d7423",
+    "coordination/round-138-b3-inflight.json": "0238a422b12799123f1b9e8c6aaeb6f58a452107f0956bf3c0e0b206fa83334f",
+    "coordination/shared-obligations/round-138-before.json": "e08dabc37eddc481abcfa195613e5d824ea26ea9bd7ac4098d9034655ce10667",
+    "coordination/shared-obligations/round-138-after.json": "33061e130e381c7701c83846d83faf747e616f04af63fc7ed65c71e9299a666b",
+    "coordination/shared-obligations/round-138-b2-before.json": "e2a9c7862c07dcfdc12e946bc685e175b289e5b98eb1491081a9d68f1439bc47",
+    "coordination/shared-obligations/round-138-b2-after.json": "036b8b5d1a107173819493651ee32280cd66cdeb386983f70ad54238dcaefd82",
+    "coordination/shared-obligations/round-138-b3-before.json": "f8be0125d4365745d566c398ed64f63729fa4ee117bdb2fe56a49e3440958edd",
+    "coordination/shared-obligations/round-138-b3-after.json": "d1095416a084d90a2ccec1523fc1c177904e609a4b6d2e0fdf011d4f3d7a138b",
+    "coordination/missions/round-138/cold-center-field-identity.md": "4e60cca617e32d7bf8edc1bf47d1ce07b7e53b5c81d05556c7fbf1d977f1abc4",
+    "coordination/missions/round-138/cold-mixed-seed-cross-transport.md": "b82108f45d74098bf190d6a1ba4905a722e9f7f13c00092504365edc7d1b5fed",
+    "coordination/missions/round-138/ordinary-marked-source-infsup.md": "5c5cd6d4c01189d0edbe555907f8c3125a57ea5738890ddbbe750bbd96f81a08",
+    "coordination/missions/round-138-b2/ordinary-marked-source-infsup.md": "5c5cd6d4c01189d0edbe555907f8c3125a57ea5738890ddbbe750bbd96f81a08",
+    "coordination/missions/round-138-b3/ordinary-marked-source-infsup.md": "5c5cd6d4c01189d0edbe555907f8c3125a57ea5738890ddbbe750bbd96f81a08"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/cold-linear-split-137.md": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-resummed-136-checks.jsonl": "b7c123585e2ec421aadc4f8404233db576d96b1944812a3d9d4bb87bba3d0771",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/cold-actual-quadratic-128.md": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/astra-rankeight-60.md": "33b777c67e958dbe80ca3aba5a25f79de75aa6a8f5faa1370495be6bddcb724a",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/seed-majorant-47.md": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4",
+    "research/ordinary-bulk-spectrum-137.md": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a",
+    "research/ordinary-seed-window-134.md": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb",
+    "research/ordinary-sector-square-tail-135.md": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/weighted-zero-floor-convex.md": "b29ecc0ecbddb176b6bc3d36cdedc8654fd5799a918fb5c91848ce9768f93612",
+    "research/astra-direction-70.md": "126bbb56ee8dc0f4c51aeb4365b95f12b4a327d56e76e98815eeb84260814c72",
+    "research/zero-floor-ordinary-mixed-cap.md": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active desktop research goal. Three complete API drafts and two unsuccessful gateway attempts were retained, with independent review of the new cold deductions.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "research_agents": [
+    {
+      "name": "Gateway Astra actual center labels",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Find actual constituent definitions and compare their twists",
+        "Check alleged coincidences at the actual lift and marker"
+      ]
+    },
+    {
+      "name": "Gateway Astra signed mixed transport",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Keep the intermediate K and compute mixed label pairing",
+        "Assemble translated replay with marked and analytic tails"
+      ]
+    },
+    {
+      "name": "Gateway Astra ordinary marked source",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Control the actual dyadic source measure",
+        "Seek an opposite-support interpolation comparison"
+      ]
+    },
+    {
+      "name": "Gateway Fable 5-2 and 5-1 ordinary attempts",
+      "status": "ended-without-mathematical-reply",
+      "ranked_closeout": []
+    },
+    {
+      "name": "/root/audit_138",
+      "status": "completed",
+      "ranked_closeout": [
+        "Attack the actual h601 same-row square difference or anticommutator while keeping the middle K",
+        "Classify exact residual returns at matching derived type and Jacobi exponent"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Try the actual height-601 square difference below 0.69218 or the same-row mixed anticommutator below 0.262924 on the original marked square in translated P5000.",
+    "Use the five established derived-factor separations to test true Picard residual returns or precise posttransport label identifications. Keep actual lift phases and the distinct center and residual budgets.",
+    "Attack the actual signed Jacobi tail directly through ordinary positive completion and a weighted opposite-face argument, leaving the clipped parity and bulk second-moment criteria separate."
+  ],
+  "proof_scope": [
+    "For the two actual frozen rows, eventually uniformly on the original marked square, the translated physical derivative change is below 0.0275. The exact fractional comparison uses the absolute endpoint dimension caps and the actual outgoing secant packet price, with both boundary pairs and eventual physical repair.",
+    "The independent two-height full difference below 0.721 would follow from the height-601 full square difference below 0.69218, or from the mixed anticommutator below 0.262924 using the already bounded product of remainders.",
+    "At good full Mellin lifts before applying K, the five newer named center constituents are pairwise separated and separated from older center constituents under all Jacobi powers. This is an arithmetic object statement, not a signed price lower or exclusion of residual or posttransport cancellations."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The center draft was missing two original reference sources. The same-row mixed bound remains open and the disk display in the raw reply is not the project square.",
+    "The inverse first moment controls a shell, not the entire lower tail of the inverse square moment. The proposed bridge between the separate compressions is unproved. Actual ordinary signed tail and clipped parity remain open.",
+    "Neither the actual two-step transported price nor half-step and growing-depth confinement or the ordinary theta limit have been proved."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Exact Fraction arithmetic independently checked the derivative height change and the two derived margins.",
+    "Three complete Astra responses and two ended Fable attempts were bound to chronological dispatch records. All overlap closeouts recorded zero exact shared groups."
+  ],
+  "independent_review": [
+    "Separate read-only review verified the actual induced unshifted and translated prices, rational margins, transpose split, and the independence and twist separation for the five derived constituents."
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "round": 131,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after the Round 131 independent mathematical audit and independent Arb replay",
+  "sources": {
+    "baseline": {
+      "path": "research/round-130-acceptance.json",
+      "sha256": "9926f0996cb5270560856af0e94e7be14a65185fbf1774b35a6bc64ce12e7564"
+    },
+    "current": {
+      "path": "research/round-131-acceptance.json",
+      "sha256": "0f7f0db9a1d614e8508f06c2a382905d39464da868460cdbd644d60b09ac5606"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "new_obstruction",
+      "before": "A signed invariant cold block after the good height-601 frozen entry estimate was proposed.",
+      "after": "A 12-coordinate interval witness excludes a contracting product of the separate positive majorants at heights 601 and 602. The true signed product and the existing counting contraction remain valid inputs.",
+      "remaining": "Compose actual two-step derivatives before absolute pricing, verify whole-square exceptional and sheet costs, and close confinement and normalized residual at a genuine moving starter.",
+      "evidence": [
+        {
+          "path": "research/cold-positive-block-131.md",
+          "sha256": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2"
+        },
+        {
+          "path": "research/cold-positive-block-131-checks.jsonl",
+          "sha256": "cbbfcb9854e54711299ec6db9076227c95d6ad564baccee27e9d8371b10f7465"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Rate-free real zero-floor arithmetic",
+      "effect": "reformulated",
+      "before": "Large fixed-cap defect vanishing was necessary for both actual averaged weighted tests.",
+      "after": "The unweighted defect equals a single-height prime-first mean test. The second-height bracket and generic nonmonotonicity leave the cap-10 limit open.",
+      "remaining": "Obtain large-cap mean convergence, an arithmetic comparison with the ordinary cap-inactive mean, or the optimizer-weighted tail that controls the ordinary bound.",
+      "evidence": [
+        {
+          "path": "research/zero-floor-mean-131.md",
+          "sha256": "4abe4c232ff3219cc99c073d9c605941a5e1519b5a53d41012ac212f7d0faa86"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        },
+        {
+          "path": "research/zero-floor-mark-and-cap-budget.md",
+          "sha256": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8"
+        },
+        {
+          "path": "research/zero-floor-two-sided-reserve-129.md",
+          "sha256": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5"
+        }
+      ]
+    },
+    {
+      "id": "fixed-masked",
+      "route": "Direct critical cap mask repair",
+      "effect": "unchanged",
+      "before": "The averaged real route works without that critical rate and does not establish the signed critical-window upper.",
+      "after": "Round 130 was on the cold derivative; the previous real obligation remains open.",
+      "remaining": "Control an actual critical endpoint, then its cap jump tails or the exact full true-factor masked statistic.",
+      "evidence": [
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        },
+        {
+          "path": "research/real-masked-cap-adjoint-125.md",
+          "sha256": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The unweighted mean is now a genuine single-height target. Repricing the separate positive cold factors is excluded, so the next cold call is a signed composition.",
+  "next_calls": [
+    {
+      "id": "zero-floor-ordinary-mean-comparison",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the actual fixed-cap mean be bounded above by the cap-inactive ordinary mean through eligible primes, with error tending to zero at one large fixed cap?",
+      "why_now": "If it holds, vanishing of the easier unweighted deficit would also force the original ordinary mean to tend to two. Generic local cap monotonicity already fails.",
+      "scope": "Use the true prime K, marked floor and ordinary complementary pair. A bound at each p with an asymptotically negligible error is sufficient. Keep mean normalization and treat a generic reflection control separately.",
+      "if_yes": "Give a genuine inequality or signed comparison and derive the ordinary-theta implication using the exact mixed-cap identity.",
+      "if_no": "Give a true obstruction in eligible prime order or a structural obstruction to a proposed generic proof, with scopes stated.",
+      "if_inconclusive": "Isolate the exact signed arithmetic contribution preventing the comparison and propose a test at the free or active bulk set.",
+      "inputs": [
+        {
+          "path": "research/zero-floor-mean-131.md",
+          "sha256": "4abe4c232ff3219cc99c073d9c605941a5e1519b5a53d41012ac212f7d0faa86"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        },
+        {
+          "path": "research/zero-floor-mark-and-cap-budget.md",
+          "sha256": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8"
+        },
+        {
+          "path": "research/zero-floor-two-sided-reserve-129.md",
+          "sha256": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5"
+        }
+      ]
+    },
+    {
+      "id": "cold-actual-signed-block",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "What is a signed representation of the actual two-step derivative that can beat the positive comparison product?",
+      "why_now": "Independent exact witness rules out repricing the separate majorants at 601 and 602.",
+      "scope": "Use the true fully marked rows on the closed square. Retain intermediate arithmetic signs until contributions landing in the same output class are collected. Account for omitted terms and both half-step sheets; distinguish derivative at the center from ball secants.",
+      "if_yes": "Give a quantitative signed block closure or a verifiable strict rate below one with the remaining ball margin stated.",
+      "if_no": "Give the earliest confirmed obstruction for that precise signed representation or the actual finite-field block.",
+      "if_inconclusive": "Identify one finite signed coefficient calculation or summable tail estimate that can decide a strict threshold.",
+      "inputs": [
+        {
+          "path": "research/cold-positive-block-131.md",
+          "sha256": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2"
+        },
+        {
+          "path": "research/cold-positive-block-131-checks.jsonl",
+          "sha256": "cbbfcb9854e54711299ec6db9076227c95d6ad564baccee27e9d8371b10f7465"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    },
+    {
+      "id": "zero-floor-single-height-prime",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Can one prove a sufficiently sharp prime bound on actual large-cap means at a sequence of fixed horizons?",
+      "why_now": "The direct mean-to-defect theorem gives an unconditional uniform field error at every horizon, without a separate variance or optimizer-weight condition.",
+      "scope": "Use the actual averaged orbit with caps fixed before primes. Quantify a way to control the growth in depth, or compute a genuine arithmetic term and show how its estimate could extend.",
+      "if_yes": "Prove the prime-first unweighted cap-defect conclusion at the stated cap.",
+      "if_no": "Show a true persistent prime deficit at an admissible cap.",
+      "if_inconclusive": "Give a precise arithmetic obstruction to the long-depth mean estimate without promoting finite progression to convergence.",
+      "inputs": [
+        {
+          "path": "research/zero-floor-mean-131.md",
+          "sha256": "4abe4c232ff3219cc99c073d9c605941a5e1519b5a53d41012ac212f7d0faa86"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        },
+        {
+          "path": "research/zero-floor-mark-and-cap-budget.md",
+          "sha256": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8"
+        },
+        {
+          "path": "research/zero-floor-two-sided-reserve-129.md",
+          "sha256": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5"
+        },
+        {
+          "path": "research/zero-floor-averaged-weighted-tail.md",
+          "sha256": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which new real upper bounds or signed cold block estimates withstand exact review?",
+      "why_now": "Both routes have precise normalizations, independent scopes and known insufficient comparisons.",
+      "scope": "Read only, independently verify genuine inputs, norms, tails and order of limits.",
+      "if_yes": "Report checked propositions and ranked next tests.",
+      "if_no": "Locate the earliest invalid claim or missing hypothesis.",
+      "if_inconclusive": "Report verified inputs and remaining obligations separately.",
+      "inputs": [
+        {
+          "path": "research/cold-positive-block-131.md",
+          "sha256": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2"
+        },
+        {
+          "path": "research/cold-positive-block-131-checks.jsonl",
+          "sha256": "cbbfcb9854e54711299ec6db9076227c95d6ad564baccee27e9d8371b10f7465"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/zero-floor-mean-131.md",
+          "sha256": "4abe4c232ff3219cc99c073d9c605941a5e1519b5a53d41012ac212f7d0faa86"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        },
+        {
+          "path": "research/zero-floor-mark-and-cap-budget.md",
+          "sha256": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8"
+        },
+        {
+          "path": "research/zero-floor-two-sided-reserve-129.md",
+          "sha256": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5"
+        }
+      ]
+    }
+  ]
+}

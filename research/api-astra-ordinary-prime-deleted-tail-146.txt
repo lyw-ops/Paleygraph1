@@ -1,0 +1,192 @@
+## Report
+
+### Checked conclusion
+
+The proposed asymptotic bound is **not established** for the genuine ordinary-prime family. More precisely, for every ordinary prime
+\[
+p\equiv1\pmod 4,\qquad n=\frac{p-1}{2},
+\]
+let \(F=F_{p,s}\) be a true ordinary optimizer for the larger of the two signs \(s\in\{+,-\}\), and use the corresponding actual zero-start trajectory with \(\sigma=-s\), fixed floor \(\tau>0\), actual \(U_\sigma\), \(g_T=\Phi(v_T)-\Phi(v_0)\), and a selectable marked time \(T=T(p)\to\infty\) in the simultaneous marked window. Then
+\[
+\Xi
+=
+U_\sigma-\mathbf 1-\frac{g_T-\mathbb E g_T}{2TM}
+\in V_\sigma
+\]
+and, for
+\[
+D=1_{\rm bulk}(F-L)_+,\qquad L=o(T),
+\]
+the exact clipped-row identity is
+\[
+\mathcal R_{F'}
+=
+-\mathbb E(D\Xi)-\frac{\mathbb E D}{n-1}\,\Xi_0.
+\]
+The restoration term is already controlled:
+\[
+\frac{\mathbb E D}{n-1}\Xi_0=O_{\tau}(n^{-1/2}),
+\]
+uniformly in \(F\) and \(L\). Thus the unresolved assertion is genuinely
+\[
+\boxed{\mathbb E(D\Xi)\ge-o(1)}
+\]
+for the actual optimizer, with the prime limit taken first at fixed \(\tau\), and only then \(\tau\downarrow0\).
+
+No prime-uniform estimate proving this has been found.
+
+### Exact remaining form of the arithmetic problem
+
+The one-sided target can be written as a signed level-layer estimate:
+\[
+\mathbb E(D\Xi)
+=
+\int_L^\infty
+\mathbb E\!\left[
+1_{\rm bulk}1_{\{F>u\}}\Xi
+\right]\,du.
+\]
+Equivalently, after retaining the signs of the layers,
+\[
+\mathbb E(D\Xi)
+=
+\sum_{m\ge \lfloor L\rfloor}
+\int_m^{m+1}
+\mathbb E\!\left[
+1_{\rm bulk}1_{\{F>u\}}\Xi
+\right]\,du.
+\]
+Therefore a bound on the unweighted mass or cardinality of high-\(F\) sites is insufficient. One needs a **joint estimate** for the negative part of \(\Xi\) on those same sites:
+\[
+\int_L^\infty
+\mathbb E\!\left[
+1_{\{F>u\}}\,\Xi_-
+\right]du
+\]
+must be controlled relative to the positive contribution, or shown to be \(o(1)\).
+
+The elementary norm estimate does not help:
+\[
+|\mathbb E(D\Xi)|
+\le \|D\|_{2,n}\|\Xi\|_{2,n},
+\qquad
+\|\Xi\|_{2,n}=O_\tau(\sqrt T),
+\]
+and the optimizer hypotheses supplied so far do not make \(\|D\|_2\sqrt T=o(1)\) for any \(L=o(T)\).
+
+### What the genuine prime arithmetic does provide
+
+The available prime-specific results are relevant but do not close this joint estimate.
+
+1. **Opposite Fejér/autocorrelation pricing.**  
+   For prime \(p\), feasible opposite-sign rows give the exact budget
+   \[
+   n\sum_{h\ne0}C_q(h)C_r(h)=1-nL_qL_r,
+   \]
+   together with character-arc and order-sensitive lower bounds for \(C_r(h)\). These yield restrictions such as
+   \[
+   \frac{\sqrt n}{a}
+   +\frac{n}{a^2}
+    \max_{h\ne0}\frac{R_A(h)}{1+L/\operatorname{ord}(h)}
+   \ge c_\delta D
+   \]
+   for a supercritical set \(A\).
+
+   This controls repeated differences of high-site sets. It does **not** control the values of the actual terminal score \(\Xi_i\) on those sites. In particular, it does not imply
+   \[
+   \mathbb E[1_A\Xi]\ge-o(1)
+   \]
+   for \(A=\{F>u\}\), nor does it control the weighted integral over \(u\).
+
+2. **Translated forbidden masks.**  
+   Prime character sums force mass of a marked feasible row outside certain Bohr arcs, and for a larger-theta optimizer imply positive mass outside every long-order arc. Again, this is an unweighted support-dispersion statement. It gives no sign information for the correlation with
+   \[
+   U_\sigma-\mathbf1-\frac{g_T-\mathbb Eg_T}{2TM}.
+   \]
+
+3. **Coset-capacity bounds.**  
+   The prime face results bound the mass of cap sets in suitable subgroup cosets, including the canonical least-norm representative. They do not apply uniformly to the full optimizer face, and even a cap-mass bound does not identify the terminal-score sign on the complement.
+
+4. **True-face interpolation and smoothing.**  
+   Exact face optimization preserves the original cost, while translated/convolved rows reduce to a convex hull of nonnegative loss-cost pairs. Neither mechanism supplies a near-cap shift with simultaneously small terminal cost. The terminal cost remains the same unresolved joint correlation.
+
+### Why the square evidence does not refute the ordinary-prime target
+
+On the eligible square family \(p=r^2\), the actual \(\sigma=-\) window tests \(s=+\), and the opposite optimizer has
+\[
+q_*=r-1,\qquad q_*/\sqrt n\to\sqrt2.
+\]
+The marked-window bound gives \(a\to1\), so the exact terminal comparison forces a positive lower bound for the weighted terminal tail. This is a genuine obstruction to any field-uniform statement over primes and squares.
+
+It does **not** refute the ordinary-prime assertion, because no corresponding ordinary-prime arithmetic lower bound for the joint \(F\)-weighted negative part of \(\Xi\) is known. The prime family must remain
+\[
+p\equiv1\pmod4,\quad p\ \text{prime},
+\]
+not prime powers or squares.
+
+### Final status
+
+The mission is therefore **inconclusive, with a precise failure of the current sufficient bounds**:
+
+- the clipping algebra and exact mean restoration are checked;
+- the terminal mark and \(\Xi_0\) error are controlled;
+- genuine prime character-sum and autocorrelation estimates provide support and difference restrictions;
+- none of them currently controls the required joint quantity
+  \[
+  \mathbb E\!\left[
+  1_{\rm bulk}(F-L)_+
+  \left(
+  U_\sigma-\mathbf1-\frac{g_T-\mathbb Eg_T}{2TM}
+  \right)
+  \right].
+  \]
+
+The order of limits remains explicit: fix \(\tau>0\), choose \(T(p)\to\infty\) in the simultaneous marked window along ordinary primes, seek the estimate uniformly along those primes, take \(p\to\infty\), and only afterward let \(\tau\downarrow0\).
+
+## Ranked next tests
+
+### 1. Direct prime-sensitive weighted-layer test
+
+For the larger-sign true optimizer \(F_{p,s}\), define
+\[
+A_u=\{i\ne0:F_{p,s}(i)>u\}.
+\]
+Prove or disprove a bound of the form
+\[
+\int_L^\infty
+\mathbb E\!\left[
+1_{A_u}\,(\Xi)_-
+\right]du
+\le
+o(1)+
+\int_L^\infty
+\mathbb E\!\left[
+1_{A_u}\,(\Xi)_+
+\right]du
+\]
+for some \(L=L(p)=o(T(p))\).
+
+The most promising concrete route is to combine the exact identity
+\[
+\Xi=U_\sigma-\mathbf1-\frac{P_\sigma g_T}{2TM}
+\]
+with the prime autocorrelation budget, retaining the layer signs instead of replacing \(A_u\) by its cardinality. A successful estimate must be stated for the actual \(F_{p,s}\), actual \(U_\sigma\), actual \(g_T\), and all sufficiently large ordinary primes.
+
+### 2. Support-indexed face/score LP obstruction or certificate
+
+Use the exact support-indexed inequalities
+\[
+d_a
+=
+2\sqrt n(w_a-1/n)
+-\sum_iw_i\sigma Y_1(i-a)
+=
+4\sqrt n(P_{-\sigma}w)_a
+\]
+on the true positive face, and add terminal-score variables for the actual \(U_\sigma\) and \(g_T\). For sampled ordinary primes, minimize
+\[
+\mathbb E\bigl[1_{\rm bulk}(F-L)_+\Xi\bigr]
+\]
+over the exact optimizer face, not merely over the canonical least-norm optimizer.
+
+A persistent negative minimum of order one would identify an arithmetic obstruction to the proposed cutoff estimate. Conversely, a prime-uniform near-zero certificate would indicate which weighted layer inequalities need a proof. This test must keep the square family separate and should use the larger optimum sign at each ordinary prime.

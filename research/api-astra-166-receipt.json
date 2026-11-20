@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-166-inflight.json",
+    "sha256": "d1d00d0bbd6af33bfb9bb2ded52d7177217c2acd903463bb03e41628bdf4f315"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-positive-kernel-Schur",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 8983,
+        "completion_tokens": 10383,
+        "total_tokens": 19366
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-positive-kernel-Schur-166.txt",
+        "sha256": "57c19fd76f66361c8432da4923c1f01a4af6253a40d5ace86e45d65e4ecf8c0e"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-disjoint-slope-collisions",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 10750,
+        "completion_tokens": 2830,
+        "total_tokens": 13580
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-disjoint-slope-collisions-166.txt",
+        "sha256": "6211344ef3e97025c986f54c6181f279934c83cbff18ea9429fa40d513cf0aa6"
+      }
+    },
+    {
+      "call_id": "cold-prime-paired-source-propagation",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 9642,
+        "completion_tokens": 3541,
+        "total_tokens": 13183
+      },
+      "archive": {
+        "path": "research/api-astra-cold-prime-paired-source-propagation-166.txt",
+        "sha256": "c80f1e52e40a142d2f62b4f4c8f9c39d8e551191f2d872467d6bc80cdf6da343"
+      }
+    }
+  ]
+}

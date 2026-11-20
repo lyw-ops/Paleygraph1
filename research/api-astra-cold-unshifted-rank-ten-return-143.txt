@@ -1,0 +1,165 @@
+## Result
+
+For the eligible prime family \(q\) used in the cited cold-square records, with
+\[
+n=\frac{q-1}{2},\qquad t_0=n,\qquad S=s_nC_1,\qquad s_n^2=8+\frac4n,
+\]
+and with the original marked cold square and its physical \(C_1\)-column, the next Jacobi correction linear in the actual Legendre center \(\alpha Y\) is controlled by
+\[
+\beta=\frac{s_n^2}{8t}=\frac{1+1/(2n)}{t}
+\]
+at an unmarked coordinate of floor \(t\). Uniformly on the square, restoring the actual marked multiplier gives an additional
+\[
+O_{P_{5000}}(n^{-1/2})
+\]
+term. The two-step action is therefore
+\[
+\begin{aligned}
+\frac{\alpha s_n}{4t}\Bigg[
+&K\!\left(C_1^3K(C_1Y)\right)
+ +K\!\left(YK(C_1^4)\right)\\
+&+3K\!\left(C_1K(C_1^3Y)\right)
+ +3K\!\left(C_1^2Y K(C_1^2)\right)
+\Bigg],
+\end{aligned} \tag{A}
+\]
+with an overall correction factor \(-\beta\), relative to the leading mixed block.
+
+Thus the pure Taylor calculation has **four** placements, with multiplicities
+\[
+1,\ 1,\ 3,\ 3.
+\]
+If “six placements” includes the physical marked restoration, the complete six-way accounting is:
+
+1. cubic correction in the first \(d_t(S)\);
+2. cubic correction in the second \(d_t(S)\);
+3. cubic correction in the first \(d_t'(S)\alpha Y\);
+4. cubic correction in the second \(d_t'(S)\alpha Y\);
+5. restoring the marked denominator in the first step, \(t_0=n\);
+6. restoring the marked denominator in the second step, \(t_0=n\).
+
+Items 5–6 are not independent pure-Jacobi Taylor terms: they are only controlled by the stated \(O_{P_{5000}}(n^{-1/2})\) physical repair.
+
+Using the feedback identities quoted in the record, (A) becomes
+\[
+\begin{aligned}
+&(1-3\beta)F_4
++\left(1-\frac52\beta\right)
+ \left(\frac{D+D^\vee}{8}+\frac R4\right)\\
+&\qquad
+-\beta K\!\left[
+ \frac14 C_3W+\frac1{16}Y(U+U')
+ +\frac34 C_1K(C_3Y)
+ +\frac34 C_2Y^2
+\right],
+\end{aligned} \tag{B}
+\]
+again up to \(O_{P_{5000}}(n^{-1/2})\) after the physical marking is restored.
+
+Here \(F_4\) is the previously named rank-four field, \(D,D^\vee\) are the old dual rank-four fields, and \(R\) is the old mixed-Legendre field.
+
+## Old labels that actually receive returns
+
+The following old arithmetic labels receive genuine further terms:
+
+\[
+\boxed{F_4:\quad 1\longmapsto 1-3\beta}
+\]
+
+and
+\[
+\boxed{D,D^\vee:\quad \frac18\longmapsto
+\frac18\left(1-\frac52\beta\right)}
+\]
+
+and
+\[
+\boxed{R:\quad \frac14\longmapsto
+\frac14\left(1-\frac52\beta\right)}.
+\]
+
+Equivalently, the next-order additions are
+\[
+-3\beta F_4,
+\qquad
+-\frac{5\beta}{16}(D+D^\vee),
+\qquad
+-\frac{5\beta}{8}R.
+\]
+
+These are returns to complete arithmetic labels, not merely rank coincidences. The comparison includes:
+
+- the generic local-system twist induced by the final \(K\);
+- the inverse twist on the dual branch;
+- the determinant/Jacobi shifts;
+- the exceptional marked positions and \(Ke_0\)-type corrections.
+
+The generic equality test is valid because the final \(K\)-twist is invertible on the nonpunctual local systems: equality after twisting would force equality before twisting. The exceptional \(Ke_0\) terms are physical marked repairs and do not identify otherwise distinct generic arithmetic labels.
+
+## New rank-ten sector
+
+The remaining terms in (B) do not return to \(F_4,D,D^\vee\), or \(R\).
+
+### \(C_3W\)
+
+The \(C_3W\) term has the same derived rank-three types as the leading \(CW\) term, but its Jacobi shifts are \(\pm3\), rather than \(\pm1\). Since the Jacobi line has infinite order, these shifted constituents cannot equal the old \(CW\)-derived labels. They are also distinct from the Legendre sectors.
+
+### \(Y(U+U')\)
+
+This term has nonzero component on one of the two independent new symplectic factors. That component is absent from \(CW\) and \(Y^2\), so it cannot return to an old label.
+
+### \(C_2Y^2\)
+
+The \(C_2\) factor imposes Jacobi shifts \(\pm2\). The two Legendre standards in \(Y^2\) have trivial determinant, so their unshifted sectors remain unshifted and do not collide with these \(\pm2\)-shifted terms. The unit contribution produces a shifted Jacobi line, not one of the named rank-four or rank-eight fields.
+
+### \(C_1K(C_3Y)\)
+
+Take a \(C_3\) lift of shift \(+3\) or \(-3\) and one of the two Legendre lifts. Before the inner \(K\), the active-fiber weights have total rank moment six. After the inner \(K\), the constituent has dimension six. Up to sign reversal and fiber exchange, the active fiber has weights
+\[
+(-5,-1,3,3),
+\]
+with the other fiber zero. The outer \(C_1\) multiplication adds an opposite \(\pm1\) Jacobi shift. The resulting absolute moments are \(14\) and \(6\), so the final \(K\)-output has rank
+\[
+\frac{14-6}{2}=4
+\]
+from the moment difference plus the two zero-weight contributions, equivalently the rank computation recorded in the source gives **rank ten** on each constituent. These are simple Jacobi convolution-line twists, and the rank-one twist preserves simplicity. Hence they cannot equal any old rank-four or rank-eight field.
+
+Therefore the genuinely new part of this next order is rank ten, while the only old-label returns are precisely
+\[
+F_4,\quad D,\quad D^\vee,\quad R.
+\]
+
+## Hypotheses and evidence
+
+The conclusion uses:
+
+1. the actual unshifted \(C_1\) input;
+2. the original cold square;
+3. the physical mark \(t_0=n\);
+4. the full Jacobi and Legendre factors;
+5. the exact finite-field feedback formulas for \(K(C_1Y)\), \(K(C_1^2)\), \(K(C_1^4)\), and \(K(Y^2)\);
+6. the independent derived-group and symplectic-factor calculations;
+7. the infinite-order Jacobi shift separation;
+8. the \(P_{5000}\)-bounded physical restoration.
+
+The coefficient statements are exact at the bulk Taylor level and hold for the physically marked operator modulo \(O_{P_{5000}}(n^{-1/2})\).
+
+## Remaining gap
+
+This does **not** prove an all-order return or exclusion theorem for the cold square. In particular, it does not control:
+
+- the full nonlinear half-step;
+- all higher Jacobi orders;
+- growing-depth confinement;
+- accumulation of marked \(O(n^{-1/2})\) repairs over an unbounded number of steps;
+- a global signed invariant for the full physical stationary iteration.
+
+So the checked conclusion is finite-order:
+
+> At the next pure-Jacobi order linear in \(\alpha Y\), the new unshifted rank-ten constituents do not return to any named old label. The old labels \(F_4,D,D^\vee,R\) do receive the explicit returns above.
+
+## Ranked next tests
+
+1. **Highest priority:** compute the next exact continuation of the rank-ten sector, retaining the actual \(C_1\) input, both Jacobi shifts, both Legendre fibers, determinant shifts, and the two marked repairs separately. Test whether any rank-ten constituent can return after one further \(K\)-transport, rather than comparing ranks alone.
+
+2. **Second priority:** establish a two-step physical norm bound for the six-way decomposition—four pure Taylor placements plus the two marked restorations—on the original square, with the \(O_{P_{5000}}(n^{-1/2})\) terms summed before taking the \(n\to\infty\) limit. This would test whether the finite-order pooling remains usable under repeated marked iteration.

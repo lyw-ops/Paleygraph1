@@ -1,0 +1,158 @@
+## Result: inconclusive, with a precise conditional reduction
+
+For the genuine prime family
+\[
+p\to\infty,\qquad n=\frac{p-1}{2},
+\]
+take the actual averaged projector \(X_{\sigma,T}\) in the marked window, with physical mark at the coordinate \(0\), and normalize
+\[
+Z=\frac{X_{\sigma,T}}{M},\qquad \mathbb E_n f=\frac1n\sum_i f_i.
+\]
+All norms below are normalized counting norms
+\[
+\|f\|_{2,n}^2=\mathbb E_n|f|^2.
+\]
+
+Fix \(\tau>0\), fix \(0<\omega<2\), and choose \(T=T(p)\to\infty\) with \(T+1\) inside the simultaneous marked window. After the first reserved reflection, perform \(m\) relaxed zero-reserve repairs
+\[
+b^{(j)}=1_{\rm bulk}(-y^{(j)})_+,\qquad
+y^{(j+1)}=y^{(j)}+\omega L_\sigma b^{(j)},
+\]
+where \(L_\sigma\) is the orthogonal projection onto the sector with the physical mark removed.
+
+The actual first deficit satisfies
+\[
+\|b^{(0)}\|_{2,n}^2=O_\tau(T^{-1}),
+\]
+and the relaxed dissipation identity gives at least one index \(0\le j<m\) with
+\[
+\|L_\sigma b^{(j)}\|_{2,n}
+ \le \frac{\|b^{(0)}\|_{2,n}}
+ {\sqrt{\omega(2-\omega)m}}
+ =O_{\tau,\omega}\bigl((mT)^{-1/2}\bigr).
+\tag{A}
+\]
+This is an actual deficit from the genuine trajectory, not an arbitrary nonnegative vector.
+
+Let \(F\) be a true opposite-sector optimum, with physical marked value \(F_0=q\), and let \(R\) be a true optimum on the original sign. Since \(FR=0\) on the bulk, any fixed gap
+\[
+\frac{q}{\sqrt n}\ge1+\eta
+\]
+with \(\sqrt{1+\tau}<1+\eta\) implies
+\[
+\mathbb E_n(Fb^{(j)})\ge c_{\tau,\eta}>0.
+\tag{B}
+\]
+After truncating \(F\) at height \(H=o(T)\), the contribution from the clipped part is \(O_\tau(\sqrt{H/T})\). Hence the actual signed spill on the true complementary zero set,
+\[
+\mathcal S_{p,T,j}
+=
+-\frac{\sigma}{n}
+\sum_{\substack{i\in E_j,\ R_i=0\\ j'\ne0,\ j'\ne i}}
+(F_i-H)_+\,K_{ij'}d_{j'},
+\tag{C}
+\]
+must be bounded below by a positive constant under a persistent gap. Here \(E_j=\{i:y_i^{(j)}<0\}\), \(d_{j'}\) is the original small-projection deficit, and the physical mark and both roots have been removed. The diagonal contribution is
+\[
+O_\tau(n^{-1}T^{-2/3})=o(1).
+\]
+
+Therefore the proposed exclusion would follow from the prime-uniform estimate
+\[
+\sup_{\substack{p\ {\rm prime}\\T\ {\rm in\ marked\ window}\\
+\text{actual }j\text{ satisfying (A)}}}
+|\mathcal S_{p,T,j}|=o_{p\to\infty}(1),
+\tag{D}
+\]
+or from an equivalent contradiction involving the approximate annihilation
+\[
+\|L_\sigma b^{(j)}\|_{2,n}=o(1)
+\]
+and its genuine high-level concentration.
+
+No estimate of the form (D) is presently proved.
+
+## What is established
+
+1. **The deficit is genuinely arithmetic and actual.**  
+   The argument starts from \(X_{\sigma,T}\), its physical mark \(0\), and the actual Jacobi operator \(K\); it does not replace the trajectory by an abstract nonnegative vector.
+
+2. **The small-projection step is quantitative.**  
+   For fixed \(\omega\in(0,2)\), one obtains one actual \(b^{(j)}\) satisfying (A). The repair count \(m\) is distinct from the Picard depth \(T\); no identification of the two limits is being made.
+
+3. **A gap forces weighted persistence.**  
+   For a sufficiently small fixed \(c>0\), the set
+   \[
+   \{i:b_i^{(j)}\ge c,\ R_i=0\}
+   \]
+   has relative size \(O_{\tau,c}(T^{-1})\), while its \(F^2\)-mass is \(\gg_{\tau,\eta}T\). This is a sparse high-level set statement only. It does **not** imply that the full support of \(b^{(j)}\) is sparse.
+
+4. **The exact dual identifies the relevant geometry.**  
+   The terminal optimization depends only on the common zero set of the opposite optimal face:
+   \[
+   I=\{i\ne0:R_i=0\text{ for every opposite optimum }R\}.
+   \]
+   The exact secondary-face dual reduces the weighted problem to a Jacobi-sector minorant constrained on \(I\). This is a structural reduction, not an upper bound.
+
+5. **Existing prime-specific restrictions are insufficient.**  
+   The translated forbidden-mask and long-order-direction estimates force mass outside certain Bohr arcs for prime fields, but only at scales such as \(p^{-1/3}/\log p\). They do not control the \(F\)-weighted mass of the actual \(O(T^{-1})\)-density high-level set in (C).
+
+6. **Squares exhibit a genuine obstruction, but do not settle primes.**  
+   On square orders the subfield annihilator produces a persistent weighted defect and a terminal-source lower bound. This demonstrates that abstract positivity, sector orthogonality, and dissipation alone cannot prove (D). It is not a prime counterexample.
+
+## Remaining gap
+
+The missing implication is genuinely weighted:
+
+- available dissipation controls unweighted quantities such as
+  \[
+  \sum_j\|b^{(j)}\|_{2,n}^2=O_\tau(T^{-1});
+  \]
+- the gap requires control of
+  \[
+  \mathbb E_n(Fb^{(j)})
+  \quad\text{or equivalently}\quad
+  \mathcal S_{p,T,j};
+  \]
+- \(F\) may have \(F^2\)-mass of order \(T\) on a set of density \(O(T^{-1})\), exactly the regime where an unweighted \(L^2\) estimate loses all useful information.
+
+Thus the current argument neither proves a prime-uniform \(o(1)\) weighted spill nor produces a prime-specific obstruction. The correct status is **inconclusive**, not refuted.
+
+## Ranked next tests
+
+### 1. Prime Jacobi restriction on the actual high-level/zero-set pair
+
+For primes \(p\), test whether one can prove, uniformly for the actual \(d=d_{p,T}\),
+\[
+\left|
+\frac1n\sum_{i\in I_{p,T}}
+(F_i-H)_+\,(Kd)_i
+\right|
+\le
+o(1)
+\]
+whenever
+\[
+|I_{p,T}|/n=O_\tau(T^{-1}),\qquad
+\sum_{i\in I_{p,T}}F_i^2/n\asymp T,
+\qquad
+\|L_\sigma d\|_{2,n}=O((mT)^{-1/2}).
+\]
+
+The most promising concrete route is to combine the prime clique/cap restriction with the translated forbidden-mask estimate, retaining the weights \(F_i\) instead of passing to support cardinality. A successful statement should involve the actual true zero set \(I_{p,T}\), not an arbitrary set of the same size. This is the highest-value test because it directly proves (D).
+
+### 2. Exact-sector correlation test for the relaxed deficit
+
+Expand the actual small-projection deficit in Jacobi sectors and test whether near-annihilation forces cancellation against every true opposite optimum:
+\[
+\big|\mathbb E_n(Fb^{(j)})\big|
+\stackrel{?}{\le}
+C_\tau\|L_\sigma b^{(j)}\|_{2,n}
++o_{p\to\infty}(1).
+\]
+
+This cannot hold for arbitrary nonnegative vectors, so the test must retain the actual Mellin/Picard provenance of \(b^{(j)}\), the physical zero at \(0\), and the prime-field character-sum representation. A proof would convert (A) directly into a contradiction with (B). A finite check at selected primes or a bound for abstract sector vectors would not settle the asymptotic question; the required output is a uniform estimate with the order of limits
+\[
+p\to\infty,\qquad T=T(p)\to\infty\text{ within the marked window},
+\]
+with \(m\) separately quantified.

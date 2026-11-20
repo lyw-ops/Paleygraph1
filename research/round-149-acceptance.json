@@ -1,0 +1,147 @@
+{
+  "round": 149,
+  "accepted_at_utc": "2026-11-19T21:03:28Z",
+  "previous": "research/round-148-acceptance.json",
+  "previous_sha256": "f7d9db5176c4445e11d92563485c7494fbd4b8bfed84b5e60df6e8a0612149fd",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-148.json",
+    "sha256": "372037dfb5ae49ca4b7952047c30c216824a7de13af33cd72e59c768cc5292cc"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-averaged-repair-dual-149.md": "524778e008719783a38a2cde0ded9cf7069a822ee631c48e0429a204e0e5d987",
+    "research/cold-two-center-omitted-envelope-149.md": "b9523e161fde83eb32f92dbb5d1f7c2336ab85f37523d705d1b48bfbdc17e142",
+    "research/cold-two-center-omitted-envelope-149-check.py": "07b1d9b1e0b1a8d97f642c36270d4078dba6e4fb09646286e6ea4e4fe020330e",
+    "research/cold-two-center-omitted-envelope-149-checks.jsonl": "97860775a0132e67bfc2afcc3af4ad8680dfe5aaac956b0e7c44aa2bd2057321",
+    "research/api-astra-review-149.md": "3eab02d65ea0b42c59e4ac928d7585db10e9971ac7ee5b6deac0c138b6bfc97e",
+    "research/api-astra-149-receipt.json": "09c80720932fdcad0b4ec9d7de7ee6a1eae81e97097379b3a3e6cc0485d8c053",
+    "research/api-astra-ordinary-prime-first-reflected-spill-149.txt": "367ebcc4aee0acf77b2870e0deaa3fb6877e6153b1d87277e96c6c5eae3ef8e7",
+    "research/api-astra-ordinary-prime-relaxed-defect-structure-149.txt": "e61eb270eddbef04133718feaffc4266986c9cb09c9e0dfb402de40ca4b55c9d",
+    "research/api-astra-cold-actual-remainder-two-center-149.txt": "baca75ec4cade10f0669fd1f4ac8f7fa6dfab76140442c7aec2843b9375d3c44",
+    "coordination/launchers/round-149.py": "4064205718d4fe8fd121b83d8acce4d6621f1097fb008193f1a0300fb9e7b561",
+    "coordination/round-149-inflight.json": "ca87611709249b9ce83439d52fb2f570cf93e22244740d16c89aca7294f0b98c",
+    "coordination/shared-obligations/round-149-before.json": "2a93e9cfd98d7f01a3c2c8855ea436c1dc4f9400b5280835065a567c0f82ee49",
+    "coordination/shared-obligations/round-149-after.json": "32db1a50f0205e8409612df859a99e0df655a3d3dad6e26255ff6930df0a65d3",
+    "coordination/missions/round-149/ordinary-prime-first-reflected-spill.md": "a4b9c8eb860f764850400219b2114c31bfc6d915c30c76b5ea56f582f0c37270",
+    "coordination/missions/round-149/ordinary-prime-relaxed-defect-structure.md": "97b08ee8aa6db54ec5c2f746feeebe7398821f6a4e195f0901e76106daf997ff",
+    "coordination/missions/round-149/cold-actual-remainder-two-center.md": "4c398a5d05f2834045ae21a2ce3c1dab6928af092fa592cacfa576689081e288"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-pinned-reflection-flow-148.md": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/anchored-repair-20.md": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721",
+    "research/parallel-cap-19.md": "da976e583abac8c86974f25da13f44fffe5fd29486d79ec2ae0c4d6bd36a552e",
+    "research/ordinary-oriented-terminal-mask-147.md": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456",
+    "research/ordinary-terminal-face-dual-143.md": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb",
+    "research/ordinary-near-cap-complementary-mask-146.md": "06c1dd62076c275cbbdbd79c7976dc1da2c2eca05723c681d64b1fd310e2d43f",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/cold-higher-legendre-step-148.md": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9",
+    "research/cold-first-omitted-envelope-147.md": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921",
+    "research/cold-actual-legendre-amplitude-146.md": "4e72c15a598bb4451152ff9a8ab5bf4d7aae38ffc13914041687b1963c89d4e2",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-remainder-135.md": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-linear-split-137.md": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-positive-39.md": "f8537a945d274efb7f6a143dbceb9f1c51e1ce460190fff510ec6e2dcca61062",
+    "research/parallel-defect-16.md": "e38b5b820fcc78f0c08d502c21e64693511af008a9d73e8f31c02d930f1204c7"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-resummed-136-check.py": "81dbc6e21637e04a5bf39bf503a6172fee8ba4dffe308d0dce7fb6fe068a3784",
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three completed gateway responses, independently reviewed finite-time real proof and cold interval comparison.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 1,
+  "arithmetic_record_counts": {
+    "actual_cold_two_center_omission": 2
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra first reflected spill",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Control the weighted Jacobi pairing on the actual adaptive first failure mask",
+        "Transfer to the separate oriented terminal mask"
+      ]
+    },
+    {
+      "name": "Gateway Astra relaxed defect structure",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Use genuine prime Jacobi restriction on the actual high-level/zero-set pair",
+        "Test weighted correlation of an actual small pinned projection while keeping the later source"
+      ]
+    },
+    {
+      "name": "Gateway Astra actual remainder outside two centers",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Delete all pure two-center words before comparison, then retain signs for actual mixed weights",
+        "Match one actual Picard return with existing signed labels"
+      ]
+    },
+    {
+      "name": "/root/audit_149",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use true optimizer weighting and prime-only control of the selected deficit on favorable anchored Jacobi phases",
+        "Test the actual signed same-height square difference against 0.567184"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Bound the anchored Jacobi phase bias of a selected actual relaxed repair step with small normalized pinned projection. A gap forces positive phase mass and optimizer-weighted defect together with the prime effective-support and layer-energy dichotomy.",
+    "Attack a definite dyadic portion of the two-root first-reflection pairing on the exact threshold mask, looking for a prime-sensitive effect of the actual source and true optimizer.",
+    "Collect the signed Legendre tensor-unit coefficient in the derivative linear in the actual omitted factors, then assess its use in the signed same-height square comparison. Simple positive repricing is obstructed."
+  ],
+  "proof_scope": [
+    "For fixed tau and relaxation omega in (0,2) in the inherited growing simultaneous marked window, a hypothetical fixed gap q/sqrt(n)>=1+eta with sqrt(1+tau)<1+eta gives actual nonnegative approximate opposite-sector rows. An m-step averaged deficit completed at its physical mark has mark >=(1-O(T sqrt(n)/m)) n/z0 and wrong-sector RMS O(sqrt(n/(mT))) with wrong-sector mark exactly zero, whenever T sqrt(n)/m tends to zero. A single actual completed deficit has mark >=(1-O(T sqrt(n)/m+(n/(mT))^(1/3))) n/z0 and wrong-sector RMS <=(n/(mT))^(1/3) when both errors tend to zero. Both roots satisfy the exact universal cap 1+sqrt(p). The repair count m is independent of the original marked window.",
+    "The same selected prime deficit retains genuine order-one opposite optimizer-weighted cost, at least a fixed fraction of normalized bulk mass in a favorable anchored Jacobi phase arc at fixed tau, and relative pinned projection tending to zero. The Round 20 prime gap rule excludes subcritical effective size and the critical high-energy regime for this particular deficit. It leaves diffuse and critical low-energy defects open.",
+    "On the original marked cold square with both boundary lifts and t0=n, remove all pure S+alpha Y words before positivity. The two heights 601 and 602 have eventual P5000 omission rate <0.542, higher nonseed part <0.134, first nonseed part <0.408. A fixed positive 12-entry vector gives an outward strict lower >0.4607 for this exact retained positive envelope at both heights, obstructing positive repricing to the 0.356 sufficient step rate. The lower witness concerns the envelope."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The exact first reflected failure mask depends on the true local threshold, so it is only included in an appropriate fixed threshold set. The signed upper on the actual pairing remains open. Applying the same pairing with the original d to a later relaxed deficit discards cumulative corrections and is invalid.",
+    "The full deficit-square sum need not be bounded uniformly in repair count. Under a gap true optimizer weighting gives a uniform-in-step lower bound of order n^-1/2 on each squared deficit on the field. Relaxed dissipation controls the sum of pinned-projection squares.",
+    "The cold full signed derivative and square, nonlinear invariant ball, physical half-step, common cold domain and ordinary prime theta limit remain open."
+  ],
+  "floating_diagnostics": [
+    "The independent auditor selected the positive comparison vector by midpoint iteration. Only the fixed integer vector and outward componentwise lower check are used as evidence."
+  ],
+  "replay_checks": [
+    "Two saved 192-bit outward records verify the three upper bounds and the strict retained positive-comparison lower at both heights. The dependency closure was checked against the accepted R136 chain.",
+    "The stationary per-step repair contact identity was checked against Round 20; the finite-time conclusion follows from telescoping and mass-weighted selection.",
+    "Three complete HTTP 200 Astra-labeled replies were archived and compared. The exact first-pair, later-deficit and cold-omission obligations stayed distinct."
+  ],
+  "independent_review": [
+    "The read-only auditor independently checked the telescoping and pin normalization, identified the errors in the relaxed response, extended the proof to one actual step, and checked the R20 support and energy consequence.",
+    "The auditor confirmed word selection and marked/tilted tail scope and independently ran the outward comparison at both heights, finding the fixed positive lower witness."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "round": 96,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinating agent; retrospective synthesis prepared now, not a claim about a past dispatch",
+  "sources": {
+    "baseline": {
+      "path": "research/round-95-acceptance.json",
+      "sha256": "6bc7c810c23c843adbb56e6f9da368eb769b8ef5cb2f06278806d5b821443f5b"
+    },
+    "current": {
+      "path": "research/round-96-acceptance.json",
+      "sha256": "dddd539dd1957ac8fa5b8a232a5a282e68c0e1d88b1fecff3fe14bd09d8d8b46"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold-first-contact",
+      "route": "Cold comparison and first contact",
+      "effect": "reformulated",
+      "before": "Round 95 constructs a floor-determined near-flat real comparison. Excluding its first excess still needs an unnormalized counting bound; the one-tie price is 0.08128.",
+      "after": "Round 96 isolates a necessary signed exterior transfer at the first comparison activation, using a frozen height-100 predictor and exact unit-bulk midpoint weights. The translated-source inverse bounds now cover every source and target coordinate.",
+      "remaining": "Prove a through-primes upper for the actual signed exterior transfer, or its stated trimmed counting norm, at the admissible first boundary. A small normalized error alone does not supply this upper, and a comparison activation need not be a physical tie.",
+      "evidence": [
+        {
+          "path": "research/astra-tie-95.md",
+          "sha256": "b29150a773883ceed9e07e1b345e2054e9b16415d35ed04878e19a5da5a3fc18"
+        },
+        {
+          "path": "research/astra-count-96.md",
+          "sha256": "14c8531047e2453f19a8546ac4bc2732fb5bfebc757a12095cd641d4ca93fdcd"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "common-continuation",
+      "route": "Common unforced continuation",
+      "effect": "weakened",
+      "before": "The round-95 unforced rectangle leaves a gap of 2277/2^20 to the nominated cold square. All-height convergence on that patch does not imply control on the square.",
+      "after": "The round-96 all-height rectangle advances the real edge by 17/2^20, reducing the remaining gap to 2260/2^20. A singular-tail estimate also bounds the fraction of slow real paired directions.",
+      "remaining": "Control the actual incoming increment in the selected slow paired spaces and bridge the remaining gap. A small fraction of slow directions may still carry the entire actual increment; neither the dimension estimate nor the new rectangle closes the cold square.",
+      "evidence": [
+        {
+          "path": "research/astra-depth-95.md",
+          "sha256": "7afa02763663c1b1bb14a4bbbd810e356e8f4e6eaed7714e7dd4a8d0cc0a4dd4"
+        },
+        {
+          "path": "research/astra-paired-96.md",
+          "sha256": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e"
+        }
+      ]
+    },
+    {
+      "id": "true-exterior-forcing",
+      "route": "Critical-coset recurrent heights",
+      "effect": "reformulated",
+      "before": "Round 95 contracts the feedback inside two critical cosets but leaves a bound for the true transformed exterior history. A prescribed-input example prevents using an unweighted approximation error alone.",
+      "after": "Round 96 retains a signed prefix of the genuine forcing, with an alternative exponential exterior branch and a complement temporal minority term when both cosets are removed.",
+      "remaining": "Bound the signed positional prefix and the complement minority debit, and separately exclude the exponential branch on the true orbit. The escaped real branch also remains open.",
+      "evidence": [
+        {
+          "path": "research/astra-recur-95.md",
+          "sha256": "eca2076672cd9850740eaea81b1e42fb4718d5ee092f5cced082d184ec847d9b"
+        },
+        {
+          "path": "research/astra-fiber-96.md",
+          "sha256": "0ddd495c6abb4abf3914a796753c21d6bb37d331a9452829d1aa487c86ef28e7"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The first-contact test now has a specified signed exterior quantity and new all-source predictor bounds. Test their compatibility before expanding finite-prime sweeps. Keep actual slow-space alignment as the second proposed mission; the target remains open.",
+  "next_calls": [
+    {
+      "id": "signed-first-boundary",
+      "priority": 1,
+      "change_id": "cold-first-contact",
+      "question": "Can the actual signed singleton exterior at the floor-determined first comparison activation be given a strict upper bound smaller than its required counting-scale threshold through all sufficiently large eligible primes?",
+      "why_now": "Round 95 supplies the unique comparison profile; round 96 fixes the midpoint identity and isolates the signed exterior transfer, while the shifted resolvent calculation supplies all-source height-100 bounds. This makes the exact missing pairing a concrete next test.",
+      "scope": "Use the actual near-flat comparison on the nominated square and the genuine frozen height-100 predictor. Retain X_i^2=3(1-w_i). Keep the n>=10^30 finite threshold separate from the stronger eventual threshold above 7.648e-5. Preserve the distinction between counting and normalized norms and between a comparison activation and a physical tie.",
+      "if_yes": "If the required uniform bound is proved, use its strict margin to exclude the corresponding first comparison activation under the stated hypotheses, then check precisely what this supplies for physical contact. Finite supporting examples do not prove the uniform bound or ETH26.",
+      "if_no": "If a case within a claimed explicit range, or an admissible unbounded prime sequence, refutes this sufficient upper, preserve its exact scope and retire that bound. One finite case does not refute an eventual statement with an unspecified threshold. Failure of a crude estimate alone is inconclusive.",
+      "if_inconclusive": "Return the unresolved signed pairing and the precise loss in n or in the counting constant. Diagnostic finite checks may identify that loss but do not replace the required uniform estimate.",
+      "inputs": [
+        {
+          "path": "research/astra-tie-95.md",
+          "sha256": "b29150a773883ceed9e07e1b345e2054e9b16415d35ed04878e19a5da5a3fc18"
+        },
+        {
+          "path": "research/astra-count-96.md",
+          "sha256": "14c8531047e2453f19a8546ac4bc2732fb5bfebc757a12095cd641d4ca93fdcd"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "actual-slow-space-alignment",
+      "priority": 2,
+      "change_id": "common-continuation",
+      "question": "Does the actual incoming Picard increment admit a useful projection bound on the slow spaces of the genuine paired derivative, beyond the known bound on their relative dimension?",
+      "why_now": "The paired derivative result identifies the specific unresolved alignment issue, while the all-height rectangle only shortens the continuation gap. A projection estimate would test whether the new spectral information can affect that gap.",
+      "scope": "Use the genuine prime Picard secants and actual increments with the stated real-floor and depth hypotheses. Keep a dimension bound separate from an estimate on this particular vector; retain the remaining 2260/2^20 continuation gap.",
+      "if_yes": "If the required actual-increment projection bound is proved, derive the precise contraction or transport estimate it supports and state what is still needed to bridge the cold gap.",
+      "if_no": "Identify a same-model obstruction to deriving the projection bound from the available inputs, and record which additional property of the actual increment would be necessary.",
+      "if_inconclusive": "Preserve the exact missing increment-correlation estimate and return it as the remaining obligation; further small changes to rectangle constants alone do not resolve this test.",
+      "inputs": [
+        {
+          "path": "research/astra-depth-95.md",
+          "sha256": "7afa02763663c1b1bb14a4bbbd810e356e8f4e6eaed7714e7dd4a8d0cc0a4dd4"
+        },
+        {
+          "path": "research/astra-paired-96.md",
+          "sha256": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e"
+        }
+      ]
+    }
+  ]
+}

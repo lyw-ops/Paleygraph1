@@ -1,0 +1,61 @@
+{
+  "round": 171,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-170-acceptance.json",
+    "sha256": "e5d0ea4c96a99217942a0fb12f1c9d9c19a933692f8860a727c6db20ff108990"
+  },
+  "coordinator": {
+    "path": "coordination/round-170.json",
+    "sha256": "ad882035ee3884363eeec7b5ca2a12206cee6e3c07ffa3f4429a2c7a592eff6e"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-171.py",
+    "sha256": "7a24ef1a32078eaf36780320a234260b4b50cd1c4a19392704673cc6b2c117df"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-171-before.json",
+    "sha256": "58c5b44e3a6983f43159a52f7885a14f437539886fcf64cd8f9149ea140fb61f"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-regular-dilation-jacobi",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "624beb9af707c9df571369fb98a1a8ca8f4a0856a1e089522a9521d7aff5af2a",
+      "mission_file": {
+        "path": "coordination/missions/round-171/ordinary-prime-regular-dilation-jacobi.md",
+        "sha256": "11a08058abcf00ad19d19cfa6fce6c286e79933a270ca8de2aac342a592f1d8a"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r171-api-01a1ed0a/ordinary-prime-regular-dilation-jacobi-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r171-api-01a1ed0a/ordinary-prime-regular-dilation-jacobi-candidate.md",
+      "started_utc_epoch": 1795135996.243146
+    },
+    {
+      "call_id": "ordinary-prime-inverse-spectral-tail",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "33c7adec96efa9d55ffcab2ac4717302d1f64a19ad1c61e092c082e3e438c139",
+      "mission_file": {
+        "path": "coordination/missions/round-171/ordinary-prime-inverse-spectral-tail.md",
+        "sha256": "2c00613ddadb093d8e3f5244dbc3bcdb5bb888374a4e3eb5337e450ffac07d45"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r171-api-01a1ed0a/ordinary-prime-inverse-spectral-tail-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r171-api-01a1ed0a/ordinary-prime-inverse-spectral-tail-candidate.md",
+      "started_utc_epoch": 1795135996.243621
+    },
+    {
+      "call_id": "cold-prime-shared-linear-mixed-transport",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "a2e989384e63b986dcb84c887714c7bb137186e050ebf623df181147c67d9f44",
+      "mission_file": {
+        "path": "coordination/missions/round-171/cold-prime-shared-linear-mixed-transport.md",
+        "sha256": "e5bd880c68eb5ce1f600595ec679e2ba3c754ccf73724770fa61a5733532b63b"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r171-api-01a1ed0a/cold-prime-shared-linear-mixed-transport-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r171-api-01a1ed0a/cold-prime-shared-linear-mixed-transport-candidate.md",
+      "started_utc_epoch": 1795135996.242829
+    }
+  ]
+}

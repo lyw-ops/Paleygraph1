@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "round": 135,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after the actual hook-validated batch and independent proof replay",
+  "sources": {
+    "baseline": {
+      "path": "research/round-134-acceptance.json",
+      "sha256": "973ea5167f20223c46026f40f9e651656b036370c051879bf1a9c6924f4c17fd"
+    },
+    "current": {
+      "path": "research/round-135-acceptance.json",
+      "sha256": "20d746f31f996ddeab10713ab2e5d62dc835ae7f16e285fdf8af9aa247167650"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "new_obstruction",
+      "before": "The full analytic pure-seed price left 0.472 of one-step signed remainder budget.",
+      "after": "Even the linear-plus-cubic positive comparison at height 601 has price above 0.6404, so its unsigned construction cannot close. The actual geometric tail after order 14 is below 0.0000407, and the real counting estimates are square-uniform.",
+      "remaining": "Collect actual identical Laurent-by-field terms in the remainder and price their signed sum for both frozen rows. Half-step and moving starter issues remain separate.",
+      "evidence": [
+        {
+          "path": "research/cold-remainder-135.md",
+          "sha256": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed"
+        },
+        {
+          "path": "research/cold-remainder-135-checks.jsonl",
+          "sha256": "b9045a9e85a5e7aed3116a629d6a5a78a866bc8eb7fd8beaba949a6039b1fb16"
+        },
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        },
+        {
+          "path": "research/cold-seed-packet-133.md",
+          "sha256": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939"
+        },
+        {
+          "path": "research/seed-majorant-47.md",
+          "sha256": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Rate-free real ordinary weighted cancellation",
+      "effect": "reformulated",
+      "before": "The signed seed tail and actual ordinary clipped-window parity were separate open inputs.",
+      "after": "The proposed positive sector test has an exact second-moment UI requirement. The needed signed first-moment tail can use weaker arithmetic cancellation; the bounded-window approximant must be even.",
+      "remaining": "Prove a genuine signed support-sensitive upper or actual bounded-window parity without assuming optimizer concentration properties.",
+      "evidence": [
+        {
+          "path": "research/ordinary-sector-square-tail-135.md",
+          "sha256": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a"
+        },
+        {
+          "path": "research/ordinary-seed-window-134.md",
+          "sha256": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb"
+        },
+        {
+          "path": "research/zero-floor-sector-133.md",
+          "sha256": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        }
+      ]
+    },
+    {
+      "id": "fixed-masked",
+      "route": "Direct critical cap mask repair",
+      "effect": "unchanged",
+      "before": "The averaged real route works without that critical rate and does not establish the signed critical-window upper.",
+      "after": "Round 130 was on the cold derivative; the previous real obligation remains open.",
+      "remaining": "Control an actual critical endpoint, then its cap jump tails or the exact full true-factor masked statistic.",
+      "evidence": [
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        },
+        {
+          "path": "research/real-masked-cap-adjoint-125.md",
+          "sha256": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The same signed remainder estimate survives but the unsigned two-order comparison is excluded. Prioritize actual signed linear aggregation. The real window and signed tail remain separate arithmetic work.",
+  "next_calls": [
+    {
+      "id": "cold-linear-relative-resummation",
+      "priority": 1,
+      "change_id": "cold",
+      "question": "Can exact signed aggregation of the linear and remaining nonseed terms certify the existing 0.472 shared step bound?",
+      "why_now": "The unsigned comparator failed even before its tail, and the tail after 14 orders is now priced.",
+      "scope": "Use the actual h=601,602 closed-square marked P5000 norm of K(D_h-D^J). Collect linear-in-C via identical Laurent exponent times identical field and add the remaining signed multi-C orders; keep the stated small tail and repair.",
+      "if_yes": "Give an outward signed upper below the shared 0.472 threshold and its exact remaining margin.",
+      "if_no": "Give the obstruction for this signed representation at its real scope.",
+      "if_inconclusive": "Identify the first actual Mellin field coefficient still missing.",
+      "inputs": [
+        {
+          "path": "research/cold-remainder-135.md",
+          "sha256": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed"
+        },
+        {
+          "path": "research/cold-remainder-135-checks.jsonl",
+          "sha256": "b9045a9e85a5e7aed3116a629d6a5a78a866bc8eb7fd8beaba949a6039b1fb16"
+        },
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        },
+        {
+          "path": "research/cold-seed-packet-133.md",
+          "sha256": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939"
+        },
+        {
+          "path": "research/seed-majorant-47.md",
+          "sha256": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4"
+        }
+      ]
+    },
+    {
+      "id": "cold-remainder-physical-dual",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "Can the same 0.472 actual physical remainder estimate be independently settled by an explicit coherent packet or price-dual argument?",
+      "why_now": "The positive comparison lower is too large, but it does not constitute a signed lower. A genuine label-sensitive packet could distinguish the two cases.",
+      "scope": "Same original square, physical marking, h=601,602 and P5000. A proxy on unsigned weights alone cannot be used as a dual functional on the actual price space.",
+      "if_yes": "Prove the actual upper or lower with exact arithmetic and operator scope.",
+      "if_no": "Show failure of the proposed coherent packet and identify the next useful input.",
+      "if_inconclusive": "State the genuine true norm or support relation the dual needs.",
+      "inputs": [
+        {
+          "path": "research/cold-remainder-135.md",
+          "sha256": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed"
+        },
+        {
+          "path": "research/cold-remainder-135-checks.jsonl",
+          "sha256": "b9045a9e85a5e7aed3116a629d6a5a78a866bc8eb7fd8beaba949a6039b1fb16"
+        },
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        },
+        {
+          "path": "research/cold-seed-packet-133.md",
+          "sha256": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939"
+        },
+        {
+          "path": "research/seed-majorant-47.md",
+          "sha256": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-signed-tail-prime",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Can prime arithmetic control the true signed tail or ordinary even clipped-window approximation without a square-tail hypothesis?",
+      "why_now": "The exact positive sector identity exposes its stronger quadratic requirement.",
+      "scope": "Use genuine complementary ordinary factors, fixed marked cap and prime-first fixed windows. Seek a signed first-moment estimate or an even trace approximation to the actual row.",
+      "if_yes": "Give the sharp prime family result and separate remaining input.",
+      "if_no": "Prove a true applicable obstruction or identify the first missing support step.",
+      "if_inconclusive": "Give a precise arithmetic weighted pairing test.",
+      "inputs": [
+        {
+          "path": "research/ordinary-sector-square-tail-135.md",
+          "sha256": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a"
+        },
+        {
+          "path": "research/ordinary-seed-window-134.md",
+          "sha256": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb"
+        },
+        {
+          "path": "research/zero-floor-sector-133.md",
+          "sha256": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which next signed bounds hold after independent checking of true operators and replay?",
+      "why_now": "The path must distinguish sign arithmetic from actual packet and purely numerical effects.",
+      "scope": "Read only, keep marking, tail, square, order of limits and optimizer scope explicit.",
+      "if_yes": "Report proved claims and ranked next tests.",
+      "if_no": "Find the first error and preserve the remaining evidence.",
+      "if_inconclusive": "Report the open resource and evidence that survives.",
+      "inputs": [
+        {
+          "path": "research/cold-remainder-135.md",
+          "sha256": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed"
+        },
+        {
+          "path": "research/cold-remainder-135-checks.jsonl",
+          "sha256": "b9045a9e85a5e7aed3116a629d6a5a78a866bc8eb7fd8beaba949a6039b1fb16"
+        },
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        },
+        {
+          "path": "research/cold-seed-packet-133.md",
+          "sha256": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939"
+        },
+        {
+          "path": "research/seed-majorant-47.md",
+          "sha256": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4"
+        },
+        {
+          "path": "research/ordinary-sector-square-tail-135.md",
+          "sha256": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a"
+        },
+        {
+          "path": "research/ordinary-seed-window-134.md",
+          "sha256": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb"
+        },
+        {
+          "path": "research/zero-floor-sector-133.md",
+          "sha256": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": [
+    {
+      "id": "cand:cold-pure-seed-remainder-472",
+      "statement": "For all sufficiently large primes p=1 mod 4, uniformly on the original closed cold square and for h=601 and h=602, the actual physical translated P5000 operator norm of K(D_h-D^J) is strictly below 0.472 with a field-uniform gap. D^J is the full derivative at the Jacobi seed using the actual marked floor n.",
+      "calls": [
+        "cold-linear-relative-resummation",
+        "cold-remainder-physical-dual"
+      ]
+    }
+  ]
+}

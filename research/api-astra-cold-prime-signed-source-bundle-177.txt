@@ -1,0 +1,168 @@
+## Result
+
+The proposed signed-source route is **not proved and not refuted** by the supplied records. The available estimates establish only a fixed finite unsigned prefix and a frozen-base counting contraction. They do not establish the required signed growing-prefix confinement for the actual family.
+
+The precise failure is the missing estimate
+\[
+\sup_{0\le j\le k_n}
+ \left\|
+ \sum_{\ell<j}B^\ell R_{602}
+ +\sum_{\ell<j}B^{j-1-\ell}K G(U_\ell)
+ \right\|_\infty
+ \le d-\eta ,
+\tag{1}
+\]
+with a uniform \(\eta>0\), where
+\[
+B=K D_{602},\qquad
+R_{602}=V_{603}-V_{602},
+\]
+\[
+U_j=V_{602+j}-V_{602},\qquad
+G(U)=\Phi_t(V_{602}+U)-\Phi_t(V_{602})-D_{602}U.
+\]
+Here \(t_0=n=(p-1)/2\) is the physical marked coordinate, the prime family is the same sufficiently large eligible-prime family as in the cited rounds, the original closed complex square \(Q\) and both lifts are retained, and \(d=0.05\) is the enlarged physical tube radius from Round 174. The smaller \(d=0.025\) tube is also available, but is not enough to rescue the missing prefix estimate.
+
+The exact frozen-base identity is
+\[
+U_j
+ =
+ \sum_{\ell=0}^{j-1}B^\ell R_{602}
+ +
+ \sum_{\ell=0}^{j-1}B^{j-1-\ell}K G(U_\ell),
+\tag{2}
+\]
+with \(G(0)=0\). Thus the desired argument genuinely requires signed propagation of the true source \(R_{602}\), together with the signed post-\(K\) quadratic sources \(K G(U_\ell)\). Replacing either sum by absolute-value bounds gives only the already-known failed route.
+
+## What is established
+
+The following facts are available uniformly on \(Q\), for both lifts and the physical mark \(t_0=n\):
+
+1. **True first source.** With the translated packet price \(P_{5000}\),
+   \[
+   P_{5000}(R_{602})<0.01272.
+   \]
+   This is an unnormalized packet price, not a normalized counting norm.
+
+2. **Frozen derivative estimates.**
+   \[
+   \|KD_{601}\|_{P_{5000}}<1.048,\qquad
+   \|KD_{602}\|_{P_{5000}}<1.066,
+   \]
+   while in normalized or counting second norm,
+   \[
+   \|KD_{602}\|_{2,n}\le \|D_{602}\|_\infty<0.518.
+   \]
+   The first price is not contractive; the second norm is contractive only on a coordinate tube where the scalar derivative remains bounded.
+
+3. **Actual finite prefix.** The first three actual displacements have prices
+   \[
+   <0.01272,\qquad <0.02645,\qquad <0.04162.
+   \]
+   Hence the first three steps lie in the enlarged \(0.05\)-tube.
+
+4. **Tube contraction.** On the \(0.05\)-tube around the exact \(V_{602}\), the scalar derivative is bounded by
+   \[
+   q=0.535<1,
+   \]
+   with \(q^8<2^{-7}\). This would imply the desired logarithmic tail once the growing prefix through
+   \[
+   k_n=\left\lceil \frac47\log_2 n\right\rceil
+   \]
+   is confined with terminal clearance.
+
+5. **Frozen entrywise smoothing.** The fixed-base estimate
+   \[
+   \sum_{j\ge0}\|(KD_{602})^jK\|_{\max}=O(n^{-0.455})
+   \]
+   is available. This is an entrywise estimate for the frozen base and does not give a translated operator estimate on the actual residual class.
+
+6. **Quadratic source size before the frozen inverse.** The first transported Taylor term has the bound
+   \[
+   P_{5000}(Kr)<0.000115
+   \]
+   in the earlier true-source construction. This does not bound the full signed sum in (2), nor the translated frozen inverse applied to later \(G(U_\ell)\).
+
+## Why the full derivative obstruction does not settle the signed question
+
+The Round 175 obstruction is genuine:
+\[
+\|KD_{602}\|_{\infty\to\infty}\asymp \sqrt n
+\]
+on the actual physical family. It comes from the marked coordinate \(a_0=2\sqrt n+O(n^{-1/2})\), while the bulk coordinates remain bounded. It applies even after restricting inputs to mean-zero vectors.
+
+Therefore no proof may use a full coordinate-supremum contraction or a generic \(\ell^\infty\)-operator bound for \(KD_{602}\).
+
+However, this does **not** disprove (1). The true \(R_{602}\) and the vectors \(KG(U_\ell)\) may occupy a special signed residual class with cancellation after propagation. The full operator obstruction allows such a possibility; it only rules out arbitrary complex input phases and arbitrary coordinate directions.
+
+Likewise, the \(P_{5000}\) estimates must not be conflated with normalized counting norms:
+
+- \(P_{5000}\) is an unnormalized signed packet price designed to charge character/word structure.
+- \(\|\cdot\|_{2,n}\) is the normalized counting second norm used for the \(q=0.535\) tube contraction.
+- The coordinate conversion
+  \[
+  \|x\|_\infty\le \sqrt n\,\|x\|_{2,n}
+  \]
+  is precisely why the signed prefix or a shifted-resolvent estimate is needed before the logarithmic cutoff.
+
+## Derivative transfer remains separate
+
+Even if (1) were proved, distinct derivative transfer would still require a separate argument. The tube curvature bounds control
+\[
+D(V_{602}+U)-D_{602}
+\]
+coordinatewise when \(U\) is already known to remain in the tube, but they do not automatically transfer the signed packet estimate or the frozen entrywise resolvent estimate from \(V_{602}\) to the moving rows.
+
+In particular, the physical marked derivative must continue to be treated with its actual radicand
+\[
+4n+V_0^2,
+\]
+not with the bulk radicand. The existing records handle this replacement in several fixed-source estimates with \(O(n^{-1/2})\) errors, but no uniform growing-prefix transfer estimate for the actual moving \(D_{602+j}\) is supplied.
+
+## V605 shortcut
+
+The proposed \(V_{605}\) shortcut is also presently unsupported. It would require, in the stated unnormalized counting convention, a strict bound below
+\[
+0.0038967.
+\]
+No estimate in the supplied records establishes this value for the actual signed source bundle at \(V_{605}\), on both lifts and with the physical mark. The known \(0.01272\) first-source price at height 602 is not comparable evidence for that threshold.
+
+## Conclusion
+
+The supported conclusion is therefore:
+
+- The unsigned radius argument fails at growing depth.
+- The full coordinate-supremum derivative route is genuinely obstructed.
+- The first three actual steps and the fixed \(q=0.535\) tube are proved.
+- The exact signed identity (2) identifies the correct remaining object.
+- No certified signed growing-prefix bound, strict clearance, or \(V_{605}\) bridge is currently available.
+- The asymptotic target remains open; the supplied obstruction is not an obstruction to the special signed source class.
+
+## Ranked next tests
+
+### 1. Certified signed-prefix test at \(V_{602}\)
+
+For the actual eligible-prime family, both lifts, \(t_0=n\), and the original square \(Q\), compute or symbolically majorize the signed packet expansions of
+\[
+L_jR_{602},\qquad
+L_{j-\ell}K G(U_\ell),
+\qquad
+L_j=\sum_{r<j}B^r,
+\]
+through the growing cutoff \(j\le k_n\).
+
+The test must retain signs and the physical marked coordinate, and must output an explicit bound of the form
+\[
+\sup_{j\le k_n}\|U_j\|_\infty\le 0.05-\eta
+\]
+for a fixed \(\eta>0\). The nonlinear source should be charged using the already available curvature bound on the \(0.05\)-tube, but without replacing the outer propagation by the absolute \(1.066^j\) price. Failure of this test should identify an actual signed component or packet class whose contribution exceeds the available clearance, rather than merely showing that an absolute majorant is too large.
+
+### 2. Frozen-resolvent bridge or \(V_{605}\) threshold test
+
+At \(V_{602}\), attempt to prove a translated signed resolvent estimate for the actual source bundle:
+\[
+\sup_{j\ge0}\|(KD_{602})^jK\,S\|_\infty
+\]
+for \(S=R_{602}\) and for the post-\(K\) quadratic source classes, using the \(O(n^{-0.455})\) entrywise smoothing together with their actual packet structure. If that fails, repeat directly at \(V_{605}\) and test whether the unnormalized counting norm is strictly below \(0.0038967\).
+
+This test must keep separate the unnormalized packet/counting price and normalized \(\|\cdot\|_{2,n}\), and must verify the physical marked radicand and both lifts. A successful result would provide the requested alternate bridge; a failure would be meaningful only if it exhibits a genuine surviving signed source component, not merely the known full-space \(\ell^\infty\) obstruction.

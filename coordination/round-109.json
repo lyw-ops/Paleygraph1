@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "round": 109,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 109 review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-108-acceptance.json",
+      "sha256": "6411446e960c146aa32657efb93f64a294045aa82074665e1be12c45b733ac2f"
+    },
+    "current": {
+      "path": "research/round-109-acceptance.json",
+      "sha256": "3bf001e1ef90a9a71105b8981ed1bfff0b94793287d69efb1c1963c8d3f232f1"
+    }
+  },
+  "changes": [
+    {
+      "id": "common-actual-carrier",
+      "route": "Prime-specific persistent high repair core",
+      "effect": "reformulated",
+      "before": "The previous iterative repair only supplied a sufficient width or Rayleigh gap.",
+      "after": "A persistent exact true mark at critical cap rate forces a square-root-length late block, quantitative near-edge rows and one genuine high carrier. A shorter fixed fraction has an actual common high intersection.",
+      "remaining": "Prove the appropriate arithmetic upper on this genuine configuration or reduce its structure further using the true projection dynamics.",
+      "evidence": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/repair-carrier-109.md",
+          "sha256": "b2230d264c55f4d91152761333d5b59d8b9aa3b9c5b4d702c8d261f83778407b"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    },
+    {
+      "id": "critical-rate-induction",
+      "route": "Small critical cap coefficient",
+      "effect": "weakened",
+      "before": "Dimension-free control along the actual negative repair was separate from control of the capped initial row.",
+      "after": "One explicit small cap coefficient bounds all new negative supports and closes the width induction.",
+      "remaining": "Establish the critical coefficient in the genuine capped fixed point or an equivalent inner excess estimate.",
+      "evidence": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        }
+      ]
+    },
+    {
+      "id": "slack-transport-carry",
+      "route": "Slack-adjusted direct feasibility",
+      "effect": "unchanged",
+      "before": "At fixed M=10 an adjusted overshoot upper implies the ordinary fixed-floor bound via direct positivity.",
+      "after": "This round addresses the alternative iterated repair.",
+      "remaining": "Prove the adjusted overshoot upper and retain the independent complex moving-starter branch.",
+      "evidence": [
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The arithmetic target now uses a common high carrier and actual core of a long genuine repair sequence, while a small cap coefficient remains an independent sufficient route. The original all-prime limit remains open.",
+  "next_calls": [
+    {
+      "id": "persistent-core-signed-balance",
+      "priority": 1,
+      "change_id": "common-actual-carrier",
+      "question": "Can the genuine persistent core and the signed averaged balance exclude the marked obstruction at critical cap rate?",
+      "why_now": "The common-intersection proof gives stable active coordinates and permits a more accurate averaged linear constraint at those actual sites.",
+      "scope": "Use actual repair rows, fixed floor before prime limit, exact K and all normalized scales. The core and high carrier are at most a constant times sqrt(n), not necessarily near the minimum width. Preserve the low exterior source and the actual true factor.",
+      "if_yes": "State the exact real sign/floor implication and whether the cap rate remains required.",
+      "if_no": "Give a genuine obstruction or the precise extra arithmetic condition needed at a stated scale.",
+      "if_inconclusive": "Derive a checkable new prime-specific or dynamical constraint beyond re-proving support persistence.",
+      "inputs": [
+        {
+          "path": "research/repair-carrier-109.md",
+          "sha256": "b2230d264c55f4d91152761333d5b59d8b9aa3b9c5b4d702c8d261f83778407b"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        },
+        {
+          "path": "research/parallel-arithmetic-2.md",
+          "sha256": "cc98e7e614ad423490bef236966b392e8eb6374eba02eab769c5eb7e0d9db337"
+        }
+      ]
+    },
+    {
+      "id": "cap-small-constant",
+      "priority": 2,
+      "change_id": "critical-rate-induction",
+      "question": "Can actual capped inner excess achieve the explicit small initial cap coefficient?",
+      "why_now": "A sufficient small O(n^(-1/2)) constant already ensures the true signed repair succeeds.",
+      "scope": "Use fixed real t and cap and the actual capped row. Preserve exact constants and threshold budgets and do not assume arbitrary near-cap shapes.",
+      "if_yes": "Derive the ordinary fixed-floor upper under the exact verified condition.",
+      "if_no": "Identify the true obstruction to the proposed cap-rate estimate.",
+      "if_inconclusive": "Give a quantitative genuine cap estimate or a better sufficient coefficient.",
+      "inputs": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        }
+      ]
+    },
+    {
+      "id": "one-step-adjusted-test",
+      "priority": 3,
+      "change_id": "slack-transport-carry",
+      "question": "Can activated slack sites be controlled directly in the ordinary Fourier-LP completion?",
+      "why_now": "Only the positive adjusted excess is charged and a fixed cap already pays the potential scaled marked loss.",
+      "scope": "Maintain the true capped map and exact feasibility. Keep prime/floor limits separate from the complex crossing question.",
+      "if_yes": "State the fixed sign and floor and the remaining global conclusion.",
+      "if_no": "Give a genuine contrary case or identify a flawed proposed contraction.",
+      "if_inconclusive": "Derive a narrower true adjusted-transport estimate.",
+      "inputs": [
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "common-actual-carrier",
+      "question": "Which Round 110 deductions hold under their exact prime, field-order and rate premises?",
+      "why_now": "Independent read-only verification precedes acceptance.",
+      "scope": "Check normalization, comparing averaged versus instantaneous balance, on-core versus global scope, and actual data versus arbitrary weights. Return ranked next tests.",
+      "if_yes": "Record verified scope.",
+      "if_no": "Find the first unsupported step.",
+      "if_inconclusive": "Give precise checked portions.",
+      "inputs": [
+        {
+          "path": "research/repair-carrier-109.md",
+          "sha256": "b2230d264c55f4d91152761333d5b59d8b9aa3b9c5b4d702c8d261f83778407b"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    }
+  ]
+}

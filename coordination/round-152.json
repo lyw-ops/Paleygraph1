@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "round": 152,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 152 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-151-acceptance.json",
+      "sha256": "fe4897df900fb9d6a8d92fe3ad2779ed8deb2376e639b8ff26189bab73120c32"
+    },
+    "current": {
+      "path": "research/round-152-acceptance.json",
+      "sha256": "af601ab0ae825255a1fe806d0f40496699503c3d35c9ae688d69c4a13e5c24cb"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "reformulated",
+      "before": "A sparse true endpoint mask does not imply small phase deficit plus bounded-coset Fourier concentration.",
+      "after": "Critical actual deficits force growth of a signed affine-multiplicative correlation moment in their own anchor weights. Uniform anchor orthogonality has an exact O(p) bound and leaves only a named off-diagonal contribution for true weights. The exact signed first-spill cost and its positive part have equal limiting face maxima.",
+      "remaining": "Prove a true prime estimate for the deficit-weighted moment, or a prime upper for the full high first-spill face maximum. Even exclusion of the critical case leaves the diffuse regime.",
+      "evidence": [
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/parallel-rectangle-20.md",
+          "sha256": "5a2bab72af7de9f1b9abdae5091172ce1375f93e6a3a7480633ea142a612d333"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "Two-center residual below 0.540; only finite W returns on the seed column.",
+      "after": "All alpha-free W-linear orders are priced, including all translated columns. The genuine whole B3 step is below 0.6931 and the actual omissions below 0.4112 and 0.4122.",
+      "remaining": "Prove actual signed same-height square difference from B3 below 0.50179639 or one-step omission below 0.3069. Nonlinear invariant and half-step remain separate.",
+      "evidence": [
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/rank-four-arithmetic-56.md",
+          "sha256": "7c7fcff4cfec674ec7325538ddddc5738b37038802409fb1c461bedc05860d56"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual near-critical obstruction is now a definite weighted arithmetic moment, while a complete three-center comparison narrows the actual cold omission.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-weighted-affine-fourth-moment",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the actual deficit-weighted affine fourth moment be bounded by O(p) in the near-critical prime branch?",
+      "why_now": "The near-critical deficit forces divergence divided by p. The diagonal and uniform-anchor bound are exact, leaving a specified off-diagonal five-factor sum.",
+      "scope": "Use ordinary p=1 mod 4, the genuine R150 retargeted orbit and same R151 block, L_sigma b/E b tending to zero and m_eff/m0 tending to one. Maintain all roots, the fixed floor, and the actual normalized anchor weights. No assumption of a coset template.",
+      "if_yes": "Prove the weighted O(p) bound and exclude the critical actual branch.",
+      "if_no": "Identify an exact prime obstruction to the proposed off-diagonal bound on an explicitly specified relaxed model or actual geometry.",
+      "if_inconclusive": "Derive a useful factorization of the complete shifted Jacobi sum, quantify its exceptional coincidences, or obtain a bound on a specific weighted contribution.",
+      "inputs": [
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/parallel-rectangle-20.md",
+          "sha256": "5a2bab72af7de9f1b9abdae5091172ce1375f93e6a3a7480633ea142a612d333"
+        },
+        {
+          "path": "research/anchored-repair-20.md",
+          "sha256": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721"
+        },
+        {
+          "path": "research/critical-sets.md",
+          "sha256": "1b7adbf29a540f6801d79667ca1ae9245946e56435b9843b724f4b5a07577b10"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-first-spill-face-upper",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can a true optimal-face selection or uniform minorant estimate bound the first-reflection signed cost on its full high receiver?",
+      "why_now": "The two exact face maxima differ only by o(1) and their lower forces any fixed gap to pay in the true common complementary zeros.",
+      "scope": "Use the original first reflection, not the retargeted flow. Keep input d_mid, full adaptive high receiver S, both roots and diagonal removed, true sign and optimal face, fixed floor and selectable marked T.",
+      "if_yes": "Prove a genuine prime-uniform o(1) upper for one of the exact face maxima.",
+      "if_no": "Give a rigorous obstruction to a named proposed primal selection, dual bound or arithmetic relaxation.",
+      "if_inconclusive": "Bound one actual branch of the true weighted face, or derive an exact arithmetic description that reduces the full maximum.",
+      "inputs": [
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/filtered-support-46.md",
+          "sha256": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e"
+        }
+      ]
+    },
+    {
+      "id": "cold-three-center-actual-square-omission",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the remaining-center and true residual contribution to the actual same-height square relative to B3 be priced with signs?",
+      "why_now": "All W powers and the old weight inflation are removed from the omitted family. The actual omitted step is below 0.4112 at height 601. The new same-height signed budget is 0.50179639.",
+      "scope": "Use the true h=601 and h=602 rows, original closed square and marked t0=n, both lifts, and complete translated P5000. Treat genuine fixed other centers and actual Picard residual distinctly. Choose gamma F4 or an actual Picard label if a narrower signed slice is necessary.",
+      "if_yes": "Prove the full same-height square bound, or establish a concrete signed collision and certified debit that closes a stated subset on the requisite class.",
+      "if_no": "Prove a label obstruction or certify failure of a specified comparison while retaining the actual signed target.",
+      "if_inconclusive": "Compute one rigorous true higher-center or Picard packet that directly advances the remaining square estimate.",
+      "inputs": [
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/rank-four-arithmetic-56.md",
+          "sha256": "7c7fcff4cfec674ec7325538ddddc5738b37038802409fb1c461bedc05860d56"
+        },
+        {
+          "path": "research/astra-ranknext-58.md",
+          "sha256": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9"
+        },
+        {
+          "path": "research/cold-first-omitted-envelope-147.md",
+          "sha256": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which Round 153 deductions survive independent review?",
+      "why_now": "The weighted anchor sum, first-spill exact face, and remaining cold operator have independent scope.",
+      "scope": "Read-only. Preserve ordinary-prime and fixed-floor quantifiers, the actual anchors and rows, both lifts and the mark.",
+      "if_yes": "State scope and rank two follow-ups.",
+      "if_no": "Identify the first invalid step.",
+      "if_inconclusive": "Separate verified pieces and missing inequalities.",
+      "inputs": [
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/rank-four-arithmetic-56.md",
+          "sha256": "7c7fcff4cfec674ec7325538ddddc5738b37038802409fb1c461bedc05860d56"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

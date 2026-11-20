@@ -1,0 +1,38 @@
+{
+  "round": 127,
+  "dispatch_status": "returned and reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-126-acceptance.json",
+    "sha256": "45bda6d064a5c5ba02754d2a7a43a7d93ae3b08301485f3a0b7e43ccc49594c4"
+  },
+  "coordinator": {
+    "path": "coordination/round-126.json",
+    "sha256": "89a3d78573e3f32e9d35271f207a7772713e3403f25b0be319d64512e03efe4a"
+  },
+  "call_id": "real-sparse-adjoint-arithmetic",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "6f7441495e502af596385b609d835629fd012d87e35ac75eb8b57051f6cb7a4c",
+  "started_utc_epoch": 1795103840,
+  "local_session_id": 66640,
+  "mission_file": "/tmp/paley-r127-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r127-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r127-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Closed after independent audits and coordinator acceptance.",
+  "artifact_sha256": {
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/api-astra-review-127.md": "4fa83b6c1ad00edad44108d4ac0ebc2cea6129bf88285f89559ff319b9c079df",
+    "research/api-astra-overflow-127.txt": "a2a5ccabfa4afad57abda7e11b8d79ed6e6e3bb58fc93550fb0f6a9be523aa57",
+    "research/api-astra-127-receipt.json": "0b51d431416ab16be93239523ec4c55f0481c44ec9208d4772587b26a9a0a357",
+    "research/round-127-acceptance.json": "54c5bed26e1b752160850cab3aa5dd3717551afe0484a3f922a8cc5eb7f34d25"
+  },
+  "audits": [
+    {
+      "agent": "/root/audit_127",
+      "status": "completed"
+    },
+    {
+      "agent": "/root/audit_127_energy",
+      "status": "completed"
+    }
+  ]
+}

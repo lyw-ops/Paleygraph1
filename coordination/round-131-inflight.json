@@ -1,0 +1,44 @@
+{
+  "round": 131,
+  "dispatch_status": "running; both launches observed, HTTP responses pending",
+  "accepted_checkpoint": {
+    "path": "research/round-130-acceptance.json",
+    "sha256": "9926f0996cb5270560856af0e94e7be14a65185fbf1774b35a6bc64ce12e7564"
+  },
+  "coordinator": {
+    "path": "coordination/round-130.json",
+    "sha256": "6580bd2b9df5b7e2eea3b1624109a392cd9906a0aee3a1215d58c6df758a9380"
+  },
+  "validation_snapshot": {
+    "path": "/tmp/paley-archive-hydration-01a1ed0a/snapshot-manifest-130.json",
+    "sha256": "c65eead4ae6f30a2ff81bf6753b732ebf3b6061f012d53573e18b63361c70dc0"
+  },
+  "local_session_id": 60456,
+  "lanes": [
+    {
+      "call_id": "zero-floor-unweighted-largecap",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "b6cd9177c39e36bcc47c546128c4cfd7a5a9891c497559364fd31d9f75dcb750",
+      "started_utc_epoch": 1795107497,
+      "mission_file": {
+        "path": "/tmp/paley-r131-overflow-mission-01a1ed0a.md",
+        "sha256": "5558463f2d2fd6ba7ffbf0c6e5aa4230dbd2233950f2e5919a01e908b723f3b9"
+      },
+      "pending_receipt": "/tmp/paley-r131-api-01a1ed0a/overflow-receipt.json",
+      "pending_candidate": "/tmp/paley-r131-api-01a1ed0a/overflow-candidate.md"
+    },
+    {
+      "call_id": "cold-signed-block-closure",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "a9d21d291b9b9579fea8c07ae56b02d5977bdebf1811958d4be1625d0f4578ba",
+      "started_utc_epoch": 1795107497,
+      "mission_file": {
+        "path": "/tmp/paley-r131-cold-mission-01a1ed0a.md",
+        "sha256": "94551b5fe6de8bb89acce0d622ebbc2f3a4b77af17c7e65326a12735ff1981c2"
+      },
+      "pending_receipt": "/tmp/paley-r131-api-01a1ed0a/cold-receipt.json",
+      "pending_candidate": "/tmp/paley-r131-api-01a1ed0a/cold-candidate.md"
+    }
+  ],
+  "next_step": "Independently check the unweighted prime deficit and the signed block closure. Integrate both ranked closeouts."
+}

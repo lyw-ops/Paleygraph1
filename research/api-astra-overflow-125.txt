@@ -1,0 +1,98 @@
+### New checked inequality and the remaining obstruction
+
+Let \(q\) be the signed negative row at any fixed genuine ordinary depth, including the row obtained by starting from the projected cap Picard seed
+\[
+\widetilde b^0=(I-\epsilon K)a_m
+\]
+with
+\[
+m\ge (1/4+\kappa)\frac{\log n}{|\log q_M|},\qquad \kappa>0.
+\]
+Retain the true factors \(g,g_-\), the output mask through \(\Lambda^\pm\), and assume the established bounds
+\[
+\|q\|_{2,n}\le C_qn^{-1/4},\qquad
+\|g\|_{2,n}+\|g_-\|_{2,n}\le C_gn^{-1/4},\qquad
+\mu\le C_\mu n^{-1/2}.
+\]
+
+From the exact masked functional identity,
+\[
+T(q)
+=\frac pn\mu\,\mathbb E_n\!\left[qH\right]
++O\!\left(n^{-1}\|q\|_{2,n}\right),
+\qquad
+H:=g\Lambda^- -g_-\Lambda^+,
+\]
+and \(0\le \Lambda^\pm\le1\), hence
+\[
+\|H\|_{2,n}
+\le \|g\|_{2,n}+\|g_-\|_{2,n}
+\le C_gn^{-1/4}.
+\]
+Therefore, uniformly over all such \(q\),
+\[
+\boxed{
+T(q)\le
+\frac pn\,\mu\,\|q\|_{2,n}\|H\|_{2,n}
++O(n^{-1}\|q\|_{2,n})
+\le \frac{C}{n}+O(n^{-5/4}).
+}
+\tag{A}
+\]
+This is a genuine one-sided prime-uniform upper retaining both reciprocal factors and the removed output mark. It is not strong enough for the requested \(o(1/n)\) conclusion.
+
+Indeed, (A) shows that the available norm information permits the critical size \(T(q)\asymp n^{-1}\). More precisely, since the remainder contributes only \(o(1/n)\),
+\[
+nT(q)=\frac pn\,n\mu\,\mathbb E_n(qH)+o(1),
+\]
+so the required upper \(T(q)=o(1/n)\) reduces to the arithmetic correlation condition
+\[
+\boxed{\mathbb E_n\!\left[q\,(g\Lambda^- -g_-\Lambda^+)\right]
+=o(n^{-1/2})}
+\tag{B}
+\]
+uniformly over the eligible primes. Cauchy–Schwarz gives only \(O(n^{-1/2})\), exactly the critical scale. Thus neither the true-factor norm bounds nor the output-mask bounds supply a power saving.
+
+### Picard-height error does not remove this obstruction
+
+For the projected cap Picard initializer, the capped contraction gives
+\[
+\|\widetilde b^0-z\|_{2,n}=O(q_M^m)
+=O(n^{-1/4-\kappa}).
+\]
+Consequently, for the largest \(r=\lceil\sqrt n\rceil\) absolute coordinate errors,
+\[
+\sum_{i\in B_{\rm top}}|\widetilde b^0_i-z_i|
+\le \sqrt r\,\Big(\sum_i|\widetilde b^0_i-z_i|^2\Big)^{1/2}
+=O(n^{1/2-\kappa})
+=o(\sqrt n).
+\tag{C}
+\]
+The fixed-depth ordinary update preserves this localized threshold by the established Lipschitz/first-norm propagation. Hence the Picard seed can be transferred to the genuine ordinary row with
+\[
+n\bigl|T(\widetilde q)-T(q)\bigr|=o(1)
+\]
+at every fixed depth. This verifies that seed approximation is no longer the bottleneck. The unresolved issue is already present for the explicit Picard seed itself: proving (B).
+
+### Precise obstruction to a Mellin-complexity shortcut
+
+At logarithmic height \(m\asymp\log n\), the cap map is iterated \(m\) times before the ordinary repair begins. A fixed-degree Mellin or bounded-rank expansion is therefore unavailable without an additional approximation theorem whose rank grows slowly enough to preserve a prime-uniform cancellation estimate. The norm estimate \(O(n^{-1/4-\kappa})\) controls approximation error, but it supplies no cancellation for the main correlation in (B). In particular, replacing \(q\) by a low-complexity approximation only helps if one proves, for that approximation,
+\[
+\mathbb E_n(q_{\mathrm{approx}}g\Lambda^-)
+-\mathbb E_n(q_{\mathrm{approx}}g_-\Lambda^+)
+=o(n^{-1/2});
+\]
+boundedness of the individual terms does not imply cancellation between them.
+
+Thus the proposed arithmetic estimate is presently **inconclusive**, with the exact missing power-saving condition given by (B). The all-prime goal remains open.
+
+### Ranked next tests
+
+1. **Joint masked Fourier/Mellin test.** Expand the explicit \(m\)-step seed and the two \(\Lambda\)-weights jointly, not separately, and estimate the resulting character sums with the output deletion retained. The target is a uniform \(o(n^{-1/2})\) bound for (B).
+
+2. **Residual-correlation test.** Compute or bound
+\[
+R_m=\mathbb E_n\!\left[(\widetilde q_m-\widetilde q_{m-1})
+(g\Lambda^- -g_-\Lambda^+)\right].
+\]
+If \(\sum_{r\ge m}|R_r|=o(n^{-1/2})\) uniformly in eligible primes, then a finite-height seed would inherit the desired upper; failure at the critical scale would quantify the actual residual obstruction.

@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "round": 171,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 171 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-170-acceptance.json",
+      "sha256": "e5d0ea4c96a99217942a0fb12f1c9d9c19a933692f8860a727c6db20ff108990"
+    },
+    "current": {
+      "path": "research/round-171-acceptance.json",
+      "sha256": "b94e1a7cc8340b2564e8ffa13307efdc71dded5df2d5c461a8a2b1cdca918b97"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "Known one-match physical criterion was O(p^3) with only degenerate cuts priced. Actual centered support still lacked inverse-tail control.",
+      "after": "Actual affine action gives a p^-1/8 gain on one-match. The full slope diagonal can be studied directly in the same coordinates. No new centered inverse bound.",
+      "remaining": "Reach O(p^5/2) in the twisted energy and control zero-match, or bound the actual full positive completed diagonal at O(p^3/2). A centered fixed-gap escape remains separate.",
+      "evidence": [
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        },
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-quotient-scaled-cone-control-169.md",
+          "sha256": "d5de64e9d4eb2042004630ed30320d4c8af9b84dc7576888fe500a07cbe33d8e"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "The true full source costs below 0.00008874 before outer transport, after one-remainder harmonic pooling.",
+      "after": "The exactly-two-remainder seed unit pools over the same true vector. Full initial upper is below 0.00008312 and first outer upper below 0.00008861.",
+      "remaining": "Obtain prime-uniform summable translated transport on the true distributed source or a viable moving-starter nonlinear continuation.",
+      "evidence": [
+        {
+          "path": "research/cold-two-remainder-seed-unit-171.md",
+          "sha256": "30ad14ab2223af6ce9fadc6edca3c985ca351745d9963b81495a6e4a6dc66905"
+        },
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The full one-match physical kernel now has a prime power gain, and the full positive completed slope diagonal has a concrete rational-action chart. The cold mixed source is cheaper, with transport open.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-weighted-affine-action",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the actual weighted b-square affine line action improve the new O(p^23/8) twisted collision bound toward O(p^5/2)?",
+      "why_now": "A concrete power gain has replaced the generic O(p^3) bound, with the layer sums and exact fourth-factor restoration established.",
+      "scope": "Keep the true g and w, the affine chart and b-square condition. Seek actual weighted energy, operator cancellation, or an improvement using row test functions. Track light levels and full primes. Zero-match is separate.",
+      "if_yes": "Prove the target O(p^5/2) or a sufficient one-match bound.",
+      "if_no": "Prove a scoped obstruction to a named affine-energy or operator estimate, retaining actual hypotheses.",
+      "if_inconclusive": "Give a quantitative reduction of the exponent or separately reach the necessary light-scale control.",
+      "inputs": [
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-full-slope-diagonal",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the actual full positive completed slope diagonal H(s,s) be controlled at O(p^3/2) with w(s)?",
+      "why_now": "The affine chart gives the pole s=b and exact four weighted factors. The trivial and bounded character product strata already fit the target. Diagonal control would bypass the separate 4+4 estimate.",
+      "scope": "Use actual g, w, physical mark and b-square mask with the exact completed positive majorant. Analyze the two genuine fractional-linear argument factors on t=s. A two-dimensional norm does not imply the requested diagonal bound.",
+      "if_yes": "Prove the true weighted full slope bound or a sufficient weighted alternative covering zero-match.",
+      "if_no": "Prove a precise obstruction to a proposed diagonal completion or weighted mixing mechanism.",
+      "if_inconclusive": "Derive a genuine power saving or isolate a quantitatively controlled diagonal covariance region.",
+      "inputs": [
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-shared-two-remainder-response",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can one obtain a true summable translated response or a sufficient moving nonlinear starter for the shared mixed bulk packets?",
+      "why_now": "The pure, one-remainder and two-remainder pooled components are explicit and improved; no prior geometric norm conversion has established their distributed transport.",
+      "scope": "Use both lifts, physical t0=n, original square and true R,V_s. Try a genuine signed restricted transport mechanism with true growth rate or a moving-starter bound. Keep the separate remaining words and repairs.",
+      "if_yes": "Prove actual uniform signed summability on a full sufficient source class, or a justified nonlinear bridge.",
+      "if_no": "Prove a precise arithmetic obstruction to a named restricted transport or moving-starter construction.",
+      "if_inconclusive": "Give a nontrivial growing-depth estimate for a genuine resolved packet and explicitly name the rest.",
+      "inputs": [
+        {
+          "path": "research/cold-two-remainder-seed-unit-171.md",
+          "sha256": "30ad14ab2223af6ce9fadc6edca3c985ca351745d9963b81495a6e4a6dc66905"
+        },
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 172 deductions survive independent review?",
+      "why_now": "The weighted affine action, true slope diagonal and mixed cold transport need distinct verifications.",
+      "scope": "Read-only. Check marks and masks, correct scales and actual prime family, and evidence type. Give two ranked next tests.",
+      "if_yes": "Record verified result and open obligation.",
+      "if_no": "Locate an invalid step.",
+      "if_inconclusive": "Separate proof and evidence.",
+      "inputs": [
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/cold-two-remainder-seed-unit-171.md",
+          "sha256": "30ad14ab2223af6ce9fadc6edca3c985ca351745d9963b81495a6e4a6dc66905"
+        },
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

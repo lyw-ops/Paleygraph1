@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "round": 101,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinating agent after independent Astra review of Round 101",
+  "sources": {
+    "baseline": {
+      "path": "research/round-100-acceptance.json",
+      "sha256": "92017b6a7afa6b973cd5d819a1490326e029fbe63d39c98d55bbbfb1046cfb15"
+    },
+    "current": {
+      "path": "research/round-101-acceptance.json",
+      "sha256": "a3b88f7577c73576b10eef82132a28ecd40c81dd7f77fb9024bdcb1cd423e13a"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold-first-contact",
+      "route": "Physical adjacent derivative at the original cutoff",
+      "effect": "weakened",
+      "before": "Round 100 marked-only propagation at height 510 certifies no first hit through n<=1e296.",
+      "after": "Exactly subtracting adjacent marked sources and holding the initial normalized angle direction fixed gives a true stationary derivative comparison at height 517, with explicit no-hit through n<=1.7e304.",
+      "remaining": "Obtain a counting residual tending to zero and a strict angular gap on a genuine increasing-depth sequence, or bound the actual nonlinear exterior independently.",
+      "evidence": [
+        {
+          "path": "research/astra-mixed-100.md",
+          "sha256": "2a55170920bbe2ff60de667568397447f2b0255dfcebf8792d56a61a1fc0140c"
+        },
+        {
+          "path": "research/astra-marked-101.md",
+          "sha256": "9ef47e328f762e92fad89b95f1b11b9ccb176c7105f1de06da1a87bbd5fb1a36"
+        }
+      ]
+    },
+    {
+      "id": "true-exterior-forcing",
+      "route": "Recurrent quotient and actual preceding states",
+      "effect": "reformulated",
+      "before": "Round 100 offers exact head projection and centered autocorrelation trials for the signed flat test, alongside an independent triangular upper.",
+      "after": "Small uniform head leakage suffices. Negative-price finite trials separate from hard avoidance. The companion projector also separates a very negative signed original flat mean from the large-minority nonnegative prior obstruction.",
+      "remaining": "On the original filtered list obtain the triangular upper and a cheap signed or prior law where each genuine case needs it. The escaped branch remains open.",
+      "evidence": [
+        {
+          "path": "research/astra-root-100.md",
+          "sha256": "2ea0a887e72cef8b572d5f262215766a6e5fbf177f93b24515965016d1218a02"
+        },
+        {
+          "path": "research/quotient-soft-100.md",
+          "sha256": "971215792b9ad8f5a965476a61d49309942cc23a5163b2f891aec588a1ab8cac"
+        },
+        {
+          "path": "research/astra-price-101.md",
+          "sha256": "44c8b9a7d9bf77c445f87770bbe082223f9c34adcdcef39100a88d670800450d"
+        },
+        {
+          "path": "research/prior-minority-101.md",
+          "sha256": "9fd0aecc78cf64ce36593b4e494d4fab5c97c5b82f790410eff28180e23789b5"
+        }
+      ]
+    },
+    {
+      "id": "common-continuation",
+      "route": "Unforced cold complex slab and real exit",
+      "effect": "weakened",
+      "before": "Round 100 reaches left edge 16640185/2^20 with the common real two-tail test still open.",
+      "after": "Four same-label cubic returns and disjoint nonunit two-child propagation advance the left edge two units at unchanged imaginary half-width.",
+      "remaining": "Close the remaining 2223/2^20 gap or gain a genuine real first-exit exclusion on the common two-tail test.",
+      "evidence": [
+        {
+          "path": "research/astra-return-100.md",
+          "sha256": "3e269ee06441aba87d97d860b0c93da299e170dfe24ff2c44c9eba55c05618bc"
+        },
+        {
+          "path": "research/astra-rank-101.md",
+          "sha256": "edc1ba8e0ae62186dbde2d07c04bcaedfbfa2f363b0452d91fec16ca7ea71220"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The true recurrence reduction separates signed and positive prices, and adjacent angular control improved at finite order. The all-prime ordinary theta limit remains open.",
+  "next_calls": [
+    {
+      "id": "marked-resolvent",
+      "priority": 1,
+      "change_id": "cold-first-contact",
+      "question": "Can the genuine marked susceptibility retain the strict angular gap at a predictor with vanishing counting residual?",
+      "why_now": "Adjacent physical source cancellation and the zero-defect frozen susceptibility isolate the one required marked direction.",
+      "scope": "Use the actual prefix, preserve the original square and phase sheets, and treat the full through-primes hypothesis separately from finite height. The frozen resolvent must be controlled on the physical marked column with corresponding prefix and disk bounds.",
+      "if_yes": "Verify the original-cutoff exclusion and consequent genuine branch scope.",
+      "if_no": "Document a specific true divergence, spectral obstruction, or invalid growing-depth assumption.",
+      "if_inconclusive": "Record the exact retained signed bulk or frozen susceptibility test with any better validated margins.",
+      "inputs": [
+        {
+          "path": "research/astra-marked-101.md",
+          "sha256": "9ef47e328f762e92fad89b95f1b11b9ccb176c7105f1de06da1a87bbd5fb1a36"
+        },
+        {
+          "path": "research/astra-mixed-100.md",
+          "sha256": "2a55170920bbe2ff60de667568397447f2b0255dfcebf8792d56a61a1fc0140c"
+        }
+      ]
+    },
+    {
+      "id": "true-capped-prior",
+      "priority": 2,
+      "change_id": "true-exterior-forcing",
+      "question": "Can the true capped-head or prior minority pricing be controlled along with the one-sided triangular sum at root A/J?",
+      "why_now": "The true large-minority and very-negative-root alternatives now identify which row pays a quadratic price. The capped-head criterion allows o(J)/b mass instead of zero.",
+      "scope": "Use the actual original recurrent candidate and fixed horizon with allowed erasures. Keep the third prior-charge alternative distinct from the negative-root signed alternative and preserve the original positive candidate filter.",
+      "if_yes": "State the eliminated genuine recurrent alternative and remaining companion premise.",
+      "if_no": "Keep the verified obstruction on the correct genuine or prescribed data with the original units.",
+      "if_inconclusive": "Return an exact soft or centered prior inequality able to distinguish actual versus artificial sources.",
+      "inputs": [
+        {
+          "path": "research/astra-price-101.md",
+          "sha256": "44c8b9a7d9bf77c445f87770bbe082223f9c34adcdcef39100a88d670800450d"
+        },
+        {
+          "path": "research/prior-minority-101.md",
+          "sha256": "9fd0aecc78cf64ce36593b4e494d4fab5c97c5b82f790410eff28180e23789b5"
+        },
+        {
+          "path": "research/quotient-soft-100.md",
+          "sha256": "971215792b9ad8f5a965476a61d49309942cc23a5163b2f891aec588a1ab8cac"
+        }
+      ]
+    },
+    {
+      "id": "dual-cubic-or-two-tails",
+      "priority": 3,
+      "change_id": "common-continuation",
+      "question": "Can the determinant-displaced dual cube establish a new disjoint physical slab, or can the common-erasure real tails both be bounded?",
+      "why_now": "The same-label cubic families have been charged and leave two shifted multiplicity-one terms. The true signed real threshold is unchanged.",
+      "scope": "Use signed arithmetic with the earlier native root omissions and disjoint weights for the unforced slab. Use the actual real path and one common legal erasure family for both tails.",
+      "if_yes": "Report the exact unforced domain or genuine real first-exit exclusion and check all-prime hypotheses.",
+      "if_no": "Record any charge overlap, failed interval or obstruction on the actual tail.",
+      "if_inconclusive": "Return a checked signed saving or one-sided true orbit reduction.",
+      "inputs": [
+        {
+          "path": "research/astra-rank-101.md",
+          "sha256": "edc1ba8e0ae62186dbde2d07c04bcaedfbfa2f363b0452d91fec16ca7ea71220"
+        },
+        {
+          "path": "research/astra-exit-98.md",
+          "sha256": "03f0b91acbeb0d1c5c063d2a6b19cd737755594472621fd8865ce096ce391537"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold-first-contact",
+      "question": "Do the Round 102 candidates follow at their stated field, width and recurrence scope?",
+      "why_now": "Independent read-only review precedes new acceptance.",
+      "scope": "Check finite and through-primes deductions and replay frozen arithmetic.",
+      "if_yes": "Record precise validated scopes and rank next tests.",
+      "if_no": "Identify the first substantive proof defect or failing byte comparison.",
+      "if_inconclusive": "Report exactly what was read and replayed.",
+      "inputs": [
+        {
+          "path": "research/astra-marked-101.md",
+          "sha256": "9ef47e328f762e92fad89b95f1b11b9ccb176c7105f1de06da1a87bbd5fb1a36"
+        },
+        {
+          "path": "research/astra-price-101.md",
+          "sha256": "44c8b9a7d9bf77c445f87770bbe082223f9c34adcdcef39100a88d670800450d"
+        },
+        {
+          "path": "research/prior-minority-101.md",
+          "sha256": "9fd0aecc78cf64ce36593b4e494d4fab5c97c5b82f790410eff28180e23789b5"
+        },
+        {
+          "path": "research/astra-rank-101.md",
+          "sha256": "edc1ba8e0ae62186dbde2d07c04bcaedfbfa2f363b0452d91fec16ca7ea71220"
+        }
+      ]
+    }
+  ]
+}

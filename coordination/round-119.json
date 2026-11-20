@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "round": 119,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 119 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-118-acceptance.json",
+      "sha256": "30ceb37502c5d209b16dbdc54ec5ea54808b042da8588b8618e403b177546ea2"
+    },
+    "current": {
+      "path": "research/round-119-acceptance.json",
+      "sha256": "ac8cd476c1defe1042339f9c6fed908b59718975d3cef786f20cc6a285867a91"
+    }
+  },
+  "changes": [
+    {
+      "id": "reflected-real",
+      "route": "Actual reflected paired positivity repair",
+      "effect": "reformulated",
+      "before": "The direct weighted overshoot required a high favored receiver population at the critical cap rate.",
+      "after": "The exact reflected dissipation forces paired near-periodic signed transports, genuine high-factor recipients with vanishing old slack, and a common-threshold return count.",
+      "remaining": "Exclude these actual paired transports through primes or prove the genuine asymptotic stop or full reciprocal cubic estimate, keeping the transported marked output.",
+      "evidence": [
+        {
+          "path": "research/reflected-slack-repair-119.md",
+          "sha256": "6e6f566b87d31c4ea76ba223fab3f65a359c83eee78de0c9c0210a068a9fed25"
+        },
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    },
+    {
+      "id": "rate-free-weight",
+      "route": "Direct true weighted overshoot",
+      "effect": "unchanged",
+      "before": "The true optimizer or stationary factor gives a sufficient weighted test with no critical cap assumption.",
+      "after": "The new reflected forced-pair result uses the critical cap rate.",
+      "remaining": "Prove the actual weighted S estimate or another direct rate-free repair at fixed floors tending to zero.",
+      "evidence": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common cold complex domain",
+      "effect": "unchanged",
+      "before": "The exact outer inverse, odd good word and three cutoffs reduced the combined derivative problem to genuine coefficient and rank growth.",
+      "after": "This round improves only the separate real repair trajectory.",
+      "remaining": "Prove an actual moving starter and uniform signed good-word bound, or find direct scalar continuation.",
+      "evidence": [
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        },
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The genuine reflected dynamics add a two-time structural constraint at the critical rate. The ordinary weighted criterion and cold signed resource remain independent approaches.",
+  "next_calls": [
+    {
+      "id": "reflected-two-step",
+      "priority": 1,
+      "change_id": "reflected-real",
+      "question": "Can the actual reflected pair with near two-step return and vanishing old slack be excluded through primes, or reduced to an arithmetic estimate on its transported mark and full reciprocal cubic?",
+      "why_now": "Two consecutive actual rows give a paired signed constraint stronger than a single arbitrary rectangle.",
+      "scope": "Use the real even P|b| orbit with the actual capped initialization, fixed floor, critical cap rate and true factor. Do not identify it with the ordinary projected orbit. Preserve the full sources and the output and standalone input marks.",
+      "if_yes": "Give a verified prime-uniform estimate and state its exact fixed-floor consequence.",
+      "if_no": "Give a precise obstruction to a proposed estimate, distinguishing genuine trajectories and square controls.",
+      "if_inconclusive": "Derive an additional governing identity or a new signed prime estimate for the genuine pair.",
+      "inputs": [
+        {
+          "path": "research/reflected-slack-repair-119.md",
+          "sha256": "6e6f566b87d31c4ea76ba223fab3f65a359c83eee78de0c9c0210a068a9fed25"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        },
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    },
+    {
+      "id": "rate-free-weighted-overshoot",
+      "priority": 2,
+      "change_id": "rate-free-weight",
+      "question": "Can the genuine weighted adjusted overshoot vanish through primes without cap-rate assumptions?",
+      "why_now": "This is still a direct sufficient fixed-cap ordinary route.",
+      "scope": "Use the actual stationary or true optimizer weight with the actual local slack at fixed floor.",
+      "if_yes": "Give the genuine bound and exact both-sign limiting argument.",
+      "if_no": "Identify exact scope of an arithmetic failure.",
+      "if_inconclusive": "Derive a new checkable actual estimate with no claimed raw finite extrapolation.",
+      "inputs": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        },
+        {
+          "path": "research/reflected-slack-repair-119.md",
+          "sha256": "6e6f566b87d31c4ea76ba223fab3f65a359c83eee78de0c9c0210a068a9fed25"
+        }
+      ]
+    },
+    {
+      "id": "three-cold-cutoffs",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the genuine odd good word at three inverse cutoffs be priced at one moving physical starter?",
+      "why_now": "The three analytic tail errors are subcritical, leaving real rank and coefficient resources.",
+      "scope": "Keep actual common sheets, normalized residual and standalone susceptibility.",
+      "if_yes": "Give the uniform starter and actual inner domain.",
+      "if_no": "Give the precise failing scope.",
+      "if_inconclusive": "Derive a genuinely new signed resource estimate.",
+      "inputs": [
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        },
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "reflected-real",
+      "question": "Which new actual real or complex assertions survive independent read-only verification?",
+      "why_now": "The actual orbit and prime-uniform conditions are essential.",
+      "scope": "Check exact signs, norms, count scales, floor order, and finite-versus-uniform scope.",
+      "if_yes": "Give the verified scope and ranked next tests.",
+      "if_no": "Locate the first invalid step.",
+      "if_inconclusive": "Give the checked portions and remaining gap.",
+      "inputs": [
+        {
+          "path": "research/reflected-slack-repair-119.md",
+          "sha256": "6e6f566b87d31c4ea76ba223fab3f65a359c83eee78de0c9c0210a068a9fed25"
+        },
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        },
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        }
+      ]
+    }
+  ]
+}

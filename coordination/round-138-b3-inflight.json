@@ -1,0 +1,35 @@
+{
+  "round": 138,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-137-acceptance.json",
+    "sha256": "ce0f368124a7d5da4652d4a492b67e40c99cb16cf56e3b524e370c02005805a5"
+  },
+  "coordinator": {
+    "path": "coordination/round-137.json",
+    "sha256": "56ecfc57321942eafdafba4190d73a4dd9fedd83fe81df24ac19658173de5f83"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-138-b3.py",
+    "sha256": "c8d86b4bead5481582c00d85eb93f0fb2824e57362af39d7489e39526602d75d"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-138-b3-before.json",
+    "sha256": "f8be0125d4365745d566c398ed64f63729fa4ee117bdb2fe56a49e3440958edd"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-marked-source-infsup",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "7da72a24866f02e927d6b6c47bd1707a700a33ec7978f53ced4c5d79f36be94c",
+      "mission_file": {
+        "path": "coordination/missions/round-138-b3/ordinary-marked-source-infsup.md",
+        "sha256": "5c5cd6d4c01189d0edbe555907f8c3125a57ea5738890ddbbe750bbd96f81a08"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r138-b3-api-01a1ed0a/ordinary-marked-source-infsup-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r138-b3-api-01a1ed0a/ordinary-marked-source-infsup-candidate.md",
+      "started_utc_epoch": 1795114405.5792232
+    }
+  ]
+}

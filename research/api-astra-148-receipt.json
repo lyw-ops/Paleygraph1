@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-148-inflight.json",
+    "sha256": "a05f239d72bcee260096e1571cdb8efc218187eabd1018a8be06a1a43cd5fd20"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-oriented-terminal-mask",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 20598,
+        "completion_tokens": 3512,
+        "total_tokens": 24110
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-oriented-terminal-mask-148.txt",
+        "sha256": "3a10fd78f9f1c3b4ae9e040beabeefd91c46ab8532242c327d250655e6da0576"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-pinned-repair-charge",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 24546,
+        "completion_tokens": 2992,
+        "total_tokens": 27538
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-pinned-repair-charge-148.txt",
+        "sha256": "0f87cbe7c87f6a27149e42b5bbe70e12c6ea264d6d86338062348e29c4d52f17"
+      }
+    },
+    {
+      "call_id": "cold-signed-picard-residual",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 12471,
+        "completion_tokens": 1904,
+        "total_tokens": 14375
+      },
+      "archive": {
+        "path": "research/api-astra-cold-signed-picard-residual-148.txt",
+        "sha256": "47eaa478d031723aeb8b6f65b759f3b7d26daaf1252b831f7afb2363dc8ce1f4"
+      }
+    }
+  ]
+}

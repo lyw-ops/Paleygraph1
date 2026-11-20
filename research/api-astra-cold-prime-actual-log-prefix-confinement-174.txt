@@ -1,0 +1,156 @@
+## Result
+
+I cannot certify the requested growing-prefix confinement from the supplied results. The correct status is **inconclusive, with a precise missing estimate**, not a refutation.
+
+The family remains the actual physical one:
+
+- eligible primes \(p\);
+- \(n=(p-1)/2\);
+- physical marked coordinate \(t_0=n\);
+- both lifts;
+- the original closed square \(Q\);
+- true rows \(V_h\) and the actual map \(F_t(W)=K\Phi_t(W)\).
+
+Set
+\[
+k_n=\left\lceil \frac47\log_2 n\right\rceil,\qquad
+R_h=V_{h+1}-V_h.
+\]
+The required statement is a uniform fixed-margin bound such as
+\[
+\sup_{0\le j\le k_n}\|V_{602+j}-V_{602}\|_\infty
+\le d-\eta
+\]
+for some \(d=0.025\) and \(\eta>0\), together with final clearance from the coordinate-disk boundary.
+
+### What is established
+
+At height \(602\), the supplied estimates give, uniformly on \(Q\) and on both lifts,
+
+\[
+\sup_i |V_{602,i}|<4.791,
+\qquad
+\sup_i|\Phi'_{t,i}(V_{602,i})|<0.518,
+\]
+and a coordinate disk of radius \(d=0.025\) on which the scalar derivative is bounded by
+\[
+q=0.525<1.
+\]
+
+They also establish genuine fixed-height information:
+
+1. the actual transitions through height \(602\) have counting-norm contraction below approximately \(0.267\) over the two steps from the height-\(600\) increment;
+2. the frozen height-\(602\) operator \(B_{602}=K D_{602}\) has
+   \[
+   \|B_{602}\|_{2\to2}<0.518;
+   \]
+3. its frozen entrywise powers satisfy a bound of the form
+   \[
+   \|(B_{602})^jK\|_{\max}
+   \ll \min\{n^{-1/2}(1.066)^j,\;0.518^j\};
+   \]
+4. consequently, for a **fixed** frozen kernel, the relevant entrywise resolvent sum is \(O(n^{-0.455})\).
+
+If the entire actual prefix were already known to stay in the disks, then the \(q\)-contraction would give
+\[
+\|R_{602+j}\|_{2,n}\le q^j\|R_{602}\|_{2,n},
+\]
+and, since
+\[
+q^{k_n}\sqrt n
+=
+n^{1/2+(4/7)\log_2 q}
+=o(1)
+\]
+because \(q^8<2^{-7}\), the tail after the cutoff would be harmless.
+
+### The remaining gap
+
+The missing quantity is not the frozen \(B_{602}\), but the actual varying secant transfer
+\[
+R_{h+1}
+=
+K\,D_h^{\mathrm{sec}}R_h,
+\qquad
+D_h^{\mathrm{sec}}
+=
+\int_0^1
+\operatorname{diag}
+\Phi_t'\!\left(V_{h-1}+sR_{h-1}\right)\,ds,
+\]
+for \(h=602,\ldots,601+k_n\).
+
+The available frozen estimates do not imply a bound for the products
+\[
+K D_{601+j}^{\mathrm{sec}}\cdots K D_{602}^{\mathrm{sec}},
+\]
+nor for their signed partial sums in coordinate supremum norm. In particular:
+
+- the estimates \(\|B_{602}^jK\|_{\max}=O(n^{-0.455})\) concern one fixed kernel, not the moving kernels \(D_h^{\mathrm{sec}}\);
+- the counting contraction alone gives only
+  \[
+  \|R_{602+j}\|_\infty
+  \le \sqrt n\,q^j\|R_{602}\|_{2,n},
+  \]
+  which is useless at the beginning of the prefix when the known bound on \(\|R_{602}\|_{2,n}\) is merely \(O(1)\);
+- the source-side prices \(<0.00008312\) and \(<0.00008861\) concern the first nonlinear source and one frozen transported step. They do not provide a uniform signed bound for the full varying-kernel orbit;
+- the criterion in the logarithmic finite-tube reference assumes precisely the desired confinement and final clearance. It therefore cannot serve as an independent proof of them.
+
+Thus no actual bound of the form
+\[
+\sup_{j\le k_n}\|V_{602+j}-V_{602}\|_\infty\le d-\eta
+\]
+has been verified for the original square, the physical \(t_0=n\), and both lifts.
+
+This is a **failure of the presently supplied sufficient estimates**, not evidence that the actual family exits the tube.
+
+## Ranked next tests
+
+### 1. Highest priority: a moving-kernel signed transfer estimate
+
+Prove, on the actual family and without assuming an invariant tube, a packet/character bound for the secant products
+\[
+T_j
+=
+K D_{601+j}^{\mathrm{sec}}\cdots K D_{602}^{\mathrm{sec}}
+\]
+through \(j=k_n\). A sufficient target would be a uniform estimate such as
+\[
+\|T_jR_{602}\|_\infty
+\le C\rho^j
+\quad(\rho<1),
+\]
+or, more flexibly,
+\[
+\left\|
+\sum_{\ell<j}T_\ell R_{602}
+\right\|_\infty
+\le d-\eta
+\]
+for every \(j\le k_n\), with the final residual satisfying
+\[
+\sqrt n\,\|T_{k_n}R_{602}\|_{2,n}=o(1).
+\]
+
+The proof must retain the actual signed character cancellations, the physical marked-coordinate correction \(4n+z^2\), both lifts, and uniformity on \(Q\). Replacing every moving kernel by an unsigned frozen majorant would not settle the question.
+
+### 2. Second priority: a bootstrap bridge from a short actual segment to the logarithmic cutoff
+
+First obtain a genuinely signed bound for an initial segment, for example
+\[
+\max_{0\le j\le J}
+\|V_{602+j}-V_{602}\|_\infty\le d-\eta_0
+\]
+with \(J\) growing with \(n\), not merely a fixed finite diagnostic. Then prove a perturbative comparison
+\[
+\|D_{601+j}^{\mathrm{sec}}-D_{602}\|_{\text{transfer}}
+\le \delta_j
+\]
+whose cumulative effect on the frozen products is summable:
+\[
+\sum_{j\le k_n}\delta_j=o(1).
+\]
+
+The frozen height-\(602\) entrywise estimate could then control the remainder, while the initial signed bridge supplies the missing coordinate margin. This test is weaker than a full direct moving-kernel theorem but still requires a quantitative, prime-uniform growing segment; a fixed-depth computation would not be sufficient.
+
+No files were modified.

@@ -1,0 +1,22 @@
+{
+  "captured_at_utc": "2026-11-20T02:07:29.603738Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-176.json#next_calls",
+  "coordinator_sha256": "76fd67c04cfc1e19c0fa72d2195ee6c5f6a1aae226e6106ca5f9ccf432d063c9",
+  "call_ids": [
+    "ordinary-prime-coupled-output-set-incidence"
+  ],
+  "routes": {
+    "r177/ordinary-prime-coupled-output-set-incidence": {
+      "question": "Can the true weighted distinct-pole block gain by using both input labels in an output-set incidence inequality?",
+      "scope": "For X=1/s use 1/A=1/r-(b/r)X and C=(A-r)/(1-r) together, or an equivalent exact chart. Keep both input factors and w(s) and both line weights with all original masks. Seek a joint level estimate on the physical distinct-b pairs. The common-b class remains separate.",
+      "remaining": "Obtain the sufficient O(p^3/2) full weighted bound by retaining both coupled physical inputs, or prove the sufficient one-match and separate zero-match bounds. The summed generic right energy and pure rows are still above target."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-coupled-output-set-incidence": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "Single retry of the output-set incidence mission after the original gateway connection returned a terminal TimeoutError without a draft. The previous manifest and receipt are retained. The same checked mission and source texts are retransmitted with a smaller reasoning budget."
+}

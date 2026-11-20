@@ -1,0 +1,61 @@
+{
+  "round": 168,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-167-acceptance.json",
+    "sha256": "73e5cf57f58bc571497bcb9a9826c445680aecdcb2d08f12c4376e1631c6284d"
+  },
+  "coordinator": {
+    "path": "coordination/round-167.json",
+    "sha256": "79dfb62eb779ab1d56c47ace80429e4b4f1e9d9ff1e30817e74628de89f90b88"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-168.py",
+    "sha256": "eb638ba5709d159aa14968956a434e3d02c677344d62b7ced095a780b97046fa"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-168-before.json",
+    "sha256": "1c865b46035800e907359b1f4cfed6dff5b37585264647f1b887228924ec20c2"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-one-match-Gauss",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "7c10c999b78ef662fa6be6c8976e9d8fd074078ea222b0d84e666f5a1a9189fb",
+      "mission_file": {
+        "path": "coordination/missions/round-168/ordinary-prime-one-match-Gauss.md",
+        "sha256": "0df44dabfa505ddd8711c027a4ed17b36f35635e4fdc4568bb9a2e5885d3428e"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r168-api-01a1ed0a/ordinary-prime-one-match-Gauss-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r168-api-01a1ed0a/ordinary-prime-one-match-Gauss-candidate.md",
+      "started_utc_epoch": 1795134393.786595
+    },
+    {
+      "call_id": "ordinary-prime-positive-support-quotient",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "6c500c65849e09cdb7d0feb815c25bf919eb1b204da58a513dc3e6f26790efed",
+      "mission_file": {
+        "path": "coordination/missions/round-168/ordinary-prime-positive-support-quotient.md",
+        "sha256": "5ce52b5de6003dd04fb914f55c66dcde0cadef522f4c5d3e1b3fd4ae805aa855"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r168-api-01a1ed0a/ordinary-prime-positive-support-quotient-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r168-api-01a1ed0a/ordinary-prime-positive-support-quotient-candidate.md",
+      "started_utc_epoch": 1795134393.7861829
+    },
+    {
+      "call_id": "cold-prime-all-order-shared-unit",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "49e726ac4ccc0a95c149558d9acad78ab3fb7461265c0d1d0d52fdadc8884b99",
+      "mission_file": {
+        "path": "coordination/missions/round-168/cold-prime-all-order-shared-unit.md",
+        "sha256": "75a3812f61958fe602d9fcdd022781791a8b16c16b4a83887697f8a23a4f993c"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r168-api-01a1ed0a/cold-prime-all-order-shared-unit-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r168-api-01a1ed0a/cold-prime-all-order-shared-unit-candidate.md",
+      "started_utc_epoch": 1795134393.785706
+    }
+  ]
+}

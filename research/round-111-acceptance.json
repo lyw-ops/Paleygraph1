@@ -1,0 +1,78 @@
+{
+  "round": 111,
+  "accepted_at_utc": "2026-11-19T13:35:23Z",
+  "previous": "research/round-110-acceptance.json",
+  "previous_sha256": "e2098121429c07e7e40913afe7a1e462fbca83c4f5f7fbb17a8f0db786fe764e",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-110.json",
+    "sha256": "8a43538dcbb991831ea84447b33925b26fcefb21ac0b6d1ecd9a764060c3e306"
+  },
+  "proof_and_code_sha256": {
+    "research/api-astra-overflow-111.txt": "a8b2ae666e89b54f3bd6682299ed65d7619a9d9ed571214662eb7fdabc6a9b6a",
+    "research/api-astra-111-receipt.json": "ee70fd4d0147ec2fb489b0b393207bc3892096c877d5cc33faa931665866edd7",
+    "research/api-astra-review-111.md": "e5a7576b88b0a98ff7f3188651cfab8890f64dff1d7d0721ea5c8a6032ce2a68",
+    "research/distinct-cubic-repair-111.md": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/parallel-arithmetic-2.md": "cc98e7e614ad423490bef236966b392e8eb6374eba02eab769c5eb7e0d9db337",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/repair-core-average-110.md": "3de69109361e6c23c6ac88ba07f31602342e6daf69fda6adbc28e551fd884637",
+    "research/repair-core-defect-balance-110.md": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591",
+    "research/api-astra-review-110.md": "1c19ff9200e5b11ab122a5d1760bd5fd5f442ef419729326be4759ff425b892e",
+    "research/square-order-control.md": "2946fe5f1a2b3bc614daef3e00ad38fb142e7b8bab25977b1d121ad191789b6b"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, signed distinct triple",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test the signed coherent differences observable on primes with genuine positive near-eigen weights.",
+        "Use repair-specific anti-coset information jointly with the actual exterior."
+      ]
+    },
+    {
+      "name": "/root/audit_111",
+      "status": "completed",
+      "ranked_closeout": [
+        "Regroup the actual weighted cubic by relative shifts and test prime-only cancellation at the square-root scale.",
+        "Separate the marked contribution and genuine bulk in the forced exterior defect pairing."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Isolate the actual marked contribution to the forced exterior pairing and derive a bulk condition that can be combined with the signed cubic obstruction.",
+    "Regroup the off-diagonal cubic by translation differences and test prime-specific arithmetic for the genuine distribution.",
+    "Continue the small real cap-rate and complex physical starter criteria where they yield an independent route to the ordinary target."
+  ],
+  "proof_scope": [
+    "Under the accepted fixed-floor critical cap-rate marked obstruction, the moving persistent core yields a genuine nonnegative source u at critical effective width, with bounded supremum and signed third Jacobi moment at least c p^(-1/2).",
+    "Using Katz Theorem 9.6 on the distinct twisted character pairs, all two-equal translated correlations have uniform bound O(p^(-1/2)). All collision terms together cost O(p^(-1)) in the genuine weighted average. The signed distinct-triple sum is at least c p^(-1/2) along the obstruction subsequence.",
+    "For q=r^2, the uniform static subfield-annihilator coset gives a distinct-triple average r^(-1)+O(r^(-2)). The translated control can be chosen even and mark-free. Its full-coset negativity is incompatible with a positive-mean opposite-sector row."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The generic pointwise Katz square-root bound allows the required cubic magnitude. The static square control precludes a field-uniform small-o estimate based solely on positivity and critical width even without collisions.",
+    "A prime-only weighted cubic estimate, with or without the further repair hypotheses, remains open. The returned draft gives no inverse statement for near-extremal weights.",
+    "The critical cap premise, the cold analytic domain and the original ordinary all-prime theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. The API receipt and raw output preserve transport metadata and the returned draft."
+  ],
+  "independent_review": [
+    "Read-only audit independently checked cubic closeness, positive third moment, the exact normalization, nonzero Gauss exponents for odd multiplicity, exceptional characters, collision masses, and the exact square-coset formulas. It rejected the necessity of repair structure for a logically possible prime-only estimate."
+  ]
+}

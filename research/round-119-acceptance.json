@@ -1,0 +1,80 @@
+{
+  "round": 119,
+  "accepted_at_utc": "2026-11-19T14:56:15Z",
+  "previous": "research/round-118-acceptance.json",
+  "previous_sha256": "30ceb37502c5d209b16dbdc54ec5ea54808b042da8588b8618e403b177546ea2",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-118.json",
+    "sha256": "f3b36c8670c607c83c922bcdb5180fb430e14e2a38252e6642dee502fb21959e"
+  },
+  "proof_and_code_sha256": {
+    "research/reflected-slack-repair-119.md": "6e6f566b87d31c4ea76ba223fab3f65a359c83eee78de0c9c0210a068a9fed25",
+    "research/api-astra-review-119.md": "74a07d8941bea2c87844641a0851d142f81e0ddc253be75bf852812004c3fb76",
+    "research/api-astra-119-receipt.json": "44bcb9a771bf9b291405ea4c83e86c1a202a55fed53afd514d0fc3afad7f8cc2",
+    "research/api-astra-overflow-119.txt": "cd7c9febea2bfcc01ac34ce09a00c80254eb939037b009cbc92050a6924bad54"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50",
+    "research/projected-cap-completion-108.md": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/cold-exact-exception-budget-118.md": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe",
+    "research/cold-newton-mark-transfer-115.md": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, weighted real slack",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Seek a bound on genuine high-weight receiver energy.",
+        "Retain the actual bounded source and actual local slack under the added cap rate."
+      ]
+    },
+    {
+      "name": "/root/audit_119",
+      "status": "completed",
+      "ranked_closeout": [
+        "Apply the one-repair reciprocal cubic to the actual paired source, preserving its transported mark.",
+        "Use the actual near-recurrent high recipient sets in a genuinely paired prime transport estimate."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Attack the actual reflected two-step transport with coincident high-factor levels and vanishing old slack, not an arbitrary square-root rectangle.",
+    "Test the paired source marked output and retain both exact reciprocal inputs in its full cubic.",
+    "Continue the independent rate-free weighted overshoot and common cold branch."
+  ],
+  "proof_scope": [
+    "The reflected map P|b| on the actual capped initial row remains in the exact opposite sector. Its first negative row is (S-m_0)_+, with the actual adjusted overshoot S. The exact dissipation separately charges negative signed transport, clipping and positive preceding slack. It holds without a cap rate. The finite-field orbit converges to a feasible row, with a separate sufficient asymptotic stop condition in the displayed mean and marked budgets.",
+    "Under the fixed-floor critical cap-rate matching marked obstruction, four adjacent tiny energy losses can be chosen on one actual reflected orbit. Two successive negative rows have critical normalized masses, bounded amplitudes and two-step return error O(n^(-1/2)). The signed operator sends each to the next with that error. Each directional transport retains order sqrt(n) true high favored recipients with vanishing old slack. The sources remain the full actual rows.",
+    "A common fixed-scale threshold has two-step high-set symmetric difference O(n^(1/4)). The positive two-row sum satisfies the deterministic conditions of the true single-repair reciprocal cubic. Its full signed distinct cubic has order n^(-1) positive lower conditional on its actual transported mark tending to zero."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw API uses the wrong size identity and applies the bulk activation bound at the marked coordinate. The correct global sector bound fixes the scale; the resulting normalized Cauchy–Schwarz is still order one at the critical rate and gives no coexistence example or prime saving.",
+    "The reflected stop condition and the true paired transport exclusion remain open through primes. A fixed-field convergent repair may spend an order-one mean budget.",
+    "The rate-free true weighted overshoot, common marked cold domain, and ordinary all-prime theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. Raw API draft and transport receipt are preserved separately from ordinary deductions."
+  ],
+  "independent_review": [
+    "Independently checked the exact reflected update, all dissipation terms, mark and stopping budgets, adjacent losses and genuine receiver pruning. The audit also derived the common-threshold count and the paired cubic input conditions and found the two API normalization errors."
+  ]
+}

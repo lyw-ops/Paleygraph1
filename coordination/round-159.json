@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "round": 159,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 159 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-158-acceptance.json",
+      "sha256": "865072372bb37167a856dc0acc338556512d3ef9e868d8f71a86559fe1b974fd"
+    },
+    "current": {
+      "path": "research/round-159-acceptance.json",
+      "sha256": "1fda276a1540f303df5d1fff1c1be5f6695aa5e943eab6e7d778f31055317190"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "Near-unit exclusion was qualitative and all true regular lift terms were carried.",
+      "after": "Fourth coset moment plus weighted weak norm gives a sixth-power quantitative counting bound, a moderate two-layer constraint and an actual high-power filtered sum estimate. One full regular lift suffices, with exact four-ratio law.",
+      "remaining": "Control the remaining low-to-middle and aggregate weighted contributions at O(p). Generic replacement by a smoothed or uniform law is rigorously obstructed.",
+      "evidence": [
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-prime-near-unit-slope-spread-158.md",
+          "sha256": "b33e6a378645985957c1cec86ff7bd54f0bd578a04f32439547e65faa6179f40"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-single-lift-ratio-law-159.md",
+          "sha256": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0"
+        },
+        {
+          "path": "research/ordinary-five-root-clean-locus-158.md",
+          "sha256": "5140f82b5346b43ea8f240bb14067f135831aaad62580fbd9e61a99c92aa9f6a"
+        },
+        {
+          "path": "research/ordinary-five-root-trivial-slices-157.md",
+          "sha256": "cde7be53870aa40114aaa0a89699e8aa9117e07e67a0ab27ed7cb237fc51996e"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "W-only pooling was obstructed within fixed H envelopes and old A601 comparison.",
+      "after": "The genuine F4 squared and G squared arithmetic scalar terms merge against a common retained J term. The original translated positive upper is 0.66348896.",
+      "remaining": "A substantially signed two-vertex saving, shared higher true center relations or another nonlinear invariant are necessary. The actual full contraction remains open.",
+      "evidence": [
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/astra-rankfour-57.md",
+          "sha256": "cc023b623511b254e20691b12067692783b0a95d26453c515ba8ca0e5c2e2c78"
+        },
+        {
+          "path": "research/astra-ranknext-58.md",
+          "sha256": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The ordinary-prime amplitude estimate now has a uniform quantitative modulus and a genuine filtered original-sum consequence. One exact rank-two lift and the actual four-ratio law identify the missing estimate. Genuine H units yield a small certified debit; stronger cold confinement remains open.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-moderate-layer-incidence",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can one control a nontrivial low-to-middle amplitude slice of the original marked favorable physical sum?",
+      "why_now": "The high-power smooth filtered piece is controlled but the actual unfiltered joint sum is open. The two-threshold cross-difference property gives a new structural handle.",
+      "scope": "Retain four original dependent reflected factors, actual real prime sign and true slopes. Use the same quantitative actual pin and near-critical error. Track if an estimate uses the slope or one of the four physical arguments.",
+      "if_yes": "Prove an O(p) bound on a specified growing middle-amplitude slice, or a sufficient upper on the matched phase arc.",
+      "if_no": "Exhibit a rigorous obstruction to a specific slicing or incidence method with the true scope.",
+      "if_inconclusive": "Give a rigorous weighted decomposition or prime-only improvement linking the new two-layer constraint to one part of the original geometry.",
+      "inputs": [
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-prime-near-unit-slope-spread-158.md",
+          "sha256": "b33e6a378645985957c1cec86ff7bd54f0bd578a04f32439547e65faa6179f40"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-single-lift-trace-correlation",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can exact Fourier and overlap identities of the four-ratio law yield cancellation against the single clean trace?",
+      "why_now": "All lifts now reduce to one signed regular bound. The law is far from uniform and from its smoothed versions, so a genuine transfer must be trace-specific.",
+      "scope": "Use the true five draws, one pointwise clean rank-two lift with all exclusions at O(p), and the exact four-variable pushforward. Do not replace the actual underlying law by independent ratio marginals.",
+      "if_yes": "Prove the needed p^-1/2 normalized signed real estimate or a new O(p) sub-block.",
+      "if_no": "Prove an exact failure of a specific transform, overlap, or conditional Cauchy route.",
+      "if_inconclusive": "Derive a usable trace correlation or spectral decomposition that retains the correct overlap weights and normalization.",
+      "inputs": [
+        {
+          "path": "research/ordinary-single-lift-ratio-law-159.md",
+          "sha256": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0"
+        },
+        {
+          "path": "research/ordinary-five-root-clean-locus-158.md",
+          "sha256": "5140f82b5346b43ea8f240bb14067f135831aaad62580fbd9e61a99c92aa9f6a"
+        },
+        {
+          "path": "research/ordinary-five-root-trivial-slices-157.md",
+          "sha256": "cde7be53870aa40114aaa0a89699e8aa9117e07e67a0ab27ed7cb237fc51996e"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        }
+      ]
+    },
+    {
+      "id": "cold-cross-vertex-fixed-H-field",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can an actual shared F4 or G field give a real cross-vertex signed gain after the physical K transport at both heights?",
+      "why_now": "The new genuine scalar units give a small local debit and leave the quantitative cold gap. The actual heights share fixed centers but need distinct Picard residual controls.",
+      "scope": "Use original complex square, both lifts and t0=n. Track an exact common arithmetic label after the two transports with the actual coefficients; price the actual height difference or residuals on their stipulated classes.",
+      "if_yes": "Prove a materially stronger true signed two-height contraction or a quantitatively complete alternative invariant.",
+      "if_no": "Prove noncoincidence or an obstruction in a concrete true cross-vertex family, not only formal independence.",
+      "if_inconclusive": "Derive one nontrivial true signed common field with an explicit remaining complement.",
+      "inputs": [
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/astra-rankfour-57.md",
+          "sha256": "cc023b623511b254e20691b12067692783b0a95d26453c515ba8ca0e5c2e2c78"
+        },
+        {
+          "path": "research/astra-ranknext-58.md",
+          "sha256": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 160 deductions survive independent review?",
+      "why_now": "The prime true-weight geometry and actual cold two-height labels require independent normalization checks.",
+      "scope": "Read-only. Keep the actual prime branch, real masks, both cold lifts and exact order of limits. Rank two follow-ups.",
+      "if_yes": "State verified proof scope.",
+      "if_no": "Locate the invalid step.",
+      "if_inconclusive": "Separate available deductions from open estimates.",
+      "inputs": [
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-prime-near-unit-slope-spread-158.md",
+          "sha256": "b33e6a378645985957c1cec86ff7bd54f0bd578a04f32439547e65faa6179f40"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-single-lift-ratio-law-159.md",
+          "sha256": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0"
+        },
+        {
+          "path": "research/ordinary-five-root-clean-locus-158.md",
+          "sha256": "5140f82b5346b43ea8f240bb14067f135831aaad62580fbd9e61a99c92aa9f6a"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

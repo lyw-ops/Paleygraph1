@@ -1,0 +1,61 @@
+{
+  "round": 145,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-144-acceptance.json",
+    "sha256": "535511b40cc4d5cd786c6bd8dd8bd24603e17b9cb88cac69cfc6544a351cd1b4"
+  },
+  "coordinator": {
+    "path": "coordination/round-144.json",
+    "sha256": "fa29fe3b7092c68b6ca98e7391ed6a1b33ea3c89734eab068cacdfa22b358e20"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-145.py",
+    "sha256": "62ecbc9c351c032b4d701990619ab2ecbf82e4ad2cc78cb1d3096a2fcd235406"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-145-before.json",
+    "sha256": "aabeb658308a20f3df04d540211bf5ef84a2a30c4779db3d11a37a04e34dafc9"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-terminal-signed-clipping",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "4d4e80e850da2e7494bec72563820a390b078cd09c45659062f4215d21db2830",
+      "mission_file": {
+        "path": "coordination/missions/round-145/ordinary-terminal-signed-clipping.md",
+        "sha256": "2098b8070de4657674c63a97377e0d54e40ca5b6218b999b5343c2377d4bda2d"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r145-api-01a1ed0a/ordinary-terminal-signed-clipping-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r145-api-01a1ed0a/ordinary-terminal-signed-clipping-candidate.md",
+      "started_utc_epoch": 1795119191.4971142
+    },
+    {
+      "call_id": "ordinary-terminal-approx-sector",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "222e8c5e99a330824a2a1c09ff193d2a6d0d58d3debff3e22d6393dc5748cbd0",
+      "mission_file": {
+        "path": "coordination/missions/round-145/ordinary-terminal-approx-sector.md",
+        "sha256": "4ae91de2558e71c2bfee66e6a862f9945fda81450d015432a9840755fe252c69"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r145-api-01a1ed0a/ordinary-terminal-approx-sector-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r145-api-01a1ed0a/ordinary-terminal-approx-sector-candidate.md",
+      "started_utc_epoch": 1795119191.497521
+    },
+    {
+      "call_id": "cold-full-selected-unshifted-price",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "6192a959c176178ee977f710b09749c7578d8b5a29cca99df8d938932735e604",
+      "mission_file": {
+        "path": "coordination/missions/round-145/cold-full-selected-unshifted-price.md",
+        "sha256": "24a09ad646606e6776698d90302ea37fa7ce81ed220e9f7576cdfe95bbe15f53"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r145-api-01a1ed0a/cold-full-selected-unshifted-price-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r145-api-01a1ed0a/cold-full-selected-unshifted-price-candidate.md",
+      "started_utc_epoch": 1795119191.498084
+    }
+  ]
+}

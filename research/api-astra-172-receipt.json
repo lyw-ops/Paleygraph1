@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-172-inflight.json",
+    "sha256": "c7e874dfe7e29b851f9c15119c82b8ee506a1e572b864d84cd9558aa5749ecbd"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-weighted-affine-action",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 13463,
+        "completion_tokens": 10641,
+        "total_tokens": 24104
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-weighted-affine-action-172.txt",
+        "sha256": "9b6d9f1f405d9bf751409b547e9b77b8f6de0202aa6f14f4073fd986c03c0848"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-full-slope-diagonal",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 13466,
+        "completion_tokens": 3567,
+        "total_tokens": 17033
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-full-slope-diagonal-172.txt",
+        "sha256": "e6494f3ab165d9eb1df83a8b6af81aa15c26f2aa5a9c3c7db010dcd11231dbcd"
+      }
+    },
+    {
+      "call_id": "cold-prime-shared-two-remainder-response",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 11723,
+        "completion_tokens": 3216,
+        "total_tokens": 14939
+      },
+      "archive": {
+        "path": "research/api-astra-cold-prime-shared-two-remainder-response-172.txt",
+        "sha256": "01b3a5368f6a988332e3009944e1e2a7c2b4a4aaae7cb08733e3a81aef7f4ce1"
+      }
+    }
+  ]
+}

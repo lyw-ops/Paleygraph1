@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "round": 106,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 106 review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-105-acceptance.json",
+      "sha256": "415c6e7c28d729793d0930908e91aba0413a78c1dfd611f4f2c584e2c023c366"
+    },
+    "current": {
+      "path": "research/round-106-acceptance.json",
+      "sha256": "6d9075b0323639cfcd7981e472999af1ae0e4c0aae46b54f559f5440f03d3275"
+    }
+  },
+  "changes": [
+    {
+      "id": "aligned-stationary-high-set",
+      "route": "Real cap obstruction within one actual stationary sign",
+      "effect": "weakened",
+      "before": "Critical cap defect and nonvanishing mark gave a true overflow-to-high-source rectangle. The signed overlap via Gram needed extra smallness.",
+      "after": "Direct signed localization puts both sides in the actual high source, one side aligned with real U and Y. The aligned sector also gives a nonnegative Rayleigh test at least 1-C eta-o(1).",
+      "remaining": "Prove the critical real cap rate, then a sufficient prime-specific arithmetic gap on this actual structure.",
+      "evidence": [
+        {
+          "path": "research/overlapping-overflow-106.md",
+          "sha256": "bc417b0612d23d9feac62f1b502e348658f252cc4782e65419ce746fbee1b232"
+        },
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        },
+        {
+          "path": "research/cap-overflow-rectangle-104.md",
+          "sha256": "06cdc9aa345343dd2715cd0e5b3aefcb6a2aa7e276450cf6e672f41720b9ef9d"
+        }
+      ]
+    },
+    {
+      "id": "independent-starter-resources",
+      "route": "Growing physical complex starter",
+      "effect": "weakened",
+      "before": "The signed frozen transfer allowed exponential partial packet growth with a bounded bad-character union.",
+      "after": "The exact bad-character budget tolerates O(sqrt(p)) losses with the original exponent and O(p^theta), theta<1, with explicit weakened exponent. Picard, single-column and two-column cutoffs are separated.",
+      "remaining": "At one genuine growing starter control physical residual, translated columns, derivative dimension and bad characters simultaneously, plus a usable angular gap.",
+      "evidence": [
+        {
+          "path": "research/api-astra-review-106.md",
+          "sha256": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        }
+      ]
+    },
+    {
+      "id": "terminal-velocity-carry",
+      "route": "Actual terminal law on the filtered recurrent list",
+      "effect": "unchanged",
+      "before": "Independent true terminal and predecessor prices appear at root A/J with the original triangular bound.",
+      "after": "This round changes neither actual price estimate.",
+      "remaining": "A genuine one-sided trial or direct price dual and the independent triangular and escaped obligations remain.",
+      "evidence": [
+        {
+          "path": "research/round-105-acceptance.json",
+          "sha256": "415c6e7c28d729793d0930908e91aba0413a78c1dfd611f4f2c584e2c023c366"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The true high-set localization shrinks the arithmetic obstruction and the growing-starter resource test now permits more exceptional characters. Neither of the needed prime-uniform estimates has been proved.",
+  "next_calls": [
+    {
+      "id": "one-sign-rayleigh-gap",
+      "priority": 1,
+      "change_id": "aligned-stationary-high-set",
+      "question": "Can actual reciprocal stationary factors and aligned capped overflow force a prime-specific gap beyond C eta on the one-sign Rayleigh test?",
+      "why_now": "The high-source test is now positive with a single physical sign and a critical aligned subset, so generic sparse-matrix bounds are no longer the only available inputs.",
+      "scope": "Keep eta small and fixed before the prime limit, cap rate conditional, and use K as the frequency-space Jacobi convolution. Compare against known failures for prescribed weighted critical sets. Retain actual aligned overflow and stationary complementarity.",
+      "if_yes": "State the resulting real mark scope and whether the separate cap rate is still required.",
+      "if_no": "Identify an admissible actual counterexample or the exact missing nonlinear/arithmetic condition of a specified method.",
+      "if_inconclusive": "Prove a quantitative new consequence of both actual equations, or a sharper sufficient prime-specific restricted estimate.",
+      "inputs": [
+        {
+          "path": "research/overlapping-overflow-106.md",
+          "sha256": "bc417b0612d23d9feac62f1b502e348658f252cc4782e65419ce746fbee1b232"
+        },
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        },
+        {
+          "path": "research/cap-overflow-rectangle-104.md",
+          "sha256": "06cdc9aa345343dd2715cd0e5b3aefcb6a2aa7e276450cf6e672f41720b9ef9d"
+        }
+      ]
+    },
+    {
+      "id": "critical-cap-rate",
+      "priority": 2,
+      "change_id": "aligned-stationary-high-set",
+      "question": "Can the actual bounded contractive capped flow deliver alpha=O(n^(-1/2)) on a fixed interval or a sequence of real floors?",
+      "why_now": "The high stationary Rayleigh test consumes this rate; the mean squared norm identity in the cap compares the actual activation mean to the uncapped target.",
+      "scope": "Keep the field-first limit and separate real diameter conclusions from complex angular claims.",
+      "if_yes": "Specify the real floors and remaining arithmetic obstruction.",
+      "if_no": "Give a true lower deficit or identify failure of a specific sufficient control.",
+      "if_inconclusive": "Derive a sharper checkable pre-exit or nonlinear estimate of the activation mean.",
+      "inputs": [
+        {
+          "path": "research/overlapping-overflow-106.md",
+          "sha256": "bc417b0612d23d9feac62f1b502e348658f252cc4782e65419ce746fbee1b232"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        }
+      ]
+    },
+    {
+      "id": "moving-signed-resources",
+      "priority": 3,
+      "change_id": "independent-starter-resources",
+      "question": "Can the physical residual and translated column resources be compatible at one actual moving row with independent rates?",
+      "why_now": "A larger exceptional budget can now be priced, while the packet rate does not have to contract for the column truncation.",
+      "scope": "Use genuine nine-center physical rows and the original square. Separate actual Picard depth, both column lengths, and counted norms. Do not infer necessity from a residual upper bound.",
+      "if_yes": "Derive the stationary existence or angular statement at the precise verified scope.",
+      "if_no": "Give the first rigorous obstruction to a specified moving construction.",
+      "if_inconclusive": "Give one new uniform signed or counted estimate on the actual inputs.",
+      "inputs": [
+        {
+          "path": "research/api-astra-review-106.md",
+          "sha256": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "aligned-stationary-high-set",
+      "question": "Which Round 107 claims hold in the stated prime-uniform or finite scope?",
+      "why_now": "Independent read-only verification before acceptance.",
+      "scope": "Check actual versus prescribed inputs, fixed eta and all limit orders, and count versus normalized quantities. Gather one or two ranked next tests.",
+      "if_yes": "State what was verified.",
+      "if_no": "Identify the first substantive unsupported step.",
+      "if_inconclusive": "State the precise checked portion.",
+      "inputs": [
+        {
+          "path": "research/overlapping-overflow-106.md",
+          "sha256": "bc417b0612d23d9feac62f1b502e348658f252cc4782e65419ce746fbee1b232"
+        },
+        {
+          "path": "research/api-astra-review-106.md",
+          "sha256": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad"
+        }
+      ]
+    }
+  ]
+}

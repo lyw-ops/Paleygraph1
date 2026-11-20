@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "round": 113,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 113 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-112-acceptance.json",
+      "sha256": "d6bf50f7b176b40b4405d7b3b0d8eaec6f6132263eac6f539d04f20f3746801d"
+    },
+    "current": {
+      "path": "research/round-113-acceptance.json",
+      "sha256": "ed8b2247eafffbf724f9aaffdc8b22cc277d0638fc24090b9d6a5297c769edc5"
+    }
+  },
+  "changes": [
+    {
+      "id": "reciprocal-mixed",
+      "route": "Genuine reciprocal mixed moments",
+      "effect": "reformulated",
+      "before": "The genuine favored and opposite mixed cubics had different scales; squared repair transport was localized on actual high sites.",
+      "after": "The exact reciprocal pair gives polynomial mixed identities with collisions below n^(-1). A strict sparse favored-mass cap gives a signed quartic versus modified degree-six lower.",
+      "remaining": "Separate the potentially critical opposite-factor input mark, then prove the two one-sided prime-consistent estimates at n^(-1) using the genuine paired laws.",
+      "evidence": [
+        {
+          "path": "research/reciprocal-repair-moments-113.md",
+          "sha256": "33483032709f14b6802b353111ff180ad41cf37ad4e0c55012d921dd276715c9"
+        },
+        {
+          "path": "research/api-astra-review-113.md",
+          "sha256": "21af676714a74d6c1e6aef7c506a32de4d40fce56a6bb1230dbd749519ae78ed"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "cap",
+      "route": "Actual real cap or slack",
+      "effect": "unchanged",
+      "before": "The small cap coefficient or actual slack remains independently sufficient.",
+      "after": "The reciprocal argument assumes the fixed-floor critical cap-rate marked obstruction.",
+      "remaining": "Prove the actual coefficient or independent adjusted overshoot through primes.",
+      "evidence": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common cold complex domain",
+      "effect": "unchanged",
+      "before": "The common true complex branch still needs a compatible growing-depth estimate.",
+      "after": "The reciprocal mixed test concerns the actual real positive repair at fixed floor.",
+      "remaining": "Establish common cold continuation and the precise prime-to-floor limiting argument.",
+      "evidence": [
+        {
+          "path": "research/round-112-acceptance.json",
+          "sha256": "d6bf50f7b176b40b4405d7b3b0d8eaec6f6132263eac6f539d04f20f3746801d"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The genuine reciprocal product and opposite mark force a signed necessary test at order n^(-1), now with smaller collision error. The arithmetic of the distinct tuples, including the opposite-factor input mark, remains open.",
+  "next_calls": [
+    {
+      "id": "opposite-input-mark",
+      "priority": 1,
+      "change_id": "reciprocal-mixed",
+      "question": "Can the true opposite-factor input mark be isolated and controlled at the n^(-1) scale in the two signed reciprocal moments?",
+      "why_now": "The output mark disappears from P_A, while the opposite input mark may still pay a critical share.",
+      "scope": "Use the actual late source, both true stationary factors, and multiplicative-frequency Jacobi operator. Separate input and output marks. Prove the off-mark collision error at the n^(-1) scale. Seek a prime-uniform one-sided bound or a precise anchored alternative.",
+      "if_yes": "State the exact new through-primes estimate and the eliminated branch.",
+      "if_no": "Give an exact surviving obstruction without substituting a square model for a prime trajectory.",
+      "if_inconclusive": "Return a checked anchored identity, sign and normalization with the remaining arithmetic isolated.",
+      "inputs": [
+        {
+          "path": "research/reciprocal-repair-moments-113.md",
+          "sha256": "33483032709f14b6802b353111ff180ad41cf37ad4e0c55012d921dd276715c9"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/api-astra-review-113.md",
+          "sha256": "21af676714a74d6c1e6aef7c506a32de4d40fce56a6bb1230dbd749519ae78ed"
+        }
+      ]
+    },
+    {
+      "id": "unmarked-reciprocal-arithmetic",
+      "priority": 2,
+      "change_id": "reciprocal-mixed",
+      "question": "Can both one-sided bounds for the actual unmarked reciprocal mixed moments be improved to o(n^(-1)) through primes?",
+      "why_now": "Signed collision deletion leaves a specific arithmetic sum beyond entrywise Katz.",
+      "scope": "Preserve the two exact reciprocal factor laws and the late repair source jointly. Keep the distinct degree-four to degree-six terms. Treat any numerical study as a diagnostic.",
+      "if_yes": "Give the prime bound on the relevant signs and its fixed-floor consequence.",
+      "if_no": "Give scope and arithmetic for the obstruction to the proposed estimate.",
+      "if_inconclusive": "Reduce the actual tuple averages to a prime-sensitive explicit expression.",
+      "inputs": [
+        {
+          "path": "research/reciprocal-repair-moments-113.md",
+          "sha256": "33483032709f14b6802b353111ff180ad41cf37ad4e0c55012d921dd276715c9"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "critical-cap-rate",
+      "priority": 3,
+      "change_id": "cap",
+      "question": "Does the true real capped map meet the chosen small coefficient or actual slack bound?",
+      "why_now": "This is independent of the latest reciprocal-moment estimate.",
+      "scope": "Keep both signs and fixed floor before the prime limit.",
+      "if_yes": "Give exact uniform constants and floors.",
+      "if_no": "Locate the first unavailable estimate.",
+      "if_inconclusive": "Derive a new bound on the actual cap defect or slack.",
+      "inputs": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "reciprocal-mixed",
+      "question": "Which new anchored and unmarked mixed statements survive read-only independent checking?",
+      "why_now": "The two marks are distinct and the refined collision error is essential.",
+      "scope": "Check signed normalized formulas, conditional hypotheses, collision intersections and prime-uniformity.",
+      "if_yes": "Report the exact checked scope and ranked next tests.",
+      "if_no": "Name the first invalid claim and the effect on the remaining route.",
+      "if_inconclusive": "Specify the verified and unverified portions.",
+      "inputs": [
+        {
+          "path": "research/reciprocal-repair-moments-113.md",
+          "sha256": "33483032709f14b6802b353111ff180ad41cf37ad4e0c55012d921dd276715c9"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        }
+      ]
+    }
+  ]
+}
