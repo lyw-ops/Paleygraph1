@@ -51,3 +51,21 @@
 - 研究会话上下文到 40% 且空闲时：监视器会把它放进 `retireQueue`，由你开新会话接手。
 - Claude 额度：5 小时窗口 ≥90%，或者每周 ≥80% 时，放慢派工。
 - GPT 网关：`PALEY_GATEWAY_API_KEY` 目前没有设置，Codex 的每周额度也快用完了，默认只用 Claude 会话。
+
+## 第 1 代的经验（2026-11-21 补充）
+
+- **开会话的限制**：只有在用户自己的回合，或紧接其后的会话结束事件回合里，才能开新会话。一旦插进来一条 peer 消息（例如监视器），链条就断了，应用会拒绝开会话。
+  - 这时改用后台 subagent（Agent 工具，general-purpose，run_in_background）跑研究和审计。brief 和文件规则不变。
+  - inflight 记录里把 session_id 写成 "subagent of <主脑 id>"。
+  - subagent 挂在主脑身上：换代后先检查报告文件末尾有没有 Verdict，不完整就重派。
+- **Fable**：在 start_session 的 model 参数里写 Fable 不会生效，所以只用默认的 Opus。
+- **round_review**：
+  - next_calls 的 inputs 只能引用已经被某份验收记录绑定的文件。
+  - shared_candidates 每个 ID 至少要对应两个 call；只有一个 call 时，把 cand: ID 写进 question 或 decision_reason。
+  - decision 只能是 continue（必须带 call）或 hold（不能带 call）。
+- **capture**：如果在协调记录还没有 ready 时误跑了 capture，又还没有派工，可以删掉 before 文件后重新 capture。派工之后不能这样做。
+- **审计员的战略评估很有价值**：遇到方法上限时，先查文献、盘点义务地图，不要在同一个估计上反复撞墙。
+
+## 当前状态入口
+
+最新状态写在 `coordination/brain/HANDOFF.md`。截至 Round 191，decision 为 hold：研究暂停，等用户决定下一步。用户回来前不要派新任务。

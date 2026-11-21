@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Blind overlap review by the independent audit (session/r191-audit, a background Claude subagent of the generation-1 brain session), written before it opened any shared-obligation, draft or inflight file (research/native-claude-audit-191.md); classification against the pre-dispatch record by the Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment).",
+  "comparison": "Auditor's blind answer: no estimate was proved twice across the three Round 191 reports. The assembly and first-mass reports assess the same target, M_w (and through it the slope-complete first masses M_sqrt(g) and X under cand:slope-row-mass-x), from opposite sides: the assembly report shows M_w does not discharge the slope part of (A) while X or M_sqrt(g) does, and the first-mass report shows the geometric-progression wall binds M_w; the audit computes that the same wall binds M_sqrt(g) and X by monotonicity. The pre-dispatch record said the assembly call shared no estimate with either; the audit classifies this as a touch on the same target, not a shared estimate proved twice, with no dispatch effect. The first-mass and literature reports touch cand:gp-shifted-energy and cand:gp-sector-constancy in use only. No overlap group.",
+  "groups": [],
+  "dispatch": "coordination/round-191-inflight.json",
+  "launched_at_utc": "2026-11-21T01:13:57.536414Z",
+  "launched_calls": [
+    "ordinary-fixed-block-assembly",
+    "ordinary-first-mass-sector-obstruction",
+    "ordinary-gp-sector-constancy-literature"
+  ],
+  "before_sha256": "060ea6cebede21bcbff94feb064faaa469f33933f32f178bd5af8d09f2cf4a00"
+}

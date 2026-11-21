@@ -1,0 +1,11 @@
+{
+  "reviewed_by": "Blind overlap review by the independent audit (session/r192-audit, a background Claude subagent of the generation-1 brain session), written before it opened any shared-obligation, draft or inflight file (research/native-claude-audit-192.md); classification against the pre-dispatch record by the Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment).",
+  "comparison": "Single-call batch. Auditor's blind answer: the report references cand:gp-sector-constancy and cand:slope-row-mass-x only in passing (Lemma J concerns complete subgroups larger than sqrt p, settled by Jacobi/Weil sums; the X floor is listed in Lemma S, no bound on X used or changed) and does not touch cand:gp-shifted-energy; Lemma J, a <= 1/2 and the m ~ 2 square control repeat accepted Round 191 statements. No earlier call was active. This agrees with the pre-dispatch record. No overlap group.",
+  "groups": [],
+  "dispatch": "coordination/round-192-inflight.json",
+  "launched_at_utc": "2026-11-21T03:36:49.257488Z",
+  "launched_calls": [
+    "ordinary-nc-vertex-tightness"
+  ],
+  "before_sha256": "6e0725f162cfeeb54fd4c7981455857c4057e0520d860d23678c77bd52f7c12b"
+}

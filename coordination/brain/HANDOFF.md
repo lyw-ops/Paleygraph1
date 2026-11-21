@@ -1,42 +1,50 @@
 # Paley 主脑交接
 
-更新时间：2026-11-20，由第 1 代主脑写（会话 `local_3a29365e-04c0-4966-84ec-7968199c2fe8`，标题"研究任务分配与框架应用"）。
+> **当前主脑：第 2 代 `local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23`，2026-11-21 12:24 CST 接手。** 接手时：`round_review.py check --current` 通过（Round 192 记录 ready，decision hold，0 个调用）；paley-root.json 为 generation 2，指向本会话；没有在跑的会话或 subagent。研究暂停，等用户决定。
+> 注：下面"协调记录"一行仍是 R190 时的文字。当前协调记录是 `coordination/round-192.json`（ready，hold，无调用），checkpoint 是 `coordination/checkpoints/round-192.md`。
+
+更新时间：2026-11-21。第 1 代主脑完成 R192 收尾后，交棒给第 2 代 `local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23`。
 
 ## 当前状态
 
-- **最新验收**：`research/round-182-acceptance.json`，属于 agent 验收，经过独立审计。
-- **协调记录**：`coordination/round-182.json`，状态 ready，提出 3 个调用。
-- **checkpoint**：`coordination/checkpoints/round-182.md`
-- **Round 181**：只作证据。原稿随 scratchpad 一起丢失，其中被 182 用到的结论都已在 182 里重新证明。
-- **Round 182**：
-  - 新证明：Lemma SE，E^×(1−B) ≪ K^{2/3}N^{8/3}，用到 Stevens–de Zeeuw 的 Theorem 4。
-  - 新证明：E^×(h)=O(p^{34/23})。
-  - 主要指数没有变：one-match 仍是 115/64，M_w 仍是 11/8，cold 的 rate 仍是 1.066。
-  - 判据的变化：one-match 的判据收窄为删去行之后的 b1″；cold 需要 Γ_{k_n} 关于 n 一致有界。
-- **共享义务**：181 和 182 都没有发现重叠组；182 的派工后审查是盲审。
+- **最新验收**：`research/round-192-acceptance.json`（decision: **hold**）。前两轮是 R191 和 R190。这是 agent 验收：独立审计由 subagent 完成，验收是在用户睡觉时按"自动推进"的指示做的，还没有人审。
+- **协调记录**：`coordination/round-190.json`，状态 ready，提出 3 个调用。checkpoint 是 `coordination/checkpoints/round-190.md`。
+- **R183–R190 一夜的进展**（全部是 agent 验收，都在等人审）：
+  - **one-match 指数**：115/64 → 1193/664（R185）→ 2125/1184（R186）→ **43/24**（R187，BSG-free 的 Lemma M′）。R188 的 Theorem A 把方法地板从 7/4 降到 3/2。
+  - **X 和 M_w**：都降到 p^{4/3+o(1)}（R187）。
+  - **R189**：只用 admissible 假设、又想低于 7/4 的论证，需要 shifted 几何级数能量的估计（`cand:gp-shifted-energy`）。
+  - **R190 文献**：MPRRS Theorem 37 给出 |I|^{32/13}，所以这道阻碍降到 p^{16/13}（one-match 45/26）。
+  - **R190 盘点**：one-match O(p^{3/2}) 不是必需的。M_w=O(p)（不带 log）就能封住每个 fixed moderate block。但从 fixed block 拼回完整目标会丢幂次，这是新义务 **(A) assembly**。
+  - **R190 结构**：(NC) 只能靠 sector 条件起作用，归结为 (GP-Sub)（`cand:gp-sector-constancy`）。
+  - **cold**：
+    - R185：按单个 simple 定价的路线在模型层面退役。
+    - R186：Theorem N，只看 size 的 hybrid 价格行不通。
+    - R187–R189：Criterion D 被有条件否定；按单个 simple 定价，在 Picard 表示层面被否定。
+    - **cold 派工已暂停**，因为还没有带符号机制的具体抓手。
+  - **人审建议**：先读 Lemma M′（R187，一页）和 Theorem A（R188）。
+- **共享义务**：累计漏判率 2/4（R183、R184 各漏一次），R185–R190## 正在运行的工作
 
-## 正在运行的会话
+**无。所有线路都处于 hold 状态。** Round 192 已收尾，详见 `research/round-192-acceptance.json` 和 `coordination/round-192.json`。
+- R192 的结论是 inconclusive，经审计接受。
+  - 从不依赖 sector 的 (NC) 推论出发，推不出 (V)。
+  - 在 (SS*) 成立的前提下，(V) 达到目标深度：证出 (V) 本身就足以封住 critical branch。
+  - (A-vertex) 和 (SS*) 都已记为内部公开问题。
+- **ordinary 线**：(A-slope) 卡在两个外部几何级数问题后面；(A-vertex) 达到目标深度。
+- **cold 线**：从 R189 起暂停。
 
-无。Round 182 的研究会话和审计会话都已结束，可以归档：
+**主脑**：第 2 代 `local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23`，已收到第 1 代的"接手"。paley-root.json 记为 generation 2。
 
-- `local_442e7f75`：r182-opnorm
-- `local_e2f43d0a`：r182-shifted-energy
-- `local_33a7a096`：r182-cold-price
-- `local_a67430b3`：r182 审计
+**接下来全部等用户决定**：要不要提交 R183–R192、要不要人审、往哪个方向走。额度：每周约 80%。不提交、不推送、不发 Nicolas。
 
-retireQueue 为空。
+可以归档的会话：R182–R186、R192 的研究会话和审计会话，以及第 1 代主脑。retireQueue 为空。
 
 ## 待办
 
-1. **已提交并推送**：Round 180–182 的成果已提交到 `research/rounds-92-180`（commit c79dc74 和 08bed6e），并推送到 origin。**用户要求先暂停**：等电脑上的文件管理（迁出 iCloud）结束后，再接着推进 Round 183。
-2. **派出 Round 183**：三个任务已导出到 `coordination/missions/round-183/`：
-   - `ordinary-prime-first-mass-fibre-dilation`：把 M_w 当作 slope fibre 内的 dilation 相关来处理
-   - `cold-prime-seed-multiplier-power-rate`：把 seed-only 的 Taylor 项并入 L_S，求幂次 rate
-   - `ordinary-prime-row-deleted-one-match`：先判定 ∑g² 是否为 o(√p)，再看 k=3 的 word type
-
-   还没做派工前对照（`capture`），也没开会话，要在用户的回合里开。
-3. **记账卫生**（审计的建议）：
-   - 下一次验收如果要依赖 Schoen 的 BSG 形式，先去原文核对并引用。
-   - 重新推导 E^×(h)=O(p^{34/23}) 对 R178/179 的下游影响。
-   - 以后打印认证区间一律向外取整。
-4. **Nicolas 的回复**：草稿里的数据可以补上第 182 轮是首次盲审这一点。发送前必须问用户。
+1. **提交**：Round 180–182 已提交并推送（c79dc74、08bed6e、02e2780）。Round 183–192 的全部成果都还没提交（工作区约 178 个改动），等用户醒来再决定。
+2. **记账卫生**：
+   - BSG 的引用已在 R183 更正为 Reiher–Schoen 2024；但从 R187 起已经不再用 BSG。
+   - Round 176/180 的 fixed-a generic squared mass 还没用 sup C=p^{4/3+o(1)} 重新推导。
+   - E^×(h) 对 R178/179 的下游影响还没有重新推导。
+3. **共享义务统计**：漏判率 2/4。
+4. **Nicolas 的回复**：可以补上两点：R182 是第一次盲审；R183 和 R184 的盲审各发现一次漏判。发送前必须问用户。
+5. **人审**：Lemma M′（R187）、Theorem A（R188）、MPRRS Theorem 37 的应用（R190）。

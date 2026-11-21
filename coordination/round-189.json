@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "round": 189,
+  "record_status": "ready",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment after an independent agent audit run as a background subagent, prepared while the user was asleep under their instruction to advance rounds autonomously; not human acceptance or mathematical certification)",
+  "sources": {
+    "baseline": {
+      "path": "research/round-188-acceptance.json",
+      "sha256": "e0face6c633785fa83b9412704fc613744fa7613fcf0b99586182465e684dcc6"
+    },
+    "current": {
+      "path": "research/round-189-acceptance.json",
+      "sha256": "ad4e0b5aaaec51fec6be5df96359071f1360c09ff8ae7e4533b7852346176506"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "new_obstruction",
+      "before": "One-match covariance O(p^(43/24+o(1))); Theorem A gives 11/6 via T_0 <= X << p^(4/3+o(1)); open lever: a coupled bound T_0 <= p^(31/24-delta) (beats 43/24), p^(5/4-delta) (below 7/4), O(p) (target).",
+      "after": "Exponent unchanged at 43/24. Proved: the coupled kappa-form of T_0 with the three-pencil coupling, and the heavy-triangle reduction. New method obstruction: T_0 = X on admissible subgroup laws and T_0 >= (4/pi^2)^5 X(1_I) on interval laws, so any argument using only the admissible hypotheses (probability, cap, omega >= 0, (H3)) that gives T_0 or X below p^(5/4) must prove E^x(I-1) << |I|^(5/2-eta) for symmetric geometric progressions with |I| asymp sqrt p in F_p (known only at |I|^(5/2), MPRRS Lemma 33); primality is necessary (F_(r^2) control). At 43/24 five pricings land at or above 31/24 but there is no cap theorem. The Gamma route cannot beat 43/24 without an actual-law input (interval laws have Gamma_tot asymp sqrt p).",
+      "remaining": "Below 7/4: (GP) E^x(I-1) << |I|^(5/2-eta) for symmetric geometric progressions of length asymp sqrt p in F_p (recorded here as cand:gp-shifted-energy, an apparently open sum-product statement), or an actual-law input from (NC) excluding sector-type laws. Beating 43/24: the heavy-triangle sum or X below p^(31/24-delta). Target: T_0 or X = O(p) logarithm-free. First mass X = O(p^(1+1/1280)) unchanged. Zero match and generic J sum O(p^(9/4)) not revisited since Round 178 or earlier.",
+      "evidence": [
+        {
+          "path": "research/native-claude-ordinary-prime-intercept-fibre-t0-189.md",
+          "sha256": "2a586af800b25cb2249a226ac6815ba74a810f2b438c1b4e2f5f7b67fb53b852"
+        },
+        {
+          "path": "research/native-claude-audit-189.md",
+          "sha256": "0bf8b1c3a04c795cad47c38adbb4ecc95e25d12934e3bffe8f247b6208e7f508"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "new_obstruction",
+      "before": "Seed side certified at t = a; open: a sup-dominating price of the non-seed part B_h below 0.274632 in pi_phi.",
+      "after": "Seed side closed uniformly on Q x {p >= 1e6}, both lifts (||L_S||_(pi_phi) <= 0.4995147825, budget >= 0.2746323 under (b1)). Per-simple prices refuted at the Picard-representation level: the pi_phi price of B_h is >= 0.294301 (depth 3) to >= 0.531182 (depth 80), and every per-simple price of L_S + B_h has one-step norm and spectral radius >= lambda_L >= 0.936899 (depth 80), above kappa*; the minimal-price version is conditional on (NCP). Round 182 Proposition 2 with a signed source estimate is not excluded.",
+      "remaining": "Only signed mechanisms remain: a signed price for L_S + B_h, or a per-simple operator price with a signed source estimate sigma_k <~ (1-r)/(4c) and r < ~0.952; the angular variant also needs a signed non-seed price. Plus D2-D4, (b-Jk), (b-T), stationary domain and derivative transfer. Proved frozen rate stays 1.066. Cold dispatch paused: no concrete handle on a signed mechanism.",
+      "evidence": [
+        {
+          "path": "research/native-claude-cold-prime-perron-nonseed-price-189.md",
+          "sha256": "f52a9abd1491b4d92e71a1fbab92ce5850f51772bbd9e7c0dfbe7fbb401729bb"
+        },
+        {
+          "path": "research/native-claude-audit-189.md",
+          "sha256": "0bf8b1c3a04c795cad47c38adbb4ecc95e25d12934e3bffe8f247b6208e7f508"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Round 189 left the one-match exponent at 43/24 and turned both lines into method caps: below 7/4 the ordinary line needs a shifted geometric-progression energy bound below |I|^(5/2) in F_p (recorded as cand:gp-shifted-energy) or an actual-law input, and per-simple cold prices are refuted at the representation level. Following the audit's strategic assessment, Round 190 runs no further method-cap estimate rounds: a literature call (quoted at source) on the geometric-progression energy, a stocktake of the ordinary obligation map (necessity of one-match O(p^(3/2)); zero match and generic J sum), and in parallel a structural call on whether (NC) excludes the sector-type obstruction families. Cold dispatch is paused. cand:gp-shifted-energy is carried by the literature call alone and is therefore named in its question rather than in shared_candidates. Round 190 runs as background subagents.",
+  "next_calls": [
+    {
+      "id": "ordinary-gp-shifted-energy-literature",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Is there a published bound E^x(A+alpha) << |A|^(5/2-eta), or E^x(A+alpha, B) below the MPRRS Lemma 33 value, for A in F_p with |AA| << |A| at |A| asymp sqrt p, in particular for geometric progressions {gamma^k : |k| <= K}, K asymp sqrt p (cand:gp-shifted-energy); and are there Stepanov-type or character-sum bounds for shifted short geometric progressions, improvements of Stevens-de Zeeuw for Cartesian products in F_p (Mohammadi-Stevens and later) that move Lemma 33, or a graph (partial-product) version of Lemma 33?",
+      "why_now": "Round 189 proved that every admissible-only argument below 7/4 must contain exactly this estimate, and Rounds 186, 187 and 189 all stopped at the same N^(5/2) value; a literature answer settles in one call whether the barrier is a known theorem away or an open problem.",
+      "scope": "Quote statements verbatim from the source (arXiv HTML or PDF; record URL and version); check hypotheses at |A| asymp sqrt p in F_p; note whether primality is used (the F_(r^2) control rules out field-general statements); no new proofs; report the best known exponent and its source, and the closest results with exact gaps. Cite accepted project statements by round.",
+      "if_yes": "The sector obstruction of Round 189 Corollary 3.1 disappears; the next call applies the bound to X(1_I)-type pieces and the height-1 level sets of Round 187.",
+      "if_no": "Record (GP) as an external open problem under cand:gp-shifted-energy; retire T_0 / X routes below 7/4 for admissible-only arguments.",
+      "if_inconclusive": "Return the closest results with their exact gaps (exponent, size range, structure assumed).",
+      "inputs": [
+        {
+          "path": "research/round-189-acceptance.json",
+          "sha256": "ad4e0b5aaaec51fec6be5df96359071f1360c09ff8ae7e4533b7852346176506"
+        },
+        {
+          "path": "research/native-claude-audit-189.md",
+          "sha256": "0bf8b1c3a04c795cad47c38adbb4ecc95e25d12934e3bffe8f247b6208e7f508"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-intercept-fibre-t0-189.md",
+          "sha256": "2a586af800b25cb2249a226ac6815ba74a810f2b438c1b4e2f5f7b67fb53b852"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-sup-c-heavy-price-186.md",
+          "sha256": "9220d8860c7039ce143e730e76946a903946a16900f167b29666d4854045f0d3"
+        },
+        {
+          "path": "research/native-claude-audit-186.md",
+          "sha256": "2b61a763b2021d4447d176326807abdef9dea83c24b017d26d51c5f6dfbdbc48"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-obligation-map-stocktake",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "From the accepted reduction of the target (Rounds 167-173 and later), what exact size does the target need for each ordinary piece (one-match covariance, zero match, generic J sum O(p^(9/4)), first mass), what is the current best proved exponent of each, and is the one-match requirement O(p^(3/2)) necessary for the chain or only the sufficient form chosen in Round 173?",
+      "why_now": "Both lines are at method caps; the one-match target needs a near-sharp energy statement far beyond the known |I|^(5/2), while the zero-match and generic J-sum obligations have not been revisited since Round 178 or earlier and the acceptance records carry no current exponent for them; the coordinator needs to know which obligation is closest and whether any requirement has slack.",
+      "scope": "Re-derivation only, no new estimates: cite accepted statements by round and file; exact exponents; mark each requirement 'necessary for this chain' or 'sufficient choice'; list the external inputs each piece depends on; include the Rounds 185-189 one-match changes and Theorem A.",
+      "if_yes": "Slack in a requirement, or a piece closer than one-match: Round 191 is redirected to it.",
+      "if_no": "The ordinary line hinges on (GP)-type sum-product progress or an actual-law structure theorem; record this plainly and reduce ordinary estimate rounds.",
+      "if_inconclusive": "Return the list of pieces whose current statement could not be recovered.",
+      "inputs": [
+        {
+          "path": "research/round-189-acceptance.json",
+          "sha256": "ad4e0b5aaaec51fec6be5df96359071f1360c09ff8ae7e4533b7852346176506"
+        },
+        {
+          "path": "research/native-claude-audit-189.md",
+          "sha256": "0bf8b1c3a04c795cad47c38adbb4ecc95e25d12934e3bffe8f247b6208e7f508"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-beyond-point-plane-188.md",
+          "sha256": "cee51251577d7d04c79a290c798dc3980a9153f494d9a87c320b68b9d0721919"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        },
+        {
+          "path": "research/ordinary-weighted-slope-product-incidence-178.md",
+          "sha256": "9e4589c664dc84d30e86206288183a3af9dfb1ae29f8d49ebd6faa1db01f1d71"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-nc-excludes-sector-laws",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Do the accepted near-critical properties of the actual nu ((NC) and the Round 183-185 consequences, e.g. Round 184 Proposition 4 and Theorem 2) exclude the Round 189 obstruction families, subgroup laws (nu uniform on H-perp) and laws with g >= tau on I I^(-1) for a symmetric geometric progression I with |I| asymp sqrt p; and if so, quantitatively enough to give a usable bound on T_0, X or Gamma_tot?",
+      "why_now": "Round 189's obstruction covers only arguments that ignore (NC), and the Gamma route is impossible without an actual-law input; this is the one internal lever left below 7/4 and can run in parallel with the literature call.",
+      "scope": "Actual g with the cap; (NC) and accepted consequences only (Rounds 20, 151, 183, 184), cited by round and line; exact statements; models as evidence only. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "if_yes": "An (NC)-based route for T_0, X or Gamma below 7/4 opens; the next call prices it.",
+      "if_no": "Some interval-type law satisfies (NC): the Round 189 obstruction applies to (NC)-using arguments too, and the ordinary line below 7/4 rests on the literature call.",
+      "if_inconclusive": "Return the property that would be needed, stated exactly.",
+      "inputs": [
+        {
+          "path": "research/round-189-acceptance.json",
+          "sha256": "ad4e0b5aaaec51fec6be5df96359071f1360c09ff8ae7e4533b7852346176506"
+        },
+        {
+          "path": "research/native-claude-audit-189.md",
+          "sha256": "0bf8b1c3a04c795cad47c38adbb4ecc95e25d12934e3bffe8f247b6208e7f508"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-intercept-fibre-t0-189.md",
+          "sha256": "2a586af800b25cb2249a226ac6815ba74a810f2b438c1b4e2f5f7b67fb53b852"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-near-critical-support-energy-184.md",
+          "sha256": "9cac897617cced4bb48a97cb8c73f904a76958daf38798b2f4748a816a45c1fa"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-near-critical-slope-row-mass-184.md",
+          "sha256": "85702949b82c262a1d68dce098c89c995308880d63fbdc35765d571e6e6c02ec"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/anchored-repair-20.md",
+          "sha256": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

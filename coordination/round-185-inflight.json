@@ -1,0 +1,49 @@
+{
+  "round": 185,
+  "dispatch_status": "Claude Code desktop research sessions (fresh context, shared checkout, disjoint file prefixes); started_utc_epoch recorded once immediately before the two launches",
+  "provider": "Claude Code sessions (session default model, Claude Opus 5.5) started by the generation-1 brain session local_3a29365e-04c0-4966-84ec-7968199c2fe8 under the user's instruction to advance rounds autonomously; PALEY_GATEWAY_API_KEY not available",
+  "accepted_checkpoint": {
+    "path": "research/round-184-acceptance.json",
+    "sha256": "c30660213a26e69b172ce6e7f21a1fe33fe4eba5bfcec7fd976247ebd5d5e3ef"
+  },
+  "coordinator": {
+    "path": "coordination/round-184.json",
+    "sha256": "46fb9ed1fd4d060744d3e6ccc8211580e7159c5e10d4ed8da6bb74e0e735d2a4"
+  },
+  "synthesis_checkpoint": {
+    "path": "coordination/checkpoints/round-184.md",
+    "sha256": "a6079731f12e97324d14a7ffb124083725bcac997ab230633180915a74d768f4"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-185-before.json",
+    "sha256": "4005182162ca9f3760dd52ba80ef411c0bb2e736d8c5a587bd61a1eeb4d2f012"
+  },
+  "lanes": [
+    {
+      "call_id": "cold-prime-picard-leaf-inequivalence",
+      "agent_label": "session/r185-cold-leaf",
+      "session_id": "local_49d62367-6eea-4e7e-b7cd-d7ed65d0b5c4",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-185/cold-prime-picard-leaf-inequivalence.md",
+        "sha256": "67564f018cb7d50f8eb79db0a3dc633fa2cfd4897a1223d1a077085d3589c333"
+      },
+      "pending_candidate": "research/native-claude-cold-prime-picard-leaf-inequivalence-185.md",
+      "started_utc_epoch": 1795202103.9748638,
+      "timestamp_role": "immediately before launch"
+    },
+    {
+      "call_id": "ordinary-prime-near-critical-band-autocorrelation",
+      "agent_label": "session/r185-band-autocorr",
+      "session_id": "local_fb89aa10-a6db-4c59-8a7d-632a0cec03bb",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-185/ordinary-prime-near-critical-band-autocorrelation.md",
+        "sha256": "77eee29206f9a6952f0c6fde20b344524f6bf11c063778387155bd3dd40c8001"
+      },
+      "pending_candidate": "research/native-claude-ordinary-prime-near-critical-band-autocorrelation-185.md",
+      "started_utc_epoch": 1795202103.9748638,
+      "timestamp_role": "immediately before launch"
+    }
+  ]
+}

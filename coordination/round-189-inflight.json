@@ -1,0 +1,49 @@
+{
+  "round": 189,
+  "dispatch_status": "Background Claude subagents of the generation-1 brain session (fresh context, shared checkout, disjoint file prefixes), because the app refuses new sessions on automated turns; started_utc_epoch recorded once immediately before the two launches",
+  "provider": "Claude subagents (general-purpose, inheriting Claude Opus 5.5) started by the generation-1 brain session local_3a29365e-04c0-4966-84ec-7968199c2fe8 under the user's instruction to advance rounds autonomously; PALEY_GATEWAY_API_KEY not available",
+  "accepted_checkpoint": {
+    "path": "research/round-188-acceptance.json",
+    "sha256": "e0face6c633785fa83b9412704fc613744fa7613fcf0b99586182465e684dcc6"
+  },
+  "coordinator": {
+    "path": "coordination/round-188.json",
+    "sha256": "2c6221ec080ac072c5b8d93710427d4ed6f28d964d778bfd111c8ea8e590492c"
+  },
+  "synthesis_checkpoint": {
+    "path": "coordination/checkpoints/round-188.md",
+    "sha256": "817a63a7fab8573c43aeea72cf0eaa965f9f9f384a701655cd0fc6428d701b44"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-189-before.json",
+    "sha256": "e8c0973c8f9025a733f9d8f64f82527ea8e8264f74ab03ef43461fb72d41a1d1"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-intercept-fibre-t0",
+      "agent_label": "session/r189-t0",
+      "session_id": "subagent of local_3a29365e-04c0-4966-84ec-7968199c2fe8",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-189/ordinary-prime-intercept-fibre-t0.md",
+        "sha256": "cfa29f8773ebd35207c8edf303c6de901b1bc40f5c8554209174e7b58f411d16"
+      },
+      "pending_candidate": "research/native-claude-ordinary-prime-intercept-fibre-t0-189.md",
+      "started_utc_epoch": 1795217426.473668,
+      "timestamp_role": "immediately before launch"
+    },
+    {
+      "call_id": "cold-prime-perron-nonseed-price",
+      "agent_label": "session/r189-cold-perron",
+      "session_id": "subagent of local_3a29365e-04c0-4966-84ec-7968199c2fe8",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-189/cold-prime-perron-nonseed-price.md",
+        "sha256": "0e0ee1a87b1b6df178a68f87251bd5a66c819f1db6b096f49be74addc4364ca6"
+      },
+      "pending_candidate": "research/native-claude-cold-prime-perron-nonseed-price-189.md",
+      "started_utc_epoch": 1795217426.473668,
+      "timestamp_role": "immediately before launch"
+    }
+  ]
+}

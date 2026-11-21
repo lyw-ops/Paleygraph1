@@ -6,29 +6,25 @@ Refresh with `python3 scripts/research_index.py --write` from the repository roo
 
 ## Latest recorded acceptance
 
-- Round: **182** — [round-182-acceptance.json](round-182-acceptance.json).
+- Round: **192** — [round-192-acceptance.json](round-192-acceptance.json).
 - Target status reported by this record: `open`.
-- Acceptance timestamp in the record: `2026-11-20T10:30:00Z`.
+- Acceptance timestamp in the record: `2026-11-21T04:23:36Z`.
 - Read the [latest ledger entries](ledger.md) alongside the record and its route notes.
 - Files from later rounds may be in progress; their presence alone gives them no acceptance status.
 - The working tree can contain unpublished records. Use Git status to distinguish local work from a committed snapshot.
 
 ### Route notes named in this record
 
-- [round-181.md](../coordination/checkpoints/round-181.md)
-- [cold-prime-signed-nonseed-price.md](../coordination/missions/round-182/cold-prime-signed-nonseed-price.md)
-- [ordinary-prime-one-match-operator-norm.md](../coordination/missions/round-182/ordinary-prime-one-match-operator-norm.md)
-- [ordinary-prime-shifted-level-energy.md](../coordination/missions/round-182/ordinary-prime-shifted-level-energy.md)
-- [native-claude-audit-182.md](native-claude-audit-182.md)
-- [native-claude-cold-prime-signed-nonseed-price-182.md](native-claude-cold-prime-signed-nonseed-price-182.md)
-- [native-claude-ordinary-prime-one-match-operator-norm-182.md](native-claude-ordinary-prime-one-match-operator-norm-182.md)
-- [native-claude-ordinary-prime-shifted-level-energy-182.md](native-claude-ordinary-prime-shifted-level-energy-182.md)
+- [round-191.md](../coordination/checkpoints/round-191.md)
+- [ordinary-nc-vertex-tightness.md](../coordination/missions/round-192/ordinary-nc-vertex-tightness.md)
+- [native-claude-audit-192.md](native-claude-audit-192.md)
+- [native-claude-ordinary-nc-vertex-tightness-192.md](native-claude-ordinary-nc-vertex-tightness-192.md)
 
 ### Priorities recorded by the research session
 
-1. First mass: bound M_w = sum_r sum_{b!=b'} mu(r,b)mu(r,b')w(b/b') directly as a w-weighted dilation correlation inside the slope fibres of mu, aiming at O(p^(1+1/1280)) without the BSG size loss that caps the level-set route at E^x(h)=O(p^(4/3)).
-2. Cold prefix: re-price the seed multiplier as K Phi'_t(S) including its seed-only Taylor terms and prove a power rate ||L^m||_P <= C lambda^m with lambda < 1 - C(1 - 0.77414706), i.e. Gamma_{k_n} bounded uniformly in n.
-3. One-match: the row-deleted criterion b1'' ||R pi(mu)||_op = O(p^(3/4)), through the k=3 translation discrepancy of slope-closed six-words (verified O(p^(177/32)), need O(p^(144/32))); first decide whether sum g^2 = o(sqrt p) for the actual law.
+1. Hold all lines; the ordinary programme rests on (A-slope) behind the external geometric-progression problems and on (A-vertex), now of target depth; the cold line has been paused since Round 189.
+2. Optional, not recommended now: a source-level literature check for a sparse robust idempotent theorem that would make Round 192 Theorem E unconditional.
+3. Human review of the agent-accepted Rounds 183-192.
 
 ## Acceptance record archive
 
@@ -36,6 +32,16 @@ Rows are ordered by round, not by filename. A record may cover one route or an e
 
 | Round | Acceptance record |
 | --- | --- |
+| 192 | [round-192-acceptance.json](round-192-acceptance.json) |
+| 191 | [round-191-acceptance.json](round-191-acceptance.json) |
+| 190 | [round-190-acceptance.json](round-190-acceptance.json) |
+| 189 | [round-189-acceptance.json](round-189-acceptance.json) |
+| 188 | [round-188-acceptance.json](round-188-acceptance.json) |
+| 187 | [round-187-acceptance.json](round-187-acceptance.json) |
+| 186 | [round-186-acceptance.json](round-186-acceptance.json) |
+| 185 | [round-185-acceptance.json](round-185-acceptance.json) |
+| 184 | [round-184-acceptance.json](round-184-acceptance.json) |
+| 183 | [round-183-acceptance.json](round-183-acceptance.json) |
 | 182 | [round-182-acceptance.json](round-182-acceptance.json) |
 | 181 | [round-181-acceptance.json](round-181-acceptance.json) |
 | 180 | [round-180-acceptance.json](round-180-acceptance.json) |

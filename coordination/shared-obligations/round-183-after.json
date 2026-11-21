@@ -1,0 +1,26 @@
+{
+  "reviewed_by": "Blind overlap review by the independent audit session session/r183-audit (local_df7566bf), written before it opened any shared-obligation, draft or inflight file (research/native-claude-audit-183.md section 1); classification against the pre-dispatch record by the Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment).",
+  "comparison": "Auditor's blind answer: F-C and R-C independent (C concerns prices of powers of the frozen cold multiplier at V_602; operator powers are a shared tool, not a shared estimate). F-R shared-input: the slope-row mass X = sum_r m(r)^2 = E_Q(h) = sum_{kappa in Q minus {1}} c_h(kappa)^2 for the actual mu, h(z)=g(1-z), counting norms, hypotheses (H1),(H2),(H4) of Round 182. F's rich-fibre criterion (RF) at tau=p^(1/1280) is equivalent to X=O(p^(1+1/1280)) because light fibres contribute at most tau M_1 = O(p^(1+1/1280)) (F Proposition B, audit correction (a2)); within the admissible coset family g_H (F Proposition C, w worth exactly 3/4) a bound on X is also necessary for (H1)/(H2)/(H4)-only arguments. R's candidate shared lemma (SL) is X=O(p^(1+epsilon)), entering as W_xi <= X in the Round 178 point-plane bound for E(mu); any epsilon<3/16 improves the one-match exponent 115/64, and R needs only the weaker max_xi W_xi = O(p^(1+epsilon)). F's scale (epsilon <= 1/1280) implies R's; R's scale gives F only M_w=O(p^(1+epsilon)), an improvement on 11/8 but not the target. Both use the accepted Round 182 value X <= E^x(h) = O(p^(34/23)). sum g^2 is a shared hypothesis at different scales, not a shared estimate. No lemma was proved twice. Coordinator classification against the pre-dispatch record: that record (comparison_status assessed, known_shared []) stated affirmatively that the two ordinary calls share the object mu but no estimate, and named only sum g^2 as a possible shared input. The shared estimate X is therefore recorded as a missed group. The identification of (RF) with X and R's use of X as an upper bound for W_xi are both Round 183 outputs, so the miss was not visible from the Round 182 sources; the auditor judged that knowing it would not have changed the Round 183 calls.",
+  "groups": [
+    {
+      "id": "cand:slope-row-mass-x",
+      "routes": [
+        "r183/ordinary-prime-first-mass-fibre-dilation",
+        "r183/ordinary-prime-row-deleted-one-match"
+      ],
+      "classification": "missed",
+      "math_evidence": "research/native-claude-audit-183.md section 1 and verdicts F(a2), R(a9): (RF) at tau=p^(1/1280) <=> X=E_Q(h)=O(p^(1+1/1280)) via light-fibre mass <= tau M_1; R's one-match improvement follows from max_xi W_xi <= X = O(p^(1+epsilon)), epsilon<3/16, through the Round 178 point-plane bound. Same quantity, same hypotheses (H1),(H2),(H4) on the actual mu; required exponents differ (1/1280 vs <3/16) and F's version implies R's.",
+      "prior_evidence": "coordination/drafts/round-183-dependency-assessment.json treated the two ordinary calls as sharing the object mu but no estimate and recorded known_shared [] with no needs: edge.",
+      "dispatch_effect": "same",
+      "effect_reason": "Both calls would still have been dispatched as written: the reductions of F and R to X were outputs of Round 183 itself. The finding changes Round 184, where X (and its max-convolution form) becomes one shared call under cand:slope-row-mass-x."
+    }
+  ],
+  "dispatch": "coordination/round-183-inflight.json",
+  "launched_at_utc": "2026-11-20T17:31:03.965198Z",
+  "launched_calls": [
+    "ordinary-prime-first-mass-fibre-dilation",
+    "cold-prime-seed-multiplier-power-rate",
+    "ordinary-prime-row-deleted-one-match"
+  ],
+  "before_sha256": "bdcfe260da3f16f70febf4acc2ad794782cf293aff74419f884933b5c7719ec7"
+}

@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-21T01:13:57.517997Z",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment)",
+  "coordinator": "coordination/round-190.json#next_calls",
+  "coordinator_sha256": "b8f6e40fae7d868bd43347a207a115db478c05a9d370eac05d4acaddf84c05cc",
+  "call_ids": [
+    "ordinary-fixed-block-assembly",
+    "ordinary-first-mass-sector-obstruction",
+    "ordinary-gp-sector-constancy-literature"
+  ],
+  "routes": {
+    "r191/ordinary-fixed-block-assembly": {
+      "question": "From the accepted reduction (R152-R154 top level; R157 conditional lower bound; R159-R166 cuts and blocks), does O(p) for every fixed moderate block, together with the paid cuts, imply the O(p) favorable off-diagonal or the contradiction on the critical branch (for example through the R157/R160 device that a cut keeps the lower bound >> pD when the deleted squared mass is o(D)); if not, what single uniform estimate is needed on the slope bands p^(-(1-2 gamma)) < g < s_0, the near-unit slopes and the vertex layers C/sqrt p < |F|^2 < a, and does M_w = O(p), X = O(p) or a weighted first mass with the true vertex amplitudes kept imply it?",
+      "scope": "Cite accepted statements by round and line; exact loss exponents; mark compositions as bookkeeping; no new incidence estimates; models only as evidence. Cite accepted statements by round; re-prove anything taken from an unaccepted draft. Locate the R152-R166 reduction files through research/README.md and the acceptance records' proof_scope fields.",
+      "remaining": "(A) assembly of fixed moderate blocks into the full O(p) favorable off-diagonal (or the contradiction on the critical branch), with its exact uniform form if it does not follow. (F) M_w = O(p) logarithm-free for each fixed block, now p^(4/3+o(1)) at its route's method cap. Below one-match 45/26: cand:gp-shifted-energy below |I|^(32/13), or the sector condition with (GP-Sub). Whether the sector obstruction binds M_w with the weight w kept."
+    },
+    "r191/ordinary-first-mass-sector-obstruction": {
+      "question": "For laws with g >= tau on I I^(-1) (the Round 189 interval laws and the Round 190 diluted-interval laws D_theta), is M_w(g) >= c(tau) X(1_(I')) for a sub-progression I' of comparable length, so that admissible-only and sector-free (NC) arguments for M_w <= p^(16/13-delta) must prove E^x(I'-1) << |I'|^(32/13-2 delta); or does the weight w(b/b'), small where g ~ 1, remove the sector pieces?",
+      "scope": "Exact statements; fixed tau; w kept; models as evidence; cite Round 183 Propositions A and C, Round 189 Proposition 3, Round 190 Theorem 4 (structural report). Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "remaining": "(A) assembly of fixed moderate blocks into the full O(p) favorable off-diagonal (or the contradiction on the critical branch), with its exact uniform form if it does not follow. (F) M_w = O(p) logarithm-free for each fixed block, now p^(4/3+o(1)) at its route's method cap. Below one-match 45/26: cand:gp-shifted-energy below |I|^(32/13), or the sector condition with (GP-Sub). Whether the sector obstruction binds M_w with the weight w kept."
+    },
+    "r191/ordinary-gp-sector-constancy-literature": {
+      "question": "Is (GP-Sub_c) for some c <= 1/sqrt 2, or (GP-Sub_kappa), known (cand:gp-sector-constancy): nontrivial bounds for sum_{k <= M} chi(zeta^k + a) (character sums with exponential functions, shifted geometric progressions) at M asymp sqrt p or below, bounds on Paley cliques that are geometric progressions or multiplicative Bohr sets, or a Stepanov / Hanson-Petridis argument adapted to progressions?",
+      "scope": "Literature only: verbatim statements with URL and version; hypotheses at M asymp sqrt p, zeta of order > 4M; whether primality is used; no new proofs; best known range and exact gaps. Cite project statements by round.",
+      "remaining": "(A) assembly of fixed moderate blocks into the full O(p) favorable off-diagonal (or the contradiction on the critical branch), with its exact uniform form if it does not follow. (F) M_w = O(p) logarithm-free for each fixed block, now p^(4/3+o(1)) at its route's method cap. Below one-match 45/26: cand:gp-shifted-energy below |I|^(32/13), or the sector condition with (GP-Sub). Whether the sector obstruction binds M_w with the weight w kept."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-fixed-block-assembly": [],
+    "ordinary-first-mass-sector-obstruction": [],
+    "ordinary-gp-sector-constancy-literature": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The assembly call re-derives whether fixed moderate blocks assemble into the target (bookkeeping, no new estimates). The first-mass call asks whether sector laws force a geometric-progression energy bound for M_w with the weight kept (a restriction computation). The literature call searches for character-sum bounds along shifted geometric progressions (cand:gp-sector-constancy). The first-mass call concerns energies (cand:gp-shifted-energy) and the literature call concerns character-sum constancy; they touch the same configuration through different statements and are dispatched as independent. The assembly call shares no estimate with either. No earlier call is active; cold is paused."
+}

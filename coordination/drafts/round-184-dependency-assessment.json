@@ -1,0 +1,7 @@
+{
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment)",
+  "comparison_status": "assessed",
+  "comparison": "The slope-row-mass call bounds X = sum_r m(r)^2 = E_Q(h), a multiplicative energy of h(z)=g(1-z) on Q in F_p (and the max-convolution max_xi W_xi), on the near-critical branch. The support-energy call decides the additive energy E(S)/|S|^3 of the flat support S of the law nu on the dual group Q^ = Z/n, equivalently sum g^2/sqrt p. Both use the same near-critical inputs (Round 20 flattening and gap theorem, Round 151 coset-mass exclusion, Round 183 sector concentration), but neither estimate implies the other at the stated hypotheses and scales: a bound on the additive energy of the Fourier support does not bound the multiplicative energy of the level structure of h, and a bound on X does not decide E(S). sum g^2 enters X only through the diagonal term, which is O(G sum g^2) = O(p) and harmless at both scales. They are dispatched as independent, with a request that each report state any structural input on the actual g that it proves, so the closeout can test for a shared lemma. The cold call (product rule of the first Picard piece in the dimension price) shares no estimate with either ordinary call. Earlier routes: the Round 183 overlap cand:slope-row-mass-x is carried entirely by the slope-row-mass call. No earlier call is active.",
+  "known_shared": [],
+  "active_routes": {}
+}

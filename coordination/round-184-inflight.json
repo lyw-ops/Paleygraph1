@@ -1,0 +1,62 @@
+{
+  "round": 184,
+  "dispatch_status": "Claude Code desktop research sessions (fresh context, shared checkout, disjoint file prefixes); started_utc_epoch recorded once immediately before the three launches",
+  "provider": "Claude Code sessions (session default model, Claude Opus 5.5) started by the generation-1 brain session local_3a29365e-04c0-4966-84ec-7968199c2fe8 under the user's instruction to advance rounds autonomously; the Round 183 request for claude-fable-5-2 left the Fable weekly usage unchanged and the R183 auditor self-identified as Opus 5.5, so no model override is requested here; PALEY_GATEWAY_API_KEY not available",
+  "accepted_checkpoint": {
+    "path": "research/round-183-acceptance.json",
+    "sha256": "aae5b4aa2a8e1a8b216249c1f01ad9b1d3676853325a5b5cc30a9174db9f0fa9"
+  },
+  "coordinator": {
+    "path": "coordination/round-183.json",
+    "sha256": "1231bfe2ad7af3148d2574dab427d0f9c6c3e831b6207a8ccef72451daab4f8e"
+  },
+  "synthesis_checkpoint": {
+    "path": "coordination/checkpoints/round-183.md",
+    "sha256": "83af339a744f6fc5e93cba528f60b5f3467cb4dfe1790cb9b2550f46314fc199"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-184-before.json",
+    "sha256": "e9d33d4d00e2e208fbcad567720e94a2206ce85b10c52040d328e1ec592e2f2f"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-near-critical-slope-row-mass",
+      "agent_label": "session/r184-slope-row-mass",
+      "session_id": "local_197829e6-47e2-462b-9f01-d3d063e674ad",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-184/ordinary-prime-near-critical-slope-row-mass.md",
+        "sha256": "91f7c4bd0d9c7898c77fc9a64cca06078a07fb5cff00345199a7cef2a37d4e93"
+      },
+      "pending_candidate": "research/native-claude-ordinary-prime-near-critical-slope-row-mass-184.md",
+      "started_utc_epoch": 1795198775.455746,
+      "timestamp_role": "immediately before launch"
+    },
+    {
+      "call_id": "cold-prime-h1-product-rule",
+      "agent_label": "session/r184-cold-h1",
+      "session_id": "local_3341d353-2b5b-4fe6-8c8f-452d73041770",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-184/cold-prime-h1-product-rule.md",
+        "sha256": "4e3439c07712920023ec7bfe66d15720cd21d5c8923d22b48149fa0bb0c5c76f"
+      },
+      "pending_candidate": "research/native-claude-cold-prime-h1-product-rule-184.md",
+      "started_utc_epoch": 1795198775.455746,
+      "timestamp_role": "immediately before launch"
+    },
+    {
+      "call_id": "ordinary-prime-near-critical-support-energy",
+      "agent_label": "session/r184-support-energy",
+      "session_id": "local_85d86b18-3832-4b25-8c1a-42ca45916447",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-184/ordinary-prime-near-critical-support-energy.md",
+        "sha256": "7b08a8c89b94125034ae6a78912693c2ab693e5519084c54360e7d3a27a53fa5"
+      },
+      "pending_candidate": "research/native-claude-ordinary-prime-near-critical-support-energy-184.md",
+      "started_utc_epoch": 1795198775.455746,
+      "timestamp_role": "immediately before launch"
+    }
+  ]
+}

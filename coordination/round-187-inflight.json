@@ -1,0 +1,49 @@
+{
+  "round": 187,
+  "dispatch_status": "Background Claude subagents of the generation-1 brain session (fresh context, shared checkout, disjoint file prefixes), because the app refused to start new sessions on automated turns after a peer message; started_utc_epoch recorded once immediately before the two launches",
+  "provider": "Claude subagents (general-purpose, inheriting Claude Opus 5.5) started by the generation-1 brain session local_3a29365e-04c0-4966-84ec-7968199c2fe8 under the user's instruction to advance rounds autonomously; PALEY_GATEWAY_API_KEY not available",
+  "accepted_checkpoint": {
+    "path": "research/round-186-acceptance.json",
+    "sha256": "9f1a0ccb93a4ba4f75e8397105ae59418230856e0ee1e678f95f7169542626ee"
+  },
+  "coordinator": {
+    "path": "coordination/round-186.json",
+    "sha256": "fc1582d2c07b0aacef5bbde79d30e880ef62e39d6e80fd74fe35c9b6e0c5fea0"
+  },
+  "synthesis_checkpoint": {
+    "path": "coordination/checkpoints/round-186.md",
+    "sha256": "524780094dc2af3a10c95ccf00423aaeab12c9617f43512df63fae47df9f23c0"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-187-before.json",
+    "sha256": "f7e95dbfbe21a324dc746e44cd770d953c283d0f9b41caae46f4113aed6776cd"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-level-pair-energy",
+      "agent_label": "session/r187-pair-energy",
+      "session_id": "subagent of local_3a29365e-04c0-4966-84ec-7968199c2fe8",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-187/ordinary-prime-level-pair-energy.md",
+        "sha256": "ae3155d8b179afcbd6c4f994e960b7bf1a4dcd44ba7234ae57f7fe25ad846f72"
+      },
+      "pending_candidate": "research/native-claude-ordinary-prime-level-pair-energy-187.md",
+      "started_utc_epoch": 1795208554.255187,
+      "timestamp_role": "immediately before launch"
+    },
+    {
+      "call_id": "cold-prime-b-word-delocalization",
+      "agent_label": "session/r187-cold-bword",
+      "session_id": "subagent of local_3a29365e-04c0-4966-84ec-7968199c2fe8",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-187/cold-prime-b-word-delocalization.md",
+        "sha256": "85fadc4e8fded439edaeda336d98c6ac0266e550f58864d5eb4a2299f9c8b99c"
+      },
+      "pending_candidate": "research/native-claude-cold-prime-b-word-delocalization-187.md",
+      "started_utc_epoch": 1795208554.255187,
+      "timestamp_role": "immediately before launch"
+    }
+  ]
+}
