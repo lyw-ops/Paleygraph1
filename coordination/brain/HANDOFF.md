@@ -1,7 +1,27 @@
 # Paley 主脑交接
 
-> **当前主脑：第 2 代 `local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23`，2026-11-21 12:24 CST 接手。** 接手时：`round_review.py check --current` 通过（Round 192 记录 ready，decision hold，0 个调用）；paley-root.json 为 generation 2，指向本会话；没有在跑的会话或 subagent。研究暂停，等用户决定。
-> 注：下面"协调记录"一行仍是 R190 时的文字。当前协调记录是 `coordination/round-192.json`（ready，hold，无调用），checkpoint 是 `coordination/checkpoints/round-192.md`。
+> **当前主脑：第 2 代 `local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23`，2026-11-21 12:24 CST 接手。** 接手时：`round_review.py check --current` 通过（Round 192 记录 ready，decision hold，0 个调用）；paley-root.json 为 generation 2，指向本会话。
+> 注：下面"协调记录"一行仍是 R190 时的文字，以本框为准。
+>
+> **用户指示（2026-11-21）**："commit and push"，人审改由另一个 agent 做，"then we go ahead"。
+> - R183–R192 已提交并推送：`87893df`（分支 research/rounds-92-180）。
+> - `coordination/round-192.json` 改为 continue，带 2 个调用；checkpoint 已重新生成。派工前对照 `coordination/shared-obligations/round-193-before.json`，运行记录 `coordination/round-193-inflight.json`。
+>
+> **Round 193 已收尾（decision: hold）**：`research/round-193-acceptance.json`、`coordination/round-193.json`（ready，0 个调用）、`coordination/checkpoints/round-193.md`、`coordination/shared-obligations/round-193-after.json`（无重叠组）。
+> - 审阅：Lemma M′/P′、Theorem A 正确；MPRRS Thm 37 应用加一行修补后正确；下游无需重评。仍是 agent 审，不是人审。
+> - 文献：(SS*) 没有已发表的出处，Theorem E 仍是有条件的。审计把缺口定位到 (Clean_a)。
+> - 审计建议 hold；可选的内部调用依次是 `ordinary-a4-c1-dependence`（便宜，判断 ε 形式够不够用），然后在前者有利时做 `ordinary-ss-clean`。两者都不碰 (A-slope) 和原目标。已问用户要不要跑第一个，用户回复 "Hold for now"（2026-11-21）：不派任务，等用户下一步指示。
+> - R193 的文件尚未提交。
+>
+> Round 193 的会话（已结束）：
+>
+> | 会话 | 名称 | call_id | 产出文件 |
+> |---|---|---|---|
+> | `local_8a19aff0-38e5-44e5-9085-31c2e10b4177` | r193-theorem-review | review-lemma-mprime-theorem-a | research/native-claude-review-lemma-mprime-theorem-a-193.md |
+> | `local_eac7a4d2-0310-40ff-89a0-bf28ffbfd7a5` | r193-ss-star-lit | ordinary-ss-star-literature | research/native-claude-ordinary-ss-star-literature-193.md |
+>
+> **进度**：两个调用都已结束（审阅：三项均 supported，MPRRS 应用需一行修补；文献：refuted，(SS*) 无出处）。审计由本会话的后台 subagent 运行（label subagent/r193-audit），产出 `research/native-claude-audit-193.md`。换代时先查该文件末尾有无 `## Verdict`，不完整就重派。
+> 原计划：两个都结束后：开审计（先盲审重叠），按 BRAIN_PROMPT 第 6 步收尾。若审阅发现 Lemma M′ / Theorem A / MPRRS 应用有错，下游 R187–R192 需重评。R193 结束后的成果尚未提交。额度：Claude 每周约 80%，放慢派工。
 
 更新时间：2026-11-21。第 1 代主脑完成 R192 收尾后，交棒给第 2 代 `local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23`。
 

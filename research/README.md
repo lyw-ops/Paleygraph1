@@ -6,25 +6,27 @@ Refresh with `python3 scripts/research_index.py --write` from the repository roo
 
 ## Latest recorded acceptance
 
-- Round: **192** — [round-192-acceptance.json](round-192-acceptance.json).
+- Round: **193** — [round-193-acceptance.json](round-193-acceptance.json).
 - Target status reported by this record: `open`.
-- Acceptance timestamp in the record: `2026-11-21T04:23:36Z`.
+- Acceptance timestamp in the record: `2026-11-21T04:59:03Z`.
 - Read the [latest ledger entries](ledger.md) alongside the record and its route notes.
 - Files from later rounds may be in progress; their presence alone gives them no acceptance status.
 - The working tree can contain unpublished records. Use Git status to distinguish local work from a committed snapshot.
 
 ### Route notes named in this record
 
-- [round-191.md](../coordination/checkpoints/round-191.md)
-- [ordinary-nc-vertex-tightness.md](../coordination/missions/round-192/ordinary-nc-vertex-tightness.md)
-- [native-claude-audit-192.md](native-claude-audit-192.md)
-- [native-claude-ordinary-nc-vertex-tightness-192.md](native-claude-ordinary-nc-vertex-tightness-192.md)
+- [round-192.md](../coordination/checkpoints/round-192.md)
+- [ordinary-ss-star-literature.md](../coordination/missions/round-193/ordinary-ss-star-literature.md)
+- [review-lemma-mprime-theorem-a.md](../coordination/missions/round-193/review-lemma-mprime-theorem-a.md)
+- [native-claude-audit-193.md](native-claude-audit-193.md)
+- [native-claude-ordinary-ss-star-literature-193.md](native-claude-ordinary-ss-star-literature-193.md)
+- [native-claude-review-lemma-mprime-theorem-a-193.md](native-claude-review-lemma-mprime-theorem-a-193.md)
 
 ### Priorities recorded by the research session
 
-1. Hold all lines; the ordinary programme rests on (A-slope) behind the external geometric-progression problems and on (A-vertex), now of target depth; the cold line has been paused since Round 189.
-2. Optional, not recommended now: a source-level literature check for a sparse robust idempotent theorem that would make Round 192 Theorem E unconditional.
-3. Human review of the agent-accepted Rounds 183-192.
+1. Hold: the open proof obligations are unchanged ((A-slope) behind cand:gp-shifted-energy and cand:gp-sector-constancy; (A-vertex) of target depth; Sigma g^2 >> sqrt p open; cold paused since Round 189).
+2. Optional internal calls, in order: ordinary-a4-c1-dependence, then ordinary-ss-clean only if the first is favourable; neither touches (A-slope) or the original target, they only settle the status of (V) on (NC).
+3. Lemma M' (R187), Theorem A (R188) and the R190 MPRRS application now have an independent agent review each; human review remains open.
 
 ## Acceptance record archive
 
@@ -32,6 +34,7 @@ Rows are ordered by round, not by filename. A record may cover one route or an e
 
 | Round | Acceptance record |
 | --- | --- |
+| 193 | [round-193-acceptance.json](round-193-acceptance.json) |
 | 192 | [round-192-acceptance.json](round-192-acceptance.json) |
 | 191 | [round-191-acceptance.json](round-191-acceptance.json) |
 | 190 | [round-190-acceptance.json](round-190-acceptance.json) |
