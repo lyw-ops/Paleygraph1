@@ -1,0 +1,271 @@
+## Result: the third high set does not presently yield a new moderate-slope slice
+
+I worked on the actual selected ordinary-prime branch, with
+
+\[
+Q=\mathbb F_p^{\times 2},\qquad v\in Q\setminus\{0\},
+\]
+
+the original physical square masks, the true characteristic function \(f\) of the marked law \(\nu\), and fixed thresholds \(a,b\in(0,1]\) satisfying \(a+b>1\). The order of limits is: first fix \(a,b\) and the physical mark \(v\), then let \(p\to\infty\) through the selected ordinary-prime family. No threshold is allowed to vary with \(p\).
+
+Put
+
+\[
+A_x=1-vx,\qquad C_x=1-vux,\qquad
+r_u(x)=\frac{C_x}{A_x},
+\]
+
+and retain only the genuine physical domain where all four arguments of \(f\) lie in \(Q\). The actual slope is
+
+\[
+t=\frac{r_u(y)}{r_u(x)}.
+\]
+
+In the affine chart
+
+\[
+X=A_x^{-1},\qquad Y=A_y^{-1},
+\]
+
+one has
+
+\[
+r_u(x)=u+(1-u)X,
+\]
+
+and the slope equation is exactly
+
+\[
+Y=tX+\frac{u(t-1)}{1-u}.
+\]
+
+Thus the slope is not \(r_u(x)\); it is the ratio of two values of the \(u\)-dependent affine map \(r_u\).
+
+### 1. What the third high set does give
+
+If
+
+\[
+|f(A_x)|^2\ge a,\qquad |f(C_x)|^2\ge b,
+\]
+
+then the covariance inequality for the actual nonnegative law \(\nu\) gives
+
+\[
+|f(r_u(x))|
+\ge \sqrt{ab}-\sqrt{(1-a)(1-b)}
+=:\delta_{a,b}>0.
+\]
+
+This is a genuine pointwise statement on the actual physical variables. Therefore, for every fixed \(u\), the set
+
+\[
+R_u=\{r_u(x):x\text{ contributes to the }u\text{-slice}\}
+\]
+
+is contained in the fixed characteristic level set
+
+\[
+H_\delta=\{z\in Q:|f(z)|\ge \delta_{a,b}\}.
+\]
+
+The affine map \(x\mapsto r_u(x)\) is injective for \(u\ne1\), so
+
+\[
+|R_u|=h(u),
+\]
+
+where \(h(u)=|X\cap u^{-1}Y|\) is the shifted-layer overlap from the previous rounds. In particular,
+
+\[
+h(u)\ll_{a,b}\sqrt p.
+\]
+
+Moreover, the existing high-layer energy argument applies to the global set \(H_\delta\), giving a prime-power saving of the form
+
+\[
+E^\times(H_\delta)\ll_{a,b}p^{3/2-\varepsilon_{a,b}},
+\]
+
+with, from the cited shifted-layer argument, one may take \(\varepsilon_{a,b}=2/445\) for sufficiently large \(p\).
+
+This is useful information about the possible \(r_u(x)\), but it does not yet control the actual slopes.
+
+### 2. Precise obstruction at the ratio step
+
+For two contributing points \(x,y\), the slope is
+
+\[
+t=\frac{r_u(y)}{r_u(x)}.
+\]
+
+Applying the same covariance inequality to the two values \(r_u(x),r_u(y)\) only gives
+
+\[
+|f(t)|
+\ge |f(r_u(x))|\,|f(r_u(y))|
+-\sqrt{(1-|f(r_u(x))|^2)(1-|f(r_u(y))|^2)}
+\]
+
+and hence
+
+\[
+|f(t)|\ge 2\delta_{a,b}^{\,2}-1.
+\]
+
+The assumption \(a+b>1\) guarantees \(\delta_{a,b}>0\), but it does **not** guarantee \(2\delta_{a,b}^2-1>0\). For example,
+
+\[
+a=b=0.51
+\quad\Longrightarrow\quad
+\delta_{a,b}=0.02,
+\]
+
+so the resulting lower bound is negative and therefore vacuous.
+
+Consequently, the third high set gives no positive characteristic lower bound for the true slope unless the much stronger condition
+
+\[
+\delta_{a,b}>\frac1{\sqrt2}
+\]
+
+holds. This is not implied by \(a+b>1\). In particular, the ordinary moderate regime \(a,b\) just above the threshold \(1/2\) remains completely uncontrolled by this iteration.
+
+This is an actual obstruction, not merely a missing estimate: the covariance inequality loses information when passing from the two high values \(r_u(x),r_u(y)\) to their ratio. The known lower bound on \(f(r_u(x))\) therefore cannot be composed with itself to produce a useful lower bound on \(f(t)\).
+
+### 3. Why the global energy saving does not automatically repair this
+
+The slope-restricted contribution involves the joint count
+
+\[
+\mathcal N(D)
+=
+\#\{(u,x,y):
+r_u(x),r_u(y)\in H_\delta,\ 
+r_u(y)/r_u(x)\in D\},
+\]
+
+with the original physical masks and the signed condition
+
+\[
+\chi(1-t)=\rho.
+\]
+
+For each fixed \(u\), the relevant pair count is an energy of the subset \(R_u\subset H_\delta\):
+
+\[
+\#\{(x,y):r_u(y)/r_u(x)\in D\}
+\le E^\times(R_u)
+\]
+
+after discarding the slope restriction. However, the known estimate
+
+\[
+E^\times(H_\delta)\ll p^{3/2-\varepsilon_{a,b}}
+\]
+
+controls only one global set. It does not imply
+
+\[
+\sum_{u\ne1}E^\times(R_u)
+\ll p^{1+\sigma/2},
+\]
+
+which is the sufficient bound needed for an \(O(p)\) contribution on a band
+
+\[
+|f(t)|^2\le p^{-\sigma}.
+\]
+
+The obstruction is the missing \(u\)-uniform coupling. The sets \(R_u\) are not independent subsets of \(H_\delta\); they are affine images of the actual shifted intersections, and the same \(u\) also controls the two transported physical factors
+
+\[
+f(1-vux),\qquad f(1-vuy).
+\]
+
+An incidence estimate applied only to \(R_u\) forgets precisely this shared-\(u\) structure. Conversely, an estimate for \(h(u)\) alone does not see the true ratio weight \(f(r_u(y)/r_u(x))\).
+
+### 4. What remains valid in the stronger endpoint regime
+
+If \(a,b>1/2\), the existing pointwise affine-overlap argument remains valid and gives
+
+\[
+h(u)\ll_{a,b}p^{13/27}\qquad(u\ne1).
+\]
+
+Thus the off-diagonal block is \(O(p)\) whenever
+
+\[
+\sigma\ge \frac{26}{27}.
+\]
+
+The third high set does not improve this exponent: its ratio lower bound is only useful when \(\delta_{a,b}>1/\sqrt2\), and even then it gives a high slope set rather than a small-slope estimate. It does not produce the required new moderate-slope cutoff.
+
+## Conclusion
+
+The proposed affine/inverse-incidence route is **inconclusive with a precise failure at the ratio-normalization step**.
+
+- It successfully identifies the actual third high set
+  \[
+  R_u\subset \{z:|f(z)|\ge\delta_{a,b}\}
+  \]
+  in the physical affine chart.
+- It preserves the genuine slope
+  \[
+  t=r_u(y)/r_u(x)
+  \]
+  and the physical square masks.
+- It does not yield a positive lower bound for \(|f(t)|\) throughout the \(a+b>1\) region.
+- The global multiplicative-energy saving for \(H_\delta\) does not supply the required summed joint estimate over the \(u\)-dependent subsets \(R_u\).
+
+Therefore no new \(O(p)\) moderate-slope region is proved beyond the existing \(\sigma\ge26/27\) high-high slice.
+
+## Ranked next tests
+
+### 1. Highest priority: prove a joint affine-ratio energy estimate
+
+For fixed \(a,b\) and the actual physical mark \(v\), test whether one can prove directly
+
+\[
+\sum_{u\in Q\setminus\{1\}}
+E^\times(R_u)
+\ll_{a,b}p^{3/2-\varepsilon}
+\]
+
+for some \(\varepsilon>0\), or more sharply the slope-restricted form
+
+\[
+\sum_{u}
+\#\{(x,y):
+r_u(x),r_u(y)\in H_\delta,\ 
+r_u(y)/r_u(x)\in D\}
+\ll_{a,b}
+p^{1+\sigma/2}
+\]
+
+on the desired moderate band. This must retain the shared affine parameter \(u\), the physical masks, and the signed condition \(\chi(1-t)=\rho\). A bound for \(H_\delta\) alone is insufficient.
+
+### 2. Second priority: test a conditional weighted spectrum of the affine fibers
+
+For each \(u\), form the weighted measure
+
+\[
+\mu_u(z)
+=
+\sum_{x:\,r_u(x)=z}
+|f(A_x)f(C_x)|
+\]
+
+with the original physical restrictions, and study the multiplicative correlation
+
+\[
+\sum_{z,w}\mu_u(z)\mu_u(w)\,f(w/z).
+\]
+
+The relevant target is a prime-uniform estimate after summing over \(u\), not a pointwise bound in \(u\). Numerically and symbolically test whether the signed condition
+
+\[
+\chi(1-w/z)=\rho
+\]
+
+forces cancellation in this weighted spectrum beyond the absolute-energy bound. If no such cancellation appears even for fixed moderate \(a,b\), that would give a sharper obstruction to the proposed route.

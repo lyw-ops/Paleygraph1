@@ -1,0 +1,176 @@
+{
+  "round": 100,
+  "accepted_at_utc": "2026-11-19T11:16:05Z",
+  "previous": "research/round-99-acceptance.json",
+  "previous_sha256": "3015191b9a3c8675ec3b56ea9801b1db01cee2326838c5bfa25a2b8250c7292a",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-99.json",
+    "sha256": "c82158953b798fd73b35d6508c2890f345d3c6823ba06e43be01b33162636fae"
+  },
+  "proof_and_code_sha256": {
+    "research/astra-mixed-100-check.py": "bc9f9ff131409c53a85c9f4728c30b49c8c5322a50b47e344cfcc0ef69d778ce",
+    "research/astra-mixed-100-checks.jsonl": "95928d43a2ddff8ac0352f5fa4d34ba2ec6e0b8d0c92a92cc7c2c2a14c3a2d42",
+    "research/astra-mixed-100.md": "2a55170920bbe2ff60de667568397447f2b0255dfcebf8792d56a61a1fc0140c",
+    "research/astra-return-100-caps.json": "fc1b140ab066806f5a4fe80ed6cd98e713ce96ddb4478256d20735cfe0fa6d54",
+    "research/astra-return-100-check.py": "db517c9e693e0e6c0bd677e00ddeff9e7174a9d9df17a70d5b45ee01f3296e8b",
+    "research/astra-return-100-checks.jsonl": "2e583446284ba773b2cdf51d153fa85ca688b73feb99de2d1c3c7bf95d4174a5",
+    "research/astra-return-100.md": "3e269ee06441aba87d97d860b0c93da299e170dfe24ff2c44c9eba55c05618bc",
+    "research/astra-root-100-check.py": "c6ebd76ac04df7799cf7d9453385ce0b93369abe2412600f8968e22278c7ad14",
+    "research/astra-root-100-checks.jsonl": "a9e5338e02fee9d5eae7314d539a5f0ab877f9acbcfc3939623d9cf075be0dfc",
+    "research/astra-root-100.md": "2ea0a887e72cef8b572d5f262215766a6e5fbf177f93b24515965016d1218a02",
+    "research/quotient-soft-100-check.py": "0b7469b2b6e0af419bb33006ef022b79e5a007c949542d8105b1d99a5260d49c",
+    "research/quotient-soft-100-checks.jsonl": "1e593261fb8501b53f7e29898f74333beb5716e46a4530ecdbbbdf0f5730d10a",
+    "research/quotient-soft-100.md": "971215792b9ad8f5a965476a61d49309942cc23a5163b2f891aec588a1ab8cac"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/astra-cold-99-check.py": "268857d5cda58016e7cf8ee780d737000c92fa44d49cc57adde52c8ad2a24e4e",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-quotient-99-check.py": "14d2892831c00e458fd6a06781cd6eb39c72ded21ddc19f97684b17d348cbb8e",
+    "research/astra-recur-95-check.py": "e61efbc6a079641348661c051e1e07d4905434bc97cc42f6532b630e04167a55",
+    "research/newton-contour-98-check.py": "526d47ce6df3535b1a73f5a6d7f6c881c1fde99763c8785e4fa0807c66306e6f"
+  },
+  "additional_replay_dependency_sha256": {
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "research/astra-adjoint-82-checks.jsonl": "8a02bd8d5f43241e43344e8b83a6a17ae88874c4ed81e20e29335c03750af7b4",
+    "research/astra-cold-99-caps.json": "0b86307fc133d88dafdb2a74b8307e7ec5ba7636ca8ddfbaef8facd36044197b",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-depth-95-caps.json": "9b1585e431e383af149c78f5cdae461cb983913c2033aeb02eee58abf0fee1ae",
+    "research/astra-depth-95-check.py": "22cf35f7349cfbbc716f2c3d93fa772471f9ac21e889e12357374137e47dcc4c",
+    "research/astra-direction-83-caps.json": "e99f0b9842ef9afcb4ab791f2464aed52ba1397fddbee3ee760cff4516e254b6",
+    "research/astra-direction-83-invariant.py": "a92c1d8f3251bbe33cb6a71d32824e23f069ec7f155fcd6b6c518669795d091d",
+    "research/astra-exit-98-caps.json": "e950b6584a8f51163310251e7bbf02d3320d9f085d856e794d25bfec4c9ed8df",
+    "research/astra-exit-98-check.py": "a81b5252a25a9889a2940210f2a61fd570cad2fe0519564977930294a9db3816",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-imaginary-84-caps.json": "0e7c981df462550c8283b939f72d5a1cf274be562e7aaef22bc65c7985768a44",
+    "research/astra-imaginary-84-check.py": "c89b732a65097673feef817926e9d5913fa914d01188946cdadc7ce462530b7e",
+    "research/astra-incoming-97-caps.json": "ba524be49e3e91729bbdf564197a7f9d35c3fc8af356b86a340388082ac6f02e",
+    "research/astra-incoming-97-check.py": "7e6060be12b148f6dc81f472542e8ecb05f0fc27af195e4813faea4c7c0481ea",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/astra-paired-96-caps.json": "549deae71c6af1493ee95126fa063928e3437fbf75ea8904e4e888102fab44f6",
+    "research/astra-paired-96-check.py": "1fade1e82039862e8e302bbb71aeb8674bfec97a3d533b61dd73d7a751f5128f",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/astra-cold-99.md": "8276688cd79e36e4948cc9e297e81615c0c07840d32904b7644e1484bed1b6c3",
+    "research/astra-count-96.md": "14c8531047e2453f19a8546ac4bc2732fb5bfebc757a12095cd641d4ca93fdcd",
+    "research/astra-depth-95.md": "7afa02763663c1b1bb14a4bbbd810e356e8f4e6eaed7714e7dd4a8d0cc0a4dd4",
+    "research/astra-paired-96.md": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/astra-quotient-98.md": "069ca1575345ed5b045afec44e846f5a1cbb7d43b8ef1e98f13adfd5e02da0a1",
+    "research/astra-quotient-99.md": "4e431c3a22851d0b14492184e14549f00c8ce07a33fe9ffd63dba647e146ef4d",
+    "research/astra-rankfour-57.md": "cc023b623511b254e20691b12067692783b0a95d26453c515ba8ca0e5c2e2c78",
+    "research/astra-rankthree-56.md": "555868bbbbf3cab8b290fec32f0911bf6bd9aa31f4db760c80e1615b128d1f10",
+    "research/astra-rotate-99.md": "2884bde1c3aa8c9c65937568f37e4f14a0c4cd4f924c5970902fb4e70c4aba61",
+    "research/astra-source-88.md": "80b4849d9f4e43c9a732af10731e6f1c38f895f0c726ad8df4420e591d746f88",
+    "research/newton-boundary-98.md": "cad7d20caf547e671e6b1a11d6588ee05bd382a49169fd552955f14ab4227d24",
+    "research/quotient-floor-99.md": "73d912071f50e70497fe51662437caad2429b31ea0fcda37fec0f2f2fde7a59e",
+    "research/same-floor-97.md": "60803d1e7e47f578ddf8bb6b243fe21954e6ecd398cc375c23724358ff9e4a70",
+    "research/schur-newton-99.md": "0f602ddc7ddef65c4d1b13a05b35297ca11789a4977df0c7557c317f50730370"
+  },
+  "core_records": 8,
+  "arithmetic_record_counts": {
+    "astra-mixed-100": 3,
+    "astra-return-100": 3,
+    "astra-root-100": 1,
+    "quotient-soft-100": 1
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "/root/mixed_100",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Propagate the difference of consecutive physical marked-only source derivatives, retaining their common forcing before taking prices.",
+        "Beyond the finite/envelope regime, bound the actual signed or anisotropic exterior after deleting the largest paying nonlinear sites."
+      ]
+    },
+    {
+      "name": "/root/root_100",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Check both the root column and original optimizer projected off the actual A J/log J signed head on the filtered list.",
+        "Bound the independent one-sided triangular identity-fiber sum at the same recurrent block."
+      ]
+    },
+    {
+      "name": "/root/return_100",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound both actual one-sided logarithmic tails by .00139 with a common legal per-time erasure.",
+        "Audit the next 48-copy rank-five linear/cubic return against its remaining native one-child charge."
+      ]
+    },
+    {
+      "name": "/root/audit_100",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the same-square signed increments of the physical normalized time derivative at increasing height, paired with a small counting residual and a strict angular margin.",
+        "On the same original recurrent block obtain the one-sided triangular upper and a cheap true signed soft trial at the shrinking root."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Propagate differences of consecutive marked-only physical time derivatives before taking absolute prices. Seek either a compatible growing-depth angular and counting residual test, or a through-primes signed exterior bound at the actual first activation.",
+    "On the original filtered trapped list estimate either the two head-projector columns at root A/J or the actual previous-state centered autocorrelation gap for the signed soft objective. Retain the required one-sided triangular sum.",
+    "Collect the next rank-five cubic returns disjointly for a physical common slab, or bound the two true realized one-sided log tails with one erasure family."
+  ],
+  "floating_diagnostics": [
+    "The p=769 root replay uses numerical least-squares vectors and a numerically chosen moment basis only to propose coefficients. Every clique upper is a checked distance comparison, and the basic-law lower is certified by the outward exact moment solve against genuine signed data.",
+    "The p=769 soft comparison uses fixed integer clique data and outward Arb; exploratory screening of masks does not certify the stated normalized prices."
+  ],
+  "replay_checks": [
+    "Four final checker streams reproduced eight stored arithmetic rows using PYTHONPATH=., .venv/bin/python -B and cmp under pipefail.",
+    "The mixed replay verifies the varying physical segment products, differentiated marked Jacobi transport through height 510, and separate height-600 stationary cap.",
+    "The root replay certifies the true signed head, legal Gram trial, every rooted clique bound, a full-sector positive basic law and the proper subgroup restriction.",
+    "The soft replay checks the exact clique root and difference energy and two signed normalized prices along the same true p=769 flat prefix.",
+    "The cold replay checks two overlapping cap slabs, their inherited physical correction, and the prior-map overrun with concrete signed cubic and shape-count evidence."
+  ],
+  "proof_scope": [
+    "At an actual original-cutoff contact and in the prior eventual range, the true anisotropic source cost is below 1.84e-8 sqrt(n) whenever n^(1/4) rbar <= .025, contradicting the previous lower. The unrounded comparison excludes the corresponding regime through n^(1/4) rbar <= 1.076. The independent explicit no-hit result applies to all eligible 1e30 <= n <= 1e296 on the full nominated square. The height-600 contraction proves genuine stationary existence through n<=1e358 with the same lower n, without the later angular conclusion.",
+    "The head subspace projector yields exact Fourier zeros and a one-scalar positivity/root test on every authentic head. At p=769 the projected law root lies in [0.036664706,0.036664707]. All 828 rooted allowed clique trials and mixtures stay below 0.022777 on the fixed measured four-block head. Full capacity is bracketed by 0.076455042 and 0.076456, and no positive-root avoiding law is supported in a proper quotient subgroup. This calculation fixes the prime, horizon, and cutoff 6/5.",
+    "For a genuine signed flat prefix, the autocorrelation difference mask preserves allowable support and has explicit linear mass, nonnegativity and root tests. A single erased atom gives an explicit fractional signed price, and its zero-root improvement has a centered pairing with true preceding absolute states. The full soft dual is exact on every quotient coordinate. At p=769, the explicit repaired root is 5/108 and the signed price drops from the unrepaired autocorrelation's 2.255343363... to 1.796814795....",
+    "For n>=1e30 and eligible primes, unforced stationary holomorphy holds on 16640185 < 2^20 Re(t) < 16640191 and 2^20 |Im(t)| < 1. The open overlap matches the previous stationary branch. The all-height normalized residual bound is 9.308(.526)^h. The proof uses new rank-three complement returns and 95 previously uncollected repeated-shift rank-four shape families."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The height-varying numerical products and directional phase bounds are fixed-depth. Neither a full nominated-square continuation at unbounded order nor a uniform growing-depth bound is supplied.",
+    "At the measured p=769 head, exact avoidance by a clique-square mixture or by a law confined to a proper subgroup is weaker than full capacity. This finite obstruction cannot decide prime-uniform root retention. The actual triangular sum and escaped branch are unresolved.",
+    "The soft signed comparison has no established prime-uniform upper. In particular the needed centered autocorrelation gap and the coupled triangular estimate remain open.",
+    "The preceding cap map overruns the new frozen first packet. A gap of 2225/2^20 and the real paired log-tail tests remain open. The ordinary Lovasz theta limit is unresolved."
+  ],
+  "independent_review": [
+    "Independent Astra read-only audit reproduced all four final scripts and eight stored rows; main also replayed all four final streams.",
+    "Checked the mixed steady branch, exact marked-only differentiation, finite angular uniqueness and separate finite existence range.",
+    "Checked exact projected zeros and interval positivity, all-clique distance upper, proper subgroup cosine witness, and independently confirmed a feasible all-law root around .07645504228946479.",
+    "Checked autocorrelation mask Fourier cancellation and mass/root, soft dual signs, and exact cancellation of the two root terms in the genuine un-erased previous-state gap. Verified independent integer shape enumeration and reflected shift weights for the two glued cold caps."
+  ]
+}

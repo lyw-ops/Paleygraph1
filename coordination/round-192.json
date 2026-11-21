@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "round": 192,
+  "record_status": "ready",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment after an independent agent audit run as a background subagent; not human acceptance or mathematical certification); revised 2026-11-21 by the generation-2 brain session local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23 (agent assessment) on the user's instruction, changing the decision from hold to continue",
+  "sources": {
+    "baseline": {
+      "path": "research/round-191-acceptance.json",
+      "sha256": "51b868043d590e9d1453de4cdc7fea270a58c666c27c75927270ddf3a0449538"
+    },
+    "current": {
+      "path": "research/round-192-acceptance.json",
+      "sha256": "25a7b70e92e6a4640c3d671af94cedbb1f0445934e55f763b9caa577b0cc1041"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "new_obstruction",
+      "before": "(A-vertex) closed by vertex tightness (V) m_(<a) = o(D) on T_rho for one fixed a <= 1/2; whether the accepted (NC) consequences force (V) was open; (A-slope) behind the external geometric-progression problems.",
+      "after": "(V) cannot be reached from the sector-free (NC) consequences (proved). At relative scale (V_rel) is exactly a sharp-spectrum statement for the flat near-critical support S; (V) itself is absolute-scale on T_rho, where no accepted statement gives level information. Given the field-free statement (SS*), (V_rel) on (NC) contradicts (A4), so (V) is of target depth rather than a lever: proving it would by itself close the critical branch. (A-vertex) is recorded as an internal open problem of target depth (refuted conditionally on (SS*), unconditionally inconclusive); (SS*) is recorded as an internal field-free open problem of sparse robust idempotent type. The Round 191 uncertainty-principle heuristic fails as stated.",
+      "remaining": "(A-vertex): a genuinely signed estimate on the layers C^2/p < |F|^2 < a (every accepted device loses at least p^(1/2)). (A-slope): X = O(p) or M_sqrt(g) = O(p) logarithm-free behind cand:gp-shifted-energy (sharp form) or cand:gp-sector-constancy. Sigma g^2 >> sqrt p open. Cold paused.",
+      "evidence": [
+        {
+          "path": "research/native-claude-ordinary-nc-vertex-tightness-192.md",
+          "sha256": "509e0d4021ade6200dff650293f2487be6311b0d80f1ca9b88d3f32905b5d98b"
+        },
+        {
+          "path": "research/native-claude-audit-192.md",
+          "sha256": "455c97ed5f9928fb75ae5b6c7b1fcf9b8041449afe7bb755888b26eaed93d85b"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Continue on the user's instruction. After Round 192 the generation-1 coordinator and audit recommended hold on every line. The user then committed Rounds 183-192 and asked that the theorems awaiting human review be reviewed by another agent instead, and that research go ahead. Two calls follow. (1) An independent proof review of Lemma M' (R187), Theorem A (R188) and the R190 application of MPRRS Theorem 37. These are the load-bearing new ordinary results of Rounds 187-190 and are agent-accepted only; the user has said they cannot review them. An agent review is not human acceptance. (2) The one optional follow-up named by the Round 192 audit: a source-level literature check for a sparse robust idempotent theorem that would give (SS*) and make Round 192 Theorem E unconditional. Either outcome leaves the plan on hold for (A-vertex) unless a source is found. No cand: ID is shared by both calls; call (2) concerns the internal field-free problem (SS*), recorded without a cand: ID, and touches cand:gp-sector-constancy only if a failure of (SS) comes from progression-shaped spectra. Cold stays paused. Claude weekly quota is about 80%, so the batch is kept to two calls. Previous hold reason, unchanged as an assessment: Hold. Round 192, run on the user's choice, left (V) unreachable from the sector-free (NC) consequences and showed that, given (SS*), (V) is of target depth; the audit recommends hold. Every line is now on hold: the ordinary programme rests on (A-slope) behind two external geometric-progression problems and on (A-vertex) of target depth, and the cold line has been paused since Round 189. The only optional follow-up named by the audit (a source-level literature check for a sparse robust idempotent theorem that would make Theorem E unconditional) would not change the decision and is not proposed. Rounds 183-192 are agent-accepted and await human review; nothing is committed. From here the generation-2 brain (local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23) holds and waits for the user.",
+  "next_calls": [
+    {
+      "id": "review-lemma-mprime-theorem-a",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Are Lemma M' (Round 187, popular-quotient pair-energy lemma without BSG, with Proposition P'), Theorem A (Round 188, twisted second-norm estimate without affine energy, for every t in F_p^x) and the Round 190 application of MPRRS Theorem 37 (E^x(A+alpha) << M^(33/13)|A|^(32/13), giving the p^(16/13) obstruction level and one-match 45/26) correct as stated, with every hypothesis, normalization and quantifier used where they are applied? For each, give a line-by-line verdict: correct, correct with a stated repair, or wrong with the first failing step.",
+      "why_now": "Rounds 187-190 rest on these three results and they were accepted by agents overnight; the user has asked for an independent agent review in place of a human one before research builds further on them.",
+      "scope": "Review only; prove nothing new beyond the repairs a step needs. Work from the source reports and their audits; re-derive each step independently before reading the audit's verdict on it. For MPRRS Theorem 37, check the hypotheses (|AA| = M|A|, |A| <= p^(13/23)M^(10/23)) against the sets it is applied to, and check the statement at source if it can be retrieved; say if it cannot. Exact finite checks with exact arithmetic are allowed as evidence (research/paley-193-review-*.py); floating diagnostics are not proof. Keep the Round 187/188 hypotheses and normalizations exactly; state any place where an earlier audit's correction was needed and whether it suffices. This is an agent review, not human acceptance.",
+      "if_yes": "Record the three results as independently agent-reviewed; the plan is unchanged.",
+      "if_no": "Record the failing step; mark which accepted downstream statements (R187-R192) depend on it and must be reassessed before any further ordinary call.",
+      "if_inconclusive": "Record exactly which step could not be checked (for example the MPRRS source) and what would settle it.",
+      "inputs": [
+        {
+          "path": "research/round-192-acceptance.json",
+          "sha256": "25a7b70e92e6a4640c3d671af94cedbb1f0445934e55f763b9caa577b0cc1041"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-level-pair-energy-187.md",
+          "sha256": "5268631747d5ac3757ee328799f4e4205dd19afd5dc28184971a30255304e4b7"
+        },
+        {
+          "path": "research/native-claude-audit-187.md",
+          "sha256": "714513ca7c9be14aa397b2c8a5a6786345da9d58cb9170e4524d7c7c50d657ff"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-beyond-point-plane-188.md",
+          "sha256": "cee51251577d7d04c79a290c798dc3980a9153f494d9a87c320b68b9d0721919"
+        },
+        {
+          "path": "research/native-claude-audit-188.md",
+          "sha256": "300664ba3a9dab8e5e699254578f304d1b9798b4cbf61c75ff70ab479a1e9894"
+        },
+        {
+          "path": "research/native-claude-ordinary-gp-shifted-energy-literature-190.md",
+          "sha256": "557777a493c1dcc5804540de7329c60a06217bbb6404c7713a3e11f230c53dd0"
+        },
+        {
+          "path": "research/native-claude-audit-190.md",
+          "sha256": "6237bffb438242a90b78540f5aaf2cf158c049853a43f94713c37f7f6cc97b80"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-ss-star-literature",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Is there a published theorem, read at source, that implies (SS*) of Round 192 section 3, or (SS**) as quantified in the Round 192 audit section 2.9: a sparse, robust (approximate) form of the Green-Sanders idempotent theorem in Z/N, for sets with |S| ~ sqrt(N/2) whose normalised spectrum g = |hat 1_S|^2/|S|^2 is sharp at a fixed level a, with relative L^2 error o(1) at density N^(-1/2)? If not, what is the strongest published statement and which parameter (density, robustness, number of subgroups) it fails to reach?",
+      "why_now": "Round 192 Theorem E refutes vertex tightness (V) on (NC) conditionally on (SS*); the audit named a source-level check for (SS*) as the only remaining optional follow-up. A source would turn the conditional refutation into a proved obstruction for (A-vertex).",
+      "scope": "Literature check at source (papers read, not quoted from memory): quantitative idempotent theorems (Green-Sanders and successors), approximate or robust versions, sparse or low-density versions, Chang/Bloom-Sanders type spectral structure, and almost-periodicity results with density dependence. Keep (SS*) exactly as in Round 192 section 3 and the audit's (SS**); report the source's hypotheses and constants against those parameters. Any short derivation from a source must be written out in full. Do not use (SS*) to claim anything about the actual near-critical law beyond Theorem E's conditional statement. Mention whether a failure of (SS) through progression-shaped spectra would touch cand:gp-sector-constancy.",
+      "if_yes": "Theorem E becomes unconditional: (V) fails on (NC) and (A-vertex) needs a genuinely signed estimate on the low layers; record that and hold the vertex route.",
+      "if_no": "(SS*) stays an internal open problem; record the strongest source and the exact gap; hold.",
+      "if_inconclusive": "Record which sources could not be retrieved and the closest statement found.",
+      "inputs": [
+        {
+          "path": "research/round-192-acceptance.json",
+          "sha256": "25a7b70e92e6a4640c3d671af94cedbb1f0445934e55f763b9caa577b0cc1041"
+        },
+        {
+          "path": "research/native-claude-ordinary-nc-vertex-tightness-192.md",
+          "sha256": "509e0d4021ade6200dff650293f2487be6311b0d80f1ca9b88d3f32905b5d98b"
+        },
+        {
+          "path": "research/native-claude-audit-192.md",
+          "sha256": "455c97ed5f9928fb75ae5b6c7b1fcf9b8041449afe7bb755888b26eaed93d85b"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "round": 179,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 179 mathematical review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-178-acceptance.json",
+      "sha256": "10dceeac23ed58c55637d159d8804d83e445c239ccc84608195160ae3e0d394e"
+    },
+    "current": {
+      "path": "research/round-179-acceptance.json",
+      "sha256": "2c7ee0603b7d5ebdac1773b4b43573530fcacc84c81f2e8b345b0fdafd1ec414"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The whole actual weighted diagonal was O(p^(3673/1600)), with the coupled distinct-pole estimate above target.",
+      "after": "The equal-output product chart and a weighted affine triple moment give O(p^(9/4)) for the whole actual diagonal. Single-role and paired-map cuts and the common J invariant refine the structure of the remaining genuinely weighted problem.",
+      "remaining": "Reach O(p^(3/2)) while retaining both D amplitudes and w; test the summed matched J classes, with J=0 separated. The completed triple moment itself has lower bound (p−1)G^6/p^2, hence cannot reach target scale when G is comparable to sqrt(p). Separate one-match and zero-match estimates remain open.",
+      "evidence": [
+        {
+          "path": "research/ordinary-affine-triple-diagonal-179.md",
+          "sha256": "1511abc52dacf6b6785fe7ff9544b9c55b473e9e7dc0fa6fc10ead61983e42ee"
+        },
+        {
+          "path": "research/ordinary-parabolic-row-mean-square-178.md",
+          "sha256": "89d64995b12626f4983f1594fe3e80f266b972b274737f4e28647f6c91d02282"
+        },
+        {
+          "path": "research/ordinary-weighted-slope-product-incidence-178.md",
+          "sha256": "9e4589c664dc84d30e86206288183a3af9dfb1ae29f8d49ebd6faa1db01f1d71"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "The true ten-step cap and a hypothetical fixed counting budget at V611 were available.",
+      "after": "The actual normalized R611 has positive lower liminf even with varying floors on the original closed square. This excludes the uniform fixed-height counting threshold.",
+      "remaining": "Prove cap-controlled signed growing-height confinement or construct a genuine moving starter. The uniform complex stationary domain and derivative transfer remain separate.",
+      "evidence": [
+        {
+          "path": "research/cold-fixed-counting-source-obstruction-179.md",
+          "sha256": "eb5594666fc3a815c40a539ca9fd40d3c3bcb71ef2afaa215b921010d2a09152"
+        },
+        {
+          "path": "research/cold-seed-centered-larger-tube-177.md",
+          "sha256": "12c7cff4f9a20dc1c7bfeabef28ed87f3018a863a325c95b7b008f9a9a180c3c"
+        },
+        {
+          "path": "research/astra-fixed-79.md",
+          "sha256": "7cc7526d04f12499f5a437ab3f4ef306d228bc7a2b35443964308601f0f70e71"
+        },
+        {
+          "path": "research/astra-dissipation-80.md",
+          "sha256": "a3c931667e734483352c20c49ba3f56a7d1322c9870c34f76c2526d8819fe931"
+        },
+        {
+          "path": "research/astra-direction-83.md",
+          "sha256": "241d871d9b6c767177f7301bdc85b8b370b0cbafd80dcb23b1b91dcd43a3d62d"
+        }
+      ]
+    }
+  ],
+  "decision": "hold",
+  "decision_reason": "The user requested a pause when Round 179 ended. Both mathematical routes have been independently reviewed. Ranked continuation tests are retained in the acceptance; no new call is proposed for current dispatch.",
+  "next_calls": [],
+  "shared_candidates": []
+}

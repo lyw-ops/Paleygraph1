@@ -1,0 +1,44 @@
+{
+  "round": 132,
+  "dispatch_status": "running; both launches observed, HTTP responses pending",
+  "accepted_checkpoint": {
+    "path": "research/round-131-acceptance.json",
+    "sha256": "0f7f0db9a1d614e8508f06c2a382905d39464da868460cdbd644d60b09ac5606"
+  },
+  "coordinator": {
+    "path": "coordination/round-131.json",
+    "sha256": "5274655d9a637b9ed219156c761da87b87743f6c734bbc11b7395254fd1d89b5"
+  },
+  "validation_snapshot": {
+    "path": "/tmp/paley-archive-hydration-01a1ed0a/snapshot-manifest-131.json",
+    "sha256": "4870e25c15753a899a866e828c0de4d0f30d44078dce90fd97fc878544deeb86"
+  },
+  "local_session_id": 60966,
+  "lanes": [
+    {
+      "call_id": "zero-floor-ordinary-mean-comparison",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "b9fae70838b2b7250e5c16d942bd1332f6706af156837fac8a6b45453d3e5b60",
+      "started_utc_epoch": 1795108443,
+      "mission_file": {
+        "path": "/tmp/paley-r132-overflow-mission-01a1ed0a.md",
+        "sha256": "d2c199b7b0fcc06ed8bfd017207fea2f082410395b560b8edee13dab23c7a9fd"
+      },
+      "pending_receipt": "/tmp/paley-r132-api-01a1ed0a/overflow-receipt.json",
+      "pending_candidate": "/tmp/paley-r132-api-01a1ed0a/overflow-candidate.md"
+    },
+    {
+      "call_id": "cold-actual-signed-block",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "c363630a712d2a0ebef600c2398c8aae3950344ef06f4996f92129ae14b7009c",
+      "started_utc_epoch": 1795108443,
+      "mission_file": {
+        "path": "/tmp/paley-r132-cold-mission-01a1ed0a.md",
+        "sha256": "fa9210373683a0c113a4876e9194499112437472efa27495c9e5c1a0383e5852"
+      },
+      "pending_receipt": "/tmp/paley-r132-api-01a1ed0a/cold-receipt.json",
+      "pending_candidate": "/tmp/paley-r132-api-01a1ed0a/cold-candidate.md"
+    }
+  ],
+  "next_step": "Check both returned mathematical arguments against actual prime means and physical signed derivative."
+}

@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Claude Opus 5.5 coordinator (agent assessment)",
+  "comparison": "The three dispatched routes were compared after their results. The J-fiber route reduced its open part to the generic J sum of the whole weighted diagonal and to a direct first mass M_w. The slope-product route improved the right energy E(mu) feeding the separate one-match criterion and showed that route cannot reach the one-match target through E(mu). Neither result reduces to the other's estimate at the same hypotheses and scale: the diagonal and the one-match covariance remain separate obligations. The cold route shares no estimate with either. No overlap group is recorded.",
+  "groups": [],
+  "dispatch": "coordination/round-180-inflight.json",
+  "launched_at_utc": "2026-11-20T03:12:12.165606Z",
+  "launched_calls": [
+    "ordinary-prime-paired-J-fibers",
+    "cold-prime-signed-growing-prefix",
+    "ordinary-prime-mixed-row-slope-product"
+  ],
+  "before_sha256": "e8f9b90a593052d830b2810df7932ae30ff854eb254e0f91e2c319272554fc4f"
+}

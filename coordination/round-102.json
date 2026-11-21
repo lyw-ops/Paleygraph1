@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "round": 102,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinating agent after independent read-only Astra review of Round 102",
+  "sources": {
+    "baseline": {
+      "path": "research/round-101-acceptance.json",
+      "sha256": "a3b88f7577c73576b10eef82132a28ecd40c81dd7f77fb9024bdcb1cd423e13a"
+    },
+    "current": {
+      "path": "research/round-102-acceptance.json",
+      "sha256": "6bb2f30ffb5e0aa899490894de4867a70d3296f7bd5389facd3484ed87efb150"
+    }
+  },
+  "changes": [
+    {
+      "id": "marked-free-source",
+      "route": "Physical frozen resolvent at the original angular cutoff",
+      "effect": "weakened",
+      "before": "Adjacent forcing cancellation at height 517 gives finite exclusion through n<=1.7e304.",
+      "after": "Height 527 raises the finite exclusion to n<=1e310. An exact frozen identity removes the marked forcing and the bare quadratic seed.",
+      "remaining": "At genuinely increasing heights maintain the physical disks and vanishing counting residual, then estimate the signed combined bulk source Zb uniformly by 15.",
+      "evidence": [
+        {
+          "path": "research/astra-resolvent-102.md",
+          "sha256": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11"
+        },
+        {
+          "path": "research/astra-marked-101.md",
+          "sha256": "9ef47e328f762e92fad89b95f1b11b9ccb176c7105f1de06da1a87bbd5fb1a36"
+        }
+      ]
+    },
+    {
+      "id": "true-terminal-price",
+      "route": "Recurrent quotient prices on the original filtered list",
+      "effect": "reformulated",
+      "before": "A cheap signed flat trial or a cheap preceding absolute price is needed under the original triangular upper.",
+      "after": "The truncated Abel identity pairs a predecessor trial and an independently chosen last-increment law. Under small triangular forcing and cheap predecessor, every eligible law has positive order-J^3 terminal increment price.",
+      "remaining": "Find the genuine terminal subcubic upper and true cheap predecessor alongside the triangular estimate. Treat the escaped branch independently.",
+      "evidence": [
+        {
+          "path": "research/astra-prior-102.md",
+          "sha256": "46a564a030f41d8a282092160a045e024f0b316cf09583a2be02b8857b792f88"
+        },
+        {
+          "path": "research/prior-minority-101.md",
+          "sha256": "9fd0aecc78cf64ce36593b4e494d4fab5c97c5b82f790410eff28180e23789b5"
+        }
+      ]
+    },
+    {
+      "id": "unforced-common-slab",
+      "route": "Genuine unforced cold continuation and common real erasures",
+      "effect": "weakened",
+      "before": "The common unforced left edge was 16640183/2^20 and the two signed real tails required a joint legal erasure.",
+      "after": "The new signed dual slab reaches 16640182.375/2^20. A minimum-count deletion formula for both real tails reduces the real orbital test to one count per row, sign and time.",
+      "remaining": "Close the 2222.375/2^20 gap or prove the actual signed-tail count upper with the same original erasure budget.",
+      "evidence": [
+        {
+          "path": "research/astra-cubic-102.md",
+          "sha256": "b25c85dc7836e6d512b4cc25a31aacea687c3f13e38acb52e73c804fc3b61bb2"
+        },
+        {
+          "path": "research/astra-exit-98.md",
+          "sha256": "03f0b91acbeb0d1c5c063d2a6b19cd737755594472621fd8865ce096ce391537"
+        }
+      ]
+    },
+    {
+      "id": "real-cap-weights",
+      "route": "Actual inhomogeneous real weights after amplitude clipping",
+      "effect": "reformulated",
+      "before": "First real exit at 4 sqrt(t) is a barrier to strict contraction of the original Picard continuation.",
+      "after": "The globally contracted amplitude-capped point has a vanishing scaled mark and gives a genuine decreased-weight complementary pair as long as all its explicit products are positive.",
+      "remaining": "Prove relaxed all-site positivity and vanishing mean cap deficit at a sequence of fixed real floors decreasing to zero. This real criterion supplies no complex continuation.",
+      "evidence": [
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        },
+        {
+          "path": "research/astra-incoming-97.md",
+          "sha256": "38efd65265f3a76c49c7a1a4d9088f894bd063b9163fd3e378caccb7a033e6ba"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The marked-free identity and the independent terminal trial isolate prime-uniform tests on the actual inputs. The finite angular progress and local unforced slab leave the original ordinary theta limit open.",
+  "next_calls": [
+    {
+      "id": "signed-mark-free-growing",
+      "priority": 1,
+      "change_id": "marked-free-source",
+      "question": "Can the physical signed resolvent of the combined quartic and mixed source stay at most 15 at increasing depths with vanishing counting residual?",
+      "why_now": "The marked exceptional term is already eliminated before pricing. The pure seed starts in degree four.",
+      "scope": "Use the original full square, actual nine-center predictor and physical sheet. Establish the prime-uniform analytic estimate or isolate a specific growing-depth arithmetic bound. Keep the fixed-height 527 result separate.",
+      "if_yes": "Prove the resulting angular exclusion in the genuine branch and give all other required estimates.",
+      "if_no": "Identify the first physical obstruction or loss, with units and hypotheses.",
+      "if_inconclusive": "Return a narrower quantified combined-source estimate or a verifiable signed decomposition beyond the existing statement.",
+      "inputs": [
+        {
+          "path": "research/astra-resolvent-102.md",
+          "sha256": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11"
+        },
+        {
+          "path": "research/astra-marked-101.md",
+          "sha256": "9ef47e328f762e92fad89b95f1b11b9ccb176c7105f1de06da1a87bbd5fb1a36"
+        },
+        {
+          "path": "research/astra-mixed-100.md",
+          "sha256": "2a55170920bbe2ff60de667568397447f2b0255dfcebf8792d56a61a1fc0140c"
+        }
+      ]
+    },
+    {
+      "id": "terminal-velocity-law",
+      "priority": 2,
+      "change_id": "true-terminal-price",
+      "question": "Can the authentic signed terminal velocity be priced subcubically at quotient root A/J on the original recurrent candidates?",
+      "why_now": "One terminal law is independent of the predecessor trial. Its positive AJ^2/log J head has density O(log^2 J/J^4).",
+      "scope": "Preserve the genuine zero-start nonlinear map, original candidate filter, recurrent bounded block, masks and shrinking root. Use a specific quotient construction or dual control. Separately state any needed prior and triangular estimates.",
+      "if_yes": "State the genuine branch eliminated by the independent terminal and prior bounds.",
+      "if_no": "Give an actual price obstruction or diagnose an identified failed sufficient method on the correct data.",
+      "if_inconclusive": "Give a sharp verifiable transfer to a new structural or arithmetic estimate.",
+      "inputs": [
+        {
+          "path": "research/astra-prior-102.md",
+          "sha256": "46a564a030f41d8a282092160a045e024f0b316cf09583a2be02b8857b792f88"
+        },
+        {
+          "path": "research/astra-price-101.md",
+          "sha256": "44c8b9a7d9bf77c445f87770bbe082223f9c34adcdcef39100a88d670800450d"
+        },
+        {
+          "path": "research/quotient-floor-99.md",
+          "sha256": "73d912071f50e70497fe51662437caad2429b31ea0fcda37fec0f2f2fde7a59e"
+        }
+      ]
+    },
+    {
+      "id": "relaxed-positive-cap",
+      "priority": 3,
+      "change_id": "real-cap-weights",
+      "question": "Can the real clipped stationary row retain all positive relaxed coordinate products, and can its mean defect be shown to vanish?",
+      "why_now": "The global cap already solves the marked cancellation and changes actual real weights by a known mean amount.",
+      "scope": "Use exact real complementary-sector feasibility at fixed positive t and M. Track the smallest changed weight and the order of t, p and height limits. Treat cold diameter and t decreasing to zero separately.",
+      "if_yes": "Show actual real mark control with the precise floor sequence and any implication for ordinary theta.",
+      "if_no": "Give the specific defect or an explicit class illustrating sharpness.",
+      "if_inconclusive": "Derive an estimate or a legal repair tested at a new genuine threshold.",
+      "inputs": [
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        },
+        {
+          "path": "research/astra-cubic-102.md",
+          "sha256": "b25c85dc7836e6d512b4cc25a31aacea687c3f13e38acb52e73c804fc3b61bb2"
+        }
+      ]
+    },
+    {
+      "id": "common-actual-tail-count",
+      "priority": 4,
+      "change_id": "unforced-common-slab",
+      "question": "Can the true two-tail common deletion count be bounded at every pre-exit time by floor(sqrt(n)/6000)?",
+      "why_now": "The exact signed greedy count gives a decisive check on the physical pre-exit path; the displaced quartic pool is an independent fallback.",
+      "scope": "Preserve the actual orbit, original oriented row and common deletion for both signed tails. For complex fallback price disjoint original shifts and require real overlap.",
+      "if_yes": "State the genuine first-exit exclusion or the certified colder local domain.",
+      "if_no": "Save a physical signed count obstruction or exact failed slab cap.",
+      "if_inconclusive": "Return a computable or analytic upper for the true count, or a verified new signed resource identity.",
+      "inputs": [
+        {
+          "path": "research/astra-cubic-102.md",
+          "sha256": "b25c85dc7836e6d512b4cc25a31aacea687c3f13e38acb52e73c804fc3b61bb2"
+        },
+        {
+          "path": "research/astra-exit-98.md",
+          "sha256": "03f0b91acbeb0d1c5c063d2a6b19cd737755594472621fd8865ce096ce391537"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 5,
+      "change_id": "marked-free-source",
+      "question": "Do the Round 103 candidates follow at their claimed uniform and finite scopes?",
+      "why_now": "Independent assessment precedes acceptance and protects the distinction between claimed mathematical bounds and API suggestions.",
+      "scope": "Review exact real constraints and physical frozen angular norms. Reproduce frozen arithmetic if present and check any gateway output as a draft. Return 1-2 ranked tests.",
+      "if_yes": "Identify validated proof scopes and any separate evidence.",
+      "if_no": "Identify the first substantive defect or failed replay.",
+      "if_inconclusive": "List verified components and open obligations.",
+      "inputs": [
+        {
+          "path": "research/astra-resolvent-102.md",
+          "sha256": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11"
+        },
+        {
+          "path": "research/astra-prior-102.md",
+          "sha256": "46a564a030f41d8a282092160a045e024f0b316cf09583a2be02b8857b792f88"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "round": 110,
+  "accepted_at_utc": "2026-11-19T13:29:48Z",
+  "previous": "research/round-109-acceptance.json",
+  "previous_sha256": "3bf001e1ef90a9a71105b8981ed1bfff0b94793287d69efb1c1963c8d3f232f1",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-109.json",
+    "sha256": "c36b2d7b67a3d3949c5549ed1da95eefe0696c08e306f8601acbab4c3d1519fa"
+  },
+  "proof_and_code_sha256": {
+    "research/api-astra-110-receipt.json": "e3806cd7e2e730cf0de17e840c3f5f639f92a7040d6e75b1a810395bf10c71f6",
+    "research/api-astra-overflow-110.txt": "a2eff747522ae409bcb20c9608b27d5b5e13df5885899cdbfe1c85f7e44a3d9c",
+    "research/api-astra-review-110.md": "1c19ff9200e5b11ab122a5d1760bd5fd5f442ef419729326be4759ff425b892e",
+    "research/repair-core-average-110.md": "3de69109361e6c23c6ac88ba07f31602342e6daf69fda6adbc28e551fd884637",
+    "research/repair-core-defect-balance-110.md": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/parallel-arithmetic-2.md": "cc98e7e614ad423490bef236966b392e8eb6374eba02eab769c5eb7e0d9db337",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/projected-cap-completion-108.md": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5",
+    "research/real-inner-cap-quadratic-107.md": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996",
+    "research/repair-carrier-109.md": "b2230d264c55f4d91152761333d5b59d8b9aa3b9c5b4d702c8d261f83778407b",
+    "research/square-order-control.md": "2946fe5f1a2b3bc614daef3e00ad38fb142e7b8bab25977b1d121ad191789b6b"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, persistent core signed balance",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test the genuine weighted spectral defect and compare it quantitatively to the actual lower pairing and spectral upper.",
+        "Seek an additional true structural restriction on the actual high core and its source."
+      ]
+    },
+    {
+      "name": "/root/audit_110",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test the signed Jacobi balance with the genuine exterior retained and the actual mean term.",
+        "Use minimum-width arithmetic only after proving the requisite effective-size hypothesis."
+      ]
+    },
+    {
+      "name": "/root/audit_110b",
+      "status": "completed",
+      "ranked_closeout": [
+        "Split the required opposite-sector negative pairing into the marked and true bulk terms before invoking arithmetic cancellation."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the true persistent core/exterior energy balance to identify the genuine arithmetic obstruction, preserving the exact centered exterior and the independent marked term.",
+    "Test a signed averaged Jacobi moment of the genuine near-eigen core using the moving threshold and the actual positive weights, with repeat configurations separated.",
+    "Maintain the explicit small critical cap-rate, slack-adjusted LP, and complex moving-starter routes as separate genuine sufficient mechanisms."
+  ],
+  "proof_scope": [
+    "On the persistent genuine negative core, the actual time-averaged opposite-sector projection equals the restricted endpoint difference divided by the number of steps. Its normalized second norm is O((nL)^(-1/2)), hence O(n^(-3/4)) on the fixed-threshold square-root-length window. The signed local balance includes the full exterior and the correct mean term.",
+    "The core and exterior signed Jacobi defects differ by an explicit mean and endpoint pairing. Their difference is O(n^(-1)) at fixed threshold and square-root length. With threshold n^(-beta), 0<beta<1/10, the persistent block length can be of order n^(1/2-5 beta), the core has cardinality O(n^(1/2+beta)), critical effective support, and signed Rayleigh loss O(n^(-beta)).",
+    "The averaged repair has a genuine centered opposite-sector projection component of norm comparable to n^(-1/2), asymptotically outside the selected persistent core. An exact ordered-pairs expansion forces its negative pairing with the starting row. The proof does not isolate that negative pairing to the unmarked bulk.",
+    "The square subfield-annihilator coset gives an exact coherent static comparison at the local projection and Rayleigh scales. Its full-coset negativity cannot be an actual positive-mean opposite-sector repair row. The returned API draft uses the wrong additive matrix and does not produce an arithmetic bound for the genuine Jacobi operator."
+  ],
+  "failed_paths_and_open_bounds": [
+    "Replacing the multiplicative-frequency Jacobi matrix by the additive Paley matrix invalidates the raw API sum. Its proposed uncentered exchange also fails to annihilate constants.",
+    "Removing the low-amplitude exterior by only its normalized second norm does not preserve the precision of the local signed balance. Core cardinality at or near the minimum entry-support width is not established.",
+    "No field-uniform cancellation or inconsistent coexistence of the core and exterior defects has been proved. The ordinary all-prime theta limit and common cold analytic square remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. The API completion receipt preserves the prompt digest and response metadata; the raw draft is retained separately from the reviewed deductions."
+  ],
+  "independent_review": [
+    "Verified the exact core telescope and signed local balance, the two threshold/length parameters and the restricted Rayleigh estimate.",
+    "A separate read-only review checked exact defect matching, all moving-threshold exponents, the centered exterior, and the square-coset comparison."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "round": 93,
+  "accepted_at_utc": "2026-11-19T09:07:32Z",
+  "previous": "research/round-92-acceptance.json",
+  "previous_sha256": "150e8c6167b7952202ae5da7cf49f44d364bc6904c79f071aedaba867fe97880",
+  "proof_and_code_sha256": {
+    "research/rotated-cap-93.md": "80fa9a35009d12935e9c25f2e0579c65250c070d3caafc48a9391b67d473274a",
+    "research/rotated-cap-93-check.py": "bca6ca4e93db31c4b2f6410bd2446fc6af61f3603d471deb10a0a6cfcda3288a",
+    "research/rotated-cap-93-checks.jsonl": "b7cc0e50c2527f8e70411318690a4e7ec286366c65061aac7a9ea3b8e5bbe678",
+    "research/astra-minors-93.md": "115def73eba82f72cbb90d567c7cd809c6c10967ac1632dca781d825504f8e62",
+    "research/astra-minors-93-check.py": "adeac097c0669842c1cc3cca29493dca239f23b0520c321c7c43033892c84df3",
+    "research/astra-minors-93-checks.jsonl": "07f6ba4e2ea0cc8d5e3e8dab9db05c574c642694b142c3c6f5a656b29042a275",
+    "research/astra-coset-93.md": "09ac31141d07f30b6b7e261a39962e5631630422f085f7c2564ef8f81ab14d83",
+    "research/astra-coset-93-check.py": "187167313574a8807915852b7e1bf1342e63901165472519b0a49c7cfd4dc063",
+    "research/astra-coset-93-checks.jsonl": "3db14edccb5fdd33fa19b0f890013713e845247ed3b4478cbc7206571140176b",
+    "research/astra-deleted-93.md": "de060758669754050ae2e5e5d147aa24580350b35e6ed354f1d1439eba0b32b3",
+    "research/astra-deleted-93-check.py": "ee6b33c0409c02e5bdbe23596e7cee197b078848d58d35facd373d5e222fbb14",
+    "research/astra-deleted-93-checks.jsonl": "61f6bf981d033be3545b37212d746f05675f84a9ad4e99bed36ea87d34e3302d"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cap-sweep-92-check.py": "6b3e03a399e3d15bb10ba9dfac2c959de511aa170f0cc2f6924b1b2fc8cd616b",
+    "research/astra-velocity-92-check.py": "e4c7558ec60c897777c666d9da096650a28361517e2e4f3b4065c263c9dbbc3c",
+    "research/astra-quotient-75-check.py": "22319bdbc991fb07cd75584f2703bb9084783736ce1f22b37795679de5cdaefe",
+    "research/astra-quartic-89-check.py": "eb695e305e87200958cda4e65046df9dcc0968f42f3277d12db90a3a4049c7c9",
+    "research/astra-matched-88-check.py": "c8962f090161cfd5611a69b7101c1a94be524f94cde2a6fc04face0216f5c9dd",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "additional_inherited_dependency_sha256": {
+    "research/real-two-marks-91-check.py": "9ff7d4183b674e4c81dccac9be9bf0a6e90b96d252e50135f79b07eca48c5f14",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "research/cap-sweep-92.md": "17e659359729d2062bb9562ea28b2675f8f3db29bc0007d0448262cd7d4202d3",
+    "research/clipped-signs-90.md": "69fdd51ffbf485f2c8c5866c433c92ee0d13faeb52cec1fa5acd240b33a52fa7",
+    "research/astra-phase-86.md": "ba511d10d4de1912d4ffd06c1a4b656a9b2fd3ce32bab0a3e09405ac8432e809",
+    "research/relative-phase-rotation-85.md": "dc96c5132aaf1ad27f5545e6f4cefa1781f7a3f68fb100fbc79e92b12c44a087",
+    "research/real-phase-projection-89.md": "fabe652d3d6a401ab22d17ea09e5ee5fdfe2b0defd4d2c059aed6ef388c45612",
+    "research/marked-response.md": "5c9f8989e3e9b1ef1bce6e3b2b32cd224639289a463bf688b37b1405304765f7",
+    "research/astra-velocity-92.md": "f1b94d7a571e92fb54387fd2e09af16ff45610a516b257b8858f462db04b0fa7",
+    "research/response-locality.md": "c27dc4800790abee43b4933c83f808fd7ad975a0167c2f86baa363eb6b783428",
+    "research/astra-tails-89.md": "1beb107b9bbec6928dfd8f2a82199786e61a527e33b38c899f733f11256a1a7e",
+    "research/astra-dissipation-80.md": "a3c931667e734483352c20c49ba3f56a7d1322c9870c34f76c2526d8819fe931",
+    "research/entropy-heads-81.md": "7276c86f1eb06941fbd4922f045548cc6905cd79ee1471aee645971861e7ee7e",
+    "research/astra-hardtail-33.md": "dbebd3aac67b205937fb7b975c7dd49b77d7260fc81fbb01da4150499b5e23eb",
+    "research/astra-height-92.md": "3bdb315820ca19a88d1d381803a98b70c30dd219ff51e60093da2a31afa3f378",
+    "research/coset-majorants.md": "730e5981cf5a720bd0439c2c5c4895d552a81f8a3b54c8c5357ccaff7f81fac7",
+    "research/astra-persistent-88.md": "56d6df9a10c4dc9abd5866aa325633238ea8b63fa455fef1fbdf3ca7636c3638",
+    "research/astra-discount-91.md": "6e79bd5f21c02b97334132cc093e2e710a6a6faf7a53e75784dfbea9149192e9",
+    "research/astra-fiber-91.md": "ad693dce038750982553b06607a528d21e8009cca1c8a9e5cda6382ef1c0d7f9",
+    "research/astra-affine-90.md": "8d07746bb4d4fc2b1fdefbc1907a2295ebe1bd283c8e72b58a1647d15c95ac67",
+    "research/astra-price-92.md": "69edf2b6f5ab334505b4de97aa689c2257f52336aa4a7bbab014d9a9271ac52d"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "primary_sources": [
+    {
+      "url": "https://doi.org/10.2307/2374240",
+      "use": "Semialgebraic piecewise selection for actual cap parameters, inherited from round 92"
+    },
+    {
+      "url": "https://arxiv.org/abs/1905.09134",
+      "use": "Hanson–Petridis prime clique ceiling on the positional subgroup"
+    },
+    {
+      "url": "https://arxiv.org/abs/1303.3539",
+      "use": "Kneser's theorem on the three-step forbidden product set"
+    },
+    {
+      "url": "https://web.math.princeton.edu/~nmk/Katz-GKM.pdf#page=84",
+      "use": "Shift-uniform Jacobi Gauss quotient moments in the actual hot perturbation"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10941333/",
+      "use": "Inherited complete mixed character sums for nonlinear short-prime deletion transfer"
+    }
+  ],
+  "research_agents": [
+    {
+      "name": "/root/minors_93",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "On the real profile selected by a hypothetical first tie, bound one sector's oriented exterior cross-ratio sum, excluding the two local row scales.",
+        "At the nominated mark seek a lower on the joint opposite-sector interpolation errors throughout the admissible even perturbation ball, to test the all-profile shortcut."
+      ]
+    },
+    {
+      "name": "/root/coset_93",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate the restricted theta ratio times true physical mask occupancy at a single admissible shortfall pin, using near saturation on that same set by every primary optimum.",
+        "At odd-order girth seven combine the independent product set of two forbidden steps with the two-layer Jacobi constraints on the short quotient."
+      ]
+    },
+    {
+      "name": "/root/deleted_93",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Compare the actual oriented independent-sector quantile at the proved short-prime budget with the intact signed first gap. For larger deletions test the one-sided uniform-integrability criterion.",
+        "Test actual growing difference tables of the larger row against its relative mark gap, retaining the signed price of the omitted points."
+      ]
+    },
+    {
+      "name": "/root/audit_93",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "At 2031/128 test the unaveraged actual imbalance against the admissible center interval and the logarithmic shift threshold.",
+        "At an actual first tie test a single sector's oriented exterior minors below the required threshold. A balanced clipped row needs its own link to the tie criterion."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Test the actual count-normalized cap imbalance along an admissible center sweep at the nominated cold floor. Use signed return on balanced survivors, and the exterior-minor condition separately at a genuine first tie.",
+    "At one admitted pin bound the restricted theta and physical occupancy product on the same critical coset, especially in the remaining odd-order case.",
+    "Resolve the actual product positive tail or growing difference average on fixed-gap candidates, retaining the omitted signed contribution under the short-probe quantile formula."
+  ],
+  "core_records": 14,
+  "arithmetic_record_counts": {
+    "rotated_physical_cap_arb192": 3,
+    "signed_minor_and_physical_profile_arb256": 4,
+    "critical_quotient_integer_and_arb384": 3,
+    "short_probe_deletion_arb384_and_exact_square": 4
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main replayed all four final checker files under pipefail with PYTHONPATH=., .venv/bin/python -B, comparing all 14 records byte-for-byte. The independent auditor reproduced 13 records before the final all-direction minors arithmetic addition and final coset coefficient refresh. The corresponding workers replayed their final records.",
+    "Three Arb192 records solve the p=173 rotated cap at centers -1/250, 0, 1/250 on the stated small-real-part ray. They check both absolute rotated marked angles and certify the two negative angular derivatives and a strict cap-free shifted row.",
+    "Four Arb256 records verify the two sharp exterior projector caps, true mark-neutral perturbation and its derivative at p=173, and the arithmetic constants of the nominated-floor all-direction alternative.",
+    "The coset records certify 778 finite restricted sign-and-divisor cases through p=3000 by explicit clique witnesses or three repaired rational opposite certificates. They also verify an actual p=97 five-cycle and its separate physical mask comparison, and the strict odd-order limiting coefficient.",
+    "Three Arb384 deletion records check genuine optimal rows at p=53,257,409, including the positive-price and top-budget formulas. An exact square-power record checks selective failure for subfield probes at 101^2."
+  ],
+  "proof_scope": [
+    "For the stated small ratio and angular margin the translated phase cap has genuine even positive-real-part clipped factors. Mean and both signed correction sums are canonical. A pointwise anisotropic work inequality holds across allowed local differential motions and gives the improved centered cap-sweep coefficient on the full round-92 range. The center motion decreases the signed imbalance and obeys exact local reciprocity with width motion. The counting threshold may fail through unbounded fields.",
+    "A first-contact oriented exterior-minor sum is necessary in both sectors, with sharp optimization over the two omitted row scales. A genuine prime-uniform large-floor family obstructs all-profile delocalization in freely varying near-flat weights. At the nominated real mark a whole-box delocalization bound would force tiny opposite-sector approximation errors at one genuine pair. Neither arbitrary profile statement decides the cold tie on its selected profile.",
+    "For the trapped, positive-mass, asymptotically unit-efficiency branch the cubic law is asymptotically uniform on the actual intersection of the mask and critical self-inverse coset, with uniform saturation on every optimum there. The critical restricted theta gives a prime cap 0.462700+o(1), sharpened by even sign and by a disjoint coset factor. Finite computations do not impose a larger asymptotic quotient exclusion.",
+    "On the original independent polylogarithmic short-prime probes and bounded quotient index, the positive and negative deleted price extrema and complementary price transfer up to total budget o(sqrt(p) log log(p) / log log log(p)). A one-sided tail condition controls arbitrary o(p) deletions deterministically. A Fourier difference criterion may lead to balancing the retained part while leaving the original full gap on the omitted sites."
+  ],
+  "independent_review": [
+    "Independent Astra verified the rotated Brouwer map, inverse mean scaling, two signed canonicity arguments, angular work coefficient and reciprocity. It identified both absolute rotated marked-angle assertions for the finite checker, which were added and independently replayed.",
+    "The auditor checked the signed Gram-minor formula and true uniform hot obstruction. Main reviewed the subsequent all-direction cold variational alternative and its constants.",
+    "The auditor checked the odd-girth-nine quotient exclusion and the repaired proof formatting. Main reviewed the final half-character coefficient improvement and the final replay.",
+    "The auditor reviewed the optimized stop-loss transfer, two-axis control and one-sided deterministic Jensen test. The rounded signed prices still require the stated probe and density hypotheses."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The admissible translated center interval may be too short to absorb the counting signed imbalance at unbounded n. A common physical cap-free section remains open.",
+    "Freely specified near-flat real products can already focus the actual stationary column in the hot comparison. The cold contact-specific projection inequality needs additional structure.",
+    "The quotient criteria leave smaller positive shortfall mass, and do not bound the height/occupancy of the remaining actual charged coset or cure the escaped branch.",
+    "A deletion may carry the original fixed signed gap. The actual one-sided distribution tail and signed cancellation over a complete affine window remain unproved."
+  ]
+}

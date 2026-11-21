@@ -1,0 +1,229 @@
+## Status
+
+**Inconclusive, but the proposed terminal route is algebraically sound under the stated recurrent hypotheses.** It gives a conditional subcubic terminal upper, not yet an asymptotic construction of the required terminal law.
+
+### 1. Exact terminal splice
+
+Work on a filtered recurrent candidate with
+
+\[
+b=|G/L|=n/m,\qquad m\asymp\sqrt n,\qquad
+T=J-2,\qquad h=\frac{2}{J(J-1)},\qquad
+\rho=Jh=\frac2{J-1}.
+\]
+
+All quotient laws below are **real nonnegative probabilities** on quotient blocks. If \(r_R\) is the mass of block \(R\), then the physical lift has value \(r_R/m\) on that block. Thus \(r_0=v=r(L)\) is a block mass, not a per-coordinate density. Fourier sectors may be represented complexly, but conjugate sine/cosine modes are both included and the resulting law is real.
+
+For the genuine states \(Y_j\), write
+
+\[
+d_j(q)=\sigma\langle q,1_{L^c}Y_j\rangle,\qquad
+e_j(q)=\langle q,1_{L^c}|Y_j|\rangle,
+\]
+
+and
+
+\[
+P(q)=\frac{\sum_{j=0}^T e_j(q)}{Jw},\qquad
+S(q)=\frac{\sum_{j=0}^T d_j(q)+d_T(q)}{Jw},
+\]
+
+where \(w=q(L)\). The authentic terminal price for an independent \(r\), \(v=r(L)\), is
+
+\[
+I(r)=\frac{d_{T+1}(r)-d_T(r)}{v}.
+\]
+
+The one-step recurrence identity is
+
+\[
+f_j=(1-\sigma\lambda)(a_j+c_j)
++\frac{e_j(q)-d_{j+1}(q)-2g_j}{w}.
+\]
+
+Using \(q\) for \(j<T\), and using \(r\) only at the final step,
+
+\[
+f_T+I(r)
+=(1-\sigma\lambda)(a_T+c_T)
++\frac{e_T(r)-d_T(r)-2g_T}{v}.
+\]
+
+The drop from the last nonzero triangular weight to zero contributes the required second copy of \(d_T(q)\). Hence the exact Abel splice gives, after the permitted erasures,
+
+\[
+F+\rho S(q)+hI(r)
+\ge c_0J-\frac4{\min(w,v)}-o(1), \tag{A}
+\]
+
+and, using \(S(q)\le 2P(q)\),
+
+\[
+F+2\rho P(q)+hI(r)
+\ge \frac{c_0J}{2}-o(1). \tag{B}
+\]
+
+These inequalities retain the full recurrent source and use the genuine final increment; no hot-interior surrogate is involved.
+
+Take
+
+\[
+A=\frac8{c_0},\qquad w,v\ge \frac AJ.
+\]
+
+Then the right side of (A) is at least \(c_0J/2-o(J)\). Consequently:
+
+- if \(F\le o(J)\) and \(P(q)=o(J^2)\), then every eligible \(r\) satisfies
+  \[
+  I(r)\ge \left(\frac{c_0}{4}-o(1)\right)J^3;
+  \]
+- the same conclusion follows from \(F\le o(J)\) and \(S(q)=o(J^2)\).
+
+Thus a cheap genuine predecessor and a subcubic authentic terminal law are incompatible with the recurrent branch.
+
+### 2. Conditional subcubic terminal price
+
+Let \(u_R\) be the measured signed block mean of the true increment
+
+\[
+Y_{T+1}-Y_T
+\]
+
+on exterior block \(R\), with \(u_0=0\). The nonlinear cold map is 1-Lipschitz coordinatewise, and \(K\) is contractive in normalized counting \(\ell^2\). Under the zero start,
+
+\[
+\frac1b\sum_R u_R^2\le 4+o(1),\qquad
+\frac1b\sum_R (u_R)_+\le 1+o(1).
+\]
+
+The second inequality uses the zero global mean of the signed increment and
+\(\|Y_{T+1}-Y_T\|_{2,n}\le2\).
+
+Set
+
+\[
+s=\frac{AJ^2}{\log J},\qquad H=\{R:u_R>s\}.
+\]
+
+Then
+
+\[
+\frac{|H|}{b}\le \frac{4+o(1)}{s^2}.
+\]
+
+Suppose there is an admissible real law \(r\) with \(v=r_0\ge A/J\) and
+
+\[
+r_R\le \frac d b\qquad(R\in H),
+\]
+
+where \(d=o(J^2)\). Since \(u_R\le s\) off \(H\),
+
+\[
+\sum_R r_Ru_R
+\le s(1-v)+\frac d b\sum_{R\in H}(u_R)_+
+\le s(1-v)+(1+o(1))d.
+\]
+
+Therefore
+
+\[
+I(r)\le
+\frac{s(1-v)+(1+o(1))d}{v}
+=o(J^3). \tag{C}
+\]
+
+For example, \(d=J\) already suffices:
+
+\[
+I(r)\le O\!\left(\frac{J^3}{\log J}+J^2\right)=o(J^3).
+\]
+
+This is the genuine terminal upper sought by the mission, **conditional on existence of the capped law**.
+
+### 3. Exact companion-projector test
+
+Let \(P_c\) be the real orthogonal projector onto the permitted nonidentity companion Fourier sector on \(G/L\). For the terminal head \(H\), form
+
+\[
+Q_H=P_c-(P_c)_{:H}\bigl[(P_c)_{HH}\bigr]^\dagger(P_c)_{H:}.
+\]
+
+If \(k=Q_He_0\) has \(k_0>0\), then
+
+\[
+r=\frac{k+t\mathbf 1}{bt},
+\qquad t\ge \|k_-\|_\infty,
+\]
+
+is a real nonnegative admissible law, uniform on \(H\), with
+
+\[
+r_0=\frac1b+\frac{k_0}{bt}.
+\]
+
+For \(d\ge1\), it automatically satisfies \(r_R\le d/b\) on \(H\). Thus the root condition is the explicit inequality
+
+\[
+\frac1b+\frac{k_0}{bt}\ge \frac AJ.
+\]
+
+This gives a finite exact test for the sufficient terminal construction. The corresponding capped-root LP and its real dual can certify either feasibility or failure. However, no through-primes estimate for \(k_0/t\), nor a uniform LP certificate, is currently supplied.
+
+The forced-set obstruction from the earlier flat-price analysis does **not** transfer automatically: its set \(H\) is determined by the flat projector column, whereas the terminal \(H\) is determined by the authentic increment \(Y_{T+1}-Y_T\). Inclusion of one head in the other remains an unproved arithmetic/trajectory statement.
+
+### 4. Finite evidence
+
+At \(p=769\),
+
+\[
+J=16,\quad m=8,\quad b=48,\quad \sigma=+1.
+\]
+
+For the common endpoint erasure, the authentic terminal head above \(1/5\) is
+
+\[
+\{2,8,40,46\}.
+\]
+
+The order-six quotient law supported on the eight multiples of six has root \(1/8\), avoids this head, and has
+
+\[
+I(r)\in[-0.358404986,-0.358404985].
+\]
+
+The distinct six-point predecessor law has measured positive exterior price about \(11.182873063\), while the measured full triangle is about \(0.259599450\). The supplied checker verifies the terminal and truncated identities on the physical cold orbit.
+
+This confirms that the terminal law may be genuinely different from the predecessor law and that the true terminal increment can have the favorable sign. It is only a finite experiment and does not establish a prime-uniform construction.
+
+## Remaining gap
+
+The current argument still needs all of the following on the relevant recurrent candidates:
+
+1. a true predecessor law with
+   \[
+   w\ge A/J,\qquad P(q)=o(J^2)
+   \]
+   or the corresponding signed \(S(q)=o(J^2)\);
+
+2. a terminal law satisfying the authentic head cap, or a direct proof that
+   \[
+   \inf_{r:\,r_0\ge A/J} I(r)=o(J^3);
+   \]
+
+3. the independent triangular upper \(F\le o(J)\);
+
+4. uniform control through eligible primes, followed separately by treatment of the escaped branch.
+
+Thus the terminal mechanism is **conditionally sufficient**, but the ordinary Lovász-theta limit remains open.
+
+## Ranked decisive next tests
+
+1. **Authentic terminal cap LP.** For every filtered recurrent candidate, compute the actual \(u_R\), take \(H=\{u_R>AJ^2/\log J\}\), and certify feasibility of
+   \[
+   r\ge0,\quad r\in\mathcal V_\sigma,\quad \sum_Rr_R=1,\quad
+   r_0\ge A/J,\quad r_R\le J/b\ (R\in H).
+   \]
+   A uniform feasible certificate gives \(I(r)=o(J^3)\). A dual infeasibility certificate only shows that this cap method fails, not that the terminal price itself is \(\Omega(J^3)\).
+
+2. **Direct terminal/prior dual pair.** Where the cap fails, solve the exact real quotient LP for the terminal ratio \(I(r)\) and independently the genuine prior ratio \(P(q)\), retaining the original block and erasures. A dual lower bound \(I(r)\ge cJ^3\) is an actual terminal obstruction; an upper \(I(r)=o(J^3)\), together with \(P(q)=o(J^2)\) and \(F=o(J)\), eliminates the recurrent branch via (B).

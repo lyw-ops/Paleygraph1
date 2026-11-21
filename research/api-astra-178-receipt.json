@@ -1,0 +1,49 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-178-inflight.json",
+    "sha256": "253b2203605cdbd95312ef1834cc1693019b6217bfefe00ef9fec9caf619db97"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-shifted-coupled-second-moment",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 9960,
+        "completion_tokens": 3761,
+        "total_tokens": 13721
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-shifted-coupled-second-moment-178.txt",
+        "sha256": "7212baa925ddcd6330509b27c523dbf3868c2acf5a336bfe222e587265df7b92"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-transverse-shifted-rows",
+      "model": "gpt-6.2-astra",
+      "completion": false,
+      "http_status": 403
+    },
+    {
+      "call_id": "cold-prime-ten-step-signed-extension",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 6343,
+        "completion_tokens": 2443,
+        "total_tokens": 8786
+      },
+      "archive": {
+        "path": "research/api-astra-cold-prime-ten-step-signed-extension-178.txt",
+        "sha256": "50c1f876d32f977442e3d70e1f0c357ff056f191c587cb0f2ca310bb93e11190"
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "round": 153,
+  "accepted_at_utc": "2026-11-19T22:01:51Z",
+  "previous": "research/round-152-acceptance.json",
+  "previous_sha256": "af601ab0ae825255a1fe806d0f40496699503c3d35c9ae688d69c4a13e5c24cb",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-152.json",
+    "sha256": "c2cb0e9d82fbbcc93630a046cd5a663772546ebdc29d0e16576863b3986510eb"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-affine-jacobi-factorization-153.md": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0",
+    "research/cold-three-center-composition-153.md": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5",
+    "research/cold-three-center-composition-153-check.py": "4f0038a3bb36a25d3bbfda26d16ebc6460be49417b2415f50c55c596885d4dd1",
+    "research/cold-three-center-composition-153-checks.jsonl": "d85e6f128a7c195d71f53892656b94f16f080a158a164771a95261bf6b9f5dc3",
+    "research/api-astra-review-153.md": "b2762dba3b4d3bc316d6a507c4a2b4e9b4cb30a23662bd41ddc35bdfdd444999",
+    "research/api-astra-153-receipt.json": "efa37ef86c760efe4d232b973e524db3aed0281b79e2ba954bc2ac249749928e",
+    "research/api-astra-ordinary-prime-weighted-affine-fourth-moment-153.txt": "5c60b5e4a7c6dc92910bb90819aabb21f5708a922c63e9a3516323e8c58ae1c0",
+    "research/api-astra-ordinary-prime-first-spill-face-upper-153.txt": "c314411fc4eb0eb71329e99c222371ab130e340a85ad6b371886bc9ec22a3bff",
+    "research/api-astra-cold-three-center-actual-square-omission-153.txt": "1e60bf417aa61b54ea9d06c311a88ea6dae874bc7aa527d6adf6e0f0dbb19499",
+    "coordination/launchers/round-153.py": "dae8f392bce4f78e28ccd1691167431111badf63cfcbf0f3fe418c9f525934f1",
+    "coordination/round-153-inflight.json": "15218fdfea86c752bfcf7e7d5f9307a6e5c824c5fada599c53fa877f96c916e8",
+    "coordination/shared-obligations/round-153-before.json": "3bfb06be0fd43bec994ff562cf18ada554c1a3c09a88e4179f7f80900a2c0427",
+    "coordination/shared-obligations/round-153-after.json": "0122cfa58cd6842af7c50eac2c0495e759bad747d30e5533ebe7067f60355370",
+    "coordination/missions/round-153/ordinary-prime-weighted-affine-fourth-moment.md": "bd4f17f1f27dda3b0a78247d9579b9bf962794651f76342c117d845763cf35ab",
+    "coordination/missions/round-153/ordinary-prime-first-spill-face-upper.md": "e7da59671207b0b36357ade54c41bd72c1125cd6625674015e36b30afdaa10ba",
+    "coordination/missions/round-153/cold-three-center-actual-square-omission.md": "792058b239bbd728e204f6bc5109dc96eae122e89218dce97e931600eb1003c1"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-pinned-reflection-flow-148.md": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/anchored-repair-20.md": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721",
+    "research/parallel-cap-19.md": "da976e583abac8c86974f25da13f44fffe5fd29486d79ec2ae0c4d6bd36a552e",
+    "research/ordinary-oriented-terminal-mask-147.md": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456",
+    "research/ordinary-terminal-face-dual-143.md": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb",
+    "research/ordinary-near-cap-complementary-mask-146.md": "06c1dd62076c275cbbdbd79c7976dc1da2c2eca05723c681d64b1fd310e2d43f",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/cold-higher-legendre-step-148.md": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9",
+    "research/cold-first-omitted-envelope-147.md": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921",
+    "research/cold-actual-legendre-amplitude-146.md": "4e72c15a598bb4451152ff9a8ab5bf4d7aae38ffc13914041687b1963c89d4e2",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-remainder-135.md": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-linear-split-137.md": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-positive-39.md": "f8537a945d274efb7f6a143dbceb9f1c51e1ce460190fff510ec6e2dcca61062",
+    "research/parallel-defect-16.md": "e38b5b820fcc78f0c08d502c21e64693511af008a9d73e8f31c02d930f1204c7",
+    "research/ordinary-averaged-repair-dual-149.md": "524778e008719783a38a2cde0ded9cf7069a822ee631c48e0429a204e0e5d987",
+    "research/cold-two-center-omitted-envelope-149.md": "b9523e161fde83eb32f92dbb5d1f7c2336ab85f37523d705d1b48bfbdc17e142",
+    "research/cold-jacobi-linear-legendre-145.md": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1",
+    "research/cold-mixed-seed-column-141.md": "0c09cd0b907b85540da510809612c64bc2953db2d0c0970120ce9242dcfff468",
+    "research/ordinary-terminal-approximate-face-144.md": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4",
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/astra-legendre-63.md": "e552bb81f19ce942ab8d589050bb0343296dd04aa8425b699154b49a001bbe3c",
+    "research/ordinary-prime-repair-source-150.md": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1",
+    "research/cold-signed-legendre-omission-150.md": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f",
+    "research/parallel-rectangle-20.md": "5a2bab72af7de9f1b9abdae5091172ce1375f93e6a3a7480633ea142a612d333",
+    "research/critical-sets.md": "1b7adbf29a540f6801d79667ca1ae9245946e56435b9843b724f4b5a07577b10",
+    "research/astra-rankthree-55.md": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48",
+    "research/rank-four-arithmetic-56.md": "7c7fcff4cfec674ec7325538ddddc5738b37038802409fb1c461bedc05860d56",
+    "research/weighted-arithmetic-57.md": "691134f5146f17877bda595b19ed937ab9859d388e2c5e2e34921eb30da35e30",
+    "research/astra-ranknext-58.md": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9",
+    "research/joint-law-32.md": "b9aae9238545ad13d174732cf2bfed8c0bf2d5446c1843119dd1ec5796681dfd",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/ordinary-prime-coset-spread-151.md": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282",
+    "research/ordinary-retargeted-motion-151.md": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b",
+    "research/cold-leading-W-square-151.md": "8adb45f03aaf00eaa084f93c6538e5c6091869505b690991df1b3fbf88da67e3",
+    "research/api-astra-review-151.md": "eb02314be75ea8e957af7b675081729fb7507d2b06b089f1a487b4397308de40",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/ordinary-affine-correlations-152.md": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5",
+    "research/ordinary-first-spill-signed-dual-152.md": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0",
+    "research/cold-three-center-152.md": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a",
+    "research/cold-W-all-order-return-152.md": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-resummed-136-check.py": "81dbc6e21637e04a5bf39bf503a6172fee8ba4dffe308d0dce7fb6fe068a3784",
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa",
+    "research/cold-leading-W-square-151-check.py": "7db93c307cdc16cb7fdf6f55902245e0e27a809a2950ae5367857cf2f2bf56c3",
+    "research/cold-signed-legendre-omission-150-check.py": "495d0b8ba3d447a9bce54ee4ca76f9e1dbbe94f49f261177354a94c25a30206d",
+    "research/cold-W-all-order-return-152-check.py": "87d905face366ee1c1260c7ddbcab6911ea8a379979ef6c432c8c25978513227"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three complete Astra returns, independently reviewed Jacobi reductions and a composed outward comparison.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 1,
+  "arithmetic_record_counts": {
+    "two_height_positive_composition_outside_B3": 1
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra deficit-weighted affine fourth moment",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Complete the u-summed shifted Jacobi analysis",
+        "Test whether the true weighted nonresonant term can be bounded rather than using pointwise caps"
+      ]
+    },
+    {
+      "name": "Gateway Astra first-spill face upper",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Retain the actual common complementary zero set in an adaptive prime estimate",
+        "Inspect the true finite-prime face before selecting a structured asymptotic branch"
+      ]
+    },
+    {
+      "name": "Gateway Astra actual three-center square omission",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Track a true H label at both vertices",
+        "Isolate one fixed F4 or true Picard contribution"
+      ]
+    },
+    {
+      "name": "/root/audit_153",
+      "status": "completed",
+      "ranked_closeout": [
+        "Seek actual signed phase cancellation in the nondegenerate relation-free Jacobi product",
+        "Keep an actual F4 or Picard constituent at both vertices and bound its complementary price"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Obtain the p^-1/2 weighted signed average for the fully nondegenerate product of three complete Jacobi phases. Use the actual near-critical anchor law and within-set phase constraint, excluding only fixed algebraic relations with proved O(p) total cost.",
+    "Keep one true other-center or actual Picard constituent at both cold vertices and produce a signed debit against the 0.51961239 direct two-height budget. The chosen retained positive composition exceeds that budget under any monotone reprice.",
+    "Control the exact first-spill minimum over the true opposite optimal face on the full high receiver at one admissible marked time. The cap route with T/sqrt(n) tending to infinity is outside the fixed-gap setting."
+  ],
+  "proof_scope": [
+    "For the true near-critical b with vanishing relative pinned projection the actual bulk entry formula gives max nu=O(p^-1/2). Affine full-field lifting preserves its correlation fourth moment over nonidentity square ratios up to O(p) uniformly in anchors. Under the actual critical weighted anchors the ambient minus restricted difference is (5/2+o(1))p using the exact pin constant on the wrong sign set and Jacobi Fourier caps.",
+    "The exact ambient deficit-weighted moment factors into the average of three complete Jacobi factors with true lifted product probability and the two lifts of the last kernel. All Jacobi degeneracies have total absolute contribution O(p). In the regular contribution any fixed finite list of bounded-integer character relations also costs O(p). The genuine moment is p^(3/2) times the real weighted nondegenerate phase average up to O(p). An upper O(p^-1/2) for this phase average on the actual critical branch would exclude it; complete individual size bounds alone do not provide this.",
+    "For both actual marked heights, E_h=A_h-B3. Instead of multiplying scalar bounds, compose the retained positive E602 and A601 maps, and the retained positive B3 and E601 maps, on each physical input column. The same-column base, affine and off-base calculation with positive loss accounting gives eventual ||A602 A601 - B3^2||<0.66381 on the original square, original physical mark and both lifts. A fixed integer witness on the retained 12-weight subsystem verifies a strict 0.6174 lower on this specific positive comparison, ruling out any monotone reprice to the direct 0.51961239 budget."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw affine reply repeats the R152 conditional lower and does not refute an independently proved O(p) upper as a contradiction route. Its restricted pointwise estimates leave O(p^2); the new complete formula still leaves the regular p^(3/2) size without actual weighted phase cancellation.",
+    "The raw first-spill reply swaps the true face sign. Its time requirement T much greater than sqrt(n) is incompatible with the fixed-gap support bound and original marked window. The correct face minimum still lacks a prime upper.",
+    "The raw cold product of scalar bounds cannot be a lower on the true signed norm. The new lower concerns only positive weight accounting, not the actual derivative. Full signed square, nonlinear invariant and common cold domain stay open. The original all-prime theta limit remains open."
+  ],
+  "floating_diagnostics": [
+    "A numerical eigensolver provided the positive integer trial vector for the cold principal subsystem. Only fixed-integer outward subinvariance is used."
+  ],
+  "replay_checks": [
+    "Independent 192-bit replay reproduced the two-height strict upper and 12-weight witness. Complete one-vertex comparison caps are enforced before charging two-vertex losses.",
+    "A supplemental exact exponent-count calculation verified the affine change of variables on samples and the two-lift u-sum exhaustively in small primes 13,17,29. The uniform identities use the written algebra.",
+    "Three complete HTTP 200 matching model responses were archived by exact bytes."
+  ],
+  "independent_review": [
+    "The read-only reviewer checked shifts, true anchor normalization, resonance sizes, finite relation exclusions and the scalar full-field correction.",
+    "The reviewer checked the first-spill face sign and time scope, and independently rebuilt the cold weight composition, tail budgeting and principal witness."
+  ]
+}

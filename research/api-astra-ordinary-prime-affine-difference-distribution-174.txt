@@ -1,0 +1,153 @@
+## Checked result
+
+For the actual eligible-prime family \(p\to\infty\), with the physical subgroup \(Q\), the actual weight
+\[
+g(Y)=|f(Y)|^2,\qquad 0\le g\le 1,\qquad G=\sum_{Y\in Q}g(Y)=O(\sqrt p),
+\]
+and the genuine square mask \(b\in Q\), the existing weighted affine-energy argument gives
+\[
+E_w(\mu_0)
+=\sum_h\left|\sum_j\mu_0(j)\mu_0(jh)\right|^2
+=O\!\left(p^{11/4-\delta_*/2}\right),
+\qquad \delta_*=\frac1{640}.
+\]
+Thus the weighted distribution already improves the crude max-vertical estimate by \(p^{-\delta_*/2}\), but it does not reach \(O(p^2)\), and therefore does not close the full diagonal or the separate zero-match obligation.
+
+The proposed right-difference parametrization has an algebraic compatibility problem that must be resolved before it can yield a further gain.
+
+### Compatibility check
+
+In the affine chart used in the accepted argument,
+\[
+r=\frac{Y-D}{1-D},\qquad
+b=\frac{D(1-Y)}{Y(1-D)},
+\]
+and the inverse map is
+\[
+Y=r+(1-r)D,\qquad
+D=\frac{br}{(1-r)(1-b)}.
+\]
+
+If one applies the stated parameter transformation
+\[
+r'=ar,\qquad b'=b+cr,
+\]
+then the inverse chart gives
+\[
+D'=\frac{b'r'}{(1-r')(1-b')},\qquad
+Y'=r'+(1-r')D'.
+\]
+In general this \(Y'\) is **not**
+\[
+\frac{aY}{1-cY}.
+\]
+
+For example, over any sufficiently large eligible prime, take
+\[
+r=\frac15,\qquad b=\frac3{10},\qquad a=\frac{11}{10},\qquad c=\frac15.
+\]
+Then
+\[
+D=\frac{3}{22},\qquad Y=\frac{43}{140}.
+\]
+The rule \(r'=ar,\ b'=b+cr\) gives
+\[
+r'=\frac{11}{50},\qquad b'=\frac{17}{50},
+\]
+and hence
+\[
+Y'=r'+(1-r')\frac{b'r'}{(1-r')(1-b')}
+=\frac{?}{?}\approx 0.3331,
+\]
+whereas
+\[
+\frac{aY}{1-cY}\approx0.3379.
+\]
+The discrepancy is nonzero in characteristic \(p\) for all sufficiently large eligible primes.
+
+This is a coordinate inconsistency, not an arithmetic counterexample to the actual weighted distribution. It means that the proposed difference calculation cannot presently be combined simultaneously with
+
+1. the stated \((r,b)\)-action,
+2. the inverse chart \(Y=r+(1-r)D\), and
+3. the Möbius rule \(Y\mapsto aY/(1-cY)\).
+
+One of these formulas must be changed or interpreted as belonging to a different chart.
+
+## Consequence for the weighted-difference approach
+
+For a corrected action \(T_h\), the relevant weighted difference distribution is
+\[
+\Delta(h)
+=\sum_{(Y,D)}
+g(Y)g(D)\,
+g(Y_h)g(D_h)\,
+1_Q(b)\,1_Q(b_h),
+\]
+where \((Y_h,D_h,b_h)\) are obtained from the same physical affine action. The desired energy estimate is
+\[
+\sum_h |\Delta(h)|^2=O(p^2).
+\]
+
+The present vertical information only gives, after layer cake, the level-set estimate
+\[
+E_w(\mu_0)
+=O\!\left(p^{11/4-1/1280}\right),
+\]
+because \(\delta_*/2=1/1280\). The weight \(g(Y)g(D)\) has not yet supplied a collision saving in the \(h\)-variable. In particular, the facts
+\[
+G=O(\sqrt p),\qquad g\le1,\qquad
+m_{\mathrm{vertical}}=O(p^{1/2-\delta_*})
+\]
+control individual fibers, but do not control correlations between two distinct right differences. The remaining term is a genuinely coupled four-copy collision sum:
+\[
+\sum_{h}
+\left|
+\sum_{Y,D}
+g(Y)g(D)g(Y_h)g(D_h)
+1_Q(b)1_Q(b_h)
+\right|^2.
+\]
+No available theorem in the cited argument bounds this sum at \(O(p^2)\), and the ordinary affine energy theorem sees only support multiplicities, not the additional \(g\)-correlation.
+
+The full diagonal and the zero-match term therefore remain open. The separate zero-match obligation is not affected by the vertical saving and must still be handled independently.
+
+## Ranked next tests
+
+### 1. Highest priority: repair and verify the exact right action
+
+Derive the right difference directly from the physical affine maps, not by imposing the three formulas simultaneously.
+
+For each candidate convention:
+
+- compute the induced action on \((r,b)\);
+- invert through
+  \[
+  Y=r+(1-r)D,\qquad D=\frac{br}{(1-r)(1-b)};
+  \]
+- compare the resulting \(Y'\) with the claimed Möbius map;
+- check the physical square condition \(b\in Q\) and the endpoint exclusions.
+
+This should be done symbolically first, then exactly over several eligible primes. Until this passes, no weighted convolution estimate based on \((a,c)\) is well-defined.
+
+### 2. Next: prove a weighted four-copy collision estimate for the corrected action
+
+After the action is fixed, test whether one can prove, with the actual \(g\) and \(b\)-square,
+\[
+\sum_h|\Delta(h)|^2
+\ll p^2
+\]
+or at least
+\[
+\sum_h|\Delta(h)|^2
+\ll p^{11/4-\eta}
+\]
+for some \(\eta>1/1280\).
+
+The first analytic target should be a weighted line-collision inequality of the form
+\[
+\sum_{\ell}
+\left(\sum_{(Y,D)\in\ell}g(Y)g(D)1_Q(b)\right)^2
+\]
+with a saving beyond the unweighted multiplicity bound. This must use the actual Fourier-origin of \(g\), not merely \(0\le g\le1\) and \(G=O(\sqrt p)\). A successful estimate here would improve the full affine energy; failure would identify the precise coupled correlation that blocks the method.
+
+The limits should remain in the order: first exact finite-\(p\) identities and endpoint handling, then \(p\to\infty\) along the eligible ordinary-prime family.

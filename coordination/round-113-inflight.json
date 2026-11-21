@@ -1,0 +1,35 @@
+{
+  "round": 113,
+  "dispatch_status": "terminal; response saved and independently reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-112-acceptance.json",
+    "sha256": "d6bf50f7b176b40b4405d7b3b0d8eaec6f6132263eac6f539d04f20f3746801d"
+  },
+  "coordinator": {
+    "path": "coordination/round-112.json",
+    "sha256": "8411f050146ecdf2b0ed4b4938ded22fb2aaf1721b733e3c58386477e69494b1"
+  },
+  "call_id": "square-transport-reciprocal",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "afabde0e19f007ce519972eb9f93429d8950860c89440ca3fb50e92ae101dd98",
+  "started_utc_epoch": 1795095832,
+  "local_session_id": 35330,
+  "mission_file": "/tmp/paley-r113-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r113-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r113-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Use the checked Round 113 coordinator before dispatching new calls.",
+  "local_draft": "research/reciprocal-repair-moments-113.md",
+  "audit_agent": "/root/audit_113",
+  "response": {
+    "path": "research/api-astra-overflow-113.txt",
+    "sha256": "9b831c8056f65c7f9b51d9b47b3700fd6bb59f5310a29445afb5c0177e0a1067"
+  },
+  "receipt": {
+    "path": "research/api-astra-113-receipt.json",
+    "sha256": "ea37109727fe7837db7bf371676317c26186722c0d4da55f10802dabe0e90343"
+  },
+  "acceptance": {
+    "path": "research/round-113-acceptance.json",
+    "sha256": "ed8b2247eafffbf724f9aaffdc8b22cc277d0638fc24090b9d6a5297c769edc5"
+  }
+}

@@ -1,0 +1,159 @@
+## Result
+
+Let \(Q\) be the actual eligible-prime family, with the physical marking and square masks of the cited rounds, and let  
+\[
+g=|f|^2,\qquad G=\sum_{x\in Q}g(x)=O(\sqrt p).
+\]
+For the genuine right action
+\[
+(a,c):(r,b)\mapsto (ar,b+cr),
+\]
+write \(\Delta_{\mathrm{gen}}(a,c)\) for the correlation restricted to
+\[
+a,c\neq 0,\qquad a\neq 1,
+\]
+with both physical charts retained. Put
+\[
+\varepsilon_*=\frac1{1280},\qquad
+\varepsilon_1=\frac1{840},\qquad
+\eta=\varepsilon_*+\varepsilon_1=\frac{53}{26880}.
+\]
+
+The established pointwise estimate gives, uniformly on the actual physical generic branch,
+\[
+0\leq \Delta_{\mathrm{gen}}(a,c)
+\ll p^{1-\eta}.
+\tag{1}
+\]
+
+The total first mass is
+\[
+\sum_{a,c}\Delta_{\mathrm{gen}}(a,c)\leq G^4\ll p^2.
+\tag{2}
+\]
+
+Consequently, for
+\[
+N_{\mathrm{gen}}(t)
+=\#\{(a,c):\Delta_{\mathrm{gen}}(a,c)>t\},
+\]
+one has the checked tail bound
+\[
+N_{\mathrm{gen}}(t)
+\ll \min\!\left(p^2,\frac{p^2}{t}\right),
+\qquad
+0<t\leq Cp^{1-\eta},
+\tag{3}
+\]
+and \(N_{\mathrm{gen}}(t)=0\) above the range in (1).
+
+There is also a row-wise bound. For fixed \(a\), the physical line-pair identity gives
+\[
+\sum_c\Delta_{\mathrm{gen}}(a,c)
+\leq \sum_r m_r m_{ar}
+\ll G^2\,p^{1/2-\varepsilon_*}
+\ll p^{3/2-\varepsilon_*},
+\]
+and the analogous fixed-\(c\) estimate follows from the \(b'\)-row bound. Hence
+\[
+N_a(t),\,N^c(t)\ll \frac{p^{3/2-\varepsilon_*}}t.
+\tag{4}
+\]
+The fixed-row squared estimates from Round 176 give, after summing over rows,
+\[
+\sum_{a,c}\Delta_{\mathrm{gen}}(a,c)^2
+\ll p^{7/2-2\varepsilon_*-\varepsilon_1},
+\tag{5}
+\]
+but (5) is weaker than the existing all-level bound
+\[
+E_w(\mu_0)\ll p^{11/4-\delta_*/2},
+\qquad \delta_*=2\varepsilon_*.
+\]
+
+Thus the nonmonomial projective overlap does yield a genuine rich-range statement: at the largest possible level,
+\[
+N_{\mathrm{gen}}\!\left(\asymp p^{1-\eta}\right)
+\ll p^{1+\eta},
+\]
+rather than the trivial \(O(p^2)\). However, this does not produce a useful energy saving by itself.
+
+Indeed, integrating (3),
+\[
+\sum_{\Delta_{\mathrm{gen}}>T}\Delta_{\mathrm{gen}}^2
+\leq
+2\int_T^{Cp^{1-\eta}}uN_{\mathrm{gen}}(u)\,du
+\ll p^{3-\eta}
+\]
+for \(T\geq 1\). This is still far above the desired \(O(p^2)\) weighted-energy scale, and it gives no \(O(p^{3/2})\) matching-number bound.
+
+## Why the projective-overlap input does not close the gap
+
+The two-torus argument applies to a single common heavy level set
+\[
+X\subseteq \{x:g(x)\geq \tau,\ g(\phi(x))\geq\tau\}.
+\]
+It gives a cardinality obstruction for that common set. The weighted correlation, however, has a mixed dyadic decomposition in the four physical labels
+\[
+(Y,D,Y',D').
+\]
+A generic term may have four different levels. The argument currently provides no uniform hereditary quotient control for these mixed-level sets with losses small enough to sum over all level quadruples.
+
+In particular, the following configuration is not excluded by the proved estimates:
+
+- about \(p^{1+\eta}\) generic right differences;
+- each having correlation of size \(p^{1-\eta}\);
+- total first mass \(O(p^2)\);
+- fixed-\(a\) and fixed-\(c\) row bounds still respected after distributing these differences over the \(p\) rows.
+
+Such a configuration would contribute
+\[
+p^{1+\eta}\cdot p^{2-2\eta}=p^{3-\eta}
+\]
+to the squared energy. This is not an actual counterexample in the ordinary-prime family; it is a precise obstruction to deducing the target from the currently proved maximum, first-mass, and row estimates.
+
+The fixed projective-label cuts of Round 175 do not resolve this: they remove finitely many exact shared-label relations at \(O(G^4)=O(p^2)\) cost, but the remaining all-distinct generic contribution still has no mixed-level overlap estimate.
+
+## Hypotheses and order of limits
+
+All statements above retain:
+
+1. the original eligible prime family \(Q\);
+2. the physical marking and both square masks;
+3. the endpoint exclusions \(r,b,r',b'\notin\{0,1\}\);
+4. the genuine right action \((r,b)\mapsto(ar,b+cr)\);
+5. the actual weight \(g=|f|^2\), not a uniform surrogate.
+
+The asymptotic interpretation is \(p\to\infty\) through the eligible primes, with \(\varepsilon_*,\varepsilon_1\) fixed. No mixed-level reduction or replacement of the physical masks by an unmarked field model has been used.
+
+## Conclusion
+
+The mission is **inconclusive but yields a quantitative rich-tail improvement**:
+
+\[
+\boxed{
+N_{\mathrm{gen}}(t)\ll \min(p^2,p^2/t),
+\qquad
+\Delta_{\mathrm{gen}}\ll p^{1-53/26880}.
+}
+\]
+
+This is a valid nonempty high-correlation improvement, but it does not reach either the sufficient \(O(p^{3/2})\) full weighted bound or the \(O(p^2)\) generic squared-energy target.
+
+### Ranked next tests
+
+1. **Mixed-level two-torus test — highest priority.**  
+   For dyadic levels \(\lambda_Y,\lambda_D,\lambda_{Y'},\lambda_{D'}\), form the actual physically marked set of \(Y\)-values supporting the corresponding generic correlations. Prove a hereditary bound for the simultaneous pair of projective maps
+   \[
+   Y\mapsto \frac{aY}{1-cY},
+   \qquad
+   D\mapsto D'(Y,D),
+   \]
+   with losses tracked in all four level parameters. The needed outcome is a summable tail estimate stronger than
+   \[
+   N_{\mathrm{gen}}(t)\ll p^2/t,
+   \]
+   ideally \(N_{\mathrm{gen}}(t)\ll p^{2-\kappa}/t\) throughout the rich range.
+
+2. **One-match/zero-match decomposition test — second priority.**  
+   Expand the generic energy according to zero, one, or two literal physical-label coincidences. Apply the fixed projective-label cuts only after the decomposition, and test whether the remaining one-match term admits a second independent pin. A successful estimate would need to exploit both physical inputs before Cauchy–Schwarz; using only the existing one-match incidence bound reproduces the \(p^{29/16-o(1)}\) obstruction and cannot reach \(O(p^{3/2})\).

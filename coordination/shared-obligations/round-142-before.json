@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T19:41:27.475956Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-141.json#next_calls",
+  "coordinator_sha256": "014a11fcfa3374f0f1ae7ccd109994ef833eb4888c66814b112427af5f2c092c",
+  "call_ids": [
+    "ordinary-actual-terminal-weight",
+    "cold-first-translated-mixed-column",
+    "cold-seed-resummed-linear-action"
+  ],
+  "routes": {
+    "r142/ordinary-actual-terminal-weight": {
+      "question": "Can the genuine opposite optimal face supply sublinear weighted terminal bulk activation within the proved marked window?",
+      "scope": "Actual prime p=1 mod 4, fixed positive tau then tau down to zero. Use the true opposite optimum F of mean one at each sign, actual zero-start orbit, actual physical mark and a selectable T(p) growing within the proved simultaneous window including T+1. Keep square diagnostic and ordinary target separate.",
+      "remaining": "Obtain a genuinely prime-uniform bound on one of these actual weighted quantities at selectable T in the proved window, with fixed floor first and floor down to zero last."
+    },
+    "r142/cold-first-translated-mixed-column": {
+      "question": "How does the selected exact degree-one Jacobi–Legendre block act on an actual translated Jacobi input?",
+      "scope": "Use actual marks t0=n, common original closed square, C1,a a translated Jacobi source with pair {xi,chi xi}, and the actual Y center and pure Jacobi seed. Keep full two-step order and bad lifts, with xi not in the base pair where possible.",
+      "remaining": "Establish exact generic translated action and a signed physical estimate on the actual analytic square difference. Fixed frozen bounds, half-step and growing-depth confinement remain open."
+    },
+    "r142/cold-seed-resummed-linear-action": {
+      "question": "Can all pure-seed powers around the actual first Legendre-linear term be collected jointly on the unshifted C1 column?",
+      "scope": "Use the actual pure derivative and the part linearly proportional to Y in d_t(V)-d_t(S), original marked floors and fixed closed square. Keep the intermediate K and full inverse-line contribution. Work on the unshifted actual C1 input, distinct from the generic translated leading-word task.",
+      "remaining": "Establish exact generic translated action and a signed physical estimate on the actual analytic square difference. Fixed frozen bounds, half-step and growing-depth confinement remain open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-actual-terminal-weight": [],
+    "cold-first-translated-mixed-column": [],
+    "cold-seed-resummed-linear-action": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The actual real terminal estimate uses a true opposite optimum and is independent of the cold calculations. The translated first mixed column keeps a new boundary pair at the lowest pair of powers. The separate unshifted task treats higher seed powers and begins with the cubic correction, so an exact transported label at one input and depth of the expansion is not the same obligation as in the other task. All Round 141 lanes are closed."
+}

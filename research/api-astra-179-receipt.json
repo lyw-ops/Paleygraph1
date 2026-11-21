@@ -1,0 +1,27 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-179-inflight.json",
+    "sha256": "6e629c8aa46fe11017ee81157d395468116e2ac0e0f3543d87a5d43ccc1b03a4"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-inverted-coupled-distinct-b",
+      "model": "gpt-6.2-astra",
+      "completion": false,
+      "http_status": 403
+    },
+    {
+      "call_id": "ordinary-prime-slope-product-distribution",
+      "model": "gpt-6.2-astra",
+      "completion": false,
+      "http_status": 403
+    },
+    {
+      "call_id": "cold-prime-directional-source-bridge",
+      "model": "gpt-6.2-astra",
+      "completion": false,
+      "http_status": 403
+    }
+  ]
+}

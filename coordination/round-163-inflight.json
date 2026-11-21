@@ -1,0 +1,61 @@
+{
+  "round": 163,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-162-acceptance.json",
+    "sha256": "37994bf29da429a51c9d44c29a1f012bd001a2b39c3d074fca17d24685975844"
+  },
+  "coordinator": {
+    "path": "coordination/round-162.json",
+    "sha256": "b523738c75a71da695a74115223d7f0ced38d53a437debab180c7c1d88d170d8"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-163.py",
+    "sha256": "65bb425f9b58c05334ef8236c7a9f6574bbbae4c691cf11c76f6cdffd91e8673"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-163-before.json",
+    "sha256": "967f4a09ec9468ce77c17ae363ea094cd7c7b2a221f9c6f5e431df3c153a079b"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-Fourier-minor-ratio",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "e7b45d60bdd37037d146c77cdd6cc6d777529e14b956813b155d97396df099c0",
+      "mission_file": {
+        "path": "coordination/missions/round-163/ordinary-prime-Fourier-minor-ratio.md",
+        "sha256": "5e720a6aa8d09a2cd28e1b89fde7783bdefb03fc2810b969b19ab8cce111a2ab"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r163-api-01a1ed0a/ordinary-prime-Fourier-minor-ratio-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r163-api-01a1ed0a/ordinary-prime-Fourier-minor-ratio-candidate.md",
+      "started_utc_epoch": 1795131463.158444
+    },
+    {
+      "call_id": "ordinary-prime-shifted-layer-energy",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "d33ab6a2df615bf0fe2006a324966bd91bd8fd5939d4afac7f7d3f7c7d58fcaa",
+      "mission_file": {
+        "path": "coordination/missions/round-163/ordinary-prime-shifted-layer-energy.md",
+        "sha256": "91371040a00de260087d21df85aa25323e09c7ca16e235ebd2e8171d929d4cff"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r163-api-01a1ed0a/ordinary-prime-shifted-layer-energy-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r163-api-01a1ed0a/ordinary-prime-shifted-layer-energy-candidate.md",
+      "started_utc_epoch": 1795131463.157808
+    },
+    {
+      "call_id": "cold-prime-actual-source-resolvent",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "459736e68411118fa61a03667a7540936d886170fa6273b87712e5c039de809c",
+      "mission_file": {
+        "path": "coordination/missions/round-163/cold-prime-actual-source-resolvent.md",
+        "sha256": "a4ec209a19ec270d70703bb45c3f736f1c19d5953f1f39622ac33744ebf8a156"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r163-api-01a1ed0a/cold-prime-actual-source-resolvent-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r163-api-01a1ed0a/cold-prime-actual-source-resolvent-candidate.md",
+      "started_utc_epoch": 1795131463.157377
+    }
+  ]
+}

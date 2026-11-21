@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "round": 115,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 115 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-114-acceptance.json",
+      "sha256": "0ed40361aefe129ec7ba1caccddf934d85fbf489316b5835e2d3388ce6f2f2db"
+    },
+    "current": {
+      "path": "research/round-115-acceptance.json",
+      "sha256": "de5bd10808c168cc4556b6b79dd45336ada131821bfa81b4115e32e5d72935f2"
+    }
+  },
+  "changes": [
+    {
+      "id": "actual-bands",
+      "route": "Genuine residual Jacobi level and negative band",
+      "effect": "reformulated",
+      "before": "Simultaneously small trimmed moments forced positive Jacobi level and a low-g negative first moment.",
+      "after": "The negative first moment is confined to the explicit intermediate factor and negative Jacobi band. The omitted opposite input mark is strictly positive at the critical scale in this branch.",
+      "remaining": "Exclude the coupled band or give the sufficient one-sided residual-only mark saving through primes.",
+      "evidence": [
+        {
+          "path": "research/residual-level-bands-115.md",
+          "sha256": "52c5da5c7666bc10f43de8ef440f3df832c95cb5d2d76499a81e620f0ac8e5c4"
+        },
+        {
+          "path": "research/reciprocal-input-marks-114.md",
+          "sha256": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        }
+      ]
+    },
+    {
+      "id": "cold-derivative",
+      "route": "Actual common cold complex domain",
+      "effect": "reformulated",
+      "before": "A compatible moving starter and angular margin were missing. The first correction appeared linearly in the frozen identity.",
+      "after": "On a fixed inner square the actual derivative reduces to P+ZCH at quadratic residual cost, with two explicit inverse cutoff requirements.",
+      "remaining": "Prove the combined predictor estimate and compatible starter through primes, then reach the required cold points or continue the marked scalar directly.",
+      "evidence": [
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/astra-resolvent-102.md",
+          "sha256": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11"
+        }
+      ]
+    },
+    {
+      "id": "cap",
+      "route": "True small-cap coefficient or adjusted slack",
+      "effect": "unchanged",
+      "before": "A small true cap coefficient implies width contraction.",
+      "after": "The real band remains conditional on the fixed-floor critical cap rate.",
+      "remaining": "Establish actual cap coefficient or sufficient slack estimate.",
+      "evidence": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The true residual branch now has a sharper anchored real obstruction and the cold branch has a combined derivative identity at the original quadratic residual scale. Both need actual prime arithmetic.",
+  "next_calls": [
+    {
+      "id": "true-two-bands",
+      "priority": 1,
+      "change_id": "actual-bands",
+      "question": "Can the same actual late repair through primes put h²g mass at the moving positive Jacobi level while its first marked moment uses the explicit negative intermediate-factor band?",
+      "why_now": "The true opposite input mark supplies a positive n^(-1) main term in this branch, so a one-sided anchored estimate would suffice to exclude it.",
+      "scope": "Use true h,g,g_- and exact reciprocal relation at fixed t<=1/4 under the R109 obstruction. Keep position and frequency operators separate. Seek a prime-specific weighted estimate, not a raw one-point level count.",
+      "if_yes": "Give a genuinely uniform signed bound and state which alternative it excludes.",
+      "if_no": "Give exact hypotheses and a legitimate obstruction to the proposed inequality.",
+      "if_inconclusive": "Derive a sharper arithmetic relation of the same true bands or specify the first unavailable uniform estimate.",
+      "inputs": [
+        {
+          "path": "research/residual-level-bands-115.md",
+          "sha256": "52c5da5c7666bc10f43de8ef440f3df832c95cb5d2d76499a81e620f0ac8e5c4"
+        },
+        {
+          "path": "research/reciprocal-input-marks-114.md",
+          "sha256": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    },
+    {
+      "id": "cold-combined-derivative",
+      "priority": 2,
+      "change_id": "cold-derivative",
+      "question": "Can P+ZCH be bounded with a fixed angular margin at one moving physical starter at the quadratic residual scale?",
+      "why_now": "The interior exact transfer brings both terms to the same actual predictor and supplies two independent logarithmic cutoffs.",
+      "scope": "Keep prime-specific packet resources and counting contraction separate. Use the same predictor for P,C,H. The fixed inner square or enlarged physical predictor domain must be stated.",
+      "if_yes": "Give a verified, genuinely prime-uniform starter and resulting domain.",
+      "if_no": "State the first rigorously failing bound and its scope.",
+      "if_inconclusive": "Derive a new usable finite signed expression beyond the recorded cutoff split.",
+      "inputs": [
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/astra-resolvent-102.md",
+          "sha256": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11"
+        }
+      ]
+    },
+    {
+      "id": "actual-cap-or-slack",
+      "priority": 3,
+      "change_id": "cap",
+      "question": "Can the actual capped rows meet the small coefficient or sufficient slack estimate through primes?",
+      "why_now": "This remains an independent route to the original limit.",
+      "scope": "Keep both signs and fixed floors ordered before the prime limit.",
+      "if_yes": "Give the exact floor range and constants.",
+      "if_no": "Identify the first false proposed estimate.",
+      "if_inconclusive": "Give an actual new quantitative bound on the cap or adjusted slack.",
+      "inputs": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "actual-bands",
+      "question": "Which new claimed actual estimates survive independent verification?",
+      "why_now": "Both routes depend on sign, scale and genuine branch details.",
+      "scope": "Read-only checking of normalization and conditional to actual implications; distinguish finite replay.",
+      "if_yes": "State accepted scope and ranked next tests.",
+      "if_no": "Find the first invalid line.",
+      "if_inconclusive": "Specify the checked parts and remaining estimates.",
+      "inputs": [
+        {
+          "path": "research/residual-level-bands-115.md",
+          "sha256": "52c5da5c7666bc10f43de8ef440f3df832c95cb5d2d76499a81e620f0ac8e5c4"
+        },
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/reciprocal-input-marks-114.md",
+          "sha256": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+## Result: a genuine \(F_4\) coincidence exists, but no certified budget-closing gain follows
+
+I retain the stated arithmetic family: sufficiently large eligible primes
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+with the separately available prime-square members treated only when their corresponding finite-field replay is invoked. I retain the original physical marking
+\[
+t_0=n,\qquad t_i=t\ (i\ne0),
+\]
+both physical lifts, and the complete translated \(P_{5000}\) norm. All estimates below are intended uniformly on the nominated closed square, with the finite Taylor/arithmetic collection performed first and \(n\to\infty\) taken afterward.
+
+### 1. The concrete genuine label
+
+The natural choice is the rank-four arithmetic label \(F_4\). The exact arithmetic identity is
+\[
+K(C_1W)
+ =
+F_4-\frac{n(1+q+h_q)}{2q^2}\,K e_0,
+\]
+where \(C_1\) and \(W\) are the actual lift fields and \(h_q\) is the rank-three punctual convolution term. Equivalently,
+\[
+F_4=K(C_1W)+
+\frac{n(1+q+h_q)}{2q^2}\,K e_0. \tag{1}
+\]
+
+This is an actual label identity, not merely equality of positive weight measures. It is valid on the square-restricted arithmetic family, including the bad compact characters and the two physical lifts. The correction coefficient is \(O(1)\), since \(|h_q|\le 2q\), but its translated \(P_{5000}\)-price is \(O(n^{-1/2})\) because it is supported on the punctual column \(K e_0\).
+
+The weighted \(F_4\) fiber measure is explicitly
+\[
+D_{F_4}
+ =\frac74\delta_0
+ +\frac12(\delta_{-1}+\delta_1)
+ +\frac12(\delta_{-2}+\delta_2)
+ +\frac18(\delta_{-4}+\delta_4). \tag{2}
+\]
+Thus \(F_4\) is not a new disjoint positive packet: after transport it overlaps the \(C_1W\) packet, up to the punctual correction in (1).
+
+### 2. The relevant two-vertex transport
+
+At the two actual vertices \(t=601,602\), write
+\[
+A_h=K\,\mathrm{diag}\bigl(d_{t_i}(V_{h,i})\bigr),
+\qquad
+V_h=S+\alpha Y+\beta W+\gamma F_4+H_h,
+\]
+where \(H_h\) contains the other fixed centers and the actual Picard residual. The physical \(t_0=n\) row is retained in both vertices.
+
+The exact two-height decomposition remains
+\[
+A_{602}A_{601}-B_3^2
+ =
+E_{602}A_{601}+B_3E_{601},
+\qquad E_h=A_h-B_3.
+\]
+The positive comparison gives only
+\[
+\|A_{602}A_{601}-B_3^2\|_{P_{5000}}<0.66381,
+\]
+while the targets are \(0.51961239\) for the direct route and \(0.50179639\) for the same-row route with transfer.
+
+The \(F_4\)-dependent square contribution is contained in the genuinely signed \(W\)-linear return
+\[
+JM+MJ,
+\]
+with
+\[
+J=K\operatorname{diag}(d_t(S)),\qquad
+M=K\operatorname{diag}(\beta W\,d_t'(S)).
+\]
+The exact exposed tuples include
+\[
+\beta a_1\Bigl(b_0+\frac{b_2}{2}\Bigr)K(C_1F_4)
+\]
+and
+\[
+\frac{\beta b_0(a_1+a_3)}2K(WY).
+\]
+The first is the requested actual \(F_4\) contribution. Substituting (1) into it gives
+\[
+K(C_1F_4)
+ =
+K\!\left(C_1K(C_1W)\right)
++
+\frac{n(1+q+h_q)}{2q^2}K(C_1K e_0). \tag{3}
+\]
+The first term in (3) lies in the same transported arithmetic class as the \(C_1W\) return. The second is a marked/punctual correction and must be retained, not discarded; its coefficient is \(O(1)\), while its translated price is \(O(n^{-1/2})\).
+
+The existing all-order replay proves that, after collecting the signed arithmetic tuples and excluding the two exposed tuples, the canonical translated price is below
+\[
+0.00768,
+\]
+with relative modulus bounds \(0.837\) and \(0.863\) for the two exposed whole-order coefficients. It also proves the complete absolute estimate
+\[
+\|JM+MJ\|_{P_{5000}}<0.05956,
+\]
+and a \(C_1\)-column price below \(0.04938\).
+
+### 3. What is actually established
+
+The established arithmetic fact is therefore:
+
+> \(F_4\) has a real transported overlap with the \(C_1W\) class at both vertices, with an explicit punctual correction and an \(O(n^{-1/2})\) physical-column repair.
+
+This refutes the possibility that all fixed other-center labels are arithmetically disjoint from the \(W\)-return class.
+
+However, it does **not** yet establish a signed gain beyond the positive two-height composition. The current replay still takes separate moduli at the point where the coefficient of the \(F_4\) contribution must be combined with the coefficient of the matching \(C_1W\) contribution. In particular, it does not certify that the combined coefficient has smaller modulus than the sum of the two moduli after:
+
+1. the \(K\)-transport at the inner vertex;
+2. the second \(K\)-transport at the outer vertex;
+3. the two lift averages;
+4. the \(t_0=n\) marked row;
+5. the punctual correction in (1);
+6. the complementary \(F_4\), Picard, and Taylor-tail terms.
+
+Consequently there is presently no checked inequality of the form
+\[
+\|A_{602}A_{601}-B_3^2\|_{P_{5000}}<0.51961239
+\]
+or
+\[
+\|A_{601}^2-B_3^2\|_{P_{5000}}<0.50179639.
+\]
+
+Nor does the existing \(0.05956\) bound imply such an improvement: it is an absolute norm estimate and does not retain the relative phase between the matched \(F_4\) and \(C_1W\) coefficients.
+
+### Precise remaining gap
+
+The missing statement is a **two-vertex, signature-by-signature signed collection**. For every matched transported signature generated by
+\[
+K(C_1F_4)
+\quad\text{and}\quad
+K(C_1K(C_1W)),
+\]
+one must compute the actual complex coefficient, including the punctual term from (1), before taking modulus. The complementary translated packet must then be priced positively in the full \(P_{5000}\) norm.
+
+Until that calculation is done, the \(F_4\) coincidence is evidence for a possible gain, not a certified gain. The nonlinear invariant-ball and half-step arguments remain open as well.
+
+## Ranked next tests
+
+### 1. Highest priority: exact matched-signature two-vertex replay
+
+Collect, through the existing finite Taylor cutoff, all terms in the two products having the same complete signature:
+
+- Jacobi exponent;
+- \(F_4\)/\(C_1W\) arithmetic label;
+- both boundary-fiber labels;
+- physical lift;
+- output weight after each \(K\);
+- marked versus unmarked row.
+
+Combine the coefficients of the \(F_4\) term and its \(C_1W\) counterpart before taking absolute values, using (1) exactly. Price the remaining complement with the existing positive \(P_{5000}\) rule, including both physical lifts and \(t_0=n\). Then take the finite-prefix bound followed by the uniform \(n\to\infty\) limit.
+
+A success requires a total below \(0.51961239\) directly, or below \(0.50179639\) after the \(0.017\cdot1.048\) transfer debit. A failure should be reported as a certified lower bound on the unavoidable complementary price, not merely as a failed triangle estimate.
+
+### 2. Second priority: test an actual Picard residual label at both vertices
+
+Choose one fixed Picard contribution in \(Y_{601}\) and \(Y_{602}\), retain its arithmetic label through both transports, and test whether it collides with the \(F_4\)-matched class or with the \(WY\) exposed tuple. The comparison must use the actual endpoint coefficients, not the inherited residual envelope.
+
+If no collision occurs, prove noncollision by the complete transported signature. If a collision occurs, repeat the same signed coefficient collection and charge every other Picard and omitted-center term positively. This test is lower priority because the current records provide explicit arithmetic data for \(F_4\), whereas the Picard residual is still internally positively enveloped.

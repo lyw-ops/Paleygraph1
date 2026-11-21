@@ -1,0 +1,355 @@
+## Verdict
+
+For the selected odd-prime family \(\mathcal P\) satisfying the ordinary-branch hypotheses, with \(Q\subset\mathbb F_p^\times\) the quadratic residues, the physical mark \(v\neq0\) retained, \(g=|f|^2\) extended by zero, \(G=\sum g\ll\sqrt p\), and \(w=g(1-g)\), the current affine-action argument does **not** improve
+\[
+\sum_{s\ne1,t}w(t)\,|H_\alpha(s,t)|^2\ll p^{23/8}
+\]
+to \(O(p^{5/2})\).
+
+It gives a valid reduction: an actual weighted affine-energy estimate at the natural scale \(O(p^2)\) would suffice. That estimate is not presently proved. The zero-match term and the full positive completed diagonal remain separate and unresolved.
+
+All norms below are counting \(\ell^2(\mathbb F_p)\)-norms, and \(p\to\infty\) is through \(\mathcal P\), with no averaging over primes.
+
+---
+
+## 1. What the present affine argument proves
+
+After the already-priced \(x=0,y=0\) deletions and endpoint completions, write
+\[
+s=b+re,\qquad
+e=E^{-1},
+\]
+with
+\[
+r=\frac{Y-D}{1-D},\qquad
+b=\frac{D(1-Y)}{Y(1-D)}.
+\]
+The map \((Y,D)\mapsto(r,b)\) is injective on the retained domain. The actual physical restrictions remain:
+
+- \(Y,D\in Q\);
+- \(b\in Q\), equivalently the original \(u\)-square condition;
+- \(Y,D\neq1\), \(Y\neq D\), \(r,b\neq0,1\);
+- the fixed physical mark \(v\neq0\) is retained through the reconstruction of \(x,y\).
+
+For levels \(g(Y)>a\), \(g(D)>d\), let \(U,V\) be the corresponding numbers of \(Y,D\)-values. Then
+\[
+U\le \frac Ga,\qquad V\le\frac Gd.
+\]
+The affine set \(\mathcal L_{a,d}\) has
+\[
+|\mathcal L_{a,d}|\le UV,\qquad
+m_{\mathcal L}\le\min(U,V)\le\sqrt{UV},
+\qquad
+M_{\mathcal L}\le 2V.
+\]
+The Petridis–Roche-Newton–Rudnev–Warren estimate applies when
+\[
+m_{\mathcal L}|\mathcal L|\le p^2.
+\]
+With \(\tau=p^{-1/8}\), the heavy levels satisfy \(U,V\ll p^{5/8}\), hence
+\[
+m_{\mathcal L}|\mathcal L|\ll p^{15/8}<p^2.
+\]
+
+For a coefficient function on the affine group, the mean-zero representation estimate gives
+\[
+\|M_\mu\|_{\mathbf1^\perp\to\mathbf1^\perp}
+ \le \left(p\,E(\mathcal L)\right)^{1/4}.
+\]
+The two terms in the affine-energy theorem yield, after taking fourth roots,
+\[
+\|M_{\mu_{a,d}}\|_{\mathbf1^\perp\to\mathbf1^\perp}
+\ll p^{1/4}
+\left(
+ (UV)^{11/16}
+ + U^{1/2}V^{3/4}
+\right).
+\]
+Using the displayed bounds for \(U,V\) and integrating the layer cake over \(a,d\in[\tau,1]\), the exponents
+\[
+\frac{11}{16},\ \frac12,\ \frac34
+\]
+are all below \(1\), so the level integrals are uniformly bounded. Consequently
+\[
+\|M_{\mu_\alpha}\|_{\mathbf1^\perp\to\mathbf1^\perp}
+\ll p^{1/4}(G^{11/8}+G^{5/4})
+\ll p^{15/16}.
+\]
+
+The input vector satisfies
+\[
+\|h_{t,\alpha}\|_2\le \sqrt G\ll p^{1/4}.
+\]
+The restored fourth factor is exact on the completed heavy kernel:
+\[
+H_{\mathrm{heavy,comp}}(\cdot,t)
+=\sum_\alpha\omega(\alpha)M_{\mu_\alpha}h_{t,\alpha}.
+\]
+Thus
+\[
+\|H_{\mathrm{heavy,comp}}(\cdot,t)\|_2
+\ll p^{15/16}p^{1/4}+O(p)
+\ll p^{19/16}.
+\]
+The \(O(p)\) term is the constant projection; it is already at or below the required target scale.
+
+Therefore
+\[
+\sum_s |H_{\mathrm{heavy,comp}}(s,t)|^2\ll p^{19/8},
+\]
+uniformly in \(t\). Since
+\[
+\sum_t w(t)\le \sum_tg(t)=G\ll p^{1/2},
+\]
+the weighted contribution is
+\[
+\sum_{s,t}w(t)|H_{\mathrm{heavy,comp}}(s,t)|^2
+\ll p^{19/8}p^{1/2}
+=p^{23/8}.
+\]
+
+The light contribution with \(\tau=p^{-1/8}\) is also \(O(p^{23/8})\):
+\[
+H_{\mathrm{light}}(s,t)\ll \tau G^2,\qquad
+\sum_s H_{\mathrm{light}}(s,t)^2\ll \tau G^5,
+\]
+and hence
+\[
+\sum_t w(t)\sum_sH_{\mathrm{light}}(s,t)^2
+\ll \tau G^6
+\ll p^{-1/8}p^3
+=p^{23/8}.
+\]
+
+So the \(p^{23/8}\) bound is checked with the true \(g,\omega,w\), physical square mask, and exact fourth-factor restoration.
+
+---
+
+## 2. Exact sufficient estimate for \(O(p^{5/2})\)
+
+Let \(\mu_0\) be the **positive actual weighted coefficient** on the affine group:
+\[
+\mu_0(r,b)
+=
+g(Y)g(D)\,
+1_{\{Y,D\in Q,\ b\in Q\}}
+\]
+with all physical exclusions retained. For \(h\) in the affine group define
+\[
+\mathcal C(h)
+=
+\sum_{\gamma}
+\mu_0(\gamma)\mu_0(\gamma h),
+\]
+and the weighted affine energy
+\[
+E_w(\mu_0)
+=
+\sum_h |\mathcal C(h)|^2.
+\]
+
+For every phase-twisted coefficient
+\[
+\mu_\alpha(r,b)
+=
+g(Y)g(D)\alpha(D/Y),
+\]
+the correlation is bounded by the positive one:
+\[
+\left|
+\sum_\gamma \overline{\mu_\alpha(\gamma)}
+\mu_\alpha(\gamma h)
+\right|
+\le \mathcal C(h).
+\]
+Hence
+\[
+E(\mu_\alpha)\le E_w(\mu_0).
+\]
+
+Therefore the following would be sufficient:
+
+\[
+\boxed{E_w(\mu_0)\ll p^2}
+\tag{A}
+\]
+
+Indeed, the affine representation estimate would then give
+\[
+\|M_{\mu_\alpha}\|_{\mathbf1^\perp\to\mathbf1^\perp}
+\ll (p\cdot p^2)^{1/4}
+=p^{3/4}.
+\]
+After applying this to \(\|h_{t,\alpha}\|_2\ll p^{1/4}\),
+\[
+\|H(\cdot,t)\|_2\ll p.
+\]
+Consequently
+\[
+\sum_{s,t}w(t)|H(s,t)|^2
+\ll
+\left(\sum_t w(t)\right)p^2
+\ll p^{1/2}p^2
+=p^{5/2}.
+\]
+
+The scale \(p^2\) is natural: the total affine mass is at most
+\[
+\|\mu_0\|_1\le G^2\ll p,
+\]
+while the affine group has size \(\asymp p^2\), so the uniform-energy lower scale is already \(p^2\).
+
+Thus the mission reduces cleanly to proving (A), or a levelwise variant whose weighted layer constants remain summable.
+
+---
+
+## 3. Why the present incidence input cannot prove (A)
+
+The existing affine-energy theorem gives, at a heavy level,
+\[
+E(\mathcal L_{a,d})
+\ll
+m_{\mathcal L}^{1/2}|\mathcal L|^{5/2}
++
+M_{\mathcal L}|\mathcal L|^2.
+\]
+With \(m_{\mathcal L}\le\sqrt{UV}\) and \(|\mathcal L|\le UV\), this produces
+\[
+E(\mathcal L_{a,d})^{1/4}
+\ll
+(UV)^{11/16}
++
+U^{1/2}V^{3/4},
+\]
+whereas (A) would require an effective fourth-root scale \(O(p^{1/2})\), rather than the current integrated scale
+\[
+G^{11/8}=p^{11/16}.
+\]
+The missing gain is
+\[
+p^{11/16}/p^{1/2}=p^{3/16}
+\]
+in the affine-energy fourth root, equivalently the observed \(p^{3/8}\) gap after squaring and summing \(w(t)\).
+
+The square condition \(b\in Q\) is retained in \(\mathcal L\), but the current line-energy theorem only sees the worst-case line multiplicities. It supplies no quantitative saving from \(b\in Q\). Likewise, the phases \(\alpha(D/Y)\) cannot be used in an absolute-value energy estimate.
+
+Lowering the cutoff to \(\tau=p^{-1/2}\) would make the crude light estimate fit \(p^{5/2}\), but it is not a solution: at that cutoff the condition
+\[
+m_{\mathcal L}|\mathcal L|\le p^2
+\]
+can fail badly. With \(U,V\) as large as \(p\), the crude product bound reaches \(p^3\). A new energy estimate would still be needed.
+
+---
+
+## 4. Scoped obstruction to the easy row-norm alternative
+
+The shortcut
+\[
+\sum_t w(t)\left(\sum_z L_{tz}\sqrt{L_z}\right)^2
+\ll p^{5/2},
+\qquad
+L_z=\sum_Yg(Y)g(zY),
+\tag{B}
+\]
+does not follow from only the cap, normalization, and autocorrelation hypotheses.
+
+A concrete admissible family is obtained by taking \(Q=\langle b\rangle\) of order \(n=(p-1)/2\), choosing the lift law uniformly on the character exponents
+\[
+\pm1,\ldots,\pm L,
+\qquad
+L=\left\lfloor \frac{n}{2\sqrt p}\right\rfloor,
+\]
+and forming the corresponding actual characteristic row \(g=|f|^2\). Then
+\[
+n\|\nu\|_\infty\asymp\sqrt p,
+\qquad
+n\sum\nu^2\asymp\sqrt p,
+\]
+so the stated cap and second-moment scales hold. On a block of exponents of length \(\asymp n/L\asymp\sqrt p\), the characteristic row remains bounded below, and one obtains
+\[
+L_z,L_{tz}\gg n/L
+\]
+for \(\gg n/L\) values of both \(z\) and \(t\). Hence the left side of (B) is
+\[
+\gg (n/L)^6\asymp p^3,
+\]
+not \(O(p^{5/2})\).
+
+This is only a scoped obstruction: it rules out deriving (B) from those soft hypotheses alone. It does not rule out an estimate using additional equations specific to the actual optimizer or the full physical square-constrained kernel.
+
+---
+
+## Remaining gap
+
+The checked \(p^{23/8}\) result therefore leaves two independent gaps:
+
+1. **Affine route:** prove the actual weighted square-constrained energy estimate (A), preferably uniformly for every \(p\in\mathcal P\), or obtain an equivalent \(p^{3/4}\) mean-zero operator bound.
+
+2. **Physical/Jacobi route:** control the off-diagonal \(z\neq z'\) correlation of the actual square-constrained reciprocal rows. The \(z=z'\) diagonal is already at the \(p^{5/2}\) scale, but the distinct-ratio regular Jacobi average remains open.
+
+No claim is made here for the zero-match \(4+4\) term. No \(O(p^{3/2})\) bound for the full positive completed diagonal has been established either; its remaining regular two-character average is still unresolved.
+
+---
+
+## Two ranked next tests
+
+### 1. Highest priority: direct weighted affine-energy test
+
+For every \(p\in\mathcal P\), compute or estimate
+\[
+E_w(\mu_0)
+=
+\sum_h
+\left|
+\sum_{\gamma}
+\mu_0(\gamma)\mu_0(\gamma h)
+\right|^2
+\]
+with the actual \(g_p\), the physical \(b\in Q\) mask, and all endpoint exclusions.
+
+The decisive target is
+\[
+E_w(\mu_0)\ll p^2
+\]
+uniformly. Analytically, the needed new input is a weighted line-incidence estimate exploiting simultaneously
+
+- \(g(Y)g(D)\) rather than level-set indicators;
+- \(Y,D\in Q\);
+- \(b=D(1-Y)/(Y(1-D))\in Q\);
+- the actual autocorrelation structure of \(g=|f|^2\).
+
+Finite computations would only diagnose the conjecture, not prove it; the asymptotic test must be formulated as a prime-uniform weighted incidence theorem.
+
+### 2. Second priority: square-constrained off-diagonal row/operator test
+
+Use
+\[
+\lambda_z(s)=\frac{1-z}{1-sz},
+\qquad
+u=\lambda_z(s)\frac DY,
+\]
+so the physical square mask is \(\lambda_z(s)\in Q\). Test whether the actual rows
+\[
+K_{t,z}(s)
+=
+1_{\{\lambda_z(s)\in Q\}}
+\sum_Y g(Y)g(tzY)\,g(D)g(zD)
+\]
+satisfy the genuine coupled estimate
+\[
+\sum_t w(t)
+\sum_{z\ne z'}
+\langle K_{t,z},K_{t,z'}\rangle
+\ll p^{5/2},
+\]
+with the signed regular Jacobi expansion retained rather than replaced by absolute values.
+
+The exact relation
+\[
+\frac1{\lambda_{z'}(s)}
+=
+1+
+\frac{z'(1-z)}{z(1-z')}
+\left(\frac1{\lambda_z(s)}-1\right)
+\]
+is the available arithmetic structure. A \(p^{-1/2}\)-scale saving from this relation and the two square masks would close the target without requiring (A).

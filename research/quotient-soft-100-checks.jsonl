@@ -1,0 +1,1 @@
+{"atom_removed": "1/8 at zero", "base_clique": [0, 1, 11, 19, 29, 30], "base_root": "1/8", "block_size": 8, "horizon": 16, "kind": "genuine_erased_signed_autocorrelation_repair", "precision_bits": 384, "previous_normalized_price": "[2.2553433633382 +/- 1.34e-14]", "prime": 769, "repaired_normalized_price": "[1.7968147952599 +/- 1.33e-14]", "repaired_root": "5/108"}

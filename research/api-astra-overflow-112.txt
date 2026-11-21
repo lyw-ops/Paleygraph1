@@ -1,0 +1,160 @@
+## Fresh result: exact marked/bulk split of the mixed cubic
+
+I use the fixed-floor critical-cap hypotheses from R109–R112, with the limiting order **fixed \(t,M,\beta\) first, then \(p\to\infty\)** along the prime subsequence. Let
+\[
+\pi_y=\frac{h_y}{nm},\qquad \omega_y=\frac{g_y}{n\mathbb E_n g},
+\]
+where \(h=\bar h\) is the actual late repair average and \(g=f_\epsilon/\sqrt n\) is the true favored factor. The marked repair has
+\[
+h_0=0,\qquad \pi_0=0,\qquad \omega_0\asymp 1.
+\]
+
+Define
+\[
+F_\pi(x):=\sum_a\pi_a k(x-a).
+\]
+Then, directly from the definition of \(T_3\),
+\[
+\sum_{a,b,c}\pi_a\pi_b\omega_cT_3(a,b,c)
+   =\mathbb E_x F_\pi(x)^2F_\omega(x),                     \tag{2}
+\]
+where \(F_\omega(x)=\sum_c\omega_ck(x-c)\).
+
+The marked part \(c=0\) is exactly
+\[
+S_{\rm mark}
+ :=\omega_0\!\!\sum_{\substack{a,b\ne0\\a\ne b}}
+       \pi_a\pi_b T_3(a,b,0).                              \tag{3}
+\]
+Since \(\pi_0=0\),
+\[
+\sum_{a,b}\pi_a\pi_bT_3(a,b,0)
+   =\mathbb E_x\,k(x)F_\pi(x)^2.                            \tag{4}
+\]
+The only terms removed in passing from (4) to (3) are \(a=b\). Their total contribution is \(O(n^{-1}p^{-1/2})\): indeed
+\[
+\sum_a\pi_a^2=O(n^{-1}),
+\]
+and the translated repeated-index Jacobi estimate gives
+\[
+T_3(a,a,0)=O(p^{-1/2})
+\]
+for \(a\ne0\). Therefore
+\[
+\boxed{
+S_{\rm mark}
+=\omega_0\,\mathbb E_x\!\left[k(x)F_\pi(x)^2\right]
+ +O(n^{-1}p^{-1/2}).
+}                                                             \tag{5}
+\]
+
+The complementary genuine-bulk contribution is
+\[
+S_{\rm bulk}
+ :=\sum_{\substack{a,b,c\\ c\ne0,\;a,b,c\ {\rm distinct}}}
+       \pi_a\pi_b\omega_cT_3(a,b,c),                         \tag{6}
+\]
+and hence the required distinct mixed cubic is
+\[
+\boxed{
+S_{\rm mark}+S_{\rm bulk}
+=\sum_{a,b,c\ {\rm distinct}}\pi_a\pi_b\omega_cT_3(a,b,c).
+}                                                             \tag{7}
+\]
+
+The R112 argument gives, with the persistent repair sign,
+\[
+\epsilon(S_{\rm mark}+S_{\rm bulk})\gtrsim p^{-1/2}.           \tag{8}
+\]
+Consequently, either a prime-uniform estimate
+\[
+S_{\rm mark}=o(p^{-1/2})
+\quad\text{and}\quad
+S_{\rm bulk}=o(p^{-1/2})                                    \tag{9}
+\]
+would exclude the repair obstruction, or one must show that the two terms have incompatible signs or magnitudes.
+
+## Relation with the marked linear Jacobi average
+
+The marked scalar in the first branch is
+\[
+L_\pi:=\sum_y\pi_y k(y)=F_\pi(0).
+\]
+Thus (5) isolates the precise missing relation:
+\[
+\boxed{
+\mathbb E_x[k(x)F_\pi(x)^2]
+\ \text{versus}\ F_\pi(0).
+}                                                             \tag{10}
+\]
+
+No relation of the form
+\[
+\mathbb E_x[k(x)F_\pi(x)^2]
+   =C\,F_\pi(0)+o(p^{-1/2})                                  \tag{11}
+\]
+follows from the current hypotheses. The available norm estimates only give
+\[
+\left|\mathbb E_x[k(x)F_\pi(x)^2]\right|
+ \le \|k\|_\infty\,\|F_\pi\|_2^2
+ \ll \|F_\pi\|_2^2
+ \ll n^{-1/2},                                               \tag{12}
+\]
+because \(F_\pi=(\sqrt p\,m)^{-1}Kh\), \(\sqrt p\,m\asymp1\), and
+\(\|Kh\|_2^2\asymp n^{-1/2}\). Since \(p\asymp n\), (12) is exactly the critical \(p^{-1/2}\) scale, not a saving.
+
+In particular, the marked linear alternative
+\[
+\epsilon L_\pi\ge c_1
+\]
+does not by itself force the marked cubic (5) to be positive, nor does the bulk alternative
+\[
+\langle1_{G\setminus(C\cup\{0\})}b,e\rangle
+\le-c_2n^{-1/2}
+\]
+control the sign of \(S_{\rm bulk}\). The true remaining arithmetic statement is therefore a **mixed covariance estimate**
+\[
+\mathbb E_x[k(x)F_\pi(x)^2]
+   +\omega_0^{-1}S_{\rm bulk}
+   =o(p^{-1/2}),                                             \tag{13}
+\]
+under the actual-repair restrictions on \(\pi,\omega\). A bound for arbitrary square-supported weights would not suffice.
+
+## Fourier form of the remaining prime-bound
+
+On the dual of the multiplicative-square group \(G\), write \(\widehat k(\chi)\) for the Fourier transform of \(k\). With normalized Fourier conventions,
+\[
+\mathbb E_x[k(x)F_\pi(x)^2]
+ =
+ \sum_{\chi,\psi}
+ \widehat k(\chi)\widehat k(\psi)
+ \widehat k((\chi\psi)^{-1})
+ \widehat\pi(\chi)\widehat\pi(\psi).                          \tag{14}
+\]
+Meanwhile
+\[
+L_\pi=F_\pi(0)=\sum_\chi \widehat k(\chi)\widehat\pi(\chi).    \tag{15}
+\]
+Thus the desired mark-versus-cubic estimate would require cancellation in the quadratic Fourier form (14) that is invisible in the linear form (15). The Jacobi/Katz estimate controls individual translated \(T_3\)'s only at \(O(p^{-1/2})\), which is insufficient after summation because the actual weights have total mass one.
+
+### Status
+
+- **Exact dichotomy:** established in (7)–(8), with the marked contribution genuinely isolated and collision error \(O(n^{-1}p^{-1/2})\).
+- **New checked limitation:** the direct norm bound is only \(O(n^{-1/2})=O(p^{-1/2})\); it cannot exclude either branch.
+- **Remaining gap:** prove cancellation in (14), or prove an incompatible sign relation between (5) and (6) using the actual repair origin of \(\pi,\omega\).
+
+### Ranked next tests
+
+1. **Highest priority:** prove a restricted Fourier estimate for the actual late-repair weight,
+   \[
+   \mathbb E_x[k(x)F_\pi(x)^2]=o(p^{-1/2}),
+   \]
+   using that \(\pi\) comes from a persistent one-sign near-\(\epsilon\)-eigenrow and has \(\pi_0=0\).
+
+2. **Second:** estimate the bulk remainder jointly with the centered exterior defect, seeking
+   \[
+   \epsilon S_{\rm bulk}\le -c\,p^{-1/2}
+   \quad\text{whenever}\quad
+   \langle1_{G\setminus(C\cup\{0\})}b,e\rangle\le-c_2n^{-1/2}.
+   \]
+   This would exclude the bulk branch without needing separate cancellation of the marked term.

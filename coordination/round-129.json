@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "round": 129,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent Round 129 Astra audit and validation on a byte-verified local archive snapshot",
+  "sources": {
+    "baseline": {
+      "path": "research/round-128-acceptance.json",
+      "sha256": "f3232af30ae99b03279c1e065a479ff6bca493ec7720331394a81668d995a73b"
+    },
+    "current": {
+      "path": "research/round-129-acceptance.json",
+      "sha256": "98818df3d3ff000832cb14444fa05723d077253cecc61168bd7b514479ef3f84"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "At height 601 the actual two-insertion estimate and transported kernels are bounded with exponent 0.4579.",
+      "after": "The zero-floor ordinary analysis leaves the cold middle price rate and moving starter open.",
+      "remaining": "Price the combined actual derivative at the original square and prove compatible confinement and normalized residual at one genuine moving starter.",
+      "evidence": [
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Rate-free real zero-floor arithmetic",
+      "effect": "reformulated",
+      "before": "The true stationary-weighted spill criterion allowed unbounded weight but required a prime upper on an actual adjusted overshoot.",
+      "after": "The actual mixed-cap zero-floor row gives exact ordinary optimizers. A fixed-height averaged reserve absorbs weights through M/2, and both tail tests together force the unweighted zero-floor defect to vanish. Small caps are excluded for this criterion.",
+      "remaining": "Establish unweighted zero-floor cap-defect vanishing at a sufficient large fixed cap and a separate real upper on the ordinary optimizer-weighted tail.",
+      "evidence": [
+        {
+          "path": "research/zero-floor-mark-and-cap-budget.md",
+          "sha256": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        },
+        {
+          "path": "research/zero-floor-averaged-weighted-tail.md",
+          "sha256": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1"
+        },
+        {
+          "path": "research/zero-floor-two-sided-reserve-129.md",
+          "sha256": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5"
+        },
+        {
+          "path": "research/api-astra-review-129.md",
+          "sha256": "99ac738f0f0b5f693485868e982750e63bd1ad2d03c844259dade8b4cc3d39a0"
+        }
+      ]
+    },
+    {
+      "id": "fixed-masked",
+      "route": "Direct critical cap mask repair",
+      "effect": "unchanged",
+      "before": "A critical real endpoint followed by true large-jump control would give a signed window estimate.",
+      "after": "The averaged real route works without that critical rate and does not establish the signed critical-window upper.",
+      "remaining": "Control an actual critical endpoint, then its cap jump tails or the exact full true-factor masked statistic.",
+      "evidence": [
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        },
+        {
+          "path": "research/real-masked-cap-adjoint-125.md",
+          "sha256": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The real reduction now has a checked necessary unweighted test and a separate weighted arithmetic target. Return to the combined cold derivative for the next actual window.",
+  "next_calls": [
+    {
+      "id": "cold-combined-height-601",
+      "priority": 1,
+      "change_id": "cold",
+      "question": "Does the combined actual height-601 derivative kernel have a smaller translated price on the original cold square?",
+      "why_now": "The true first difference and quadratic insertion are already represented on the physical sheets. The longer middle power controls the remaining exponent.",
+      "scope": "Use the true nine-center prefix and jointly justified counting rate. Collect signed coefficient or weight contributions of the old derivative and its actual update before absolute pricing. Earlier rate inequalities are fixed-height and must not be extrapolated.",
+      "if_yes": "Give a rigorous combined packet rate, resulting exponent and actual physical scope.",
+      "if_no": "Show a precise failure of the tested arithmetic bound on the true word, including its scales.",
+      "if_inconclusive": "Find a checked signed or dimension comparison that changes the next choice, without assuming a moving starter.",
+      "inputs": [
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/cold-signed-time-kernel-transfer-124.md",
+          "sha256": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff"
+        }
+      ]
+    },
+    {
+      "id": "zero-floor-unweighted-largecap",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the actual zero-floor cap deficit be shown to vanish at a sufficiently large fixed cap?",
+      "why_now": "The high-weight route necessarily requires this vanishing. Small caps fail by the seed budget.",
+      "scope": "Use genuine zero-floor averaged iterations and the prime-first order. Do not assume a weighted optimizer bound.",
+      "if_yes": "Prove the unweighted arithmetic upper and its exact cap range.",
+      "if_no": "Give a true positive-defect result at the tested larger cap.",
+      "if_inconclusive": "Identify the precise finite-depth trace estimate or signed correlation still missing.",
+      "inputs": [
+        {
+          "path": "research/zero-floor-mark-and-cap-budget.md",
+          "sha256": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8"
+        },
+        {
+          "path": "research/zero-floor-averaged-weighted-tail.md",
+          "sha256": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1"
+        },
+        {
+          "path": "research/zero-floor-two-sided-reserve-129.md",
+          "sha256": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        }
+      ]
+    },
+    {
+      "id": "zero-floor-weighted-prime",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Can the exact ordinary-optimizer high part be controlled on actual finite-depth cap spill through primes?",
+      "why_now": "The averaged reserve pays the entire low-weight part and reduces both signs to a definite high-weight test.",
+      "scope": "Keep the actual ordinary optimizer, true zero-floor iterates and possible distinct fixed-horizon subsequences. Do not replace the weighted test by mere cap-defect vanishing.",
+      "if_yes": "Give a prime-uniform upper in the stated order of limits and check both ordinary theta signs.",
+      "if_no": "Exhibit a true obstruction to the proposed weighted bound.",
+      "if_inconclusive": "Give an exact signed-arithmetic test against the actual optimizer support or a necessary estimate with the right scale.",
+      "inputs": [
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        },
+        {
+          "path": "research/zero-floor-averaged-weighted-tail.md",
+          "sha256": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1"
+        },
+        {
+          "path": "research/zero-floor-two-sided-reserve-129.md",
+          "sha256": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5"
+        },
+        {
+          "path": "research/api-astra-review-129.md",
+          "sha256": "99ac738f0f0b5f693485868e982750e63bd1ad2d03c844259dade8b4cc3d39a0"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which new real or cold arithmetic assertions hold on the genuine rows?",
+      "why_now": "The active cold and real routes need separate exact scope and normalization checks.",
+      "scope": "Read only, check true rows, norms, order of limits, and evidence boundaries.",
+      "if_yes": "Report checked propositions and ranked next tests.",
+      "if_no": "Locate the earliest invalid quantitative or logical step.",
+      "if_inconclusive": "Report established fields and open dependencies separately.",
+      "inputs": [
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/zero-floor-averaged-weighted-tail.md",
+          "sha256": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1"
+        },
+        {
+          "path": "research/zero-floor-two-sided-reserve-129.md",
+          "sha256": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5"
+        }
+      ]
+    }
+  ]
+}

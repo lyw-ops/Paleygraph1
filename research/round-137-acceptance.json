@@ -1,0 +1,141 @@
+{
+  "round": 137,
+  "accepted_at_utc": "2026-11-19T18:48:01Z",
+  "previous": "research/round-136-acceptance.json",
+  "previous_sha256": "eb418d58b958d53114bcd7022a7d6bc1e2e8f1458cd9f659ed22d9113a93cfa3",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-136.json",
+    "sha256": "03784a5bbe402f15b907c34a9996ab42e7ae1f5566b3c0edcbc5e8a59f153481"
+  },
+  "proof_and_code_sha256": {
+    "research/cold-linear-split-137.md": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01",
+    "research/cold-linear-split-137-check.py": "f9a3bc452358e65e3d779260cb715f6baba27da8f04303c191db635a6c19f42f",
+    "research/cold-linear-split-137-checks.jsonl": "f409a60f0a509dddb84acbd1f180ac55308e2a27efd222c8799a0bcaada528e8",
+    "research/ordinary-bulk-spectrum-137.md": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a",
+    "research/api-astra-review-137.md": "4e64d621369dd437fa8b9188c73520f0635f0b7cbee12b06a1c4e4b3e7b7f272",
+    "research/api-astra-137-receipt.json": "38f3ea754895a720293e14fa12018a93e1de493c3efdd9d5155dd8fbbe46bc16",
+    "coordination/launchers/round-137.py": "61bb7ede3da07e23f28f6b5956085ee31763040e7bfb9df03e7065ec3fee7abb",
+    "coordination/round-137-inflight.json": "b150dc79471e2bc5edbd21589254bb15e21f2174377922c1b619b900b0f0a2ef",
+    "coordination/shared-obligations/round-137-before.json": "bbb95a477f4e30cbd541041ad23977ac7edf05e418ec70d72fdb62f944312ef1",
+    "coordination/shared-obligations/round-137-after.json": "d6fec4cb3ce7cdb1b90d9cce635d2b08cfe50abfd30bd9b4904c676531cdf4b5",
+    "research/api-astra-cold-labelled-center-cancellation-137.txt": "e5974b53af3847893e2e99ee7213bc3db5fb0c243ef1d51e9a88268192899d24",
+    "research/api-astra-cold-direct-joint-block-137.txt": "7a9526c5aba2d9c273fa16be7f04663b98f39ad48e86789b92d68bea5ea94715",
+    "research/api-astra-ordinary-optimal-bulk-energy-137.txt": "e39bc329dc118d5e818d87786f7779c747fd4d29f47553ee974fdf879515ca7f",
+    "coordination/missions/round-137/cold-labelled-center-cancellation.md": "e1ff0ea2202cb6519c0edfc150679e33ff2ca486b1e885f9b15708502cb53f73",
+    "coordination/missions/round-137/cold-direct-joint-block.md": "03b7fecf9b4a42ed92e389d495bee8c152519d0e3d7bfbad4b2d99a619a0cc3a",
+    "coordination/missions/round-137/ordinary-optimal-bulk-energy.md": "9012360eb9f1ec1b651722bdaf1bee9446f2c4a797c529ca11cefcbb8177e7b4"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-resummed-136-checks.jsonl": "b7c123585e2ec421aadc4f8404233db576d96b1944812a3d9d4bb87bba3d0771",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/cold-remainder-135.md": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/ordinary-sector-square-tail-135.md": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a",
+    "research/ordinary-seed-window-134.md": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb",
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/astra-direction-70.md": "126bbb56ee8dc0f4c51aeb4365b95f12b4a327d56e76e98815eeb84260814c72",
+    "research/zero-floor-ordinary-mixed-cap.md": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb",
+    "research/astra-jointface-58.md": "ca430f8421233cc071dff6697af76f060fcc7f5965fdbbe81c4869d87b6e9b7f",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-resummed-136-check.py": "81dbc6e21637e04a5bf39bf503a6172fee8ba4dffe308d0dce7fb6fe068a3784",
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c"
+  },
+  "additional_replay_dependency_sha256": {
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa"
+  },
+  "goal_status": "active",
+  "research_execution": "Active desktop research goal. Three API drafts were closed and new results independently reviewed.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 2,
+  "arithmetic_record_counts": {
+    "actual_linear_split": 2
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra cold labelled center cancellation",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Extract the exact eight-center arithmetic label table",
+        "Test the first returning signed transport blocks"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold direct joint block",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Aggregate the actual block before absolute comparison",
+        "Isolate a correlated signed cross-term"
+      ]
+    },
+    {
+      "name": "Gateway Astra ordinary optimal bulk energy",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Measure the actual pinned least-energy supports at increasing primes as diagnostics",
+        "Prove an actual-support compression estimate"
+      ]
+    },
+    {
+      "name": "/root/audit_137",
+      "status": "completed",
+      "ranked_closeout": [
+        "Identify returns across the centers and actual residual in the full linear term",
+        "Control the forcing-specific inf-sup on the actual least-energy ordinary support"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Canonicalize the eight named center fields and their seed twists at nonseed degree one. If retaining the residual 0.260 and nonlinear 0.142 charges, the center budget is strictly below 0.070. A joint center-plus-residual linear bound below 0.330 is an alternative.",
+    "Use the actual companion ordinary face to control the source-weighted inverse square moment, its inf-sup equivalent, or the weaker signed seed tail. Clipped even-window parity remains independent.",
+    "Seek a directly signed mixed cold block estimate: combined R602 J + J R601 below 0.277444 suffices using the established product-of-remainders upper. The physical 0.721 full block, half-step and invariant margins remain open."
+  ],
+  "proof_scope": [
+    "For h=601,602, eventually through eligible primes on the original closed square, the separately priced linear center and actual Picard residual have physical P5000 uppers 0.267 and 0.260. The outward proof includes the analytic tail, residual omission, marked floor and both boundary pairs.",
+    "For each actual ordinary minimum bulk-energy pinned face, its support compression solves x=A-dagger g. The normalized bulk energy equals the inverse square moment against the marked forcing. The exact first inverse moment is 1-2q/n+(q^2/n)(1+epsilon/n), and the source inf-sup is equivalent to an energy bound.",
+    "The joint-block reply used 0.666 for the complete derivative while it bounds only the remainder. Existing inputs give 1.049616 through one exact splitting. Under the second splitting, combined mixed terms below 0.277444 would suffice for the 0.721 full difference budget.",
+    "The actual R137 batch has three distinct mathematical obligations, with no common exact candidate group in the pre-launch or post-review records."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The repeated-seed Laurent identity does not identify distinct nonseed center objects. No signed estimate below 0.070 for the center or 0.330 for the complete linear remainder has been established.",
+    "The joint candidate mismatched the full and remainder factor and displayed the wrong shape for Q. No near miss at 0.722340 follows. The actual two-step translated estimate and genuine growing-depth confinement remain open.",
+    "The exact first inverse moment only controls the low-spectrum distribution linearly and cannot exclude escaping bulk energy. The prime-uniform inverse square estimate, bounded-window parity and signed tail of actual ordinary optimizers remain open.",
+    "The original ordinary theta limit is still open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "The two split records were reproduced byte for byte by a private independent replay with python-flint 0.9.0 and 192-bit Arb. The checked archive and source versions matched the accepted replay inputs.",
+    "All three actual Astra responses returned HTTP 200, a matching gateway model name, and a complete draft. The pre-dispatch comparison binding and closeout chronology were checked with shared_obligations.py."
+  ],
+  "independent_review": [
+    "A separate read-only reviewer verified the exact binomial split, marked repairs, and outward checks. The reviewer also derived the actual compressed minimizer via two-sided feasible perturbations, verified the first inverse moment and spotted the invalid joint-block bound."
+  ]
+}

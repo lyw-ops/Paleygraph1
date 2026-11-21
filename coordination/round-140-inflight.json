@@ -1,0 +1,61 @@
+{
+  "round": 140,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-139-acceptance.json",
+    "sha256": "a09b59af60fad5812a216617af00f37917e62446cdc707eca7b523e0390ea586"
+  },
+  "coordinator": {
+    "path": "coordination/round-139.json",
+    "sha256": "59303d319b075710e22d7d1f4d3f5e0d53e942b2379d8aca908a1fd73df220a7"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-140.py",
+    "sha256": "0fdfcd2c44fe53a42f02cafdda607fbb2f71944e1aae532115d6620f3ea864bb"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-140-before.json",
+    "sha256": "77ad39aee0a75ad0018491940982f5723e8cb25b2196b97f01cd85bebb8dbc72"
+  },
+  "lanes": [
+    {
+      "call_id": "cold-inverse-line-packet-price",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "cd48389344f056c6d6a8b0825715cf3670d159957c3d35e570f141b892fab06d",
+      "mission_file": {
+        "path": "coordination/missions/round-140/cold-inverse-line-packet-price.md",
+        "sha256": "2ce8a4694028254f568bb33f9a285ca8d6743797a1049440745c76d41e8f0b5f"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r140-api-01a1ed0a/cold-inverse-line-packet-price-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r140-api-01a1ed0a/cold-inverse-line-packet-price-candidate.md",
+      "started_utc_epoch": 1795115524.26974
+    },
+    {
+      "call_id": "cold-weighted-off-inverse-pairing",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "e061b507680d6e7a631bdd559e34b24afb339ea969351655b25448f296dbe3f0",
+      "mission_file": {
+        "path": "coordination/missions/round-140/cold-weighted-off-inverse-pairing.md",
+        "sha256": "da1433a4f5b6500c957f6e8a74a171ca59d5cc11a3c9e215774f98d0aaf30eab"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r140-api-01a1ed0a/cold-weighted-off-inverse-pairing-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r140-api-01a1ed0a/cold-weighted-off-inverse-pairing-candidate.md",
+      "started_utc_epoch": 1795115524.269086
+    },
+    {
+      "call_id": "ordinary-averaged-completion-overlap",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "d97117cc3ec272968827c3e0a396afa219578d538c6882df2ee031a3be5b0176",
+      "mission_file": {
+        "path": "coordination/missions/round-140/ordinary-averaged-completion-overlap.md",
+        "sha256": "4460d0c3d08638b2ea7dd7e58a171c15df84307ab6839655964f6ab78fa74b5d"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r140-api-01a1ed0a/ordinary-averaged-completion-overlap-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r140-api-01a1ed0a/ordinary-averaged-completion-overlap-candidate.md",
+      "started_utc_epoch": 1795115524.268647
+    }
+  ]
+}

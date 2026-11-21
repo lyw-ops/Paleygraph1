@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T18:39:04.756862Z",
+  "prepared_by": "Codex coordinator",
+  "coordinator": "coordination/round-136.json#next_calls",
+  "coordinator_sha256": "03784a5bbe402f15b907c34a9996ab42e7ae1f5566b3c0edcbc5e8a59f153481",
+  "call_ids": [
+    "cold-labelled-center-cancellation",
+    "cold-direct-joint-block",
+    "ordinary-optimal-bulk-energy"
+  ],
+  "routes": {
+    "r137/cold-labelled-center-cancellation": {
+      "question": "Can actual eight-center repeated Mellin objects lower the signed linear part below 0.330 with strict uniform slack?",
+      "scope": "Use h=601,602, the exact closed square, fully marked physical P5000 product. Separate named center fields from actual Picard residual; claim cancellation only by identical trace objects or exact identities, not equal boundary weights.",
+      "remaining": "Find new actual signed identities or a joint block estimate with the correct marking, then establish half-step and invariant margins and genuine growing-depth confinement."
+    },
+    "r137/cold-direct-joint-block": {
+      "question": "Can the joint signed two-step difference with the pure-seed block have physical price below 0.721?",
+      "scope": "Actual KD602 KD601 minus KD^J KD^J on the original closed square in physical P5000. Use both actual marks, half-steps and translated pair. Seek transport across the block, and do not assume a one-step remainder price below 0.472.",
+      "remaining": "Find new actual signed identities or a joint block estimate with the correct marking, then establish half-step and invariant margins and genuine growing-depth confinement."
+    },
+    "r137/ordinary-optimal-bulk-energy": {
+      "question": "Can the actual ordinary pair be chosen with a uniformly bounded bulk second moment over the two exposed optimal faces?",
+      "scope": "Fix marked cap and use the true prime ordinary faces with fixed optimal mark. Allow choosing minimum bulk-energy representatives in both faces. Seek a support or autocorrelation estimate on those actual optimizers. Bounded-window parity remains a distinct input.",
+      "remaining": "Find a prime-uniform ordinary tail or bounded-window parity estimate, using actual exposed complementary optimal faces rather than arbitrary feasible supports."
+    }
+  },
+  "candidate_ids_by_call": {
+    "cold-labelled-center-cancellation": [],
+    "cold-direct-joint-block": [],
+    "ordinary-optimal-bulk-energy": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "Three distinct estimates. The first cold call seeks the exact linear-nonseed bound below 0.330 for the separate step criterion; the joint cold call instead needs a true two-step difference below 0.721 and does not assume the separate one-step bound. The real call studies actual exposed ordinary faces at zero floor. No exact common estimate was found between the selected scopes, so the shared list is empty. Earlier cold candidate recurrence was recorded in Round 136; no earlier calls remain active."
+}

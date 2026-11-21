@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T00:53:16.228938Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-170.json#next_calls",
+  "coordinator_sha256": "ad882035ee3884363eeec7b5ca2a12206cee6e3c07ffa3f4429a2c7a592eff6e",
+  "call_ids": [
+    "ordinary-prime-regular-dilation-jacobi",
+    "ordinary-prime-inverse-spectral-tail",
+    "cold-prime-shared-linear-mixed-transport"
+  ],
+  "routes": {
+    "r171/ordinary-prime-regular-dilation-jacobi": {
+      "question": "Can the regular signed distinct-ratio Jacobi terms or all-distinct physical tuples meet the true weighted O(p^5/2) scale?",
+      "scope": "Keep true g and w, both exact masked row Fourier coefficients and affine labels c,c-prime; or work on the actual all-distinct product-and-sum geometry. Do not reimpose false norm or generic cap sufficient bounds. Keep zero-match separate.",
+      "remaining": "Estimate the regular signed Jacobi sum or all-distinct physical terms with actual weights and separately zero match, or obtain an actual fixed-gap centered inverse bound."
+    },
+    "r171/ordinary-prime-inverse-spectral-tail": {
+      "question": "Can the actual inverse-weighted low spectral tail be bounded for the true marked positive support or actual quotient?",
+      "scope": "Use n=(p-1)/2, original mark q and true actual projection. For source spectral measure use an integrable dyadic bound with inverse weights, or a genuine one-sided geometric bound. Distinguish B-first total from A-first residual, and keep an admissible T.",
+      "remaining": "Estimate the regular signed Jacobi sum or all-distinct physical terms with actual weights and separately zero match, or obtain an actual fixed-gap centered inverse bound."
+    },
+    "r171/cold-prime-shared-linear-mixed-transport": {
+      "question": "Can the actual shared first-harmonic mixed packet be transported with a uniform growing-depth signed price?",
+      "scope": "Keep actual R^2 S integral of W_s, both lifts, original square and t0=n. Seek a sufficient signed summable response or a new transported recurrence with decay. Carry other words and marks separately, including their correct growing-depth errors.",
+      "remaining": "Prove signed summable transport on the actual source subspace or a moving nonlinear starter with confinement on the same square."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-regular-dilation-jacobi": [],
+    "ordinary-prime-inverse-spectral-tail": [],
+    "cold-prime-shared-linear-mixed-transport": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The regular Jacobi task studies the actual selected physical one-match covariance. The inverse-tail task studies the actual optimal marked face. The mixed source task studies cold transported confinement on the original square. These obligations and tests differ."
+}

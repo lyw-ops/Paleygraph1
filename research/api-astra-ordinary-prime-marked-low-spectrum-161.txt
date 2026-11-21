@@ -1,0 +1,243 @@
+## Checked result
+
+Let  
+\[
+\mathcal P=\{p:\ p\equiv1\pmod 4,\ p\ \text{eligible for the actual marked window}\},
+\qquad n=(p-1)/2,
+\]
+and let \(T=T(p)\to\infty\) be one admissible growing time with \(T+1\) in the simultaneous marked window. All limits below are along \(p\to\infty\) in \(\mathcal P\), with the physical marked coordinate fixed at \(0\).
+
+Fix a sign \(\epsilon\in\{\pm1\}\). Let \(F\) be the genuine least-bulk-energy opposite optimizer, with physical mark \(F_0=q\), true positive bulk support
+\[
+S=\{i\neq0:F_i>0\},
+\]
+and let \(E_S\) denote extension by zero. Put
+\[
+A=I_S-\epsilon E_S^*KE_S,
+\qquad
+g_S=\mathbf1_S+\epsilon qE_S^*Ke_0.
+\]
+Then \(Ax=g_S\) for \(x=F|_S\), and \(A\) is positive semidefinite.
+
+Let \(R\ge0\) be the genuine complementary optimizer, so
+\[
+R|_S=0,\qquad (I+\epsilon K)R=\mathbf1.
+\]
+With
+\[
+L=I-\epsilon K,\qquad h=R+qe_0,
+\]
+the physical signs give the exact exterior-source identity
+\[
+\boxed{\,g_S=-E_S^*Lh\,}. \tag{1}
+\]
+Indeed, on \(S\), \(R=0\) and \(\epsilon KR=1\), hence
+\[
+g_S=\mathbf1_S+\epsilon qE_S^*Ke_0
+=\epsilon E_S^*K(R+qe_0)
+=-E_S^*L(R+qe_0).
+\]
+
+Define the marked spectral measure
+\[
+\mu_p(B)=\frac1n\|\mathbf1_B(A)g_S\|_2^2.
+\]
+The zero eigenspace has zero \(g_S\)-mass, and
+\[
+\frac1n\|x\|_2^2
+=\int_{(0,2]}\lambda^{-2}\,d\mu_p(\lambda).
+\]
+Under the fixed-gap hypothesis \(q/\sqrt n\ge1+\eta\), the previous argument gives
+\[
+\int\lambda^{-2}\,d\mu_p(\lambda)\ge cT,
+\qquad
+\int\lambda^{-1}\,d\mu_p(\lambda)\le C, \tag{2}
+\]
+for constants \(c,C>0\) independent of \(p\).
+
+Choose a fixed \(A_0\) sufficiently large, after \(c,C\) are fixed. Since
+\[
+\lambda^{-2}\le \frac{T}{A_0}\lambda^{-1}
+\qquad(\lambda>A_0/T),
+\]
+(2) implies
+\[
+\int_{(0,A_0/T]}\lambda^{-2}\,d\mu_p(\lambda)
+\ge cT-\frac{CT}{A_0}.
+\]
+Thus, for \(A_0>2C/c\),
+\[
+\boxed{\;
+\int_{(0,A_0/T]}\lambda^{-2}\,d\mu_p(\lambda)
+\ge \frac c2T
+\;} \tag{3}
+\]
+along every fixed-gap subsequence.
+
+Consequently, an actual-prime estimate
+\[
+\boxed{\;
+\int_{(0,A_0/T]}\lambda^{-2}\,d\mu_p(\lambda)=o(T)
+\;} \tag{4}
+\]
+for one admissible growing \(T(p)\), for both physical signs, would exclude the original fixed gap.
+
+Equivalently, if \(P_{\le A_0/T}\) is the spectral projection of \(A\), then (4) is
+\[
+\frac1n
+\left\|A^\dagger P_{\le A_0/T}g_S\right\|_2^2=o(T),
+\]
+and implies the required dual estimate
+\[
+\left|\langle g_S,v\rangle\right|
+\le o(\sqrt{nT})\,\|Av\|_2
+\]
+for every vector spectrally supported on \(0<\lambda\le A_0/T\).
+
+So the low-window reduction is valid without assuming critical effective support.
+
+## What the positive exterior source gives
+
+From (1), positivity of \(h=R+qe_0\), and \(L\succeq0\), Cauchy–Schwarz gives the universal estimate
+\[
+|\langle g_S,v\rangle|
+=
+|\langle Lh,E_Sv\rangle|
+\le
+\langle h,Lh\rangle^{1/2}
+\langle E_Sv,LE_Sv\rangle^{1/2}.
+\]
+Since
+\[
+\langle E_Sv,LE_Sv\rangle=\langle v,Av\rangle,
+\]
+for an eigenvector \(Av=\lambda v\),
+\[
+\boxed{\;
+|\langle g_S,v\rangle|
+\le \langle h,Lh\rangle^{1/2}\sqrt{\lambda}\,\|v\|_2.
+\;} \tag{5}
+\]
+
+This is only a square-root gain in \(\lambda\). The desired estimate requires a full factor of \(\lambda\):
+\[
+|\langle g_S,v\rangle|
+=o(\sqrt{nT})\,\lambda\|v\|_2.
+\]
+At \(\lambda\asymp T^{-1}\), (5) is at best of the same order as the desired right-hand side when \(\langle h,Lh\rangle\) is of order \(n\); it gives no little-\(o\), and it is worse for \(\lambda\ll T^{-1}\). Positivity of \(h\) does not repair this because \(L=I-\epsilon K\) is positive semidefinite but not entrywise positive, and low eigenvectors can have mixed signs.
+
+Thus the exterior source identity is exact and useful, but its direct energy estimate does not prove the marked inverse-square upper.
+
+## Precise relaxed obstruction
+
+The failure is not merely a weakness of presentation. The source identity, positivity, and \(K\)-contraction do not by themselves imply the required \(\lambda\)-gain.
+
+For \(n\) large, take a relaxed two-coordinate model with \(S=\{1\}\), physical root \(0\), \(q=\sqrt n\), and
+\[
+L=
+\begin{pmatrix}
+2/n & -1/\sqrt n\\
+-1/\sqrt n & 1-1/\sqrt n
+\end{pmatrix},
+\qquad
+K=I-L.
+\]
+For \(n>4\), \(L\succeq0\), \(\|K\|\le1\). Set
+\[
+R=(0,\sqrt n),\qquad h=R+qe_0=(0,2\sqrt n).
+\]
+Then \(R\ge0\), \(R|_S=0\), and
+\[
+(I+K)R=\mathbf1.
+\]
+Moreover,
+\[
+A=L_{SS}=2/n,
+\qquad
+g_S=-E_S^*Lh=2.
+\]
+Taking \(T=n/2\), the eigenvalue \(2/n\) lies in the window \(0<\lambda\le A_0/T\) whenever \(A_0\ge1\), and
+\[
+\frac1n\frac{|g_S|^2}{\lambda^2}
+=
+\frac1n\frac{4}{(2/n)^2}
+=n=2T.
+\]
+Hence the low inverse-square contribution is not \(o(T)\).
+
+This is not a counterexample to the actual prime family: the matrix is not required to be the physical Jacobi operator, and its marked diagonal is not the physical value \(K_{00}=-1/n\). It shows precisely that the following ingredients are insufficient on a relaxed problem:
+
+- \(L=I-\epsilon K\succeq0\) and \(\|K\|\le1\);
+- the physical source form \(g_S=-E_S^*L(R+qe_0)\);
+- \(R\ge0\), \(R|_S=0\);
+- even the complementary equation \((I+\epsilon K)R=\mathbf1\).
+
+The missing input must use additional arithmetic/Jacobi structure or a cancellation between the \(R\)-source and the marked \(qe_0\)-source.
+
+## Evidence and remaining gap
+
+The evidence supports the reduction:
+
+1. The fixed gap forces a bulk inverse-square moment of order \(T\).
+2. The first inverse moment remains uniformly bounded.
+3. Therefore a fixed window \(0<\lambda\le A_0/T\) carries order-\(T\) inverse-square mass.
+4. The construction uses the actual least-energy support \(S\), actual compressed operator \(A\), actual physical mark \(0\), and actual forcing \(g_S\).
+5. No critical effective-support assumption is used.
+
+The unresolved statement is exactly
+\[
+\lim_{p\to\infty,\ p\in\mathcal P}
+\frac1{nT(p)}
+\sum_{0<\lambda_j\le A_0/T(p)}
+\frac{|\langle g_S,u_j\rangle|^2}{\lambda_j^2}
+=0, \tag{6}
+\]
+for the actual eigenpairs \((\lambda_j,u_j)\) of the actual support-compressed Jacobi operator, uniformly along any fixed-gap subsequence and for both signs.
+
+No generic source-free gap, rank estimate, or bound on an ambient support addresses (6).
+
+## Ranked next tests
+
+### 1. Actual marked boundary-source cancellation
+
+For the genuine prime family and actual support, compute or prove directly
+\[
+\left\|
+P_{\le A_0/T}A^\dagger
+E_S^*L(R+qe_0)
+\right\|_2^2=o(nT). \tag{7}
+\]
+The \(R\)-term and \(qe_0\)-term must be retained together; bounding them separately by Cauchy–Schwarz is insufficient and can lose the required cancellation.
+
+A useful exact diagnostic is
+\[
+\frac1{nT}
+\sum_{0<\lambda_j\le A_0/T}
+\frac{
+\left|
+\epsilon\langle K(R+qe_0),E_Su_j\rangle
+\right|^2
+}{\lambda_j^2}.
+\]
+If this has a positive limsup for an actual prime subsequence, the proposed \(o(T)\) mechanism is refuted for that subsequence. If it tends to zero, the remaining task is to prove the same decay uniformly rather than merely observe it finitely.
+
+### 2. A physical Jacobi coupling estimate for low eigenvectors
+
+Seek an actual-prime inequality, using the physical \(K\), \(K_{00}=-1/n\), and the adaptive support \(S\), of the form
+\[
+|\langle g_S,u\rangle|
+\le \omega_p\sqrt{nT}\,\lambda\|u\|_2,
+\qquad
+\omega_p\to0,
+\]
+for every \(Au=\lambda u\) with \(0<\lambda\le A_0/T\).
+
+Equivalently, prove a boundary trace estimate that converts the low-energy condition
+\[
+\langle u,Au\rangle=\lambda\|u\|_2^2
+\]
+into extra cancellation in the marked exterior pairing
+\[
+\langle L(R+qe_0),E_Su\rangle.
+\]
+This is the genuinely new arithmetic step required: the universal PSD estimate supplies only \(\sqrt\lambda\), while the target needs \(\lambda\).

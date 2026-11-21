@@ -1,0 +1,255 @@
+## Result
+
+For the ordinary-prime family \(p\to\infty\), with the actual \(g_p=|f_p|^2\), the actual output weight
+\[
+w_p(s)=g_p(s)(1-g_p(s)),
+\]
+the physical square marking \(b\in Q_p\), and counting norms, I obtain:
+
+1. **The exact same-pair collision class is already at the target scale**
+   \[
+   \boxed{\mathcal D_{\mathrm{same}}=O(p^{3/2}).}
+   \]
+
+2. **Retaining \(g(C)\) and \(w(s)\) in the standard point-line incidence argument does not produce a power saving beyond \(p^{37/16}\).** The coupled incidence route remains insufficient for the full target \(O(p^{3/2})\).
+
+Thus the full diagonal remains open, but the diagonal obstruction is now confined to genuinely distinct physical pairs.
+
+---
+
+## 1. Physical diagonal and line parametrization
+
+Use the nonzero physical chart from the cited rounds, with \(Y,D\neq 0,1\), \(Y\neq D\), and the actual square mask \(b\in Q_p\):
+\[
+r=\frac{Y-D}{1-D},\qquad
+b=\frac{D(1-Y)}{Y(1-D)}.
+\]
+
+For \(s\neq 0,1\), set \(X=1/s\). Then
+\[
+\frac1A=\frac1r-\frac br X,
+\]
+so
+\[
+A=\frac{rs}{s-b},
+\qquad
+C=\frac{rD}{Y(s-b)}.
+\]
+Consequently
+\[
+\frac1C
+=\frac{Y(s-b)}{rD}
+=a_{Y,D}s+c_{Y,D},
+\]
+where
+\[
+a_{Y,D}=\frac{Y(1-D)}{D(Y-D)},
+\qquad
+c_{Y,D}=\frac{Y-1}{Y-D}.
+\]
+
+Therefore each physical pair \((Y,D)\) gives a line
+\[
+\ell_{Y,D}:\quad v=a_{Y,D}s+c_{Y,D}
+\]
+in the \((s,v)=(s,1/C)\)-plane. The actual diagonal is bounded positively by
+\[
+P_s
+\le
+F_s
+:=
+\sum_{\substack{Y,D\\ b(Y,D)\in Q_p}}
+g(Y)g(D)\,
+g\!\left(\frac1{a_{Y,D}s+c_{Y,D}}\right),
+\]
+where zero is assigned at poles. This retains the physical square marking and the genuine \(g(C)\), but drops only the nonnegative factor \(g(A)\).
+
+The parameter map \((Y,D)\mapsto(a,c)\) is generically injective. Indeed,
+\[
+c=\frac{Y-1}{Y-D},\qquad
+a=\frac{Y(1-c)}D,
+\]
+and hence
+\[
+Y=\frac{a}{(1-c)(a+c)},
+\]
+away from the already excluded degeneracies.
+
+Moreover, an arbitrary affine parameter line
+\[
+\alpha a+\beta c=\gamma
+\]
+contains at most \(2V\) members when \(D\) ranges over a set of size \(V\): after clearing denominators, the condition is quadratic in \(Y\) for each fixed \(D\). Thus the same affine-energy hypotheses used in Round 172 remain valid for these \(1/C\)-lines.
+
+---
+
+## 2. Why the coupled incidence mechanism does not reach \(p^{3/2}\)
+
+Let
+\[
+G=\sum_x g(x)=O(\sqrt p).
+\]
+For threshold sets
+\[
+U_a=\{Y:g(Y)>a\},\quad
+V_d=\{D:g(D)>d\},\quad
+W_c=\{C:g(C)>c\},
+\]
+write their sizes as \(U,V,W\).
+
+Applying the finite-field Cartesian incidence estimate to points
+\[
+S\times W_c^{-1}
+\]
+and the lines \(\ell_{Y,D}\), the leading term is controlled by
+\[
+|S|^{5/8}
+\bigl(U^{13/16}V^{7/8}+U^{3/4}V^{7/8}\bigr)
+W^{1/2}.
+\]
+
+Layer-cake integration in the three genuine weights gives
+\[
+\int U_a^{13/16}V_d^{7/8}W_c^{1/2}\,da\,dd\,dc
+\ll
+G^{13/16+7/8+1/2}
+=
+G^{35/16}.
+\]
+The second energy term is smaller:
+\[
+G^{3/4+7/8+1/2}=G^{17/8}.
+\]
+
+Thus the leading coupled incidence estimate has the form
+\[
+\sum_{s\in S}F_s
+\lesssim
+G^{35/16}|S|^{5/8}
++\text{secondary terms}.
+\]
+
+Ignoring the secondary terms only makes the proposed mechanism stronger. If \(F^*(k)\) denotes the decreasing rearrangement, this would give
+\[
+F^*(k)\lesssim G^{35/16}k^{-3/8}.
+\]
+
+The actual output weight satisfies only
+\[
+0\le w(s)\le 1,\qquad
+\sum_s w(s)\le G.
+\]
+Hence rearrangement gives
+\[
+\sum_s w(s)F_s^2
+\le
+G^{70/16}\sum_{k\le G}k^{-3/4}
+\ll
+G^{70/16+1/4}
+=
+G^{37/8}.
+\]
+Since \(G=O(p^{1/2})\),
+\[
+G^{37/8}=O(p^{37/16}).
+\]
+
+Therefore, even after simultaneously retaining \(g(C)\), the actual \(w(s)\), and the physical \(b\in Q_p\) restriction, the standard incidence calculation still returns the same power
+\[
+\boxed{O(p^{37/16})}
+\]
+up to the existing logarithmic/secondary terms. It does not approach \(O(p^{3/2})\).
+
+This is a failure of the sufficient mechanism, not a disproof of the target. The estimate uses only separate layer-cake information and does not exploit correlation between \(w(s)\), \(C(s)\), and the line parameters.
+
+The existing light-pair contribution at the cut \(\tau=p^{-1/8}\) is \(O(p^{9/4})\), also above the desired \(p^{3/2}\) scale. All constants here are uniform as \(p\to\infty\) through the specified ordinary primes; the cut \(\tau=p^{-1/8}\) is chosen separately for each \(p\), and the layer integrals are performed before taking the prime limit.
+
+---
+
+## 3. Exact control of the same-pair collision class
+
+Expand the square of the positive physical diagonal. The contribution where the two copies use the same physical pair \((Y,D)\) is
+\[
+\mathcal D_{\mathrm{same}}
+=
+\sum_{Y,D}
+g(Y)^2g(D)^2
+\sum_s
+w(s)\,
+g(A_{Y,D}(s))^2g(C_{Y,D}(s))^2
+\,1_{b(Y,D)\in Q_p}.
+\]
+
+Since \(0\le g\le1\),
+\[
+\mathcal D_{\mathrm{same}}
+\le
+\left(\sum_Y g(Y)^2\right)
+\left(\sum_D g(D)^2\right)
+\sum_s w(s).
+\]
+Using
+\[
+\sum_x g(x)^2\le \sum_x g(x)=G,
+\qquad
+\sum_s w(s)\le G,
+\]
+we obtain
+\[
+\boxed{
+\mathcal D_{\mathrm{same}}\le G^3=O(p^{3/2}).
+}
+\]
+
+This bound keeps the actual physical marking \(b\in Q_p\), the actual \(g(A)\), \(g(C)\), and the actual output weight \(w(s)\). It is therefore a genuine target-scale collision cut, not a bound for an auxiliary unrestricted model.
+
+The remaining difficulty is the distinct-pair contribution.
+
+---
+
+## Remaining gap
+
+The unresolved term is
+\[
+\sum_{\substack{(Y,D)\neq(Y',D')}}
+g(Y)g(D)g(Y')g(D')
+\sum_s w(s)\,
+g(A_{Y,D}(s))g(C_{Y,D}(s))
+g(A_{Y',D'}(s))g(C_{Y',D'}(s)),
+\]
+with both physical square masks retained.
+
+A first-moment incidence estimate cannot control this at \(O(p^{3/2})\). One needs a genuinely bilinear estimate that uses the common output variable \(s\), the correlation of the two \(C\)-lines, and the actual \(w(s)\), rather than applying incidence separately to level sets.
+
+## Ranked next tests
+
+1. **Distinct-line weighted correlation test.**  
+   Prove or disprove the stronger positive estimate
+   \[
+   \sum_{\ell\neq\ell'}
+   \mu_\ell\mu_{\ell'}
+   \sum_s w(s)\,
+   g(C_\ell(s))g(C_{\ell'}(s))
+   \ll p^{3/2},
+   \]
+   where
+   \[
+   \mu_{Y,D}=g(Y)g(D)1_{b(Y,D)\in Q_p}.
+   \]
+   This drops \(g(A)\), so it is stronger than the actual physical statement. A proof would close the full diagonal after the already-controlled endpoint and light terms; a counterexample for the actual \(g_p\) would identify the required obstruction.
+
+2. **Parallel-parameter collision cut.**  
+   For
+   \[
+   a(Y,D)=\frac{Y(1-D)}{D(Y-D)},
+   \qquad
+   M_a=\sum_{\substack{(Y,D):\,a(Y,D)=a\\b(Y,D)\in Q_p}}
+   g(Y)g(D),
+   \]
+   test whether the actual optimizer satisfies
+   \[
+   \sum_a M_a^2\ll G^2
+   \]
+   or a weighted variant involving \(w(s)g(C)\). The crude algebraic bound only gives \(M_a\ll G\), hence \(\sum_aM_a^2\ll G^3\), which is too weak. A target-scale bound here would remove the parallel-line collision class and leave only genuinely transverse pairs.
+
+No files were modified.

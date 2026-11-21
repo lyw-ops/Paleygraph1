@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-153-inflight.json",
+    "sha256": "15218fdfea86c752bfcf7e7d5f9307a6e5c824c5fada599c53fa877f96c916e8"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-weighted-affine-fourth-moment",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 22699,
+        "completion_tokens": 11755,
+        "total_tokens": 34454
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-weighted-affine-fourth-moment-153.txt",
+        "sha256": "5c60b5e4a7c6dc92910bb90819aabb21f5708a922c63e9a3516323e8c58ae1c0"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-first-spill-face-upper",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 11451,
+        "completion_tokens": 3277,
+        "total_tokens": 14728
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-first-spill-face-upper-153.txt",
+        "sha256": "c314411fc4eb0eb71329e99c222371ab130e340a85ad6b371886bc9ec22a3bff"
+      }
+    },
+    {
+      "call_id": "cold-three-center-actual-square-omission",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 16300,
+        "completion_tokens": 2524,
+        "total_tokens": 18824
+      },
+      "archive": {
+        "path": "research/api-astra-cold-three-center-actual-square-omission-153.txt",
+        "sha256": "1e60bf417aa61b54ea9d06c311a88ea6dae874bc7aa527d6adf6e0f0dbb19499"
+      }
+    }
+  ]
+}

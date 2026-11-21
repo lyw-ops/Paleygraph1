@@ -1,0 +1,169 @@
+## Result: inconclusive, with a precise reduction
+
+Let \(p\equiv1\pmod 4\) run through the actual eligible primes, let  
+\[
+n=\frac{p-1}{2},
+\]
+and keep the physical mark at coordinate \(0\). For each sign \(\epsilon\in\{+,-\}\), write the exact ordinary exposed face with its marked value pinned as
+\[
+\mathcal F_{\epsilon,p}
+ =\{F\ge 0:\; \mathbb E_nF=1,\quad F-\epsilon KF=1,\quad F(0)=q_{\epsilon,p}\},
+\]
+with any further equalities defining the actual exposed face included as necessary. The complementary optimal pair satisfies, on the bulk \(i\neq0\),
+\[
+F_{+,p}(i)F_{-,p}(i)=0.
+\]
+
+For the associated ordinary pair,
+\[
+F_{\pm,p}=\frac{b_p\pm Y_p}{\nu_p},
+\qquad
+b_p=|Y_p|\quad(i\neq0),
+\]
+so complementary support gives the exact identity
+\[
+\mathbb E_n\!\left[1_{\{i\neq0\}}b_p(i)^2\right]
+ =
+\frac{\nu_p^2}{4}\,
+\mathbb E_n\!\left[
+1_{\{i\neq0\}}\big(F_{+,p}(i)^2+F_{-,p}(i)^2\big)
+\right]. \tag{A}
+\]
+
+The ordinary product identity and the fixed physical mark give
+\[
+0<c_M\le \nu_p\le C_M
+\]
+for fixed marked cap \(M\). Consequently, the proposed uniformly bounded bulk second moment is equivalent to
+\[
+\sup_{p}
+\left\{
+\mathbb E_n[1_{\{i\neq0\}}F_{+,p}^2]
++
+\mathbb E_n[1_{\{i\neq0\}}F_{-,p}^2]
+\right\}<\infty, \tag{B}
+\]
+for a choice of \(F_{\pm,p}\) from the **actual** pinned exposed faces.
+
+Thus minimum bulk-energy selection does not yet produce a new estimate: it reduces the problem exactly to a minimum-\(\ell^2\) problem on the two actual faces.
+
+## What can be proved from the face equations
+
+Fix one sign and suppress \(p,\epsilon\). Put
+\[
+S=\{i\neq0:F(i)>0\}.
+\]
+On \(S\), the fixed-point equation is
+\[
+F_S= \mathbf 1_S+\epsilon K_{S,S}F_S
+       +\epsilon q\,K_{S,0}. \tag{C}
+\]
+
+Therefore a sufficient support-sensitive estimate is the following:
+
+> If, uniformly over the actual optimizer supports \(S\),
+> \[
+> \|K_{S,S}\|_{\ell^2(S)\to\ell^2(S)}\le 1-\delta \tag{D}
+> \]
+> for some prime-independent \(\delta>0\), then
+> \[
+> \|F_S\|_2
+> \le \delta^{-1}
+> \bigl(\sqrt{|S|}+q\,\|K_{S,0}\|_2\bigr). \tag{E}
+> \]
+
+Since \(|S|\le n\), \(\|K_{S,0}\|_2\le1\), and the pinned mark obeys \(q\ll\sqrt n\), (E) yields
+\[
+\|F_S\|_2^2=O(n),
+\]
+hence (B), and then by (A)
+\[
+\sup_p \mathbb E_n[1_{\{i\neq0\}}b_p^2]<\infty. \tag{F}
+\]
+
+This is a genuine concentration criterion on the **actual exposed supports**, not on arbitrary feasible supports. In autocorrelation form, (D) is equivalent to requiring a uniform upper bound away from \(1\) for the restricted Fourier operator on each actual support. A concrete sufficient version is
+\[
+\sup_{0\neq u\ supported\ on\ S}
+\frac{\langle u,K_{S,S}u\rangle}{\|u\|_2^2}
+\le 1-\delta,
+\]
+and similarly for the negative eigenvalue if the absolute operator norm is needed.
+
+No such prime-uniform support spectral gap is currently established for the actual ordinary faces.
+
+## Why the existing autocorrelation estimates do not settle this
+
+The opposite-sector estimates from the prior work control cross-sector difference counts such as
+\[
+n\sum_{h\neq0}C_q(h)C_r(h),
+\]
+and give weighted restrictions on repeated differences of supercritical sites. They do not imply (D) for the support of a minimum-energy optimizer in one actual face.
+
+In particular:
+
+1. They allow highly structured or near-periodic actual supports.
+2. They do not control the top restricted eigenvalue of \(K_{S,S}\).
+3. The complementary opposite support may price some differences well while leaving a large same-face spectral mode untreated.
+4. A finite-prime computation or a bound for arbitrary feasible supports would not imply (B) along all eligible primes.
+
+The exact obstruction is therefore support-sensitive: one needs either the restricted spectral gap (D), or a direct weighted autocorrelation estimate strong enough to imply it for the actual minimum-energy supports.
+
+## Consequence for the signed seed tail
+
+If (F) were proved, then for every \(L>0\),
+\[
+(b-L)_+\le \frac{b^2}{4L},
+\]
+and hence
+\[
+\left|
+\mathbb E_n\!\left[
+1_{\{i\neq0\}}(b_p-L)_+S_p
+\right]\right|
+\le
+\frac{\|S_p\|_\infty}{4L}\,
+\mathbb E_n[1_{\{i\neq0\}}b_p^2].
+\]
+Since \(\|S_p\|_\infty=2\sqrt{p/n}=2\sqrt2+O(p^{-1})\), a prime-uniform bound in (F) gives the required signed tail after the limits are taken in the stated order:
+\[
+\lim_{L\to\infty}\limsup_{\substack{p\to\infty\\p\equiv1(4)}}
+\left|
+\mathbb E_n[1_{\{i\neq0\}}(b_p-L)_+S_p]
+\right|=0.
+\]
+
+This does **not** settle the bounded-window parity input. The even-window approximation remains a separate issue and must still be proved for the fixed family of negative trace fields.
+
+## Precise failure
+
+The proposed ordinary-optimal-bulk-energy statement is presently **inconclusive**. The exact reduction (A) is valid, and (C) gives a concrete sufficient support estimate, but no argument in the cited material proves a prime-uniform restricted spectral gap or an equivalent weighted autocorrelation bound for the actual minimum-energy representatives of the two pinned ordinary faces.
+
+A uniform bound for arbitrary feasible supports, a finite-prime check, or control of the opposite autocorrelation budget alone does not settle the asymptotic target.
+
+## Ranked next tests
+
+1. **Exact prime-by-prime minimum-energy face test.**  
+   For increasing eligible primes \(p\equiv1\pmod4\), solve the two strictly convex quadratic programs
+   \[
+   \min_{F\in\mathcal F_{\epsilon,p}}
+   \sum_{i\neq0}F(i)^2,
+   \qquad \epsilon=\pm,
+   \]
+   with the physical mark \(F(0)=q_{\epsilon,p}\) pinned. Record:
+   - the normalized energy \(n^{-1}\sum_{i\neq0}F(i)^2\);
+   - the support \(S_{\epsilon,p}\);
+   - the top eigenvalue of \(|K_{S_{\epsilon,p},S_{\epsilon,p}}|\);
+   - the weighted difference profile \(C_{S_{\epsilon,p}}(h)\).
+
+   A growing normalized energy would refute the proposed bound on an actual extremizer sequence. A stable spectral gap or stable weighted profile would identify the correct proof target.
+
+2. **Prove an actual-support restricted autocorrelation bound.**  
+   Starting from the optimizer supports \(S_{\epsilon,p}\), seek a prime-uniform estimate implying
+   \[
+   \|K_{S_{\epsilon,p},S_{\epsilon,p}}\|_{2\to2}\le1-\delta.
+   \]
+   The most direct route is a support-sensitive character sum for
+   \[
+   \sum_{h\neq0}C_{S_{\epsilon,p}}(h)\,\widehat w(h)
+   \]
+   against the signed Fourier kernel defining \(K\), with the opposite-face autocorrelation budget used only after the support is known to be an actual exposed support. This is the missing arithmetic input; it is separate from the even-window approximation and from the order of limits.

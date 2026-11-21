@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "round": 160,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 160 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-159-acceptance.json",
+      "sha256": "1fda276a1540f303df5d1fff1c1be5f6695aa5e943eab6e7d778f31055317190"
+    },
+    "current": {
+      "path": "research/round-160-acceptance.json",
+      "sha256": "df9321f60cc540471f201427517927bbea3c361bcf1a1257ea19bdaf6eaa5640"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "Only a high-power filtered bound and the exact one-lift true ratio law were available near critical; broad gaps lacked a connected quantitative test.",
+      "after": "The physical graph has exact centered orthogonal fibers and a 2|3 flatten that bounds small-amplitude blocks. Actual weighted moments tolerate O(1) squared physical cuts. Every fixed gap also forces order T marked inverse-square mass below A0/T on its true least-energy support.",
+      "remaining": "Control the narrow actual marked spectral band without critical size, or the full remaining moderate critical moment. Both O(p) critical and o(T) spectral uppers are open.",
+      "evidence": [
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-sector-square-tail-135.md",
+          "sha256": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a"
+        },
+        {
+          "path": "research/ordinary-oriented-terminal-mask-147.md",
+          "sha256": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456"
+        },
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-rank-two-slope-orthogonality-160.md",
+          "sha256": "730841b8df6ae48d3b972c571499f738187852da18879f31041df5e41bef1342"
+        },
+        {
+          "path": "research/ordinary-single-lift-ratio-law-159.md",
+          "sha256": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "The true shared scalar-unit terms give an outward bound 0.66348896 on the translated comparison.",
+      "after": "The raw common-field reply repeats this bound. Its consecutive-K identity does not apply to distinct vertices with an intervening derivative multiplier.",
+      "remaining": "Prove a useful signed estimate on the genuine Picard increment or a nonlinear invariant with a quantitative resolvent bridge.",
+      "evidence": [
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Exact physical cuts and the corrected Fourier graph isolate true critical amplitude blocks. The new source-weighted low-spectrum test applies to any fixed ordinary gap. The cross-vertex cold assignment did not change the verified estimate.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-marked-low-spectrum",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the original fixed gap be excluded via an o(T) marked inverse-square upper on the actual spectral window lambda<=A0/T?",
+      "why_now": "This window is necessary on every actual fixed-gap sequence and does not assume critical effective support. The least-energy face and source are exact.",
+      "scope": "Use the genuine least-energy true opposite optimizer, exact positive support, actual compressed Jacobi operator and marked forcing. Keep actual fixed floor and one admissible growing T. Generic source-free spectral gaps or rank bounds do not suffice.",
+      "if_yes": "Prove the source-weighted o(T) upper on the actual narrow band, or an equally sufficient prime exclusion.",
+      "if_no": "Give a precise counterexample to a stated mechanism on an explicitly relaxed problem, with scope.",
+      "if_inconclusive": "Obtain a new prime coupling inequality against low eigenvectors using the actual exterior complementary optimum or a comparable exact structural condition.",
+      "inputs": [
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-sector-square-tail-135.md",
+          "sha256": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a"
+        },
+        {
+          "path": "research/ordinary-oriented-terminal-mask-147.md",
+          "sha256": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456"
+        },
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-centered-middle-graph",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the centered exact physical graph bound a remaining middle-amplitude block with the true five weights?",
+      "why_now": "All five Haar marginals vanish for the zero-removed uncut trace, and the exact physical flatten gives a rigorous small-amplitude cut.",
+      "scope": "Keep the actual ratio constraint, physical x,y cut and phase. Both Fourier conventions and signs matter. Distinguish uncut graph orthogonality from the clean restriction after weighting.",
+      "if_yes": "Prove a sufficient signed middle-layer O(p) or new genuine weighted block beyond the known small-factor cuts.",
+      "if_no": "Give a precise failure of a specific conditional graph-energy bound or uniform-law replacement.",
+      "if_inconclusive": "Retain all relevant true amplitude factors and derive a new tractable incidence or conditional estimate.",
+      "inputs": [
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-rank-two-slope-orthogonality-160.md",
+          "sha256": "730841b8df6ae48d3b972c571499f738187852da18879f31041df5e41bef1342"
+        },
+        {
+          "path": "research/ordinary-single-lift-ratio-law-159.md",
+          "sha256": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "cold-actual-picard-increment",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can an actual signed estimate for the 601 to 602 Picard increment advance a source-local or two-vertex confinement?",
+      "why_now": "The named fixed centers cancel in the genuine J difference while previous positive and local unit methods leave a large gap.",
+      "scope": "Keep both actual heights, original square, physical t0=n and both lifts. A symbolic equality or a fixed-height residual second norm without transfer does not imply an invariant.",
+      "if_yes": "Prove a quantitatively sufficient signed increment or a genuine nonlinear confinement uniform in the original prime family.",
+      "if_no": "Show why a specified actual increment representation or proposed mixed norm cannot achieve the required rate.",
+      "if_inconclusive": "Verify one actual nontrivial signed transport identity and its true remainder, or a new quantified local inequality.",
+      "inputs": [
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 161 deductions survive independent review?",
+      "why_now": "The broad marked spectrum, critical physical weights and separate cold increment require independent normalization checks.",
+      "scope": "Read-only. Preserve the real signs, actual supports and weights, complex physical marks, both lifts and order of limits. Rank two follow-ups.",
+      "if_yes": "State verified proof scope.",
+      "if_no": "Locate the invalid step.",
+      "if_inconclusive": "Separate available deductions from open estimates.",
+      "inputs": [
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-sector-square-tail-135.md",
+          "sha256": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a"
+        },
+        {
+          "path": "research/ordinary-oriented-terminal-mask-147.md",
+          "sha256": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456"
+        },
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-rank-two-slope-orthogonality-160.md",
+          "sha256": "730841b8df6ae48d3b972c571499f738187852da18879f31041df5e41bef1342"
+        },
+        {
+          "path": "research/ordinary-single-lift-ratio-law-159.md",
+          "sha256": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

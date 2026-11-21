@@ -1,0 +1,210 @@
+## Result: inconclusive, with prime-uniform gains but not the target
+
+Let \(p\to\infty\) through the eligible ordinary primes, with the original near-critical law \(\nu=\nu_p\), the actual \(g=|f|^2\), \(G=\sum g=O(\sqrt p)\), and
+\[
+w(s)=g(s)(1-g(s)),\qquad \sum_s w(s)\le G.
+\]
+All physical sums below retain the mark \(v\neq0\), the \(u\)-square condition, the \(b\)-square condition \(b\in Q\), and the true four factors
+\[
+g(A)g(C)g(Y)g(D).
+\]
+The previously priced zero endpoints and physical boundary pieces are \(O(p^{3/2})\) in the weighted counting norm and will not be charged again.
+
+Write
+\[
+\|F\|_{2,w}^{2}:=\sum_{s\ne0,1}w(s)|F(s)|^{2}.
+\]
+
+### 1. Regular common-pole block
+
+For a retained affine line, let
+\[
+m_b:=\sum_{\substack{(Y,D)\ {\rm retained}\\
+D(1-Y)/(Y(1-D))=b}}g(Y)g(D).
+\]
+The actual affine-fiber estimate gives, uniformly for the genuine interior rows,
+\[
+m_b\ll p^{1/2-\varepsilon_*},
+\qquad \varepsilon_*=\frac1{1280}.
+\]
+Indeed, with \(\tau=p^{-\varepsilon_*}\), the heavy part has at most
+\(O(p^{1/2-1/640})\) points, while the two light pieces contribute at most
+\(\tau G=O(p^{1/2-\varepsilon_*})\). Also
+\[
+\sum_b m_b\le G^2\ll p.
+\]
+Hence
+\[
+\sum_bm_b^2
+ \le \bigl(\sup_bm_b\bigr)\sum_bm_b
+ \ll p^{3/2-\varepsilon_*}.
+\tag{1}
+\]
+
+Now consider two physical copies with the same affine pole \(b\). Open the four \(g\)-factors in both copies and \(w\) using the actual character law. For a regular character tuple, the \(s\)-dependent part has the form
+\[
+L(s)M(s-b),
+\]
+where the two Jacobi slots are nontrivial and the regularity condition excludes the large degenerate cases. Completing the \(s\)-sum with the convention that every character vanishes at zero gives
+\[
+\left|\sum_s L(s)M(s-b)\right|\ll \sqrt p
+\]
+for the regular tuples. The completion error at \(s=0,1\) is \(O(1)\) per line pair. The \(w\)-expansion has coefficient \(\ell=\omega-\omega*\omega\), with
+\[
+\|\ell\|_1\le2.
+\]
+Therefore the regular common-pole contribution is bounded absolutely by
+\[
+\mathcal D_{\rm same\ pole,reg}
+ \ll (\sqrt p+1)\sum_bm_b^2
+ \ll p^{2-\varepsilon_*}.
+\tag{2}
+\]
+
+This estimate is uniform in the eligible-prime family and remains valid after imposing any previously made positive two-label physical cuts. It is not to be added separately to the already controlled exceptional character blocks: the regular/exceptional character partition and the physical two-label partition must be treated as overlapping restrictions, not as independent debits.
+
+The degenerate same-pole character cases remain at \(O(p^{3/2})\), using the actual cap
+\(\|\omega\|_\infty=O(p^{-1/2})\), as in the supplied two-pin argument. Thus the unresolved regular same-pole gap is
+\[
+p^{2-\varepsilon_*}\quad\text{versus}\quad p^{3/2}.
+\]
+The argument has gained a genuine power over the crude \(p^2\) estimate, but not the required \(p^{1/2-\varepsilon_*}\) additional saving.
+
+---
+
+### 2. Genuinely distinct-pole block
+
+Let \(P_s^{\ne}\) denote the positive physical diagonal restricted to pairs of retained lines with \(b\ne b'\). Since all physical summands are nonnegative,
+\[
+0\le P_s^{\ne}\le P_s.
+\]
+Use the exact interior chart
+\[
+r=\frac{Y-D}{1-D},\qquad
+b=\frac{D(1-Y)}{Y(1-D)},\qquad
+X=\frac1s,
+\]
+and
+\[
+j_{Y,D}(X)=\frac1r-\frac brX=\frac1A.
+\]
+Set
+\[
+h(e)=
+\begin{cases}
+g(e^{-1}),&e\ne0,\\
+0,&e=0.
+\end{cases}
+\]
+For the heavy pairs \(g(Y),g(D)>\tau\), omit only \(g(C)\) positively. The resulting upper is
+\[
+F(X)=\sum_{\substack{Y,D\ {\rm retained}\\ b\in Q}}
+g(Y)g(D)\,h(j_{Y,D}(X)).
+\]
+The true \(g(C)\) factor, the mark, and the \(b\)-square condition are still present in the original quantity; dropping \(g(C)\le1\) is only an upper-bound device.
+
+The finite-field incidence estimate for the affine graphs \(j_{Y,D}\), together with the actual level-set bounds
+\[
+U,V\le G/\tau=O(p^{5/8}),
+\]
+gives, for every output set \(S\),
+\[
+\sum_{X\in S}F(X)
+\ll
+|S|^{5/8}G^{35/16}
++
+G^{5/2}\left(1+\frac{|S|}{\sqrt p}\right).
+\tag{3}
+\]
+The heavy level condition is valid uniformly because \(2V|\mathcal L|=O(p^{15/8})<p^2\).
+
+Consequently the decreasing rearrangement satisfies
+\[
+F^*(k)\ll
+G^{35/16}k^{-3/8}
++\min\{G^2,G^{5/2}/k\}
++\frac{G^{5/2}}{\sqrt p}.
+\]
+Since \(0\le w\le1\) and \(\sum_s w(s)\le G\), only the first \(O(G)\) values need be squared. Thus
+\[
+\sum_s w(s)F(X_s)^2
+\ll
+G^{37/8}+G^{9/2}+\frac{G^6}{p}
+\ll p^{37/16}.
+\tag{4}
+\]
+The light-pair contribution is
+\[
+O(\tau^2G^5)=O(p^{9/4}),
+\]
+and the endpoint repairs are \(O(p^{3/2})\). Therefore
+\[
+\boxed{
+\|P^{\ne}\|_{2,w}^{2}
+\ll p^{37/16}.
+}
+\tag{5}
+\]
+
+This is a prime-uniform power saving over the crude \(p^{5/2}\) full-diagonal bound, and it applies a fortiori after removing all target-scale two-label coincidences. However, it does not distinguish the regular character subblock: the incidence estimate is positive and does not exploit cancellation among the distinct-pole character phases.
+
+---
+
+## Conclusion
+
+The actual arithmetic structure gives:
+
+\[
+\boxed{
+\mathcal D_{\rm same\ pole,reg}
+\ll p^{2-1/1280}
+}
+\]
+and
+\[
+\boxed{
+\mathcal D_{\rm distinct\ pole}
+\ll p^{37/16}.
+}
+\]
+
+Neither reaches the required \(O(p^{3/2})\) scale. There is no refutation or arithmetic obstruction: the failure is specifically that
+
+1. the common-pole argument uses only a square-root Jacobi bound after summing absolute line-pair masses, and  
+2. the distinct-pole argument uses a positive incidence majorant that drops the exploitable \(g(C)\) cancellation and does not correlate the two poles.
+
+The order of limits is fixed: choose the threshold \(\tau=p^{-1/8}\) for each sufficiently large eligible prime, apply the finite-field estimates with constants uniform in \(p\), and only then let \(p\to\infty\). No finite-prime computation settles the remaining asymptotic gap.
+
+## Ranked next tests
+
+### 1. Distinct-pole two-input incidence/correlation estimate
+
+Target the genuinely distinct block directly, retaining both copies’ input factors:
+\[
+g(Y)g(D)g(Y')g(D')
+\]
+and both output factors
+\[
+g(A)g(C)g(A')g(C').
+\]
+The needed estimate is a weighted two-pole incidence bound of roughly
+\[
+\sum_s w(s)
+\sum_{b\ne b'}F_b(s)F_{b'}(s)
+\ll p^{3/2}.
+\]
+The first test should be whether the pair of Möbius graphs associated with \((b,b')\) has enough two-pole energy to replace the current one-output rearrangement exponent \(37/16\) by \(3/2\). This is the largest remaining block and should be attempted first.
+
+### 2. Regular common-pole Jacobi covariance
+
+For \(b\) fixed, retain the regular character expression
+\[
+L(s)M(s-b)
+\]
+but do not take its absolute value independently for every line pair. Test whether summing over \(b\), with the actual coefficients \(g(Y)g(D)\), the \(b\)-square mask, and the signed outer law \(\ell=\omega-\omega*\omega\), gives an additional square-root or bilinear saving:
+\[
+\sum_b\sum_{\rm regular\ pairs\ in\ row\ } 
+\text{Jacobi coefficient}\cdot
+\text{line weights}
+\]
+should be controlled at \(O(p^{3/2})\), rather than by (1) followed by \(|J|\le\sqrt p\). This is the smaller block, but it is the cleanest place to test genuine character cancellation without paying the distinct-pole incidence complexity.

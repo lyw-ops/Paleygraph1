@@ -1,0 +1,7 @@
+{
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment)",
+  "comparison_status": "assessed",
+  "comparison": "The operator-norm call targets ||pi(mu)||_op for the twisted physical interior mu of the one-match covariance (affine-group representation, criterion b1'). The shifted-level-energy call targets E^x(1-S) for level sets S of g, feeding the direct first mass M_w <= E_Q(h)/4 that closes J in {0,1}. Both are additive-combinatorial bounds on the actual g, but neither implies the other at the stated hypotheses and scales: a multiplicative-energy bound for 1-S does not bound the operator norm of the affine-group convolution by mu, and an operator-norm bound does not control the shifted energy of a single level set. They are dispatched as independent, with a request that each report state any level-set structure input it proves so that the closeout can test for a shared lemma. The cold call concerns the price of the non-seed multiplier at V_602 and shares no estimate with either ordinary call. No earlier call is active.",
+  "known_shared": [],
+  "active_routes": {}
+}

@@ -1,0 +1,19 @@
+{
+  "overflow": {
+    "provider_host": "api.appintheloop.com",
+    "call_id": "moving-cold-time-insertion",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "7d0d98b3f657692dbcd10e0cd30ec6d01e49afa1624f0ad1eeb0a339409bdd96",
+    "started_utc_epoch": 1795103377,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 12998,
+      "completion_tokens": 3405,
+      "total_tokens": 16403
+    },
+    "draft_sha256": "873128e989c8d3ad3c2878abfb218d74f83d0f48dffc438bb1874567738652c1",
+    "status": "returned-draft"
+  }
+}

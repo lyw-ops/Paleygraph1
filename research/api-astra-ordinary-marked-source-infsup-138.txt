@@ -1,0 +1,149 @@
+## Result
+
+For the actual ordinary minimum-energy rows, the reduction to a source-weighted inverse-square problem is valid, but the opposite-face identities do not presently yield the required uniform inf-sup or signed-tail estimate.
+
+Fix \(p\equiv1\pmod 4\) prime, \(n=(p-1)/2\), and sign \(\epsilon\). Let \(q=\theta_\epsilon\) be the physical marked value of the ordinary optimal row \(F\), with \(F_0=q\). Let
+\[
+S=\{i\ne0:F_i>0\},\qquad
+A=I_S-\epsilon E_S^*KE_S,
+\]
+and
+\[
+g=\mathbf 1_S+\epsilon qE_S^*Ke_0.
+\]
+These are the actual optimal support and the actual marked forcing; no free support is being introduced. The compressed equation is
+\[
+Ax=g,\qquad x=F|_S,
+\]
+with \(0\le A\le2I\), and \(x\perp\ker A\). Hence \(x=A^\dagger g\).
+
+With counting norms and the source measure
+\[
+\mu_p(B)=\frac1n\|\mathbf1_B(A)g\|_2^2,
+\]
+the exact bulk energy identity is
+\[
+\frac1n\|x\|_2^2
+=\int_{(0,2]}\lambda^{-2}\,d\mu_p(\lambda).
+\tag{1}
+\]
+The exact first inverse moment is
+\[
+\int_{(0,2]}\lambda^{-1}\,d\mu_p(\lambda)
+=
+1-\frac{2q}{n}
++\frac{q^2}{n}\left(1+\frac{\epsilon}{n}\right).
+\tag{2}
+\]
+Since the ordinary mark satisfies \(q\ll\sqrt n\), (2) is uniformly bounded for both signs.
+
+The desired prime-uniform inf-sup is exactly
+\[
+|\langle g,v\rangle|
+\le C\sqrt n\,\|Av\|_2
+\qquad(v\in\mathbb R^S),
+\tag{3}
+\]
+uniformly over all \(p\equiv1\pmod4\). Equivalently, (3) is uniform boundedness of the integral in (1).
+
+## What the opposite-face structure does prove
+
+The genuine opposite support gives a separate centered-root estimate. If \(C\) denotes the opposite-support compression on \(\mathbf1^\perp\), then for the centered root source \(g_0=e_0-\mathbf1/n\),
+\[
+\langle g_0,C^\dagger g_0\rangle
+\le
+\frac{\|q-1\|_2^2+\|x-1\|_2^2}{q_0^2}
+\ll \sqrt n,
+\]
+using the actual complementary supports, the physical marks, and the point-cap bounds. This is a valid estimate on the root source and remains valid without a least-eigenvalue separation.
+
+However, it does not imply (3). The missing step is control of the residual source on the actual ordinary support after removing the root and facial-tangent components. The opposite-support affine interpolation identity isolates precisely this unresolved term; it does not bound it uniformly.
+
+Thus the opposite-face structure controls a genuine marked source, but not yet the full marked forcing \(g\) in (1).
+
+## Why the first moment is insufficient
+
+From (2), for every \(t>0\),
+\[
+\mu_p((0,t])
+\le
+t\int\lambda^{-1}\,d\mu_p(\lambda)
+=O(t).
+\]
+This only gives
+\[
+\int_{(0,t]}\lambda^{-2}\,d\mu_p(\lambda)
+\lesssim t^{-1},
+\]
+which diverges as \(t\downarrow0\). A uniform inverse-square bound would require a genuinely stronger source estimate, for example
+\[
+\mu_p((0,t])\le C t^{2+\eta}
+\quad(0<t\le1)
+\tag{4}
+\]
+for some \(\eta>0\), or any direct bound implying
+\[
+\sup_{p\equiv1(4)}
+\int_{(0,2]}\lambda^{-2}\,d\mu_p(\lambda)<\infty.
+\]
+
+The abstract obstruction \(m^{-1}\delta_{1/m}\) shows that bounded first inverse moments and even vanishing fixed-regularization limits do not imply (1). This is not an obstruction on the actual ordinary supports; it only proves that the exact first moment cannot finish the argument by itself.
+
+## Signed tail
+
+For the actual complementary ordinary rows \(F_+,F_-\), write \(b=|Y|\), \(\nu\) for the ordinary normalization, and \(S\) for the signed seed. The genuine positive-sector tail is exactly
+\[
+H_{p,L}
+=
+\frac{2}{\nu}\,
+\mathbb E_n\!\left[1_{\{i\ne0\}}b(b-L)_+\right].
+\tag{5}
+\]
+The desired signed quantity is
+\[
+T_{p,L}
+=
+\mathbb E_n\!\left[1_{\{i\ne0\}}(b-L)_+S_i\right].
+\]
+The available pointwise estimate is
+\[
+|T_{p,L}|
+\le
+\frac{\nu\|S\|_\infty}{2L}H_{p,L}.
+\tag{6}
+\]
+No estimate forcing \(H_{p,L}\to0\), nor an independent cancellation estimate for \(T_{p,L}\), has been obtained on the actual supports.
+
+In the required order,
+\[
+\lim_{L\to\infty}\limsup_{\substack{p\to\infty\\p\equiv1(4)}}|T_{p,L}|=0
+\]
+therefore remains open. A uniform bound on (1) would imply the needed tail decay, but the converse signed cancellation could hold without absolute uniform integrability.
+
+The product of the physical marks,
+\[
+\theta_+\theta_-=n,
+\]
+and the true opposite complement support are used in (5)–(6); neither formula applies to an arbitrary abstract support.
+
+## Clipped-window parity
+
+This is separate. Fixed-complexity even polynomials in bounded negative Mellin fields have the required \(O_Q(p^{-1/2})\) pairing with the Jacobi seed, but that does not provide an \(L^1\) approximation to the actual ordinary \(Y\), nor does it control the actual high-value tail. Hence clipped-window parity is not settled by the inverse-moment calculation.
+
+## Precise status
+
+- **Established:** the actual optimal support reduction \(Ax=g\); the exact first inverse moment; equivalence of the target to (1) or (3); the genuine opposite-support root estimate; the exact complementary-sector tail formula.
+- **Not established:** a prime-uniform inverse-square estimate for the actual marked source \(g\); a direct signed-tail estimate; clipped-window approximation for the actual rows.
+- **No refutation:** no low-eigenvalue obstruction has been exhibited on actual optimal supports. The abstract measure obstruction only rules out deriving the result from (2) alone.
+
+## Ranked next tests
+
+1. **Actual weighted low-spectrum test.** For each sign and actual support \(S\), prove or disprove a dyadic estimate for the source-weighted measure
+   \[
+   \mu_p((0,t])\quad\text{or}\quad
+   \sum_{2^{-j-1}<\lambda\le2^{-j}}
+   \lambda^{-2}\mu_p(d\lambda).
+   \]
+   The target is (4), or directly a uniform bound on (1). This is the most direct test of the required inf-sup and must retain the physical mark \(q\), the actual support, and the prime-first limit.
+
+2. **Residual opposite-support interpolation test.** Decompose \(g\) into the centered root, facial tangents, and the residual orthogonal to both. Use the true complementary support and the opposite row with mark \(q_+\theta_-=n\) to test whether the residual has uniformly bounded \(C^\dagger\)-energy. A divergent sequence of actual primes would provide the requested low-eigenvalue coupling obstruction; a uniform bound would imply the desired source estimate.

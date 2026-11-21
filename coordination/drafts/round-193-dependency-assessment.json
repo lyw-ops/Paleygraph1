@@ -1,0 +1,7 @@
+{
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-2 brain session local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23 (agent assessment)",
+  "comparison_status": "assessed",
+  "comparison": "Two calls. review-lemma-mprime-theorem-a re-checks Round 187 Lemma M' / Proposition P', Round 188 Theorem A and the Round 190 application of MPRRS Theorem 37; it proves nothing new and touches cand:gp-shifted-energy only as the source of the Round 190 32/13 bound it re-checks. ordinary-ss-star-literature looks for a published source for the field-free statement (SS*) of Round 192 section 3, recorded without a cand: ID; it touches cand:gp-sector-constancy only if a failure of (SS) through progression-shaped spectra is discussed. The two calls share no estimate and no input except the Round 192 acceptance; neither result changes the other's assignment. No earlier call is active; cold is paused.",
+  "known_shared": [],
+  "active_routes": {}
+}

@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator",
+  "comparison": "The inverse-line call concerns the actual positional line multiplier at xy=1 and its local collision. The off-inverse call concerns weighted rational pullbacks at xy different from 1. The exact one-branch identity and the marked pure Legendre calculation do not identify an identical estimate across those two calls. The third call tested actual averaged positive completion and its projected endpoint constraint. No exact shared mathematical group follows.",
+  "groups": [],
+  "dispatch": "coordination/round-140-inflight.json",
+  "launched_at_utc": "2026-11-19T19:12:04.268647Z",
+  "launched_calls": [
+    "cold-inverse-line-packet-price",
+    "cold-weighted-off-inverse-pairing",
+    "ordinary-averaged-completion-overlap"
+  ],
+  "before_sha256": "77ad39aee0a75ad0018491940982f5723e8cb25b2196b97f01cd85bebb8dbc72"
+}

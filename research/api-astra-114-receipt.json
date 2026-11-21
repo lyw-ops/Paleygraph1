@@ -1,0 +1,20 @@
+{
+  "overflow": {
+    "provider_host": "api.appintheloop.com",
+    "call_id": "opposite-input-mark",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "1b41b479ed3bb1eb6893fd68d0c8a884430e9f31b95c974899ce2e2f11885c00",
+    "started_utc_epoch": 1795096653,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9361,
+      "completion_tokens": 2965,
+      "total_tokens": 12326
+    },
+    "draft_sha256": "9744608b2bdcf59b4e227c37565df34fa57600b85c8c5c9b22521b8a1cc3c6ff",
+    "input_note_pre_extension_sha256": "c39372c3229d96f3b4726ab3c3d6b1883ecf2b6a83dfd58bb5a20819f6a58976",
+    "status": "returned-draft"
+  }
+}

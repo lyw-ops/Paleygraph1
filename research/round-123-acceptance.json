@@ -1,0 +1,85 @@
+{
+  "round": 123,
+  "accepted_at_utc": "2026-11-19T15:36:47Z",
+  "previous": "research/round-122-acceptance.json",
+  "previous_sha256": "9860be8cf1d635b55c548d56f779c5ac157bdfc70043c6032467c751ddf36fac",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-122.json",
+    "sha256": "4755ac2ae846f9813931bb2f00c544e90bef29e81371706b81ce9dc9e02f8a9d"
+  },
+  "proof_and_code_sha256": {
+    "research/real-masked-functional-stability-123.md": "53feec15a0d57f63077477e4aec6099d4fa3942e0f9ca1310f73811886b42773",
+    "research/api-astra-review-123.md": "a319bd28e6f029c22182c4c64d850ece8ddeaec35e2c0f91e7be795c18b0f8aa",
+    "research/api-astra-overflow-123.txt": "7c4cf438629863fa1d8f307527ba613dac7ab691777deaad3ef1066ddc543608",
+    "research/api-astra-123-receipt.json": "5e07e47125e26071f46922e1cad8eae02c49efe62c0111900a42a1227c4f932a"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/reflected-offmark-cubic-120.md": "54fff3721239a49bda1da861ca1efa4aaac8cf2a204f95401f672eeca714a62b",
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/early-ordinary-masked-cubic-121.md": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e",
+    "research/masked-conditional-spectrum-121.md": "467bc6f347d4dbbdb07b14ff5de99488e99dd89b4fe7aa8d28494ac7366d0fa4",
+    "research/ordinary-slack-dissipation-121.md": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/api-astra-review-122.md": "c7582cac6d78ede067a22f8d57ac789c6b0805f1bcaf0ee4aeccbc296820645e",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/cold-newton-mark-transfer-115.md": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a",
+    "research/cold-exact-exception-budget-118.md": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, fixed-depth masked arithmetic",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Recheck the established positive paired-spreading lower. This duplicates Round 121 rather than advancing the upper.",
+        "Test whether the true marked near-eigenrow window is excluded by the capped fixed-point equation."
+      ]
+    },
+    {
+      "name": "/root/audit_123",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the full masked statistic from above through primes for the explicit logarithmic-height projected cap seed and two exact stationary factors.",
+        "Exploit the localized seed stability to transfer a lower-complexity approximation."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Test the complete actual masked functional with the explicit logarithmic-height cap Picard proxy and both exact factors. For fixed expression methods, aim at the localized seed approximation instead.",
+    "At a genuine moving cold starter, test compatible source prefixes and shifted resolvent entries using the distinct logarithmic cutoffs."
+  ],
+  "proof_scope": [
+    "There is an exact real linear functional of any signed repair row for the full-input distinct output-masked cubic. All three pair coincidences and the triple coincidence are accounted for. With both exact stationary factors the coefficient reduces to (p/n)mu(g Lambda-minus minus g-minus Lambda-plus) up to O(n^(-1)) in normalized second norm, with no eigendefect or mean-sign hypothesis.",
+    "The whole functional changes by o(1) after multiplication by n if the signed repair error has normalized second norm o(n^(-1/4)), or normalized first norm o(n^(-1/2)). A separate true-factor-weighted test allows errors of critical second size where both true factors are small.",
+    "At the critical actual cap rate and each fixed ordinary repair depth, either uniform o(1) seed error or o(sqrt n) total mass among the largest ceil(sqrt n) absolute seed errors suffices to transfer n times the full statistic. This uses the actual low-slack size and first-norm propagation.",
+    "An explicit capped Picard projected seed at height m at least (1/4+kappa)log n/|log q_M| reaches the needed normalized second error by contraction and nonexpansive ordinary repair. Its required independent prime upper with both exact factors remains open."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw draft reproduces the conditional Round 121 lower and gives no infinite-prime instance of its premises. The replacement residual sign and the claimed insufficiency of o(n^(-1/4)) normalized second error are incorrect.",
+    "A fixed cap Picard height with only the known normalized contraction does not bound a localized seed error at the required size. The logarithmic-height approximation does not justify using fixed-size trace estimates.",
+    "The actual cap rate, prime upper for the explicit full masked functional, weighted stationary overshoot, common cold domain and the ordinary theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. Raw API response and completion receipt are preserved."
+  ],
+  "independent_review": [
+    "A read-only Astra audit verified the coefficient, signs, mask, collision and normalized norm scales, fixed-depth active support stability and the top-error tail implication. The same audit supplied and checked the projected Picard cutoff."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "reviewed_by": "Codex coordinator after checking all three actual replies",
+  "comparison": "Both cold replies explicitly address the same actual K(D_h-D^J) < 0.472 translated step on the original closed square at 601 and 602. The envelope response works with the relative seed expansion; the geometric response uses signed transport. The actual ordinary zero-floor tail and window call has different rows, floor and estimates. No additional shared estimate or late overlap was identified.",
+  "groups": [
+    {
+      "id": "cand:cold-pure-seed-remainder-472",
+      "routes": [
+        "r135/cold-remainder-envelope",
+        "r135/cold-remainder-geometric"
+      ],
+      "classification": "recognized",
+      "math_evidence": "Both returned cold drafts ask for the same uniform P5000 norm of K(D_h-D^J) below 0.472, for h=601,602 with the full marked pure seed subtraction and fixed closed square. The audited first-two-order obstruction lies in the unsigned envelope of that exact remainder; it does not decide the signed operator.",
+      "prior_evidence": "The before JSON, both exported missions and both actual launch lanes bind this same ID to the exact quantified estimate.",
+      "dispatch_effect": "same",
+      "effect_reason": "The dependency was known before launch, and separate envelope and geometric approaches provided different tests. The real support estimate does not depend on either."
+    }
+  ],
+  "evidence": [
+    "research/api-astra-cold-remainder-envelope-135.txt",
+    "research/api-astra-cold-remainder-geometric-135.txt",
+    "research/api-astra-ordinary-window-signed-tail-135.txt",
+    "research/api-astra-135-receipt.json",
+    "research/cold-remainder-135.md"
+  ],
+  "dispatch": "coordination/round-135-inflight.json",
+  "launched_at_utc": "2026-11-19T18:00:57.728096Z",
+  "launched_calls": [
+    "cold-remainder-envelope",
+    "cold-remainder-geometric",
+    "ordinary-window-signed-tail"
+  ],
+  "before_sha256": "d1121f1fa42fb9a5f494266d8731e87b471635abf0ff1ee031aeefbc0bc84314"
+}

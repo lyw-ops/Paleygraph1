@@ -1,0 +1,61 @@
+{
+  "round": 143,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-142-acceptance.json",
+    "sha256": "b0f26806496694755bfd9f347ab1165e3aa1473853ee43cc71909f491de1da08"
+  },
+  "coordinator": {
+    "path": "coordination/round-142.json",
+    "sha256": "e4f227156907bcf4d88bad708e77b5a6d9480d920eaf2aeed1c831aaddbc5810"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-143.py",
+    "sha256": "28a500b5a2dc1bfb48bcb75ffb7e86bf45fd735d110d8e524bd55b9301687df5"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-143-before.json",
+    "sha256": "a5e0d39b5b32bbac9b5f7781ae76e64786c08f5cec1dc819d693e3be907ee2c2"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-terminal-distinct-triples",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "51ccd1428b92503ada19afa215225c83a89c4b9200accdfedd651b759486b0e4",
+      "mission_file": {
+        "path": "coordination/missions/round-143/ordinary-terminal-distinct-triples.md",
+        "sha256": "1e126d8616aa79fa3c0a8cf94a5075ca750c7567b630d874dd41c094fc500256"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r143-api-01a1ed0a/ordinary-terminal-distinct-triples-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r143-api-01a1ed0a/ordinary-terminal-distinct-triples-candidate.md",
+      "started_utc_epoch": 1795118245.110401
+    },
+    {
+      "call_id": "cold-translated-label-intersection",
+      "model": "claude-fable-5-2",
+      "prompt_sha256": "0549141a00aab050f810443743f73fcfe319f956da589f84dbc1e06f595419f5",
+      "mission_file": {
+        "path": "coordination/missions/round-143/cold-translated-label-intersection.md",
+        "sha256": "b525a55b1c2035ad39302e826c416a54854fc194340012252c1d196715302be3"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r143-api-01a1ed0a/cold-translated-label-intersection-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r143-api-01a1ed0a/cold-translated-label-intersection-candidate.md",
+      "started_utc_epoch": 1795118245.109728
+    },
+    {
+      "call_id": "cold-unshifted-rank-ten-return",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "e095513e84d4461ba94df873aa115144dc8069b61e85b20681f231536a3066ea",
+      "mission_file": {
+        "path": "coordination/missions/round-143/cold-unshifted-rank-ten-return.md",
+        "sha256": "d6f188db9df86d920543e7d0c8bba85ac7e805715e5a0407881b493dcb0b112a"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r143-api-01a1ed0a/cold-unshifted-rank-ten-return-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r143-api-01a1ed0a/cold-unshifted-rank-ten-return-candidate.md",
+      "started_utc_epoch": 1795118245.10918
+    }
+  ]
+}

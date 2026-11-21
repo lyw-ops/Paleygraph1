@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Blind overlap review by the independent audit session session/r182-audit (local_a67430b3), written before it opened any shared-obligation, draft or inflight file; classification against the pre-dispatch record by the Claude Opus 5.5 coordinator, generation-1 brain session. This is the first batch whose after-comparison was detected independently of the coordinator that wrote the before-comparison.",
+  "comparison": "Auditor's blind answer: no two completed reports reduce to a genuinely shared estimate at the same hypotheses and scale. Reports 1 (one-match operator norm) and 2 (shifted level energy) share one object through an exact identity verified at p=29,53: M_w = sum_r sum_{b != b'} mu(r,b) mu(r,b') w(b/b') and E_Q(h) = sum_r m(r)^2 = T_1^x(m), where mu is report 1's weight on the Round 171 chart. But report 2 needs an upper bound on a w-weighted dilation correlation inside slope fibres (scale p^(1+1/1280)), while report 1 needs an upper bound on the row-deleted operator norm, i.e. on the translation discrepancy of mu (scale p^3 at k=2, p^(9/2) at k=3), in which sum m^2 and T_k^x(m) enter with a minus sign; so report 2's E^x(h)=O(p^(34/23)) gives report 1 nothing. A weaker shared input exists, sum g^2 = O(p^(1/2-delta)), which would help report 1 through (b1''') for any delta>0 and report 2 through (b2) only for delta >= 1/4 with control of w-hat; different scales make this a shared hypothesis, not a shared estimate. Report 3 (cold) is disjoint from both; sharing operator powers as a tool does not count. Coordinator classification: the pre-dispatch record treated the two ordinary calls as independent and asked each to state its level-set lemma for this comparison; the blind review agrees, so there is no group to classify.",
+  "groups": [],
+  "dispatch": "coordination/round-182-inflight.json",
+  "launched_at_utc": "2026-11-20T09:14:56.475340Z",
+  "launched_calls": [
+    "ordinary-prime-one-match-operator-norm",
+    "ordinary-prime-shifted-level-energy",
+    "cold-prime-signed-nonseed-price"
+  ],
+  "before_sha256": "27012d2a353ab7b297861df8fdd64df6cb463a55e4801a5acb5b43f7e6166de8"
+}

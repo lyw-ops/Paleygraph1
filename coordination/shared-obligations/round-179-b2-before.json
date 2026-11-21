@@ -1,0 +1,29 @@
+{
+  "captured_at_utc": "2026-11-20T02:31:05.082240Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-178.json#next_calls",
+  "coordinator_sha256": "f61e68bd995356a12b84144bca3278c84227647d063fe4db57e74a6c396bc3b3",
+  "call_ids": [
+    "ordinary-prime-inverted-coupled-distinct-b",
+    "cold-prime-directional-source-bridge"
+  ],
+  "routes": {
+    "r179/ordinary-prime-inverted-coupled-distinct-b": {
+      "question": "Can the inverse common-output chart estimate the true distinct-b correlation with both input amplitudes?",
+      "scope": "Retain genuine w(s), g(A)g(C)g(Y)g(D) in both copies and the exact masks. Use the weighted inverted parameter families with 1/A=1/r-(b/r)X and C=(A-r)/(1-r); keep distinct b distinct from distinct r. The common r, b and k and bounded role-match cuts retain their actual separate scopes.",
+      "remaining": "Reach the sufficient O(p^3/2) true coupled full diagonal or close the target-scale one-match and separate zero-match estimates. The generic summed rich range stays open."
+    },
+    "r179/cold-prime-directional-source-bridge": {
+      "question": "Can the actual signed cold source close a growing prefix or supply a stationary predictor directly?",
+      "scope": "Keep original square, both lifts and actual t0=n. Prove or refute the real unnormalized R611 bound with strict margin from genuine source arithmetic, or use directional signed Neumann or Newton estimates with explicit clearance and compatible residual scaling. Track unnormalized and normalized norms and avoid assuming the growing tube.",
+      "remaining": "Prove growing-prefix confinement with fixed clearance or a sufficient genuine alternate predictor. Derivative transfer remains separate."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-inverted-coupled-distinct-b": [],
+    "cold-prime-directional-source-bridge": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The genuine weighted distinct-pole diagonal and actual marked cold signed source are separate estimates. All earlier same-round gateway calls terminally returned HTTP 403, with no mathematical drafts. New native Astra subagents use the unchanged exported missions. The coordinator handles the separate slope-product calculation."
+}

@@ -1,0 +1,36 @@
+{
+  "overflow": {
+    "provider_host": "api.appintheloop.com",
+    "call_id": "zero-floor-ordinary-mean-comparison",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "b9fae70838b2b7250e5c16d942bd1332f6706af156837fac8a6b45453d3e5b60",
+    "started_utc_epoch": 1795108443,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 8919,
+      "completion_tokens": 3448,
+      "total_tokens": 12367
+    },
+    "draft_sha256": "8440bb37afb6e353306fcbf93ff2a82e31166211a989c90605a2d299704dd7fb",
+    "status": "returned-draft"
+  },
+  "cold": {
+    "provider_host": "api.appintheloop.com",
+    "call_id": "cold-actual-signed-block",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "c363630a712d2a0ebef600c2398c8aae3950344ef06f4996f92129ae14b7009c",
+    "started_utc_epoch": 1795108443,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 13656,
+      "completion_tokens": 2779,
+      "total_tokens": 16435
+    },
+    "draft_sha256": "197d120d49c4db09b696d7bd96ed7fcfcb1f3e86e21baa6646306950aef2beeb",
+    "status": "returned-draft"
+  }
+}

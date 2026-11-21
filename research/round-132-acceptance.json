@@ -1,0 +1,126 @@
+{
+  "round": 132,
+  "accepted_at_utc": "2026-11-19T17:23:33Z",
+  "previous": "research/round-131-acceptance.json",
+  "previous_sha256": "0f7f0db9a1d614e8508f06c2a382905d39464da868460cdbd644d60b09ac5606",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-131.json",
+    "sha256": "5274655d9a637b9ed219156c761da87b87743f6c734bbc11b7395254fd1d89b5"
+  },
+  "proof_and_code_sha256": {
+    "research/zero-floor-endpoint-132.md": "87c9411595262ab7b92882c5c544aae12c2635dd93a5fbd5613ce8fe0c451d54",
+    "research/cold-scalar-split-132.md": "2d5cbbeb8755d9117a6e984af0064cad1da056ebad7b6790c346f2eed4da0063",
+    "research/api-astra-review-132.md": "c8b7f2dc7b9f8ec0021ecf5e0532342632eb6e836add783cc4805a676f256250",
+    "research/api-astra-132-receipt.json": "db2c863e9eae02842d5fcba2d4930c3c859ba40f91132e3fa7a38049cc00326a",
+    "research/api-astra-overflow-132.txt": "8440bb37afb6e353306fcbf93ff2a82e31166211a989c90605a2d299704dd7fb",
+    "research/api-astra-cold-132.txt": "197d120d49c4db09b696d7bd96ed7fcfcb1f3e86e21baa6646306950aef2beeb",
+    "coordination/round-132-inflight.json": "f7708cdc62f9827911a2291594ae254f7c824698972bc790189461e8738ad8d9",
+    "coordination/shared-obligations/round-132-after.json": "18a1a4f525fb03c895e8225e3d90099735a3b5ba0a4c26e473c2f774e5fb5975",
+    "research/cold-seed-block-132.md": "3eb541a4daf53ad81446b0a32f0ee691ad6bf7a6ac35c10dbb4aeb4a8e9da6c8"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/zero-floor-ordinary-mixed-cap.md": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb",
+    "research/zero-floor-mean-131.md": "4abe4c232ff3219cc99c073d9c605941a5e1519b5a53d41012ac212f7d0faa86",
+    "research/zero-floor-mark-and-cap-budget.md": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8",
+    "research/zero-floor-two-sided-reserve-129.md": "50fb1e1aacd5b5984a1a9f95896ff951e3635d3e1559f737bfe28f056cfd69f5",
+    "research/zero-floor-averaged-weighted-tail.md": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2",
+    "research/cold-positive-block-131-checks.jsonl": "cbbfcb9854e54711299ec6db9076227c95d6ad564baccee27e9d8371b10f7465",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra real mean comparison",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Measure actual signed overlap",
+        "Check active-set mean normal and ordinary sign relative to the true row"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold composition",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Collect actual low arities and marked corrections",
+        "Extend a signed estimate to both genuine half-step sheets"
+      ]
+    },
+    {
+      "name": "/root/audit_132",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test weighted mismatch minus aligned spill on actual fixed horizons with the prime limit first",
+        "Price the full signed derivative jointly before absolute pricing"
+      ]
+    },
+    {
+      "name": "/root/seed_audit_132",
+      "status": "completed",
+      "ranked_closeout": [
+        "Act with the full linear-in-each-predictor block on a physical packet and price the signed action"
+      ]
+    },
+    {
+      "name": "/root/linear_audit_132",
+      "status": "completed",
+      "ranked_closeout": [
+        "Track higher odd factors when an endpoint collides with the intermediate identity"
+      ]
+    },
+    {
+      "name": "/root/full_block_audit_132",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test actual residual action or a physical packet generator by summing over sources before absolute pricing"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Look for a genuine arithmetic upper on the signed ordinary-weighted endpoint statistic at fixed large cap and prime-first horizons. Preserve mismatch versus aligned spill compensation.",
+    "Advance actual unweighted large-cap mean convergence independently. A generic endpoint comparison is false.",
+    "Apply the actual signed full block to the actual residual or a physical packet before taking absolute values in the source variable. Test if the position entry estimate transfers to a whole-square packet comparison with half-step confinement."
+  ],
+  "proof_scope": [
+    "For genuine zero-floor ordinary factors and any actual capped trial row, equation (1) expresses the difference between capped mean and ordinary mean times the marked activation ratio by an exact signed bulk term minus the residual paired with an ordinary signed row. The signed bulk term is the weighted sign mismatch minus weighted aligned spill. Its averaged prime-first limsup equals that of the fixed-cap minus ordinary mean.",
+    "The quadratic energy bound can retain the cap price and charge only actual aligned spill above M+|h|/2. A positive capped-minus-ordinary mean gap forces both a positive weighted mismatch and a positive shifted aligned term, supported on disjoint sign sets.",
+    "An exact seven-coordinate non-Paley reflection has capped mean larger than the bulk-inactive mean under the same actual nonlinear marked cap and floor. It rules out abstract reflection-only endpoint ordering.",
+    "At the real center the proposed scalar term s=2031/2543 leaves a true-block remainder whose sum with |s| exceeds 1.33 in every induced norm on the mean-zero space. The scalar triangle closure is impossible.",
+    "Uniformly on the original cold square the true height-601 to height-602 block has normalized trace O(n^-1/2), by the odd signed finite-field word estimate and the verified physical dimensional caps. A separate scalar triangle with |s| exceeding one-half by a positive gap cannot close; physical packet pricing of the full signed product is still open.",
+    "The exact position-side seed-seed kernel is a signed cubic character sum on quadratic residues, with exact repeated-root entries and both marked coefficient corrections. The full linear-in-each-predictor term has the same O(n^-1/2) position maximum-entry bound by tame tensor inertia.",
+    "On the physical mean-zero space X, the full actual two-step derivative in position coordinates has every entry O(n^-1/2), uniformly on the closed square. The outer quadratic sign excludes a trivial local quotient at the intermediate identity for nonidentity endpoints, even in both higher odd binomial expansions. Base lift errors, both marked events, and tails are included."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The real API draft reversed the strength of the signed and positive overlap conditions and relied on local cap nonmonotonicity, which did not refute endpoint ordering. Exact generic endpoint failure was found separately. No eligible prime counterexample was established.",
+    "The cold API draft treats the real floor as a physical constant derivative background and leaves a remainder budget that is mathematically impossible. Its constant algebra does not price the actual center derivative.",
+    "The actual weighted mismatch upper, real unweighted large-cap defect, signed cold block and moving starter, and original theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "The compact endpoint counterexample and the real-center spectral comparison were checked by exact Fraction arithmetic. The square trace proof uses the already independently replayed physical caps from R130 and R131. No additional interval certificate or floating result is promoted.",
+    "The seed identity was independently checked by exact integer calculations for all 296 ordered square pairs at p=13,17,29. The uniform entry result uses the exact trace argument rather than these finite checks."
+  ],
+  "independent_review": [
+    "Independent read-only Astra review verified the signed endpoint identities including terminal charges, derived the sharper aligned-tail condition, found the exact seven-coordinate counterexample, and independently confirmed the cold real-center norm obstruction.",
+    "The coordinator checked the compact rational witness and propagated the inherited uniform odd trace estimate to the full square.",
+    "Independent Astra audits verified the seed kernel and exact small-prime signs, the full linear-in-each-predictor term, and the actual all-order position estimate on X, including tame weights, missing trivial quotient, lift exceptions and norm scope."
+  ]
+}

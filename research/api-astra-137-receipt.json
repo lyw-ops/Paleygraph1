@@ -1,0 +1,63 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-137-inflight.json",
+    "sha256": "b150dc79471e2bc5edbd21589254bb15e21f2174377922c1b619b900b0f0a2ef"
+  },
+  "lanes": [
+    {
+      "call_id": "cold-labelled-center-cancellation",
+      "model_requested": "gpt-6.2-astra",
+      "started_at_utc": "2026-11-19T18:39:04.776081Z",
+      "candidate": {
+        "path": "research/api-astra-cold-labelled-center-cancellation-137.txt",
+        "sha256": "e5974b53af3847893e2e99ee7213bc3db5fb0c243ef1d51e9a88268192899d24"
+      },
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 10028,
+        "completion_tokens": 2134,
+        "total_tokens": 12162
+      }
+    },
+    {
+      "call_id": "cold-direct-joint-block",
+      "model_requested": "gpt-6.2-astra",
+      "started_at_utc": "2026-11-19T18:39:04.776872Z",
+      "candidate": {
+        "path": "research/api-astra-cold-direct-joint-block-137.txt",
+        "sha256": "7a9526c5aba2d9c273fa16be7f04663b98f39ad48e86789b92d68bea5ea94715"
+      },
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 10016,
+        "completion_tokens": 2536,
+        "total_tokens": 12552
+      }
+    },
+    {
+      "call_id": "ordinary-optimal-bulk-energy",
+      "model_requested": "gpt-6.2-astra",
+      "started_at_utc": "2026-11-19T18:39:04.776431Z",
+      "candidate": {
+        "path": "research/api-astra-ordinary-optimal-bulk-energy-137.txt",
+        "sha256": "e39bc329dc118d5e818d87786f7779c747fd4d29f47553ee974fdf879515ca7f"
+      },
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 10089,
+        "completion_tokens": 4504,
+        "total_tokens": 14593
+      }
+    }
+  ]
+}

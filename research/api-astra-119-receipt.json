@@ -1,0 +1,19 @@
+{
+  "overflow": {
+    "provider_host": "api.appintheloop.com",
+    "call_id": "weighted-real-slack",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "653dfa421dbf7372dd477412ecc1d733b3fffb01ecaa098d6c93c279b7a3d489",
+    "started_utc_epoch": 1795099728,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7343,
+      "completion_tokens": 3574,
+      "total_tokens": 10917
+    },
+    "draft_sha256": "cd7c9febea2bfcc01ac34ce09a00c80254eb939037b009cbc92050a6924bad54",
+    "status": "returned-draft"
+  }
+}

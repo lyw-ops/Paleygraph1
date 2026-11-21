@@ -1,0 +1,3 @@
+{"eventual_linear_upper": "0.527", "eventual_nonlinear_upper": "0.142", "eventual_total_upper": "0.666", "height": 601, "kind": "seed_resummation_actual_upper"}
+{"height": 601, "kind": "resummed_comparison_obstruction", "principal_weights": 12, "subinvariance_strict_lower": "0.570"}
+{"eventual_linear_upper": "0.527", "eventual_nonlinear_upper": "0.142", "eventual_total_upper": "0.666", "height": 602, "kind": "seed_resummation_actual_upper"}

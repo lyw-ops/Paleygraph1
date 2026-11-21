@@ -1,0 +1,278 @@
+## Result
+
+Let \(G=\mathbb F_p^\times\), let \(K\) be the real symmetric Paley operator, and write the translated Jacobi input with the Fourier convention of the supplied references as
+\[
+ \widehat{C_{1,\xi}}^{\,\vee}(z)
+   =\frac{s(z)\xi(z)}{\sqrt p},
+ \qquad z\in G,
+\]
+up to replacing \(\xi\) by \(\xi^{-1}\) if the opposite Fourier sign is used. Here
+\[
+s(z)=\chi(1-z),\qquad s(1)=0,
+\]
+and the two lift/boundary characters of the translated column are
+\[
+ \mathcal B_\xi=\{\xi,\chi\xi\}.
+\]
+The physical mark is \(t_0=n\), while all other coordinates have floor \(t\) on the common original closed square.
+
+Write the marked degree-one derivative rows in the form
+\[
+ d_{S,\xi}(u)=a_S\,s(u)\xi(u)+b_S,
+\]
+and
+\[
+ d_Y(v)=
+ -\frac{\chi(1-v)A_p(v)}{2p\sqrt{t(v)}}+b_Y(t(v)),
+\qquad
+ b_Y(t)=\frac{Y_0}{2n}\bigl(n^{-1/2}-t^{-1/2}\bigr),
+\]
+with the fixed scalar multiplying \(Y\) factored out. The constants \(a_S,b_S\) are the actual marked coefficients from the selected physical normalization.
+
+### 1. Exact physical inverse-line formula
+
+For two rows \(d_1,d_2\), the inverse-line contribution is
+\[
+ \mathcal H_{1,2}(x)
+ =
+ s(x)\sum_{u\in G}
+ s(x/u)\,d_1(u)\,d_2(x^2/u).
+ \tag{1}
+\]
+
+Consequently, the two selected orders are
+\[
+ \mathcal H_{S_\xi,Y}(x)
+ =
+ s(x)\sum_{u\in G}
+ s(x/u)\,d_{S,\xi}(u)\,d_Y(x^2/u),
+ \tag{2}
+\]
+and
+\[
+ \mathcal H_{Y,S_\xi}(x)
+ =
+ s(x)\sum_{u\in G}
+ s(x/u)\,d_Y(u)\,d_{S,\xi}(x^2/u).
+ \tag{3}
+\]
+
+The substitution
+\[
+ u\longmapsto x^2/u
+\]
+preserves \(G\), and
+\[
+s\!\left(x/(x^2/u)\right)=s(u/x)=s(x/u).
+\]
+Since the two rows are scalar-valued and commute under multiplication, (2) and (3) are **exactly equal**, including the marked corrections:
+\[
+ \boxed{\mathcal H_{S_\xi,Y}=\mathcal H_{Y,S_\xi}.}
+ \tag{4}
+\]
+
+Thus the selected mixed block contributes twice one physical trace, not two traces with opposite signs.
+
+The collision at \(x=-1\) remains at
+\[
+u=1,\qquad u=x^2,
+\]
+and both factors see argument \(1\). The translated Kummer factor \(\xi\) is lisse at these sections, so it changes the arithmetic twist but not the geometric local calculation. The two orders therefore have the same degree-one vanishing-cycle object.
+
+---
+
+## 2. Generic trace objects and boundary pairs
+
+The translated input carries the Kummer pair
+\[
+\{\xi,\chi\xi\}.
+\]
+
+The \(Y\)-row is the twisted Legendre object whose two lift branches have boundary pair
+\[
+\{1,\chi\}.
+\]
+
+Accordingly, the first mixed multiplication has boundary support contained in
+\[
+ \mathcal B_{\xi,Y}
+ \subset
+ \{\xi,\chi\xi\}\cup\{1,\chi\}.
+ \tag{5}
+\]
+For generic \(\xi\), these are four distinct characters.
+
+At the second step, the two algebraic words corresponding to the two operator orders are, before restoring the marked denominators,
+\[
+ K\!\left(C_{1,\xi}\,K(C_{1,\xi}Y)\right)
+ \quad\text{and}\quad
+ K\!\left(Y\,K(C_{1,\xi}^{\,2})\right).
+ \tag{6}
+\]
+The second word has translated square boundary pair
+\[
+ \mathcal B_{\xi^2}=\{\xi^2,\chi\xi^2\},
+ \tag{7}
+\]
+while the first has the iterated mixed pair obtained by multiplying
+\(\mathcal B_\xi\) with the \(Y\)-pair. Thus the generic boundary union for the full two-step block is contained in
+\[
+ \mathcal B_{\mathrm{two\ step}}
+ \subset
+ \{\xi,\chi\xi\}
+ \cup\{1,\chi\}
+ \cup\{\xi^2,\chi\xi^2\}
+ \cup\{\xi,\chi\xi\}\{1,\chi\}.
+ \tag{8}
+\]
+
+This is the translated replacement for the unshifted \(C_1\) calculation. In particular:
+
+* the \(F_4\) term is replaced by the corresponding translated rank-four object
+  \[
+  F_{4,\xi}
+   \sim K\!\left(C_{1,\xi}\,K(C_{1,\xi}Y)\right);
+  \]
+* the \(D,D^\vee,R\) terms are replaced by the translated quadratic/mixed objects arising from
+  \[
+  K\!\left(Y\,K(C_{1,\xi}^{\,2})\right);
+  \]
+* their arithmetic labels retain the new Jacobi/Kummer shift carried by
+  \(\xi\), or by \(\xi^2\) in the quadratic branch;
+* the two physical orders have the same inverse-line realization by (4), so no order-dependent sign or boundary weight is available for cancellation.
+
+The exact scalar normalizations depend on the already fixed \(a_S\), the coefficient of \(Y\), and the bulk/marked denominators. Those numerical coefficients were not included in the prompt, so I do not claim a new numerical analogue of equation (1) from the unshifted report. The exact symbolic transported identity is (2)–(8).
+
+---
+
+## 3. Local collision type
+
+At the collision \(x=-1\):
+
+* the translated Jacobi factor is a rank-one Kummer twist of the ordinary Jacobi object;
+* its geometric interior inertia remains the rank-one quadratic type;
+* the \(Y\)-factor has geometric inertia
+  \[
+  \chi_2\otimes\operatorname{Unip}(2);
+  \]
+* the Kummer factors are lisse and contribute only arithmetic twists.
+
+Therefore the local tensor calculation still gives the degree-one unipotent block
+\[
+ \operatorname{Unip}(2)
+\]
+geometrically, with the arithmetic twist determined by the value of the translated Kummer factor at the collision. In particular, translating by \(\xi\) does not remove the local ramification.
+
+The special-fiber \(H_c^2\) argument is unchanged provided the translated row remains nontrivial at the relevant exceptional section. At \(u=x=-1\), the \(s(x/u)\) factor still supplies the nontrivial quadratic scalar inertia. Hence the local vanishing-cycle conclusion survives for generic \(\xi\).
+
+---
+
+## 4. Exact special-\(\xi\) changes
+
+The generic four-character boundary configuration in (5) degenerates precisely when one of the following intersections occurs.
+
+### First-level intersections
+
+\[
+\{\xi,\chi\xi\}\cap\{1,\chi\}\neq\varnothing
+\quad\Longleftrightarrow\quad
+\xi\in\{1,\chi\}.
+\tag{9}
+\]
+
+These are exactly the unshifted/base-pair cases.
+
+### Quadratic translated intersections
+
+The translated square pair meets the base pair when
+\[
+\{\xi^2,\chi\xi^2\}\cap\{1,\chi\}\neq\varnothing
+\quad\Longleftrightarrow\quad
+\xi^2\in\{1,\chi\}.
+\tag{10}
+\]
+Equivalently, \(\xi\) has order dividing \(4\), with the precise alternatives determined by whether \(\xi^2=1\) or \(\xi^2=\chi\).
+
+### Generic regime
+
+Thus a clean generic translated regime is
+\[
+ \xi\notin\{1,\chi\},
+ \qquad
+ \xi^2\notin\{1,\chi\}.
+ \tag{11}
+\]
+In this regime the new translated boundary pair is genuinely distinct from the original pair and from the quadratic translated pair. No same-label collision with the unshifted \(F_4,D,D^\vee,R\) objects is forced by boundary characters alone.
+
+This is a classification of the boundary degeneracies, not a complete classification of all derived arithmetic-label coincidences. Such coincidences would require the full translated representation-ring labels, including determinant/Jacobi exponents.
+
+---
+
+## 5. Signed physical estimate
+
+For the exact finite-field matrix, restore the marked denominators only after the bulk convolution calculation. The difference between \(t_0=n\) and \(t\) is supported through the exceptional Mellin coordinates and produces, as in the shifted-resolvent estimate, an error
+\[
+ O_\Lambda(n^{-1/2})
+\]
+relative to the translated input price.
+
+For a genuinely translated source, the initial boundary-price vector is
+\[
+(A,b)=(0,1),
+\]
+where \(A\) is the price on the original pair \(\{1,\chi\}\), and \(b\) is the first moment on the added pair \(\{\xi,\chi\xi\}\). One physical derivative step satisfies
+\[
+ A'\le qA+\nu b+O_\Lambda(n^{-1/2})(A+\Lambda b),
+\]
+\[
+ b'\le mb+O_\Lambda(n^{-1/2})(A+\Lambda b),
+\tag{12}
+\]
+with
+\[
+m+\nu/l\le q.
+\]
+Hence the two-step selected block has bounded translated price whenever \(q<1\), and its coordinate size is
+\[
+ \boxed{
+ \max_i |(\text{selected two-step block})_{i,\xi}|
+ \ll_\Lambda
+ \sqrt{\frac pn}\,n^{-1/2}
+ =
+ O_\Lambda(n^{-1/2})
+ }
+ \tag{13}
+\]
+after the fixed normalization of the translated Jacobi column. The same estimate applies to either order; by (4), the two inverse-line physical contributions are equal, so their sum obeys the same bound with at most a factor \(2\).
+
+This is a signed physical estimate only after retaining the exact signs in (2)–(3); the available price argument then bounds its absolute value. It does **not** produce a new cancellation or a lower bound for the full analytic square difference.
+
+---
+
+## Conclusion and remaining gap
+
+The translated input is, with the checked Fourier convention,
+\[
+\boxed{\displaystyle \frac{s(z)\xi(z)}{\sqrt p}.}
+\]
+
+For the actual marked system:
+
+1. both orders \(S\) then \(Y\) and \(Y\) then \(S\) are represented by (2)–(3);
+2. they are exactly equal after \(u\mapsto x^2/u\), including marked corrections;
+3. the translated boundary pair is \(\{\xi,\chi\xi\}\), with quadratic successor \(\{\xi^2,\chi\xi^2\}\);
+4. the generic local collision remains a degree-one \(\operatorname{Unip}(2)\) block with an arithmetic Kummer twist;
+5. generic \(\xi\) introduces no forced same-label pooling with the unshifted \(C_1\) block;
+6. the translated two-step coordinate contribution is \(O_\Lambda(n^{-1/2})\) under the existing \(q<1\) price hypothesis.
+
+What remains open is an explicit full representation-ring decomposition of \(F_{4,\xi}\) and the translated \(D_\xi,D_\xi^\vee,R_\xi\), including all determinant/Jacobi exponents. Without that decomposition one cannot assert a stronger physical weight improvement or rule out accidental arithmetic-label coincidences beyond the boundary classification above.
+
+### Ranked next tests
+
+1. **Highest priority:** compute the complete translated two-step label table for generic \(\xi\), retaining the pairs
+   \[
+   \{\xi,\chi\xi\},\quad \{1,\chi\},\quad \{\xi^2,\chi\xi^2\},
+   \]
+   and compare it against the unshifted \(F_4,D,D^\vee,R\) labels. Then specialize to the exceptional classes \(\xi^2=1\) and \(\xi^2=\chi\).
+
+2. **Second priority:** evaluate the exact signed physical coefficients of (2)–(3) at the marked coordinate and at \(x=-1\), with the full \(t_0=n\) denominator restored. This tests whether the factor-two equality survives in the selected analytic square difference after all external word coefficients are included; it still cannot by itself give a lower bound for the full operator.

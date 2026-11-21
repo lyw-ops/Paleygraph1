@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_145",
+  "comparison": "The clipped deleted-tail question is about a signed residual of a specific nonnegative row with fixed mark. The nonnegative Fourier-smoothing question leads instead to a near-cap shift with two nonnegative losses and no sector residual. Their sufficient bounds for the ordinary target are distinct. Cold two-pair contraction concerns the selected actual derivative operator. No shared exact mathematical obligation was found.",
+  "groups": [],
+  "dispatch": "coordination/round-145-inflight.json",
+  "launched_at_utc": "2026-11-19T20:13:11.497114Z",
+  "launched_calls": [
+    "ordinary-terminal-signed-clipping",
+    "ordinary-terminal-approx-sector",
+    "cold-full-selected-unshifted-price"
+  ],
+  "before_sha256": "aabeb658308a20f3df04d540211bf5ef84a2a30c4779db3d11a37a04e34dafc9"
+}

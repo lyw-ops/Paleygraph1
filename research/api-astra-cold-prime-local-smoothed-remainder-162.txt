@@ -1,0 +1,208 @@
+## Result: exact decomposition obtained, quantitative translated estimate not certified
+
+Fix the original prime family
+\[
+p\equiv1\pmod 4,\qquad n=\frac{p-1}{2},
+\]
+through the eligible primes used in the prior checks. Keep the original complex square \(Q\), the physical marking
+\[
+t_0=n,\qquad t_i=t\quad(i\ne0),
+\]
+and treat the two genuine lifts separately. All estimates below are required uniformly over both lifts and \(t\in Q\), with \(n\to\infty\) through this prime family before taking any fixed-depth or analytic-tail limits.
+
+For lift \(\ell\in\{+,-\}\), write
+\[
+\delta_{600}^{(\ell)}=V_{601}^{(\ell)}-V_{600}^{(\ell)},\qquad
+D_h^{(\ell)}=\operatorname{diag}\Phi_t'(V_h^{(\ell)}),
+\]
+and
+\[
+r^{(\ell)}
+ =\Phi_t(V_{601}^{(\ell)})-\Phi_t(V_{600}^{(\ell)})
+   -D_{600}^{(\ell)}\delta_{600}^{(\ell)}.
+\]
+
+### 1. Direct Taylor remainder: mark and bulk
+
+On the prescribed physical sheets, let \(C_{\rm b}\) and \(C_{\rm m}\) be uniform second-derivative bounds for the bulk and marked coordinates, respectively. Taylor's formula gives, coordinatewise,
+\[
+|r_i^{(\ell)}|
+ \le \frac12 C_{\rm b}|\delta_{600,i}^{(\ell)}|^2
+ \quad (i\ne0),
+\]
+and
+\[
+|r_0^{(\ell)}|
+ \le \frac12 C_{\rm m}|\delta_{600,0}^{(\ell)}|^2.
+\]
+
+Thus, in normalized first norm,
+\[
+\|r^{(\ell)}\|_{1,n}
+\le
+\frac1{2n}C_{\rm m}|\delta_{600,0}^{(\ell)}|^2
++\frac{C_{\rm b}}{2n}\sum_{i\ne0}
+ |\delta_{600,i}^{(\ell)}|^2.
+\tag{1}
+\]
+
+If
+\[
+a_{\rm m}^{(\ell)}=|\delta_{600,0}^{(\ell)}|,
+\qquad
+a_{\rm b}^{(\ell)}
+ =\max_{i\ne0}|\delta_{600,i}^{(\ell)}|,
+\]
+then
+\[
+\|r^{(\ell)}\|_{1,n}
+\le
+\frac{C_{\rm m}}{2n}(a_{\rm m}^{(\ell)})^2
++\frac{C_{\rm b}}2(a_{\rm b}^{(\ell)})^2.
+\tag{2}
+\]
+
+The marked coordinate is therefore explicitly \(1/n\)-suppressed in the normalized first norm. This suppression cannot automatically be transferred to \(P_{5000}\), because the translated norm may assign a special price to the marked or boundary fibers.
+
+### 2. Exact signed smoothing split
+
+For \(h=601,602\), define
+\[
+A_h=I-KD_h,\qquad Z_h=A_h^{-1}K.
+\]
+Using
+\[
+Z_hK=(I+Z_hD_h)(I-\Pi),
+\]
+the Taylor contribution after the outer transport is exactly
+\[
+Z_hKr
+=
+(r-\overline r)+Z_hD_h(r-\overline r),
+\tag{3}
+\]
+where \(\overline r\) is the constant vector with value \(\mathbb E r\).
+
+Hence the requested two pieces are:
+
+- **direct piece**
+  \[
+  T_{\rm dir}^{(\ell)}=r^{(\ell)}-\overline{r^{(\ell)}};
+  \]
+
+- **smoothed piece**
+  \[
+  T_{\rm sm,h}^{(\ell)}
+  =Z_h^{(\ell)}D_h^{(\ell)}
+    \bigl(r^{(\ell)}-\overline{r^{(\ell)}}\bigr).
+  \]
+
+The centering costs at most a factor two in normalized first norm:
+\[
+\|r-\bar r\|_{1,n}\le 2\|r\|_{1,n}.
+\]
+Consequently,
+\[
+\|T_{\rm sm,h}^{(\ell)}\|_\infty
+\le
+2\|Z_h^{(\ell)}\|_{\max}\,
+ \|D_h^{(\ell)}\|_\infty\,
+ \|r^{(\ell)}\|_{1,n},
+\tag{4}
+\]
+and (2) gives the explicit mark/bulk bound
+\[
+\|T_{\rm sm,h}^{(\ell)}\|_\infty
+\le
+\|Z_h^{(\ell)}\|_{\max}\|D_h^{(\ell)}\|_\infty
+\left[
+\frac{C_{\rm m}}n(a_{\rm m}^{(\ell)})^2
++C_{\rm b}(a_{\rm b}^{(\ell)})^2
+\right].
+\tag{5}
+\]
+
+The direct coordinate contribution retains the unsmoothed quadratic price:
+\[
+\|T_{\rm dir}^{(\ell)}\|_\infty
+\le
+\frac{C_{\rm b}}2
+ \max_{i\ne0}|\delta_{600,i}^{(\ell)}|^2
++\frac{C_{\rm m}}2|\delta_{600,0}^{(\ell)}|^2.
+\tag{6}
+\]
+
+This confirms the structural point from Round 161: the direct Taylor piece cannot be charged entirely as a smoothed term.
+
+### 3. Height transfer
+
+The true resolvent difference is
+\[
+Z_{602}-Z_{601}
+=
+Z_{602}(D_{602}-D_{601})Z_{601}.
+\tag{7}
+\]
+
+For any translated source \(x\), the change in the smoothed Taylor piece is therefore
+\[
+\begin{aligned}
+&Z_{602}D_{602}x-Z_{601}D_{601}x\\
+&=
+Z_{602}(D_{602}-D_{601})Z_{601}D_{602}x
++Z_{601}(D_{602}-D_{601})x.
+\end{aligned}
+\tag{8}
+\]
+
+Equation (8) identifies the exact nonlinear height-transfer cost. A valid translated estimate would require, uniformly for both lifts,
+\[
+\|Z_{601}\|_{P_{5000}\leftarrow P_{5000}},
+\quad
+\|Z_{602}\|_{P_{5000}\leftarrow P_{5000}},
+\quad
+\|D_{602}-D_{601}\|_{P_{5000}},
+\]
+together with a smallness condition making the first term in (8) subordinate to the second.
+
+The available height-601 result supplies a translated rate for the genuine derivative,
+\[
+\|KD_{601}\|_{P_{5000}}\lesssim 1.048,
+\]
+and a coordinate/max-entry estimate of order \(n^{-0.467}\) for the height-601 frozen resolvent. It does **not** supply either:
+
+1. a translated \(P_{5000}\) bound for \(Z_{602}\), or  
+2. a certified translated perturbation bound for \(D_{602}-D_{601}\).
+
+The frozen-orbit transfer result also does not close this gap: its hypotheses require a growing-\(n\) residual and confinement estimate of the form \(n^{1-\beta}r^2=o(1)\), together with signed partial-sum control at the moving starter. Those hypotheses were not certified for the actual height-601-to-602 pair on the full square.
+
+## Evidence and conclusion
+
+The exact algebraic split is established for both genuine lifts and the original marking. The mark is separately priced by (1)–(2), the bulk by the remaining term, and the direct and smoothed Taylor pieces are separated by (3). The correct height insertion is (7)–(8).
+
+However, this is **not yet a checked translated \(P_{5000}\) increment estimate**. In particular, the coordinate estimate (5) cannot be promoted to the requested translated norm without a translated price for the height-602 resolvent and the height insertion. The prior full-composition bound
+\[
+\|A_{602}A_{601}-B_3^2\|_{P_{5000}}<0.66348896
+\]
+and the target budget \(0.51961239\) do not resolve this missing transfer. Therefore the mission is presently **inconclusive**, not supported or refuted.
+
+### Ranked next tests
+
+1. **Highest priority: direct outward replay at height 602.**  
+   For both lifts, retain the original \(Q\), \(t_0=n\), and \(P_{5000}\) pricing. Compute separately:
+   \[
+   r-\bar r,\qquad
+   Z_{602}D_{602}(r-\bar r),
+   \]
+   with separate marked and bulk columns. The replay must certify a translated bound for \(Z_{602}\), not merely a height-602 entrywise or coordinate-supremum bound. Its exact cost should be compared against the remaining \(0.51961239\) budget.
+
+2. **Second priority: perturbative height bridge.**  
+   Establish, for both lifts,
+   \[
+   \|Z_{601}(D_{602}-D_{601})\|_{P_{5000}}<1
+   \]
+   with an explicit decaying bound, then use (7) to transfer the height-601 translated resolvent estimate to height 602. The nonlinear limitation is that the resulting bound must control the product term
+   \[
+   Z_{602}(D_{602}-D_{601})Z_{601}D_{602}
+   \]
+   in the translated norm, not only in normalized second norm or coordinate supremum.

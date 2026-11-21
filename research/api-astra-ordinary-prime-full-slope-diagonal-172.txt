@@ -1,0 +1,193 @@
+## Result
+
+For the actual prime family \(p\to\infty\) through odd primes, with
+
+- \(Q=(\mathbb F_p^\times)^2\),
+- the actual optimizer \(\nu=\nu_p\), its full-lift law \(\omega=\omega_p\),
+- \(g=|f|^2\), extended by \(0\) off \(Q\),
+- \(w(s)=g(s)(1-g(s))\),
+- the physical marking \(v\neq0\),
+- the genuine \(b\)-square condition \(b\in Q\),
+- and the completed positive majorant, including its named endpoint repairs,
+
+the available affine-energy argument does **not** prove
+\[
+\sum_s w(s)\,|H(s,s)|^2=O(p^{3/2}).
+\]
+
+It gives only the inherited bound
+\[
+\sum_s w(s)\,|H(s,s)|^2
+\le
+\sum_{s,t}w(t)\,|H(s,t)|^2
+=O(p^{23/8}),
+\]
+after the heavy/light decomposition with \(\tau=p^{-1/8}\). Thus the diagonal remains open, with a missing saving of \(p^{7/8}\) in the squared weighted norm.
+
+This is a failure of the proposed sufficient mechanism, not a refutation of the diagonal target.
+
+---
+
+## Exact diagonal under attack
+
+After the affine change of variables from the genuine physical coordinates, the two unconstrained arguments are
+\[
+s=b+r e,\qquad e=\frac1E,
+\]
+with
+\[
+r=\frac{Y-D}{1-D},\qquad
+b=\frac{D(1-Y)}{Y(1-D)},
+\]
+and \(b\in Q\) is the actual physical square restriction. The map \((Y,D)\mapsto(r,b)\) is injective on the retained nondegenerate region.
+
+On the diagonal \(t=s\), the completed positive contribution of a pair \((Y,D)\) is
+\[
+g(Y)g(D)\,
+g\!\left(\frac{rD}{Y(s-b)}\right)
+g\!\left(\frac{rs}{s-b}\right),
+\]
+with \(b\in Q\), \(s\neq b\), and the zero/pole conventions of the completion. Hence
+\[
+H(s,s)
+=
+\sum_{\substack{(Y,D)\ {\rm retained}\\ b(Y,D)\in Q}}
+g(Y)g(D)\,
+g\!\left(\frac{r(Y,D)D}{Y(s-b(Y,D))}\right)
+g\!\left(\frac{r(Y,D)s}{s-b(Y,D)}\right)
++\text{endpoint repairs}.
+\]
+
+The two restored factors have the exact character expansion
+\[
+\sum_{\alpha,\beta}
+\omega(\alpha)\omega(\beta)
+(\alpha\beta)(r)\,
+\beta(D/Y)\,
+\alpha(s)\,
+\overline{\alpha\beta}(s-b).
+\]
+The pole \(s=b\) is zero for every character, including the trivial character. The blocks with \(\alpha=1\), \(\beta=1\), or \(\alpha\beta\) in any fixed bounded exceptional family are already controlled using
+\[
+\|\omega\|_\infty=\kappa=O(p^{-1/2}),
+\]
+and contribute \(O(\kappa G^2)=O(\sqrt p)\) pointwise, hence \(O(p^{3/2})\) after the \(w(s)\)-weighted square.
+
+The unresolved part is therefore the regular two-character average over the genuine \((r,b)\)-family, with \(b\in Q\) retained.
+
+---
+
+## What the affine-energy proof actually supplies
+
+For the heavy region
+\[
+g(Y),g(D)>\tau,\qquad \tau=p^{-1/8},
+\]
+the affine-energy estimate gives, uniformly in the auxiliary parameter \(t\),
+\[
+\|M_{\mu_{\alpha,t}}\|_{\mathbf1^\perp\to\mathbf1^\perp}
+=O(p^{15/16}),
+\]
+while the input vector has norm \(O(\sqrt G)=O(p^{1/4})\), where
+\[
+G=\sum_x g(x)=O(\sqrt p).
+\]
+Consequently,
+\[
+\|H_{\rm heavy}(\cdot,t)\|_2=O(p^{19/16})
+\]
+uniformly in \(t\), and therefore
+\[
+\sum_{s,t}w(t)|H_{\rm heavy}(s,t)|^2
+=O(p^{23/8}).
+\]
+
+For the diagonal, however, the input itself depends on \(s\):
+\[
+h_s(e)=g(s/e),
+\]
+and the coefficient measure also depends on the same \(s\) after the diagonal substitution. Thus the estimate is being applied to
+\[
+M_{\mu_s}h_s,
+\]
+not to one fixed operator acting on one fixed vector.
+
+The two-dimensional estimate controls
+\[
+\sum_{s,t}w(t)\,|M_{\mu_t}h_t(s)|^2,
+\]
+but the desired quantity is
+\[
+\sum_s w(s)\,|M_{\mu_s}h_s(s)|^2.
+\]
+There is no valid diagonal-restriction principle turning the former into an \(O(p^{3/2})\) estimate. The affine energy controls the operator norm after averaging over group differences; it does not control the covariance created when the same parameter \(s\) selects both the operator and the evaluation point.
+
+The light part is also insufficient with the current pointwise estimate. Indeed,
+\[
+H_{\rm light}(s,s)\ll \tau G^2,
+\]
+so
+\[
+\sum_s w(s)|H_{\rm light}(s,s)|^2
+\ll \tau^2G^4\sum_s w(s)
+\ll \tau^2 p^{5/2}.
+\]
+With \(\tau=p^{-1/8}\), this is \(O(p^{9/4})\), still larger than \(O(p^{3/2})\). Thus even improving the heavy diagonal argument would not by itself close the target unless the light pairs are treated more sharply or the cutoff is pushed much lower.
+
+---
+
+## Conclusion
+
+The proposed diagonal route is **inconclusive but quantitatively obstructed at the current level**:
+
+1. The exact full positive diagonal has been isolated with the physical mark and \(b\in Q\) retained.
+2. Trivial and bounded-character blocks are paid at the target scale.
+3. The known affine-energy bound yields only \(O(p^{23/8})\) for the diagonal by restriction from the two-dimensional estimate.
+4. The diagonal dependence \(t=s\) introduces a genuine operator/input covariance not seen by the two-dimensional norm.
+5. The current light-pair estimate contributes \(O(p^{9/4})\) at \(\tau=p^{-1/8}\).
+
+Therefore there is no checked proof of
+\[
+\sum_s w(s)|H(s,s)|^2=O(p^{3/2})
+\]
+from the present machinery.
+
+## Ranked next tests
+
+### 1. Expand the diagonal square and solve the coupled incidence problem
+
+This is the highest-value test. Expand
+\[
+\sum_s w(s)|H(s,s)|^2
+\]
+using two physical pairs \((Y,D)\) and \((Y',D')\), retaining both square conditions \(b,b'\in Q\). The resulting equations involve the two fractional-linear arguments
+\[
+\frac{rD}{Y(s-b)},\qquad \frac{rs}{s-b}
+\]
+and their primed analogues.
+
+The target is a direct bound for the coupled covariance, separating:
+
+- \(b=b'\),
+- \(r=r'\),
+- equality of one restored argument,
+- equality of both restored arguments,
+- and the genuinely off-diagonal \(b\neq b'\), \(r\neq r'\) region.
+
+The already-known injectivity and quadratic-root bounds should control the collision strata. A successful estimate must exploit \(w(s)\), not merely count all \(s\), and must retain \(b,b'\in Q\). This is the most plausible route to a genuine \(p^{7/8}\) saving over the inherited \(p^{23/8}\) bound.
+
+### 2. Regular-character diagonal covariance with the square mask
+
+Use the exact phase
+\[
+(\alpha\beta)(r)\,\beta(D/Y)\,
+\alpha(s)\,\overline{\alpha\beta}(s-b)
+\]
+and expand the \(s\)-weighted square. For regular \(\alpha,\beta,\alpha',\beta'\), study the resulting sum over \(s,b,b'\) with
+\[
+1_Q(b)1_Q(b')\,w(s).
+\]
+
+The first subtest should fix the character quadruple and determine whether the \(s\)-sum reduces to a Jacobi/Kloosterman-type correlation with a power saving from the genuine \(w(s)=g(s)(1-g(s))\) weight. The second should average those bounds against the actual \(\omega(\alpha)\omega(\beta)\omega(\alpha')\omega(\beta')\).
+
+A bound of \(O(p^{3/2})\) must use cancellation in this regular covariance; absolute values or the existing two-dimensional affine energy will not suffice.

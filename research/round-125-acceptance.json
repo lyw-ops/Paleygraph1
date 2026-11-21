@@ -1,0 +1,85 @@
+{
+  "round": 125,
+  "accepted_at_utc": "2026-11-19T15:48:51Z",
+  "previous": "research/round-124-acceptance.json",
+  "previous_sha256": "2cc363e32f643d2b608da0755ea980b67148c75a582b44dd8b4c6543cad52ed7",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-124.json",
+    "sha256": "f70837236018b74442575bb7ff91c45829f3b4c8b1c9a12bc07136c46c33b9f1"
+  },
+  "proof_and_code_sha256": {
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1",
+    "research/api-astra-review-125.md": "f374489c15ccb1a5ad23065f25e36110355fc61905dff6c2ef41e4ab6eb79c40",
+    "research/api-astra-overflow-125.txt": "f25b503a182acb09456381bf866fecf22fe9fb13a62c2dec31a98b15e6612bcb",
+    "research/api-astra-125-receipt.json": "d614f5988d66dd4af98f72b64cc239a52130cc5656398719460f738b9b1ca9c2"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/real-masked-functional-stability-123.md": "53feec15a0d57f63077477e4aec6099d4fa3942e0f9ca1310f73811886b42773",
+    "research/api-astra-review-123.md": "a319bd28e6f029c22182c4c64d850ece8ddeaec35e2c0f91e7be795c18b0f8aa",
+    "research/early-ordinary-masked-cubic-121.md": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/masked-conditional-spectrum-121.md": "467bc6f347d4dbbdb07b14ff5de99488e99dd89b4fe7aa8d28494ac7366d0fa4",
+    "research/ordinary-slack-dissipation-121.md": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50",
+    "research/cold-signed-time-kernel-transfer-124.md": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff",
+    "research/api-astra-review-124.md": "d1c667540afb853dfccb764b6d4ba9d368300fdc72353dcdd7611e4dd1f4098a",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/frozen-entry-transfer-105.md": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1",
+    "research/cold-exact-exception-budget-118.md": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe",
+    "research/cold-newton-mark-transfer-115.md": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, log-height masked arithmetic",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Quantify the joint signed masked coefficient at an explicit log-height capped seed.",
+        "Try the cap-height signed residual-correlation tail with a separate controlled endpoint."
+      ]
+    },
+    {
+      "name": "/root/audit_125",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate the exact log-height masked endpoint below the existing obstruction lower.",
+        "Given an independently controlled shorter endpoint at the same repair depth, bound the signed sum of actual adjacent cap increments through the logarithmic cutoff."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Test the actual sparse preimage or the full masked endpoint with both true factors. At a separately controlled short endpoint bound only the finite signed sum rather than every increment in absolute value.",
+    "Return to the complementary cold route. Test the rank and boundary growth of the actual short-power odd insertion required for variable derivative kernels."
+  ],
+  "proof_scope": [
+    "The adjacent true cap-height change in the full masked observable at fixed ordinary repair depth equals the exact adjoint contraction in (1). It uses the true clipped-activation secant, both adjacent ordinary repair trajectories, their scalar negative-part slopes, and the exact masked coefficient with both true factors.",
+    "Under the actual critical cap rate, at fixed ordinary depth the slope supports have size O(sqrt n + n q_M^(2m)). At q_M^m=O(n^(-1/4)) the signed adjoint admits an exact sparse preimage with support O(sqrt n), maximum size O(n^(-1/2)) and normalized first norm O(n^(-1)). The image may be dense.",
+    "The signed sum of these actual cap-increment tests connects any controlled shorter endpoint to the true fixed-point statistic. The absolute tail past the explicit logarithmic cutoff costs O(n^(-kappa)) in nT. On the inherited obstruction, if the shorter endpoint also falls below one quarter of the positive lower, then an adjacent test before that cutoff has positive signed size at least c_*/(2(L-m_0)). The selected step can depend on the prime."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw API recovers the known two-sided O(n^(-1)) Cauchy\u2013Schwarz bound and the known proxy precision. It does not prove arithmetic saving or a Mellin rank or degree lower bound.",
+    "The exact sparse preimage leaves its signed transport and cap increment to be controlled together. A signed tail bound needs a separate endpoint upper. The actual critical cap rate, real prime upper, cold moving starter and original theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new field computation or interval certificate. Raw API response and completion receipt are preserved."
+  ],
+  "independent_review": [
+    "A read-only Astra audit verified the signed secants, order and projection of the adjoint, counting/normalized support and norm bounds, sparse preimage, geometric tail and conditional pigeonhole. It distinguished the raw Cauchy\u2013Schwarz result from an independent prime upper."
+  ]
+}

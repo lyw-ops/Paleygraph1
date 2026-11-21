@@ -1,0 +1,36 @@
+{
+  "round": 192,
+  "dispatch_status": "One Claude Code desktop research session (fresh context, shared checkout), started on the user's own turn after they chose this call; started_utc_epoch recorded immediately before the launch",
+  "provider": "Claude Code session (Claude Opus 5.5) started by the generation-1 brain session local_3a29365e-04c0-4966-84ec-7968199c2fe8 on the user's reply 'Run vertex-tightness call'; PALEY_GATEWAY_API_KEY not available",
+  "accepted_checkpoint": {
+    "path": "research/round-191-acceptance.json",
+    "sha256": "51b868043d590e9d1453de4cdc7fea270a58c666c27c75927270ddf3a0449538"
+  },
+  "coordinator": {
+    "path": "coordination/round-191.json",
+    "sha256": "5af57ceb99e6ec6c6d8936819bb09d7521c90bc6b2043e9a9dce1a48f97296ad"
+  },
+  "synthesis_checkpoint": {
+    "path": "coordination/checkpoints/round-191.md",
+    "sha256": "37dfed242823eef8323fdf262ff23dd8ea6586be42fb58800cbd949ab8bc8ba2"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-192-before.json",
+    "sha256": "6e0725f162cfeeb54fd4c7981455857c4057e0520d860d23678c77bd52f7c12b"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-nc-vertex-tightness",
+      "agent_label": "session/r192-vertex-tightness",
+      "session_id": "local_3ee7c50c-fa62-4f29-9155-e1ae40b67cb3",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-192/ordinary-nc-vertex-tightness.md",
+        "sha256": "1f1d3c4d29bb6bc22d470393d825b59dded307af46342b2b09363739fbc54967"
+      },
+      "pending_candidate": "research/native-claude-ordinary-nc-vertex-tightness-192.md",
+      "started_utc_epoch": 1795232209.2574878,
+      "timestamp_role": "immediately before launch"
+    }
+  ]
+}

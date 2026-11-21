@@ -1,0 +1,61 @@
+{
+  "round": 152,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-151-acceptance.json",
+    "sha256": "fe4897df900fb9d6a8d92fe3ad2779ed8deb2376e639b8ff26189bab73120c32"
+  },
+  "coordinator": {
+    "path": "coordination/round-151.json",
+    "sha256": "53a2cc36328deb6b5042b19f3ec6921d411db355a63100557daf97ceb5aa8843"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-152.py",
+    "sha256": "a72b2ca0f86fd892e01863a2a34f283724b7bcd953d7a27042ed87dd219c9bc4"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-152-before.json",
+    "sha256": "a77aabcdff41a4dc1c0764e171b115498b185174065c6bb58437235714618be7"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-endpoint-spectral-alternative",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "601f0a71163da92518d39736ae3159eab80da298147941dea0f84f7988522258",
+      "mission_file": {
+        "path": "coordination/missions/round-152/ordinary-prime-endpoint-spectral-alternative.md",
+        "sha256": "5443197ab58750fd9ef5e5be2beed28343c7beb8cbec520ba7e9a56477c1d2dd"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r152-api-01a1ed0a/ordinary-prime-endpoint-spectral-alternative-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r152-api-01a1ed0a/ordinary-prime-endpoint-spectral-alternative-candidate.md",
+      "started_utc_epoch": 1795124086.482656
+    },
+    {
+      "call_id": "ordinary-prime-first-spill-correct-dual",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "f6a1c56b41200a9f3758287e6527291404e2c1ca2cab86d163e9074d484b0252",
+      "mission_file": {
+        "path": "coordination/missions/round-152/ordinary-prime-first-spill-correct-dual.md",
+        "sha256": "e9ed0c80ee8f173856873445b0bc480ded47390ad212077a4635dbdba4fa58e8"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r152-api-01a1ed0a/ordinary-prime-first-spill-correct-dual-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r152-api-01a1ed0a/ordinary-prime-first-spill-correct-dual-candidate.md",
+      "started_utc_epoch": 1795124086.481508
+    },
+    {
+      "call_id": "cold-W-all-order-return",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "849bef29ce21634be73d13e0c79773469c0672968e7face48d84be9b7fa77e94",
+      "mission_file": {
+        "path": "coordination/missions/round-152/cold-W-all-order-return.md",
+        "sha256": "ecdb3b6f417839131b75a057d3f95195a07d71f8a51905a94d92b956921c1229"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r152-api-01a1ed0a/cold-W-all-order-return-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r152-api-01a1ed0a/cold-W-all-order-return-candidate.md",
+      "started_utc_epoch": 1795124086.481889
+    }
+  ]
+}

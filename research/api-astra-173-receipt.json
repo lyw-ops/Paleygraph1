@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-173-inflight.json",
+    "sha256": "01cf609266f0e96849d26a32edd8f228f48ed65ca42f3e6be441136d96f881ed"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-coupled-diagonal-incidence",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 15412,
+        "completion_tokens": 14733,
+        "total_tokens": 30145
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-coupled-diagonal-incidence-173.txt",
+        "sha256": "e7a281f50e523d586580bcad14b3f6438fd8303b002b4e391b3ffedf6348183c"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-full-weight-affine-energy",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 15385,
+        "completion_tokens": 3038,
+        "total_tokens": 18423
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-full-weight-affine-energy-173.txt",
+        "sha256": "2abe609b4907cf33d0e2b9ca53f7d50d61650001f976f1dd6f961397d6858f8b"
+      }
+    },
+    {
+      "call_id": "cold-prime-moving-residual-coordinate-transfer",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 11738,
+        "completion_tokens": 3665,
+        "total_tokens": 15403
+      },
+      "archive": {
+        "path": "research/api-astra-cold-prime-moving-residual-coordinate-transfer-173.txt",
+        "sha256": "f850786a42db89354c66253e47e33de42dcf51ccfcba48670682a984e69d37de"
+      }
+    }
+  ]
+}

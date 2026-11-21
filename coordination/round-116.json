@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "round": 116,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 116 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-115-acceptance.json",
+      "sha256": "de5bd10808c168cc4556b6b79dd45336ada131821bfa81b4115e32e5d72935f2"
+    },
+    "current": {
+      "path": "research/round-116-acceptance.json",
+      "sha256": "cb79cd034562bac1aef54787a5c0db284ba48f4e21e2f1c0545b70a86ff4de5b"
+    }
+  },
+  "changes": [
+    {
+      "id": "single-repair-cubic",
+      "route": "True paired Legendre cubic",
+      "effect": "reformulated",
+      "before": "The real residual had a positive Jacobi level and a negative low-factor source, with an opposite singleton of critical size.",
+      "after": "The single-repair cubic with both true laws admits exact collision subtraction, uniform translate domination and a strictly positive n^(-1) lower in that branch.",
+      "remaining": "Get a true prime upper on the full signed cubic or independently exclude the actual residual. Keep the opposite singleton and distinguish the reweighted Legendre trace.",
+      "evidence": [
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        },
+        {
+          "path": "research/api-astra-review-116.md",
+          "sha256": "afaf6e6bdfd03bc3f4f4b69c5b0511976001bc61269be0fec620168d6195dc0b"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/reciprocal-input-marks-114.md",
+          "sha256": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7"
+        }
+      ]
+    },
+    {
+      "id": "cap-slack",
+      "route": "Actual small-cap coefficient or sufficient slack",
+      "effect": "unchanged",
+      "before": "The fixed-cap adjusted overshoot suffices without a cap rate; a smaller real alpha is a separate route.",
+      "after": "The new signed cubic still uses the critical cap-rate marked obstruction.",
+      "remaining": "Prove the actual adjusted overshoot or a sufficient cap-rate bound at fixed floors tending to zero.",
+      "evidence": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual marked common cold complex domain",
+      "effect": "unchanged",
+      "before": "The interior quadratic residual transfer reduces the derivative to P+ZCH.",
+      "after": "This round treats the real fixed-floor branch.",
+      "remaining": "Build an actual prime-uniform moving starter and signed derivative bound, or continue the actual scalar directly.",
+      "evidence": [
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "A simpler cubic with the actual reciprocal pair has a strict lower on the residual and an exact Legendre and singleton decomposition. Seek an independent prime upper while revisiting the directly sufficient cap/slack mechanism.",
+  "next_calls": [
+    {
+      "id": "prime-paired-cubic",
+      "priority": 1,
+      "change_id": "single-repair-cubic",
+      "question": "Can an actual prime-specific estimate control the full signed cubic or exclude the residual via the h to hg trace reweighting?",
+      "why_now": "The actual companion laws have uniform paired differences and the remaining Fourier expression has the Legendre twist of one opposite and two favored factors.",
+      "scope": "Use the true repair and stationary factors on the same field and subsequence. Preserve the positive opposite singleton. A bound on the unmarked term alone is insufficient unless coupled with the required singleton contribution.",
+      "if_yes": "Give the verified bound with actual premises and eliminated branch.",
+      "if_no": "Give precise arithmetic and scope for an obstruction.",
+      "if_inconclusive": "Isolate and estimate a genuine positional trilinear term or the next exact prime hurdle.",
+      "inputs": [
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/reciprocal-input-marks-114.md",
+          "sha256": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7"
+        }
+      ]
+    },
+    {
+      "id": "direct-cap-slack",
+      "priority": 2,
+      "change_id": "cap-slack",
+      "question": "Can the true fixed-cap adjusted overshoot be shown to vanish through primes without the critical cap-rate premise?",
+      "why_now": "It is a direct ordinary theta route while the new cubic direction still assumes alpha=O(n^(-1/2)).",
+      "scope": "Use cap M=10 with each fixed 0<t<=1. Keep actual slack and signs and limit order. A sharp inner-excess bound is also eligible. No numerical-only all-prime claim.",
+      "if_yes": "State the prime-uniform inequality and both-sign floor implication.",
+      "if_no": "Identify an exact failure in the proposed proof or a properly scoped obstruction.",
+      "if_inconclusive": "Give one new checkable genuine bound on the slack-adjusted source or on the real capped spill.",
+      "inputs": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        }
+      ]
+    },
+    {
+      "id": "cold-combined-derivative",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the combined derivative be bounded on an actual moving complex starter?",
+      "why_now": "This is independent of the real cap premise.",
+      "scope": "Preserve the actual branch and two different inverse cutoff lengths.",
+      "if_yes": "State the uniform result and analytic domain.",
+      "if_no": "Identify the exact unproved or failing component.",
+      "if_inconclusive": "Derive a new signed resource estimate.",
+      "inputs": [
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "single-repair-cubic",
+      "question": "Which new genuine prime estimates survive independent read-only verification?",
+      "why_now": "Normalizations in the Jacobi trace and cap measures are essential.",
+      "scope": "Check hypotheses, signs, exact inputs, appropriate scales, and finite-versus-uniform scope.",
+      "if_yes": "Record exact accepted scope and ranked next tests.",
+      "if_no": "Locate the first invalid step.",
+      "if_inconclusive": "Record precisely the checked parts.",
+      "inputs": [
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        },
+        {
+          "path": "research/api-astra-review-116.md",
+          "sha256": "afaf6e6bdfd03bc3f4f4b69c5b0511976001bc61269be0fec620168d6195dc0b"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        }
+      ]
+    }
+  ]
+}

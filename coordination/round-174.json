@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "round": 174,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 174 mathematical review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-173-acceptance.json",
+      "sha256": "f0bbf26dcb2401b20a7ef6817c1d5a53f0a80427341b1b37ef3abf8d04588ea4"
+    },
+    "current": {
+      "path": "research/round-174-acceptance.json",
+      "sha256": "823ed022b5ce0d944669e4a93c28249800a55633ea4875dd99be68d2f6a4ec2b"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The full weighted diagonal and the affine relative energy had global bounds above target. Two-label diagonals and regular degeneration cuts had been priced.",
+      "after": "On the actual selected near-critical short block the five physical diagonal factors may be restricted to the favorable sign at the sufficient scale. The original relative affine action is explicit and all four cross-line shared-label subclasses are removable.",
+      "remaining": "Prove the favorable full weighted diagonal to O(p^3/2), or the needed one-match estimate together with a separate zero-match bound. The generic affine right energy and the pure translation and dilation terms are still above the sufficient O(p^2) scale.",
+      "evidence": [
+        {
+          "path": "research/ordinary-pin-favorable-collision-cut-174.md",
+          "sha256": "c5bbc0981d9ab05e6de8b8723374d3ceff054f4345b44d06c13b0935492c96b3"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-difference-pins-174.md",
+          "sha256": "5fdb141391f7a0ee8f3c17895ee22928f840db63f5e647585c871ed3ff103325"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "The height-602 radius-0.025 confinement criterion required every step of a specified logarithmic prefix and final clearance.",
+      "after": "The actual first, second and third displacements are below 0.01272, 0.02645 and 0.04162 and fit a radius-0.05 polydisk. The derivative bound 0.535 preserves the same conditional cutoff and tail with both lifts and the true mark.",
+      "remaining": "Prove confinement of the rest of the actual logarithmic prefix and uniform final clearance, or a sufficient replacement bridge. Further derivative transfer remains a separate obligation.",
+      "evidence": [
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual selected pin and line-label coincidences remove explicit pieces at target scale. A verified initial cold segment extends through V605. The surviving prime-uniform estimates still control the proof plan.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-favorable-two-pole",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the remaining favorable weighted full diagonal reach O(p^3/2) uniformly on the actual short block?",
+      "why_now": "The physical sign restriction is paid at target scale and implies the u-square and reconstructed x,y squares. Two-role cross-copy overlaps are already priced.",
+      "scope": "Use favorable s,A,C,Y,D on the actual selected branch, the original four factors g and output weight w(s) and remaining physical exclusions. Keep g(A),g(C) in the common-pole calculation, or prove a coupled weighted estimate for distinct poles. Do not complete an arbitrary slope-dependent physical restriction by an unrestricted Jacobi sum.",
+      "if_yes": "Prove the sufficient full favorable bound or an unresolved genuine block at target scale.",
+      "if_no": "Exhibit a precise arithmetic obstruction to a specific weighted decomposition or bound using its actual assumptions.",
+      "if_inconclusive": "Produce a verified prime-uniform exponent gain for the common-pole or distinct-pole block with explicit physical scope.",
+      "inputs": [
+        {
+          "path": "research/ordinary-pin-favorable-collision-cut-174.md",
+          "sha256": "c5bbc0981d9ab05e6de8b8723374d3ceff054f4345b44d06c13b0935492c96b3"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-generic-right-energy",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the weighted all-four-distinct energy of generic right differences improve the actual affine bound?",
+      "why_now": "The exact right action and inverse expose two weighted complement variables. Single shared-label parts are paid at O(p^2), while the pure subfamilies have separate estimates above target.",
+      "scope": "For ac nonzero and a different from one, bound the genuine four-copy correlation with the original g and both b-square masks at all levels. Any restriction using the sign pin requires a separate cost in the norm used. Keep the physical output weights in any implication for one match. Keep pure translation, dilation and zero match as separate obligations.",
+      "if_yes": "Prove a target-scale generic O(p^2) bound or a sufficient actual weighted one-match bound.",
+      "if_no": "Identify a precise obstruction to the proposed bound on the required weighted family under the actual hypotheses.",
+      "if_inconclusive": "Give a rigorous gain on a nontrivial generic difference class or the full actual energy.",
+      "inputs": [
+        {
+          "path": "research/ordinary-affine-difference-pins-174.md",
+          "sha256": "5fdb141391f7a0ee8f3c17895ee22928f840db63f5e647585c871ed3ff103325"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-beyond-three-prefix",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can true cold displacements after V605 stay in the existing radius-0.05 polydisk to the growing cutoff?",
+      "why_now": "The first three actual increments fit, and derivative 0.535 suffices for the prescribed cutoff when the remaining prefix and last-index clearance are proved.",
+      "scope": "Retain true V602, both lifts, original square and t0=n. Show growing-depth signed displacement control through 602+ceil((4/7)log_2 n) with strict terminal slack, or another sufficient actual bridge. The unsigned finite-step rate 1.066 does not close a growing bound.",
+      "if_yes": "Prove the growing confinement and clearance or an unconditional substitute yielding common continuation.",
+      "if_no": "Show a genuine obstruction to this specific tube for the true prime family.",
+      "if_inconclusive": "Prove a uniform signed increment or finite-to-growing estimate that materially reduces the open prefix.",
+      "inputs": [
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which deductions from the next three drafts survive an independent scope and formula check?",
+      "why_now": "The favorable physical collision, generic affine right differences and genuine cold growth have different proof obligations.",
+      "scope": "Read-only check. Verify exact hypotheses, original weights and marks, complex domains and scales. Report two ranked next tests.",
+      "if_yes": "Record validated deductions and surviving estimates.",
+      "if_no": "Identify exact invalid steps.",
+      "if_inconclusive": "Distinguish proved statements, conditional criteria and finite evidence.",
+      "inputs": [
+        {
+          "path": "research/ordinary-pin-favorable-collision-cut-174.md",
+          "sha256": "c5bbc0981d9ab05e6de8b8723374d3ceff054f4345b44d06c13b0935492c96b3"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        },
+        {
+          "path": "research/ordinary-affine-difference-pins-174.md",
+          "sha256": "5fdb141391f7a0ee8f3c17895ee22928f840db63f5e647585c871ed3ff103325"
+        },
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

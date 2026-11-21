@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T20:13:11.482890Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-144.json#next_calls",
+  "coordinator_sha256": "fa29fe3b7092c68b6ca98e7391ed6a1b33ea3c89734eab068cacdfa22b358e20",
+  "call_ids": [
+    "ordinary-terminal-signed-clipping",
+    "ordinary-terminal-approx-sector",
+    "cold-full-selected-unshifted-price"
+  ],
+  "routes": {
+    "r145/ordinary-terminal-signed-clipping": {
+      "question": "Can clipping a true optimum at a growing but sub-square-root terminal scale preserve the terminal signed criterion?",
+      "scope": "Use ordinary primes p=1 mod 4, fixed positive tau, exact true sign-s optimizer, original mark and growing selectable T with T+1 inside the simultaneous window. On the bulk clip F at L=o(sqrt T), keep F0, and restore mean on the bulk. Then take tau down last.",
+      "remaining": "Construct a genuinely prime-uniform sequence of approximate rows with both low terminal activation and small positive signed residual. Try real clipped and approximate sector constructions separately."
+    },
+    "r145/ordinary-terminal-approx-sector": {
+      "question": "Can prime-specific Fourier smoothing construct nonnegative near-root rows with small full forbidden-sector norm and small actual activation?",
+      "scope": "Work at fixed tau in the same real growing marked window. Keep mean one, positivity, q=q_s+o(sqrt n), weighted terminal cost o(T) and forbidden RMS o(T^(-1/2)) on each sign. Use a strategy distinct from clipping an exact optimizer and control the near-root loss. Take the floor down last.",
+      "remaining": "Construct a genuinely prime-uniform sequence of approximate rows with both low terminal activation and small positive signed residual. Try real clipped and approximate sector constructions separately."
+    },
+    "r145/cold-full-selected-unshifted-price": {
+      "question": "Does the complete Jacobi-series mixed action linear in the actual Legendre center have a small P5000 price on the unshifted canonical C1 source?",
+      "scope": "Use both orders, actual unshifted C1 input, original closed cold square and actual t0=n. Include the nine residual families through beta^2, all later orders, finite mark and lift corrections. Judge the bound against the canonical source budget pi(1)=1; do not substitute an operator norm.",
+      "remaining": "Join total signed coefficients, residual charges and analytic tail to price the full selected unshifted C1 action. A general packet operator, actual nonlinear half step, and common marked domain remain open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-terminal-signed-clipping": [],
+    "ordinary-terminal-approx-sector": [],
+    "cold-full-selected-unshifted-price": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The precise real clipping question asks for a signed bound on a deleted tail of a true optimizer at a fixed reconstruction. The second real question instead seeks an unclipped approximate nonnegative near-root construction at a full forbidden-sector RMS scale; neither obligation is identified with the other's signal bound. The cold selected two-step price has independent hypotheses and objectives."
+}

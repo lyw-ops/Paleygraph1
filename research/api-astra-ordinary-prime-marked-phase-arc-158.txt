@@ -1,0 +1,244 @@
+## Result: the available ordinary-prime incidence input does not yet give an \(O(p)\) bound
+
+I kept the actual family and marking as follows. Let \(p\to\infty\) through the stipulated ordinary primes \(p\equiv1\pmod 4\), let
+\[
+Q=(\mathbb F_p^\times)^2,\qquad n=|Q|=\frac{p-1}{2},
+\]
+and let \(b\) be the actual retargeted short-block iterate, with \(b_0=0\), \(r=\mathbb E b\), and
+\[
+\nu_a=\frac{b_a}{nr},\qquad \sum_a\nu_a=1.
+\]
+All norms below are counting \(\ell^2\)-norms on \(Q\) or \(\mathbb F_p\), while the norms on the index vector \(b\) are the normalized norms from the repair argument.
+
+Write
+\[
+f(x)=\sum_{a\in\widehat Q}\nu_a\,a(x)\quad (x\in Q),
+\]
+extended by zero off \(Q\). Let \(\rho=-\sigma\), choose \(v\in\mathbb F_p^\times\) with \(\chi(v)=\rho\), and use the actual physical affine reflection
+\[
+x\longmapsto 1-vx.
+\]
+Put
+\[
+F_0(x)=f(1-vx),
+\qquad
+g_a(x)=F_0(x)\,\overline{a(1-vx)}
+\]
+on the physical contributing set \(x\in Q\), with zero elsewhere. Thus
+\[
+C_a(u)=\sum_{x\in Q}g_a(ux)\overline{g_a(x)},\qquad
+M_a=\sum_{u\in Q\setminus\{1\}}|C_a(u)|^2.
+\]
+
+The two target quantities are
+\[
+W_{\rm arc}=\sum_{\rho k(a)\ge1/2}\nu_aM_a
+\]
+and
+\[
+S_\rho^{\rm add}
+ =\frac12\sum_a\nu_a(1+\rho k(a))M_a+O(p).
+\]
+
+Along the hypothetical critical branch in the actual short block, the supplied argument gives
+\[
+W_{\rm arc},\,S_\rho^{\rm add}
+ \gg \frac{pE^{-1/2}}{\log(2/E)},
+\qquad
+E=e+p^{-1/2}\to0.
+\]
+The question is whether ordinary-prime structure gives an \(O(p)\) upper on the same actual quantities.
+
+### 1. Exact physical incidence identity
+
+For the arc, define
+\[
+f_{\rm arc}(t)=\sum_{\rho k(a)\ge1/2}\nu_a\,a(t).
+\]
+Since
+\[
+\sum_{\rho k(a)\ge1/2}\nu_a\,\overline{a(r_u(x))}a(r_u(y))
+ =f_{\rm arc}\!\left(\frac{r_u(y)}{r_u(x)}\right),
+\]
+where
+\[
+r_u(x)=\frac{1-vux}{1-vx},
+\]
+we obtain the exact identity
+\[
+\begin{aligned}
+W_{\rm arc}
+={}&\sum_{\substack{u\in Q\setminus\{1\}\\x,y\in Q}}
+F_0(ux)\overline{F_0(x)}
+\overline{F_0(uy)}F_0(y)\,
+f_{\rm arc}\!\left(\frac{r_u(y)}{r_u(x)}\right).
+\end{aligned}
+\]
+The diagonal \(x=y\) is
+\[
+\nu(I_{\rm arc})
+\left(
+N^2-\sum_{x\in Q}|F_0(x)|^4
+\right),
+\qquad N=\sum_x|F_0(x)|^2.
+\]
+Thus any upper must control the genuinely off-diagonal, physically reflected ratio incidence with the actual weight \(f_{\rm arc}\). Replacing the actual \(f_{\rm arc}\) by an unsigned support count loses the prime-marking information.
+
+### 2. What the current prime incidence theorem actually proves
+
+Let \(X\subset Q\), and let \(h\) be supported on \(X\), \(|h|\le1\). Define
+\[
+A_X(u)=|X\cap uX|.
+\]
+Then
+\[
+\sum_{u\ne1}
+\left|\sum_x h(ux)\overline{h(x)}\right|^2
+\le
+\sum_{u\ne1}A_X(u)^2.
+\]
+
+For the shifted-coset sets appearing after the physical reflection, the ordinary-prime incidence estimate gives
+\[
+\#\{u\ne1:A_X(u)\ge t\}\ll_h \frac p{t^2}
+\]
+when the original frequency set is a union of \(h=O(1)\) multiplicative cosets of subgroups of size comparable with \(\sqrt p\).
+
+Summing the tail gives only
+\[
+\begin{aligned}
+\sum_{u\ne1}A_X(u)^2
+&\le \sum_{t\le |X|}(2t-1)\#\{u:A_X(u)\ge t\}\\
+&\ll_h p\sum_{t\le |X|}\frac1t\\
+&\ll_h p\log(2p).
+\end{aligned}
+\]
+Therefore the presently available prime incidence input yields, even in this favorable compact-support model,
+\[
+M_a\ll_h p\log(2p),
+\]
+not \(O_h(p)\).
+
+The logarithm is not a bookkeeping artifact in this deduction: the exponent \(t^{-2}\) is exactly the borderline tail for the second moment. To obtain \(O(p)\) from this route one needs either
+
+\[
+\#\{u:A_X(u)\ge t\}\ll_h \frac{p}{t^{2+\epsilon}}
+\]
+for some \(\epsilon>0\), or a direct weighted estimate
+\[
+\sum_{u\ne1}A_X(u)^2\ll_h p.
+\]
+
+The actual \(F_0\) is not compactly supported in general. The pin only supplies a constant wrong-sector component of size \(O(p^{-1/2})\) plus an \(L^2\)-small residual; it does not supply the pointwise \(O(p^{-1/2})\) residual needed to apply the preceding estimate directly. Thus even the \(O(p\log p)\) conclusion is conditional on a pointwise or level-set truncation of the actual physical row.
+
+A useful checked conditional variant is the following. If
+\[
+F_0=h+r,\qquad \operatorname{supp}(h)\subset X,\quad |h|\le1,
+\quad\|r\|_\infty\ll p^{-1/2},
+\]
+then every correlation changes by \(O(1)\):
+\[
+\left|\langle F_0(u\cdot),F_0\rangle
+-\langle h(u\cdot),h\rangle\right|\ll1.
+\]
+Consequently
+\[
+\sum_{u\ne1}|\langle F_0(u\cdot),F_0\rangle|^2
+\ll \sum_{u\ne1}A_X(u)^2+p
+\ll_h p\log(2p).
+\]
+The actual pin does not currently justify this hypothesis uniformly on the arc or on the matched additive class.
+
+### 3. Why a generic prime inverse theorem is insufficient at the present threshold
+
+There is a prime-field obstruction to the proposed inverse route. Since \(Q\) is cyclic of order \(n\), choose a generator \(z\) and let
+\[
+X=\{1,z,z^2,\dots,z^{m-1}\},
+\qquad m\asymp\sqrt p,\quad 2m<n.
+\]
+For \(u=z^d\), with \(|d|<m\),
+\[
+|X\cap uX|=m-|d|.
+\]
+Hence
+\[
+\begin{aligned}
+\sum_{u\ne1}|X\cap uX|^2
+&=2\sum_{j=1}^{m-1}j^2\\
+&=\frac{(m-1)m(2m-1)}3\\
+&\asymp m^3
+\asymp p^{3/2}.
+\end{aligned}
+\]
+This construction exists over every such prime field and uses no proper subfield. It is a multiplicative progression, not a subfield-like cluster.
+
+Thus an inverse theorem of the form
+
+> \(M_a\gg pL\), \(L\to\infty\), forces concentration on \(O(1)\) multiplicative cosets of size \(\asymp\sqrt p\)
+
+cannot follow from multiplicative energy alone. The progression above has \(M\asymp p^{3/2}\) while having no bounded-coset description.
+
+The actual physical row is more constrained: its support or high-level set must simultaneously interact with
+\[
+x\in Q,\qquad 1-vx\in Q,
+\]
+and the coefficients arise from the positive measure \(\nu\) with \(f(1)=1\), \(b_0=0\), and the actual phase constraint. I have not produced a physical \(b\) realizing the progression example. It is therefore not a counterexample to the actual theorem. It does prove a precise limitation: an ordinary-prime multiplicative-energy inverse theorem, without using the affine reflection and the positive-definite marking, is too weak.
+
+### Conclusion
+
+No \(O(p)\) upper has been proved for the actual
+\[
+\sum_{\rho k(a)\ge1/2}\nu_aM_a
+\]
+or for
+\[
+S_\rho^{\rm add}
+=\frac12\sum_a\nu_a(1+\rho k(a))M_a+O(p).
+\]
+
+The current prime-only information gives:
+
+1. a physical incidence identity with the exact actual weight \(f_{\rm arc}\);
+2. an \(O(p\log p)\) bound for a compactly supported shifted-coset model, assuming a pointwise-small residual;
+3. no inverse theorem at the relevant \(M_a/p\to\infty\) threshold, because multiplicative progressions over prime fields already have energy \(\asymp p^{3/2}\).
+
+Hence the ordinary-prime order is essential for the available shifted-incidence estimate, but it has not yet been coupled strongly enough to the actual marking, the affine reflection, and the phase arc to produce the required \(O(p)\) bound.
+
+## Ranked next tests
+
+### 1. Highest priority: affine two-sided inverse theorem for the actual row
+
+Prove or disprove the following targeted statement.
+
+Let \(b\) be the actual retargeted iterate, with \(b_0=0\), \(m_{\rm eff}/m_0\to1\), and \(\|L_\sigma b\|_{2,n}/r\to0\). If an anchor in the positive arc satisfies
+\[
+d_a=o(1),\qquad M_a\ge pL_p,\qquad L_p\to\infty,
+\]
+then the high-level set of the actual physical row \(F_0(x)=f(1-vx)\) contains a subset \(X\) with:
+
+- \(|X|\asymp\sqrt p\);
+- small multiplicative doubling or bounded-rank multiplicative progression structure;
+- simultaneous constraints \(X\subset Q\) and \(1-vX\subset Q\);
+- quantitative mass inherited from the actual positive-definite \(f\).
+
+The output must be strong enough to exclude both multiplicative cosets and multiplicative progressions, not merely proper-subfield concentration. The progression calculation above shows why the last clause is necessary.
+
+### 2. Second priority: remove the borderline logarithm by a weighted affine incidence estimate
+
+For the actual high-level truncations \(X_\lambda\) of \(F_0\), test whether one can prove uniformly along the ordinary prime family
+\[
+\sum_{u\ne1}
+\left(\sum_{x\in X_\lambda\cap uX_\lambda}
+w_x(u)\right)^2
+\ll p
+\]
+with the actual row weights \(w_x(u)\), rather than the unsigned estimate
+\[
+\#\{u:A_X(u)\ge t\}\ll p/t^2.
+\]
+
+A sufficient result would be either a \(t^{-2-\epsilon}\) tail for the physically constrained sets
+\[
+X_\lambda\subset Q\cap v^{-1}(1-B_\lambda),
+\]
+or direct cancellation from the \(f_{\rm arc}(r_u(y)/r_u(x))\) factor. This is the most direct route to an \(O(p)\) upper on the same arc and would apply simultaneously to the matched additive sign through the exact identity above.

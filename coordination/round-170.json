@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "round": 170,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 170 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-169-acceptance.json",
+      "sha256": "a9108919cdb63360c5181f87f1264297b284383a77deb14c4c69a1bc4c3088bd"
+    },
+    "current": {
+      "path": "research/round-170-acceptance.json",
+      "sha256": "e5d0ea4c96a99217942a0fb12f1c9d9c19a933692f8860a727c6db20ff108990"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The one-match collision had independent same-ratio cost and fully coupled different-ratio terms. Actual centered source weights lacked low-spectrum control.",
+      "after": "Paid cross-copy argument sharing and the within-copy physical repetitions. Paid degenerate Jacobi classes in a separate exact character expansion. A capped autocorrelation countermodel rules out a general row-norm shortcut. No new centered inverse bound.",
+      "remaining": "Estimate the regular signed Jacobi sum or all-distinct physical terms with actual weights and separately zero match, or obtain an actual fixed-gap centered inverse bound.",
+      "evidence": [
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        },
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-quotient-scaled-cone-control-169.md",
+          "sha256": "d5de64e9d4eb2042004630ed30320d4c8af9b84dc7576888fe500a07cbe33d8e"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        },
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "Pure seed reassembly bounds the full Taylor source before any inverse by 0.00009657.",
+      "after": "The actual terms with one nonseed factor share the first seed harmonics. Reassembly gives full source price below 0.00008874 and first outer price below 0.00009460.",
+      "remaining": "Prove signed summable transport on the actual source subspace or a moving nonlinear starter with confinement on the same square.",
+      "evidence": [
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The ordinary actual different-ratio estimate has fewer physical degeneracies and an exact weighted regular Jacobi description. The new cold signed packet improved the full fixed-source price. Neither closes the original target.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-regular-dilation-jacobi",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the regular signed distinct-ratio Jacobi terms or all-distinct physical tuples meet the true weighted O(p^5/2) scale?",
+      "why_now": "Physical argument sharing and all degenerate Jacobi terms have separate target-scale cuts, and the general overlap-norm shortcut has a countermodel.",
+      "scope": "Keep true g and w, both exact masked row Fourier coefficients and affine labels c,c-prime; or work on the actual all-distinct product-and-sum geometry. Do not reimpose false norm or generic cap sufficient bounds. Keep zero-match separate.",
+      "if_yes": "Prove the genuine weighted O(p^5/2) estimate and hence the normalized one-match bound.",
+      "if_no": "Give a precise arithmetic obstruction to a named regular cancellation or physically scoped proof attempt.",
+      "if_inconclusive": "Give a quantified gain for a new nondegenerate subclass or a smaller residual estimate with true weights.",
+      "inputs": [
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-inverse-spectral-tail",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the actual inverse-weighted low spectral tail be bounded for the true marked positive support or actual quotient?",
+      "why_now": "The high-spectrum scale is established and the recent attempted low bound used the threshold in the wrong direction. The actual nonnegative dual and positive interpolant give separate arithmetic structure.",
+      "scope": "Use n=(p-1)/2, original mark q and true actual projection. For source spectral measure use an integrable dyadic bound with inverse weights, or a genuine one-sided geometric bound. Distinguish B-first total from A-first residual, and keep an admissible T.",
+      "if_yes": "Prove a prime-uniform o(T) for a named inverse cost, or close fixed gap.",
+      "if_no": "Prove a scoped obstruction to a precise actual inverse-tail inference.",
+      "if_inconclusive": "Give an actual Jacobi source gain in a quantified low-eigenvalue interval or a rigorous one-sided conditional estimate with tighter hypotheses.",
+      "inputs": [
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-quotient-scaled-cone-control-169.md",
+          "sha256": "d5de64e9d4eb2042004630ed30320d4c8af9b84dc7576888fe500a07cbe33d8e"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        },
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-shared-linear-mixed-transport",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the actual shared first-harmonic mixed packet be transported with a uniform growing-depth signed price?",
+      "why_now": "The scalar reduction isolates one exact distributed packet across all even Taylor orders. A direct restricted estimate would be independent of the old geometric upper worse than one.",
+      "scope": "Keep actual R^2 S integral of W_s, both lifts, original square and t0=n. Seek a sufficient signed summable response or a new transported recurrence with decay. Carry other words and marks separately, including their correct growing-depth errors.",
+      "if_yes": "Obtain actual uniform summed price on this packet and identify what remains for the full source, or prove a sufficient complete nonlinear bridge.",
+      "if_no": "Prove a precise obstruction to a proposed shared mixed harmonic transport scheme.",
+      "if_inconclusive": "Give a new independent growing-depth gain on a named component with exact scope and explicit remaining tail.",
+      "inputs": [
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 171 deductions survive independent review?",
+      "why_now": "The coupled regular weighted collision, actual inverse tails and mixed source have different arithmetic and transport hypotheses.",
+      "scope": "Read-only. Check marks, masks, exact normalization, limits and scope. Rank two next steps.",
+      "if_yes": "State the supported deduction and remaining estimates.",
+      "if_no": "Locate invalid steps.",
+      "if_inconclusive": "Separate proof, conditions and finite diagnostics.",
+      "inputs": [
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-quotient-scaled-cone-control-169.md",
+          "sha256": "d5de64e9d4eb2042004630ed30320d4c8af9b84dc7576888fe500a07cbe33d8e"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        },
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

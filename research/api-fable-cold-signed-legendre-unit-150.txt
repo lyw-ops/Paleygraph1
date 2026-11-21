@@ -1,0 +1,8 @@
+{
+  "mission": "cold-signed-legendre-unit",
+  "coordinator_record": "coordination/round-149.json",
+  "record_sha256": "f10c577e24246fda369d29f6751a236cca1ab32456be7546a37c5afaa462726b",
+  "verdict": "REFUTED AS A ROUTE TO THE REQUIRED BOUND; THE UNIT COEFFICIENT IS COLLECTIBLE BUT THE PROPOSED MULTIPLICITY IS WRONG",
+  "checked_result": {
+    "claim_1_collection": "TRUE. Isolating one actual occurrence of H_h = C_oth + Y_h before expanding in S and alpha*Y is legitimate and commutes with the Round 136 signed seed-Laurent selection. At a good full Mellin character, for a word with one H_h factor, 2r factors of alpha*Y and 2*ell+1-2r factors of u_t*C_1, the signed scalar is c_{ell,r} = (-1)^ell * b_ell * binom(2*ell+1, 2r) * u_t^(2*ell+1-2r) * v_t^(2r) with b_ell = 4^(-ell)*binom(2*ell,ell), u_t = s_n/(2*sqrt(t)), v_t = alpha/(2*sqrt(t)). This scalar is identical for every ordered placement of the H_h factor, exactly as in Round 136, so the signed seed collection can be taken before any modulus.",
+    "claim_2_multipicity": "FALSE AS STATED. The proposed 2^(-2r) * sum_{j=0}^{r} binom(2r,2j) * Cat_j * Cat_{r-j} has the closed

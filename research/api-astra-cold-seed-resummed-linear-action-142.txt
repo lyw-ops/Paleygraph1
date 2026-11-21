@@ -1,0 +1,141 @@
+## Result: formal higher-order block, but no verified pooling identity
+
+I used the actual seed
+\[
+S=s_nC_1,\qquad s_n=2\sqrt{p/n},
+\]
+the actual \(Y\)-coefficient \(\alpha\), the original marked floor \(t_0=n\), and the unshifted \(C_1\) input. The physical operator is always the full \(K\), including its inverse line; no inverse-line term is discarded.
+
+For
+\[
+d_t(z)=\frac{z}{2\sqrt t}\left(1+\frac{z^2}{4t}\right)^{-1/2},
+\]
+the relevant expansions are
+\[
+d_t(S)
+ =\frac{S}{2\sqrt t}
+ -\frac{S^3}{16t^{3/2}}
+ +O(S^5t^{-5/2}),
+\]
+and
+\[
+d_t'(S)Y
+ =\frac{Y}{2\sqrt t}
+ -\frac{3S^2Y}{16t^{3/2}}
+ +O(S^4Yt^{-5/2}).
+\]
+
+Define, with the actual coordinatewise \(t_i\),
+\[
+T_1=K\,\operatorname{diag}\!\left(\frac{S_i}{2\sqrt{t_i}}\right),
+\qquad
+U_1=K\,\operatorname{diag}\!\left(\frac{\alpha Y_i}{2\sqrt{t_i}}\right),
+\]
+\[
+T_3=-K\,\operatorname{diag}\!\left(\frac{S_i^3}{16t_i^{3/2}}\right),
+\qquad
+U_3=-K\,\operatorname{diag}\!\left(\frac{3S_i^2\alpha Y_i}{16t_i^{3/2}}\right).
+\]
+
+The previously treated mixed block is
+\[
+(T_1U_1+U_1T_1)C_1.
+\]
+
+The first higher-order transported block having the same one-\(Y\) content is therefore exactly
+\[
+\boxed{
+\mathcal H_4 C_1
+=
+(T_3U_1+U_1T_3+T_1U_3+U_3T_1)C_1 .
+}
+\tag{2}
+\]
+
+The signs and relative coefficients are fixed: the two cubic-seed placements have coefficient \(-1\), while the two quadratic-seed corrections to \(d_t'(S)Y\) have coefficient \(-3\), before the common powers of \(2\sqrt t\) are inserted.
+
+For a common bulk denominator \(t\), equation (2) becomes
+\[
+\begin{aligned}
+\mathcal H_4C_1
+={}&-\frac{\alpha s_n^3}{64t^2}
+ K\!\left[C_1^3\,K(C_1Y)\right]
+-\frac{\alpha s_n^3}{64t^2}
+ K\!\left[Y\,K(C_1^4)\right]\\
+&-\frac{3\alpha s_n^3}{64t^2}
+ K\!\left[C_1\,K(C_1^2Y)\right]
+-\frac{3\alpha s_n^3}{64t^2}
+ K\!\left[C_1^2Y\,K(C_1^2)\right],
+\end{aligned}
+\tag{3}
+\]
+up to the usual \(O_{P_{5000}}(n^{-1/2})\) marked-denominator corrections. Formula (3) retains all four whole-\(K\) orderings.
+
+Using the known first feedback rows,
+\[
+K(C_1Y)=W+\frac{C_1}{p},
+\qquad
+K(C_1^2)=\frac Y2-\frac{C_1}{\sqrt p},
+\]
+the leading pieces of (3) reduce to the four new word types
+\[
+K(C_1^3W),\qquad
+K(YK(C_1^4)),\qquad
+K(C_1K(C_1^2Y)),\qquad
+K(C_1^2Y^2).
+\tag{4}
+\]
+
+The \(p^{-1}\) and \(p^{-1/2}\) pieces from the displayed feedback rows are lower-order physical corrections after the final \(K\), with the same \(O_{P_{5000}}(n^{-1/2})\) status as in the accepted mixed-column calculation.
+
+## What can and cannot be identified
+
+The Jacobi part alone gives
+\[
+C_1^3=\frac{C_3+3C_1}{4},
+\qquad
+C_1^4=\frac{C_4+4C_2+6}{8}.
+\]
+Thus the pure cubic-seed term necessarily contains a direct \(C_1\) component and a new \(C_3\) component, while the fourth-power term contains \(C_4,C_2\), and the constant line.
+
+However, the available accepted feedback identities do **not** determine
+\[
+K(C_1^2Y),\qquad K(C_1^3W),\qquad K(YK(C_1^4)),
+\]
+or their subsequent \(K\)-transports. In particular, the known identities for \(K(C_1Y)\) and \(K(C_1^2)\) do not imply an identity for \(K(C_1^2Y)\). Consequently, there is presently no checked arithmetic-object equality showing that any of the four terms in (4) is identical to another term with an opposite signed coefficient.
+
+The independent-group results cited for \(F_4,D,D^\vee,R\) rule out pooling with those already identified rank-four and mixed-Legendre labels. They do not classify the new \(C_3\), \(C_4\), \(C_1^2Y\), or \(C_1^3W\) sectors. Therefore the proposed all-order collection on the unshifted \(C_1\) column is **inconclusive**, not supported or refuted.
+
+## Physical estimate status
+
+A signed \(P_{5000}\) estimate for (2) is also not established. The positive pure-seed comparison from the resummed calculation cannot be reused as a signed estimate: it takes absolute values after separating nonseed words, and its \(0.570\) witness obstruction remains applicable. The present block requires either:
+
+1. exact identification and cancellation among the four terms in (4), or  
+2. a new signed transport bound for their distinct arithmetic types.
+
+The marked-floor restoration is not the obstruction. Once the bulk calculation is available, the difference between \(t_0=n\) and the bulk denominator contributes only
+\[
+O_{P_{5000}}(n^{-1/2})
+\]
+relative to the selected block, uniformly on the fixed original closed square, with the physical zero coordinate and both boundary pairs retained.
+
+The limits must be taken in this order:
+
+1. fix the actual prime/prime-square family and the original closed square with \(t_0=n\);
+2. perform the finite signed character calculation at each eligible prime;
+3. obtain a uniform \(P_{5000}\) estimate for sufficiently large eligible primes;
+4. only then pass to the asymptotic \(n\to\infty\), absorbing the marked and exceptional-lift terms as \(O(n^{-1/2})\).
+
+No full square contraction, half-step confinement, or growing-depth estimate follows from (2).
+
+## Ranked next tests
+
+1. **Exact finite character test for the four new words.**  
+   For small eligible prime powers, compute the full \(K\)-images of
+   \[
+   C_1^3W,\quad YK(C_1^4),\quad C_1K(C_1^2Y),\quad C_1^2Y^2
+   \]
+   with the original physical marking. Check equality of their complete Mellin labels, including inverse-line and exceptional-frequency components, not merely numerical trace values. This is the fastest decisive test for genuine pooling.
+
+2. **Derive the next feedback rows and price them signed.**  
+   Prove exact formulas for \(K(C_1^2Y)\) and \(K(C_1^4)\), then transport them through the remaining \(K\) while retaining the \(t_0=n\) marking. A successful result must give either an explicit opposite-sign identity in (4) or a uniform \(P_{5000}\) bound for \(\mathcal H_4\) that is separate from the positive analytic tail.

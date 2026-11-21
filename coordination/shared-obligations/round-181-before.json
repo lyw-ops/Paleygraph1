@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T07:39:52.460778Z",
+  "prepared_by": "Claude Opus 5.5 coordinator (agent assessment)",
+  "coordinator": "coordination/round-180.json#next_calls",
+  "coordinator_sha256": "7037e26f9bd685e695f4b90801d59b0e2027d8e93c2bd9db0f846d6ce65accf5",
+  "call_ids": [
+    "ordinary-prime-one-match-slope-fibres",
+    "ordinary-prime-direct-first-mass",
+    "cold-prime-delocalization-price"
+  ],
+  "routes": {
+    "r181/ordinary-prime-one-match-slope-fibres": {
+      "question": "Can the one-match covariance be bounded at O(p^(3/2)) (or any power below O(p^(115/64))) directly by slope fibres h=(a,c), using the new fixed-slope first masses sum_c Delta(a,c)=C(a)=O(p^(11/8)) for a≠1 and the translation overlaps of the level sets, without passing through the energy E(mu) and Rudnev–Shkredov?",
+      "scope": "Use the actual mu(r,b)=g(Y)g(D) with the square mask and interior exclusions of Round 171, the twisted physical chart of Rounds 169 and 173 and its one-match normalization, the actual w and the D amplitudes, counting norms. Write Delta(h)=sum_j mu(j)mu(jh) and m_U(h)=|U∩hU| for level sets U of the actual h_t. Treat a=1 (translations) separately. State any external incidence or sum-product input exactly with its hypotheses. Report exponents exactly and say which weights are majorized by one.",
+      "remaining": "The sufficient whole diagonal O(p^(3/2)) through the generic J sum (still O(p^(9/4)), positive classes, no J cancellation), or a direct first mass M_w=O(p^(1+1/1280)) for J in {0,1}. The one-match covariance needs O(p^(3/2)) by a route avoiding E(mu), which stops at p^(13/8) when M_1 is comparable to p. The zero-match estimate is unchanged."
+    },
+    "r181/ordinary-prime-direct-first-mass": {
+      "question": "Is the weighted first mass M_w=sum_s w(s)P_s of the actual positive diagonal O(p^(1+1/1280)), proved directly rather than by Cauchy–Schwarz from the second moment?",
+      "scope": "Actual g, w=g(1-g), G, physical masks and nonzero interior of Round 178, the cross-ratio chart of Round 180 (A,C,Y,D as cross-ratios of X,pi,rho), counting norms. Keep w(s) and as many of the four amplitudes as possible; state which are majorized by one. Note M_w is a sum over lines e and outputs s of w(s)g(A)g(C)g(Y)g(D): exploit that Y and D do not depend on s and A,C are Möbius images of X with the same line. Distinguish proved bounds from heuristics.",
+      "remaining": "The sufficient whole diagonal O(p^(3/2)) through the generic J sum (still O(p^(9/4)), positive classes, no J cancellation), or a direct first mass M_w=O(p^(1+1/1280)) for J in {0,1}. The one-match covariance needs O(p^(3/2)) by a route avoiding E(mu), which stops at p^(13/8) when M_1 is comparable to p. The zero-match estimate is unchanged."
+    },
+    "r181/cold-prime-delocalization-price": {
+      "question": "Is there an n-independent delocalization bound for the actual increments R_{602+k} along the confined prefix — for example a signed, cross-vertex collected sup-dominating price of the secant operator on the 3/8 polydisk about V_602 with rate below 0.966, or a fixed-height compact coset supremum with sup transfer — or a coordinate that defeats Criterion D?",
+      "scope": "Genuine nine-center start, both lifts, physical t0=n, original closed square, actual K Phi_t, coordinate sup norm. Inherited fixed-height compact transfer may not be used at heights growing with n without proof. Distinguish (a) proofs for all large eligible primes, (b) conditional criteria, (c) numerics (state start row, primes, precision). Prefer exact or outward-rounded arithmetic for any constant used in a proof.",
+      "remaining": "Prove n-independent delocalization along the confined prefix, e.g. a signed collected secant price with rate below 0.966 on the 3/8 polydisk or a compact coset supremum with sup transfer; or locate a coordinate that defeats it. Uniform complex stationary domain and derivative transfer remain separate."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-one-match-slope-fibres": [],
+    "ordinary-prime-direct-first-mass": [],
+    "cold-prime-delocalization-price": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The slope-fibre call targets the one-match covariance (Round 178/180 normalization, target O(p^(3/2))). The first-mass call targets M_w=sum_s w(s)P_s for the whole positive diagonal, which closes only the J in {0,1} classes. Both lie in the ordinary positive-completion route but concern different sums: the one-match covariance is a correlation of the twisted physical interior H_alpha across outputs, while M_w is a first moment of the positive diagonal; neither bound implies the other at the stated scales. The cold call concerns coordinate delocalization of the marked Picard prefix and shares no estimate with the ordinary calls. No earlier call is active."
+}

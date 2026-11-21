@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "round": 120,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 120 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-119-acceptance.json",
+      "sha256": "ac8cd476c1defe1042339f9c6fed908b59718975d3cef786f20cc6a285867a91"
+    },
+    "current": {
+      "path": "research/round-120-acceptance.json",
+      "sha256": "e2993e8da474b342f30f33936f8bc435023a073624fb1cd8fa30dfcbb9500c04"
+    }
+  },
+  "changes": [
+    {
+      "id": "masked-real",
+      "route": "Actual full-input output-masked reciprocal cubic",
+      "effect": "reformulated",
+      "before": "The reflected paired source had a positive full cubic conditional on small transported output mark.",
+      "after": "The actual output-masked cubic has a positive n^(-1) lower without that condition. A full late slab obeys the same lower and an exact full-cubic marked drift relation. Exact favored projection leaves only conditional translated arithmetic.",
+      "remaining": "Get a genuinely prime-specific upper for the masked full-input signed cubic or exclude the actual critical-rate reflected obstruction in another way.",
+      "evidence": [
+        {
+          "path": "research/reflected-offmark-cubic-120.md",
+          "sha256": "54fff3721239a49bda1da861ca1efa4aaac8cf2a204f95401f672eeca714a62b"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        },
+        {
+          "path": "research/reflected-slack-repair-119.md",
+          "sha256": "6e6f566b87d31c4ea76ba223fab3f65a359c83eee78de0c9c0210a068a9fed25"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Direct true weighted overshoot",
+      "effect": "unchanged",
+      "before": "The weighted actual adjusted overshoot suffices without a cap rate.",
+      "after": "The new signed lower remains conditional on the critical rate.",
+      "remaining": "Prove the genuine rate-free weighted upper or an independent actual cap-rate estimate.",
+      "evidence": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Common actual marked cold domain",
+      "effect": "unchanged",
+      "before": "The three-cutoff odd word needs an actual moving starting row and a uniform finite-word cost.",
+      "after": "This round concerns the real critical-rate positivity route.",
+      "remaining": "Obtain the genuine same-predictor constants or direct scalar continuation.",
+      "evidence": [
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        },
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The output-masked identity removes the transported-mark prerequisite on the actual reflected branch and gives an exact favored-sector arithmetic input at subcritical error. Its true one-sided prime upper remains open.",
+  "next_calls": [
+    {
+      "id": "masked-reciprocal-trace",
+      "priority": 1,
+      "change_id": "masked-real",
+      "question": "Can prime arithmetic bound the actual full-input output-masked distinct cubic at o(n^(-1)) after the exact favored projection?",
+      "why_now": "The deterministic pair and full-slab lower require no condition on the transported output mark.",
+      "scope": "Use the two true factor laws with their exact difference distribution and conditional translate weights. Retain the opposite input singleton and the actual output deletion inside the averaging. Keep the original critical cap premise explicit.",
+      "if_yes": "Give a verified one-sided estimate and precise fixed-floor exclusion.",
+      "if_no": "Give a genuine counterexample or the exact scope of the failure.",
+      "if_inconclusive": "Identify a new signed arithmetic subestimate for the actual conditional weights.",
+      "inputs": [
+        {
+          "path": "research/reflected-offmark-cubic-120.md",
+          "sha256": "54fff3721239a49bda1da861ca1efa4aaac8cf2a204f95401f672eeca714a62b"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        },
+        {
+          "path": "research/reflected-slack-repair-119.md",
+          "sha256": "6e6f566b87d31c4ea76ba223fab3f65a359c83eee78de0c9c0210a068a9fed25"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real-rate-free",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the actual weighted adjusted overshoot or another genuine repair be controlled without cap rate?",
+      "why_now": "It remains a direct route to the original ordinary asymptotic.",
+      "scope": "Keep the true floor, both signs, actual slack and rate distinctions.",
+      "if_yes": "Give the uniform estimate and full limiting order.",
+      "if_no": "Explain the precise arithmetic failure.",
+      "if_inconclusive": "Give one new checkable actual bound.",
+      "inputs": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    },
+    {
+      "id": "cold-signed-cost",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the actual combined derivative be priced at one moving complex starter?",
+      "why_now": "The independent cold route remains a sufficient approach.",
+      "scope": "Keep the exact inputs and separate cutoffs and actual common sheets.",
+      "if_yes": "Give the verified prime-uniform starter and domain.",
+      "if_no": "Identify the exact resource that fails.",
+      "if_inconclusive": "Derive a genuine new signed packet bound.",
+      "inputs": [
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        },
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "masked-real",
+      "question": "Which new actual bounds withstand independent read-only review?",
+      "why_now": "The output mask and preserved input singleton require exact conventions.",
+      "scope": "Check hypotheses, signs, norms, prime limits and genuine initial and late rows.",
+      "if_yes": "Give exact verified scope and ranked closeout.",
+      "if_no": "Identify the earliest incorrect step.",
+      "if_inconclusive": "State the checked parts.",
+      "inputs": [
+        {
+          "path": "research/reflected-offmark-cubic-120.md",
+          "sha256": "54fff3721239a49bda1da861ca1efa4aaac8cf2a204f95401f672eeca714a62b"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        },
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "round": 141,
+  "accepted_at_utc": "2026-11-19T19:39:09Z",
+  "previous": "research/round-140-acceptance.json",
+  "previous_sha256": "60c0b7ff03413725d9b29888254f1628e9391d3b613389166a1bf77bb74040e0",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-140.json",
+    "sha256": "42d7debff588c26e1a1b7e6921e616f9099ea48188ae82b99df2cf82512033a9"
+  },
+  "proof_and_code_sha256": {
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/cold-mixed-line-vanishing-cycles-141.md": "e799e1cd9e7c33ce621b09fd339a4f8ed5ff2fda19e5520bd0c98a2d7b01779b",
+    "research/cold-mixed-seed-column-141.md": "0c09cd0b907b85540da510809612c64bc2953db2d0c0970120ce9242dcfff468",
+    "research/api-astra-review-141.md": "91591c8d2e086a406d2785cdac1ccdcbe911c0c89c0ed398a83a167590af0568",
+    "research/api-astra-141-receipt.json": "96faa93b4df60ab9ff00193d4c70a3a0eadc8c5d9b2b574e2e251644741be99d",
+    "research/api-astra-ordinary-signed-hinge-image-141.txt": "166522ea24d6e5ce396dc8af5e9499d9b24ed7d8bd333d9cee1244e973e7b8f8",
+    "research/api-astra-cold-first-mixed-inverse-collision-141.txt": "169b789ee65fd0bd9a6e3bd3b13937ede6fcd926135c25fc0a646e94629eea45",
+    "research/api-astra-cold-unseparated-pullback-action-141.txt": "fc6f718e337d7d221b86da2c3466ee5c888f89740da3eb59354107ab2bf30943",
+    "coordination/launchers/round-141.py": "2ad80621d1e4227e74e7259cb91da4ad4dd18067f30169c9533c8b59b45d96a4",
+    "coordination/round-141-inflight.json": "f37241bdec5964a0a4b693af896a3b39e0f5e07c53e2a0b94eb1ac755316e0da",
+    "coordination/shared-obligations/round-141-before.json": "c4619e0a0fb831d86039452fc8bfd6ab06990856ce62d6130c801fc27fc293b0",
+    "coordination/shared-obligations/round-141-after.json": "e6a325d8938818f81d5bc12dd72f1a4cef0160c277485ee1223a2bed3adf8714",
+    "coordination/missions/round-141/ordinary-signed-hinge-image.md": "5a91986cfc2e85777d146775c4ca1f23e49e53fb7ccce5e42aa4f28fa6799718",
+    "coordination/missions/round-141/cold-first-mixed-inverse-collision.md": "e385b6fe20eb07babacac9554b67eb18fa17853972065caf82b37e391579fb8c",
+    "coordination/missions/round-141/cold-unseparated-pullback-action.md": "f46a6e250c5b3beb2f022fb6d24cba86ed3ec5146667a980970ae414bffb8dd2"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/astra-completion-37.md": "7c0ec52d48c6eb801063ff9b8afadf1573cab2814d667fc5625680df02257269",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/parallel-kernel-11.md": "37574013314b483925b8e8452fea0ad94db140a7b66d426a7d31952b14973ce1",
+    "research/picard-transfer-37.md": "b2a9d09b16fe4e97ac43e09843c778bc407aef7e6b5f8c2e71c26e5af92e88a7",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/zero-floor-averaged-weighted-tail.md": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1",
+    "research/cold-leading-inverse-legendre-140.md": "3cf509bf6ceec89c528c3f05add5813b95fdbfdfce2cbd8c2727b24b13977517",
+    "research/cold-off-inverse-single-pullback-140.md": "9a7bd9ab599d6507f21cfb9f000da414cd3a36552acdd0a546fe57691a04ed68",
+    "research/cold-same-row-involution-139.md": "e0d2570bcaffd070c340cfcef899fe1df8e8b3cfa4fde45e7b6b6e053530c9f9",
+    "research/cold-position-kernel-139.md": "e32150283aa8f1aa51fc3b02e126d9b9cb4c0890c5c613b4dd75174ae1cd3cda",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/astra-rankthree-55.md": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48",
+    "research/astra-rankfour-57.md": "cc023b623511b254e20691b12067692783b0a95d26453c515ba8ca0e5c2e2c78",
+    "research/astra-rankeight-60.md": "33b777c67e958dbe80ca3aba5a25f79de75aa6a8f5faa1370495be6bddcb724a",
+    "research/astra-joint-64.md": "22573cbd9625893d6bacf6bf02da9a665876aab8a5783d2931c333e442339808",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three completed Astra returns and separate mathematical review of the actual weighted endpoint test and the selected exact cold mixed word.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "research_agents": [
+    {
+      "name": "Gateway Astra ordinary signed hinge image",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test true opposite optimizer hinge mass and endpoint energy",
+        "Probe true support saturation of the actual defect"
+      ]
+    },
+    {
+      "name": "Gateway Astra first mixed inverse collision",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Compute both marked mixed orders with both quadratic mates",
+        "Track actual local contribution in a physical word price"
+      ]
+    },
+    {
+      "name": "Gateway Astra unseparated weighted kernel",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Act on the full actual translated packet",
+        "Check the local collision in the mixed word before summing all terms"
+      ]
+    },
+    {
+      "name": "/root/audit_141",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate actual opposite weighted terminal growth in the real prime family",
+        "Compute the next actual translated input column with the full two-step transport"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Estimate sqrt(n) E_bulk(F g_T)/T=o(1) for genuine opposite optimum F and actual selectable terminal time in the established marked window. Its equivalent signed linear endpoint correlation may permit a prime-specific estimate. The weighted hinge is an independent sufficient fallback.",
+    "Apply the selected leading mixed action to a true translated Jacobi column with its own boundary pair. Compare exact arithmetic coincidences across the two orders before asking for the full uniform P5000 bound.",
+    "If attempting to split away the inverse line, account for the proven nontrivial local unipotent quotient of the first mixed core. Test an unseparated representation or precisely track the larger tame singular set."
+  ],
+  "proof_scope": [
+    "The actual positive pinned hinge satisfies E d^2=O_tau(T^-1). Pairing its exact reflection with a true opposite optimum gives the weighted hinge criterion; no further weighted small-ball bound on the positive raw average is needed.",
+    "For either genuine positive floor sign, the exact endpoint projection supplies the sufficient terminal estimate sqrt(n) E_bulk(F (Phi(v_T)-Phi(v_0)))/T=o(1). In the actual marker window containing T+1 it has residual O_{tau,B}(T^(-B-1)) and is equivalent to the stated signed linear endpoint estimate. The prime bound remains open.",
+    "For true square minus rows in the marked growing window at fixed tau<1, both weighted criteria have positive lower bounds: sqrt(2/(1+tau))-1 for the hinge and 2(sqrt(2)-sqrt(1+tau)) for the scaled terminal activation. These are not prime counterexamples.",
+    "For the selected actual marked degree-one seed/Legendre inverse line, the two mixed orders coincide. Each full-field square-selector branch of the nonconstant core has geometric Unip(2) vanishing cycles at x=-1, a quotient of the nearby H_c^1 after the special H_c^2 vanishes. The branch phases agree; constant frequency mark corrections introduce no new colliding sections.",
+    "On the actual Jacobi column C1, the selected leading mixed operator gives alpha s_n/(4t) times F4+(D+D^vee)/8+R/4 with translated physical O(n^-1/2) error. These three main group types are separated. The result is for one genuine input with the full kernel kept."
+  ],
+  "failed_paths_and_open_bounds": [
+    "A vanishing bound on the actual prime-weighted hinge or scaled terminal activation in the marked window has not been obtained. The square lower bounds disallow treating this as a field-general consequence of the deterministic moment bounds.",
+    "The raw cold mixed candidate substitutes a special seed value for a nearby cycle and incorrectly distinguishes the two exact physical mixed orders. The exact local quotient does not establish full-word packet lower bounds or cancellation among all analytic words.",
+    "The weighted pullback draft gives a position formula rather than the full translated packet action; its rational branch points are misidentified. General translated price, whole frozen block, nonlinear confinement and the ordinary theta limit are open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Direct exact rational/integer checks reproduced the physical spatial Y identity and 210 inverse-line mixed order entries over ten small primes. The tests identify no physical asymptotic price.",
+    "All three complete API archives match launch records and time-ordered before/after comparison; no exact shared group was established."
+  ],
+  "independent_review": [
+    "Independent read-only audit checked the terminal and hinge signs, both square constants, marked-window error sharpening, exact feedback in the selected C1 column, and the tame collision and specialization argument using the primary theorems."
+  ]
+}

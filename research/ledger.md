@@ -836,6 +836,757 @@ The short-prime second-moment estimate controls the total variation of the signe
 
 The [round-91 acceptance record](round-91-acceptance.json) consolidates the four routes and their next tests. Prioritize the true coordinate integral on the candidate cold ray, or bound the actual two sign prices in the common real bulk system below the cost of a cap switch. At the real endpoint test the capacity of the positive physical excess on the same shortfall translates, then compare the signed affine marginals on the data-selected third-coordinate domain. ETH Problem 26 remains open.
 
+## Round 92
+
+At a fixed complex floor the canonical total bulk correction is continuous and decreases as the symmetric phase cap widens. Its decrease is bounded below by a field-independent coefficient times the total product on active sites. The proof uses the real reflection at each genuine clipped pair and holds through nonuniqueness and changes of the active set. Its integrated extinction threshold applies to the unaveraged correction. A further signed real-column test holds at every positively corrected cap and retains the actual logarithmic sizes of the corrected products. At the small-real-part prime-173 floor, outward checks show decreasing correction and then exact extinction at three specified rational caps. [Cap monotonicity and extinction threshold](cap-sweep-92.md)
+
+First true cold contact forces a large signed column average on a genuine real marked interval with all bulk products in \([1-10^{-8},1]\). Both weighted Fourier projectors have a corresponding determinantal covariance lower on the same coordinates. With exactly unit bulk the integrated ordinary real column controls the fourth moment of the true complex phases and gives a necessary signed charge at the actual matching sites. The finite nominated-floor replay verifies these transfer inequalities before phase contact at prime \(173\). No through-primes upper on either column test has been proved. [Nearly flat and unit-bulk real transfers](astra-velocity-92.md)
+
+For almost unit sharp efficiency and a positive fraction of primary mass in the actual shortfall, a bounded convolution power either escapes to a near-maximal translate bearing fixed excess physical payment, or the shortfall concentrates on a critical subgroup coset and pays order-window-length height there. In the latter case even and odd powers approach uniforms on the subgroup and its self-inverse coset. The same optimizer nearly saturates both. This confines the possible divisors and the positions of the opposite mass through primes of arbitrary cyclic factorization. The lower-mass and intermediate-efficiency regimes and the physical upper bounds remain open. [Shortfall propagation and critical cosets](astra-height-92.md)
+
+The half-density signed price interval on the original short probes is determined exactly by the sum of the median deviations on the actual third cosets. A clipped Fourier test bounds that sum. For sufficiently long prime probes, orthogonality of the two independent dilations controls the Wasserstein error at the price scale and supplies simultaneous quantile intervals for all adaptive retention fractions. At \(p=409\) the finite half-density interval contains zero strictly, with exact fractional cancellation. The closest of the 210 specified ordinary selections retains a small nonzero price. The omitted sites may retain the original gap. [Half selections and full quantile law](astra-price-92.md)
+
+The [round-92 acceptance record](round-92-acceptance.json) preserves the independently checked records and ranked tests. Prioritize controlling the actual nearly flat real column on its marked interval, and test the subgroup branch by the restricted-sign quotient optimum, forbidden clique, and physical height on its few admissible cosets. The short-probe clipping residual and the omitted signed price are further tests on the real faces. ETH Problem 26 remains open.
+
+## Round 93
+
+Genuinely clipped complementary factors exist also for admissible phase intervals centered away from zero. Both signed total corrections are canonical. The anisotropic differential pairing gives an angular work inequality in the two moving phase bounds. Moving the center strictly reduces the signed imbalance while correction is positive. Opening the half width reduces the total with twice the previous general rate. Complementary pairing equates those two local derivatives on smooth pieces. The center sweep reaches zero or equal signed positive corrections if its admissible range exceeds the required counting imbalance threshold. At the small-real-part prime-173 comparison, interval certificates verify the equal derivatives and a cap shift which removes the correction. The known cold bounds still concern the average. [Rotated clipping, angular work and center sweep](rotated-cap-93.md)
+
+At a first true cold tie, deleting the two rows of a weighted Fourier projector gives a sharp upper in terms of signed exterior Gram entries. The tie forces a large oriented sum in each sector even after optimizing those two row multipliers. At sufficiently large fixed real floors there are genuine stationary profiles with exactly the prescribed extensive mark and bulk weights in any near-unit box whose column has order the box width through primes. At the nominated floor, an upper on the whole near-unit box would instead force two extraordinarily small opposite-sector interpolation errors at one genuine reference pair. The freely chosen profiles and the actual first-contact profile still need to be related. [Exterior minors and the near-unit box](astra-minors-93.md)
+
+In the almost-unit-efficiency trapped branch, the actual sharp cubic law approaches the uniform law on the physical mask intersection with the critical coset. Every primary optimizer nearly saturates that same intersection in relative density. Prime odd-cycle and two-layer Jacobi tests reduce its possible primary mass to at most \(0.462700+o(1)\), with sharper even-order thresholds and a factor of two when the self-inverse coset is distinct. The exact candidate score factors into the restricted theta fraction, mask occupancy, and this coset factor. Finite quotient tests verify \(\Theta\le\sqrt n\) for 778 signed proper-divisor instances in the stated range. The surviving positive mass regime still needs a physical occupancy or quotient upper. [Critical quotient and physical mask](astra-coset-93.md)
+
+The original polylogarithmic prime probes transport the two signed deletion extrema and the complementary price for bounded quotient index up to total budget \(o(\sqrt p\,\log\log p/\log\log\log p)\). A one-sided independent-product tail controls every adaptive deletion deterministically. Sparse Fourier packets give a separate directed criterion with explicit true prices for the deleted and retained sets. The primal optimal faces' tail behavior and the complete affine signed cancellation remain open. [Signed prices on deleted and retained sites](astra-deleted-93.md)
+
+The [round-93 acceptance record](round-93-acceptance.json) preserves the independently reviewed results and ranked tests. On the cold side test the actual center interval against the unaveraged signed imbalance. On an actual first tie it is enough to bound the oriented exterior minors in one sector. On the real side estimate the restricted theta times physical mask occupancy for the same critical coset, and then charge the true omitted affine sites using the short-probe quantiles. ETH Problem 26 remains open.
+
+## Round 94
+
+The canonical phase action is \(C^1\) with differential \(d\mathcal P=\Im(g_0\,ds)-E_+\,dU_*-E_-\,dL_*\). On smooth clipped strata its floor curvature is the signed actual response \(-c^*H^\dagger c\), with \(H\) the active block of the imaginary product Jacobian and \(c\) the mixed marked response. The one-sign curvature has a definite sign, with a quantitative sensitivity lower bound and a strict outward-enclosed example at \(p=173\) on a separate small-real-part ray. The centered complex marks are uniformly locally Lipschitz on a fixed cone about the positive reciprocal-floor axis. Distributional vanishing of the normalized curvature there would force the real marks to vanish from the inherited hot interval and prove ETH26. This prime-uniform vanishing remains open. [Marked potential and curvature](cap-curvature-94.md)
+
+On the nominated cold square the action differs by \(O(n(r')^2)\) from one harmonic reference computed from the actual height-600 prefix and its complementary completion, with the same reference for all caps in the prescribed rectangle. One-boundary work monotonicity bounds **each** average signed correction and the normalized squared saturated-column tail by \(O((r')^2)\). The common harmonic reference gives the same order for the normalized weak curvature on this square. The residual estimate gives a fixed positive field-first bound. At a genuinely balanced row, equal repair mass on the two signs cancels the two real mean scales in a signed reflection integral. A prime-173 certificate at a different floor finds positive balance while excluding every cap-free center at the tested width and under the marked cap condition. [Quadratic action and balanced-pair test](astra-center-94.md)
+
+At a putative first cold tie, an exact signed square for the two real endpoint pairs forces at least \(13/1013\) of the actual deficit mass onto sites with same-site and simultaneously oriented exterior caps averaging more than \(946.43/\sqrt n\). Each such site also exceeds \(947.03/\sqrt n\) for its interval-averaged oriented real column. The signed square gives a reconstruction bound for the actual clipped bulk profile from the log integral. The genuine small-floor first tie at prime 173 exhibits the wrong response sign on two of 85 bulk sites with deficit. The cold tie at the nominated floor and the arbitrary-profile upper there remain open. [Deficit quantile for signed exterior minors](astra-minors-94.md)
+
+The odd-order two-layer Jacobi and five-fold product tests give \(\Theta_\sigma(B)/|B|\le1/\sqrt5\) for both signs when \(|B|\ge1500\) and \(\sqrt p/|B|\le18/25\), covering the critical odd subgroup in the trapped branch. The obstruction survives the stated small symmetric deletion of generators. It gives many genuine pentagons, and near equality concentrates the nontrivial optimizer mass on bounded-order characters with order divisible by five. This yields a uniform strict gap when \(5\nmid |B|\), for sufficiently large eligible orders. Fixing a single genuine primary optimizer bounds the family of possible critical self-inverse cosets across all admitted windows by \(O_\zeta(1)\) at any positive target mass \(\zeta\). If the pin minimizing the actual restricted-theta times occupancy score is trapped, some candidate has a positive proportion of its sites with order-depth companion height on a positive fraction of the true good terminal times. A uniform upper on that recurrent proportion and the escaped case remain open. [Prime forbidden pentagon and recurrent physical mask](astra-quotient-94.md)
+
+The [round-94 acceptance record](round-94-acceptance.json) records proof scopes, finite replays and ranked tests. First seek an estimate tending to zero with the prime for the normalized angular action modulo a harmonic term on a connected domain reaching colder floors. Test marked curvature cancellation and the true real two-sector dipole on balanced survivors, and the actual deficit quantile at first contact. In parallel estimate recurrent exterior height on the bounded family of critical cosets, retaining the actual restricted theta when selecting a pin. ETH Problem 26 remains open.
+
+## Round 95
+
+Eight new signed rank-three collections give a genuine unforced rectangle \(16640237<2^{20}\Re t<16640262\), \(2^{20}|\Im t|<1\) for every eligible prime with \(n\ge10^{30}\). It overlaps the old common rectangle and advances the real lower edge by \(23/2^{20}\). The actual nine-center physical Picard residual is at most \(9.308(0.526)^h\) in normalized second norm at every height. The limiting stationary row is strictly inside the centered cap and its physical marked action is harmonic there. The distance from the new left edge to the nominated cold square's right edge is still \(2277/2^{20}\). Without the eight new collections the same coldest frozen cap fails its first packet. [Actual all-height rectangle and replay](astra-depth-95.md)
+
+The two signed diagonal blocks of the active product Hessian bound the actual marked curvature, independently of the off-diagonal coupling. Moving both endpoints to keep their signed correction sums fixed removes one constant direction from each inverse-energy charge. On the genuinely balanced \(p=173\) sample, the fixed-cap curvature is strictly positive; with one inversion orbit per sign, fixing both sums gives a local holomorphic marked section for moving caps. The real marked comparison also extends to arbitrary fixed positive bulk repairs at a cost controlled by their normalized square-root displacement. Common marked continuation for a family of repairs with vanishing such cost would suffice for ETH26. [Signed block bounds and positive repair comparison](cap-blocks-95.md)
+
+Two real endpoints determine a unique comparison profile from \(t\) and the chosen cutoff alone. The near-flat map contracts in counting second norm by a factor below \(0.000123\). A first cold tie forces more than \(1.256\%\) of its true deficit onto large oriented column integrals on this one profile. Even without the actual labels, \(m\) tied sites force the profile's reconstructed square-root product excess to exceed \(0.08128\sqrt m\) in counting norm at the near-flat cutoff. Finite replays distinguish an actual singleton first tie on a separate ray from a pre-contact row with positive reconstructed corrections in the nominated square. The needed prime-uniform counting upper remains open. [Real profile and counting test](astra-tie-95.md)
+
+The two critical real cosets can enter a common contracting part of the genuine Picard recursion, even with a changing set of additional sites of square-root size. The remaining term is the restricted transform of the actual exterior activation after the allowed adaptive deletions. A vanishing normalized time average of its first price would exclude recurrent high sites for a trapped pin. A signed positional fiber second-moment test also suffices. A sharp prescribed-input construction on the same prime Jacobi matrix shows why untransformed exterior supremum estimates do not suffice at the relevant scale. The construction supplies no forcing in the true zero-start orbit. [Contracting cosets and true exterior forcing](astra-recur-95.md)
+
+The [round-95 acceptance record](round-95-acceptance.json) preserves the four replay sets and ranked tests. Seek the floor-determined profile's counting upper at the nominated square and combine consecutive physical derivative stages to cross the remaining cold gap. For moving caps, test the sign-centered sensitivity or a single positive repair with vanishing square-root cost. For the real obstruction, estimate the true transformed exterior history on the filtered bounded coset family. ETH Problem 26 remains open.
+
+## Round 96
+
+A translated physical Jacobi column requires only one extra pair of Mellin fibers. The derivative transports its off-base absolute weight into a triangular estimate with the verified base packet price. This gives uniform maximal-entry bounds \(O(n^{-1/2})\) for \((I-KD_j)^{-1}K\) at heights \(j=100,250\), and \(O(n^{-0.467})\) at height 600, on the nominated complex square. At height 100 the full scaled maximum has limsup below 178, including the diagonal of the transported inverse. Bounded diagonal changes on arbitrary smaller-than-square-root sets are stable at heights 100 and 250 in this linear comparison. The physical stationary diagonal may differ on larger sets. [Translated-source resolvent](shifted-resolvent-96.md)
+
+At the first activation of the uniquely selected near-flat real comparison the midpoint weights satisfy \(w_i=1-X_i^2/3\), \(|X_i|\le10^{-4}\). The exact reflection transfer removes the mark and the hitting site's full diagonal response against the genuine height-100 reference. The resulting signed exterior exceeds \(4.89\cdot10^{-5}\) for eligible \(n\ge10^{30}\). After the hit and fifteen arbitrary additional erasures the exterior counting second norm exceeds \(2.098\cdot10^{-5}\). The all-source bound raises the signed threshold eventually to \(7.648\cdot10^{-5}\) and forces counting first mass \(>4.296\cdot10^{-7}\sqrt n\) in the untransformed exterior source. These conditions concern the first activation of the comparison, which may precede any actual angle tie. An upper on this source still needs genuine sign cancellation. [First comparison boundary and erasure test](astra-count-96.md)
+
+Four new quadratic unit collections give a genuine unforced rectangle \(16640220<2^{20}\Re t<16640241\), \(2^{20}|\Im t|<1\) at \(n\ge10^{30}\). The left edge advances \(17/2^{20}\), overlaps the round-95 domain and remains \(2260/2^{20}\) above the nominated square's right edge. The actual Picard residual there still has the all-height \(9.308(0.526)^h\) bound. On the nominated real interval, mixing of the squared Jacobi kernel bounds the fraction of actual stationary two-step singular values above \(0.8\) by a prime limsup below \(1.096\cdot10^{-874}\). The corresponding estimate holds on at least \(m/2-1\) of \(m\) disjoint real secant pairs with the weaker stated bound. The projection of incoming increments into the slow directions remains uncontrolled. [Paired physical estimates and new rectangle](astra-paired-96.md)
+
+Recurrent true mask visits force exponential height and exterior growth, or a signed order-depth correlation on a single genuine prefix average. Both critical cosets can be removed together at the cost of the temporal minority occupation on their unselected sites. The averaged eroded exterior has exact zero unweighted twisted sums in every positional fiber, so the corresponding conditional lower bound uses the smaller of the two signed fiber sums. The finite \(p=769\) replay verifies the signed decomposition and positional calculation at an actual mask. The three real alternatives still need prime-uniform upper estimates. [True recurrent signed prefix](astra-fiber-96.md)
+
+The [round-96 acceptance record](round-96-acceptance.json) preserves the arithmetic and interval replays and ranked follow-up. Prioritize the signed real first-boundary source with its exact midpoint weights and the true incoming projections onto the two-step slow spaces. On the critical cosets keep the genuine prefix averaged before taking absolute values, and test both the complementary minority and the exponential alternative. ETH Problem 26 remains open.
+
+## Round 97
+
+At a first near-flat comparison activation, the real parts of the actual complex height-100 predictor at the same floor give a reflected reference with scaled bulk marked column below 92 and scaled off-diagonal entries below 182 eventually. The normalized hyperbolic half-log lag is below \(2r\) for the same complex residual \(r<3\cdot10^{-30}\). The signed exterior singleton then exceeds \(7.55\cdot10^{-5}\) before extra erasures and requires \(\sqrt n\,r>1.9\). After removing the first hit and the largest actual lag entries up to \(\lfloor\sqrt n/500\rfloor\) sites, the ordinary signed exterior exceeds \(5\cdot10^{-5}\) or \(n^{1/4}r>0.0029\). These are conditional requirements at the comparison boundary, with no through-primes upper on the signed exterior. [Same-floor reference and residual estimate](same-floor-97.md)
+
+At the real-axis reference the bounded-multiplier transport gives a signed test after any \(\lfloor\sqrt n/500\rfloor\) erasures containing the actual first hit. The original signed exterior exceeds \(5\cdot10^{-5}\) or the surviving source has counting second norm above \(7.05\cdot10^{-7}n^{1/4}\). At the maximum of the physical imaginary difference, a pair of actual superlevel cuts has signed Jacobi discrepancy above \(0.2910\) after every further deletion of at most \(\sqrt n/2\) sites. The cut choices occur on the true row and the arithmetic upper remains open. [Growing erasure and signed cuts](astra-signed-97.md)
+
+For \(10^{30}\le n\) and \(p\le4\cdot10^{695}\), every consecutive pair of actual real secants after height 600 has norm at most \(0.8\) on the nominated real interval. A finite bootstrap uses the actual previous increments, midpoint convexity and the two-projection angle. At unbounded sizes a nonzero slow projection forces a first real coordinate exit and a signed nonlinear history exceeding \(9.4\), even after the stated per-time growing erasures. The complex unforced rectangle advances four units of \(2^{-20}\) to real lower edge \(16640216/2^{20}\); \(2256/2^{20}\) still separates it from the nominated square's right edge. [True paired bootstrap and colder rectangle](astra-incoming-97.md)
+
+For a recurrent trapped block, a quotient positivity telescope bounds the temporal minority by a single full-prefix charge. The remaining alternative is an order-\(J\) absolute exterior mean on the original block at some prefix, or an order-\(J^2\) signed translated mean at the prescribed prefix \(J\). If the original-block mean is below its threshold, every qualifying companion quotient law pays order \(J^2\) on the original-eroded full prefix, giving a linear-program minimum. The \(p=769\) finite replay includes an exact-input primal and residual-debited dual comparison for that minimum. Both through-primes estimates and the escaped branch remain open. [Recurrent quotient telescope and original-eroded charge](astra-prefix-97.md)
+
+The [round-97 acceptance record](round-97-acceptance.json) preserves the arithmetic and interval replays and ranked follow-up. Prioritize the signed exterior after growing deletions, using the same-floor actual residual or the fixed two-cut discrepancy at the physical maximum. On the real secant side estimate the signed pre-exit history rather than only the dimension of the slow subspace. On the trapped branch estimate the original-block prefix mean and the original-eroded quotient objective at the single full prefix. ETH Problem 26 remains open.
+
+## Round 98
+
+One exact Newton step at the complex height-100 predictor changes the pointwise true error to at most \(124600\sqrt n\,r^2\) at a first near-flat comparison activation, where \(r\) is the same-floor normalized residual. The translated inverse controls every source of the quadratic remainder. A segmented Cauchy contour on a larger square bounds the rotated nominal imaginary part below \(7.1\cdot10^{-5}\) on the entire nominated square. Consequently any actual first activation there requires \(\sqrt n\,r^2>1.4\cdot10^{-9}\) eventually through eligible primes, with a larger threshold on an interior strip. The actual residual estimate is still at fixed height. [Physical Newton correction and contour](newton-boundary-98.md)
+
+At the original cutoff, if every minimized signed cut on the lower threshold rectangle is at most one, more than \(0.5740\sqrt n\) sign-aligned outliers are required and the signed excess remains above \(0.0830\) after any allowed additional erasure. If \(n^{1/4}r\le10^{-6}\), one cut in this threshold rectangle exceeds \(4.0538\) after every allowed deletion. At a separate tailored cutoff \(2\cdot10^{-14}\), Arb replays of two whole punctured squares give worst trimmed discrepancies \(0.1794952\) at \(p=173\) and at least \(0.8733915\) at \(p=181\). Both primes stay below the original cutoff. [Actual signed cuts and finite replays](astra-cuts-98.md)
+
+A first real Picard exit through \(4\sqrt t\) at sufficiently large eligible primes forces more than \(9.5\) in signed response to nonnegative tangent defects after independent erasure of \(\lfloor\sqrt n/6000\rfloor\) sites at each time. For each choice of erasures there is a time and actual one-sided log tail giving signed response above \(0.00139\). In the complex continuation, signed rank-four exterior-square and quartic collections advance the unforced rectangle's lower real edge by \(22/2^{20}\), with open overlap and the same imaginary half-width. A gap of \(2234/2^{20}\) to the right edge of the nominated square remains. [Pre-exit signed tails and common unforced rectangle](astra-exit-98.md)
+
+On the bounded trapped branch, recurrent masks now force either order \(J\) in a single signed triangular-weight transform on the original block or order \(J^2\) in the signed original-eroded flat-prefix charge of every qualifying positive quotient law. The first expression involves the opposite sign on the identity positional fiber, and the second retains the actual sign of each flat-prefix state. A finite \(p=769\) replay certifies the signed charge minimum before quotient-root division, with a positive root floor \(1/8\). Neither required small-order bound through primes follows from that replay. [Triangular prefix and signed quotient test](astra-quotient-98.md)
+
+The [round-98 acceptance record](round-98-acceptance.json) binds the proofs and interval replays. Next, estimate the signed imaginary Newton remainder at the actual hit and the two signed recurrent-prefix prices. For a complementary route to common continuation, test the remaining quartic shifts and the frozen responses to actual one-sided pre-exit tails. ETH Problem 26 remains open.
+
+## Round 99
+
+At the original first near-flat comparison activation, the exact complex hyperbolic square for the Newton remainder gives \(\|B\|_{1,n}<0.197r^2\). The sharper sector energy and a Cauchy contour for every translated column give \(\sqrt n\max|\Im Z_{ij}|<0.283\) and necessary \(\sqrt n\,r^2>5.07\cdot10^{-6}\), eventually through eligible primes. The imaginary residual \(r_I\) leads to the additional threshold \(\sqrt n(0.024r^2+17.51rr_I)>4.4470\cdot10^{-5}\). With the fixed prefix envelope \(\bar r\) this requires \(\sqrt n\,\bar r^2>0.000333\); its size dependence still leaves the unbounded family open. [Exact rotated Newton square and contour](astra-rotate-99.md)
+
+A Schur elimination at the same actual hit absorbs every coordinate source inside any block of at most \(\lfloor\sqrt n/2000\rfloor\) sites containing the hit. The compensated surviving row must still produce oriented imaginary response above \(3.41\cdot10^{-5}\). For \(n^{1/4}\bar r\le0.025\), the uncompensated real mixed sum on the survivors alone exceeds \(10^{-5}\). The original full-square continuation still requires a prime-uniform upper on the realized mixed lag or the anisotropic exterior mass. [Erased Newton sources and signed tests](schur-newton-99.md)
+
+A sparse high set of the true signed flat quotient permits a sufficient avoidance test for the original positive trial root and an exact opposite-sector dual. At \(J^2/\log J\) the fraction of high blocks is at most \(2(\log J)^2/J^3\). The genuine \(p=769\) comparison retains root \(1/8\) after one measured deletion and certifies failure after a larger measured deletion. In the full recurrent reduction a separate trial can use root as low as \(A/J\) for a suitable fixed \(A\), provided its signed charge is one-sided \(o(wJ^2)\), its signed triangular companion is one-sided \(o(J)\), and the original filtered list remains in force. A smaller trial root increases the measured head at which retention is tested. [Sparse quotient capacity and fixed-prime replay](astra-quotient-99.md) · [Shrinking trial root](quotient-floor-99.md)
+
+At each duplicated rank-four exterior-square shift the quartic multiplicity is 48. Collect the two shifted quartic terms, an extra cubic standard copy, selected one-child lifts and unused rank-three quadratic terms. The resulting unforced slab advances the left edge by \(4/2^{20}\) at the same imaginary width, overlaps Round 98 and leaves a gap of \(2230/2^{20}\). Its residual bound holds at all heights for eligible \(n\ge10^{30}\). The old map overruns the new fixed cap. [Unforced physical rectangle and replay](astra-cold-99.md)
+
+The [round-99 acceptance record](round-99-acceptance.json) binds the proofs and six outward replays. Prioritize the actual surviving mixed lag and the measured sparse quotient capacity with its triangular companion. The remaining determinant cubics offer a separate step toward the common complex domain. ETH Problem 26 remains open.
+
+## Round 100
+
+Segmentwise loss along the actual nine-center prefix gives \(r_{100}<2.4870\cdot10^{-32}\), with a corresponding bound on its imaginary part. The anisotropic first-hit cost is below \(1.84\cdot10^{-8}\sqrt n\) in the old calibrated regime \(n^{1/4}\bar r\le0.025\), and the same criterion excludes the eventual-eligible range up to \(n^{1/4}\bar r\le1.076\). A separate marked-only angular derivative propagation at height 510 proves absence of first comparison activation for \(10^{30}\le n\le10^{296}\). At height 600 genuine holomorphic stationary existence on the full nominated square extends to \(n\le10^{358}\), with the same lower threshold. These explicit finite ranges leave the corresponding unbounded-prime assertions open. [Actual prefix and marked derivative](astra-mixed-100.md)
+
+Exact projection off the true signed high set provides a legal quotient trial using a root or optimizer column and a projected constant. At \(p=769\), the measured four-block head admits a projected law of root above \(0.036664706\). All 828 rooted allowed cliques, and their nonnegative mixtures, give root below \(0.022777\) under exact avoidance. The full avoidance capacity lies between \(0.076455042\) and \(0.076456\); an additional exact test rules out positive-root avoidance supported in a proper quotient subgroup at this prime. The true shrinking-root capacity through primes and the triangular upper remain open. [Head projector and fixed-prime certificates](astra-root-100.md)
+
+A nonnegative quotient law permits exactly Fourier-legal autocorrelation repairs obtained by subtracting the autocorrelation of the deleted mask. A one-atom repair is explicitly positive outside the root, and the normalized signed cost is a rational function of the erased mass. Its improvement criterion can be written as a signed pairing with the true previous absolute orbit, canceling the marked and original-block terms. At \(p=769\), the six-point base law yields repaired root \(5/108\) and normalized price \(1.796814795\ldots\) compared with \(2.255343363\ldots\) before repair. The exact soft dual retains the signed price on every block. No through-prime signed trial bound follows from the finite comparison. [Autocorrelation repair and soft dual](quotient-soft-100.md)
+
+Determinant cubics and 95 disjoint new rank-four shape collections extend the common unforced slab \(5/2^{20}\) farther left with open overlap and unchanged imaginary width. The certified left edge is \(16640185/2^{20}\), leaving a gap of \(2225/2^{20}\). The previous map fails on the new frozen cap. [New common slab and arithmetic replays](astra-return-100.md)
+
+The [round-100 acceptance record](round-100-acceptance.json) binds the proofs and eight outward replay rows. Next compare consecutive physical marked-only derivatives before pricing, seek an actual quotient repair or signed soft trial at the smaller root, and test the remaining rank-five cubic copies together with the real two-tail route. ETH Problem 26 remains open.
+
+## Round 101
+
+Consecutive physical mark-only derivatives cancel their common forcing before taking packet prices. With the initial normalized row held fixed in the auxiliary derivative recurrence, the marked forcing difference costs less than \(0.029|R_{k-1,0}|/n\) in packet units. At height 517 the exact linear defect and counting residual bound the true stationary normalized angle in the entire nominated square below \(0.000115396\). This excludes original first activation for every eligible \(10^{30}\le n\le1.7\cdot10^{304}\). It is separate from the round-100 stationary existence ceiling and the open growing-depth estimate. [Adjacent derivatives and finite no-hit proof](astra-marked-101.md)
+
+A true signed head can carry a small allowed positive leakage rather than exact zero. A cap \(u_R\le d/b\) there at root \(A/J\) ensures a normalized signed price no greater than \(J^2/\log J+dJ/A\); a centered head projection can use an ordinary uniform background. The \(p=769\) measured four-block head has a signed soft frontier strictly beyond the exact avoidance capacity, even at normalized price at most \(-0.01\). Prescribed comparison arrays on the genuine quotient show why head size and moment estimates alone cannot guarantee a cheap capped trial. Their price is not a claim about the true Picard data. [Capped head and signed frontier](astra-price-101.md)
+
+For the same recurrent candidate the triangular wrong-sign occupation and the preceding absolute-state price obey an exact identity on the companion projector. If the measured triangular forcing is below \(c_0J/8\), then either the signed original-block flat mean is negative of order \(J^2\), forcing expensive signed exterior at every shrinking-root trial, or a large triangular minority in the original block forces expensive nonnegative prior charge. The prior charge can be required off the root when the root's own prior mean is below the stated quadratic threshold. The \(p=769\) finite replay checks this identity with independent erasures in all three inputs. [Projected prior and minority identities](prior-minority-101.md)
+
+The common cubic coefficient of four late-input families includes the 48 rank-five copies at the actual arithmetic label. Together with propagation of older savings to the unused two-child shapes, this gives a genuine unforced rectangle with lower real edge \(16640183/2^{20}\) and the previous imaginary width. It advances two units with open overlap. The gap to the nominated square is \(2223/2^{20}\). [Linear and cubic physical returns](astra-rank-101.md)
+
+The [round-101 acceptance record](round-101-acceptance.json) binds the mathematical arguments and replay evidence. Next test the signed terminal marked susceptibility jointly with its counting residual, and the true quotient head with a capped repair and its coupled triangular or prior price. The shifted dual cubic and the actual real log tails remain separate continuation routes. ETH Problem 26 remains open.
+
+## Round 102
+
+The frozen physical column satisfies an exact identity that eliminates the marked feedback and removes the pure quadratic seed. The remaining transported source is the sum of a quartic term and a signed mixed term. On the full nominated square, the height-527 replay bounds the true stationary angle by \(0.0001145680\) and excludes the original first activation for \(10^{30}\le n\le10^{310}\). A growing-depth bound of 15 on the combined transported source with a vanishing counting residual remains open. [Frozen physical susceptibility](astra-resolvent-102.md)
+
+On the original recurrent list, a first trial can price the genuine predecessor exterior and a different trial can price the signed actual final increment at the same shrinking root floor. With a small original triangular upper and cheap predecessor, every eligible law pays a positive order-\(J^3\) final increment price. The head tested by the latter law has relative size \(O((\log J)^2/J^4)\). The \(p=769\) outward record measures the original orbit with independent laws. The genuine upper bounds through primes remain open. [Independent endpoint trial](astra-prior-102.md)
+
+The displaced dual cubic and the two exterior squares give an actual unforced holomorphic stationary rectangle with left edge \(16640182.375/2^{20}\) and imaginary half-width \(2^{-20}\). It advances the cold edge by \(5/8\) of a unit with open overlap and leaves \(2222.375/2^{20}\) to the nominated square. An exact greedy calculation gives the common minimum deletion count for both genuine real signed log tails. The needed upper bound on that count is open. [Displaced returns and common deletion](astra-cubic-102.md)
+
+A real amplitude-capped Picard map has a prime-uniform contraction at any fixed positive floor and cap, and the scaled mark of its fixed point vanishes through primes. If the explicit decreased weights remain positive, this fixed point represents an actual complementary pair for those weights, and the mean squared cap excess controls the displacement of the original mark. All-site positivity and vanishing cap excess at real floors tending to zero would finish the target. [Real amplitude cap](real-amplitude-cap-102.md)
+
+The [round-102 acceptance record](round-102-acceptance.json) binds the proofs and seven independently replayed outward records. Prioritize the signed marked-free source at growing depths and the independent terminal-increment pricing. The real capped pair and the common-tail count give separate possible tests of the actual real branch. ETH Problem 26 remains open.
+
+## Round 103
+
+The true real mark can be compared to the clipped row even when some relaxed products are negative. The exact stationary cross pairing charges only the signed excess above \(\sqrt{M^2+4t_i}\) and the mean cap deficit. The signed price has a one-sided bound in terms of its transported maximum. A nonzero mark with vanishing mean defect forces a fixed positive transported excess after arbitrary erasures with \(|S|\alpha\le\eta^2/12\). [Real signed overflow](real-cap-exterior-103.md)
+
+A translated entry bound \(O(n^{-\beta})\) for the physical linearized inverse gives a direct stationary construction with coordinate error \(O(n^{1-\beta}r^2)\) about the exact Newton predictor, assuming the first correction and local curvature margins. At \(\beta=1/2\), the normalized residual target is \(n^{1/4}r\to0\). The actual growing-depth package and angular margin stay open. [Translated Newton proof](translated-newton-103.md)
+
+Two API Astra windows returned actual drafts. The marked route largely reconstructed round 102 and reversed both mixed-term signs. The terminal route gave the inherited projector specialized to the smaller genuine head, with the shrinking root still unproved. Their receipts, raw hypotheses and the coordinator's corrections are preserved. The [round-103 acceptance record](round-103-acceptance.json) records the independent review and ranked calls. ETH Problem 26 remains open. [API comparison](api-astra-review-103.md)
+
+## Round 104
+
+At a fixed positive real floor, a genuine cap defect \(O(n^{-1/2})\) and nonvanishing true mark force a critical signed rectangle. The sending set of size comparable to \(\sqrt n\) is a bounded signed actual overflow level. The receiving set, also of size comparable to \(\sqrt n\), lies among large coordinates of the true positive stationary source off the mark. The normalized signed transport has a fixed positive lower. [Critical overflow rectangle](cap-overflow-rectangle-104.md)
+
+The reviewed API work keeps the adjacent resolved-difference bound with the correct counting first and second norms. The original draft assumes an unavailable unnormalized initial increment bound. In the real window, an incorrect vertex-space kernel identification is replaced with a prescribed even centered obstruction on the true Jacobi row, without a genuine fixed-point claim. The genuine real source comparison uses its actual second distance. [API review and retained drafts](api-astra-review-104.md)
+
+The [round-104 acceptance record](round-104-acceptance.json) preserves the two returned drafts, verified scopes and ranked follow-ups. The genuine signed increment estimate and signed overflow rectangle cancellation remain open, as does ETH Problem 26.
+
+## Round 105
+
+Both ends of the signed linear resolvent term can be frozen at one physical predictor. The genuinely nonlinear remainder is quadratic at the same scale as the translated Newton criterion. A three-field odd Mellin average controls the frozen linear term under explicit negative representations and bounded bad fibers. A balanced Neumann truncation extends this to exponentially growing column prices with a fixed counting contraction. The compatible genuine starting height is still missing. [Frozen signed transfer](frozen-entry-transfer-105.md)
+
+The API bare-block trace is a necessary estimate of the true mean derivative change and gives no genuine obstruction. For the actual real overflow, the restricted sending support must contain a positive fraction of the transformed receiving indicator's energy. The Gram residual at critical scale can be order one, so its overlap implication remains conditional. [API comparison](api-astra-review-105.md)
+
+The [round-105 acceptance record](round-105-acceptance.json) preserves both raw API drafts, their independently checked scope and ranked tests. ETH Problem 26 remains open.
+
+## Round 106
+
+At the critical cap-defect rate, direct localization of the signed overflow pairing puts both sides of the necessary Jacobi rectangle inside the actual true high stationary source. The overflow side shares one sign with the true stationary row. The same high set supports a near-unit compression, and its aligned sign class has a nonnegative vector with signed Rayleigh quotient at least \(1-C\eta-o(1)\) at size \(O(\sqrt n/\eta)\). The real cap rate and prime-specific upper estimate remain open. [Overlapping overflow](overlapping-overflow-106.md)
+
+The API starter draft allows more bad characters in the frozen test. The reviewed bound preserves the original signed exponent for \(F=O(\sqrt p)\) and gives a weaker positive exponent for \(F=O(p^\theta)\), \(\theta<1\), under the actual representation and residual hypotheses. The review corrects the draft's depth interpretation and keeps counting, packet growth and residual rates separate. [Independent resource rates](api-astra-review-106.md)
+
+The [round-106 acceptance record](round-106-acceptance.json) retains the API draft, verified scope and ranked tests. ETH Problem 26 remains open.
+
+## Round 107
+
+The sharp quadratic cap criterion moves the real critical deficit test to normalized inner excess at scale \(n^{-1/4}\). The residual can be made small on the globally contractive capped orbit, or controlled by the square of the spill of a smaller-cap genuine fixed point. [Quadratic inner-cap test](real-inner-cap-quadratic-107.md)
+
+An exact signed sector identity pins an aligned overflow to the sign of a persistent true mark at small fixed floor. For \(M\ge2\), control of the two matching one-sided transported overflows is sufficient along floors tending to zero, with no separate cap-defect rate in this criterion. A mean-small mark-preserving signed positivity repair must redistribute actual high stationary weight under the specified negative-norm budget. [Mark-oriented factor and repair](mark-oriented-overflow-107.md)
+
+The API exterior claim needed the missing sector sign and the bounded norm of the real capped fixed point. The resulting \(O(n^{-1/2})\) controls the ordinary pairing and leaves order-one freedom at the critical rescaling. [API review](api-astra-review-107.md)
+
+The [round-107 acceptance record](round-107-acceptance.json) preserves the raw API draft, independent checks and ranked tests. ETH Problem 26 remains open.
+
+## Round 108
+
+A direct signed projection repairs the actual capped opposite factor at the cost of the transported overflow that exceeds existing coordinate slack. The mean budget pays both added mass and possible marked loss at the fixed cap \(M=10\) for \(0<t\le1\). The needed through-primes bound is on the adjusted overshoot, and both signs at floors tending to zero give the ordinary target. [Projected cap completion](projected-cap-completion-108.md)
+
+The actual alternating cone/sector projection yields a feasible row at fixed field. Its mean cost and marked loss depend on the cumulative negative means. Effective width below the Jacobi entry scale implies both vanish in a suitable logarithmic window, while at critical cap rate a fixed signed Rayleigh gap also suffices. [Iterated sector projection](iterated-sector-projection-108.md)
+
+The API runner terminated on timeout without producing a candidate. The [round-108 acceptance record](round-108-acceptance.json) preserves that disposition, independent proof checks and ranked tests. ETH Problem 26 remains open.
+
+## Round 109
+
+At the critical cap rate a persistent matching log mark forces a genuine negative-repair block of order \(\sqrt n\) steps with effective support comparable to \(\sqrt n\) and signed Rayleigh loss \(O(n^{-1/2})\). An explicit small cap coefficient instead guarantees success of the actual width induction. [Persistent negative repair](persistent-repair-deficit-109.md)
+
+Firm antimonotonicity of the negative part bounds the summed squared differences of consecutive genuine rows by \(O(n^{-1})\) on that late block. A common threshold puts the high support in a single genuine carrier of size \(O_\eta(\sqrt n)\), and a shorter fixed fraction of the block has a persistent high intersection. The prime-specific arithmetic bound on this structure remains open. [Common repair carrier](repair-carrier-109.md)
+
+The returned API draft's active-set update is valid. Its negative norm expansion and its departure threshold are corrected and checked against the exact projection. The [round-109 acceptance record](round-109-acceptance.json) preserves the response, independent deductions and ranked tests. ETH Problem 26 remains open. [API review](api-astra-review-109.md)
+
+## Round 110
+
+Time averaging on a genuine persistent core gives an exact local linear Jacobi balance with normalized residual \(O(n^{-3/4})\) at fixed threshold. The signed core and exterior energies differ by explicit mean and endpoint terms, totaling \(O(n^{-1})\) there. Moving thresholds give power-small core Rayleigh loss at the critical effective width. An exact ordered-pairs calculation forces a nonzero centered opposite-sector defect outside the core. [Core average](repair-core-average-110.md) · [Core/exterior defect balance](repair-core-defect-balance-110.md)
+
+The API draft substituted the additive Paley matrix for the genuine multiplicative-frequency Jacobi matrix. A static square-order coset checks the local scales with the correct kernel, while sector orthogonality excludes full-coset negative persistence for that comparison. The [round-110 acceptance record](round-110-acceptance.json) preserves the response and both independent reviews. ETH Problem 26 remains open. [API review](api-astra-review-110.md)
+
+
+## Round 111
+
+An actual moving repair core at critical cap rate forces a signed Jacobi cubic of order at least \(p^{-1/2}\). The accepted normalization uses the multiplicative frequency group. Katz's pointwise estimate for two-equal translates makes the weighted collision contribution \(O(p^{-1})\), so the leading scale survives entirely among three distinct shifts. Cancellation for the actual prime weights remains open. [Signed distinct-triple test](distinct-cubic-repair-111.md)
+
+The API square-field example has distinct-triple average \(r^{-1}+O(r^{-2})\) at \(q=r^2\). A mark-free translated coset keeps the exact coefficient, while the positive opposite-sector mean excludes full-coset actual negative persistence. The [round-111 acceptance record](round-111-acceptance.json) retains the gateway receipt, raw candidate and independent audit. Next isolate the marked share of the centered exterior pairing and continue the prime-specific signed cubic estimate. ETH Problem 26 remains open. [API review](api-astra-review-111.md)
+
+
+## Round 112
+
+The entire late repair source satisfies a signed distinct-moment lower for each fixed degree. The forced centered negative pairing has an exact marked part, reducing to either constant-size marked Jacobi alignment or a critical off-core and off-mark pairing. The real favored factor gives a fully unmarked distinct mixed cubic at order \(p^{-1/2}\), while the true opposite factor gives an upper of order \(n^{-3/4}\). Conditionally on the third shift, the mixed sum measures the true squared-source Jacobi transport and gives a fixed positive signed lower on order \(\sqrt n\) genuine high favored bulk sites. [Full late moments and factor transport](full-repair-moments-112.md)
+
+The returned API draft preserved the exact mixed expansion but carried the preliminary overestimate of the marked probability. The correct marked cubic is \(O(n^{-1})\). The [round-112 acceptance record](round-112-acceptance.json) retains the draft and independent review. Test the unmarked squared-source transport together with the actual pair of reciprocally related factors. ETH Problem 26 remains open. [API review](api-astra-review-112.md)
+
+
+## Round 113
+
+The actual reciprocal pair gives a polynomial identity for mixed moments at order \(n^{-1}\). A polynomial with a double zero at the genuine output mark and at zero yields a weighted amplitude variance without a marked term. Conditional transform products and exact true opposite-factor overlaps reduce all weighted collisions to \(O(n^{-5/4})\). The reciprocal mass budget with the positive opposite mark strictly caps favored mass on every sparse unmarked set. Together these facts force either a negative fourth mixed moment or a positive modified mixed moment at the \(n^{-1}\) scale. [Reciprocal repair moments](reciprocal-repair-moments-113.md)
+
+The [round-113 acceptance record](round-113-acceptance.json) retains the API budget, independent audit and exact scope. First isolate the opposite-factor input mark, then estimate the actual unmarked distinct tuple sums with the required signs. ETH Problem 26 remains open. [API review](api-astra-review-113.md)
+
+
+## Round 114
+
+The real reciprocal mixed moment separates the two input marks at precision \(O(n^{-5/4})\). The favored input mark is subcritical, while the opposite mark equals its true prefactor times the correctly normalized anchored Jacobi transport. The output mark is a separate term. The API draft misnormalized the anchored transform and its small-o criterion. [Anchored input-mark review](api-astra-review-114.md)
+
+At \(0<t\le1/4\), a bounded multiplier squares the trimmed signed factor coefficient and gives a paired distinct test with one fixed extra shift in the weighted term. If both signed tests have small values, the true favored repair law concentrates at a Jacobi level set determined by the opposite mark, and the low favored factor supplies a negative first moment of order \(n^{-1/2}\) to offset the positive high part. The simultaneous level concentration and negative low-factor branch is unexcluded. The [round-114 acceptance record](round-114-acceptance.json) preserves the derivation and separate independent audit. ETH Problem 26 remains open. [Trimmed moment and level test](reciprocal-input-marks-114.md)
+
+
+## Round 115
+
+The actual first Newton correction can be included in the normalized cold predictor before differentiating. At a moving starter satisfying the translated Newton hypotheses, the true stationary derivative on a fixed inner square is \(P+ZCH\) up to the quadratic residual error and a smaller marked coefficient. The full-boundary variant needs a genuine two-column entry bound. Two independent logarithmic cutoffs leave a finite signed term at the same predictor. Neither the moving starter nor the required prime-uniform combined derivative bound is established. [Cold Newton derivative transfer](cold-newton-mark-transfer-115.md)
+
+In the real residual branch the negative transport remains at order \(n^{-1/2}\) after retaining only \(a n^{-3/4}\le g<\eta\) and \(z\le-b\). The true opposite input mark is positively critical at order \(n^{-1}\) in the same branch. [Actual favored and negative bands](residual-level-bands-115.md)
+
+The [round-115 acceptance record](round-115-acceptance.json) retains both independent checks and the corrected disposition of the cold API return. ETH Problem 26 remains open. [API review](api-astra-review-115.md)
+
+
+## Round 116
+
+A signed cubic with one actual repair draw and both true stationary factors retains one leading collision. Its constant cancels the full baseline, leaving a positive paired Jacobi square and the output mark. The opposite positional sector gives an exact weighted Legendre trace formula. The true stationary factors have a uniform paired difference law at every translate, so domination of the genuine \(hg\) law and Jacobi equidistribution give a fixed positive lower for the paired square. On the trimmed residual branch the full distinct cubic is at least a constant times \(n^{-1}\). [Paired reciprocal cubic](paired-legendre-cubic-116.md)
+
+The opposite singleton contributes a positive main term. The all-unmarked cubic would need to offset it to prove smallness of the full cubic. The [round-116 acceptance record](round-116-acceptance.json) preserves the exact formulas, API response and independent review. The needed full prime estimate and independent cap/slack routes remain open. ETH Problem 26 remains open. [API review](api-astra-review-116.md)
+
+
+## Round 117
+
+The true fixed-cap adjusted overshoot can be tested in the actual favored factor rather than by a maximum. An ordinary optimizer yields the sharp fixed-floor upper \(\sqrt{1+t}\) conditional on vanishing weighted overshoot. The true stationary factor gives an independent \((1+t)^{3/2}\) upper, sufficient for the limit along fixed floors tending to zero. Neither test assumes a cap rate. With a critical rate, an actual persistent mark forces a bounded overflow source and high favored recipients above their actual slack, both of size comparable to \(\sqrt n\). [Weighted adjusted cap](weighted-adjusted-cap-117.md)
+
+In the genuine reciprocal Legendre test the original repair without the favored reweighting has asymptotically uniform second moment. The opposite projection can be removed after reweighting, leaving two true favored positional rows against the actual opposite law. The constant-twist convolution has an exact reciprocal baseline. The trace-weighted version and the weighted cap upper remain open. The [round-117 acceptance record](round-117-acceptance.json) preserves the independent checks. ETH Problem 26 remains open. [Reciprocal trace reweighting](reciprocal-reweighting-117.md) · [API review](api-astra-review-117.md)
+
+
+## Round 118
+
+At a supplied moving physical starter, deleting \(O(n^\beta)\) actual exceptional coordinates before truncating the exact outer inverse costs \(o(1)\) at the quadratic residual scale. The direct mark term is \(O(n^{-1})\). The full finite transported word has odd parity under the common bulk sheet and initial packet hypotheses, with only the base and translated character pairs as possible exceptions. A third inverse cutoff makes the marked column inside the good word finite at subcritical error, while the standalone marked susceptibility remains exact. [Cold exact exception and three cutoffs](cold-exact-exception-budget-118.md)
+
+The [round-118 acceptance record](round-118-acceptance.json) preserves the returned alternative and both independent checks. The remaining complex estimate is a true growing starter and bounded signed rank/packet cost, with a fixed angular margin. The real weighted adjusted overshoot is still a separate sufficient route. ETH Problem 26 remains open. [API review](api-astra-review-118.md)
+
+
+## Round 119
+
+The actual capped row initializes a reflected opposite-sector repair. Its exact negative-row energy dissipation separately charges negative signed transport and transport against old positive slack. At the critical cap rate, a persistent mark forces two genuine consecutive negative rows with a two-step return error \(O(n^{-1/2})\). Their signed transports retain order \(\sqrt n\) high favored recipients with old slack at most \(n^{-\sigma}\), \(0<\sigma<1/2\). At a common threshold the two-step high sets differ by only \(O(n^{1/4})\) sites. The paired nonnegative source also satisfies the hypotheses of the reciprocal cubic calculation. [Reflected slack repair](reflected-slack-repair-119.md)
+
+The [round-119 acceptance record](round-119-acceptance.json) preserves the actual repair budget, the independent review and the corrections to the raw API weighted bound. The paired prime transport, rate-free weighted overshoot and common cold domain remain open. ETH Problem 26 remains open. [API review](api-astra-review-119.md)
+
+
+## Round 120
+
+The full-input distinct reciprocal cubic for a true reflected pair is positive at order \(n^{-1}\) after deleting the output mark. This cancels the transported output term and retains the opposite true input singleton. The same exact analysis works for a complete actual late slab. On that slab the unmasked cubic plus normalized marked drop per step has a fixed positive lower. The repair input can be projected to the exact favored sector at subcritical error, leaving an explicit conditional translate law and a single-output subtraction in the arithmetic average. [Reflected off-mark cubic](reflected-offmark-cubic-120.md)
+
+The raw API draft mixed normalized and unscaled true factors. The corrected actual weighted source is dominated by the favored law, allowing the uniform pair-difference lower. The [round-120 acceptance record](round-120-acceptance.json) retains the raw response and independent verification. The corresponding prime upper, rate-free weighted overshoot and common cold domain remain open. ETH Problem 26 remains open. [API review](api-astra-review-120.md)
+
+
+## Round 121
+
+On the actual conditional triple law both opposite pair differences are exactly uniform. The pairwise-centered positional support has two favored inputs and one opposite input. The output deletion in the full statistic factorizes with the correct uniform-difference normalization. [Conditional spectrum](masked-conditional-spectrum-121.md)
+
+The ordinary projection trajectory has an exact old-slack loss. Its genuine early dyadic block has average freshly arriving negative mass \(O(\alpha/\sqrt{\log n})\). A second-moment bound on the actual repair reweighting density yields the masked cubic lower at every sufficiently large fixed ordinary depth on the original critical cap-rate marked obstruction. This avoids a pointwise amplitude assumption. The true capped fixed point remains the input. [Ordinary slack and arrivals](ordinary-slack-dissipation-121.md) · [Fixed-depth masked lower](early-ordinary-masked-cubic-121.md)
+
+The [round-121 acceptance record](round-121-acceptance.json) preserves both independent audits and the normalization corrections. A prime-uniform masked upper at fixed depth, the actual cap rate and the common cold domain remain open. ETH Problem 26 remains open. [API review](api-astra-review-121.md)
+
+## Round 122
+
+At height 600 the first actual physical secant contracts below \(0.515\) in second norm on the original complex square for every eligible \(n\ge10^{30}\). This uses existing outward prefix and outgoing residual bounds. The raw API threshold and its use of the same constants for a second actual segment were corrected. [Secant review](api-astra-review-122.md)
+
+At a genuine starter with a compatible normalized residual, Abel summation controls the full Picard orbit at the quadratic error scale using signed displacement prefixes and shifted resolvent entries. The two cuts have different logarithmic lengths. Corrected predictors at two admissible actual depths agree to the same error scale using the earlier inverse's entry bound alone. The shifted matrix input follows at known fixed depths, while the compatible moving starter and its corrected angle remain open. [Cold orbit and predictor transfer](cold-frozen-orbit-transfer-122.md)
+
+The [round-122 acceptance record](round-122-acceptance.json) preserves the independent review and ranked next tests. Priority returns to the prime bound on the real masked statistic at a fixed ordinary repair depth with the actual capped input. ETH Problem 26 remains open.
+
+## Round 123
+
+The full-input distinct cubic with its output mark removed is an exact linear functional of the repair row when the two true factors are fixed. Its signed coefficient reduces to the difference of the two reciprocal overlap weights, with \(O(n^{-1})\) normalized second-norm error. This gives explicit first-norm, second-norm and true-factor-weighted tests for a subcritical change in the observable. [Exact coefficient and repair stability](real-masked-functional-stability-123.md)
+
+At a fixed ordinary repair depth and the actual critical cap rate, the largest \(\lceil\sqrt n\rceil\) seed errors may have total \(o(\sqrt n)\) without changing the scaled observable by more than \(o(1)\). Projection of a genuine logarithmic-height capped Picard seed gives the needed second-norm precision directly. This supplies an explicit arithmetic input, while the independent prime upper with both true factors is still open. The raw API repeats the earlier positive lower under the obstruction hypotheses, and its erroneous replacement sign and stability claim are corrected. [Round-123 acceptance](round-123-acceptance.json) · [API review](api-astra-review-123.md)
+
+## Round 124
+
+The actual time-dependent derivative kernel has an exact signed first insertion with frozen factors on both sides. A second telescoping puts frozen factors at both ends of every quadratic error. Their summed entry bound with either time endpoint fixed is \(n\rho_E^2\Delta^2/(1-q)\), where \(\rho_E\) is the normalized diagonal displacement and \(\Delta\) the summed maximum-entry bound of the frozen powers. The two frozen powers in the signed linear term can be truncated at separate logarithmic lengths. Sparse time-dependent exceptions can be charged directly. [Varying kernel transfer](cold-signed-time-kernel-transfer-124.md)
+
+The earlier fixed-height arithmetic replay reconfirms the height-600 entry exponent above \(0.467\). The raw API's prefix calculation confuses the time to reach a starter with a frozen test at a starter already satisfying residual smallness. Its first-secant bound is available for one step. The compatible actual moving starter and signed interior insertion remain open. [Round-124 acceptance](round-124-acceptance.json) · [API review](api-astra-review-124.md)
+
+## Round 125
+
+Each adjacent capped Picard height contributes to the true masked cubic through a signed backward test of the actual cap increment. The test uses scalar negative-part slopes on the two genuine approximate repair trajectories and the exact masked two-factor coefficient. At the critical cap Picard height, the tested vector has a sparse preimage on the actual union of slope supports, of size \(O(\sqrt n)\) at fixed repair depth. The test keeps the transport of this preimage. [Actual cap adjoint](real-masked-cap-adjoint-125.md)
+
+The absolute tail beyond the explicit logarithmic cutoff is subcritical. A shorter endpoint upper below the obstruction lower would therefore force one genuine signed adjacent increment of order at least \(1/(L-m_0)\) before the cutoff. A prime upper on the complete endpoint or the finite signed sum from an independently bounded shorter endpoint remains open. The API result reaches the known critical Cauchy–Schwarz scale. [Round-125 acceptance](round-125-acceptance.json) · [API review](api-astra-review-125.md)
+
+## Round 126
+
+Summed matching Mellin boundary moments bound the generic rank of a word of \(k\) negative fields by \(k\) times the product of their dimensions. This controls the analytic odd series of the actual first derivative difference from height 600 without a degree-dependent exponential constant. The two translated columns use at most six exceptional full characters. The whole frozen first-insertion sum is \(O(n^{-0.467})\) on the original cold square. [Actual first insertion](cold-actual-first-insertion-126.md)
+
+The resulting unshifted packet bound supplies the second actual outgoing secant with counting norm below \(0.518\). The genuine two-step counting factor is below \(0.267\). The updated translated packet and counting bounds give summed maximum entries \(O(n^{-0.45})\) at actual height 601. All three are fixed-height results through sufficiently large eligible primes. The compatible growing starter, time-uniform price, and common cold continuation are still open. [Round-126 acceptance](round-126-acceptance.json) · [API review](api-astra-review-126.md)
+
+## Round 127
+
+The two terms in the sparse cap adjoint sample the activation increment and the next actual capped Picard increment on the same preimage. The direct term is supported by genuine saturation crossings at the staggered initial seed. At fixed deeper repair depth it is carried by the actual three-height approximation errors or a positive cumulative Jacobi drift that crosses the true initial slack. [Cap and drift localization](real-cap-drift-localization-127.md)
+
+The exact strict loss of the capped contraction charges fixed-size jumps in normalized squared norm. At a critical cap height, a fixed masked-statistic gap from a separately controlled endpoint forces a critical loss within a fixed successor window. Uniform subcritical scaled jump tails or an independent endpoint upper remain open. The unrestricted generic sparse-norm bound fails and gives no example on the actual orbit. [Round-127 acceptance](round-127-acceptance.json) · [API review](api-astra-review-127.md)
+
+## Round 128
+
+For the actual derivative difference from height 600 to 601, paired seed weights save first absolute moment in the analytic packet series. The translated rate is below \(1.063\) and the counting rate below \(0.5145\). Keeping the first transported insertion as a negative field on its two original boundary pairs lets the signed pairing absorb the second insertion without adding a translated pair per interior coordinate. Mixed counting and packet rates prove an \(O(n^{-0.4579})\) summed entry bound for the actual quadratic insertion and the full frozen sequence at height 601. [Actual quadratic insertion](cold-actual-quadratic-128.md)
+
+The raw response's weaker \(0.454\) estimate also passes review. The sharper bound still leaves the long middle-power comparison for preserving \(0.467\). No compatible growing starter or common cold domain follows from fixed heights. [Round-128 acceptance](round-128-acceptance.json) · [API review](api-astra-review-128.md)
+
+## Round 129
+
+At zero floor, a fixed cap at the mark and inactive bulk cap give exact nonnegative ordinary optimizers. The fixed bulk cap's signed overlap with this actual ordinary row pays their difference in marked coordinate. The capped mark vanishes through primes, including moving floors tending to zero at fixed cap. A Jacobi seed budget gives a strictly positive zero-floor defect for small caps through \(9/4\). [Mixed-cap ordinary pair](zero-floor-ordinary-mixed-cap.md) · [Marked and small-cap comparisons](zero-floor-mark-and-cap-budget.md)
+
+For the true averaged zero-floor trajectory, the mean reserve pays the contribution through ordinary optimizer weight \(M/2\). The remaining high-weight spill is tested at fixed heights before the prime limit. Simultaneous vanishing of the two weighted tests would also force the unweighted zero-floor defect to vanish at that cap. Both the unweighted large-cap test and the separate weighted prime upper remain open. [Averaged weighted test](zero-floor-averaged-weighted-tail.md) · [Two-sided reserve](zero-floor-two-sided-reserve-129.md) · [Round-129 acceptance](round-129-acceptance.json)
+
+## Round 130
+
+The physical nine-center prefix replay extends to genuine height 601 on the original closed square. Expanding the entire derivative at that row gives a physical base price below \(1.047425\) and an eventual translated price below \(1.048\). With the independent counting rate below \(0.5145\), the exact frozen kernel sum and the signed quadratic insertion retain the \(0.467\) exponent. The numerical side is outward interval arithmetic with exact rational interpolation checks. The independent replay matched the stored records. [Direct derivative at height 601](cold-combined-height-130.md) · [Round-130 acceptance](round-130-acceptance.json)
+
+The gateway draft reproduced the earlier triangle bound. Its claimed base-mass necessity and five-point complex-square check do not establish the needed estimate. The next real test is actual unweighted cap-defect vanishing at a larger fixed cap, independently of optimizer weighting. The next cold test is a jointly priced invariant block with both consecutive physical sheets and contraction, followed by compatible shifted-kernel pricing at a moving starter. [API review](api-astra-review-130.md) · [Coordinator record](../coordination/round-130.json)
+
+## Round 131
+
+The actual zero-floor fixed-cap defect is equivalent to the prime-first limit of a single-height activation mean, with uniform field error bounded by the genuine normalized residual or by \(2\sqrt{M^2+4}(j+1)^{-1/4}\). The first two means at cap 10 have separate Jacobi and isometry bounds. An exact five-coordinate reflection shows why generic local cap monotonicity of the mean cannot prove the needed comparison. The actual cap-10 asymptotic and its relationship to the cap-inactive ordinary mean remain open. [Zero-floor mean](zero-floor-mean-131.md)
+
+On the genuine cold segment the signed two-step defect is the one-step residual times \(I+B_{\rm sec}\), so a uniform cross-half counting contraction compares their normalized sizes. A 12-coordinate outward witness proves that the two separate retained positive majorants at heights 601 and 602 cannot contract in any common monotone homogeneous price. Their product expands this witness by more than \(1.073296\). This restricts that comparison method while leaving the true signed block, intermediate sheet control and moving starter open. [Positive comparison obstruction](cold-positive-block-131.md) · [API review](api-astra-review-131.md) · [Round-131 acceptance](round-131-acceptance.json)
+
+## Round 132
+
+The actual capped activation mean minus the ordinary mean is measured by the exact signed bulk statistic with weight \(G=(b-\eta Y)/\nu\). Weighted sign mismatch and aligned spill enter with opposite signs. Averaging the genuine iterates leaves one uniformly bounded terminal charge. The shifted aligned threshold \(M+|h|/2\) follows by keeping the clipping cost in the quadratic comparison. A seven-coordinate reflection disproves generic endpoint ordering under the same nonlinear marked activation. The prime-family signed upper and unweighted defect remain open. [Signed endpoint identity](zero-floor-endpoint-132.md)
+
+The original scalar triangle split of the genuine cold block exceeds one in every induced norm already at the real center. On the physical mean-zero space, the actual all-order height-601/602 signed block in the Fourier position basis has every entry \(O(n^{-1/2})\), uniformly on the original square. The nonpunctual tails and both marked corrections are included. The next test is signed action on the true residual or a physical packet direction, whose norm does not follow from that entry estimate. [Scalar obstruction](cold-scalar-split-132.md) · [Signed block kernel](cold-seed-block-132.md) · [Round-132 acceptance](round-132-acceptance.json)
+
+## Round 133
+
+The exact ordinary-sector difference of the actual averaged bulk pair is \(4\eta\) up to the uniform terminal charge \(O_M(J^{-1})\) and the prime-vanishing fixed-horizon error. The theta-only test now works at any fixed cap independently of unweighted deficit. The equal-sign average retains a nonnegative reserve controlling both the ordinary bias and the actual deficit. Bounded paired polynomial approximants preserve the signed statistic without assuming a bounded second norm of the ordinary optimizer. The missing arithmetic quantity is the signed Jacobi seed average against the actual ordinary activation weight. [Antisymmetric and equal-sign tests](zero-floor-sector-133.md)
+
+The exact marked seed contribution contracts in translated physical packet price with two-step rate below \(0.287\). On the whole square, the full frozen block has counting rate below \(0.26553\) and the genuine two-step residual from \(R_{600}\) to \(R_{602}\) has rate below \(0.2658\); their operators use distinct derivatives and secants, respectively. The actual residual has a small orthogonal projection on the designated Jacobi seed. The jointly signed nonlinear packet remainder still needs pricing before an invariant ball can be established. [Seed packet and counting rates](cold-seed-packet-133.md) · [API review](api-astra-review-133.md) · [Round-133 acceptance](round-133-acceptance.json)
+
+## Round 134
+
+The signed bulk ordinary seed pairing has a clipped-window and signed-tail comparison. Fixed even polynomial trace expressions cancel against the actual Jacobi seed, but control of the ordinary weight tail alone cannot impose that parity. A bounded auxiliary profile shows this explicitly. [Actual ordinary window](ordinary-seed-window-134.md)
+
+The full analytic pure-Jacobi derivative now has eventual translated price below \(0.528\), giving a squared price below \(0.279\) over the whole original cold square. The estimate uses signed Laurent aggregation and outward arithmetic. An exact rank-two control shows that even simultaneous flatness in position and frequency coordinates, together with counting contraction, cannot price action on the genuine Jacobi seed. [Pure seed price and control](cold-pure-seed-134.md) · [Round-134 acceptance](round-134-acceptance.json)
+
+The already launched real and cold calls returned and were closed using the new hook. Their exact obligations were independent. The next two cold methods intentionally test the same \(0.472\) remainder estimate under one stable candidate ID. A separate real call tests the actual ordinary window or signed tail. [R134 overlap review](../coordination/shared-obligations/round-134-after.json)
+
+## Round 135
+
+Three actual Astra calls completed under the new pre-launch capture hook. The two cold methods shared the exact signed remainder estimate, recorded by one stable candidate ID. The real ordinary-window call remained independent. Bound capture, launch times, receipt and closeout reconcile. There was one recognized shared candidate and no change to dispatch. [Actual closeout](../coordination/shared-obligations/round-135-after.json) · [Synthesis checkpoint](../coordination/checkpoints/round-135.md)
+
+The actual height-601 unsigned linear-plus-cubic positive comparison has affine price above \(0.6404\), already beyond the shared \(0.472\) budget. This excludes that comparison while leaving the actual signed price open. The unpriced analytic tail after 14 orders is below \(0.0000407\) before exceptional repair, and the actual joint remainder has counting norm below \(0.234\) on the original closed square. The next cold test collects identical Laurent powers times the same actual nonseed field before taking absolute values. [Remainder and tail](cold-remainder-135.md)
+
+The proposed positive ordinary sector test is exactly equivalent to uniform integrability of the bulk squares. A weaker signed first-moment tail and an actual even approximation to the clipped ordinary window remain open. [Sector tail comparison](ordinary-sector-square-tail-135.md) · [Round-135 acceptance](round-135-acceptance.json)
+
+## Round 136
+
+For the actual marked rows at heights 601 and 602, collect the common Laurent exponent of the pure Jacobi seed separately for every fixed nonseed word. The closed-square translated upper is below \(0.527\) for the linear part, \(0.142\) for the nonlinear part and \(0.666\) jointly. The analytic tail and both boundary repairs are included eventually. A positive 12-weight witness at height 601 gives a factor greater than \(0.570\) for this comparison, even if its positive weights are changed. The actual signed \(0.472\) target remains open. [Resummed remainder](cold-resummed-136.md) · [Independent round acceptance](round-136-acceptance.json)
+
+Both cold drafts had incorrect linear binomial coefficients, and the real draft leaves both clipped parity and the actual signed tail open. The repeated cold shared estimate is linked to the round-135 candidate without counting it twice. The next cold missions separate a label-sensitive linear estimate from the independent joint two-step block estimate. The next real mission tests minimum bulk second moment on the actual ordinary optimal faces. [Actual dispatch closeout](../coordination/shared-obligations/round-136-after.json) · [Synthesis](../coordination/checkpoints/round-136.md)
+
+## Round 137
+
+The fully marked cold linear term now has separate eventual translated bounds through eligible primes on the original square at heights 601 and 602. The eight named centers cost less than \(0.267\) and the actual Picard residual less than \(0.260\). With the nonlinear charge \(0.142\) unchanged, the center alone needs a price below \(0.070\). An independent replay reproduced both outward records. [Cold linear split](cold-linear-split-137.md)
+
+On each actual ordinary least-energy support, the normalized bulk energy is a marked-forcing inverse square moment of the compressed operator. The first inverse moment is explicit and uniformly bounded. The needed inverse square moment or weaker signed tail remains open, separately from clipped-window parity. [Ordinary bulk spectrum](ordinary-bulk-spectrum-137.md)
+
+The joint cold reply confused the full derivative with its remainder. The former alleged near miss was rejected. A valid mixed-pair target below \(0.277444\) would suffice for the true two-step difference below \(0.721\), leaving the half-step and invariant margins separate. The three completed research calls addressed distinct exact obligations. [Research review and ranked tests](api-astra-review-137.md) · [Round-137 acceptance](round-137-acceptance.json)
+
+## Round 138
+
+A translated \(0.0275\) bound for the genuine derivative change from height 601 to 602 reduces the joint cold block to the same-row square difference below \(0.69218\), or the same-row mixed anticommutator below \(0.262924\). These are sufficient frozen targets with the original marks. Physical invariant margins remain separate. [Frozen reduction](cold-frozen-cross-reduction-138.md)
+
+The two older group proofs distinguish five newer actual linear center constituents under every Jacobi line twist before the final transport. The result isolates arithmetic returns from the actual Picard residual and leaves transport interactions open. [Five separated labels](cold-linear-label-separation-138.md)
+
+On the ordinary side the source-weighted inverse square estimate and signed Jacobi tail remain open. Fable attempts produced no mathematical content and Astra returned the ordinary draft. The verified conclusions and ranked next tests were consolidated after independent review. [Gateway and research review](api-gateway-review-138.md) · [Round-138 acceptance](round-138-acceptance.json)
+
+## Round 139
+
+Swapping the intermediate position \(z\) with \(xy/z\) gives actual signed cancellation in the same-row square and anticommutator. The surviving noninverse sign mask has \(n/2+O(\sqrt p)\) entries and an exact rational parametrization. An all-order weight and local-inertia argument gives \(O(p^{-1/2})\) position entries away from the constant-mode input, including vanishing counting norm on the inverse line. The weighted contributions still require translated physical pricing. [Paired position calculation](cold-same-row-involution-139.md) · [Actual kernel bound](cold-position-kernel-139.md)
+
+Pairing the common seed weights improves the actual translated height correction from \(0.0275\) to \(0.017\). The new sufficient same-row budgets are \(0.268468\) for the mixed anticommutator and \(0.703184\) for the full square difference. This deduction concerns fixed rows, with the actual mark and both boundary pairs. [Sharper height correction](cold-paired-height-transfer-139.md)
+
+The three API returns were kept with ranked follow-up. The residual draft's limiting selected intervals from Round 65 do not transfer to physical heights 601 and 602. The ordinary signed-tail draft leaves the real prime estimate open. The next real test returns to constructive averaged completion inside the proved marked window. [Research review](api-astra-review-139.md) · [Round-139 acceptance](round-139-acceptance.json)
+
+## Round 140
+
+The leading marked pure Jacobi inverse-line term is an exact Legendre trace. Its displayed trace realization has genuine unipotent inertia at \(-1\), even on the square cover. This term is subtracted in the true square difference, so the first nonseed collision still needs a calculation. The fixed intermediate inertia at \(z=1\) continues to eliminate \(H_c^2\). Off the inverse line, pairing the two rational branches gives one ordinary full-parameter pullback including the exceptional \(z=1\) value. [Marked Legendre line](cold-leading-inverse-legendre-140.md) · [Single pullback](cold-off-inverse-single-pullback-140.md)
+
+The exact reserve LP tests an opposite ordinary optimum supported on the constrained bulk sites and the mark. On the full bulk its zero-reserve value reduces to \((a/\theta_\sigma-M)_+\). The true near-zero set has size \(O_\tau(nT^{-1/3})\), permitting local reserve at zero added mean and exact mark on a proportional-prime-divisor subfamily. For all primes, the explicit one-reflection test isolates the signed Jacobi image of the true hinge, with mean and pin terms of smaller order \(T^{-2/3}\). The complement spill and its relation to the admissible marked window remain open. [Actual weighted completion](averaged-completion-dual-140.md)
+
+All three Astra returns and their ranked next tests were archived and independently reviewed. The unchanged ordinary target is distinct from the new exact identities and local completion. [Research review](api-astra-review-140.md) · [Round-140 acceptance](round-140-acceptance.json)
+
+## Round 141
+
+An actual opposite optimum tests the projected average by a positive terminal bulk activation, equivalently by a single signed linear terminal correlation in the proved marked window. The exact numerator leaves a small marked correction and a favorable mean term. Both the terminal test and the pinned hinge have strict positive square controls at fixed floor below one. The genuine prime weighted estimates remain open. [Actual weighted terminal test](averaged-hinge-opposite-141.md)
+
+The two first Jacobi--Legendre mixed inverse-line orders agree exactly with the marks retained. Their nonconstant core has a nontrivial rank-two unipotent vanishing-cycle quotient at \(-1\) in the displayed trace construction, with the fixed interior quadratic factor still killing \(H_c^2\). On the actual unshifted Jacobi input the same leading mixed action has distinct \(F_4\), \(D+D^\vee\), and \(R\) terms. Further translated columns and the full analytic price require new arithmetic. [Mixed local proof](cold-mixed-line-vanishing-cycles-141.md) · [Exact seed-column action](cold-mixed-seed-column-141.md)
+
+Three raw API replies were archived, with their corrections and ranked follow-up reviewed independently. The full original ordinary theta limit remains the target. [Round review](api-astra-review-141.md) · [Round-141 acceptance](round-141-acceptance.json)
+
+## Round 142
+
+The actual opposite-optimum terminal quadratic test reduces to a signed sum on fully unmarked pairwise distinct indices. A hypothesized positive prime gap forces this sum to be at least of order \(T^2\) for every genuine opposite optimizer and growing marked time on the corresponding subsequence. It also forces optimizer second-moment concentration on the genuine terminal high set. A prime-uniform upper on this sum remains open. [Ordinary terminal reduction](ordinary-terminal-offdiagonal-142.md)
+
+On the canonical disjoint translated source the leading marked mixed block costs below \(0.180\Lambda\), and allowing all pure Jacobi powers with one linear Legendre insertion costs below \(0.237\Lambda\). The unshifted first higher block gives two exact relative damping factors on the old labels and separates the newly arising rank-ten sector. The full square bound remains open. [Translated comparison](cold-translated-leading-weight-table-142.md) · [Unshifted pooling](cold-cubic-mixed-pooling-142.md)
+
+Three completed gateway drafts were separately reviewed and their errors retained. The coordinator prioritized the actual prime triple sum, generic translated label comparisons and the next unshifted rank-ten continuation. [API review](api-astra-review-142.md) · [Round-142 acceptance](round-142-acceptance.json) · [Coordinator](../coordination/round-142.json)
+
+## Round 143
+
+The true opposite-face secondary terminal problem has an exact attained dual. Its inequalities need only hold on the common bulk zero set of the other actual optimum face. It applies to the first-moment and quadratic terminal costs, leaving their prime-uniform upper estimates open. [Face dual](ordinary-terminal-face-dual-143.md)
+
+For every disjoint translated pair, the selected leading mixed orders have disjoint generic arithmetic labels by comparison of the additive folded weight-one count with a simple lift. The next unshifted Taylor block has six placements and explicitly repeats the first rank-ten word with scalar \(93/32\) at order \(\beta^2\). Further residual coincidences still need to be checked. [Translated separation](cold-translated-label-separation-143.md) · [Higher order words](cold-quintic-mixed-placements-143.md)
+
+The Fable short probe worked while the actual translated research call returned 429. The unchanged prompt completed via Astra, with both attempts retained in the receipt. All three research drafts and the corrected mathematical scope were independently reviewed. [Comparison and ranked follow-ups](api-astra-review-143.md) · [Acceptance](round-143-acceptance.json) · [Coordinator](../coordination/round-143.json)
+
+## Round 144
+
+The actual terminal inequality permits a nonnegative mean-one near-root row with one explicitly signed forbidden-sector residual. Its magnitude is bounded by \(O_\tau(\sqrt T)\) times the forbidden RMS. A persistent prime gap forces an aligned positive residual or a terminal cost of order \(T\) at every admissible growing time. Exact positive interpolation on the reduced dual support is the original optimum problem. [Approximate-sector terminal test](ordinary-terminal-approximate-face-144.md)
+
+All nine residual harmonic families of the second higher unshifted mixed block are separated from its three named pools. The displayed signed coefficients are complete through order \(\beta^2\). This uses the even Chebyshev symplectic product, two-fiber ranks and Jacobi shifts. The all-order physical price on the actual source remains open. [Complete named pools](cold-quintic-complete-selected-pools-144.md)
+
+The two real responses addressed the same recorded candidate, and both leave the uniform estimate open. The separate mathematical audit checked both new results. [Comparison and ranked follow-ups](api-astra-review-144.md) · [Acceptance](round-144-acceptance.json) · [Coordinator](../coordination/round-144.json)
+
+## Round 145
+
+Clipping a true optimizer away from the mark gives sublinear terminal cost for any cutoff \(L=o(T)\). The only remaining signed cost for this construction is a one-sided lower bound on the deleted tail against the actual projected score. Positive symmetric convolution on an actual optimizer is also reduced exactly to the loss-cost pairs of near-cap shifts. Both require prime-specific bounds on the true orbit and optimum. [Ordinary clipping and shifts](ordinary-terminal-clipped-shift-145.md)
+
+The full analytic Jacobi step plus the term linear in the actual Legendre center has eventual translated physical price below \(0.959\) on the specified two-boundary-pair class. The linear term alone is below \(0.487\), the sum of both mixed orders below \(0.515\), and the selected square below \(0.920\). These include the analytic tails and actual marked restoration. The omitted actual derivative and nonlinear steps remain open. [Cold selected contraction](cold-jacobi-linear-legendre-145.md)
+
+The three returns and both corrected derivations were independently reviewed. The exact rational cold record matched its separate replay. [Comparison and ranked follow-ups](api-astra-review-145.md) · [Acceptance](round-145-acceptance.json) · [Coordinator](../coordination/round-145.json)
+
+## Round 146
+
+Complementary orthogonality localizes the near-cap terminal cost to a high-activation mask on which the true opposite optimum is small relative to the terminal weight. A prime gap would force order-\(T\) collision of the translated clipped tail on this mask with both roots removed. For diffuse shift laws the contribution must come from distinct shifts. The genuine prime masked-energy estimate and the signed deleted-tail estimate remain open. [Complementary mask](ordinary-near-cap-complementary-mask-146.md)
+
+The actual chosen Legendre coefficient is below \(0.244\). With this amplitude the selected one-step derivative has physical rate below \(0.634\), and its square below \(0.402\). A common positive vector at heights 601 and 602 excludes contraction from repricing the specified direct retained positive envelope. The actual signed derivative remains unpriced. [Actual amplitude and positive comparison](cold-actual-legendre-amplitude-146.md)
+
+The three complete returns, ordinary reduction and outward/rational replays were reviewed independently. [Comparison and ranked follow-ups](api-astra-review-146.md) · [Acceptance](round-146-acceptance.json) · [Coordinator](../coordination/round-146.json)
+
+## Round 147
+
+The exact last term of the actual time average forces a positive oriented terminal linear correlation if a fixed ordinary gap persists. The complementary shifted-tail collision therefore remains large on a smaller mask cut by the true sign of the Jacobi transport. The weighted collision formula retains only its one common output mask. Prime-uniform control of that genuine statistic remains open. [Oriented terminal mask](ordinary-oriented-terminal-mask-147.md)
+
+Removing the actual Legendre center before taking moduli gives a first omitted upper \(0.408\), an other-fixed-center upper \(0.150\), and a full omitted upper \(0.550\). The skipped signed residual would need \(0.074\) if priced separately. An outward witness excludes repricing this specific retained first-omitted positive comparison below \(0.356\). The stronger older Round 131 obstruction remains the reference for the direct full comparison. [Cold omission proof and replay](cold-first-omitted-envelope-147.md)
+
+The three drafts, analytic scope and outward records were independently reviewed. The next real batch also revisits the distinct direct pinned positivity repair rather than repeating the zero-set draft unchanged. [Comparison and ranked follow-ups](api-astra-review-147.md) · [Acceptance](round-147-acceptance.json) · [Coordinator](../coordination/round-147.json)
+
+## Round 148
+
+A fixed ordinary gap forces a positive signed two-root spill pairing on the true first reflected failure mask. Further zero-reserve projected repairs satisfy an exact dissipation of the negative part. The law controls cumulative unweighted crossings from previous positive reserves and gives small pinned projections, while an actual gap forces persistent true optimum-weighted costs. The prime estimate controlling those costs remains open. [Pinned reflection flow](ordinary-pinned-reflection-flow-148.md)
+
+All higher Legendre powers in the genuine two-center derivative cost less than \(0.0092\) in the marked two-pair price. The full selected two-center step and square are below \(0.644\) and \(0.415\). Other centers and the actual Picard residual remain open. [Higher Legendre step and rational replay](cold-higher-legendre-step-148.md)
+
+The three complete responses, corrected normalizations, ordinary identities and exact rational cold comparison were reviewed separately. [Comparison and ranked follow-ups](api-astra-review-148.md) · [Acceptance](round-148-acceptance.json) · [Coordinator](../coordination/round-148.json)
+
+## Round 149
+
+A true ordinary gap forces a positive anchored Jacobi phase bias and small relative pinned projection at the same actual relaxed-repair deficit. Telescoping yields a positive marked approximate opposite row from finitely many steps and also from one actual step. Effective support and layer energy restrict the selected deficit on primes. The needed diffuse or critical low-energy estimate remains open. [Finite-step repair and arithmetic constraints](ordinary-averaged-repair-dual-149.md)
+
+Deleting all pure two-center words gives the eventual actual cold omission upper \(0.542\) at heights 601 and 602. The exact positive comparison has a strict outward \(0.4607\) lower witness, so its repricing cannot reach \(0.356\). A signed actual comparison remains open. [Complete mixed-word omission and interval replay](cold-two-center-omitted-envelope-149.md)
+
+Three gateway replies and the independent audit were compared. The later relaxed residual uses its actual cumulative source. The next calls test the true anchored phase constraint, the original first spill, and signed cold overlap. [Comparison](api-astra-review-149.md) · [Acceptance](round-149-acceptance.json) · [Coordinator](../coordination/round-149.json)
+
+## Round 150
+
+Under a fixed ordinary gap, the first reflected spill still forces a positive signed sum after excluding the extreme input levels, both roots and the diagonal, and keeping only the true high-negative receiver of density (O(T^{-1})). A true-optimizer replica matches the unscaled phase and projection descriptors. The new retargeted flow supplies one actual near-optimal approximate opposite row whose deficit retains the signed original endpoint charge and has effective support (O(n/T)). [Actual real sources and failed static inference](ordinary-prime-repair-source-150.md)
+
+Collecting all equal signed Jacobi and Legendre labels at each positive omitted degree gives eventual (P_{5000}) omission price below (0.540) at both true heights. The unit coefficient in (Y^{2s}) is (4^{-s}C_sC_{s+1}). The full step and signed two-vertex budgets remain open. [Cold proof and outward replay](cold-signed-legendre-omission-150.md)
+
+The two complete Astra responses, the length-truncated Fable response and the independent audit were compared. The next tasks test the genuine first core, the retargeted actual endpoint and a selected signed two-vertex overlap. [Comparison](api-astra-review-150.md) · [Acceptance](round-150-acceptance.json) · [Coordinator](../coordination/round-150.json)
+
+## Round 151
+
+The true retargeted signed endpoint charge persists through a consecutive block of order (n^{2/3}T^{1/9}) actual steps. The same marked cost is exact even before selecting that block. The first-spill middle range still lacks a signed prime upper. [Actual repair motion](ordinary-retargeted-motion-151.md) · [Returned argument corrections](api-astra-review-151.md)
+
+A new prime estimate allows a bounded union of arbitrary square-root multiplicative cosets, including different subgroups. It forces a lower bound on the sum of Fourier mass outside that union and the anchored squared-weight Jacobi deficit. In the near-critical actual branch an anchor of small deficit forces uniform spectral spread. [Mixed-coset proof and scope](ordinary-prime-coset-spread-151.md)
+
+In the actual cold (W)-linear calculation on the genuine (C_1) column, two leading terms recur with opposite sign at the next alpha-free Taylor order. Outward comparison prices the leading canonical block below (0.061) and the two merged packets below (0.051). These selected terms leave the full signed square open. [Cold proof and replay](cold-leading-W-square-151.md)
+
+Three complete Astra responses and the independent audit were compared. [Acceptance](round-151-acceptance.json) · [Coordinator](../coordination/round-151.json)
+
+## Round 152
+
+The near-critical actual repair requires growth of a signed affine autocorrelation moment in the true normalized deficit weights. The uniform-anchor diagonal sum is exact and (O(p)), while the deficit-weighted sum is forced to grow faster than (p). Its off-diagonal formula supplies a concrete prime upper target without a coset-support hypothesis. The related cap estimate also allows growing coset unions. [Prime moment and anchor formulas](ordinary-affine-correlations-152.md)
+
+The signed middle first-spill cost and its positive part have exact attained secondary dual maxima differing by (o(1)) on the full genuine receiver. A uniform prime upper for either is still open. [Signed and clipped objectives](ordinary-first-spill-signed-dual-152.md)
+
+The full alpha-free (W)-linear mixed term is priced across all translated columns. Using the exact (W) weight at magnitude three gives the whole three-center price below (0.6931) and true omitted prices below (0.4112) at 601 and (0.4122) at 602. The sufficient signed same-height square difference from the three-center baseline is (0.50179639). [All-order return](cold-W-all-order-return-152.md) · [Three-center and residual comparison](cold-three-center-152.md)
+
+Three complete Astra replies were compared and the two outward checkers were independently replayed. [Comparison](api-astra-review-152.md) · [Acceptance](round-152-acceptance.json) · [Coordinator](../coordination/round-152.json)
+
+## Round 153
+
+The true near-critical deficit-weighted moment factors into three complete Jacobi factors. Its degenerate contributions and any fixed list of bounded-degree character relations cost (O(p)). The nondegenerate signed phase average now carries the entire possible superlinear part. The ambient and restricted true-anchor moments differ by ((5/2+o(1))p), obtained from the actual pin. The needed phase-average upper is still open. [Actual Jacobi factorization](ordinary-affine-jacobi-factorization-153.md)
+
+Composing the positive comparisons gives the direct two-height difference from (B_3^2) below (0.66381). The retained 12-weight subsystem has a strict (0.6174) lower witness, ruling out repricing this comparison to (0.51961239). The actual signed operator remains open. [Composed physical comparison](cold-three-center-composition-153.md)
+
+Three Astra replies, the ordinary-prime face-sign correction and the independent replay were reviewed. [Comparison](api-astra-review-153.md) · [Acceptance](round-153-acceptance.json) · [Coordinator](../coordination/round-153.json)
+
+## Round 154
+
+On the actual short retargeted near-critical block the wrong Legendre sign of the physical cross-ratio contributes \(O(p)\), including the pinned residual. The diagonal also costs \(O(p)\). The conditional ordinary-prime contradiction now needs the signed \(O(p)\) upper on the favorable off-diagonal. The two canonical regular Jacobi lift averages agree at \(o(p^{-1/2})\), and the exact exceptional Fourier graph returns the centered ambient correlation. [Ordinary prime reduction](ordinary-lift-and-gauss-kernel-154.md)
+
+Two genuine omitted-center pairs on the cold \(C_1\) column reinforce on the real slice. Their outward combined price is below \(0.014\), with relative merge saving below \(1.25\cdot10^{-11}\) on the square. This identifies a failed two-label cancellation and leaves the full signed estimate and common domain unresolved. [Cold comparison](cold-other-center-matched-154.md)
+
+The three Astra replies and independent verifier each supplied ranked follow-ups. [Review](api-astra-review-154.md) · [Acceptance](round-154-acceptance.json) · [Coordinator](../coordination/round-154.json)
+
+## Round 155
+
+The actual favorable cross-ratio is affine in a shared fixed-point chart. Any slope family with uniformly bounded \(\sum |f(t)|\) per \(u\) costs \(O(p)\). The growing weighted families remain open. Separately, the exact common zero set of the complementary optimal face equals the union of primal positive supports. This identifies the neutral correctly signed dual recession rows without bounding the earlier high first-spill cost. [Cross-ratio chart](ordinary-crossratio-affine-chart-155.md) · [Optimal support](ordinary-first-spill-face-support-155.md)
+
+Two actual cubic-outer Legendre-unit terms oppose the Round 154 returns on \(C_1\), reducing each selected coefficient by between \(0.1\%\) and \(0.2\%\) on the complex square. The same fixed-return selection is constructive on the other nonzero odd canonical inputs on the real slice and vanishes on even inputs. A signed improvement that survives translation remains open. [Opposing return](cold-legendre-unit-return-155.md)
+
+The returns from all three Astra calls and their follow-up suggestions were checked. [Review](api-astra-review-155.md) · [Acceptance](round-155-acceptance.json) · [Coordinator](../coordination/round-155.json)
+
+## Round 156
+
+The actual favorable cross-ratio sector extends to the complete field at cost \(O(p)\), uniformly in each anchor, and factors at a fixed slope into a complete \(u\)-Jacobi lift average and a three-root \(z\)-kernel. The same actual pin proves that the per-\(u\) favorable convolution norm is of order \(\sqrt p\), so the remaining upper requires coupling across the physical rows. The two nonzero additive-frequency signs and coarse-anchor slope filters have exact bounds or identities at the same error scale. [Sign-selective completion](ordinary-sign-selective-completion-156.md)
+
+A rank-three unit in \(W^2\) yields a true merge in the full translated cold comparison at both heights. Its outward recomposition gives the direct bound \(0.66379866\), above the required \(0.51961239\). [Translated comparison](cold-rank-three-unit-composition-156.md)
+
+The original first-spill dual upper remains open. All three raw replies and ranked suggestions were checked. [Review](api-astra-review-156.md) · [Acceptance](round-156-acceptance.json) · [Coordinator](../coordination/round-156.json)
+
+## Round 157
+
+The actual marked phase forces a quantitative conditional lower on the matching additive class and on the fixed anchor arc \(\rho k(a)\ge1/2\). An \(O(p)\) upper on either smaller quantity would rule out the critical-size branch. An exact square-field subfield control retains the pin and all marked phase data but has matching contribution \(s^3+O(s^2)\). The complete five-weight sum permits removing six trivial finite and infinity factors at absolute \(O(p)\) cost. The regular ordinary-prime signed upper remains open. [Matched phase arc](ordinary-marked-frequency-localization-157.md) · [Complete root slices](ordinary-five-root-trivial-slices-157.md)
+
+Collecting disjoint \(W^0/W^2\) and \(W^1/W^3\) contributions across all retained common labels gives a translated upper \(0.66365735\). The enriched retained positive comparison still has a principal witness \(>0.61729\) against the direct \(0.51961239\) budget. [Translated label collection](cold-rank-three-common-labels-157.md)
+
+All three raw replies and ranked suggestions were reviewed. [Review](api-astra-review-157.md) · [Acceptance](round-157-acceptance.json) · [Coordinator](../coordination/round-157.json)
+
+## Round 158
+
+A genuine ordinary-prime critical deficit cannot have critical-scale many physical slopes with \(|f|\) tending to one. The proof uses exact near-unit multiplication, pin-induced concentration on a bounded union of cosets, and the ordinary-prime coset spread. Repeated convolution of the true character law consequently loses its Jacobi phase alignment. The middle amplitudes and original coupled moment are open. [Near-unit dispersion](ordinary-prime-near-unit-slope-spread-158.md)
+
+All nine trivial boundary slices of the complete five-root kernel cost \(O(p)\) at the true weights. On the clean locus its compact degree-two cohomology consists of two eigenvalues of modulus \(p\). The independent weighted phase-saving problem remains. [Clean locus](ordinary-five-root-clean-locus-158.md)
+
+The full rank-three quartic replay gives a translated upper \(0.66349297\). Keeping the old \(H\) envelopes and \(A_{601}\) pricing, even arbitrary \(W\)-only grouping in the retained prefix leaves positive floor \(>0.61707\), above \(0.51961239\). [Cold quartic ledger](cold-rank-three-quartic-ledger-158.md)
+
+All three replies and ranked suggestions were reviewed. [Review](api-astra-review-158.md) · [Acceptance](round-158-acceptance.json) · [Coordinator](../coordination/round-158.json)
+
+## Round 159
+
+The genuine near-unit slope bound is quantitative: \(\lambda^6/\log^2(2/\lambda)\ll e+\epsilon+p^{-1/2}\). The fourth coset moment and the true amplitudes improve the incidence estimate. A high-power filter in the original physical sum retains all four other factors and has a quantitative saving at the \(p^{3/2}\) scale. The unfiltered \(O(p)\) upper remains open. [Quantitative slope spread](ordinary-quantitative-near-unit-slope-159.md)
+
+The regular favorable moment now reduces to a single signed rank-two lift. Its exact four-ratio law has total variation tending to one from uniform and is positively separated from convolution-smoothed draws. A transfer specific to the true trace remains open. [Single lift and ratio law](ordinary-single-lift-ratio-law-159.md)
+
+The genuine scalar units in \(F_4^2\) and \(G^2\) merge with the same \(J_h\) term inside each actual remainder. The recomposed translated upper is \(0.66348896\), above the \(0.51961239\) budget. [Actual cold centers](cold-actual-H-scalar-units-159.md)
+
+All three replies and their ranked suggestions were checked. [Review](api-astra-review-159.md) · [Acceptance](round-159-acceptance.json) · [Coordinator](../coordination/round-159.json)
+
+## Round 160
+
+The exact anchored mixed identity permits physical truncation under the actual weight. Bounded removed counting square mass costs \(O(\sqrt p)\) in the root of the matched moment, and a small factor from each physical pair gives an \(O(p)\) term. [Physical truncation](ordinary-matched-physical-truncation-160.md)
+
+The corrected four-ratio transform is supported on an explicit rank-two graph, and each of the five original independent weights can be centered. The exact row singular values give an \(O(p)\) bound for the specified small-amplitude slices. The intermediate-amplitude bound is open. [Slope orthogonality](ordinary-rank-two-slope-orthogonality-160.md)
+
+A fixed ordinary gap forces inverse-square mass of order \(T\) in a marked spectral window \(0<\lambda\le A_0/T\) on the genuine least-energy support. This applies without the near-critical effective support restriction. A prime-uniform \(o(T)\) upper in each such window at one admissible growing \(T\) would exclude fixed gaps. [Marked spectral window](ordinary-gap-marked-spectral-window-160.md)
+
+The cold reply did not justify transport through the intervening multiplier. The existing translated bound is \(0.66348896\). The three replies and their next suggestions were reviewed. [Review](api-astra-review-160.md) · [Acceptance](round-160-acceptance.json) · [Coordinator](../coordination/round-160.json)
+
+## Round 161
+
+On the true least-energy optimizer support, removal of the constant mode converts the marked bulk inverse-square moment to a first inverse at the physical exterior mark. Any fixed gap forces a return tail of order at least \(T\) after a fixed multiple of an admissible growing \(T\). Removing the mark from the exterior also gives an exact unmarked projection distance. Its lower bound at a scale growing relative to \(n/T\) is open. [Exterior return and unmarked capacity](ordinary-exterior-mark-return-161.md)
+
+Exact projection algebra, complementarity and true optimum geometry alone allow a fixed gap and a return tail of order \(\sqrt n\) for all \(T=o(\sqrt n)\). The explicit relaxed model does not use the prime Jacobi entries. [Projection control](ordinary-projection-gap-control-161.md)
+
+The centered physical graph reply supplies no new moderate-amplitude bound. In the cold calculation the corrected height insertion is \(Z_{602}(D_{602}-D_{601})Z_{601}\). The direct quadratic term and the smoothed remainder must be priced separately. The existing translated upper stays at \(0.66348896\). [Corrected cold transport](cold-picard-increment-correction-161.md)
+
+All three returns and the independent audit have been consolidated. [Review](api-astra-review-161.md) · [Acceptance](round-161-acceptance.json) · [Coordinator](../coordination/round-161.json)
+
+## Round 162
+
+The correct distance witness lives on the true marked interior. An exact leakage formula transfers a candidate on a near mask. Selecting independent columns on the actual zero set expresses the squared distance divided by \(n\) as the fraction of weighted Fourier minors omitting the constant row. The genuinely prime lower ratio remains open. [Zero-set leakage and Fourier minors](ordinary-zero-set-leakage-162.md)
+
+Exact physical incidence bounds cover a single \(p^{-1/2}\)-amplitude or bounded-first-mass slope slice when all four vertices exceed fixed thresholds. For the remaining slope exponents, the excess energy of the two actual shifted layers is a concrete next test. [Physical slope fibers](ordinary-physical-slope-fiber-count-162.md)
+
+The genuine height-602 frozen transported kernel has summable maximum entries of order \(O(n^{-0.455})\) on the original square. The true quadratic Taylor term after its first \(K\) costs less than \(0.000115\) in the translated price. The full translated response and continuation remain open. [Height-602 bound](cold-height-602-frozen-kernel-162.md)
+
+The three returns and independent audit are consolidated. [Review](api-astra-review-162.md) · [Acceptance](round-162-acceptance.json) · [Coordinator](../coordination/round-162.json)
+
+## Round 163
+
+Prime shifted-set expansion and actual Fourier energy give a power saving in the multiplicative energy of every fixed positive reflected amplitude level. For both vertex levels above one half, an exact nonidentity affine overlap has size \(O(p^{13/27})\), extending the genuine weighted \(O(p)\) slope block down to \(\sigma=26/27\). Fixed moderate slopes remain open. [Shifted-layer energy](ordinary-shifted-layer-energy-saving-163.md)
+
+Actual high-rank Fourier minors have isolated sector translates. The true macroscopic Gram fluctuation also blocks the proposed scalar operator comparison. An exact cofactor exchange mass retains the physical Jacobi sign, but its needed weighted lower estimate remains open. [Orbit isolation and cofactor exchange](ordinary-fourier-minor-orbit-isolation-163.md)
+
+The cold reply confirms why the present translated power upper cannot be summed on the quadratic source. There is no new cold bound. [Review](api-astra-review-163.md) · [Acceptance](round-163-acceptance.json) · [Coordinator](../coordination/round-163.json)
+
+## Round 164
+
+Pinning both actual vertex quotients gives a nontrivial reciprocal affine relation, then a pointwise genuine slope count \(O(p^{1-\gamma})\) with \(\gamma=1/54\) for two high levels and \(1/211\) for one high level. Sparse moderate true slope first mass of size \(O(p^\gamma)\) is now allowed. Full moderate slopes require a coupled collision estimate. [Physical slope fibers](ordinary-physical-pair-slope-pinning-164.md)
+
+Independent actual columns can be chosen to contain a genuine nonnegative complementary interpolant. The constant part of the marked exchange mass is bounded; the remaining centered profile is the original actual energy. A relaxed control shows that its directional inverse cannot be inferred from exact diagonal and squared fluctuation alone. [Actual interpolant](ordinary-cofactor-complementary-interpolant-164.md) · [Directional Gram](ordinary-gram-directional-control-164.md)
+
+The genuine leading Taylor term costs less than \(0.000031\) after one \(K\). The physical marked atom correction has decaying fixed-height frozen transport in coordinate supremum, with the separate direct term retained after two \(K\)'s. The full bulk translated continuation remains open. [Cold leading term](cold-actual-leading-Taylor-source-164.md)
+
+All three returns and the independent audit are consolidated. [Review](api-astra-review-164.md) · [Acceptance](round-164-acceptance.json) · [Coordinator](../coordination/round-164.json)
+
+## Round 165
+
+The actual centered Gram is the pure sector with physical mark zero. Its inverse cost splits into the zero-coefficient block and the signed Schur source on the positive complementary support. A relaxed control with genuine scaling and a strictly positive interpolant shows that the exact diagonal, squared fluctuation and positivity alone leave the directional cost unbounded. [Centered complementary compression](ordinary-complementary-weighted-laplacian-165.md)
+
+The physical collision sum has an exact centered Mellin formula and a distinct same-dilate energy. Shared full endpoints cost \(O(p^{3/2-\gamma})\), and equal-dilate rows with overlap below \(p^{1/4}\) cost \(O(p^{3/2})\) in that part. Disjoint high-overlap and cross-dilate parts remain open. [Two-copy collision identities](ordinary-physical-collision-two-copy-165.md)
+
+Common actual Jacobi seed pairs reduce the whole even Taylor source price after one \(K\) to below \(0.000103\), with the first correction term below \(0.000031\). The outer bulk inverse and nonlinear continuation remain open. [Paired Taylor proof](cold-paired-Taylor-source-saving-165.md)
+
+The three raw returns and independent audit are consolidated. [Review](api-astra-review-165.md) · [Acceptance](round-165-acceptance.json) · [Coordinator](../coordination/round-165.json)
+
+## Round 166
+
+For the actual centered Gram a zero block of size \(b\le(1-\eta)n/\sqrt p\) has directional inverse cost \(O_\eta(b/n)\). The exact Schur source correction is controlled above an explicit spectral cutoff. The original high-weight signed form transfers with a quantified additive error. Larger blocks and the very-low-spectrum cost remain open. [Small zero-block transfer](ordinary-small-zero-block-transfer-166.md)
+
+A completed nonnegative majorant in four genuine squared Fourier factors admits a three-Jacobi transform. Trivial-root exceptions and four degenerate Mellin frequencies fit the target. A genuine slope multiplier \(|f|^2(1-|f|^2)\) removes the identity slope exactly. The regular weighted covariance remains open. [Regular character collision test](ordinary-regular-character-collisions-166.md)
+
+The cold reply supplies no new actual outer bound. The previous \(0.000103\) source price is before the frozen inverse. [Review](api-astra-review-166.md) · [Acceptance](round-166-acceptance.json) · [Coordinator](../coordination/round-166.json)
+
+## Round 167
+
+The genuine regular slope covariance now has target-scale control of every class with at least two cross-copy Gauss matches. The surviving one-match and zero-match classes can be completed at the same error scale and still require weighted estimates. [Gauss covariance cuts](ordinary-Gauss-covariance-pair-cuts-167.md)
+
+The actual zero-block Schur term splits into an explicit low-rank contraction and a high-spectrum bound on the high complementary weights. Eliminating the positive support first gives two inverse debits independent of the chosen true basis extension. Neither controls the actual low-energy source by rank alone. [Low-rank leakage and invariant quotient](ordinary-zero-block-low-rank-leakage-167.md)
+
+An actual common opposed-lift seed unit combines the first two Taylor orders before transport. Their genuine first outer step costs below \(0.0000588\); the full preinverse source costs below \(0.0000971\). The nonlinear and translated long-tail estimates remain open. [Common seed unit](cold-common-seed-Taylor-unit-167.md)
+
+All three matched raw replies and the independent audit are consolidated. [Review](api-astra-review-167.md) · [Acceptance](round-167-acceptance.json) · [Coordinator](../coordination/round-167.json)
+
+## Round 168
+
+The actual one-match slope covariance is now the sum of two nonnegative physical spectral masses with weight \(g(1-g)\), up to the target-scale error. Katz's complete bound also pays the overlapping-match, \(h=1\), and product-balanced subclasses. The prime-uniform one-match mass target and the separate zero-match term remain open. [Physical spectral form](ordinary-one-match-positive-form-168.md)
+
+The genuine least-energy optimizer gives a nonnegative dual for the positive-first quotient on actual active coordinates. Its support extends to an actual centered basis with one-signed inverse coefficients. The quotient forcing ratio and the positive-support cost still require prime estimates. [Positive quotient dual](ordinary-quotient-positive-dual-168.md)
+
+All even seed units reassemble on actual \(R^2\). The total Laurent exponent charges the surviving pure seed words. The full source costs below \(0.00009657\) before the inverse and \(0.00010295\) after one genuine outer step, uniformly on the original square, with no summed translated transport estimate. [All-order source](cold-all-order-seed-transport-source-168.md)
+
+Three gateway windows and the independent audit returned ranked next tests. [Review](api-astra-review-168.md) · [Acceptance](round-168-acceptance.json) · [Coordinator](../coordination/round-168.json)
+
+## Round 169
+
+Restoring the selected Gauss factor and applying a second Parseval converts the actual one-match criterion to a positive physical collision with one twisted argument. The same-ratio terms cost \(O(p^{5/2})\) at the required scale. Distinct ratio rows have coupled reciprocal dilations with the actual square masks depending only on their slope. Their correlation and the separate zero-match class remain open. [Twisted physical criterion](ordinary-one-match-twisted-physical-169.md)
+
+A correctly scaled abstract affine optimal-face model can have unit negative forcing at one active site and quotient cost \(T+O(1)\). This isolates why the arithmetic projector and actual support are required. The genuine positive support and quotient estimates remain open. The cold telescope supplies no independent translated estimate. [Scaled cone control](ordinary-quotient-scaled-cone-control-169.md)
+
+All three Astra windows and the independent review supplied ranked follow-ups. [Review](api-astra-review-169.md) · [Acceptance](round-169-acceptance.json) · [Coordinator](../coordination/round-169.json)
+
+## Round 170
+
+In the actual one-match physical criterion all argument-sharing collisions cost \(O(p^{5/2})\) after the true weight. In a separate Mellin expansion all trivial or product-trivial Jacobi terms have the same charge. The cap-autocorrelation countermodel gives order \(p^3\) for the proposed row-norm shortcut. The regular weighted Jacobi average and separate zero-match remain open. [Physical and Jacobi cuts](ordinary-distinct-dilation-cuts-170.md)
+
+The actual mixed Taylor words with one nonseed factor share first seed harmonics across the even orders. The full post-\(K\) source price is below \(0.00008874\) and its first genuine outer price is below \(0.00009460\). The uniform transported response and actual centered inverse tail remain open. [Shared mixed harmonic](cold-linear-remainder-seed-harmonic-170.md)
+
+The three gateway drafts, independent review and ranked follow-ups are archived. [Review](api-astra-review-170.md) · [Acceptance](round-170-acceptance.json) · [Coordinator](../coordination/round-170.json)
+
+## Round 171
+
+An exact affine line action retains the physical square condition as \(b\in Q\). The weighted affine energy method and light-variable cut improve the one-match physical norm to \(O(p^{23/8})\) and its covariance term to \(O(p^{15/8})\). The target remains \(O(p^{3/2})\) in the latter normalization. The separate full physical diagonal has explicit fractional-linear factors and still needs its own weighted estimate. [Affine action and slope diagonal](ordinary-affine-line-energy-171.md)
+
+The exactly-two-remainder seed unit pools through all even Taylor orders. The full initial price is below \(0.00008312\) and the first genuine outer price below \(0.00008861\), with growing transport still open. No estimate of the true low centered inverse tail follows from the raw small-block response. [Two-remainder unit](cold-two-remainder-seed-unit-171.md)
+
+Three gateway drafts and the independent audit supplied ranked follow-ups. [Review](api-astra-review-171.md) · [Acceptance](round-171-acceptance.json) · [Coordinator](../coordination/round-171.json)
+
+## Round 172
+
+Inverting the physical slope gives an exact affine-action formula for the full diagonal. The retained \(b\)-square condition and a positive point-line incidence upper give \(O(p^{37/16}(1+\log p))\) for the actual weighted diagonal, improving \(O(p^{5/2})\). The required \(O(p^{3/2})\) will need the output localization and both physical factors, or an alternative estimate. [Full diagonal proof](ordinary-full-diagonal-affine-172.md)
+
+The all-level finite-field energy extension also improves the full two-dimensional one-match norm to \(O(p^{45/16}(1+\log p))\), yielding \(O(p^{29/16}(1+\log p))\) in the original covariance. The zero-match term and actual cold transported bridge remain open. [Review](api-astra-review-172.md) · [Acceptance](round-172-acceptance.json) · [Coordinator](../coordination/round-172.json)
+
+## Round 173
+
+The actual full diagonal is \(O(p^{37/16})\) without the logarithm. Two-label and common-line-parameter-plus-label collisions, and the degenerate same-pole Jacobi classes, cost \(O(p^{3/2})\) in their own expansions. Regular common-pole and distinct-pole terms still need more. [Full diagonal cuts](ordinary-full-diagonal-two-pin-173.md)
+
+Two quantitative BSG extractions and prime-field shift expansion improve the actual high vertical fibers. All-level weighted affine energy is \(O(p^{11/4-1/1280})\), giving one-match covariance \(O(p^{29/16-1/5120}(1+\log p))\). The target and zero-match estimate remain open. [Affine fiber saving](ordinary-weighted-affine-vertical-saving-173.md)
+
+For cold continuation the prescribed true height-602 disks have uniform derivative below \(0.525\). If the actual orbit stays in them through \(602+\lceil(4/7)\log_2 n\rceil\) and has terminal clearance, direct counting contraction closes the infinite coordinate tail. The finite growing prefix still needs a proof. [Finite tube criterion](cold-logarithmic-finite-tube-173.md)
+
+Three gateway drafts and two independent reviews are archived with the ranked follow-ups. [Review](api-astra-review-173.md) · [Acceptance](round-173-acceptance.json) · [Coordinator](../coordination/round-173.json)
+
+## Round 174
+
+On the actual selected short block, wrong-sign factors can be removed at the sufficient scale in both collision norms. In the positive diagonal the input and output costs are \(O(p^{7/6})\) and \(O(p^{3/2})\). In the twisted norm they are \(O(p^{7/3})\) and \(O(p^{5/2})\), with an additional \(O(p^2)\) unit endpoint. The remaining favorable blocks keep the actual amplitudes. [Physical sign cuts](ordinary-pin-favorable-collision-cut-174.md)
+
+The exact affine right action gives four shared-label energy cuts at \(O(p^2)\) in squared norm. Translation and dilation classes have separate improvements, and the all-four-distinct generic energy remains open. [Right-difference cuts](ordinary-affine-difference-pins-174.md)
+
+For the actual cold trajectory, the first three distances from \(V_{602}\) are bounded by \(0.01272,0.02645,0.04162\). The enlarged radius \(0.05\) and derivative bound \(0.535\) preserve the conditional logarithmic criterion. The remainder of the actual growing prefix and terminal clearance still need a proof. [First cold steps](cold-first-prefix-step-174.md)
+
+Three complete gateway drafts were reviewed and archived with the next ranked tests. [Review](api-astra-review-174.md) · [Acceptance](round-174-acceptance.json) · [Coordinator](../coordination/round-174.json)
+
+## Round 175
+
+The actual physical square mask already supplies \(\chi(1-r)=1\). Five favorable signs reduce to three. Two projective cross-copy relations, or one with a shared line parameter, are priced at \(O(p^{3/2})\). In the distinct affine right-energy problem, one fixed projective relation costs \(O(p^2)\), including the reciprocal case. The surviving global exponents are unchanged. [Favorable signs](ordinary-favorable-sign-identity-175.md) · [Right-energy cuts](ordinary-projective-label-cuts-175.md)
+
+At the genuine marked cold center the derivative norm on coordinate supremum grows as \(\sqrt n\), even on mean-zero inputs. This rules out the full coordinate contraction proposed in the draft. The three verified displacements remain inside the original conditional tube, and the actual growing prefix still needs a signed estimate. [Cold obstruction](cold-full-sup-derivative-obstruction-175.md)
+
+Three gateway drafts were archived, with independent review and ranked follow-ups. [Review](api-astra-review-175.md) · [Acceptance](round-175-acceptance.json) · [Coordinator](../coordination/round-175.json)
+
+## Round 176
+
+An explicit shifted-quadratic fiber and the actual high-level energy give a new vertical saving in the inverted affine chart. After the monomial row is priced, the full actual weighted diagonal has bound \(O(p^{37/16-1/4320})\) without a logarithm. The main incidence upper still completes \(g(C)\) by one. [Full diagonal proof](ordinary-inverted-vertical-power-saving-176.md)
+
+The relative energy of two diagonal tori controls true heavy overlap under nonmonomial projective maps. Its use in the generic right action gives pointwise \(O(p^{1-1/1280-1/840})\) and parameter-row squared estimates. The summed generic energy still needs a separate rich-parameter argument. [Projective overlap proof](ordinary-two-torus-projective-overlap-176.md)
+
+The unsigned cold test gives fourth-step upper \(0.0588191444\), beyond the permitted \(0.05\). The actual fourth step and growing signed prefix remain open. Three replies and their ranked tests are archived. [Review](api-astra-review-176.md) · [Acceptance](round-176-acceptance.json) · [Coordinator](../coordination/round-176.json)
+
+## Round 177
+
+An amplified rich-dilation incidence controls the shifted multiplicative energy of extracted heavy pieces. The genuine four-heavy first mass and the sorted output estimate improve the whole weighted diagonal to \(O(p^{37/16-1/4320-1/512})\). The full shifted weighted energy is \(O(p^{3/2-3/418})\), improving common affine parameter classes and the pure differences. The coupled sufficient diagonal and whole generic rich estimate remain open. [Ordinary proof](ordinary-shifted-energy-four-factor-diagonal-177.md)
+
+The genuine seed-centered geometry gives radius \(3/8\) and contraction \(0.545\) at the same conditional cutoff. Ten actual fixed displacements through \(V_{612}\) fit. The remaining signed growing prefix and actual counting source threshold still require proof. [Cold proof](cold-seed-centered-larger-tube-177.md)
+
+Two complete drafts, the primary timeout, and the HTTP 403 retry were archived. [Review](api-astra-review-177.md) · [Acceptance](round-177-acceptance.json) · [Coordinator](../coordination/round-177.json)
+
+## Round 178
+
+The actual weighted slope-product point-plane estimate gives right energy \(O(p^{11/4-3/836})\). Direct affine action of the true weights gives matching-number-one covariance \(O(p^{29/16-3/3344})\), without the earlier logarithm. [Weighted energy and action](ordinary-weighted-slope-product-incidence-178.md)
+
+Both parabolic and transverse projections have bounded left-relative fibers outside explicit exceptions. Their actual squared row masses are \(O(p^{11/8})\). With the four-heavy transfer this gives the whole full-diagonal \(O(p^{3673/1600})\), and a target-scale shared-\(r/b\) cut with one prescribed projective label relation. [Projection and diagonal proofs](ordinary-parabolic-row-mean-square-178.md)
+
+The ten-step cold bounds and conditional \(V_{611}\) threshold were checked again. Growing signed confinement and the sufficient ordinary target-scale estimates are open. Two gateway returns and one HTTP 403 are archived. [Review](api-astra-review-178.md) · [Acceptance](round-178-acceptance.json) · [Coordinator](../coordination/round-178.json)
+
+## Round 179
+
+An exact equal-output product identity reduces the true weighted diagonal to a weighted affine triple moment, giving \(O(p^{9/4})\) with no logarithm. A one-role relation costs \(O(p^{11/6})\); the paired maps preserve \(J=d(k+d-1)/k\). Their summed weighted estimate, with actual \(D,D'\) and \(w(s)\), is the primary unresolved ordinary test. [Affine triple proof](ordinary-affine-triple-diagonal-179.md)
+
+Signed secants on the Jacobi peak and the compact covariance give a positive lower limit for the actual normalized \(R_{611}\) throughout the original complex square. Its unnormalized norm grows at least as a positive multiple of \(\sqrt n\), ruling out the fixed-height counting shortcut. Growing-depth signed confinement remains open. [Cold obstruction](cold-fixed-counting-source-obstruction-179.md)
+
+Three HTTP 403 receipts, two native Astra deductions and the independent audit were retained. The user requested a pause at this checkpoint. Ranked proposals are saved, with no next-round dispatch. [Review](api-astra-review-179.md) · [Acceptance](round-179-acceptance.json) · [Coordinator](../coordination/round-179.json)
+
+## Round 180
+
+The paired invariant \(J\) is the cross-ratio \([\pi';\pi,\rho,\rho']\) of the two lines. The classes \(J=0\) and \(J=1\) are exact point coincidences, and together they cost \(O(p^{2399/1280})\). Each generic class costs \(O(p^{15/8})\), but these bounds are positive and cannot be summed, so the whole diagonal stays at \(O(p^{9/4})\). [J cross-ratio](ordinary-paired-J-cross-ratio-180.md)
+
+For every \(\lambda\ne1\), the row autocorrelation is \(O(p^{11/8})\), by a genuine line family and the Stevens–de Zeeuw incidence bound. This gives \(\sum_\xi W_\xi^{3/2}=O(p^{43/16})\), right energy \(O(p^{43/16})\) and one-match covariance \(O(p^{115/64})\). The energy route cannot pass \(p^{13/8}\) when \(M_1\asymp p\). [Row autocorrelation](ordinary-mixed-row-autocorrelation-180.md)
+
+The normalized \(R_{602}\) lies between zero and \(9.07\cdot10^{-209}\), so the growing cold prefix holds exactly when its increments stay delocalized. An \(n\)-independent sup/RMS bound (Criterion D) is proved sufficient, but not necessary. [Cold prefix](cold-growing-prefix-delocalization-180.md)
+
+The GPT gateway account was out of quota. Native Claude subagents ran the three missions, and a separate agent audited them. The user asked to stop after this round. [Review](native-claude-review-180.md) · [Acceptance](round-180-acceptance.json) · [Coordinator](../coordination/round-180.json)
+
 ## Tools and working method
 
 - At the user's request, each research window closes with one or two independently ranked next steps from each route. Ask for the decisive mathematical quantity and what would confirm or rule out the proposed step. Main checks the premises, consolidates overlaps, and records the resulting priorities in the acceptance and ledger before dispatching another full window.

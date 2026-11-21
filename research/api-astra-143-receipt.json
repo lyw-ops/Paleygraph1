@@ -1,0 +1,75 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-143-inflight.json",
+    "sha256": "d013c042b8f21ade6cad39b8d97857db4b8422c10e188998bc90a00fc9d73a3c"
+  },
+  "same_prompt_retry": {
+    "path": "coordination/round-143-translated-retry.json",
+    "sha256": "5717a31b902a647a159023b4d7e6db8c82861ff0dca1e35a1a935e3d49a19887"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-terminal-distinct-triples",
+      "model": "gpt-6.2-astra",
+      "initial": {
+        "completion": true,
+        "http_status": 200,
+        "model_matches": true,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 18367,
+          "completion_tokens": 2815,
+          "total_tokens": 21182
+        }
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-terminal-distinct-triples-143.txt",
+        "sha256": "66c214881b5949c409df9363a62b0b49beafec29cb355c950c7fd5a044304367"
+      }
+    },
+    {
+      "call_id": "cold-translated-label-intersection",
+      "model": "claude-fable-5-2",
+      "initial": {
+        "completion": false,
+        "http_status": 429
+      },
+      "retry": {
+        "model": "gpt-6.2-astra",
+        "completion": true,
+        "http_status": 200,
+        "model_matches": true,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 16423,
+          "completion_tokens": 2566,
+          "total_tokens": 18989
+        }
+      },
+      "archive": {
+        "path": "research/api-astra-cold-translated-label-intersection-143.txt",
+        "sha256": "099e45f5f689f0f87070addbf2bd5627e8c9af1a390a9b2e4d1f8c45f388c26d"
+      }
+    },
+    {
+      "call_id": "cold-unshifted-rank-ten-return",
+      "model": "gpt-6.2-astra",
+      "initial": {
+        "completion": true,
+        "http_status": 200,
+        "model_matches": true,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 14480,
+          "completion_tokens": 3555,
+          "total_tokens": 18035
+        }
+      },
+      "archive": {
+        "path": "research/api-astra-cold-unshifted-rank-ten-return-143.txt",
+        "sha256": "384fa456059a20d7966b616718017da79e154e8e1091439b07c09e6a2d270639"
+      }
+    }
+  ]
+}

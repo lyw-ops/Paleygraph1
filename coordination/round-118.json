@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "round": 118,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 118 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-117-acceptance.json",
+      "sha256": "da278829b372d92a497d6b359f67f2ae547cf80eb5ccf9dc1818311d444b0794"
+    },
+    "current": {
+      "path": "research/round-118-acceptance.json",
+      "sha256": "30ceb37502c5d209b16dbdc54ec5ea54808b042da8588b8618e403b177546ea2"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold-packet-price",
+      "route": "Actual common cold complex domain",
+      "effect": "reformulated",
+      "before": "The interior derivative transfer reduced the angular estimate to P+ZCH and separate outer and residual cutoffs.",
+      "after": "The complete finite word is odd under the physical sheet and base-packet hypotheses, uses two quotient exceptions, and has a third cutoff for the marked column inside the word. Exact inverse deletion costs o(1) on O(n^beta) true coordinates.",
+      "remaining": "Find the same actual moving starter with a uniform rank/coefficient price and angular margin, then continue the true marked branch to the necessary levels.",
+      "evidence": [
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        },
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Actual weighted adjusted overshoot",
+      "effect": "unchanged",
+      "before": "The actual stationary and true optimizer weights give separate sufficient real criteria without a cap rate.",
+      "after": "The current round improves the independent cold route.",
+      "remaining": "Prove a uniform weighted overshoot bound at fixed floors tending to zero, or exclude a persistent weighted mark using actual slack.",
+      "evidence": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        }
+      ]
+    },
+    {
+      "id": "legendre",
+      "route": "True reciprocal trilinear sum",
+      "effect": "unchanged",
+      "before": "The actual reweighting has exact opposite support and constant-twist baseline.",
+      "after": "The cold structural parity does not apply to unknown real optimizer weights.",
+      "remaining": "Prove the genuine real trace estimate, including the standalone positive singleton, or eliminate the actual residual by another argument.",
+      "evidence": [
+        {
+          "path": "research/reciprocal-reweighting-117.md",
+          "sha256": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The exact outer inverse and complete parity separate the real arithmetic bottleneck from exception costs. Continue the genuine growing packet estimate and the independent rate-free weighted real completion.",
+  "next_calls": [
+    {
+      "id": "weighted-real-slack",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the true stationary- or optimizer-weighted adjusted overshoot vanish through primes without a cap-rate assumption?",
+      "why_now": "This is an independently sufficient direct route to the ordinary limit at fixed floor and cap.",
+      "scope": "Use the actual sign-matched fixed-cap row and true favored factor at the same floor. Keep z_+ in the estimate. If using a critical-rate rectangle, state the added cap assumption and exact source and target locations.",
+      "if_yes": "Give actual prime-uniform weighted estimate and precise two-sign limiting consequence.",
+      "if_no": "Give an exact obstruction with verified genuine hypotheses.",
+      "if_inconclusive": "Derive a new useful weighted bound or a precisely identified uncancelled real term.",
+      "inputs": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        },
+        {
+          "path": "research/reciprocal-reweighting-117.md",
+          "sha256": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764"
+        }
+      ]
+    },
+    {
+      "id": "three-cold-packet-cost",
+      "priority": 2,
+      "change_id": "cold-packet-price",
+      "question": "Can the genuine three-cutoff odd word be given a uniform rank/coefficient bound at one moving physical starter?",
+      "why_now": "Exceptions are already analytically subcritical, and no geometric punctual term needs to be paid in the supplied structural representation.",
+      "scope": "Use one actual predictor and a common physical sheet. Do not infer uniform rank control from finite interpolation. Preserve separate outer, residual and marked inverse cutoffs, plus independent standalone P_a.",
+      "if_yes": "Give actual prime-assessable packet estimates with strict angular margin and domain.",
+      "if_no": "Identify the precise first resource that fails and its mathematical scope.",
+      "if_inconclusive": "Derive a usable new signed mass or rank estimate on the genuine finite word.",
+      "inputs": [
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        },
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        }
+      ]
+    },
+    {
+      "id": "legendre-trilinear",
+      "priority": 3,
+      "change_id": "legendre",
+      "question": "Can actual prime arithmetic control the reciprocal Legendre reweighting jointly with the positive singleton?",
+      "why_now": "The uniform paired differences and exact sector baseline cut down the original residual.",
+      "scope": "Keep actual stationary laws and the same h on the actual orbit. Treat arithmetic, finite tests and conditional lower bounds separately.",
+      "if_yes": "Give the signed sufficient bound and conditional exclusion.",
+      "if_no": "Identify a true counterexample to the proposed estimate and its scope.",
+      "if_inconclusive": "Give a new checkable identity for the actual trilinear trace.",
+      "inputs": [
+        {
+          "path": "research/reciprocal-reweighting-117.md",
+          "sha256": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764"
+        },
+        {
+          "path": "research/paired-legendre-cubic-116.md",
+          "sha256": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which new results withstand independent read-only verification?",
+      "why_now": "Both routes rely on actual measures and norms.",
+      "scope": "Check precise hypotheses, parity, prime order, rate and fixed-floor quantifiers before asserting any reduction.",
+      "if_yes": "Give verified statements and a ranked closeout.",
+      "if_no": "Name the first false claim and exact effect on the route.",
+      "if_inconclusive": "State the precise checked portion.",
+      "inputs": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        },
+        {
+          "path": "research/reciprocal-reweighting-117.md",
+          "sha256": "2904295c9151f15f332c1a931b3d3fed85c7d2d3fa8f054fce1402d22563e764"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    }
+  ]
+}

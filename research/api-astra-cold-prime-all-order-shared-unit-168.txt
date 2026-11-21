@@ -1,0 +1,221 @@
+## Result
+
+For the actual eligible prime family \(p\to\infty\) used in the cold construction (in particular \(p\equiv1\pmod 4\)), retain
+
+\[
+n=t_0=\frac{p-1}{2},\qquad R=V_{601}-V_{600},\qquad
+V_s=V_{600}+sR,
+\]
+
+the original complex square, both Jacobi lifts, the physical marking at coordinate \(0\), and the translated price \(P_{5000}\). Let
+
+\[
+D_{602}=\operatorname{diag}\Phi'_{t}(V_{602}),\qquad
+B=KD_{602}.
+\]
+
+The all-order pure-seed terms sharing the same actual \(R^2\) label have an explicit common scalar factor. This factor preserves the first-order cancellation, but it does **not** by itself produce a summable transported tail under the currently proved \(KD_{602}\) estimates.
+
+### 1. All-order common scalar
+
+At bulk coordinates the two lifts give
+
+\[
+S=s_n\frac{z+z^{-1}}2,\qquad
+s_n=2\sqrt{\frac pn}.
+\]
+
+Consequently,
+
+\[
+[S^{2l}]_{\mathrm{Laurent}\,0}
+=
+s_n^{2l}\frac{\binom{2l}{l}}{4^l}.
+\]
+
+For the even Taylor source
+
+\[
+r^{\mathrm b}
+=
+\sum_{l\ge0}(-1)^l b_l(4t)^{-l-1/2}
+R^2\int_0^1(1-s)V_s^{2l}\,ds,
+\qquad
+b_l=(2l+1)\frac{\binom{2l}{l}}{4^l},
+\]
+
+the pure-seed component \(V_s\rightsquigarrow S\) therefore contributes, relative to the \(l=0\) \(R^2\) source, the common factor
+
+\[
+\boxed{
+\Xi_{\mathrm{all}}(t)
+=
+\sum_{l\ge0}(-1)^l
+(2l+1)\frac{\binom{2l}{l}^{\,2}}{16^l}
+\left(\frac{s_n^2}{4t}\right)^l
+}.
+\]
+
+The first terms are
+
+\[
+\Xi_{\mathrm{all}}(t)
+=
+1-\frac{3s_n^2}{16t}
++\frac{45s_n^4}{256(4t)^2}
+-\frac{350s_n^6}{4096(4t)^3}
++\cdots.
+\]
+
+Since \(U_n=s_n^2/2=2p/n\), the first correction is exactly
+
+\[
+1-\frac{3U_n}{8t},
+\]
+
+recovering the common factor \(\Xi(t)\) already obtained from the first two Taylor orders.
+
+The series is absolutely convergent on the original square. Indeed, for sufficiently large \(p\),
+
+\[
+\left|\frac{s_n^2}{4t}\right|
+\le 0.127
+\]
+
+uniformly on the square, while the coefficient asymptotic is \(O(l)\). Thus the pure-seed scalar may be summed before taking absolute values. The marked coordinate is not governed by this bulk scalar: replacing the bulk expression by the physical marked radical at \(t_0=n\) costs, after the first \(K\),
+
+\[
+O(n^{-1/2}\varepsilon^2),
+\]
+
+with the same charge as in the earlier two-order calculation. The bad-character and lift corrections retain their separate charges.
+
+### 2. The first regular surviving label
+
+After the unit branches are removed once, the first regular surviving label is the actual two-increment label
+
+\[
+R^2.
+\]
+
+Its pure-seed contribution is
+
+\[
+r_{\mathrm{reg}}^{\mathrm{seed}}
+=
+\Xi_{\mathrm{all}}(t)\,
+\frac{R^2}{2\sqrt{4t}},
+\]
+
+up to the separately charged marked and bad-coordinate repairs. The \(R\)-factors retain their actual first-moment charges; no additional subtraction of their norm is legitimate after taking an unsigned norm.
+
+For every fixed outer exponent \(j\),
+
+\[
+B^jK r_{\mathrm{reg}}^{\mathrm{seed}}
+=
+\Xi_{\mathrm{all}}(t)\,
+B^jK\!\left(\frac{R^2}{2\sqrt{4t}}\right)
+\]
+
+on the bulk. Hence the all-order summation improves the **initial source price** but does not alter the transport operator \(B\).
+
+This is the key obstruction: the scalar factor is attached before transport. It is not a multiplier that can be moved through \(K\) or through \(D_{602}\), and it gives no new factor depending on \(j\).
+
+### 3. Why the present estimates do not prove a summable full transport
+
+The available actual height-\(602\) estimates are
+
+\[
+\|B\|_{P_{5000}}<1.066,
+\qquad
+\|B\|_{2\to2}\le 0.518,
+\]
+
+together with the entrywise column estimate
+
+\[
+\|B^jK\|_{\max}
+\ll
+\min\{n^{-1/2}(1.066)^j,\,(0.518)^j\}.
+\]
+
+The interpolation of these two bounds gives
+
+\[
+\sum_{j\ge0}\|B^jK\|_{\max}
+=O(n^{-0.455}),
+\]
+
+but only for a **single column** or a finite marked-column combination. The \(R^2\) source is a distributed word source, not a single physical column. Applying the entrywise estimate to it would require an \(\ell^1\)-type bound on the full source with the correct \(n\)-scaling; the currently available \(P_{5000}\) price and first-moment comparison do not provide that.
+
+Conversely, the \(2\)-norm contraction \(0.518^j\) cannot be converted into a useful translated \(P_{5000}\) estimate for this physical packet. The pure-seed obstruction recorded previously shows that small frequency entries and counting contraction alone do not control the physical packet price.
+
+Therefore the presently justified statement is
+
+\[
+\boxed{
+\text{The all-order common pure-seed factor exists and improves the initial }R^2
+\text{ source price, but no summable full transport }
+\sum_{j\ge0}\|B^jK r_{\mathrm{reg}}^{\mathrm{seed}}\|_{P_{5000}}
+\text{ follows.}
+}
+\]
+
+The failure is not a refutation of summability on the actual geometry. It is a precise failure of the available sufficient bound: the scalar cancellation is source-side, whereas the missing estimate is a signed translated transport estimate for the distributed \(R^2\) channel.
+
+### Order of limits
+
+All formulas above are uniform on the original square for each sufficiently large eligible prime \(p\), with \(n=(p-1)/2\), and for both lifts. The valid order is:
+
+1. sum the absolutely convergent pure-seed Laurent/Taylor series at fixed \(p\);
+2. charge the physical mark and bad-character repairs;
+3. analyze the outer transport \(j\to\infty\);
+4. only then take \(p\to\infty\).
+
+The current entrywise argument controls the \(j\)-sum for marked columns, but does not justify interchanging the \(j\)-sum with the \(p\to\infty\) limit for the full distributed \(R^2\) source.
+
+## Evidence and hypotheses used
+
+- Actual increment \(R=V_{601}-V_{600}\), not an abstract increment.
+- Physical \(t_0=n=(p-1)/2\) at the marked coordinate.
+- Bulk \(t\) elsewhere on the original square.
+- Both lifts and the original square are retained.
+- The scalar unit branch is removed once; regular branches and marked repairs remain charged.
+- The common Jacobi seed is \(S=2\sqrt n\,Ke_0\) with \(s_n=2\sqrt{p/n}\).
+- Existing paired first-moment savings justify the improved \(R^2\) source price.
+- Existing \(KD_{602}\) bounds justify column summability, but not distributed-source transport.
+
+## Remaining gap
+
+A useful signed cold transfer now requires one of the following:
+
+1. a translated operator estimate for \(B^jK\) restricted to the actual \(R^2\)-generated regular channel, with a rate \(<1\) in a compatible norm; or
+2. a genuine moving starter/nonlinear bridge that avoids summing the full frozen translated response.
+
+## Ranked next tests
+
+### 1. Highest priority: signed partial sums on the actual \(R^2\) channel
+
+For eligible primes \(p\), compute or rigorously majorize
+
+\[
+L_J(R^2)
+=
+\sum_{j=0}^{J}B^jK
+\left(\frac{R^2}{2\sqrt{4t}}\right)
+\]
+
+using the actual two lifts, physical mark, and original square. Track the \(P_{5000}\) price before absolute values, with \(J\) through the natural cutoff \(J\asymp c\log n\). Test whether the signed partial sums remain uniformly bounded or contract after the all-order factor \(\Xi_{\mathrm{all}}\). This directly tests the missing transport statement rather than another source-only estimate.
+
+### 2. Second priority: restricted nonlinear bridge
+
+Prove a weighted estimate for \(B\) on the subspace generated by the actual regular \(R^2\) words, rather than on all translated packets. The target is a norm \(P^\ast\) satisfying
+
+\[
+\|B^jK r_{\mathrm{reg}}^{\mathrm{seed}}\|_{P_{5000}}
+\le C\theta^j\|r_{\mathrm{reg}}^{\mathrm{seed}}\|_{P^\ast},
+\qquad \theta<1,
+\]
+
+with the physical mark charged separately by \(O(n^{-1/2}\varepsilon^2)\). If this restricted estimate fails, the next viable route is a moving starter and nonlinear bridge rather than further same-label summation.

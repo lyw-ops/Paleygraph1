@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "round": 153,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 153 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-152-acceptance.json",
+      "sha256": "af601ab0ae825255a1fe806d0f40496699503c3d35c9ae688d69c4a13e5c24cb"
+    },
+    "current": {
+      "path": "research/round-153-acceptance.json",
+      "sha256": "9e89fecce300c3eeaf8f1c823f16ec50781cb7ee5045192e3eca342c3cb6fe23"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "reformulated",
+      "before": "The true deficit-weighted affine moment lacks an O(p) upper, with uniform anchors already controlled.",
+      "after": "The true moment equals p^(3/2) times a regular signed phase average of three complete Jacobi factors up to O(p). Fixed bounded-degree relations can all be removed at O(p).",
+      "remaining": "Prove the actual p^(-1/2) phase average upper, or a prime-only restriction for the regular weighted law. The direct critical-mask route is unchanged and the true first-spill optimum still lacks an all-prime upper.",
+      "evidence": [
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "new_obstruction",
+      "before": "Complete B3 rate below 0.6931 and actual remaining step below 0.4112/0.4122. The full signed two-height comparison remains open.",
+      "after": "The actual direct two-height difference from B3 squared is below 0.66381 by composing positive weights per column. A principal positive lower above 0.6174 rules out repricing that comparison to 0.51961239.",
+      "remaining": "Find signed arithmetic savings in the actual pair, or a different confinement argument. The signed operator itself and consequent invariant ball and half-step remain open.",
+      "evidence": [
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Complete Jacobi factorization makes the remaining ordinary critical phase estimate explicit. Direct cold block pricing improves the whole weighted comparison and its principal subsystem rules out repricing alone.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-regular-jacobi-average",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the fully regular product of three normalized Jacobi factors be bounded under the actual near-critical deficit weights?",
+      "why_now": "The true moment reduces to a weighted phase average. All degenerate and fixed algebraic relations cost only O(p), so controlling their sizes cannot settle the critical branch.",
+      "scope": "Use true nonnegative retargeted b, physical mark, near-critical m_eff~n/sqrt(p), vanishing relative pinned projection and the exact actual weight w. Both third-factor lifts, actual within-set phase deficit and the order of prime and floor limits matter.",
+      "if_yes": "Prove a real signed average upper O(p^-1/2), or another ordinary-prime restriction that contradicts the critical lower on the same regular law.",
+      "if_no": "Prove a specific obstruction to a proposed phase argument with relaxed or square scope stated.",
+      "if_inconclusive": "Obtain a quantitative decomposition of the regular phase or a genuine weighted saving relative to the complete individual sizes.",
+      "inputs": [
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/parallel-rectangle-20.md",
+          "sha256": "5a2bab72af7de9f1b9abdae5091172ce1375f93e6a3a7480633ea142a612d333"
+        },
+        {
+          "path": "research/anchored-repair-20.md",
+          "sha256": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721"
+        },
+        {
+          "path": "research/critical-sets.md",
+          "sha256": "1b7adbf29a540f6801d79667ca1ae9245946e56435b9843b724f4b5a07577b10"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-high-face-selection",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the original high first-spill cost be made small by a true optimal-face selection on ordinary primes?",
+      "why_now": "A minimum over the opposite optimal face suffices. Density and global F squared caps alone force a time requirement outside the fixed-gap setting.",
+      "scope": "Use the original first reflection, actual middle d, entire high receiver, exact common complementary zero set, true signs, both roots and diagonal excluded, fixed floor and one selectable marked T.",
+      "if_yes": "Produce a true minimizing or feasible opposite optimum with o(1) signed cost, or bound the actual secondary dual maximum.",
+      "if_no": "Identify an exact obstacle for a specified face selection or phase approximation, without treating an arbitrary point of the cone as a true optimum.",
+      "if_inconclusive": "Prove a new prime bound for a specified receiver/source subset with errors that sum to o(1).",
+      "inputs": [
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/filtered-support-46.md",
+          "sha256": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e"
+        },
+        {
+          "path": "research/api-astra-review-153.md",
+          "sha256": "b2762dba3b4d3bc316d6a507c4a2b4e9b4cb30a23662bd41ddc35bdfdd444999"
+        }
+      ]
+    },
+    {
+      "id": "cold-genuine-label-after-three-center-composition",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can an actual fixed other-center or Picard label yield a signed gain beyond the obstructed positive two-height composition?",
+      "why_now": "The new positive composition is quantitatively understood and cannot be closed by changing only the positive price. An actual arithmetic coincidence at two vertices is needed.",
+      "scope": "Keep both true heights, original marked t0=n and square, both lifts and complete translated P5000. Choose a specific gamma F4 or true Picard contribution; keep all other selected and residual terms honest. Target 0.51961239 direct two-height difference or 0.50179639 same-row with transfer.",
+      "if_yes": "Prove a sufficient signed square estimate or a certified signed gain for a concrete subset in the correct translated class.",
+      "if_no": "Show a specified pair of arithmetic labels cannot overlap, or a named enriched comparison still cannot close the budget.",
+      "if_inconclusive": "Derive an exact retained slice and price its real complement, or extend one signed collision from C1 to an actual translated input.",
+      "inputs": [
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/rank-four-arithmetic-56.md",
+          "sha256": "7c7fcff4cfec674ec7325538ddddc5738b37038802409fb1c461bedc05860d56"
+        },
+        {
+          "path": "research/astra-ranknext-58.md",
+          "sha256": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which Round 154 deductions survive independent review?",
+      "why_now": "The fully regular weighted phase and true cold signed product require different scope and normalization checks.",
+      "scope": "Read-only. Preserve the actual p family, positive coefficients, anchor law, fixed-floor order, all marks and both lifts.",
+      "if_yes": "State verified scope and rank two follow-ups.",
+      "if_no": "Identify the first invalid step.",
+      "if_inconclusive": "Separate verified pieces and missing estimates.",
+      "inputs": [
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

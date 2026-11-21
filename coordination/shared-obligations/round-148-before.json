@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T20:41:32.605894Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-147.json#next_calls",
+  "coordinator_sha256": "c3e43301f34dd4efd17d9a3adc471fb67aa93c3748631976c91a164b006be475",
+  "call_ids": [
+    "ordinary-prime-oriented-terminal-mask",
+    "ordinary-prime-pinned-repair-charge",
+    "cold-signed-picard-residual"
+  ],
+  "routes": {
+    "r148/ordinary-prime-oriented-terminal-mask": {
+      "question": "Can prime arithmetic bound the oriented terminal collision or the signed terminal pair on a true optimal face?",
+      "scope": "Use ordinary primes p=1 mod 4, fixed tau first, actual zero-start orbit, true opposite optima, actual near-cap pairs, physical mark and a selectable T tending to infinity with T+1 in the true window. Seek the larger sign or both signs. Keep square controls separate.",
+      "remaining": "Prove a genuine prime-uniform estimate for the oriented collision or the signed terminal pair. Renew the independent direct projected positivity-repair test on the actual sparse negative defect."
+    },
+    "r148/ordinary-prime-pinned-repair-charge": {
+      "question": "Can prime-specific information lower-bound the signed Jacobi image of the actual pinned hinge deficit?",
+      "scope": "Use actual Z=X/M and d_i=(T^(-1/3)-Z_i)_+ on the bulk with d_0=0 on both signs, ordinary primes only, fixed tau then growing marked T then tau to zero. Keep the exact constrained projection and spill onto all remaining coordinates.",
+      "remaining": "Prove a genuine prime-uniform estimate for the oriented collision or the signed terminal pair. Renew the independent direct projected positivity-repair test on the actual sparse negative defect."
+    },
+    "r148/cold-signed-picard-residual": {
+      "question": "Can the actual height residual share signed arithmetic labels that bring its physical arity-one price below 0.074?",
+      "scope": "Use true 601 and 602 rows on the original closed cold square, actual t0=n, Y_h=V_h minus the fixed nine-center row, both full lifts and the two-pair P5000 class for K d_prime(S)Y_h. Joint 0.224, or the actual same-row square target 0.580184, is a separate alternative.",
+      "remaining": "Match actual signed Picard residual labels at the needed 0.074 or improve the joint 0.224 price. The actual full derivative and invariant ball remain open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-oriented-terminal-mask": [],
+    "ordinary-prime-pinned-repair-charge": [],
+    "cold-signed-picard-residual": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The real oriented terminal estimate involves a selected true optimal face and signed transported activation. The independent pinned-positivity call tests a pointwise signed Jacobi charge of an actual hinge deficit and does not assume any chosen optimum. The cold signed Picard residual is a different marked analytic operator."
+}

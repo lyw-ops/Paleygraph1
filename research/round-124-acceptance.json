@@ -1,0 +1,84 @@
+{
+  "round": 124,
+  "accepted_at_utc": "2026-11-19T15:42:07Z",
+  "previous": "research/round-123-acceptance.json",
+  "previous_sha256": "d57d5b95b860f805945275983205bd778bdad115baef49421730748bbb1018d5",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-123.json",
+    "sha256": "99472e42182135e26d3fb2a726275fd51782a5ada72a1da8f27a3954cdebc487"
+  },
+  "proof_and_code_sha256": {
+    "research/cold-signed-time-kernel-transfer-124.md": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff",
+    "research/api-astra-review-124.md": "d1c667540afb853dfccb764b6d4ba9d368300fdc72353dcdd7611e4dd1f4098a",
+    "research/api-astra-overflow-124.txt": "a21934d367efa21bc074387eeb5c7b2fb2043a14cabc467b3d8d1ebd5fcf51f3",
+    "research/api-astra-124-receipt.json": "decff794c72a9453c422db968a825325c6559b4e9beb7bfc356eebc45d33c559"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/api-astra-review-122.md": "c7582cac6d78ede067a22f8d57ac789c6b0805f1bcaf0ee4aeccbc296820645e",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/frozen-entry-transfer-105.md": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1",
+    "research/cold-newton-mark-transfer-115.md": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a",
+    "research/cold-exact-exception-budget-118.md": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe",
+    "research/real-masked-functional-stability-123.md": "53feec15a0d57f63077477e4aec6099d4fa3942e0f9ca1310f73811886b42773",
+    "research/api-astra-review-123.md": "a319bd28e6f029c22182c4c64d850ece8ddeaec35e2c0f91e7be795c18b0f8aa",
+    "research/early-ordinary-masked-cubic-121.md": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/masked-conditional-spectrum-121.md": "467bc6f347d4dbbdb07b14ff5de99488e99dd89b4fe7aa8d28494ac7366d0fa4",
+    "research/ordinary-slack-dissipation-121.md": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01",
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, moving cold prefixes",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test a power bound for the actual residual at height 600.",
+        "Investigate signed displacement at longer prefixes. Neither the reported threshold comparison nor its length gives an actual obstruction."
+      ]
+    },
+    {
+      "name": "/root/audit_124",
+      "status": "completed",
+      "ranked_closeout": [
+        "Establish common sheets, the decaying residual and the frozen summability input together at one genuine moving height.",
+        "At the same height prove a signed estimate for the low-power insertion with its actual time dependence and explicitly removed exceptions."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek the independent prime upper on the explicit logarithmic-height real cap proxy at fixed genuine repair depth, retaining both true factors and the exact output mask.",
+    "At a genuine moving cold starter, prove the two low-power frozen factors and actual signed derivative insertion at the common quadratic displacement scale."
+  ],
+  "proof_scope": [
+    "The actual varying derivative or adjacent secant product with rightmost K has an exact expansion with one signed linear insertion between two frozen coefficients and all quadratic terms between two frozen coefficients. The interior time-dependent kernel needs only its uniform counting contraction.",
+    "The quadratic remainder has O(n rho_E^2 Delta^2/(1-q)) entry-price sum with either start or end time fixed. Here rho_E is the normalized second-norm diagonal displacement and Delta is the sum of maximum-entry frozen kernel bounds. This avoids a factor equal to the number of actual time steps.",
+    "At a compatible starter with Delta=O(n^(-beta)) and n^((1-beta)/2)rho_E tending to zero, each frozen factor in the signed sum only needs the separate cutoff ceil(beta log n/(2|log q|)). Time-varying bounded exceptions of size O(n^beta) cost at most O(n^(-beta)) in either linear summed estimate.",
+    "Previously verified height-600 per-power packet and counting majorants give the frozen summability input Delta=O(n^(-0.467)) at this fixed height. Heights 100 and 250 give Delta=O(n^(-1/2)). These are fixed-reference deductions."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw comparison commits a stage error by treating the sufficient frozen displacement cutoff at an already compatible starter as a mandatory deadline on physical Picard time. The 0.515 bound controls the first actual outgoing secant only.",
+    "The actual Round 118 exception bound at O(n^beta) sites is O(n^((1-beta)/2)r). The raw factor O(r) is incorrect.",
+    "No genuine moving cold starter, prime-uniform signed interior insertion, marked angular bound, prime upper in the real branch, cap rate, or ordinary theta limit is established."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new field computation or interval certificate. Raw API response and completion receipt are preserved."
+  ],
+  "independent_review": [
+    "A read-only Astra audit verified both telescoping orientations and endpoint sums, exact kernel indices, normalized/counting bounds, cutoff and fixed height scope. It checked the raw logical and exceptional-exponent corrections."
+  ]
+}

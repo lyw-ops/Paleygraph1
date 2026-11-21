@@ -1,0 +1,197 @@
+## Result
+
+For the actual ordinary-prime family, one can prove a nontrivial **localized signed-spill estimate**, but not the required prime-uniform pointwise bound.
+
+Let
+\[
+p\equiv1\pmod 4,\qquad n=\frac{p-1}{2},
+\]
+with the physical mark at the identity coordinate \(0\). Use the actual zero-start Picard orbit at fixed floor \(\tau>0\), and take a growing depth \(T=T(p)\) inside the established simultaneous marked window. For either sign \(\sigma\), write
+\[
+Z=\frac{X_{\sigma,T}}{M_T},\qquad
+u=T^{-1/3},\qquad
+d_0=0,\qquad d_i=(u-Z_i)_+\quad(i\ne0).
+\]
+All expectations below are normalized counting expectations
+\[
+\mathbb E f=\frac1n\sum_i f_i
+\]
+over the \(n\) physical coordinates. The Jacobi operator satisfies
+\[
+K^2=I-J,\qquad \|K\|_{2\to2}\le1.
+\]
+
+The previously established actual-orbit estimates give
+\[
+\mathbb E d^2=O_\tau(u^3+T^{-1})=O_\tau(T^{-1}).
+\]
+Therefore
+\[
+\mathbb E (Kd)^2
+=\mathbb E d^2-(\mathbb E d)^2
+\le \mathbb E d^2
+=O_\tau(T^{-1}).
+\]
+
+Define the genuinely bad signed-spill set
+\[
+E_\sigma
+=
+\left\{i\ne0:\ \sigma(Kd)_i<-\frac u2\right\}.
+\]
+By normalized Chebyshev,
+\[
+\frac{|E_\sigma|}{n}
+\le
+\frac{4\,\mathbb E[(Kd)^2]}{u^2}
+=
+O_\tau\!\left(\frac{T^{-1}}{T^{-2/3}}\right)
+=
+O_\tau(T^{-1/3}).
+\tag{A}
+\]
+
+Hence, for both signs and all sufficiently large \(T\),
+\[
+\sigma(Kd)_i\ge-\frac12T^{-1/3}
+\]
+outside a set of relative size \(O_\tau(T^{-1/3})\).
+
+Using the exact pinned projection identity
+\[
+(Z+2L_\sigma d)_i
+=
+\max(Z_i,u)+\sigma(Kd)_i
+-\mathbb E d
+-\frac{2\ell_i\,\ell^{\mathsf T}d}{\ell_0},
+\]
+the final two terms are \(O_\tau(\mathbb E d)=O_\tau(T^{-2/3})\) uniformly on the bulk. Thus outside \(E_\sigma\),
+\[
+(Z+2L_\sigma d)_i
+\ge
+u-\frac u2-O_\tau(T^{-2/3})
+>0.
+\tag{B}
+\]
+
+So the exact one-reflection correction is positive on all but
+\[
+O_\tau(nT^{-1/3})
+\]
+bulk coordinates, while preserving:
+
+- the actual physical mark \(0\);
+- the exact mean;
+- the \(\sigma\)-sector;
+- inversion-evenness;
+- the actual prime-specific projected average \(Z\).
+
+This is a genuine global-spill estimate, not merely a bound on the local defect support. The original defect support itself satisfies
+\[
+|\{i:d_i>0\}|=O_\tau(nT^{-1/3}),
+\]
+but (A) controls the larger set created by Jacobi transport.
+
+## What this does not prove
+
+It does **not** prove the desired pointwise estimate
+\[
+\inf_{i\ne0}\sigma(Kd)_i\ge-\frac12T^{-1/3}.
+\]
+The \(L^2\)-contraction of \(K\) permits concentration of the signed spill on \(O(nT^{-1/3})\) sites, exactly the exceptional scale in (A). No ordinary-prime input has yet ruled out such concentration for the actual Picard defect.
+
+Nor does (A) by itself give a global positive repair. The residual exceptional set is too large for the previously available small-support dual thresholds in general. In particular, the argument does not establish a same-mean, same-mark positive completion for every eligible ordinary prime.
+
+## Prime arithmetic status
+
+The estimate above is actually **all-prime**: it uses only the actual-orbit second-moment bounds and the contraction identity for \(K\). It therefore gives no lowering specific to ordinary primes.
+
+The square obstruction remains compatible with this result. On eligible square orders, the signed terminal/hinge correlations are known to have positive macroscopic cost even though \(\mathbb E d=O_\tau(T^{-2/3})\). Thus small total defect mass does not imply small signed Jacobi image. For ordinary primes, the missing statement is precisely an arithmetic anti-concentration estimate for the actual support and amplitudes of \(d\), not a generic \(L^2\) estimate.
+
+The order of limits remains:
+\[
+\text{fixed }\tau>0
+\quad\longrightarrow\quad
+p\to\infty\text{ through ordinary primes with }T=T(p)\to\infty
+\quad\longrightarrow\quad
+\tau\downarrow0.
+\]
+The present estimate is uniform in the first two stages only within the proved marked window and has constants depending on fixed \(\tau\).
+
+## Evidence and hypotheses
+
+The argument requires only the established actual-orbit facts:
+
+1. \(Z=X_{\sigma,T}/M_T\) is the true projected average, not a surrogate mask.
+2. \(d_0=0\) at the physical root.
+3. \(\mathbb E d^2=O_\tau(T^{-1})\).
+4. \(K^2=I-J\), hence
+   \[
+   \mathbb E(Kd)^2=\mathbb E d^2-(\mathbb E d)^2.
+   \]
+5. The pinned-projection remainder is \(O_\tau(\mathbb E d)\).
+6. The marked time \(T\) and \(T+1\) lie in the simultaneous ordinary-prime marked window.
+
+No claim is made that the finite checks or square examples determine the asymptotic ordinary-prime behavior.
+
+## Remaining gap
+
+A sufficient completion would follow from either of the following genuinely prime-specific statements:
+
+- **Pointwise signed cancellation**
+  \[
+  \inf_{i\ne0}\sigma(Kd)_i\ge-\frac12u;
+  \]
+- **Exceptional-set repair**
+  a prime-uniform theorem showing that the set \(E_\sigma\) in (A), together with its actual amplitudes, admits an exact mean- and mark-preserving correction with spill \(o(u)\).
+
+Neither is presently proved. The known translated-mask and filtered-support bounds do not directly apply because the actual defect amplitudes are generated by the Picard endpoint and are not an arbitrary nonnegative row supported on a prescribed algebraic mask.
+
+## Ranked next tests
+
+### 1. Actual-support weighted Jacobi collision test — highest priority
+
+For the true defect \(d\), compute or prove a bound for
+\[
+\mathcal C_\sigma(d)
+=
+\sum_{i\ne0}
+\bigl((-\sigma Kd)_i\bigr)_+^2
+\]
+or, more sharply, for the weighted collision
+\[
+\mathbb E\!\left[F\,(-\sigma Kd)_+\right],
+\]
+where \(F\) is a true opposite-sector optimizer or a near-optimal positive row.
+
+The target is
+\[
+\mathcal C_\sigma(d)=o_\tau(u^2)
+\]
+or
+\[
+\mathbb E[F(-\sigma Kd)_+]=o_\tau(1).
+\]
+This would upgrade the present \(O_\tau(u^2)\) bound to a genuinely useful prime-specific estimate and could feed either the exact reflection or the dual completion inequality.
+
+### 2. Oriented terminal-mask test — second priority
+
+Use the exact physical-root terminal field
+\[
+x_T=s\sqrt n\,v_T,\qquad s=-\sigma,
+\]
+and the oriented positive mask
+\[
+S^+=\{i\ne0:x_T(i)\ge cT,\ R_i\le\delta x_T(i)/T\}.
+\]
+Test whether ordinary-prime Jacobi correlations satisfy a uniform bound of the form
+\[
+\mathbb E\bigl[F\,x_T\,1_{S^+}\bigr]=o_\tau(T)
+\]
+for a true opposite optimizer \(F\), or equivalently whether the translated intersections of the actual mask have
+\[
+K_{S^+}(A)=o(a^2T/n)
+\]
+for a suitable near-cap support set \(A\).
+
+This directly targets the signed terminal pair rather than the positive-part hinge and preserves the physical marking and orientation. A successful bound would exclude a fixed prime theta gap, even without proving the pointwise reflection inequality.

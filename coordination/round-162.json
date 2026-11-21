@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "round": 162,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 162 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-161-acceptance.json",
+      "sha256": "251b0e969e0e02a5fffc1c090ffe7b8d4b209b3672a69a7683082936ad28293d"
+    },
+    "current": {
+      "path": "research/round-162-acceptance.json",
+      "sha256": "37994bf29da429a51c9d44c29a1f012bd001a2b39c3d074fca17d24685975844"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The actual distance and marked return tail were exact, and the graph controlled a few small-factor slices.",
+      "after": "The unmarked distance is a weighted ratio of ordinary Fourier minors grouped by actual frequency translations. The correct witness space, exact signed transfer and genuine sparse physical slope bound are available.",
+      "remaining": "Prove an actual-prime lower ratio omega(1/T) or an equivalent gap exclusion. Bound nontrivial shifted-layer energy for a moderate actual slope exponent.",
+      "evidence": [
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-projection-gap-control-161.md",
+          "sha256": "d0d815dd5f97ec259a5ac50c62507a23314eb98ea3ecdd92641a7624adb9eadd"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/smoothing.md",
+          "sha256": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95"
+        },
+        {
+          "path": "research/ordinary-physical-slope-fiber-count-162.md",
+          "sha256": "ddc91f28cfbc56ffe805567d7aa85f1fedc5ba8f42a8bd559f436b17a2c3e005"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "The corrected height insertion and local quadratic term were known, with a height-601 frozen entrywise bound and no height-602 bound in that transfer.",
+      "after": "The genuine height 602 has translated step rate <1.066 and entrywise shifted sum O(n^-0.455); the true Kr source alone has price <0.000115.",
+      "remaining": "Price the full translated response on the actual orbit and find a compatible growing-depth residual or genuine nonlinear confinement.",
+      "evidence": [
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual exterior distance has a Fourier-minor expression and signed leakage transfer. The genuine physical layer cut and fixed-height cold kernel advance separate quantitative estimates. Full prime bounds are still needed.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-Fourier-minor-ratio",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the actual Fourier-minor mass omitting the constant row dominate 1/T on the genuine Jacobi zero sets?",
+      "why_now": "The sector and the same minors are explicit, and the row translations preserve squared determinant size. A count free of determinant weights or a generic positive-semidefinite argument cannot close the estimate.",
+      "scope": "Use the actual sector Omega and actual maximal independent spatial columns U prime from the least-energy optimizer. Keep the sign, physical mark, possible high rank and one admissible growing T. A quantified signed leakage exclusion is also valid.",
+      "if_yes": "Prove a genuine weighted lower ratio omega(1/T), or a stronger actual prime fixed-gap exclusion.",
+      "if_no": "Give a precise obstruction to a stated orbit, determinant, or signed leakage shortcut, retaining assumptions and whether models are prime.",
+      "if_inconclusive": "Prove a useful exact prime-sensitive relation quantifying high-rank weights or isolating the translate orbits that keep the constant row.",
+      "inputs": [
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-projection-gap-control-161.md",
+          "sha256": "d0d815dd5f97ec259a5ac50c62507a23314eb98ea3ecdd92641a7624adb9eadd"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/smoothing.md",
+          "sha256": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-shifted-layer-energy",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the off-diagonal multiplicative energy of the two true high reflected layers be bounded at O(p^(1+sigma/2)) for one remaining slope exponent sigma<1?",
+      "why_now": "The actual physical counts already cover sigma>=1 and sparse first mass. The nontrivial Mellin spectrum is the first remaining concrete excess on a moderate slice.",
+      "scope": "Use actual reflected high-level sets X,Y for the chosen v, with actual f, physical signs and slope cutoff. Retain the true level constraints. State whether all shifts or only stabilizing or sign-restricted shifts are controlled.",
+      "if_yes": "Give a new O(p) block through energy or a sufficiently strong signed variant with all five weights retained.",
+      "if_no": "Identify a precise obstruction to a stated energetic criterion or a non-genuine approximation.",
+      "if_inconclusive": "Bound a genuine high contribution, e.g. the count or energy of actual stabilizing dilates, or gain quantitatively in the remaining exponent.",
+      "inputs": [
+        {
+          "path": "research/ordinary-physical-slope-fiber-count-162.md",
+          "sha256": "ddc91f28cfbc56ffe805567d7aa85f1fedc5ba8f42a8bd559f436b17a2c3e005"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-actual-source-resolvent",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the translated norm of the actual quadratic-source frozen response be bounded or the height-602 entry estimate used at a growing starter?",
+      "why_now": "The genuine height-602 entry and actual transported Taylor bounds are now established. They do not give a translated inverse on the relevant source or a growing residual.",
+      "scope": "Retain both actual lifts and original square with t0=n. Distinguish Z_h r from Z_h K r, keep direct and smoothed pieces and the exact corrected insertion. Do not infer translated operator boundedness from max entries.",
+      "if_yes": "Give an actual signed source-resolvent or dynamic estimate sufficient for the relevant contraction or continuation, with an explicit budget.",
+      "if_no": "Prove a precise failure of a stated reduction on the true analytic fields or an explicitly delimited model.",
+      "if_inconclusive": "Quantify one long-power contribution on the actual source in translated price or a verified smaller residual condition applicable to the real orbit.",
+      "inputs": [
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 163 deductions survive independent review?",
+      "why_now": "The determinant ratio, actual multiplicative energy and analytic source transport have separate signs and norm requirements.",
+      "scope": "Read-only. Check exact ordinary and cold hypotheses, finite versus uniform scope, physical marks and correct source norms. Give two ranked next steps.",
+      "if_yes": "State verified scope and remaining open obligations.",
+      "if_no": "Locate the invalid step.",
+      "if_inconclusive": "Separate proved identities from conditional or finite evidence.",
+      "inputs": [
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-projection-gap-control-161.md",
+          "sha256": "d0d815dd5f97ec259a5ac50c62507a23314eb98ea3ecdd92641a7624adb9eadd"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/smoothing.md",
+          "sha256": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95"
+        },
+        {
+          "path": "research/ordinary-physical-slope-fiber-count-162.md",
+          "sha256": "ddc91f28cfbc56ffe805567d7aa85f1fedc5ba8f42a8bd559f436b17a2c3e005"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

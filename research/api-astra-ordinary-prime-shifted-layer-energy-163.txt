@@ -1,0 +1,136 @@
+## Result
+
+For the selected ordinary-prime critical family
+\[
+p\to\infty,\qquad Q=\mathbb F_p^{\times 2},\qquad n=|Q|=(p-1)/2,
+\]
+with the actual Fourier row \(f\), physical marking \(v\in Q\), and
+\[
+X=\{x\in Q:1-vx\in\mathcal A\},\qquad
+Y=\{x\in Q:1-vx\in\mathcal B\},
+\]
+the available hypotheses imply only
+\[
+|X|,|Y|\ll \sqrt p.
+\]
+Here \(\mathcal A,\mathcal B\) are the genuine translated high levels of the actual row, and all norms are counting norms on \(\mathbb F_p\).
+
+Let
+\[
+h(u)=|X\cap u^{-1}Y|,\qquad u\in Q.
+\]
+The exact off-diagonal multiplicative energy is
+\[
+E_{\mathrm{off}}(X,Y)
+ =\sum_{u\in Q\setminus\{1\}}h(u)(h(u)-1).
+\]
+Since \(h(u)\le \min(|X|,|Y|)\) and
+\[
+\sum_{u\in Q}h(u)=|X||Y|,
+\]
+one obtains the checked universal estimate
+\[
+E_{\mathrm{off}}(X,Y)
+ \le \min(|X|,|Y|)\,|X||Y|
+ \ll p^{3/2}.
+\]
+This is exactly the already-covered \(\sigma=1\) scale. It gives no gain for any fixed \(\sigma<1\).
+
+The multiplicative Fourier identity is
+\[
+\sum_{u\in Q}h(u)^2
+ =\frac1n\sum_{\eta\in\widehat Q}
+   |\widehat{1_X}(\eta)|^2|\widehat{1_Y}(\eta)|^2,
+\]
+where the Fourier transforms are unnormalized:
+\[
+\widehat{1_X}(\eta)=\sum_{x\in X}\overline{\eta(x)}.
+\]
+The trivial spectral contribution is
+\[
+\frac{|X|^2|Y|^2}{n}=O(p).
+\]
+Therefore the requested estimate
+\[
+E_{\mathrm{off}}(X,Y)=O\!\left(p^{1+\sigma/2}\right),
+\qquad \sigma<1,
+\]
+would require the genuinely nontrivial bound
+\[
+\frac1n\sum_{\eta\ne1}
+|\widehat{1_X}(\eta)|^2|\widehat{1_Y}(\eta)|^2
+\ll p^{1+\sigma/2}.
+\]
+No such estimate follows from the present level-size, physical-sign, or cross-ratio incidence information.
+
+### Precise obstruction
+
+The obstruction is multiplicative stabilization. If a set \(H\subset Q\) is a multiplicative subgroup and \(X=Y=H\), then
+\[
+h(u)=
+\begin{cases}
+|H|,&u\in H,\\
+0,&u\notin H,
+\end{cases}
+\]
+so
+\[
+E_{\mathrm{off}}(H,H)
+=(|H|-1)|H|(|H|-1)
+\asymp |H|^3.
+\]
+For \(|H|\asymp p^{1/2}\), this is \(p^{3/2}\), violating every target \(O(p^{1+\sigma/2})\) with \(\sigma<1\).
+
+This is not a counterexample to the actual Fourier-row problem, because it has not been shown that the actual translated layers
+\[
+1-vX,\quad 1-vY
+\]
+contain such a subgroup configuration along the selected ordinary-prime family. It is, however, a precise failure of any argument using only:
+
+1. \(|X|,|Y|\ll\sqrt p\);
+2. the fact that \(X,Y\subset Q\);
+3. the forced physical sign restrictions;
+4. the affine-chart injectivity of the slope map.
+
+Those inputs do not exclude a large family of stabilizing dilates. A sign restriction on \(u\), such as \(\chi(u-1)=\rho\), may reduce the subgroup example, but no quantitative bound for the actual stabilizing set
+\[
+\{u\in Q:\chi(u-1)=\rho,\ |X\cap u^{-1}Y|\ \text{large}\}
+\]
+is presently available. Likewise, the true translated level constraints have not yet supplied a nontrivial bound on the nonconstant Mellin spectrum.
+
+The same failure applies to a moderate slope band
+\[
+D_\sigma=\{t\in Q:|f(t)|^2\asymp p^{-\sigma}\},
+\qquad \sigma<1.
+\]
+The physical fiber estimate controls fixed \(t\), but summing over a growing family of slopes still permits the \(p^{3/2}\) stabilization scale. The actual prime-family lower ratio \(\omega(1/T)\) or an equivalent gap exclusion is also not proved here.
+
+## Conclusion
+
+The proposed \(O(p^{1+\sigma/2})\) energy estimate is **inconclusive, with a precise obstruction to the currently available sufficient criterion**. The exact prime family, physical marking, actual high layers, and order of limits have been retained; what is missing is a quantitative exclusion of large stabilizing or nearly stabilizing dilates for the actual sets \(X,Y\).
+
+### Ranked next tests
+
+1. **Actual stabilizer-spectrum test — highest priority.**  
+   For the selected ordinary primes \(p\), compute
+   \[
+   R_\tau=\{u\in Q:h(u)\ge \tau\},
+   \]
+   separately for all \(u\), for the forced-sign sector \(\chi(u-1)=\rho\), and for the actual favorable cross-sign restrictions. Compare
+   \[
+   \sum_{u\in R_\tau}h(u)^2
+   \]
+   with \(p^{1+\sigma/2}\) over dyadic \(\tau\). A bound of the form
+   \[
+   |R_\tau|\ll p^{1+\sigma/2}\tau^{-2}
+   \]
+   in the relevant range would directly yield the desired energy estimate.
+
+2. **Nontrivial Mellin fourth-spectrum test — second priority.**  
+   For the same actual \(X,Y\), evaluate
+   \[
+   \mathcal E_{\mathrm{nt}}
+   =\frac1n\sum_{\eta\ne1}
+   |\widehat{1_X}(\eta)|^2|\widehat{1_Y}(\eta)|^2
+   \]
+   and its restriction to the physical/sign-admissible slope set. Determine whether the excess is \(O(p^{1+\sigma/2})\), or whether a small collection of characters accounts for a \(p^{3/2-o(1)}\) contribution. The latter would identify the precise near-stabilizer that any future proof must remove.

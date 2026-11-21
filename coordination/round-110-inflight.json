@@ -1,0 +1,35 @@
+{
+  "round": 110,
+  "dispatch_status": "terminal; response saved and reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-109-acceptance.json",
+    "sha256": "3bf001e1ef90a9a71105b8981ed1bfff0b94793287d69efb1c1963c8d3f232f1"
+  },
+  "coordinator": {
+    "path": "coordination/round-109.json",
+    "sha256": "c36b2d7b67a3d3949c5549ed1da95eefe0696c08e306f8601acbab4c3d1519fa"
+  },
+  "call_id": "persistent-core-signed-balance",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "15159765408c58b9bb06a566a4e8d03f0a9a46d7ad9430fd8d91dd35ce25ac64",
+  "started_utc_epoch": 1795094338,
+  "local_session_id": 25151,
+  "mission_file": "/tmp/paley-r110-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r110-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r110-api-01a1ed0a/overflow-candidate.md",
+  "local_draft": "research/repair-core-average-110.md",
+  "audit_agent": "/root/audit_110",
+  "next_step": "Use the checked Round 110 coordinator record for subsequent assignments.",
+  "response": {
+    "path": "research/api-astra-overflow-110.txt",
+    "sha256": "a2eff747522ae409bcb20c9608b27d5b5e13df5885899cdbfe1c85f7e44a3d9c"
+  },
+  "receipt": {
+    "path": "research/api-astra-110-receipt.json",
+    "sha256": "e3806cd7e2e730cf0de17e840c3f5f639f92a7040d6e75b1a810395bf10c71f6"
+  },
+  "acceptance": {
+    "path": "research/round-110-acceptance.json",
+    "sha256": "e2098121429c07e7e40913afe7a1e462fbca83c4f5f7fbb17a8f0db786fe764e"
+  }
+}

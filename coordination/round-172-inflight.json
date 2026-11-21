@@ -1,0 +1,61 @@
+{
+  "round": 172,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-171-acceptance.json",
+    "sha256": "b94e1a7cc8340b2564e8ffa13307efdc71dded5df2d5c461a8a2b1cdca918b97"
+  },
+  "coordinator": {
+    "path": "coordination/round-171.json",
+    "sha256": "192d7ccc18def7a831f8a3b43072eca8b6d11fcbd431ba8335bbfc7b8dccc3f4"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-172.py",
+    "sha256": "c39c153d49d5c739751aa44ca0c99e4df2ef84dfe51fe831ffd0434cc8f9bf75"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-172-before.json",
+    "sha256": "017bfb109a5b9bc8c397e1c1eb4d6c7fdf49985541a814c9d652a308d7b98086"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-weighted-affine-action",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "1bd028fcdf0d83cf64666741cca22961b982a31dc081768dbc80ac2cca9464c2",
+      "mission_file": {
+        "path": "coordination/missions/round-172/ordinary-prime-weighted-affine-action.md",
+        "sha256": "b7e6a74a276159d09bfa7d8191568b50614d973631462764f8eb9d7a8b5c8451"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r172-api-01a1ed0a/ordinary-prime-weighted-affine-action-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r172-api-01a1ed0a/ordinary-prime-weighted-affine-action-candidate.md",
+      "started_utc_epoch": 1795136558.054045
+    },
+    {
+      "call_id": "ordinary-prime-full-slope-diagonal",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "8146874e08f1c81616c10548276cfb621fd4d2b851a2a34b3d69ed881fc84558",
+      "mission_file": {
+        "path": "coordination/missions/round-172/ordinary-prime-full-slope-diagonal.md",
+        "sha256": "4775d90aff50cc3ce66e0512dfbf7060202eb1bc5832bac3e769a114a3293e4b"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r172-api-01a1ed0a/ordinary-prime-full-slope-diagonal-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r172-api-01a1ed0a/ordinary-prime-full-slope-diagonal-candidate.md",
+      "started_utc_epoch": 1795136558.05375
+    },
+    {
+      "call_id": "cold-prime-shared-two-remainder-response",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "2c2b8060d615a48c498c3aede57b0d628acc6588d54ebf4c8361eebfef7bbbd9",
+      "mission_file": {
+        "path": "coordination/missions/round-172/cold-prime-shared-two-remainder-response.md",
+        "sha256": "e827cc3b121fa0625658c757f30f4856c130e27792c4ea22121899e31417b8d4"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r172-api-01a1ed0a/cold-prime-shared-two-remainder-response-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r172-api-01a1ed0a/cold-prime-shared-two-remainder-response-candidate.md",
+      "started_utc_epoch": 1795136558.054524
+    }
+  ]
+}

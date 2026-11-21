@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "round": 151,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 151 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-150-acceptance.json",
+      "sha256": "5cdb097c5787d89ae8e318de319d5cc01faca570322526fd054f3a4e7377fe8d"
+    },
+    "current": {
+      "path": "research/round-151-acceptance.json",
+      "sha256": "fe4897df900fb9d6a8d92fe3ad2779ed8deb2376e639b8ff26189bab73120c32"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The first-reflection core and the retargeted endpoint charge lacked a prime-uniform bound.",
+      "after": "A contiguous actual repair block retains the original signed endpoint charge. A mixed-coset prime estimate excludes simultaneous Fourier confinement and small anchored phase deficit for effective-size ratios up to p^(1/12).",
+      "remaining": "Prove the true first-spill core upper or make the actual endpoint or history force the excluded prime configuration. Diffuse critical low-energy directions remain possible in the current analysis. The direct critical-mask route is unchanged.",
+      "evidence": [
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/parallel-rectangle-20.md",
+          "sha256": "5a2bab72af7de9f1b9abdae5091172ce1375f93e6a3a7480633ea142a612d333"
+        },
+        {
+          "path": "research/anchored-repair-20.md",
+          "sha256": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/api-astra-review-151.md",
+          "sha256": "eb02314be75ea8e957af7b675081729fb7507d2b06b089f1a487b4397308de40"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "reformulated",
+      "before": "The signed one-vertex omission was below 0.540. No explicit returned signed two-vertex overlap.",
+      "after": "The actual W-linear two-vertex term on C1 has two explicit repeated terms with smaller complex coefficients after cubic collection. Selected packet prices are below 0.061 at leading order and below 0.051 for the two merged packets.",
+      "remaining": "Full same-height signed difference must be below 0.567184, or obtain a new invariant. Higher Taylor terms, actual translated columns, the other centers and genuine Picard residual remain.",
+      "evidence": [
+        {
+          "path": "research/cold-leading-W-square-151.md",
+          "sha256": "8adb45f03aaf00eaa084f93c6538e5c6091869505b690991df1b3fbf88da67e3"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-higher-legendre-step-148.md",
+          "sha256": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/astra-rankthree-55.md",
+          "sha256": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48"
+        },
+        {
+          "path": "research/rank-four-arithmetic-56.md",
+          "sha256": "7c7fcff4cfec674ec7325538ddddc5738b37038802409fb1c461bedc05860d56"
+        },
+        {
+          "path": "research/weighted-arithmetic-57.md",
+          "sha256": "691134f5146f17877bda595b19ed937ab9859d388e2c5e2e34921eb30da35e30"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "A prime-only spectral obstruction narrows the concentrated retargeted branch. Two selected cold labels cancel across Taylor orders on the genuine seed input. Neither closes the original target.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-endpoint-spectral-alternative",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Does the actual retargeted endpoint charge force small anchored phase deficit and Fourier concentration, or another condition excluded by prime arithmetic?",
+      "why_now": "The same actual repair block has a uniform signed endpoint lower. Near-critical slow directions cannot concentrate their squared Fourier mass in a bounded union of square-root cosets.",
+      "scope": "Use the true retargeted x, actual negative parts over the R151 block, signed cost C_R, true complementary R and all ordinary primes at one admissible growing marked T. Keep the critical and diffuse regimes distinct. Isolated low motion is insufficient.",
+      "if_yes": "Prove a uniform contradiction or establish a quantitative forcing inequality connecting the actual signed endpoint to the new prime restriction.",
+      "if_no": "Give a rigorous obstruction to a specified endpoint-to-spectral implication with its actual or relaxed scope.",
+      "if_inconclusive": "Control a named effective-size range or use the exact active-set secants to produce a truly prime-sensitive hypothesis.",
+      "inputs": [
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/parallel-rectangle-20.md",
+          "sha256": "5a2bab72af7de9f1b9abdae5091172ce1375f93e6a3a7480633ea142a612d333"
+        },
+        {
+          "path": "research/anchored-repair-20.md",
+          "sha256": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721"
+        },
+        {
+          "path": "research/ordinary-terminal-approximate-face-144.md",
+          "sha256": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-first-spill-correct-dual",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the signed middle first-spill cost on the true common zero set be bounded uniformly over all allowable dual minorants?",
+      "why_now": "The adaptive receiver and input tails are explicit. The correctly signed face dual uses the full supremum, which avoids trying to estimate every feasible optimizer directly.",
+      "scope": "Use all p=1 mod 4, actual first reflected event b^(0)>=b_*, input d between n^(-1/4)T^(1/12) and sqrt(n)T^(-5/6), both roots and diagonal removed, cost on true receiver (-sigma K_off d_mid)_+, with selectable true optimizer/marked T.",
+      "if_yes": "Control the exact signed pairing or bound the maximum of the correctly signed sector dual by o(1).",
+      "if_no": "Give an exact obstacle to a proposed dual or character-sum step, keeping true adaptive data distinguished from arbitrary weights.",
+      "if_inconclusive": "Construct a concrete minorant obstruction or a true conditioned estimate that would reduce the remaining signed core.",
+      "inputs": [
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/api-astra-review-151.md",
+          "sha256": "eb02314be75ea8e957af7b675081729fb7507d2b06b089f1a487b4397308de40"
+        },
+        {
+          "path": "research/filtered-support-46.md",
+          "sha256": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e"
+        }
+      ]
+    },
+    {
+      "id": "cold-W-all-order-return",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the two explicit cold W returns on C1 be summed over all alpha-free Taylor orders with a certified complementary price?",
+      "why_now": "The leading and cubic terms supply two signed equal arithmetic labels. Full Laurent/Chebyshev collection at both vertices can account for their future corrections and isolate the remaining transported terms.",
+      "scope": "Use actual coefficients on original square and marked C1, both lifts and translated P5000. Focus on the alpha-free W-linear part, distinguish explicit repeated field returns from other possible label coincidences, and keep alpha words, other centers and Picard residual separate.",
+      "if_yes": "Prove exact resummed coefficients and bound their complement, or extend a genuine overlap to an actual translated column.",
+      "if_no": "Prove the selected signed collection cannot close a named budget after the remaining packet cost, or isolate a genuine label obstruction.",
+      "if_inconclusive": "Obtain a finite controlled higher-degree or all-order partial signed coefficient with its actual physical mark repair and clear scope.",
+      "inputs": [
+        {
+          "path": "research/cold-leading-W-square-151.md",
+          "sha256": "8adb45f03aaf00eaa084f93c6538e5c6091869505b690991df1b3fbf88da67e3"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-higher-legendre-step-148.md",
+          "sha256": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/astra-rankthree-55.md",
+          "sha256": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48"
+        },
+        {
+          "path": "research/rank-four-arithmetic-56.md",
+          "sha256": "7c7fcff4cfec674ec7325538ddddc5738b37038802409fb1c461bedc05860d56"
+        },
+        {
+          "path": "research/weighted-arithmetic-57.md",
+          "sha256": "691134f5146f17877bda595b19ed937ab9859d388e2c5e2e34921eb30da35e30"
+        },
+        {
+          "path": "research/two-node-groups-59.md",
+          "sha256": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which Round 152 deductions survive independent review?",
+      "why_now": "Distinguish true all-prime bounds and actual weighted sources from local cold coefficient identities.",
+      "scope": "Read-only. Preserve actual optimum and phase, true prime and floor limits, marked coordinates and both lifts.",
+      "if_yes": "State verified scope and ranked follow-ups.",
+      "if_no": "Find the first invalid step.",
+      "if_inconclusive": "Separate proven restrictions and missing estimates.",
+      "inputs": [
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/parallel-rectangle-20.md",
+          "sha256": "5a2bab72af7de9f1b9abdae5091172ce1375f93e6a3a7480633ea142a612d333"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/api-astra-review-151.md",
+          "sha256": "eb02314be75ea8e957af7b675081729fb7507d2b06b089f1a487b4397308de40"
+        },
+        {
+          "path": "research/cold-leading-W-square-151.md",
+          "sha256": "8adb45f03aaf00eaa084f93c6538e5c6091869505b690991df1b3fbf88da67e3"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/cold-higher-legendre-step-148.md",
+          "sha256": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/astra-rankthree-55.md",
+          "sha256": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

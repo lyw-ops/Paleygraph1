@@ -1,0 +1,35 @@
+{
+  "round": 112,
+  "dispatch_status": "terminal; response saved and reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-111-acceptance.json",
+    "sha256": "609da2ee9f2a7a81d3daa2d752b80cfd58cc59f946540dd6a1e9492c633bd87b"
+  },
+  "coordinator": {
+    "path": "coordination/round-111.json",
+    "sha256": "b0cd1f4a354cdb1b37efea6f560889db34b3ab58c71069143119ac775fe14b29"
+  },
+  "call_id": "mark-versus-bulk",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "ae7700498a5ac906671f68070bc24354020564a523d20a589d9febf3baebbc60",
+  "started_utc_epoch": 1795095494,
+  "local_session_id": 9078,
+  "mission_file": "/tmp/paley-r112-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r112-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r112-api-01a1ed0a/overflow-candidate.md",
+  "local_draft": "research/full-repair-moments-112.md",
+  "audit_agent": "/root/audit_112",
+  "next_step": "Use the Round 112 coordinator record for the next assignment.",
+  "response": {
+    "path": "research/api-astra-overflow-112.txt",
+    "sha256": "91009d3015ec46e468f6414d7f9e86dbe3521c0f5e89e23494e2edcf8956e5cf"
+  },
+  "receipt": {
+    "path": "research/api-astra-112-receipt.json",
+    "sha256": "7f1af61f3992db7a13e6e3236519df31f965aa6517735627dbe67e8645123946"
+  },
+  "acceptance": {
+    "path": "research/round-112-acceptance.json",
+    "sha256": "d6bf50f7b176b40b4405d7b3b0d8eaec6f6132263eac6f539d04f20f3746801d"
+  }
+}

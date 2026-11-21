@@ -1,0 +1,157 @@
+## Result
+
+For the actual ordinary complementary pair at each sufficiently large eligible prime
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+with the physical mark \(i=0\) retained and the bulk cap \(M\) fixed, let
+\[
+Y=Kb,\qquad b_i=|Y_i|\quad(i\neq0),
+\]
+and let \(F_\pm\) be the two actual ordinary exposed rows, normalized by their common ordinary mean \(\nu\). On the bulk,
+\[
+F_+=\frac{b+Y}{\nu},\qquad F_-=\frac{b-Y}{\nu},
+\]
+so \(F_+F_-=0\) pointwise on the true opposite support.
+
+For \(L>0\), define
+\[
+T_{p,L}
+=\mathbb E_n\!\left[1_{\{i\ne0\}}(b_i-L)_+S_i\right],
+\]
+where \(S=2\sqrt n\,Ke_0\) is the physical signed Jacobi seed, with the prime limit taken before \(L\to\infty\).
+
+The true opposite-support identity is
+\[
+H_{p,L}
+:=\mathbb E_n\!\left[
+1_{\{i\ne0\}}
+\bigl(F_+(Y-L)_++F_-(-Y-L)_+\bigr)
+\right]
+=\frac{2}{\nu}\,
+\mathbb E_n\!\left[
+1_{\{i\ne0\}}b_i(b_i-L)_+
+\right].
+\tag{1}
+\]
+
+Consequently,
+\[
+\boxed{
+|T_{p,L}|
+\le
+\frac{\nu\|S\|_\infty}{2L}\,H_{p,L}.
+}
+\tag{2}
+\]
+
+Indeed, on \(\{b>L\}\),
+\[
+(b-L)_+\le \frac{b(b-L)_+}{L},
+\]
+and (1) gives the result after using \(|S_i|\le\|S\|_\infty\). For the Jacobi seed,
+\[
+\|S\|_\infty\le 2\sqrt{\frac pn}=O(1),
+\]
+uniformly over the eligible prime family, while the ordinary product identity and the fixed marked cap \(M\) give \(\nu\asymp_M1\).
+
+Thus the following implication is valid in the required order of limits:
+\[
+\boxed{
+\lim_{L\to\infty}\limsup_{\substack{p\to\infty\\p\equiv1(4)\ {\rm eligible}}}
+H_{p,L}=0
+\quad\Longrightarrow\quad
+\lim_{L\to\infty}\limsup_p |T_{p,L}|=0.
+}
+\tag{3}
+\]
+
+A simpler sufficient condition is uniform boundedness of the bulk second moment:
+\[
+\sup_p\mathbb E_n[1_{\{i\ne0\}}b_i^2]<\infty.
+\]
+Then
+\[
+|T_{p,L}|
+\le \frac{\|S\|_\infty}{4L}
+\mathbb E_n[1_{\{i\ne0\}}b_i^2],
+\tag{4}
+\]
+because \((b-L)_+\le b^2/(4L)\).
+
+## What positivity and opposite support do—and do not—prove
+
+The positive exposed pair proves the exact unsigned identity (1). It charges every supercritical bulk site by the true complementary support and retains the actual cap value \(M\) through \(\nu\) and the marked activation. This is stronger than an abstract support or multiplicity estimate.
+
+However, it does **not** produce cancellation against the signed Jacobi seed. The passage from \(T_{p,L}\) to \(H_{p,L}\) uses
+\[
+|S_i|\le \|S\|_\infty,
+\]
+which discards the sign of \(S_i\). The opposite-support relation concerns the sign of \(Y_i\), not the sign of \(S_i\). There is no supplied identity forcing \(S\) to be positively or negatively aligned with \(Y\), \(F_+\), or \(F_-\).
+
+The opposite-autocorrelation estimates likewise do not close this gap. They control quadratic translation correlations of feasible opposite rows,
+\[
+C_q(h)C_r(h),
+\]
+whereas the required quantity is the linear, physically marked correlation
+\[
+\mathbb E_n[1_{\{i\ne0\}}(b_i-L)_+S_i].
+\]
+A positivity or pair-completion argument can therefore establish (1) and the domination (2), but cannot by itself prove cancellation of \(T_{p,L}\).
+
+## Clipped parity remains separate
+
+For a bounded even polynomial \(Q_p\) in fixed negative Mellin fields, the fixed-expression trace estimate gives
+\[
+\mathbb E_n[Q_pS]=O_Q(p^{-1/2}),
+\]
+after omitting the physical mark at cost \(O_Q(n^{-1})\). This controls bounded even approximants, not the actual clipped profile
+\[
+b^{[L]}=\min(b,L)
+\]
+or its excess \((b-L)_+\). In particular, replacing the actual row by a fixed capped iterate does not provide a prime-uniform approximation of the actual ordinary optimizer.
+
+Therefore:
+
+- **Signed-tail control:** reduced to (2), or directly to a support-sensitive estimate for \(T_{p,L}\).
+- **Clipped parity:** still requires a bounded-even approximation to the actual ordinary row.
+- **Order of limits:** all statements above are in the order
+  \[
+  \lim_{L\to\infty}\limsup_{p\to\infty,\ p\equiv1(4)}.
+  \]
+  Fixed \(L\) estimates after a prime limit do not imply the unbounded-tail statement.
+
+## Precise status
+
+The proposed direct argument is **partially supported**:
+
+1. The actual ordinary positive exposed pair and true opposite support give the exact weighted positive-tail formula (1).
+2. They imply the uniform signed-tail bound (2).
+3. They do not furnish genuine Jacobi-sign cancellation. The missing input is either:
+   - uniform integrability of the actual bulk squares, or
+   - a direct prime-uniform estimate for the signed quantity \(T_{p,L}\) that retains the sign of \(S\).
+
+No asymptotic refutation follows: the failure is only of the proposed sufficient argument, not of the target statement.
+
+## Ranked next tests
+
+1. **Direct physical-support test.** For each actual ordinary optimizer and each sign, test whether one can prove a prime-uniform estimate of the form
+   \[
+   \left|
+   \mathbb E_n[1_{\{i\ne0\}}(b_i-L)_+S_i]
+   \right|
+   \le \omega(L)+o_p(1),
+   \qquad \omega(L)\to0,
+   \]
+   using the actual support of \(F_\pm\), the marked equation, and opposite autocorrelation profiles. The key diagnostic is whether the residual contribution comes from aligned \(S_i\)-signs or from lack of support coverage.
+
+2. **Actual optimizer energy/support test.** On the true support \(S_\epsilon=\{i\ne0:F_\epsilon(i)>0\}\), test a direct leakage inequality for the compressed operator
+   \[
+   A=I_{S_\epsilon}-\epsilon E_{S_\epsilon}^*KE_{S_\epsilon},
+   \]
+   with the physical marked forcing \(g\):
+   \[
+   |\langle g,v\rangle|
+   \le C\sqrt n\,\|Av\|_2.
+   \]
+   This is not merely a finite check: it must be established uniformly over the actual prime family and both signs. Its consequence would be bounded actual bulk energy, hence (4), but it remains distinct from clipped parity.

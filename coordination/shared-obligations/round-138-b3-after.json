@@ -1,0 +1,11 @@
+{
+  "reviewed_by": "Codex research coordinator",
+  "comparison": "This was a single ordinary source-weighted estimate. Two prior gateway attempts on the same dispatch question had already ended without a mathematical reply. This serial fallback did not overlap with either and introduced no distinct common research estimate. The cold returns had already completed.",
+  "groups": [],
+  "dispatch": "coordination/round-138-b3-inflight.json",
+  "launched_at_utc": "2026-11-19T18:53:25.579223Z",
+  "launched_calls": [
+    "ordinary-marked-source-infsup"
+  ],
+  "before_sha256": "f8be0125d4365745d566c398ed64f63729fa4ee117bdb2fe56a49e3440958edd"
+}

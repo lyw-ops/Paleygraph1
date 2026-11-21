@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T23:19:42.652334Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-160.json#next_calls",
+  "coordinator_sha256": "ebf3eb033c898e3608d13ed43ec89f267e3e4ff9ac6e5eacb28d57823f74c546",
+  "call_ids": [
+    "ordinary-prime-marked-low-spectrum",
+    "ordinary-prime-centered-middle-graph",
+    "cold-actual-picard-increment"
+  ],
+  "routes": {
+    "r161/ordinary-prime-marked-low-spectrum": {
+      "question": "Can the original fixed gap be excluded via an o(T) marked inverse-square upper on the actual spectral window lambda<=A0/T?",
+      "scope": "Use the genuine least-energy true opposite optimizer, exact positive support, actual compressed Jacobi operator and marked forcing. Keep actual fixed floor and one admissible growing T. Generic source-free spectral gaps or rank bounds do not suffice.",
+      "remaining": "Control the narrow actual marked spectral band without critical size, or the full remaining moderate critical moment. Both O(p) critical and o(T) spectral uppers are open."
+    },
+    "r161/ordinary-prime-centered-middle-graph": {
+      "question": "Can the centered exact physical graph bound a remaining middle-amplitude block with the true five weights?",
+      "scope": "Keep the actual ratio constraint, physical x,y cut and phase. Both Fourier conventions and signs matter. Distinguish uncut graph orthogonality from the clean restriction after weighting.",
+      "remaining": "Control the narrow actual marked spectral band without critical size, or the full remaining moderate critical moment. Both O(p) critical and o(T) spectral uppers are open."
+    },
+    "r161/cold-actual-picard-increment": {
+      "question": "Can an actual signed estimate for the 601 to 602 Picard increment advance a source-local or two-vertex confinement?",
+      "scope": "Keep both actual heights, original square, physical t0=n and both lifts. A symbolic equality or a fixed-height residual second norm without transfer does not imply an invariant.",
+      "remaining": "Prove a useful signed estimate on the genuine Picard increment or a nonlinear invariant with a quantitative resolvent bridge."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-marked-low-spectrum": [],
+    "ordinary-prime-centered-middle-graph": [],
+    "cold-actual-picard-increment": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The marked inverse-square band applies to every fixed gap and uses the exact complementary exterior forcing. The centered phase graph asks a different physical estimate on the remaining near-critical moderate layers. The cold Picard increment is an independent complex-domain test."
+}

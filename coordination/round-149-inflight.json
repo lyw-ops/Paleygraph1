@@ -1,0 +1,61 @@
+{
+  "round": 149,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-148-acceptance.json",
+    "sha256": "f7d9db5176c4445e11d92563485c7494fbd4b8bfed84b5e60df6e8a0612149fd"
+  },
+  "coordinator": {
+    "path": "coordination/round-148.json",
+    "sha256": "372037dfb5ae49ca4b7952047c30c216824a7de13af33cd72e59c768cc5292cc"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-149.py",
+    "sha256": "4064205718d4fe8fd121b83d8acce4d6621f1097fb008193f1a0300fb9e7b561"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-149-before.json",
+    "sha256": "2a93e9cfd98d7f01a3c2c8855ea436c1dc4f9400b5280835065a567c0f82ee49"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-first-reflected-spill",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "7554a02165de6337c0e1c82c9345e4e4649dd279c6c34bdf9b4ccd5410785e7b",
+      "mission_file": {
+        "path": "coordination/missions/round-149/ordinary-prime-first-reflected-spill.md",
+        "sha256": "a4b9c8eb860f764850400219b2114c31bfc6d915c30c76b5ea56f582f0c37270"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r149-api-01a1ed0a/ordinary-prime-first-reflected-spill-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r149-api-01a1ed0a/ordinary-prime-first-reflected-spill-candidate.md",
+      "started_utc_epoch": 1795121597.675782
+    },
+    {
+      "call_id": "ordinary-prime-relaxed-defect-structure",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "acc8b5c7d3df699e104d86a84dbf684107907f5ca0addd0104dd55ae364042f0",
+      "mission_file": {
+        "path": "coordination/missions/round-149/ordinary-prime-relaxed-defect-structure.md",
+        "sha256": "97b08ee8aa6db54ec5c2f746feeebe7398821f6a4e195f0901e76106daf997ff"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r149-api-01a1ed0a/ordinary-prime-relaxed-defect-structure-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r149-api-01a1ed0a/ordinary-prime-relaxed-defect-structure-candidate.md",
+      "started_utc_epoch": 1795121597.677153
+    },
+    {
+      "call_id": "cold-actual-remainder-two-center",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "0aa894f00aa2806ef21a00313c18bb770ff5f90ba66e7d7af1e2a07458555308",
+      "mission_file": {
+        "path": "coordination/missions/round-149/cold-actual-remainder-two-center.md",
+        "sha256": "4c398a5d05f2834045ae21a2ce3c1dab6928af092fa592cacfa576689081e288"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r149-api-01a1ed0a/cold-actual-remainder-two-center-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r149-api-01a1ed0a/cold-actual-remainder-two-center-candidate.md",
+      "started_utc_epoch": 1795121597.6762722
+    }
+  ]
+}

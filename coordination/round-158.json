@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "round": 158,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 158 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-157-acceptance.json",
+      "sha256": "8677dff7b1d73d638fc5caaf71ee36f709cf018f58d0e60e9c1f00adae615363"
+    },
+    "current": {
+      "path": "research/round-158-acceptance.json",
+      "sha256": "865072372bb37167a856dc0acc338556512d3ef9e868d8f71a86559fe1b974fd"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The marked phase arc suffices for critical branch exclusion, and six trivial root slices could be discarded.",
+      "after": "The actual near-unit sets have o(sqrt p) slopes and repeated true character convolution loses phase alignment. All nine boundary degeneracies are removable at O(p) and the regular twisted kernel is a rank-two pure weight-two trace.",
+      "remaining": "Connect the prime-only slope exclusion or convolution smoothing to moderate actual amplitudes or a real coupled upper on the marked arc. Pointwise trace geometry does not control the true weight law.",
+      "evidence": [
+        {
+          "path": "research/ordinary-prime-near-unit-slope-spread-158.md",
+          "sha256": "b33e6a378645985957c1cec86ff7bd54f0bd578a04f32439547e65faa6179f40"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-five-root-clean-locus-158.md",
+          "sha256": "5140f82b5346b43ea8f240bb14067f135831aaad62580fbd9e61a99c92aa9f6a"
+        },
+        {
+          "path": "research/ordinary-five-root-trivial-slices-157.md",
+          "sha256": "cde7be53870aa40114aaa0a89699e8aa9117e07e67a0ab27ed7cb237fc51996e"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "new_obstruction",
+      "before": "The retained positive rank-three enrichments remained above the cold budget.",
+      "after": "The full W quartic collection gives 0.66349297. The certified floor 0.61707 survives all finite-prefix W collections at fixed formal H arity and old A601 pricing.",
+      "remaining": "Change the confinement or incorporate arithmetic of true H and interactions across vertices. The actual signed contraction and common complex domain are open.",
+      "evidence": [
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        },
+        {
+          "path": "research/cold-rank-three-common-labels-157.md",
+          "sha256": "6e78bfc5802f6d5a72dc5f939732a38320e41f09207d6f01236b5561757e59c8"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/astra-joint-65.md",
+          "sha256": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "A prime-only argument excludes critical-scale near-unit slopes and gives true convolution smoothing. Complete five-root geometry is resolved at the pointwise level but does not bound the coupled weighted trace. The all-W cold obstruction requires a change of method.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-quantitative-slope-spread",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the genuine near-unit slope exclusion be quantified and extended to a nontrivial portion of the actual marked phase-arc moment?",
+      "why_now": "A large near-unit set forces one bounded-diameter subgroup and a forbidden finite-coset concentration. A quantitative interval of amplitudes or explicit smoothing rate can test whether this mechanism reaches a useful weighted slice.",
+      "scope": "Retain the actual short block, cap, quantitative pin, mass, marked phase sign and original reflected rows. Ordinary-prime incidence thresholds and varying subgroup size must be explicit.",
+      "if_yes": "Prove a genuine prime-only upper for a nontrivial weighted band of the actual moment, or derive a quantitative spread that contributes at the necessary scale.",
+      "if_no": "Identify a sharp obstruction to lowering the amplitude threshold by a stated argument.",
+      "if_inconclusive": "Obtain a uniform explicit modulus of the near-one slope count and show exactly which slice or convolution law it controls.",
+      "inputs": [
+        {
+          "path": "research/ordinary-prime-near-unit-slope-spread-158.md",
+          "sha256": "b33e6a378645985957c1cec86ff7bd54f0bd578a04f32439547e65faa6179f40"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-weighted-rank-two-transform",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can a regular rank-two phase transform yield cancellation with the actual five independent base draws and coupled ratios?",
+      "why_now": "The regular two-variable kernel is a rank-two pure trace with no unresolved boundary degeneracies. Its geometry alone gives p pointwise.",
+      "scope": "Use both slope and outer lifts, the exact true weight laws, actual sign, and the nine regular exclusions. Compare with genuine convolution smoothing only after deriving a correct weighting relation.",
+      "if_yes": "Obtain a sufficient p^-1/2 signed saving, or a true sub-block whose weighted absolute contribution is O(p).",
+      "if_no": "Prove a named transform or resonant regime cannot give such a bound.",
+      "if_inconclusive": "Derive an exact useful trace correlation, determinant normalization or higher moment with a checked relation to the actual weights.",
+      "inputs": [
+        {
+          "path": "research/ordinary-five-root-clean-locus-158.md",
+          "sha256": "5140f82b5346b43ea8f240bb14067f135831aaad62580fbd9e61a99c92aa9f6a"
+        },
+        {
+          "path": "research/ordinary-five-root-trivial-slices-157.md",
+          "sha256": "cde7be53870aa40114aaa0a89699e8aa9117e07e67a0ab27ed7cb237fc51996e"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-prime-near-unit-slope-spread-158.md",
+          "sha256": "b33e6a378645985957c1cec86ff7bd54f0bd578a04f32439547e65faa6179f40"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        }
+      ]
+    },
+    {
+      "id": "cold-actual-H-vertex-or-invariant",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can genuine arithmetic inside H or signed interactions across the two height vertices produce a sufficient new confinement?",
+      "why_now": "All W-only regrouping is obstructed for the retained positive comparison. The genuine stationary section needs a change.",
+      "scope": "Use original two heights, both lifts, physical t0=n, original square and actual H center or residual terms. Keep denominator restoration and quantitative nonlinear invariant scope clear.",
+      "if_yes": "Prove a sufficient signed bound or a nonlinear uniform invariant in a genuinely different norm.",
+      "if_no": "Exhibit a concrete obstruction to a specified new signed method.",
+      "if_inconclusive": "Verify a true H-dependent cross-height term or a source-local contraction with a complete quantitative bridge to the remaining invariant.",
+      "inputs": [
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        },
+        {
+          "path": "research/cold-rank-three-common-labels-157.md",
+          "sha256": "6e78bfc5802f6d5a72dc5f939732a38320e41f09207d6f01236b5561757e59c8"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/astra-joint-65.md",
+          "sha256": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 159 deductions survive independent review?",
+      "why_now": "The actual soft amplitude estimates, regular rank-two transform and new cold invariant have different proof dependencies.",
+      "scope": "Read-only. Preserve real prime family, signed laws, full physical cold marks, both lifts and rank two next tests.",
+      "if_yes": "State verified proof scope.",
+      "if_no": "Locate the invalid step.",
+      "if_inconclusive": "Separate available deductions from open estimates.",
+      "inputs": [
+        {
+          "path": "research/ordinary-prime-near-unit-slope-spread-158.md",
+          "sha256": "b33e6a378645985957c1cec86ff7bd54f0bd578a04f32439547e65faa6179f40"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-five-root-clean-locus-158.md",
+          "sha256": "5140f82b5346b43ea8f240bb14067f135831aaad62580fbd9e61a99c92aa9f6a"
+        },
+        {
+          "path": "research/ordinary-five-root-trivial-slices-157.md",
+          "sha256": "cde7be53870aa40114aaa0a89699e8aa9117e07e67a0ab27ed7cb237fc51996e"
+        },
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        },
+        {
+          "path": "research/cold-rank-three-common-labels-157.md",
+          "sha256": "6e78bfc5802f6d5a72dc5f939732a38320e41f09207d6f01236b5561757e59c8"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

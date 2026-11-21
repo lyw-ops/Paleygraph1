@@ -1,0 +1,116 @@
+{
+  "provider": "api.appintheloop.com",
+  "batches": [
+    {
+      "id": "round-138",
+      "launch": {
+        "path": "coordination/round-138-inflight.json",
+        "sha256": "e5435cd7918683d6ee56f00d7e4e7a58c213c009d4a578db3cbe9b8301c93abf"
+      },
+      "lanes": [
+        {
+          "call_id": "cold-center-field-identity",
+          "model_requested": "gpt-6.2-astra",
+          "started_utc_epoch": 1795114201.8279161,
+          "receipt_sha256": "d83be7d0886c97ea398e79ab5dfd23ed64c2b628a944fbc5b2bffec372e04220",
+          "completion": true,
+          "http_status": 200,
+          "model_matches": true,
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 11219,
+            "completion_tokens": 1896,
+            "total_tokens": 13115
+          },
+          "candidate": {
+            "path": "research/api-astra-cold-center-field-identity-138.txt",
+            "sha256": "ffd79be03609880f78779815523d97a7475507a6cf6895830fcad9a698886aa9"
+          }
+        },
+        {
+          "call_id": "ordinary-marked-source-infsup",
+          "model_requested": "claude-fable-5-2",
+          "started_utc_epoch": 1795114201.827494,
+          "receipt_sha256": "f985b852a88bafc5b137f08cf4a825a768ea8f2e71eb5a204ac220107600c7b3",
+          "completion": false,
+          "http_status": 429
+        },
+        {
+          "call_id": "cold-mixed-seed-cross-transport",
+          "model_requested": "gpt-6.2-astra",
+          "started_utc_epoch": 1795114201.827143,
+          "receipt_sha256": "7089df257ac0f30b69feb0257af01b1810e50212f54dec510b3275dba71613ab",
+          "completion": true,
+          "http_status": 200,
+          "model_matches": true,
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 8628,
+            "completion_tokens": 2802,
+            "total_tokens": 11430
+          },
+          "candidate": {
+            "path": "research/api-astra-cold-mixed-seed-cross-transport-138.txt",
+            "sha256": "d50ff23dddadb21c57d6571077a25bc0123246d95c045cb19b78f28ed3fb29a7"
+          }
+        }
+      ]
+    },
+    {
+      "id": "round-138-b2",
+      "launch": {
+        "path": "coordination/round-138-b2-inflight.json",
+        "sha256": "bb4cd8e61c06445b56c017ed9e5ff39db8d62a312a96b2057e130462179d7423"
+      },
+      "lanes": [
+        {
+          "call_id": "ordinary-marked-source-infsup",
+          "model_requested": "claude-fable-5-1",
+          "started_utc_epoch": 1795114282.321239,
+          "receipt_sha256": "b4b962827d8bb2472e75af2a2dccec5bd4f1fff50cfd6149593769340545d011",
+          "completion": false,
+          "http_status": 200,
+          "model_matches": true,
+          "finish_reason": "length",
+          "usage": {
+            "prompt_tokens": 12483,
+            "completion_tokens": 5000,
+            "total_tokens": 17483,
+            "input_tokens": 12483,
+            "output_tokens": 0,
+            "claude_cache_creation_5_m_tokens": 12479,
+            "claude_cache_creation_1_h_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "round-138-b3",
+      "launch": {
+        "path": "coordination/round-138-b3-inflight.json",
+        "sha256": "0238a422b12799123f1b9e8c6aaeb6f58a452107f0956bf3c0e0b206fa83334f"
+      },
+      "lanes": [
+        {
+          "call_id": "ordinary-marked-source-infsup",
+          "model_requested": "gpt-6.2-astra",
+          "started_utc_epoch": 1795114405.5792232,
+          "receipt_sha256": "86a1ee9d94f5e36b6419e1f4bf8bb125decad28ac3243c86a82100938715fb49",
+          "completion": true,
+          "http_status": 200,
+          "model_matches": true,
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 8102,
+            "completion_tokens": 2420,
+            "total_tokens": 10522
+          },
+          "candidate": {
+            "path": "research/api-astra-ordinary-marked-source-infsup-138.txt",
+            "sha256": "b40987ad2c93dc8f143c98c1729eac8e399433e2c5cfaf41e403bd5283098cde"
+          }
+        }
+      ]
+    }
+  ]
+}

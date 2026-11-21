@@ -1,0 +1,66 @@
+{
+  "cold-linear-relative-resummation": {
+    "provider_host": "api.appintheloop.com",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "624fe2f38ca3f05c7d1efc28b1039df2099238d96687f3fea13b7a426d8fd89a",
+    "started_utc_epoch": 1795112962.748383,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7988,
+      "completion_tokens": 3211,
+      "total_tokens": 11199
+    },
+    "draft": {
+      "path": "research/api-astra-cold-linear-relative-resummation-136.txt",
+      "sha256": "92c809cb3cbad43fe5248c7a85a95074a4f283a626eaf6c58fd7e56324bc64f7"
+    },
+    "shared_candidate_ids": [
+      "cand:cold-pure-seed-remainder-472"
+    ],
+    "status": "returned-draft"
+  },
+  "cold-remainder-physical-dual": {
+    "provider_host": "api.appintheloop.com",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "c45c86f2b87c210eb2f3ef0f5f805731d02486cb510165422067f2e330bc3564",
+    "started_utc_epoch": 1795112962.74881,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 7971,
+      "completion_tokens": 2356,
+      "total_tokens": 10327
+    },
+    "draft": {
+      "path": "research/api-astra-cold-remainder-physical-dual-136.txt",
+      "sha256": "0d4d8e829cada0b6c66a5e9ebba83cae84231de83bc68ba24016cc17e5b0859b"
+    },
+    "shared_candidate_ids": [
+      "cand:cold-pure-seed-remainder-472"
+    ],
+    "status": "returned-draft"
+  },
+  "ordinary-signed-tail-prime": {
+    "provider_host": "api.appintheloop.com",
+    "model": "gpt-6.2-astra",
+    "model_basis": "matched response label",
+    "prompt_sha256": "7b2f0a49440c1c9990bfa1ec8696e985adc5bf89984d94c6a1e3d728632936fc",
+    "started_utc_epoch": 1795112962.7497401,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 6394,
+      "completion_tokens": 3825,
+      "total_tokens": 10219
+    },
+    "draft": {
+      "path": "research/api-astra-ordinary-signed-tail-prime-136.txt",
+      "sha256": "4bd12bea226cff09c0b41ee5c51a2bfa545a38c62dc11f60f969b7b5c600c7eb"
+    },
+    "shared_candidate_ids": [],
+    "status": "returned-draft"
+  }
+}

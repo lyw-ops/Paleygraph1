@@ -1,0 +1,127 @@
+## Result: a uniform bound exists, but it does not vanish
+
+Let \(K\) be the genuine multiplicative-frequency operator, \(T=T_\epsilon\), and
+\[
+S=(\epsilon KT-z_+)_+.
+\]
+Since \(S\le (\epsilon KT)_+\),
+\[
+\|S\|_{2,n}^2\le \|KT\|_{2,n}^2
+=\|T\|_{2,n}^2-(\mathbb E_nT)^2
+\le \alpha,
+\]
+where \(\alpha=\nu^2-\mu^2\) is the actual cap deficit. The stationary factor is
+\[
+f_\epsilon=\frac{b+\epsilon Y}{2},\qquad \mathbb E_n f_\epsilon=\frac{\nu}{2}.
+\]
+
+The Jacobi entry bound applied to the genuine \(Y=Kb\) gives, uniformly in the coordinate,
+\[
+0\le f_{\epsilon,i}\le |Y_i|+\sqrt t
+\le \nu\sqrt p+\sqrt t=:L_{n,t}.
+\]
+Therefore
+\[
+\|f_\epsilon\|_{2,n}^2
+\le \|f_\epsilon\|_{\infty}\mathbb E_n f_\epsilon
+\le \frac{\nu}{2}L_{n,t}.
+\]
+Cauchy–Schwarz yields the exact prime-uniform estimate
+\[
+\boxed{\;
+\mathbb E_n(f_\epsilon S)
+\le
+\left(\frac{\nu L_{n,t}}2\right)^{1/2}\alpha^{1/2}.
+\;} \tag{A}
+\]
+
+For fixed \(t\) and \(M=10\), \(p=n+1\), so \(L_{n,t}=O_t(\sqrt n)\). Hence
+\[
+\mathbb E_n(f_\epsilon S)=O_t(n^{1/4}\sqrt\alpha). \tag{B}
+\]
+
+### Consequences
+
+1. **Rate-free cap:** the available general bound \(\alpha\le 4(1-t/n)\) gives only
+   \[
+   \mathbb E_n(f_\epsilon S)=O_t(n^{1/4}),
+   \]
+   which is useless for the required \(o(1)\) criterion.
+
+2. **Critical cap rate:** even under the additional assumption
+   \[
+   \alpha\le Bn^{-1/2},
+   \]
+   (A) gives only
+   \[
+   \mathbb E_n(f_\epsilon S)
+   \le
+   \left(\frac{\nu(\nu\sqrt p+\sqrt t)}2\right)^{1/2}
+   \sqrt{B}\,n^{-1/4}
+   =O_t(\sqrt B), \tag{C}
+   \]
+   not \(o(1)\).
+
+Thus the critical cap rate controls the \(L^2\)-size of the adjusted overshoot but does not control its correlation with the stationary factor.
+
+## Why this is a genuine obstruction rather than a loose entry estimate
+
+The factor \(f_\epsilon\) may carry \(L^2\)-mass of order \(n^{1/4}\):
+\[
+\|f_\epsilon\|_{2,n}^2\le \|f_\epsilon\|_\infty\mathbb E_n f_\epsilon
+=O_t(\sqrt n).
+\]
+At the critical rate, \(\|S\|_{2,n}=O(n^{-1/4})\). Their product is therefore naturally \(O(1)\). This scaling is compatible with \(S\) being \(O(1)\) on an \(O(\sqrt n)\)-sized high-factor set, precisely the receiver geometry forced by a persistent stationary mark. Neither positivity nor the eigensector identity excludes that alignment.
+
+The exact signed transport identity makes the missing input explicit:
+\[
+\mathbb E_n(f_\epsilon\,\epsilon KT)
+=
+\mathbb E_n(f_\epsilon T)-\frac{\nu}{2}\mathbb E_nT.
+\]
+Writing
+\[
+\epsilon KT=z_+ + S-R,\qquad
+R=(z_+-\epsilon KT)_+,
+\]
+gives
+\[
+\boxed{\;
+\mathbb E_n(f_\epsilon S)
+=
+\mathbb E_n(f_\epsilon T)
+-\frac{\nu}{2}\mathbb E_nT
+-\mathbb E_n(f_\epsilon z_+)
++\mathbb E_n(f_\epsilon R).
+\;} \tag{D}
+\]
+All terms on the right are genuine actual-row quantities. The signed identity controls \(S-R\), not \(S\) alone. A prime-uniform estimate forcing the positive and negative transport parts to cancel on the \(f_\epsilon\)-weighted receiver set is absent.
+
+Conversely, the prior stationary pairing gives, for \(d=z_0/\sqrt n\) and \(\ell=(\epsilon KT)_0^+/\sqrt n\),
+\[
+\mathbb E_n(f_\epsilon S)
+\ge
+(d-\ell)\left(e^{\epsilon\gamma}-\frac{\nu^2}{4}\right)
+-\frac{\nu^2}{4}(2-d). \tag{E}
+\]
+Hence if \(\epsilon\gamma\ge\delta>0\), \(t<e^\delta-1\), and the fixed-cap mark limits apply, the weighted overshoot has a positive lower bound (subject to the displayed \(\ell\)-term). Equations (C) and (E) show that the critical rate is not incompatible with a persistent weighted mark; it merely confines the obstruction to order-one scale.
+
+## Conclusion
+
+No rate-free proof of
+\[
+\mathbb E_n(f_\epsilon S)=o(1)
+\]
+is obtained. The new bound (A) is prime-uniform and uses the actual \(K,T,z_+,f_\epsilon\), but it exposes a precise gap:
+
+> \(L^2\)-small adjusted transport does not imply stationary-weighted smallness because the true stationary factor has \(L^2\)-norm of order \(n^{1/4}\), and the high-factor receiver set can have exactly the scale needed for order-one weighted mass.
+
+### Ranked next tests
+
+1. **Highest priority:** prove a genuine prime-uniform decorrelation estimate for the actual receiver set
+   \[
+   \{i:f_{\epsilon,i}\asymp\sqrt n,\ S_i>\eta\},
+   \]
+   or equivalently show that its \(S\)-energy is \(o(n^{-1/2})\). This would defeat the order-one scaling in (C).
+
+2. **Under the explicit added assumption \(\alpha=O(n^{-1/2})\):** retain the bounded-source/top-\(\sqrt n\) transport rectangle and test whether the actual multiplicative operator forbids simultaneous high \(f_\epsilon\) and positive \(S\) with a fixed margin. Without such a receiver-set exclusion, the weighted criterion remains unresolved.

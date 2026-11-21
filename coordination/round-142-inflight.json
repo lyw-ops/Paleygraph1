@@ -1,0 +1,61 @@
+{
+  "round": 142,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-141-acceptance.json",
+    "sha256": "c58410d5dfd55effe14ecf378ce04b4de9dbc23ac46e4767e77d02e8c2528c7b"
+  },
+  "coordinator": {
+    "path": "coordination/round-141.json",
+    "sha256": "014a11fcfa3374f0f1ae7ccd109994ef833eb4888c66814b112427af5f2c092c"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-142.py",
+    "sha256": "4d51dcbe15d6ac688ee1a07e2bf28f68e57964a16c6485a826436cce658cffbf"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-142-before.json",
+    "sha256": "bf253d3f697a7c63bbc3e448754a0653c0ceb30eff8bb75058e06bf171c4c5de"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-actual-terminal-weight",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "6a3783cb1488f24bf001cd3242eebd3dbbda0e7e57c54b7154a0f05d18713f41",
+      "mission_file": {
+        "path": "coordination/missions/round-142/ordinary-actual-terminal-weight.md",
+        "sha256": "2883939ed760e3fe4074f07559d0cc3915699e437ff2b79fe05a0893a1b1ac83"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r142-api-01a1ed0a/ordinary-actual-terminal-weight-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r142-api-01a1ed0a/ordinary-actual-terminal-weight-candidate.md",
+      "started_utc_epoch": 1795117287.491359
+    },
+    {
+      "call_id": "cold-first-translated-mixed-column",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "9b19853bcb6b33d4ec853b2e9d6bd7a4fe9641a3a8be4edfa27bd0edc9b8098a",
+      "mission_file": {
+        "path": "coordination/missions/round-142/cold-first-translated-mixed-column.md",
+        "sha256": "f84b180f034d498c62409ecfdccfb18b06f2543d4a7d04a90f0a2d2e02d2a1ec"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r142-api-01a1ed0a/cold-first-translated-mixed-column-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r142-api-01a1ed0a/cold-first-translated-mixed-column-candidate.md",
+      "started_utc_epoch": 1795117287.491735
+    },
+    {
+      "call_id": "cold-seed-resummed-linear-action",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "77da3555f6d9ecd14170dc52a09e2722b6625a09148ab20cbdaeb987865c23b1",
+      "mission_file": {
+        "path": "coordination/missions/round-142/cold-seed-resummed-linear-action.md",
+        "sha256": "dd21c592e6597f65ee6cefbb176b52d94986c105d733fa89c7802a20b5f85426"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r142-api-01a1ed0a/cold-seed-resummed-linear-action-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r142-api-01a1ed0a/cold-seed-resummed-linear-action-candidate.md",
+      "started_utc_epoch": 1795117287.49233
+    }
+  ]
+}

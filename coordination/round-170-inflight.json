@@ -1,0 +1,61 @@
+{
+  "round": 170,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-169-acceptance.json",
+    "sha256": "a9108919cdb63360c5181f87f1264297b284383a77deb14c4c69a1bc4c3088bd"
+  },
+  "coordinator": {
+    "path": "coordination/round-169.json",
+    "sha256": "604f17da1baede0ac966f59e78496bcab72c88dde0d72aa7748c9a3d050fc1f4"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-170.py",
+    "sha256": "00c708bed9e7524a51a7ae10a617e6794358bd8728fc0788159269e5363cbfbd"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-170-before.json",
+    "sha256": "67075eff2a2912d6f4122f7f1d0fc1ef874e4ef8de0befc1df35056981d4c43c"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-distinct-ratio-dilations",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "cb4540d21f911f562e1b5166f16a5136285091b7fc875581143ea85dce83a25f",
+      "mission_file": {
+        "path": "coordination/missions/round-170/ordinary-prime-distinct-ratio-dilations.md",
+        "sha256": "4513371a52d09a3fda2245219253d23eb489d92852f5682c7c4ee5caae997586"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r170-api-01a1ed0a/ordinary-prime-distinct-ratio-dilations-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r170-api-01a1ed0a/ordinary-prime-distinct-ratio-dilations-candidate.md",
+      "started_utc_epoch": 1795135482.143906
+    },
+    {
+      "call_id": "ordinary-prime-centered-source-coercivity",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "9cb8791219a2a2152b72042632f82b2a93a800089ac728a9523b994a7faec442",
+      "mission_file": {
+        "path": "coordination/missions/round-170/ordinary-prime-centered-source-coercivity.md",
+        "sha256": "a7741d11c4f70a31fc2b4bd61aa12d9986cdf38534e98c675dc5703ea63247e4"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r170-api-01a1ed0a/ordinary-prime-centered-source-coercivity-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r170-api-01a1ed0a/ordinary-prime-centered-source-coercivity-candidate.md",
+      "started_utc_epoch": 1795135482.143231
+    },
+    {
+      "call_id": "cold-prime-restricted-response-gain",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "1cccabbc0e608149ae2461c9b1c4961d06ea5842aaab91f434394c0e806cb296",
+      "mission_file": {
+        "path": "coordination/missions/round-170/cold-prime-restricted-response-gain.md",
+        "sha256": "e4efe73e1453241c04e1dcf589c8b1d1031ef06d8ce970fea27c3de3a4126b83"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r170-api-01a1ed0a/cold-prime-restricted-response-gain-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r170-api-01a1ed0a/cold-prime-restricted-response-gain-candidate.md",
+      "started_utc_epoch": 1795135482.1427321
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "round": 138,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-137-acceptance.json",
+    "sha256": "ce0f368124a7d5da4652d4a492b67e40c99cb16cf56e3b524e370c02005805a5"
+  },
+  "coordinator": {
+    "path": "coordination/round-137.json",
+    "sha256": "56ecfc57321942eafdafba4190d73a4dd9fedd83fe81df24ac19658173de5f83"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-138.py",
+    "sha256": "f6fcdd545b205a8a914e3635e233ca0a83b222de758f94e24eb3e51be5b8f264"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-138-before.json",
+    "sha256": "e08dabc37eddc481abcfa195613e5d824ea26ea9bd7ac4098d9034655ce10667"
+  },
+  "lanes": [
+    {
+      "call_id": "cold-center-field-identity",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "afa359b0c91f3d95399c05e79492aa72f1956b0717de85d6eae759a6aadda81e",
+      "mission_file": {
+        "path": "coordination/missions/round-138/cold-center-field-identity.md",
+        "sha256": "4e60cca617e32d7bf8edc1bf47d1ce07b7e53b5c81d05556c7fbf1d977f1abc4"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r138-api-01a1ed0a/cold-center-field-identity-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r138-api-01a1ed0a/cold-center-field-identity-candidate.md",
+      "started_utc_epoch": 1795114201.8279161
+    },
+    {
+      "call_id": "ordinary-marked-source-infsup",
+      "model": "claude-fable-5-2",
+      "prompt_sha256": "7f57de0e6dcff627adeadc288b45bb7e64f5d062d4941e4664a5af9808ef9069",
+      "mission_file": {
+        "path": "coordination/missions/round-138/ordinary-marked-source-infsup.md",
+        "sha256": "5c5cd6d4c01189d0edbe555907f8c3125a57ea5738890ddbbe750bbd96f81a08"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r138-api-01a1ed0a/ordinary-marked-source-infsup-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r138-api-01a1ed0a/ordinary-marked-source-infsup-candidate.md",
+      "started_utc_epoch": 1795114201.827494
+    },
+    {
+      "call_id": "cold-mixed-seed-cross-transport",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "dcf732014421e07c7a649f74d46a1c303468d1b58d218a92bdd9271ddcf59125",
+      "mission_file": {
+        "path": "coordination/missions/round-138/cold-mixed-seed-cross-transport.md",
+        "sha256": "b82108f45d74098bf190d6a1ba4905a722e9f7f13c00092504365edc7d1b5fed"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r138-api-01a1ed0a/cold-mixed-seed-cross-transport-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r138-api-01a1ed0a/cold-mixed-seed-cross-transport-candidate.md",
+      "started_utc_epoch": 1795114201.827143
+    }
+  ]
+}

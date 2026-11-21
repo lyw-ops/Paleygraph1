@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T02:12:56.283827Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-177.json#next_calls",
+  "coordinator_sha256": "b93fb1163ab66229a4ab05cd948ac154827fe9065f7de366b5cd0e440d589ce4",
+  "call_ids": [
+    "ordinary-prime-shifted-coupled-second-moment",
+    "ordinary-prime-transverse-shifted-rows",
+    "cold-prime-ten-step-signed-extension"
+  ],
+  "routes": {
+    "r178/ordinary-prime-shifted-coupled-second-moment": {
+      "question": "Can shifted row structure also bound the actual positive two-copy diagonal at a new scale?",
+      "scope": "Use the exact line representation and all four true g factors per copy and w(s). Try to strengthen the output-set estimate with both inputs, or bound collisions of different poles via the actual shifted row correlations. Retain physical masks, endpoints and existing paid projective cuts. Keep common poles separate.",
+      "remaining": "Reach O(p^3/2) for the full weighted diagonal or the sufficient match estimates. In particular the genuine distinct-pole coupling, generic summed right energy and zero match remain open."
+    },
+    "r178/ordinary-prime-transverse-shifted-rows": {
+      "question": "Can the actual transverse q=b+cr projection improve the summed rich right distribution?",
+      "scope": "Set x=1/Y and y=1/D, with y=x(x+q−1−c)/(qx−c) on genuine rows where the denominator is nonzero. Handle cancelled rows and zero denominators before testing paired quotient incidence or a direct mixed second moment. Keep both square masks and the actual g at all levels. A per-row gain has to be distinguished from a summed generic gain.",
+      "remaining": "Reach O(p^3/2) for the full weighted diagonal or the sufficient match estimates. In particular the genuine distinct-pole coupling, generic summed right energy and zero match remain open."
+    },
+    "r178/cold-prime-ten-step-signed-extension": {
+      "question": "Can the growing actual cold prefix fit inside the wider seed-centered disk with strict clearance?",
+      "scope": "Use the original square, both lifts and t0=n. At the true fixed center, keep each nonlinear propagation power B^(j-1-l) and its post-K true source, with no extra K. Seek signed aggregate bounds or an actual unnormalized R611 threshold with fixed slack. A fixed-depth or finite-prime calculation must keep its scope.",
+      "remaining": "Prove the real growing prefix with terminal clearance, or meet a sufficient actual source or signed propagation bridge. Derivative transfer remains separate."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-shifted-coupled-second-moment": [],
+    "ordinary-prime-transverse-shifted-rows": [],
+    "cold-prime-ten-step-signed-extension": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The new shifted energy is common input for the first two proposals but one estimates the actual four-amplitude positive distinct-pole diagonal and the other the transverse right-difference row distribution. The cold proposal is a separate actual marked trajectory. The new batch uses a smaller requested reasoning budget after the previous terminal timeout and HTTP 403 retry."
+}

@@ -1,0 +1,148 @@
+{
+  "round": 146,
+  "accepted_at_utc": "2026-11-19T20:31:19Z",
+  "previous": "research/round-145-acceptance.json",
+  "previous_sha256": "6e4ae6076ec9d4bf14910c64e09300c610bc896f31ab9849e7f123c19aa54ad8",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-145.json",
+    "sha256": "c7b48953b288e4b16d645e85e7d2e7fe433f757989a5b73f5d37eec8eaf0fac3"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-near-cap-complementary-mask-146.md": "06c1dd62076c275cbbdbd79c7976dc1da2c2eca05723c681d64b1fd310e2d43f",
+    "research/cold-actual-legendre-amplitude-146.md": "4e72c15a598bb4451152ff9a8ab5bf4d7aae38ffc13914041687b1963c89d4e2",
+    "research/cold-actual-legendre-amplitude-146-check.py": "9f77b113b7f1d30116ef6a313fa4355c38dc2216258fdd54c5229d44680ad2af",
+    "research/cold-actual-legendre-amplitude-146-checks.jsonl": "65635d75dc4810ab965b094ffdcccee45926dfd08bcbdfbfd41701a4dea6db8a",
+    "research/api-astra-review-146.md": "46567f0f8c424f1e5fc10b2ebf8ea5c9b7767d5dc769bd439a7f465231d5e998",
+    "research/api-astra-146-receipt.json": "c6dd7b11274f3face8cedf9a2bb59d80c292374796be431df36f342a9a1d603d",
+    "research/api-astra-ordinary-prime-deleted-tail-146.txt": "a1a42d831ba238ad9ae82d6acf0ac12519d69ecf671cdf36882d6861a90f0350",
+    "research/api-astra-ordinary-near-cap-shift-frontier-146.txt": "d90e5f7a7cf3e5b4faad88a8ef3ec4fe73d1571c6c79d77374c77fcb9b8c982a",
+    "research/api-astra-cold-actual-remaining-derivative-146.txt": "f0fcddb6c5d07f8e794920affc56363bcb7c8dddf36c8f10e06a5342f6381e0a",
+    "coordination/launchers/round-146.py": "671140d5259bdccc9a749f2d394e9b0db0dc034f6e80d49bc4b09c41dcc97550",
+    "coordination/round-146-inflight.json": "0819b588e19fde43e9ee2a05ea4649d65fbc47d414a0b0e46db33289c3f5a11b",
+    "coordination/shared-obligations/round-146-before.json": "efff63dc8c9d47dbc74733e5010614154da788a64d80b74a86357de79cafa357",
+    "coordination/shared-obligations/round-146-after.json": "573f1016de407855e25587777097acddca400ef95fb5d7cf54029a78689c54fa",
+    "coordination/missions/round-146/ordinary-prime-deleted-tail.md": "7c3f8d7b077d5856422b1c4b940a742e2300fbc1b0ba33a51c4a23f20b01ac4d",
+    "coordination/missions/round-146/ordinary-near-cap-shift-frontier.md": "a59efcec55269afcbe53a74f288b627a2ba972effa9a600195f981b5f10131f6",
+    "coordination/missions/round-146/cold-actual-remaining-derivative.md": "111afac5f84eb02319109efbc1e6054db72d7fcb82747340e9c60d6b74610c51"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-terminal-clipped-shift-145.md": "49b618a03e88ac99ca07a05d2f6abc5192fa484eb8bd102b2ead048176d97fcf",
+    "research/ordinary-terminal-approximate-face-144.md": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4",
+    "research/ordinary-terminal-offdiagonal-142.md": "958ff834c39cdb71002730a3017aecfdd33acb909147eed83f0245c587801e03",
+    "research/ordinary-terminal-face-dual-143.md": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/astra-hinge-73.md": "20ba0f8f3527e7b431ec6218c8ff668a8120859ba5fe3a6c0bac12f7f2a608c3",
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/astra-face-54.md": "c19832b0d663c99fa08c45e80919865bc5e9ff57efb7930d85a837bb826defd8",
+    "research/cold-jacobi-linear-legendre-145.md": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1",
+    "research/cold-quintic-complete-selected-pools-144.md": "65d491945951070b9db8565942bcec62ce32784750acfa7d7e417c361c36fa06",
+    "research/cold-frozen-cross-reduction-138.md": "6a4283f05e6c58c7a1a0b581917838d2174303f2a9b82e40e8c1921aa7640225",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-jacobi-linear-legendre-145-check.py": "f088e0428236b89b6fc2a2024a4c3c1239df5fc104b5f3d7e01697f07e9ed1d6",
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three completed calls and independent review of the actual complementary mask, actual cold amplitude, and positive-comparison obstruction.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 2,
+  "arithmetic_record_counts": {
+    "actual_legendre_amplitude_selected_block": 1,
+    "retained_direct_positive_repricing_obstruction": 1
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra ordinary deleted tail",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Control the signed weighted threshold layers on the true optimizer",
+        "Compare the actual signed tail across the true face and marked times"
+      ]
+    },
+    {
+      "name": "Gateway Astra ordinary near-cap frontier",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Use the prime character expansion of actual terminal weights",
+        "Use a weighted near-cap difference cover with actual terminal weights"
+      ]
+    },
+    {
+      "name": "Gateway Astra actual remaining cold derivative",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Compare the signed first omitted center coefficients",
+        "Test the actual same-row signed square difference"
+      ]
+    },
+    {
+      "name": "/root/audit_146",
+      "status": "completed",
+      "ranked_closeout": [
+        "Prove a prime-uniform upper of the complementary masked translated tail energy at growing times",
+        "Price the first-order omitted cold term below the actual remaining budget after the 0.142 higher part"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Price the actual near-cap masked translated-tail collision at selectable, growing marked times using genuine prime arithmetic. In a diffuse cap case the distinct-shift form is the necessary large statistic.",
+    "Test the actual deleted-tail sign on the true opposite bulk zero set, uniformly at fixed tau and at admissible cutoffs L=o(T).",
+    "Test the first-order signed omitted cold center at both heights below 0.224, or the actual same-row signed product below 0.580184. Mere positive repricing of the existing direct retained envelope is excluded."
+  ],
+  "proof_scope": [
+    "Any near-cap shift mixture of a mean-one optimizer has opposite bulk overlap at most C epsilon with any true opposite optimum R. The normalized terminal price admits a cut to the actual mask G>=cT and R<=delta G/T with errors c+O(epsilon/delta) plus O_tau(T^-1/2) times the clipped RMS and original-root correction. A fixed prime gap forces the genuine translated clipped-tail second moment on that mask to be at least order T for every such choice when epsilon=o(delta), delta tends to zero and L=o(T). For a diffuse near-cap law with squared counting norm o(T/sqrt n), the equal-shift contribution is lower order. This provides a new conditional prime arithmetic test.",
+    "The actual common Legendre coefficient has modulus below 0.244 on the closed square. The selected actual step B=K(D^J+D^L) has P5000 rate below 0.634 on the whole specified two-pair class, the linear step below 0.119, both mixed orders together below 0.126, and B squared below 0.402. The sufficient omitted budgets are 0.366 per height or 0.598 for the two-step difference. The actual height comparison leaves a sufficient same-row square difference below 0.580184.",
+    "For the specified retained direct positive majorants at heights 601 and 602, the same twelve-weight positive vector gives strict componentwise lower rates exceeding 1.035 and a strict product lower rate exceeding 1.071225. This obstructs any monotone positive reprice of that retained comparison. It is not a lower bound on the actual signed physical steps."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw deleted-tail result does not bound the actual weighted signed layers. Its proposed negative minimum over optimizers does not rule out choosing another optimizer. Its unit-layer formula loses the fractional cutoff.",
+    "The raw near-cap scalar identity requires a true opposite optimum or the corresponding actual root correction. Its proposed autocorrelation method does not price the new actual joint mask. No prime-uniform upper on shifted energy or on the original signed deleted tail is established.",
+    "The raw cold thresholds used the old unit-amplitude price. Smaller actual selected bounds do not yet control higher Legendre, other center and Picard residual terms. The full signed derivative, nonlinear invariant, and original prime theta limit remain open."
+  ],
+  "floating_diagnostics": [
+    "A finite numeric eigenvector directed the choice of the twelve-weight trial vector. Only the subsequent strict Arb componentwise comparisons are used as evidence."
+  ],
+  "replay_checks": [
+    "Both selected rate calculations and positive repricing comparisons were replayed. The current inherited dependencies of the R130 checker match the explicit hashes in its acceptance. The selected price uses rational comparisons, and actual amplitude and subinvariance use 192-bit outward checks.",
+    "The separate auditor reproduced the two strict subinvariance lower bounds and selected rational rate, and checked the actual overlap and both physical root removals.",
+    "All three complete matching HTTP 200 responses were archived. No exact cross-route overlap was identified."
+  ],
+  "independent_review": [
+    "The read-only auditor checked the normalized masked inequality, true opposite optimality, gap quantifiers and conditional treatment of the shift law, and independently reconstructed the cold finite comparison and amplitude bound."
+  ]
+}

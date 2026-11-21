@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-145-inflight.json",
+    "sha256": "5b2b59d4b241966a03319af55e11353888772121047ab6067e61e31fb46ed6c3"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-terminal-signed-clipping",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 19052,
+        "completion_tokens": 3235,
+        "total_tokens": 22287
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-terminal-signed-clipping-145.txt",
+        "sha256": "b63ce3a902b95171846eba112e50838ae91669ffff7f95ac7300052b1f859d4f"
+      }
+    },
+    {
+      "call_id": "ordinary-terminal-approx-sector",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 24824,
+        "completion_tokens": 3748,
+        "total_tokens": 28572
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-terminal-approx-sector-145.txt",
+        "sha256": "9a9b7c9c791b993938a4de50f03cd2497372772c41f26515f820c5f38ea90da3"
+      }
+    },
+    {
+      "call_id": "cold-full-selected-unshifted-price",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 15593,
+        "completion_tokens": 4131,
+        "total_tokens": 19724
+      },
+      "archive": {
+        "path": "research/api-astra-cold-full-selected-unshifted-price-145.txt",
+        "sha256": "c91cdb5c5716d08eac5c54cd3202663632940eaf463807dc91809bbb72972522"
+      }
+    }
+  ]
+}

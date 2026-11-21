@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_165",
+  "comparison": "The centered column source, the physical two-copy slope collisions, and the even cold source orbit have independent hypotheses and numerical scales. Exact inverse identities in the first lane concern the same fixed-gap obstruction; they do not count as separate upper bounds.",
+  "groups": [],
+  "dispatch": "coordination/round-165-inflight.json",
+  "launched_at_utc": "2026-11-19T23:56:55.181554Z",
+  "launched_calls": [
+    "ordinary-prime-unmarked-directional-spectrum",
+    "ordinary-prime-moderate-slope-collisions",
+    "cold-prime-actual-bulk-Taylor-orbit"
+  ],
+  "before_sha256": "261e5f0e26330d7c55c2e2ed4e9d63ba005fa97b79117a05762d7b777b926bab"
+}

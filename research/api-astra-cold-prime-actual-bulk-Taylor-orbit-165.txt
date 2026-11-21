@@ -1,0 +1,218 @@
+## Result: inconclusive, with a precise failure of the available sufficient bound
+
+I cannot presently prove a summable signed translated orbit for the actual bulk Taylor source. The obstruction is not a counterexample to the orbit itself; it is that the available estimates control the source only **before** the full outer frozen transport, while the translated norm of the transported multiplier is still larger than one.
+
+### Fixed setting
+
+- Prime family: the eligible cold primes \(p\to\infty\) for which the cited packet, sheet, and convolution estimates hold; write \(n=p\).
+- Physical marking: \(t_0=n=p\), while \(t_i=t\) for \(i\ne0\).
+- Both lifts are retained.
+- Domain: the original complex square \(Q\), not a relaxed square.
+- Frozen height: \(h=602\), with
+  \[
+  D=D_{602},\qquad B=KD,\qquad Z=(I-B)^{-1}K.
+  \]
+- Translated norm: \(P_{5000}\).
+- Counting control: normalized \(\ell^2\) operator norm and entrywise/max-entry bounds.
+- Order of limits: first sum or estimate the infinite orbit and Taylor series at each fixed eligible prime \(p\); only then take \(p\to\infty\).
+
+Let \(R=V_{601}-V_{600}\), and let \(r^{\mathrm b}\) be the bulk Taylor remainder evaluated on the actual pair of rows. The actual remainder satisfies
+\[
+r=r^{\mathrm b}+\delta e_0,
+\]
+where \(\delta=O(\varepsilon^2)\) is the marked physical correction.
+
+The bulk series is
+\[
+r^{\mathrm b}_i
+=
+R_i^2\int_0^1(1-s)(4t_i)^{-1/2}
+\left(1+\frac{(V_{600,i}+sR_i)^2}{4t_i}\right)^{-3/2}\,ds.
+\]
+
+The leading \(l=0\) term has already been priced and is excluded from the new claim:
+\[
+\|Kr^{(0)}\|_{P_{5000}}<0.000031.
+\]
+The whole untransported bulk Taylor term has the established bound
+\[
+\|Kr^{\mathrm b}\|_{P_{5000}}<0.000115+O(p^{-1/2}).
+\]
+
+## What is controlled
+
+The marked exception is controlled in the physical transport:
+\[
+\sum_{j\ge0}\|B^jK(r-r^{\mathrm b})\|_\infty
+=O(\varepsilon^2p^{-0.455}).
+\]
+This uses the genuine height-602 max-entry estimate
+\[
+\sum_{j\ge0}\|(KD)^jK\|_{\max}=O(p^{-0.455}),
+\]
+which is valid for both lifts and the actual marked coordinate.
+
+For the alternative transport involving \(K^2\),
+\[
+ZK(r-r^{\mathrm b})
+=
+(r-r^{\mathrm b})-\overline{(r-r^{\mathrm b})}
++
+ZD\bigl((r-r^{\mathrm b})-\overline{(r-r^{\mathrm b})}\bigr),
+\]
+the centered non-atomic part is again \(O(\varepsilon^2p^{-0.455})\), but the direct atom
+\[
+\delta(e_0-\mathbf 1/n)
+\]
+has no decay in the stated translated norm. Thus the physical atom is harmless for the \(B^jK\)-orbit, but it is not harmless for the \(ZK\)-transport unless it is explicitly separated.
+
+The frozen height-602 multiplier estimates are
+\[
+\|B\|_{P_{5000}}<1.066,
+\qquad
+\|B\|_{2\to2}<0.518,
+\]
+and
+\[
+\|B^jK\|_{\max}
+\ll
+\min\{p^{-1/2}(1.066)^j,\,(0.518)^j\}.
+\]
+The resulting entrywise sum is \(O(p^{-0.455})\).
+
+## The precise gap
+
+The required physical bulk orbit is
+\[
+\mathcal O_{\mathrm b}
+=
+\sum_{j\ge0}B^jK r^{\mathrm b}
+=
+Zr^{\mathrm b}.
+\]
+The alternative inverse-times-\(K^2\) expression is
+\[
+\widetilde{\mathcal O}_{\mathrm b}
+=
+\sum_{j\ge0}B^jK^2r^{\mathrm b}
+=
+ZKr^{\mathrm b}.
+\]
+
+The available \(P_{5000}\) estimate only gives, schematically,
+\[
+\|B^jK r^{\mathrm b}\|_{P_{5000}}
+\lesssim
+(1.066)^j\|Kr^{\mathrm b}\|_{P_{5000}},
+\]
+which is not summable. The counting estimate is summable, but it is not a translated-norm estimate for the full signed source. Combining it with the max-entry bound gives only
+\[
+\|B^jK r^{\mathrm b}\|_\infty
+\le
+\|B^jK\|_{\max}\sum_i|r^{\mathrm b}_i|.
+\]
+Since
+\[
+\sum_i|r^{\mathrm b}_i|
+=
+p\,\|r^{\mathrm b}\|_{1,p},
+\]
+the entrywise summation produces a factor \(p\):
+\[
+\sum_{j\ge0}\|B^jK r^{\mathrm b}\|_\infty
+\lesssim
+p^{1-0.455}\|r^{\mathrm b}\|_{1,p}.
+\]
+This is \(O(p^{0.545})\) for a merely \(O(1)\) normalized first norm of the source and is therefore useless for confinement. It does not become small merely because
+\[
+\|Kr^{\mathrm b}\|_{P_{5000}}<0.000115.
+\]
+
+The missing statement is a **source-local signed transport estimate** of the form
+\[
+\sum_{j\ge0}
+\|B^jK r^{\mathrm b}_{\ge1}\|_{P_{5000}}
+< C_{\mathrm{bulk}}\varepsilon^2,
+\]
+where \(r^{\mathrm b}_{\ge1}\) denotes the bulk Taylor series with the already priced \(l=0\) term removed, uniformly over \(Q\), both lifts, and all sufficiently large eligible primes. Nothing in the existing \(1.066\) multiplier bound proves this. Nor does the \(O(p^{-0.455})\) entrywise resolvent estimate, because it loses the normalized-to-unnormalized factor \(p\).
+
+Consequently:
+
+- the actual marked atom is controlled in the physical \(B^jK\)-orbit;
+- the leading quadratic source is controlled before the outer inverse;
+- the signed bulk tail after the outer inverse remains unproved;
+- no nonlinear confinement theorem follows.
+
+This is a failure of the current sufficient bound, not a refutation of the asymptotic target.
+
+## Hypotheses that would suffice
+
+Either of the following would close the transport part.
+
+### H1. Source-local translated contraction
+
+For the actual bulk source, prove directly
+\[
+\sum_{j\ge0}
+\|B^jK r^{\mathrm b}_{\ge1}\|_{P_{5000}}
+\le C\varepsilon^2
+\]
+with \(C\) independent of \(p\), both lifts, and \(t\in Q\).
+
+A stronger but easier-to-check version is a decomposition into signed translated packets \(r_{\nu}\) with
+\[
+r^{\mathrm b}_{\ge1}=\sum_\nu r_\nu,
+\qquad
+\|B^jr_\nu\|_{P_{5000}}
+\le C\rho^j w_\nu,
+\quad \rho<1,
+\quad \sum_\nu w_\nu=O(\varepsilon^2).
+\]
+
+### H2. Genuine moving starter
+
+Alternatively, construct a moving physical starter \(V_{m(p)}\) with residual
+\[
+r_p=\|F_t(V_{m(p)})-V_{m(p)}\|_{2,p}
+\]
+and prove, uniformly on the original \(Q\),
+\[
+p^{1-\beta}r_p^2=o(1),
+\]
+together with the signed partial-sum and sheet hypotheses of the frozen-orbit transfer theorem. The existing exponent \(\beta=0.455\) would require
+\[
+r_p=o\!\left(p^{-0.2725}\right),
+\]
+while the stronger \(\beta=1/2\) threshold requires \(r_p=o(p^{-1/4})\). No such moving residual has yet been established for the actual prime family and physical marking.
+
+## Ranked next tests
+
+### 1. Highest priority: the first unpriced signed bulk coefficient
+
+Take the \(l=1\) term in the exact bulk series:
+\[
+r^{\mathrm b,(1)}_i
+=
+-\frac{3R_i^2}{2\sqrt{4t_i}}
+\int_0^1(1-s)
+\frac{(V_{600,i}+sR_i)^2}{4t_i}\,ds.
+\]
+
+Separate its actual word types, including both lifts and the common base-pair characters, and test the **transported** quantities
+\[
+B^jK r^{\mathrm b,(1)}\quad\text{and}\quad B^jK^2r^{\mathrm b,(1)}
+\]
+in \(P_{5000}\), not merely \(Kr^{\mathrm b,(1)}\). The decisive output is a uniform ratio or packet majorant \(\rho<1\) after the first signed transport. If this fails already for \(l=1\), it identifies a named obstruction in the bulk iteration. If it succeeds, the same word ledger can likely be summed over \(l\) using \(M^2/N<1\).
+
+### 2. Second priority: moving-starter residual test
+
+Construct an actual \(V_{m(p)}\) on the original square, retaining \(t_0=p\) and both lifts, and measure
+\[
+r_p=\sup_{t\in Q}\|F_t(V_{m(p)})-V_{m(p)}\|_{2,p}.
+\]
+Then verify the two distinct finite-prefix conditions:
+
+1. signed resolvent partial sums through the \(\beta\log p/|\log q|\) cutoff;
+2. signed residual-prefix sums through the \(\beta\log p/(2|\log q|)\) cutoff.
+
+The test passes only if the residual rate satisfies \(p^{1-\beta}r_p^2=o(1)\) and the corresponding starter remains on the physical sheets. This would bypass the unresolved full translated bulk orbit, but it is a genuinely new moving-starter theorem rather than a consequence of the fixed height-602 estimates.

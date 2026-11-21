@@ -1,0 +1,160 @@
+## Result: inconclusive; the requested signed certificate is not recoverable from the supplied records
+
+For the actual prime family
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+with the original closed cold square, physical marking \(t_0=n\), and \(P_{5000}\) applied after \(K\), the records do not contain the actual Laurent-field decomposition of either
+\[
+C_{601}=V_{601}-S,\qquad C_{602}=V_{602}-S.
+\]
+Consequently, an outward signed \(P_{5000}\)-price for the linear terms cannot be numerically certified from the supplied data.
+
+This is a data-level obstruction, not a refutation of the signed strategy.
+
+### 1. Exact signed linearization
+
+At a nonmarked coordinate, write the Jacobi seed in the good Mellin field as
+\[
+S=\frac{s_n}{2}(L+L^{-1}),\qquad s_n=2\sqrt{p/n}.
+\]
+For
+\[
+d_t(z)=\frac{z}{\sqrt{4t+z^2}},
+\]
+the analytic derivative at the seed is
+\[
+d_t'(S)=\frac{4t}{(4t+S^2)^{3/2}}.
+\]
+Its Laurent coefficient at exponent \(r\in2\mathbb Z\) is
+\[
+a_r(t)
+=
+\sum_{\substack{\ell\ge |r|/2\\ \ell\equiv r/2\;(\mathrm{mod}\,1)}}
+\frac{(-1)^\ell}{2\sqrt t}
+\frac{\binom{2\ell+1}{\ell}}{4^\ell}
+\left(\frac{s_n}{2}\right)^{2\ell}
+\binom{2\ell}{\ell-r/2}
+(4t)^{-\ell}.
+\]
+Equivalently, before summing over \(\ell\), the order-\(2\ell\) contribution is
+\[
+a_{\ell,r}(t)
+=
+\frac{(-1)^\ell}{2\sqrt t}
+\frac{\binom{2\ell+1}{\ell}}{4^\ell}
+\left(\frac{s_n}{2}\right)^{2\ell}
+\binom{2\ell}{\ell-r/2}
+(4t)^{-\ell}.
+\]
+
+If the actual nonseed row has the Laurent-field expansion
+\[
+C_h=\sum_M c_{h,M}M,
+\]
+then the exact linear-in-\(C_h\) contribution is
+\[
+E_h^{(1)}
+=
+\sum_{r,M} a_r(t)\,c_{h,M}\,L^rM.
+\]
+The required signed collection is therefore over identical pairs \((r,M)\), not merely over equal numerical boundary weights. Its physical price would be
+\[
+\mathcal L_h
+=
+\left\|
+K\sum_{r,M}a_r(t)c_{h,M}L^rM
+\right\|_{P_{5000}},
+\qquad h=601,602,
+\]
+with the actual marked coordinate \(t_0=n\) restored separately.
+
+The supplied records provide neither the coefficients \(c_{601,M}\), \(c_{602,M}\), nor their field identities. The positive envelope \(\beta\) is insufficient: it destroys precisely the signed coincidence information needed in this formula.
+
+### 2. Budget left after the inherited tail
+
+The inherited unpriced analytic tail is
+\[
+T_{\mathrm{tail}}<0.0000407.
+\]
+Thus, ignoring the eventual \(O_{5000}(n^{-1/2})\) marked/bad-lift repair for the moment, the retained signed linear-plus-multi-\(C\) orders must satisfy
+\[
+\mathcal L_h+\mathcal M_h
+<
+0.472-0.0000407
+=
+0.4719593
+\]
+for each \(h=601,602\), with a uniform strict margin.
+
+Here \(\mathcal M_h\) denotes all retained orders containing at least two copies of \(C_h\). The repair has the form
+\[
+R_h(n)=O_{5000}(n^{-1/2}),
+\]
+uniformly on the cold square and for the actual mark \(t_0=n\). Therefore the asymptotic requirement is
+\[
+\mathcal L_h+\mathcal M_h
+\le 0.4719593-\delta
+\]
+for some \(\delta>0\), followed by choosing \(p_0\) so that
+\[
+R_h(n)<\delta/2
+\]
+for all eligible primes \(p\ge p_0\).
+
+The known bounds do not determine either \(\mathcal L_h\) or \(\mathcal M_h\):
+
+- The \(0.6404\) lower bound concerns a specified **unsigned comparator**, not the actual signed operator.
+- The \(0.275\) estimate is a counting-norm bound and does not price the physical packet.
+- The \(0.0000407\) estimate prices only the omitted high analytic orders after the retained signed expansion is supplied.
+
+Hence no comparison with \(0.4719593\) is currently possible.
+
+### 3. Precise missing coefficient
+
+The first missing object is the actual Mellin coefficient table
+\[
+\boxed{
+\{c_{h,M}:M\text{ an actual nonseed Laurent field in }C_h\},
+\qquad h=601,602,
+}
+\]
+together with the field-identification rule proving when two terms represent the same \(M\).
+
+For the linear price one additionally needs, for every retained Laurent exponent \(r\),
+\[
+\boxed{
+b_{h,r,M}=a_r(t)c_{h,M},
+}
+\]
+including the exact \(t\)-dependence on the bulk and the separately marked \(t_0=n\) correction.
+
+Numerically equal weights, equal dimensions, or equal boundary values do not establish equality of Mellin fields and cannot be used for cancellation.
+
+## Ranked next tests
+
+### 1. Highest priority: exact signed linear extraction
+
+For each \(h=601,602\):
+
+1. Generate the actual Laurent-field expansion of \(C_h=V_h-S\), retaining field labels.
+2. Expand \(d_t'(S)\) through order \(2\ell=26\) (the inherited tail begins at binomial index \(14\)).
+3. Collect coefficients by identical \((r,M)\).
+4. Apply \(K\) and the actual translated physical price \(P_{5000}\), including the marked \(t_0=n\) correction.
+5. Produce outward intervals for \(\mathcal L_{601}\) and \(\mathcal L_{602}\).
+
+This is the decisive missing test. It should be performed at fixed \(p\), uniformly on the closed square, with all finite sums outward-rounded; only after obtaining a uniform bound should one pass to sufficiently large \(p\).
+
+### 2. Second priority: signed multi-\(C\) aggregation
+
+After the linear table is available, collect the quadratic and higher terms by identical products of actual nonseed fields:
+\[
+(d_t')^{(j)}(S)\,C_h^j,\qquad j\ge2.
+\]
+Price the retained orders jointly rather than by positive binomial masses, then add the inherited
+\[
+0.0000407
+\]
+tail and the \(O_{5000}(n^{-1/2})\) repair. This determines whether the total remains below \(0.472\).
+
+Until Test 1 supplies the actual field coefficients, the proposed signed certification is **inconclusive**, and the existing records do not certify the shared \(0.472\) bound.

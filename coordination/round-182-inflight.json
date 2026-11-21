@@ -1,0 +1,62 @@
+{
+  "round": 182,
+  "dispatch_status": "Claude Code desktop research sessions (fresh context, shared checkout, disjoint file prefixes); started_utc_epoch recorded once immediately before the three launches",
+  "provider": "Claude Code sessions (Claude Opus 5.5), started by the generation-1 brain session local_3a29365e-04c0-4966-84ec-7968199c2fe8; PALEY_GATEWAY_API_KEY not available",
+  "accepted_checkpoint": {
+    "path": "research/round-181-acceptance.json",
+    "sha256": "ad983e94b84fce4466bd29303e579f9bbf1d34576ec81bd92a27ab5f63bb0910"
+  },
+  "coordinator": {
+    "path": "coordination/round-181.json",
+    "sha256": "f237fdabcd6e145d9f29bd8512ab62d67eb41b26d091f20d033237e245dd2d51"
+  },
+  "synthesis_checkpoint": {
+    "path": "coordination/checkpoints/round-181.md",
+    "sha256": "f980a8d7327785f8937d975f5d027b16595e6c443c37f952b36de0547d86bd6e"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-182-before.json",
+    "sha256": "27012d2a353ab7b297861df8fdd64df6cb463a55e4801a5acb5b43f7e6166de8"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-one-match-operator-norm",
+      "agent_label": "session/r182-opnorm",
+      "session_id": "local_442e7f75-48f5-45b0-8547-aa8f0fe67922",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-182/ordinary-prime-one-match-operator-norm.md",
+        "sha256": "d4767d8e36b3d656eb1a3365710d4ba998c44e630470199b3baf3238ec6a750c"
+      },
+      "pending_candidate": "research/native-claude-ordinary-prime-one-match-operator-norm-182.md",
+      "started_utc_epoch": 1795166096.4753401,
+      "timestamp_role": "immediately before launch"
+    },
+    {
+      "call_id": "ordinary-prime-shifted-level-energy",
+      "agent_label": "session/r182-shifted-energy",
+      "session_id": "local_e2f43d0a-42da-4fb3-8745-4ef0c3020941",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-182/ordinary-prime-shifted-level-energy.md",
+        "sha256": "d815af14a4a3c127ec91e093172f308dcb41d11a4f8fa454fc6c8bba01970375"
+      },
+      "pending_candidate": "research/native-claude-ordinary-prime-shifted-level-energy-182.md",
+      "started_utc_epoch": 1795166096.4753401,
+      "timestamp_role": "immediately before launch"
+    },
+    {
+      "call_id": "cold-prime-signed-nonseed-price",
+      "agent_label": "session/r182-cold-price",
+      "session_id": "local_33a7a096-25cb-413f-8fb4-4b64f73bbd75",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-182/cold-prime-signed-nonseed-price.md",
+        "sha256": "9bda10be34775084f31df47eec28206ebca25b79f0d149322e81b0adf29d9c91"
+      },
+      "pending_candidate": "research/native-claude-cold-prime-signed-nonseed-price-182.md",
+      "started_utc_epoch": 1795166096.4753401,
+      "timestamp_role": "immediately before launch"
+    }
+  ]
+}

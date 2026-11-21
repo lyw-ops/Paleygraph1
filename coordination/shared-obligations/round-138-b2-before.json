@@ -1,0 +1,24 @@
+{
+  "captured_at_utc": "2026-11-19T18:51:22.309368Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-137.json#next_calls",
+  "coordinator_sha256": "56ecfc57321942eafdafba4190d73a4dd9fedd83fe81df24ac19658173de5f83",
+  "call_ids": [
+    "ordinary-marked-source-infsup"
+  ],
+  "routes": {
+    "r138/cold-center-field-identity": "Degree-one arithmetic identities of the actual eight cold-center fields under seed twists.",
+    "r138/cold-mixed-seed-cross-transport": "Actual two-step signed cross terms in the fully marked translated cold operator.",
+    "r138/ordinary-marked-source-infsup": {
+      "question": "Does actual opposite-face structure yield the forcing-specific inf-sup or the signed tail on the genuine optimal supports?",
+      "scope": "Actual pinned minimum-energy ordinary rows of both signs over primes p=1 mod 4. Keep the physical mark, true complementary opposite support and the product of marked values equal to n. Treat clipped window parity and finite diagnostics separately.",
+      "remaining": "Prove a prime-uniform source estimate or direct signed tail and independently obtain clipped even-window approximation for the actual rows."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-marked-source-infsup": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The first ordinary research request returned HTTP 429 and was complete without a mathematical response before the retry. The two cold questions may remain active and have no exact shared estimate with the ordinary minimizer's forcing-specific inverse square moment. No speculative recurrence is counted."
+}

@@ -1,0 +1,90 @@
+## Result: no opposing signed gain is proved
+
+I used the actual prime family of eligible primes
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,\qquad p\to\infty,
+\]
+with the common cold floor, actual heights \(601,602\), physical mark \(t_0=n\), the off-mark physical parameters \(t_i=t\), and both full lifts. Prices are in the translated \(P_{5000}\) class. The order of limits is: first retain the finite signed Taylor collection used by the checker, then bound its all-order analytic tail, and only afterward take the eventual \(n\to\infty\) limit. No finite-prefix check is being interpreted as an asymptotic proof by itself.
+
+### Explicit actual higher-center seed
+
+Take the \(C_1\) input column. For the actual retuned coefficients \(\alpha,\beta,\gamma,\delta\), with
+\[
+\gamma=\frac{499}{500}\beta\,\mathrm{groups}[1,1]_{0,0},
+\qquad
+\delta=-2\gamma\,\mathrm{linear\_scalar}(\mathrm{groups},\beta),
+\]
+the selected two-linear-vertex terms involving the genuine higher centers \(F_4,G\) have the common all-order seed factor
+\[
+D=b_0\left(b_0+\frac{b_2}{2}\right),
+\]
+where \(d_t'(S)=\sum_{k\ {\rm even}}b_kC_k\). The relevant physical labels and transports are
+
+\[
+K(C_1Y)=W,\qquad K(C_1W)=F_4,\qquad K(C_1F_4)=-G,
+\]
+with the same lift-paired transport on both physical lifts. The selected contributions are
+
+\[
+\begin{aligned}
+\alpha\delta D\,K\!\left(YK(GC_1)+GW\right),\\
+\beta\gamma D\,K\!\left(-WG+F_4^2\right),\\
+\beta\delta D\,K\!\left(WK(GC_1)+GF_4\right),\\
+-\gamma^2D\,K(F_4G).
+\end{aligned}
+\]
+
+After identifying the repeated arithmetic labels, the two explicit repeated fields have coefficients
+
+\[
+D(\alpha\delta-\beta\gamma)\,K(WG),
+\qquad
+D(\beta\delta-\gamma^2)\,K(F_4G).
+\]
+
+These are genuine actual-center terms, not positive-envelope coefficients. The common floor, physical mark, both lifts, and the actual height labels \(601,602\) are retained in the construction.
+
+### Checked sign on the real slice
+
+The outward replay for the selected \(WG\) and \(F_4G\) fields reports that all four selected signed summands \(z\) satisfy
+
+\[
+\Re z<0,\qquad
+|\Im z|<5\cdot10^{-6}(-\Re z).
+\]
+
+Hence, for these selected labels, the four terms reinforce rather than oppose on the real slice. Their merged modulus differs from the sum of separate moduli by less than \(1.25\cdot10^{-11}\). The all-order factor \(D\) is also controlled by
+
+\[
+|4tD|<0.86.
+\]
+
+The resulting canonical price of the two selected merged fields is bounded by \(0.014\), with eventual room for finite-prime feedback and physical-mark corrections.
+
+Thus this candidate does **not** supply the desired opposing coefficient. It gives a checked same-sign reinforcement of two actual omitted-center fields.
+
+## Precise limitation
+
+This does not yet determine the sign of the **complete** true Picard coefficient of \(K(WG)\) or \(K(F_4G)\). The displayed rows are selected common-label contributions. Other actual-center orders, higher nonseed degrees, residual terms, and possible same-label arithmetic collisions may contribute to the same fields. The supplied computation explicitly leaves those contributions separate.
+
+Therefore:
+
+- the selected higher-center packet is genuinely signed and its selected terms reinforce;
+- no opposing actual center or true Picard residual has been established;
+- no translated \(P_{5000}\) bound for the full signed difference has been proved;
+- the \(0.014\) price is far below the direct \(0.51961239\) comparison target, but it is a positive price, not an outward signed debit;
+- contraction, invariant-ball, and half-step transfer remain open.
+
+The earlier exact \(C_1\) return
+\[
+\beta a_1\left(b_0+\frac{b_2}{2}\right)K(C_1F_4)
+\]
+with \(K(C_1F_4)=-G\) confirms the physical sign of the higher harmonic, but it is not by itself an opposing omitted packet and does not close the full Picard-label collection.
+
+## Ranked next tests
+
+1. **Complete common-label collection for \(WG\) and \(F_4G\).**  
+   Collect every actual center order and true Picard residual contributing to these two labels at both heights, preserving \(\alpha,\beta,\gamma,\delta\), both lifts, \(t_0=n\), physical denominators, and the common floor. Prove an interval sign and dominance bound for the complete coefficient, then price the resulting signed field on every translated \(P_{5000}\) column. This is the highest-value test because the selected terms already have a stable sign and can reveal whether any unselected channel genuinely opposes them.
+
+2. **Full signed \(C_1\)-column residual computation at one height, followed by the height-\(601/602\) transfer.**  
+   Compute the complete true Picard update on \(C_1\), including the residual labels omitted from the four displayed rows, and separate the physical-mark and bad-lift corrections. If a negative residual survives, compare it against the \(WG/F_4G\) packet using the paired height-transfer bound \(<0.017\). This test is less targeted but directly addresses whether a different true return supplies the missing outward gain.

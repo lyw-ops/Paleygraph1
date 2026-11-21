@@ -1,0 +1,34 @@
+{
+  "round": 107,
+  "dispatch_status": "terminal; response saved and reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-106-acceptance.json",
+    "sha256": "6d9075b0323639cfcd7981e472999af1ae0e4c0aae46b54f559f5440f03d3275"
+  },
+  "coordinator": {
+    "path": "coordination/round-106.json",
+    "sha256": "7ca8622726f1877a4a4fbb484faad42d6fbce345941d2356f18a4c97ede6170b"
+  },
+  "call_id": "one-sign-rayleigh-gap",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "853046b26ff09a4a1e6c5375649db722da8b9ce75d55948dc67289ae30d38a63",
+  "started_utc_epoch": 1795092363,
+  "local_session_id": 9303,
+  "mission_file": "/tmp/paley-r107-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r107-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r107-api-01a1ed0a/overflow-candidate.md",
+  "local_draft": "research/real-inner-cap-quadratic-107.md",
+  "next_step": "Use the checked Round 107 coordinator record for subsequent assignments.",
+  "response": {
+    "path": "research/api-astra-overflow-107.txt",
+    "sha256": "7fc69691917514a5094f83a425e1dc1751f962bb321e9d4fcb4f417e382af014"
+  },
+  "receipt": {
+    "path": "research/api-astra-107-receipt.json",
+    "sha256": "af1007e174e57118d0f301d986adbeb465086789549a38bf598c665d34066b21"
+  },
+  "acceptance": {
+    "path": "research/round-107-acceptance.json",
+    "sha256": "ac8e6233eb07dbe04d2cb344758579efce275a8724db2e1fbadea94d02c215a6"
+  }
+}

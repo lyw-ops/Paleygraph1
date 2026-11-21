@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "round": 124,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent Astra read-only audit of Round 124",
+  "sources": {
+    "baseline": {
+      "path": "research/round-123-acceptance.json",
+      "sha256": "d57d5b95b860f805945275983205bd778bdad115baef49421730748bbb1018d5"
+    },
+    "current": {
+      "path": "research/round-124-acceptance.json",
+      "sha256": "2cc363e32f643d2b608da0755ea980b67148c75a582b44dd8b4c6543cad52ed7"
+    }
+  },
+  "changes": [
+    {
+      "id": "fixed-masked",
+      "route": "Fixed ordinary repair depth and actual masked functional",
+      "effect": "unchanged",
+      "before": "An explicit log-height projected cap seed preserves the full masked statistic at fixed repair depth.",
+      "after": "The conditional cold time-kernel result supplies no real prime upper.",
+      "remaining": "Give an independent prime upper at the same fixed ordinary repair depth, either for the logarithmic seed with both true factors or for a simpler seed with the proved localized error threshold.",
+      "evidence": [
+        {
+          "path": "research/real-masked-functional-stability-123.md",
+          "sha256": "53feec15a0d57f63077477e4aec6099d4fa3942e0f9ca1310f73811886b42773"
+        },
+        {
+          "path": "research/api-astra-review-123.md",
+          "sha256": "a319bd28e6f029c22182c4c64d850ece8ddeaec35e2c0f91e7be795c18b0f8aa"
+        },
+        {
+          "path": "research/early-ordinary-masked-cubic-121.md",
+          "sha256": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        },
+        {
+          "path": "research/masked-conditional-spectrum-121.md",
+          "sha256": "467bc6f347d4dbbdb07b14ff5de99488e99dd89b4fe7aa8d28494ac7366d0fa4"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "reformulated",
+      "before": "The frozen-shift and signed displacement tests are only available as conditional inputs at a moving starter.",
+      "after": "Actual variable derivative kernels admit two frozen ends in the quadratic remainder, uniformly over the two time orderings. The remaining signed insertion has a separate two-power logarithmic cutoff and sparse exception budget.",
+      "remaining": "Prove compatible frozen absolute entry summability and small actual residual at one genuine moving starter, and the signed insertion at its true later times. Transfer the marked angular cap on the same complex domain.",
+      "evidence": [
+        {
+          "path": "research/cold-signed-time-kernel-transfer-124.md",
+          "sha256": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff"
+        },
+        {
+          "path": "research/api-astra-review-124.md",
+          "sha256": "d1c667540afb853dfccb764b6d4ba9d368300fdc72353dcdd7611e4dd1f4098a"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Direct true weighted overshoot",
+      "effect": "unchanged",
+      "before": "A rate-free true weighted criterion remains available.",
+      "after": "The present round addressed the independent cold predictor route.",
+      "remaining": "Prove the actual weighted overshoot or a cap-rate estimate.",
+      "evidence": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The cold reduction identifies the signed variable-coefficient insertion as a finite-power arithmetic input if a compatible starter exists. The independent real prime upper is again the next test.",
+  "next_calls": [
+    {
+      "id": "log-height-masked-arithmetic",
+      "priority": 1,
+      "change_id": "fixed-masked",
+      "question": "Does the explicit projected logarithmic cap Picard seed admit a prime-uniform one-sided upper for the full masked statistic at a fixed genuine ordinary depth?",
+      "why_now": "The exact difference-of-pairings test and the projected cap Picard approximation spectrally preserve the full scaled statistic. The seed approximation is quantified.",
+      "scope": "Use the projected cap seed at genuine logarithmic depth or prove a lower-complexity seed approximation via the largest sqrt n error sum. Seek an independent one-sided upper for the signed difference of both true paired weights. Retain the actual marked-input factors and output mask. Do not repeat the conditional lower.",
+      "if_yes": "Give a verified prime bound and its exact obstruction scope.",
+      "if_no": "Identify a concrete obstruction to the proposed arithmetic estimate or transfer and its actual hypotheses.",
+      "if_inconclusive": "Quantify a new arithmetic term or precise power/rank obstruction for the explicit seed. The already known positive lower under the obstruction cannot serve as new evidence.",
+      "inputs": [
+        {
+          "path": "research/real-masked-functional-stability-123.md",
+          "sha256": "53feec15a0d57f63077477e4aec6099d4fa3942e0f9ca1310f73811886b42773"
+        },
+        {
+          "path": "research/api-astra-review-123.md",
+          "sha256": "a319bd28e6f029c22182c4c64d850ece8ddeaec35e2c0f91e7be795c18b0f8aa"
+        },
+        {
+          "path": "research/early-ordinary-masked-cubic-121.md",
+          "sha256": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        },
+        {
+          "path": "research/masked-conditional-spectrum-121.md",
+          "sha256": "467bc6f347d4dbbdb07b14ff5de99488e99dd89b4fe7aa8d28494ac7366d0fa4"
+        },
+        {
+          "path": "research/ordinary-slack-dissipation-121.md",
+          "sha256": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01"
+        }
+      ]
+    },
+    {
+      "id": "moving-cold-time-insertion",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "At one genuine moving starter of the cold Picard orbit, can the signed low-power first insertion in the actual variable kernel be bounded through primes?",
+      "why_now": "The quadratic variable products are already controlled at the same normalized displacement scale if the frozen absolute entry sum is available.",
+      "scope": "Use two frozen powers at cutoff ceil(beta log n/(2|log q|)), the actual timed derivative or physical secant difference, and count real exceptions separately. Produce an actual moving starter or state exactly which genuine input is still missing.",
+      "if_yes": "Give the prime-uniform starter and both bounds, and state the resulting cold branch scope.",
+      "if_no": "Exhibit the first violated quantitative comparison on the actual row.",
+      "if_inconclusive": "Derive a uniform cancellation estimate for one of the two required signed prefixes.",
+      "inputs": [
+        {
+          "path": "research/cold-signed-time-kernel-transfer-124.md",
+          "sha256": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff"
+        },
+        {
+          "path": "research/api-astra-review-124.md",
+          "sha256": "d1c667540afb853dfccb764b6d4ba9d368300fdc72353dcdd7611e4dd1f4098a"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real-rate-free",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Can actual weighted cap overshoot be controlled without assuming the critical rate?",
+      "why_now": "It remains an independent direct route.",
+      "scope": "Preserve both signs and each fixed floor before the prime limit.",
+      "if_yes": "Give the uniform estimate and full limiting consequence.",
+      "if_no": "State the exact mathematical scope of the obstruction.",
+      "if_inconclusive": "Give a new reliable estimate on the true weighted overshoot.",
+      "inputs": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/ordinary-slack-dissipation-121.md",
+          "sha256": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "fixed-masked",
+      "question": "Which new actual estimates survive read-only independent review?",
+      "why_now": "The determinant, stage and normalization distinctions matter.",
+      "scope": "Check evidence boundaries for any new real or cold theorem. Distinguish actual seed, exact factor input and normalized residual scales from a reported numerical or packet claim.",
+      "if_yes": "Give precisely verified statements and ranked tests.",
+      "if_no": "Locate the first invalid claim.",
+      "if_inconclusive": "Give the checked parts and remaining evidence.",
+      "inputs": [
+        {
+          "path": "research/cold-signed-time-kernel-transfer-124.md",
+          "sha256": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff"
+        },
+        {
+          "path": "research/api-astra-review-124.md",
+          "sha256": "d1c667540afb853dfccb764b6d4ba9d368300fdc72353dcdd7611e4dd1f4098a"
+        },
+        {
+          "path": "research/real-masked-functional-stability-123.md",
+          "sha256": "53feec15a0d57f63077477e4aec6099d4fa3942e0f9ca1310f73811886b42773"
+        },
+        {
+          "path": "research/early-ordinary-masked-cubic-121.md",
+          "sha256": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e"
+        }
+      ]
+    }
+  ]
+}

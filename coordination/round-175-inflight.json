@@ -1,0 +1,61 @@
+{
+  "round": 175,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-174-acceptance.json",
+    "sha256": "823ed022b5ce0d944669e4a93c28249800a55633ea4875dd99be68d2f6a4ec2b"
+  },
+  "coordinator": {
+    "path": "coordination/round-174.json",
+    "sha256": "660ee3fbd77b6c4b3b0039d8f673f8a35999b83032dd16399b05e1605f995c0c"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-175.py",
+    "sha256": "237f9dd8d5f7df1fa123e9a0f7199cfeff3bbd6109db365cdf65c0420cc954ee"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-175-before.json",
+    "sha256": "7bfbf58421f73b21786b79beef06b42cd771de9e3fd13acfe3359770d7f45bab"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-favorable-two-pole",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "e898627582ee6f67a5eb1f5b1e55c685e6c1ecc9e4aa41b50c61928ce4b3f61e",
+      "mission_file": {
+        "path": "coordination/missions/round-175/ordinary-prime-favorable-two-pole.md",
+        "sha256": "c964ce3590d7b3199bf741f30d84093696a4ea4b4dcfea2b952a0ef74f66b676"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r175-api-01a1ed0a/ordinary-prime-favorable-two-pole-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r175-api-01a1ed0a/ordinary-prime-favorable-two-pole-candidate.md",
+      "started_utc_epoch": 1795138633.812573
+    },
+    {
+      "call_id": "ordinary-prime-generic-right-energy",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "743903fc28cfd8f2485e6372baeb02c7fc40338cbec00059082c358836f97ac2",
+      "mission_file": {
+        "path": "coordination/missions/round-175/ordinary-prime-generic-right-energy.md",
+        "sha256": "328abd60089ec58e4952f4e4e596598f8d855cc8ed71d647d144c935c1041a48"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r175-api-01a1ed0a/ordinary-prime-generic-right-energy-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r175-api-01a1ed0a/ordinary-prime-generic-right-energy-candidate.md",
+      "started_utc_epoch": 1795138633.8119638
+    },
+    {
+      "call_id": "cold-prime-beyond-three-prefix",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "31bee1873289e50a247c056e0ffe8914aa7dc678ed303fb819b51d7bdd919138",
+      "mission_file": {
+        "path": "coordination/missions/round-175/cold-prime-beyond-three-prefix.md",
+        "sha256": "885ba0ac5e21fdb382829cd5cc8c8e68abed4b820675b24b633acf2ddb07bab1"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r175-api-01a1ed0a/cold-prime-beyond-three-prefix-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r175-api-01a1ed0a/cold-prime-beyond-three-prefix-candidate.md",
+      "started_utc_epoch": 1795138633.8131058
+    }
+  ]
+}

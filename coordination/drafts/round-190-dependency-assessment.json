@@ -1,0 +1,7 @@
+{
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment)",
+  "comparison_status": "assessed",
+  "comparison": "The literature call searches for a published shifted geometric-progression energy bound (cand:gp-shifted-energy). The stocktake call re-derives the ordinary obligation map from accepted statements without new estimates. The structural call asks whether (NC) excludes the sector-type obstruction families. The literature and structural calls address the same obstruction from two sides but need different statements: an external energy theorem for geometric progressions in F_p versus a structural property of the actual near-critical law; neither implies the other, so they are dispatched as independent, and each report is asked to state any input that bears on the other. The stocktake shares no estimate with either. No earlier call is active; cold dispatch is paused.",
+  "known_shared": [],
+  "active_routes": {}
+}

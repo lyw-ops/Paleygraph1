@@ -1,0 +1,7 @@
+{
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment)",
+  "comparison_status": "assessed",
+  "comparison": "Both ordinary calls act on the same one-match weight mu(r,b)=g(Y)g(D) on the Round 171 chart, so they share an object but not, at the stated hypotheses, an estimate. The first-mass call bounds the w-weighted fibre dilation correlation M_w = sum_r sum_{b != b'} mu(r,b) mu(r,b') w(b/b'), a positive-weight energy inside slope fibres; the row-deleted call bounds ||R pi(mu)||_op through sum g^2 and the k=3 six-word translation discrepancy. A per-fibre multiplicative-energy bound does not bound the affine-group operator norm with the s=1 row deleted, and an operator-norm bound does not control the w-weighted fibre correlation. One possible shared input is a bound on sum g^2 (Part 1 of the row-deleted call), which could enter fibre sizes in the first-mass call; it is not a stated dependency of the first-mass target and knowing it in advance would not change dispatch, so no needs: edge is recorded. Each report is asked to state any fibre-size or level-set input it proves so the closeout can test for a shared lemma. The cold call concerns the power rate of the frozen multiplier at V_602 and shares no estimate with either ordinary call. No earlier call is active.",
+  "known_shared": [],
+  "active_routes": {}
+}

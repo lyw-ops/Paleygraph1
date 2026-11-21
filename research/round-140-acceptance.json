@@ -1,0 +1,124 @@
+{
+  "round": 140,
+  "accepted_at_utc": "2026-11-19T19:25:44Z",
+  "previous": "research/round-139-acceptance.json",
+  "previous_sha256": "a09b59af60fad5812a216617af00f37917e62446cdc707eca7b523e0390ea586",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-139.json",
+    "sha256": "59303d319b075710e22d7d1f4d3f5e0d53e942b2379d8aca908a1fd73df220a7"
+  },
+  "proof_and_code_sha256": {
+    "research/cold-leading-inverse-legendre-140.md": "3cf509bf6ceec89c528c3f05add5813b95fdbfdfce2cbd8c2727b24b13977517",
+    "research/cold-off-inverse-single-pullback-140.md": "9a7bd9ab599d6507f21cfb9f000da414cd3a36552acdd0a546fe57691a04ed68",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/api-astra-review-140.md": "f8a70aa328198dfd17b0907ce7f5628085b756fdef9994711f453b4f471dd5a4",
+    "research/api-astra-140-receipt.json": "f0932f0513fcf91aa802b7c9e423248818f42ca3db090edbb306468c3f039a51",
+    "research/api-astra-cold-inverse-line-packet-price-140.txt": "2176137486235c06deac8a3412003f8bd4a7e3768dd0251c011d2d381567599d",
+    "research/api-astra-cold-weighted-off-inverse-pairing-140.txt": "85b6b10db56082c2762075f418bb767b876d90792ad7f8153cb67c7c930821fd",
+    "research/api-astra-ordinary-averaged-completion-overlap-140.txt": "a41700ccfebb81eb73f9db9069c9f2edd3306d92f2e0f6bab410cd215338349e",
+    "coordination/launchers/round-140.py": "0fdfcd2c44fe53a42f02cafdda607fbb2f71944e1aae532115d6620f3ea864bb",
+    "coordination/round-140-inflight.json": "a7da277d5c9ad518585bac5220370334e9f049a1348a8681c38355d0c5c1b1ab",
+    "coordination/shared-obligations/round-140-before.json": "77ad39aee0a75ad0018491940982f5723e8cb25b2196b97f01cd85bebb8dbc72",
+    "coordination/shared-obligations/round-140-after.json": "446d880897025cee1b9100a25463cbcc2318ca0a9f7ea7933574affc19c3f628",
+    "coordination/missions/round-140/cold-inverse-line-packet-price.md": "2ce8a4694028254f568bb33f9a285ca8d6743797a1049440745c76d41e8f0b5f",
+    "coordination/missions/round-140/cold-weighted-off-inverse-pairing.md": "da1433a4f5b6500c957f6e8a74a171ca59d5cc11a3c9e215774f98d0aaf30eab",
+    "coordination/missions/round-140/ordinary-averaged-completion-overlap.md": "4460d0c3d08638b2ea7dd7e58a171c15df84307ab6839655964f6ab78fa74b5d"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/cold-position-kernel-139.md": "e32150283aa8f1aa51fc3b02e126d9b9cb4c0890c5c613b4dd75174ae1cd3cda",
+    "research/cold-same-row-involution-139.md": "e0d2570bcaffd070c340cfcef899fe1df8e8b3cfa4fde45e7b6b6e053530c9f9",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/cold-linear-label-separation-138.md": "01a092349e7769d493d28faa5c0a3f6eb36935adfd7aa0ded009ad478a0fbb4b",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/paired-legendre-cubic-116.md": "a87b462c5dceba517193b9e632287a9f6e1c96cb9cfeb63ce8702fbb16f91474",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-rankthree-55.md": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/picard-transfer-37.md": "b2a9d09b16fe4e97ac43e09843c778bc407aef7e6b5f8c2e71c26e5af92e88a7",
+    "research/astra-completion-37.md": "7c0ec52d48c6eb801063ff9b8afadf1573cab2814d667fc5625680df02257269",
+    "research/pinned-corner-61.md": "e63cf416ba4f8fde1e25d89a2942bfa52a7515f5c87b3b48caf91d65e834fcf5",
+    "research/stochastic-repair-62.md": "3251deb90d4d54d98d27dfb98f055a842a0308bdbc279b6a810c4ac879062425",
+    "research/parallel-kernel-11.md": "37574013314b483925b8e8452fea0ad94db140a7b66d426a7d31952b14973ce1",
+    "research/ordinary-seed-window-134.md": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three completed Astra returns and independent mathematical review of the cold trace identities and actual averaged completion deductions.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "research_agents": [
+    {
+      "name": "Gateway Astra inverse-line packet price",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Compute the first actual mixed local collision",
+        "Replay the actual collision value only as a finite diagnostic"
+      ]
+    },
+    {
+      "name": "Gateway Astra weighted off-inverse pairing",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Verify the first actual weighted pullback in packet coordinates",
+        "Compute cohomology after acting on a whole translated input packet"
+      ]
+    },
+    {
+      "name": "Gateway Astra averaged positivity overlap",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Examine the endpoint-dependent reserve problem",
+        "Isolate a prime-uniform weighted endpoint estimate"
+      ]
+    },
+    {
+      "name": "/root/audit_140",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test signed spill of the actual pinned correction in the marked window",
+        "Compute first nonseed mixed collision after subtracting the pure seed term"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Prove a one-sided signed Jacobi image bound for the actual T^(-1/3) hinge at a depth in the proved prime marked window, or characterize the first prime-specific obstruction. On the large-prime-divisor subfamily target spill from the actual locally repairable set.",
+    "Use u=x/z to compare the first actual mixed seed/Legendre collision at x=-1 to multiplicative convolution at x^2=1. Track both lifts, pure subtraction and the original packet geometry.",
+    "Use the exact full-parameter single pullback on a genuine weighted word with the actual translation retained. Count the z=1 term and seek a geometric physical-price deduction beyond individual Weil bounds."
+  ],
+  "proof_scope": [
+    "The actual marked leading pure Jacobi inverse line admits the exact Legendre formula in Round 140. Its displayed trace realization has nontrivial unipotent local inertia at x=-1 even on the square cover. This concerns the leading pure comparator, which is subtracted in the actual square difference.",
+    "Off the inverse line, the symmetry of the weighted kernel combines the two signed rational branches into one full-parameter pullback for any symmetric nonsquare extension, with the z=1 term retained. It supplies no physical price bound.",
+    "At a uniform raw reserve rho on inversion-symmetric bulk B, the exact localized mean cost is ((a-rho) theta_opposite(B)/n - (M-rho))_+. Here the opposite optimum is supported on B plus the mark. Full-bulk zero-reserve cost depends only on a, M and the ordinary theta optimum.",
+    "In the actual fixed-positive-floor marked window the near-zero set has size O_tau(nT^(-1/3)). When n has a prime divisor at least a fixed positive fraction of n, the genuine near-zero sites can be given the reserve at exact mark and zero extra mean. No whole-row positivity follows because complementary spill is open.",
+    "For all primes the explicit pinned one-reflection at reserve T^(-1/3) has mean-and-pin error O_tau(T^(-2/3)); its remaining sufficient input is the one-sided signed Jacobi image bound on the actual hinge d. The input remains unproved."
+  ],
+  "failed_paths_and_open_bounds": [
+    "At x=-1 the local collision does not undo H_c^2 vanishing due to unrelated fixed z=1 inertia. No isolated positional point correction or general mixed-word monodromy evaluation follows from the raw note.",
+    "Equal masked support or the equal two arithmetic branches do not give a lower conductor or a small P5000 price. The signed frozen square thresholds and true growing-depth, half-step and invariant margins remain open.",
+    "The returned unrestricted full-cone LP is not an independent estimate, and its final endpoint projection has the wrong sector. Actual constructive global completion, ordinary signed tail and the ordinary theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Direct exact arithmetic checked 210 marked Legendre leading entries and 200 nontrivial single pullbacks with nonzero nonsquare extensions over ten primes. The finite checks concern the identities, not a physical norm or prime asymptotic.",
+    "The independent reviewer checked 60 rational reserve cases at p=13 and audited the proof of the localized dual, actual near-zero count and signed Jacobi target. The finite calculations do not certify a global repair.",
+    "Three complete receipt records were archived and the pre-launch comparison binds to the chronological closeout, with no shared group."
+  ],
+  "independent_review": [
+    "A separate read-only audit checked the cold scalar identities, marked normalization and Legendre ramification; it also verified the exact real completion dual and the signed projected hinge estimate, including their remaining support and prime restrictions."
+  ]
+}

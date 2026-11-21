@@ -1,0 +1,189 @@
+## Result: the retargeted route remains inconclusive, with a specific failure
+
+I work along an arbitrary hypothetical gap subsequence of odd ordinary primes \(p\to\infty\), with
+\[
+n=\frac{p-1}{2},\qquad T=T(p)\to\infty,
+\]
+where \(T+1\) remains in the original simultaneous marked window. The physical marking is the original Picard mark at time \(T\); the relaxed repair count is separate and is fixed at
+\[
+m=n^2.
+\]
+The repair parameter \(\omega\in(0,2)\) is fixed. All norms and expectations use normalized counting measure with divisor \(n\).
+
+Let \(q=q(p)\) be the true opposite-sector optimum mark, let
+\[
+\delta=T^{-1/6},\qquad z_*=\frac{(1+\delta)n}{q},
+\]
+and let
+\[
+x=(1-\lambda)Z+\lambda k
+      =V+(1-\lambda)e_\sigma
+\]
+be the actual retargeted starting row, with the same \(q\), \(R\), and selected sign as in R150. The physical error satisfies
+\[
+\|e_\sigma\|_{2,n}^2=O_\tau(T^{-1}),
+\]
+while \(V\ge 2c_{\tau,\eta}>0\) on the bulk. Hence the initial negative part
+\[
+b_0=1_{\rm bulk}(-x)_+
+\]
+obeys
+\[
+\|b_0\|_{2,n}=O_{\tau,\eta}(T^{-1/2}),\qquad
+\mathbb E b_0=O_{\tau,\eta}(T^{-1}).
+\]
+
+### The exact gap in the R150 argument
+
+The retargeted proof uses the assertion
+
+\[
+\mathbb E(Fb_j)\ge\delta
+\tag{A}
+\]
+
+for every negative-part iterate
+\[
+b_j=1_{\rm bulk}(-y_j)_+,
+\qquad
+y_{j+1}=y_j+\omega L_\sigma b_j,
+\]
+where \(F\) is a true opposite optimum with mark \(q\).
+
+The affine constraints do not imply (A). They control the pairing of \(F\) with the affine row \(y_j\), but \(b_j\) is the negative part of \(y_j\), and passing from \(y_j\) to \((-y_j)_+\) introduces the unknown positive-part pairing
+\[
+\mathbb E(Fb_j)
+ =\mathbb E(Fy_j^+)-\mathbb E(Fy_j).
+\]
+The second term is affine-controlled; the first is not. Positivity of \(F\) only gives \(\mathbb E(Fy_j^+)\ge0\), which is insufficient for a positive lower bound of size \(\delta\).
+
+There is also a direct quantitative obstruction at the actual starting point. Since \(F\) peaks at its mark,
+\[
+F_i\le q,\qquad \|F\|_{2,n}\le \sqrt q.
+\]
+Therefore
+\[
+\mathbb E(Fb_0)
+ \le \|F\|_{2,n}\|b_0\|_{2,n}
+ \ll_{\tau,\eta}\sqrt{\frac qT}.
+\tag{B}
+\]
+Consequently, whenever
+\[
+\sqrt{\frac qT}=o(\delta)
+\quad\Longleftrightarrow\quad
+T\gg q^{3/2},
+\]
+the asserted lower bound \(\mathbb E(Fb_0)\ge\delta\) is impossible. Even outside this range, (B) shows that a lower bound of order \(\delta\) requires an additional dynamical or terminal-source argument; it does not follow from the static pinned identities.
+
+Thus the deductions
+\[
+r_j=\mathbb E b_j\ge\frac{\delta}{q},
+\]
+the \(r_j\)-weighted selection of a repair step, and the subsequent effective-support estimate are not established for the actual negative-part sequence.
+
+### What remains valid conditionally
+
+If one adds (A), or any substitute giving
+\[
+\mathbb E(Fb_j)\ge c\delta
+\]
+for a sufficiently long collection of actual iterates, then the remaining R150 mechanism is quantitatively coherent:
+
+1. The energy telescoping identity gives
+   \[
+   \sum_{j<m}\|L_\sigma b_j\|_{2,n}^2=O_{\tau,\eta,\omega}(T^{-1}).
+   \]
+
+2. With \(m=n^2\), the chosen-step parameters satisfy the advertised asymptotic smallness, provided the stated growing window is strong enough:
+   \[
+   \epsilon=\frac{T\sqrt n}{m\delta}=o(\delta),
+   \qquad
+   v^{1/3}
+   =\left(\frac{n}{mT\delta^2}\right)^{1/3}=o(\delta).
+   \]
+
+3. The selected actual step would have
+   \[
+   \|L_\sigma b_j\|_{2,n}/r_j=o(1),
+   \]
+   positive endpoint phase, and a weighted endpoint contribution on the true complementary set \(S_R\).
+
+4. The Cauchy–Schwarz argument would then force
+   \[
+   \frac{n r_j^2}{\mathbb E b_j^2}
+   =O_{\tau,\eta}\!\left(\frac nT\right),
+   \]
+   while the prime concentrated-defect theorem gives the lower bound
+   \[
+   \frac{n r_j^2}{\mathbb E b_j^2}
+   \ge (1-o(1))\frac n{\sqrt p}.
+   \]
+
+However, this only places the actual \(b_j\) in the prime dichotomy:
+either its effective support is above the critical scale, or its high layer has low additive energy. The ordinary-prime input from the anchored repair result excludes the high-energy concentrated branch, but it does not exclude the broad low-energy branch. The arbitrary-weight estimate that would be needed there is false even for ordinary primes, by the weighted Jacobi constructions in `parallel-cap-19.md`.
+
+Therefore the actual retargeted history does **not** presently rule out the forced signed endpoint charge.
+
+## Prime input actually used
+
+The genuine ordinary-prime input is the concentrated-defect gap for the Paley/Jacobi kernel:
+if a nonnegative defect has effective size near
+\[
+m_0=\frac n{\sqrt p}
+\]
+and its high layer has additive energy exceeding \((1/2+\Delta)|S|^3\), then
+\[
+\|L_\sigma E\|_{2,n}\ge \varepsilon\|E\|_{2,n}.
+\]
+This is enough to contradict a slowly varying, concentrated actual orbit.
+
+It is not enough for the broad branch. The counterexample in `parallel-cap-19.md` shows that a static weighted source can have small individual weights, critical total scale, and near-unit Jacobi transfer without being flat or subgroup-like. Since the R150 argument does not yet prove that the actual \(b_j\) is a near-flat orbit source, that counterexample is a real obstruction to replacing dynamics by a static prime estimate.
+
+## Ranked next tests
+
+### 1. Highest priority: test and repair the first-negative-part pairing
+
+Prove, disprove, or replace
+\[
+\mathbb E(Fb_j)\ge c\delta
+\]
+for the actual orbit, beginning with \(j=0\).
+
+The first exact test should compare
+\[
+\mathbb E(Fb_0)
+\quad\text{against}\quad
+\delta
+\]
+using the bound
+\[
+\mathbb E(Fb_0)\ll \sqrt{q/T}.
+\]
+If the actual marked window permits \(T\gg q^{3/2}\), then (A) is definitively false at \(j=0\), and the proof must use a later terminal-source quantity rather than every negative-part iterate. If not, one still needs a dynamical identity that lower-bounds \(\mathbb E(Fb_j)\) after a controlled number of repairs.
+
+The most useful target is an exact decomposition of the form
+\[
+\mathbb E(Fb_j)
+=
+\text{affine excess}
++
+\text{controlled positive-part remainder},
+\]
+with the remainder bounded from below using the actual terminal mask or the \(R\)-weighted source. A mere static matching identity will not suffice.
+
+### 2. Second priority: prove a two-step actual-orbit flattening lemma
+
+Assume two consecutive actual steps have near-preserved negative mass and small normalized projected motion:
+\[
+\mathbb E b_{j+1}\ge(1-o(1))\mathbb E b_j,
+\qquad
+\frac{\|L_\sigma b_j\|_{2,n}}{\mathbb E b_j}=o(1),
+\]
+and similarly at \(j+1\).
+
+Use the positive update to prove that the normalized source \(b_j/\mathbb E b_j\) is \(o(1)\)-close in \(\ell^1\) to a uniform measure on its active support, as in the near-preservation calculation of `parallel-cap-19.md`. Two consecutive near-unit transitions should then produce an approximately flat Jacobi rectangle. The existing ordinary-prime rectangle rigidity can attack the resulting high-energy or coset-like branch.
+
+This would convert the open broad weighted problem into a genuinely dynamical statement: either there is a quantitative descent before the selected gap scale, or the actual orbit contains consecutive near-flat rectangles, which can then be subjected to the prime additive obstruction.
+
+**Conclusion:** the retargeted route has a valid conditional endpoint mechanism, but its essential bridge from the affine mark excess to the actual negative-part sequence is unproved and can fail at the initial iterate by the norm estimate (B). No prime-uniform contradiction is currently obtained.

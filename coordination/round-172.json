@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "round": 172,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 172 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-171-acceptance.json",
+      "sha256": "b94e1a7cc8340b2564e8ffa13307efdc71dded5df2d5c461a8a2b1cdca918b97"
+    },
+    "current": {
+      "path": "research/round-172-acceptance.json",
+      "sha256": "e3bbc8a87d6a670f53dd2c49ccfe970e2f853da32736eee331387ced485785b1"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The actual one-match physical energy was O(p^23/8). The full completed diagonal had an exact fractional-linear chart and elementary O(p^5/2) bound.",
+      "after": "Positive affine incidence gives O(p^37/16 (1+log p)) for the full diagonal and O(p^45/16 (1+log p)) in two dimensions across all levels.",
+      "remaining": "Obtain O(p^3/2) on the full weighted physical diagonal, or the target signed regular covariance including its zero-match piece. A genuine centered fixed-gap inverse estimate remains separate.",
+      "evidence": [
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "The full initial source price is below 0.00008312 and the first genuine outer step below 0.00008861.",
+      "after": "No improvement to the full cold transport. The proposed column estimate would bound coordinate translated outputs only if the actual input first norm were available; it would not give the packet norm by itself.",
+      "remaining": "Obtain genuinely prime-uniform growing-depth confinement and nonlinear continuation of the true orbit, such as a justified moving residual.",
+      "evidence": [
+        {
+          "path": "research/cold-two-remainder-seed-unit-171.md",
+          "sha256": "30ad14ab2223af6ce9fadc6edca3c985ca351745d9963b81495a6e4a6dc66905"
+        },
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "There are independent prime power improvements for the full physical diagonal and the two-dimensional one-match norm. A true coupled weighted argument and cold transport remain necessary.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-coupled-diagonal-incidence",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the actual weighted full diagonal reach O(p^3/2) by keeping both nonzero physical input levels and the actual output weight?",
+      "why_now": "The inverted affine incidence with one factor completed gives a true O(p^37/16 (1+log p)); the missing data are g(C) and localization in w(s).",
+      "scope": "Keep genuine g(Y),g(D),g(A),g(C), w(s), and b-square with s=b+r/E. In inverted coordinates 1/A is affine in X=1/s and 1/C is affine in s; seek coupled incidence or a weighted phase bound. Distinguish same-pole and distinct-pole errors if helpful.",
+      "if_yes": "Prove the actual sufficient O(p^3/2) full diagonal estimate.",
+      "if_no": "Prove a precise obstruction to a proposed coupled incidence or weighted mechanism, with actual hypotheses stated.",
+      "if_inconclusive": "Give a prime power improvement using both weights or rigorously control a substantive exact collision class.",
+      "inputs": [
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-full-weight-affine-energy",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Does actual masked weighted affine energy reach O(p^2), or is there an action gain using the actual input phases?",
+      "why_now": "The new all-level bound uses published general occupancies. It proves a power gain but leaves a precise gap; the full positive weighted energy condition is sufficient for one-match.",
+      "scope": "Keep the full exact weights g(Y)g(D), actual b-square mask and both nonzero endpoint exclusions across all levels. Try to exploit the explicit (r,b) field parametrization in the affine difference equation. Alternatively use true phases and twisted inputs. Keep zero-match separate.",
+      "if_yes": "Prove O(p^2) for the full weighted affine energy or a sufficient p^5/2 bound for the twisted norm.",
+      "if_no": "Give a scoped obstruction to a precise weighted-energy route, separating auxiliary laws from actual optimizer.",
+      "if_inconclusive": "Improve a true energy exponent or give a quantitative gain for a specific genuine difference class.",
+      "inputs": [
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-moving-residual-coordinate-transfer",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can a genuine moving cold starter with decaying residual satisfy the existing coordinate confinement bridge on the original square?",
+      "why_now": "Several pooled sources now have small fixed prices. The frozen column route controls a coordinate supremum only and has no proved distributed mass decay.",
+      "scope": "Keep the physical t0=n, original square, both lifts and the actual predictors. Try an explicit neighboring-orbit correction or moving starter with normalized residual r_n and signed shifted entries; do not use an inverse-defined tautology. State separately what is proved in counting versus translated and coordinate norms.",
+      "if_yes": "Prove the sufficient moving confinement inputs and obtain a common nonlinear continuation, or prove another sufficient actual transport bridge.",
+      "if_no": "Give a scoped quantitative obstruction to a specified moving starter or coordinate closure.",
+      "if_inconclusive": "Provide a nontrivial decaying actual residual, or an improved growing-depth coordinate estimate with all remaining hypotheses named.",
+      "inputs": [
+        {
+          "path": "research/cold-two-remainder-seed-unit-171.md",
+          "sha256": "30ad14ab2223af6ce9fadc6edca3c985ca351745d9963b81495a6e4a6dc66905"
+        },
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-actual-first-insertion-126.md",
+          "sha256": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 173 deductions survive independent review?",
+      "why_now": "Coupled diagonal weights, affine energy difference equations and the moving actual orbit need separate hypothesis checks.",
+      "scope": "Read-only. Check exact scales, physical mark and lifts, prime-uniform scope and type of evidence. Give two ranked next tests.",
+      "if_yes": "Record verified result and remaining obligation.",
+      "if_no": "Locate an invalid step.",
+      "if_inconclusive": "Separate theorem, conditional criterion and finite evidence.",
+      "inputs": [
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        },
+        {
+          "path": "research/ordinary-distinct-dilation-cuts-170.md",
+          "sha256": "2942e3934cd116b4cbcb5a540b0f58f5747dea22598cd8ddaf9bbc1a94857aa7"
+        },
+        {
+          "path": "research/cold-two-remainder-seed-unit-171.md",
+          "sha256": "30ad14ab2223af6ce9fadc6edca3c985ca351745d9963b81495a6e4a6dc66905"
+        },
+        {
+          "path": "research/cold-linear-remainder-seed-harmonic-170.md",
+          "sha256": "467a3dae7847bf2918a062b49a7e168989e55d4670ad4b8ba9b62a5f89d4a235"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

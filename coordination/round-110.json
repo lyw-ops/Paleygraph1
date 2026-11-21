@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "round": 110,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 110 and supplemental review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-109-acceptance.json",
+      "sha256": "3bf001e1ef90a9a71105b8981ed1bfff0b94793287d69efb1c1963c8d3f232f1"
+    },
+    "current": {
+      "path": "research/round-110-acceptance.json",
+      "sha256": "e2098121429c07e7e40913afe7a1e462fbca83c4f5f7fbb17a8f0db786fe764e"
+    }
+  },
+  "changes": [
+    {
+      "id": "specific-jacobi-obstruction",
+      "route": "Actual time-averaged Jacobi exterior and core",
+      "effect": "reformulated",
+      "before": "The persistent genuine core gave an almost invariant high carrier and a late signed Rayleigh condition.",
+      "after": "The averaged active-set equation gives a signed local balance, a matched energy defect and an order n^(-1/2) centered opposite-sector exterior. Moving thresholds give a power-small genuine Rayleigh loss.",
+      "remaining": "Find arithmetic that excludes these genuine weights without assuming the minimum support width or dropping the exterior.",
+      "evidence": [
+        {
+          "path": "research/repair-core-average-110.md",
+          "sha256": "3de69109361e6c23c6ac88ba07f31602342e6daf69fda6adbc28e551fd884637"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/repair-carrier-109.md",
+          "sha256": "b2230d264c55f4d91152761333d5b59d8b9aa3b9c5b4d702c8d261f83778407b"
+        }
+      ]
+    },
+    {
+      "id": "small-cap-carry",
+      "route": "Fixed-floor actual capped rate",
+      "effect": "unchanged",
+      "before": "A small critical cap coefficient makes the positive completion succeed.",
+      "after": "The core/exterior analysis uses the stated cap rate on a marked obstruction.",
+      "remaining": "Prove the actual cap coefficient or an alternative genuine slack-adjusted upper.",
+      "evidence": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        }
+      ]
+    },
+    {
+      "id": "complex-and-terminal-carry",
+      "route": "Genuine complex starter and original terminal velocity branches",
+      "effect": "unchanged",
+      "before": "The moving complex physical resources and terminal velocity/prior/triangular conditions were independent sufficient routes.",
+      "after": "This round addresses the real positive repair obstruction only.",
+      "remaining": "Retain the exact through-primes complex and terminal requirements and the original ordinary target.",
+      "evidence": [
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "A genuine moving core with power-small Rayleigh loss now supports a more specific arithmetic moment test. No prime-specific cancellation or target resolution was shown.",
+  "next_calls": [
+    {
+      "id": "signed-distinct-triple",
+      "priority": 1,
+      "change_id": "specific-jacobi-obstruction",
+      "question": "Can the signed weighted cubic correlation over three distinct Jacobi shifts improve on the square-root bound for actual near-eigen repair weights?",
+      "why_now": "The true nonnegative core yields a preliminary necessary signed cubic anomaly; repeated configurations are separately smaller by quantitative Gauss-angle independence.",
+      "scope": "Use K_{x,y}=lambda_{x-y}/n on G=hat Q, with lambda the Fourier transform of the quadratic mask on Q. Do not substitute the additive-field sign matrix. Fixed t precedes the prime limit. Keep critical effective width distinct from exact minimal support and distinguish all square controls.",
+      "if_yes": "Give the exact through-primes signed bound and its consequence under the stated cap-rate or repair premise.",
+      "if_no": "Give a genuine obstruction or an exact static/arithmetic maximizer with clearly separated field and trajectory scope.",
+      "if_inconclusive": "Isolate a signed correction, conditional sum, or prime-specific kernel estimate beyond entrywise Katz bounds.",
+      "inputs": [
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/parallel-arithmetic-2.md",
+          "sha256": "cc98e7e614ad423490bef236966b392e8eb6374eba02eab769c5eb7e0d9db337"
+        },
+        {
+          "path": "research/api-astra-review-110.md",
+          "sha256": "1c19ff9200e5b11ab122a5d1760bd5fd5f442ef419729326be4759ff425b892e"
+        }
+      ]
+    },
+    {
+      "id": "marked-bulk-defect-split",
+      "priority": 2,
+      "change_id": "specific-jacobi-obstruction",
+      "question": "Can the forced negative pairing with the centered exterior be paid by the mark alone, or is a prime-specific bulk term necessary?",
+      "why_now": "The exact centered exterior has scale n^(-1/2), and the true marked coordinate can contribute at that same scale.",
+      "scope": "Track the actual normalized first-row active defect and relative mark, keep the original generally nonconstant low source, and do not infer a bulk contradiction from the core local estimate alone.",
+      "if_yes": "State the resulting real-floor obstruction and remaining assumptions.",
+      "if_no": "Give an exact obstruction to the proposed decomposition or an admissible field control.",
+      "if_inconclusive": "Derive a quantitative marked or genuine bulk bound.",
+      "inputs": [
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    },
+    {
+      "id": "actual-critical-rate",
+      "priority": 3,
+      "change_id": "small-cap-carry",
+      "question": "Can a true capped row achieve the small critical cap rate or the alternative actual low-slack bound?",
+      "why_now": "This remains an independent path even if the genuine repair cubic survives.",
+      "scope": "Use the true real capped map with fixed cap and floor, and preserve the final order of floors tending to zero.",
+      "if_yes": "Give the exact signs and floors reached by the verified result.",
+      "if_no": "Record the first rigorously failing estimate.",
+      "if_inconclusive": "Derive a checkable new genuine rate or upper bound.",
+      "inputs": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "specific-jacobi-obstruction",
+      "question": "Which Round 111 statements are valid using the genuine multiplicative-frequency Jacobi operator?",
+      "why_now": "Independent read-only verification precedes acceptance.",
+      "scope": "Check noncollision combinatorics, Gauss normalization, field exceptions, fixed versus moving carrier, and actual trajectory compatibility. Give ranked follow-ups.",
+      "if_yes": "Record verified scope.",
+      "if_no": "Identify a genuine error.",
+      "if_inconclusive": "State exact checked portions.",
+      "inputs": [
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/parallel-arithmetic-2.md",
+          "sha256": "cc98e7e614ad423490bef236966b392e8eb6374eba02eab769c5eb7e0d9db337"
+        },
+        {
+          "path": "research/api-astra-review-110.md",
+          "sha256": "1c19ff9200e5b11ab122a5d1760bd5fd5f442ef419729326be4759ff425b892e"
+        }
+      ]
+    }
+  ]
+}

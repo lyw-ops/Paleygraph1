@@ -14,6 +14,7 @@ This repository records one researcher's AI-assisted search: mathematical argume
 | Install dependencies and replay computations | [Replay guide](docs/REPLAY.md) |
 | Browse Python tools by function or research round | [Python tool catalogue](docs/PYTHON.md) |
 | Continue a route or prepare a new coordinating session | [Research workflow](docs/WORKFLOW.md) |
+| Record what changed and justify the next research call | [Round assessments and missions](docs/ROUND_REVIEW.md) |
 
 The index is generated from acceptance records in the local checkout. For a live summary:
 

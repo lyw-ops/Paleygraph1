@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "round": 97,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinating agent, assessing accepted round 97 for the next research window",
+  "sources": {
+    "baseline": {
+      "path": "research/round-96-acceptance.json",
+      "sha256": "dddd539dd1957ac8fa5b8a232a5a282e68c0e1d88b1fecff3fe14bd09d8d8b46"
+    },
+    "current": {
+      "path": "research/round-97-acceptance.json",
+      "sha256": "c4e99f617a2aa4f284bc13b285f34adabf81e72e2408d00201cf3c9405b60fb0"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold-first-contact",
+      "route": "Cold comparison first activation",
+      "effect": "reformulated",
+      "before": "Round 96 requires an eventual signed exterior singleton above 7.648e-5 at the true near-flat comparison boundary, before controlling arbitrary large erasures.",
+      "after": "Round 97 gives a same-floor nominal reflection with normalized Hellinger lag below twice the complex height-100 residual, an erasure alternative at the n^(1/4) scale, and necessary true two-cut Jacobi discrepancy above 0.2910 even after sqrt(n)/2 deletions.",
+      "remaining": "Bound the signed exterior or the correlative two-cut discrepancy on the actual first comparison row through primes. Fixed positive residual estimates are insufficient.",
+      "evidence": [
+        {
+          "path": "research/astra-count-96.md",
+          "sha256": "14c8531047e2453f19a8546ac4bc2732fb5bfebc757a12095cd641d4ca93fdcd"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/same-floor-97.md",
+          "sha256": "60803d1e7e47f578ddf8bb6b243fe21954e6ecd398cc375c23724358ff9e4a70"
+        },
+        {
+          "path": "research/astra-signed-97.md",
+          "sha256": "a41f69a802bd1aaae809153b444bbc86f8020063ac2440fa966149558085f2c6"
+        }
+      ]
+    },
+    {
+      "id": "common-continuation",
+      "route": "Unforced marked continuation and true real secants",
+      "effect": "weakened",
+      "before": "Round 96 leaves a common cold gap 2260/2^20 and bounds the dimension of the slow real spaces without controlling incoming increments.",
+      "after": "Round 97 advances four units and proves real pair rate 0.8 on the finite range n>=10^30, p<=4e695. A slow direction at arbitrarily large primes forces a signed nonlinear history above 9.4 at the first actual real exit, with allowed per-time erasures.",
+      "remaining": "Control the actual pre-exit weighted history at unbounded sizes, or bridge the 2256/2^20 gap with a genuine unforced invariant and continue to colder floors.",
+      "evidence": [
+        {
+          "path": "research/astra-paired-96.md",
+          "sha256": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e"
+        },
+        {
+          "path": "research/astra-incoming-97.md",
+          "sha256": "38efd65265f3a76c49c7a1a4d9088f894bd063b9163fd3e378caccb7a033e6ba"
+        }
+      ]
+    },
+    {
+      "id": "true-exterior-forcing",
+      "route": "Recurrent critical block and quotient positivity",
+      "effect": "reformulated",
+      "before": "Round 96 needs control of a signed prefix and complementary minority, excluding a possible exponential branch.",
+      "after": "Round 97 reduces the trapped recurrent branch to an original-block absolute prefix test and a single fixed full-prefix signed translated or original-eroded quotient objective.",
+      "remaining": "Obtain simultaneous prime-uniform o(J) bounds for the original-block maximal prefix and o(J^2) bounds for an admissible quotient trial at the full fixed prefix. The escaped branch remains open.",
+      "evidence": [
+        {
+          "path": "research/astra-fiber-96.md",
+          "sha256": "0ddd495c6abb4abf3914a796753c21d6bb37d331a9452829d1aa487c86ef28e7"
+        },
+        {
+          "path": "research/astra-prefix-97.md",
+          "sha256": "6b475d889420dc55de0bc0a61f51c16178a74358ea8d9833cba76fee0aa5c2e5"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Round 97 identified actual signed cut conditions, a realizable frozen response, and two genuine recurrent-prefix tests. The all-prime ordinary theta limit is open.",
+  "next_calls": [
+    {
+      "id": "signed-cuts",
+      "priority": 1,
+      "change_id": "cold-first-contact",
+      "question": "Can the actual signed discrepancy on the two physical superlevel cuts be bounded uniformly after admissible erasures?",
+      "why_now": "The first-hit problem now has a concrete cut at the physical imaginary maximum with fixed threshold 0.2910. The same-floor compensated comparison has a much smaller genuine lag.",
+      "scope": "Use the actual first unit-bulk comparison row, X^2=3(1-w), sign and weights as in the cited proofs, and preserve counting and normalized scales. Aim for exact or through-primes structural bounds.",
+      "if_yes": "Exclude the first comparison activation on the certified domain if the sufficient threshold is met, and check the implication for physical continuation.",
+      "if_no": "Document a genuine obstruction and its domain. A failure of a loose majorant remains inconclusive.",
+      "if_inconclusive": "Isolate the precise residual arithmetic pairing and prove a useful scoped estimate if available.",
+      "inputs": [
+        {
+          "path": "research/same-floor-97.md",
+          "sha256": "60803d1e7e47f578ddf8bb6b243fe21954e6ecd398cc375c23724358ff9e4a70"
+        },
+        {
+          "path": "research/astra-signed-97.md",
+          "sha256": "a41f69a802bd1aaae809153b444bbc86f8020063ac2440fa966149558085f2c6"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "prefix-quotient",
+      "priority": 2,
+      "change_id": "true-exterior-forcing",
+      "question": "Can an admissible positive quotient row make the original-eroded fixed full-prefix objective o(J^2), or can the original-block prefix bound be controlled?",
+      "why_now": "The new telescope dispenses with separate minority and exponential cases in favor of two exact true-orbit tests.",
+      "scope": "Use the actual cold orbit and bounded critical family, only allowed erasures, and real positive quotient probabilities retaining the root floor. Keep escaped branch out of the conclusion.",
+      "if_yes": "State precisely which trapped alternative is eliminated and which companion bound is still needed.",
+      "if_no": "Record any demonstrated obstruction on the true objective, with its actual scope and scale.",
+      "if_inconclusive": "Return the cheapest exact evaluation or equivalent signed Fourier pairing that still needs an upper.",
+      "inputs": [
+        {
+          "path": "research/astra-prefix-97.md",
+          "sha256": "6b475d889420dc55de0bc0a61f51c16178a74358ea8d9833cba76fee0aa5c2e5"
+        },
+        {
+          "path": "research/astra-fiber-96.md",
+          "sha256": "0ddd495c6abb4abf3914a796753c21d6bb37d331a9452829d1aa487c86ef28e7"
+        },
+        {
+          "path": "research/astra-quotient-94.md",
+          "sha256": "d74538d6545394d9b59dc6cb10149590ac659555171149037fea7d00961a7861"
+        }
+      ]
+    },
+    {
+      "id": "actual-pre-exit",
+      "priority": 3,
+      "change_id": "common-continuation",
+      "question": "Can the signed history of actual incoming errors be upper-bounded, or can a genuine complex invariant advance to the nominated square?",
+      "why_now": "The remaining real problem has a signed threshold 9.4 and explicit time-dependent erasures. The successful complex collections also identify where a new disjoint return could help.",
+      "scope": "Keep finite real and eventual statements separate, and use actual secants or a certified unforced complex branch. Clearly distinguish prescribed inputs and auxiliary models.",
+      "if_yes": "Translate the precise new bound to the genuine real contraction or common complex domain it proves.",
+      "if_no": "Record an obstruction to this exact approach and isolate the changed proof plan.",
+      "if_inconclusive": "Preserve the actual signed test or a rigorously certified incremental continuation step.",
+      "inputs": [
+        {
+          "path": "research/astra-incoming-97.md",
+          "sha256": "38efd65265f3a76c49c7a1a4d9088f894bd063b9163fd3e378caccb7a033e6ba"
+        },
+        {
+          "path": "research/astra-paired-96.md",
+          "sha256": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e"
+        },
+        {
+          "path": "research/same-floor-97.md",
+          "sha256": "60803d1e7e47f578ddf8bb6b243fe21954e6ecd398cc375c23724358ff9e4a70"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold-first-contact",
+      "question": "Do the new round-98 candidate estimates follow from their cited propositions and the actual rows?",
+      "why_now": "Independent read-only review is needed before binding a new mathematical acceptance.",
+      "scope": "Inspect relevant proofs, replays and boundary hypotheses. Report scope corrections and distinguish finite certificates from uniform mathematics.",
+      "if_yes": "Return accepted precise scopes and candidate ranked next tests.",
+      "if_no": "Identify the first substantive flaw or failing certificate.",
+      "if_inconclusive": "State which evidence was checked and which remains unresolved.",
+      "inputs": [
+        {
+          "path": "research/same-floor-97.md",
+          "sha256": "60803d1e7e47f578ddf8bb6b243fe21954e6ecd398cc375c23724358ff9e4a70"
+        },
+        {
+          "path": "research/astra-signed-97.md",
+          "sha256": "a41f69a802bd1aaae809153b444bbc86f8020063ac2440fa966149558085f2c6"
+        },
+        {
+          "path": "research/astra-incoming-97.md",
+          "sha256": "38efd65265f3a76c49c7a1a4d9088f894bd063b9163fd3e378caccb7a033e6ba"
+        },
+        {
+          "path": "research/astra-prefix-97.md",
+          "sha256": "6b475d889420dc55de0bc0a61f51c16178a74358ea8d9833cba76fee0aa5c2e5"
+        }
+      ]
+    }
+  ]
+}

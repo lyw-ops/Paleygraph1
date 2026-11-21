@@ -1,0 +1,206 @@
+## Result
+
+For the genuine \(C_1\) column, with \(t_0=n\), both physical lifts, and the translated \(P_{5000}\) norm, the two proposed coefficients are correct as **exposed field contributions**, provided \(a_k(t)\) and \(b_k(t)\) denote the actual Chebyshev coefficients of
+\[
+d_t(S)=\sum_{k\ {\rm odd}}a_k(t)C_k,\qquad
+d_t'(S)=\sum_{k\ {\rm even}}b_k(t)C_k
+\]
+on the original square. Here \(S=s_nC_1\), \(s_n=2\sqrt{p/n}\), and \(\beta=\beta(t)\) is the actual complex coefficient of \(W\).
+
+The two selected contributions are
+\[
+\boxed{\beta\,a_1\Bigl(b_0+\frac{b_2}{2}\Bigr)\,K(C_1F_4)}
+\]
+and
+\[
+\boxed{\frac{\beta b_0}{2}(a_1+a_3)\,K(WY)}.
+\]
+
+These formulas are valid up to the already established physical-mark and feedback corrections
+\[
+O_{P_{5000}}(n^{-1/2})
+\]
+uniformly on the original square, at both true heights and for both lifts.
+
+They do **not** constitute the full all-order \(W\)-linear square.
+
+---
+
+## Derivation
+
+Write the mixed \(W\)-linear square schematically as
+\[
+K\!\left[d_t(S)\,
+ K\!\left(W\,d_t'(S)C_1\right)\right]
++
+K\!\left[W\,d_t'(S)\,
+ K\!\left(d_t(S)C_1\right)\right],
+\]
+with the common factor \(\beta\). The exact operator conventions produce the same two products as in the leading computation.
+
+### 1. The \(K(C_1F_4)\) family
+
+The first product contains
+\[
+d_t(S)\,K\!\left(W\,d_t'(S)C_1\right).
+\]
+To obtain the \(F_4\) label after the inner \(K\), one needs the \(C_1\)-component of
+\[
+d_t'(S)C_1.
+\]
+The relevant products are
+\[
+b_0C_1+\;b_2C_2C_1+\cdots,
+\]
+and
+\[
+C_2C_1=\frac{C_3+C_1}{2}.
+\]
+Hence the \(C_1\)-coefficient is
+\[
+b_0+\frac{b_2}{2}.
+\]
+The outer factor must contribute \(a_1C_1\). Since
+\[
+K(WC_1)=F_4+O_{P_{5000}}(n^{-1/2})
+\]
+after the exact feedback correction, this gives
+\[
+\beta a_1\Bigl(b_0+\frac{b_2}{2}\Bigr)K(C_1F_4).
+\]
+
+### 2. The \(K(WY)\) family
+
+For the second product, the relevant part is
+\[
+W\,d_t'(S)\,K(d_t(S)C_1).
+\]
+The \(W\)-factor contributes \(b_0W\) to the selected family. The \(Y\)-component of \(K(d_t(S)C_1)\) comes from
+\[
+a_1C_1^2+a_3C_3C_1+\cdots.
+\]
+Using
+\[
+C_1^2=\frac{1+C_2}{2},\qquad
+C_3C_1=\frac{C_4+C_2}{2},
+\]
+and \(K1=0\), \(K(C_2)=Y+O_{P_{5000}}(n^{-1/2})\), the \(Y\)-coefficient is
+\[
+\frac{a_1}{2}+\frac{a_3}{2}.
+\]
+Therefore the second exposed contribution is
+\[
+\frac{\beta b_0}{2}(a_1+a_3)\,K(WY).
+\]
+
+This also explains why the two coefficients are not simply \(\beta a_1b_0\): the \(b_2\) and \(a_3\) terms return to the same Jacobi mode through the Chebyshev product rule.
+
+---
+
+## What is and is not merged
+
+The two displayed expressions are genuine same-label collections:
+
+- \(K(C_1F_4)\) has the rank-four derived signature together with the Jacobi shift from \(C_1\).
+- \(K(WY)\) has the rank-three \(W\)-signature and a nontrivial Legendre factor.
+
+The rank-four, rank-three, and Legendre signatures described in the supplied arithmetic records distinguish these two families from one another. The known \(F_4\), \(W\), \(C_1\), and \(Y\) weight measures are preserved under both physical lifts. The punctual feedback terms are multiples of \(Ke_0\) and therefore have the usual \(O_{P_{5000}}(n^{-1/2})\) price.
+
+However, this only excludes merging **among the four leading families**
+\[
+C_1F_4,\qquad YF_4,\qquad WY,\qquad W^2.
+\]
+It does not exclude coincidence with:
+
+1. higher Chebyshev orders in the same square;
+2. words containing two or more \(W\)-factors;
+3. other input columns;
+4. transported columns after the outer \(K\);
+5. other centers or the genuine Picard residual.
+
+Thus “same exposed field” is strictly weaker than “same irreducible label in the complete Taylor square.”
+
+---
+
+## Signed tails
+
+The alpha-free \(W\)-linear part has the formal expansion
+\[
+\sum_{\substack{r\ {\rm odd}\\ s\ {\rm even}}}
+\beta\,a_r b_s\,
+\Bigl[
+K\{C_rK(WC_sC_1)\}
++
+K\{W C_sK(C_rC_1)\}
+\Bigr],
+\]
+with the physical mark restored afterward.
+
+The selected coefficients above are precisely the \((r,s)=(1,0),(1,2)\) returns in the first bracket and the \((r,s)=(1,0),(3,0)\) returns in the second bracket. All other pairs form the complementary tail. In particular, the first omitted terms include contributions from
+
+- \(a_1b_4\),
+- \(a_3b_2\),
+- \(a_5b_0\),
+- and the corresponding terms in the second ordering,
+
+as well as terms whose resulting labels are not \(C_1F_4\) or \(WY\).
+
+The supplied analytic bounds do give convergence of this tail. On the nominated square one has the relevant strict scalar radius margin, with the existing \(U<1\) bound for the Jacobi argument and the all-order Legendre expansion controlled by the \(w<1\) estimate. Consequently the alpha-free \(W\)-linear series is absolutely summable before transport, and the physical-mark repair is termwise \(O(n^{-1/2})\) with a summable coefficient majorant.
+
+What is missing is a **certified translated-column price for the complementary signed collection**. The existing records certify:
+
+- the leading mixed square packet, with price below \(0.061\);
+- the two explicitly selected cubic-return packets, with price below \(0.051\);
+- the all-order Legendre omission for the two-center block;
+- generic transported-column estimates for an unsigned multiplier envelope.
+
+They do not certify the required common-column supremum after:
+
+1. collecting all alpha-free \(W\)-linear Taylor orders;
+2. merging every actual irreducible coincidence;
+3. applying both lifts;
+4. restoring the marked \(t_0=n\) denominator;
+5. including same-vertex and transported words on this column.
+
+Therefore I cannot certify that the complementary price is below the remaining \(0.567184\) budget.
+
+This is a precise failure of the requested sufficient bound, not a refutation of the all-order return. The full signed square threshold remains open.
+
+---
+
+## Hypotheses used
+
+The derivation assumes:
+
+- eligible odd primes \(p\equiv1\pmod 4\) and the associated prime-square family used in the two-lift construction;
+- the original closed square in the complex \((\alpha,\beta)\)-parameters;
+- true height \(t_0=n\), with the off-mark heights \(t_i=t\);
+- the genuine Jacobi column \(C_1\);
+- both physical lift choices;
+- the exact identities
+  \[
+  K(C_1Y)=W+\frac{C_1}{p},\qquad
+  K(C_1F_4)=-G+D_5Ke_0,
+  \]
+  together with the corresponding \(K(WC_1)\) and \(K(C_1^2)\) identities;
+- the translated \(P_{5000}\) norm and its \(O(n^{-1/2})\) mark repair.
+
+Under these hypotheses, the two boxed coefficients are checked.
+
+---
+
+## Remaining gap
+
+No certified number is currently available for
+\[
+\left\|\text{all complementary alpha-free \(W\)-linear words on the genuine \(C_1\) column}\right\|_{P_{5000}},
+\]
+after the exact signed collection and physical-mark repair. In particular, the available bounds do not establish a strict inequality against \(0.567184\), nor do they produce a new invariant.
+
+### Ranked next tests
+
+1. **Exact finite-order signed collection through a substantially higher degree.**  
+   Compute all \((r,s)\) pairs through a fixed degree such as \(r+s\le 12\), using the actual complex \(a_r,b_s,\alpha,\beta\), both lift measures, and the full \(C_1\)-column transport. Collect equal \((\text{Jacobi shift},\text{Legendre label},\text{rank-three/rank-four label})\) before taking absolute values. This is the most direct test of whether the two returns continue to absorb a material part of the tail.
+
+2. **All-order majorant for the complementary translated column.**  
+   Derive a two-component price recursion separating the \(C_1F_4/WY\) return sector from the off-sector boundary weights, then insert the exact \(D_W\) and \(D_{F_4}\) measures and the actual marked correction. A strict resulting bound below the available \(0.567184\) would certify the mission; failure would give a named budget obstruction rather than merely an unsuccessful truncation.

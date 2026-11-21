@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-176-inflight.json",
+    "sha256": "c0a0fea897d74c710e9c2fb358f96bba19556857b8853eb7c006d49ef607cd17"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-output-weighted-distinct-poles",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 12397,
+        "completion_tokens": 10809,
+        "total_tokens": 23206
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-output-weighted-distinct-poles-176.txt",
+        "sha256": "8000f056dc6af194b2f4b82206e1e4b3b28f50cfc20fed159f6c0b19db1b98ab"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-nonmonomial-projective-gain",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 7769,
+        "completion_tokens": 3398,
+        "total_tokens": 11167
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-nonmonomial-projective-gain-176.txt",
+        "sha256": "92f518d652cf88a81dc6a61a36fc8a531e747811d6840ea4773359f686894fc7"
+      }
+    },
+    {
+      "call_id": "cold-prime-actual-signed-displacement",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 7961,
+        "completion_tokens": 2530,
+        "total_tokens": 10491
+      },
+      "archive": {
+        "path": "research/api-astra-cold-prime-actual-signed-displacement-176.txt",
+        "sha256": "9a091d98bb283ca9138ceba8b33b1677663512824360c9a1c436809104952c07"
+      }
+    }
+  ]
+}

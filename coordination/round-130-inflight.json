@@ -1,0 +1,28 @@
+{
+  "round": 130,
+  "dispatch_status": "running; HTTP response not yet observed",
+  "accepted_checkpoint": {
+    "path": "research/round-129-acceptance.json",
+    "sha256": "98818df3d3ff000832cb14444fa05723d077253cecc61168bd7b514479ef3f84"
+  },
+  "coordinator": {
+    "path": "coordination/round-129.json",
+    "sha256": "183b0f6f5b3708e949ee4a88c14e470bdd70237f70902c0f92c9b5d583481ac0"
+  },
+  "validation_snapshot": {
+    "path": "/tmp/paley-archive-hydration-01a1ed0a/snapshot-manifest-129.json",
+    "sha256": "84784f9ec48026651e2e57946f209a62b2cccbf952ae2eea7a392e574a5c5ced"
+  },
+  "call_id": "cold-combined-height-601",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "cb6edd6c1b781009e6b8115b5b386e4e1f1dc922208c1c3991966ed2182727e8",
+  "started_utc_epoch": 1795106689,
+  "local_session_id": 65348,
+  "mission_file": {
+    "path": "/tmp/paley-r130-overflow-mission-01a1ed0a.md",
+    "sha256": "88afcb6f75733d7fe728701a6c0201878c243a397b15c6ada89082274864368a"
+  },
+  "pending_receipt": "/tmp/paley-r130-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r130-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Observe the actual API return and independently test the combined physical height-601 derivative price."
+}

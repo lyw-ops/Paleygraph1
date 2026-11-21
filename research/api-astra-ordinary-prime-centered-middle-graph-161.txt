@@ -1,0 +1,172 @@
+## Result
+
+For the selected ordinary-prime short block, the centered exact physical graph gives a rigorous bound for every factorwise-amplitude subblock satisfying the known small-factor condition, but it does **not** bound the full remaining moderate-amplitude block at \(O(p)\).
+
+Here \(p\to\infty\) runs along the selected ordinary-prime family and the hypothetical critical branch from Rounds 157–160. Put
+\[
+Q=(\mathbb F_p^\times)^2,\qquad n=|Q|=(p-1)/2,
+\]
+retain the actual \(v\in\mathbb F_p^\times\), the physical variables \(x,y\in Q\), the favorable phase
+\[
+\chi(1-t)=\rho,
+\]
+and the true five weights coming from the independent variables
+\[
+(V,U,V',T,U').
+\]
+All norms below are counting norms. The order of limits is: first fix the physical cut or amplitude thresholds, then let \(p\to\infty\) along the selected block; only afterwards may one send a threshold parameter to its limiting value.
+
+### 1. Exact centered graph
+
+After removing the two zero-coordinate classes \(a=1\) and \(b=1\), whose assembled contribution is \(O(p)\), the uncut trace has Fourier support on
+\[
+(1-a)(cd-1)=(1-b)(c-1),
+\]
+with
+\[
+a,b,c,d\in\mathbb F_p^\times,\qquad
+a,b\neq1,\quad d\neq1,\quad a\neq b.
+\]
+The five original Fourier arguments are
+\[
+\left(a,\frac ca,b^{-1},d,\frac b{cd}\right).
+\]
+All five are nontrivial on this graph. Thus the five independent original density factors are genuinely centered in the exact uncut graph after the two zero exceptions are removed.
+
+For fixed \(a,c\), the graph has exactly \(p-4\) allowed \(b\)'s. Moreover, different \((a,c)\)-rows have disjoint column supports in the flattening
+\[
+(V,U)\ \big|\ (V',T,U').
+\]
+Consequently the nonzero singular values of the unweighted graph matrix are exactly
+\[
+\sqrt{p-4}.
+\]
+With normalized Fourier bases the singular value is
+\[
+\frac{\sqrt{p-4}}{p^{3/2}}.
+\]
+
+This remains true as an operator-norm upper bound after imposing:
+
+- the physical \(x,y\in Q\) restrictions;
+- the square/signed physical restrictions;
+- factorwise physical amplitude cutoffs;
+- the retained favorable phase \(\chi(1-t)=\rho\);
+
+because all these restrictions multiply graph entries by quantities of modulus at most one.
+
+### 2. True five-weight estimate
+
+Let \(h_j\) be the five actual physical factors after any factorwise cutoff. In the order corresponding to
+\[
+\left(a,\frac ca,b^{-1},d,\frac b{cd}\right),
+\]
+the weighted graph contribution satisfies
+\[
+|\mathcal G(h_1,\ldots,h_5)|
+ \le \sqrt{p-4}\,\prod_{j=1}^5\|h_j\|_2.
+\tag{1}
+\]
+
+This is a true-weight estimate: no replacement of the conditional law by the uniform law is used, and the slope weight \(f_{\rm arc}\) remains present. The favorable sign and the actual ratio constraint are also retained. The clean restrictions and outer resonances may be restored at additive cost \(O(p)\), using the previously established zero-coordinate and regular-exclusion estimates; they are not being asserted as pointwise restrictions of the clean kernel.
+
+For example, if three factors satisfy
+\[
+|h_j|\le C p^{-1/2},
+\]
+then their counting norms are \(O(1)\), while the remaining two have norm \(O(p^{1/4})\). Equation (1) gives
+\[
+|\mathcal G|=O(p).
+\]
+More generally, if the five factors have upper cutoffs
+\[
+|h_j|\le p^{-\alpha_j},
+\]
+then the graph estimate gives \(O(p)\) whenever
+\[
+\sum_{j=1}^5\bigl(\alpha_j-\tfrac14\bigr)_+\ge \tfrac34.
+\tag{2}
+\]
+This recovers the known small-factor physical cuts, including the matched \(2|3\) flattening.
+
+### 3. Why this does not settle the remaining middle block
+
+On the uncut true factors one only has
+\[
+\|f\|_2=O(p^{1/4}),
+\]
+so (1) gives merely
+\[
+\sqrt p\,\|f\|_2^5=O(p^{7/4}),
+\]
+far above the required \(O(p)\).
+
+The same obstruction persists on a genuinely moderate block if its definition imposes only lower amplitude bounds, or fixed two-sided bounds away from zero and one. Such a block need not contain any factor with norm \(O(1)\). Centering does not by itself improve (1): the graph already has no trivial Fourier coordinate, but the weighted row and column vectors can still have the full \(L^2\) size \(p^{1/4}\).
+
+The exact slope-fiber orthogonality also does not close the gap. For each \(d\neq0,1\), the fibers \(V_d\) are disjoint and orthogonal in the unweighted graph. However, the true conditional law assigns the four remaining ratios the coupled weights
+\[
+P(\beta,C,\alpha,\delta)
+ =\sum_x w(x)w(\alpha x)w(\beta\alpha x)w(x/C)w(\delta x),
+\]
+and the five-fold ratio law is highly nonuniform. In particular, replacing it by a uniform or convolution-smoothed law is invalid: its total variation distance from the true law tends to one on the critical branch, and the Jacobi test already separates the two laws by a fixed amount.
+
+Thus the checked conclusion is:
+
+\[
+\boxed{\text{The centered exact physical graph proves }O(p)
+\text{ for the factorwise small cuts, but not for the full moderate block.}}
+\]
+
+The remaining gap is a genuinely weighted, conditional estimate exploiting more than the unweighted row-disjointness. One would need, for example, a bound of the schematic form
+\[
+\|\text{weighted graph on the moderate block}\|_{\mathrm{op}}
+ \ll p^{-1/2}
+\]
+relative to the five true \(L^2\) masses, or an equivalent conditional second-moment estimate. No such bound follows from complete graph centering alone.
+
+### Evidence against a stronger universal claim
+
+The square-field model from the earlier rounds supplies a concrete warning. There the pin and phase are exact, with \(k(a)=1\) on supported anchors, but the matching favorable additive class is
+\[
+s^3+O(s^2)=p^{3/2}+O(p),
+\]
+not \(O(p)\). Hence the phase, pin, critical-size relation, and five-factor centering alone cannot imply a field-general \(O(p)\) bound. Any successful ordinary-prime argument must use an additional property of the selected prime family or of the actual conditional weighted graph.
+
+## Remaining gap
+
+The unresolved target is the actual signed quantity
+\[
+\mathbb E_w\!\left[
+1_{\rm reg}\,
+J(V/V',L)\,
+\mathscr K_{q=0}
+\right],
+\]
+with the slope restricted to the original phase arc and with all five true weights retained. The known \(O(p)\) comparisons remove nonsquare lifts, zero coordinates, and regular exclusions, but do not control the remaining centered moderate-amplitude contribution.
+
+## Two ranked next tests
+
+### 1. Weighted row-Gram test — highest priority
+
+For a fixed dyadic moderate block, form the exact graph matrix with the five physical weights inserted, including the slope factor \(f_{\rm arc}\). Compute or bound its row Gram matrix
+\[
+\mathsf G_{(a,c),(a',c')}
+ =\sum_b W(a,c,b)\overline{W(a',c',b)}.
+\]
+The unweighted matrix is diagonal because row supports are disjoint. The decisive test is whether the true weights yield a nontrivial averaged improvement such as
+\[
+\sum_{a,c}\mathsf G_{(a,c),(a,c)}
+ \ll p
+\]
+after the actual conditional weighting, or an \(O(p)\) bound for the corresponding weighted operator norm. A failure already on a moderate dyadic block would precisely refute the strongest weighted-flattening route.
+
+### 2. Conditional slope-fiber second moment
+
+Keep \(d\) fixed and use the exact fiber \(V_d\), but average with the true conditional law of the other four ratios rather than replacing it by uniform measure. Test whether one can prove
+\[
+\sum_{d\in Q\setminus\{1\}}
+ \mathbb E_{\mathrm{true}\mid d}
+ \bigl|\text{centered four-factor fiber sum}\bigr|^2
+ \ll p
+\]
+or, more realistically, an \(o(p^{3/2})\) bound with a quantitative dependence on the moderate thresholds. This directly targets the remaining rank-two obstruction while preserving the ratio constraint, physical phase, and all five weights.

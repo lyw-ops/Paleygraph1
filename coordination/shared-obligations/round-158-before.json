@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T22:42:50.321044Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-157.json#next_calls",
+  "coordinator_sha256": "13c380ee6bfc10123c4b67f305cc8e8b5684045bd542c0efa9d8c1b0fc1efd0f",
+  "call_ids": [
+    "ordinary-prime-marked-phase-arc",
+    "ordinary-prime-clean-five-root-average",
+    "cold-signed-gap-alternative"
+  ],
+  "routes": {
+    "r158/ordinary-prime-marked-phase-arc": {
+      "question": "Can an ordinary-prime inverse or incidence theorem bound the actual true-weighted moment only on rho*k>=1/2 or on the matching additive frequency sign?",
+      "scope": "Preserve the actual late retargeted short block, near-critical hypothesis, true phase k(a), actual nu, physical affine reflection and exclusions. An upper must concern the same arc/weights. Identify where prime order is essential.",
+      "remaining": "Prove a prime-only upper on the actual matched arc/class or find another contradiction to the original selected critical branch. The regular kernels still lack coupled phase bounds."
+    },
+    "r158/ordinary-prime-clean-five-root-average": {
+      "question": "Can the clean complete five-root kernel be bounded on the actual coupled five-weight law at the O(p) physical scale?",
+      "scope": "Retain the actual five weights, both u- and slope lifts, true favorable sign, and all exact fixed relations. Distinguish geometric bound for each tuple from the true coupled phase average over tuples.",
+      "remaining": "Prove a prime-only upper on the actual matched arc/class or find another contradiction to the original selected critical branch. The regular kernels still lack coupled phase bounds."
+    },
+    "r158/cold-signed-gap-alternative": {
+      "question": "Can a large-scale signed two-vertex estimate, or a source-local alternative confinement, bypass the enriched positive comparison for the true cold orbit?",
+      "scope": "Keep both genuine heights, original complex square, true physical mark, both lifts, full translated inputs or the precise invariant class actually needed. Distinguish exact signed weights, ℓ2 control and physical coordinate effects.",
+      "remaining": "Find substantial signed savings, determinant-shift collections or an independent confinement estimate. The actual signed contraction and common domain remain open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-marked-phase-arc": [],
+    "ordinary-prime-clean-five-root-average": [],
+    "cold-signed-gap-alternative": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The matched phase arc requires genuine prime conditional incidence or rigidity on the actual reflected rows. The clean five-root task concerns a different explicit trace kernel and its jointly weighted remainder. The cold task asks for a substantially different signed confinement. These are distinct immediate obligations."
+}

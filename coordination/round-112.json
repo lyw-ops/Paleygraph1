@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "round": 112,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 112 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-111-acceptance.json",
+      "sha256": "609da2ee9f2a7a81d3daa2d752b80cfd58cc59f946540dd6a1e9492c633bd87b"
+    },
+    "current": {
+      "path": "research/round-112-acceptance.json",
+      "sha256": "d6bf50f7b176b40b4405d7b3b0d8eaec6f6132263eac6f539d04f20f3746801d"
+    }
+  },
+  "changes": [
+    {
+      "id": "squared-transport",
+      "route": "True late squared-source transport and reciprocal factors",
+      "effect": "reformulated",
+      "before": "The genuine weighted cubic with one repair law reached the critical scale. Marked and exterior shares of the forced negative pairing were unresolved.",
+      "after": "Every fixed distinct moment of the full source is available. The positive favored mixed cubic is unmarked and equivalent to squared-source transport on order sqrt(n) actual high favored bulk sites, while the opposite mixed cubic is O(n^(-3/4)). The independent linear mark and centered bulk cost satisfy an exact dichotomy.",
+      "remaining": "Find a prime-uniform inconsistency of the true mixed factor transport with the actual reciprocal product and full repair origin. The result still assumes the fixed-floor critical cap-rate marked obstruction.",
+      "evidence": [
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/api-astra-review-112.md",
+          "sha256": "fb4c5bdb3de997d3fffe0553003187663e5f975a990465fdc7e8873fac3168a8"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "cap-rate",
+      "route": "Critical coefficient or slack-adjusted repair bound",
+      "effect": "unchanged",
+      "before": "A sufficiently small actual cap coefficient gives the genuine repair width induction.",
+      "after": "The new moment and transport tests still use a bounded critical coefficient.",
+      "remaining": "Prove the stated small coefficient or a sufficient actual slack bound for the relevant floors, ordered before the prime limit.",
+      "evidence": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        }
+      ]
+    },
+    {
+      "id": "common-cold-domain",
+      "route": "Actual common cold complex domain",
+      "effect": "unchanged",
+      "before": "The sharp compatible physical starter and growing-depth resources remained open.",
+      "after": "This round analyzes only the actual positive-floor real repair.",
+      "remaining": "Establish the prime common complex domain for the actual marked branch and keep its final limiting argument explicit.",
+      "evidence": [
+        {
+          "path": "research/round-111-acceptance.json",
+          "sha256": "609da2ee9f2a7a81d3daa2d752b80cfd58cc59f946540dd6a1e9492c633bd87b"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual mixed cubic localizes to a sharply specified squared-source transport on the true favored bulk, with a strictly smaller estimate on the true opposite factor. Advance both jointly on the same prime subsequence.",
+  "next_calls": [
+    {
+      "id": "square-transport-reciprocal",
+      "priority": 1,
+      "change_id": "squared-transport",
+      "question": "Can the signed squared-core transport into the actual high favored sites coexist with the true opposite factor and the exact reciprocal product through primes?",
+      "why_now": "The marked atom leaves the entire mixed cubic at critical order in the true bulk. The opposite factor gives a strictly smaller mixed estimate.",
+      "scope": "Use the multiplicative-frequency Jacobi operator. Keep the actual moving core, full source, original mark/exterior dichotomy and two true stationary factors on the same prime subsequence. Seek a quantitative prime-only upper or mixed transport identity sensitive to the exact reciprocal product.",
+      "if_yes": "Give the exclusion estimate with constants, hypotheses and fixed-floor consequence.",
+      "if_no": "Construct a true obstruction to the proposed estimate with precise field and trajectory scope.",
+      "if_inconclusive": "Derive a new quantitative joint estimate and state the remaining prime arithmetic succinctly.",
+      "inputs": [
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/distinct-cubic-repair-111.md",
+          "sha256": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242"
+        },
+        {
+          "path": "research/api-astra-review-112.md",
+          "sha256": "fb4c5bdb3de997d3fffe0553003187663e5f975a990465fdc7e8873fac3168a8"
+        }
+      ]
+    },
+    {
+      "id": "linear-defect-signed-transport",
+      "priority": 2,
+      "change_id": "squared-transport",
+      "question": "Can the actual marked/effective bulk defect impose incompatible signs on the positive squared-source transport?",
+      "why_now": "The true mixed lower is common to either cost branch; the linear marked cost can still be critical.",
+      "scope": "Jointly track the fixed positive signed output on genuine high sites and the exact linear e_0 and unmarked centered pairing. Preserve the true late times and scale.",
+      "if_yes": "State which alternative is eliminated and the bound used.",
+      "if_no": "Explain the surviving mechanism with exact assumptions.",
+      "if_inconclusive": "Prove a new mixed signed identity involving the almost-invariant core or centered exterior.",
+      "inputs": [
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    },
+    {
+      "id": "actual-critical-rate",
+      "priority": 3,
+      "change_id": "cap-rate",
+      "question": "Can the genuine cap spill satisfy the explicit small-constant rate or the independent sufficient slack-adjusted estimate?",
+      "why_now": "This is a separate fixed-floor mechanism for completion.",
+      "scope": "Use the true capped rows and preserve both signs and the floor order.",
+      "if_yes": "Give the exact uniform bounds and reachable floors.",
+      "if_no": "Identify the first unavailable estimate.",
+      "if_inconclusive": "Give a new usable cap or slack estimate.",
+      "inputs": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "squared-transport",
+      "question": "Which new true paired-factor and squared-source transport estimates survive independent checking?",
+      "why_now": "The assumptions on the original factors, powers and mark cannot be silently upgraded.",
+      "scope": "Read-only checking, including all constants, error scales, norm conventions, field restrictions and quantifiers.",
+      "if_yes": "Record the precise scope and two ranked closeouts.",
+      "if_no": "Locate the first invalid step or unsupported claim.",
+      "if_inconclusive": "Mark the verified and unverified assertions explicitly.",
+      "inputs": [
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/repair-core-defect-balance-110.md",
+          "sha256": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/distinct-cubic-repair-111.md",
+          "sha256": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242"
+        }
+      ]
+    }
+  ]
+}

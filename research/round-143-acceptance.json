@@ -1,0 +1,116 @@
+{
+  "round": 143,
+  "accepted_at_utc": "2026-11-19T20:04:04Z",
+  "previous": "research/round-142-acceptance.json",
+  "previous_sha256": "b0f26806496694755bfd9f347ab1165e3aa1473853ee43cc71909f491de1da08",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-142.json",
+    "sha256": "e4f227156907bcf4d88bad708e77b5a6d9480d920eaf2aeed1c831aaddbc5810"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-terminal-face-dual-143.md": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb",
+    "research/cold-translated-label-separation-143.md": "f6c91c2b7038d5d0c4ccf701efc4fffa8d6b35caf008b6a80935ae7d331c7892",
+    "research/cold-quintic-mixed-placements-143.md": "56321890bdb77295cee12227454d344dbc9708324534ea951c7c7036ed4cacb6",
+    "research/api-astra-review-143.md": "b3798fb300b3ab35c15ffa72e9c890307e0447bc166f53d83142c93857e1ac62",
+    "research/api-astra-143-receipt.json": "8c067cc5e02dca9e9eb66fff65d7e8393dfea5cf9a5081cea5f059477e7223b7",
+    "research/api-astra-ordinary-terminal-distinct-triples-143.txt": "66c214881b5949c409df9363a62b0b49beafec29cb355c950c7fd5a044304367",
+    "research/api-astra-cold-translated-label-intersection-143.txt": "099e45f5f689f0f87070addbf2bd5627e8c9af1a390a9b2e4d1f8c45f388c26d",
+    "research/api-astra-cold-unshifted-rank-ten-return-143.txt": "384fa456059a20d7966b616718017da79e154e8e1091439b07c09e6a2d270639",
+    "coordination/launchers/round-143.py": "28a500b5a2dc1bfb48bcb75ffb7e86bf45fd735d110d8e524bd55b9301687df5",
+    "coordination/launchers/round-143-translated-retry.py": "e33f01aba98455d874051f4911a47fa65e281eaafbbed2deb49d92191121a351",
+    "coordination/round-143-inflight.json": "d013c042b8f21ade6cad39b8d97857db4b8422c10e188998bc90a00fc9d73a3c",
+    "coordination/round-143-translated-retry.json": "5717a31b902a647a159023b4d7e6db8c82861ff0dca1e35a1a935e3d49a19887",
+    "coordination/shared-obligations/round-143-before.json": "a5e0d39b5b32bbac9b5f7781ae76e64786c08f5cec1dc819d693e3be907ee2c2",
+    "coordination/shared-obligations/round-143-after.json": "b9223f2b22ef0900f34188aad3958033392d0a27b24cbccdb65803ead8cd83d5",
+    "coordination/missions/round-143/ordinary-terminal-distinct-triples.md": "1e126d8616aa79fa3c0a8cf94a5075ca750c7567b630d874dd41c094fc500256",
+    "coordination/missions/round-143/cold-translated-label-intersection.md": "b525a55b1c2035ad39302e826c416a54854fc194340012252c1d196715302be3",
+    "coordination/missions/round-143/cold-unshifted-rank-ten-return.md": "d6f188db9df86d920543e7d0c8bba85ac7e805715e5a0407881b493dcb0b112a"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-terminal-offdiagonal-142.md": "958ff834c39cdb71002730a3017aecfdd33acb909147eed83f0245c587801e03",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/opposite-autocorrelation-73.md": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a",
+    "research/cold-translated-leading-weight-table-142.md": "81ceea21e0fe16566ab14d1a46b39ec790eedf08f95da9e30288a83169e3d049",
+    "research/cold-cubic-mixed-pooling-142.md": "41eaada8394ffa67ddae6814718bc26bdb5b01686513d45c590ac1a40e703476",
+    "research/cold-mixed-seed-column-141.md": "0c09cd0b907b85540da510809612c64bc2953db2d0c0970120ce9242dcfff468",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/astra-joint-64.md": "22573cbd9625893d6bacf6bf02da9a665876aab8a5783d2931c333e442339808",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/astra-discount-91.md": "6e79bd5f21c02b97334132cc093e2e710a6a6faf7a53e75784dfbea9149192e9",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three complete drafts with one same-prompt retry, exact new derivations and independent audit.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "research_agents": [
+    {
+      "name": "Gateway Astra real terminal distinct triples",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Exact-face quadratic LP dual",
+        "Character form with controlled depth/conductor growth"
+      ]
+    },
+    {
+      "name": "Gateway Astra translated label intersection, after Fable 429",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Compare full inverse-line labels",
+        "Find exceptional twists in translated transport"
+      ]
+    },
+    {
+      "name": "Gateway Astra unshifted higher mixed block",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Next genuine rank-ten return",
+        "Price the marked higher block"
+      ]
+    },
+    {
+      "name": "/root/audit_143",
+      "status": "completed",
+      "ranked_closeout": [
+        "Prime-specific bound on reduced mean-minus-mark functional",
+        "Separate residual products from repeated rank-ten labels"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Try primal selection and reduced dual bounds for the same true opposite face-selected terminal first moment, preserving both signs and selectable growing marked times.",
+    "Classify residual words at the second higher unshifted order, including Y K(C6), versus the old pools and the repeated rank-ten term."
+  ],
+  "proof_scope": [
+    "For any bulk cost, the minimum on the genuine opposite optimal face equals the attained maximum of the opposite-sector dual mean minus root contribution with inequalities only on the common bulk zero set of the other true optimal face. The formula applies to actual first and second terminal costs.",
+    "For each disjoint added pair, every Legendre-then-seed full lift is simple with at least three folded base weight-one entries. Each complete other-order lift has at most two. Additivity excludes every cross-order generic arithmetic-label coincidence for this leading block after the separate O_Lambda(n^-1/2) lift and mark repairs.",
+    "The unshifted second higher Jacobi order has six placements, simple residual ranks 18 and 20, and visible exact subtotals 117/16 and 183/64 on K(CW) and K(Y^2). The rank-ten word K(C K(C3Y)) has visible order-beta^2 subtotal 93/32, with earlier coefficient -3 beta/4. Unchecked residual returns can alter total label coefficients."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The ordinary draft repeats the previous quadratic reduction and does not supply a prime-uniform first-moment upper. The finite dual and support formula do not give the original limit.",
+    "The raw translated draft misreads the table and invokes a common twist of the unshifted problem. The corrected disjointness applies to the leading block only.",
+    "The raw unshifted draft repeats the preceding order and confuses repairs with new placements. Whole frozen price, nonlinear confinement and all-prime ordinary theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Three exact rational subtotals and eight integer transport rank cases passed. They are symbolic checks.",
+    "Three matching complete Astra returns and the failed Fable initial call are archived. The retry used the unchanged prompt digest."
+  ],
+  "independent_review": [
+    "Read-only audit verified the reduced dual and physical quantifiers, the leading cross-order separation, all six Taylor placements and the exact repeated rank-ten word coefficient."
+  ]
+}

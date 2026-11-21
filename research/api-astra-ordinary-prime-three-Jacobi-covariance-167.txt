@@ -1,0 +1,148 @@
+## Result
+
+I do not obtain the claimed \(O(p^{3/2})\) covariance. The regular Mellin reduction is correct, but the available character bounds leave a precise \(p^{1/2}\)-gap.
+
+Work along the selected ordinary prime family \(p\to\infty\), with \(Q\subset\mathbb F_p^\times\), the actual physical mark \(v\neq0\), both outer square lifts, the true law \(\omega\), and the cap
+\[
+\kappa=\max \omega=O(p^{-1/2}).
+\]
+All fixed threshold parameters \(a,b>0\), and hence the moderate slope band, are held fixed before taking \(p\to\infty\).
+
+After removing the already charged trivial-root and four degenerate-frequency contributions, write
+\[
+P_{\rm gen}(t)=\frac1{m}\sum_{\psi\in\widehat Q}
+A(\psi)\psi(t),\qquad m=|Q|,
+\]
+where \(A(\psi)\) is the actual expectation over the four \(\omega\)-distributed frequencies, including both outer lifts and the regular three-Jacobi product.
+
+The exact physical multiplier is
+\[
+w(t)=g(t)(1-g(t)),\qquad g(t)=|f(t)|^2.
+\]
+Since \(g\) is the Mellin transform of the actual \(\omega\),
+\[
+w(t)=\sum_{\rho\in\widehat Q}\ell(\rho)\rho(t),
+\qquad
+\ell=\omega-\omega*\omega.
+\]
+Consequently,
+\[
+\sum_{t\in Q}w(t)|P_{\rm gen}(t)|^2
+=
+\frac1m\sum_{\psi,\psi'}
+A(\psi)\overline{A(\psi')}\,
+\ell(\psi'/\psi).
+\]
+This identity uses the actual \(\omega\), not a uniform replacement.
+
+The identity slope is indeed removed physically:
+\[
+w(1)=g(1)(1-g(1))=0,
+\]
+because \(g(1)=1\). However, this does **not** make the diagonal \(\psi=\psi'\) in the Mellin quadratic form vanish. Its coefficient is \(\ell(1)\), and generally
+\[
+\ell(1)=\omega(1)-(\omega*\omega)(1)\neq0.
+\]
+Thus “identity-slope cancellation” cannot by itself be used as diagonal cancellation in frequency space.
+
+## What the regular Jacobi bounds give
+
+On a regular tuple, the outer Jacobi factor is \(O(\sqrt p)\). Each of the two Mellin Jacobi factors in the three-root trace is also \(O(\sqrt p)\), apart from the already removed exceptional frequencies. Therefore
+\[
+|A(\psi)|\ll p^{3/2}
+\]
+uniformly in the regular range. The three-root Weil estimate and the two outer lifts are both included here.
+
+In physical space this gives the pointwise bound
+\[
+|P_{\rm gen}(t)|\ll p.
+\]
+On the moderate band,
+\[
+\sum_{t\in Q}w(t)
+\le \sum_{t\in Q}g(t)
+=\sum_{t\in Q}|f(t)|^2
+\ll n\sum_a\nu(a)^2
+\ll \sqrt p,
+\]
+using the actual cap \(n\max\nu=O(\sqrt p)\). Hence the unconditional regular estimate is
+\[
+\sum_t w(t)|P_{\rm gen}(t)|^2
+\ll p^2.
+\]
+
+The same obstruction appears in Mellin space. Since
+\[
+\sum_\rho|\ell(\rho)|\le 2,
+\]
+a Schur/Cauchy estimate gives only
+\[
+\frac1m\sum_{\psi,\psi'}
+|A(\psi)A(\psi')|\,|\ell(\psi'/\psi)|
+\ll p^3,
+\]
+which is weaker than the physical \(O(p^2)\) estimate. Thus the \(L^1\)-norm of \(\ell\), the cap \(\kappa=O(p^{-1/2})\), and the individual Jacobi bounds do not supply the required extra \(p^{-1/2}\) saving.
+
+The target
+\[
+\sum_t w(t)|P_{\rm gen}(t)|^2\ll p^{3/2}
+\]
+therefore requires a genuinely coupled estimate: either cancellation between different ratios \(\psi'/\psi\), or a two-copy geometric estimate for the three-root phases. No such estimate follows from the currently established regular Jacobi bounds.
+
+## Precise remaining gap
+
+A sufficient new statement would be either
+
+\[
+\frac1m\sum_{\psi,\psi'}
+A(\psi)\overline{A(\psi')}\ell(\psi'/\psi)
+\ll p^{3/2},
+\]
+with the actual signed \(\ell=\omega-\omega*\omega\), or a fixed-moderate-band physical estimate
+\[
+\sum_{t\in D}g(t)(1-g(t))|P_{\rm gen}(t)|^2
+\ll p^{3/2}.
+\]
+
+The present argument proves only \(O(p^2)\) for this regular weighted quantity. Thus the proposal is **inconclusive**, not refuted: there is no exhibited positive obstruction, but the available bounds miss the target by \(p^{1/2}\).
+
+## Ranked next tests
+
+### 1. Analytic priority: two-copy Mellin/phase test
+
+Expand the covariance with the actual \(\omega\)-weights and retain the ratio variable
+\[
+\rho=\psi'/\psi.
+\]
+Separate:
+
+- \(\rho=1\);
+- the four previously exceptional frequencies in either copy;
+- the genuinely regular \(\rho\neq1\) terms.
+
+The first test should be whether the regular \(\rho\neq1\) contribution admits a nontrivial complete-sum estimate after combining the two three-root traces. A successful bound of the form
+\[
+\sum_{\rho\neq1}|\ell(\rho)|
+\left|
+\frac1m\sum_\psi
+A(\psi)\overline{A(\rho\psi)}
+\right|
+\ll p^{3/2}
+\]
+would settle the required covariance. The key point is to keep the actual \(\omega\)-weights and both square lifts throughout; replacing them by \(\kappa\) or by independent Haar weights would test the wrong problem.
+
+### 2. Diagnostic priority: finite-prime decomposition of the Schur source
+
+For primes in the selected ordinary family, compute the normalized quantities
+\[
+\frac{1}{p^{3/2}}
+\sum_t g(t)(1-g(t))|P_{\rm gen}(t)|^2
+\]
+and decompose them into:
+
+1. \(\rho=1\) versus \(\rho\neq1\);
+2. diagonal versus off-diagonal \((\psi,\psi')\);
+3. each of the four degenerate Mellin frequencies;
+4. the two outer square lifts.
+
+This does not prove the asymptotic statement, but it distinguishes whether the missing \(p^{-1/2}\) gain must come from the low Schur source \(\rho\approx1\), from cross-ratio phase cancellation, or from cancellation between the two outer lifts. A persistent \(p^2\)-scale component in the regular \(\rho\neq1\) block would be a precise obstruction to the current covariance strategy.

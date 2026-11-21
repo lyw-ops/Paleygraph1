@@ -1,0 +1,48 @@
+{
+  "round": 133,
+  "dispatch_status": "running; both launches observed, HTTP responses pending",
+  "accepted_checkpoint": {
+    "path": "research/round-132-acceptance.json",
+    "sha256": "aafd8c3b41e8d52f65f2421794ba77d71bc7c77a91c7a78bb7e12564c9015250"
+  },
+  "coordinator": {
+    "path": "coordination/round-132.json",
+    "sha256": "24d3b2925160f19757ca841fcf4fd7f455f45df26bfc9ffee86228cde22aaa88"
+  },
+  "validation_snapshot": {
+    "path": "/tmp/paley-archive-hydration-01a1ed0a/snapshot-manifest-132.json",
+    "sha256": "6ec238265494ec99723b24d4cce9f6f5407d27fdf8b7387f2ea32c6e83ab3922"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-133-before.json",
+    "sha256": "c73f52916ee115fb336652853998eb787678b571c4ca23b8cca6302a4e052148"
+  },
+  "local_session_id": 39393,
+  "lanes": [
+    {
+      "call_id": "zero-floor-signed-endpoint-upper",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "998deabbc4ff99a782f0dc40b15d75afed3da76c59fe544f1d19bed978fcb21a",
+      "started_utc_epoch": 1795109419,
+      "mission_file": {
+        "path": "/tmp/paley-r133-overflow-mission-01a1ed0a.md",
+        "sha256": "9af5acaadba2404a61738e1f2ff4a147cf2a833a087ee2abef889bc5c0355aba"
+      },
+      "pending_receipt": "/tmp/paley-r133-api-01a1ed0a/overflow-receipt.json",
+      "pending_candidate": "/tmp/paley-r133-api-01a1ed0a/overflow-candidate.md"
+    },
+    {
+      "call_id": "cold-action-on-actual-residual",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "b1297a91837f3eb4a869ece27f9de4a76e1cf3f91e920fc36a1d893b32e34799",
+      "started_utc_epoch": 1795109419,
+      "mission_file": {
+        "path": "/tmp/paley-r133-cold-mission-01a1ed0a.md",
+        "sha256": "fe7dc6117b3917c4ce331cb5a70de26562b78b0a121aa92f8fd0e21ca0e3e2de"
+      },
+      "pending_receipt": "/tmp/paley-r133-api-01a1ed0a/cold-receipt.json",
+      "pending_candidate": "/tmp/paley-r133-api-01a1ed0a/cold-candidate.md"
+    }
+  ],
+  "next_step": "Check the actual signed real and cold estimates, and compare the launched obligations with the preserved pre-dispatch snapshot."
+}

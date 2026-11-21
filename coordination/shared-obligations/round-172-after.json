@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_172",
+  "comparison": "The full diagonal enters the original weighted majorant with one true slope. The twisted one-match call has a two-variable norm and different target normalization. They share affine geometry but prove different gains; the cold task is independent of both.",
+  "groups": [],
+  "dispatch": "coordination/round-172-inflight.json",
+  "launched_at_utc": "2026-11-20T01:02:38.053750Z",
+  "launched_calls": [
+    "ordinary-prime-weighted-affine-action",
+    "ordinary-prime-full-slope-diagonal",
+    "cold-prime-shared-two-remainder-response"
+  ],
+  "before_sha256": "017bfb109a5b9bc8c397e1c1eb4d6c7fdf49985541a814c9d652a308d7b98086"
+}

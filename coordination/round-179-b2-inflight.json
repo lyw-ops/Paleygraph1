@@ -1,0 +1,42 @@
+{
+  "round": 179,
+  "dispatch_status": "Native agent IDs observed after successful dispatch",
+  "accepted_checkpoint": {
+    "path": "research/round-178-acceptance.json",
+    "sha256": "10dceeac23ed58c55637d159d8804d83e445c239ccc84608195160ae3e0d394e"
+  },
+  "coordinator": {
+    "path": "coordination/round-178.json",
+    "sha256": "f61e68bd995356a12b84144bca3278c84227647d063fe4db57e74a6c396bc3b3"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-179-b2-before.json",
+    "sha256": "9b3acc2333e62ba7e605d215bb81012284de348a31e3f7e8a9f0985872edfb41"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-inverted-coupled-distinct-b",
+      "agent_id": "/root/distinct_179",
+      "model": "gpt-6.2-astra",
+      "reasoning_effort": "high",
+      "mission_file": {
+        "path": "coordination/missions/round-179-b2/ordinary-prime-inverted-coupled-distinct-b.md",
+        "sha256": "9c1ba020725b8ff91bfb99052881240886a781b487dc97541670ed43234b425a"
+      },
+      "started_utc_epoch": 1795141899.056373,
+      "timestamp_role": "post-launch observation"
+    },
+    {
+      "call_id": "cold-prime-directional-source-bridge",
+      "agent_id": "/root/cold_179",
+      "model": "gpt-6.2-astra",
+      "reasoning_effort": "high",
+      "mission_file": {
+        "path": "coordination/missions/round-179-b2/cold-prime-directional-source-bridge.md",
+        "sha256": "6a437c35a045a4db122b031e3eaaee54e4bbdac02d5fd1440e5a9929f75d5541"
+      },
+      "started_utc_epoch": 1795141899.056373,
+      "timestamp_role": "post-launch observation"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "round": 133,
+  "accepted_at_utc": "2026-11-19T17:42:42Z",
+  "previous": "research/round-132-acceptance.json",
+  "previous_sha256": "aafd8c3b41e8d52f65f2421794ba77d71bc7c77a91c7a78bb7e12564c9015250",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-132.json",
+    "sha256": "24d3b2925160f19757ca841fcf4fd7f455f45df26bfc9ffee86228cde22aaa88"
+  },
+  "proof_and_code_sha256": {
+    "research/zero-floor-sector-133.md": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8",
+    "research/cold-seed-packet-133.md": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939",
+    "research/cold-seed-packet-133-check.py": "d81695136c1926b513fea29ef52e4b98a4f245634a9ec212ab53601eafa0cd95",
+    "research/cold-seed-packet-133-checks.jsonl": "5d7f90e2c2e5168f619caeaa5f0817d3a972908d7069fb2c59994f7d7884a43b",
+    "research/api-astra-review-133.md": "4884c4edc92a8273caf2144e13bedba4efd77d32b8335e4e0c12ba7f02265542",
+    "research/api-astra-133-receipt.json": "ef8cfc70ebbfd3dd00113f8f374847cf6f8b52083e86bc3e45a18d315f6bd5bf",
+    "research/api-astra-overflow-133.txt": "c0d7c462973ef19b5171419d9bad16ffc421016aa49604d24cb4f3f9d443ae3a",
+    "research/api-astra-cold-133.txt": "eef7520c53176253401160bb23d3a89d50783ceb763302cb9a00787b3647736c",
+    "coordination/round-133-inflight.json": "452c0ea430d08031eaf0d1e9c4f00c0044e40d0396c175131bede5ab58dd770d",
+    "coordination/shared-obligations/round-133-before.json": "c73f52916ee115fb336652853998eb787678b571c4ca23b8cca6302a4e052148",
+    "coordination/shared-obligations/round-133-after.json": "8fadec99667666300d96275e365748fe5108fb28c19fb723c3c3b1002a5308d4"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/zero-floor-ordinary-mixed-cap.md": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb",
+    "research/zero-floor-mean-131.md": "4abe4c232ff3219cc99c073d9c605941a5e1519b5a53d41012ac212f7d0faa86",
+    "research/zero-floor-mark-and-cap-budget.md": "5ebb278850ec12894a5514dd4d57db63f0306946a2ad4c29da7f10577e90d9a8",
+    "research/zero-floor-endpoint-132.md": "87c9411595262ab7b92882c5c544aae12c2635dd93a5fbd5613ce8fe0c451d54",
+    "research/zero-floor-averaged-weighted-tail.md": "1407244035071fb85e9b16a902e969e45a444cb546f456bc55f1014db002b0a1",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2",
+    "research/cold-positive-block-131-checks.jsonl": "cbbfcb9854e54711299ec6db9076227c95d6ad564baccee27e9d8371b10f7465",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/cold-seed-block-132.md": "3eb541a4daf53ad81446b0a32f0ee691ad6bf7a6ac35c10dbb4aeb4a8e9da6c8",
+    "research/cold-scalar-split-132.md": "2d5cbbeb8755d9117a6e984af0064cad1da056ebad7b6790c346f2eed4da0063",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/cold-actual-quadratic-128.md": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52",
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c"
+  },
+  "additional_replay_dependency_sha256": {},
+  "core_records": 2,
+  "arithmetic_record_counts": {
+    "translated_seed_packet": 1,
+    "full_square_counting_rates": 1
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra real signed endpoint upper",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Estimate true optimizer normalized second-norm ratio",
+        "Seek strong prime cap-defect decay"
+      ]
+    },
+    {
+      "name": "Gateway Astra cold actual action",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test source-summed seed character",
+        "Test signed bilinear trace with translated boundary pair"
+      ]
+    },
+    {
+      "name": "/root/audit_133",
+      "status": "completed",
+      "ranked_closeout": [
+        "Actual antisymmetric theta-only correlation",
+        "Balanced joint estimate for true unweighted defect",
+        "Nonlinear full-block physical packet price"
+      ]
+    },
+    {
+      "name": "/root/cold_replay_133",
+      "status": "completed",
+      "ranked_closeout": [
+        "Price jointly collected mixed and remainder terms on coherent physical input packets and certify tail"
+      ]
+    },
+    {
+      "name": "/root/surrogate_audit_133",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use complementary ordinary supports to bound the actual b-weighted signed seed"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Attack direct prime-uniform cancellation of the signed Jacobi seed against the actual cap-inactive activation weight, using complementary ordinary support and positivity. The antisymmetric identity removes the unweighted cap prerequisite.",
+    "On the cold side use the strict physical seed rate and price the other signed terms jointly on the genuine residual or a coherent translated packet, with whole-square marked cost.",
+    "Retain the equal-sign signed criterion only when joint unweighted cap-defect vanishing is also useful."
+  ],
+  "proof_scope": [
+    "The two true zero-floor sector contributions obey an exact full-field identity. Their difference at genuine averaged horizons equals the ordinary marked ratio times four, up to a uniform O_M(1/J) terminal charge and prime-vanishing fixed-horizon error. At any fixed cap this prime-first absolute test is equivalent to the ordinary theta limit without requiring cap-defect vanishing.",
+    "The equal-sign average controls both the actual fixed-cap deficit and the square of the ordinary marked ratio, with a nonnegative squared gap in its asymptotic exact formula. The corresponding averaged test is equivalent to the two conclusions jointly.",
+    "Paired replacement of the actual real capped activations by bounded even-polynomial approximants and of the trial rows by their compatible averaging recurrence changes the signed two-term test by O(accuracy)+O_M(1/J)+o_{M,J,p}(1), uniformly in the optimizer. The separate weighted terms need not admit this estimate; the paired approximation supplies no arithmetic cancellation on its own.",
+    "On the whole original cold square the actual marked seed step has translated physical packet rate below 0.535 for all sufficiently large eligible primes, with both boundary pairs restored. Its exact seed-seed block has rate below 0.287 in that price.",
+    "The certified seed-centered disks give height-602 derivative counting rate below 0.516074 on the whole square. The genuine frozen height-601/602 block has counting rate below 0.26553. The actual two-step residual from R600 to R602 has rate below 0.2658 using its true secants; the signed position entry bound of the full block also holds for this actual secant pair.",
+    "For residuals in the verified prefix, the actual orthogonal Jacobi seed projection is O(n^-1/2) times the preceding normalized residual, by the exact activation mean and mark identity."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The real raw draft supplied a rate weaker than the known fixed-cap sufficient bound. Neither its ordinary second-norm hypothesis nor enough actual weighted seed cancellation is proved. The paired polynomial control is an approximation tool, and even a seed-only surrogate gives the same limiting scalar.",
+    "The cold raw sheet bound cited only the real center; its position projection and use of a position character as a general physical packet are invalid. The new seed estimate applies to one contribution, not to the full signed packet product.",
+    "The actual ordinary arithmetic upper, full signed cold packet remainder, moving starter and original theta limit are open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "The two saved records of the exact Fraction checker reproduce byte for byte. The checker reads the existing rational price list in the Round 130 source as a literal, and checks the seed Schur ratios and disk comparisons without interval or floating arithmetic."
+  ],
+  "independent_review": [
+    "Astra independently checked the exact real sector normalization, terminal charges, antisymmetric theta-only criterion and balanced reserve. Separate review checked the rank-independent paired approximation and its seed-only control.",
+    "An independent Astra replay matched both cold records, verified two-boundary seed pricing and the bounded marked correction, and checked the true secant indices and uniform seed-centered derivative estimates."
+  ]
+}

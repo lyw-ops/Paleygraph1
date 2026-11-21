@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex research coordinator and /root/audit_150",
+  "comparison": "Later relaxed phase and initial spill dyadic receivers use distinct actual sources, so the shared original goal does not imply an exact overlap. The Fable cold unit response is independent and truncated. Local signed computation treats all omitted arities beyond its proposed unit scope.",
+  "groups": [],
+  "dispatch": "coordination/round-150-inflight.json",
+  "launched_at_utc": "2026-11-19T21:06:07.789227Z",
+  "launched_calls": [
+    "ordinary-prime-selected-defect-phase",
+    "ordinary-prime-first-spill-dyadic",
+    "cold-signed-legendre-unit"
+  ],
+  "before_sha256": "c633596dbadbe9e57743966070927b846d18a023394cb7adbb67c9e45694bdc4"
+}

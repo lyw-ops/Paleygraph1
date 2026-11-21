@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "round": 108,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 108 review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-107-acceptance.json",
+      "sha256": "ac8e6233eb07dbe04d2cb344758579efce275a8724db2e1fbadea94d02c215a6"
+    },
+    "current": {
+      "path": "research/round-108-acceptance.json",
+      "sha256": "6411446e960c146aa32657efb93f64a294045aa82074665e1be12c45b733ac2f"
+    }
+  },
+  "changes": [
+    {
+      "id": "slack-adjusted-completion",
+      "route": "Capped opposite-factor ordinary Fourier completion",
+      "effect": "weakened",
+      "before": "A global matching Jacobi maximum on actual overflow sufficed at fixed real floors.",
+      "after": "An exact feasible row pays only the excess above coordinate slack. Fixed M=10 pays the normalized marked loss from cap headroom.",
+      "remaining": "Prove a through-primes adjusted overshoot upper on genuine capped rows at floors tending to zero.",
+      "evidence": [
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "actual-projected-repair",
+      "route": "Iterative positivity completion and critical cap rate",
+      "effect": "reformulated",
+      "before": "The previous constrained repair lower bound required genuine weighted redistribution but supplied no positive construction.",
+      "after": "Alternating exact projection converges to a feasible row at finite field. Actual width or a signed gap and small initial negative norm suffices for mean-small marks.",
+      "remaining": "Seek a genuine prime-specific control on width or near-edge persistence, or the sufficient small cap constant.",
+      "evidence": [
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "complex-resource-carry",
+      "route": "Genuine translated complex starter and angular gap",
+      "effect": "unchanged",
+      "before": "Actual residual and translated packets and signed difference resources must coincide at a growing starting height.",
+      "after": "This round proves real positivity constructions only.",
+      "remaining": "The common cold complex domain and original ordinary asymptotic conclusion remain open.",
+      "evidence": [
+        {
+          "path": "research/api-astra-review-106.md",
+          "sha256": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Verified real completions now reduce the obstruction to actual slack-adjusted transport or the actual projected negative sequence. The prior gateway request ended on local timeout and has no reusable candidate.",
+  "next_calls": [
+    {
+      "id": "persistent-repair-near-edge",
+      "priority": 1,
+      "change_id": "actual-projected-repair",
+      "question": "Can arithmetic and the true consecutive projection equations exclude a persistent near-edge window of the actual negative repair rows?",
+      "why_now": "At the critical cap rate, small cumulative mean and a persistent true mark keep negative mass alive. Projection gives near-edge behavior; an explicit local draft develops this at the sqrt(n) scale.",
+      "scope": "Use genuine alternating cone/sector projections of the real capped factor, t fixed before the prime limit. Check the provisional persistence calculation, identify what uses the actual recurrent trajectory, and distinguish weighted arbitrary rows and known near-minimal-support bounds.",
+      "if_yes": "Give the exact fixed-floor or ordinary-asymptotic consequence with any remaining cap-rate condition.",
+      "if_no": "Identify the failing consequence or a rigorous representative obstruction with assumptions.",
+      "if_inconclusive": "Derive one new quantitative arithmetic or consecutive-row constraint beyond a single prescribed Rayleigh test.",
+      "inputs": [
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        }
+      ]
+    },
+    {
+      "id": "explicit-cap-constant",
+      "priority": 2,
+      "change_id": "actual-projected-repair",
+      "question": "Can a genuine capped estimate make the critical cap coefficient small enough to start the width induction?",
+      "why_now": "An explicit small constant suffices for the iterative repair, even without a vanishing coefficient.",
+      "scope": "Use sharply normalized cap rates, real floor and actual capped iterate. Preserve required order of field and floor limits.",
+      "if_yes": "Derive the real fixed-floor upper with exact conditions.",
+      "if_no": "Give the failed gain mechanism or true critical cap-rate obstruction.",
+      "if_inconclusive": "Produce a quantitative bound on inner-cap mass or smaller-cap overflow.",
+      "inputs": [
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        }
+      ]
+    },
+    {
+      "id": "adjusted-low-slack-transport",
+      "priority": 3,
+      "change_id": "slack-adjusted-completion",
+      "question": "Can the projected opposite factor have vanishing adjusted overshoot on its actual low-slack vertices?",
+      "why_now": "Only the excess above actual coordinate slack is charged at the fixed cap; the normalized mark has already been paid.",
+      "scope": "Use z+ and its true negative part and keep M=10 fixed with t\u2208(0,1] before p. Do not re-run the previous unanswered identical request.",
+      "if_yes": "State the precise real-floor LP upper and remaining sign/floor range.",
+      "if_no": "Give a genuine lower bound at an actual row or identify an exact mechanism that fails.",
+      "if_inconclusive": "Prove an actual low-slack restriction that narrows the required through-primes estimate.",
+      "inputs": [
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "actual-projected-repair",
+      "question": "Which Round 109 deductions hold at their exact arithmetic and real-floor scopes?",
+      "why_now": "Independent read-only verification precedes acceptance.",
+      "scope": "Check actual versus prescribed inputs, counting/normalized exponents, fixed-floor order, and the distinction between necessary and sufficient. Return one or two prioritized tests.",
+      "if_yes": "Record the exact verified statement.",
+      "if_no": "Find the first unsupported step.",
+      "if_inconclusive": "Record checked scope.",
+      "inputs": [
+        {
+          "path": "research/iterated-sector-projection-108.md",
+          "sha256": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e"
+        },
+        {
+          "path": "research/projected-cap-completion-108.md",
+          "sha256": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    }
+  ]
+}

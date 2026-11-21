@@ -1,0 +1,133 @@
+## New quantitative bridge: the frozen marked row needs a stronger residual than Newton existence
+
+Let \(V=V_a\) be a physical Picard predictor on the square \(Q\), with
+\[
+R=K\Phi_t(V)-V,\qquad r=\|R\|_{2,n},
+\]
+and let \(A=I-KD\), \(Z=A^{-1}K\). Assume
+\[
+\|A^{-1}\|_{2\to2}\le a,\qquad \max_{i,j}|Z_{ij}|\le b n^{-\beta},
+\quad 0<\beta\le \tfrac12.
+\]
+
+The translated-Newton argument requires only
+\[
+n^{(1-\beta)/2}r\longrightarrow0. \tag{N}
+\]
+This makes the nonlinear stationary correction small because its coordinate bound is quadratic:
+\[
+\|Y-V-H\|_\infty
+\le 2bCa^2 n^{1-\beta}r^2=o(1).
+\]
+
+However, the exact frozen-mark identity contains a *linear* transported residual:
+\[
+(1-\eta)P
+ = Zb-\frac{2V-S}{2t\sqrt t}
+ -\frac{A^{-1}R}{t\sqrt t}, \tag{1}
+\]
+where \(P=fZe_0\), \(S\) is the Jacobi seed, \(t\) is the fixed physical coordinate near \(2031/128\), and \(|\eta|=O(n^{-1/2})\) on the stated seed disks.
+
+Thus a prime-uniform bound on the marked susceptibility requires, in addition to a bound on \(Zb\),
+\[
+\|A^{-1}R\|_\infty=o(1). \tag{M}
+\]
+The available operator estimate gives only
+\[
+\|A^{-1}R\|_\infty
+\le \|A^{-1}R\|_2
+\le a\sqrt n\,r. \tag{2}
+\]
+Using the translated entry estimate gives
+\[
+\|A^{-1}R\|_\infty
+\le b n^{-\beta}\|R\|_1
+\le b n^{1-\beta}r. \tag{3}
+\]
+Consequently, a sufficient residual condition for the frozen marked gap is
+\[
+r=o(n^{-(1-\beta)}), \tag{M'}
+\]
+which is strictly stronger than (N). At the best translated exponent \(\beta=\tfrac12\),
+\[
+\text{Newton existence: }r=o(n^{-1/4}),\qquad
+\text{frozen-mark control via (3): }r=o(n^{-1/2}).
+\]
+
+This is a precise failure of the proposed residual bridge: the normalized quadratic residual scale does **not** by itself control the marked scalar continuation at the same predictor. It does not imply a branch singularity; it only shows that the existing certificate has an unclosed linear term.
+
+### Conditional marked-gap statement
+
+Suppose, uniformly on \(Q\),
+
+1. \(\|Zb\|_\infty\le B\);
+2. \(\|A^{-1}R\|_\infty\le \varepsilon_n\to0\);
+3. \(\|V\|_\infty,\|S\|_\infty=O(1)\);
+4. the Newton hypotheses hold, including \(n^{(1-\beta)/2}r\to0\);
+5. the nominal corrected marked derivative has margin
+   \[
+   h\left\|\frac{P}{\sqrt t}\right\|_\infty
+   \le \frac{2\cdot10^{-4}}{\sqrt3}-\delta
+   \]
+   for some fixed \(\delta>0\).
+
+Then (1) yields
+\[
+\|P\|_\infty
+\le \frac{B+O(n^{-3/2})+O(\varepsilon_n)}{1-|\eta|}
+= B+o(1),
+\]
+and the Newton stationary correction is \(o(1)\) in coordinate norm. Therefore the frozen marked gap transfers to the stationary branch, provided the usual physical midpoint-secant uniqueness assumptions hold. The prime arithmetic task is consequently not merely to prove (N), but to prove either (M) directly or a cancellation improving (2)–(3).
+
+## Finite-to-asymptotic bookkeeping
+
+Let \(a_0\) be a fixed physical depth and suppose the genuine Picard increments satisfy
+\[
+\|V_{j+1}-V_j\|_{2,n}\le C_R q_R^{\,j-a_0},\qquad q_R<1,
+\]
+for all \(j\ge a_0\). Then at
+\[
+a(n)=a_0+
+\left(\frac{1-\beta}{2|\log q_R|}+\epsilon\right)\log n
+\]
+one obtains (N). But this says nothing about (M) unless one also proves a transported-residual estimate. If the only available estimate is (3), the required depth is instead
+\[
+a(n)\ge a_0+
+\left(\frac{1-\beta}{|\log q_R|}+\epsilon\right)\log n.
+\]
+Hence the marked continuation may require approximately twice the physical Picard depth demanded by stationary existence.
+
+This depth \(a(n)\) is independent of the inverse-column truncation length. A column representation with
+\[
+h(n)=\frac{\omega}{2\log(\rho/q)}\log n+O(1)
+\]
+controls the translated inverse only if its packet, boundary-fiber, and tail hypotheses hold through \(h(n)\). There is no valid identification \(h=a\).
+
+## First open hypothesis
+
+The first genuinely missing hypothesis is therefore:
+
+\[
+\boxed{\quad
+\sup_Q\|A_a^{-1}R_a\|_\infty=o(1)
+\quad\text{at a moving physical depth }a=a(n),
+\quad} \tag{H\(_{\rm mark}\)}
+\]
+
+simultaneously with the translated-column resources and the residual condition (N). A signed estimate for \(A_a^{-1}R_a\), or cancellation between this term and \(Zb\), would remove the apparent extra \(n^{(1-\beta)/2}\) loss.
+
+This is prime-specific: general contraction supplies \(r_a\), but not the coordinate cancellation or negative-Mellin structure needed for \(A_a^{-1}R_a\).
+
+## Ranked next tests
+
+1. **Direct transported-residual test.** At growing physical depths compute or bound
+   \[
+   G_a=A_a^{-1}R_a
+   \]
+   in coordinate norm, not only \(\|R_a\|_{2,n}\). Test whether \(\|G_a\|_\infty\) decays at least \(o(1)\), and whether its marked coordinate cancels against \(Zb\).
+
+2. **Combined signed-source test.** Apply the seed-subtracted identity to the full source
+   \[
+   Zb-\frac{A^{-1}R}{t\sqrt t}
+   \]
+   and seek a three-field/parity estimate at the same column cutoff used for \(Zb\). A successful \(O(1)\) bound with \(o(1)\) residual would establish the frozen mark gap without demanding \(r=o(n^{-(1-\beta)})\).

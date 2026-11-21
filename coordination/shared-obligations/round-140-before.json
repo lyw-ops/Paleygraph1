@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T19:12:04.253139Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-139.json#next_calls",
+  "coordinator_sha256": "59303d319b075710e22d7d1f4d3f5e0d53e942b2379d8aca908a1fd73df220a7",
+  "call_ids": [
+    "cold-inverse-line-packet-price",
+    "cold-weighted-off-inverse-pairing",
+    "ordinary-averaged-completion-overlap"
+  ],
+  "routes": {
+    "r140/cold-inverse-line-packet-price": {
+      "question": "Can the exact inverse-line multiplier be cheaply represented on the true translated packet class?",
+      "scope": "Actual same-row h=601 and pure-seed derivative, original closed square, marked floor t0=n, physical P5000, input translated boundary pair. Determine all actual tame local inertia, including x=-1, of the positional line trace and the coefficient of any punctual repair.",
+      "remaining": "Ground the actual weighted paired transport and inverse line in the translated packet price. Check both half-steps and the uniform genuine invariant ball independently of fixed-height evidence."
+    },
+    "r140/cold-weighted-off-inverse-pairing": {
+      "question": "Can the two signed rational pullbacks price the off-inverse part of the actual same-row transport with a strict margin?",
+      "scope": "Use actual h=601 same-row derivative and pure seed, original square and the actual marked floor and trace lifts. Determine off-inverse price independently of the inverse line, and state the slack remaining under square 0.703184 or anticommutator 0.268468.",
+      "remaining": "Ground the actual weighted paired transport and inverse line in the translated packet price. Check both half-steps and the uniform genuine invariant ball independently of fixed-height evidence."
+    },
+    "r140/ordinary-averaged-completion-overlap": {
+      "question": "Can the signed endpoint defect of the true projected Picard average be repaired within an already proved growing prime marked window?",
+      "scope": "At every fixed sufficiently small positive tau, work with actual zero-start averaged rows for primes p=1 mod4 and floor tau/n. Use T(p) tending to infinity inside the proved simultaneous marked window. Keep sector, raw marks up to o(1), and additional mean o(n^-1/2). Then tau tends to zero. Squares are controls only.",
+      "remaining": "At fixed small positive floor, find an explicit sector-preserving worst-site completion with raw marks preserved up to o(1) and additional mean o(n^-1/2) within the actual marked arithmetic window. Do not pass from a fixed-depth completion to an uncontrolled diagonal or use the long polynomial horizon alone."
+    }
+  },
+  "candidate_ids_by_call": {
+    "cold-inverse-line-packet-price": [],
+    "cold-weighted-off-inverse-pairing": [],
+    "ordinary-averaged-completion-overlap": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The two cold calls deliberately split different physical pieces: the inverse-line position multiplier and the actual signed weighted off-line transport. Neither component estimate follows from the other and no exact arithmetic estimate is being requested in duplicate. The true averaged positivity/marked-depth task is independent. All earlier selected R139 calls completed before this batch."
+}

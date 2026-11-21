@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T20:32:50.161877Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-146.json#next_calls",
+  "coordinator_sha256": "3b0f4babcd472e7e6f6ecbc4054764dd251b7c821e45d250e71538d3c6a2e204",
+  "call_ids": [
+    "ordinary-prime-complementary-mask-energy",
+    "ordinary-zero-set-deletion-sign",
+    "cold-signed-first-omitted-center"
+  ],
+  "routes": {
+    "r147/ordinary-prime-complementary-mask-energy": {
+      "question": "Can prime arithmetic preclude order-T distinct-shift energy on the actual complementary terminal mask?",
+      "scope": "Use ordinary primes p=1 mod 4, the actual s-side optimum F and true opposite optimum R, fixed tau and the actual terminal source at selectable growing T with T+1 in the simultaneous marked window. Retain epsilon=o(delta), delta to zero and L=o(T). Allow sparse cap cases with the diagonal retained.",
+      "remaining": "Prove a prime-uniform bound on the shifted collision or true terminal charge on the actual mask, or control the separate deleted-tail signed integral on the genuine opposite zero set."
+    },
+    "r147/ordinary-zero-set-deletion-sign": {
+      "question": "Does the exact true opposite bulk zero set force a favorable one-sided deleted-tail pairing on ordinary primes?",
+      "scope": "Use unshifted optimal F and true opposite R, exact Xi from the original marked orbit, and L=o(T) with selectable growing T. Fix the floor first, take the prime limit next, and permit larger sign selected at each prime. Preserve ordinary primes and keep squares as controls.",
+      "remaining": "Prove a prime-uniform bound on the shifted collision or true terminal charge on the actual mask, or control the separate deleted-tail signed integral on the genuine opposite zero set."
+    },
+    "r147/cold-signed-first-omitted-center": {
+      "question": "Can the actual omitted first-order center derivative be priced below its true 0.224 slack?",
+      "scope": "Use h=601 and 602, C_h=V_h-S, and fixed actual alpha and Y from the nine-center predictor on the whole original marked square t0=n. Compare K d_prime(S)(C_h-alpha Y) in the two-pair P5000 class. Keep actual signed coefficients and both lifts. Alternatively bound the full same-row square difference from B squared below 0.580184.",
+      "remaining": "Prove the genuine signed omitted first-order budget 0.224 beyond the existing higher-order 0.142 bound, or the actual same-row difference below 0.580184. Keep the nonlinear invariant and marked half step separate."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-complementary-mask-energy": [],
+    "ordinary-zero-set-deletion-sign": [],
+    "cold-signed-first-omitted-center": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The two ordinary calls test distinct sufficient estimates. One concerns masked shifted-tail energy under near-cap translation and a true opposite optimum. The other is a signed unshifted clipping pairing on the exact opposite zero set. The cold signed omitted-center operator is independent."
+}

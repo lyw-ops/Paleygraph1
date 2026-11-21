@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T22:16:28.152813Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-154.json#next_calls",
+  "coordinator_sha256": "7bbd4b53d24b3a647d4ffbedd181f615580174838b56a3e0fb2bfe32034eb699",
+  "call_ids": [
+    "ordinary-prime-favorable-crossratio",
+    "cold-actual-opposing-residual-signature",
+    "ordinary-prime-original-face-dual"
+  ],
+  "routes": {
+    "r155/ordinary-prime-favorable-crossratio": {
+      "question": "Can the favorable-sign off-diagonal of the actual weighted Möbius cross-ratio moment be bounded above by O(p)?",
+      "scope": "Use true ordinary primes, actual retargeted b with m_eff~n/sqrt(p), true anchor law, quantitative pin and actual f including its phase. Retain the same u,x,y summation and favorable sign. Track any restriction or excluded tuples at the O(p) scale.",
+      "remaining": "Prove the signed favorable off-diagonal upper O(p) under the same true weights. Separately the original high first-spill optimum lacks a prime upper."
+    },
+    "r155/cold-actual-opposing-residual-signature": {
+      "question": "Does a genuine higher fixed-center harmonic or true Picard coefficient oppose a checked omitted packet on the real cold slice?",
+      "scope": "Keep actual heights 601 and 602 with common floor and physical t0=n, both lifts, full signed arithmetic label and true coefficient, not its positive envelope. Begin with C1 and state whether a translated bound is proved.",
+      "remaining": "Find an opposing actual center or residual with a complete common label, price the entire translated signed difference, then prove the contraction, invariant ball and half-step transfer."
+    },
+    "r155/ordinary-prime-original-face-dual": {
+      "question": "Can one bound a nontrivial component of the original first-spill secondary dual using ordinary prime structure of the actual common zero set?",
+      "scope": "Preserve original signed middle source, opposite optimum sign, roots and diagonal deleted, full high receiver and actual common complementary zero set at an admissible growing marked T.",
+      "remaining": "Prove the signed favorable off-diagonal upper O(p) under the same true weights. Separately the original high first-spill optimum lacks a prime upper."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-favorable-crossratio": [],
+    "cold-actual-opposing-residual-signature": [],
+    "ordinary-prime-original-face-dual": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The favorable cross-ratio assignment uses the actual late near-critical block and asks for a signed positive-branch upper. The first-spill assignment uses an earlier optimized face and its own secondary dual. The cold assignment studies actual algebraic signatures in the signed omitted derivative. No two calls share the same obligation."
+}

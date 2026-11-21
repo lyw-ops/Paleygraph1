@@ -1,0 +1,126 @@
+## Report
+
+### Checked conclusion
+
+I cannot certify the proposed \(p^{-1/2}\) phase-average upper from the supplied record. The current material establishes only a conditional reduction, not the required prime-family estimate.
+
+The relevant asymptotic remains:
+
+- \(p\to\infty\) through ordinary primes, with \(n=(p-1)/2\);
+- fixed floor \(\tau>0\);
+- an admissible marked time \(T=T(p)\to\infty\), with \(T+1\) in the simultaneous marked window;
+- the physical root and both physical roots in the two-coordinate first-spill formulation deleted, as well as the diagonal;
+- normalized expectations \(\mathbb E=n^{-1}\sum_{i\in Q}\);
+- a selected **true** optimizer \(F\in U_{-\sigma}\), not an arbitrary point of the relaxed cone and not a supremum over the opposite face;
+- only after the \(p\)-limit is obtained is \(\tau\downarrow0\) taken.
+
+For the first reflected deficit \(d_{\rm mid}\), the actual signed cost is
+\[
+w=-\sigma 1_S K^\circ d_{\rm mid},\qquad
+S=\{i\in I:b_i^{(0)}\ge b_*\}.
+\]
+Under a fixed gap, the cited argument gives, for every true opposite optimum \(F\),
+\[
+\mathbb E(Fw)\ge g-b_*-o(1),
+\]
+with the \(o(1)\) uniform in the true face. The comparison with the positive cost \(w_+\) is also valid:
+\[
+\sup_F\mathbb E\bigl(F(w_+-w)\bigr)
+=O_\tau\!\left(T^{-1/12}+T^{-1/6}
++n^{-1/2}T^{-2/3}\right).
+\]
+Thus it is enough to control one actual face minimum. What is not proved is an upper bound tending to zero for that selected minimum.
+
+### What the ordinary-prime route would need
+
+The Astra review records the strongest currently available arithmetic reduction: after lifting to the full field and separating degeneracies, the relevant weighted quantity is a product of three complete Jacobi sums, with an \(O(p)\) degeneracy contribution. Individual Jacobi bounds give only
+\[
+O(p^{3/2})
+\]
+before phase averaging. The desired conclusion requires an additional cancellation of one square-root factor, schematically
+\[
+\sum_{\text{actual weighted phases}}
+J_1(\cdot)J_2(\cdot)J_3(\cdot)
+=O(p),
+\]
+so that division by the natural \(p^{3/2}\) scale gives
+\[
+O(p^{-1/2}).
+\]
+
+That estimate is not present in the record. In particular:
+
+1. The complete-factorization statement does not identify the exact weighted phase sum, its phase variables, or its coefficients on the true selected face.
+2. The Weil bound controls each complete Jacobi factor but gives no cancellation between their phases.
+3. The filtered-support result applies to exact cone rows and gives directional support exclusion, but it does not give the required \(o(1)\) bound for
+   \[
+   \min_{F\in\mathcal R_{\rm true}}\mathbb E(Fw)
+   \]
+   on the full high receiver.
+4. Replacing the selected true optimizer by an arbitrary dual-feasible point would not settle the question: the mission specifically requires a true optimum in \(U_{-\sigma}\).
+
+Therefore the proposed ordinary-prime high-face selection is presently **inconclusive**, with a precise missing estimate rather than a refutation.
+
+### Hypotheses and evidence retained
+
+The argument is conditional on the established first-spill facts:
+
+- \(d=(u-Z)_+\) with \(u=T^{-1/3}\), \(d_0=0\);
+- \(\mathbb E d=O_\tau(T^{-2/3})\) and \(\|d\|_2^2=O_\tau(T^{-1})\);
+- the first reflected negative set has density \(O_\tau(T^{-1/3})\);
+- the high receiver \(S\) lies in the true common complementary zero set \(I\);
+- both physical roots and the diagonal are excluded;
+- complementarity gives \(F=0\) off \(I\) for every true opposite optimum;
+- the exact face dual reduces the cost to a minimum over the true opposite optimal face, equivalently to a dual maximum with inequalities only on \(I\).
+
+These facts do not imply phase cancellation. The square-family lower bound in the cited hinge argument also shows why a purely norm-based proof cannot work: for eligible squares, the true weighted hinge cost stays bounded below despite \(\mathbb E d\to0\). Hence ordinary-prime arithmetic must enter explicitly.
+
+## Remaining gap
+
+The missing statement should be formulated with the actual face selection and normalization, not as an absolute supremum:
+
+> For ordinary primes \(p\), fixed \(\tau>0\), and an admissible \(T(p)\), construct or select a true \(F_p\in\mathcal R_{\rm true}\subset U_{-\sigma}\) such that
+> \[
+> \mathbb E\!\left[
+> F_p\,(-\sigma 1_S K^\circ d_{\rm mid})
+> \right]=o(1),
+> \]
+> with the limits taken first as \(p\to\infty\), then \(\tau\downarrow0\).
+
+A sufficient arithmetic formulation is a prime-uniform \(O(p)\) bound for the exact weighted three-Jacobi phase sum, including the \(O(p)\) degenerate contribution and all errors induced by the marked-time truncation. No such bound is currently proved.
+
+## Ranked next tests
+
+### 1. Highest priority: write and test the exact weighted three-Jacobi sum
+
+For the actual selected \(F_p\), expand the first-spill pairing on \(S\), lift the restricted Jacobi representation to the full field, and isolate:
+
+- the three complete Jacobi factors;
+- the phase variables over ordinary primes;
+- diagonal and repeated-character degeneracies;
+- the coefficient/weight induced by \(F_p\) and \(d_{\rm mid}\).
+
+Then attempt an exact orthogonality calculation or a multiplicative large-sieve estimate proving
+\[
+|\mathcal S_p|\le C_\tau p+o(p)
+\]
+uniformly for the permitted \(T(p)\). If successful, the normalized phase average is \(O_\tau(p^{-1/2})+o(1)\), which is the required scale.
+
+This test must retain the actual \(F_p\), full high receiver, deleted roots, and deleted diagonal; a bound for an unweighted or relaxed-cone surrogate is insufficient.
+
+### 2. Secondary: support-conditioned face selection using the common zero set
+
+Use the exact face dual on
+\[
+I=\{i\ne0:R_i=0\text{ for every true }R\in\mathcal R_{\rm true}\}.
+\]
+Seek a true-face selection principle that minimizes the phase functional on \(I\), while preserving \(F_0=q\), \(\mathbb EF=1\), and \(F\ge0\). Combine the filtered-support estimate with a prime-specific bound on the remaining directional atoms.
+
+The target is not a global norm cap, but
+\[
+\min_{F\in\mathcal R_{\rm true}}
+\mathbb E(Fw)=o(1)
+\]
+for one admissible \(T(p)\). This route is lower priority because the existing filtered-support estimate only forces mass outside long-order arcs; it does not yet control the full weighted receiver or prove summable errors.
+
+

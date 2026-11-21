@@ -1,0 +1,65 @@
+{
+  "round": 136,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-135-acceptance.json",
+    "sha256": "20d746f31f996ddeab10713ab2e5d62dc835ae7f16e285fdf8af9aa247167650"
+  },
+  "coordinator": {
+    "path": "coordination/round-135.json",
+    "sha256": "96f922b9740fc3db00b65ca0aaba09be007e310dbda36d3b5a57ef2030377cb5"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-136.py",
+    "sha256": "6c1ba9dd24e7cfdcc7fe9a646ed86951b036306738472be89081b1b03d5fff29"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-136-before.json",
+    "sha256": "46dbe4506bf5548b78b94a74131f6a95523b4be92b5fb97bf3e7d5e8996e4b3b"
+  },
+  "lanes": [
+    {
+      "call_id": "cold-linear-relative-resummation",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "624fe2f38ca3f05c7d1efc28b1039df2099238d96687f3fea13b7a426d8fd89a",
+      "mission_file": {
+        "path": "coordination/missions/round-136/cold-linear-relative-resummation.md",
+        "sha256": "1003564447ab5b9cf6171456e9a5ceb55c177206977d51f18b89c144d40e4167"
+      },
+      "shared_candidate_ids": [
+        "cand:cold-pure-seed-remainder-472"
+      ],
+      "pending_receipt": "/private/tmp/paley-r136-api-01a1ed0a/cold-linear-relative-resummation-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r136-api-01a1ed0a/cold-linear-relative-resummation-candidate.md",
+      "started_utc_epoch": 1795112962.748383
+    },
+    {
+      "call_id": "cold-remainder-physical-dual",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "c45c86f2b87c210eb2f3ef0f5f805731d02486cb510165422067f2e330bc3564",
+      "mission_file": {
+        "path": "coordination/missions/round-136/cold-remainder-physical-dual.md",
+        "sha256": "5cdba18811d149c81994d17b1ed79fb4c500e411b955720b77a9516fd4d53394"
+      },
+      "shared_candidate_ids": [
+        "cand:cold-pure-seed-remainder-472"
+      ],
+      "pending_receipt": "/private/tmp/paley-r136-api-01a1ed0a/cold-remainder-physical-dual-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r136-api-01a1ed0a/cold-remainder-physical-dual-candidate.md",
+      "started_utc_epoch": 1795112962.74881
+    },
+    {
+      "call_id": "ordinary-signed-tail-prime",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "7b2f0a49440c1c9990bfa1ec8696e985adc5bf89984d94c6a1e3d728632936fc",
+      "mission_file": {
+        "path": "coordination/missions/round-136/ordinary-signed-tail-prime.md",
+        "sha256": "c2c37b750d9bc3fd5347ce18b3af7f5ec2652e755f95c82f60eabfb10ae507bb"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r136-api-01a1ed0a/ordinary-signed-tail-prime-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r136-api-01a1ed0a/ordinary-signed-tail-prime-candidate.md",
+      "started_utc_epoch": 1795112962.7497401
+    }
+  ]
+}

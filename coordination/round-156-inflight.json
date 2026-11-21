@@ -1,0 +1,61 @@
+{
+  "round": 156,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-155-acceptance.json",
+    "sha256": "372e48d84698311343c9503497291951a926450c6b6b18ed94f8a212b944f037"
+  },
+  "coordinator": {
+    "path": "coordination/round-155.json",
+    "sha256": "53bbac87f98b08e0bd97eefa37d214c8cb0e8aeaee04fd82ed12838da27e1ad2"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-156.py",
+    "sha256": "3b9c9365c506ef68d1cab6ac1cf116dbad0d7682cdc940c62d2d5fb427a4f9f5"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-156-before.json",
+    "sha256": "711cbc4b00a38ee25baaa8c9049e7a20f5e052957cdbb12f0264cf7bcfda6f2f"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-affine-growing-fibers",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "1352e5f199458997a2c208b80c0e58f6b9b3dda0ca0ab1ce9858f761e2b7fbc4",
+      "mission_file": {
+        "path": "coordination/missions/round-156/ordinary-prime-affine-growing-fibers.md",
+        "sha256": "8e56f3ce5632b662e76ea75cff5760fc02a403b1d223a77fe1236424830ca679"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r156-api-01a1ed0a/ordinary-prime-affine-growing-fibers-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r156-api-01a1ed0a/ordinary-prime-affine-growing-fibers-candidate.md",
+      "started_utc_epoch": 1795127008.94862
+    },
+    {
+      "call_id": "cold-moving-output-translation",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "deb73e65313e3b21dee0c99f37270e5c8750a85af682dd169b936f83528be265",
+      "mission_file": {
+        "path": "coordination/missions/round-156/cold-moving-output-translation.md",
+        "sha256": "d5adac7328d0a850c83a5b81ce8dd8b4b42d12648261a80483e79513b23d48d3"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r156-api-01a1ed0a/cold-moving-output-translation-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r156-api-01a1ed0a/cold-moving-output-translation-candidate.md",
+      "started_utc_epoch": 1795127008.949528
+    },
+    {
+      "call_id": "ordinary-prime-quantitative-face-support",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "511bad81ffe9d754156504fb25e0a8d310241cb4b161225a82168188932b73fa",
+      "mission_file": {
+        "path": "coordination/missions/round-156/ordinary-prime-quantitative-face-support.md",
+        "sha256": "b738c7217e87e066b174677a5d75a201f85d86ac7e7c18ff51949986196b2ed7"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r156-api-01a1ed0a/ordinary-prime-quantitative-face-support-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r156-api-01a1ed0a/ordinary-prime-quantitative-face-support-candidate.md",
+      "started_utc_epoch": 1795127008.949026
+    }
+  ]
+}

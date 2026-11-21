@@ -1,0 +1,36 @@
+{
+  "round": 115,
+  "dispatch_status": "terminal; response saved and independently reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-114-acceptance.json",
+    "sha256": "0ed40361aefe129ec7ba1caccddf934d85fbf489316b5835e2d3388ce6f2f2db"
+  },
+  "coordinator": {
+    "path": "coordination/round-114.json",
+    "sha256": "d5ab9a78032041b6a2ddf0bdfdd8655d2bcc6a7abfb92e42ea2bacf295cbf840"
+  },
+  "call_id": "cold-prime-moving-starter",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "e0aa59dbd22d63ed060618cb7a107d462429986b3ec14622ea3a215cb5bedf79",
+  "started_utc_epoch": 1795097247,
+  "local_session_id": 9052,
+  "mission_file": "/tmp/paley-r115-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r115-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r115-api-01a1ed0a/overflow-candidate.md",
+  "local_draft": "research/residual-level-bands-115.md",
+  "next_step": "Use the checked Round 115 coordinator before dispatching new calls.",
+  "audit_agent": "/root/audit_115",
+  "extra_local_draft": "research/cold-newton-mark-transfer-115.md",
+  "response": {
+    "path": "research/api-astra-overflow-115.txt",
+    "sha256": "cc8e96bc07dace29ca3b7541d8e29f4630a654fd528458d498cd3f0eeabc7ef8"
+  },
+  "receipt": {
+    "path": "research/api-astra-115-receipt.json",
+    "sha256": "ef3d79f4d85b33db266636cd2dc671994aa1afdcddb5a814c1616c8ccbf24058"
+  },
+  "acceptance": {
+    "path": "research/round-115-acceptance.json",
+    "sha256": "de5bd10808c168cc4556b6b79dd45336ada131821bfa81b4115e32e5d72935f2"
+  }
+}

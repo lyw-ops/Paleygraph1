@@ -1,0 +1,145 @@
+## Result
+
+For the actual family
+\[
+p\equiv1\pmod 4,\qquad G=\mathbb F_p^{\times 2},\qquad n=|G|=(p-1)/2,
+\]
+with the original closed square, physical mark \(t_0=n\), translated input boundary pair, and price \(P_{5000}\), the proposed inverse-line realization is **not presently justified**. The generic \(x\)-family is tame and bounded-rank termwise, but \(x=-1\) is a genuine collision that invalidates the claimed uniform “weight \(-1\), only base \(1/\chi\)-boundary characters” description.
+
+The obstruction is to the proposed normalized representation, not yet to a \(P_{5000}\) upper bound for the inverse line itself.
+
+### 1. The inverse-line trace
+
+For a pair of pure negative-type terms \(t_u,t_v\) from the actual rows, the inverse line \(y=x^{-1}\) contributes, up to the outer \(s(x)=\chi(1-x)\),
+\[
+H_{u,v}(x)
+=
+s(x)\sum_{z\in G}s(z)\,
+t_u(x/z)t_v(zx).
+\tag{1}
+\]
+
+Here \(t_u,t_v\) are ordinary weight \(-1\) middle-extension traces, lisse away from \(1\), with tame inertia \(-1\) at \(1\). The analytic row expansions and their dimension budgets are the actual ones:
+\[
+d_i(a)=\sum_u c_u t_u(a)+e_i(a),\qquad
+\sum_u |c_u|r_u=O(1),\qquad \|e_i\|_\infty=O(p^{-1}),
+\]
+with endpoint rank budget below \(4.8\) and the pure-seed budget smaller. The physical mark is retained; its bad-character correction remains on the actual translated quotient coordinate and costs \(O_{5000}(p^{-1/2})\) in the existing packet accounting.
+
+### 2. Generic local monodromy
+
+For \(x\notin\{1,-1\}\), the moving singularities in the intermediate \(z\)-line occur at
+\[
+z=x,\qquad z=x^{-1},
+\]
+together with the fixed points \(0,\infty,1\). Thus, after removing the collision values, the relevant \(H_c^1\)-sheaf in \(x\) is tame and has rank bounded by a constant multiple of \(r_ur_v\). The usual \(H_c^2=0\) argument works at the fixed point \(z=1\): the factor \(s(z)\) has quadratic inertia there, while both \(t_u(x/z)\) and \(t_v(zx)\) are lisse at \(z=1\).
+
+Consequently, away from the collisions, the generic contribution has the expected weight \(-1\) after the \(H_c^1\) estimate, hence size
+\[
+O(r_ur_v p^{-1/2}).
+\]
+
+At \(x=0\) and \(x=\infty\), the family is still tame termwise. However, for a translated input the boundary characters are generally the translated pair \(\{\xi,\chi\xi\}\), not merely the base pair \(\{1,\chi\}\). The translated-column analysis in `shifted-resolvent-96.md` explicitly allows these source-dependent characters. Therefore the stronger requirement “only \(1/\chi\) boundary characters” is not established and is generally false without an additional cancellation.
+
+At \(x=1\), the two moving singularities also collide. The outer factor \(s(x)\) vanishes at the physical point \(x=1\), so the actual value there is killed, but this does not remove the local singularity of the \(x\)-family before multiplication by \(s(x)\).
+
+### 3. The obstruction at \(x=-1\)
+
+Because \(p\equiv1\pmod4\), \(-1\in G\), so \(x=-1\) is an actual physical position. At this point
+\[
+x=x^{-1}=-1,
+\]
+and the two moving singularities \(z=x\) and \(z=x^{-1}\) coalesce at \(z=-1\). Both factor sheaves then see their singular point \(1\):
+\[
+x/z=1,\qquad zx=1.
+\]
+
+Each factor has local inertia \(-1\) at its singular point. Their tensor product therefore has local scalar inertia
+\[
+(-1)\otimes(-1)=+1.
+\]
+The factor \(s(z)\) is unramified and nonzero at \(z=-1\), with value
+\[
+s(-1)=\chi(2).
+\]
+Thus, unlike the \(z=1\) contribution, there is no nontrivial quadratic inertia killing the local invariants. The previous \(H_c^2=0\) argument therefore fails exactly at \(x=-1\).
+
+For scalar \(-1\)-inertia on the two local vanishing-cycle spaces, the invariant space is
+\[
+V_u^{(-1)}\otimes V_v^{(-1)},
+\]
+of dimension \(r_ur_v\) in the maximally scalar case. More generally its dimension is
+\[
+\dim\bigl(V_u^{(-1)}\otimes V_v^{(-1)}\bigr),
+\]
+and its Frobenius trace depends on the actual local arithmetic sheaves.
+
+Accordingly, the necessary punctual correction has the formal shape
+\[
+C_{u,v,-1}\,\delta_{-1}(x),
+\]
+where, with the convolution-shift sign included,
+\[
+C_{u,v,-1}
+=
+\chi(2)\,
+\operatorname{Tr}\!\left(
+\operatorname{Frob}_p\mid
+V_u^{(-1)}\otimes V_v^{(-1)}
+\right)
+\]
+in the scalar-local-monodromy model, and is the corresponding local vanishing-cycle trace in general. For the actual square difference, the coefficient is the weighted sum of these terms for \(dd-jj\), including the analytic coefficients \(c_uc_v\).
+
+The supplied records do not specify these local Frobenius traces. Hence the coefficient of the punctual repair cannot be numerically determined from the current data. In particular, odd arity removes punctual summands at \(1\) for a single row, but it does **not** remove this \(x=-1\) punctual contribution arising from the collision of two negative factors.
+
+### 4. Consequence for the packet price
+
+The generic part of (1) is compatible with a bounded-rank tame local-system representation and a \(p^{-1/2}\) trace estimate. The collision term is a separate physical exception. It must be priced as a translated point-supported correction, together with the existing marked/bad-character correction.
+
+For the physical marking \(t_0=n\) and \(P_{5000}\), the known mechanism prices a single restored translated point through \(K e_x\) at
+\[
+O\!\left(5000\,\frac{\sqrt p}{n}\right)
+=
+O(5000\,p^{-1/2}).
+\]
+That shows the \(x=-1\) repair is potentially affordable if its coefficient has a uniformly bounded dimension-weighted sum. It does **not** prove that bound: the required coefficient is the actual local Frobenius trace at the collision, and its analytic-word sum has not been evaluated.
+
+Therefore:
+
+* the generic inverse line has the desired \(p^{-1/2}\) behavior;
+* the \(x=-1\) collision prevents the claimed globally uniform local-system description;
+* the translated boundary characters are not restricted to \(\{1,\chi\}\);
+* no actual lower bound for the inverse-line packet price follows;
+* the proposed cheap representation remains unproved until the collision coefficient is isolated and priced.
+
+## Hypotheses used
+
+1. The actual prime family is \(p\equiv1\pmod4\), through sufficiently large eligible primes.
+2. \(G=\mathbb F_p^{\times2}\), \(n=(p-1)/2\), with physical marking \(t_0=n\).
+3. The input is the translated boundary pair, not the unshifted seed.
+4. The analytic row expansions are the actual height-\(601\) and pure-seed expansions on the original closed square.
+5. Limits are taken in the required order: first fix an analytic word/rank and its local sheaf; then \(p\to\infty\) through the eligible prime family; only afterward sum the absolutely convergent geometric series using the verified \(4.8\) margin. No iteration-depth or analytic-tail limit may be interchanged with \(p\to\infty\) on the basis of fixed-height evidence.
+
+## Evidence supporting the partial result
+
+* `cold-position-kernel-139.md` gives the actual inverse-line kernel and the \(O(p^{-1/2})\) entrywise bound, but explicitly leaves the translated packet price open.
+* `cold-same-row-involution-139.md` confirms that the inverse line \(xy=1\) receives no same-row sign cancellation.
+* `iteration-parity.md` supplies the negative/positive inertia rules and explains why odd products have no punctual summand at \(1\), but it does not address the two-factor collision at \(-1\).
+* `shifted-resolvent-96.md` supplies the correct translated boundary pair \(\{\xi,\chi\xi\}\), the physical mark restoration, and the \(P_{5000}\) point-correction mechanism.
+* `cold-paired-height-transfer-139.md` supplies the actual height-\(601\) geometric budgets, but not the local coefficient at the inverse-line collision.
+
+## Remaining gap
+
+One must compute, for every analytic word pair contributing to the actual \(dd-jj\) line, the local vanishing-cycle Frobenius trace at
+\[
+(x,z)=(-1,-1),
+\]
+sum these coefficients with the actual analytic weights, and prove that the resulting dimension-weighted absolute sum is uniformly bounded under the \(P_{5000}\) price. Only then can the punctual term be restored as a translated physical packet and combined with the generic \(p^{-1/2}\) contribution.
+
+## Ranked next tests
+
+1. **Rank 1 — local collision calculation.**  
+   For the first nontrivial pair of actual negative factors in the height-\(601\)/pure-seed expansion, compute the tame inertia and Frobenius trace of the \((-1,-1)\) vanishing-cycle tensor. Determine explicitly whether the \(dd-jj\) combination cancels its coefficient. This is the decisive test.
+
+2. **Rank 2 — finite-field local-coefficient replay.**  
+   For eligible primes \(p\equiv1\pmod4\), compute the inverse-line trace at \(x=-1\) separately from \(x\neq\pm1\), with the physical mark \(t_0=n\) retained. Compare the measured coefficient against the predicted local tensor trace and test whether its analytic-word sum has a uniform \(P_{5000}\) bound. A finite check cannot settle the asymptotic claim, but it can distinguish a genuine cancellation from a nonzero repair that must be priced.

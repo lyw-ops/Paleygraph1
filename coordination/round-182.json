@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "round": 182,
+  "record_status": "ready",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment after an independent agent audit; not human acceptance or mathematical certification)",
+  "sources": {
+    "baseline": {
+      "path": "research/round-181-acceptance.json",
+      "sha256": "ad983e94b84fce4466bd29303e579f9bbf1d34576ec81bd92a27ab5f63bb0910"
+    },
+    "current": {
+      "path": "research/round-182-acceptance.json",
+      "sha256": "78471bc51e0eaed7c99f92141d3a573d4a2d55f8fc4d7510c187da60e976bec6"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "reformulated",
+      "before": "One-match covariance O(p^(115/64)) with criterion b1' ||pi(mu)||_op=O(p^(3/4)) open; direct first mass M_w=O(p^(11/8)); shifted energy input E^x(h)=O(p^(3/2-3/418)) and Lemma K^(16/13)N^(36/13) from Round 177; Round 181 reformulations unproved (proofs lost).",
+      "after": "Lemma SE E^x(1-B) << K^(2/3)N^(8/3) (Stevens-de Zeeuw Thm 4) and E^x(h)=O(p^(34/23)) are accepted; the row-pair formula M_w <= E^x(h)/4, the splitting S(t) and the trace identity tr((pi pi*)^k)=pT_k - T_k^x(m) are re-proved. The degenerate output row s=1 saturates b1' under (H_sat); the physical criterion is the row-deleted b1'' ||R pi(mu)||_op=O(p^(3/4)). Exact identity (audit): M_w = sum_r sum_{b!=b'} mu(r,b)mu(r,b')w(b/b'), a w-weighted dilation correlation inside slope fibres of mu. Headline exponents unchanged: one-match 115/64, M_w 11/8.",
+      "remaining": "One-match O(p^(3/2)) via b1'' (k=3 translation discrepancy of slope-closed six-words: verified O(p^(177/32)), need O(p^(144/32))), or via sum g^2=o(sqrt p) and (b1'''). Direct first mass O(p^(1+1/1280)) without the BSG size loss (the BSG-plus-Young scheme is capped at E^x(h)=O(p^(4/3))). Generic J sum O(p^(9/4)) and zero-match estimate unchanged.",
+      "evidence": [
+        {
+          "path": "research/native-claude-ordinary-prime-one-match-operator-norm-182.md",
+          "sha256": "b5362892c520902de0db58761bbaaec27991414388073c21743b76287db216ae"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-shifted-level-energy-182.md",
+          "sha256": "5c34d1fd84ae4b3bcc82a984d7f4fc1a29fd5c21f8bb24df73ac1b524750a331"
+        },
+        {
+          "path": "research/native-claude-audit-182.md",
+          "sha256": "82edca1551678b235a57bc8f945d8ce24135501c1949834f8641ec82f77eef79"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "reformulated",
+      "before": "Small-ball criterion (Round 181, evidence only) needing a frozen price rate kappa0 < 0.77395; proved rate 1.066 for P_5000; seed-linear rates claimed 0.7101/0.5326.",
+      "after": "Proposition 1 re-proved with (H1) class closure and (H2) uniform corrections; sharp threshold kappa* = 0.77414706... at p0=0.01272. Finite-horizon Duhamel form: with ||L^m||_P <= C lambda^m the condition is lambda < 1 - C(1 - kappa*), and any use of either criterion needs Gamma_{k_n}=sum_{m<k_n}||L^m||_P bounded uniformly in n, which a one-step bound above 1 cannot give. Seed rates re-proved (0.71006 dimension, 0.53255 weighted) with exact m-step growth (alpha=1: 0.51366 at m0=8, C=1.0749).",
+      "remaining": "A uniform power rate for the full frozen multiplier: the non-seed part (h-linear plus higher Taylor) blocks; after charging the seed-only Taylor terms the h-linear allowance is rho*A(h) <~ 1.09 in pi_1 unless those terms are moved into the seed multiplier K Phi'_t(S). Floating evidence: sup|h| ~ 0.55, RMS ~ 0.175. Uniform complex stationary domain and derivative transfer remain separate.",
+      "evidence": [
+        {
+          "path": "research/native-claude-cold-prime-signed-nonseed-price-182.md",
+          "sha256": "c8023a9bece7318be9122e2b0ec2ef007780e7b83835bb2eac8e84e91b4161e6"
+        },
+        {
+          "path": "research/native-claude-audit-182.md",
+          "sha256": "82edca1551678b235a57bc8f945d8ce24135501c1949834f8641ec82f77eef79"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Round 182 accepted one genuine input improvement (Lemma SE, E^x(h)=O(p^(34/23))) and re-proved the Round 181 reformulations, but no headline exponent moved. The audit's blind overlap review found no shared estimate. The three Round 183 calls follow the audit's ranking: the first mass as a fibre dilation correlation (avoiding the BSG cap), the cold power rate with the seed-only Taylor terms moved into the seed multiplier, and the row-deleted one-match criterion together with the sum g^2 question. Calls run as Claude Code research sessions with reports written to repository paths.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-first-mass-fibre-dilation",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Is M_w = sum_r sum_{b != b'} mu(r,b) mu(r,b') w(b/b') = O(p^(1+1/1280)) when treated directly as a w-weighted dilation correlation inside the slope fibres of the actual mu, for example through a per-slope-fibre multiplicative energy rather than the whole-level E^x(1-S_t)?",
+      "why_now": "The Round 182 audit proved the exact identity rewriting M_w as a fibre dilation correlation of the one-match weight mu, and Round 182 showed the level-set route (BSG pieces plus Young) cannot go below E^x(h)=O(p^(4/3)); the fibre form keeps w and every amplitude and avoids the BSG size loss.",
+      "scope": "Actual g, w=g(1-g), mu(r,b)=g(Y)g(D) on the Round 171 chart with the square mask and Y != D, counting norms. Re-derive the identity of research/native-claude-audit-182.md section 4 (checked at p=29,53 by research/paley-182-audit-shifted-energy-check.py) before using it. Use Lemma SE and E^x(h)=O(p^(34/23)) from Round 182 where helpful. State whether w is kept or majorized; state any incidence or character-sum input exactly with hypotheses. Compute M_w and its restriction to the large multiplicative spectrum of w in subgroup-mixture and Fejér models (floating evidence) and say whether a per-fibre energy reaches p^(1+o(1)) there. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "if_yes": "M_w=O(p^(1+1/1280)) closes J in {0,1} at target scale (D_0+D_1=O(p^(3/2))) and lowers each generic J class to O(p^(3/2+1/1280)).",
+      "if_no": "An admissible family consistent with the proved constraints on g in which the fibre dilation correlation grows by a power over p shows the first mass needs signed cancellation from w, not positivity.",
+      "if_inconclusive": "Return the exact fibre class (slope r, size of the fibre, multiplicative structure of b) where the bound fails, with its verified bound.",
+      "inputs": [
+        {
+          "path": "research/round-182-acceptance.json",
+          "sha256": "78471bc51e0eaed7c99f92141d3a573d4a2d55f8fc4d7510c187da60e976bec6"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-shifted-level-energy-182.md",
+          "sha256": "5c34d1fd84ae4b3bcc82a984d7f4fc1a29fd5c21f8bb24df73ac1b524750a331"
+        },
+        {
+          "path": "research/native-claude-audit-182.md",
+          "sha256": "82edca1551678b235a57bc8f945d8ce24135501c1949834f8641ec82f77eef79"
+        },
+        {
+          "path": "research/paley-182-audit-shifted-energy-check.py",
+          "sha256": "c2dbe98686bae3a2ba9b54360e7da480960d9667a3e68ac802cbe7acaf1370ca"
+        },
+        {
+          "path": "research/ordinary-paired-J-cross-ratio-180.md",
+          "sha256": "f800b53b7d6678f7d12f79352255261a0808823e137d79d898c286d1693ef0fa"
+        },
+        {
+          "path": "research/ordinary-mixed-row-autocorrelation-180.md",
+          "sha256": "357f5058dd8ef16cf330a252680252d77c815ec5f3f6175e86bfa904d68e85aa"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-seed-multiplier-power-rate",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "With the seed-only higher Taylor terms moved into the seed multiplier L_S = K Phi'_t(S), is there a price P with a uniform power bound ||L^m||_P <= C lambda^m and lambda < 1 - C(1 - 0.77414706) for the full frozen multiplier at V_602, so that Gamma_{k_n} stays bounded uniformly in n?",
+      "why_now": "Round 182 proved that either cold criterion needs Gamma_{k_n} bounded uniformly in n, computed the seed-linear m-step growth exactly, and the audit showed that leaving the seed-only Taylor terms outside L_S cuts the h-linear allowance from 1.925 to about 1.09 in pi_1.",
+      "scope": "True cold orbit on the original closed square, physical t0=n, frozen-base identity at V_602, Proposition 1 and Proposition 2 of research/native-claude-cold-prime-signed-nonseed-price-182.md as accepted in Round 182 (threshold kappa* = 0.77414706...). Re-price L_S including the seed-only Taylor terms with the Round 80 per-simple rule (extend the audit's brute force in research/paley-182-audit-cold-check.py), compute its exact m-step growth, then price the remaining h-linear term with an explicit rho and A(h); say whether c(M) survives in pi_1. Any new price needs its own p0, c, sup domination, class closure (H1) and uniform corrections (H2). Print certified brackets with outward rounding; separate exact from floating. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "if_yes": "A certified power rate below 1 - C(1 - kappa*) proves the Round 173 finite-prefix confinement and common stationary continuation on the interior of the original square; derivative transfer becomes the next cold obligation.",
+      "if_no": "An exact lower bound showing Gamma_m grows for every price in the stated class (for the seed multiplier with its Taylor terms) retires the price route and sends the cold route back to Criterion D or sup transfer.",
+      "if_inconclusive": "Return the best certified power rate and the exact multiplier term that blocks the rest, with its budget.",
+      "inputs": [
+        {
+          "path": "research/round-182-acceptance.json",
+          "sha256": "78471bc51e0eaed7c99f92141d3a573d4a2d55f8fc4d7510c187da60e976bec6"
+        },
+        {
+          "path": "research/native-claude-cold-prime-signed-nonseed-price-182.md",
+          "sha256": "c8023a9bece7318be9122e2b0ec2ef007780e7b83835bb2eac8e84e91b4161e6"
+        },
+        {
+          "path": "research/native-claude-audit-182.md",
+          "sha256": "82edca1551678b235a57bc8f945d8ce24135501c1949834f8641ec82f77eef79"
+        },
+        {
+          "path": "research/paley-182-cold-seed-power-check.py",
+          "sha256": "868e9cb8c4de6c48e68365334070935e22e8b57bb2849ec05b4949cf33a71fed"
+        },
+        {
+          "path": "research/paley-182-audit-cold-check.py",
+          "sha256": "830147c16b5872ad0126107ec8c302a3bcbea0bfef68b68632d3b3a15c96370d"
+        },
+        {
+          "path": "research/cold-growing-prefix-delocalization-180.md",
+          "sha256": "3a8eb51ab257dc2b834142c7954357e533472676b4c5a06e1a0953db64e9b8c8"
+        },
+        {
+          "path": "research/cold-seed-centered-larger-tube-177.md",
+          "sha256": "12c7cff4f9a20dc1c7bfeabef28ed87f3018a863a325c95b7b008f9a9a180c3c"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-row-deleted-one-match",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Is the row-deleted criterion ||R pi(mu)||_op = O(p^(3/4)) provable for the actual mu — first by deciding whether sum g^2 = o(sqrt p) for the actual law (which relaxes the target through (b1''')), and otherwise through the k=3 translation discrepancy of slope-closed six-words below its verified O(p^(177/32))?",
+      "why_now": "Round 182 showed b1' is saturated by the degenerate output row s=1 under (H_sat), that the physical one-match criterion never sees that row, and that the k=3 discrepancy is the blocking term (need O(p^(144/32))); whether sum g^2 is o(sqrt p) decides whether the row itself matters.",
+      "scope": "Actual mu(r,b)=g(Y)g(D) on the Round 171 chart, the twisted physical chart of Rounds 169/173, the actual law omega with max omega = O(p^(-1/2)), counting norms. Part 1: decide sum g^2 for the actual law using sum_alpha omega(alpha)^2 = 2 sum g^2/(p-1) and the square-class balance, with every structural fact about the near-critical law cited to its accepted round. Part 2: compute tr((R pi pi* R)^3) exactly for p <= 677 split by six-word type, and seek a point-conic incidence input with exact hypotheses for the dominant type. Use the Round 182 trace identity and interlacing as accepted. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "if_yes": "||R pi(mu)||_op = O(p^(3/4)) proves the one-match estimate O(p^(3/2)); sum g^2 = O(p^(1/2-delta)) alone relaxes the operator target by p^(delta/2) and is an accepted improvement.",
+      "if_no": "A proof that sum g^2 asymp sqrt p for the actual law together with a word type whose exact count exceeds p^(9/2) by a power in models shows the operator-norm route cannot close the one-match estimate.",
+      "if_inconclusive": "Return the exact six-word type and its verified bound, and the status of sum g^2.",
+      "inputs": [
+        {
+          "path": "research/round-182-acceptance.json",
+          "sha256": "78471bc51e0eaed7c99f92141d3a573d4a2d55f8fc4d7510c187da60e976bec6"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-one-match-operator-norm-182.md",
+          "sha256": "b5362892c520902de0db58761bbaaec27991414388073c21743b76287db216ae"
+        },
+        {
+          "path": "research/native-claude-audit-182.md",
+          "sha256": "82edca1551678b235a57bc8f945d8ce24135501c1949834f8641ec82f77eef79"
+        },
+        {
+          "path": "research/paley-182-opnorm-identities.py",
+          "sha256": "0de89988d380d4912f43b91c09e856611cb3cf7523dbc10acb4e1bae8b0a93d7"
+        },
+        {
+          "path": "research/ordinary-one-match-twisted-physical-169.md",
+          "sha256": "8f683813155b15dd91aea2a0f5cbbc01aa3e704501212007bd7ae63c975f1d77"
+        },
+        {
+          "path": "research/ordinary-affine-line-energy-171.md",
+          "sha256": "55418fa1dd79a53b5842d88c369c0c2da3ddb63f8680345b69fbe2679b626707"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

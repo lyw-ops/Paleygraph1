@@ -1,0 +1,177 @@
+## Checked result: the proposed block does not yet yield an \(O(p)\) estimate
+
+Work on the genuine selected ordinary-prime family \(p\to\infty\), with
+\[
+Q=(\mathbb F_p^\times)^2,\qquad n=|Q|=(p-1)/2,
+\]
+the actual marked law \(\nu\), its lift \(w\), and the physical map
+\[
+r_u(x)=\frac{1-vux}{1-vx}.
+\]
+All norms below are counting norms on \(\mathbb F_p^\times\) or \(Q\), and the limit is first \(p\to\infty\) along the selected prime family. Any fixed amplitude thresholds are held fixed before taking this limit.
+
+### 1. A concrete moderate slice
+
+Fix constants
+\[
+a,b\in(0,1),\qquad a+b>1,
+\]
+and \(\delta>0\). At the four physical vertices impose
+\[
+|f(1-vx)|^2,\ |f(1-vy)|^2\ge a,
+\]
+\[
+|f(1-vux)|^2,\ |f(1-vuy)|^2\ge b.
+\]
+For the slope impose a dyadic amplitude layer
+\[
+p^{-\sigma-\Delta}\le |f(t)|^2<p^{-\sigma},
+\qquad |f(t)|^2\le 1-\delta,
+\]
+where \(\sigma\ge0\) and fixed \(\Delta>0\). Denote this slope set by \(D_{\sigma,\delta}\subset Q\setminus\{1\}\).
+
+The exact five-character graph has Fourier tuple
+\[
+(a,c/a,b^{-1},d,b/(cd)),
+\]
+with full column triple
+\[
+(b^{-1},d,b/(cd)),
+\]
+and graph sign
+\[
+\chi(1-d).
+\]
+The corresponding physical five weights are retained; no replacement by a uniform conditional ratio law is made.
+
+The two-threshold result applies on this slice. Since \(a+b>1\), every nonzero cross-difference between the two physical levels has the favorable sign. In particular, after the already-proved \(O(p)\) exclusions,
+\[
+\chi(1-d)=\rho
+\]
+throughout the supported off-diagonal slice, up to the removed exceptional terms. Thus the signed multiplier is not expected to create cancellation here: on the main support it is essentially a fixed sign.
+
+### 2. Exact graph estimate with all five actual weights
+
+Let \(h_j\) be the five physical weights, each equal to \(f\) restricted to its specified physical layer. For fixed \(d\neq0,1\), let
+\[
+T_d=\sum_{(a,b,c)\in V_d}
+ \chi(1-d)\prod_{j=1}^5 h_j(\text{corresponding graph coordinate}).
+\]
+The exact row-disjointness of the graph gives
+\[
+|T_d|
+ \le \sqrt{p-4}\prod_{j=1}^5\|h_j\|_2.
+\tag{2.1}
+\]
+This is the genuine graph with the column triple \((b^{-1},d,b/(cd))\); it is not the unweighted singular-value estimate applied after replacing the physical weights by uniform densities.
+
+Summing over the slope layer gives the only unconditional consequence currently available from the exact flattening:
+\[
+\left|\sum_{d\in D_{\sigma,\delta}}T_d\right|
+ \le |D_{\sigma,\delta}|\,\sqrt p
+       \prod_{j=1}^5\|h_j\|_2.
+\tag{2.2}
+\]
+If
+\[
+N_j=\#\operatorname{supp}(h_j),\qquad
+|h_j|\le p^{-\alpha_j/2}
+\quad\text{on its layer},
+\]
+then
+\[
+\|h_j\|_2\le p^{(\gamma_j-\alpha_j)/2},
+\qquad N_j\le p^{\gamma_j},
+\]
+and (2.2) becomes
+\[
+\left|\sum_{d\in D_{\sigma,\delta}}T_d\right|
+ \ll
+ p^{\,\gamma_5+(1+\sum_{j=1}^5\gamma_j-\sum_{j=1}^5\alpha_j)/2}.
+\tag{2.3}
+\]
+Here \(\gamma_5\) records the number of slopes in the chosen layer. If instead one first uses Cauchy in \(d\), the same graph information gives
+\[
+\left|\sum_{d\in D_{\sigma,\delta}}T_d\right|
+ \le |D_{\sigma,\delta}|^{1/2}
+      \left(\sum_{d\in D_{\sigma,\delta}}|T_d|^2\right)^{1/2},
+\]
+but no improved bound for the conditional second moment follows from the already-established orthogonality alone. A generic conditional Gram estimate merely reproduces the same obstruction.
+
+### 3. Why this does not cover the selected moderate block
+
+For the fixed high-pair thresholds \(a,b\), the four physical weights are \(O(1)\) on their supports. The two-threshold argument supplies sign information and geometric restrictions, but not a sufficiently small counting support. The slope layer is also not known to have a small enough true weighted mass.
+
+Consequently, (2.3) is \(O(p)\) only under the explicit exponent condition
+\[
+\gamma_5+\frac{1+\sum_{j=1}^5\gamma_j-\sum_{j=1}^5\alpha_j}{2}
+\le 1,
+\]
+equivalently
+\[
+\sum_{j=1}^5\alpha_j
+\ge 2\gamma_5+\sum_{j=1}^5\gamma_j-1.
+\tag{2.4}
+\]
+The moderate slice has no presently proved bound implying (2.4). In particular, if the four physical layers have effective size \(p^{1/2+o(1)}\), as suggested by the actual near-flat law, and the slope layer has comparable size, then the right side of (2.4) is approximately \(2\), while the fixed moderate amplitudes contribute no positive \(\alpha_j\). The graph estimate is then far above \(O(p)\).
+
+The favorable sign does not repair this: on the \(a+b>1\) block it is essentially constant rather than oscillatory. Therefore the proposed “signed conditional slope” route has produced a valid conditional inequality, but not the required saving.
+
+### Evidence and precise remaining gap
+
+What is proved:
+
+1. The exact ordinary-prime family, actual \(w\)-weights, physical marking, and graph sign \(\chi(1-d)\) are retained.
+2. The five-weight graph estimate (2.1) is valid with the exact column triple \((b^{-1},d,b/(cd))\).
+3. The two-threshold condition \(a+b>1\) forces the favorable sign on the genuine physical support, after the known \(O(p)\) exclusions.
+4. The explicit exponent criterion (2.4) identifies when the graph estimate would imply \(O(p)\).
+
+What remains open:
+
+\[
+\boxed{\text{A genuine conditional second-moment/incidence estimate across the slope }d}
+\]
+that exploits the actual five weights and improves on (2.2). It would need to show, for the fixed slice,
+\[
+\sum_{d\in D_{\sigma,\delta}} |T_d|^2
+\]
+is smaller than the generic conditional Gram bound by a power of \(p\), or equivalently establish a weighted incidence estimate for the physical cross-ratio graph. The existing rank-two orthogonality and the ordinary-prime exclusions do not provide this.
+
+This is a scoped failure of the proposed sufficient bound, not a refutation of the asymptotic \(O(p)\) target and not evidence against the existence of the ordinary-prime family.
+
+## Ranked next tests
+
+### 1. Weighted slope-incidence second moment — highest priority
+
+For the same fixed \(a,b,\delta,\sigma,\Delta\), test whether
+\[
+\sum_{d\in D_{\sigma,\delta}}
+\left|
+ \sum_{(a,b,c)\in V_d}
+ \chi(1-d)\prod_{j=1}^5h_j
+\right|^2
+\]
+admits a bound of the form
+\[
+\ll p^{1+\varepsilon}
+\left(\prod_{j=1}^5\|h_j\|_2^2\right)
+\]
+or, more realistically, a saving by \(p^\kappa\) over the generic conditional Gram estimate. This is the direct test of whether the actual slope marking creates usable cross-fiber cancellation.
+
+### 2. Dyadic physical cross-ratio incidence with the \(a+b>1\) sign constraints
+
+Keep the four physical thresholds and count configurations
+\[
+(x,y,u):
+\quad
+|f(1-vx)|^2,|f(1-vy)|^2\ge a,\quad
+|f(1-vux)|^2,|f(1-vuy)|^2\ge b,
+\]
+with \(t=r_u(y)/r_u(x)\in D_{\sigma,\delta}\). Test a bound retaining the actual slope weight,
+\[
+\sum_{x,y,u}
+ |f(t)|^2
+ \prod_{\text{four vertices}}1_{\{|f|^2\ge a\text{ or }b\}}
+ \ll p^{1+\varepsilon}.
+\]
+The sign constraints should be incorporated before Cauchy, not after absolute values are taken. A successful estimate here would give the needed \(O(p)\) control without pretending that the conditional ratio law is uniform.

@@ -1,0 +1,294 @@
+## Result
+
+I do not obtain the required actual-prime bound
+\[
+\frac{d_U^2}{n}=\omega\!\left(\frac1{T(p)}\right)
+\]
+for the adaptive zero set. The Fourier-minor reduction is exact, but the available orbit information does not control the determinant weights. A finite prime calculation gives a concrete obstruction to any proof based only on eligible orbit counts.
+
+The precise unresolved quantity is the physical-row leverage
+\[
+\Lambda_p:=\frac1n\mathbf 1_{U'}^*H'^{-1}\mathbf 1_{U'},
+\qquad
+\frac{d_U^2}{n}=1-\Lambda_p,
+\]
+where \(U'\) is the actual maximal independent subset of the actual prime zero columns. The target is
+\[
+1-\Lambda_p=\omega(1/T(p))
+\]
+along every hypothetical fixed-gap sequence, for one admissible \(T(p)\to\infty\), with \(p\to\infty\) through primes \(p\equiv1\pmod4\), and with the sign \(\epsilon\) and floor fixed.
+
+### Exact prime setup
+
+Let
+\[
+Q=\mathbb F_p^{\times 2},\qquad n=\frac{p-1}{2},
+\]
+and retain the physical mark \(0\). For fixed \(\epsilon\in\{\pm1\}\), the actual Jacobi sector is
+\[
+\Omega_\epsilon=\{1\}\cup
+ \{a\in Q:\chi(1-a)=\epsilon\}.
+\]
+The row \(1\) is the physical constant Fourier row; it must not be replaced by an arbitrary row.
+
+The sector sizes are
+\[
+|\Omega_+|=\frac{p-1}{4}=\frac n2,\qquad
+|\Omega_-|=\frac{p+3}{4}=\frac{n+2}{2}.
+\]
+These follow from
+\[
+\#\{a\in Q:\chi(1-a)=\epsilon\}
+=\frac{p-3-2\epsilon}{4}.
+\]
+
+Let \(F\) be the true least-bulk-energy optimizer for this sign, let
+\[
+S=\{i\ne0:F_i>0\},\qquad U=(S\cup\{0\})^c,
+\]
+and let \(U'\subseteq U\) be a maximal independent subset of the actual columns \(JE_U\). Put \(k=|U'|\) and
+\[
+H'=E_{U'}^*J E_{U'}.
+\]
+All norms below are counting norms.
+
+With normalized Fourier matrix \(M\),
+\[
+J=M^*1_{\Omega_\epsilon}M.
+\]
+Since the row indexed by \(1\) is \(n^{-1/2}\mathbf 1_{U'}^*\),
+\[
+H'-\frac1n\mathbf1\mathbf1^*
+ =M_{\Omega_\epsilon\setminus\{1\},U'}^*
+  M_{\Omega_\epsilon\setminus\{1\},U'}.
+\]
+Therefore
+\[
+\boxed{\;
+\frac{d_U^2}{n}
+=
+\frac{\det(H'-\mathbf1\mathbf1^*/n)}{\det H'}
+=
+1-\frac1n\mathbf1^*H'^{-1}\mathbf1
+\;}
+\]
+when \(k>0\), with the empty-set convention giving ratio \(1\) for \(k=0\). If \(k\ge|\Omega_\epsilon|\), the numerator vanishes.
+
+By Cauchy–Binet,
+\[
+\det H'
+ =\sum_{\substack{I\subseteq\Omega_\epsilon\\|I|=k}}
+ |\det M_{I,U'}|^2,
+\]
+and
+\[
+\det(H'-\mathbf1\mathbf1^*/n)
+ =\sum_{\substack{I\subseteq\Omega_\epsilon\setminus\{1\}\\|I|=k}}
+ |\det M_{I,U'}|^2.
+\]
+Thus the ratio is exactly the weighted probability that the selected eligible row minor omits the physical constant row.
+
+## Exact translation-orbit formula
+
+For a \(k\)-set \(I\subseteq Q\), define
+\[
+E_\epsilon(I)=\{t\in Q:tI\subseteq\Omega_\epsilon\}.
+\]
+Multiplication of the row indices by \(t\) changes Fourier-minor columns only by unit-modulus factors. Hence \(|\det M_{tI,U'}|\) is constant on the translation orbit of \(I\).
+
+Consequently the determinant ratio is a weighted average of
+\[
+\alpha_\epsilon(I)
+=
+\frac{\#\{t\in E_\epsilon(I):1\notin tI\}}
+     {\#E_\epsilon(I)}.
+\]
+The weights are the actual squared minor weights multiplied by the number of eligible translates. Equivalently,
+\[
+\frac{d_U^2}{n}
+=
+\frac{\sum_{\mathcal O}
+ w_{\mathcal O}\,\#E_\epsilon^{\,\mathrm{good}}(\mathcal O)}
+      {\sum_{\mathcal O}
+ w_{\mathcal O}\,\#E_\epsilon(\mathcal O)},
+\]
+with \(w_{\mathcal O}=|\det M_{I,U'}|^2\) for any representative \(I\) of the orbit, after the harmless stabilizer normalization.
+
+The only general orbit estimate is
+\[
+1\in tI\quad\Longleftrightarrow\quad t\in I^{-1},
+\]
+so at most \(k\) translates are bad:
+\[
+\alpha_\epsilon(I)\ge 1-\frac{k}{|E_\epsilon(I)|}.
+\]
+This is useless when \(|E_\epsilon(I)|\) is small, which is exactly what can happen at high rank.
+
+## Concrete obstruction to an orbit-count proof
+
+At the actual prime \(p=13\), take \(\epsilon=+1\). Then
+\[
+Q=\{1,3,4,9,10,12\},
+\qquad
+\Omega_+=\{1,4,10\}.
+\]
+For \(k=2=|\Omega_+|-1\), consider
+\[
+I_1=\{1,4\}.
+\]
+Its eligible translates are
+\[
+E_+(I_1)=\{1,10\},
+\]
+and both translated row sets contain \(1\):
+\[
+1I_1=\{1,4\},\qquad 10I_1=\{1,10\}.
+\]
+Thus this orbit has
+\[
+\alpha_+(I_1)=0.
+\]
+
+On the other hand,
+\[
+I_2=\{4,10\}
+\]
+has
+\[
+E_+(I_2)=\{1\},
+\]
+and its sole eligible row set omits \(1\), so
+\[
+\alpha_+(I_2)=1.
+\]
+
+Therefore even at rank \(k=|\Omega_+|-1\), the sector admits orbit classes with fractions \(0\) and \(1\). The actual ratio depends entirely on the squared Fourier-minor weights of the adaptive \(U'\). Counting eligible minors, or knowing only that a nonzero minor exists, cannot give a lower bound.
+
+This finite example does **not** settle the asymptotic actual-prime problem: it does not identify the least-energy optimizer or its \(U'\). It does establish a precise failure of the proposed unweighted orbit shortcut.
+
+## A checked sufficient condition, not presently proved
+
+Let
+\[
+r_\epsilon=|\Omega_\epsilon|,\qquad \Delta_p=r_\epsilon-k.
+\]
+If the actual adaptive Gram matrix satisfies
+\[
+\left\|H'-\frac{r_\epsilon}{n}I\right\|_{\mathrm{op}}\le\eta_p
+\]
+with \(r_\epsilon/n-\eta_p>0\), then
+\[
+\mathbf1^*H'^{-1}\mathbf1
+\le \frac{k}{r_\epsilon/n-\eta_p},
+\]
+and hence
+\[
+\boxed{\;
+\frac{d_U^2}{n}
+\ge
+\frac{\Delta_p-n\eta_p}{r_\epsilon-n\eta_p}.
+\;}
+\]
+Thus a sufficient actual-prime criterion is
+\[
+\Delta_p-n\eta_p
+=
+\omega\!\left(\frac n{T(p)}\right).
+\]
+No estimate of this type is currently available for the adaptive \(U'\). In particular, a Weil estimate for fixed small row sets does not address the regime \(k\) near \(r_\epsilon\), nor the determinant weighting.
+
+## Comparison with signed leakage
+
+The exact signed transfer remains a potentially more flexible route. For any \(y\in\operatorname{Ran}J\), with
+\[
+\ell=E_U^*y,\qquad
+H=E_U^*JE_U,\qquad u=\mathbf1_U,
+\]
+one has
+\[
+d_U\|y\|_2
+\ge
+\left|
+\langle\mathbf1,y\rangle
+-\langle u,H^\dagger\ell\rangle
+\right|.
+\]
+A prime-uniform candidate satisfying
+\[
+\langle\mathbf1,y\rangle\ge c n,\qquad
+\|y\|_2^2=o(nT),
+\]
+and retaining a fixed fraction of its signed mean after the correction
+\[
+\langle u,H^\dagger\ell\rangle
+\]
+would exclude the fixed gap. No such candidate with controlled leakage on the actual \(U\) is established.
+
+The projection-only model from the previous round shows that exact projection algebra, complementarity, and optimization do not imply the required decay: it has a fixed gap while its marked return tail is of order \(m\) for \(T=o(m)\). Hence the missing ingredient must use the actual cyclic Jacobi structure or a genuinely signed cancellation estimate.
+
+## Remaining gap
+
+The unresolved statement is one of the following equivalent actual-prime estimates, for both fixed signs \(\epsilon\):
+
+1. **Weighted Fourier-minor form**
+   \[
+   \frac{
+   \sum_{I\subseteq\Omega_\epsilon\setminus\{1\}}
+   |\det M_{I,U'}|^2
+   }{
+   \sum_{I\subseteq\Omega_\epsilon}
+   |\det M_{I,U'}|^2
+   }
+   =
+   \omega(1/T(p)).
+   \]
+
+2. **Leverage form**
+   \[
+   \frac1n\mathbf1^*H'^{-1}\mathbf1
+   \le 1-\omega(1/T(p)).
+   \]
+
+3. **Signed leakage form**
+   Find a genuine \(y\in\operatorname{Ran}J\) supported or concentrated on the actual marked sector for which the signed correction above is \(o(n)\) relative to its mean.
+
+No actual-prime asymptotic estimate of any of these forms is proved here.
+
+## Ranked next tests
+
+### 1. Highest priority: exact adaptive orbit-weight diagnostics
+
+For increasing primes \(p\equiv1\pmod4\), separately for \(\epsilon=\pm1\):
+
+- compute the true least-energy optimizer \(F\);
+- form the actual \(S,U\), then the actual independent \(U'\);
+- record \(k\), \(\Delta_p=r_\epsilon-k\), \(\Lambda_p=n^{-1}\mathbf1^*H'^{-1}\mathbf1\);
+- group the Cauchy–Binet terms by translation orbit;
+- measure what fraction of the denominator weight lies on orbits with
+  \[
+  \alpha_\epsilon(I)\ll 1/T(p).
+  \]
+
+This directly tests whether the obstruction is caused by high-rank orbit concentration. It is diagnostic only unless accompanied by a uniform theorem, but it identifies the exact orbit families that an analytic argument must control.
+
+### 2. Second priority: prove a source-specific adaptive Gram/leakage estimate
+
+Attempt one of the following prime-uniform estimates on the actual \(U'\):
+
+\[
+\left\|H'-\frac{r_\epsilon}{n}I\right\|_{\mathrm{op}}
+=o\!\left(\frac{\Delta_p}{n}\right),
+\qquad
+\Delta_p=\omega(n/T(p)),
+\]
+or directly
+\[
+\mathbf1^*H'^{-1}\mathbf1
+\le n\left(1-\omega(1/T(p))\right).
+\]
+
+If adaptive Gram flatness is too strong, use the signed criterion instead: construct a low-frequency or marked spectral candidate \(y\) from the actual Jacobi operator and estimate the signed correction
+\[
+\langle u,H^\dagger E_U^*y\rangle
+\]
+rather than its unsigned norm. This is the most plausible way to exploit the physical diagonal \(K_{00}=-1/n\), which is invisible to the raw orbit-count argument.

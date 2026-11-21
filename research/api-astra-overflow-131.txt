@@ -1,0 +1,111 @@
+## Finding: fixed-depth arithmetic does not decide the zero-floor defect at \(M=10\)
+
+Let \(U_{p,M}\) be a genuine zero-floor capped fixed point and
+\[
+\alpha_{p,M}
+=\|h_{p,M}\|_{2,n}^{2}+2M\mathbb E_n|h_{p,M}|,
+\qquad h_{p,M}=U_{p,M}-C_M(U_{p,M}).
+\]
+At zero floor, the exact norm identity gives, up to the vanishing marked-floor correction,
+\[
+\alpha_{p,M}=4-\mu_{p,M}^{\,2}+o_p(1),
+\qquad
+\mu_{p,M}=\mathbb E_n\Phi_0(C_M(U_{p,M})).
+\tag{A}
+\]
+Hence \(\alpha_{p,M}\to0\) is equivalent to the bulk activation mean tending to \(2\). The fixed-depth parity argument only controls the marked coordinate; it does not imply this mean convergence.
+
+### A checked fixed-depth calculation
+
+For the genuine averaged iteration
+\[
+W_{j+1}=\frac12\bigl(W_j+K\Phi_0(C_M(W_j))\bigr),\qquad W_0=0,
+\]
+the first iterate is
+\[
+W_1=\frac12K a_0
+     =\sqrt n\,K e_0+o_{L^2}(1)
+     =:x+o_{L^2}(1),
+\]
+because the zero-floor activation at \(W_0\) is supported at the mark and equals \(2\sqrt n+O_M(n^{-1/2})\) there.
+
+Quadratic Jacobi equidistribution gives the prime-uniform limiting law
+\[
+x_i\Longrightarrow \sqrt2\cos\theta,\qquad \theta\sim {\rm Unif}[0,2\pi].
+\]
+Therefore, for every fixed \(M>0\),
+\[
+\lim_{p\to\infty}\mu_{1,M}(p)
+=
+I_1(M)
+:=
+\frac1{2\pi}\int_0^{2\pi}\min(\sqrt2|\cos\theta|,M)\,d\theta.
+\tag{B}
+\]
+In particular, for \(M\ge\sqrt2\),
+\[
+I_1(M)=\frac{2\sqrt2}{\pi}\approx0.900316,
+\tag{C}
+\]
+far below the target value \(2\). At \(M=10\), clipping is absent at this first bulk step, but the mean is still \(2\sqrt2/\pi\), not \(2\).
+
+This is consistent with the averaged norm identity: the constant \(4\) comes from the squared marked activation, whereas the normalized activation mean \(\mu_j\) receives only \(O(n^{-1/2})\) directly from the mark. Thus fixed-depth marked cancellation does **not** supply the missing \(\mu_j\to2\) estimate.
+
+### Why the available averaged comparison stops here
+
+For the fixed point \(U_{p,M}\), the exact midpoint comparison yields
+\[
+\frac1J\sum_{j<J}D(W_j,U_{p,M})
+\le \frac{2(M^2+4)}{J},
+\tag{D}
+\]
+where \(D\) controls the bulk \(L^2\)-distance of \(h(W_j)\) from \(h(U_{p,M})\), as well as the mean and residual terms.
+
+Consequently, after a routine Cauchy–Schwarz estimate, one obtains
+\[
+\left|
+\alpha_{p,M}
+-\frac1J\sum_{j<J}\alpha(W_j)
+\right|
+\le C_M J^{-1/2}+o_p(1)
+\tag{E}
+\]
+for an explicit \(C_M=O(M^2)\). Combining (A), (E), and the averaged norm identity gives the useful reduction
+\[
+\limsup_{p\to\infty}\alpha_{p,M}
+\le
+4-\liminf_{J\to\infty}\liminf_{p\to\infty}
+\frac1J\sum_{j<J}\mu_j(p)^2.
+\tag{F}
+\]
+Thus the unweighted zero-floor defect would vanish if one could prove the prime-first, growing-depth estimate
+\[
+\lim_{J\to\infty}\liminf_{p\to\infty}
+\frac1J\sum_{j<J}\mu_j(p)^2=4.
+\tag{G}
+\]
+The fixed-depth trace theorem gives no such conclusion: (B) already shows that the first fixed-depth mean is \(0.9003\) at \(M=10\), and its constants are not uniform in \(j\). Passing from fixed \(j\) to \(J\to\infty\) requires a genuine depth-uniform estimate on the clipped iterates.
+
+### No obstruction at \(M=10\) from the current seed bound
+
+The seed-correlation lower bound (4) only obstructs \(2\le M\le9/4\). At \(M=10\), its first term is too large to force a positive \(\liminf\alpha_{p,M}\). Likewise, cap monotonicity gives
+\[
+\|h_{p,M}\|_{1,n}\le \|h_{p,N}\|_{1,n}\qquad(M>N),
+\]
+but supplies no upper bound tending to zero at any finite large cap. Therefore the present material neither proves nor refutes
+\[
+\alpha_{p,10}\longrightarrow0.
+\]
+
+The precise remaining gap is (G), or a substitute estimate controlling the growth of the averaged zero-floor orbit uniformly enough in depth before taking the prime limit. This is genuinely separate from the optimizer-weighted tail estimate.
+
+## Ranked next tests
+
+1. **Depth-uniform mean test (highest priority).** Prove, for \(M=10\),
+   \[
+   \lim_{J\to\infty}\limsup_{p\to\infty}
+   \left(2-\frac1J\sum_{j<J}\mu_j(p)\right)=0,
+   \]
+   together with a uniform bound on \(\frac1J\sum_{j<J}\mu_j(p)^2-\bigl(\frac1J\sum\mu_j(p)\bigr)^2\). This would imply (G) and hence unweighted defect vanishing via (F).
+
+2. **Rigorous fixed-depth progression to \(j=2,3,\ldots\).** Compute the limiting clipped-field laws and \(\mu_j(M)\) explicitly or with certified interval bounds. This will not settle the asymptotic target by itself, but it can identify whether the means exhibit a monotone drift toward \(2\), or whether a persistent finite-depth deficit/correlation is emerging.

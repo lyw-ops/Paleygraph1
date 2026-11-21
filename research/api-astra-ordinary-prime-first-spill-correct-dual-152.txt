@@ -1,0 +1,179 @@
+## Report: ordinary-prime first-spill face dual
+
+### Checked result
+
+The exact face-dual reduction is valid, but the available first-spill estimates do **not** prove a uniform \(o(1)\) upper bound over all allowable dual minorants.
+
+Fix ordinary primes
+\[
+p\equiv1\pmod 4,\qquad n=\frac{p-1}{2},
+\]
+with normalized counting expectation \(\mathbb E=n^{-1}\sum\). Let \(T=T(p)\to\infty\) be chosen inside the actual simultaneous marked window, with \(T+1\) also admissible. The physical marked coordinate is \(0\); both physical roots and the diagonal are removed below.
+
+Let \(d=d(T)\) be the actual first-reflection input,
+\[
+d_0=0,\qquad d_i=(T^{-1/3}-Z_i)_+,
+\]
+and let \(b^{(0)}\) be the actual first reflected deficit. Fix the true complementary optimal face on the \(\sigma\)-side and a true opposite optimal face on the \(-\sigma\)-side. On the high receiver set
+\[
+S\subseteq \{i\neq0:b^{(0)}_i\ge b_*,\ R_i=0\},
+\]
+the middle input is
+\[
+d_{\rm mid}
+=d\,1_{\{\,n^{-1/4}T^{1/12}\le d\le \sqrt n\,T^{-5/6}\,\}},
+\]
+and the correctly signed cost is
+\[
+w_i
+=
+1_S(i)\bigl(-\sigma (K^\circ d_{\rm mid})_i\bigr)_+,
+\]
+where \(K^\circ\) is the off-diagonal kernel, with the physical roots omitted.
+
+Let \(\mathcal F_{-\sigma}\) be the true opposite optimal face, and define its common complementary zero set
+\[
+I=\{i\neq0:R_i=0\text{ for every }R\in\mathcal R_\sigma\}.
+\]
+Then the exact linear-programming dual is
+\[
+\inf_{F\in\mathcal F_{-\sigma}}\mathbb E(Fw)
+=
+\sup\left\{
+\mathbb EZ-\frac{q}{n}Z_0:
+Z\in U_\sigma,\quad Z_i\le w_i\ \ (i\in I)
+\right\},
+\tag{D}
+\]
+where \(q=F_0\) is the true opposite mark and
+\[
+U_\sigma=\mathbb R\mathbf1\oplus V_\sigma,\qquad
+KV_\sigma=\sigma V_\sigma.
+\]
+
+Thus the relevant target is
+\[
+\sup_{Z\in U_\sigma,\ Z|_I\le w}
+\left(\mathbb EZ-\frac qn Z_0\right)=o(1).
+\tag{T}
+\]
+
+This is a maximum over **all** feasible sector minorants. Exhibiting one minorant with small objective does not establish (T).
+
+### What the first-spill estimates do establish
+
+The actual first reflection satisfies
+\[
+\|d\|_2^2=O_\tau(T^{-1}),\qquad
+\mathbb E d=O_\tau(T^{-2/3}),
+\]
+and the high receiver has relative density \(O_{\tau,b_*}(T^{-1})\). The true signed pairing on the retained high receiver is positive under a fixed gap:
+\[
+-\frac{\sigma}{n}
+\sum_{\substack{i\in S\\j\neq0,\ j\neq i}}
+(F_i-H)_+K_{ij}d_j
+\ge c_{\tau,\eta,b_*}-o(1).
+\tag{1}
+\]
+
+The low and high input ranges can be removed with the corrected signs and physical support:
+
+- inputs \(d\le n^{-1/4}T^{1/12}\) contribute \(O_\tau(T^{-1/12})\);
+- inputs \(d>\sqrt n\,T^{-5/6}\) contribute \(O_\tau(T^{-1/6})\);
+- deleting the diagonal costs
+  \[
+  O_\tau(n^{-1/2}T^{-2/3});
+  \]
+- both roots are absent from the actual pairing.
+
+Consequently, a fixed gap forces a positive contribution from the true middle range. This is a valid reduction to the signed middle core.
+
+However, it is only a **lower bound** on the actual true pairing. It does not yield an upper bound on the face-dual maximum in (D).
+
+### Precise failure of the available sufficient bounds
+
+The generic norm estimate gives only
+\[
+\mathbb E(Fw)
+\le \|F\|_2\|w\|_2
+\le \sqrt q\,\|K^\circ d_{\rm mid}\|_2
+\ll n^{1/4}T^{-1/2},
+\]
+using \(q=O(\sqrt n)\) and \(\|d_{\rm mid}\|_2\le\|d\|_2=O(T^{-1/2})\). This is not uniformly \(o(1)\) in the proved marked window unless one imposes an additional relation such as \(T\gg n^{1/2}\), which is not available here.
+
+More importantly, this estimate is not genuinely signed and does not exploit the adaptive receiver \(S\). Replacing \(K^\circ d_{\rm mid}\) by its absolute value or summing dyadic absolute contributions would prove a stronger statement than needed, but no such bound follows from the current estimates.
+
+The filtered-support result also does not close the gap. It forces mass of a true feasible row away from certain long-order Bohr arcs for ordinary primes, but it does not control the correlation of that mass with the adaptive set
+\[
+S=\{b^{(0)}\ge b_*,\ R=0\}
+\]
+or with the sign pattern of \(K^\circ d_{\rm mid}\). In particular, it does not bound the dual objective in (D). The square-family obstruction shows why a generic Weil or translated-mask estimate cannot by itself supply the required weighted estimate; restricting now to ordinary primes removes the explicit square example but does not provide the missing prime-specific correlation theorem.
+
+### Hypotheses used
+
+The reduction assumes:
+
+1. \(p\equiv1\pmod4\) is an ordinary prime and \(n=(p-1)/2\).
+2. \(T=T(p)\to\infty\) lies in the actual simultaneous marked window, with \(T+1\) included.
+3. The true first reflected event satisfies \(b^{(0)}\ge b_*\) on the retained receiver.
+4. The input is the actual middle component \(d_{\rm mid}\), not an arbitrary nonnegative test vector.
+5. The physical coordinate \(0\), the other physical root, and the diagonal \(i=j\) are removed.
+6. The true optimal faces, marks, and complementary zero set are used; arbitrary weights or surrogate optimizers are not substituted.
+7. The order of limits is: first \(p\to\infty\) through ordinary primes with the selected \(T(p)\), and only afterwards any \(\tau\downarrow0\) limiting argument.
+
+### Conclusion
+
+The mission is **inconclusive** for the asymptotic target.
+
+What is proved is the exact reduction
+\[
+\text{gap}
+\Longrightarrow
+\text{positive actual signed middle first-spill pairing},
+\]
+together with the exact dual identity (D). What remains unproved is the prime-uniform estimate
+\[
+\sup_{Z\in U_\sigma,\ Z|_I\le
+1_S(-\sigma K^\circ d_{\rm mid})_+}
+\left(\mathbb EZ-\frac qnZ_0\right)=o(1).
+\]
+
+The current absolute, dyadic, and filtered-support estimates fail to control this adaptive signed maximum.
+
+## Ranked next tests
+
+### 1. Prime-specific adaptive-mask correlation estimate
+
+Prove a bound directly for the actual mask and actual input:
+\[
+\sup_{Z\in U_\sigma,\ Z|_I\le w}
+\left(\mathbb EZ-\frac qnZ_0\right)
+=o(1),
+\qquad
+w=1_S(-\sigma K^\circ d_{\rm mid})_+.
+\]
+
+The essential test is whether the ordinary-prime character expansion of the common zero set \(I\), combined with the first-spill definition of \(S\), yields cancellation against every \(Z\in U_\sigma\). This must retain the adaptive dependence of \(S\) on the true \(d\) and \(b^{(0)}\); an estimate for arbitrary weights would be stronger but is not currently justified.
+
+### 2. One-branch signed estimate from the actual endpoint representation
+
+Use
+\[
+e_\sigma=-\frac{P_{-\sigma}g_T}{2TM}
+\]
+and the actual first-spill formula to seek a bound on one true branch of the form
+\[
+\mathbb E\!\left[
+F\,1_S(-\sigma K^\circ d_{\rm mid})_+
+\right]=o(1).
+\]
+
+A viable intermediate target is a weighted endpoint estimate such as
+\[
+\mathbb E(F e_\sigma^2)=o(T^{-1/3})
+\]
+or a direct signed correlation estimate
+\[
+\frac{\sqrt n}{T}\,\mathbb E(F\Delta v)=o(1),
+\]
+for the true optimizer and actual \(T\). This would not establish the stronger absolute dyadic requirement, but it could be enough to close the single signed total needed for the proof.

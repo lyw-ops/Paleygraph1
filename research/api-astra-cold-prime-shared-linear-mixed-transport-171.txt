@@ -1,0 +1,136 @@
+## Result: the proposed transport is not yet proved; the available estimates fail at the required norm-conversion step
+
+I keep the actual family
+\[
+R=V_{601}-V_{600},\qquad V_s=V_{600}+sR,\qquad 0\le s\le1,
+\]
+with \(V_s=S+W_s\), where on good characters
+\[
+S=s_n(z+z^{-1})/2,\qquad s_n=2\sqrt{p/n},
+\]
+and \(W_s\) is the actual remaining field, including its \(sR\)-term. The physical mark remains \(t_0=n=(p-1)/2\), both lifts are retained, and all estimates are on the original closed complex square. The prime limit is along the eligible primes \(p\to\infty\), with \(n=(p-1)/2\).
+
+### 1. What is proved for the exact mixed packet
+
+For the exact source packet
+\[
+\mathcal P
+=
+R^2S\int_0^1(1-s)W_s\,ds,
+\]
+the first-harmonic terms in every even Taylor order reassemble before any multiplier is moved through \(K\). The scalar factor is
+\[
+\Xi_1(t)
+=
+\sum_{k\ge0}(-1)^k f_k
+\left(\frac{s_n^2}{4t}\right)^k,
+\qquad
+f_k=\frac{4(k+1)}3(2k+3)c_{k+1}^2,
+\]
+with \(c_l=4^{-l}\binom{2l}{l}\). In particular,
+\[
+f_0=1,\qquad f_1=\frac{15}{8}.
+\]
+
+Using the stated rational bounds on the original square,
+\[
+|\Xi_1(t)|
+\le
+U_1
+=
+1-f_1Y_0+f_2Y_1^2-f_3Y_0^3+f_4Y_1^4
++\Delta\frac{8}{3(1-\rho)^3}
+<0.802
+\]
+for all sufficiently large eligible primes. Thus the signed source-side compression is genuine and uniform in \(p\).
+
+The same reassembly is valid under every fixed frozen power
+\[
+B^jK,\qquad B=KD_{602},
+\]
+because the scalar acts on the common bulk vector \(\mathcal P\) before the outer frozen powers. The fixed source price is therefore improved by the factor \(U_1<0.802\). Together with the four explicit mixed debits and the pure-seed debits, the existing rational comparison gives the leading post-\(K\) source bound
+\[
+<0.00008874
+\]
+before the vanishing physical repairs, and the first actual \(KD_{602}\) step has price below \(0.00009460\) at translated rate \(1.066\).
+
+This establishes a checked signed improvement for the source itself.
+
+### 2. Why this does not prove a uniform growing-depth price
+
+The obstruction is that the scalar compression carries no \(j\)-decay:
+\[
+B^jK\bigl(\Xi_1(t)\mathcal P\bigr)
+=
+\Xi_1(t)\,B^jK\mathcal P.
+\]
+Hence \(U_1<0.802\) improves the source coefficient but does not make the transported sequence summable in \(j\).
+
+The available height-\(602\) estimate is only the entrywise frozen-kernel bound
+\[
+\sum_{j\ge0}\|B^jK\|_{\max}
+=
+O(n^{-0.455}),
+\]
+obtained by combining the translated rate \(1.066\), the counting contraction \(0.518\), and
+\[
+\min\{n^{-1/2}(1.066)^j,\;0.518^j\}
+\le
+\bigl(n^{-1/2}(1.066)^j\bigr)^{91/100}
+(0.518^j)^{9/100}.
+\]
+
+That estimate is not a translated operator estimate. For a source \(q\), its usable consequence is of the form
+\[
+\sum_{j\ge0}\|B^jKq\|_\infty
+\lesssim
+n^{1-0.455}\,\|q\|_{1,n},
+\]
+up to the fixed translated constants. The mixed source \(\mathcal P\) has only a fixed \(p\)-independent first-moment budget, of order
+\[
+\varepsilon^2s_n(M-s_n),
+\]
+not an additional \(n^{-1+\delta}\) factor. Consequently the available conversion gives at best
+\[
+n^{1-0.455}\|\mathcal P\|_{1,n}
+=
+O(n^{0.545}),
+\]
+rather than a uniform summable price. The scalar factor \(U_1\) changes the constant but not this exponent.
+
+The same problem appears for the nonlinear bridge. The frozen-orbit transfer requires a residual scale satisfying
+\[
+n^{1-\beta}r^2=o(1),
+\]
+together with signed partial-sum control at the moving starter. The actual fixed-height bounds presently available give \(r\) at a fixed nonvanishing scale such as \(0.011\) or \(0.012\), not a residual decaying sufficiently with \(n\). Therefore the hypotheses needed to turn the fixed-height packet estimate into a growing-depth confined orbit are not verified.
+
+### Conclusion
+
+The actual shared first-harmonic mixed packet has a rigorously checked signed source compression:
+\[
+U_1<0.802,
+\]
+with the physical mark \(t_0=n\), both lifts, the original square, and the actual \(R^2S\int(1-s)W_s\,ds\) packet preserved.
+
+However, the proposed **uniform growing-depth signed transport is not established**. The precise remaining gap is a norm-compatible transport estimate for this packet—either a translated bound for \(B^jK\) on the packet’s actual source subspace, or a decaying moving starter satisfying the nonlinear confinement condition. The present entrywise \(O(n^{-0.455})\) frozen estimate is insufficient after conversion to the required first/translated norm.
+
+## Ranked next tests
+
+1. **Packet-specific translated transport test — highest priority.**  
+   Prove directly, for the actual common-character packet \(\mathcal P\), a bound of the form
+   \[
+   \sum_{j\ge0}\|B^jK\mathcal P\|_{P_{5000}}
+   \le C\,\|\mathcal P\|_{P_{5000}}
+   \]
+   with \(C\) independent of eligible \(p\). The proof must retain the shared first harmonic through every \(B^jK\), rather than replacing the packet by an arbitrary column and paying the \(n^{1-0.455}\) conversion loss. Include the bad-character and physical-mark replacements separately.
+
+2. **Moving nonlinear starter test — second priority.**  
+   Construct a genuine \(p\)-dependent starter at a height \(h=h(p)\) for which the residual satisfies
+   \[
+   n^{1-\beta}r_h^2=o(1)
+   \]
+   and establish signed partial-sum bounds
+   \[
+   \sup_j\|B_h^jZ_h\|_{\max}=O(n^{-\beta})
+   \]
+   on the original square for both lifts and the physical mark. If this succeeds, apply the frozen-orbit transfer to obtain growing-depth confinement; if it fails, the failure should yield a quantitative obstruction to the nonlinear bridge rather than merely a fixed-height bound.

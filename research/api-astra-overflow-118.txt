@@ -1,0 +1,45 @@
+**Inconclusive for all primes.** There is a useful asymmetric resource test: at exceptional fibers one need not pay the packet price of the *inner* inverse at all. One can delete those fibers from the arithmetic mean and restore them using the normalized second norm of the genuine \(H_k\). The deletion must be common to the signed sum being restored; doing this word by word need not give the same saving.
+
+Here is my conditional estimate. I use the supplied reference texts; the two acceptance JSON files were not supplied for independent inspection. Take \(Q'\Subset Q\) fixed, centered at \(2031/128\), with half-width \(h'\). At Picard depth \(m=m(p)\) use \(V=V_m\) of the physical nine-center orbit, the real-positive continuations for \(\Phi\), and exactly \(R,D,Z,P,C\) of Round 115. Assume the Round 103 starter hypotheses on \(Q\), \(n^{(1-\beta)/2}r=o(1)\), counting contraction \(q_*<1\), and bounded \(C\). Set \(s=|\log q_*|\) and take
+\[
+ j=\left\lceil\beta\log n/(2s)\right\rceil,\qquad
+ k=\left\lceil(1-\beta)\log n/(2s)\right\rceil .
+\]
+Neither is a prescription for \(m\).
+
+For output coordinate \(a\), form two fields on the **summation** coordinate \(x\):
+\[
+ U_a(x)=\sqrt n\,(L_j)_{ax},\qquad
+ T(x)=\Phi_t''(V_x)P_x\,\sum_{v<k}[(KD)^v R]_x .
+\]
+Then the signed test is exactly \(P_a+\sqrt n\,\mathbb E_x U_a T\), with no complex conjugation. In particular the inner word ends in \(K\Phi_t(V)-V\), not in \(KR\). For each \(a,t\), allow a set \(F\) of at most \(b\) actual summation coordinates, including the physical mark if its formula is excluded. If a boundary fiber is specified on a lift, count the size of its projected exceptional set, not merely the number of fiber labels. Put \(B_F=\sup_F|U_a|\). One has the exact-price inequality
+\[
+ \left|\sqrt n\,\mathbb E_x 1_F U_a T\right|
+ \le B_F\sqrt b\,\|C\|_\infty\,r/(1-q_*).
+\]
+Indeed the restricted counting first norm of \(H_k\) is at most \(\sqrt{bn}\,r/(1-q_*)\). This estimate involves neither a Mellin coefficient of \(H_k\) nor any parity assumption on the mark.
+
+For clarity, the following is one sufficient arithmetic specification on the complement. Expand \(U_aT\) there into lift-averaged product words with coefficients \(c_w\), retaining any approximation error of normalized first norm \(e\) (zero extension of the error on \(F\)). For each word separate its **signed punctual trace contribution** \(d_w\) to the complement mean, normalized with denominator \(n\). Require
+\[
+ \left|\mathbb E 1_{F^c} w-d_w\right|\le M_w/\sqrt p.
+\]
+This last condition is a resource hypothesis, not a general consequence of bounded coordinates. In the negative-field triple of Round 105 the odd convolution has no punctual summand, hence \(d_w=0\); the generic-rank and weight estimate prices the nonpunctual term by the product of dimensions. Deleting additional good coordinates must also be debited (at most \(b\sup_{\rm good}|w|/n\) in the mean). For the present word one must classify the **whole product**, including curvature, the marked column in \(P\), and the residual. Two negative columns alone do not justify assigning odd parity. Unremoved bad characters, lift corrections, and any rank growth must enter \(M_w\) or be evaluated explicitly.
+
+A compatible uniform inequality, with a fixed positive margin, is
+\[
+ \sup_{a,t\in Q'}\left[
+ \left|P_a+\sqrt n\sum_w c_w d_w\right|
+ +\sqrt{n/p}\sum_w |c_w|M_w
+ +\sqrt n\,e+
+ B_F\sqrt b\,\|C\|_\infty r/(1-q_*)
+ \right]< {2\cdot10^{-4}\over\sqrt3\,h'} .
+\]
+Here the supremum ranges over coordinates and floors. This keeps the possible even wall *inside* the marked sum. In particular a packet proof with \(B_F=O(\rho^j)\), \(b=O(n^\lambda)\), \(\rho\ge1\), spends **vanishing** cap on the exceptional set whenever
+\[
+ \lambda+\beta\log(\rho)/s\ \le\ 1-\beta .
+\]
+Equality is allowed by the little-oh in the starter residual. This exponent calculation does not allow one to ignore growth on the good set: for example a good-word mass \(O(r\,\rho_1^j\rho_2^k)\) vanishes only as guaranteed by this accounting when \(\beta\log\rho_1+(1-\beta)\log\rho_2\le(1-\beta)s\) for growth factors at least one. Neither mass estimate is established here.
+
+Under the stated strict test the two truncation errors are \(o(1)\) by Round 115, and (2a) adds \(o(1)\) on the fixed interior. Vertical integration gives the angular gap there, subject to the stated sheet and uniqueness sector. This uses no separate smallness of \(H\). It does not transfer the Cauchy estimate to the original boundary. The reported height-527 full-square bound for \(10^{30}\le n\le10^{310}\) is separate evidence, not an initialization at moving depth.
+
+**Ranked tests.** (1) At the same candidate \(m(p)\) that meets the residual and first-step tests, tabulate the projected boundary union and \(B_F\) at the specified \(j,k\); check the exceptional exponent before pricing individual bad words. (2) On its complement compute the punctual coefficients of the curvature–marked-column–residual product first, pooling them with \(P_a\) before absolute values, then test the weighted nonpunctual mass. Neither a compatible starter nor this good-set bound follows from contraction; failure of either price would not exhibit a singularity.

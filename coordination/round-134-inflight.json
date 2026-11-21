@@ -1,0 +1,48 @@
+{
+  "round": 134,
+  "dispatch_status": "running; both launches observed, HTTP responses pending",
+  "accepted_checkpoint": {
+    "path": "research/round-133-acceptance.json",
+    "sha256": "29b8d7a50c56e3c2f97f67739295f88cf12b23f4bd6f4bc12ca88d8320fb30ed"
+  },
+  "coordinator": {
+    "path": "coordination/round-133.json",
+    "sha256": "b9d96253ca6fd01e93f6f96744fd39a78241e1596bdf1a06cd03f65f9317b995"
+  },
+  "validation_snapshot": {
+    "path": "/tmp/paley-archive-hydration-01a1ed0a/snapshot-manifest-133.json",
+    "sha256": "f1a87c5ac01db0a543d9a3f059bdd335e691cac48b79d014a958ed25cd86c82c"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-134-before.json",
+    "sha256": "af9f40303ecfe4a8ed71578e379a6223d4f249050bc6219eba7de9bc4605fdee"
+  },
+  "local_session_id": 63946,
+  "lanes": [
+    {
+      "call_id": "ordinary-weighted-jacobi-cancellation",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "50cf1d4e32a3930bad90099338b8ee1df7a682c53df1f10a6a6812100f0f9642",
+      "started_utc_epoch": 1795110254,
+      "mission_file": {
+        "path": "/tmp/paley-r134-overflow-mission-01a1ed0a.md",
+        "sha256": "0df5a9fdc19995b296adbeec4de713616cb776f587ad267cd57ee1630b1a9653"
+      },
+      "pending_receipt": "/tmp/paley-r134-api-01a1ed0a/overflow-receipt.json",
+      "pending_candidate": "/tmp/paley-r134-api-01a1ed0a/overflow-candidate.md"
+    },
+    {
+      "call_id": "cold-joint-nonlinear-packet-remainder",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "74ba6d778ba4e372627c4c27a9c88efebe83fd737d5e394765250138d17bded4",
+      "started_utc_epoch": 1795110254,
+      "mission_file": {
+        "path": "/tmp/paley-r134-cold-mission-01a1ed0a.md",
+        "sha256": "ba0ff342c5a808459c4ca6a1298830ca2f0a85994423b1c3b37af9c870495c2f"
+      },
+      "pending_receipt": "/tmp/paley-r134-api-01a1ed0a/cold-receipt.json",
+      "pending_candidate": "/tmp/paley-r134-api-01a1ed0a/cold-candidate.md"
+    }
+  ],
+  "next_step": "Audit the real support-sensitive signed seed upper and the marked nonlinear remainder, with shared-obligation closeout."
+}

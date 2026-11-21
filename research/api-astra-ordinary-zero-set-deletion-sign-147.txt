@@ -1,0 +1,148 @@
+## Result
+
+For the actual ordinary prime family
+\[
+p\to\infty,\qquad p\ \text{odd prime},\qquad n=(p-1)/2,
+\]
+fix the floor \(0<\tau<1\) first. Use the true zero-start marked orbit, with \(T=T(p)\to\infty\) chosen inside the simultaneous marked window containing \(T+1\), and use normalized averaging
+\[
+\mathbb E f=\frac1n\sum_{i\in G}f_i,\qquad G=\widehat{(\mathbb F_p^\times)^2}.
+\]
+Only after the prime limit is taken may one send \(\tau\downarrow0\). Let \(L=L(p)\ge0\) satisfy \(L=o(T)\).
+
+Let \(F\) be a true nonnegative mean-one optimizer on sign \(s\), with root \(q_s=F_0\), and let \(R\) be a true nonnegative mean-one optimizer on the opposite sign \(-s\), with root \(q_{-s}\). Thus
+\[
+q_s q_{-s}=n.
+\]
+
+Define
+\[
+D_i=1_{\{i\ne0\}}(F_i-L)_+.
+\]
+
+Then the exact opposite-sector orthogonality gives
+\[
+\mathbb E(FR)=1=\frac{F_0R_0}{n}.
+\]
+Since \(F,R\ge0\), it follows that
+\[
+F_iR_i=0\qquad(i\ne0).
+\]
+Hence
+\[
+\operatorname{supp}D\subseteq\{i\ne0:R_i=0\}. \tag{A}
+\]
+
+This is exact and is stronger than support in an ambient forbidden arc. The deleted tail really lies on the genuine opposite zero set.
+
+For the marked score, with \(\sigma=-s\),
+\[
+\Xi
+ =Z-\mathbf1-\frac{P_\sigma g_T}{2TM}
+ =U_\sigma-\mathbf1-\frac{g_T-\mathbb Eg_T}{2TM}
+ \in V_\sigma,
+\]
+where \(g_T\) is the actual terminal increment and \(G_T=\sqrt n\,g_T\). The exact clipping identity is
+\[
+\mathcal R_{F'}
+=
+-\mathbb E(D\Xi)-\frac{d}{n-1}\Xi_0,
+\qquad d=\mathbb ED. \tag{B}
+\]
+The root-restoration term is \(O_\tau(n^{-1/2})\), uniformly in \(F\) and \(L\), because \(\Xi_0=O_\tau(\sqrt n)\).
+
+Thus the desired one-sided deleted-tail estimate is precisely
+\[
+\mathbb E(D\Xi)\ge-o(1) \tag{C}
+\]
+for at least one actual optimizer \(F\), one admissible \(T(p)\), and some \(L=o(T)\).
+
+## What the exact zero set does and does not force
+
+The exact zero-set fact (A) does **not** force (C). Indeed \(R\in U_{-s}\) and \(\Xi\in V_{-s}\), so \(R\) and \(\Xi\) lie in the same opposite sector. Orthogonality gives no cancellation of
+\[
+\mathbb E(1_{\{R=0\}}\,\Xi).
+\]
+The pointwise constraints \(F\ge0\) and \(R\ge0\) only locate \(D\); they do not determine the sign of \(\Xi\) on that set.
+
+The only unconditional norm estimate currently available is
+\[
+|\mathbb E(D\Xi)|
+ \le \|D\|_{2,n}\|\Xi\|_{2,n}
+ \le C_\tau\sqrt T\,\|D\|_{2,n}. \tag{D}
+\]
+This is not \(o(1)\) under the permitted hypotheses \(L=o(T)\). In particular, exact support on \(R=0\) supplies no quantitative decay unless one proves an additional prime-sensitive estimate for either the weighted signed measure \(D\Xi\) or the actual zero-set geometry.
+
+The layer representation makes the missing input explicit:
+\[
+\mathbb E(D\Xi)
+ =
+\int_L^\infty
+ \mathbb E\!\left[1_{\{i\ne0,\ F_i>u\}}\Xi_i\right]\,du. \tag{E}
+\]
+Every layer is supported on the genuine zero set of \(R\), but none is known to have nonnegative signed pairing with \(\Xi\).
+
+The existing prime estimates on opposite autocorrelations and difference multiplicities control unsigned quantities such as
+\[
+\sum_h C_F(h)C_R(h),
+\]
+or localized positive hinge masses. They do not control the \(\Xi\)-weighted sign in (E). Replacing the genuine set \(\{R=0\}\) by an unrestricted support mask would therefore be a substantive strengthening, not a valid consequence of the current estimates.
+
+## Square control
+
+For square orders \(q=r^2\), the same exact support identity and clipping algebra hold, with the physical marking in the \(\sigma=-\) window testing the \(s=+\) ordinary row and root \(q_s=r-1\). The known square terminal-source lower bound is a control showing that the terminal statistic can remain macroscopically positive on the square family.
+
+It does **not** establish the missing prime estimate: no prime/square transfer of the signed quantity \(\mathbb E(D\Xi)\) is known. Thus the square result is a control against silently assuming universal favorable terminal behavior, not an obstruction uniform over ordinary primes.
+
+## Status
+
+**Inconclusive, with a precise obstruction.**
+
+What is proved:
+
+1. The deleted tail of every true optimizer is supported exactly on the true opposite zero set.
+2. The clipping residual reduces to the signed pairing (C), up to \(O_\tau(n^{-1/2})\).
+3. The available \(L^2\) estimate only gives (D), which is too weak.
+4. Opposite-sector orthogonality does not sign the pairing because \(R\) and \(\Xi\) occupy the same sector.
+
+What remains open is a genuinely prime-sensitive bound of one of the forms
+\[
+\mathbb E(D\Xi)\ge-o(1),
+\]
+for one selected true optimizer, or
+\[
+\int_L^\infty
+ \mathbb E\!\left[1_{\{F>u\}}\Xi\right]\,du\ge-o(1),
+\]
+with the bulk/root exclusions retained exactly.
+
+### Ranked next tests
+
+1. **Weighted active-row test on the true zero set.**  
+   For a selected true optimizer \(F\), opposite optimizer \(R\), and \(T(p)\), expand \(\Xi\) in its real Fourier rows and test whether the actual mask
+   \[
+   I_R=\{i\ne0:R_i=0\}
+   \]
+   satisfies a prime-uniform estimate
+   \[
+   \left|
+   \mathbb E\!\left[
+     1_{I_R}(F-L)_+\Xi
+   \right]\right|
+   =o(1)
+   \]
+   or, preferably, a one-sided lower bound. The test must retain the physical weights of \(\Xi\), not merely the support or difference multiplicities. This is the most direct route to (C).
+
+2. **Uniform obstruction test over the true optimizer face.**  
+   Define
+   \[
+   M_{p,T,L}
+   =
+   \sup_{F\in\mathcal F_s^{\rm opt}}
+   \mathbb E\!\left[1_{\{i\ne0\}}(F_i-L)_+\Xi_i\right].
+   \]
+   Search for an ordinary-prime subsequence, with fixed \(\tau\), \(T(p)\) in the marked window, and \(L=o(T)\), on which
+   \[
+   M_{p,T,L}\le-c_{\tau}<0.
+   \]
+   Such a bound would genuinely refute the favorable deleted-tail route. Any analogous negative result on squares should be recorded separately as a square control and not treated as a prime obstruction.

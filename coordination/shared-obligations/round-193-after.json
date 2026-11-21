@@ -1,0 +1,12 @@
+{
+  "reviewed_by": "Blind overlap review by the independent audit (subagent/r193-audit, a background Claude subagent of the generation-2 brain session), written before it opened any shared-obligation, draft or inflight file (research/native-claude-audit-193.md section 0); classification against the pre-dispatch record by the Claude Opus 5.5 coordinator, generation-2 brain session local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23 (agent assessment).",
+  "comparison": "Two-call batch. Auditor's blind answer: no shared estimate. Call 1 (review-lemma-mprime-theorem-a) touches cand:gp-shifted-energy only as the source of the Round 190 32/13 bound it re-checks; call 2 (ordinary-ss-star-literature) touches cand:gp-sector-constancy only through the progression-shaped failure remark; the two IDs appear together only in boilerplate. Shared inputs are context only (round-191 and round-192 acceptances; the pre-dispatch record named only the latter). A one-directional timing dependency was possible but unrealised: call 1's refuted branch would have deferred further ordinary calls, including call 2; call 1 came back supported. This agrees with the pre-dispatch record (known_shared empty). No overlap group.",
+  "groups": [],
+  "dispatch": "coordination/round-193-inflight.json",
+  "launched_at_utc": "2026-11-21T04:33:11.326815Z",
+  "launched_calls": [
+    "review-lemma-mprime-theorem-a",
+    "ordinary-ss-star-literature"
+  ],
+  "before_sha256": "af10ed1b2d0fd2011f674c949ff41b222d42b8a1279ca94d8b0404702b39d0df"
+}

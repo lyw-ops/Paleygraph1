@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "round": 168,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 168 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-167-acceptance.json",
+      "sha256": "73e5cf57f58bc571497bcb9a9826c445680aecdcb2d08f12c4376e1631c6284d"
+    },
+    "current": {
+      "path": "research/round-168-acceptance.json",
+      "sha256": "3737f77b1e5c216470d4df78bb3b3f9f161c95b2538abfd5bc44eb7b40b255fa"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The surviving one-match phase was expressed as a source-weighted signed 3+3 correlation. Both centered support costs lacked directional estimates.",
+      "after": "The inclusive one-match covariance is a positive physical norm up to the allowed error. The actual positive-first quotient has an exact nonnegative forcing dual and an actual basis admitting nonpositive inverse coefficients.",
+      "remaining": "Obtain the physical spectral gain for one-match and a separate zero-match estimate, or a fixed-gap exclusion via genuine one-sided source bounds and positive-support coercivity.",
+      "evidence": [
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-Gauss-covariance-pair-cuts-167.md",
+          "sha256": "357a038bf44c2ec61c02c18439b58e56b45a777bb187f188114fb92f69056008"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        },
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        },
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-cofactor-complementary-interpolant-164.md",
+          "sha256": "82dd62d71b94f89e74bedf469c1e42c4d0b0632df9017210cecb5bdd1e9c0f79"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "The first two orders share an R squared label; the all-order preinverse source bound was 0.0000971.",
+      "after": "All even units reassemble, surviving pure seed words use the total Laurent exponent, and the full source is below 0.00009657 before the translated inverse.",
+      "remaining": "Show signed summable transport of the actual distributed starter or construct a sufficient moving nonlinear bridge on the same square.",
+      "evidence": [
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-common-seed-Taylor-unit-167.md",
+          "sha256": "82135fb2a71a805ec4a322409c65e464294d5af8030115d5ae10bd525bf5f636"
+        },
+        {
+          "path": "research/cold-paired-Taylor-source-saving-165.md",
+          "sha256": "0f77c3acd8f976d86a3c0665f0eae80ccc23cb71e2b5305671d09aca4c987365"
+        },
+        {
+          "path": "research/cold-actual-leading-Taylor-source-164.md",
+          "sha256": "26f5bf798e88d7df6ab3784431b87d418bf59a4c7f896f55acf95fcfa13277fa"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The true regular one-match covariance has a nonnegative physical criterion, the actual quotient admits a positive dual, and the cold all-order source price is lower. The necessary prime-uniform estimates remain open.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-match-physical-spectrum",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the physical nonnegative one-match spectral mass be bounded by O(p^-1/2) with the actual normalized Gauss parameters?",
+      "why_now": "The exact inclusive form has only two sign-grouped physical norms. The h=1, product-balance, and repeated-match correction terms already meet the target.",
+      "scope": "Keep summed lifts, actual four-character probabilities and g(1-g). Analyze the co-moving rows U_(sign,r)(a) and exploit the actual lifted autocorrelation law, across r if necessary. State zero-match separately.",
+      "if_yes": "Prove the O(p^-1/2) physical estimate or an equivalent target-scale bound for the true one-match term.",
+      "if_no": "Prove a scoped obstruction to a specified physical localization or rank mechanism under the actual prime weights.",
+      "if_inconclusive": "Produce a nontrivial prime power gain on a proved physical spectral range, or derive an exact reduced convolution identifying the specific remaining part.",
+      "inputs": [
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-Gauss-covariance-pair-cuts-167.md",
+          "sha256": "357a038bf44c2ec61c02c18439b58e56b45a777bb187f188114fb92f69056008"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-quotient-positive-forcing",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Does the one-sided projected law of a genuine nonnegative quotient multiplier rule out a large correction on a fixed-gap prime sequence?",
+      "why_now": "The actual quotient has a conic dual on U minus A. A general signed inverse overlap can be replaced by positive mass on the true active constraints.",
+      "scope": "Use real true minimizer F, true mark q, minimum-support complement R and its A. Keep the actual F_A and projection to W_A. Try to bound the ratio of its negative forcing to the projected mass; separate the positive support cost.",
+      "if_yes": "Prove C_q=o(T) with an admissible growing T or a sufficient complete fixed-gap exclusion.",
+      "if_no": "Give a scope-accurate obstruction for the proposed positive cone inference.",
+      "if_inconclusive": "Prove an actual subclass of coercivity for dual probabilities, or identify a signed source/alignment test for the remaining cone.",
+      "inputs": [
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        },
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-cofactor-complementary-interpolant-164.md",
+          "sha256": "82dd62d71b94f89e74bedf469c1e42c4d0b0632df9017210cecb5bdd1e9c0f79"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-distributed-seed-transport",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the genuine distributed R squared source be transported with uniform summed translated price or be replaced by a justified moving signed starter?",
+      "why_now": "All pure seed scalar improvement is now isolated before the inverse, and additional source pricing alone does not solve transport.",
+      "scope": "Keep t0=n, both lifts and original square. Seek a signed coboundary or two-step telescope using the actual neighboring orbit, or a translated bound on the subspace reached from the true R squared source. Retain a compatible charge for any residual and mixed-word sources.",
+      "if_yes": "Prove a summable actual transport bound with regime and bridge hypotheses stated, or a complete sufficient moving-starter estimate.",
+      "if_no": "Prove a concrete obstruction to a specified signed telescope or restricted translated contraction.",
+      "if_inconclusive": "Give a new exact transport recurrence and identify a quantified unsummed remainder.",
+      "inputs": [
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-common-seed-Taylor-unit-167.md",
+          "sha256": "82135fb2a71a805ec4a322409c65e464294d5af8030115d5ae10bd525bf5f636"
+        },
+        {
+          "path": "research/cold-paired-Taylor-source-saving-165.md",
+          "sha256": "0f77c3acd8f976d86a3c0665f0eae80ccc23cb71e2b5305671d09aca4c987365"
+        },
+        {
+          "path": "research/cold-actual-leading-Taylor-source-164.md",
+          "sha256": "26f5bf798e88d7df6ab3784431b87d418bf59a4c7f896f55acf95fcfa13277fa"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 169 deductions survive independent review?",
+      "why_now": "A physical spectral gain, one-sided cone estimate, and transported cold estimate need checks of distinct hypotheses.",
+      "scope": "Read-only. Verify physical signs, marks, uniform prime limits, lifts, positivity, and exact remaining conditions. Give two ranked next tests.",
+      "if_yes": "State checked scope and outstanding estimate.",
+      "if_no": "Locate an invalid step.",
+      "if_inconclusive": "Separate proof, conditional bounds, and finite or floating evidence.",
+      "inputs": [
+        {
+          "path": "research/ordinary-one-match-positive-form-168.md",
+          "sha256": "9a76fe9175d13b4d2cf43ced79192afa94b205b7ece3812d4822cd723ddb0cd8"
+        },
+        {
+          "path": "research/ordinary-Gauss-covariance-pair-cuts-167.md",
+          "sha256": "357a038bf44c2ec61c02c18439b58e56b45a777bb187f188114fb92f69056008"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-quotient-positive-dual-168.md",
+          "sha256": "cab712efb50f2102eef6ace77ad03e85c954f0bacf55ae0cfac7acd3c118b48b"
+        },
+        {
+          "path": "research/ordinary-zero-block-low-rank-leakage-167.md",
+          "sha256": "f4194c4fede43ae4bafc96e2931e7a61e4ff0fbbde8cb89b5b4a0a9afa26a325"
+        },
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/cold-all-order-seed-transport-source-168.md",
+          "sha256": "a41b46512541f49f454e4b9b3d337a5b31fdf770fa9da4b50998d074c8c5d96b"
+        },
+        {
+          "path": "research/cold-common-seed-Taylor-unit-167.md",
+          "sha256": "82135fb2a71a805ec4a322409c65e464294d5af8030115d5ae10bd525bf5f636"
+        },
+        {
+          "path": "research/cold-paired-Taylor-source-saving-165.md",
+          "sha256": "0f77c3acd8f976d86a3c0665f0eae80ccc23cb71e2b5305671d09aca4c987365"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

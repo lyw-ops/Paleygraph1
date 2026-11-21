@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T00:16:09.173635Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-166.json#next_calls",
+  "coordinator_sha256": "943b0c736c1a5cadef97c0e835106724dd88203c9267f6f63c0588d8837a5c4c",
+  "call_ids": [
+    "ordinary-prime-large-zero-spectrum",
+    "ordinary-prime-three-Jacobi-covariance",
+    "cold-prime-outer-source-coefficient"
+  ],
+  "routes": {
+    "r167/ordinary-prime-large-zero-spectrum": {
+      "question": "Can the actual zero-coefficient block outside the small-size range have a sufficiently small directional inverse cost and Schur leakage?",
+      "scope": "Use genuine positive support, actual zero columns and pure marked compression. Preserve a full-span basis, actual c0 and signed Schur term. Any transfer needs exact scale at low eigenvalues and one admissible growing T.",
+      "remaining": "Control larger actual directional blocks and the low Schur source, or the regular actual weighted covariance needed for the moderate slice."
+    },
+    "r167/ordinary-prime-three-Jacobi-covariance": {
+      "question": "Can the regular three-Jacobi weighted covariance be O(p^1.5) under the actual slope multiplier?",
+      "scope": "Keep true omega=max-weight cap law, both outer square lifts, full Jacobi signs and regular frequency exclusions. The physical completion is an upper. Use the actual weight, no uniform replacement of character correlations.",
+      "remaining": "Control larger actual directional blocks and the low Schur source, or the regular actual weighted covariance needed for the moderate slice."
+    },
+    "r167/cold-prime-outer-source-coefficient": {
+      "question": "Can actual even Taylor source labels combine through a first or second outer step, with a path to a signed summable tail?",
+      "scope": "Keep the actual n=t0=(p-1)/2, both lifts, true V_s and R, original square and translated norm. The paired factors are the non-increment factors. Track the order of K and direct K squared atom.",
+      "remaining": "Prove a genuinely signed actual transported packet and its tail or a compatible growing starter."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-large-zero-spectrum": [],
+    "ordinary-prime-three-Jacobi-covariance": [],
+    "cold-prime-outer-source-coefficient": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The large zero-block direction is an actual all-fixed-gap source problem. The regular three-Jacobi covariance is a separate sufficient moderate collision bound. The cold physical source coefficient is independent."
+}

@@ -1,0 +1,249 @@
+## Status: inconclusive, with a checked partial bound
+
+I could not obtain a prime-uniform \(o(1)\) estimate for the entire exact first-reflection core. The obstruction is the intermediate deficit range, not the very small or very large part.
+
+I keep the requested family and limits explicit:
+
+- \(p\to\infty\) through ordinary primes \(p\equiv1\pmod4\);
+- \(n=(p-1)/2\);
+- fixed \(\tau>0\);
+- the physical coordinate \(0\) is the marked coordinate;
+- \(T=T(p)\to\infty\), with \(T+1\) in the certified simultaneous marked window;
+- all norms are normalized by \(\mathbb E_n=n^{-1}\sum_i\);
+- the diagonal, input root \(j=0\), and output root \(i=0\) are removed.
+
+Let
+\[
+d_i=(T^{-1/3}-Z_i)_+,\qquad d_0=0,
+\]
+and let
+\[
+f_i=(F_i-H)_+\,
+1_{\{i\ne0,\;R_i=0,\;b_i^{(0)}\ge b_*\}},
+\]
+where \(F\) is the selected opposite true optimum, \(R\) is a true same-sector optimum, and \(H=o(T)\). The exact core is
+\[
+\mathcal S_{\rm core}
+=
+-\frac{\sigma}{n}
+\sum_{\substack{i\ne0,\;R_i=0,\;b_i^{(0)}\ge b_*\\
+j\ne0,\;j\ne i\\
+n^{-1/4}<d_j\le \sqrt n\,T^{-2/3}}}
+(F_i-H)_+K_{ij}d_j
+=
+-\mathbb E_n\bigl[f\,K d_{\rm core}\bigr].
+\]
+
+The established source estimates are
+\[
+\mathbb E_n d^2=O_\tau(T^{-1}),\qquad
+\mathbb E_n d=O_\tau(T^{-2/3}),
+\]
+and, since \(0\le f\le F\),
+\[
+\mathbb E_n f\le1,\qquad
+\|f\|_{2,n}\le \sqrt q\ll_\tau n^{1/4}.
+\]
+
+### Checked partial decomposition
+
+Set
+\[
+D_{\rm lo}=n^{-1/4}T^{1/12},
+\qquad
+D_{\rm hi}=\sqrt n\,T^{-5/6}.
+\]
+In the certified marked window,
+\[
+n^{-1/4}<D_{\rm lo}<D_{\rm hi}<\sqrt n\,T^{-2/3}
+\]
+for all sufficiently large \(p\). The first inequality is immediate; the last two follow, for example, from \(T=o(n^{9/11})\), which is much weaker than the present simultaneous window.
+
+Split
+\[
+\mathcal S_{\rm core}
+=
+\mathcal S_{\rm low}
++\mathcal S_{\rm mid}
++\mathcal S_{\rm top},
+\]
+according to
+\[
+d\le D_{\rm lo},\qquad
+D_{\rm lo}<d\le D_{\rm hi},\qquad
+D_{\rm hi}<d\le \sqrt n\,T^{-2/3}.
+\]
+
+### 1. Lower part
+
+The already established low-deficit estimate gives
+\[
+|\mathbb E_n(fK\,d\,1_{\{d\le A\}})|
+\ll_\tau
+n^{1/4}
+\min\{A T^{-1/6},\,\sqrt{A T^{-2/3}}\}.
+\]
+Applying it with \(A=D_{\rm lo}\), and enlarging the range from
+\(n^{-1/4}<d\le D_{\rm lo}\) to \(d\le D_{\rm lo}\), gives
+\[
+|\mathcal S_{\rm low}|
+\ll_\tau
+n^{1/4}D_{\rm lo}T^{-1/6}
+=
+O_\tau(T^{-1/12}).
+\]
+
+### 2. Top part
+
+For a dyadic level \(a<d\le2a\), the entrywise Jacobi bound
+\[
+|K_{ij}|\ll \frac{\sqrt p}{n}\asymp n^{-1/2}
+\]
+gives
+\[
+\begin{aligned}
+\left|\mathbb E_n\bigl[fK(d1_{\{a<d\le2a\}})\bigr]\right|
+&\le
+\frac{\sqrt p}{n^2}
+\Bigl(\sum_i f_i\Bigr)
+\Bigl(\sum_j d_j1_{\{a<d_j\le2a\}}\Bigr)\\
+&\ll
+\sqrt n\,\mathbb E_n f\,
+\mathbb E_n[d1_{\{d>a\}}].
+\end{aligned}
+\]
+Since \(d1_{\{d>a\}}\le d^2/a\),
+\[
+\mathbb E_n[d1_{\{d>a\}}]\le \frac{\mathbb E_n d^2}{a}
+\ll_\tau \frac{1}{aT}.
+\]
+Therefore
+\[
+\left|\mathbb E_n\bigl[fK(d1_{\{a<d\le2a\}})\bigr]\right|
+\ll_\tau \frac{\sqrt n}{aT}.
+\]
+Summing over dyadic \(a\ge D_{\rm hi}\),
+\[
+|\mathcal S_{\rm top}|
+\ll_\tau
+\frac{\sqrt n}{T}
+\sum_{a\ge D_{\rm hi}}\frac1a
+\ll_\tau
+\frac{\sqrt n}{T D_{\rm hi}}
+=
+O_\tau(T^{-1/6}).
+\]
+This estimate is valid after removing both roots and the diagonal, since those restrictions only reduce the absolute sum.
+
+Consequently,
+\[
+\boxed{
+|\mathcal S_{\rm core}|
+\le
+O_\tau(T^{-1/12})
++
+|\mathcal S_{\rm mid}|
++
+O_\tau(T^{-1/6}),
+}
+\]
+where the exact remaining range is
+\[
+\boxed{
+D_{\rm lo}<d\le D_{\rm hi},
+\qquad
+n^{-1/4}T^{1/12}<d\le \sqrt n\,T^{-5/6}.
+}
+\]
+
+Thus the lower and upper portions of the actual core are already \(o(1)\) as \(p\to\infty\) through \(p\equiv1\pmod4\), with \(\tau\) fixed and \(T(p)\to\infty\). If the original argument later sends \(\tau\downarrow0\), the order remains \(p\to\infty\) first and then \(\tau\downarrow0\).
+
+## Precise remaining failure
+
+For the intermediate range, the available operator estimate is only
+\[
+|\mathcal S_{\rm mid}|
+\le
+\|f\|_{2,n}\|K d_{\rm mid}\|_{2,n}
+\le
+\|f\|_{2,n}\|d_{\rm mid}\|_{2,n}
+\ll_\tau n^{1/4}T^{-1/2}.
+\]
+This is not \(o(1)\) in the marked window.
+
+The entrywise bound is also ineffective at the lower edge of the remaining interval:
+\[
+|\mathcal S_{\rm mid}|
+\ll_\tau
+\frac{\sqrt n}{T D_{\rm lo}}
+=
+n^{3/4}T^{-13/12},
+\]
+which is again not useful.
+
+This is a genuine limitation of the presently available estimates, not a refutation of the prime target. A uniform estimate for arbitrary weights cannot be expected from \(K^2=I-J\) alone: on the mean-zero space \(K\) is an isometry, so adaptive weights can in principle align with \(K\). The actual weights here are more structured, but that structure has not yet been converted into a prime-uniform estimate. In particular, fixed-mask Weil bounds do not apply directly because both \(f\) and the level sets of \(d\) are selected from the same Jacobi orbit and hence depend adaptively on the prime arithmetic.
+
+No full signed \(o(1)\) bound is therefore established.
+
+## Ranked next tests
+
+### 1. Prove an aggregate prime restricted-Jacobi estimate on the exact middle range
+
+For dyadic \(a\) with
+\[
+D_{\rm lo}\le a<D_{\rm hi},
+\qquad
+d^{(a)}=d\,1_{\{a<d\le2a\}},
+\]
+test whether one can prove, uniformly for every ordinary prime \(p\equiv1\pmod4\), every admissible marked \(T\), and the actual \(F,R\),
+\[
+\boxed{
+\sum_{a}
+\left|
+\frac1n
+\sum_{\substack{i\ne0,\;R_i=0,\;b_i^{(0)}\ge b_*\\
+j\ne0,\;j\ne i}}
+(F_i-H)_+K_{ij}d^{(a)}_j
+\right|
+=o(1).
+}
+\]
+This is exactly sufficient, because the lower and top ranges have already been disposed of.
+
+The important test is whether the actual source \(d\), after writing
+\[
+d=(T^{-1/3}-U_\sigma-e_\sigma)_+,
+\]
+admits a translated-character expansion whose complexity remains summable over these dyadic levels. A successful proof must retain the dependence of \(f\) and \(d\) on the same prime orbit; applying Weil separately to fixed masks would not suffice.
+
+### 2. Test the exact common-zero-set dual for the weighted middle cost
+
+Let \(\mathcal R\) be the full same-sector optimal face and
+\[
+I=\{i\ne0:R_i=0\text{ for every }R\in\mathcal R\}.
+\]
+For
+\[
+w_{\rm mid}=(K d_{\rm mid})_+
+\]
+with the root and diagonal removed, test the exact dual quantity
+\[
+\inf_{F\in\mathcal F_{\rm opp}}
+\mathbb E_n(Fw_{\rm mid}),
+\]
+or, equivalently through the terminal-face dual, the existence of
+\(Z\in U_{-\sigma}\) satisfying
+\[
+Z_i\le w_{\rm mid,i}\quad(i\in I)
+\]
+and
+\[
+\mathbb E_n Z-\frac{q}{n}Z_0=o(1).
+\]
+
+Since \(0\le f\le F\),
+\[
+\mathcal S_{\rm mid}
+\le \mathbb E_n\bigl[F(Kd_{\rm mid})_+\bigr],
+\]
+so such a common-zero-set estimate would control the exact signed receiver after selecting a suitable true optimum. This test is lower priority because the cost \(w_{\rm mid}\) is itself nonlinear and depends on the actual negative-part history, but it directly targets the remaining adaptive obstruction rather than replacing it by a static mask.

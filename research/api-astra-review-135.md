@@ -1,0 +1,13 @@
+# Review of the three round-135 gateway drafts
+
+The [three receipts](api-astra-135-receipt.json) record completed Astra 6.2 replies. The [dispatch before record](../coordination/shared-obligations/round-135-before.json), [inflight manifest](../coordination/round-135-inflight.json) and [closeout](../coordination/shared-obligations/round-135-after.json) show one recognized shared candidate, `cand:cold-pure-seed-remainder-472`. The two cold calls had the same actual remainder norm, rows, floor square and marking, with different intended methods. The real ordinary-window call had a separate obligation. The comparison led to no dispatch change.
+
+The [envelope response](api-astra-cold-remainder-envelope-135.txt) writes the derivative \(d_t'(S)\) with an extra factor \(S\) in its first display. Its ensuing binomial linear series is correct. The original square is centered at \(2031/128\), so using \(t\ge28\) for its tail is inapplicable. Signed collection needs identical Mellin objects or an exact identity of their trace rows. Equal numerical boundary weights are insufficient.
+
+The [geometric response](api-astra-cold-remainder-geometric-135.txt) correctly keeps the signed physical price separate from position entries and the positive majorant. Its proposed retained matrix witness would require a genuine bounded dual functional for the actual packet price. The existing entry and counting facts do not provide one.
+
+The [coordinator replay](cold-remainder-135.md) gives an outward lower bound above \(0.6404\) on the specified unsigned linear-plus-cubic comparison at height 601. This exceeds the shared \(0.472\) budget for that comparison. For the actual remainder the geometric tail after the first 14 binomial orders costs less than \(0.0000407\), apart from the eventual exceptional allowance. The actual two-step remainder has counting rate below \(0.234\). Its translated physical price remains open.
+
+The [ordinary response](api-astra-ordinary-window-signed-tail-135.txt) supplies no upper on the actual clipped ordinary row or its signed tail. Its proposed positive sector test is [equivalent](ordinary-sector-square-tail-135.md) to uniform integrability of the bulk squares, a stronger requirement than the signed first-moment tail. The bounded-window approximant needs even total parity. These ingredients remain separate.
+
+The ranked cold test is an explicit Laurent-by-field aggregation of \(d_t'(S)(V_h-S)\) on both rows, followed by the signed terms with at least two nonseed factors. The real test is a true support-sensitive signed tail or a fixed-complexity even approximation to the ordinary clipped window.

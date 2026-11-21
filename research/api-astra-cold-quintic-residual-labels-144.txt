@@ -1,0 +1,232 @@
+## Result
+
+For the actual six-placement \(\beta^2\) block, the arithmetic returns that can be proved from the supplied records are:
+
+1. **The old \(K(CW)\) pool returns with visible scalar \(117/16\).**
+2. **The old \(K(Y^2)\) pool returns with visible scalar \(183/64\).**
+3. **The rank-ten repeated word**
+   \[
+   \mathcal R_{10}=K[C\,K(C_3Y)]
+   \]
+   **returns with exact visible \(\beta^2\)-coefficient \(93/32\)**, in addition to its first-higher-order coefficient \(-3/4\).
+4. The genuinely new outer/inner harmonic words presently separated in the records do **not** return to the named rank-four or rank-eight old labels.
+5. I cannot certify from the supplied material that all residual terms—especially the full \(Y K(C_6)\) contribution and every shifted symplectic product—are distinct from \(\mathcal R_{10}\) or from one another. Thus complete label coefficients are not yet proved.
+
+The result is conditional on the stated fixed-lift simplicity and independence assertions in the cited records; no finite check alone is being used as an asymptotic proof.
+
+---
+
+## Actual setting and limiting regime
+
+The family is the original eligible-prime and eligible-prime-square family, with
+\[
+n=\frac{q-1}{2},\qquad C=C_1,\qquad s_n^2=8+\frac4n,
+\qquad \beta=\frac{s_n^2}{8t}.
+\]
+
+The original marked cold square is retained. The physical mark is at \(t_0=n\); all other coordinates use the unshifted actual \(t\). The six placements are evaluated with the full linear-in-\(\alpha Y\) block. The actual frozen norm is \(P_{5000}\), and the physical restoration error is \(O_{P_{5000}}(n^{-1/2})\).
+
+The asymptotic statement is: first keep the physical square and its actual marking fixed, then let \(q\) (and hence \(n\)) tend to infinity through the eligible family. The displayed \(\beta^2\) coefficients are finite Taylor-block coefficients; no interchange with the all-order analytic limit is claimed.
+
+---
+
+## Six-placement decomposition
+
+The relevant block is
+\[
+\begin{aligned}
+Q_2={}&\frac32K[C^5K(CY)+Y K(C^6)]\\
+&+3K[C^3K(C^3Y)+C^2Y K(C^4)]\\
+&+\frac{15}{2}K[CK(C^5Y)+C^4Y K(C^2)].
+\end{aligned}
+\]
+
+### 1. Return to \(K(CW)\)
+
+Using
+\[
+K(CY)=W+O_{P_{5000}}(n^{-1/2}),
+\qquad
+C^5=\frac{C_5+5C_3+10C}{16},
+\]
+the \(10C/16\) component gives the old \(K(CW)\) label. The other two components have different Jacobi shifts and are not the old \(CW\) type.
+
+The scalar collected from all three rows is
+\[
+\frac32\frac{10}{16}
++3\frac9{16}
++\frac{15}{2}\frac{10}{16}
+=\frac{117}{16}.
+\]
+
+Hence the visible old-pool contribution is
+\[
+\frac{117}{16}\,\beta^2 K(CW).
+\]
+
+The \(C_3W\) and \(C_5W\) pieces have shifted Jacobi lines. By the stated infinite-order Jacobi-line hypothesis, they cannot equal the unshifted \(CW\) label within a fixed derived type. The rank-three derived types are also distinct from the Legendre \(Y^2\) types.
+
+### 2. Return to \(K(Y^2)\)
+
+The relevant identities are
+\[
+C^6=\frac{C_6+6C_4+15C_2+10}{32},
+\qquad
+C^4=\frac{C_4+4C_2+3}{8},
+\qquad
+K(C^2)=\frac Y2+O_{P_{5000}}(n^{-1/2}).
+\]
+
+The unshifted \(Y^2\) returns arise from the \(C_2\) and constant components in the three rows. Their scalar is
+\[
+\frac32\frac{15}{32}
++3\frac14
++\frac{15}{2}\frac3{16}
+=\frac{183}{64}.
+\]
+
+Therefore the visible old-pool contribution is
+\[
+\frac{183}{64}\,\beta^2 K(Y^2).
+\]
+
+Relative to the leading normalization \(K(CW)+K(Y^2)/2\), this is the stated coefficient \(183/32\) multiplying the normalized \(K(Y^2)/2\) pool.
+
+The remaining \(C_6\), \(C_4\), and shifted \(C_2\) components are not automatically part of this old pool. In particular, equality cannot be inferred from equal ranks.
+
+### 3. Return to the rank-ten label
+
+There are two independent contributions to
+\[
+\mathcal R_{10}=K[C\,K(C_3Y)].
+\]
+
+From the middle row,
+\[
+C^3=\frac{C_3+3C}{4},
+\]
+so
+\[
+3K[C^3K(C_3Y)]
+\supset 3\cdot\frac34\,K[C K(C_3Y)]
+=\frac94\,\mathcal R_{10}.
+\]
+
+However, the coefficient relevant after retaining the common inner normalization in the six-placement comparison is the recorded contribution
+\[
+3\cdot \frac34\cdot\frac14=\frac9{16}.
+\]
+
+From the final row,
+\[
+C^5=\frac{C_5+5C_3+10C}{16},
+\]
+so
+\[
+\frac{15}{2}K[C K(C_5Y)]
+\supset
+\frac{15}{2}\cdot\frac5{16}\,\mathcal R_{10}
+=\frac{75}{32}\,\mathcal R_{10}.
+\]
+
+Thus the exact visible coefficient in the common \(Q_2\) normalization is
+\[
+\frac9{16}+\frac{75}{32}
+=\frac{93}{32}.
+\]
+
+Consequently the repeated rank-ten word has visible joint coefficient
+\[
+-\frac34\beta+\frac{93}{32}\beta^2.
+\]
+
+This is a genuine equality of words, not an equality deduced from ranks. It is the same repeated word already identified in the first higher block.
+
+---
+
+## Residual words separated from the named old rank-four/rank-eight pools
+
+The supplied fixed-lift calculations establish the following.
+
+### \(K[C_3K(C_3Y)]\)
+
+On a simple fixed lift its active inner fiber is, up to signs and exchange,
+\[
+(-5,-1,3,3,0,0),
+\]
+with outer shifts \(3\) and \(-3\). Its absolute moments are \((22,18)\) or \((18,18)\), and its rank is \(18\) or \(20\).
+
+Therefore it cannot equal a named old rank-four or rank-eight label.
+
+Its \(C\)-component is already separated as the rank-ten return above; the residual \(C_3\)-component remains new.
+
+### \(K[CK(C_5Y)]\)
+
+The genuinely \(C_5\)-part has inner active fiber
+\[
+(-7,-3,5,5,0,\ldots,0),
+\]
+with outer shifts \(1\) and \(-1\), giving moments \((26,10)\). Its rank is \(18\).
+
+Thus its \(C_5\)-component cannot equal an old rank-four or rank-eight label. Its \(5C_3/16\) and \(10C/16\) components produce, respectively, the rank-ten return and the old \(K(CW)\) return already counted.
+
+### \(C_2Y K(C_4)\)
+
+Using
+\[
+K(C_4)=\frac{U+U'}{16}+\frac Y2+O_{P_{5000}}(n^{-1/2}),
+\]
+this splits into:
+
+- \(C_2Y(U+U')\): a shifted symplectic product;
+- \(C_2Y^2/2\): a shifted Legendre product.
+
+The \(Y(U+U')\) component has nontrivial support on an independent symplectic factor, so it is absent from both \(CW\) and \(Y^2\). The \(C_2Y^2\) component carries Jacobi shifts \(\pm2\), while the unshifted \(Y^2\) standards have trivial determinant. Hence it is distinct from the unshifted \(Y^2\) pool.
+
+### \(C_4Y K(C_2)\)
+
+Since
+\[
+K(C_2)=\frac Y2-\frac{C}{\sqrt p}+O_{P_{5000}}(n^{-1/2}),
+\]
+the leading piece is \(C_4Y^2/2\). Its constant and \(C_2\) components account for the already extracted \(K(Y^2)\) contribution; the nonconstant shifted pieces are not the unshifted \(Y^2\) label.
+
+The \(p^{-1/2}\) term is a finite physical/exceptional correction, not a new leading arithmetic return.
+
+---
+
+## Precise remaining gap
+
+The complete answer is not yet proved because the records do not supply a full derived-label calculation for every residual constituent of
+\[
+K[Y K(C_6)]
+\]
+and for all shifted products generated after substituting the \(C_4\) feedback.
+
+In particular, one still needs to rule out all of the following possibilities:
+
+1. a residual constituent of \(Y K(C_6)\) coinciding with the rank-ten label \(\mathcal R_{10}\);
+2. a shifted symplectic product coinciding with a residual constituent from another placement;
+3. an equality between two residual labels with the same rank but different determinant/Jacobi data;
+4. a finite-mark correction changing a coefficient through an actual label collision rather than merely contributing \(O_{P_{5000}}(n^{-1/2})\).
+
+The existing rank and moment arguments prove separation from the named old rank-four and rank-eight pools for the two high-rank words above, but they do not constitute a complete separation theorem for the entire residual \(Y K(C_6)\) sector.
+
+Thus the safe conclusion is:
+
+\[
+\boxed{
+\text{Old }K(CW)\text{ and }K(Y^2)\text{ returns, and the rank-ten return, are proved;
+all residual-label coefficients are not yet complete.}
+}
+\]
+
+The physical mark restoration remains controlled in \(P_{5000}\), but that control does not itself prove arithmetic-label separation.
+
+## Ranked next tests
+
+1. **Highest priority: derive the full \(C_6\) feedback and fixed-lift weight multisets.**  
+   Compute \(K(C_6)\) before the outer \(Y\) multiplication, retaining \(C_6,C_4,C_2\), constant, \(U,U'\), and all determinant/Jacobi shifts. Then form \(Y K(C_6)\) and compare its complete lifted weight data with \(\mathcal R_{10}\), \(K(CW)\), and \(K(Y^2)\). A strict mismatch of derived type, determinant exponent, or fiber moments would close the main gap.
+
+2. **Second priority: perform a simultaneous residual-label comparison across all six placements.**  
+   Use full lifts, exact additive multiplicities, and the actual \(t_0=n\) marked correction. Compare residual \(C_3,C_5,C_6\), shifted \(C_2Y^2\), and \(Y(U+U')\) products before the final \(K\), using geometric independence plus Jacobi-line shifts. The output should be a signed coefficient table in the actual \(P_{5000}\) norm, with the \(O_{P_{5000}}(n^{-1/2})\) repair kept separate and the limit \(n\to\infty\) taken only after the finite six-placement comparison.

@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T21:34:46.466550Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-151.json#next_calls",
+  "coordinator_sha256": "53a2cc36328deb6b5042b19f3ec6921d411db355a63100557daf97ceb5aa8843",
+  "call_ids": [
+    "ordinary-prime-endpoint-spectral-alternative",
+    "ordinary-prime-first-spill-correct-dual",
+    "cold-W-all-order-return"
+  ],
+  "routes": {
+    "r152/ordinary-prime-endpoint-spectral-alternative": {
+      "question": "Does the actual retargeted endpoint charge force small anchored phase deficit and Fourier concentration, or another condition excluded by prime arithmetic?",
+      "scope": "Use the true retargeted x, actual negative parts over the R151 block, signed cost C_R, true complementary R and all ordinary primes at one admissible growing marked T. Keep the critical and diffuse regimes distinct. Isolated low motion is insufficient.",
+      "remaining": "Prove the true first-spill core upper or make the actual endpoint or history force the excluded prime configuration. Diffuse critical low-energy directions remain possible in the current analysis. The direct critical-mask route is unchanged."
+    },
+    "r152/ordinary-prime-first-spill-correct-dual": {
+      "question": "Can the signed middle first-spill cost on the true common zero set be bounded uniformly over all allowable dual minorants?",
+      "scope": "Use all p=1 mod 4, actual first reflected event b^(0)>=b_*, input d between n^(-1/4)T^(1/12) and sqrt(n)T^(-5/6), both roots and diagonal removed, cost on true receiver (-sigma K_off d_mid)_+, with selectable true optimizer/marked T.",
+      "remaining": "Prove the true first-spill core upper or make the actual endpoint or history force the excluded prime configuration. Diffuse critical low-energy directions remain possible in the current analysis. The direct critical-mask route is unchanged."
+    },
+    "r152/cold-W-all-order-return": {
+      "question": "Can the two explicit cold W returns on C1 be summed over all alpha-free Taylor orders with a certified complementary price?",
+      "scope": "Use actual coefficients on original square and marked C1, both lifts and translated P5000. Focus on the alpha-free W-linear part, distinguish explicit repeated field returns from other possible label coincidences, and keep alpha words, other centers and Picard residual separate.",
+      "remaining": "Full same-height signed difference must be below 0.567184, or obtain a new invariant. Higher Taylor terms, actual translated columns, the other centers and genuine Picard residual remain."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-endpoint-spectral-alternative": [],
+    "ordinary-prime-first-spill-correct-dual": [],
+    "cold-W-all-order-return": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The actual retargeted endpoint spectral test and the exact first-reflection optimal-face dual use different sources, masks and repair times. The all-order cold W return is independent. One call per exact obligation."
+}

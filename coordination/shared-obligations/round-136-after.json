@@ -1,0 +1,31 @@
+{
+  "reviewed_by": "Codex coordinator after three actual replies",
+  "comparison": "The two cold calls intentionally retested the exact previously recognized 0.472 candidate on the same marked square. The signed resummation is one partial upper and does not change the candidate scope. The other reply did not give a true packet dual. The real sector window and signed seed tail remain independent. There is no newly recognized or missed shared estimate and no change to this dispatch.",
+  "groups": [],
+  "recurrences": [
+    {
+      "id": "cand:cold-pure-seed-remainder-472",
+      "first_recorded_in": "coordination/shared-obligations/round-135-after.json",
+      "routes": [
+        "r136/cold-linear-relative-resummation",
+        "r136/cold-remainder-physical-dual"
+      ],
+      "dispatch_effect": "same"
+    }
+  ],
+  "evidence": [
+    "research/api-astra-136-receipt.json",
+    "research/api-astra-cold-linear-relative-resummation-136.txt",
+    "research/api-astra-cold-remainder-physical-dual-136.txt",
+    "research/api-astra-ordinary-signed-tail-prime-136.txt",
+    "research/cold-resummed-136.md"
+  ],
+  "dispatch": "coordination/round-136-inflight.json",
+  "launched_at_utc": "2026-11-19T18:29:22.748383Z",
+  "launched_calls": [
+    "cold-linear-relative-resummation",
+    "cold-remainder-physical-dual",
+    "ordinary-signed-tail-prime"
+  ],
+  "before_sha256": "46dbe4506bf5548b78b94a74131f6a95523b4be92b5fb97bf3e7d5e8996e4b3b"
+}

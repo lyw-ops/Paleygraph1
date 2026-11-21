@@ -1,0 +1,127 @@
+## Result: \(\alpha=o(1)\) gives signed interaction control only with an additional stability or source-size hypothesis
+
+Fix \(t,M>0\), let \(p=2n+1\) run through the Paley primes, and write
+\[
+A=\sqrt{M^2+4t}.
+\]
+By the supplied mark limit \(U_0/\sqrt n\to0\), the mark is eventually not in the overflow set, since its enlarged threshold is \(\sqrt{M^2+4n}\). Thus all nonzero \(\tau_i\) are bulk coordinates and
+\[
+\tau_i=\operatorname{sgn}(U_i)(|U_i|-A),\qquad |U_i|>A.
+\]
+
+A pointwise checked inequality is
+\[
+\tau_i^2\le (U_i^2-M^2)_+.
+\]
+Indeed, on overflow,
+\[
+\tau_i=\sqrt{M^2+L_i}-\sqrt{M^2+4t},\qquad L_i=U_i^2-M^2,
+\]
+and \(\tau_i\le\sqrt{L_i}\). Consequently
+\[
+\|\tau\|_{2,n}^2\le \alpha. \tag{A}
+\]
+
+### 1. A genuine one-sided transport reduction
+
+On the overflow set,
+\[
+U_i=\operatorname{sgn}(U_i)(A+|\tau_i|),
+\]
+so exactly
+\[
+\tau_iU_i=A|\tau_i|+\tau_i^2.
+\]
+Therefore, for \(D_p=\|Y-U\|_{2,n}\),
+\[
+\begin{aligned}
+\mathbb E_n(\tau_iY_i)
+&=\mathbb E_n(\tau_iU_i)+\mathbb E_n\bigl(\tau_i(Y_i-U_i)\bigr)\\
+&\le A\,\mathbb E_n|\tau_i|+\mathbb E_n\tau_i^2
+   +\|\tau\|_{2,n}D_p\\
+&\le A\sqrt{\alpha}+\alpha+\sqrt{\alpha}\,D_p. \tag{B}
+\end{aligned}
+\]
+Hence the actual signed interaction is \(o(1)\) whenever \(\alpha=o(1)\) and
+\[
+\sup_p\|Y-U\|_{2,n}<\infty. \tag{C}
+\]
+This is a new sufficient reduction, but not a consequence of \(\alpha=o(1)\) alone.
+
+There is a parallel source formulation. Put
+\[
+z=b-2\sqrt t\,\mathbf 1\ge0.
+\]
+Since \(K\mathbf1=0\), \(Y=Kz\), and \(K^2=I-J_0\),
+\[
+|\mathbb E_n(\tau_iY_i)|
+=|\mathbb E_n((K\tau)_iz_i)|
+\le \|\tau\|_{2,n}\,\|z\|_{2,n}
+\le \sqrt\alpha\,\|z\|_{2,n}. \tag{D}
+\]
+Thus a uniform \(L^2\) bound on the true nonnegative source \(z\) also converts \(\alpha=o(1)\) into the desired vanishing interaction. Its mean is fixed,
+\[
+\mathbb E_n z_i=\nu-2\sqrt t,
+\]
+but this does **not** imply a uniform \(L^2\) bound: the source could concentrate on a vanishing set.
+
+A standard sufficient route to (C) is a genuine stability estimate. If, away from the exceptional mark, both \(Y\) and \(C_M(U)\) stay in a fixed bounded interval \([-B,B]\), then \(\Phi_t\) is \(q\)-Lipschitz there with
+\[
+q=\frac{B}{\sqrt{4t+B^2}}<1.
+\]
+Using \(\|U-C_M(U)\|_{2,n}\le\sqrt\alpha\),
+\[
+\|Y-U\|_{2,n}
+\le q\bigl(\|Y-U\|_{2,n}+\sqrt\alpha\bigr),
+\]
+and hence
+\[
+D_p\le \frac{q}{1-q}\sqrt\alpha. \tag{E}
+\]
+The mark has derivative tending to \(1\), so a bulk estimate alone does not automatically prove (E); this is precisely the remaining field-first stability issue.
+
+### 2. Why the actual Paley arithmetic does not give \(\max K\tau=o(1)\) from \(\alpha=o(1)\)
+
+For the genuine Paley matrix, apart from the exceptional/diagonal terms, the entries in a fixed row have common magnitude \(h_p\asymp n^{-1/2}\) and signs given by a quadratic character:
+\[
+K_{rj}=h_p\,\chi(r-j).
+\]
+The necessary arithmetic condition for vanishing signed transport is therefore
+\[
+\max_r h_p\left|\sum_{j\in S_p}\chi(r-j)\tau_j\right|=o(1), \tag{F}
+\]
+where \(S_p=\{j:\tau_j\ne0\}\). This is a weighted Paley character-sum condition on the **actual overflow set**.
+
+There is no unconditional cancellation in (F) for adaptively chosen \(S_p,\tau_j\). To see the obstruction with correct units, fix a row \(r\), choose \(m_p=\lfloor c/h_p\rfloor\asymp\sqrt n\) indices for which \(\chi(r-j)\) has the same sign, and prescribe
+\[
+\tau_j=c_0\,\operatorname{sgn}\chi(r-j)
+\]
+on this set. Then
+\[
+(K\tau)_r=h_p m_p c_0+o(1)\asymp c_0,
+\]
+while, choosing the corresponding prescribed overflow height
+\[
+L_j=4t+2Ac_0+c_0^2,
+\]
+gives
+\[
+\alpha=\frac{m_p}{n}L_j=O(n^{-1/2})\longrightarrow0.
+\]
+Thus \(\alpha=o(1)\) is compatible with order-one \(\max K\tau\) for the actual Paley sign pattern.
+
+This is an explicit **prescribed** obstruction, not a genuine capped fixed point: the displayed \(U\) and \(\tau\) need not satisfy \(U=K\Phi_t(C_M(U))\). Therefore it does not refute the desired theorem for the self-consistent capped row. It does show that Paley arithmetic alone, or the entrywise bound, cannot supply the theorem; one must prove that self-consistency prevents such row-adapted overflow.
+
+### Remaining gap
+
+The unresolved statement is consequently precise:
+
+> For the genuine capped fixed point, does self-consistency force either (C), or the weighted character estimate (F), or directly \(\mathbb E_n\tau_iY_i=o(1)\)?
+
+At present \(\alpha=o(1)\) supplies only (A). It does not by itself imply \(\kappa=\max K\tau=o(1)\), and the adaptive Paley obstruction prevents an unconditional character-sum argument.
+
+### Ranked next tests
+
+1. **Bulk stability test:** prove a fixed-floor bound on the true bulk source \(z=b-2\sqrt t\) in \(L^2\), with the mark separated explicitly. Then (D) immediately yields \(\mathbb E_n\tau Y=o(1)\).
+
+2. **Overflow character test:** compute the field-first capped iterates and test whether their genuine overflow sets satisfy (F). The target is weighted discrepancy \(o(h_p^{-1})=o(\sqrt n)\), not merely \(\alpha=o(1)\).

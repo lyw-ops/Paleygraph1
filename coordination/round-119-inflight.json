@@ -1,0 +1,35 @@
+{
+  "round": 119,
+  "dispatch_status": "terminal; response saved and independently reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-118-acceptance.json",
+    "sha256": "30ceb37502c5d209b16dbdc54ec5ea54808b042da8588b8618e403b177546ea2"
+  },
+  "coordinator": {
+    "path": "coordination/round-118.json",
+    "sha256": "f3b36c8670c607c83c922bcdb5180fb430e14e2a38252e6642dee502fb21959e"
+  },
+  "call_id": "weighted-real-slack",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "653dfa421dbf7372dd477412ecc1d733b3fffb01ecaa098d6c93c279b7a3d489",
+  "started_utc_epoch": 1795099728,
+  "local_session_id": 9129,
+  "mission_file": "/tmp/paley-r119-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r119-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r119-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Use the checked Round 119 coordinator before dispatching new calls.",
+  "audit_agent": "/root/audit_119",
+  "local_draft": "research/reflected-slack-repair-119.md",
+  "response": {
+    "path": "research/api-astra-overflow-119.txt",
+    "sha256": "cd7c9febea2bfcc01ac34ce09a00c80254eb939037b009cbc92050a6924bad54"
+  },
+  "receipt": {
+    "path": "research/api-astra-119-receipt.json",
+    "sha256": "44bcb9a771bf9b291405ea4c83e86c1a202a55fed53afd514d0fc3afad7f8cc2"
+  },
+  "acceptance": {
+    "path": "research/round-119-acceptance.json",
+    "sha256": "ac8cd476c1defe1042339f9c6fed908b59718975d3cef786f20cc6a285867a91"
+  }
+}

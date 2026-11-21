@@ -1,0 +1,33 @@
+{
+  "round": 106,
+  "dispatch_status": "terminal; response saved and reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-105-acceptance.json",
+    "sha256": "415c6e7c28d729793d0930908e91aba0413a78c1dfd611f4f2c584e2c023c366"
+  },
+  "coordinator": {
+    "path": "coordination/round-105.json",
+    "sha256": "5cfc58460e7803b55e181e9587bc23ff9431ff5f6bc4b06583564d822a0f4455"
+  },
+  "call_id": "growing-starter-resources",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "cef308223d7f7daf08d5486b710f21ab16af738f0aa56dc7c4715961ae6ff5a0",
+  "started_utc_epoch": 1795091836,
+  "local_session_id": 86369,
+  "mission_file": "/tmp/paley-r106-newton-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r106-api-01a1ed0a/newton-receipt.json",
+  "pending_candidate": "/tmp/paley-r106-api-01a1ed0a/newton-candidate.md",
+  "next_step": "Use the checked Round 106 coordinator record for subsequent assignments.",
+  "response": {
+    "path": "research/api-astra-newton-106.txt",
+    "sha256": "a58cf31b3aca49cd76a63289928a7c1770d59777dcfc8c86b8152e5e1fc7f6b5"
+  },
+  "receipt": {
+    "path": "research/api-astra-106-receipt.json",
+    "sha256": "79f950a32f690ef0f2f005007567ab39547e4ddc0528ba49274a4094368aa2a6"
+  },
+  "acceptance": {
+    "path": "research/round-106-acceptance.json",
+    "sha256": "6d9075b0323639cfcd7981e472999af1ae0e4c0aae46b54f559f5440f03d3275"
+  }
+}

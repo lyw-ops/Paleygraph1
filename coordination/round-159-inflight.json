@@ -1,0 +1,61 @@
+{
+  "round": 159,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-158-acceptance.json",
+    "sha256": "865072372bb37167a856dc0acc338556512d3ef9e868d8f71a86559fe1b974fd"
+  },
+  "coordinator": {
+    "path": "coordination/round-158.json",
+    "sha256": "cb68d53a4809233cb2dada639db76dc12a7e968f873eaa57fb594eaeef7c9265"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-159.py",
+    "sha256": "f73b221035030a5073ff744d05e3ec9de95af7c80d0f7cbf38c967d82849651b"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-159-before.json",
+    "sha256": "e6149fc0a4ca00d9476e4028fc71527cdb82fdcae29a0874e2201e5b7f1b9402"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-quantitative-slope-spread",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "7317df06331c7caef5d8518e4867ca4498a6a4b31bee6d2b6f49c9e53a10b56f",
+      "mission_file": {
+        "path": "coordination/missions/round-159/ordinary-prime-quantitative-slope-spread.md",
+        "sha256": "1d40fa3c49d5a89286ab1aa1c470d6d07a9dc2bcbbaec867e8ba6804ee608cfa"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r159-api-01a1ed0a/ordinary-prime-quantitative-slope-spread-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r159-api-01a1ed0a/ordinary-prime-quantitative-slope-spread-candidate.md",
+      "started_utc_epoch": 1795128823.527971
+    },
+    {
+      "call_id": "ordinary-prime-weighted-rank-two-transform",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "cc8ed672044f6436a05a11f84a263cbd52466e954c7f8161f3dacf46ccfeaa47",
+      "mission_file": {
+        "path": "coordination/missions/round-159/ordinary-prime-weighted-rank-two-transform.md",
+        "sha256": "74bf5745674de7774ef04f1777745fdfe7c11a99641cd975ca3d0099a1b17142"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r159-api-01a1ed0a/ordinary-prime-weighted-rank-two-transform-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r159-api-01a1ed0a/ordinary-prime-weighted-rank-two-transform-candidate.md",
+      "started_utc_epoch": 1795128823.5271838
+    },
+    {
+      "call_id": "cold-actual-H-vertex-or-invariant",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "8c1e66df88bc2599079e5766ff19f4a550715448cac0056aef8d07fa8f89db09",
+      "mission_file": {
+        "path": "coordination/missions/round-159/cold-actual-H-vertex-or-invariant.md",
+        "sha256": "4631654dd7dbb283eac913200bcf393df69860e7a09a1428560fe767c1b3d815"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r159-api-01a1ed0a/cold-actual-H-vertex-or-invariant-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r159-api-01a1ed0a/cold-actual-H-vertex-or-invariant-candidate.md",
+      "started_utc_epoch": 1795128823.527479
+    }
+  ]
+}

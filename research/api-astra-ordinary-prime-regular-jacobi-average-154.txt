@@ -1,0 +1,216 @@
+## Status
+
+**Inconclusive, with a precise obstruction to the proposed Gauss-quotient argument.** I obtain the exact quotient identity, but the near-critical Jacobi cap controls the quotient only on the original lifted support. The third factor evaluates the quotient at *ratios* of independently sampled lifted characters, where no corresponding cap information is available.
+
+Moreover, if the previously claimed \(\omega(p)\) lower for the same actual law is valid, then the requested \(O(p^{-1/2})\) phase upper is impossible: all nonregular and fixed-relation contributions are only \(O(p)\).
+
+### Actual law and limits
+
+Throughout:
+
+- \(p\to\infty\) through ordinary primes \(p\equiv1\pmod4\);
+- \(Q=(\mathbb F_p^\times)^2\), \(n=(p-1)/2\), \(G=\widehat Q\);
+- \(b=b^{(p)}\ge0\) is the actual retargeted deficit, with physical marked coordinate \(0\), \(b_0=0\);
+- \(r=\mathbb E b\), \(\nu_j=b_j/(nr)\), and
+  \[
+  m_{\rm eff}=\frac{nr^2}{\mathbb E b^2}\sim \frac n{\sqrt p},
+  \qquad
+  \frac{\|L_\sigma b\|_{2,n}}r=o(1);
+  \]
+- the actual cap is \(\max_j\nu_j=O(p^{-1/2})\);
+- every \(j\in G\) is lifted to \(\eta,\eta\chi\), each with weight
+  \[
+  w_\eta=\frac{\nu_{\eta|_Q}}2.
+  \]
+  The anchor \(\gamma\) is sampled from this same physical weight \(w\), not uniformly from the full character group.
+
+All integer floors and the \(T,T+1\) marked-window choices are made at finite \(p\), before the limit through ordinary primes. No square-field subsequence or interchange of floor and prime limits is used below. Norms are counting norms on \(Q\) and \(\mathbb F_p\).
+
+## Exact regular phase
+
+For lifted variables \((\gamma,U,V,U',V')\), write
+\[
+J_1=J(\gamma/V,U/\gamma),\qquad
+J_2=J(\gamma/V',U'/\gamma),
+\]
+and
+\[
+B=V/V',\qquad C=\frac{U/V}{U'/V'}.
+\]
+After the full-field lift and the \(u\in Q\setminus\{1\}\) sum, the regular contribution is
+\[
+p^{3/2}\,\Re A_p,
+\]
+where, after removing the prescribed finite list of fixed relations,
+\[
+\begin{aligned}
+A_p
+={}&\sum_{\mathcal R}
+ w_\gamma w_Uw_Vw_{U'}w_{V'}\,
+ \zeta_{\gamma,V,V'}\,
+ \frac{J_1}{\sqrt p}\,
+ \overline{\frac{J_2}{\sqrt p}}\\
+&\hspace{35mm}\times
+ \frac12\left(
+ \frac{J(B,C)}{\sqrt p}
+ +
+ \frac{J(B\chi,C)}{\sqrt p}
+ \right),
+\end{aligned}
+\]
+with the physical marking phase
+\[
+\zeta_{\gamma,V,V'}
+=(\gamma/V)(-1)\,
+ \overline{(\gamma/V')(-1)}.
+\]
+The factor \(\zeta\) cannot be discarded by averaging \(\gamma\) uniformly: \(\gamma\) has the actual weight \(w\).
+
+The two-trivial Jacobi terms and every fixed algebraic relation contribute \(O(p)\), using \(\max w_\eta=O(p^{-1/2})\). Thus the desired bound is genuinely
+\[
+\Re A_p=O(p^{-1/2}).
+\]
+
+## What the Gauss quotient actually gives
+
+On jointly regular characters, with normalized Gauss sums \(\tau(\alpha)=g(\alpha)/\sqrt p\),
+\[
+J(A,D)=\frac{\tau(A)\tau(D)}{\tau(AD)}.
+\]
+Consequently
+\[
+\frac{J(B\chi,C)}{J(B,C)}
+ =
+ \frac{\tau(B\chi)}{\tau(B)}
+ \frac{\tau(BC)}{\tau(B\chi C)}.
+\]
+Define
+\[
+R(X)=\frac{\tau(X\chi)}{\tau(X)}.
+\]
+Then
+\[
+\boxed{\displaystyle
+\frac{J(B\chi,C)}{J(B,C)}
+ =\frac{R(B)}{R(BC)}
+ =\frac{R(V/V')}{R(U/U')}.
+}
+\]
+
+This is the key obstruction. The near-cap Jacobi information concerns a supported lift \(\eta\):
+\[
+\frac{J(\eta,\chi)}{\sqrt p}
+=\frac{\tau(\eta)\tau(\chi)}{\tau(\eta\chi)}.
+\]
+Since the high signed phase is near \(\sigma\in\{\pm1\}\), it gives, on the high set carrying essentially all actual mass,
+\[
+R(\eta)=\frac{\tau(\eta\chi)}{\tau(\eta)}
+ \approx \sigma\,\tau(\chi).
+\]
+Thus \(R\) is controlled on the physical lifted support.
+
+But the third-factor quotient samples
+\[
+R(V/V')\quad\text{and}\quad R(U/U'),
+\]
+which are ratios of two independently sampled supported lifts. They need not lie in the supported set, and the near-cap hypothesis supplies no estimate for \(R\) on these ratio sets.
+
+There is even a direct positivity obstruction in a relaxed model. Let
+\[
+\mu(B)=\sum_{V/V'=B}w_Vw_{V'}
+\]
+be the actual ratio law. Ignoring the first two factors and the marking phase, the quotient part has average
+\[
+\sum_{B,D}\mu(B)\mu(D)R(B)\overline{R(D)}
+=
+\left|\sum_B\mu(B)R(B)\right|^2.
+\]
+So the Gauss quotient is not intrinsically cancellatory. A phase argument must control the *actual ratio law* and its coupling to \(J_1\overline{J_2}\zeta\); individual near-cap phases are insufficient.
+
+This is a specific failure of the quotient-only route. It does not yet disprove the full ordinary-prime estimate, because the first two Jacobi factors and the physical marking phase may still produce cancellation.
+
+## Conditional incompatibility with the known lower
+
+Let \(\mathcal M_p\) denote the actual moment, with the same \(b,\nu,w\), the same physical mark, and the same order of finite-\(p\) floor choices. The factorization and the \(O(p)\) regularity exclusions give
+\[
+\mathcal M_p=p^{3/2}\Re A_p+O(p).
+\]
+
+The restricted/full comparison in R153 changes the moment only by
+\[
+\left(\frac52+o(1)\right)p,
+\]
+and all degenerate or fixed-relation terms are \(O(p)\). Therefore, if the claimed critical lower for the actual law is indeed
+\[
+\mathcal M_p=\omega(p)
+\]
+along ordinary primes, then necessarily
+\[
+\Re A_p=\omega(p^{-1/2}).
+\]
+Hence an upper \(\Re A_p=O(p^{-1/2})\) would contradict that lower.
+
+This is not an unconditional refutation, because the existence of the actual near-critical ordinary-prime branch together with the \(\omega(p)\) lower is precisely part of the unresolved problem. But it shows that the requested upper cannot be proved simultaneously with that lower; one of the two claims must fail.
+
+## Evidence and remaining gap
+
+Established:
+
+1. The exact three-complete-Jacobi factorization, including both third-factor lifts.
+2. The actual \(O(p)\) cost of two-trivial terms, other degeneracies, and every fixed finite relation.
+3. The actual \(O(p^{-1/2})\) weight cap.
+4. The Gauss quotient identity
+   \[
+   J(B\chi,C)/J(B,C)=R(V/V')/R(U/U').
+   \]
+5. The fact that near-cap information controls \(R\) on supported lifts, not on their ratios.
+
+Missing is a prime-field estimate for the fully coupled weighted expression
+\[
+\sum_{\mathcal R}
+w_\gamma w_Uw_Vw_{U'}w_{V'}
+\zeta_{\gamma,V,V'}
+\Phi_1\overline{\Phi_2}
+\frac12(\Phi_3+\Phi_3^\chi),
+\]
+where \(\Phi_i\) are normalized Jacobi phases. Neither the cap, the ordinary-prime coset-spread bound, nor complete Jacobi size bounds supplies this estimate.
+
+## Two ranked next tests
+
+### 1. Highest priority: exact ratio-law diagnostic on the actual ordinary-prime sequence
+
+For each finite-\(p\) actual \(b\), compute separately:
+
+\[
+S_p=\sum_B\mu(B)R(B),
+\]
+and the fully coupled quantities
+\[
+\sum_{\mathcal R}w^5\,
+\zeta\,\Phi_1\overline{\Phi_2}R(V/V')\overline{R(U/U')},
+\]
+together with the same expression without the quotient replacement.
+
+Use only ordinary primes \(p\equiv1\pmod4\), retain the actual \(b_0=0\), actual anchor law, and actual finite-\(p\) floors. Record \(p^{1/4}|S_p|\) and \(p^{1/2}\Re A_p\), after removing exactly the allowed fixed relations.
+
+- If \(p^{1/4}|S_p|\) grows or stays bounded away from zero, the Gauss-quotient route is decisively inadequate.
+- If the coupled expression exhibits \(p^{-1/2}\) decay while \(S_p\) does not, cancellation must come from \(J_1\overline{J_2}\zeta\), identifying the correct object for an analytic theorem.
+
+This is diagnostic only, not an asymptotic proof.
+
+### 2. Analytic test: prove a ratio-rigidity or coupled trace estimate
+
+The weakest useful new theorem would control the actual ratio law, for example
+\[
+\left|\sum_B\mu(B)R(B)\right|\ll p^{-1/4}
+\]
+with the same near-critical \(b\), physical marking, and ordinary-prime limit. The stronger—and probably necessary—statement is the coupled estimate
+\[
+\left|\sum_{\mathcal R}w^5\,
+\zeta\,\Phi_1\overline{\Phi_2}
+R(V/V')\overline{R(U/U')}\right|
+\ll p^{-1/2},
+\]
+plus the analogous term without the quotient.
+
+A proof would need a genuine ordinary-prime trace/large-sieve input for ratios of the actual lifted support. The existing near-cap and coset-spread results do not imply it.

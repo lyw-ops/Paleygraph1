@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-149-inflight.json",
+    "sha256": "ca87611709249b9ce83439d52fb2f570cf93e22244740d16c89aca7294f0b98c"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-first-reflected-spill",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 22099,
+        "completion_tokens": 3570,
+        "total_tokens": 25669
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-first-reflected-spill-149.txt",
+        "sha256": "367ebcc4aee0acf77b2870e0deaa3fb6877e6153b1d87277e96c6c5eae3ef8e7"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-relaxed-defect-structure",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 24631,
+        "completion_tokens": 2397,
+        "total_tokens": 27028
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-relaxed-defect-structure-149.txt",
+        "sha256": "e61eb270eddbef04133718feaffc4266986c9cb09c9e0dfb402de40ca4b55c9d"
+      }
+    },
+    {
+      "call_id": "cold-actual-remainder-two-center",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 10699,
+        "completion_tokens": 2571,
+        "total_tokens": 13270
+      },
+      "archive": {
+        "path": "research/api-astra-cold-actual-remainder-two-center-149.txt",
+        "sha256": "baca75ec4cade10f0669fd1f4ac8f7fa6dfab76140442c7aec2843b9375d3c44"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "round": 165,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-164-acceptance.json",
+    "sha256": "e054c4986e38019e958f750be26dbe601e80db405e895681db9292fe9251fb81"
+  },
+  "coordinator": {
+    "path": "coordination/round-164.json",
+    "sha256": "ddd59a82c3c55acef9209ecb0dff8962686fe311706ef57f7cec523b804d431c"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-165.py",
+    "sha256": "52387c4755b0a28e4ab6630be125155576db6d5508e25f67c579d59d6b15ae9f"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-165-before.json",
+    "sha256": "261e5f0e26330d7c55c2e2ed4e9d63ba005fa97b79117a05762d7b777b926bab"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-unmarked-directional-spectrum",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "d7a4f7c1b810489e3a5dfe92346e0989ff7f8fe8f0053293b81f8603cbef95a0",
+      "mission_file": {
+        "path": "coordination/missions/round-165/ordinary-prime-unmarked-directional-spectrum.md",
+        "sha256": "a62adc147582fb5ccfacd4e43116059967e0ed12ad3a08903b49a507cb68d832"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r165-api-01a1ed0a/ordinary-prime-unmarked-directional-spectrum-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r165-api-01a1ed0a/ordinary-prime-unmarked-directional-spectrum-candidate.md",
+      "started_utc_epoch": 1795132615.181928
+    },
+    {
+      "call_id": "ordinary-prime-moderate-slope-collisions",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "45a1cfe2852a1295d93446a32c95da9d7669b2f8d33fde54d3e9e2a491b9c5af",
+      "mission_file": {
+        "path": "coordination/missions/round-165/ordinary-prime-moderate-slope-collisions.md",
+        "sha256": "c74c7cd9c174c3c159095d39116dcad927b1dd560f7ba24b630b9c21e7d80bf3"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r165-api-01a1ed0a/ordinary-prime-moderate-slope-collisions-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r165-api-01a1ed0a/ordinary-prime-moderate-slope-collisions-candidate.md",
+      "started_utc_epoch": 1795132615.18238
+    },
+    {
+      "call_id": "cold-prime-actual-bulk-Taylor-orbit",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "b464a44446612ec01ab0985985480307041a0370109820d0519625032fd7acb0",
+      "mission_file": {
+        "path": "coordination/missions/round-165/cold-prime-actual-bulk-Taylor-orbit.md",
+        "sha256": "a605c86f40f959ec822898bb602faaf657498bb21098ffb50129c97769cc6f4f"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r165-api-01a1ed0a/cold-prime-actual-bulk-Taylor-orbit-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r165-api-01a1ed0a/cold-prime-actual-bulk-Taylor-orbit-candidate.md",
+      "started_utc_epoch": 1795132615.1815538
+    }
+  ]
+}

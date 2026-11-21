@@ -1,0 +1,144 @@
+{
+  "round": 135,
+  "accepted_at_utc": "2026-11-19T18:06:41Z",
+  "previous": "research/round-134-acceptance.json",
+  "previous_sha256": "973ea5167f20223c46026f40f9e651656b036370c051879bf1a9c6924f4c17fd",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-134.json",
+    "sha256": "3ac61efe7f80c53ce534bcc0f5c5c5aa5c0a0c19bc2153b8c67b17531f39282e"
+  },
+  "proof_and_code_sha256": {
+    "research/cold-remainder-135.md": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed",
+    "research/cold-remainder-135-check.py": "de488e248112d6283dc8da5bc7bd5aeb6dded15ff75b6151b074f17192e73eab",
+    "research/cold-remainder-135-checks.jsonl": "b9045a9e85a5e7aed3116a629d6a5a78a866bc8eb7fd8beaba949a6039b1fb16",
+    "research/ordinary-sector-square-tail-135.md": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a",
+    "research/api-astra-review-135.md": "a9aa6aa7db52d59914ebb4cc69f0fc82d8e77eb4e6b07a3c483724324e91017a",
+    "research/api-astra-135-receipt.json": "6ecfb0aa64c68fb045f2758dfb78b3ce4d6168b1cdcbd7355b26e144e6548025",
+    "research/api-astra-cold-remainder-envelope-135.txt": "005077d03cd44f4ac341f237ac5edc177f07152eec25a48a2e06de8cba9666fe",
+    "research/api-astra-cold-remainder-geometric-135.txt": "44286e975b5311704f8effe14015582e1be381630bee86c03ed0234b56c5148c",
+    "research/api-astra-ordinary-window-signed-tail-135.txt": "6ac854b458fe3d842a4d17df1f30f8d6b9cac67697b381166b35cc7e7274a61e",
+    "coordination/launchers/round-135.py": "03496a4781c7836fa79eebc78ad508302408515c88df7ed0c12e91c465ed6d0c",
+    "coordination/round-135-inflight.json": "eb8c601a5fa20786e884e55428e52f2d092baca784da199eaf85dd15ccd54b9e",
+    "coordination/shared-obligations/round-135-before.json": "d1121f1fa42fb9a5f494266d8731e87b471635abf0ff1ee031aeefbc0bc84314",
+    "coordination/shared-obligations/round-135-after.json": "0d030d97dd3ce8511554ea8c71bd3525ea1576f6126bd1718ebbd630b0aa6a6e",
+    "coordination/checkpoints/round-134.md": "dfbbb141c9006c825d94647033d92eaad4395af2694144e1972ab06ce7548404",
+    "coordination/missions/round-135/cold-remainder-envelope.md": "62b7011cc34a14c0f5e7d20217a81d3bcd1a8282c7feab74ce6d2f19c2fe662b",
+    "coordination/missions/round-135/cold-remainder-geometric.md": "2815c53e3b568653fdef2313fed3ce486cbb6f969d4ada18e4156a09ec9aaa82",
+    "coordination/missions/round-135/ordinary-window-signed-tail.md": "4d7ca76cc879d2963c0ac7776525b8a5b8381ff82b275fc583eb2ec28ab912cf",
+    "scripts/shared_obligations.py": "d88dbd715cb06cbe747fa788aeca66d138de6ba18ec6c2d7abd59115917669f2",
+    "scripts/round_review.py": "878cf697fba155cb272f8327bc7cc7c855d8083b1addbf277a6180bd12ce81e0"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/cold-pure-seed-134-checks.jsonl": "efee6ab5bce1685430299867fb1b33761d076804cef8474e5d45f661b9a15861",
+    "research/cold-seed-packet-133.md": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2",
+    "research/cold-seed-block-132.md": "3eb541a4daf53ad81446b0a32f0ee691ad6bf7a6ac35c10dbb4aeb4a8e9da6c8",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/seed-majorant-47.md": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4",
+    "research/ordinary-seed-window-134.md": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb",
+    "research/zero-floor-sector-133.md": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8",
+    "research/zero-floor-ordinary-mixed-cap.md": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c"
+  },
+  "additional_replay_dependency_sha256": {
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa"
+  },
+  "goal_status": "paused",
+  "research_execution": "Continued in the current session at user request. The desktop goal status remains paused.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 2,
+  "arithmetic_record_counts": {
+    "unsigned_remainder_positive_comparison": 1,
+    "signed_remainder_counting_and_packet_tail": 1
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra envelope",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Replay the exact linear-in-nonseed coefficient",
+        "Joint signed two-step remainder"
+      ]
+    },
+    {
+      "name": "Gateway Astra geometric",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Price the actual signed translated packet",
+        "Look for genuine bounded dual witness"
+      ]
+    },
+    {
+      "name": "Gateway Astra ordinary window",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test the genuine support-sensitive tail",
+        "Even clipped-window approximation"
+      ]
+    },
+    {
+      "name": "/root/audit_135",
+      "status": "completed",
+      "ranked_closeout": [
+        "Aggregate equal Laurent exponent times actual field across all linear-in-nonseed terms",
+        "Then price the retained terms with at least two nonseed factors",
+        "Study weaker signed first-moment tail separately from an even trace approximation"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "For the same cold pure-seed remainder candidate, collect d_t prime(S) times the actual nonseed predictor by identical Mellin objects, then add the signed multi-nonseed terms and the certified tail.",
+    "Use true complementary ordinary support for a signed tail or an even finite-complexity approximation to the bounded ordinary window.",
+    "If independent step prices remain too crude, work directly with the two-step signed remainder below 0.721, including both half-step sheet margins."
+  ],
+  "proof_scope": [
+    "For the actual height-601 envelope, the positive absolute comparison using first-order remainder and the unsigned cubic remainder alone has affine-limit price larger than 0.6404 at the real center. This rules out that comparison for the shared 0.472 step budget, with no lower bound on the true signed operator.",
+    "For the actual E_h = D_h-D^J, h=601,602, the geometric translated absolute tail starting at binomial index 14 is below 0.0000407, plus eventual exceptional repair. The actual one-step and two-step remainder have closed-square counting rates below 0.275 and 0.234 respectively.",
+    "The proposed positive ordinary sector tail equals 2/nu times the bulk mean of b(b-L)_+. Its vanishing is equivalent to uniform integrability of the bulk squares, stronger than the signed seed tail. The actual even-parity window approximation remains separate.",
+    "The actual launcher used capture before all three requests and used full-precision epoch values. The two cold calls reused cand:cold-pure-seed-remainder-472; the ordinary call was independent. The new closeout hook recorded one recognized shared dependency, no missed dependency and no dispatch change."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The real response provides no signed tail or even-window upper; its proposed positive tail has a stronger second-moment requirement.",
+    "One cold draft has a spurious S in the displayed derivative and uses the wrong floor threshold. Equal numerical weights do not certify equality of Mellin objects. The other draft offers no actual bounded packet-price dual witness.",
+    "The true physical remainder bound below 0.472, true cold confinement, the signed ordinary window/tail estimate and the original ordinary theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Independent byte-exact replay of the two records. Verified 192-bit Arb comparison uses inherited byte-checked arithmetic inputs and exact rational tail and counting checks.",
+    "The actual before snapshot, coordinator, three exported missions and actual inflight manifest share the validated hashes and subsecond chronology. Closeout checked the saved prior ID and all actual call IDs. Each actual gateway response was HTTP 200 with matching model.",
+    "The current workflow maintenance suite independently ran 17 tests and passed. Nicolas reply remains a local draft."
+  ],
+  "independent_review": [
+    "Independent Astra audit verified the outward replay, signed-versus-positive distinction, quantitative uniform tails and counting comparisons, real sector identity, raw draft errors and the shared-ID dispatch."
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "round": 175,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 175 mathematical review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-174-acceptance.json",
+      "sha256": "823ed022b5ce0d944669e4a93c28249800a55633ea4875dd99be68d2f6a4ec2b"
+    },
+    "current": {
+      "path": "research/round-175-acceptance.json",
+      "sha256": "e5a0b567842fd7e7a5d4740fa2440b8657a659fc4ea74b80640c3466169d6427"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "Five favorable label signs and literal label coincidences described the remaining diagonal. The affine generic bound came from the whole known energy.",
+      "after": "Three sign tests suffice and fixed projective relations extend the diagonal and affine cuts. The overall bounds and relevant gap remain.",
+      "remaining": "Estimate the true coupled favorable distinct- and common-pole contributions, or close both one match and zero match with original weights. Generic and pure affine energy obligations remain.",
+      "evidence": [
+        {
+          "path": "research/ordinary-favorable-sign-identity-175.md",
+          "sha256": "2f3fa64a22b5435edda3c9ba7ba63c8c167bbeb7737a2a1f7786b025a31e919f"
+        },
+        {
+          "path": "research/ordinary-pin-favorable-collision-cut-174.md",
+          "sha256": "c5bbc0981d9ab05e6de8b8723374d3ceff054f4345b44d06c13b0935492c96b3"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        },
+        {
+          "path": "research/ordinary-projective-label-cuts-175.md",
+          "sha256": "fb3dd1632cff6318800056502c71ee5af56ddda00fb5309d9b6e8e09df4aec28"
+        },
+        {
+          "path": "research/ordinary-affine-difference-pins-174.md",
+          "sha256": "5fdb141391f7a0ee8f3c17895ee22928f840db63f5e647585c871ed3ff103325"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "Three actual steps fit the polydisk. Full coordinate contraction was proposed for extension.",
+      "after": "The actual full induced derivative norm grows as sqrt(n), even on mean-zero input. The sufficient strict geometric rate from the known outgoing price is below 0.7456 in a valid invariant class.",
+      "remaining": "Prove signed propagation of the true residuals and total displacement with strict slack or an actual alternative starter. Keep derivative transfer as a separate task.",
+      "evidence": [
+        {
+          "path": "research/cold-full-sup-derivative-obstruction-175.md",
+          "sha256": "a061db2aca41c5327261be5957061f2520dcdbea64457cce61b101f9f610afbe"
+        },
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The favorable signs and removable projective relations sharpen the physical reductions. The actual cold derivative excludes full coordinate contraction and narrows the next test to actual signed directions.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-output-weighted-distinct-poles",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the output-localized true distinct-pole collision with both input amplitudes reach O(p^3/2)?",
+      "why_now": "The three exact sign conditions and cross-copy projective cuts identify the genuine remaining physical correlation. The old incidence upper drops g(C).",
+      "scope": "Keep original w(s), all four g factors per line, marks and exclusions. Use the exact output shift sign and true two-pole relation or another coupled arithmetic estimate. Price common poles separately. Do not multiply the positive common-pole subnorm by an individual Jacobi factor.",
+      "if_yes": "Prove the distinct-pole target or another sufficient favorable diagonal bound.",
+      "if_no": "Exhibit a precise obstruction under the actual selected arithmetic hypotheses.",
+      "if_inconclusive": "Give a genuinely new uniform gain on a specified surviving positive block.",
+      "inputs": [
+        {
+          "path": "research/ordinary-favorable-sign-identity-175.md",
+          "sha256": "2f3fa64a22b5435edda3c9ba7ba63c8c167bbeb7737a2a1f7786b025a31e919f"
+        },
+        {
+          "path": "research/ordinary-pin-favorable-collision-cut-174.md",
+          "sha256": "c5bbc0981d9ab05e6de8b8723374d3ceff054f4345b44d06c13b0935492c96b3"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-nonmonomial-projective-gain",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can a genuine two-level estimate for the projective map in D improve the summed all-weight right energy?",
+      "why_now": "The right chart has Y transformed reciprocally affinely and D by a generally nonmonomial map. Fixed projective coincidences are paid.",
+      "scope": "Try the true cap and hereditary energy of heavy g sets, or a coupled h-average, to exceed the existing affine estimate. Preserve both physical square masks. Explain how a pointwise gain translates into a new summed bound or why it cannot. Keep pure classes and zero match separate.",
+      "if_yes": "Prove a new prime-uniform generic energy exponent or a sufficient one-match estimate.",
+      "if_no": "Identify a genuine arithmetic obstruction to the proposed two-level or averaged gain.",
+      "if_inconclusive": "Prove a substantive unproved fixed-map family overlap estimate with explicit hypotheses.",
+      "inputs": [
+        {
+          "path": "research/ordinary-projective-label-cuts-175.md",
+          "sha256": "fb3dd1632cff6318800056502c71ee5af56ddda00fb5309d9b6e8e09df4aec28"
+        },
+        {
+          "path": "research/ordinary-affine-difference-pins-174.md",
+          "sha256": "5fdb141391f7a0ee8f3c17895ee22928f840db63f5e647585c871ed3ff103325"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-actual-signed-displacement",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can actual signed increments remain summably small with strict slack after the three verified steps?",
+      "why_now": "The actual full infinity derivative grows as sqrt(n). The first three actual displacements fit the radius-0.05 disk, and counting contraction closes after the true growing cutoff with clearance.",
+      "scope": "Use the true marked row, both lifts and original square. Attack finite-to-growing transport on actual signed residuals, signed partial sums at the true fixed base, or a genuinely sufficient replacement starter. For an unnormalized counting-norm test at V605 the source threshold is 0.0038967 with fixed slack. Do not infer this from normalized second norm, or confinement from a bare signed rate below one.",
+      "if_yes": "Prove physical confinement through the growing cutoff, with clearance, or an unconditional alternate bridge.",
+      "if_no": "Identify an obstruction specific to the actual signed propagation proposal.",
+      "if_inconclusive": "Give a uniform directional bound quantifiably reducing the remaining actual displacement gap.",
+      "inputs": [
+        {
+          "path": "research/cold-full-sup-derivative-obstruction-175.md",
+          "sha256": "a061db2aca41c5327261be5957061f2520dcdbea64457cce61b101f9f610afbe"
+        },
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which new deductions survive independent review?",
+      "why_now": "The true positive diagonal, nonmonomial projective energy and cold signed directions require separate checks.",
+      "scope": "Read only. Verify physical weights and marks, exact quantifiers and norms, and give two ranked next tests.",
+      "if_yes": "Record verified deductions and exact remaining estimates.",
+      "if_no": "Locate an invalid step.",
+      "if_inconclusive": "Separate ordinary proof, conditional criterion and finite checks.",
+      "inputs": [
+        {
+          "path": "research/ordinary-favorable-sign-identity-175.md",
+          "sha256": "2f3fa64a22b5435edda3c9ba7ba63c8c167bbeb7737a2a1f7786b025a31e919f"
+        },
+        {
+          "path": "research/ordinary-pin-favorable-collision-cut-174.md",
+          "sha256": "c5bbc0981d9ab05e6de8b8723374d3ceff054f4345b44d06c13b0935492c96b3"
+        },
+        {
+          "path": "research/ordinary-projective-label-cuts-175.md",
+          "sha256": "fb3dd1632cff6318800056502c71ee5af56ddda00fb5309d9b6e8e09df4aec28"
+        },
+        {
+          "path": "research/ordinary-affine-difference-pins-174.md",
+          "sha256": "5fdb141391f7a0ee8f3c17895ee22928f840db63f5e647585c871ed3ff103325"
+        },
+        {
+          "path": "research/cold-full-sup-derivative-obstruction-175.md",
+          "sha256": "a061db2aca41c5327261be5957061f2520dcdbea64457cce61b101f9f610afbe"
+        },
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

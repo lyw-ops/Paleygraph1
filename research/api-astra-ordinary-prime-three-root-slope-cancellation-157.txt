@@ -1,0 +1,401 @@
+## Result
+
+Let \(\mathcal P_{\mathrm{ord}}\) denote the same ordinary-prime family as in R151–R156, and let \(p\to\infty\) only through this family. I retain the actual marked deficit \(b\), with
+
+\[
+b_0=0,\qquad r=\mathbb E b>0,\qquad 
+\nu_j=\frac{b_j}{nr},\qquad \sum_{j\in Q}\nu_j=1,
+\]
+
+and the true full-field lift weights
+
+\[
+w_\eta=\frac12\nu_{\eta|_Q},\qquad \sum_{\eta\in\widehat{\mathbb F_p^\times}}w_\eta=1.
+\]
+
+All \(\ell^2\)-norms below are counting norms, with no \(1/p\) or \(1/n\) factor. The errors \(O(p)\) are unnormalized physical errors.
+
+I obtain:
+
+1. An exact coupled \(t,z\) completion of the separated kernel.
+2. A valid growing-slope upper for multiplicative cosets, conditional only on an explicit dual-coset mass condition for the actual \(\nu\).
+3. No unconditional ordinary-prime \(O(p)\) estimate from the separated three-root kernel: even a square-root bound for the coupled \(z,y\) sum leaves a \(p^{3/2}\)-scale five-weight average, and the required cancellation across the actual weights is not presently established.
+
+Thus the mission is **partially supported by an arithmetic-restriction criterion but not solved unconditionally**.
+
+---
+
+## 1. Exact five-weight completion
+
+At fixed slope \(t\neq 0,1\), R156 gives
+
+\[
+\sum_{U,V,U',V'} w_Uw_Vw_{U'}w_{V'}
+\frac{J(V/V',D)+J(\chi V/V',D)}2\,
+\overline{U'(t)}\,Z_{U,V,U',V'}(t),
+\]
+
+where
+
+\[
+D=\frac{U/V}{U'/V'},
+\]
+
+and
+
+\[
+Z_{U,V,U',V'}(t)
+=
+\sum_z
+\left(\frac U{U'}\right)(z+1)
+\left(\frac VU\right)(z)
+\left(\frac{U'}{V'}\right)(t(z+1)-1).
+\]
+
+Now expand the actual slope factor
+
+\[
+f(t)=\sum_T w_TT(t),
+\]
+
+so the complete expression has the five genuine weights
+
+\[
+w_Tw_Uw_Vw_{U'}w_{V'}.
+\]
+
+The favorable sign and the square restriction give
+
+\[
+1_Q(t)\,1_{\{\chi(1-t)=\rho\}}
+=
+\frac14(1+\chi(t))(1+\rho\chi(1-t))
+\]
+
+for \(t\neq 0,1\). The \(t=1\) contribution is removed separately and costs \(O(p)\), as in R156.
+
+Set
+
+\[
+\alpha=\frac U{U'},\qquad
+\beta=\frac VU,\qquad
+\gamma_0=\frac{U'}{V'},\qquad
+\delta=T\overline{U'}.
+\]
+
+Introduce
+
+\[
+y=t(z+1)-1,\qquad
+t=\frac{y+1}{z+1}.
+\]
+
+The deleted points \(z=0,-1\), \(y=-1\), and \(t=1\) are exactly the roots already removed by the character-zero convention and the explicit \(t=1\) subtraction.
+
+For \(q,s\in\{0,1\}\), corresponding respectively to \(\chi(t)^q\) and \(\chi(1-t)^s\), the completed \(t,z\) kernel is
+
+\[
+K_{q,s}
+=
+\sum_{z,y}
+\beta(z)
+\bigl(\alpha\overline\delta\,\chi^{q+s}\bigr)(z+1)
+\gamma_0(y)
+\bigl(\delta\chi^q\bigr)(y+1)
+\chi^s(z-y).
+\]
+
+Therefore the favorable completed contribution is exactly
+
+\[
+\frac18
+\sum_{q,s,e\in\{0,1\}}
+\rho^s
+\sum_{T,U,V,U',V'}
+w_Tw_Uw_Vw_{U'}w_{V'}
+\,J\!\left(\frac VV'\chi^e,D\right)
+K_{q,s},
+\]
+
+up to the already controlled \(O(p)\) physical-extension and \(t=1\) errors.
+
+This is a genuine coupled completion. No independence assumption has been made: the five characters are summed with their actual deterministic weights.
+
+---
+
+## 2. The uncoupled part factors exactly
+
+When \(s=0\), the diagonal factor \(\chi(z-y)\) is absent, and the kernel factors into two Jacobi sums:
+
+\[
+K_{q,0}
+=
+\beta(-1)\gamma_0(-1)\,
+J\!\left(\beta,\alpha\overline\delta\,\chi^q\right)
+J\!\left(\gamma_0,\delta\chi^q\right).
+\]
+
+Thus the only genuinely new part is
+
+\[
+K_{q,1}
+=
+\sum_{z,y}
+\beta(z)
+\bigl(\alpha\overline\delta\,\chi^{q+1}\bigr)(z+1)
+\gamma_0(y)
+\bigl(\delta\chi^q\bigr)(y+1)
+\chi(z-y).
+\]
+
+This is a two-variable five-root character sum with roots
+
+\[
+z=0,\quad z=-1,\quad y=0,\quad y=-1,\quad z=y.
+\]
+
+The ordinary additive-convolution estimate gives only
+
+\[
+|K_{q,1}|
+\le \sqrt p\,
+\|\beta(\cdot)(\alpha\overline\delta\chi^{q+1})(\cdot+1)\|_2\,
+\|\gamma_0(\cdot)(\delta\chi^q)(\cdot+1)\|_2
+\ll p^{3/2}.
+\]
+
+A generic two-variable Deligne estimate, if available uniformly in the character parameters, would improve this to \(O(p)\). However, even that is not enough by itself: the outer Jacobi factor has size \(O(\sqrt p)\), so a pointwise \(K_{q,1}=O(p)\) estimate gives only \(O(p^{3/2})\) per five-character tuple. Since
+
+\[
+\sum_{T,U,V,U',V'}w_Tw_Uw_Vw_{U'}w_{V'}=1,
+\]
+
+the weight average alone supplies no further saving. The required \(O(p)\) result needs cancellation across the actual five-weight character family, not merely a pointwise complete-sum bound.
+
+---
+
+## 3. Exact degeneracies
+
+For the outer Jacobi factor
+
+\[
+J\!\left(\frac VV'\chi^e,D\right),
+\]
+
+the only \(p\)-sized Jacobi value is \(J(1,1)=p-2\). Hence:
+
+- for \(e=0\), the large event is exactly
+  \[
+  \frac VV'=1,\qquad D=1,
+  \]
+  equivalently
+  \[
+  V=V',\qquad U=U';
+  \]
+
+- for \(e=1\), the large event is exactly
+  \[
+  \frac VV'=\chi,\qquad D=1,
+  \]
+  equivalently
+  \[
+  V=\chi V',\qquad U=\chi U'.
+  \]
+
+All other Jacobi degeneracies have modulus at most \(1\), while nondegenerate Jacobi sums have modulus \(\sqrt p\).
+
+For the factored \(K_{q,0}\), the two possible \(p\)-sized factors occur exactly when
+
+\[
+\beta=1,\qquad \alpha\overline\delta\,\chi^q=1,
+\]
+
+or
+
+\[
+\gamma_0=1,\qquad \delta\chi^q=1.
+\]
+
+These are explicit character equalities; there are no hidden geometric collisions. For \(K_{q,1}\), the diagonal \(z=y\) is killed by \(\chi(0)=0\). Any further exceptional contribution must arise from a character cancellation among the five displayed linear forms. A pointwise \(O(p)\) estimate for \(K_{q,1}\) would therefore have to exclude or treat those exact character relations separately.
+
+The true mark \(b_0=0\) is retained: the two full lifts of the marked trivial \(Q\)-character have weight zero. The other degeneracies are controlled only by the actual cap
+
+\[
+\max_j\nu_j=O(p^{-1/2}),
+\]
+
+not by any fictitious uniform law.
+
+---
+
+## 4. A genuine growing-slope block from arithmetic restriction
+
+There is, however, a valid many-slope upper that does not use independence.
+
+Let \(H\le Q\) be a subgroup of size \(h\), let \(E=t_0H\) be a multiplicative coset, and define
+
+\[
+\psi_E(t)=1_E(t).
+\]
+
+Let \(H^\perp\subset\widehat Q\) be its annihilator. For a dual coset \(C\) of \(H^\perp\), write
+
+\[
+\nu(C)=\sum_{j\in C}\nu_j.
+\]
+
+The normalized Mellin coefficients of \(f\psi_E\) satisfy
+
+\[
+\|\mu\|_\infty
+\le \frac hn\max_C\nu(C).
+\]
+
+R156's signed completion estimate then gives the actual physical favorable contribution on \(E\):
+
+\[
+\boxed{
+|\mathcal S_{E,\rho}|
+\ll
+p\left(1+h\max_C\nu(C)\right)
+}
+\]
+
+with the \(O(p)\) term including:
+
+- the affine full-field extension;
+- the \(t=1\) subtraction;
+- the zero-coordinate contributions;
+- the fixed Jacobi degeneracies;
+- the wrong-sign subtraction.
+
+This estimate uses the actual complex \(f(t)\), the actual five lift weights, and the actual marked anchor distribution. It is not an independence statement.
+
+Consequently, if along the same ordinary-prime sequence one can prove
+
+\[
+\boxed{
+\max_C\nu(C)\ll \frac1h,
+}
+\]
+
+then
+
+\[
+|\mathcal S_{E,\rho}|=O(p).
+\]
+
+This is a genuinely growing-slope criterion whenever \(h=h(p)\to\infty\).
+
+There is also no shortage of favorable slopes in the coset partition. For \(p\equiv1\pmod4\),
+
+\[
+\#\{t\in Q\setminus\{1\}:\chi(1-t)=\rho\}
+=
+\frac{n-1-\rho}{2}.
+\]
+
+Thus, among the \(n/h\) cosets of \(H\), at least one has
+
+\[
+\#(E\cap\{\chi(1-t)=\rho\})
+\ge \frac h2-O(1).
+\]
+
+So the condition \(\max_C\nu(C)\ll 1/h\) would produce an \(O(p)\) upper on a favorable set containing \(\gg h\) slopes.
+
+---
+
+## 5. Why the existing physical hypotheses do not prove the restriction
+
+The available cap gives only
+
+\[
+\max_C\nu(C)
+\le |H^\perp|\max_j\nu_j
+=
+\frac nh\,O(p^{-1/2}),
+\]
+
+and therefore
+
+\[
+h\max_C\nu(C)
+\ll n\,p^{-1/2}
+\asymp \sqrt p.
+\]
+
+This yields only
+
+\[
+|\mathcal S_{E,\rho}|\ll p^{3/2},
+\]
+
+not \(O(p)\).
+
+The near-critical effective support \(m_{\mathrm{eff}}\sim n/\sqrt p\), the physical mark \(b_0=0\), and the small projected norm
+
+\[
+\frac{\|L_\sigma b\|_{2,n}}r\to0
+\]
+
+do not prevent the mass of \(\nu\) from concentrating in one or several \(H^\perp\)-cosets. Establishing
+
+\[
+\nu(C)\ll h^{-1}
+\]
+
+is an additional arithmetic anti-concentration statement about the actual marked deficit. It does not follow from the present spectral information.
+
+---
+
+## Order of limits and scope
+
+The conditional block result is valid along any joint sequence
+
+\[
+p\to\infty,\qquad p\in\mathcal P_{\mathrm{ord}},
+\]
+
+with the actual marked blocks \(b=b(p)\) satisfying the R151–R156 near-critical hypotheses and with subgroups \(H=H(p)\) satisfying \(h(p)\to\infty\).
+
+No interchange of limits has been used. In particular, if \(T\) is also sent to infinity, the result requires the quantitative R151–R156 errors to hold uniformly along the chosen joint sequence \(T=T(p)\). A proof for fixed \(T\) followed by a separate \(T\to\infty\) passage has not been established.
+
+---
+
+## Conclusion
+
+The separated three-root kernel does yield a meaningful ordinary-prime statement:
+
+\[
+\boxed{
+\text{A favorable multiplicative coset }E=t_0H
+\text{ has }O(p)\text{ contribution if }
+\max_C\nu(C)\ll 1/|H|.
+}
+\]
+
+This is a real many-slope block and retains the physical marking, the true lift weights, and the exact \(O(p)\) errors.
+
+But the coupled completion does **not** presently prove that hypothesis, and a pointwise complete-sum estimate for the new \(z,y\) kernel would still be insufficient: the outer Jacobi factor leaves a \(p^{3/2}\) scale unless one obtains cancellation across the actual five-weight family.
+
+### Ranked next tests
+
+1. **Highest priority: actual dual-coset anti-concentration.**  
+   For candidate subgroups \(H\le Q\) with \(h\to\infty\), prove or disprove
+   \[
+   \max_{C\in\widehat Q/H^\perp}\sum_{j\in C}\nu_j\ll h^{-1}
+   \]
+   for the physically marked \(b\), along \(p\in\mathcal P_{\mathrm{ord}}\). This immediately gives an \(O(p)\) favorable block of \(\gg h\) slopes.
+
+2. **Harder coupled trace test: five-weight cancellation.**  
+   After removing the exact Jacobi and root-collision degeneracies above, seek a joint estimate of the form
+   \[
+   \left|
+   \sum_{T,U,V,U',V'}
+   w_Tw_Uw_Vw_{U'}w_{V'}
+   J\!\left(\frac VV'\chi^e,D\right)K_{q,1}
+   \right|
+   \ll p.
+   \]
+   A pointwise \(K_{q,1}=O(p)\) bound is not enough; the required estimate must exploit cancellation in the actual five-character weighted average.

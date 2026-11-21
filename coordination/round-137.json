@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "round": 137,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator with a separate read-only Round 137 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-136-acceptance.json",
+      "sha256": "eb418d58b958d53114bcd7022a7d6bc1e2e8f1458cd9f659ed22d9113a93cfa3"
+    },
+    "current": {
+      "path": "research/round-137-acceptance.json",
+      "sha256": "ce0f368124a7d5da4652d4a492b67e40c99cb16cf56e3b524e370c02005805a5"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "reformulated",
+      "before": "The full linear upper was 0.527 and the nonlinear upper 0.142. The full signed joint block needed a new bound below 0.721.",
+      "after": "The separate linear pieces have accepted outward uppers 0.267 center and 0.260 actual residual. Center-only cancellation with the current residual requires below 0.070. Independently, the full two-step difference would follow from a mixed cross-term bound below 0.277444.",
+      "remaining": "Identify new exact signed field returns or joint block cancellation, and then prove half-step/invariant margins and genuine growing-depth confinement on actual marked primes.",
+      "evidence": [
+        {
+          "path": "research/cold-linear-split-137.md",
+          "sha256": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01"
+        },
+        {
+          "path": "research/cold-resummed-136.md",
+          "sha256": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161"
+        },
+        {
+          "path": "research/api-astra-review-137.md",
+          "sha256": "4e64d621369dd437fa8b9188c73520f0635f0b7cbee12b06a1c4e4b3e7b7f272"
+        },
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Rate-free real ordinary weighted cancellation",
+      "effect": "reformulated",
+      "before": "A uniform selected bulk second moment would suffice for the signed seed tail, with clipped-window parity separate.",
+      "after": "On the actual least-energy support the selected bulk energy is exactly a forcing-weighted inverse square moment. Its first inverse moment is explicit and bounded, leaving the source-specific inf-sup or an equivalent small spectrum estimate.",
+      "remaining": "Prove a prime-uniform source estimate or direct signed tail and independently obtain clipped even-window approximation for the actual rows.",
+      "evidence": [
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/ordinary-sector-square-tail-135.md",
+          "sha256": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a"
+        },
+        {
+          "path": "research/ordinary-seed-window-134.md",
+          "sha256": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb"
+        },
+        {
+          "path": "research/astra-direction-70.md",
+          "sha256": "126bbb56ee8dc0f4c51aeb4365b95f12b4a327d56e76e98815eeb84260814c72"
+        },
+        {
+          "path": "research/opposite-autocorrelation-73.md",
+          "sha256": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a"
+        }
+      ]
+    },
+    {
+      "id": "fixed-masked",
+      "route": "Direct critical cap mask repair",
+      "effect": "unchanged",
+      "before": "The averaged real route works without that critical rate and does not establish the signed critical-window upper.",
+      "after": "Round 130 was on the cold derivative; the previous real obligation remains open.",
+      "remaining": "Control an actual critical endpoint, then its cap jump tails or the exact full true-factor masked statistic.",
+      "evidence": [
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        },
+        {
+          "path": "research/real-masked-cap-adjoint-125.md",
+          "sha256": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The separate linear prices identify the true center-only budget. A second frozen-block splitting and a source-specific ordinary spectral test supply distinct next obligations. The full theta target remains open.",
+  "next_calls": [
+    {
+      "id": "cold-center-field-identity",
+      "priority": 1,
+      "change_id": "cold",
+      "question": "Which of the eight actual center fields and their seed twists lie in the same arithmetic label at linear nonseed degree?",
+      "why_now": "The validated split requires an actual center rate below 0.070 when keeping the residual 0.260 and nonlinear 0.142 charges. Exact identities with actual residual words could instead address the whole linear target 0.330.",
+      "scope": "Use the same nine-center C, h=601,602, marked floor t0=n, original closed square and translated physical P5000. Keep exact signed coefficients, independent lifts, and determinant twists, and use equality of actual trace objects.",
+      "if_yes": "Quantify the strict signed savings and all tails, or prove a useful exact return identity that can enter an outward replay.",
+      "if_no": "Establish a precise representation-theoretic separation or another arithmetic obstruction for these actual labels.",
+      "if_inconclusive": "Name the first undecided pair with both trace objects and scalars written explicitly.",
+      "inputs": [
+        {
+          "path": "research/cold-linear-split-137.md",
+          "sha256": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01"
+        },
+        {
+          "path": "research/cold-resummed-136.md",
+          "sha256": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161"
+        },
+        {
+          "path": "research/astra-joint-65.md",
+          "sha256": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b"
+        },
+        {
+          "path": "research/astra-predictor-76.md",
+          "sha256": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-marked-source-infsup",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Does actual opposite-face structure yield the forcing-specific inf-sup or the signed tail on the genuine optimal supports?",
+      "why_now": "Uniform spectral gap on the support is stronger than required. The inverse-square energy depends only on the source overlap and has an exact first inverse moment.",
+      "scope": "Actual pinned minimum-energy ordinary rows of both signs over primes p=1 mod 4. Keep the physical mark, true complementary opposite support and the product of marked values equal to n. Treat clipped window parity and finite diagnostics separately.",
+      "if_yes": "Give the uniform inverse-square estimate or signed-tail inequality with prime-first order and all constants.",
+      "if_no": "Give an obstruction on actual optimal supports, with low-eigenvalue coupling rather than a free abstract model.",
+      "if_inconclusive": "Describe a precise weighted Fourier or opposite support estimate beyond the exact first moment.",
+      "inputs": [
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/ordinary-sector-square-tail-135.md",
+          "sha256": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a"
+        },
+        {
+          "path": "research/ordinary-seed-window-134.md",
+          "sha256": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb"
+        },
+        {
+          "path": "research/astra-direction-70.md",
+          "sha256": "126bbb56ee8dc0f4c51aeb4365b95f12b4a327d56e76e98815eeb84260814c72"
+        },
+        {
+          "path": "research/opposite-autocorrelation-73.md",
+          "sha256": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a"
+        }
+      ]
+    },
+    {
+      "id": "cold-mixed-seed-cross-transport",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the mixed signed pair R602 J + J R601 be priced below 0.277444, or can the full difference be priced below 0.721 by using the intermediate K jointly?",
+      "why_now": "The separate product of remainders already costs less than 0.443556. The previous near-miss calculation incorrectly used the remainder upper for the full derivative.",
+      "scope": "Actual frozen rows h=601,602 on the original closed square in physical translated P5000, fully marked floors. Define J=KD^J and R_h=K(D_h-D^J). Keep both translated boundary pairs and use the actual intermediate K, not independent positive repricing.",
+      "if_yes": "Prove the mixed or full estimate on the actual operators with uniform strict slack and tails.",
+      "if_no": "Identify an actual coherent signed lower witness, or a precise obstruction in a named comparison with scope stated.",
+      "if_inconclusive": "Give an exact mixed trace identity or identify the first transport equality needed for a replay.",
+      "inputs": [
+        {
+          "path": "research/api-astra-review-137.md",
+          "sha256": "4e64d621369dd437fa8b9188c73520f0635f0b7cbee12b06a1c4e4b3e7b7f272"
+        },
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        },
+        {
+          "path": "research/cold-resummed-136.md",
+          "sha256": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161"
+        },
+        {
+          "path": "research/cold-remainder-135.md",
+          "sha256": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed"
+        },
+        {
+          "path": "research/cold-positive-block-131.md",
+          "sha256": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which next claims survive independent proof and replay?",
+      "why_now": "Label identification and support-specific inverses require independent mathematical checking.",
+      "scope": "Read only. Check actual marking, square, support constraints, norm, exceptional repairs and prime-first order.",
+      "if_yes": "Give verified claims and rank two next tests.",
+      "if_no": "Locate the first invalid inference.",
+      "if_inconclusive": "Give checked partial scope and missing estimates.",
+      "inputs": [
+        {
+          "path": "research/cold-linear-split-137.md",
+          "sha256": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01"
+        },
+        {
+          "path": "research/cold-resummed-136.md",
+          "sha256": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161"
+        },
+        {
+          "path": "research/astra-joint-65.md",
+          "sha256": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b"
+        },
+        {
+          "path": "research/astra-predictor-76.md",
+          "sha256": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/ordinary-sector-square-tail-135.md",
+          "sha256": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a"
+        },
+        {
+          "path": "research/ordinary-seed-window-134.md",
+          "sha256": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb"
+        },
+        {
+          "path": "research/astra-direction-70.md",
+          "sha256": "126bbb56ee8dc0f4c51aeb4365b95f12b4a327d56e76e98815eeb84260814c72"
+        },
+        {
+          "path": "research/opposite-autocorrelation-73.md",
+          "sha256": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

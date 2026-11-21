@@ -1,0 +1,182 @@
+{
+  "round": 155,
+  "accepted_at_utc": "2026-11-19T22:22:17Z",
+  "previous": "research/round-154-acceptance.json",
+  "previous_sha256": "9c8f669fb938dbf0899d1763faa2fd65eb89043c7b68d6dfb540f9092a0e59d7",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-154.json",
+    "sha256": "7bbd4b53d24b3a647d4ffbedd181f615580174838b56a3e0fb2bfe32034eb699"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-crossratio-affine-chart-155.md": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b",
+    "research/ordinary-first-spill-face-support-155.md": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8",
+    "research/cold-legendre-unit-return-155.md": "2e04d64faff98b129dd14d44d5e569d8ea68c2dfd2cf7d9b2ccf36eeab04c42e",
+    "research/cold-legendre-unit-return-155-check.py": "6a8eb053fec906c5866a208046c5098ac37ae556336d5ff49fe4210fe9cafb2d",
+    "research/cold-legendre-unit-return-155-checks.jsonl": "1656c2fcf8a107ad61572139c2bda557bf8f2155a08f8efc366d3b3dc8492d7a",
+    "research/api-astra-review-155.md": "1808a882b2f314c8b02fc51a49d39985739bf605f9701ebb00031800b2465ba3",
+    "research/api-astra-155-receipt.json": "26baf258cfc61a41b2d38aa747e9713656e1ae615728d0c751017886779d020d",
+    "research/api-astra-ordinary-prime-favorable-crossratio-155.txt": "9156905932e72a159d5c965e14b50ede5cd8a5bcdf72a08042a22a2a05b448cb",
+    "research/api-astra-cold-actual-opposing-residual-signature-155.txt": "1fd91ce961f09fd7c2f7f9cf184f0c699be6e02f306660a7bc66d8483290b931",
+    "research/api-astra-ordinary-prime-original-face-dual-155.txt": "3c0cebca6d9b5d660ae8aca7707ee29b405759d35ce4a6235722d15f7c115bda",
+    "coordination/launchers/round-155.py": "aac9c3324f513b7e2993d0d5813c3356eb3acc038b8e6b3d9685616770e8158c",
+    "coordination/round-155-inflight.json": "e395c0d1333303c2fdcc7e4fcaa29b12abe50c007a3bcd36672ba55fea8693b4",
+    "coordination/shared-obligations/round-155-before.json": "5c06ad50d13238c9490ba44d50970c1568e7081434945afb743dd7fa333a4ca2",
+    "coordination/shared-obligations/round-155-after.json": "88d28f3cb24e27be8f9ec1c5e815d72f59f3fd646c074e038bafe8ec92848bc3",
+    "coordination/missions/round-155/ordinary-prime-favorable-crossratio.md": "52da1e23840fcb31b02476eabe6612ea05d0962c2d4441a60ead6a5a6970d7ab",
+    "coordination/missions/round-155/cold-actual-opposing-residual-signature.md": "462953a7a6a9c6a6a1849ea8e34c345ad2606d6a553067ecf309a8ba2ee162cf",
+    "coordination/missions/round-155/ordinary-prime-original-face-dual.md": "7e636e033e23898a05be7dec34db786517bc7f27e69449696c10f34a12aad1cd"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-pinned-reflection-flow-148.md": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/anchored-repair-20.md": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721",
+    "research/parallel-cap-19.md": "da976e583abac8c86974f25da13f44fffe5fd29486d79ec2ae0c4d6bd36a552e",
+    "research/ordinary-oriented-terminal-mask-147.md": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456",
+    "research/ordinary-terminal-face-dual-143.md": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb",
+    "research/ordinary-near-cap-complementary-mask-146.md": "06c1dd62076c275cbbdbd79c7976dc1da2c2eca05723c681d64b1fd310e2d43f",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/cold-higher-legendre-step-148.md": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9",
+    "research/cold-first-omitted-envelope-147.md": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921",
+    "research/cold-actual-legendre-amplitude-146.md": "4e72c15a598bb4451152ff9a8ab5bf4d7aae38ffc13914041687b1963c89d4e2",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-remainder-135.md": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-linear-split-137.md": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-positive-39.md": "f8537a945d274efb7f6a143dbceb9f1c51e1ce460190fff510ec6e2dcca61062",
+    "research/parallel-defect-16.md": "e38b5b820fcc78f0c08d502c21e64693511af008a9d73e8f31c02d930f1204c7",
+    "research/ordinary-averaged-repair-dual-149.md": "524778e008719783a38a2cde0ded9cf7069a822ee631c48e0429a204e0e5d987",
+    "research/cold-two-center-omitted-envelope-149.md": "b9523e161fde83eb32f92dbb5d1f7c2336ab85f37523d705d1b48bfbdc17e142",
+    "research/cold-jacobi-linear-legendre-145.md": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1",
+    "research/cold-mixed-seed-column-141.md": "0c09cd0b907b85540da510809612c64bc2953db2d0c0970120ce9242dcfff468",
+    "research/ordinary-terminal-approximate-face-144.md": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4",
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/astra-legendre-63.md": "e552bb81f19ce942ab8d589050bb0343296dd04aa8425b699154b49a001bbe3c",
+    "research/ordinary-prime-repair-source-150.md": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1",
+    "research/cold-signed-legendre-omission-150.md": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f",
+    "research/parallel-rectangle-20.md": "5a2bab72af7de9f1b9abdae5091172ce1375f93e6a3a7480633ea142a612d333",
+    "research/critical-sets.md": "1b7adbf29a540f6801d79667ca1ae9245946e56435b9843b724f4b5a07577b10",
+    "research/astra-rankthree-55.md": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48",
+    "research/rank-four-arithmetic-56.md": "7c7fcff4cfec674ec7325538ddddc5738b37038802409fb1c461bedc05860d56",
+    "research/weighted-arithmetic-57.md": "691134f5146f17877bda595b19ed937ab9859d388e2c5e2e34921eb30da35e30",
+    "research/astra-ranknext-58.md": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9",
+    "research/joint-law-32.md": "b9aae9238545ad13d174732cf2bfed8c0bf2d5446c1843119dd1ec5796681dfd",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/ordinary-prime-coset-spread-151.md": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282",
+    "research/ordinary-retargeted-motion-151.md": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b",
+    "research/cold-leading-W-square-151.md": "8adb45f03aaf00eaa084f93c6538e5c6091869505b690991df1b3fbf88da67e3",
+    "research/api-astra-review-151.md": "eb02314be75ea8e957af7b675081729fb7507d2b06b089f1a487b4397308de40",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/ordinary-affine-correlations-152.md": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5",
+    "research/ordinary-first-spill-signed-dual-152.md": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0",
+    "research/cold-three-center-152.md": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a",
+    "research/cold-W-all-order-return-152.md": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2",
+    "research/ordinary-affine-jacobi-factorization-153.md": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0",
+    "research/cold-three-center-composition-153.md": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/ordinary-lift-and-gauss-kernel-154.md": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32",
+    "research/cold-other-center-matched-154.md": "d72e53ec9c42fc92c019618bba335cab8e3c06d25e1bbe44b9bb1401b6afa0e2",
+    "research/cold-quintic-complete-selected-pools-144.md": "65d491945951070b9db8565942bcec62ce32784750acfa7d7e417c361c36fa06"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-resummed-136-check.py": "81dbc6e21637e04a5bf39bf503a6172fee8ba4dffe308d0dce7fb6fe068a3784",
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa",
+    "research/cold-leading-W-square-151-check.py": "7db93c307cdc16cb7fdf6f55902245e0e27a809a2950ae5367857cf2f2bf56c3",
+    "research/cold-signed-legendre-omission-150-check.py": "495d0b8ba3d447a9bce54ee4ca76f9e1dbbe94f49f261177354a94c25a30206d",
+    "research/cold-W-all-order-return-152-check.py": "87d905face366ee1c1260c7ddbcab6911ea8a379979ef6c432c8c25978513227"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three complete Astra returns and independently reviewed fresh algebra and interval replay.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 1,
+  "arithmetic_record_counts": {
+    "selected_legendre_unit_returns_on_C1": 1
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Astra favorable cross-ratio",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Review the actual true-anchor flatness transfer",
+        "Audit the diagonal and wrong sector transfer"
+      ]
+    },
+    {
+      "name": "Gateway Astra original first-spill dual",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Seek an adaptive restricted dual correlation bound",
+        "Test for a positive recession direction then estimate normalized multipliers"
+      ]
+    },
+    {
+      "name": "Gateway Astra true cold opposing label",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Complete the two old true common-label collections",
+        "Compute the actual Picard residual on the whole C1 column and transfer"
+      ]
+    },
+    {
+      "name": "/root/audit_154",
+      "status": "completed",
+      "ranked_closeout": [
+        "Track an opposing label whose shift changes with the input column",
+        "Find cancellation across growing favorable slope families with their true dependent weights"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek a prime-only favorable-sector upper across growing slope families in the exact affine chart, tracking the u-dependent transported factors. Families with bounded weighted fiber mass are already harmless.",
+    "Exhibit actual signed cancellation with output shifts that vary with the input and can survive the large-column limit, or find a different cold confinement argument. The two fixed returns only oppose at C1.",
+    "Use exact relative-interior support of the primary face to develop a quantitative adaptive upper for the correct first-spill dual; positivity with no quantitative mass lower does not bound that cost."
+  ],
+  "proof_scope": [
+    "The actual two-parameter off-diagonal cross-ratio correspondence becomes affine after the common chart X=1/(1-vx). Its two outer f weights and both transported factors depend on the same original u. Any family of slopes with uniformly bounded sum of |f(t)| per u costs O(p) on the near-critical branch, by the injective partial permutation and counting second norms.",
+    "At each finite prime the common bulk zero set of the true complementary face is exactly the union of positive bulk supports of the primal true face, by a small objective perturbation and exact duality. The true primal has a representative positive everywhere on I. The correctly signed dual recession objective is nonpositive, with equality only for rows vanishing on I.",
+    "Two actual cubic-outer and seed-inner selected paths return the Legendre unit in Y^2 and give coefficients opposing the R154 WG and F4G rows on C1. At the same actual heights and both physical lifts, outward arithmetic gives a relative 0.001 to 0.002 reduction of each selected common row on the complex square. For the identical fixed-return choice, all other odd canonical inputs reinforce on the real slice and the even inputs vanish. The coefficients decay geometrically in large input width."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The favorable candidate repeats the conditional superlinear lower and mistakes it for a proof that a prime upper cannot exclude the branch. The critical-size sequence has not been proved to exist. No favorable prime upper is proved.",
+    "The original first-spill reply has the wrong dual sign and promotes weighted errors to pointwise positivity. Exact primal finiteness precludes positive recession objective, and the new finite support proof supplies no needed quantitative restricted upper.",
+    "The cold reply only repeats the two old constructive terms. The new opposing returns give no debitable global signed rate, and the common cold domain and original all-prime theta target remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Three matching-model HTTP 200 replies finished and were archived by exact bytes.",
+    "The 192-bit Python-FLINT checker encloses the true coefficients, third-derivative analytic tail and common-label relative moduli."
+  ],
+  "independent_review": [
+    "The read-only reviewer checked the affine chart, adaptive bounded-weight slice, all three raw failures and the cold factorial and Legendre unit.",
+    "The reviewer reproduced the selected cold sign and rate independently with a 45-term Arb series and checked the canonical real-slice sign formula."
+  ]
+}

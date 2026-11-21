@@ -1,0 +1,121 @@
+## Finding: fixed-complexity parity gives a genuine truncated estimate, but positivity does not control the truncation error
+
+Let
+\[
+A_p:=\mathbb E_n\!\left[1_{\{i\ne0\}}\,b_i(S_{\rm Jac})_i\right],
+\qquad S_{\rm Jac}=2\sqrt n\,Ke_0 .
+\]
+For the ordinary mixed-cap solution, \(b_i=|Y_i|\) on the bulk and
+\[
+A_p=4\eta+O_M(n^{-1}).
+\]
+Thus estimating \(A_p\) is exactly the required arithmetic problem, not merely a restatement of the seed identity.
+
+### 1. A checked fixed-complexity estimate
+
+Suppose \(Q_p\) is a bulk row obtained from a fixed-depth, fixed-degree polynomial expression in the negative Paley trace fields, with
+\[
+\|Q_p\|_\infty\le B
+\]
+for a constant \(B\) independent of \(p\). If the expression has even total parity, the Mellin-inertia argument from the fixed-expression estimate gives
+\[
+\left|\mathbb E_n[1_{\{i\ne0\}}Q_{p,i}(S_{\rm Jac})_i]\right|
+   \le C_{Q,B}\,p^{-1/2}+O_B(p^{-1}).
+\tag{1}
+\]
+The same conclusion holds for a bounded polynomial approximation to an even function of a fixed-depth negative field. The reason is that \(S_{\rm Jac}\) is itself the trace of a negative rank-one object; multiplying it by an even expression produces an odd total tensor. The odd invariant space vanishes, while the exceptional Mellin characters contribute \(O(p^{-1})\). This is the actual Paley arithmetic input.
+
+The Jacobi entry bound gives, uniformly in \(i\ne0\),
+\[
+|(S_{\rm Jac})_i|
+ =2\sqrt n\,|K_{i0}|
+ \le 2\sqrt{p/n}
+ =2+O(p^{-1}).
+\tag{2}
+\]
+Consequently, for every such \(Q_p\),
+\[
+|A_p|
+ \le C_{Q,B}p^{-1/2}
+ +2\sqrt{p/n}\,
+   \mathbb E_n[1_{\{i\ne0\}}|b_i-Q_{p,i}|]
+ +O_B(p^{-1}).
+\tag{3}
+\]
+
+Equation (3) is a support-sensitive arithmetic estimate on the genuine operator. It shows precisely what an admissible polynomial completion would need to prove: an \(L^1\)-approximation of the *actual ordinary weight* \(b\), not an unweighted parity statement.
+
+A useful localized version is obtained by setting
+\[
+b^{(\le L)}_i=b_i\,1_{\{b_i\le L\}},
+\qquad
+R_p(L)=\mathbb E_n[1_{\{i\ne0\}}b_i1_{\{b_i>L\}}].
+\]
+If \(Q_{p,L}\) is a bounded fixed-complexity parity approximant to \(b^{(\le L)}\) with \(L^1\)-error at most \(\rho\), then
+\[
+|A_p|
+\le C_{L,\rho}p^{-1/2}
+ +2\sqrt{p/n}\,[R_p(L)+\rho]
+ +O_{L,\rho}(p^{-1}).
+\tag{4}
+\]
+Therefore the target follows from the concrete two-stage condition
+\[
+\lim_{L\to\infty}\limsup_{p\to\infty}R_p(L)=0
+\tag{5}
+\]
+together with a fixed-\(L\) polynomial completion whose error \(\rho\) is then sent to zero.
+
+This is stronger than a uniform \(L^2\)-norm hypothesis: it asks only for uniform integrability of the actual ordinary support, plus a finite-complexity approximation on each bounded support window.
+
+### 2. Exact failure of the positivity-only route
+
+The available identities give
+\[
+\mathbb E_n b=\nu\le2,
+\qquad
+0\le b_i\le 2\sqrt p,
+\]
+but these do **not** imply (5). Indeed, the abstract nonnegative profile
+\[
+b^{(L)}=
+\begin{cases}
+L,&\text{on a set of normalized size }2/L,\\
+0,&\text{elsewhere}
+\end{cases}
+\]
+has \(\mathbb E b^{(L)}=2\) while
+\[
+\mathbb E[b^{(L)}1_{\{b^{(L)}>L/2\}}]=2.
+\]
+Thus neither positivity, the mean bound \(\nu\le2\), nor the pointwise Paley bound alone can make the high ordinary-weight contribution vanish. The proposed step “apply fixed-depth parity to the optimizer weight by truncating” is therefore invalid unless (5), or an equivalent support estimate, is proved.
+
+The identity \(b=|Y|\) on the bulk does not repair this: \(Y=Kb\) and \(K^2=I-J_0\) yield only the usual mean/energy relation, with no uniform integrability of \(|Y|\). In particular, positivity cannot be used to discard the high-\(|Y|\) support.
+
+### 3. Relation to the signed Jacobi pairing
+
+The exact relation
+\[
+A_p=4\eta+O_M(n^{-1})
+\]
+means that (4) would prove \(\eta\to0\) if the support condition (5) were available. Conversely, a subsequence with \(|\eta|\ge\delta\) forces
+\[
+\limsup_{p\to\infty}R_p(L)\ge c(\delta)>0
+\]
+for every fixed \(L\) along which the fixed-complexity term in (4) is negligible. Hence a genuine theta obstruction must manifest as a persistent amount of ordinary weight on growing amplitudes; it cannot be hidden solely in a bounded-support parity failure.
+
+### Ranked decisive next tests
+
+1. **Support-tail test (highest priority).** For the actual zero-floor mixed-cap solution, establish or numerically certify with rigorous enclosures whether
+   \[
+   \lim_{L\to\infty}\limsup_{p\to\infty}
+   \mathbb E_n[1_{\{i\ne0\}}|Y_i|1_{\{|Y_i|>L\}}]=0.
+   \]
+   A positive lower limit would refute the bounded-support completion route; vanishing would reduce the problem to fixed-\(L\) Mellin parity.
+
+2. **Windowed parity test.** For fixed \(L\), replace \(b\) on \(|Y|\le L\) by an explicit even Chebyshev polynomial \(P_{L,\rho}(Y)\), and verify the uniform-in-\(p\) bound
+   \[
+   \left|\mathbb E_n[1_{\{|Y|\le L\}}P_{L,\rho}(Y)S_{\rm Jac}]\right|
+   \ll_{L,\rho}p^{-1/2}.
+   \]
+   This tests the genuine arithmetic completion while keeping all polynomial degrees fixed before the prime limit.

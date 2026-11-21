@@ -1,0 +1,95 @@
+{
+  "round": 103,
+  "accepted_at_utc": "2026-11-19T12:16:12Z",
+  "previous": "research/round-102-acceptance.json",
+  "previous_sha256": "6bb2f30ffb5e0aa899490894de4867a70d3296f7bd5389facd3484ed87efb150",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-102.json",
+    "sha256": "969a91b6d15f4d55a1714711ff24c87ad84c7f28b1fa1ccf12b6ea80eaf9f871"
+  },
+  "proof_and_code_sha256": {
+    "research/api-astra-103-receipts.json": "8d576f1a9f77f87467c9b546693cdd45c6b7d4ff9ee7dd9a00064c0867046e40",
+    "research/api-astra-mark-103.txt": "ed46390930b95703fb65fe5da88eeb82a55baaf5819b174d97b089449961dc16",
+    "research/api-astra-review-103.md": "57b0f755f4d09a1d697cc3f8b56ebfd973355dce1ea7389b32833b30d3d7137c",
+    "research/api-astra-terminal-103.txt": "bc55bcd1ee872d226733a8e347665de3529b4a0b01d1215670df563c4611637a",
+    "research/real-cap-exterior-103.md": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988",
+    "research/translated-newton-103.md": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/astra-incoming-97.md": "38efd65265f3a76c49c7a1a4d9088f894bd063b9163fd3e378caccb7a033e6ba",
+    "research/astra-marked-101.md": "9ef47e328f762e92fad89b95f1b11b9ccb176c7105f1de06da1a87bbd5fb1a36",
+    "research/astra-mixed-100.md": "2a55170920bbe2ff60de667568397447f2b0255dfcebf8792d56a61a1fc0140c",
+    "research/astra-price-101.md": "44c8b9a7d9bf77c445f87770bbe082223f9c34adcdcef39100a88d670800450d",
+    "research/astra-prior-102.md": "46a564a030f41d8a282092160a045e024f0b316cf09583a2be02b8857b792f88",
+    "research/astra-resolvent-102.md": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11",
+    "research/newton-boundary-98.md": "cad7d20caf547e671e6b1a11d6588ee05bd382a49169fd552955f14ab4227d24",
+    "research/quotient-floor-99.md": "73d912071f50e70497fe51662437caad2429b31ea0fcda37fec0f2f2fde7a59e",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/smoothing.md": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, marked source window",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test the signed combined source and counting residual jointly at genuine growing depths.",
+        "Seek a uniform disk and signed transport norm with fixed quantitative margin."
+      ]
+    },
+    {
+      "name": "Gateway Chat Completions, terminal quotient window",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test genuine terminal head feasibility with cap J/b at the original shrinking floor.",
+        "If capped feasibility fails, test the original one-sided terminal and independent prior price duals."
+      ]
+    },
+    {
+      "name": "/root/audit_103",
+      "status": "completed",
+      "ranked_closeout": [
+        "Calibrate the translated norm exponent, quadratic residual scale and nominal corrected angle jointly at increasing depths.",
+        "Bound real signed overflow transport, or its pairing with the true positive source."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Prove a compatible growing-depth translated Newton package on the physical Q: uniform local curvature, bounded first correction, translated entry decay and scaled quadratic residual tending to zero. Test the nominal corrected angle at the same heights.",
+    "Estimate one-sided transport of the actual real relaxed-product overflow or its positive-source pairing. Combine with vanishing mean defect in the appropriate fixed-floor order.",
+    "On the original filtered quotient, price the authentic terminal head by a new legal trial or exact dual bound. Keep inexpensive predecessor and independent triangular control explicit."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new arithmetic output. The two HTTP receipts verify completion metadata; the raw outputs are separately available as AI drafts and carry no mathematical acceptance."
+  ],
+  "proof_scope": [
+    "For the actual amplitude-capped real fixed point, if the relaxed mark product is positive, a cross identity bounds the true marked displacement by the cap mean deficit and the signed enlarged-cap overflow paired with the true positive stationary source. The latter has upper bound (nu-2 sqrt(t)) max(K tau), using only the capped row on the right. Other relaxed products may be zero or negative. Conditional on vanishing mean and signed overflow estimates at fixed floors tending to zero this implies the original limit. A nonzero mark with vanishing mean defect also forces a fixed signed overflow surviving erasure of any set of size at most eta^2/(12 alpha).",
+    "A closed-square holomorphic predictor with uniform inverse and translated entry bound b n^(-beta), bounded first Newton step and strict curvature margins has an unforced physical stationary solution within O(n^(1-beta)r^2) of the corrected predictor, where r is normalized counting residual. This constructs a physical branch from the predictor alone. With beta=1/2, n^(1/4)r tending to zero suffices for the small remainder. An additional nominal angular margin and physical phase uniqueness are needed for first-hit exclusion.",
+    "Both API drafts mostly reconstruct prior work. The marked draft verifies the original identity but reverses both signs in its mixed-term decomposition. The terminal draft restates the Abel splice and correctly specializes the inherited centered projector to a smaller actual head, conditional on the requisite shrinking root. Neither establishes the proposed uniform bound."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The two API windows solve neither genuine uniform estimate; the marked mixed-term sign error is corrected only in the review, with the original raw bytes kept.",
+    "The flexible Newton theorem still requires a compatible genuine growing-depth family and angular comparison on Q. The fixed-height entry rates cannot be substituted as increasing-depth rates.",
+    "The one-sided signed cap overflow and mean deficit through primes are open at fixed real floors. Average estimates alone may lose a power of field size in transport.",
+    "True terminal and prior prices, one-sided triangular control and escaped branch remain open."
+  ],
+  "independent_review": [
+    "Read-only audit verified both ordinary inequalities, sign of the real overflow, normalizations, prime-first order, and erasure factor.",
+    "Read-only audit verified the analytic closed-ball construction and requested explicit continuity on the closed square and physical phase comparison. The final note incorporates those boundary hypotheses.",
+    "Independent audit checked the raw API drafts against the inherited notes and confirmed the marked sign error and conditional terminal projector."
+  ]
+}

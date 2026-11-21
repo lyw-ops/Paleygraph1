@@ -1,0 +1,132 @@
+## Result: the target remains unproved; no genuine signed obstruction was found
+
+Fix the actual prime family
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+with \(p\to\infty\) through eligible primes. Keep the original closed cold square \(Q\), the actual marked floor
+\[
+t_0=n,
+\]
+the frozen rows \(h=601,602\), and the translated physical price \(P_{5000}\). Let \(V_h\) be the genuine fully marked predictor and \(S=2\sqrt n\,Ke_0\) the Jacobi seed. The required estimate is
+\[
+\sup_{(t_i)\in Q}\|K(D_h-D^{\mathrm J})\|_{P_{5000}}
+<0.472-\varepsilon
+\]
+for some \(\varepsilon>0\), uniformly for both \(h=601,602\), once \(p\) is sufficiently large.
+
+I do not obtain this estimate, nor a valid signed lower bound disproving it.
+
+### What the geometric/arithmetic calculation does establish
+
+The relevant signed transport calculation gives the following fixed-depth fact.
+
+For compositions whose two predictor inputs are represented by the verified negative Mellin objects, the physical position kernel has entries
+\[
+O(p^{-1/2})
+\]
+uniformly on \(Q\), including:
+
+- the seed–seed term;
+- all terms linear in each of the two predictors;
+- higher odd derivative words;
+- the marked coefficient corrections;
+- bad-lift and boundary corrections.
+
+The reason is that, after inverse Fourier transformation, each position entry is a signed character sum. The quadratic twist \(s(y)=\chi(1-y)\) supplies odd inertia at \(y=1\), eliminating a geometrically trivial quotient. The resulting complete sums have weight at most \(-1\) and therefore size \(O(p^{-1/2})\), with constants controlled by the verified dimension budget below \(4.8\). This remains valid after integrating along the secant segments between the actual predictors.
+
+Thus one obtains a genuine signed physical-kernel estimate for the frozen two-step compositions, of the form
+\[
+\max_{x,z\ne1}
+\left|
+\bigl(KD_{602}KD_{601}\bigr)_{x,z}^{\mathrm{pos}}
+\right|
+=O(p^{-1/2}),
+\]
+and similarly for the relevant secant operators.
+
+This is not yet a \(P_{5000}\)-operator estimate. The physical price is sensitive to the translated packet boundary columns and to coherent accumulation across many \(O(p^{-1/2})\) entries. No summation argument converting the signed entry estimate into a bound below \(0.472\) was supplied.
+
+### Why the existing \(0.528\) estimate does not settle the remainder
+
+The full Jacobi-seed derivative \(KD^{\mathrm J}\) has an independently checked translated rate below \(0.528\), and its two-step rate below \(0.279\). This prices the pure seed derivative, not
+\[
+K(D_h-D^{\mathrm J}).
+\]
+The difference contains the nonlinear predictor displacement
+\[
+V_h-S
+\]
+inside the odd derivative expansion. The cited seed estimate does not control these mixed words in the physical price.
+
+Likewise, the positive retained-block witness
+\[
+L_{601}v>1.036v,\qquad L_{602}v>1.036v
+\]
+only proves that the particular **nonnegative majorant**
+\[
+L_{602}L_{601}
+\]
+has two-step rate greater than \(1.073296\) in every positive price. It is not a signed lower bound for the actual operator. Cancellation in the actual character sums can invalidate the comparison. Therefore this is an obstruction to the envelope route, not an obstruction to the exact physical remainder target.
+
+The auxiliary rank-one operator example shows the same logical issue: counting contraction and small position entries do not by themselves price a physical packet. It is not an example drawn from the actual \(D_h-D^{\mathrm J}\).
+
+### Precise remaining gap
+
+A complete proof must perform signed transport for the actual remainder
+\[
+E_h=D_h-D^{\mathrm J}
+\]
+at each of \(h=601,602\), with:
+
+1. the actual \(V_h\), not merely its positive envelope;
+2. the actual marked floor \(t_0=n\);
+3. all mixed seed/non-seed words in the odd derivative expansion;
+4. bad-lift and base-boundary corrections;
+5. the translated pair and physical packet columns;
+6. a tail bound after the retained signed transport;
+7. a final \(P_{5000}\)-price estimate strictly below \(0.472\).
+
+The current signed character-sum estimate controls individual position entries but does not control the weighted packet transport. Conversely, the available positive packet comparison gives a lower bound only for a majorant, not for the actual signed operator.
+
+Hence the checked conclusion is:
+
+\[
+\boxed{\text{No proof of }\|K(D_h-D^{\mathrm J})\|_{P_{5000}}<0.472
+\text{ and no true signed obstruction are currently established.}}
+\]
+
+The order of limits remains the required one: first obtain bounds uniform on the fixed square \(Q\) and both fixed rows \(h=601,602\), then take \(p\to\infty\) through \(p\equiv1\pmod4\). A finite-prime replay alone would not settle the asymptotic assertion.
+
+## Ranked next tests
+
+### 1. Exact signed translated-packet replay for \(E_{601}\) and \(E_{602}\)
+
+Construct the retained word expansion of
+\[
+K\bigl(D_h-D^{\mathrm J}\bigr)
+\]
+using the actual negative representations of \(V_h-S\). For every retained mixed word:
+
+- transport signed Mellin weights before taking absolute values;
+- retain the physical base and translated input pair;
+- evaluate the rational \(P_{5000}\)-column costs;
+- include actual marked and bad-lift corrections;
+- bound the omitted odd orders geometrically using the verified dimension budget \(<4.8\).
+
+Use outward interval arithmetic for the finite price calculation and prove a uniform tail estimate. This is the most direct discriminating test: it either produces a gap below \(0.472\), or yields an actual signed packet with price at least \(0.472\).
+
+### 2. Search for a genuine signed packet lower bound
+
+Use the signed transported matrix, not the positive envelope, and solve the dual price problem on a finite retained index set. A certified vector \(w\) with
+\[
+\frac{w^{\mathsf T}|_{\text{packet}}\,K E_h\,v}
+     {w^{\mathsf T}v}
+\ge 0.472
+\]
+would be a true obstruction only if the numerator is evaluated with the actual signed coefficients and all omitted terms are bounded in the adverse direction. The existing witness for \(L_h\) does not qualify.
+
+This test is ranked second because it is more likely to expose a comparison obstruction than to prove the desired upper bound, but it cleanly distinguishes:
+
+- a genuine signed packet lower bound for \(K E_h\), from
+- the already-known failure of the nonnegative coefficient envelope.

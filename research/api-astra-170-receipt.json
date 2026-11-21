@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-170-inflight.json",
+    "sha256": "2ff8e77844ce7df1dad6114b5cb329148a03b40e1afa192dd34d88f95a745bbf"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-distinct-ratio-dilations",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 8904,
+        "completion_tokens": 12224,
+        "total_tokens": 21128
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-distinct-ratio-dilations-170.txt",
+        "sha256": "2bbd6e1382c1b71a60a68785cc187a42ed676601b8195ad0746ed73187864c4f"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-centered-source-coercivity",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 8991,
+        "completion_tokens": 3639,
+        "total_tokens": 12630
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-centered-source-coercivity-170.txt",
+        "sha256": "9db80390d3e88e3be7d9963686adfb7f192e2abde46899bd1b4dfcdf9057020c"
+      }
+    },
+    {
+      "call_id": "cold-prime-restricted-response-gain",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 8716,
+        "completion_tokens": 3052,
+        "total_tokens": 11768
+      },
+      "archive": {
+        "path": "research/api-astra-cold-prime-restricted-response-gain-170.txt",
+        "sha256": "335ed4c082a2ddc9e4068837bc6b025a4d1a3628c63cbe8b3ae641a81313e476"
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "round": 176,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 176 review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-175-acceptance.json",
+      "sha256": "e5a0b567842fd7e7a5d4740fa2440b8657a659fc4ea74b80640c3466169d6427"
+    },
+    "current": {
+      "path": "research/round-176-acceptance.json",
+      "sha256": "a8ff13ae167d3b53b6e601bed7190daec6c68c6dbe984596e0b2bd78b7cbaf7c"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The actual full diagonal was O(p^37/16), and the full affine right energy did not use a genuine arbitrary nonmonomial overlap bound.",
+      "after": "The inverse-chart quadratic fibers improve the whole diagonal to O(p^(37/16-1/4320)). The projective overlap reduces actual generic pointwise and fixed-parameter correlations.",
+      "remaining": "Obtain the sufficient O(p^3/2) full weighted bound by retaining both coupled physical inputs, or prove the sufficient one-match and separate zero-match bounds. The summed generic right energy and pure rows are still above target.",
+      "evidence": [
+        {
+          "path": "research/ordinary-inverted-vertical-power-saving-176.md",
+          "sha256": "e5d552ab5abf20041a87b83f9a2816f94e2a7790db5143ede25b7c2188015d2c"
+        },
+        {
+          "path": "research/ordinary-favorable-sign-identity-175.md",
+          "sha256": "2f3fa64a22b5435edda3c9ba7ba63c8c167bbeb7737a2a1f7786b025a31e919f"
+        },
+        {
+          "path": "research/ordinary-pin-favorable-collision-cut-174.md",
+          "sha256": "c5bbc0981d9ab05e6de8b8723374d3ceff054f4345b44d06c13b0935492c96b3"
+        },
+        {
+          "path": "research/ordinary-two-torus-projective-overlap-176.md",
+          "sha256": "9d18188f1e3faced380ba0903f0b4c8577db72f794239a7095c41015aa194d99"
+        },
+        {
+          "path": "research/ordinary-projective-label-cuts-175.md",
+          "sha256": "fb3dd1632cff6318800056502c71ee5af56ddda00fb5309d9b6e8e09df4aec28"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "Three true uniform displacements and an explicit conditional tube were known. The full infinity contraction failed.",
+      "after": "The fourth unsigned upper is 0.0588191444 and the sufficient 0.05 criterion is unchanged. No actual first exit or signed growing estimate was shown.",
+      "remaining": "Prove actual signed growing-prefix confinement with strict clearance or a genuine sufficient bridge, and address distinct derivative transfer separately.",
+      "evidence": [
+        {
+          "path": "research/cold-full-sup-derivative-obstruction-175.md",
+          "sha256": "a061db2aca41c5327261be5957061f2520dcdbea64457cce61b101f9f610afbe"
+        },
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual full diagonal now has a strict log-free exponent gain. True projective two-level overlap gives fixed-parameter gains. The cold growing prefix still needs signed propagation.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-coupled-output-set-incidence",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the true weighted distinct-pole block gain by using both input labels in an output-set incidence inequality?",
+      "why_now": "The quadratic vertical saving improves the positive upper but spends g(C). The actual favorable masks and fixed projective coincidences are already priced.",
+      "scope": "For X=1/s use 1/A=1/r-(b/r)X and C=(A-r)/(1-r) together, or an equivalent exact chart. Keep both input factors and w(s) and both line weights with all original masks. Seek a joint level estimate on the physical distinct-b pairs. The common-b class remains separate.",
+      "if_yes": "Prove the sufficient O(p^3/2) distinct-pole bound or a new conditional inequality whose known inputs imply it.",
+      "if_no": "Prove a precise obstruction for the specific proposed coupled incidence using its true assumptions.",
+      "if_inconclusive": "Give a new prime-uniform bound on a surviving nonempty genuine output-weighted class.",
+      "inputs": [
+        {
+          "path": "research/ordinary-inverted-vertical-power-saving-176.md",
+          "sha256": "e5d552ab5abf20041a87b83f9a2816f94e2a7790db5143ede25b7c2188015d2c"
+        },
+        {
+          "path": "research/ordinary-favorable-sign-identity-175.md",
+          "sha256": "2f3fa64a22b5435edda3c9ba7ba63c8c167bbeb7737a2a1f7786b025a31e919f"
+        },
+        {
+          "path": "research/ordinary-pin-favorable-collision-cut-174.md",
+          "sha256": "c5bbc0981d9ab05e6de8b8723374d3ceff054f4345b44d06c13b0935492c96b3"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-two-pin-173.md",
+          "sha256": "5b5198056a77b07b2ca14053d7c85ff4bc6e4a4e802e714f40a2ad460fecb22e"
+        },
+        {
+          "path": "research/ordinary-full-diagonal-affine-172.md",
+          "sha256": "910c8becb8eb4aa7d590328da77f8d652faa0b35b0c4c365bad80ff275b74910"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-rich-right-distribution",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "How many true generic right differences carry a given weighted correlation?",
+      "why_now": "The new projective overlap controls the maximum and fixed-a and fixed-c rows, but direct first mass loses the generic distribution.",
+      "scope": "Estimate the weighted tail count #{(a,c): Delta_gen(a,c)>t} with both square masks and full levels, using the two-torus multiplicities or a suitable actual family of right action maps. Integrate its squared energy with no implicit unproved mixed-level reduction. Separate the pure terms and zero match.",
+      "if_yes": "Prove a strict gain in the known summed generic energy or reach the sufficient O(p^2) generic scale.",
+      "if_no": "Give a proved obstruction to a named estimate under the actual cap and hereditary hypothesis.",
+      "if_inconclusive": "Prove a quantitative rich-range improvement and give the resulting partial integral.",
+      "inputs": [
+        {
+          "path": "research/ordinary-two-torus-projective-overlap-176.md",
+          "sha256": "9d18188f1e3faced380ba0903f0b4c8577db72f794239a7095c41015aa194d99"
+        },
+        {
+          "path": "research/ordinary-projective-label-cuts-175.md",
+          "sha256": "fb3dd1632cff6318800056502c71ee5af56ddda00fb5309d9b6e8e09df4aec28"
+        },
+        {
+          "path": "research/ordinary-affine-difference-pins-174.md",
+          "sha256": "5fdb141391f7a0ee8f3c17895ee22928f840db63f5e647585c871ed3ff103325"
+        },
+        {
+          "path": "research/ordinary-weighted-affine-vertical-saving-173.md",
+          "sha256": "61e959f2defb68dec2f44205fb1601b0e98e210f3b45b38aed9ed68c3e3a2023"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-signed-source-bundle",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can signed frozen propagation of the true initial source and the actual quadratic sources yield a summable displacement bound?",
+      "why_now": "The fourth unsigned displacement upper fails the radius test. Counting contraction is available after early confinement, and arbitrary infinity directions are excluded.",
+      "scope": "At V602 or V605 on the original square and both lifts, keep the real mark t0=n. Seek an actual signed bundle or explicit multi-step cancellation in B^j R and B^j K times true Taylor sources, with clearance. A V605 shortcut needs the unnormalized counting norm below 0.0038967 with strict slack. Compare to the R122 exact frozen orbit formula and verify every size hypothesis.",
+      "if_yes": "Prove the actual growing prefix or an unconditional alternate bridge.",
+      "if_no": "Show a genuine obstruction to the named signed source estimate on the actual family.",
+      "if_inconclusive": "Give a verified signed gain that lowers a remaining explicit early-displacement or higher-source bound.",
+      "inputs": [
+        {
+          "path": "research/cold-full-sup-derivative-obstruction-175.md",
+          "sha256": "a061db2aca41c5327261be5957061f2520dcdbea64457cce61b101f9f610afbe"
+        },
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        },
+        {
+          "path": "research/cold-logarithmic-finite-tube-173.md",
+          "sha256": "3d0a8513125a95f4e045c0b9ccd99a531ca3f3ee7a29c195f4cf28eed93f7c37"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which new deductions survive independent review?",
+      "why_now": "Coupled physical incidence, rich right differences and cold signed sources have separate norms and gates.",
+      "scope": "Read-only. Verify actual marks, hypotheses, masks, distinction between finite checks and uniform arguments, and give two ranked next tests.",
+      "if_yes": "Record verified deductions and precise remaining estimates.",
+      "if_no": "Locate an invalid step.",
+      "if_inconclusive": "Record checked partial progress.",
+      "inputs": [
+        {
+          "path": "research/ordinary-inverted-vertical-power-saving-176.md",
+          "sha256": "e5d552ab5abf20041a87b83f9a2816f94e2a7790db5143ede25b7c2188015d2c"
+        },
+        {
+          "path": "research/ordinary-favorable-sign-identity-175.md",
+          "sha256": "2f3fa64a22b5435edda3c9ba7ba63c8c167bbeb7737a2a1f7786b025a31e919f"
+        },
+        {
+          "path": "research/ordinary-two-torus-projective-overlap-176.md",
+          "sha256": "9d18188f1e3faced380ba0903f0b4c8577db72f794239a7095c41015aa194d99"
+        },
+        {
+          "path": "research/ordinary-projective-label-cuts-175.md",
+          "sha256": "fb3dd1632cff6318800056502c71ee5af56ddda00fb5309d9b6e8e09df4aec28"
+        },
+        {
+          "path": "research/cold-full-sup-derivative-obstruction-175.md",
+          "sha256": "a061db2aca41c5327261be5957061f2520dcdbea64457cce61b101f9f610afbe"
+        },
+        {
+          "path": "research/cold-first-prefix-step-174.md",
+          "sha256": "8d28cc54df9a57240886c543783a1dca331348a016dd359608e46b6fa177989e"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

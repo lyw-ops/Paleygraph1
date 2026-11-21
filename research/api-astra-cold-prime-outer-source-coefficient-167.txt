@@ -1,0 +1,122 @@
+## Checked result: one genuine outer transport is available
+
+Let
+\[
+n=t_0=\frac{p-1}{2},\qquad
+R=V_{601}-V_{600},\qquad
+V_s=V_{600}+sR,
+\]
+with both lifts retained, the original complex square, and the physical marked radicand \(4n+W_0^2\) at the marked coordinate. At all other coordinates the radicand is \(4t+W_i^2\).
+
+Take the actual \(l=1\) Taylor coefficient in
+\[
+r^{\mathrm b}
+ =\sum_{l\ge0}(-1)^l b_l(4t)^{-l-1/2}
+ R^2\int_0^1(1-s)V_s^{2l}\,ds,
+\qquad b_l=(2l+1)\binom{2l}{l}4^{-l}.
+\]
+Since \(b_1=3/2\), this coefficient is
+\[
+r_1^{\mathrm b}
+=
+-\frac32(4t)^{-3/2}
+R^2\int_0^1(1-s)V_s^2\,ds.
+\tag{1}
+\]
+
+The two \(R\)-factors are retained as actual increment factors. The two \(V_s\)-factors are the paired non-increment factors, with the common Jacobi seed retained independently on both lifts. The seed-pair first-moment saving is \(s_n^2\ge 8\). Hence the Round-165 estimate applies to the actual \(l=1\) coefficient, including the physical marked correction and bad-character repairs:
+\[
+\|K r_1\|_{P_{5000}}<0.000031
+\tag{2}
+\]
+for all sufficiently large eligible primes. Here \(r_1\) denotes the actual coefficient, not merely the bulk formal coefficient; the difference at the marked coordinate is included in the \(O(n^{-1/2})\) repair.
+
+### Correct first outer step
+
+The physical outer transport is
+\[
+B_{602}K r_1,
+\qquad
+B_{602}=KD_{602},
+\]
+not \(K^2r_1\) and not \(ZK r_1\). The order is therefore
+\[
+(KD_{602})K r_1.
+\tag{3}
+\]
+
+The actual translated multiplier estimate at height \(602\) gives
+\[
+\|KD_{602}\|_{P_{5000}}<1.066
+\tag{4}
+\]
+on the same square, with the same physical marking and both lifts. Using submultiplicativity of the translated packet price,
+\[
+\|(KD_{602})K r_1\|_{P_{5000}}
+\le
+\|KD_{602}\|_{P_{5000}}\,
+\|K r_1\|_{P_{5000}},
+\]
+and therefore
+\[
+\boxed{
+\|(KD_{602})K r_1\|_{P_{5000}}
+<1.066(0.000031)
+<0.000033046.
+}
+\tag{5}
+\]
+
+Thus the actual \(l=1\) packet survives one genuine outer multiplication with a checked bound below \(3.31\cdot10^{-5}\). The coefficient sign in (1) is retained, and the paired Jacobi aggregation is performed before the outer multiplier is applied. This is a genuine transported actual coefficient, rather than a bound on an unrelated formal source.
+
+The corresponding exact transported residue to be priced next is
+\[
+\boxed{
+(KD_{602})^2K r_1
+}
+\tag{6}
+\]
+with \(r_1\) given by (1), retaining the two actual \(R\)-labels and the paired \(V_s,V_s\) labels.
+
+## What this does not prove
+
+It does **not** yet give a signed summable tail. The available translated estimate only gives
+\[
+\|(KD_{602})^jK r_1\|_{P_{5000}}
+\lesssim
+(1.066)^j\,0.000031,
+\]
+which is not summable in \(j\). The counting estimate
+\[
+\|KD_{602}\|_{2\to2}<0.518
+\]
+cannot presently be combined with (2) to obtain a uniform translated tail: converting a normalized counting estimate to a physical maximum estimate introduces the ambient \(\sqrt n\) factor, and no \(n^{-1/2}\) source price for the full transported \(l=1\) packet has been established.
+
+There is also no new signed cancellation beyond the first paired source aggregation. Estimate (5) uses the positive induced translated price of \(KD_{602}\); it does not show that the successive packets \((KD_{602})^jK r_1\) cancel across \(j\).
+
+## Hypotheses used
+
+1. The genuine physical predictors \(V_{600},V_{601}\) and increment \(R=V_{601}-V_{600}\) exist on the original square.
+2. Both lift choices are expanded independently.
+3. The actual mark is \(t_0=n=(p-1)/2\); all other sites use \(t\).
+4. The two \(R\)-factors in (1) retain their actual increment price \(\varepsilon=0.011\).
+5. The two non-increment factors are paired through the common Jacobi seed, giving the squared seed mass \(s_n^2\ge8\).
+6. The translated packet price is submultiplicative for the physical operator \(KD_{602}\).
+
+## Ranked next tests
+
+1. **Price the exact second residue (highest priority).**  
+   Expand
+   \[
+   (KD_{602})^2K r_1
+   \]
+   without replacing the first transported packet by its scalar price. Track whether the first outer \(D_{602}\) preserves the paired seed labels and whether a second pairing produces a genuine reduction below the naive factor \(1.066^2\). A bound with an effective rate \(<1\), or an \(n^{-1/2}\) gain after the first transport, would open the summable-tail route.
+
+2. **Establish a counting-to-translated bridge for the transported \(l=1\) packet.**  
+   Prove a bound of the form
+   \[
+   \|(KD_{602})^jK r_1\|_{\max}
+   \le C\,n^{-\alpha}\rho^j,
+   \qquad \rho<1,
+   \]
+   or an equivalent shifted-resolvent estimate, using the actual \(R^2V_s^2\) label structure rather than a generic counting norm. The missing ingredient is an \(n^{-1/2}\)-scale physical source normalization after the first outer step; without it, the \(0.518\) counting contraction does not yield a translated summable tail.

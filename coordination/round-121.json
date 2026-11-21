@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "round": 121,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after two independent read-only Round 121 audits",
+  "sources": {
+    "baseline": {
+      "path": "research/round-120-acceptance.json",
+      "sha256": "e2993e8da474b342f30f33936f8bc435023a073624fb1cd8fa30dfcbb9500c04"
+    },
+    "current": {
+      "path": "research/round-121-acceptance.json",
+      "sha256": "036fa0ec2698795480b5e88aef18a427b00a16c924b5ebc715c8cfe252faef18"
+    }
+  },
+  "changes": [
+    {
+      "id": "fixed-masked",
+      "route": "Genuine fixed ordinary depth and masked trace",
+      "effect": "reformulated",
+      "before": "The masked lower was attached to late actual reflected inputs with bounded amplitude.",
+      "after": "A bounded second moment of the true density proves positive lower even at sufficiently large fixed ordinary depth and on a genuine early block with negligible new arrivals. The conditional trace support and output units are exact.",
+      "remaining": "Control a genuine fixed ordinary repair source through prime arithmetic with its actual capped fixed-point input and retained true factors.",
+      "evidence": [
+        {
+          "path": "research/early-ordinary-masked-cubic-121.md",
+          "sha256": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e"
+        },
+        {
+          "path": "research/masked-conditional-spectrum-121.md",
+          "sha256": "467bc6f347d4dbbdb07b14ff5de99488e99dd89b4fe7aa8d28494ac7366d0fa4"
+        },
+        {
+          "path": "research/ordinary-slack-dissipation-121.md",
+          "sha256": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Direct true weighted overshoot",
+      "effect": "unchanged",
+      "before": "There is a rate-free true stationary or optimizer-weighted criterion.",
+      "after": "The masked lower uses the original critical cap-rate obstruction.",
+      "remaining": "Prove the actual weighted overshoot or a cap-rate estimate.",
+      "evidence": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "The exact outer inverse and odd three-cutoff word need a rank/coefficient bound at one actual moving predictor.",
+      "after": "The real fixed-depth result does not control the complex predictor.",
+      "remaining": "Establish genuine residual packet contraction or a separate scalar continuation bound through primes.",
+      "evidence": [
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual masked obstruction no longer requires a growing ordinary repair depth or a bounded source. Seek arithmetic at genuine fixed depth while advancing the independent cold packet resource.",
+  "next_calls": [
+    {
+      "id": "fixed-depth-masked-arithmetic",
+      "priority": 1,
+      "change_id": "fixed-masked",
+      "question": "Can the genuine fixed-depth ordinary output-masked cubic be bounded through primes at o(n^(-1))?",
+      "why_now": "The true lower holds at a sufficiently large fixed ordinary projection depth without an amplitude bound.",
+      "scope": "Keep the actual capped fixed-point input, the critical-rate marked hypothesis, and both true factors. A fixed Picard prefix approximation requires a justified power-scale error.",
+      "if_yes": "Give a verified prime bound and its exact obstruction scope.",
+      "if_no": "Identify a genuine obstruction to the proposed comparison.",
+      "if_inconclusive": "Derive a usable finite signed approximation or control of the actual input at the needed scale.",
+      "inputs": [
+        {
+          "path": "research/early-ordinary-masked-cubic-121.md",
+          "sha256": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e"
+        },
+        {
+          "path": "research/masked-conditional-spectrum-121.md",
+          "sha256": "467bc6f347d4dbbdb07b14ff5de99488e99dd89b4fe7aa8d28494ac7366d0fa4"
+        },
+        {
+          "path": "research/ordinary-slack-dissipation-121.md",
+          "sha256": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        }
+      ]
+    },
+    {
+      "id": "cold-secant-packet",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "Can a genuine physical secant increment or its signed three-cutoff word be controlled at one moving cold predictor?",
+      "why_now": "The exception and parity accounting leaves the growing packet cost as a specific open resource.",
+      "scope": "Use actual Picard secants and keep normalized counting residual, Picard depth, independent cutoffs and standalone P separate. Actual complex sheets and inner domain required.",
+      "if_yes": "Give the verified prime-uniform quantitative resource and resulting scope.",
+      "if_no": "Locate the exact failure of the tested upper.",
+      "if_inconclusive": "Return a new signed residual-packet estimate or a compatible genuine resource comparison.",
+      "inputs": [
+        {
+          "path": "research/cold-newton-mark-transfer-115.md",
+          "sha256": "2d6471dc0230023ea36eae0821390c4454bd7285e39d1d104fc7cdc68557f95a"
+        },
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real-rate-free",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Can actual weighted cap overshoot be controlled without assuming the critical rate?",
+      "why_now": "It remains an independent direct route.",
+      "scope": "Preserve both signs and each fixed floor before the prime limit.",
+      "if_yes": "Give the uniform estimate and full limiting consequence.",
+      "if_no": "State the exact mathematical scope of the obstruction.",
+      "if_inconclusive": "Give a new reliable estimate on the true weighted overshoot.",
+      "inputs": [
+        {
+          "path": "research/weighted-adjusted-cap-117.md",
+          "sha256": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50"
+        },
+        {
+          "path": "research/ordinary-slack-dissipation-121.md",
+          "sha256": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "fixed-masked",
+      "question": "Which new actual estimates survive read-only independent review?",
+      "why_now": "The determinant, stage and normalization distinctions matter.",
+      "scope": "Check actual source, signs, normalized and counting scales, prime uniformity and conditional scope.",
+      "if_yes": "Give precisely verified statements and ranked tests.",
+      "if_no": "Locate the first invalid claim.",
+      "if_inconclusive": "Give the checked parts and remaining evidence.",
+      "inputs": [
+        {
+          "path": "research/early-ordinary-masked-cubic-121.md",
+          "sha256": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e"
+        },
+        {
+          "path": "research/masked-conditional-spectrum-121.md",
+          "sha256": "467bc6f347d4dbbdb07b14ff5de99488e99dd89b4fe7aa8d28494ac7366d0fa4"
+        },
+        {
+          "path": "research/ordinary-slack-dissipation-121.md",
+          "sha256": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01"
+        },
+        {
+          "path": "research/cold-exact-exception-budget-118.md",
+          "sha256": "abf7e9c401f43cd2ddeb2d272129b20471eca1b59528b0ecd3bb265b40208efe"
+        }
+      ]
+    }
+  ]
+}

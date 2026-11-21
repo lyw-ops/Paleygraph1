@@ -1,0 +1,238 @@
+## Result: the two-threshold restriction gives a weighted \(O(p)\) first moment, but not the required \(O(p)\) four-factor slice bound
+
+I work along the actual ordinary-prime family
+\[
+p\equiv1\pmod 4,\qquad Q=(\mathbb F_p^\times)^2,
+\]
+on the hypothetical near-critical selected branch from the cited rounds. Write \(\chi\) for the quadratic character, \(f\) for the actual inverse multiplicative Fourier transform of \(\nu\), and \(\rho\) for the actual favorable sign. Choose the actual \(v\) with
+\[
+\chi(v)=\rho.
+\]
+
+For \(u\in Q\setminus\{1\}\) and contributing \(x,y\in Q\), set
+\[
+z_1=1-vux,\qquad z_2=1-vx,\qquad
+z_3=1-vuy,\qquad z_4=1-vy.
+\]
+These are the four original physical arguments. The true slope is
+\[
+\tau=\frac{r_u(y)}{r_u(x)}
+=\frac{z_3/z_4}{z_1/z_2}.
+\]
+A direct calculation gives
+\[
+1-\tau=\frac{v(u-1)(y-x)}{z_1z_4}.
+\]
+Since \(z_1,z_4\in Q\),
+\[
+\chi(1-\tau)=\rho\,\chi(u-1)\chi(y-x).
+\tag{1}
+\]
+
+### The specified middle-amplitude slice
+
+Fix constants
+\[
+a,b,c\in(0,1),\qquad a+b>1.
+\]
+For definiteness, one may take
+\[
+a=b=c=0.51.
+\]
+Consider the slice in which
+\[
+|f(z_1)|^2,|f(z_3)|^2\ge a,\qquad
+|f(z_2)|^2,|f(z_4)|^2\ge b,\qquad
+|f(\tau)|^2\ge c,
+\]
+with all four physical amplitudes also bounded above by fixed constants \(<1\), if desired. The upper cutoffs do not affect the argument below.
+
+The quantitative wrong-sign pin implies, for fixed \(a,b\) with \(a+b>1\), that the two-threshold lower bound
+\[
+|f(X/Y)|
+\ge \sqrt{ab}-\sqrt{(1-a)(1-b)}
+\]
+is eventually larger than the wrong-sign error. Hence every nonzero difference between the two physical layers has the actual favorable sign \(\rho\).
+
+In particular, for the first physical pair \((z_1,z_2)\),
+\[
+\chi(z_1-z_2)=\rho.
+\]
+But
+\[
+z_1-z_2=vx(1-u),
+\]
+and \(\chi(-1)=1\), so
+\[
+\chi(z_1-z_2)=\rho\,\chi(u-1).
+\]
+Therefore every row occurring in the slice satisfies
+\[
+\boxed{\chi(u-1)=1.}
+\tag{2}
+\]
+The same conclusion follows from the second row \((z_3,z_4)\). Combining (1) with the favorable slope condition \(\chi(1-\tau)=\rho\) then also gives
+\[
+\boxed{\chi(y-x)=1.}
+\tag{3}
+\]
+Thus the exact two-threshold condition removes half of the physical slopes and, after the true slope condition is imposed, restricts the \(x,y\)-difference to the square class. This uses the actual marking \(\rho\), the actual affine parameter \(v\), and the true slope \(\tau\); no replacement by a uniform law has been made.
+
+## Weighted Paley estimate
+
+Define the physical layer sets
+\[
+A_a=\{z\in Q:|f(z)|^2\ge a\},\qquad
+B_b=\{z\in Q:|f(z)|^2\ge b\}.
+\]
+For \(u\in Q\setminus\{1\}\), let
+\[
+R(u)=\sum_{\substack{x\in Q\\
+1-vux\in A_a\\
+1-vx\in B_b}}
+ |f(1-vux)|\,|f(1-vx)|.
+\]
+The four-factor absolute contribution at fixed \(u\), after summing over \(x,y\), is bounded by \(R(u)^2\). Restricting further to the true slope layer \(|f(\tau)|^2\ge c\) only decreases the sum, while \(|f(\tau)|\le1\).
+
+Because of (2), every pair counted by \(R(u)\) has \(\chi(u-1)=1\). Moreover, the map
+\[
+(z_1,z_2)\longmapsto u=\frac{z_1-1}{z_2-1}
+\]
+is injective away from the excluded coordinate \(z_2=1\), which does not occur for \(z_2=1-vx\) with \(x\in Q\). The two-threshold restriction gives \(\chi(z_1-z_2)=\rho\) for every such pair.
+
+Applying the Paley operator bound to the weighted pair sum gives
+\[
+\sum_u R(u)\ll
+\sqrt p\,
+\Big(\sum_{z\in A_a}|f(z)|^2\Big)^{1/2}
+\Big(\sum_{z\in B_b}|f(z)|^2\Big)^{1/2}
++\sum_z |f(z)|^2.
+\]
+On the near-critical branch,
+\[
+\sum_{z\in Q}|f(z)|^2\asymp \sqrt p,
+\]
+so
+\[
+\boxed{\sum_u R(u)\ll p.}
+\tag{4}
+\]
+This is the genuine weighted Paley improvement supplied by the exact two-threshold restriction.
+
+However, pointwise Cauchy–Schwarz only gives
+\[
+R(u)\le
+\Big(\sum_z |f(z)|^2\Big)^{1/2}
+\Big(\sum_z |f(z)|^2\Big)^{1/2}
+\ll \sqrt p.
+\]
+Consequently,
+\[
+\sum_u R(u)^2
+\le \big(\sup_uR(u)\big)\sum_uR(u)
+\ll p^{3/2}.
+\tag{5}
+\]
+
+Therefore the actual four-factor contribution on the specified middle-amplitude slice satisfies the checked bound
+\[
+\boxed{
+|S_{\rho}^{(a,b,c),\mathrm{phys}}|
+\ll p^{3/2},
+}
+\]
+with the true physical factors \(f(z_1),f(z_2),f(z_3),f(z_4)\), and with the true slope restriction \(|f(\tau)|^2\ge c\) retained. If the slice uses dyadic upper bounds \(|f(z_1)|^2,|f(z_3)|^2<2a\) and \(|f(z_2)|^2,|f(z_4)|^2<2b\), the same argument gives the corresponding harmless factor \(O(ab)\).
+
+The estimate is \(O(p)\) only if one can additionally prove
+\[
+\sup_u R(u)=O(1)
+\quad\text{or, more generally,}\quad
+\sum_uR(u)^2\ll p.
+\tag{6}
+\]
+
+## Precise failure of the proposed incidence implementation
+
+The exact restriction \(a+b>1\) proves:
+
+1. every occupied physical row has \(\chi(u-1)=1\);
+2. the true favorable slope then forces \(\chi(y-x)=1\);
+3. the weighted first moment obeys \(\sum_uR(u)\ll p\).
+
+It does **not** control the concentration of the row masses \(R(u)\). A single \(u\) may still have \(R(u)\) as large as \(O(\sqrt p)\), which is compatible with all presently available information:
+\[
+\sum_uR(u)\ll p,\qquad \sup_uR(u)\ll\sqrt p.
+\]
+Thus the direct weighted Paley argument stops at \(O(p^{3/2})\), not \(O(p)\).
+
+Equivalently, the missing estimate is the ordinary-prime, actual-layer cross-ratio energy bound
+\[
+\boxed{
+\sum_{\substack{u\in Q\\u-1\in Q}}
+R(u)^2\ll p
+}
+\tag{7}
+\]
+or its slope-coupled version with the additional indicator
+\[
+1_{\{|f(\tau)|^2\ge c\}}.
+\]
+Neither (7) nor a comparable bound follows from the two-threshold difference restriction, the Paley spectral estimate, the near-unit-slope exclusion, or the existing coset-spread estimates.
+
+This is a genuine obstruction to this specific implementation, but not a refutation of the asymptotic \(O(p)\) target: no ordinary-prime sequence with an actual critical layer violating (7) has been exhibited. The conclusion is therefore **inconclusive for the original sum**, with a rigorous \(O(p^{3/2})\) bound and a precisely isolated missing second-moment estimate.
+
+## Remaining gap
+
+The unresolved issue is the distinction between:
+
+- **physical amplitude control:** the four sets \(A_a,B_b\) and the two-threshold sign restriction;
+- **slope control:** the true \(\tau=r_u(y)/r_u(x)\), including its amplitude and favorable mark.
+
+The two-threshold argument controls the signs of \(u-1\) and \(y-x\), but does not couple the sizes of \(R(u)\) across \(u\), nor does it exploit the true slope amplitude strongly enough to save the missing factor \(p^{1/2}\).
+
+## Ranked next tests
+
+### 1. Direct ordinary-prime cross-ratio energy test
+
+For fixed \(a,b\) with \(a+b>1\), prove or disprove along the actual ordinary-prime critical branch
+\[
+\sum_{\substack{u\in Q\\u-1\in Q}}
+\left(
+\sum_x
+1_{A_a}(1-vux)\,1_{B_b}(1-vx)
+\right)^2
+\ll p.
+\]
+The weighted version with \(|f(1-vux)f(1-vx)|\) is the relevant target.
+
+- **Success:** the specified four-physical-factor middle slice is \(O(p)\), even before using the slope amplitude.
+- **Failure:** an actual ordinary-prime sequence with energy \(\gg p\) would rigorously obstruct the incidence route.
+
+This is the highest-priority test because it isolates exactly the missing estimate in (7).
+
+### 2. Slope-coupled three-layer incidence test
+
+Retain
+\[
+\tau=\frac{(1-vuy)(1-vx)}{(1-vy)(1-vux)}
+\]
+and impose \(|f(\tau)|^2\ge c\) rather than discarding the slope factor. Test whether the additional restrictions
+\[
+\chi(u-1)=1,\qquad \chi(y-x)=1,\qquad \tau\in B_c
+\]
+give
+\[
+\sum_{u,x,y}
+|f(z_1)f(z_2)f(z_3)f(z_4)f(\tau)|
+\ll p.
+\]
+A useful intermediate target is a saving
+\[
+\sum_u R_c(u)^2\ll p^{1+o(1)}
+\]
+where \(R_c(u)\) includes the true \(\tau\)-layer.
+
+- **Success:** the slope amplitude supplies the missing \(p^{-1/2}\) concentration.
+- **Failure:** if the true slope layer remains compatible with \(R(u)\asymp\sqrt p\) on too many \(u\), then amplitude-only slicing cannot close the original favorable sum.
+
+

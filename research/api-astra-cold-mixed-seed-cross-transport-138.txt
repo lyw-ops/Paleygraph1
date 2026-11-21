@@ -1,0 +1,194 @@
+## Result
+
+No new certified signed cancellation is established from the supplied records. The exact joint algebra is
+
+\[
+A_h:=KD_h,\qquad J:=KD^{\mathrm J},\qquad R_h:=A_h-J=K(D_h-D^{\mathrm J}),
+\]
+
+and therefore
+
+\[
+\boxed{R_{602}J+JR_{601}
+=K E_{602}K D^{\mathrm J}+K D^{\mathrm J}K E_{601}},
+\qquad E_h:=D_h-D^{\mathrm J}.
+\]
+
+Equivalently,
+
+\[
+R_{602}J+JR_{601}
+=A_{602}J+JA_{601}-2J^2,
+\]
+
+and
+
+\[
+A_{602}A_{601}-J^2
+=R_{602}R_{601}+\bigl(R_{602}J+JR_{601}\bigr).
+\]
+
+Thus the proposed reduction is correct: the already available remainder-product price
+
+\[
+\|R_{602}R_{601}\|_{P_{5000}}<0.443556
+\]
+
+would imply the full two-step bound \(<0.721\) if one could prove the **joint signed physical price**
+
+\[
+\boxed{\|R_{602}J+JR_{601}\|_{P_{5000}}<0.277444.}
+\]
+
+No such bound is presently proved.
+
+## Actual setting and hypotheses
+
+The scope remains the original closed cold square
+
+\[
+Q=\left\{z:\left|z-\frac{2031}{128}\right|\le 2^{-17}\right\},
+\]
+
+in the physical translated price \(P_{5000}\), for the actual fully marked rows \(h=601,602\). The prime family is the eligible sufficiently large primes
+
+\[
+p\equiv1\pmod 4,\qquad n=\frac{p-1}{2},
+\]
+
+with the physical marking
+
+\[
+t_0=n,\qquad t_i=t\quad(i\ne0),
+\]
+
+and with both translated boundary pairs retained. The operators are the genuine finite-field operators, not independent positive envelopes.
+
+The established pure-seed and remainder prices are, eventually and uniformly on \(Q\),
+
+\[
+\|J\|_{P_{5000}}<0.528,
+\]
+
+\[
+\|R_h\|_{P_{5000}}<0.666,\qquad h=601,602.
+\]
+
+These are separate physical prices after retaining the actual \(K\), both marked fibers, and the exceptional-lift corrections.
+
+## What the current bounds actually give
+
+If the two cross terms are priced separately, then
+
+\[
+\|R_{602}J+JR_{601}\|_{P_{5000}}
+\le
+\|R_{602}\|\,\|J\|+\|J\|\,\|R_{601}\|
+<2(0.666)(0.528)=0.703296.
+\]
+
+This is strictly above \(0.277444\). Combining it with the remainder product gives only
+
+\[
+\|A_{602}A_{601}-J^2\|_{P_{5000}}
+<0.443556+0.703296
+=1.146852,
+\]
+
+which is not useful for the \(0.721\) target.
+
+The earlier \(1.049616\) estimate is also valid but concerns the differently decomposed expression
+
+\[
+R_{602}A_{601}+JR_{601},
+\]
+
+where the first factor is charged using the full \(A_{601}\) rate \(<1.048\). It does not price the desired mixed pair.
+
+## Structural simplification and cancellation test
+
+Because \(D^{\mathrm J}\), \(E_{601}\), and \(E_{602}\) are diagonal,
+
+\[
+R_{602}J+JR_{601}
+=
+K\Bigl(E_{602}KD^{\mathrm J}+D^{\mathrm J}KE_{601}\Bigr).
+\]
+
+This is the useful form for a joint transport calculation: the intermediate physical \(K\) is preserved, and the two terms should be collected before taking absolute values.
+
+However, the supplied material does not establish any of the identities that would force cancellation, such as
+
+\[
+E_{602}KD^{\mathrm J}\approx -D^{\mathrm J}KE_{601},
+\]
+
+nor an exact row-exchange or centered-row involution identifying the two diagonal fields with opposite signs. The facts that \(K\) is symmetric and \(D_h,D^{\mathrm J}\) are diagonal only give
+
+\[
+(K E_{602}K D^{\mathrm J})^{*}
+=D^{\mathrm J}K E_{602}K,
+\]
+
+which is not the second term \(K D^{\mathrm J}K E_{601}\). Thus symmetry of \(K\) alone does not produce antisymmetry of the mixed pair.
+
+Likewise, the existing Laurent resummations collect powers of the Jacobi seed \(S\) or repeated seed factors inside a **single** nonseed word. They do not identify the nonseed fields from rows \(601\) and \(602\). Numerical coincidence of boundary weights is insufficient: the corresponding Mellin objects and physical lifts must be equal, or must be related by a proved signed transport identity.
+
+## Evidence supporting the possibility of a new estimate
+
+There is one genuine opening. The existing positive comparisons discard cancellation between nonseed objects, and their obstructions therefore do not refute the signed target. In particular:
+
+- the positive remainder comparison already has a lower witness above the \(0.472\) one-step budget, but this is only a lower obstruction for that unsigned comparison;
+- the positive two-step derivative comparison has an expanding finite witness, but again only for the chosen positive majorant;
+- the pure-seed Laurent coefficients are already collected with signs before modulus, showing that analogous collection is technically possible when the underlying field word is actually the same.
+
+The missing step is therefore a **cross-row signed identity**, not a better choice of the existing positive price.
+
+## Remaining gap
+
+The current record proves neither:
+
+1. a strict physical bound
+   \[
+   \|R_{602}J+JR_{601}\|_{P_{5000}}<0.277444,
+   \]
+   nor
+
+2. directly,
+   \[
+   \|A_{602}A_{601}-J^2\|_{P_{5000}}<0.721.
+   \]
+
+It also does not prove the required half-step and invariant-ball margins. The available counting estimates,
+
+\[
+\|KD^{\mathrm J}\|_{2\to2}<0.335,\qquad
+\|KE_h\|_{2\to2}<0.275,\qquad
+\|KD_{601}\|_{2\to2}<0.5145,
+\]
+
+give useful Hilbert-space contraction information but do not imply a physical \(P_{5000}\)-packet bound. In particular, they do not provide growing-depth confinement.
+
+The limit order must remain explicit: the quoted fixed-row estimates are eventual as \(p\to\infty\), uniformly on the fixed square \(Q\). A growing-depth conclusion would require first obtaining uniform physical confinement and half-step control at fixed depth, then selecting a depth \(r=r(n)\to\infty\) as \(n\to\infty\). No interchange of these limits is currently justified.
+
+## Ranked next tests
+
+### 1. Exact degree-one cross-row Laurent/label calculation
+
+Expand
+
+\[
+E_h=D_h-D^{\mathrm J}
+\]
+
+to first order in the actual nonseed field \(C_h=V_h-S\), retaining the full physical lifts, both marked boundary pairs, and the intermediate \(K\). Compute the signed coefficients in
+
+\[
+K\left(E_{602}KD^{\mathrm J}+D^{\mathrm J}KE_{601}\right)
+\]
+
+at every returnable degree-one label. Test for exact equality, sign reversal, or a transport pairing between the \(601\) and \(602\) labels before applying the \(P_{5000}\) modulus. This is the highest-value test because only a genuine field-level identification can overcome the \(0.703296\) separate-price bound.
+
+### 2. Joint finite-depth physical replay with certified tails
+
+Construct the actual two-row mixed transport matrix, preserving the intermediate \(K\), both physical markings \(t_0=n\), both translated boundary pairs, and the signed coefficients through a finite Laurent window. Price the jointly collected output in \(P_{5000}\), then add an explicit analytic tail and exceptional-lift correction uniformly for sufficiently large \(p\equiv1\pmod4\). A finite-prime success would be diagnostic only; the required result is an eventual uniform bound below \(0.277444\), followed separately by half-step, invariant-ball, and \(r(n)\to\infty\) confinement estimates.

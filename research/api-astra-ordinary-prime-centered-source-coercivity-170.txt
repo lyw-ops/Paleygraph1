@@ -1,0 +1,207 @@
+## Result
+
+For the actual ordinary-prime family, the available Jacobi identities give a genuine **partial source-weighted gain**, but not the required coercivity of the true quotient or of \(C_+(A)\).
+
+I keep the following data fixed throughout:
+
+- \(p\to\infty\) through ordinary primes, with \(n=p\);
+- physical mark at \(0\), with marked mass \(q=q(p)\asymp \sqrt p\);
+- original sector \(\epsilon\in\{\pm1\}\), and
+  \[
+  P_\epsilon=\frac{I+\epsilon K-\Pi}{2};
+  \]
+- \(U'\) an actual independent set of genuine zero coordinates of the optimizer;
+- \(w\ge 0\) the actual complementary interpolant on \(U'\);
+- \(A=\{i\in U':w_i>0\}\), \(B=U'\setminus A\);
+- all norms and Gram matrices in counting normalization.
+
+The centered physical Gram and source are
+\[
+G_0=E_{U'}^*\left(P_\epsilon-
+ \frac{P_\epsilon e_0e_0^*P_\epsilon}{(P_\epsilon)_{00}}\right)E_{U'},
+\qquad
+c_0=\frac1{\sqrt p}
+\left(\mathbf 1_{U'}+\frac{q-1}{(P_\epsilon)_{00}}\,b_0\right),
+\]
+where \(b_0=E_{U'}^*P_\epsilon e_0\). The exact complementary relation is
+\[
+G_0w=0,\qquad c_0^*w=0.
+\]
+
+The actual quotient cost after eliminating \(B\) is
+\[
+C_{\mathrm q}(A)
+=\frac1p\left[
+c_{0,B}^*G_{0,BB}^{-1}c_{0,B}
++d_A^*Q_A^\dagger d_A\right],
+\]
+where
+\[
+Q_A=G_{0,AA}-G_{0,AB}G_{0,BB}^{-1}G_{0,BA},
+\qquad
+d_A=c_{0,A}-G_{0,AB}G_{0,BB}^{-1}c_{0,B}.
+\]
+
+### 1. Actual signed Jacobi control on the positive support
+
+For real \(z\), put \(D_w=\operatorname{diag}(w)\). Since \(G_0w=0\), the exact weighted difference identity is
+\[
+z^*D_wG_0D_wz
+=
+-\sum_{i<j}(G_0)_{ij}w_iw_j(z_i-z_j)^2.
+\]
+
+For distinct actual unmarked columns,
+\[
+(G_0)_{ij}=\frac{\epsilon}{2}K_{ij}+O(p^{-1}),
+\]
+with the \(O(p^{-1})\) uniform over the adaptive actual support. Consequently, on
+\[
+A_H=\{i\in A:w_i\ge H\},
+\]
+the replacement of the exact centered form by the signed Jacobi form satisfies
+\[
+\left|
+z^*D_wG_0D_wz
++
+\frac{\epsilon}{2}\sum_{i<j}K_{ij}w_iw_j(z_i-z_j)^2
+\right|
+\ll \frac1H\|D_wz\|_2^2.
+\]
+
+This is genuine arithmetic control: it uses the actual prime Jacobi matrix, the actual \(w\), the actual marked sector, and the actual positive support. It is not a positivity-only model.
+
+However, it is not a lower coercive estimate. The Jacobi difference form is signed, and the global Jacobi operator has nontrivial positive and negative spectrum. Thus this identity does not imply
+\[
+z^*D_wG_0D_wz\gg \|D_wz\|_2^2
+\]
+on the relevant quotient. The missing issue is cancellation between Jacobi edges, especially through the low-weight region \(A\setminus A_H\) and the zero block \(B\).
+
+### 2. A genuine source-weighted partial gain
+
+Assume the actual zero block satisfies
+\[
+b=|B|\le (1-\eta)\frac{p}{\sqrt p}=(1-\eta)\sqrt p
+\]
+for some fixed \(\eta>0\). The physical entry estimates give
+\[
+(G_0)_{ii}=\frac12+O(p^{-1}),
+\qquad
+|(G_0)_{ij}|\le \frac{\sqrt p}{2p}+O(p^{-1}),
+\qquad
+|(c_0)_i|\ll p^{-1/2}.
+\]
+Gershgorin therefore gives
+\[
+G_{0,BB}\ge \frac{\eta}{4}I_B
+\]
+for sufficiently large primes. Hence
+\[
+D_B:=c_{0,B}^*G_{0,BB}^{-1}c_{0,B}
+\ll_\eta \frac bp.
+\]
+In particular, under \(b\ll\sqrt p\),
+\[
+D_B=O_\eta(p^{-1/2})=o(1).
+\]
+
+The Schur-transfer source
+\[
+q_A:=c_{0,A}-d_A
+=G_{0,AB}G_{0,BB}^{-1}c_{0,B}
+\]
+satisfies
+\[
+\|q_A\|_2^2\le D_B.
+\]
+Therefore, for every \(s>0\), if \(\mathbf 1_{[s,\infty)}(Q_A)\) denotes the spectral projector of \(Q_A\) on eigenvalues at least \(s\), then
+\[
+\left\langle d_A,\,
+Q_A^\dagger \mathbf 1_{[s,\infty)}(Q_A)d_A
+\right\rangle
+\le \frac{\|d_A\|_2^2}{s}
+\ll \frac{|A|/p+b/p}{s}.
+\]
+
+Taking the growing admissible window
+\[
+1\ll T=T(p)=o(\sqrt p),
+\qquad s=T^{-1/2},
+\]
+gives
+\[
+\left\langle d_A,\,
+Q_A^\dagger \mathbf 1_{[T^{-1/2},\infty)}(Q_A)d_A
+\right\rangle
+\ll \frac{|A|/p+b/p}{ }\,\sqrt T.
+\]
+Since \(|A|\le p\) and \(T\to\infty\),
+\[
+\frac1p
+\left\langle d_A,\,
+Q_A^\dagger \mathbf 1_{[T^{-1/2},\infty)}(Q_A)d_A
+\right\rangle
+=O(\sqrt T/p)
+\]
+in the normalized quotient convention, and more generally the unnormalized source cost is \(O(\sqrt T)\), hence \(o(T)\).
+
+Thus the portion of the genuine quotient supported on eigenvalues
+\[
+\lambda\ge T^{-1/2}
+\]
+is already negligible compared with the target \(T\). The same conclusion applies to the zero-block debit \(D_B\).
+
+This is a real prime-uniform partial gain, provided the displayed actual cardinality condition on \(B\) holds.
+
+## Precise remaining gap
+
+The argument does **not** control the low spectrum
+\[
+0<\lambda<T^{-1/2}
+\]
+of the true \(Q_A\). On this subspace,
+\[
+d_A^*Q_A^\dagger d_A
+\le T^{1/2}\|P_{(0,T^{-1/2})}(Q_A)d_A\|_2^2
+\]
+is too weak: the trivial source bound permits a contribution larger than \(T\), and the rank estimate for the low spectral space does not control the source projection.
+
+The actual Jacobi signed form also does not close this gap. It identifies the relevant arithmetic operator, but no prime-uniform lower bound has been proved for its quadratic form on the centered optimizer-compatible subspace. In particular, the following missing estimate would suffice:
+\[
+\|P_{(0,T^{-1/2})}(Q_A)d_A\|_2^2
+=o(T^{1/2})
+\]
+uniformly along every fixed-gap sequence, or a stronger source-weighted Jacobi inequality of the form
+\[
+\langle d_A,Q_A^\dagger d_A\rangle
+=o(T).
+\]
+
+A second unresolved hypothesis is the actual support condition
+\[
+|B|\ll \sqrt p
+\]
+or an appropriate bound on the combined low-weight/zero set. The present calculation proves the gain conditionally on that true optimizer support regime; it does not force the regime for every fixed-gap ordinary-prime sequence.
+
+Therefore the proposed fixed-gap exclusion is **not proved**.
+
+## Ranked next tests
+
+1. **Source projection onto the low Jacobi spectrum — highest priority.**  
+   For the actual adaptive \(A,B,w\), estimate
+   \[
+   \|P_{(0,T^{-1/2})}(Q_A)d_A\|_2
+   \]
+   using the explicit source
+   \[
+   c_0=p^{-1/2}\left(\mathbf1+\frac{q-1}{d}b_0\right),
+   \]
+   rather than its entrywise bound. A bound exploiting cancellation with \(w\), \(c_0^*w=0\), would directly close the only uncontrolled spectral range.
+
+2. **Prove an actual support-size/low-weight bound.**  
+   Establish, for every fixed gap and admissible \(T=o(\sqrt p)\), that the genuine optimizer satisfies
+   \[
+   |B|+\bigl|\{i\in A:0<w_i<H\}\bigr|
+   \le (1-\eta)\sqrt p
+   \]
+   for some fixed \(H,\eta>0\), or derive an equivalent weighted estimate. This would make the Gershgorin transfer and high-weight signed Jacobi comparison available on the full relevant support.

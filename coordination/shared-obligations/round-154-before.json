@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T22:04:00.356296Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-153.json#next_calls",
+  "coordinator_sha256": "901ade695d8bbcfe2ced62766700cc56b5f423f1bf85753a2906f0bdfc6b665b",
+  "call_ids": [
+    "ordinary-prime-regular-jacobi-average",
+    "ordinary-prime-high-face-selection",
+    "cold-genuine-label-after-three-center-composition"
+  ],
+  "routes": {
+    "r154/ordinary-prime-regular-jacobi-average": {
+      "question": "Can the fully regular product of three normalized Jacobi factors be bounded under the actual near-critical deficit weights?",
+      "scope": "Use true nonnegative retargeted b, physical mark, near-critical m_eff~n/sqrt(p), vanishing relative pinned projection and the exact actual weight w. Both third-factor lifts, actual within-set phase deficit and the order of prime and floor limits matter.",
+      "remaining": "Prove the actual p^(-1/2) phase average upper, or a prime-only restriction for the regular weighted law. The direct critical-mask route is unchanged and the true first-spill optimum still lacks an all-prime upper."
+    },
+    "r154/ordinary-prime-high-face-selection": {
+      "question": "Can the original high first-spill cost be made small by a true optimal-face selection on ordinary primes?",
+      "scope": "Use the original first reflection, actual middle d, entire high receiver, exact common complementary zero set, true signs, both roots and diagonal excluded, fixed floor and one selectable marked T.",
+      "remaining": "Prove the actual p^(-1/2) phase average upper, or a prime-only restriction for the regular weighted law. The direct critical-mask route is unchanged and the true first-spill optimum still lacks an all-prime upper."
+    },
+    "r154/cold-genuine-label-after-three-center-composition": {
+      "question": "Can an actual fixed other-center or Picard label yield a signed gain beyond the obstructed positive two-height composition?",
+      "scope": "Keep both true heights, original marked t0=n and square, both lifts and complete translated P5000. Choose a specific gamma F4 or true Picard contribution; keep all other selected and residual terms honest. Target 0.51961239 direct two-height difference or 0.50179639 same-row with transfer.",
+      "remaining": "Find signed arithmetic savings in the actual pair, or a different confinement argument. The signed operator itself and consequent invariant ball and half-step remain open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-regular-jacobi-average": [],
+    "ordinary-prime-high-face-selection": [],
+    "cold-genuine-label-after-three-center-composition": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The fully regular moment is a late-retargeted critical test. The optimal-face assignment uses the original first reflection and its true receiver. The cold signed slice is independent of both. One call per exact obligation."
+}

@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T01:23:55.131752Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-173.json#next_calls",
+  "coordinator_sha256": "e8dd9606379c696d018ab8221a0b841f34b6e50252980cfab2a83b7675ea7b37",
+  "call_ids": [
+    "ordinary-prime-regular-pole-coupling",
+    "ordinary-prime-affine-difference-distribution",
+    "cold-prime-actual-log-prefix-confinement"
+  ],
+  "routes": {
+    "r174/ordinary-prime-regular-pole-coupling": {
+      "question": "Can the actual regular same-pole or genuinely distinct-pole physical couples reach the needed full diagonal scale?",
+      "scope": "Keep true four factors g(A),g(C),g(Y),g(D), w(s), mark and b-square. Try to exploit C=(A-r)/(1-r) and the forced pole r/(1-r) parameter, or treat distinct-pole correlations by a weighted incidence with both inputs. Do not subtract physical and character cuts twice.",
+      "remaining": "Control the still genuinely coupled full diagonal to O(p^3/2), or the goal-scale one-match and separate zero-match bounds, with the original weights."
+    },
+    "r174/ordinary-prime-affine-difference-distribution": {
+      "question": "Can the true weighted affine difference distribution improve the full energy beyond the max-vertical argument?",
+      "scope": "Use the actual coefficients g(Y)g(D), b-square, endpoints and all levels. For right differences (a,c) use r-prime=a r, b-prime=b+c r and Y-prime=aY/(1-cY) to expose real weighted gain or apply a phase-sensitive analogue. Do not assert an unweighted counterexample is arithmetic. Keep zero match separate.",
+      "remaining": "Control the still genuinely coupled full diagonal to O(p^3/2), or the goal-scale one-match and separate zero-match bounds, with the original weights."
+    },
+    "r174/cold-prime-actual-log-prefix-confinement": {
+      "question": "Can the actual signed coordinate displacements stay below the radius through the explicit logarithmic finite prefix?",
+      "scope": "Keep true V_602, both lifts, physical t0=n and original square. Test max_j ||V_(602+j)-V_602||_infty through ceil((4/7)log_2 n) with slack at the end. Seek a genuine signed transfer or arithmetic bound along this prefix. A finite diagnostic alone does not prove uniform confinement.",
+      "remaining": "Prove actual finite-prefix confinement uniformly on the original square or another genuinely sufficient actual bridge. The distinct derivative-transfer inputs are still open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-regular-pole-coupling": [],
+    "ordinary-prime-affine-difference-distribution": [],
+    "cold-prime-actual-log-prefix-confinement": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "One call addresses full diagonal physical or signed pole couplings. One concerns the actual affine-difference measure for the two-dimensional one-match norm. The finite logarithmic cold prefix concerns distinct complex-parameter continuation."
+}

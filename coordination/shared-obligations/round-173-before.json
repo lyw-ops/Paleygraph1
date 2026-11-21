@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T01:10:51.858162Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-172.json#next_calls",
+  "coordinator_sha256": "65fb3bc28cb979a01e63703ec3b02b869fc2d4b9cd3cb62fd08c11e2b0b9f042",
+  "call_ids": [
+    "ordinary-prime-coupled-diagonal-incidence",
+    "ordinary-prime-full-weight-affine-energy",
+    "cold-prime-moving-residual-coordinate-transfer"
+  ],
+  "routes": {
+    "r173/ordinary-prime-coupled-diagonal-incidence": {
+      "question": "Can the actual weighted full diagonal reach O(p^3/2) by keeping both nonzero physical input levels and the actual output weight?",
+      "scope": "Keep genuine g(Y),g(D),g(A),g(C), w(s), and b-square with s=b+r/E. In inverted coordinates 1/A is affine in X=1/s and 1/C is affine in s; seek coupled incidence or a weighted phase bound. Distinguish same-pole and distinct-pole errors if helpful.",
+      "remaining": "Obtain O(p^3/2) on the full weighted physical diagonal, or the target signed regular covariance including its zero-match piece. A genuine centered fixed-gap inverse estimate remains separate."
+    },
+    "r173/ordinary-prime-full-weight-affine-energy": {
+      "question": "Does actual masked weighted affine energy reach O(p^2), or is there an action gain using the actual input phases?",
+      "scope": "Keep the full exact weights g(Y)g(D), actual b-square mask and both nonzero endpoint exclusions across all levels. Try to exploit the explicit (r,b) field parametrization in the affine difference equation. Alternatively use true phases and twisted inputs. Keep zero-match separate.",
+      "remaining": "Obtain O(p^3/2) on the full weighted physical diagonal, or the target signed regular covariance including its zero-match piece. A genuine centered fixed-gap inverse estimate remains separate."
+    },
+    "r173/cold-prime-moving-residual-coordinate-transfer": {
+      "question": "Can a genuine moving cold starter with decaying residual satisfy the existing coordinate confinement bridge on the original square?",
+      "scope": "Keep the physical t0=n, original square, both lifts and the actual predictors. Try an explicit neighboring-orbit correction or moving starter with normalized residual r_n and signed shifted entries; do not use an inverse-defined tautology. State separately what is proved in counting versus translated and coordinate norms.",
+      "remaining": "Obtain genuinely prime-uniform growing-depth confinement and nonlinear continuation of the true orbit, such as a justified moving residual."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-coupled-diagonal-incidence": [],
+    "ordinary-prime-full-weight-affine-energy": [],
+    "cold-prime-moving-residual-coordinate-transfer": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "Full diagonal couples the original one-slope input and output and could cover the zero-match issue. The affine energy call targets the full two-dimensional one-match norm via a different difference equation. The nonlinear cold moving-starter task is separate from both."
+}

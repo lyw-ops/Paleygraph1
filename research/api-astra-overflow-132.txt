@@ -1,0 +1,126 @@
+## Result: the endpoint comparison is exactly a signed-overlap problem
+
+Fix \(M>0\) and an eligible prime \(p\), with normalized mean \(\mathbb E_n\). Let
+
+- \(U=K a\) be an actual zero-floor fixed point with cap \(M\) at every coordinate, mean
+  \[
+  \mu=\mathbb E_n a;
+  \]
+- \(Y=K b\) be the mixed-cap ordinary fixed point: bulk cap \(2\sqrt p\), marked floor \(n\), marked cap \(M\), with mean
+  \[
+  \nu=\mathbb E_n b.
+  \]
+
+On the bulk put
+\[
+C=C_M(U),\qquad h=U-C.
+\]
+For \(Y\), the bulk cap is inactive at the actual solution, so \(b_i=|Y_i|\) for \(i\neq0\). At the marked coordinate use the common marked clipped activation.
+
+Then the exact norm comparison gives
+\[
+\begin{aligned}
+(\mu-\nu)^2
+&+\frac{1-q_{\rm mark}^2}{n}(U_0-Y_0)^2\\
+&+\mathbb E_n\!\left[
+1_{\{i\ne0\}}\bigl(h_i^2+2M|h_i|+4(C_iY_i)_-\bigr)
+\right]\\
+&\le
+2\mathbb E_n\!\left[1_{\{i\ne0\}}h_iY_i\right],
+\tag{A}
+\end{aligned}
+\]
+where
+\[
+q_{\rm mark}=\frac{M}{\sqrt{4n+M^2}}.
+\]
+
+The identity behind (A) is pointwise on the bulk:
+\[
+(U_i-Y_i)^2-(a_i-b_i)^2
+=
+h_i^2+2M|h_i|-2h_iY_i+4(C_iY_i)_-.
+\]
+Thus the desired comparison
+\[
+\mu\le \nu+o_p(1)
+\]
+would follow from the one-sided arithmetic estimate
+\[
+\limsup_{p\to\infty}
+\mathbb E_n\!\left[1_{\{i\ne0\}}h_iY_i\right]\le0.
+\tag{B}
+\]
+
+More quantitatively, (A) implies the unconditional bound
+\[
+(\mu-\nu)_+^2
+\le
+2\left[
+\mathbb E_n(1_{\{i\ne0\}}hY)
+\right]_+.
+\tag{C}
+\]
+Hence it is enough that the positive aligned overlap tends to zero:
+\[
+\mathbb E_n\!\left[1_{\{i\ne0\}}(hY)_+\right]=o_p(1).
+\tag{D}
+\]
+This is weaker than requiring the signed overlap in (B) to be nonpositive.
+
+### What this rules out
+
+The isometry, cap monotonicity of the spill norm, and symmetric boundary transport do **not** by themselves imply (B). The sign of \(h_iY_i\) is determined by whether the actual capped response \(U_i\) spills in the same direction as the ordinary optimizer row \(Y_i\). Symmetric transport controls magnitudes and boundary matching, but not this relative sign.
+
+The exact five-coordinate reflection example from the preceding work already demonstrates the relevant structural failure: changing the cap can decrease the activation mean even though the reflection identity and signed-spill monotonicity remain valid. That example is not a Paley operator and therefore is not an asymptotic counterexample for genuine primes; it does show that a generic proof based only on the isometry cannot establish (B).
+
+There is also no contradiction between (A) and a possible increase \(\mu>\nu\). In that case (A) merely forces the quantitative lower bound
+\[
+\mathbb E_n(1_{\{i\ne0\}}hY)
+\ge \frac12(\mu-\nu)^2.
+\]
+Thus any prime-family proof of \(\mu\le\nu+o(1)\) must supply genuine arithmetic control of aligned spill, not just cap monotonicity.
+
+### Relation to the cap deficit
+
+If the actual fixed point satisfies the exact zero-floor deficit identity
+\[
+4-\mu^2
+=
+\mathbb E_n(h^2+2M|h|)
+\]
+including the marked term, then Cauchy–Schwarz gives
+\[
+(\mu-\nu)_+^2
+\le
+2\,\|1_{\{i\ne0\}}h\|_{2,n}\,
+   \|1_{\{i\ne0\}}Y\|_{2,n}
+\le
+2\sqrt{4-\mu^2}\,\|Y\|_{2,n}.
+\tag{E}
+\]
+Consequently, if one has both
+
+1. \(4-\mu^2=o_p(1)\), and
+2. \(\|Y\|_{2,n}=O(1)\),
+
+then
+\[
+(\mu-\nu)_+=o_p(1).
+\]
+The second condition is not currently available uniformly for the ordinary mixed-cap row; the ordinary bulk is uncapped, so its normalized second norm is not controlled by the cap parameter alone. This is a precise remaining gap in the “defect implies ordinary comparison” route.
+
+## Conclusion
+
+The fixed-cap comparison is reduced to the genuine-prime signed estimate (B), or to the weaker positive-overlap estimate (D). No endpoint comparison follows from the reflection identity alone. The existing finite-dimensional obstruction is structural but not a Paley-prime refutation.
+
+### Ranked decisive next tests
+
+1. **Prime computation of the signed overlap.** For increasing eligible primes and a fixed large \(M\), solve both fixed-point systems and measure
+   \[
+   S_M(p)=\mathbb E_n[1_{\{i\ne0\}}hY],\qquad
+   P_M(p)=\mathbb E_n[1_{\{i\ne0\}}(hY)_+].
+   \]
+   A persistent positive \(S_M(p)\) or \(P_M(p)\) bounded away from zero would refute the proposed comparison mechanism.
+
+2. **Active-set transport test.** On fixed bulk sign/active patterns, compute the linearized boundary transport from \(Y\) to \(U\). Check whether the normal component has a uniform sign relative to \(Y\). If not, a generic endpoint proof is impossible; if yes on the Paley bulk pattern, it could establish (D) after controlling pattern changes and degeneracies.

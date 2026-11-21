@@ -1,0 +1,61 @@
+{
+  "round": 164,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-163-acceptance.json",
+    "sha256": "0c86f81edcac89a94a80c79f2ee9dfc37be40edfc66e21ce80454f67ca229b3e"
+  },
+  "coordinator": {
+    "path": "coordination/round-163.json",
+    "sha256": "cb2479ba0ca6c71a9d6120fc2d11ea81aa0c8fb114e2ad48cb5bf9707c767cae"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-164.py",
+    "sha256": "9acb310f532aeb7d06191415bab09b8b3d08f936dca5a8bd93887205b56bb92c"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-164-before.json",
+    "sha256": "0a848baa6a56f91749949f7a5cd1d1bb392f51a51d8a1c17f5288159d891af86"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-signed-cofactor-exchange",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "a979220247159ad5c163003a7c6f9a8b48ec7ad3fcdbc9f14ba9befcf23291b3",
+      "mission_file": {
+        "path": "coordination/missions/round-164/ordinary-prime-signed-cofactor-exchange.md",
+        "sha256": "3a6fa1514c2eb9ec5fad32b1087cc418132bf9cfcf1a06d887df4647696b8eb4"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r164-api-01a1ed0a/ordinary-prime-signed-cofactor-exchange-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r164-api-01a1ed0a/ordinary-prime-signed-cofactor-exchange-candidate.md",
+      "started_utc_epoch": 1795132066.951307
+    },
+    {
+      "call_id": "ordinary-prime-weighted-affine-ratio",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "4315ac51a153e59a3a2aca1257b980e48873a6def541b8b9f1106965022e3fa5",
+      "mission_file": {
+        "path": "coordination/missions/round-164/ordinary-prime-weighted-affine-ratio.md",
+        "sha256": "40f01fba56068e866dcd743c3165cb1ee9626e0f4d717f8d331e1e10218950c1"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r164-api-01a1ed0a/ordinary-prime-weighted-affine-ratio-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r164-api-01a1ed0a/ordinary-prime-weighted-affine-ratio-candidate.md",
+      "started_utc_epoch": 1795132066.951683
+    },
+    {
+      "call_id": "cold-prime-quadratic-source-block",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "94284fd3599321af0bb3b59f52c96f1c149f2ccb768d289fa1acd44acc4ebe5b",
+      "mission_file": {
+        "path": "coordination/missions/round-164/cold-prime-quadratic-source-block.md",
+        "sha256": "2fda1fc9c974ca6b351914a14214fa755dc6e330db3fc9ff4fa81bb22085a67a"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r164-api-01a1ed0a/cold-prime-quadratic-source-block-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r164-api-01a1ed0a/cold-prime-quadratic-source-block-candidate.md",
+      "started_utc_epoch": 1795132066.952162
+    }
+  ]
+}

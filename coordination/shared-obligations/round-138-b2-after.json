@@ -1,0 +1,11 @@
+{
+  "reviewed_by": "Codex research coordinator",
+  "comparison": "The previous Fable request for this ordinary obligation had ended before the retry. The two potentially active cold routes were on different operators and exact estimates. The retry returned HTTP 200 with finish reason length and no usable mathematical content; no new shared obligation was established.",
+  "groups": [],
+  "dispatch": "coordination/round-138-b2-inflight.json",
+  "launched_at_utc": "2026-11-19T18:51:22.321239Z",
+  "launched_calls": [
+    "ordinary-marked-source-infsup"
+  ],
+  "before_sha256": "e2a9c7862c07dcfdc12e946bc685e175b289e5b98eb1491081a9d68f1439bc47"
+}

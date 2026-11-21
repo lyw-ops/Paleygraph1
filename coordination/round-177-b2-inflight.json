@@ -1,0 +1,35 @@
+{
+  "round": 177,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-176-acceptance.json",
+    "sha256": "a8ff13ae167d3b53b6e601bed7190daec6c68c6dbe984596e0b2bd78b7cbaf7c"
+  },
+  "coordinator": {
+    "path": "coordination/round-176.json",
+    "sha256": "76fd67c04cfc1e19c0fa72d2195ee6c5f6a1aae226e6106ca5f9ccf432d063c9"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-177-b2.py",
+    "sha256": "7a7b9f97a41e75b8ed28e9f50a7c8fc3b50e9d4506a2e8e03569137b4d5d3efb"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-177-b2-before.json",
+    "sha256": "a123b296cf5b4949750411139c1159fee1228af6576bfd15c3c3b6dcb0c6061d"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-coupled-output-set-incidence",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "e4a6a2caeee010a50f311b837a303de713c0b139129e41065383500b7d52fd06",
+      "mission_file": {
+        "path": "coordination/missions/round-177-b2/ordinary-prime-coupled-output-set-incidence.md",
+        "sha256": "af1fcca0ccf18c592f5fb7a66cf8b909aef360de4844e6816adefde19790c591"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r177-b2-api-01a1ed0a/ordinary-prime-coupled-output-set-incidence-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r177-b2-api-01a1ed0a/ordinary-prime-coupled-output-set-incidence-candidate.md",
+      "started_utc_epoch": 1795140449.618529
+    }
+  ]
+}

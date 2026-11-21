@@ -1,0 +1,43 @@
+At the actual height-601 endpoint, the quadratic sum is \(O(\varepsilon^2 n^{-0.454})\) on \(Q\), for all sufficiently large eligible primes, with \(\varepsilon=0.011\). This gives a strict improvement on \(0.45\) for the full translated kernel sum. It does not establish \(0.467\). The improvement comes from charging the off-base moment to the **same input price** as the generic rank, rather than adding their separate operator bounds.
+
+**Price of the inner insertion.** I use the physical packet, parity, and counting inputs in the supplied Round 96 and 126 texts. Write \(P=A_{\rm base}+\Lambda b\), \(\Lambda=5000\), for the price of one negative column term of dimension \(d\). The rank identity and \(\pi(j)\ge j\) give
+\[
+d\le P-(\Lambda-1)b.
+\]
+Take a telescoped bulk word of \(E=D_{601}-D_{600}\) with \(2\ell+1\) negative factors and dimension product \(L\). Including the column, the length is \(k=2\ell+2\). After \(K\), the punctual part dies, the base price is at most \(2kLd\) by the rank bound, and the translated moment is at most \(Lb\) because the multiplier has zero weights off the base pair. Thus the geometric output price is at most
+\[
+L(2kd+\Lambda b)\le 2kLP.
+\]
+This saves two units of word cost relative to \(2(2\ell+3)LP\), including for a purely translated seed. The boundary union consists only of the base and source pairs: restoring the bad products and the marked derivative costs \(O_\Lambda(\varepsilon n^{-1/2})P\) after transport by the corresponding Jacobi columns. Those corrections introduce no other pair.
+
+Put \(z=M^2/N\) with the supplied \(M=4.811\), \(N=4(2031/128-2^{-17})\). Summing the improved word cost, with one explicit residual factor, gives the \(KE\) price rate
+\[
+g\le \frac{\varepsilon}{\sqrt N}
+ \left[6(1-z)^{-5/2}-2(1-z)^{-3/2}\right]
+ +O_\Lambda(\varepsilon n^{-1/2}).
+\]
+Indeed the saving sums against \(c_\ell(2\ell+1)z^\ell\), whose sum is \((1-z)^{-3/2}\). The geometric term is less than \(0.0207\) (use \(z<0.365,\ \sqrt N>7.96\), and monotonicity of the positive series). The old physical price rate is at most \(1.046434(1+2/5000)+O_\Lambda(n^{-1/2})\). Hence the exact \(KD_{601}=KD_{600}+KE\) has rate below **\(1.068\)** eventually, on this entire translated class, not just on its seeds.
+
+**Signed quadratic test.** Before testing the second insertion, represent
+\[
+H=A'_v E A_u e_x=(KD_{601})^v KE A_u e_x .
+\]
+Its absolute coefficient-rank mass is bounded by its price,
+\(O(\varepsilon n^{-1/2}1.048^u1.068^v)\). This uses the subtractive representation of \(E\); there is no sum of prices indexed by interior physical coordinates. Pair \(H\) with \(E A_w e_y\) by transpose symmetry. The boundary union is now the base, \(x\), and \(y\) pairs, at most six full characters even at coincident sources. Each bulk product has odd length \(2\ell+3\); its physical sum is \(n\) times a mean costing \(O(((2\ell+3)/\sqrt p+6/p)\prod d_i)\). The arity-weighted coefficient series converges by \(z<1\). The single marked correction costs only the two column masses times \(O(\varepsilon)\). Consequently, with \(s=u+w\), the actual term satisfies
+\[
+\|A_w E A'_v E A_u\|_{\max}
+\ll \varepsilon^2\min\{n^{-1/2}1.048^s1.068^v,\;0.514^s0.517^v\}.
+\]
+The second bound uses counting operator norms and \(\|E\|_\infty=O(\varepsilon)\), not a decaying normalized displacement.
+
+The price switch is the plane \(s\log(1.048/0.514)+v\log(1.068/0.517)=\tfrac12\log n\). Equivalently, bound the minimum by the geometric interpolation with weight \(2\beta\) on the first term. All three power sums then converge geometrically whenever
+\[
+\beta<\min_{(a,q)=(1.048,0.514),(1.068,0.517)}
+\frac{-\log q}{2\log(a/q)}.
+\]
+This includes \(0.454\), proving the asserted sum of max norms. In the exact two-sided telescoping by total power, the old and single-insertion sums already cost \(O(n^{-0.467})\); adding the quadratic sum proves \(\sum_j\|A'_j\|_{\max}=O(n^{-0.454})\). Both time-sum orientations at this constant new diagonal have that bound.
+
+**First loss and ranked next tests.** For these two majorants the limiting direction is \(u=w=0,\ v\to\infty\). At counting rate \(0.517\), summability at \(0.467\) would require a middle growth rate below \(0.517^{-(1-0.934)/0.934}<1.048\); \(1.068\) fails that comparison. This is not a lower bound on an actual entry.
+
+1. Replay the height-601 base-weight column calculation on the *combined* derivative, collecting old and difference coefficients before pricing. Test its translated rate directly against the displayed middle threshold, using a jointly replayed counting rate.
+2. On a genuinely confined growing prefix, track the cumulative base-pair price of successive actual differences alongside the normalized residual, testing \(n^{1-\beta}r_m^2=o(1)\) at the same starter as the translated bound. Neither a constant fixed-height residual upper nor the two outgoing counting steps supplies this comparison. No moving-height cold branch follows here.

@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "round": 107,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 107 review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-106-acceptance.json",
+      "sha256": "6d9075b0323639cfcd7981e472999af1ae0e4c0aae46b54f559f5440f03d3275"
+    },
+    "current": {
+      "path": "research/round-107-acceptance.json",
+      "sha256": "ac8e6233eb07dbe04d2cb344758579efce275a8724db2e1fbadea94d02c215a6"
+    }
+  },
+  "changes": [
+    {
+      "id": "matching-signed-transport",
+      "route": "Mark-oriented real factor and overflow",
+      "effect": "weakened",
+      "before": "Critical cap rate and nonvanishing mark forced an aligned stationary rectangle of unspecified sign.",
+      "after": "The selected sign can be the true persistent mark sign at small t. Fixed M>=2 and a matching one-sided transport upper suffice without a separate cap-defect rate.",
+      "remaining": "Prove the required true one-sided transport control through primes along real floors tending to zero.",
+      "evidence": [
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/overlapping-overflow-106.md",
+          "sha256": "bc417b0612d23d9feac62f1b502e348658f252cc4782e65419ce746fbee1b232"
+        },
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        }
+      ]
+    },
+    {
+      "id": "inner-cap-or-repair",
+      "route": "Real cap rate and actual sector completion",
+      "effect": "weakened",
+      "before": "A genuine long bounded pre-exit path was one way to make the cap rate small.",
+      "after": "A globally capped path supplies its residual automatically; control only inner excess or the smaller-cap square spill. Mark-oriented repair requires order-one true weighted redistribution on an obstruction subsequence.",
+      "remaining": "Achieve this cap rate at usable floors or find a signed pointwise-positive completion that meets actual mean, mark and sector budgets.",
+      "evidence": [
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/averaged-mark-35.md",
+          "sha256": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b"
+        }
+      ]
+    },
+    {
+      "id": "moving-complex-starter",
+      "route": "Genuine moving complex translated starter",
+      "effect": "unchanged",
+      "before": "Actual residual, translated column growth and diagonal mass and bad-character budgets had to hold at one moving starter.",
+      "after": "The real-factor improvement gives no common complex analytic domain.",
+      "remaining": "Verify the independent resource bounds and the angular gap on the actual cold branch.",
+      "evidence": [
+        {
+          "path": "research/api-astra-review-106.md",
+          "sha256": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The cap rate has been removed from one exact sufficient real criterion. A prime-uniform one-sided Jacobi estimate on actual overflow data remains necessary for this route. Preserve parallel complex and terminal branches.",
+  "next_calls": [
+    {
+      "id": "match-one-sided-jacobi",
+      "priority": 1,
+      "change_id": "matching-signed-transport",
+      "question": "Can the matching signed Jacobi maximum on the genuine enlarged-threshold overflow be controlled through primes without a cap-deficit rate?",
+      "why_now": "The exact positive factor identity absorbs the cap term for fixed M>=2. For an obstruction of specified sign only its own T_epsilon is relevant.",
+      "scope": "Use the genuine real capped fixed point and frequency-space Jacobi convolution. Keep fixed t>0 and M>=2 before the field limit, preserve the mark normalization, and distinguish finite fixed floors from a sequence tending to zero.",
+      "if_yes": "State the precise real mark or ordinary theta implication and any outstanding sign or floor bound.",
+      "if_no": "Give a genuine lower bound or the first rigorously invalid step of a specified candidate estimate.",
+      "if_inconclusive": "Prove an actual signed representation or narrower sufficient transport estimate without re-proving the factor comparison.",
+      "inputs": [
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/api-astra-review-107.md",
+          "sha256": "627fe114f1126644675552e6c39cc5441f1779eef12ed078c421f4e11ab3c563"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        }
+      ]
+    },
+    {
+      "id": "capped-square-spill",
+      "priority": 2,
+      "change_id": "inner-cap-or-repair",
+      "question": "Can a genuine capped inner excess or smaller-cap square spill achieve normalized n^(-1/4) scale?",
+      "why_now": "The quadratic criterion uses globally available capped residual decay; only actual coordinates near the inner cap need control.",
+      "scope": "Use the actual real capped fixed point or moving capped iteration. State the floor, caps, and exact distinction between O and o.",
+      "if_yes": "Apply the appropriate critical real-set test or direct mark consequence.",
+      "if_no": "State the first failing inner-excess mechanism.",
+      "if_inconclusive": "Derive a new estimate on actual near-cap mass or tails.",
+      "inputs": [
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        },
+        {
+          "path": "research/overlapping-overflow-106.md",
+          "sha256": "bc417b0612d23d9feac62f1b502e348658f252cc4782e65419ce746fbee1b232"
+        }
+      ]
+    },
+    {
+      "id": "signed-completion-redistribution",
+      "priority": 3,
+      "change_id": "inner-cap-or-repair",
+      "question": "Can a mark-preserving signed correction redistribute the actual necessary true weighted mass and remain positive in the compatible sector?",
+      "why_now": "Sector orthogonality gives a macroscopic necessary weighted negative redistribution despite small capped negative part.",
+      "scope": "Keep the original factor/averaging scope explicit. Any construction must preserve all affine constraints and retain actual positivity, and constrained obstructions do not exclude general signed repairs.",
+      "if_yes": "Verify each affine, positivity and mark condition at the claimed depth and scope.",
+      "if_no": "State the exact admissible subclass excluded or its genuine obstruction.",
+      "if_inconclusive": "Give a checkable necessary or sufficient structural refinement.",
+      "inputs": [
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/averaged-mark-35.md",
+          "sha256": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b"
+        },
+        {
+          "path": "research/api-astra-review-107.md",
+          "sha256": "627fe114f1126644675552e6c39cc5441f1779eef12ed078c421f4e11ab3c563"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "matching-signed-transport",
+      "question": "Which Round 108 results are verified in their exact prime scope?",
+      "why_now": "Independent read-only verification precedes acceptance.",
+      "scope": "Check actual versus prescribed rows, fixed t and cap order, marked sign, and normalized vs counting quantities. Collect one or two ranked next tests.",
+      "if_yes": "Record the verified deductions.",
+      "if_no": "Find the first unsupported step.",
+      "if_inconclusive": "Record the checked scope.",
+      "inputs": [
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        },
+        {
+          "path": "research/real-inner-cap-quadratic-107.md",
+          "sha256": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+        },
+        {
+          "path": "research/api-astra-review-107.md",
+          "sha256": "627fe114f1126644675552e6c39cc5441f1779eef12ed078c421f4e11ab3c563"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+## Result: inconclusive, with a checked physical reduction
+
+Let \(p\to\infty\) through the actual odd-prime family in the ordinary branch, with
+\[
+Q=(\mathbb F_p^\times)^2,\qquad m=p-1,
+\]
+and retain the actual
+\[
+g(t)=|f(t)|^2,\qquad w(t)=g(t)(1-g(t)),
+\]
+extended by zero off \(Q\). Write
+\[
+G=\sum_{a\in Q}g(a)=O(\sqrt p),\qquad
+\sum_{t\in Q}w(t)\le G.
+\]
+All constants below are uniform in this prime family. The physical marking is the selected \(\alpha\)-slot of the one-match kernel; the other three marked slots are obtained by the stated physical symmetries. The \(u\in Q\) square mask, \(u\ne1\), and the \(s\ne1\) slope restriction are retained unless explicitly dropped for an upper bound.
+
+The target is
+\[
+\mathcal E(p):=
+\sum_{s\ne1}\sum_{t\in Q}w(t)
+ \sum_\sigma |H_\sigma(s,t)|^2
+=O(p^{5/2}),
+\]
+equivalently
+\[
+\mathcal P_1=p^{-3}\mathcal E(p)=O(p^{-1/2}).
+\]
+
+The already-paid degeneracies and the special Jacobi terms satisfy this target: at fixed \(t\) they cost \(O(G^4)=O(p^2)\), and the \(t\)-weight contributes \(O(\sqrt p)\). The zero-match \(4+4\) class is separate and is not addressed here.
+
+---
+
+## 1. Exact all-distinct physical parametrization
+
+For the selected physical kernel, use the displaced variables
+\[
+z=\frac CD,\qquad E=zY,
+\]
+where the four actual arguments are \(C,Y,D,E\). After the endpoint deletions, the all-distinct portion has \(Y,D\ne1\), \(D\ne Y\), and the row contribution is bounded by
+\[
+H(s,t)
+\le
+\sum_{z,Y,D}
+M(s,z,Y,D)\,
+g(Y)g(tzY)g(D)g(zD),
+\]
+where \(M\) contains the exact square mask, the nonzero restrictions, the all-distinct restriction, and the equation relating \(s,z,Y,D\).
+
+The physical relation is
+\[
+\frac{1-D}{1-Y}
+=
+\frac{1-z}{1-sz}\frac DY.
+\]
+Define
+\[
+q(Y,D):=\frac{(1-D)Y}{(1-Y)D}.
+\]
+Then \(q(Y,D)\ne1\), because \(q=1\) is equivalent to \(Y=D\), which is the excluded \(u=1\) case. The slope is therefore determined by
+\[
+q=\frac{1-z}{1-sz},
+\qquad
+s=\frac{q-1+z}{qz}.
+\]
+
+This gives the key multiplicity fact:
+
+> For fixed \(z,Y,D,Y',D'\), equality of the two slopes determines \(z'\) uniquely, if it determines it at all.
+
+Indeed, if \(q'=q(Y',D')\), then
+\[
+s=\frac{q'-1+z'}{q'z'}
+\quad\Longrightarrow\quad
+z'(q's-1)=q'-1.
+\]
+Since \(q'\ne1\), there is at most one \(z'\).
+
+This is an exact arithmetic fact for the physical product-and-sum geometry; it does not use a generic cap or discard the square mask.
+
+---
+
+## 2. What this multiplicity gives with the true weights
+
+Expand the positive square and sum over \(t\). Since \(0\le w(t)\le g(t)\),
+\[
+\sum_t w(t)\,g(tzY)g(tz'Y')
+\le
+\sum_t g(t)g(tzY)
+\le G.
+\]
+Using the preceding one-\(z'\) multiplicity and dropping all masks, the remaining variables give
+\[
+\begin{aligned}
+\mathcal E(p)
+&\ll
+G
+\sum_{z,Y,D,Y',D'}
+ g(Y)g(D)g(zD)\,g(Y')g(D')
+\\
+&\le
+G
+\left(\sum_Yg(Y)\right)
+\left(\sum_Dg(D)\sum_zg(zD)\right)
+\left(\sum_{Y'}g(Y')\right)
+\left(\sum_{D'}g(D')\right)
+\\
+&=G^6.
+\end{aligned}
+\]
+Thus the exact physical collision parametrization gives
+\[
+\boxed{\mathcal E(p)\ll G^6=O(p^3).}
+\]
+
+This is a genuine improvement over treating the two rows as unrelated, but it misses the desired \(O(p^{5/2})\) scale by \(p^{1/2}\).
+
+The obstruction is precise: after the \(z'\)-uniqueness step, the argument still needs a saving from the two output factors
+\[
+g(z'Y')g(z'D').
+\]
+The hypotheses do **not** give a pointwise bound \(g(a)\ll p^{-1/2}\). In particular,
+\[
+g(1)=1,
+\]
+and even away from \(1\), the cap on the physical law \(\omega\) does not imply a comparable pointwise cap on its Fourier transform \(g\). Therefore the tempting replacement
+\[
+g(z'Y')g(z'D')\ll p^{-1}
+\]
+is invalid for the actual \(g\).
+
+For comparison, if both output factors belonged to an actual subclass on which
+\[
+g(z'Y'),\,g(z'D')\ll p^{-1/2},
+\]
+then the same calculation would give
+\[
+\mathcal E_{\mathrm{subclass}}(p)
+\ll p^{-1}G^6=O(p^2),
+\]
+which is stronger than the required \(O(p^{5/2})\). The unresolved portion is precisely the high-\(g\) output collision set.
+
+---
+
+## 3. Corresponding regular Jacobi obstruction
+
+For the exact row coefficients
+\[
+a_{t,z}(\rho)=
+\frac{\widehat A_{t,z}(\rho)\widehat B_z(\bar\rho)
++\widehat A_{t,z}(\rho\chi)\widehat B_z(\bar\rho\chi)}
+{2m},
+\]
+Parseval gives
+\[
+\sum_{\rho}|a_{t,z}(\rho)|
+\le \sqrt{L_{tz}L_z},
+\qquad
+\sum_{z,\rho}|a_{t,z}(\rho)|\le G^2.
+\]
+
+For \(z\ne z'\), the completed slope sum is an exact Jacobi factor
+\[
+\rho(c)\eta(c')J(\rho,\eta).
+\]
+The already separated terms are harmless:
+
+- trivial-trivial terms: \(O(p^2)\) at fixed \(t\);
+- exactly one trivial character, and the \(\rho\eta=1\) nontrivial terms: \(O(G^4)=O(p^2)\) at fixed \(t\);
+- within-copy and cross-copy physical degeneracies: \(O(G^4)=O(p^2)\) at fixed \(t\).
+
+The remaining regular terms only satisfy the individual estimate
+\[
+|J(\rho,\eta)|\le\sqrt p.
+\]
+Consequently the direct \(\ell^1\) estimate gives
+\[
+\text{regular contribution at fixed }t
+\ll \sqrt p\,G^4
+=O(p^{5/2}),
+\]
+and hence
+\[
+\sum_t w(t)\,(\text{regular contribution})
+\ll G\,p^{5/2}
+=O(p^3).
+\]
+
+Thus the regular Jacobi argument has exactly the same unresolved \(p^{1/2}\) gap as the physical argument. The exact coefficients and the centered weight \(w(t)=g(t)(1-g(t))\) have not yet produced the required extra cancellation.
+
+The auxiliary cap/autocorrelation countermodel rules out deriving the needed estimate from only
+\[
+g\le1,\qquad \sum g=O(\sqrt p),
+\qquad \max\omega=O(p^{-1/2}),
+\]
+or from the row-norm expression
+\[
+\sum_t w(t)\left(\sum_zL_{tz}\sqrt{L_z}\right)^2.
+\]
+This does not refute cancellation for the actual optimizer; it only refutes that sufficient shortcut.
+
+---
+
+## Remaining gap
+
+The mission is therefore **inconclusive**, not refuted.
+
+The exact remaining statement is one of the following equivalent forms:
+
+1. **Physical form.** Bound the high-output collision set in the expansion above:
+   \[
+   z'Y',\,z'D'\ \text{both in a high-}g\text{ set}
+   \quad\Longrightarrow\quad
+   \mathcal E_{\mathrm{high}}(p)=O(p^{5/2}).
+   \]
+
+2. **Jacobi form.** Prove a centered, weighted cancellation estimate for the regular \(z\ne z'\) Jacobi terms with the actual coefficients \(a_{t,z}(\rho)\) and the actual \(w(t)\), improving the individual \(\sqrt p\) Jacobi bound by an average factor \(p^{-1/2}\).
+
+No zero-match conclusion follows from this analysis.
+
+---
+
+## Ranked next tests
+
+### 1. Physical high-\(g\) collision estimate
+
+For fixed dyadic levels \(\eta\), define
+\[
+S_\eta=\{a\in Q:g(a)>\eta\}.
+\]
+Use
+\[
+|S_\eta|\le G/\eta
+\]
+and test/prove a weighted incidence estimate for the exact collision equation
+\[
+\frac{q(Y,D)-1+z}{q(Y,D)z}
+=
+\frac{q(Y',D')-1+z'}{q(Y',D')z'}
+\]
+restricted to
+\[
+z'Y',\,z'D'\in S_\eta.
+\]
+
+This is the most concrete next test because the slope equation has one-variable uniqueness in \(z'\), and the only missing input is an incidence bound for the actual high-\(g\) sets. A dyadic estimate summable over \(\eta\) would settle the all-distinct physical kernel without invoking any false norm shortcut.
+
+### 2. Centered regular-Jacobi correlation
+
+Retain the exact \(a_{t,z}(\rho)\), both square-mask lifts, and
+\[
+w(t)=g(t)(1-g(t)).
+\]
+Test the off-diagonal bilinear form
+\[
+\sum_t w(t)
+\sum_{z\ne z'}
+\sum_{\rho,\eta\ \mathrm{regular}}
+a_{t,z}(\rho)a_{t,z'}(\eta)\,
+\rho(c_{zz'})\eta(c'_{zz'})J(\rho,\eta)
+\]
+against the target \(O(p^{5/2})\).
+
+The required result is a genuine average cancellation statement, not a pointwise Jacobi estimate and not an \(\ell^1\) coefficient bound. It should be tested first for a fixed gap \(z/z'\) or a fixed nontrivial pair \((\rho,\eta)\), with the centered factor \(g(t)(1-g(t))\) kept throughout.

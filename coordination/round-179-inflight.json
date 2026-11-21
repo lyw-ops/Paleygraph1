@@ -1,0 +1,61 @@
+{
+  "round": 179,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-178-acceptance.json",
+    "sha256": "10dceeac23ed58c55637d159d8804d83e445c239ccc84608195160ae3e0d394e"
+  },
+  "coordinator": {
+    "path": "coordination/round-178.json",
+    "sha256": "f61e68bd995356a12b84144bca3278c84227647d063fe4db57e74a6c396bc3b3"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-179.py",
+    "sha256": "563daf08b52d15357efaf60267b399ce7c1d0dcc530e75d9d028763eab4d136a"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-179-before.json",
+    "sha256": "24f8635bc026fe273b9df78bdcaf9e0193ee7ade0d8e819ac9ca8db22577b46c"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-inverted-coupled-distinct-b",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "fe41a20cc6db1df2ebb5325edb5e4b05ae8465faf1b73c941e97fc8c59445a96",
+      "mission_file": {
+        "path": "coordination/missions/round-179/ordinary-prime-inverted-coupled-distinct-b.md",
+        "sha256": "9c1ba020725b8ff91bfb99052881240886a781b487dc97541670ed43234b425a"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r179-api-01a1ed0a/ordinary-prime-inverted-coupled-distinct-b-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r179-api-01a1ed0a/ordinary-prime-inverted-coupled-distinct-b-candidate.md",
+      "started_utc_epoch": 1795141805.7531369
+    },
+    {
+      "call_id": "ordinary-prime-slope-product-distribution",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "f3527533681076d5f79472e66fe28d0a739abc62f1bfb64b1f81387e3dd21920",
+      "mission_file": {
+        "path": "coordination/missions/round-179/ordinary-prime-slope-product-distribution.md",
+        "sha256": "15cef526d544dede393740b2b5599de64b889c31ab357603b9b49903680eb732"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r179-api-01a1ed0a/ordinary-prime-slope-product-distribution-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r179-api-01a1ed0a/ordinary-prime-slope-product-distribution-candidate.md",
+      "started_utc_epoch": 1795141805.752285
+    },
+    {
+      "call_id": "cold-prime-directional-source-bridge",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "b726fa87b52644c309f03aa9bb7f1a4dbe7e9b18106ec9bc3f1c36e87d391c87",
+      "mission_file": {
+        "path": "coordination/missions/round-179/cold-prime-directional-source-bridge.md",
+        "sha256": "6a437c35a045a4db122b031e3eaaee54e4bbdac02d5fd1440e5a9929f75d5541"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r179-api-01a1ed0a/cold-prime-directional-source-bridge-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r179-api-01a1ed0a/cold-prime-directional-source-bridge-candidate.md",
+      "started_utc_epoch": 1795141805.752605
+    }
+  ]
+}

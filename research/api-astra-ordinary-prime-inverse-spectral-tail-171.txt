@@ -1,0 +1,167 @@
+## Checked result
+
+Let \(p\to\infty\) through odd primes, \(n=(p-1)/2\), with the original physical mark \(q\) and the genuine Jacobi-sector projector \(P_\epsilon\). Use counting norms. Let \(A=\{i:w_i>0\}\) be the actual positive complementary support and \(B=U'\setminus A\) an actual independent extension, as in the cited construction.
+
+Write
+\[
+G_B=G_{0,BB},\qquad c_B=(c_0)_B,
+\]
+where
+\[
+c_0=\frac1{\sqrt n}\left(\mathbf 1_{U'}+\frac{q-1}{d}b_0\right),
+\qquad d=(P_\epsilon)_{00}.
+\]
+The physical entry estimates give, uniformly over actual unmarked columns,
+\[
+(G_B)_{ii}=\frac12+O(n^{-1}),\qquad
+|(G_B)_{ij}|\le \frac{\sqrt p}{2n}+O(n^{-1}),
+\qquad |(c_B)_i|=O(n^{-1/2}).
+\]
+
+Assume the actual selected extension satisfies
+\[
+b:=|B|\le (1-\eta)\frac{n}{\sqrt p},
+\qquad 0<\eta<1.
+\]
+Then Gershgorin gives, for sufficiently large primes,
+\[
+G_B\ge \frac{\eta}{4}I_B.
+\]
+Consequently the genuine B-first inverse debit
+\[
+D_B:=\langle c_B,G_B^{-1}c_B\rangle
+\]
+obeys
+\[
+D_B\le \frac4\eta \|c_B\|_2^2
+       =O_\eta\!\left(\frac bn\right)
+       =O_\eta(p^{-1/2}).
+\]
+
+Thus, for every admissible growing scale
+\[
+T\to\infty,\qquad T=o(\sqrt n),
+\]
+and cutoff \(s=T^{-1/2}\), the B-first total—including its low spectral part—is already
+\[
+\langle c_B,\mathbf 1_{(0,s]}(G_B)G_B^{-1}c_B\rangle
+\le D_B
+=O_\eta(p^{-1/2})
+=o(T).
+\]
+
+The complementary high-spectrum estimate is also explicit:
+\[
+\langle c_B,\mathbf 1_{[s,\infty)}(G_B)G_B^{-1}c_B\rangle
+\le \frac{\|c_B\|_2^2}{s}
+=O_\eta\!\left(\frac{b\sqrt T}{n}\right)
+=O_\eta\!\left(\sqrt{\frac{T}{p}}\right).
+\]
+This is \(o(1)\), hence \(o(T)\), under the displayed admissible \(T\)-regime.
+
+## A-first residual
+
+After eliminating \(B\), the actual residual source on \(A\) is
+\[
+\rho_A:=G_{0,AB}G_B^{-1}c_B,
+\]
+and the quotient matrix is
+\[
+Q_A=G_{0,AA}-G_{0,AB}G_B^{-1}G_{0,BA}.
+\]
+The block positivity estimate gives
+\[
+\|\rho_A\|_2^2
+\le D_B-\|c_B\|_2^2
+\le D_B.
+\]
+Therefore, for the positive spectral part of \(Q_A\),
+\[
+\langle \rho_A,\mathbf 1_{[s,\infty)}(Q_A)
+ Q_A^{-1}\rho_A\rangle
+\le \frac{D_B}{s}
+=O_\eta\!\left(\frac{b\sqrt T}{n}\right)
+=O_\eta\!\left(\sqrt{\frac{T}{p}}\right).
+\]
+
+This is a valid actual projected-mass estimate for the transferred B-source. It does **not** control
+\[
+\langle \rho_A,\mathbf 1_{(0,s]}(Q_A)
+ Q_A^{-1}\rho_A\rangle,
+\]
+because the factor \(Q_A^{-1}\) can be arbitrarily large on eigenvalues below \(s\). The rank estimate
+\[
+\operatorname{rank}\mathbf 1_{(0,s]}(G_B)
+\le
+\frac{b^2/(4n)+O(b/\sqrt n)}{(1/2-s)^2}
+\]
+likewise gives no source overlap estimate and therefore does not close this gap.
+
+Most importantly, \(C_{\rm q}(A)\) is the A-first physical positive-dual cost:
+\[
+nC_{\rm q}(A)=\|d_A^{\rm phys}\|_2^2,
+\]
+equivalently the actual positive-cone dual value. The B-first bound \(D_B=O_\eta(b/n)\) does not imply a bound on the low-spectrum part of this A-first residual. The two debits are order-dependent and must not be identified.
+
+## Precise failure
+
+The requested prime-uniform actual inverse-tail bound is **not established**.
+
+What is proved is:
+
+1. Under the actual small-\(B\) hypothesis,
+   \[
+   D_B=O_\eta(b/n)=O_\eta(p^{-1/2}),
+   \]
+   so the entire B-first debit is \(o(T)\).
+
+2. At cutoff \(s=T^{-1/2}\), the transferred source has high-spectrum cost
+   \[
+   O_\eta(b\sqrt T/n)=O_\eta(\sqrt{T/p}).
+   \]
+
+3. No prime-uniform estimate is available for the A-first residual in the interval
+   \[
+   0<\lambda\le T^{-1/2}.
+   \]
+
+4. The condition
+   \[
+   |B|\le (1-\eta)n/\sqrt p
+   \]
+   has not been proved for every actual fixed-gap sequence. Nor has an analogous bound been proved for the combined eliminated set consisting of zero and small positive complementary weights.
+
+The abstract scaled-cone obstruction does not refute the ordinary-prime target: it has the correct positivity and normalization features but lacks the actual Jacobi Fourier geometry, physical marking, and adaptive prime support. Hence it only shows that positivity alone is insufficient.
+
+## Ranked next tests
+
+### 1. Prove an actual low-weight elimination bound
+
+For the genuine complementary coefficients \(w\), define
+\[
+C_H:=B\cup\{i\in A:0<w_i<H\}.
+\]
+The first test should establish, along every fixed-gap admissible prime sequence, a bound of the form
+\[
+|C_H|\le (1-\eta_H)\frac{n}{\sqrt p}
+\]
+for some fixed or slowly growing \(H\). Then Gershgorin and Schur elimination would control the entire \(C_H\)-debit. The remaining high-weight block could be treated by the signed Jacobi difference form. The critical missing estimate is a prime-uniform bound on the number of actual zero/low-weight coordinates.
+
+### 2. Obtain a source-weighted Jacobi low-tail estimate
+
+For the actual \(Q_A\), test directly whether one can prove, with \(s=T^{-1/2}\),
+\[
+\left\langle d_A,\mathbf 1_{(0,s]}(Q_A)
+ Q_A^\dagger d_A\right\rangle=o(T),
+\]
+or the stronger projected-mass estimate
+\[
+\left\|\mathbf 1_{(0,s]}(Q_A)d_A\right\|_2^2
+=o(sT).
+\]
+A viable route is a weighted Fourier-minor or Jacobi-kernel estimate that uses the actual source
+\[
+c_0=\frac1{\sqrt n}
+\left(\mathbf1+\frac{q-1}{d}b_0\right)
+\]
+rather than only the low-eigenvalue rank. Finite-prime computations can identify the relevant eigenvalue/source alignment, but they cannot by themselves establish the required prime-uniform asymptotic bound.

@@ -1,0 +1,74 @@
+{
+  "round": 108,
+  "accepted_at_utc": "2026-11-19T13:09:30Z",
+  "previous": "research/round-107-acceptance.json",
+  "previous_sha256": "ac8e6233eb07dbe04d2cb344758579efce275a8724db2e1fbadea94d02c215a6",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-107.json",
+    "sha256": "0208752bf1a2574cbcd016f86004a7d8f43c2203852ed7aa17f1cdfa24144d4b"
+  },
+  "proof_and_code_sha256": {
+    "research/api-astra-108-receipt.json": "941ecbf130d95e1aef517bd39f2fa3ca7d829b4d78d33d7faee8994a1eeb1533",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/projected-cap-completion-108.md": "2032cc02885dc1acea7f2898414c14bc318d722f7e5b15cdfdaac3dd37c3afd5"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/api-astra-review-106.md": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad",
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/real-cap-exterior-103.md": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988",
+    "research/real-inner-cap-quadratic-107.md": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, matching one-sided transport",
+      "model": "gpt-6.2-astra (requested model)",
+      "status": "local-runner-terminal-no-response",
+      "ranked_closeout": []
+    },
+    {
+      "name": "/root/audit_108",
+      "status": "completed",
+      "ranked_closeout": [
+        "Measure genuine negative repair effective width or prove its signed Rayleigh gap at critical cap rate.",
+        "Use the true low-slack coordinates in the exact adjusted co-sector projection; test the explicit small-constant critical cap-rate bootstrap."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek the field-uniform slack-adjusted projected overshoot of the genuine capped factor at fixed M=10. This uses a feasible ordinary Fourier row directly, not the unadjusted global transport.",
+    "Target the true iterative correction width, or the signed gap with a small initial negative norm. Test the independently suggested critical cap constant bootstrap and the actual near-edge behavior if it fails.",
+    "Continue to separate the real cap work from the genuine complex translated starter and actual terminal-velocity/prior/triangular conditions."
+  ],
+  "proof_scope": [
+    "One signed projection plus a constant controlled by the slack-adjusted overshoot gives an exact nonnegative opposite-sector ordinary Fourier-LP row. The cap deficit pays added overflow mass for M>=2. For fixed M=10 and each fixed 0<t<=1, it pays the possible normalized marked loss as well, so through-primes adjusted overshoot tending to zero alone gives the fixed-floor upper sqrt(1+t) for the tested theta sign. Both signs along floors tending to zero imply the original limit.",
+    "Alternating the cone and exact affine-sector projection of the actual capped factor converges to a feasible row at each finite field. The mean and marked budgets are controlled by summed negative means. If actual effective support remains below eta n/sqrt(p) with fixed eta<1 through the specified logarithmic window, the repair proves the fixed-floor theta upper without a cap-deficit rate. At the critical cap rate a uniform signed Rayleigh gap on the actual negative rows also suffices.",
+    "The terminal API receipt contains no mathematical candidate. The new statements are ordinary conditional calculations on actual rows, checked independently."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The API runner timed out locally before a candidate was received. No remote completion or mathematical conclusion can be inferred. The same unresolved request was not duplicated.",
+    "The through-primes adjusted transport upper and the actual negative-row width/Rayleigh bounds remain open. Finite positivity of the limiting repair does not control its order-one mean cost.",
+    "The common cold analytic square and exact all-prime ordinary theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. The saved terminal receipt documents the local timeout and absence of candidate; it does not certify a mathematical result."
+  ],
+  "independent_review": [
+    "Checked exact centered sector, evenness, positivity, alpha payment, mark loss, complementary theta product and the fixed M=10 numerical inequality proved from elementary bounds.",
+    "Checked the projection identity, convergence at fixed n, cumulative costs, effective-width contraction and the signed Rayleigh alternative. The auditor also verified the true slack-adjusted rewrite and suggested the small-critical-constant bootstrap."
+  ]
+}

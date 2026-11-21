@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "round": 165,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 165 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-164-acceptance.json",
+      "sha256": "e054c4986e38019e958f750be26dbe601e80db405e895681db9292fe9251fb81"
+    },
+    "current": {
+      "path": "research/round-165-acceptance.json",
+      "sha256": "c44f090db067444adeaf78a61e75295314bf7ff796a5f579173b82e1be5670cf"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "Directional Gram and true pointwise slope increments were available, with no adequate centered or collision upper.",
+      "after": "The actual ordinary cost separates the zero-coefficient block and positive-kernel Schur source. The same-u collision part is exact and shared complete physical endpoints already cost below the desired scale.",
+      "remaining": "Bound both centered costs on true zero columns or otherwise exclude fixed gaps, and bound the remaining disjoint fixed-moderate collisions.",
+      "evidence": [
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-cofactor-complementary-interpolant-164.md",
+          "sha256": "82dd62d71b94f89e74bedf469c1e42c4d0b0632df9017210cecb5bdd1e9c0f79"
+        },
+        {
+          "path": "research/ordinary-gram-directional-control-164.md",
+          "sha256": "59333c97ed3ac5f4c12451fa6c4f76d3803ba0fa86b7e1e5330d62130abb4c5b"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        },
+        {
+          "path": "research/ordinary-physical-slope-fiber-count-162.md",
+          "sha256": "ddc91f28cfbc56ffe805567d7aa85f1fedc5ba8f42a8bd559f436b17a2c3e005"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "The leading Taylor source, whole source <0.000115 and the separately propagated mark were priced.",
+      "after": "True even-word seed pairs lower the whole source price to <0.000103 and give a separate l=1 price <0.000031.",
+      "remaining": "Prove a summable translated actual bulk orbit and nonlinear transfer, or a compatible growing starter on the original square.",
+      "evidence": [
+        {
+          "path": "research/cold-paired-Taylor-source-saving-165.md",
+          "sha256": "0f77c3acd8f976d86a3c0665f0eae80ccc23cb71e2b5305671d09aca4c987365"
+        },
+        {
+          "path": "research/cold-actual-leading-Taylor-source-164.md",
+          "sha256": "26f5bf798e88d7df6ab3784431b87d418bf59a4c7f896f55acf95fcfa13277fa"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual centered Gram is explicitly a positive-kernel signed form, the slope collision has true diagonal cuts, and the full cold Taylor source cost improves before the inverse. The original prime-uniform estimates remain open.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-positive-kernel-Schur",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the actual zero-coefficient inverse debit and positive-kernel Schur source cost both be controlled by o(T), or an equally sufficient bound?",
+      "why_now": "Centering removes the genuine physical mark within the pure Gram and exhibits a strictly positive kernel on the complementary support. Positivity alone has a relaxed obstruction, so Jacobi arithmetic is required.",
+      "scope": "Use the actual independent zero columns, G0 and c0, the complementary coefficients and genuine prime signs, and an admissible growing T. Retain both Schur debit terms, signed edge weights, high versus low w cutoff and actual support.",
+      "if_yes": "Prove both needed source-weighted bounds or one equally sufficient actual prime fixed-gap exclusion.",
+      "if_no": "Give a precise obstruction to a specified cut-plus-transfer or signed Jacobi lower mechanism.",
+      "if_inconclusive": "Prove a quantified coercivity or leakage estimate for one of the two real source debits, keeping the other explicit.",
+      "inputs": [
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-cofactor-complementary-interpolant-164.md",
+          "sha256": "82dd62d71b94f89e74bedf469c1e42c4d0b0632df9017210cecb5bdd1e9c0f79"
+        },
+        {
+          "path": "research/ordinary-gram-directional-control-164.md",
+          "sha256": "59333c97ed3ac5f4c12451fa6c4f76d3803ba0fa86b7e1e5330d62130abb4c5b"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-disjoint-slope-collisions",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can either high-overlap equal-u collisions or distinct-u collisions be bounded at O(p^1.5) on a genuine fixed moderate slope band?",
+      "why_now": "All shared complete endpoints have a finite-multiplicity charge under the target. The equal-u low-overlap part also costs O(p^1.5).",
+      "scope": "Use genuine physical (u,z) graph, original mask and true f; state fixed amplitude thresholds and band. Subtract the identity slope; separate actual shared endpoints and equal-u versus different-u. No unshifted energy substitution.",
+      "if_yes": "Prove the full desired collision bound or close one of its two remaining explicit parts at target scale.",
+      "if_no": "Prove a precise obstruction to a stated incidence or multiplicity shortcut, with actual or relaxed scope.",
+      "if_inconclusive": "Derive a new two-copy weighted inequality beyond the pointwise-and-total product bound.",
+      "inputs": [
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        },
+        {
+          "path": "research/ordinary-physical-slope-fiber-count-162.md",
+          "sha256": "ddc91f28cfbc56ffe805567d7aa85f1fedc5ba8f42a8bd559f436b17a2c3e005"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-paired-source-propagation",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the improved true even Taylor source price be turned into a signed translated bulk orbit bound or a genuine moving-starter proof?",
+      "why_now": "Actual common seed pairs pay full source <0.000103 before the inverse. A duplicate source calculation alone cannot cover the outer bulk orbit.",
+      "scope": "Keep genuine n=t0=(p-1)/2, both lifts, closed square, actual source and norm. Treat inverse times Kr and inverse times K squared r separately. Price a specified block, its signed long tail and nonlinear transfer.",
+      "if_yes": "Prove an actual transported bound with sufficient tail and nonlinear confinement, or a compatible moving starter.",
+      "if_no": "Identify the precise mathematical failure of one named signed packet or tail mechanism, retaining actual versus relaxed scope.",
+      "if_inconclusive": "Give a new actual source-local estimate after an outer step or a quantitative valid cutoff transfer.",
+      "inputs": [
+        {
+          "path": "research/cold-paired-Taylor-source-saving-165.md",
+          "sha256": "0f77c3acd8f976d86a3c0665f0eae80ccc23cb71e2b5305671d09aca4c987365"
+        },
+        {
+          "path": "research/cold-actual-leading-Taylor-source-164.md",
+          "sha256": "26f5bf798e88d7df6ab3784431b87d418bf59a4c7f896f55acf95fcfa13277fa"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 166 deductions survive independent review?",
+      "why_now": "The centered signed form, separated collision strata and cold transfers need independent algebra, arithmetic and scope checks.",
+      "scope": "Read-only. Keep all actual supports, signs and marks, prime eligibility and moving or fixed depth. Give two ranked next tests.",
+      "if_yes": "State established scope and remaining obligations.",
+      "if_no": "Locate a false inference.",
+      "if_inconclusive": "Separate ordinary proof, conditional criteria and finite evidence.",
+      "inputs": [
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-cofactor-complementary-interpolant-164.md",
+          "sha256": "82dd62d71b94f89e74bedf469c1e42c4d0b0632df9017210cecb5bdd1e9c0f79"
+        },
+        {
+          "path": "research/ordinary-gram-directional-control-164.md",
+          "sha256": "59333c97ed3ac5f4c12451fa6c4f76d3803ba0fa86b7e1e5330d62130abb4c5b"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        },
+        {
+          "path": "research/cold-paired-Taylor-source-saving-165.md",
+          "sha256": "0f77c3acd8f976d86a3c0665f0eae80ccc23cb71e2b5305671d09aca4c987365"
+        },
+        {
+          "path": "research/cold-actual-leading-Taylor-source-164.md",
+          "sha256": "26f5bf798e88d7df6ab3784431b87d418bf59a4c7f896f55acf95fcfa13277fa"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

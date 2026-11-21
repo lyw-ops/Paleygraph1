@@ -1,0 +1,266 @@
+## Result
+
+For the actual ordinary-prime family, no prime-uniform \(o(T)\) bound is currently obtained for either the positive-support cost or the orthogonal quotient cost. The exact basis-invariant split is valid, but the available Jacobi mixing estimate controls only the dimension of a low-spectrum subspace, not the overlap of the actual centered source with that subspace.
+
+Here the prime family is an ordinary-prime sequence \(p\to\infty\), with
+\[
+n=\frac{p-1}{2},
+\]
+restricted, if necessary, to a fixed physical sign \(\epsilon\) and fixed floor/marked window. The physical marking is the coordinate \(e_0\), and the relevant columns are the actual centered marked columns
+\[
+a_i=P_0e_i,\qquad
+P_0=P_\epsilon-\frac{P_\epsilon e_0e_0^*P_\epsilon}{d},
+\qquad d=(P_\epsilon)_{00}.
+\]
+All coefficient and matrix norms below are counting norms; the representer norm is the physical Euclidean norm.
+
+Let \(U'\) be the actual independent zero-column extension, let
+\[
+A=\{i\in U':w_i>0\},\qquad B=U'\setminus A,
+\]
+where \(w\ge 0\) is the actual complementary interpolant satisfying
+\[
+Lw=-\frac r{\sqrt n}\mathbf 1_\Gamma,\qquad
+\sum_{i\in U'}w_i=n-r.
+\]
+The centered Gram and source are
+\[
+G_0=(\langle a_i,a_j\rangle)_{i,j\in U'},\qquad
+c_0=\frac1{\sqrt n}\left(\mathbf1_{U'}+\frac{q-1}{d}b_0\right),
+\]
+with \(G_0w=0\) and \(c_0^*w=0\).
+
+---
+
+## Exact orthogonalization on the actual positive support
+
+The positive-support Gram is
+\[
+G_A=(G_0)_{AA}.
+\]
+Its kernel is exactly
+\[
+\ker G_A=\operatorname{span}\{w_A\},
+\]
+because \(w_A>0\) and the full centered Gram has kernel \(\mathbb Rw\).
+
+Choose an orthonormal eigenbasis \(u_\ell\) of \(w_A^\perp\) with
+\[
+G_Au_\ell=\lambda_\ell u_\ell,\qquad \lambda_\ell>0.
+\]
+The physically orthonormalized marked columns are
+\[
+\phi_\ell
+=\lambda_\ell^{-1/2}\sum_{i\in A}(u_\ell)_i\,a_i.
+\]
+Since \(c_{0,A}\perp w_A\), the minimal physical representer satisfying the \(A\)-constraints has squared norm
+\[
+\boxed{
+C_+(A)
+=
+c_{0,A}^*G_A^\dagger c_{0,A}
+=
+\sum_{\lambda_\ell>0}
+\frac{|u_\ell^*c_{0,A}|^2}{\lambda_\ell}.
+}
+\]
+This is the genuine positive-support inverse cost. It is not altered by changing the independent extension \(U'\) while keeping the actual support \(A\).
+
+The residual source on \(B\) is
+\[
+c'_B
+=
+c_{0,B}-G_{0,BA}G_A^\dagger c_{0,A},
+\]
+and the quotient Gram is
+\[
+S_B
+=
+G_{0,BB}-G_{0,BA}G_A^\dagger G_{0,AB}.
+\]
+The exact orthogonal quotient cost is
+\[
+\boxed{
+C_{\mathrm q}(A)
+=
+(c'_B)^*S_B^{-1}c'_B.
+}
+\]
+For nonempty \(B\), \(S_B\) is positive definite. The full centered marked cost splits as
+\[
+\boxed{
+c_0^*G_0^\dagger c_0
+=
+C_+(A)+C_{\mathrm q}(A).
+}
+\]
+Equivalently, \(C_{\mathrm q}(A)\) is the squared norm of the residual physical representer after quotienting the full marked span by the span of the genuine positive-support columns.
+
+This is the requested basis-invariant split. The complementary coefficients \(w\) remain explicit: \(w_A\) is the kernel vector removed in the positive-support orthogonalization, and \(w\) remains the exact positive interpolant for the full centered system.
+
+---
+
+## What is actually proved on a small zero block
+
+If the actual zero block satisfies
+\[
+|B|\le (1-\eta)\frac n{\sqrt p}
+\]
+for fixed \(\eta>0\), then the physical entry bounds and Gershgorin give
+\[
+G_{0,BB}\ge \frac{\eta}{4}I_B
+\]
+for all sufficiently large ordinary primes. Since
+\[
+|(c_0)_i|=O(n^{-1/2}),
+\]
+the direct zero-block debit obeys
+\[
+c_{0,B}^*G_{0,BB}^{-1}c_{0,B}
+=
+O_\eta\!\left(\frac{|B|}{n}\right)
+=
+O_\eta(n^{-1/2}).
+\]
+This is a genuine source-weighted estimate, but it concerns the elimination order \(B\) first. It does not by itself bound the positive-support cost \(C_+(A)\) or the quotient cost \(C_{\mathrm q}(A)\) after orthogonalizing on \(A\).
+
+For the low-spectrum projector
+\[
+P_s=\mathbf1_{(0,s]}(G_{0,BB}),
+\]
+the actual Jacobi mixing estimate gives
+\[
+\operatorname{rank}P_s
+\le
+\frac{b^2/(4n)+O(b/\sqrt n)}{(1/2-s)^2},
+\qquad b=|B|.
+\]
+At \(s=T^{-1/2}\),
+\[
+\operatorname{rank}P_s
+\le
+(1+O(T^{-1/2}))\frac{b^2}{n}
++O\!\left(\frac b{\sqrt n}\right).
+\]
+
+This is a checked rank bound on the actual adaptive block. It is not a source estimate.
+
+Indeed, the relevant low-spectrum debit is
+\[
+C_{B,\mathrm{low}}
+=
+c_{0,B}^*P_sG_{0,BB}^{\dagger}P_sc_{0,B}
+=
+\int_{(0,s]}\lambda^{-1}\,d\mu_{c_{0,B}}(\lambda),
+\]
+where
+\[
+\mu_{c_{0,B}}(E)
+=
+\|1_E(G_{0,BB})c_{0,B}\|_2^2.
+\]
+A rank estimate controls the number of atoms/eigenvalues in this integral, but not the source measure \(\mu_{c_{0,B}}\). The actual source could, as far as the present estimates show, have substantial projection onto the low eigenspace. Thus
+\[
+\operatorname{rank}P_s\ll \frac{b^2}{n}
+\]
+does not imply
+\[
+C_{B,\mathrm{low}}=o(T).
+\]
+
+The same issue appears after positive-support orthogonalization: a small-dimensional quotient slow space can still contain the residual source \(c'_B\).
+
+---
+
+## Status for a fixed-gap sequence
+
+Assume hypothetically that there is a fixed-gap sequence of ordinary primes \(p_j\), with fixed sign \(\epsilon\) and fixed floor, and with an admissible marked window \(T_j=T(p_j)\to\infty\). The order of limits is:
+
+1. form the exact finite-\(p_j\) physical split using the actual \(e_0\), \(A_j\), \(B_j\), \(w_j\);
+2. then let \(p_j\to\infty\), with \(T_j\to\infty\) inside the admissible window;
+3. seek a uniform estimate \(C_+(A_j)+C_{\mathrm q}(A_j)=o(T_j)\).
+
+The current evidence proves neither
+\[
+C_+(A_j)=o(T_j)
+\]
+nor
+\[
+C_{\mathrm q}(A_j)=o(T_j).
+\]
+It also does not prove a fixed-gap exclusion.
+
+The precise failure is source alignment: the centered Jacobi mixing calculation supplies a low-rank upper bound, while the inverse costs require a source-weighted spectral bound. The relaxed positive-interpolant model shows that positivity of \(w\), correct mass scaling, and coarse Gram information alone do not prevent a large centered inverse cost. That model is not an arithmetic counterexample for the actual Jacobi matrices, so it refutes only the proposed sufficient inference, not the target statement.
+
+---
+
+## Remaining component and growing window
+
+After the actual positive-support orthogonalization, the remaining unresolved quantity is
+\[
+\boxed{
+C_{\mathrm q}(A)
+=
+(c'_B)^*
+\left(
+G_{0,BB}-G_{0,BA}G_A^\dagger G_{0,AB}
+\right)^{-1}
+c'_B.
+}
+\]
+Equivalently, one must control the source-weighted low spectrum of the quotient Gram \(S_B\) at the admissible cutoff \(s=T_j^{-1/2}\), together with the positive-support cost from eigenvalues below that cutoff.
+
+The existing \(B\)-block estimate gives an \(O_\eta(n^{-1/2})\) direct debit when \(b\ll n/\sqrt p\), and the high-spectrum transfer is harmless at \(s=T_j^{-1/2}\) provided the corresponding source debit is used. The unresolved part is the low-spectrum source overlap below that cutoff.
+
+---
+
+## Ranked next tests
+
+### 1. Source-weighted quotient spectral measure — highest priority
+
+For the actual \(A_j,B_j,w_j\), compute or bound
+\[
+\mu_j(E)
+=
+\left\|
+1_E(S_{B_j})\,c'_{B_j}
+\right\|_2^2,
+\]
+and prove, uniformly along every hypothetical fixed-gap sequence,
+\[
+\int_{(0,T_j^{-1/2}]}
+\lambda^{-1}\,d\mu_j(\lambda)
+=o(T_j).
+\]
+A sufficient dyadic form is
+\[
+\mu_j\bigl((2^{-m-1},2^{-m}]\bigr)
+\ll
+o(T_j)\,2^{-m}
+\]
+summed over \(2^{-m}\le T_j^{-1/2}\). This directly tests the actual source and quotient, rather than rank. It is the cleanest route to
+\[
+C_{\mathrm q}(A_j)=o(T_j).
+\]
+
+### 2. Adaptive-support coercivity or combined low-weight elimination
+
+Prove a support-specific statement for
+\[
+C_j=B_j\cup\{i:0<w_{j,i}<H_j\}
+\]
+such as
+\[
+|C_j|\le (1-\eta)\frac n{\sqrt p}
+\]
+for some \(H_j\) compatible with the growing window, and then establish a lower coercivity estimate on the remaining high-weight signed Jacobi form after Schur elimination. This would control both the zero coefficients and the low positive weights in one actual support-dependent quotient.
+
+The needed estimate must retain the signed squared-difference form
+\[
+z^*D_wG_0D_wz
+=
+-\sum_{i<j}(G_0)_{ij}w_iw_j(z_i-z_j)^2,
+\]
+including edges to low-weight coordinates. An unweighted rank or trace estimate is insufficient.
+
+**Conclusion:** the exact orthogonal positive-support/quotient decomposition is checked and extension-invariant, but the requested prime-uniform inverse-cost bound remains inconclusive.

@@ -1,0 +1,36 @@
+{
+  "mark": {
+    "lane": "mark",
+    "model": "gpt-6.2-astra",
+    "status": "returned-draft",
+    "prompt_sha256": "0ba2d0d73d9f1087f39e4f7b7fdba3769b41d30517f861cc6ffda82c9b36e44a",
+    "max_completion_tokens": 12000,
+    "utc_epoch": 1795089959,
+    "http_status": 200,
+    "completion": true,
+    "model_matches": true,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 14836,
+      "completion_tokens": 6504,
+      "total_tokens": 21340
+    }
+  },
+  "terminal": {
+    "lane": "terminal",
+    "model": "gpt-6.2-astra",
+    "status": "returned-draft",
+    "prompt_sha256": "5fec113a82532af71ce5d01dd599a85466044efd1610fe85fb8ba45446ea4a53",
+    "max_completion_tokens": 12000,
+    "utc_epoch": 1795089959,
+    "http_status": 200,
+    "completion": true,
+    "model_matches": true,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 10961,
+      "completion_tokens": 8983,
+      "total_tokens": 19944
+    }
+  }
+}

@@ -1,0 +1,171 @@
+## Result
+
+I do not obtain the target
+\[
+\sum_s w(s)\,(P_s^{+})^2=O(p^{3/2})
+\]
+for the remaining favorable block. The available argument gives a prime-uniform exponent gain, but leaves a genuine gap.
+
+I work along the actual eligible prime family from the accepted branch: odd eligible primes \(p\equiv1\pmod 4\), with
+\[
+n=(p-1)/2,\qquad Q=(\mathbb F_p^\times)^2,\qquad v\neq0,
+\]
+\[
+\rho=\chi(v)=-\sigma.
+\]
+The near-critical short-block hypotheses and their admissible \(T\)-range are kept fixed; all estimates below are uniform over that actual \(T\)-range. No arbitrary capped law is introduced, and no \(T\)-limit is interchanged with \(p\to\infty\).
+
+Put
+\[
+g=|f|^2,\qquad w(s)=g(s)(1-g(s)),\qquad G=\sum g=O(\sqrt p).
+\]
+
+Define the favorable physical set
+\[
+\mathcal F=\{z\in Q\setminus\{1\}:\chi(1-z)=\rho\}.
+\]
+The favorable diagonal kernel is
+\[
+P_s^+
+ =\sum_{\substack{\text{retained physical tuples}\\
+ s,A,C,Y,D\in\mathcal F}}
+ g(A)g(C)g(Y)g(D),
+\]
+where all original endpoint exclusions, the exact \(b\in Q\) square mask, the retained physical mark \(v\), the \(u\)-square condition, and the reconstructed \(x,y\)-square conditions remain in force.
+
+The already established wrong-sector cuts reduce the problem to this block:
+
+- wrong output \(s\): \(O(p^{3/2})\);
+- one wrong weighted input: \(O(p^{7/6})\) per role;
+- priced endpoint and reconstruction errors: \(O(p^{3/2})\);
+- two-role cross-copy overlaps: \(O(p^{3/2})\).
+
+Thus the unresolved quantity is genuinely the all-five-favorable diagonal above.
+
+---
+
+## Arithmetic information supplied by the favorable signs
+
+In the \((r,b,s)\)-chart,
+\[
+A=\frac{rs}{s-b},\qquad
+C=\frac{rb}{(1-r)(s-b)},\qquad
+Y=\frac r{1-b},\qquad
+D=\frac{br}{(1-r)(1-b)}.
+\]
+
+On the retained domain,
+\[
+\frac{1-A}{1-C}=1-r,
+\qquad
+\frac{1-Y}{1-D}=1-r.
+\]
+Therefore, if \(A,C,Y,D\) are all favorable,
+\[
+\chi(1-A)=\chi(1-C)=\chi(1-Y)=\chi(1-D)=\rho
+\quad\Longrightarrow\quad
+\chi(1-r)=1.
+\]
+
+This is the only automatic power-saving consequence of the four favorable sign conditions that I can verify. It restricts \(r\) to a half-density subfamily but gives no \(p^{-\delta}\) gain in the weighted mass.
+
+Crucially,
+\[
+1_{\mathcal F}(z)
+=\frac12\bigl(1+\rho\,\chi(1-z)\bigr)
+\]
+on \(Q\setminus\{1\}\). Hence the five favorable masks contain a nonoscillatory constant component of size \(2^{-5}\). Consequently, an unrestricted Jacobi estimate cannot simply absorb the physical favorable restriction: its constant component is the original positive diagonal, while the remaining character components do not have a sign with which to cancel it. This is the precise obstruction to completing the slope-dependent physical restriction by an unrestricted Jacobi sum.
+
+---
+
+## Common-pole contribution
+
+For fixed \(s,b\), retain all four input weights and define
+\[
+m^+_{s,b}
+=
+\sum_{\substack{r:\,(s,b,r)\text{ retained}\\
+A,C,Y,D\in\mathcal F}}
+g(A)g(C)g(Y)g(D).
+\]
+The positive common-\(b\) part is
+\[
+\mathcal C^+
+=
+\sum_{s,b}w(s)\,(m^+_{s,b})^2.
+\]
+
+A square-root Jacobi factor in the common-pole calculation means that the target would require
+\[
+\mathcal C^+=O(p).
+\]
+No such four-weight estimate is currently proved.
+
+The existing affine-fiber argument gives the following valid fallback. It may be applied to the favorable subset, since that subset only decreases the positive kernel:
+\[
+\boxed{\mathcal C^+\ll p^{\,2-1/640}.}
+\]
+This estimate retains the actual \(g(A),g(C),g(Y),g(D)\) in the definition of the kernel, but its proof obtains the bound after positive domination by the \(Y,D\) row masses. It therefore does not exploit a genuinely coupled four-weight estimate. It is above the required \(p^{3/2}\) scale by approximately \(p^{1/2}\).
+
+The favorable identity \(\chi(1-r)=1\) only halves the \(r\)-range and does not improve this exponent.
+
+---
+
+## Distinct-pole contribution
+
+For distinct poles, the existing prime-uniform positive incidence estimate remains the only checked bound:
+\[
+\boxed{
+\sum_s w(s)(P_s^+)^2
+\ll p^{37/16}(1+\log p).
+}
+\]
+The favorable restriction and all physical masks can only decrease this positive quantity, so the same bound is valid for the distinct-pole subfamily. It is nevertheless far above \(p^{3/2}\).
+
+There is no verified coupled estimate for the distinct-pole block that simultaneously retains
+
+- \(g(A),g(C),g(Y),g(D)\);
+- the output factor \(w(s)\);
+- the exact \(b\in Q\) mask;
+- all five favorable conditions;
+- and the physical \(x,y\)-square reconstruction.
+
+The current affine-energy/incidence argument omits one of the four input weights at its decisive step, and the resulting rearrangement exponent is not sufficient.
+
+---
+
+## Conclusion
+
+The mission is **inconclusive, not refuted**.
+
+What is checked is
+\[
+\text{wrong sectors}+\text{endpoints}+\text{two-role overlaps}
+=O(p^{3/2}),
+\]
+together with the surviving favorable bounds
+\[
+\mathcal C^+\ll p^{2-1/640},
+\qquad
+\mathcal D^+\ll p^{37/16}(1+\log p),
+\]
+where \(\mathcal D^+\) denotes the distinct-pole remainder under the positive physical decomposition.
+
+Thus the target \(O(p^{3/2})\) is not reached. The remaining obstruction is not the sign reduction itself; it is the absence of a coupled weighted estimate for the favorable common- and especially distinct-pole blocks. The constant component of the favorable character masks shows why an unrestricted Jacobi completion cannot supply that estimate automatically.
+
+## Ranked next tests
+
+1. **Distinct-pole coupled incidence test.**  
+   Prove directly, with the exact physical masks and \(w(s)\), a two-pole estimate of the form
+   \[
+   \mathcal D^+
+   \ll p^{3/2},
+   \]
+   without dropping \(g(A)\) or \(g(C)\). The needed input is a weighted incidence/energy estimate for the two affine pole parameters, with the output \(s\) localized by \(w\), rather than a factorwise Cauchy bound.
+
+2. **Four-weight common-pole and zero-match test.**  
+   Establish
+   \[
+   \sum_{s,b}w(s)(m^+_{s,b})^2\ll p
+   \]
+   with the actual four weights, and separately bound the zero-match/constant-character component by \(O(p^{3/2})\). The favorable relation \(\chi(1-r)=1\) should be retained, but cannot be expected by itself to provide the required power saving.

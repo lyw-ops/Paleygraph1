@@ -1,0 +1,19 @@
+{
+  "newton": {
+    "model": "gpt-6.2-astra",
+    "lane": "newton",
+    "max_completion_tokens": 7600,
+    "prompt_sha256": "cef308223d7f7daf08d5486b710f21ab16af738f0aa56dc7c4715961ae6ff5a0",
+    "utc_epoch": 1795091836,
+    "http_status": 200,
+    "completion": true,
+    "model_matches": true,
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9724,
+      "completion_tokens": 6088,
+      "total_tokens": 15812
+    },
+    "status": "returned-draft"
+  }
+}

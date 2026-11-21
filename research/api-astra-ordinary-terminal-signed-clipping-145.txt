@@ -1,0 +1,157 @@
+## Checked result
+
+Let \(p\equiv1\pmod 4\) run through ordinary primes, \(n=(p-1)/2\), and fix \(\tau>0\). Choose \(T=T(p)\to\infty\) with \(T+1\) in the proved simultaneous marked window, taking the prime limit first and \(\tau\downarrow0\) last.
+
+Let \(F\ge 0\) be a mean-one true optimizer, with \(F_0=q\), and define on the bulk
+\[
+D=(F-L)_+,\qquad D_0=0,\qquad d=\mathbb E D.
+\]
+Put
+\[
+c=\frac{dn}{n-1},\qquad
+F^{\rm new}=F-D+c\,1_{\rm bulk}.
+\]
+
+Then:
+
+1. **Mean is preserved exactly**
+   \[
+   \mathbb E F^{\rm new}
+   =1-d+c\frac{n-1}{n}=1.
+   \]
+
+2. **The physical mark is preserved**
+   \[
+   F^{\rm new}_0=F_0=q.
+   \]
+
+3. **The bulk is clipped up to the restoration level**
+   \[
+   F^{\rm new}_i\le L+c,\qquad i\ne0.
+   \]
+   Thus clipping gives a deterministic cap, and any activation count above a level \(A>L+c\) is zero. More generally, before restoration,
+   \[
+   \#\{i\ne0:F_i>L\}
+   \le \frac{\sum_{i\ne0}F_i^2}{L^2}.
+   \]
+   Hence an \(O(T)\) bulk energy bound would imply an \(O(T/L^2)=o(T)\) deleted set whenever \(L\to\infty\). This is an activation statement, not yet a signed-terminal estimate.
+
+Now let
+\[
+\Xi
+=Z-\mathbf1-\frac{P_\sigma g}{2TM}
+=U_\sigma-\mathbf1-\frac{g-\mathbb Eg}{2TM},
+\]
+with the score projected in the \(\sigma\)-sector, so that
+\[
+\mathbb E\Xi=0,\qquad P_\sigma\Xi=\Xi.
+\]
+Writing
+\[
+r=P_\sigma(F-\mathbf1),
+\qquad
+r^{\rm new}=P_\sigma(F^{\rm new}-\mathbf1),
+\]
+self-adjointness gives
+\[
+\mathcal R_{F^{\rm new}}-\mathcal R_F
+=\mathbb E\bigl[(r^{\rm new}-r)\Xi\bigr]
+=-\mathbb E(D\Xi)-\frac{d}{n-1}\Xi_0. \tag{A}
+\]
+
+Indeed,
+\[
+r^{\rm new}-r=-P_\sigma D-cP_\sigma e_0,
+\]
+and, since \(\Xi\in V_\sigma\),
+\[
+\mathbb E[(P_\sigma D)\Xi]=\mathbb E(D\Xi),
+\]
+while
+\[
+\mathbb E[(P_\sigma e_0)\Xi]
+=\mathbb E(e_0\Xi)=\frac{\Xi_0}{n}.
+\]
+Because \(c=dn/(n-1)\), the second term is exactly
+\[
+-\frac{d}{n-1}\Xi_0.
+\]
+
+Therefore the proposed clipping preserves the signed criterion precisely when
+\[
+\boxed{\;
+\mathbb E(D\Xi)+\frac{d}{n-1}\Xi_0=o(1)
+\;} \tag{B}
+\]
+along the actual ordinary-prime family, with the stated order of limits. If \(d>0\), this is equivalently
+\[
+\frac{\mathbb E(D\Xi)}{d}
+=-\frac{\Xi_0}{n-1}+o(d^{-1}).
+\]
+Thus the deleted tail must have a very specific signed average. Mere smallness of \(d\), or a deterministic cap \(L=o(\sqrt T)\), does not imply (B).
+
+## What is established and what fails
+
+The exact residual identity (A) is established. It isolates the only two effects:
+
+- deletion of the true tail:
+  \[
+  -\mathbb E(D\Xi);
+  \]
+- bulk mean restoration:
+  \[
+  -\frac{d}{n-1}\Xi_0.
+  \]
+
+The restoration term is harmless if, for example,
+\[
+d\,|\Xi_0|=o(1).
+\]
+The unresolved term is the arithmetic correlation
+\[
+\mathbb E\bigl[(F-L)_+\Xi\bigr].
+\]
+
+The available norm estimate
+\[
+|\mathbb E(D\Xi)|
+\le \|D\|_{2,n}\|\Xi\|_{2,n}
+\]
+does not settle the problem. The known bound \(\|\Xi\|_2=O_\tau(\sqrt T)\) is too large, and clipping alone gives no prime-uniform estimate for \(\|D\|_2\) or for its sign correlation with \(\Xi\). In particular, \(D\) is selected by the values of the true optimizer \(F\), whereas \(\Xi\) is the terminal projected score; no independence, equidistribution, or monotonicity relation between them is currently proved for ordinary primes.
+
+The square family gives a control obstruction: the exact square optimizer forces a positive terminal tail consumption at growing marked times. This shows that a general field-uniform cancellation principle is false. It does **not** refute (B) specifically for ordinary primes, because no prime analogue of the square lower bound is presently available.
+
+## Conclusion
+
+The clipping proposal is **structurally viable but currently unsupported for ordinary primes**. It gives exact mass and mark preservation and reduces the terminal question to the sharp condition (B). The missing result is genuinely arithmetic:
+
+\[
+\mathbb E\bigl[(F-L)_+\Xi\bigr]
+\approx -\frac{\mathbb E(F-L)_+}{n-1}\,\Xi_0
+\]
+uniformly for the actual prime optimizer, with \(T=T(p)\) in the simultaneous window and \(L=o(\sqrt T)\).
+
+No such estimate follows from the existing energy, marked-cancellation, or \(L^2\) bounds.
+
+### Ranked next tests
+
+1. **Direct prime joint-tail test — highest priority.**  
+   For increasing eligible primes \(p\), compute the actual optimizer \(F\), the corresponding \(\Xi\), and several \(L=o(\sqrt T)\). Measure
+   \[
+   C_{p,T,L}
+   =\mathbb E[(F-L)_+\Xi]
+     +\frac{\mathbb E(F-L)_+}{n-1}\Xi_0.
+   \]
+   Test whether \(C_{p,T,L}=o(1)\), and separately whether its positive part is \(o(1)\). This directly tests the exact condition required by (A), without replacing the actual orbit or optimizer.
+
+2. **Prime-uniform tail localization — second priority.**  
+   Prove or numerically test a bound of one of the forms
+   \[
+   \mathbb E[(F-L)_+|\Xi|]=o(1),
+   \]
+   or the stronger conditional-tail estimate
+   \[
+   \left|\mathbb E(\Xi\mid F>L)\right|
+   \le o(1)+\frac{|\Xi_0|}{n-1}.
+   \]
+   The first would settle the residual by absolute control; the second would establish the required cancellation directly. A failure on an unbounded ordinary-prime subsequence would be evidence of forced signed-tail consumption, while square-only failure remains nondecisive.

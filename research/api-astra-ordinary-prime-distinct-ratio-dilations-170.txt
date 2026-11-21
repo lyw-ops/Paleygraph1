@@ -1,0 +1,258 @@
+## Verdict
+
+**Inconclusive.** The distinct-\(z\) target
+\[
+\mathcal E_{\neq}
+:=\sum_{s\neq 1}\sum_{t\in\mathbb F_p^\times}
+w(t)\sum_{\substack{z,z'\in Q\\z\neq z'}}
+M_z(s)M_{z'}(s)\,R_z(s,t)R_{z'}(s,t)
+\stackrel{?}{=}O(p^{5/2})
+\]
+is not obtained from the available row-norm bounds. Here \(p\) runs through the same ordinary-prime family, \(v\in\mathbb F_p^\times\) is the actual physical mark, \(Q=(\mathbb F_p^\times)^2\), \(g=|f|^2\) is the actual physical weight extended by zero, \(w=g(1-g)\), and
+\[
+M_z(s)=1_{\{\lambda_z(s)\in Q\}},
+\qquad
+\lambda_z(s)=\frac{1-z}{1-sz}.
+\]
+All sums are counting sums for each fixed \(p\), with the constants required uniformly as \(p\to\infty\).
+
+The exact same-\(z\) diagonal is at the target scale \(O(p^{5/2})\). The remaining distinct-\(z\) term has a valid general upper bound \(O(p^3)\), leaving precisely one factor \(p^{1/2}\) to recover.
+
+---
+
+## 1. Exact physical row
+
+For the \(\alpha\)-slot, retain the actual marked coordinates
+\[
+A=1-vx,\quad C=1-vux,\quad
+Y=1-vy,\quad D=1-vuy,
+\qquad
+s=\frac{DA}{CY}.
+\]
+Set
+\[
+z=\frac CD=\frac{A}{sY}.
+\]
+After paying the already identified \(x=0\), \(y=0\), and \(szY=1\) boundary terms, the row at fixed \(z\) is a nonnegative reciprocal-dilation correlation:
+\[
+R_z(s,t)
+=
+\sum_Y
+g(Y)g(tzY)\,g(D)g(zD),
+\]
+where \(D\) is determined by
+\[
+\frac{1-D}{D}
+=
+\lambda_z(s)\frac{1-Y}{Y}.
+\]
+The actual square condition is exactly
+\[
+u\in Q
+\iff
+\lambda_z(s)\in Q.
+\]
+Thus the physical kernel is, up to the priced boundary terms,
+\[
+H_\alpha(s,t)=\sum_{z\in Q}M_z(s)R_z(s,t).
+\]
+The reciprocal slot and the second slot in the same sign are obtained by the stated physical involutions; they only introduce an absolute constant factor. The two signs are squared separately in the positive criterion.
+
+Define
+\[
+G=\sum_x g(x)\ll p^{1/2},
+\qquad
+L_a=\sum_D g(D)g(aD).
+\]
+Then
+\[
+0\le L_a\le G,\qquad \sum_a L_a=G^2.
+\]
+
+---
+
+## 2. The same-\(z\) diagonal is proved
+
+For fixed \(t,z\), multiplicative Young gives
+\[
+\sum_s R_z(s,t)^2
+\ll L_{tz}^{\,2}L_z.
+\]
+The square mask only decreases this. Therefore
+\[
+\sum_z\sum_s M_z(s)R_z(s,t)^2
+\ll
+\sum_z L_{tz}^{\,2}L_z
+\le
+G^2\sum_zL_z
+=
+G^4.
+\]
+After the genuine outer weight,
+\[
+\sum_t w(t)\sum_z\sum_s M_z(s)R_z(s,t)^2
+\ll
+\Bigl(\sum_t w(t)\Bigr)G^4
+\ll G^5
+\ll p^{5/2}.
+\]
+This confirms the diagonal estimate in the twisted physical criterion.
+
+---
+
+## 3. What the distinct-\(z\) norm bound actually gives
+
+For the off-diagonal piece, Cauchy in \(s\) and then in \(z\) gives
+\[
+\begin{aligned}
+\sum_s\sum_{z\neq z'}M_z(s)M_{z'}(s)R_z(s,t)R_{z'}(s,t)
+&\le
+\left(\sum_z\Bigl(\sum_sR_z(s,t)^2\Bigr)^{1/2}\right)^2\\
+&\ll
+\left(\sum_z L_{tz}\sqrt{L_z}\right)^2.
+\end{aligned}
+\]
+Using \(L_{tz}\le G\), \(\sum_zL_{tz}=G^2\), and \(\sum_zL_z=G^2\),
+\[
+\left(\sum_z L_{tz}\sqrt{L_z}\right)^2
+\le
+\left(\sum_z L_{tz}\right)
+\left(\sum_z L_{tz}L_z\right)
+\le
+G^2\cdot G^3
+=
+G^5.
+\]
+Consequently the currently available bound is
+\[
+\mathcal E_{\neq}
+\ll
+\sum_t w(t)\,G^5
+\ll
+G^6
+\ll p^3.
+\]
+
+This is the exact quantitative gap: the target is \(G^5\asymp p^{5/2}\) in the ordinary scale, while the unconditional row-norm argument costs \(G^6\asymp p^3\).
+
+The actual \(w(t)=g(t)(1-g(t))\), rather than merely \(|w(t)|\le1\), has not yet been converted into the missing \(G^{-1}\) gain.
+
+---
+
+## 4. The two square masks do not by themselves give a power saving
+
+For \(z\neq z'\), put
+\[
+q=\frac1{\lambda_z(s)}.
+\]
+The common-slope relation is
+\[
+q'
+=
+\frac1{\lambda_{z'}(s)}
+=
+1+c_{z,z'}(q-1),
+\qquad
+c_{z,z'}
+=
+\frac{z'(1-z)}{z(1-z')}.
+\]
+For the genuine interior rows, \(c_{z,z'}\neq0,1\). The two square masks become
+\[
+1_Q(q)\,1_Q(q').
+\]
+
+Let \(\eta\) be the quadratic character. On nonzero arguments,
+\[
+1_Q(x)=\frac{1+\eta(x)}2.
+\]
+The relevant quadratic-character correlation is
+\[
+\sum_q \eta(q)\eta(1+c(q-1))=O(1)
+\qquad(c\neq0,1),
+\]
+a direct Jacobi/quadratic-polynomial calculation. Hence, after omitting only \(O(1)\) exceptional \(q\)-values,
+\[
+\#\{q:q\in Q,\ 1+c(q-1)\in Q\}
+=
+\frac p4+O(1).
+\]
+
+Thus the two masks have a strong **centered** correlation estimate, but their positive product retains a \(p/4\) main term. The relation \(c_{z,z'}\neq1\) therefore does **not** by itself produce a power saving for the positive collision. A true weighted estimate for the row profiles is required.
+
+---
+
+## Remaining gap
+
+The missing statement can be isolated in either of the following forms.
+
+### Unmasked sufficient estimate
+
+It would suffice to prove, for the actual \(g,w\),
+\[
+\boxed{
+\sum_t w(t)
+\left(\sum_z L_{tz}\sqrt{L_z}\right)^2
+\ll p^{5/2}.
+}
+\tag{A}
+\]
+This estimate discards both square masks, so it is stronger than needed but is a precise smaller arithmetic target. The presently available information only gives \(O(p^3)\).
+
+### Centered-mask estimate
+
+Alternatively, write
+\[
+1_Q(q)=\frac12+\rho(q),
+\qquad
+\rho(q)=1_Q(q)-\frac12.
+\]
+The \(1/4\) term is controlled by an unmasked estimate such as (A). The remaining terms require a weighted affine-Jacobi estimate for the actual row profiles
+\[
+K_{z,t}(q):=R_z(s(q),t).
+\]
+For \(q'=1+c_{z,z'}(q-1)\), one needs bounds at total scale \(O(p^{5/2})\) for the three quantities
+\[
+\sum_{t}w(t)\sum_{z\neq z'}
+\left|
+\sum_q \rho(q)K_{z,t}(q)K_{z',t}(q')
+\right|,
+\]
+\[
+\sum_{t}w(t)\sum_{z\neq z'}
+\left|
+\sum_q \rho(q')K_{z,t}(q)K_{z',t}(q')
+\right|,
+\]
+and
+\[
+\sum_{t}w(t)\sum_{z\neq z'}
+\left|
+\sum_q \rho(q)\rho(q')K_{z,t}(q)K_{z',t}(q')
+\right|.
+\]
+The unweighted Jacobi bound alone does not imply these weighted estimates.
+
+The zero-match \(4+4\) class remains separate and is not addressed here.
+
+---
+
+## Ranked next tests
+
+1. **First priority: test the weighted \(L_a\)-correlation estimate (A).**  
+   For the actual ordinary-prime family and actual \(g_p,w_p\), evaluate or prove
+   \[
+   \sum_t w_p(t)
+   \left(\sum_z L_{p,tz}\sqrt{L_{p,z}}\right)^2
+   \ll p^{5/2}.
+   \]
+   This is the shortest route to the target because it would bound the distinct-\(z\) term even after deleting both square masks. If it fails at scale \(p^3\), the proof must use genuine mask cancellation.
+
+2. **Second priority: prove a weighted centered affine-Jacobi estimate.**  
+   Keep
+   \[
+   q' =1+c_{z,z'}(q-1)
+   \]
+   and test whether the actual reciprocal-dilation profiles \(K_{z,t}\) have enough multiplicative Fourier dispersion for the centered expressions above to be \(O(p^{5/2})\). The finite-field mask identity gives \(O(1)\) only for constant weights; the decisive issue is whether the actual \(g(Y)g(tzY)g(D)g(zD)\) profiles are sufficiently nonconcentrated.
+
+No finite computation, nor failure of (A) for an artificial \(g\), would settle the original asymptotic question unless \(g\) is the actual \(g_p=|f_p|^2\) from the specified physical family.

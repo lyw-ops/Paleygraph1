@@ -1,0 +1,145 @@
+## Result
+
+The exact support theorem is valid, but it does **not** yield the requested quantitative upper for the original first-spill optimal face.
+
+Fix an eligible ordinary prime \(p\), \(n=(p-1)/2\), an admissible marked time \(T\) with both physical roots \(T,T+1\) in the simultaneous marked window, and delete both roots and the diagonal from the first-spill kernel. For the original first spill, the primal true optimum lies in \(U_{-\sigma}\), while the complementary face and its dual rows lie in \(U_\sigma\). All expectations and norms below are normalized by \(n\).
+
+Let \(\mathcal F\subset U_{-\sigma}\) and \(\mathcal R\subset U_\sigma\) be the two true ordinary optimal faces, with
+\[
+F_0=q,\qquad R_0=n/q,\qquad \mathbb EF=\mathbb ER=1.
+\]
+Define
+\[
+I=\{i\ne0:R_i=0\text{ for every }R\in\mathcal R\}.
+\]
+Then the exact equality is
+\[
+I=\bigcup_{F\in\mathcal F}\{i\ne0:F_i>0\}. \tag{1}
+\]
+
+For the signed first-spill cost
+\[
+w=-\sigma\,1_S K^\circ d_{\rm mid},\qquad
+S=\{i\in I:b_i^{(0)}\ge b_*\},
+\]
+with the low and high \(d\)-tails removed and \(w_0=0\), the exact secondary dual is
+\[
+L(w)=
+\max\left\{
+\mathbb EZ-\frac qn Z_0:
+Z\in U_\sigma,\ Z_i\le w_i\ (i\in I)
+\right\}, \tag{2}
+\]
+where
+\[
+L(w)=\min_{F\in\mathcal F}\mathbb E(Fw).
+\]
+
+The support identity also gives the recession formula. If \(H\in U_\sigma\) satisfies \(H_i\le0\) on \(I\), choose one true \(F^\circ\in\mathcal F\) positive on every site of \(I\). Then
+\[
+\mathbb EH-\frac qnH_0
+ =\frac1n\sum_{i\in I}F_i^\circ H_i\le0. \tag{3}
+\]
+Thus a positive-objective recession direction is impossible. Equality in (3) occurs precisely when \(H_i=0\) on the support of \(F^\circ\), hence on \(I\) if \(F^\circ\) is positive there.
+
+These are checked finite-dimensional statements for each fixed \(p,T\).
+
+## Why this does not become quantitative
+
+The proof of (1) is nonuniform in \(p\). For a coordinate \(j\in I\), it perturbs the primary objective by some \(\epsilon_{p,j}>0\) and uses the finite vertex gap of the relevant ordinary polytope. The argument only proves
+\[
+\epsilon_{p,j}>0,
+\]
+not a lower bound uniform over the ordinary-prime family.
+
+Consequently, the resulting complementary optimizer only gives
+\[
+R_j\ge \frac nq\,\epsilon_{p,j},
+\]
+and the averaged optimizer \(F^\circ\) may satisfy
+\[
+\min_{i\in I}F_i^\circ=\kappa_{p,T}\downarrow0
+\]
+along an admissible sequence of primes and marked times. Nothing in the support argument prevents this.
+
+A simple polyhedral model already exhibits the obstruction: a family of optimal faces can have positive support at every coordinate while the mass at one supported coordinate is \(\varepsilon_p\to0\). The exact support equality remains true, and the recession objective remains nonpositive, but neither supplies a uniform weighted estimate. Thus support equality is qualitative rather than a quantitative conditioning statement.
+
+The same issue appears in the dual. Equation (3) rules out positive recession, but it gives no uniform bound on a dual maximizing sequence modulo the zero-objective recession cone. A small objective perturbation can expose a supported coordinate for each fixed \(p\), while the exposing parameter and the resulting coordinate mass both collapse with \(p\).
+
+The signed first-spill estimates do not repair this gap. With fixed \(b_*>0\), the earlier estimates give, uniformly for true \(F\),
+\[
+\mathbb E(Fw)\ge g-b_*-o(1),
+\]
+where \(g\) is the fixed hypothetical gap. They also give
+\[
+\sup_{F\in\mathcal F}
+\mathbb E\bigl(F(w_+-w)\bigr)
+=
+O_\tau\!\left(
+T^{-1/12}+T^{-1/6}+n^{-1/2}T^{-2/3}
+\right),
+\]
+after retaining the transported weights and deleting both roots and the diagonal. These are lower and comparison estimates, not the required upper on \(L(w)\) or on the dual value in (2).
+
+In particular:
+
+- \(S\subset I\) is a true support-conditioned receiver set.
+- The fixed floor \(b_*\) gives favorable signed mass on \(S\), but not a uniform lower bound for the primal weights \(F_i\) on \(S\).
+- Small weighted tails do not imply pointwise positivity of \(w\).
+- Zero remains dual-feasible, so the dual has no positive recession escape, but this only gives a nonnegative baseline for the signed minimization and does not produce an \(o(1)\) upper.
+- No late-\(b\) transfer is used.
+
+The relevant asymptotic regime remains: choose \(T=T(p)\to\infty\) with \(T,T+1\) admissible for each eligible prime, keep \(b_*>0\) fixed below the gap-dependent threshold, and then let \(p\to\infty\). The support argument supplies no estimate uniform in this prime family. Taking \(b_*\to0\) after the \(p\)-limit, or transferring weight to a later spill, would be a different argument and is not available here.
+
+## Precise remaining gap
+
+To obtain the desired quantitative upper, one needs at least one genuinely uniform statement of one of the following forms.
+
+1. **Quantitative primal accessibility.** Construct \(F_p\in\mathcal F\) such that
+   \[
+   \mathbb E(F_p w)=o(1)
+   \]
+   uniformly along the actual admissible family \(p\to\infty\), while retaining the original transported weights and the root/diagonal deletions.
+
+2. **Quantitative dual certificate.** Construct \(Z_p\in U_\sigma\) with
+   \[
+   Z_{p,i}\le w_i\quad(i\in I),
+   \qquad
+   \mathbb EZ_p-\frac qn(Z_p)_0=o(1),
+   \]
+   together with a uniform normalization preventing escape along the zero-objective recession cone.
+
+3. **Uniform face conditioning.** Prove a lower bound, for example
+   \[
+   \inf_{p}\min_{i\in S}(F_p)_i\ge \kappa>0
+   \]
+   for a suitable selected \(F_p\), plus a uniform bound on the normalized dual quotient. The present support theorem proves neither condition.
+
+Without such an additional estimate, the proposed mission is inconclusive rather than supported: the exact relative-interior support description identifies the correct receiver set and excludes positive recession, but it does not quantitatively control the original first-spill optimal face.
+
+## Ranked next tests
+
+### 1. Quantitative face-conditioning test
+
+For the actual ordinary prime family and admissible \(T=T(p)\), define
+\[
+\kappa_{p,T}
+=
+\max_{F\in\mathcal F}
+\min_{i\in S}F_i.
+\]
+Test whether \(\kappa_{p,T}\) has a positive lower bound depending only on the fixed window parameters and \(b_*\), not on \(p\) or \(T\). If this fails, record an explicit sequence with \(\kappa_{p,T}\to0\); that would precisely refute the support-to-quantitative route.
+
+This is the highest-priority test because it targets the exact missing implication in the support proof.
+
+### 2. Normalized restricted-dual certificate test
+
+Solve or estimate the dual in (2) after imposing a normalization transverse to
+\[
+\{H\in U_\sigma:H_i=0\text{ on }I\}.
+\]
+Seek an explicit \(Z_p\) satisfying the inequalities on the true \(I\), with both roots and the diagonal already removed from \(w\), and test whether
+\[
+\mathbb EZ_p-\frac qn(Z_p)_0=o(1)
+\]
+holds uniformly for \(p\to\infty\), \(T=T(p)\to\infty\). A bounded finite-prime computation would only be diagnostic; the decisive result would be either a uniform analytic bound or an explicit diverging normalized dual sequence.

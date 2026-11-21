@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "round": 154,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 154 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-153-acceptance.json",
+      "sha256": "9e89fecce300c3eeaf8f1c823f16ec50781cb7ee5045192e3eca342c3cb6fe23"
+    },
+    "current": {
+      "path": "research/round-154-acceptance.json",
+      "sha256": "9c8f669fb938dbf0899d1763faa2fd65eb89043c7b68d6dfb540f9092a0e59d7"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "Both complete regular Jacobi averages and the true deficit-weighted upper were open.",
+      "after": "The canonical regular lifts agree to o(p^-1/2). The exact Gauss graph returns the centered moment. On the actual selected near-critical block, the diagonal and entire wrong Legendre sector cost O(p).",
+      "remaining": "Prove the signed favorable off-diagonal upper O(p) under the same true weights. Separately the original high first-spill optimum lacks a prime upper.",
+      "evidence": [
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "new_obstruction",
+      "before": "The signed two-height difference versus B3 squared lacked a clear actual pair of omitted coefficients.",
+      "after": "Two true repeated omitted-field pairs on C1 are constructive on the real slice. An outward square replay prices their merged canonical slice below .014 and bounds its relative cancellation by 1.25e-11.",
+      "remaining": "Find an opposing actual center or residual with a complete common label, price the entire translated signed difference, then prove the contraction, invariant ball and half-step transfer.",
+      "evidence": [
+        {
+          "path": "research/cold-other-center-matched-154.md",
+          "sha256": "d72e53ec9c42fc92c019618bba335cab8e3c06d25e1bbe44b9bb1401b6afa0e2"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        },
+        {
+          "path": "research/cold-higher-legendre-step-148.md",
+          "sha256": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The actual wrong Legendre sector is disposed of on the short selected critical block. The two cold omitted-label merges are constructive and further positive repricing of those merges has no leverage.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-favorable-crossratio",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the favorable-sign off-diagonal of the actual weighted Möbius cross-ratio moment be bounded above by O(p)?",
+      "why_now": "The actual pinned short block and Legendre splitting remove the opposite sign and diagonal at O(p). A positive contribution of superlinear size must now come from this one sign.",
+      "scope": "Use true ordinary primes, actual retargeted b with m_eff~n/sqrt(p), true anchor law, quantitative pin and actual f including its phase. Retain the same u,x,y summation and favorable sign. Track any restriction or excluded tuples at the O(p) scale.",
+      "if_yes": "Prove an O(p) signed upper with an explicit prime-only ingredient or another incompatible bound on this same actual branch.",
+      "if_no": "Prove an obstruction for a named incidence or weighted trace estimate and give its exact relaxed assumptions.",
+      "if_inconclusive": "Isolate a strict subfamily of sign configurations at an unconditional O(p) cost and give the new residual estimate.",
+      "inputs": [
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        }
+      ]
+    },
+    {
+      "id": "cold-actual-opposing-residual-signature",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "Does a genuine higher fixed-center harmonic or true Picard coefficient oppose a checked omitted packet on the real cold slice?",
+      "why_now": "Two actual omitted pairs reinforce on the real slice. A distinct opposing coefficient or an alternative signed confinement is needed.",
+      "scope": "Keep actual heights 601 and 602 with common floor and physical t0=n, both lifts, full signed arithmetic label and true coefficient, not its positive envelope. Begin with C1 and state whether a translated bound is proved.",
+      "if_yes": "Certify an opposing overlap with strict outward signed gain on the square, or close a larger translated block with all omitted terms accounted for.",
+      "if_no": "Identify the complete labels or signs that prevent a gain for a specific nontrivial true Picard or higher harmonic.",
+      "if_inconclusive": "Compute one actual candidate field coefficient and its precise error and complementary pricing obligations.",
+      "inputs": [
+        {
+          "path": "research/cold-other-center-matched-154.md",
+          "sha256": "d72e53ec9c42fc92c019618bba335cab8e3c06d25e1bbe44b9bb1401b6afa0e2"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        },
+        {
+          "path": "research/cold-higher-legendre-step-148.md",
+          "sha256": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/astra-joint-65.md",
+          "sha256": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-original-face-dual",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Can one bound a nontrivial component of the original first-spill secondary dual using ordinary prime structure of the actual common zero set?",
+      "why_now": "The late retargeted moment has no transfer to this earlier optimum. The true signed face minimum gives an independent route.",
+      "scope": "Preserve original signed middle source, opposite optimum sign, roots and diagonal deleted, full high receiver and actual common complementary zero set at an admissible growing marked T.",
+      "if_yes": "Control the secondary dual by o(1), or prove a genuine face-selection move with such cost and feasible optimum.",
+      "if_no": "Exhibit a rigorous obstruction for the exact dual decomposition or proposed face regularization.",
+      "if_inconclusive": "Bound a specific source/receiver slice with a summable error, or derive a tighter exact support restriction in the correct true face.",
+      "inputs": [
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/api-astra-review-154.md",
+          "sha256": "90f7456817bf02eb18ebbfcfaaee78e28cb9c22dd0791047d482bc412da4ac81"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 155 deductions survive independent review?",
+      "why_now": "The favorable-sign estimate, early optimizer and genuine cold coefficients have different sources and scope.",
+      "scope": "Read-only on the actual checkpoints. Keep all hypotheses, marked floors, physical lift and order of limits.",
+      "if_yes": "State verified scope and rank two next steps.",
+      "if_no": "Identify the first invalid step.",
+      "if_inconclusive": "Separate verified pieces and missing estimates.",
+      "inputs": [
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-pinned-reflection-flow-148.md",
+          "sha256": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce"
+        },
+        {
+          "path": "research/cold-other-center-matched-154.md",
+          "sha256": "d72e53ec9c42fc92c019618bba335cab8e3c06d25e1bbe44b9bb1401b6afa0e2"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        },
+        {
+          "path": "research/cold-higher-legendre-step-148.md",
+          "sha256": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

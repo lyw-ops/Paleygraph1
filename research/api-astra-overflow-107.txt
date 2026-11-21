@@ -1,0 +1,135 @@
+### Checked consequence: the actual overflow has an exact stationary-factor bridge, but no arithmetic gap follows
+
+Assume the hypotheses of the cited real-cap comparison: fixed \(t,M>0\), \(n=(p-1)/2\to\infty\), \(\alpha\le Bn^{-1/2}\), and \(|\gamma|\ge\delta\). Let \(S=S_*\) be the localized aligned overflow set, let \(\epsilon\in\{\pm1\}\) be its common sign, and put
+\[
+q:=\epsilon\tau\,1_S\ge0,\qquad y:=\epsilon Y\quad\text{on }S.
+\]
+Thus \(q\le L\), \(y\ge\lambda\sqrt n\), and
+\[
+\mathbb E_n q\le \mathbb E_n|\tau|
+ \le \frac{\alpha}{2A}\le \frac{B}{2A\sqrt n},
+\qquad
+\mathbb E_n(qy)\ge c_0,
+\]
+where \(c_0=3(\cosh\delta-1)/8\) may be used after the localization in the reference.
+
+Let
+\[
+f=f_\epsilon:=\frac{b+\epsilon Y}{2},\qquad \nu=\mathbb E_n b.
+\]
+The exact reciprocal stationary equations give
+\[
+Kf=\epsilon\left(f-\frac{\nu}{2}\mathbf1\right).
+\]
+Since \(y=\epsilon Y>0\) on \(S\), \(f=(b+y)/2\) there. Consequently,
+\[
+\boxed{\;
+\epsilon\langle Kq,f\rangle_{2,n}
+=\langle q,y\rangle_{2,n}
+-\left\langle q,\frac{\nu-(b-y)}2\right\rangle_{2,n}.
+\;}
+\tag{A}
+\]
+On \(S\),
+\[
+0\le b-y=\sqrt{Y^2+4t}-|Y|\le 2\sqrt t.
+\]
+Therefore, eventually (for \(n>t\)),
+\[
+\frac{\nu-2\sqrt t}{2}\,\mathbb E_nq
+\le
+\langle q,y\rangle_{2,n}
+-\epsilon\langle Kq,f\rangle_{2,n}
+\le
+\frac{\nu}{2}\,\mathbb E_nq,
+\]
+and hence
+\[
+\boxed{\;
+\left|
+\epsilon\langle Kq,f\rangle_{2,n}
+-\langle q,y\rangle_{2,n}
+\right|
+\le \frac{\nu B}{4A\sqrt n}.
+\;}
+\tag{B}
+\]
+In particular,
+\[
+\epsilon\langle Kq,f\rangle_{2,n}\ge c_0-O_{t,M,B}(n^{-1/2}).
+\]
+Thus the actual aligned overflow is not merely a prescribed sparse vector: it has asymptotically the same positive pairing with the exact stationary factor \(f\) as with the true source \(y\).
+
+### Exact cap identity on the localized overflow
+
+The capped equation gives \(KU=a-\mu\mathbf1\). On \(S\), the enlarged-threshold relation is
+\[
+U=\epsilon(A+q),\qquad a=A,\qquad A=\sqrt{M^2+4t},
+\]
+up to the excluded marked coordinate. Since \(KU=a-\mu\mathbf1\) is an exact global identity, it can be paired with the localized \(q\) without any error:
+\[
+\epsilon\langle Kq,U\rangle_{2,n}
+=\langle q,a-\mu\rangle_{2,n}
+=(A-\mu)\mathbb E_nq.
+\]
+Splitting \(U\) over \(S\) and \(S^c\) gives
+\[
+\boxed{\;
+\langle Kq,(A+q)1_S\rangle_{2,n}
+=
+(A-\mu)\mathbb E_nq
+-\epsilon\langle Kq,U1_{S^c}\rangle_{2,n}.
+\;}
+\tag{C}
+\]
+This is the requested combination of the cap equation with the actual aligned overflow. It identifies the precise missing term: the exterior transport
+\[
+\mathcal R_S:=\epsilon\langle Kq,U1_{S^c}\rangle_{2,n}.
+\]
+
+The available cap-rate assumptions do not make \(\mathcal R_S=o(1)\). Indeed,
+\[
+|\mathcal R_S|
+\le \|Kq\|_{2,n}\,\|U1_{S^c}\|_{2,n}
+\le \sqrt{\mathbb E_nq^2}\,\|U1_{S^c}\|_{2,n}
+\le \sqrt B\,n^{-1/4}\|U1_{S^c}\|_{2,n}.
+\]
+Even the natural bound \(\|U1_{S^c}\|_{2,n}=O(n^{1/4})\) only gives \(O(1)\), not a vanishing error. Thus (C) cannot presently be converted into a positive restricted Rayleigh gap.
+
+### Why this does not prove a prime-specific gap
+
+For the one-sign high-source test \(h=g1_{H_\epsilon}\), the prior estimate gives only
+\[
+\frac{\epsilon\langle h,Kh\rangle_{2,n}}{\|h\|_{2,n}^2}
+\ge 1-C'\eta-o(1).
+\]
+Identity (A) shows that the aligned actual overflow reinforces the same near-unit stationary direction; it does not force a loss. In fact, any proposed prime-specific estimate of the form
+\[
+\epsilon\langle Kq,f\rangle_{2,n}
+\le \langle q,y\rangle_{2,n}-\rho_\eta
+\]
+with fixed \(\rho_\eta>0\) is impossible: (B) contradicts it for all sufficiently large primes.
+
+The prescribed weighted critical-set counterexamples remain relevant here: support size \(O(\sqrt n)\), bounded peak, and one-sign alignment alone do not yield a uniform arithmetic gap. The reciprocal factor \(f\) supplies the additional exact equation, but (A) shows that this equation is compatible with saturation rather than exclusion. The genuinely missing nonlinear/arithmetic condition is a bound such as
+\[
+|\mathcal R_S|=o(1)
+\quad\text{or a direct positive lower bound for}\quad
+\|h\|_{2,n}^2-\epsilon\langle h,Kh\rangle_{2,n}
+\]
+on the *actual* sign class \(H_\epsilon\), not on arbitrary prescribed weighted sets.
+
+### Status and next tests
+
+**Status: inconclusive, with a quantified failed mechanism.** The actual stationary factor yields the new exact bridge (A)–(C), but it does not produce a gap beyond \(C\eta\). The separate critical cap rate \(\alpha=O(n^{-1/2})\) remains required; these identities do not generate it.
+
+1. **Highest-priority test:** prove an exterior-transport estimate
+   \[
+   \langle Kq,U1_{S^c}\rangle_{2,n}=o(1)
+   \]
+   or a signed substitute exploiting the actual complementarity of \(U\). This would turn (C) into a genuine restricted estimate.
+
+2. **Independent arithmetic test:** establish a prime-specific gap directly for
+   \[
+   h=g1_{H_\epsilon},\qquad |H_\epsilon|\le B_0\sqrt n/\eta,
+   \]
+   using both \(h-f_\epsilon\) and the stationary sign constraint. A bound based only on support, \(\ell^\infty\), or a prescribed weighted rectangle is insufficient.

@@ -1,0 +1,172 @@
+{
+  "round": 96,
+  "accepted_at_utc": "2026-11-19T10:06:26Z",
+  "previous": "research/round-95-acceptance.json",
+  "previous_sha256": "6bc7c810c23c843adbb56e6f9da368eb769b8ef5cb2f06278806d5b821443f5b",
+  "proof_and_code_sha256": {
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/shifted-resolvent-96-check.py": "ee8bf4098208b88b9f4c86cd2c07738d71032a0a5d462de583e365d4c79ef84f",
+    "research/shifted-resolvent-96-checks.jsonl": "6235a26fed8186892aa26922ee4d1b564d771ff19f6d137800d5a919152847f2",
+    "research/astra-paired-96.md": "424eb4c8edc27ba5a4ac41080519eaa66e579dac278b5fd0bc77af2358bece0e",
+    "research/astra-paired-96-check.py": "1fade1e82039862e8e302bbb71aeb8674bfec97a3d533b61dd73d7a751f5128f",
+    "research/astra-paired-96-checks.jsonl": "cd7a7528ef7ced4eb21be5dff601f9514bb61d958de5381486357724da2bf769",
+    "research/astra-count-96.md": "14c8531047e2453f19a8546ac4bc2732fb5bfebc757a12095cd641d4ca93fdcd",
+    "research/astra-count-96-check.py": "d6b7fe6b3fa1e2e1b437b2488f7e764ef37219dd199e982fdb919204f657d9e1",
+    "research/astra-count-96-checks.jsonl": "dd5c16ad4d82a53b374785effa8726a47d440ca1086c78f37779808b990bdf0d",
+    "research/astra-fiber-96.md": "0ddd495c6abb4abf3914a796753c21d6bb37d331a9452829d1aa487c86ef28e7",
+    "research/astra-fiber-96-check.py": "5adaf582f11a6ab6ae3dd1d6b4ff109e66bcfe184a4be3ea28f23e1993a717cb",
+    "research/astra-fiber-96-checks.jsonl": "5c1c2c0204c47b7e131ee0781a80077edbda6d047f7c7281539117440a168aa9",
+    "research/astra-paired-96-caps.json": "549deae71c6af1493ee95126fa063928e3437fbf75ea8904e4e888102fab44f6"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/astra-adjoint-82-checks.jsonl": "8a02bd8d5f43241e43344e8b83a6a17ae88874c4ed81e20e29335c03750af7b4",
+    "research/astra-depth-95-check.py": "22cf35f7349cfbbc716f2c3d93fa772471f9ac21e889e12357374137e47dcc4c",
+    "research/astra-recur-95-check.py": "e61efbc6a079641348661c051e1e07d4905434bc97cc42f6532b630e04167a55",
+    "research/astra-velocity-92-check.py": "e4c7558ec60c897777c666d9da096650a28361517e2e4f3b4065c263c9dbbc3c"
+  },
+  "additional_replay_dependency_sha256": {
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-depth-95-caps.json": "9b1585e431e383af149c78f5cdae461cb983913c2033aeb02eee58abf0fee1ae",
+    "research/astra-direction-83-caps.json": "e99f0b9842ef9afcb4ab791f2464aed52ba1397fddbee3ee760cff4516e254b6",
+    "research/astra-direction-83-invariant.py": "a92c1d8f3251bbe33cb6a71d32824e23f069ec7f155fcd6b6c518669795d091d",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-imaginary-84-caps.json": "0e7c981df462550c8283b939f72d5a1cf274be562e7aaef22bc65c7985768a44",
+    "research/astra-imaginary-84-check.py": "c89b732a65097673feef817926e9d5913fa914d01188946cdadc7ce462530b7e",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/astra-source-88.md": "80b4849d9f4e43c9a732af10731e6f1c38f895f0c726ad8df4420e591d746f88",
+    "research/astra-feedback-52.md": "3aa39ec60c3a7868f9ec062ced2c08474260f8493f0e846ac109d56582f33e4e",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/marked-domain-53.md": "6066230b99e4b009fe5b50857735b2d42356cb467a52492b35b99cf08891ffb0",
+    "research/astra-predictor-76.md": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef",
+    "research/response-locality.md": "c27dc4800790abee43b4933c83f808fd7ad975a0167c2f86baa363eb6b783428",
+    "research/marked-response.md": "5c9f8989e3e9b1ef1bce6e3b2b32cd224639289a463bf688b37b1405304765f7",
+    "research/astra-depth-95.md": "7afa02763663c1b1bb14a4bbbd810e356e8f4e6eaed7714e7dd4a8d0cc0a4dd4",
+    "research/astra-imaginary-84.md": "ccc164a42fbcdd40aee3b87d96c82dc5889b939f58d9ac44f5e385de9d2b93a4",
+    "research/astra-ranknext-58.md": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/threshold-repair-19.md": "844664a8c98035f874f23d314afffb81ec1c0fa8b8e84d8fa424dc4c220c0b18",
+    "research/astra-mixed-81.md": "a2af1a9deb405d18930824f3d014727b8459f6063db3e36021756dcdfa401465",
+    "research/astra-direction-83.md": "241d871d9b6c767177f7301bdc85b8b370b0cbafd80dcb23b1b91dcd43a3d62d",
+    "research/astra-tie-95.md": "b29150a773883ceed9e07e1b345e2054e9b16415d35ed04878e19a5da5a3fc18",
+    "research/real-phase-projection-89.md": "fabe652d3d6a401ab22d17ea09e5ee5fdfe2b0defd4d2c059aed6ef388c45612",
+    "research/astra-velocity-92.md": "f1b94d7a571e92fb54387fd2e09af16ff45610a516b257b8858f462db04b0fa7",
+    "research/astra-recur-95.md": "eca2076672cd9850740eaea81b1e42fb4718d5ee092f5cced082d184ec847d9b",
+    "research/astra-quotient-94.md": "d74538d6545394d9b59dc6cb10149590ac659555171149037fea7d00961a7861",
+    "research/timed-pinning-69.md": "607268ac1219cae13d1008fa549d6022d2d32cf4b0749037221ae90cfa7aa0a0",
+    "research/terminal-height-79.md": "cce1001c879a8cb511c72da904c1f3a46a49b590c1cddb8f120c26d7e15b5e36"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "primary_sources": [
+    {
+      "url": "https://web.math.princeton.edu/~nmk/mellin331.pdf",
+      "use": "Katz's fiber theorem, especially Theorem 16.1, for the translated Kummer character pairs and their weight ranks"
+    }
+  ],
+  "research_agents": [
+    {
+      "name": "/root/paired_96",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the true incoming increment projection onto the slow right singular spaces of the selected actual disjoint real pairs.",
+        "Control the actual imaginary displacement on those slow coordinate sets while attempting to reach the nominated complex square."
+      ]
+    },
+    {
+      "name": "/root/count_96",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the signed singleton exterior using the exact first-boundary midpoint identity X_i^2=3(1-w_i).",
+        "If a few true amplitudes dominate, erase them along with the observed block and bound the remaining counting exterior source."
+      ]
+    },
+    {
+      "name": "/root/fiber_96",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Estimate the smaller positional sign sum on the same eroded genuine prefix, alongside the complementary temporal minority occupation.",
+        "Seek a subexponential upper on the true prefix-averaged exterior transforms to exclude the exponential alternative."
+      ]
+    },
+    {
+      "name": "/root/audit_96",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use the all-source height-100 resolvent against the signed first-boundary exterior or its fifteen-erased true counting source.",
+        "Estimate the actual real incoming increments' energy in the paired slow right singular spaces."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Test the signed singleton exterior on the floor-determined first comparison activation using the exact midpoint X_i^2=3(1-w_i) and the all-source height-100 estimates. The stripped signed threshold eventually exceeds 7.648e-5, even allowing a separate trimmed counting test.",
+    "Bound the actual increment alignment in selected slow real paired spaces, and seek an analytic continuation step bridging the remaining 2260/2^20 gap to the nominated square.",
+    "Estimate the true signed positional prefix on the bounded critical family, with the complement temporal minority debit, and separately rule out the exponential exterior branch using a subexponential true bound."
+  ],
+  "core_records": 11,
+  "arithmetic_record_counts": {
+    "translated_resolvent_bounds_arb192": 1,
+    "paired_spectral_constants_and_unforced_rectangle_arb192": 6,
+    "actual_first_threshold_forcing_arb256": 3,
+    "true_recurrent_signed_prefix_arb384": 1
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main replays all four frozen checker files under pipefail with PYTHONPATH=., .venv/bin/python -B and compares the 11 saved records byte-for-byte. The independent Astra likewise replayed all four routes and the updated count certification.",
+    "One Arb192 comparison checks the inherited packet rates at 100, 250 and 600, triangular extension margins, interpolated exponent, and the combined counting lower constant.",
+    "The paired checker has one arithmetic record for the true stationary and secant tail constants, four overlapping unforced slab records including the physical coordinate cap, and one comparison of the same frozen coldest cap with the four new unit returns omitted.",
+    "The count checker certifies the genuine arithmetic first-boundary constants, the explicit 15 and 38 additional erasures, and the eventual sharper 83-erasure test with the all-source estimate. Two separate p=173 interval records test the response identity with an exact real stationary reference and with a bare seed at the tailored smaller threshold.",
+    "The Arb384 prefix record certifies the physical p=769 two-site mask, genuine prefix response, signed decomposition, and exact positional sign-fiber cancellation."
+  ],
+  "proof_scope": [
+    "The actual derivative of the fixed cold predictor admits a triangular two-pair Mellin bound for every translated source coordinate. This gives full transported inverse entries O(n^-1/2) at heights 100 and 250 and O(n^-0.467) at height 600, uniformly on the nominated complex square through sufficiently large eligible primes. At height 100 the limiting scaled maximal entry is below 178. Arbitrary bounded diagonal perturbations are harmless on sufficiently small supports of the stated sizes within this fixed linear model.",
+    "A true first activation of the round-95 near-flat comparison has unit bulk products and exact midpoint weights 1-X_i^2/3. Its exterior signed transfer relative to the actual height-100 real predictor is forced at a singleton and on larger erased blocks. The independent bound for n>=10^30 and the stronger eventual all-source bound retain their respective thresholds. The comparison first activation can precede the actual physical tie.",
+    "The actual stationary real two-step derivative has a prime-uniform normalized singular-tail bound as stated, and a weaker density result holds for arbitrarily many true consecutive real secant pairs. Four new signed quadratic unit collections yield a genuine unforced open rectangle with stable all-height normalized residual and a 17/2^20 cold advance.",
+    "Recurrent true good-terminal mask visits force an exponential branch with large genuine exterior transform or a signed order-J correlation for one common true prefix. Removing both critical cosets from the input leaves the actual complement minority occupation. On that one eroded prefix a fiberwise cancellation identity permits retaining the smaller signed positional sum. None of these alternatives is claimed absent."
+  ],
+  "independent_review": [
+    "Independent Astra checked Katz's weight identity, closure of the two boundary pairs, the added zero allowance, exact exceptional coordinates, and arbitrary-source resolvent interpolation.",
+    "Independent review checked the first-boundary Hellinger/response estimates and all-source improvement, including the eventual threshold for the extra 83 erasures.",
+    "Independent review checked the fresh quadratic unit debits against the inherited scalar pools and older root subtractions, the real paired min-max calculations and the genuine open-domain overlap.",
+    "Independent review checked the recurrent same-site growth selection, the signed adjoint test and eroded positional fibers with the identity-fiber error."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The all-source estimate controls small arbitrary perturbation sets in the known predictor diagonal. The actual difference from the stationary row has not been put in that regime.",
+    "No upper on the real first-boundary external signed sum or on its trimmed counting norm has been proved. Small normalized half-log error does not contradict these count thresholds at unbounded primes.",
+    "The true paired slow space can still carry the full actual incoming increment. The added real dimension bound and the nearby unforced rectangle do not close the nominated complex square.",
+    "The exponential genuine prefix exterior branch, the complement temporal minority term and the signed positional fiber bound remain unresolved. The escaped real branch is still open."
+  ]
+}

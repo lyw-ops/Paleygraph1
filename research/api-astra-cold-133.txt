@@ -1,0 +1,101 @@
+## Result: a genuine \(L^2\) contraction, but no packet-price contraction from the available signed sums
+
+Let
+\[
+B=K D_{602}K D_{601}\big|_X,\qquad X=\{f:f(1)=0\},
+\]
+with both derivatives fully marked and evaluated on the genuine cold rows. The existing sheet bounds give, uniformly on \(Q\),
+\[
+\|K D_{601}\|_{2\to2}<0.5145,\qquad
+\|K D_{602}\|_{2\to2}<0.517.
+\]
+Therefore the actual signed block satisfies the checked directional estimate
+\[
+\boxed{\ \|Bg\|_{2,n}<0.2663\,\|g\|_{2,n}\qquad(g\in X).\ }
+\tag{A}
+\]
+This applies in particular to the actual residual \(g=V_{601}-V_{600}\), and to every physical packet direction after normalization. It is a contraction on the physical mean-zero Hilbert space, not merely on a positive comparison.
+
+The marked-coordinate corrections do not alter (A): they are the two rank-one terms and their product arising from the two marked derivatives, and they are already included in the quoted fully marked derivative bounds. On \(X\), their position-side \(J_0\)-components are annihilated by the defining mean-zero condition, while the remaining mixed terms are included in the same operator estimate.
+
+### Why this does not yet produce a physical packet price
+
+The signed position estimate proved previously is
+\[
+\max_{x,z\ne1}|B_{xz}|=O(n^{-1/2}).
+\tag{B}
+\]
+If \(g\) is a normalized physical packet direction, its position transform generally has
+\[
+|g_z|\asymp n^{-1/2},\qquad \|g\|_1\asymp \sqrt n.
+\]
+Consequently (B) only gives
+\[
+|(Bg)_x|
+ \le \sum_z O(n^{-1/2})\,|g_z|
+ =O(1),
+\]
+which is not a contraction in coordinate size and does not preserve the packet ball.
+
+More importantly, summing the source variable first does not automatically gain another factor \(n^{-1/2}\). This can already be seen in the seed–seed term. In the position model from (1),
+\[
+(B_{\rm seed})_{xz}
+ =\frac{s(x)}{nt}
+ \sum_y\chi((1-y)(y-x)(z-y)).
+\]
+For a multiplicative packet character \(\rho(z)\), normalized by \(n^{-1/2}\), source summation gives
+\[
+(B_{\rm seed}\rho)_x
+ =\frac{s(x)}{nt\sqrt n}
+ \sum_y \chi((1-y)(y-x))
+       \sum_z\chi(z-y)\rho(z).
+\tag{C}
+\]
+For nonexceptional \(\rho\), the inner \(z\)-sum is a quadratic/Jacobi-type sum of size \(O(\sqrt n)\). The remaining \(y\)-sum is again a complete character sum of size \(O(\sqrt n)\) in the generic case. Thus the Weil-strength estimate for (C) is only
+\[
+|(B_{\rm seed}\rho)_x|
+ \ll \frac{\sqrt n\,\sqrt n}{n\sqrt n}
+ =O(n^{-1/2})
+\]
+for the normalized character itself. Relative to the input coordinate size \(n^{-1/2}\), this is merely an \(O(1)\) directional price, not a strict factor below one. For a general packet combination, triangle summation over packet coefficients returns the same noncontractive absolute price.
+
+This calculation is not a counterexample to contraction: (A) gives strong \(L^2\) decay. It is a precise obstruction to the proposed bridge
+\[
+\text{signed position cancellation}\quad\Longrightarrow\quad
+\text{strict physical packet-price contraction}.
+\]
+The missing estimate is a **uniform bilinear** bound for the source-summed kernel, stronger than the individual \(O(n^{-1/2})\) entry estimate. Specifically, for a packet family \(\mathcal P\), one would need a constant \(\theta<1\), independent of \(n\), such that
+\[
+\sup_x\frac{|(Bg)_x|}{\operatorname{price}(g)}
+ \le \theta\,
+ \frac{\text{appropriate output packet price at }x}
+      {\text{input price}},
+\qquad g\in\mathcal P.
+\tag{D}
+\]
+The generic two-stage Weil estimate in (C) supplies only a constant with no margin, and the marked corrections have not been shown to improve it. The same issue remains for the full analytic derivatives: their higher-word trace estimates preserve \(O(n^{-1/2})\) position entries, but do not establish a strict source-summed price rate.
+
+### Consequence for the moving residual
+
+At a fixed genuine endpoint, (A) yields
+\[
+\|B(V_{601}-V_{600})\|_{2,n}
+ \le 0.2663\,\|V_{601}-V_{600}\|_{2,n}.
+\]
+This is enough for a two-step residual recurrence in normalized second norm, provided the secant sheets remain confined. It does **not** imply coordinate confinement because
+\[
+\|h\|_\infty\le \sqrt n\,\|h\|_{2,n},
+\]
+and the residual scale needed for the moving-starter argument is stronger than the fixed-height \(L^2\) statement.
+
+Thus the current answer is:
+
+* **Supported:** actual signed two-step contraction on the physical mean-zero \(L^2\) space, with explicit factor \(<0.2663\).
+* **Not supported:** contraction of physical packet prices or coordinate residuals after source summation.
+* **Precise remaining gap:** prove (D), or produce an arithmetic identity forcing an additional \(n^{-1/2}\) gain in the double source sum while retaining both marked corrections and both sheets.
+
+### Ranked next tests
+
+1. **Exact packet-character test (highest priority).** For the seed–seed kernel and then the full degree-\((1,1)\) block, evaluate (C) for every multiplicative character packet \(\rho\), separating exceptional \(\rho\) from generic ones. Determine whether the normalized ratio has a limiting supremum strictly below \(1\), or tends to \(1\). This directly tests the missing margin.
+
+2. **Finite-field bilinear trace test.** Form the full source-summed trace with one translated packet boundary pair and compute its normalized \(L^\infty\)-to-price ratio over eligible primes. Include both marked rank-one corrections explicitly. A ratio bounded away from one would justify a packet recurrence; ratios approaching one would confirm that only the \(L^2\) route is presently viable.

@@ -1,0 +1,108 @@
+## Result: a genuine two-step counting continuation bound, but no packet contraction
+
+Let
+\[
+R_m=V_{m+1}-V_m,\qquad 
+D^{\sec}_m=\int_0^1\Phi_t'\!\left(V_m+sR_m\right)\,ds,
+\]
+where the integral is taken on the actual common physical sheet along the segment joining \(V_m\) and \(V_{m+1}\). Then exactly
+\[
+R_{m+1}=K D^{\sec}_m R_m. \tag{A}
+\]
+
+This is the physical adjacent-secant operator; replacing it by \(D(V_m)\) is not legitimate without an error estimate.
+
+### Quantitative secant perturbation
+
+Assume the whole segment lies in a sheet-preserving domain on which
+\[
+\kappa_m=\sup_{s\in[0,1]}\|\Phi_t''(V_m+sR_m)\|_\infty<\infty.
+\]
+Then coordinatewise
+\[
+\|D^{\sec}_m-D(V_m)\|_\infty
+\le \kappa_m\|R_m\|_\infty. \tag{B}
+\]
+Since \(K\) is an \(L^2\)-contraction,
+\[
+\|KD^{\sec}_m\|_{2\to2}
+\le \|KD(V_m)\|_{2\to2}+\kappa_m\|R_m\|_\infty. \tag{C}
+\]
+Consequently, for any two consecutive physical secants satisfying the same hypotheses,
+\[
+\boxed{\;
+\|R_{m+2}\|_{2,n}
+\le
+\bigl(\rho_m+\kappa_m a_m\bigr)
+\bigl(\rho_{m+1}+\kappa_{m+1}a_{m+1}\bigr)
+\|R_m\|_{2,n},
+\;} \tag{D}
+\]
+where
+\[
+\rho_j=\|KD(V_j)\|_{2\to2},\qquad
+a_j=\|R_j\|_\infty.
+\]
+This is a genuine scalar continuation estimate for the actual residuals, not an assumed uniform packet-mass estimate.
+
+### Numerical implication at height 600
+
+The supplied height-600 data give
+\[
+\rho_{600}<0.514,\qquad
+a_{600}\le \|R_{600}\|_\pi<0.010955.
+\]
+Thus the first secant obeys
+\[
+\|KD^{\sec}_{600}\|_{2\to2}
+\le 0.514+0.010955\,\kappa_{600}. \tag{E}
+\]
+In particular, if the actual segment curvature satisfies
+\[
+\kappa_{600}<86.3, \tag{F}
+\]
+then the single secant remains contractive. If both adjacent segments satisfy this bound with the same \(\kappa\), then
+\[
+\|R_{602}\|_{2,n}
+\le (0.514+0.010955\kappa)^2\|R_{600}\|_{2,n}<\|R_{600}\|_{2,n}. \tag{G}
+\]
+For example, \(\kappa\le 10\) gives the explicit two-step factor
+\[
+(0.514+0.10955)^2<0.389.
+\]
+The threshold \(86.3\) is only an algebraic consequence of the certified residual price and the \(0.514\) linearized counting bound; it is not itself a verified curvature bound.
+
+The marked coordinate is harmless at this level provided the segment stays on the marked sheet: its second derivative has the extra \(n^{-1/2}\) factor from the radicand \(4n+V_0^2\). The unresolved issue is the uniform bulk value of \(\kappa_m\) on the actual moving segment, not the secant identity.
+
+## What this does not prove
+
+It does **not** give residual packet contraction. The available absolute packet majorant at height 600 is
+\[
+q_{600}=1.046434,
+\]
+so taking absolute prices before composing two secants yields only
+\[
+q_{600}^2=1.095025\ldots>1.
+\]
+Therefore the existing packet estimate cannot certify contraction, even over two steps. The parity statement removes geometric punctual terms, but it does not bound the absolute coefficient/rank price of the surviving odd words. In particular, an odd signed word can have arbitrarily large absolute packet price while retaining zero punctual contribution.
+
+The valid conclusion is therefore:
+
+* **Counting resource:** conditional genuine two-step contraction (D), with a very permissive curvature threshold at height 600.
+* **Packet resource:** no contraction established; the current absolute upper fails quantitatively because \(1.046434^2>1\).
+* **Prime-uniform status:** not yet obtained, since neither a prime-uniform \(\kappa_m\) along all relevant physical segments nor a signed packet comparison has been supplied.
+
+## Ranked next tests
+
+1. **Direct secant-curvature replay.** On the actual complex square, evaluate
+   \[
+   \kappa_m=\sup_{s\in[0,1],\,x}
+   |\Phi_t''(V_m(x)+sR_m(x))|
+   \]
+   with the marked and unmarked formulas kept separate. A bound \(\kappa_m<86.3\) at two consecutive heights would certify (G); a substantially smaller bound would give a useful scalar continuation resource through the height-600 region.
+
+2. **Two-step signed packet replay.** Form the actual product
+   \[
+   K D^{\sec}_{m+1}K D^{\sec}_m
+   \]
+   before taking absolute packet prices, retain the odd-word signs and translated boundary fibers, and compute its induced price on the stored residual packet. The target is a bound \(<1\) on that **specific residual direction**, not on the full absolute operator. This is the minimal test capable of converting the parity information into genuine packet contraction.

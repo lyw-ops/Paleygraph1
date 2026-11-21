@@ -1,0 +1,184 @@
+## Result: the requested prime-uniform \(o(1)\) bound is not proved; the available estimates fail at the required scale
+
+I keep the actual family and order of limits explicit. Let \(p\to\infty\) through **all ordinary primes**
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+fix \(\tau>0\), choose the physical marked time \(T=T(p)\to\infty\) with \(T+1\) in the simultaneous marked window, and then, if needed, choose at each prime the sign \(\sigma=\sigma(p)\) having the larger opposite-root obstruction. All norms below are normalized counting norms
+\[
+\|x\|_{2,n}^2=\frac1n\sum_i |x_i|^2,\qquad \mathbb E=\frac1n\sum_i.
+\]
+
+Let
+\[
+u=T^{-1/3},\qquad d_j=(u-Z_j)_+,\quad d_0=0,
+\]
+where \(Z=X_{\sigma,T}/M\) is the actual projected mean-one row with the physical marked coordinate removed from \(d\). Let
+\[
+y^{(0)}=Z+2L_\sigma d,\qquad
+E_0=\{i\ne0:y^{(0)}_i<0\}.
+\]
+Let \(F\) be a true opposite mean-one optimizer, \(R\) a true \(\sigma\)-optimizer, and
+\[
+F_H=1_{\rm bulk}(F-H)_+,\qquad H=o(T).
+\]
+The actual target pairing is
+\[
+\mathcal B_{p,T,H}
+=
+-\frac{\sigma}{n}
+\sum_{\substack{i\in E_0,\ R_i=0\\j\ne0,\ j\ne i}}
+(F_i-H)_+K_{ij}d_j .
+\tag{A}
+\]
+
+### What is established
+
+The first reflected output gives
+\[
+b^{(0)}_i=(-y^{(0)}_i)_+
+\le 1_{E_0}(i)(-\sigma Kd-u/2)_+,
+\]
+up to the already-controlled \(O_\tau(T^{-2/3})\) pin and mean terms. Moreover,
+\[
+\frac{|E_0|}{n}=O_\tau(T^{-1/3}),\qquad
+\|b^{(0)}\|_{2,n}^2=O_\tau(T^{-1}),
+\qquad
+\|d\|_{2,n}^2=O_\tau(T^{-1}),
+\qquad
+\mathbb E d=O_\tau(T^{-2/3}).
+\tag{B}
+\]
+
+If a fixed gap persists on a prime subsequence, namely
+\[
+\frac{q_{-\sigma}}{\sqrt n}\ge 1+\eta
+\]
+for some \(\eta>0\), while \(\sqrt{1+\tau}<1+\eta\), the exact affine constraints imply
+\[
+\mathbb E(Fb^{(0)})\ge \frac{q_{-\sigma}a}{nM}-1
+\ge c_{\tau,\eta}>0.
+\]
+After clipping, the loss is \(O_\tau(\sqrt{H/T})\). Since \(F\) and \(R\) are true opposite optimizers,
+\[
+F_iR_i=0\qquad(i\ne0),
+\]
+so the positive weighted mass lies on the actual set \(R_i=0\). Removing the physical roots and diagonal costs only
+\[
+O_\tau(n^{-1/2}T^{-2/3}).
+\]
+Hence, for every \(H=o(T)\),
+\[
+\mathcal B_{p,T,H}\ge c_{\tau,\eta}-o(1)
+\tag{C}
+\]
+along such a persistent-gap subsequence.
+
+Thus an upper
+\[
+\mathcal B_{p,T,H}=o(1)
+\tag{D}
+\]
+for the actual \(E_0\), actual \(F\), actual \(R\), actual \(T(p)\), and one admissible \(H=o(T)\), would indeed contradict the gap.
+
+## Why no prime-sensitive upper follows from the present hypotheses
+
+The strongest immediate norm estimate is only
+\[
+|\mathcal B_{p,T,H}|
+\le
+\|1_{E_0}F_H\|_{2,n}\,\|Kd\|_{2,n}
+\le
+\|F_H\|_{2,n}\,O_\tau(T^{-1/2}).
+\]
+Using \(F_i\le q_{-\sigma}\) and \(\mathbb EF=1\),
+\[
+\|F_H\|_{2,n}^2\le q_{-\sigma}\mathbb EF_H\le q_{-\sigma},
+\]
+so
+\[
+|\mathcal B_{p,T,H}|
+\ll_\tau \sqrt{\frac{q_{-\sigma}}{T}}
+\asymp \sqrt{\frac{\sqrt n}{T}}
+\]
+on the larger-root side. This is not \(o(1)\) uniformly in the marked window; indeed it need not even be bounded when \(T\ll\sqrt n\).
+
+The pointwise ordinary-prime Jacobi estimate
+\[
+|K_{ij}|\ll \frac{\sqrt p}{n}\asymp n^{-1/2}
+\]
+is also insufficient. Applied absolutely to (A), it gives only
+\[
+|\mathcal B_{p,T,H}|
+\ll
+\sqrt n\,\mathbb E d
+\ll_\tau \sqrt n\,T^{-2/3},
+\]
+which is worse.
+
+The obstruction is structural: \(E_0\) is not a fixed arithmetic mask. It is defined by the same signed Jacobi transform \(Kd\) appearing in the pairing:
+\[
+E_0=\{i:\sigma(Kd)_i\lesssim-u\}.
+\]
+Therefore ordinary Weil bounds for fixed translated intersections, filtered-support estimates, or unweighted RMS dissipation do not supply cancellation in (A). The mask is adaptively selected to retain one sign of \(Kd\), while \(F_H\) is selected from the true opposite optimal face and may concentrate on that same mask. The current filtered-support result controls fixed Bohr-type forbidden masks, not this threshold mask coupled to the source \(d\).
+
+The square-order calculation does not refute the ordinary-prime target. It shows that analogous weighted estimates can genuinely fail on the square family, but those are orders \(q=r^2\), not the required family of ordinary primes \(p\equiv1\pmod4\). No arithmetic obstruction for ordinary primes has been established.
+
+## Checked conclusion
+
+The mission is therefore **inconclusive with a precise failure of the proposed sufficient route**:
+
+1. The actual first-spill lower bound under a fixed gap is valid, including the physical root removal, true zero set \(R_i=0\), cutoff \(H=o(T)\), and the order of limits \(p\to\infty\), then \(T(p)\to\infty\) inside the certified window.
+
+2. The desired prime-uniform upper (D) is not derivable from:
+   - \(\|d\|_{2,n}^2=O_\tau(T^{-1})\);
+   - \(|E_0|/n=O_\tau(T^{-1/3})\);
+   - the ordinary-prime entrywise Jacobi bound;
+   - the existing fixed-mask or filtered-support estimates.
+
+3. No explicit ordinary-prime arithmetic obstruction to (D) is known. The missing input must use the **joint geometry of the adaptive set \(E_0\), the true optimizer \(F\), and the source \(d\)**.
+
+## Two ranked next tests
+
+### 1. Highest priority: an adaptive weighted Jacobi-mask estimate
+
+Prove, for all \(p\equiv1\pmod4\), with the larger sign \(\sigma(p)\) selected at each prime, an estimate of the form
+\[
+\sup_{\substack{
+F\in\mathcal F_{-\sigma}^{\rm opt}\\
+R\in\mathcal F_{\sigma}^{\rm opt}\\
+H=o(T)
+}}
+\left|
+\mathbb E\!\left[
+1_{E_0}1_{\{R=0\}}(F-H)_+\,\sigma Kd
+\right]\right|
+=o(1),
+\tag{T1}
+\]
+uniformly for admissible \(T=T(p)\to\infty\).
+
+The test should retain the dependence
+\[
+E_0=\{\,\sigma Kd\le -u/2+O_\tau(T^{-2/3})\,\}
+\]
+rather than replacing \(E_0\) by an arbitrary set of the same density. A viable proof would likely need a dyadic decomposition in the \(d_j\)-weights and a two-variable translated Jacobi correlation estimate in which the zero constraint \(R_i=0\) is used before Cauchy–Schwarz. A bound for an ambient set of density \(O(T^{-1/3})\) is not enough.
+
+### 2. Secondary: transfer to the actual oriented terminal mask
+
+Use the actual terminal activation
+\[
+x_T=s\sqrt n\,v_T,\qquad s=-\sigma,
+\]
+and the true mask
+\[
+S^+=\{i\ne0:x_T(i)\ge cT,\ R_i\le \delta x_T(i)/T\}.
+\]
+Test whether one can prove, uniformly over ordinary primes,
+\[
+\|1_{S^+}(F-H)_+\|_{2,n}^2=o(T)
+\tag{T2}
+\]
+for at least one true near-cap optimizer, opposite optimizer, cutoff \(H=o(T)\), and selectable \(T(p)\to\infty\). The existing terminal inequality shows that a persistent gap forces the opposite lower bound \(\gg_{\tau,\eta}T\). This route is weaker than (T1), but it may permit prime-sensitive shifted-intersection estimates because \(S^+\) carries both an orientation \(x_T>0\) and the complementary condition \(R_i\ll x_T(i)/T\).
+
+Neither test is currently proved.

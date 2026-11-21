@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Blind overlap review by the independent audit (session/r190-audit, a background Claude subagent of the generation-1 brain session), written before it opened any shared-obligation, draft or inflight file (research/native-claude-audit-190.md); classification against the pre-dispatch record by the Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment).",
+  "comparison": "Auditor's blind answer: no pair of the three Round 190 calls shares an estimate. The literature call (shifted geometric-progression energy, MPRRS Theorem 37) and the structural (NC) call (sector constancy of chi(1-zeta^k) along progressions, (GP-Sub)) touch the same configuration through different statements (energy versus character-sum constancy); the stocktake re-derives the obligation map and shares no estimate. This matches the pre-dispatch record, which treated the literature and structural calls as attacking the same obstruction from two sides with different statements. Not foreseen before dispatch: Theorem 37 moves the cap quoted by the structural report's Corollary 4.1 from p^(5/4) to p^(16/13), a dependency of one report's statement on the other's output rather than a shared obligation. No overlap group.",
+  "groups": [],
+  "dispatch": "coordination/round-190-inflight.json",
+  "launched_at_utc": "2026-11-21T00:33:48.778338Z",
+  "launched_calls": [
+    "ordinary-gp-shifted-energy-literature",
+    "ordinary-obligation-map-stocktake",
+    "ordinary-nc-excludes-sector-laws"
+  ],
+  "before_sha256": "95be00a07ee360c08d02569bf75e5c3afb6ed48e4f08e117616c455996fc7c30"
+}

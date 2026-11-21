@@ -1,0 +1,7 @@
+# Review of the projected cap arithmetic response
+
+The [raw draft](api-astra-overflow-125.txt) correctly bounds the absolute masked cubic by \(O(n^{-1})\) under the critical row norm, by Round 123 and Cauchy–Schwarz. Its top-error estimate follows from the already established projected cap Picard cutoff. These deductions reach the critical scale, without an independent improvement on the actual sign. The definitions of \(\Lambda^\pm\) use squared-Jacobi averages. The output deletion is retained in the exact coefficient of Round 123 and its normalized error when reduced to the two overlap terms.
+
+With the true \(\mu\asymp n^{-1/2}\), the little-oh in its (B) is equivalent to the two-sided estimate \(T(q)=o(n^{-1})\) at the prescribed row scale. The contradiction requires only an upper smaller than the existing positive lower. The logarithmic iteration count does not give a lower bound on prime Mellin complexity.
+
+The residual test in the draft controls a difference between two cap heights. It requires a separate upper at one endpoint. The [adjoint calculation](real-masked-cap-adjoint-125.md) gives its exact cap increment, active slopes, and sparse preimage, which is a direct test of the proposed signed sum. A known absolute tail estimate handles terms after the explicit cut. No new prime estimate on the remaining signed sum or the full cubic at its endpoint has been proved. The [completion receipt](api-astra-125-receipt.json) preserves the response metadata.

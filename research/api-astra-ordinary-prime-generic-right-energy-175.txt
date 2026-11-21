@@ -1,0 +1,177 @@
+## Checked result
+
+Let \(p\) range through the original eligible ordinary-prime family, with \(p\to\infty\). Let \(Q\subset \mathbb F_p^\times\) be the physical square set, let \(g=|f|^2\) be the original weight, and put
+\[
+G=\sum_x g(x)=O(\sqrt p).
+\]
+
+The physical affine line attached to \((Y,D)\) is
+\[
+r=\frac{Y-D}{1-D},\qquad
+b=\frac{D(1-Y)}{Y(1-D)},
+\]
+with the original endpoint exclusions and the square mask \(b\in Q\). Its weight is
+\[
+\mu_0(r,b)
+=
+g(Y)g(D)\,
+1_{\{Y,D\text{ physical}\}}\,
+1_{\{b\in Q\}}.
+\]
+
+For \(h=(a,c)\), the exact right action is
+\[
+(r,b)\mapsto (r',b')=(ar,b+cr).
+\]
+The second line is retained only when its reconstructed physical labels
+\[
+Y'=\frac{r'}{1-b'},\qquad
+D'=\frac{b'r'}{(1-r')(1-b')}
+\]
+satisfy the same endpoint conditions and \(b'\in Q\).
+
+Define the genuinely generic family
+\[
+\mathcal H_{\rm gen}
+=
+\{(a,c):a\neq0,\ c\neq0,\ a\neq1\},
+\]
+and restrict further to pairs for which
+\[
+Y,D,Y',D'
+\]
+are all distinct. The corresponding correlation is
+\[
+\Delta_{\rm gen}(a,c)
+=
+\sum_{\substack{(Y,D)\ {\rm physical}\\
+b,b'\in Q\\
+Y,D,Y',D'\ {\rm pairwise\ distinct}}}
+g(Y)g(D)g(Y')g(D').
+\]
+Thus the actual four-copy weight, including both \(b\)-square masks and all physical exclusions, is retained.
+
+### Rigorous bound
+
+The all-level weighted affine-energy estimate from the vertical-fiber argument gives
+\[
+E_w(\mu_0)
+:=
+\sum_{a\neq0}\sum_c
+\left|
+\sum_{(r,b)}\mu_0(r,b)\mu_0(ar,b+cr)
+\right|^2
+=
+O\!\left(p^{11/4-\delta_*/2}\right),
+\]
+where
+\[
+\varepsilon_*=\frac1{1280},
+\qquad
+\delta_*=\frac1{640}=2\varepsilon_*.
+\]
+Hence
+\[
+E_w(\mu_0)=O\!\left(p^{11/4-1/1280}\right).
+\]
+
+Since the generic correlation is a nonnegative restriction of the actual correlation,
+\[
+0\le \Delta_{\rm gen}(a,c)\le \Delta(a,c),
+\]
+and therefore
+\[
+\boxed{
+\sum_{(a,c)\in\mathcal H_{\rm gen}}
+\Delta_{\rm gen}(a,c)^2
+\le
+E_w(\mu_0)
+=
+O\!\left(p^{11/4-1/1280}\right).
+}
+\]
+
+This is uniform over the eligible prime family and uses the original \(g(Y)g(D)g(Y')g(D')\), the physical marking, both \(b\)-square masks, and all weight levels.
+
+The norm order is important: for each fixed \(p\), the affine fourth-root energy norm is estimated first; layer cake is then applied through Minkowski to the four actual \(g\)-weights, and the resulting fourth-root estimate is finally raised to the fourth power. The threshold is \(\tau=p^{-\varepsilon_*}\), with the heavy and light pieces combined before taking the final square. No \(p\)-limit is taken before these finite-field norm estimates.
+
+## What is and is not improved
+
+The heavy-level contribution has fourth root
+\[
+O\!\left(p^{11/16-\delta_*/8}\right),
+\]
+which yields the displayed
+\[
+O\!\left(p^{11/4-\delta_*/2}\right)
+\]
+energy estimate. Thus there is a genuine power saving over the crude affine-energy scale, but it is far above the desired \(O(p^2)\) generic energy.
+
+The physical repeated-label portions have already been removed at cost
+\[
+O(p^2)
+\]
+in squared norm. The pure families remain separate:
+\[
+\sum_{c\neq0}\Delta(1,c)^2
+=
+O\!\left(p^{5/2-3\varepsilon_*}\right),
+\]
+and
+\[
+\sum_{a\neq1}\Delta(a,0)^2
+=
+O\!\left(p^{5/2-2\varepsilon_*}\right).
+\]
+These are not part of \(\mathcal H_{\rm gen}\), but they remain independent obligations for the full affine bound. The identity element is also separate, with squared contribution \(O(p^2)\).
+
+Consequently, the proposed target-scale statement
+\[
+\sum_{(a,c)\in\mathcal H_{\rm gen}}
+\Delta_{\rm gen}(a,c)^2=O(p^2)
+\]
+is not proved. The present argument gives only
+\[
+O\!\left(p^{11/4-1/1280}\right).
+\]
+No obstruction to the \(O(p^2)\) claim has been established either.
+
+The zero-match contribution is likewise not controlled by this right-energy estimate and must remain a separate obligation.
+
+## Ranked next tests
+
+### 1. Generic restricted affine energy with the output factor retained
+
+Redo the level-set affine-energy argument after imposing all four-copy distinctness and retaining the fourth factor \(g(Y')g(D')\), rather than bounding the output factor positively or passing to the unrestricted energy.
+
+A sufficient result would be
+\[
+\left(
+\sum_{(a,c)\in\mathcal H_{\rm gen}}
+\Delta_{\rm gen}(a,c)^2
+\right)^{1/4}
+=O(p^{1/2}),
+\]
+equivalently
+\[
+E_{\rm gen}=O(p^2).
+\]
+Relative to the current fourth-root exponent \(11/16\), this requires a saving of \(p^{3/16-o(1)}\). The most promising place is the incidence estimate after deleting the four coincidence diagonals and using the actual output \(g(Y')g(D')\), not merely \(g(Y)g(D)\).
+
+### 2. Direct two-level correlation estimate for \(a,c\neq0\), \(a\neq1\)
+
+For fixed generic \((a,c)\), use
+\[
+Y'=\frac{aY}{1-cY}
+\]
+and the corresponding Möbius formula for \(D'\), then exploit the two-level affine estimate simultaneously in the \(Y\)- and \(D\)-variables. The test should target a summed estimate of the form
+\[
+\sum_{\substack{a,c\neq0\\a\neq1}}
+\left|
+\sum_{Y,D}
+g(Y)g(D)g(Y')g(D')
+\,1_{\rm phys}\,1_{b,b'\in Q}
+\right|^2
+\ll p^2.
+\]
+The distinctness conditions should be imposed before Cauchy–Schwarz. A bound obtained only after discarding \(g(Y')g(D')\), or only for fixed \(a,c\), is insufficient for the actual weighted energy.

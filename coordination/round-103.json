@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "round": 103,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after an independent read-only Round 103 agent review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-102-acceptance.json",
+      "sha256": "6bb2f30ffb5e0aa899490894de4867a70d3296f7bd5389facd3484ed87efb150"
+    },
+    "current": {
+      "path": "research/round-103-acceptance.json",
+      "sha256": "c1a0913d9a0f9e8bac7013cd983178ea9c6bad4061eaf35420a9974a6383c74c"
+    }
+  },
+  "changes": [
+    {
+      "id": "translated-growing-newton",
+      "route": "Common complex section by a transported exact Newton correction",
+      "effect": "weakened",
+      "before": "Counting-norm stationary construction needed sqrt(n)r small in the marked finite approach. The earlier quadratic test constrained a hypothesized actual first-hit row.",
+      "after": "A translated entry estimate n^-beta and a bounded first correction give an unforced physical section whenever n^((1-beta)/2)r is small enough. A separate nominal angular gap controls first activation.",
+      "remaining": "At increasing genuine depths jointly verify translated entry decay, residual and first correction, then the nominal angle on Q.",
+      "evidence": [
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        },
+        {
+          "path": "research/astra-resolvent-102.md",
+          "sha256": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        }
+      ]
+    },
+    {
+      "id": "real-signed-excess",
+      "route": "True real marker after amplitude clipping",
+      "effect": "weakened",
+      "before": "The relaxed-weight comparison required every capped product to remain positive.",
+      "after": "The exact cross identity permits nonpositive relaxed bulk products and charges only the mean defect and a signed transported overflow or its pairing with the actual positive source.",
+      "remaining": "At fixed floors prove the needed genuine signed estimate and vanishing mean defect. A complete real route requires floors tending to zero.",
+      "evidence": [
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        }
+      ]
+    },
+    {
+      "id": "terminal-law",
+      "route": "Authentic signed terminal velocity",
+      "effect": "unchanged",
+      "before": "The actual shrinking-root terminal law has an independent subcubic cap criterion.",
+      "after": "A gateway candidate specialized the previous centered projector to the real terminal head, conditionally on a new lower for its root-to-negative ratio.",
+      "remaining": "Produce a uniform trial on genuine recurrent blocks or a strict one-sided dual bound, with predecessor and triangular tests kept.",
+      "evidence": [
+        {
+          "path": "research/astra-prior-102.md",
+          "sha256": "46a564a030f41d8a282092160a045e024f0b316cf09583a2be02b8857b792f88"
+        },
+        {
+          "path": "research/api-astra-review-103.md",
+          "sha256": "57b0f755f4d09a1d697cc3f8b56ebfd973355dce1ea7389b32833b30d3d7137c"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The new conditional criteria lower the burden to a translated quadratic residual or a signed real overflow. The API drafts leave both previous proof obligations open and the ordinary theta target is open.",
+  "next_calls": [
+    {
+      "id": "translated-entry-at-depth",
+      "priority": 1,
+      "change_id": "translated-growing-newton",
+      "question": "Can even one uniform translated exponent beta>0 be proved for a genuine depth growing with n on the physical Q?",
+      "why_now": "At that same depth the new Newton criterion only needs r=o(n^(-(1-beta)/2)). Fixed packet estimates do not furnish this.",
+      "scope": "Produce a new quantitative theorem or identify a concrete counter-mechanism on genuinely admissible data. Treat depth, normalized residual, real sheets and the first Newton correction exactly; avoid another isolated finite ceiling.",
+      "if_yes": "Check the corresponding stationary construction and explicitly state the separate angular margin.",
+      "if_no": "Identify the first failed step and give its quantitative cost or exact obstruction.",
+      "if_inconclusive": "Give a new verifiable estimate for one translated family or a sharpened relation between entry exponent and residual.",
+      "inputs": [
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/astra-resolvent-102.md",
+          "sha256": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11"
+        }
+      ]
+    },
+    {
+      "id": "signed-overflow-real",
+      "priority": 2,
+      "change_id": "real-signed-excess",
+      "question": "Can the signed transport of the actual enlarged-cap exceedance or its pairing with the positive true source be bounded by a vanishing quantity?",
+      "why_now": "The exact cross identity avoids all-site relaxed positivity, and cancellation is needed only on the true overflow.",
+      "scope": "Use the real cap equation and prime Paley arithmetic at fixed floor. Separate vanishing mean defect, coherence loss and the actual marked comparison. Retain the field-first order.",
+      "if_yes": "Show the scope of the eliminated real mark or obstruction, including any floor sequence.",
+      "if_no": "Exhibit the first exact source or cap configuration invalidating a proposed estimate, with its genuine versus prescribed status.",
+      "if_inconclusive": "Return a quantitative one-sided transport reduction or a genuine structural restriction on overflow support.",
+      "inputs": [
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        },
+        {
+          "path": "research/real-amplitude-cap-102.md",
+          "sha256": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d"
+        },
+        {
+          "path": "research/astra-cubic-102.md",
+          "sha256": "b25c85dc7836e6d512b4cc25a31aacea687c3f13e38acb52e73c804fc3b61bb2"
+        }
+      ]
+    },
+    {
+      "id": "terminal-dual-on-actual-head",
+      "priority": 3,
+      "change_id": "terminal-law",
+      "question": "Can the true terminal head support a shrinking-root law with head cap J/b or a direct subcubic signed price?",
+      "why_now": "The exact Abel splice keeps this law independent of the predecessor, and the actual head is controlled in counting second norm.",
+      "scope": "Use genuine zero-start increments on the original filtered recurrent list. Preserve all original root and erasure parameters. Retain the separate predecessor and triangular requirements.",
+      "if_yes": "State the specific branch ruled out together with its companion bounds.",
+      "if_no": "Preserve any exact dual obstruction and distinguish cap infeasibility from true price.",
+      "if_inconclusive": "Derive a substantive new criterion beyond the existing centered projection or evaluate its root ratio rigorously.",
+      "inputs": [
+        {
+          "path": "research/astra-prior-102.md",
+          "sha256": "46a564a030f41d8a282092160a045e024f0b316cf09583a2be02b8857b792f88"
+        },
+        {
+          "path": "research/astra-price-101.md",
+          "sha256": "44c8b9a7d9bf77c445f87770bbe082223f9c34adcdcef39100a88d670800450d"
+        },
+        {
+          "path": "research/quotient-floor-99.md",
+          "sha256": "73d912071f50e70497fe51662437caad2429b31ea0fcda37fec0f2f2fde7a59e"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "translated-growing-newton",
+      "question": "Which Round 104 claims are true at their stated analytical scopes?",
+      "why_now": "Independent review precedes acceptance for API or coordinator research.",
+      "scope": "Check signs, genuine hypotheses, field order and numerical classification separately. Return one or two ranked tests.",
+      "if_yes": "Record validated deductions and any replay details.",
+      "if_no": "Identify the first unresolved proof gap or failed replay.",
+      "if_inconclusive": "Report components actually reviewed.",
+      "inputs": [
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        },
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        },
+        {
+          "path": "research/api-astra-review-103.md",
+          "sha256": "57b0f755f4d09a1d697cc3f8b56ebfd973355dce1ea7389b32833b30d3d7137c"
+        }
+      ]
+    }
+  ]
+}

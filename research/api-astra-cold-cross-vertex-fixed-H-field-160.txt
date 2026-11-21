@@ -1,0 +1,146 @@
+## Result
+
+For the stipulated family—eligible primes \(p\equiv1\pmod 4\), \(n=(p-1)/2\), the original complex square, both lifts, physical marking \(t_0=n\) and \(t_i=t\) off zero, and the translated \(P_{5000}\) norm—the available checked arithmetic gives a genuine common constituent at the two actual heights \(h=601,602\), but not a substantially signed cross-vertex contraction.
+
+The common constituents are the fixed rank-four and rank-next fields
+\[
+F_4,\qquad G,
+\]
+appearing in both decompositions
+\[
+H_h=J_h+\gamma F_4+\delta G,\qquad h=601,602.
+\]
+
+Here \(J_h\) contains the other fixed centers and the genuine height-\(h\) Picard residual. The coefficients \(\gamma,\delta\) are the same prescribed coefficients at both heights; the height dependence is entirely in \(J_h\).
+
+### Common arithmetic label before transport
+
+At a fixed full rank-three, Jacobi, and Legendre label \(\lambda\), let
+\[
+x=T_{1,\lambda},\qquad y=T_{3,\lambda}.
+\]
+The exact scalar contributions
+\[
+xJ_h,\qquad 3y\gamma^2F_4^2J_h,\qquad 3y\delta^2G^2J_h
+\]
+have the same arithmetic label. The factors \(3\) count the possible position of \(J_h\).
+
+The genuine normalized ordered-pair units are
+
+\[
+F_4^2:\quad \frac18,\qquad
+G^2:\quad \frac1{16},
+\]
+with trivial Jacobi exponent on both lifts. Hence the common scalar coefficient is exactly
+\[
+x+3\left(\frac{\gamma^2}{8}+\frac{\delta^2}{16}\right)y.
+\]
+
+This is an actual arithmetic merger, not a formal comparison of independent \(H_{601}\) and \(H_{602}\).
+
+### Effect of the two physical \(K\)-transports
+
+The physical transport is the same real symmetric operator \(K\) at both vertices, with
+\[
+K^2=I-P_1.
+\]
+Therefore equal incoming arithmetic labels remain equal after the generic part of either \(K\)-transport. The two-lift arithmetic decomposition and the physical mark correction do not destroy the common label: the marked column is supported at the prescribed physical coordinate \(t_0=n\), while the exceptional finite-field corrections remain explicit \(Ke_0\)-type columns and are charged separately.
+
+The relevant exact rank-four transport identity has the form
+\[
+K(C_1W)
+ =
+F_4-\frac{n(1+q+h_q)}{2q^2}Ke_0,
+\qquad |h_q|\le 2q,
+\]
+and the corresponding rank-next identity is
+\[
+K(C_1F_4)=-G+D_qKe_0
+\]
+with bounded \(D_q\). Thus the generic \(F_4\) and \(G\) output labels are genuine common transported labels; the \(Ke_0\) corrections are not part of that common label and must remain separately priced.
+
+Applying the same label collection at both physical vertices gives the certified local saving reported in the scalar-unit replay:
+\[
+\text{saving}>2.9\cdot10^{-7}
+\]
+in at least one retained coefficient, using the actual amplitudes in the separate \(h=601\) and \(h=602\) moduli. The resulting full positive comparison remains
+\[
+\left\|A_{602}A_{601}-B_3^2\right\|_{P_{5000}}
+<0.66348896
+\]
+eventually along the stated eligible-prime family.
+
+## What this does and does not prove
+
+It proves:
+
+1. \(F_4\) and \(G\) are named true constituents shared by both actual heights.
+2. Their squared ordered-pair units have the exact common scalar label above.
+3. The common label survives the generic parts of both physical \(K\)-transports.
+4. The marked and exceptional transport corrections can be retained separately without invalidating the local saving.
+5. The saving is quantitatively real but only of order \(10^{-7}\) in the checked retained coefficient.
+
+It does **not** prove a cross-vertex signed cancellation involving the actual height residuals. The obstruction is structural:
+
+\[
+H_{602}-H_{601}=J_{602}-J_{601}.
+\]
+
+The shared \(F_4\) and \(G\) pieces cancel in this difference, so they provide common labels but do not relate the two genuine Picard residuals. In the composed difference
+\[
+A_{602}A_{601}-B_3^2
+ =
+E_{602}A_{601}+B_3E_{601},
+\]
+the remaining \(J_{601}\) and \(J_{602}\) factors occur in different vertex positions. No checked identity currently identifies their full transported arithmetic labels, including their physical \(Ke_0\) corrections and the actual marking coefficients. Consequently the common \(F_4/G\) labels yield only the already-recorded local debit, not the required nonlinear bridge to the \(0.51961239\) target.
+
+The positive-comparison obstruction remains: with formal \(H_h\)-degrees separated, exact \(W\)-collection alone cannot reduce the relevant retained comparison to the target. A finite-prefix or failed sufficient bound does not settle the signed asymptotic problem.
+
+## Hypotheses and order of limits
+
+All statements above use:
+
+- primes \(p\equiv1\pmod4\) in the stipulated eligible-prime family;
+- \(n=(p-1)/2\);
+- both arithmetic lifts;
+- the original complex square;
+- physical marking \(t_0=n\), \(t_i=t\) for \(i\ne0\);
+- the actual heights \(601\) and \(602\);
+- the translated \(P_{5000}\) norm;
+- exact physical \(K\)-transport, with \(Ke_0\) and other exceptional columns retained;
+- first fixed heights \(601,602\), then \(p\to\infty\) through the eligible primes.
+
+The inequality is therefore an eventual finite-field statement in the prime limit, not a statement obtained by first replacing the actual residuals with independent formal centers.
+
+## Precise remaining gap
+
+A successful next step must produce one of the following:
+
+1. an exact common full output label for a term containing \(J_{601}\) at one vertex and \(J_{602}\) at the other, including both physical transports and all exceptional columns; or
+2. a signed identity expressing a nontrivial part of \(J_{602}-J_{601}\) through the common \(F_4/G\) fields or another nonlinear invariant, with a norm estimate strong enough to close the gap from \(0.66348896\) to \(0.51961239\).
+
+Neither is currently established.
+
+## Ranked next tests
+
+### 1. Two-vertex matched-signature enumeration — highest priority
+
+Work directly in
+\[
+E_{602}A_{601}+B_3E_{601}.
+\]
+For each retained \(F_4/G\) signature, enumerate the terms in which the remaining \(J_{602}\) or \(J_{601}\) factor occurs at the opposite vertex. Carry the exact Jacobi exponent, rank-three/rank-four/rank-next labels, both lifts, the physical \(Ke_0\) corrections, and the \(t_0=n\) marking coefficient through both \(K\)-operations.
+
+- **Success criterion:** an exact arithmetic/sheaf equivalence between a nontrivial pair of opposite-vertex outputs, with a signed coefficient debit materially larger than \(2.9\cdot10^{-7}\).
+- **Failure criterion:** a complete distinct-label or distinct-trace proof for the tested signature list. That would rule out those sources of cross-vertex saving, but not the entire problem.
+
+### 2. Explicit residual-difference identity
+
+Compute the leading common arithmetic constituents of
+\[
+J_{602}-J_{601}
+\]
+from the actual height formulas, rather than enveloping the two residuals independently. Keep the physical marking and exceptional columns separate, and seek a signed estimate in the translated \(P_{5000}\) price.
+
+- **Success criterion:** a nonzero signed residual identity with an explicit complement whose eventual \(P_{5000}\) cost is below the remaining contraction budget.
+- **Failure criterion:** prove that the leading residual signatures are disjoint after physical transport, or that their signed difference has insufficient size. This would establish a concrete obstruction for that true cross-vertex family, not merely formal independence.

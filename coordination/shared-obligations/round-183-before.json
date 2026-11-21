@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T17:30:58.669610Z",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment)",
+  "coordinator": "coordination/round-182.json#next_calls",
+  "coordinator_sha256": "bd56aa4c740ba06b77db3c9c24ca60e4681feb6d3ac85b3e9d27dda6dd40680f",
+  "call_ids": [
+    "ordinary-prime-first-mass-fibre-dilation",
+    "cold-prime-seed-multiplier-power-rate",
+    "ordinary-prime-row-deleted-one-match"
+  ],
+  "routes": {
+    "r183/ordinary-prime-first-mass-fibre-dilation": {
+      "question": "Is M_w = sum_r sum_{b != b'} mu(r,b) mu(r,b') w(b/b') = O(p^(1+1/1280)) when treated directly as a w-weighted dilation correlation inside the slope fibres of the actual mu, for example through a per-slope-fibre multiplicative energy rather than the whole-level E^x(1-S_t)?",
+      "scope": "Actual g, w=g(1-g), mu(r,b)=g(Y)g(D) on the Round 171 chart with the square mask and Y != D, counting norms. Re-derive the identity of research/native-claude-audit-182.md section 4 (checked at p=29,53 by research/paley-182-audit-shifted-energy-check.py) before using it. Use Lemma SE and E^x(h)=O(p^(34/23)) from Round 182 where helpful. State whether w is kept or majorized; state any incidence or character-sum input exactly with hypotheses. Compute M_w and its restriction to the large multiplicative spectrum of w in subgroup-mixture and Fejér models (floating evidence) and say whether a per-fibre energy reaches p^(1+o(1)) there. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "remaining": "One-match O(p^(3/2)) via b1'' (k=3 translation discrepancy of slope-closed six-words: verified O(p^(177/32)), need O(p^(144/32))), or via sum g^2=o(sqrt p) and (b1'''). Direct first mass O(p^(1+1/1280)) without the BSG size loss (the BSG-plus-Young scheme is capped at E^x(h)=O(p^(4/3))). Generic J sum O(p^(9/4)) and zero-match estimate unchanged."
+    },
+    "r183/cold-prime-seed-multiplier-power-rate": {
+      "question": "With the seed-only higher Taylor terms moved into the seed multiplier L_S = K Phi'_t(S), is there a price P with a uniform power bound ||L^m||_P <= C lambda^m and lambda < 1 - C(1 - 0.77414706) for the full frozen multiplier at V_602, so that Gamma_{k_n} stays bounded uniformly in n?",
+      "scope": "True cold orbit on the original closed square, physical t0=n, frozen-base identity at V_602, Proposition 1 and Proposition 2 of research/native-claude-cold-prime-signed-nonseed-price-182.md as accepted in Round 182 (threshold kappa* = 0.77414706...). Re-price L_S including the seed-only Taylor terms with the Round 80 per-simple rule (extend the audit's brute force in research/paley-182-audit-cold-check.py), compute its exact m-step growth, then price the remaining h-linear term with an explicit rho and A(h); say whether c(M) survives in pi_1. Any new price needs its own p0, c, sup domination, class closure (H1) and uniform corrections (H2). Print certified brackets with outward rounding; separate exact from floating. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "remaining": "A uniform power rate for the full frozen multiplier: the non-seed part (h-linear plus higher Taylor) blocks; after charging the seed-only Taylor terms the h-linear allowance is rho*A(h) <~ 1.09 in pi_1 unless those terms are moved into the seed multiplier K Phi'_t(S). Floating evidence: sup|h| ~ 0.55, RMS ~ 0.175. Uniform complex stationary domain and derivative transfer remain separate."
+    },
+    "r183/ordinary-prime-row-deleted-one-match": {
+      "question": "Is the row-deleted criterion ||R pi(mu)||_op = O(p^(3/4)) provable for the actual mu — first by deciding whether sum g^2 = o(sqrt p) for the actual law (which relaxes the target through (b1''')), and otherwise through the k=3 translation discrepancy of slope-closed six-words below its verified O(p^(177/32))?",
+      "scope": "Actual mu(r,b)=g(Y)g(D) on the Round 171 chart, the twisted physical chart of Rounds 169/173, the actual law omega with max omega = O(p^(-1/2)), counting norms. Part 1: decide sum g^2 for the actual law using sum_alpha omega(alpha)^2 = 2 sum g^2/(p-1) and the square-class balance, with every structural fact about the near-critical law cited to its accepted round. Part 2: compute tr((R pi pi* R)^3) exactly for p <= 677 split by six-word type, and seek a point-conic incidence input with exact hypotheses for the dominant type. Use the Round 182 trace identity and interlacing as accepted. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "remaining": "One-match O(p^(3/2)) via b1'' (k=3 translation discrepancy of slope-closed six-words: verified O(p^(177/32)), need O(p^(144/32))), or via sum g^2=o(sqrt p) and (b1'''). Direct first mass O(p^(1+1/1280)) without the BSG size loss (the BSG-plus-Young scheme is capped at E^x(h)=O(p^(4/3))). Generic J sum O(p^(9/4)) and zero-match estimate unchanged."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-first-mass-fibre-dilation": [],
+    "cold-prime-seed-multiplier-power-rate": [],
+    "ordinary-prime-row-deleted-one-match": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "Both ordinary calls act on the same one-match weight mu(r,b)=g(Y)g(D) on the Round 171 chart, so they share an object but not, at the stated hypotheses, an estimate. The first-mass call bounds the w-weighted fibre dilation correlation M_w = sum_r sum_{b != b'} mu(r,b) mu(r,b') w(b/b'), a positive-weight energy inside slope fibres; the row-deleted call bounds ||R pi(mu)||_op through sum g^2 and the k=3 six-word translation discrepancy. A per-fibre multiplicative-energy bound does not bound the affine-group operator norm with the s=1 row deleted, and an operator-norm bound does not control the w-weighted fibre correlation. One possible shared input is a bound on sum g^2 (Part 1 of the row-deleted call), which could enter fibre sizes in the first-mass call; it is not a stated dependency of the first-mass target and knowing it in advance would not change dispatch, so no needs: edge is recorded. Each report is asked to state any fibre-size or level-set input it proves so the closeout can test for a shared lemma. The cold call concerns the power rate of the frozen multiplier at V_602 and shares no estimate with either ordinary call. No earlier call is active."
+}

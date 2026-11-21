@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "round": 105,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 105 review",
+  "sources": {
+    "baseline": {
+      "path": "research/round-104-acceptance.json",
+      "sha256": "27e21786daae607d22869326e176a896c44fa7912a65ace4c6ad389d60bc88a6"
+    },
+    "current": {
+      "path": "research/round-105-acceptance.json",
+      "sha256": "415c6e7c28d729793d0930908e91aba0413a78c1dfd611f4f2c584e2c023c366"
+    }
+  },
+  "changes": [
+    {
+      "id": "growing-frozen-transfer",
+      "route": "Prime-uniform growing translated inverse and residual",
+      "effect": "weakened",
+      "before": "An actual moving two-ended resolve could lose counting first or second norm powers.",
+      "after": "Freeze both columns at one predictor. Signed odd Mellin parity bounds the linear term in a controlled representation and the remaining quadratic term pays the translated Newton scale. Balanced truncation permits exponential packet growth.",
+      "remaining": "Find one compatible actual growing starter and bound the true derivative difference in the corresponding dimension and boundary resources.",
+      "evidence": [
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        }
+      ]
+    },
+    {
+      "id": "restricted-overflow-energy",
+      "route": "Actual real receiving and sending supports",
+      "effect": "reformulated",
+      "before": "Nonzero true mark at the cap-defect rate forces a critical signed Jacobi rectangle.",
+      "after": "The actual sending support captures a fixed fraction of the transformed indicator energy of a real fixed-sign receiving set. The Gram condition retains an order-one residual.",
+      "remaining": "Obtain a prime-specific restricted energy or stronger true overlap upper and establish the critical cap-defect rate.",
+      "evidence": [
+        {
+          "path": "research/api-astra-review-105.md",
+          "sha256": "62b6a395d58e50cf821adeac8b2179fb5e4ffda89f02c102d64753ed53595532"
+        },
+        {
+          "path": "research/cap-overflow-rectangle-104.md",
+          "sha256": "06cdc9aa345343dd2715cd0e5b3aefcb6a2aa7e276450cf6e672f41720b9ef9d"
+        }
+      ]
+    },
+    {
+      "id": "genuine-terminal-law",
+      "route": "Original recurrent block and independent terminal law",
+      "effect": "unchanged",
+      "before": "The terminal price uses the genuine last increment at shrinking A/J.",
+      "after": "The previous small-head trial and separate prior and triangular estimates remain the exact requirements.",
+      "remaining": "Prove a true one-sided trial or normalized-price estimate, and retain the escaped branch. See the carried Round 104 closeout and its terminal-velocity references.",
+      "evidence": [
+        {
+          "path": "research/round-104-acceptance.json",
+          "sha256": "27e21786daae607d22869326e176a896c44fa7912a65ace4c6ad389d60bc88a6"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The signed frozen transfer can now use controlled exponential packet growth, leaving a concrete growing starter hypothesis. A genuine analytic prime-uniform bound is still necessary on each active route.",
+  "next_calls": [
+    {
+      "id": "growing-starter-resources",
+      "priority": 1,
+      "change_id": "growing-frozen-transfer",
+      "question": "Can a genuine increasing starter achieve both the translated quadratic residual scale and controlled Mellin truncation resources?",
+      "why_now": "The same exponent is available to frozen transfer using half the single-column cutoff and odd three-field cancellation.",
+      "scope": "Keep the original physical square, actual nine-center orbit, Jacobi kernel, real sheets and exact residual normalization. Seek a quantitative induction for one compatible starting family or a precise arithmetic obstruction to it.",
+      "if_yes": "Prove the translated stationary consequence and state the independent angular gap.",
+      "if_no": "Locate the failed resource rate and its genuine or artificial scope.",
+      "if_inconclusive": "Give a new estimate lowering one actual growing resource cost.",
+      "inputs": [
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/astra-adjoint-82.md",
+          "sha256": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/astra-resolvent-102.md",
+          "sha256": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11"
+        }
+      ]
+    },
+    {
+      "id": "restricted-real-overlap",
+      "priority": 2,
+      "change_id": "restricted-overflow-energy",
+      "question": "Can the authentic overflow and high-source sets satisfy a stronger opposite-sector restriction or force a contradiction?",
+      "why_now": "A one-sided energy bound on that genuine restricted pair would eliminate the cap-rate real obstruction.",
+      "scope": "Keep t and M fixed, distinguish the assumed cap rate from any proved one, and use U and Y from the two actual equations.",
+      "if_yes": "State the genuine real mark scope and missing floor range.",
+      "if_no": "Record the exact obstruction produced by the true or prescribed objects.",
+      "if_inconclusive": "Find a concrete new joint bound using the phase or real feasible spectra.",
+      "inputs": [
+        {
+          "path": "research/api-astra-review-105.md",
+          "sha256": "62b6a395d58e50cf821adeac8b2179fb5e4ffda89f02c102d64753ed53595532"
+        },
+        {
+          "path": "research/cap-overflow-rectangle-104.md",
+          "sha256": "06cdc9aa345343dd2715cd0e5b3aefcb6a2aa7e276450cf6e672f41720b9ef9d"
+        },
+        {
+          "path": "research/real-cap-exterior-103.md",
+          "sha256": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988"
+        }
+      ]
+    },
+    {
+      "id": "terminal-law-price",
+      "priority": 3,
+      "change_id": "genuine-terminal-law",
+      "question": "Can a legal capped-head law or direct price dual exploit the true last increment at root A/J?",
+      "why_now": "The former broad signed tests are reduced to the sparse true velocity head, yet a finite projector calculation proved no uniform trial.",
+      "scope": "Preserve original recurrence inputs, masks and the companion sector; keep terminal independent from predecessor and triangle. Recover the carried references in coordination/round-104.json, including research/astra-prior-102.md and research/astra-price-101.md.",
+      "if_yes": "Give a subcubic upper with actual scope.",
+      "if_no": "Give a concrete failed trial or genuine terminal price obstruction.",
+      "if_inconclusive": "Provide a new exact sufficient correction tested beyond the earlier centered projector.",
+      "inputs": [
+        {
+          "path": "research/round-104-acceptance.json",
+          "sha256": "27e21786daae607d22869326e176a896c44fa7912a65ace4c6ad389d60bc88a6"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "growing-frozen-transfer",
+      "question": "Which Round 106 claims hold at their stated analytical and computational scopes?",
+      "why_now": "First principle verification before acceptance.",
+      "scope": "Check exact hypotheses, physical units, conditional and finite scopes separately. Ask for one or two ranked next tests.",
+      "if_yes": "State independent verification.",
+      "if_no": "Locate the first substantive unsupported step.",
+      "if_inconclusive": "Report precisely which deductions were checked.",
+      "inputs": [
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/api-astra-review-105.md",
+          "sha256": "62b6a395d58e50cf821adeac8b2179fb5e4ffda89f02c102d64753ed53595532"
+        }
+      ]
+    }
+  ]
+}

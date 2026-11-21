@@ -1,0 +1,161 @@
+{
+  "round": 95,
+  "accepted_at_utc": "2026-11-19T09:48:19Z",
+  "previous": "research/round-94-acceptance.json",
+  "previous_sha256": "a783b606ba4d893a3eb3b3add94ef850fb230d2c63b4e7f930578346941c3bc0",
+  "proof_and_code_sha256": {
+    "research/astra-depth-95.md": "7afa02763663c1b1bb14a4bbbd810e356e8f4e6eaed7714e7dd4a8d0cc0a4dd4",
+    "research/astra-depth-95-check.py": "22cf35f7349cfbbc716f2c3d93fa772471f9ac21e889e12357374137e47dcc4c",
+    "research/astra-depth-95-checks.jsonl": "3962a0f83829a97305a976824ed5c56c4deeacb82d33c861acf5be118b8b1357",
+    "research/cap-blocks-95.md": "94b0487424f8eb44b53be6d7f0dc72da743ef5c97685da2d523a52ff29d6cf19",
+    "research/cap-blocks-95-check.py": "0856ad78b5644ae0f711c68d62e8488f2a37e85c2882e8404583659d3e6bfb37",
+    "research/cap-blocks-95-checks.jsonl": "14b4207e92cc76eced548b6a1a1297ca33e8265a982dd6a0161e0bec177ca126",
+    "research/astra-tie-95.md": "b29150a773883ceed9e07e1b345e2054e9b16415d35ed04878e19a5da5a3fc18",
+    "research/astra-tie-95-check.py": "6abcb6f86fbd59dc74b8ac71e691ed82b1fec59e1bebe6b1c6842bbd04e01ba0",
+    "research/astra-tie-95-checks.jsonl": "17da80f4ccf39686560b914c5e4839a9a535ed0066de10786142cca2d1433d7d",
+    "research/astra-recur-95.md": "eca2076672cd9850740eaea81b1e42fb4718d5ee092f5cced082d184ec847d9b",
+    "research/astra-recur-95-check.py": "e61efbc6a079641348661c051e1e07d4905434bc97cc42f6532b630e04167a55",
+    "research/astra-recur-95-checks.jsonl": "7d18fd9aef9107b825bb98d1a6e17c09cab14f527d8b54add3d92378b4fea554",
+    "research/astra-depth-95-caps.json": "9b1585e431e383af149c78f5cdae461cb983913c2033aeb02eee58abf0fee1ae"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/astra-center-94-check.py": "6fed13d71b099684c82784746575ecd297500357dadd4a24f2b75edef594ab11",
+    "research/astra-imaginary-84-check.py": "c89b732a65097673feef817926e9d5913fa914d01188946cdadc7ce462530b7e",
+    "research/astra-split-83-check.py": "dd6c169ef94ef43f893368902baa627a87608b8b4932320be29bc8e1cabe5e90",
+    "research/astra-velocity-92-check.py": "e4c7558ec60c897777c666d9da096650a28361517e2e4f3b4065c263c9dbbc3c",
+    "theta.py": "95acc41d80ca4df9a18d941040c3b98b0e673e7920a6e052f98ad79e49e4c2a2"
+  },
+  "additional_replay_dependency_sha256": {
+    "endpoint_extension_certificate.py": "6684a7db8254c337ab2f2aab1c69f76212dc1b61c97fe5937ce1b9260175847e",
+    "endpoint_norm.py": "4ba1c4b51d2ab7dc3a990b36e88afd3314366d987d51809dbdf5f2ebfb62fc69",
+    "research/astra-cold-37.py": "fd71b3371a1afc107795f732504b8e940d8178d538446643e5a13fba77705f7e",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-direction-83-caps.json": "e99f0b9842ef9afcb4ab791f2464aed52ba1397fddbee3ee760cff4516e254b6",
+    "research/astra-direction-83-invariant.py": "a92c1d8f3251bbe33cb6a71d32824e23f069ec7f155fcd6b6c518669795d091d",
+    "research/astra-face-54-check.py": "0c35c8f34a5f97308d60f6503b304e2a6f6e9f1531adf57691fc2fd27adca86d",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-imaginary-84-caps.json": "0e7c981df462550c8283b939f72d5a1cf274be562e7aaef22bc65c7985768a44",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-optimal-82-check.py": "8f26de1d34d608a4a3b92ea7018e586b5a1215f5bf5e993de56e0e450b6403bf",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/endpoint-direction-45-check.py": "9f136e040560c48f72280c05054ca8e6a5045b13f44f19295c4e3f0da10416ed",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "smoothing.py": "39c7a64f2473e3c25d6b06f1e14bb154da4913b451fd9413d64137a26e7e12bb",
+    "square_control.py": "ce5f906833a054edc4943273c82fc20c7aed2217af7ec69cb327d5be72df3122"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/astra-imaginary-84.md": "ccc164a42fbcdd40aee3b87d96c82dc5889b939f58d9ac44f5e385de9d2b93a4",
+    "research/astra-rankfour-57.md": "cc023b623511b254e20691b12067692783b0a95d26453c515ba8ca0e5c2e2c78",
+    "research/astra-ranknext-58.md": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9",
+    "research/astra-direction-83.md": "241d871d9b6c767177f7301bdc85b8b370b0cbafd80dcb23b1b91dcd43a3d62d",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/astra-source-88.md": "80b4849d9f4e43c9a732af10731e6f1c38f895f0c726ad8df4420e591d746f88",
+    "research/cap-curvature-94.md": "ae41b1af6790deb2e0fd3bb80d941631cecf90d9cd4eeb85a89cc912d379cd3b",
+    "research/astra-center-94.md": "3f196f53059ae3a3c173302237521228a0d746db5a90da497c499a60f83db011",
+    "research/clipped-signs-90.md": "69fdd51ffbf485f2c8c5866c433c92ee0d13faeb52cec1fa5acd240b33a52fa7",
+    "research/rotated-cap-93.md": "80fa9a35009d12935e9c25f2e0579c65250c070d3caafc48a9391b67d473274a",
+    "research/astra-velocity-92.md": "f1b94d7a571e92fb54387fd2e09af16ff45610a516b257b8858f462db04b0fa7",
+    "research/parallel-cold-complex-36.md": "6637d3e29a198fa357b0d193a3d256c215e3a81137d4eef215870f7385e43bed",
+    "research/smoothing.md": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95",
+    "research/real-two-marks-91.md": "4be9bd76789d4396330da21fb8073037624324eb939cb0779f6d6ff8000fc2ec",
+    "research/real-phase-projection-89.md": "fabe652d3d6a401ab22d17ea09e5ee5fdfe2b0defd4d2c059aed6ef388c45612",
+    "research/astra-minors-94.md": "dc04a1cfd53ea00cd3adda7b05ca5af9b720f21625e8d0c2c25dbb26056cd36a",
+    "research/astra-contact-91.md": "d8f68c855288a1863d966009734043136c96bf8ea8b7010b7fa0264313a6706c",
+    "research/astra-quotient-94.md": "d74538d6545394d9b59dc6cb10149590ac659555171149037fea7d00961a7861",
+    "research/astra-coset-93.md": "09ac31141d07f30b6b7e261a39962e5631630422f085f7c2564ef8f81ab14d83",
+    "research/terminal-height-79.md": "cce1001c879a8cb511c72da904c1f3a46a49b590c1cddb8f120c26d7e15b5e36",
+    "research/trimmed-mellin-77.md": "b9537739a2109b34159963fb80e82d7305457c9a7cf7c509aaf1565eee22c8df"
+  },
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "/root/depth_95",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Combine consecutive actual physical derivative stages to bridge the gap from the new left edge to the right edge of the nominated square.",
+        "For an intermediate advance combine the new nontrivial inner labels with the compensated unit of the squared rank-five center at fixed outer arity."
+      ]
+    },
+    {
+      "name": "/root/tie_95",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the floor-determined profile's unnormalized root-product excess below the singleton cost, or test the high oriented real column on this same profile.",
+        "Start the near-flat contraction at unit weights and control a counting rather than normalized remainder on the exterior minor tests."
+      ]
+    },
+    {
+      "name": "/root/recur_95",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the true weighted exterior Jacobi forcing across good terminal times via cancellation in its positional fibers, with optional time-dependent tracking and erasures.",
+        "If high transformed sites dominate the square, estimate the true restricted absolute first moment instead."
+      ]
+    },
+    {
+      "name": "/root/audit_95",
+      "model": "gpt-6.2-astra",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use the near-flat real contraction starting at unit bulk to estimate the reconstructed counting excess, treating singleton tails.",
+        "Collect two successive physical derivative stages for the nominated cold square in view of the existing single-vertex obstruction."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "At the nominated cold square bound the fully floor-determined near-flat product excess in counting norm. Sub-singleton cost would give a prime-uniform no-contact test without knowing the actual active labels.",
+    "Continue the actual all-height common section toward the nominated square, prioritizing paired derivative transport over further single-vertex tuning on the nominated square itself. On two-sign survivors examine the sign-centered marked inverse energy or a common holomorphic family of vanishing-mass fixed repairs.",
+    "Test the true transformed exterior activation on the filtered bounded list with both critical cosets in the contracting part. Use the real restricted first moment if large exceptional forcing dominates its signed fiber squares."
+  ],
+  "core_records": 10,
+  "arithmetic_record_counts": {
+    "unforced_all_height_invariance_arb192": 4,
+    "balanced_marked_block_curvature_arb256": 1,
+    "floor_determined_real_profile_arb256": 3,
+    "actual_recurrence_and_prescribed_error_arb384": 2
+  },
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Main replayed all four frozen checkers under pipefail with PYTHONPATH=., .venv/bin/python -B, and matched the ten saved JSONL records byte-for-byte. The independent Astra also completed all four live replays.",
+    "Three Arb192 records cover the overlapping slabs of the actual unforced rectangle with frozen rational caps, including the uniform derivative rate. The fourth compares the same coldest cap with all new pools omitted and certifies its old first-packet overrun.",
+    "The Arb256 block record encloses the actual positive balanced pair at p=173 and a strictly positive fixed-center curvature at t=1/50+17i/1000. It solves the reciprocal complex product derivatives and an independent real fixed-cap linearization.",
+    "The tie checker verifies all constants in the real comparison profile and counts 12 comparison-active sites at a strict p=173 cold pre-contact sample with finer cutoff. The separate p=173 first-contact bracket has all 85 comparison bulk products strictly above one with the near-flat cutoff and counting excess enclosed in (1.50,1.54).",
+    "The Arb384 real recurrence check follows 15 genuine good terminal times at p=97. The separate p=12289 record uses externally prescribed activation and validates only the sharp perturbation construction, with both signs exposed at terminal 80."
+  ],
+  "proof_scope": [
+    "Actual all-height nine-center Picard convergence for the unforced prime row on 16640237 < 2^20 Re t < 16640262 and 2^20 |Im t| < 1 when n >= 10^30. The rectangle overlaps the prior common branch; the normalized second-norm residual is at most 9.308 times 0.526 to the iteration height. The genuine row has zero centered correction and harmonic action on this new connected patch.",
+    "The active complex product response has a signed block energy inequality. Independent diagonal inverse charges bound the full marked curvature. On a regular two-sign smooth patch fixing both signed sums while moving the endpoints removes their two constant directions and gives the exact compressed curvature with a rank-two update. For fixed positive bulk repair profiles the real marked discrepancy is bounded by the square-root product cost, and a vanishing-cost common holomorphic marked family would give the actual theta limit.",
+    "For every fixed floor in the nominated square and 0 < e < 1 the two real positive endpoint problems determine one unique comparison profile. A contraction below 0.000123 holds at e=1-10^-8. The actual deficit quantile and reconstructed counting excess remain necessary at a genuine first contact. At the near-flat cutoff m ties require excess greater than 0.08128 sqrt(m); the wider cutoff e=0.27 yields a separate absolute column threshold greater than 6.72e6/sqrt(n).",
+    "The true zero-start recurrence has strict true Jacobi contraction on the union of the two critical cosets, even with time-dependent enlargement under the stated size condition. An o(J^2) sum of the restricted absolute exterior transform means suffices for recurrent heights to disappear at one selected trapped pin. A separate exact construction establishes the sharp scale for prescribed nonnegative exterior input on the same kernel, without being an actual unforced orbit."
+  ],
+  "independent_review": [
+    "Independent Astra checked the eight nontrivial GL3 label debits against the inherited signed rank-three and scalar pools, the F-squared scalar multiplicity and twist symmetry, the actual unforced packet bound, and overlap and gap arithmetic.",
+    "Independent review checked the block inverses, fixed correction constraints, positivity repair and normal-family argument, including that the fixed positive sums remain local.",
+    "Independent review checked the real reconstruction, strict secants and the counting Jensen bound at a first tie, and checked the true recurrence and prescribed exterior construction scopes."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The new lower edge remains 2277/2^20 above the nominated cold right edge. The all-height convergence on the new patch supplies no all-height bound on the nominated square. The same frozen coldest slab cap fails with the eight debits removed.",
+    "Equal genuine sign totals fail to cancel fixed-cap curvature at the certified finite prime. Local holomorphy by varying the cap at fixed sums has no common path to zero-correction real marks yet. No vanishing-mass fixed product repair has been constructed across all required floors.",
+    "The floor-determined comparison can have positive reconstructed excess before a true tie. Its asymptotic unnormalized upper, needed to exclude even a singleton tie, is open.",
+    "A very small untransformed exterior error can drive persistent local height in the prescribed comparison. The true transformed history estimate remains missing, as does control of the escaped real branch."
+  ]
+}

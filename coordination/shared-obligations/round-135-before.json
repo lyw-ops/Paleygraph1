@@ -1,0 +1,49 @@
+{
+  "captured_at_utc": "2026-11-19T18:00:57.706405Z",
+  "prepared_by": "Codex coordinator",
+  "coordinator": "coordination/round-134.json#next_calls",
+  "coordinator_sha256": "3ac61efe7f80c53ce534bcc0f5c5c5aa5c0a0c19bc2153b8c67b17531f39282e",
+  "call_ids": [
+    "cold-remainder-envelope",
+    "cold-remainder-geometric",
+    "ordinary-window-signed-tail"
+  ],
+  "routes": {
+    "r135/cold-remainder-envelope": {
+      "question": "Can direct signed seed subtraction in the nine-center Laurent envelope certify the exact remaining physical step below 0.472?",
+      "scope": "Use actual V601 and V602 over closed Q, translated P5000 with both boundary pairs and physical t0=n. Subtract the pure-seed coefficients before modulus, price every remaining weight, and give an explicit analytic tail.",
+      "remaining": "Bound the actual nonlinear remainder in physical price at the same frozen heights and square. A separate remainder estimate would suffice at the two center rows; the invariant and half-step sheet margins would still need proof."
+    },
+    "r135/cold-remainder-geometric": {
+      "question": "Can direct geometric relative pricing prove or obstruct the very same remainder norm below 0.472?",
+      "scope": "Use exactly the same actual h=601,602, Q, t0=n and P5000 as the envelope route. Work by signed transport of mixed word weights, relative seed powers or a genuine packet witness. Counting norm and position flatness do not price this norm.",
+      "remaining": "Bound the actual nonlinear remainder in physical price at the same frozen heights and square. A separate remainder estimate would suffice at the two center rows; the invariant and half-step sheet margins would still need proof."
+    },
+    "r135/ordinary-window-signed-tail": {
+      "question": "Can complementary ordinary support bound the signed high seed tail or give true clipped-window parity?",
+      "scope": "Use the actual prime ordinary optimizer, fixed cap at the mark and complementary positive factors with disjoint bulk support. Either upper must be prime uniform in the stated fixed-window order. Avoid positing full optimizer L2 without proof.",
+      "remaining": "Provide a bounded-window parity approximation of the actual ordinary activation and control its signed high tail, or find a direct support-sensitive cancellation argument through all eligible primes."
+    }
+  },
+  "candidate_ids_by_call": {
+    "cold-remainder-envelope": [
+      "cand:cold-pure-seed-remainder-472"
+    ],
+    "cold-remainder-geometric": [
+      "cand:cold-pure-seed-remainder-472"
+    ],
+    "ordinary-window-signed-tail": []
+  },
+  "known_shared": [
+    {
+      "id": "cand:cold-pure-seed-remainder-472",
+      "statement": "For all sufficiently large primes p=1 mod 4, uniformly on the original closed cold square and for h=601 and h=602, the actual physical translated P5000 operator norm of K(D_h-D^J) is strictly below 0.472 with a field-uniform gap. D^J is the full derivative at the Jacobi seed using the actual marked floor n.",
+      "routes": [
+        "r135/cold-remainder-envelope",
+        "r135/cold-remainder-geometric"
+      ]
+    }
+  ],
+  "comparison_status": "assessed",
+  "comparison": "The envelope and geometric calls both test the same one-step actual remainder K(D_h-D^J) below 0.472 in P5000 for h=601,602 on the same closed square and with the same mark. They deliberately share one candidate while testing two distinct mathematical methods. The ordinary weighted-window and signed-tail call is at zero floor and uses the exact ordinary complementary pair, so it needs no cold remainder estimate. All old research runs and independent reviews are terminal; no active prior route is included."
+}

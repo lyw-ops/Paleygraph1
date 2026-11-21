@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "round": 188,
+  "record_status": "ready",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment after an independent agent audit run as a background subagent, prepared while the user was asleep under their instruction to advance rounds autonomously; not human acceptance or mathematical certification)",
+  "sources": {
+    "baseline": {
+      "path": "research/round-187-acceptance.json",
+      "sha256": "edc1d3eb551e96c049cae265dd10c15cadb5b6ea641f5760cd02afa6df26a1d9"
+    },
+    "current": {
+      "path": "research/round-188-acceptance.json",
+      "sha256": "e0face6c633785fa83b9412704fc613744fa7613fcf0b99586182465e684dcc6"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "reformulated",
+      "before": "One-match covariance O(p^(43/24+o(1))) through the Rudnev-Shkredov second norm and the Round 178 point-plane chain, floored at p^(7/4); recorded obligation: a non-affine-energy input and the generic six-word class below p^(9/2). X, M_w = O(p^(4/3+o(1))).",
+      "after": "Theorem A (unconditional for the actual g): ||pi(mu) phi_t||^2 <= p T_0 <= p X uniformly in t, so the one-match covariance is << p^(3/2) + min(W, Gamma_tot/4) X; its method floor is 3/2, not 7/4. Unconditional exponent unchanged at 43/24 (Theorem A alone gives 11/6). The six-word class is no longer necessary: any of T_0 = O(p), X = O(p) logarithm-free, T = O(p^(3/2)), Gamma_tot = O(p^(1/4)) or E_(!=1)(mu) = O(p^2) gives the target; every power saving in X or T_0 lowers the exponent one-for-one (3/2 + epsilon). The 7/4 floor belongs to point-plane pricing of E(mu); Rudnev-Shkredov floors at 13/8. Support-energy thresholds: gamma < 11/24 beats 43/24, gamma < 5/12 below 7/4, gamma <= 1/4 target.",
+      "remaining": "One-match: T_0 - c <= p^(31/24-delta) (beats 43/24) or p^(5/4-delta) (below 7/4), T_0 = O(p) for the target, by an estimate keeping the coupling between g(Y'/Y) and the shifted correlation (decoupled Cauchy-Schwarz gives nothing); or X <= p^(5/4-delta); or Gamma_tot <= p^(11/24-delta). First mass X = O(p^(1+1/1280)) unchanged. Generic J sum O(p^(9/4)) and zero-match unchanged. Fixed-a generic squared mass not re-derived.",
+      "evidence": [
+        {
+          "path": "research/native-claude-ordinary-prime-beyond-point-plane-188.md",
+          "sha256": "cee51251577d7d04c79a290c798dc3980a9153f494d9a87c320b68b9d0721919"
+        },
+        {
+          "path": "research/native-claude-audit-188.md",
+          "sha256": "300664ba3a9dab8e5e699254578f304d1b9798b4cbf61c75ff70ab479a1e9894"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "new_obstruction",
+      "before": "Criterion D reduced to the compact sup growth C_k against 1/q_rho <= 1.9436 (heuristic C_k ~ 2^k); Round 182 non-seed budget 0.2416 under (b1).",
+      "after": "Certified compact seed dimension-price rate lambda_A = 0.49951432..., theta_A = 2.0807846 (between the stated allowance 1.9436 and the angular allowance 2.1610); the J^(+-1) part has an exact Perron vector in Q(sqrt 2) (Round 182 (c3) proved); unconditional sup-rate range [0.24006, 0.49951], so no dimension-price-dominating argument reaches the supported branch; given (ST-down) and (SA) (and (NC), (D), (eta) for the actual increments) the stated Criterion D fails asymptotically. The Perron-weighted price pi_phi is sup-dominating with seed rate <= 0.49951433, C_S = 1, raising the non-seed budget to >= 0.274632 under (b1) at t = a.",
+      "remaining": "A sup-dominating price for the non-seed part B_h (h-linear and higher Taylor terms) with one-step rate below 0.274632 in pi_phi, under (b1), (H1), (H2), uniformly over t in Q and both lifts; or the angular variant of Criterion D with a growing-height L^2 decoupling; plus D2-D4, (b-Jk), (b-T), the stationary domain and derivative transfer. Proved frozen rate stays 1.066.",
+      "evidence": [
+        {
+          "path": "research/native-claude-cold-prime-compact-sup-growth-188.md",
+          "sha256": "9c9b45f15ddb2398df05958c402125400c26056a771d096d7c189d2f7c6b765b"
+        },
+        {
+          "path": "research/native-claude-audit-188.md",
+          "sha256": "300664ba3a9dab8e5e699254578f304d1b9798b4cbf61c75ff70ab479a1e9894"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Round 188 did not move the unconditional one-match exponent (43/24) but replaced the point-plane obligation: Theorem A, agent-accepted and unconditional for the actual g, makes the six-word class unnecessary and turns any saving in T_0 or X into a one-for-one exponent gain, with method floor 3/2. The cold call certified the seed growth rate and conditionally refuted the stated Criterion D, while enlarging the non-seed budget to 0.274632 in the Perron-weighted price. Round 189 follows the audit's ranking with two calls: a coupled bound on T_0 - c, and the non-seed price in pi_phi. The height-one structured-energy call (X <= p^(5/4-delta)) is deferred as lower value. Point-plane / RS pricing of E(mu) for the target, reading the six-word class as necessary, the decoupled Cauchy-Schwarz pricings of T_0, dimension-price-dominating cold proofs, attempts at the stated Criterion D and the weight-list Goursat test at depth are retired. The X form of cand:slope-row-mass-x keeps its value 4/3 + o(1) with a wider use. Round 189 research runs as background subagents.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-intercept-fibre-t0",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "For the actual g with the cap, is T_0 - c = sum_{lambda != 1} g(lambda) Delta(lambda, 0) = sum_{Y != Y'} g(Y) g(Y') g(Y'/Y) sum_{b in Q} g(D_b(Y)) g(D_b(Y')) at most p^(31/24-delta) (beats 43/24) or p^(5/4-delta) (below 7/4), or the averaged T <= p^(7/4-delta); equivalently max_{lambda != 1} Delta(lambda, 0) <= p^(3/4-delta) (resp. p^(2/3-delta)); or is there a method cap for incidence pricings of this sum?",
+      "why_now": "Round 188 Theorem A removed the 7/4 floor; the one-match exponent now depends on T_0 (or X); T_0 <= X discards the triangle weight g(Y'/Y) and loses a factor 4-17 in models, and decoupled Cauchy-Schwarz pricings land at or above 43/24, so the open step is a coupled three-variable incidence estimate that does not need the harder X = O(p^(1+epsilon)).",
+      "scope": "Actual g = |f|^2, omega >= 0, (H3), cap; Theorem A, Proposition B, Lemmas A1-A2 of Round 188 as accepted; Round 187 level extraction, Lemma C and Lemma M' as accepted; Stevens-de Zeeuw or other incidence theorems quoted from source with hypotheses checked at the scales used (sets of size asymp sqrt p, characteristic p); no near-critical input unless marked; exact exponent arithmetic; check against the F_(r^2) control (any saving must use primality). Report any bound on X or Gamma_2 separately (cand:slope-row-mass-x). Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "if_yes": "A one-match exponent below 43/24 (or 7/4); the remaining one-match obligation becomes T_0 = O(p).",
+      "if_no": "A method cap for incidence pricings of T_0; the one-match route then rests on X or Gamma_tot, which coincide with the first-mass and support-energy obligations, and the coordinator weighs it against the zero-match and generic J-sum obligations.",
+      "if_inconclusive": "Return the binding configuration and its size in the models (sector, interval, sumset).",
+      "inputs": [
+        {
+          "path": "research/round-188-acceptance.json",
+          "sha256": "e0face6c633785fa83b9412704fc613744fa7613fcf0b99586182465e684dcc6"
+        },
+        {
+          "path": "research/native-claude-audit-188.md",
+          "sha256": "300664ba3a9dab8e5e699254578f304d1b9798b4cbf61c75ff70ab479a1e9894"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-beyond-point-plane-188.md",
+          "sha256": "cee51251577d7d04c79a290c798dc3980a9153f494d9a87c320b68b9d0721919"
+        },
+        {
+          "path": "research/paley-188-bpp-exponents.py",
+          "sha256": "1651c7fc38a76627b493d21271f001958a7f7299ccf03f75095c304b83645740"
+        },
+        {
+          "path": "research/paley-188-audit-bpp-check.py",
+          "sha256": "d2ee413c6668d101c5cb1cd13e46422fb1938ca1e8809d0bdb98a457fd7e403b"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-level-pair-energy-187.md",
+          "sha256": "5268631747d5ac3757ee328799f4e4205dd19afd5dc28184971a30255304e4b7"
+        },
+        {
+          "path": "research/ordinary-mixed-row-autocorrelation-180.md",
+          "sha256": "357f5058dd8ef16cf330a252680252d77c815ec5f3f6175e86bfa904d68e85aa"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-perron-nonseed-price",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "In the compact model at t = a (then complex t in Q, both lifts), is the one-step norm of the non-seed part B_h of the frozen-base multiplier at V_602 (the h-linear term and all higher Taylor terms) below 0.274632 in the Perron-weighted sup-dominating price pi_phi of Round 188, so that kappa_0 = lambda_A + beta < kappa*; or is the pi_phi ratio of multiplication by the actual simples of h at least the budget?",
+      "why_now": "Round 188 shows (conditionally) that the stated Criterion D cannot hold asymptotically and (unconditionally) that no dimension-price-dominating argument reaches its supported branch; both remaining cold routes need exactly this non-seed price, and the budget grew from 0.2416 to 0.2746 with C_S = 1.",
+      "scope": "Round 182 Proposition 1 / Corollary 2.2 framework; (b1), (H1), (H2) stated as hypotheses or re-proved in pi_phi; (R80) and (R80-4) as inherited; Round 186 Theorem N (size-only prices of h fail) and Round 185 Theorem 3 as accepted; certified outward arithmetic, floating only for orientation; extend the seed certificate to complex t in Q and the second lift. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "if_yes": "The price route closes in the compact model, subject to (b1), (H1), (H2) and the transfer statements; Criterion D is no longer needed.",
+      "if_no": "Per-simple sup-dominating prices of this kind are retired for the cold route; only signed, leaf-cancellation arguments remain.",
+      "if_inconclusive": "Return the certified range for the B_h price and the blocking term.",
+      "inputs": [
+        {
+          "path": "research/round-188-acceptance.json",
+          "sha256": "e0face6c633785fa83b9412704fc613744fa7613fcf0b99586182465e684dcc6"
+        },
+        {
+          "path": "research/native-claude-audit-188.md",
+          "sha256": "300664ba3a9dab8e5e699254578f304d1b9798b4cbf61c75ff70ab479a1e9894"
+        },
+        {
+          "path": "research/native-claude-cold-prime-compact-sup-growth-188.md",
+          "sha256": "9c9b45f15ddb2398df05958c402125400c26056a771d096d7c189d2f7c6b765b"
+        },
+        {
+          "path": "research/paley-188-cold-sup-growth-certify.py",
+          "sha256": "6ddad2ca33c7b3033976a511fb9a5301257e80943f95440388856bc14e8f59bb"
+        },
+        {
+          "path": "research/native-claude-cold-prime-hybrid-price-186.md",
+          "sha256": "6a597c9a88b7b6e370fffe17a97eda014302c245d0c5a254e067cfff4845f738"
+        },
+        {
+          "path": "research/native-claude-cold-prime-picard-leaf-inequivalence-185.md",
+          "sha256": "45515537fbbf9b5b757328259b9efe8a5ebf0105c4765630c6bf07395f858dc1"
+        },
+        {
+          "path": "research/native-claude-cold-prime-signed-nonseed-price-182.md",
+          "sha256": "c8023a9bece7318be9122e2b0ec2ef007780e7b83835bb2eac8e84e91b4161e6"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

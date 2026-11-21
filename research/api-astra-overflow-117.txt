@@ -1,0 +1,124 @@
+## Direct-cap-slack: a checked bound and the remaining obstruction
+
+Let \(0<t\le1\) be fixed, \(M=10\), and let \(U\) be the actual real capped fixed point. For either sign \(\epsilon\in\{\pm1\}\), retain the definitions
+\[
+z=a-\epsilon U,\qquad
+T_{\epsilon,i}=(\epsilon U_i-A)_+\quad(i\ne0),\qquad
+A=\sqrt{100+4t},
+\]
+with \(T_{\epsilon,0}=0\), and
+\[
+c_\epsilon=\max_i\bigl(\epsilon(KT_\epsilon)_i-(z_i)_+\bigr)_+.
+\]
+
+The available cap-defect estimate is
+\[
+\mathbb E_n T_\epsilon\le \frac{\alpha}{2A},
+\qquad
+\alpha=\nu^2-\mu^2.
+\tag{1}
+\]
+
+Using the Jacobi entry bound in the form
+\[
+\|Kh\|_\infty\le \sqrt p\,\mathbb E_n|h|
+\qquad(h\ge0),
+\tag{2}
+\]
+and only the positivity \((z_i)_+\ge0\), one obtains the exact prime-uniform estimate
+\[
+\boxed{
+c_\epsilon\le \sqrt p\,\mathbb E_nT_\epsilon
+\le \frac{\sqrt p}{2A}\,\alpha .
+}
+\tag{3}
+\]
+Since \(A\ge10\), this becomes
+\[
+\boxed{
+c_\epsilon
+\le \frac{\sqrt{p/n}}{20}\,\bigl(\sqrt n\,\alpha\bigr).
+}
+\tag{4}
+\]
+Thus, under the harmless standing ratio bound \(p/n\le3\),
+\[
+c_\epsilon\le \frac{\sqrt3}{20}\,\sqrt n\,\alpha
+\qquad\text{for both signs }\epsilon.
+\tag{5}
+\]
+
+### Consequence
+
+The actual adjusted overshoot does vanish at \(M=10\) if one has the strictly stronger cap-rate premise
+\[
+\alpha=o(n^{-1/2}).
+\tag{6}
+\]
+Indeed (5) gives \(c_\epsilon=o(1)\), uniformly for each fixed \(0<t\le1\) and both signs. Combined with the fixed-cap completion estimate (3) from the projected-cap construction, this yields
+\[
+\limsup_{p\to\infty}\frac{\theta_\epsilon}{\sqrt n}
+\le \sqrt{1+t}
+\]
+at every such fixed floor, and then the usual \(t\downarrow0\) argument applies.
+
+However, (3)–(5) do **not** remove the critical cap-rate premise. If only
+\[
+\alpha\le \frac{B}{\sqrt n},
+\tag{7}
+\]
+then the same argument gives merely
+\[
+c_\epsilon\le \frac{\sqrt3}{20}B,
+\tag{8}
+\]
+which is order one rather than \(o(1)\). Therefore the generic Jacobi \(L^1\)-to-\(L^\infty\) estimate, even with the actual positive slack \((z_i)_+\) retained in the definition of \(c_\epsilon\), does not prove the target through primes.
+
+### Precise quantified failure of the slack-only route
+
+If \(c_\epsilon\ge\delta>0\), then for some coordinate \(i\),
+\[
+\epsilon(KT_\epsilon)_i\ge \delta+(z_i)_+.
+\]
+Consequently, by (2),
+\[
+\mathbb E_nT_\epsilon
+\ge \frac{\delta+(z_i)_+}{\sqrt p},
+\]
+and hence by (1),
+\[
+\boxed{
+\alpha\ge \frac{2A}{\sqrt p}\bigl(\delta+(z_i)_+\bigr).
+}
+\tag{9}
+\]
+At critical scale \(\alpha=O(n^{-1/2})\), this only forces
+\[
+\delta+(z_i)_+=O\!\left(\sqrt{\frac pn}\,\frac1{\sqrt n}\sqrt n\right)=O(1),
+\]
+so it gives no contradiction to a fixed positive \(c_\epsilon\). In particular, a positive amount of actual slack at the maximizing coordinate would help only if it were itself larger than the order-one transport budget; no such lower bound is currently available.
+
+The issue is structural: \(c_\epsilon\) is a **maximum of signed coordinatewise transport after subtracting local slack**, whereas \(\alpha\) controls only the global mass \(\mathbb E_nT_\epsilon\). Without a prime-specific localization or cancellation estimate for \(KT_\epsilon\), the mass can in principle be concentrated where the available slack is small.
+
+### Status
+
+- **Established:** the uniform bound (3), and the explicit \(M=10\) form (5), valid for both signs and every fixed \(0<t\le1\).
+- **Supported implication:** \(\alpha=o(n^{-1/2})\Rightarrow c_\epsilon=o(1)\), hence the fixed-cap completion closes.
+- **Remaining gap:** the desired conclusion \(c_\epsilon=o(1)\) under no cap-rate premise, or even under the critical bound \(\alpha=O(n^{-1/2})\), is not proved.
+- **Exact failure:** retaining the actual slack in \(c_\epsilon\) does not improve the generic estimate unless one controls the locations where \(KT_\epsilon\) is maximal.
+
+### Ranked next tests
+
+1. **Localized transport test:** prove that for every fixed \(\eta>0\),
+   \[
+   \max_{i:(z_i)_+\le\eta}
+   \epsilon(KT_\epsilon)_i=o(1)+\eta
+   \]
+   through primes. This directly targets the only coordinates relevant to \(c_\epsilon\).
+
+2. **High-set/cancellation test:** use the aligned overflow localization from the marked-factor pairing to show that the signed Jacobi transport \(KT_\epsilon\) has cancellation on the small-slack set. A bound of the form
+   \[
+   \max_i\bigl(\epsilon(KT_\epsilon)_i-(z_i)_+\bigr)_+
+   \le o(1)
+   \]
+   under merely \(\alpha=O(n^{-1/2})\) would settle the fixed-cap route.

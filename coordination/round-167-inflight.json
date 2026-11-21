@@ -1,0 +1,61 @@
+{
+  "round": 167,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-166-acceptance.json",
+    "sha256": "dad3aea264ce18ce8a19fff4ee2ec89ec2eed78d2978671fc5addb081723d39e"
+  },
+  "coordinator": {
+    "path": "coordination/round-166.json",
+    "sha256": "943b0c736c1a5cadef97c0e835106724dd88203c9267f6f63c0588d8837a5c4c"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-167.py",
+    "sha256": "6e29003c5a9723df7f0e33a6756458068052de9e241c1bf3f7174a7d3a05c155"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-167-before.json",
+    "sha256": "cd617e6716457c645942a5ae00c3e2a2cfe1798f6d1a9c6231e746f6229bc887"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-large-zero-spectrum",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "207e7ee1d07a071891f1b70570c292b40e70cbb9468396e1be2f57325ede0ef4",
+      "mission_file": {
+        "path": "coordination/missions/round-167/ordinary-prime-large-zero-spectrum.md",
+        "sha256": "f617e96dd5ccf52acf4acf41ed65f498c895539e88cf565c3b115b756e0d1b0a"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r167-api-01a1ed0a/ordinary-prime-large-zero-spectrum-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r167-api-01a1ed0a/ordinary-prime-large-zero-spectrum-candidate.md",
+      "started_utc_epoch": 1795133769.188006
+    },
+    {
+      "call_id": "ordinary-prime-three-Jacobi-covariance",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "5b49df6db8e6c1dc8dd7b38fcd6caf7a1cf3f3456ee0551ce7d53a7007e36971",
+      "mission_file": {
+        "path": "coordination/missions/round-167/ordinary-prime-three-Jacobi-covariance.md",
+        "sha256": "eecaa0dca732a266cc76c89c9a4332bd199740d8fbf65317627354b6049010f1"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r167-api-01a1ed0a/ordinary-prime-three-Jacobi-covariance-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r167-api-01a1ed0a/ordinary-prime-three-Jacobi-covariance-candidate.md",
+      "started_utc_epoch": 1795133769.188403
+    },
+    {
+      "call_id": "cold-prime-outer-source-coefficient",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "c14154831b9dc25d49410b156b4eb19a41287ca1c89bd9ec525e106f22a1631f",
+      "mission_file": {
+        "path": "coordination/missions/round-167/cold-prime-outer-source-coefficient.md",
+        "sha256": "93cb3773de6de41a8b5044d1ed0bb94f43a6c8000bc14d2bf64ea06fe03f8ad8"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r167-api-01a1ed0a/cold-prime-outer-source-coefficient-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r167-api-01a1ed0a/cold-prime-outer-source-coefficient-candidate.md",
+      "started_utc_epoch": 1795133769.1876988
+    }
+  ]
+}

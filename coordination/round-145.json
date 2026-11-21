@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "round": 145,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 145 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-144-acceptance.json",
+      "sha256": "535511b40cc4d5cd786c6bd8dd8bd24603e17b9cb88cac69cfc6544a351cd1b4"
+    },
+    "current": {
+      "path": "research/round-145-acceptance.json",
+      "sha256": "6e4ae6076ec9d4bf14910c64e09300c610bc896f31ab9849e7f123c19aa54ad8"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "reformulated",
+      "before": "Construct approximately feasible positive near-root rows with sublinear true weighted activation and a small signed residual.",
+      "after": "Bulk clipping keeps the true mark, automatically pays o(T) at any L=o(T), and reduces to the one-sided actual deleted-tail pairing. Positive symmetric convolution has exactly the loss-cost convex hull of actual shifts, and asymptotic success selects one near-cap shift.",
+      "remaining": "Establish the prime-uniform one-sided deleted-tail or near-cap terminal estimate at genuine growing marked times. No estimate on optimizer support alone substitutes for the joint cost.",
+      "evidence": [
+        {
+          "path": "research/ordinary-terminal-clipped-shift-145.md",
+          "sha256": "49b618a03e88ac99ca07a05d2f6abc5192fa484eb8bd102b2ead048176d97fcf"
+        },
+        {
+          "path": "research/ordinary-terminal-approximate-face-144.md",
+          "sha256": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "reformulated",
+      "before": "Price the all-order mixed action on canonical C1 using the signed pools and control its analytic tail.",
+      "after": "The entire specified two-boundary-pair class has rates below 0.487 for the marked linear Legendre term and 0.959 for the selected one-step sum. The mixed sum of the two selected orders is below 0.515 and the selected square below 0.920.",
+      "remaining": "Price the actual neglected derivative terms at heights 601 and 602 below 0.041 per step or the two-step error below 0.080. A bound for the full frozen derivative and a nonlinear invariant with a marked half step remain open.",
+      "evidence": [
+        {
+          "path": "research/cold-jacobi-linear-legendre-145.md",
+          "sha256": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1"
+        },
+        {
+          "path": "research/cold-frozen-cross-reduction-138.md",
+          "sha256": "6a4283f05e6c58c7a1a0b581917838d2174303f2a9b82e40e8c1921aa7640225"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/cold-resummed-136.md",
+          "sha256": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161"
+        }
+      ]
+    },
+    {
+      "id": "fixed-masked",
+      "route": "Direct critical cap mask repair",
+      "effect": "unchanged",
+      "before": "The averaged real route works without that critical rate and does not establish the signed critical-window upper.",
+      "after": "Round 130 was on the cold derivative; the previous real obligation remains open.",
+      "remaining": "Control an actual critical endpoint, then its cap jump tails or the exact full true-factor masked statistic.",
+      "evidence": [
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        },
+        {
+          "path": "research/real-masked-cap-adjoint-125.md",
+          "sha256": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Clipping and smoothing are reduced to distinct prime-specific joint costs. The full selected two-pair cold rate is now below one with an explicit budget for the omitted actual derivative.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-deleted-tail",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can genuine prime arithmetic bound the weighted signed deleted tail of a true ordinary optimizer?",
+      "why_now": "Any cutoff L=o(T) now gives the terminal first moment for free; the only remaining debit for this construction is a one-sided correlation with the actual projected score.",
+      "scope": "Use all ordinary primes p=1 mod 4, fixed positive tau, the actual zero-start trajectory, and selectable T tending to infinity with T+1 in the simultaneous window. Seek the bound for both signs or the genuinely larger optimum sign at each p. Use the true optimizer and exact Xi and take tau down after the prime limit.",
+      "if_yes": "Prove E[D Xi]>=-o(1) uniformly with D=1_bulk(F-L)_+ at some L=o(T).",
+      "if_no": "Prove a scoped arithmetic obstruction to the choice of cutoff or the minimization within the true face, keeping the square control separate.",
+      "if_inconclusive": "Give a prime-sensitive bound for the joint F-weighted negative level sets of Xi, or an exact signed decomposition that removes one actual problematic tail range.",
+      "inputs": [
+        {
+          "path": "research/ordinary-terminal-clipped-shift-145.md",
+          "sha256": "49b618a03e88ac99ca07a05d2f6abc5192fa484eb8bd102b2ead048176d97fcf"
+        },
+        {
+          "path": "research/ordinary-terminal-approximate-face-144.md",
+          "sha256": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        },
+        {
+          "path": "research/parallel-depth-window-30.md",
+          "sha256": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf"
+        },
+        {
+          "path": "research/opposite-autocorrelation-73.md",
+          "sha256": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a"
+        },
+        {
+          "path": "research/filtered-support-46.md",
+          "sha256": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e"
+        },
+        {
+          "path": "research/astra-face-54.md",
+          "sha256": "c19832b0d663c99fa08c45e80919865bc5e9ff57efb7930d85a837bb826defd8"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-near-cap-shift-frontier",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can a true ordinary prime optimizer supply one near-cap shift with sublinear actual terminal cost?",
+      "why_now": "For positive convolution both normalized costs are nonnegative, and its best asymptotic choice is equivalent to a single symmetric shift orbit.",
+      "scope": "Use actual even F and G, mark left at zero, true q_s and shifts in the cyclic frequency group. Preserve fixed tau, all ordinary primes and selectable growing marked times. Target the larger sign or both signs. This task does not clip the true row.",
+      "if_yes": "Find a shift with root loss o(sqrt n) and true bulk pair cost o(T), uniformly on the eligible prime family.",
+      "if_no": "Show a mathematically precise obstacle on the near-cap set tied to the prime arithmetic rather than the trivial singleton-cap case alone.",
+      "if_inconclusive": "Use complementary orthogonality and a genuinely prime arithmetic estimate to constrain the shift cost on the near-cap set, with a precise remaining uniform bound.",
+      "inputs": [
+        {
+          "path": "research/ordinary-terminal-clipped-shift-145.md",
+          "sha256": "49b618a03e88ac99ca07a05d2f6abc5192fa484eb8bd102b2ead048176d97fcf"
+        },
+        {
+          "path": "research/ordinary-terminal-approximate-face-144.md",
+          "sha256": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        },
+        {
+          "path": "research/parallel-depth-window-30.md",
+          "sha256": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf"
+        },
+        {
+          "path": "research/opposite-autocorrelation-73.md",
+          "sha256": "0e9dea1c29103b22ee5b345845fc5233abfa137e16634c92a07d9473dc43f92a"
+        },
+        {
+          "path": "research/filtered-support-46.md",
+          "sha256": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e"
+        },
+        {
+          "path": "research/astra-face-54.md",
+          "sha256": "c19832b0d663c99fa08c45e80919865bc5e9ff57efb7930d85a837bb826defd8"
+        }
+      ]
+    },
+    {
+      "id": "cold-actual-remaining-derivative",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the selected contracting cold derivative absorb the omitted terms of the actual height-601 and height-602 rows?",
+      "why_now": "The full selected two-pair norm is now below 0.959 or below 0.920 after two steps. The actual height change is already bounded by 0.017.",
+      "scope": "Use A_h=KD_h for both genuine actual cold rows on the original closed square with t0=n. Let B=K(D^J+D^L), matching the actual chosen Legendre coefficient. Include other center and higher Legendre terms and Picard residuals. Keep the nonlinear invariant and half step separate.",
+      "if_yes": "Establish ||A_h-B||<0.041 at each height or ||A_602 A_601-B^2||<0.080 in the physical two-pair P5000 norm.",
+      "if_no": "Identify an unavoidable exact label or analytic term defeating a specific omitted-block charge, with precise scope.",
+      "if_inconclusive": "Bound one actual omitted sector or reduce the block error to a tractable same-row signed comparison using the true height-change estimate.",
+      "inputs": [
+        {
+          "path": "research/cold-jacobi-linear-legendre-145.md",
+          "sha256": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1"
+        },
+        {
+          "path": "research/cold-frozen-cross-reduction-138.md",
+          "sha256": "6a4283f05e6c58c7a1a0b581917838d2174303f2a9b82e40e8c1921aa7640225"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/cold-resummed-136.md",
+          "sha256": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-quintic-complete-selected-pools-144.md",
+          "sha256": "65d491945951070b9db8565942bcec62ce32784750acfa7d7e417c361c36fa06"
+        },
+        {
+          "path": "research/shifted-resolvent-96.md",
+          "sha256": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36"
+        },
+        {
+          "path": "research/astra-predictor-76.md",
+          "sha256": "65c95ee66e62b321a6b1255ea6c4b4f8bab8a858bc471a22310a76916316f9ef"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which Round 146 claims survive independent mathematical review?",
+      "why_now": "The signs, actual nonnegative costs, physical mark and omitted derivative must all be verified in their own norms.",
+      "scope": "Read only. Distinguish ordinary proof, interval arithmetic, fixed-prime evidence and diagnostic numerics. Verify the actual prime window and actual two cold rows.",
+      "if_yes": "State actual proved scope and two concrete ranked follow-ups.",
+      "if_no": "Locate the first invalid inference.",
+      "if_inconclusive": "Distinguish checked calculations from open bounds.",
+      "inputs": [
+        {
+          "path": "research/ordinary-terminal-clipped-shift-145.md",
+          "sha256": "49b618a03e88ac99ca07a05d2f6abc5192fa484eb8bd102b2ead048176d97fcf"
+        },
+        {
+          "path": "research/ordinary-terminal-approximate-face-144.md",
+          "sha256": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4"
+        },
+        {
+          "path": "research/averaged-hinge-opposite-141.md",
+          "sha256": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26"
+        },
+        {
+          "path": "research/cold-jacobi-linear-legendre-145.md",
+          "sha256": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1"
+        },
+        {
+          "path": "research/cold-frozen-cross-reduction-138.md",
+          "sha256": "6a4283f05e6c58c7a1a0b581917838d2174303f2a9b82e40e8c1921aa7640225"
+        },
+        {
+          "path": "research/cold-paired-height-transfer-139.md",
+          "sha256": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa"
+        },
+        {
+          "path": "research/cold-resummed-136.md",
+          "sha256": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

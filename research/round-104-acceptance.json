@@ -1,0 +1,87 @@
+{
+  "round": 104,
+  "accepted_at_utc": "2026-11-19T12:25:58Z",
+  "previous": "research/round-103-acceptance.json",
+  "previous_sha256": "c1a0913d9a0f9e8bac7013cd983178ea9c6bad4061eaf35420a9974a6383c74c",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-103.json",
+    "sha256": "0f1310d2e5b492cd94de79149695b6f3c3bd6963e2b38833e1f08ef68712b839"
+  },
+  "proof_and_code_sha256": {
+    "research/api-astra-104-receipts.json": "1dc747550c3489bdcfcd489605ed1a79bab169a3ddeb92990ee2e2345c66c819",
+    "research/api-astra-newton-104.txt": "aa899edbd5ab9d6d11dd963e4d111d34590a778ca71e2febeb0b2150bb44ffad",
+    "research/api-astra-overflow-104.txt": "df689641a1132fe5da3c8a8103d7570b41268ca6a3b5525c707123b80ccb679f",
+    "research/api-astra-review-104.md": "15c7cc0638630cb082056196cf3d3d00112c035c978eea7f969e961bbf54deee",
+    "research/cap-overflow-rectangle-104.md": "06cdc9aa345343dd2715cd0e5b3aefcb6a2aa7e276450cf6e672f41720b9ef9d"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/astra-resolvent-102.md": "e9deebe4bfabaedafea85e7118d843714512c7f8d364b3c5ebf38efa94b71d11",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/real-cap-exterior-103.md": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/smoothing.md": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95",
+    "research/translated-newton-103.md": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "status_observed": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, adjacent inverse window",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Price the signed Mellin boundary of Z_(j+1) times the actual diagonal increment times Z_j.",
+        "Test a stronger counting increment scale on the physical orbit if the signed approach fails."
+      ]
+    },
+    {
+      "name": "Gateway Chat Completions, real overflow window",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Control the actual stationary second moment or a weaker quantitative overlap with the overflow.",
+        "Test cancellation of true signed overflow on the correct Jacobi kernel."
+      ]
+    },
+    {
+      "name": "/root/audit_104",
+      "status": "completed",
+      "ranked_closeout": [
+        "Retain the actual q^j factor in a signed adjacent resolved kernel before summation at growing depths.",
+        "Test the restricted signed true overflow rectangle jointly with the n^(-1/2) mean defect."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Estimate the signed adjacent translated resolvent kernel on genuine growing-depth disks before summing, with normalized and counting increment norms kept separate.",
+    "Test the restricted signed Jacobi rectangle from the actual overflow level and high true stationary source, and seek the corresponding n^(-1/2) cap-defect estimate.",
+    "Retain an independent terminal actual-velocity law or price dual on the original recurrent candidates, together with its triangular and predecessor requirements."
+  ],
+  "proof_scope": [
+    "If the genuine real cap defect is O(n^(-1/2)) along a prime sequence at one fixed positive t and M and the true log mark stays nonzero, the real comparison forces two sets of size comparable to sqrt(n). The sending set is one strict level of a bounded signed truncation of the genuine overflow. The receiving set consists of genuine positive stationary source coordinates of size at least a fixed multiple of sqrt(n), with the mark removed. A signed mean K transport over that rectangle is bounded below by a positive constant.",
+    "A direct resolved difference gives an entrywise propagated bound depending on the counting first norm of the diagonal difference, and an alternate bound depending on its counting second norm. The actual normalized increment envelope costs n and sqrt(n) respectively in these estimates. The corrected bounds require starting translated control and do not yet furnish it at increasing depth.",
+    "The signed true real overflow's interaction is bounded above by alpha+sqrt(alpha) times the true normalized second distance. The mark has a uniform real secant gap at every fixed floor by the trivial physical O(sqrt(n)) bound. A prescribed even centered row on the actual Jacobi operator can have alpha=O(n^(-1/2)) and a fixed positive transported maximum; its construction makes no claim about genuine fixed points."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The adjacent-inverse API draft's size factor is based on an unnormalized uniform initial increment. The actual data furnish only a uniform normalized cap. The raw draft is retained and the counting quantities are corrected in review.",
+    "The overflow API draft uses a vertex-space constant-modulus character kernel in place of the genuine Fourier-space Jacobi kernel. Its proposed construction does not follow as written; the reviewed prescribed obstruction uses the authentic row squared norm and entry bound.",
+    "The through-primes cap mean bound at the critical rate, arithmetic exclusion of the genuine rectangle, and the growing-depth physical translated bound all remain open. No new finite certificate or original theta result is asserted."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificate. API receipts bind dispatch digests, completion status, returned model labels and token metadata; outputs are kept as drafts."
+  ],
+  "independent_review": [
+    "Read-only auditor checked the cap rectangle signs, mass and size bounds, bounded truncation and layer cake.",
+    "Auditor checked counting versus normalized diagonal norms, actual marked row inversion symmetry and the even centered nonstationary construction."
+  ]
+}

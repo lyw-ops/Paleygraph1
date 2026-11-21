@@ -1,0 +1,26 @@
+{
+  "reviewed_by": "Blind overlap review by the independent audit session session/r184-audit (local_c242b61c), written before it opened any shared-obligation, draft or inflight file (research/native-claude-audit-184.md section 1); classification against the pre-dispatch record by the Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment).",
+  "comparison": "Auditor's blind answer: SRM-COLD and SE-COLD independent. SRM-SE shared-input, one-directional, not duplicated. The common quantity is Gamma_2 = sum_{x != 1} g(x)^2 = n E(nu) - 1, which on (NC) equals sqrt p (E(S)/|S|^3 + o(1)) (Round 183 Proposition 1.4). SE studies it; SRM's Lemma Y, X <= R_* M_1 <= Gamma_2 M_1 <= (G-1)^2 Gamma_2 (the Round 182 Young bound in row form), turns a power bound Gamma_2 = O(p^gamma) into X = O(p^(1+gamma)), which moves the one-match exponent for gamma < 3/8 (SRM Proposition 1, corrected threshold) and closes the first mass for gamma <= 1/1280. The qualitative SE question E(S)=o(|S|^3) gives only X = o(p^(3/2)) and moves nothing; SE's overlap dichotomy (Theorem 2) concerns the multiplicative Fourier coefficients of g at level 1/2 and does not feed X. Both reports also reached independently a common blocking configuration (a geometric progression or multiplicative Bohr set of size asymp sqrt p on which chi(1-x) is nearly constant), on which they need different estimates (SE: non-concentration of the shifted character sum; SRM: E^x(1-P) = O(|P|^(2+o(1)))); that is a shared configuration, not a shared estimate, and is not counted as a group. Coordinator classification against the pre-dispatch record: that record dispatched the two ordinary calls as independent and stated that sum g^2 enters X only through the diagonal term; it missed the Young upper bound X <= (G-1)^2 Gamma_2, already recorded in Round 182 as the light-level barrier and as (G2) in Round 183. The shared estimate (a power bound on Gamma_2) is therefore recorded as missed. Had it been seen, the support-energy mission would have been rewritten to ask for a power rate on the exact n E(nu) - 1 rather than the qualitative o(|S|^3).",
+  "groups": [
+    {
+      "id": "cand:near-critical-square-mass",
+      "routes": [
+        "r184/ordinary-prime-near-critical-slope-row-mass",
+        "r184/ordinary-prime-near-critical-support-energy"
+      ],
+      "classification": "missed",
+      "math_evidence": "research/native-claude-audit-184.md section 1 and verdict SRM (a3): Gamma_2 = n E(nu) - 1 = O(p^gamma) gives X <= (G-1)^2 Gamma_2 = O(p^(1+gamma)) by Lemma Y (Round 182 Young bound), which is sufficient for both SRM targets (gamma < 3/8 for the one-match use, gamma <= 1/1280 for X); SE studies exactly Gamma_2 on (NC) through Round 183 Proposition 1.4.",
+      "prior_evidence": "coordination/drafts/round-184-dependency-assessment.json dispatched the calls as independent with known_shared [] and stated that sum g^2 enters X only through a harmless diagonal term.",
+      "dispatch_effect": "change",
+      "effect_reason": "The calls themselves would stand, but the support-energy mission (ordinary-prime-near-critical-support-energy) would have been rewritten to ask for a power rate on the exact n E(nu) - 1 with the threshold stated, because its qualitative question could not move any exponent; the Young bound was visible before dispatch from Round 182 and Round 183 (G2)."
+    }
+  ],
+  "dispatch": "coordination/round-184-inflight.json",
+  "launched_at_utc": "2026-11-20T18:19:35.455746Z",
+  "launched_calls": [
+    "ordinary-prime-near-critical-slope-row-mass",
+    "cold-prime-h1-product-rule",
+    "ordinary-prime-near-critical-support-energy"
+  ],
+  "before_sha256": "e9d33d4d00e2e208fbcad567720e94a2206ce85b10c52040d328e1ec592e2f2f"
+}

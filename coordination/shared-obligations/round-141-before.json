@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T19:28:24.731930Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-140.json#next_calls",
+  "coordinator_sha256": "42d7debff588c26e1a1b7e6921e616f9099ea48188ae82b99df2cf82512033a9",
+  "call_ids": [
+    "ordinary-signed-hinge-image",
+    "cold-first-mixed-inverse-collision",
+    "cold-unseparated-pullback-action"
+  ],
+  "routes": {
+    "r141/ordinary-signed-hinge-image": {
+      "question": "Can the actual normalized hinge have vanishing signed spill on ordinary primes in the proved simultaneous marked window?",
+      "scope": "True zero-start projected Picard average over eligible primes p=1 mod 4 at fixed positive tau, then tau down to zero. Use real actual endpoint defects, their correct opposite-sector projector and the genuine growing marked window. Compare square controls without using them as prime counterexamples.",
+      "remaining": "Bound prime-uniform signed spill or the weighted hinge against a true opposite optimum, preserving the prime-first and vanishing floor limits. Local feasibility does not prove full row positivity."
+    },
+    "r141/cold-first-mixed-inverse-collision": {
+      "question": "What survives at x=-1 in the first actual seed plus Legendre mixed inverse term after pure subtraction?",
+      "scope": "Use the actual Legendre center following K C2 and the Jacobi seed, raw t0=n and original closed square. At x=-1 use u=x/z and x^2, retain arithmetic quadratic mates and boundary exceptions. Distinguish local vanishing cycles in x from global H_c^2 in z.",
+      "remaining": "Determine actual mixed local geometry and a weighted whole-operator price below the frozen budgets, then establish half-step and genuine invariant confinement."
+    },
+    "r141/cold-unseparated-pullback-action": {
+      "question": "Can the one-branch pullback give a signed packet estimate after acting on a translated input, with collision terms kept in the complete two-step operator?",
+      "scope": "Use actual same-row height 601 and pure seed on the original closed square, P5000 and both trace lift pairs. Include z=1 and the c=1 inverse line. Starting with one actual seed/nonseed word is allowed if its scope is exact.",
+      "remaining": "Determine actual mixed local geometry and a weighted whole-operator price below the frozen budgets, then establish half-step and genuine invariant confinement."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-signed-hinge-image": [],
+    "cold-first-mixed-inverse-collision": [],
+    "cold-unseparated-pullback-action": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The real actual weighted hinge estimate is independent of cold transport. The local first mixed x=-1 inertia question and the complete unseparated physical pullback acting on a translated actual packet use related fields but have distinct exact statements and scopes. Knowing the local collision does not itself price the complete operator, and the complete bound is not the same as a local inertia computation. All R140 selected research lanes have closed."
+}

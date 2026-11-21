@@ -1,0 +1,123 @@
+## Result
+
+For the true prime family, with physical
+\[
+n=\frac{p-1}{2},
+\]
+the original square \(Q\), both lifts, the genuine height-\(602\) row \(V_{602}\), and the actual map \(K\Phi_t\), the cited estimates do **not yet prove** confinement through
+\[
+m_n=602+\left\lceil \frac47\log_2 n\right\rceil .
+\]
+
+They do, however, reduce the problem to one precise missing operator estimate. If the existing scalar derivative bound \(q=0.535\) can be transferred to coordinate supremum norm, then the desired radius-\(0.05\) confinement and strict terminal clearance follow immediately.
+
+### Conditional signed-orbit argument
+
+Let
+\[
+R_h=V_{h+1}-V_h,\qquad a:=\sup_{Q,\text{ lifts}}\|R_{602}\|_\infty.
+\]
+The verified outgoing estimate gives
+\[
+a<0.01272.
+\]
+
+Assume, in addition, that throughout the coordinate polydisk
+\[
+\mathcal P_{0.05}
+ =\{V:\|V-V_{602}\|_\infty\le 0.05\},
+\]
+the actual derivative satisfies the coordinate operator estimate
+\[
+\|K D\Phi_t(V)\|_{\infty\to\infty}\le q=0.535.
+\tag{A}
+\]
+The curvature computation in the cited material supports the scalar part of this claim:
+\[
+|\Phi_t'(z)|<0.518+0.05(0.255)<0.535
+\]
+on the radius-\(0.05\) disks, including the physical marked coordinate for sufficiently large eligible primes. What is not supplied is the required \(\ell^\infty\)-operator estimate for \(K\).
+
+Under (A), convexity of the polydisk gives
+\[
+\|R_{602+r}\|_\infty\le q^r a.
+\]
+Therefore, for every \(j\ge1\),
+\[
+\|V_{602+j}-V_{602}\|_\infty
+ \le a\sum_{r=0}^{j-1}q^r
+ <\frac{0.01272}{1-0.535}.
+\]
+Numerically,
+\[
+\frac{0.01272}{0.465}=0.027354838\ldots<0.05.
+\]
+Hence every actual row through \(m_n\), indeed every later row for which (A) remains valid, stays in the radius-\(0.05\) polydisk. The uniform boundary clearance is at least
+\[
+0.05-\frac{0.01272}{0.465}
+ =0.022645161\ldots.
+\]
+Thus the terminal slack would be strictly larger than \(0.0226\), uniformly in \(n\), and the finite-prefix hypothesis required by the logarithmic-tail argument would be established.
+
+The first three verified actual displacements are consistent with this conclusion:
+\[
+P_{5000}(R_{602})<0.01272,\qquad
+P_{5000}(V_{604}-V_{602})<0.02645,\qquad
+P_{5000}(V_{605}-V_{602})<0.04162.
+\]
+Since \(P_{5000}\) dominates coordinate supremum on the relevant unshifted packet class, these establish the first three physical steps inside the radius-\(0.05\) tube.
+
+## Precise remaining gap
+
+The available derivative argument proves only
+\[
+\|K D\Phi_t(V)\|_{2\to2}\le 0.535
+\]
+in the normalized/counting second norm, using \(\|K\|_{2\to2}\le1\) and the scalar derivative bound. It does **not** prove (A).
+
+The conversion
+\[
+\|x\|_\infty\le \sqrt n\,\|x\|_{2,n}
+\]
+is too weak for the initial part of the orbit. It gives
+\[
+\|R_{602+r}\|_\infty
+ \le \sqrt n\,q^r\|R_{602}\|_{2,n},
+\]
+and summing from \(r=0\) does not yield an \(O(1)\), let alone \(<0.05\), displacement bound unless one has an additional small initial normalized-\(2\) estimate or a signed smoothing estimate. The fact that
+\[
+\sqrt n\,q^{\lceil(4/7)\log_2n\rceil}=o(1)
+\]
+is useful only after sufficiently many steps; it does not control the early prefix.
+
+Likewise, the available translated price estimate
+\[
+P_{5000}(R_{h+1})\lesssim 1.066\,P_{5000}(R_h)+P_{5000}(R_h)^2
+\]
+does not close the growing argument: its linear coefficient exceeds \(1\). This is a failed sufficient bound, not an obstruction to the actual prime orbit.
+
+The known fixed-height entrywise resolvent estimate at height \(602\), with decay \(O(n^{-0.455})\), also does not by itself supply a translated operator estimate for the moving rows \(V_h\).
+
+## Assessment
+
+- **Supported:** The radius-\(0.05\) tube has ample formal slack. A signed contraction with rate \(0.535\) in a norm dominating coordinate supremum would imply confinement through the logarithmic cutoff with terminal clearance \(>0.0226\).
+- **Not proved:** The transfer of the scalar/normalized-\(2\) derivative bound to the required coordinate or signed packet norm.
+- **Not refuted:** No genuine obstruction has been found for the true physical prime family, original square, both lifts, or \(t_0=n\).
+- **Separate obligation:** Derivative transfer beyond the finite prefix remains independent.
+
+## Ranked next tests
+
+1. **Highest priority: prove a mixed signed operator bound on the physical tube.**  
+   Establish, uniformly on \(Q\), both lifts, and \(\mathcal P_{0.05}\), an estimate of one of the forms
+   \[
+   \|K D\Phi_t(V)x\|_\infty\le0.535\|x\|_\infty,
+   \]
+   or
+   \[
+   P_{5000}(K D\Phi_t(V)x)\le q\,P_{5000}(x)
+   \quad(q<1),
+   \]
+   with the packet price still dominating coordinate supremum. The first would complete the geometric-series proof above; the second would also suffice if its signed price is propagated from the verified \(R_{602}\).
+
+2. **Second priority: obtain a genuinely signed growing-depth packet estimate.**  
+   Retain the actual base pair, physical marked radicand \(4n+z^2\), and the two-lift representation, but improve the unsigned \(1.066\) transfer to a signed rate \(<1\), or prove a finite-to-growing estimate whose cumulative rate is \(<0.05/0.01272\). A bound of this kind would replace the missing coordinate operator estimate and directly establish the actual prefix through \(602+\lceil(4/7)\log_2n\rceil\).

@@ -1,0 +1,115 @@
+## Result
+
+No checked proof of the target \(<0.330\) is available from the supplied record. The strongest certified statement is the existing resummed upper
+\[
+\|K E_h^{(1)}\|_{P_{5000}}<0.527,\qquad
+\|K(E_h-E_h^{(1)})\|_{P_{5000}}<0.142,
+\]
+hence
+\[
+\|K E_h\|_{P_{5000}}<0.666,
+\]
+for \(h=601,602\), uniformly on the closed square \(Q\), for all sufficiently large eligible primes.
+
+Here the prime family is
+\[
+p\equiv1\pmod 4,\qquad n=(p-1)/2,
+\]
+with the fully marked physical \(P_{5000}\) product, \(t_0=n\), and \(t_i=t\) off the marked coordinate. The physical marking is retained throughout; named center fields are not identified with the actual Picard residual.
+
+The known nonlinear contribution is \(<0.142\). Therefore a linear estimate \(<0.330\) with strict slack would indeed meet the \(0.472\) remainder budget, but that estimate has not been established.
+
+## Exact identity that is available
+
+Let \(S\) be the Jacobi seed and \(C_h=V_h-S\) the actual nonseed row. In the good full Mellin expansion, the seed contributes
+\[
+s_n(L+L^{-1})/2,\qquad s_n=2\sqrt{p/n}.
+\]
+
+Fix:
+
+- an actual word \(W\) of \(j\) nonseed center fields from \(C_h\);
+- its actual independent lifts;
+- a Laurent exponent \(k\).
+
+Then every derivative order contributing to the same Laurent monomial produces the same Mellin object
+\[
+L^kW.
+\]
+Consequently, the coefficients may be summed before taking absolute values. The collected coefficient is
+\[
+c_{j,k}
+=
+\sum_{\ell\ge 0}
+ \frac{(-1)^\ell\binom{2\ell}{\ell}}
+      {4^\ell(2\sqrt t)^{2\ell+1}}
+ \binom{2\ell+1}{j}
+ \left(\frac{s_n}{2}\right)^{2\ell+1-j}
+ \binom{2\ell+1-j}{(2\ell+1-j-k)/2},
+\]
+with only admissible integral binomial indices retained.
+
+This is a genuine exact returning-label identity: the repeated seed powers return to the identical Mellin object \(L^kW\). It is valid without identifying distinct nonseed words merely because they have equal numerical boundary weights. The physical marking and the actual lift data remain attached to \(W\).
+
+However, this does **not** identify different eight-center nonseed words with one another. The supplied record does not provide a verified dictionary showing an equality such as
+\[
+W_1=W_2
+\]
+for two distinct actual eight-center words, nor does it give the corresponding signed coefficient table. Thus the available identity is seed-power collection, not the sought cross-center cancellation.
+
+## Evidence against the currently available route
+
+After collecting the seed powers, the nonseed words are still bounded by a positive envelope \(\beta\). The resulting comparison is
+\[
+\gamma_j*\beta^{*j},
+\]
+with residual corrections bounded by
+\[
+j\varepsilon\|\gamma_j\|_{\rm tilt}
+(\|\beta\|_{\rm tilt}+\varepsilon)^{j-1},
+\qquad \varepsilon=5\cdot10^{-7}.
+\]
+
+The outward replay gives the eventual physical bounds quoted above. It also gives a positive-comparison obstruction: restricting the height-601 resummed transport to weights \(1,\dots,12\), a positive witness satisfies a componentwise lower inequality with rate \(>0.570\). This proves that merely repricing that positive comparison cannot reach \(0.472\), much less \(0.330\).
+
+That \(0.570\) lower bound is **not** a lower bound for the actual signed \(K E_h\). It only shows that the current positive envelope has discarded too much cancellation.
+
+Likewise, the \(0.6404\) lower bound from the first unsigned linear and cubic remainder orders is only a lower bound for that specified unsigned comparison. It does not refute the actual signed remainder.
+
+## Precise remaining gap
+
+The missing statement is an exact signed identity or joint signed block estimate for the actual eight-center nonseed row. Concretely, one needs one of the following.
+
+1. **Returning-label identities.** A verified equality of actual trace objects, including all marks and lifts, for distinct eight-center words, together with the summed signed coefficients attached to that common object.
+
+2. **A signed block estimate.** A finite signed Mellin transport matrix for the eight-center nonseed sector, with exact arithmetic labels and determinant/weight shifts preserved, whose \(P_{5000}\) rate is \(<0.330-\delta\) for some explicit \(\delta>0\).
+
+The supplied material does not establish either. It also does not establish the separate half-step margin, invariant-ball margin, or confinement at genuinely growing depth. The statements for \(h=601,602\) are frozen-height eventual estimates; the \(O_{5000}(n^{-1/2})\) repairs vanish only after taking \(n\to\infty\) for those fixed rows. They do not by themselves justify a depth limit \(h=h(n)\to\infty\).
+
+## Ranked next tests
+
+### 1. Extract and certify the actual eight-center label table
+
+For each of the eight named nonseed center fields in \(C_h\):
+
+- record its full Mellin trace label, lift, determinant exponent, boundary pair, and physical mark;
+- enumerate products of up to the retained nonseed arity;
+- canonicalize only by exact trace identities, inversion, duality, or an explicitly proved finite-field convolution identity;
+- retain distinct labels even when their numerical boundary weights coincide;
+- collect the signed coefficients before taking modulus;
+- feed the resulting signed blocks into the \(P_{5000}\) transport.
+
+This is the highest-value test because it directly addresses the missing cancellation and can produce either a strict \(<0.330\) bound or an exact arithmetic obstruction. It must be run for both \(h=601\) and \(h=602\), with the physical mark retained, and then checked uniformly on \(Q\).
+
+### 2. Test a finite signed transport obstruction on the first returning blocks
+
+If the full table is too large, begin with the smallest words that can return to the original Mellin label:
+
+- arity two and three products of the eight nonseed centers;
+- inverse/dual pairs;
+- determinant shifts returning to zero;
+- the marked-coordinate correction separately.
+
+Construct the exact signed transport matrix on a finite weight strip and compute an outward interval upper and lower bound for its \(P_{5000}\) rate. If its signed rate already exceeds \(0.330\), record the precise arithmetic obstruction; if it falls below \(0.330\), propagate the block through the remaining seed powers and analytic tail.
+
+Neither test should identify fields by equal weights alone. The required order of limits is: first prove uniform estimates on the fixed square \(Q\) and for the actual marks, then take \(n\to\infty\) along \(p\equiv1\pmod4\); only after that can one assess any \(h\)- or depth-growing confinement claim.

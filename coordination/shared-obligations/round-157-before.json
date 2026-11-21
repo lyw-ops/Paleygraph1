@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-19T22:32:42.227191Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-156.json#next_calls",
+  "coordinator_sha256": "057da6cc0c5427050c320475b826373285efa2eb3217667e3f6bea864051368b",
+  "call_ids": [
+    "ordinary-prime-three-root-slope-cancellation",
+    "ordinary-prime-additive-sign-coupling",
+    "cold-full-rank-three-unit-collection"
+  ],
+  "routes": {
+    "r157/ordinary-prime-three-root-slope-cancellation": {
+      "question": "Can the separated three-root kernel yield a new ordinary-prime bound for a growing set of favorable slopes?",
+      "scope": "Keep the complete u Jacobi average and three-root z kernel with actual lifted weights and a third genuine slope factor. Keep the correct favorable sign and exact normalized errors.",
+      "remaining": "Find a coupled ordinary-prime upper on the same law, via a many-slope slice of the complete kernel or one of the frequency signs. The earlier adaptive face upper remains open."
+    },
+    "r157/ordinary-prime-additive-sign-coupling": {
+      "question": "Can one bound a nonzero additive frequency half of the favorable form, using the actual law nu_a M_a and the factor 1±k(a)?",
+      "scope": "Use the original actual selected b, full short-block sign and quantitative pin, both physical signs, and true ν. Distinguish k(a) from within-set k(a-b) and isolate all error terms.",
+      "remaining": "Find a coupled ordinary-prime upper on the same law, via a many-slope slice of the complete kernel or one of the frequency signs. The earlier adaptive face upper remains open."
+    },
+    "r157/cold-full-rank-three-unit-collection": {
+      "question": "How much does a complete rank-three unit merge across common Laurent and Legendre labels improve the true translated two-height bound?",
+      "scope": "Use actual heights, t0=n, both lifts, translated P5000 and known arithmetic units. Pair disjoint exact charge slots before absolute values. Preserve all residual and analytic loss allowances.",
+      "remaining": "Obtain large signed gains through more arithmetic labels or a different confinement. The direct target 0.51961239, nonlinear invariant and half-step remain open."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-three-root-slope-cancellation": [],
+    "ordinary-prime-additive-sign-coupling": [],
+    "cold-full-rank-three-unit-collection": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The first prime task asks for a signed ordinary-prime bound on the complete separated slope kernel. The second examines one exact positive additive frequency form and the original mark-to-anchor law. They share an ultimate upper but use different immediate obligations; the prime conditional lower is a prior input to both. The cold estimate is independent."
+}

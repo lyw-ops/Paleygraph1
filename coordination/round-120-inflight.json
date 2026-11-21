@@ -1,0 +1,35 @@
+{
+  "round": 120,
+  "dispatch_status": "terminal; response saved and independently reviewed",
+  "accepted_checkpoint": {
+    "path": "research/round-119-acceptance.json",
+    "sha256": "ac8cd476c1defe1042339f9c6fed908b59718975d3cef786f20cc6a285867a91"
+  },
+  "coordinator": {
+    "path": "coordination/round-119.json",
+    "sha256": "08d3b818ca80872299b98e82c238fbffdca5de186791e2cab60bbd7ff93c7b57"
+  },
+  "call_id": "reflected-two-step",
+  "model": "gpt-6.2-astra",
+  "prompt_sha256": "e38fa5b02ebd7bbc07924c18972d4074006489912bb3ae78fab7dbcd8524cefe",
+  "started_utc_epoch": 1795100248,
+  "local_session_id": 41945,
+  "mission_file": "/tmp/paley-r120-overflow-mission-01a1ed0a.md",
+  "pending_receipt": "/tmp/paley-r120-api-01a1ed0a/overflow-receipt.json",
+  "pending_candidate": "/tmp/paley-r120-api-01a1ed0a/overflow-candidate.md",
+  "next_step": "Use the checked Round 120 coordinator before dispatching new calls.",
+  "audit_agent": "/root/audit_120",
+  "local_draft": "research/reflected-offmark-cubic-120.md",
+  "response": {
+    "path": "research/api-astra-overflow-120.txt",
+    "sha256": "6184ba8970f2622b5af1ed00e3188ff0feadcf3cb4ee9a7e665b545874a06b6b"
+  },
+  "receipt": {
+    "path": "research/api-astra-120-receipt.json",
+    "sha256": "d7eae620a64ec61e95e36e8ea2106719d2d9ffe49d9cf695e2ee185b76f2ba48"
+  },
+  "acceptance": {
+    "path": "research/round-120-acceptance.json",
+    "sha256": "e2993e8da474b342f30f33936f8bc435023a073624fb1cd8fa30dfcbb9500c04"
+  }
+}

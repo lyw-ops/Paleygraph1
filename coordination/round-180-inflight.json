@@ -1,0 +1,55 @@
+{
+  "round": 180,
+  "dispatch_status": "Native Claude subagents; started_utc_epoch is recorded immediately before launch, agent IDs are added after launch",
+  "provider": "Claude Code native subagents (Claude Opus 5.5); GPT gateway unavailable: HTTP 403 insufficient_user_quota observed 2026-11-20",
+  "accepted_checkpoint": {
+    "path": "research/round-179-acceptance.json",
+    "sha256": "2c7ee0603b7d5ebdac1773b4b43573530fcacc84c81f2e8b345b0fdafd1ec414"
+  },
+  "coordinator": {
+    "path": "coordination/round-179.json",
+    "sha256": "0d2b2f3633381aa466d6cd694d8380cdab8f0c6b54af01385fd0e33eacda2741"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-180-before.json",
+    "sha256": "e8f9b90a593052d830b2810df7932ae30ff854eb254e0f91e2c319272554fc4f"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-paired-J-fibers",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-180/ordinary-prime-paired-J-fibers.md",
+        "sha256": "699a9833a05be33effbb37157183c4adb919b171b7fde22e286538c2eda519f6"
+      },
+      "pending_candidate": "/private/tmp/claude-501/-Users-lyuyuwei--claude-spares-spare-6UwrMo/5c2fbe9f-e42f-418e-9bd9-cc365745ecfe/scratchpad/r180/ordinary-prime-paired-J-fibers-candidate.md",
+      "started_utc_epoch": 1795144332.1656058,
+      "timestamp_role": "immediately before launch",
+      "agent_label": "native-claude/J_fibers_180"
+    },
+    {
+      "call_id": "cold-prime-signed-growing-prefix",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-180/cold-prime-signed-growing-prefix.md",
+        "sha256": "ebf72e839bc0149ab92f96f4926654ecba50f16f7389026b32e7f0c6b5254054"
+      },
+      "pending_candidate": "/private/tmp/claude-501/-Users-lyuyuwei--claude-spares-spare-6UwrMo/5c2fbe9f-e42f-418e-9bd9-cc365745ecfe/scratchpad/r180/cold-prime-signed-growing-prefix-candidate.md",
+      "started_utc_epoch": 1795144332.165633,
+      "timestamp_role": "immediately before launch",
+      "agent_label": "native-claude/cold_prefix_180"
+    },
+    {
+      "call_id": "ordinary-prime-mixed-row-slope-product",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-180/ordinary-prime-mixed-row-slope-product.md",
+        "sha256": "932c5a89f46852748bfa56d4e759a4f6364892bb71202f91bc80fd9a04608cd4"
+      },
+      "pending_candidate": "/private/tmp/claude-501/-Users-lyuyuwei--claude-spares-spare-6UwrMo/5c2fbe9f-e42f-418e-9bd9-cc365745ecfe/scratchpad/r180/ordinary-prime-mixed-row-slope-product-candidate.md",
+      "started_utc_epoch": 1795144332.165656,
+      "timestamp_role": "immediately before launch",
+      "agent_label": "native-claude/slope_rows_180"
+    }
+  ]
+}

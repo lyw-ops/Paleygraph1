@@ -1,0 +1,43 @@
+**Inconclusive for exclusion.** There is a reciprocal-product budget that charges the favored factor *twice* on the transported high bulk: once through its conditional Jacobi row and once through its mass on the conditioning set. The opposite factor enters the budget through its actual marked row, not through an upper bound for its mixed cubic.
+
+Use the supplied fixed-floor, critical cap-rate hypotheses on the same late block and prime subsequence as in R112. Write \(q=\nu/2\), \(g_-=f_{-\epsilon}/\sqrt n\), and \(E=\mathbb E_n\). Fix the small constants \(\eta,c_*>0\) from the transport lower bound, decreasing \(c_*\) if necessary. Take \(H\) to be the off-mark sites with \(g\ge\eta\) where **both** \(\epsilon K(h^2)\) and \(\epsilon K(1_C h^2)\) are at least \(c_*\). The uniform core replacement gives \(|H|\asymp\sqrt n\). Define
+\[
+ S=\sqrt n\,E[1_Hg],\qquad
+ d=\sqrt{n/p}\big(\mathbb E_{c\in H}g_c-Eg\big),\qquad
+ b_*=\sqrt{n/p}\,(g_{-,0}-Eg_-),
+\]
+where the conditional mean is uniform on \(H\), not favored-mass weighted. In particular \(S\gtrsim1\) and \(d\ge\sqrt{n/p}(\eta-Eg)\).
+
+Here is a prime-by-prime necessary inequality. For \(0\le u,v\le1\), put \(z(y)=\epsilon k(y)\) and \(J_v=E\sqrt{1+v z}\). Then
+\[
+ \boxed{\quad
+ [q-u d-(1-u)S]\,[q-v b_*]
+ \ \ge\ t\,\big(J_v-O(n^{-1/4})\big)_+^2 .
+ \quad}                                                     \tag{1}
+\]
+The error is uniform in \(u,v\) at fixed transport thresholds and fixed obstruction parameters. In particular \(u\) can be chosen *after* conditioning. The prime statistic \(J_v\) uses the genuine Jacobi row, while \(b_*\) uses the true opposite mark \(g_{-,0}=e^{-\epsilon\gamma}\). No square-field model or change of trajectory is involved.
+
+**Proof.** Form the conditional signed row
+\[
+ R(y)=\epsilon\,\mathbb E_{c\in H} k(c-y)
+     =\frac{\epsilon K1_H(y)}{\sqrt p\,E1_H}.
+\]
+The Jacobi entry bound gives \(|R|,|z|\le1\). Contraction gives \(\|R\|_{2,n}\le(p E1_H)^{-1/2}=O(n^{-1/4})\), despite the fact that \(\sqrt n E[Rg]=d\) exactly by stationarity. Similarly \(\sqrt n E[z g_-]=-b_*\); the minus sign matters.
+
+Apply Cauchy–Schwarz on \(H^c\setminus\{0\}\) to the two nonnegative weighted factors \((1-uR)g\) and \((1+vz)g_-\). Their pointwise product there is exactly \((1-uR)(1+vz)t/n\). The first sum, in units of \(\sqrt n E\), is at most \(q-u d-(1-u)S\): deleting \(H\) costs at least \((1-u)S\). The second sum is at most its full value \(q-vb_*\). On the geometric-mean side,
+\[
+ E[1_{H^c\setminus\{0\}}\sqrt{(1-uR)(1+vz)}]
+ \ge J_v-\sqrt2\,u E|R|-\sqrt2\,(|H|+1)/n ,
+\]
+using \(|\sqrt{1-uR}-1|\le u|R|\). This proves (1), without assigning the bulk reciprocal value to the mark. The mechanism is that the conditional row can extract order-one favored signal in the scaled units but changes the reciprocal geometric mean by only \(o(1)\).
+
+**What is still needed.** Optimizing \(u\) charges \(\max(d,S)\), **not** \(d+S\): deleting the conditioning set can discard some of the same signal that its row extracts. More precisely the first bracket can be replaced by
+\[
+ q-u d-S+uL_H,\qquad L_H=\sqrt n\,E[1_HgR].
+\]
+This follows by doing the deletion exactly. Thus the overlap loss is a specific favored-weighted internal Jacobi sum of the actual transport set. Neither the positive transport from \(1_C h^2\) into \(H\) nor the smaller opposite cubic estimates this internal sum from above with a saving. Nor do the supplied lower constants for \(S,d\) force (1) to fail. The budget is simultaneous with either original marked-cost alternative; it does not eliminate either or imply a fixed-floor consequence.
+
+**Ranked next tests.**
+
+1. Estimate \(L_H\) from above on the selected late block, retaining the distinction between the source \(1_C h^2\) and the target \(1_Hg\). At \(u=1\) the precise exclusion test is \( (q-d-S+L_H)(q-vb_*)<tJ_v^2\) by a fixed margin for some \(v\).
+2. Test that margin separately on the centered-exterior branch using the actual negative pairing with \(b^i\); a bound proved only under marked first-moment alignment would leave this branch open.

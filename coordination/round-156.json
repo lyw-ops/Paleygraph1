@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "round": 156,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 156 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-155-acceptance.json",
+      "sha256": "372e48d84698311343c9503497291951a926450c6b6b18ed94f8a212b944f037"
+    },
+    "current": {
+      "path": "research/round-156-acceptance.json",
+      "sha256": "8ada0a42c88f82c1e41f146d8f1f25e651d6161960fbbe7db3431ce59c329c8c"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "Only the exact affine chart and bounded fiber-weight cuts were available.",
+      "after": "The favorable sector can be completed at O(p), factors at fixed slope into complete character sums, and splits into two exact nonzero additive frequency signs up to O(p). A uniform per-u norm bound fails on the actual near-critical law.",
+      "remaining": "Find a coupled ordinary-prime upper on the same law, via a many-slope slice of the complete kernel or one of the frequency signs. The earlier adaptive face upper remains open.",
+      "evidence": [
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "weakened",
+      "before": "The true opposing cold terms only gave a canonical C1 saving.",
+      "after": "Actual W squared unit of weight 1/4 merges with the G term on general translated rows. The full positive two-height recomposition with one new arithmetic debit is below 0.66379866.",
+      "remaining": "Obtain large signed gains through more arithmetic labels or a different confinement. The direct target 0.51961239, nonlinear invariant and half-step remain open.",
+      "evidence": [
+        {
+          "path": "research/cold-rank-three-unit-composition-156.md",
+          "sha256": "9127cf9c06ca1cdf2e775c7101e4547719a3e59a7e69a75b0591660c12d2fd89"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/astra-rankthree-55.md",
+          "sha256": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48"
+        },
+        {
+          "path": "research/cold-legendre-unit-return-155.md",
+          "sha256": "2e04d64faff98b129dd14d44d5e569d8ea68c2dfd2cf7d9b2ccf36eeab04c42e"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Full-field completion preserves the favorable signed sum at the precise O(p) scale and gives two explicit kernel routes. The actual large per-u norm reinforces the need for coupled cancellation. The signed W unit can now be collected on translated cold inputs.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-three-root-slope-cancellation",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the separated three-root kernel yield a new ordinary-prime bound for a growing set of favorable slopes?",
+      "why_now": "The signed physical lift costs O(p), and the per-u uniform convolution norm is rigorously too large.",
+      "scope": "Keep the complete u Jacobi average and three-root z kernel with actual lifted weights and a third genuine slope factor. Keep the correct favorable sign and exact normalized errors.",
+      "if_yes": "Prove a genuinely signed O(p) bound expending no unsupported independence assumption, or a serviceable upper on a nontrivial many-slope block.",
+      "if_no": "Prove that a specific weaker complete-kernel bound cannot serve, stating the precise degeneracies or scope.",
+      "if_inconclusive": "Give an exact new meaningful block decomposition or an ordinary-prime joint trace estimate with quantitative errors.",
+      "inputs": [
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-additive-sign-coupling",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can one bound a nonzero additive frequency half of the favorable form, using the actual law nu_a M_a and the factor 1±k(a)?",
+      "why_now": "Both signs now have an exact positive spectral representation up to O(p). This may connect the original mark and pin with the same structured high-correlation anchors.",
+      "scope": "Use the original actual selected b, full short-block sign and quantitative pin, both physical signs, and true ν. Distinguish k(a) from within-set k(a-b) and isolate all error terms.",
+      "if_yes": "Obtain an O(p) bound on at least one sign with genuine prime arithmetic, or a strengthened joint law constraint that advances the original upper.",
+      "if_no": "Demonstrate an exact failure of a specified localization argument on the correct law.",
+      "if_inconclusive": "Derive a new concrete regularity or high-anchor correlation relation linked to actual mark with checked scaling.",
+      "inputs": [
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        }
+      ]
+    },
+    {
+      "id": "cold-full-rank-three-unit-collection",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "How much does a complete rank-three unit merge across common Laurent and Legendre labels improve the true translated two-height bound?",
+      "why_now": "One selected arithmetic unit already gives a strict improvement that survives translation. Many untouched true coefficients and known W¹/W³ coincidences remain.",
+      "scope": "Use actual heights, t0=n, both lifts, translated P5000 and known arithmetic units. Pair disjoint exact charge slots before absolute values. Preserve all residual and analytic loss allowances.",
+      "if_yes": "Certify a new full translated two-height bound and identify whether it moves substantially toward 0.51961239.",
+      "if_no": "Show a specific enriched collection gives little or no gate-level improvement in the correct comparison.",
+      "if_inconclusive": "Complete one provably disjoint family of matched coefficients with its exact translated cost.",
+      "inputs": [
+        {
+          "path": "research/cold-rank-three-unit-composition-156.md",
+          "sha256": "9127cf9c06ca1cdf2e775c7101e4547719a3e59a7e69a75b0591660c12d2fd89"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/astra-rankthree-55.md",
+          "sha256": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48"
+        },
+        {
+          "path": "research/cold-legendre-unit-return-155.md",
+          "sha256": "2e04d64faff98b129dd14d44d5e569d8ea68c2dfd2cf7d9b2ccf36eeab04c42e"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 157 deductions survive independent review?",
+      "why_now": "The two prime kernels and translated arithmetic charges require distinct normalization checks.",
+      "scope": "Read-only with exact source, prime family, true weights, marked physical coordinates, both lifts and correct order of limits. Rank two follow-ups.",
+      "if_yes": "State verified scope and proof changes.",
+      "if_no": "Identify the first invalid step.",
+      "if_inconclusive": "Separate verified pieces and missing estimates.",
+      "inputs": [
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-jacobi-factorization-153.md",
+          "sha256": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/cold-rank-three-unit-composition-156.md",
+          "sha256": "9127cf9c06ca1cdf2e775c7101e4547719a3e59a7e69a75b0591660c12d2fd89"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-signed-legendre-omission-150.md",
+          "sha256": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f"
+        },
+        {
+          "path": "research/astra-rankthree-55.md",
+          "sha256": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

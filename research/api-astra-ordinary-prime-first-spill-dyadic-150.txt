@@ -1,0 +1,233 @@
+## Result
+
+The proposed mission is **not completed**. The current identities reduce the ordinary-prime problem to an exact weighted bilinear correlation, but the available prime estimates do not give a prime-uniform \(o(1)\) bound for any dyadic portion that is guaranteed to contain the first reflected spill.
+
+The relevant prime family is the actual sequence of eligible ordinary primes
+\[
+p\to\infty,\qquad n=\frac{p-1}{2},
+\]
+restricted to a simultaneous marked window containing a selectable
+\[
+T=T(p)\to\infty,\qquad T+1\ \text{also marked},
+\]
+with fixed floor \(\tau>0\), followed only afterward by \(\tau\downarrow0\). All norms below are normalized counting norms
+\[
+\mathbb E f=\frac1n\sum_i f_i,\qquad
+\|f\|_{2,n}^2=\mathbb E|f|^2.
+\]
+
+### Exact first-spill reduction
+
+For the actual projected row \(Z=X_{\sigma,T}/M\), put
+\[
+u=T^{-1/3},\qquad d_0=0,\qquad d_j=(u-Z_j)_+
+\]
+on the bulk. The first reflected vector is
+\[
+y^{(0)}=Z+2L_\sigma d,
+\]
+with the exact bulk formula
+\[
+y_i^{(0)}
+=\max(Z_i,u)+\sigma(Kd)_i-\mathbb Ed
+ -2\ell_i\ell^{\mathsf T}d/\ell_0 .
+\]
+
+The actual negative set is
+\[
+E_0=\{i\ne0:y_i^{(0)}<0\},
+\]
+not a fixed character mask. The first spill is
+\[
+b_i^{(0)}=1_{E_0}(i)(-y_i^{(0)}).
+\]
+The established estimates are
+\[
+\mathbb Ed=O_\tau(T^{-2/3}),\qquad
+\|d\|_{2,n}^2=O_\tau(T^{-1}),
+\]
+and
+\[
+|E_0|/n=O_\tau(T^{-1/3}),\qquad
+\|b^{(0)}\|_{2,n}^2=O_\tau(T^{-1}).
+\]
+
+Let \(F\) be a true opposite-sign mean-one optimizer, with physical mark \(q=F_0\), and \(R\) a true optimizer on sign \(\sigma\). Exact complementarity gives
+\[
+F_iR_i=0
+\]
+on the bulk. For a selectable cutoff \(H=o(T)\), define
+\[
+F_H=1_{\rm bulk}(F-H)_+.
+\]
+The clipping error is \(O_\tau(\sqrt{H/T})\).
+
+If a fixed gap holds, namely
+\[
+\frac q{\sqrt n}\ge1+\eta,
+\qquad
+\sqrt{1+\tau}<1+\eta,
+\]
+then the exact affine constraints imply a positive lower bound
+\[
+-\frac{\sigma}{n}
+  \sum_{\substack{i\in E_0,\ R_i=0\\j\ne0,\ j\ne i}}
+      (F_i-H)_+K_{ij}d_j
+\ge c_{\tau,\eta}-O_\tau(\sqrt{H/T})-o(1). \tag{A}
+\]
+The diagonal and both physical roots have already been removed. Thus an \(o(1)\) upper bound for the left side of (A), uniformly along the ordinary-prime family and for one true \(F\), would exclude the gap.
+
+That is the correct target. It is not yet proved.
+
+## Dyadic decomposition
+
+For
+\[
+D_k=\{j\ne0:2^{-k-1}u<d_j\le2^{-k}u\},
+\qquad k\ge0,
+\]
+the first-spill pairing decomposes as
+\[
+\mathcal P_H
+=
+\sum_{k\ge0}\mathcal P_{H,k}
++\mathcal P_{H,\rm tail},
+\]
+where
+\[
+\mathcal P_{H,k}
+=
+-\frac{\sigma}{n}
+\sum_{\substack{i\in E_0,\ R_i=0\\j\in D_k}}
+(F_i-H)_+K_{ij}d_j.
+\]
+
+The known estimates imply only
+\[
+\sum_k \mathbb E_{D_k} d_j=\mathbb Ed=O_\tau(T^{-2/3}),
+\qquad
+\sum_k\mathbb E_{D_k}d_j^2=O_\tau(T^{-1}),
+\]
+and
+\[
+|E_0|/n=O_\tau(T^{-1/3}).
+\]
+They do not prevent the \(F_H\)-mass from concentrating on the same sparse, adaptive set \(E_0\) on which \(\sigma Kd\) is negative.
+
+Consequently, even a strict estimate for one fixed level \(D_k\) would not settle (A) unless the complementary levels were also controlled or shown to carry insufficient \(F_H\)-mass.
+
+## Why the currently available prime estimates fail
+
+The available ordinary-prime input is of Weil/intersection type: for fixed translated masks or fixed sets one obtains errors of order \(O(\sqrt p)\), and for filtered intersections
+\[
+\left||D_A|-n2^{-r}\right|\ll r\sqrt p,
+\qquad
+\left|\sum_{t\in D_A}\gamma(t)\right|\ll r\sqrt p.
+\]
+
+These estimates do not apply with the required strength to (A), for three separate reasons.
+
+1. **The output set is adaptive.**  
+   \(E_0\) is defined using the actual sign of
+   \[
+   \sigma(Kd)_i
+   \]
+   together with \(\max(Z_i,u)\), the exact mean correction, and the pin correction. It is not a fixed translated intersection.
+
+2. **The weights are optimizer weights.**  
+   The coefficient \((F_i-H)_+\) is supported on the common zero set
+   \[
+   \{i:R_i=0\},
+   \]
+   but its distribution on that set is uncontrolled. The complementary-zero-set identity removes overlap with \(R\); it does not produce pseudorandomness of \(F\).
+
+3. **Naive absolute-value bounds are too large.**  
+   Even granting an entrywise prime bound of the natural \(O(p^{-1/2})\) scale for \(K_{ij}\), absolute summation gives at best a quantity of order
+   \[
+   \sqrt n\,\mathbb Ed
+   =O_\tau(\sqrt n\,T^{-2/3}),
+   \]
+   which is not \(o(1)\) in the proved marked window. Cauchy–Schwarz similarly leaves
+   \[
+   \|F_H\|_{2,n}\|d\|_{2,n},
+   \]
+   and the true optimizer has no sufficiently small normalized \(L^2\)-norm bound.
+
+Thus the fixed-mask Weil estimates do not control the actual signed adaptive pairing. In particular, they cannot justify cancellation merely from the fact that \(E_0\) is a thin set.
+
+## Evidence supporting the reduction
+
+The reduction is supported by the following exact or already established facts.
+
+- The first reflected vector retains the exact adaptive threshold \(\max(Z_i,u)\), the exact mean correction, and the pin correction.
+- The true optimizer \(F\) and complementary optimizer \(R\) satisfy exact bulk complementarity.
+- The first spill has sparse support and \(O_\tau(T^{-1})\) normalized square mass.
+- Under a fixed gap, the optimizer-weighted spill has order-one mass.
+- The diagonal contribution is negligible:
+  \[
+  O_\tau(n^{-1}T^{-2/3}),
+  \]
+  since \(K_{ii}=-1/n\).
+- The cutoff can be chosen with
+  \[
+  H\to\infty,\qquad H=o(T),
+  \]
+  so that the clipping error \(O_\tau(\sqrt{H/T})\) vanishes.
+
+The later reflection-flow and averaged-repair arguments do not close this first-spill problem: they convert the gap into a sparse weighted deficit or an approximate annihilator, but still require a prime-sensitive estimate for the true optimizer-weighted correlation.
+
+## Remaining gap
+
+The unresolved statement is:
+
+> For the actual ordinary-prime family, one selectable marked \(T=T(p)\), one true opposite optimizer \(F\), one complementary true optimizer \(R\), and some \(H=o(T)\), prove
+> \[
+> \sum_k\mathcal P_{H,k}=o(1)
+> \]
+> after deleting both physical roots and the diagonal.
+
+A weaker result on a genuine dyadic range would be meaningful only if it also identifies the remaining levels and proves that their total optimizer-weighted contribution is negligible. At present the low-\(d\) tail, the adaptive output selection \(E_0\), and the concentration of \(F_H\) on the true complementary zero set remain simultaneously uncontrolled.
+
+## Ranked next tests
+
+### 1. Highest priority: exact weighted dyadic correlation test
+
+For actual eligible ordinary primes, compute or prove an asymptotic bound for
+\[
+\mathcal P_{H,k}
+=
+-\frac{\sigma}{n}
+\sum_{\substack{i\in E_0,\ R_i=0\\j\in D_k}}
+(F_i-H)_+K_{ij}d_j
+\]
+with the actual \(Z,d,E_0,F,R\), not a fixed-mask surrogate.
+
+The first useful target is a range
+\[
+k\le k_{\max}(p)
+\]
+for which
+\[
+\sup_{\text{eligible }p,T,F,R}
+|\mathcal P_{H,k}|=o(1)
+\]
+and whose union carries a definite fraction of the gap lower bound in (A). This test directly preserves the physical marking, exact threshold, true optimizer, and order of limits.
+
+### 2. Second priority: common-zero-set bilinear estimate
+
+Prove a restricted bilinear estimate for
+\[
+A\subseteq\{i:R_i=0\},\qquad B\subseteq D_k,
+\]
+of the form
+\[
+\left|
+\frac1n\sum_{i\in A}\sum_{j\in B}
+x_iK_{ij}y_j
+\right|
+\le
+o(1)\,\|x\|_{1,n}\|y\|_{1,n}
+\]
+for the particular prime-generated \(A=E_0\cap\{R=0\}\), \(x=(F-H)_+\), and \(y=d1_{D_k}\).
+
+A viable route would need additional structure—e.g. additive-energy control, a spectral estimate on the true common zero set, or a decomposition of the adaptive spill into finitely many fixed translated masks with an error smaller than the gap scale. The existing filtered-support estimate is insufficient by itself: it gives directional exclusion but not the required weighted cancellation on the actual adaptive set.

@@ -1,0 +1,192 @@
+## Checked result
+
+For the actual ordinary-prime family in the record—odd primes \(p\to\infty\), with
+\[
+Q=(\mathbb F_p^\times)^2,\qquad g=|f|^2\mathbf 1_Q,\qquad
+G=\sum_{x}g(x)=O(p^{1/2}),
+\]
+the actual square mask \(u\in Q\), the physical marking \(v\neq0\), and
+\[
+w(s)=g(s)(1-g(s)),
+\]
+the present affine-action method does **not** prove \(O(p^2)\) for the full weighted affine energy, nor does it produce the \(O(p^{3/2})\) diagonal estimate required for the one-match criterion.
+
+The strongest certified diagonal estimate in the supplied work is
+\[
+\boxed{\sum_{s\neq0,1}w(s)P_s^2
+ =O\!\left(p^{37/16}(1+\log p)\right).}
+\]
+The earlier affine-action estimate gives the weaker
+\[
+\sum_{s\neq0,1}w(s)P_s^2=O(p^{19/8}).
+\]
+
+Thus the target \(O(p^{3/2})\) remains open. In particular, the associated one-match covariance is still above the desired \(O(p^{3/2})\) scale.
+
+### Exact affine chart
+
+After removing the already-priced zero endpoints \(Y=1,D=1\), and retaining \(Y,D\neq0\), \(Y\neq D\), write
+\[
+r=\frac{Y-D}{1-D},\qquad
+b=\frac{D(1-Y)}{Y(1-D)}.
+\]
+Then
+\[
+s=b+\frac rE,\qquad C=\frac{ED}{Y}.
+\]
+With \(X=1/s\),
+\[
+\frac1A=\frac1r-\frac brX=:j_{Y,D}(X),
+\qquad C=\frac{AD}{Y}X.
+\]
+The physical square restriction remains exactly
+\[
+b\in Q.
+\]
+Hence the completed diagonal has the form
+\[
+\sum_\beta\omega(\beta)\beta(X)
+\sum_{\substack{Y,D\\ b\in Q}}
+g(Y)g(D)\beta(D/Y)\,
+h_\beta(j_{Y,D}(X)),
+\]
+where
+\[
+h(e)=g(e^{-1}),\qquad h_\beta(e)=h(e)\beta(e^{-1}),
+\]
+with zero extension at \(e=0\). The phase \(\beta(D/Y)\) is the actual phase; no auxiliary replacement has been made.
+
+The parameter transformation
+\[
+(r,b)\longmapsto \left(-\frac br,\frac1r\right)
+\]
+is projective and injective. The line multiplicities remain
+\[
+m_{\mathcal L}\le \min(U,V),\qquad M_{\mathcal L}\le 2V
+\]
+for a level set with \(U\) possible \(Y\)-values and \(V\) possible \(D\)-values. The prime-field affine-energy theorem therefore applies on heavy levels.
+
+### Where the exponent stops
+
+With the heavy cutoff
+\[
+g(Y),g(D)>p^{-1/8},
+\]
+the actual mass bound \(G=O(p^{1/2})\) gives
+\[
+U,V=O(p^{5/8}),
+\]
+so the theorem's size condition is satisfied. Layer cake then gives, uniformly for every actual phase choice,
+\[
+\|M_{\mu_\beta}\|_{\mathbf1^\perp\to\mathbf1^\perp}
+\ll p^{1/4}\bigl(G^{11/8}+G^{5/4}\bigr)
+=O(p^{15/16}).
+\]
+Since
+\[
+\|h_\beta\|_2\le \sqrt G=O(p^{1/4}),
+\]
+the heavy diagonal has counting \(L^2\)-norm
+\[
+O(p^{19/16}),
+\]
+and hence weighted square norm
+\[
+O(p^{19/8}).
+\]
+
+This is the precise obstruction in the action method: even an \(O(p^2)\)-scale **unweighted** affine-energy estimate would only yield an operator norm \(O(p^{3/4})\), and after applying it to an input of norm \(O(p^{1/4})\), the resulting squared diagonal scale is \(O(p^2)\), not the required \(O(p^{3/2})\). Therefore an energy estimate alone is insufficient unless it is combined with a further \(w(s)\)-localization or a genuine phase-sensitive correlation estimate.
+
+The positive incidence argument improves the diagonal to
+\[
+O\!\left(p^{37/16}(1+\log p)\right),
+\]
+but still does not reach \(p^{3/2}\). It uses \(g(C)\le1\), the actual \(b\in Q\) mask, and the inverse affine graphs, so it is a bound on the genuine physical positive majorant, not merely an auxiliary law. Nevertheless, it discards the remaining \(g(C)\)-localization and does not exploit cancellation from the phases \(\beta(D/Y)\).
+
+## Conclusion
+
+The proposed \(O(p^2)\) full weighted affine-energy route is **not established**. The available theorem gives a valid power saving but leaves a substantial gap:
+\[
+p^{37/16+o(1)}\quad\text{versus the required}\quad p^{3/2}.
+\]
+
+The actual phases may still give an action gain, but no such gain follows from taking absolute values, from the square mask alone, or from the current affine-energy theorem. The independent zero-match \(4+4\) contribution remains separate and is not addressed by this diagonal analysis.
+
+## Ranked next tests
+
+### 1. Exact phase-sensitive physical correlation — highest priority
+
+For each odd prime \(p\) in the ordinary-prime family, compute or bound directly
+\[
+\mathcal E_{\mathrm{phys}}(p)
+=
+\sum_{\beta}\omega(\beta)
+\sum_{s\neq0,1}w(s)
+\left|
+\sum_{Y,D:\,b\in Q}
+g(Y)g(D)\beta(D/Y)
+h_\beta(j_{Y,D}(1/s))
+\right|^2.
+\]
+The target is
+\[
+\mathcal E_{\mathrm{phys}}(p)=O(p^{3/2}).
+\]
+
+This is the correct test of whether the actual input phases help. It must retain:
+
+- \(Q=(\mathbb F_p^\times)^2\);
+- the physical \(b\in Q\) mask;
+- \(g(Y)g(D)\);
+- the actual phase \(\beta(D/Y)\);
+- the output weight \(w(s)=g(s)(1-g(s))\);
+- the exclusions \(s\neq0,1\), \(Y,D\neq1\), and the pole \(s=b\).
+
+A useful analytic subgoal is a bilinear correlation estimate for distinct pairs:
+\[
+\sum_{s}w(s)\,
+h_\beta(j_{Y,D}(1/s))
+\overline{h_\beta(j_{Y',D'}(1/s))}
+\]
+after summing with the phase
+\[
+\beta(D/Y)\overline{\beta(D'/Y')}.
+\]
+This is the first test that can genuinely improve on the \(p^{37/16}\) positive-majorant bound.
+
+### 2. Actual weighted-energy computation and level decomposition — second priority
+
+For the same prime sequence, evaluate the weighted affine energy
+\[
+E_g=
+\sum_h
+\left|
+\sum_{\substack{Y,D\\b\in Q}}
+g(Y)g(D)\,
+\mathbf 1_{\{j_{Y,D}^{-1}j_{Y,D}=h\}}
+\right|^2
+\]
+or, equivalently, the corresponding quadruple sum over
+\[
+(Y,D,Y',D')
+\]
+with the affine-relative-product constraint.
+
+Decompose by dyadic levels
+\[
+g(Y)\asymp 2^{-i},\qquad g(D)\asymp2^{-j},
+\]
+and separately record:
+
+1. the raw affine energy;
+2. the energy after the \(b\in Q\) mask;
+3. the energy after weighting by \(w(s)\);
+4. the phase-weighted correlation with \(\beta(D/Y)\).
+
+The informative asymptotic outcomes are:
+
+- \(E_g=O(p^{2+o(1)})\): supports the proposed \(O(p^2)\) energy route, though it still does not by itself reach the \(p^{3/2}\) diagonal target;
+- \(E_g\gg p^{2+\delta}\) for some fixed \(\delta>0\): rules out a raw weighted-energy proof at that scale and forces use of \(w(s)\) or phase cancellation;
+- raw energy near \(p^2\), but phase-weighted energy substantially smaller: evidence for the genuine action-gain route.
+
+Finite computations here are diagnostic only: they do not settle the asymptotic statement \(p\to\infty\) along the specified ordinary-prime family, and they do not address the independent zero-match term.

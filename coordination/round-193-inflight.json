@@ -1,0 +1,49 @@
+{
+  "round": 193,
+  "dispatch_status": "Two Claude Code desktop research sessions (fresh context, shared checkout), started together on the user's own turn after they asked for an agent review of the Rounds 187-190 theorems and for research to go ahead; started_utc_epoch recorded immediately before the launch",
+  "provider": "Claude Code sessions (Claude Opus 5.5) started by the generation-2 brain session local_3dfd5de8-2703-4331-bc4e-f2baf2f80c23 on the user's reply 'commit and push, ... we can let another agent to review. then we go ahead'; PALEY_GATEWAY_API_KEY not available",
+  "accepted_checkpoint": {
+    "path": "research/round-192-acceptance.json",
+    "sha256": "25a7b70e92e6a4640c3d671af94cedbb1f0445934e55f763b9caa577b0cc1041"
+  },
+  "coordinator": {
+    "path": "coordination/round-192.json",
+    "sha256": "6237ed51e1dd20dc0b2723760fbe15c43ac32d4390065bf4217bd83e9ae7fcbf"
+  },
+  "synthesis_checkpoint": {
+    "path": "coordination/checkpoints/round-192.md",
+    "sha256": "9ca03b1d2b4588b4d59d5976ab231bd3f55e189950b6adbec09dc6d9cacc3f14"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-193-before.json",
+    "sha256": "af10ed1b2d0fd2011f674c949ff41b222d42b8a1279ca94d8b0404702b39d0df"
+  },
+  "lanes": [
+    {
+      "call_id": "review-lemma-mprime-theorem-a",
+      "agent_label": "session/r193-theorem-review",
+      "session_id": "local_8a19aff0-38e5-44e5-9085-31c2e10b4177",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-193/review-lemma-mprime-theorem-a.md",
+        "sha256": "2516d380ae3162c794693f5e89a8ce062c5f231195c851905a9e6d9bb191c923"
+      },
+      "pending_candidate": "research/native-claude-review-lemma-mprime-theorem-a-193.md",
+      "started_utc_epoch": 1795235591.326815,
+      "timestamp_role": "immediately before launch (one timestamp for both sessions, launched together)"
+    },
+    {
+      "call_id": "ordinary-ss-star-literature",
+      "agent_label": "session/r193-ss-star-lit",
+      "session_id": "local_eac7a4d2-0310-40ff-89a0-bf28ffbfd7a5",
+      "model": "claude-opus-5-5",
+      "mission_file": {
+        "path": "coordination/missions/round-193/ordinary-ss-star-literature.md",
+        "sha256": "6b5399117f6c83df00f07f06641fc7e27d454e9a19d4950e55a269d2d24ee063"
+      },
+      "pending_candidate": "research/native-claude-ordinary-ss-star-literature-193.md",
+      "started_utc_epoch": 1795235591.326815,
+      "timestamp_role": "immediately before launch (one timestamp for both sessions, launched together)"
+    }
+  ]
+}

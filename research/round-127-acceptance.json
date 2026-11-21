@@ -1,0 +1,94 @@
+{
+  "round": 127,
+  "accepted_at_utc": "2026-11-19T16:05:16Z",
+  "previous": "research/round-126-acceptance.json",
+  "previous_sha256": "45bda6d064a5c5ba02754d2a7a43a7d93ae3b08301485f3a0b7e43ccc49594c4",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-126.json",
+    "sha256": "89a3d78573e3f32e9d35271f207a7772713e3403f25b0be319d64512e03efe4a"
+  },
+  "proof_and_code_sha256": {
+    "research/real-cap-drift-localization-127.md": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d",
+    "research/api-astra-review-127.md": "4fa83b6c1ad00edad44108d4ac0ebc2cea6129bf88285f89559ff319b9c079df",
+    "research/api-astra-overflow-127.txt": "a2a5ccabfa4afad57abda7e11b8d79ed6e6e3bb58fc93550fb0f6a9be523aa57",
+    "research/api-astra-127-receipt.json": "0b51d431416ab16be93239523ec4c55f0481c44ec9208d4772587b26a9a0a357"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/real-masked-cap-adjoint-125.md": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1",
+    "research/api-astra-review-125.md": "f374489c15ccb1a5ad23065f25e36110355fc61905dff6c2ef41e4ab6eb79c40",
+    "research/real-masked-functional-stability-123.md": "53feec15a0d57f63077477e4aec6099d4fa3942e0f9ca1310f73811886b42773",
+    "research/early-ordinary-masked-cubic-121.md": "7601bc5f625b6c719819a17fbd0fed55095b4bc700890e14eb8b05863872628e",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/ordinary-slack-dissipation-121.md": "46731c37454447796318957791968f70b9f461987b5c69a8eaddc11d2222ec01",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/weighted-adjusted-cap-117.md": "4086edbce0a049556b33f829c2b5d3c8bdd3cf1a27b278296e507a2ecd240f50",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/api-astra-review-126.md": "a269d3a9b5a6f34275c8c36ca354a304a3f82e0cdb86e6ea56b81c47700814e4",
+    "research/cold-signed-time-kernel-transfer-124.md": "17dc0cb6d546f2fe92b1df0061ddbd897028cb727936b7ee034c349ababbdcff",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/frozen-entry-transfer-105.md": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, real sparse adjoint",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Check true signed direct and transport contributions separately at actual cap crossings.",
+        "Seek a bound tied to the actual backward recursion, rather than unrestricted sparse supports."
+      ]
+    },
+    {
+      "name": "/root/audit_127",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test the full endpoint or actual signed prefix from a separately controlled lower-height value.",
+        "Estimate the three-height lag and positive cumulative drift mixed moment, plus the actual next-increment sample."
+      ]
+    },
+    {
+      "name": "/root/audit_127_energy",
+      "status": "completed",
+      "ranked_closeout": [
+        "Prove uniform subcritical squared tail mass for the actual cap jumps of each fixed positive size in a fixed successor window at a separately controlled critical height."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "On the cold side, test the verified height-601 endpoint against the signed quadratic or mixed-reference insertion cost, with exact packet and counting exponents.",
+    "On the real side, find a separately controlled actual critical endpoint and estimate its fixed successor window of scaled large cap jumps, or prove the full signed endpoint bound."
+  ],
+  "proof_scope": [
+    "The true sparse-adjoint increment splits as a direct activation sample and a signed sample of the next actual capped Picard increment on the same preimage.",
+    "In the staggered depth-zero seed, nonzero bulk direct activation difference at a supported site requires the two adjacent jumps to have total magnitude at least A-M. At deeper fixed repair depth, only the explicit three-height lag set or the true positive cumulative drift above s can support the bulk direct term. The marked direct term is subcritical.",
+    "The clipped activation has strictly smaller secant bound q_d on jumps of magnitude at least d for every fixed 0<d<M. Its exact counting energy loss controls the normalized squared mass of those actual jumps and the activation mean square. A corresponding true fixed-point comparison bounds the three-height lag set.",
+    "At a critical cap height with the inherited sparse adjoint and actual critical cap rate, a nonzero scaled masked increment forces a critical adjacent two-step loss. Subcritical scaled squared tails at each fixed positive jump size suffice to suppress that increment. A fixed gap from a separately controlled critical endpoint to the actual limit forces such a loss within a fixed successor window.",
+    "The unrestricted sparse support and norm implication is false even for the true signed kernel. The generic mean-zero witness imposes no physical activation, repair slopes or actual trajectory and is no counterexample to the target."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The API uses an upper on K r as if it justified a matching critical transport size. Its adaptive support bound and generic example establish no actual signed prime estimate.",
+    "The localized direct mixed moments, true next-increment sample, independently controlled critical real endpoint, true cap rate, common cold continuation and original ordinary theta limit remain unresolved."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new field computation or interval certificate. Raw API draft and model receipt preserved."
+  ],
+  "independent_review": [
+    "Two separate read-only Astra audits checked the staggered indices, signed drift localization, marked factor, exact strict scalar/energy loss and fixed successor-window test. The arbitrary-data witness was also independently checked."
+  ]
+}

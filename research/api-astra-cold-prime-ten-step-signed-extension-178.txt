@@ -1,0 +1,116 @@
+## Result
+
+The supplied estimates support the **fixed ten-step actual prefix**
+\[
+V_{602},V_{603},\ldots,V_{612}
+\]
+inside the seed-centered coordinate polydisk of radius \(3/8\), but they do **not** yet prove the required growing-prefix or logarithmic-cutoff statement.
+
+The family is the actual eligible-prime family used in the records, with the original square \(Q\), both lifts, physical marking \(t_0=n\), and the true height-\(602\) center \(V_{602}\). No frozen or artificially shifted orbit is being substituted.
+
+### 1. Tube contraction
+
+On each coordinate disk
+\[
+|z_i-V_{602,i}|\le \frac38,
+\]
+the stated scalar estimates give
+\[
+\|KD\|_{2\to2}\le q=0.545
+\]
+in the counting second norm. The marked coordinate is included with \(t_0=n\); its physical radicand has the same positive-sheet margin. The numerical cutoff check is valid:
+\[
+0.545^8=0.00778\ldots<2^{-7}=0.0078125.
+\]
+
+Thus the radius-\(3/8\) tube is a valid contractive physical tube for the actual map, provided the actual orbit remains in it.
+
+### 2. Ten actual displacements
+
+Let
+\[
+U_j=V_{602+j}-V_{602}.
+\]
+Using the unshifted genuine base-pair price \(P_{5000}\), the actual outgoing source satisfies
+\[
+P_{5000}(U_1)<0.01272.
+\]
+For every subsequent step whose input remains in the radius-\(3/8\) tube, the retained nonlinear power gives
+\[
+P_{5000}(U_{j+1})
+ \le 0.01272+1.066P_{5000}(U_j)
+       +1.22P_{5000}(U_j)^2.
+\tag{1}
+\]
+
+The rounded-up values from (1), in units of \(10^{-5}\), are
+\[
+1272,\ 2648,\ 4181,\ 5943,\ 8039,\ 10631,\ 13984,\ 18565,\ 25268,\ 35998.
+\]
+Since \(P_{5000}\) dominates coordinate supremum on these packets,
+\[
+\|U_{10}\|_\infty\le P_{5000}(U_{10})<0.35998<0.375.
+\]
+Consequently all ten actual displacements, and hence the actual rows through \(V_{612}\), remain in the radius-\(3/8\) tube. The endpoint has explicit fixed-depth clearance
+\[
+\frac38-0.35998=0.01502.
+\]
+
+This is a valid finite-prime-family asymptotic statement: for each of the ten fixed steps, the vanishing bad-character and physical-mark corrections are absorbed for all sufficiently large eligible \(n\). It is not a uniform statement for \(j\) growing with \(n\).
+
+### 3. What is not proved
+
+The ten-step estimate does **not** imply the requested growing actual prefix through
+\[
+602+\left\lceil \frac47\log_2 n\right\rceil.
+\]
+The reason is that the recurrence has no uniform continuation margin: at the terminal certified value \(0.35998\), one more application of (1) is already much larger than \(3/8\). Thus the finite sequence cannot be iterated to logarithmic depth by the displayed unsigned recurrence.
+
+Likewise, the claimed sufficient bridge
+\[
+\|R_{611}\|_{2,\mathrm{unnorm}}
+ <0.0556556
+ =\left(\frac38-0.25268\right)(1-0.545)
+\tag{2}
+\]
+has not been derived. The ten-step bound gives \(P_{5000}(U_{10})<0.35998\), not the unnormalized counting-second-norm estimate (2). A conversion from the packet price to (2) is not automatic and would in any event require a signed residual/source estimate, not merely the unsigned displacement bound.
+
+The obstruction in the full coordinate norm,
+\[
+\|KD_{602}\|_{\infty\to\infty}\asymp\sqrt n,
+\]
+does not refute a signed propagation argument in the counting norm. It only rules out proving the continuation by full coordinate-supremum contraction. Derivative transfer also remains separate.
+
+## Conclusion
+
+**Supported conclusion:** the true actual prefix through \(V_{612}\) fits in the exact seed-centered radius-\(3/8\) disk with fixed terminal clearance \(0.01502\), uniformly for sufficiently large eligible primes, under the stated genuine-source and nonlinear estimates.
+
+**Unresolved conclusion:** the logarithmically growing actual prefix, or the alternative unnormalized \(R_{611}\) bridge with fixed slack, is not proved. The order of limits remains:
+
+1. fix the ten heights \(602\le m\le612\);
+2. take sufficiently large eligible \(n\);
+3. only afterward seek a depth \(j=j(n)\asymp\log n\).
+
+The existing argument does not justify interchanging steps 1–2 with a depth growing in \(n\).
+
+## Ranked next tests
+
+1. **Direct signed \(R_{611}\) test — highest priority.**  
+   In the unnormalized counting second norm, compute/prove
+   \[
+   \|R_{611}\|_{2,\mathrm{unnorm}}
+   \le 0.0556556-\delta
+   \]
+   for some fixed \(\delta>0\), retaining the physical mark \(t_0=n\) and both lifts. This immediately supplies the stated first-exit bridge once the \(q=0.545\) tube estimate is accepted.
+
+2. **Signed partial-sum propagation test.**  
+   For
+   \[
+   B=KD_{602},\qquad
+   L_j=\sum_{\ell<j}B^\ell K,
+   \]
+   establish a signed price bound with fixed clearance through the required logarithmic cutoff, rather than summing absolute packet prices. The target is a bound on the signed aggregate source
+   \[
+   S_k=\sum_{j<k}B^jR_{602}
+   \]
+   staying below \(3/8-\eta\), together with the shifted-resolvent bound needed for the nonlinear remainder. This is the route that could prove the genuinely growing actual prefix without relying on (2).

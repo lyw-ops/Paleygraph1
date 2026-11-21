@@ -1,0 +1,336 @@
+## Result
+
+For ordinary primes
+\[
+p\equiv1\pmod 4,\qquad p\to\infty
+\]
+along the hypothetical genuine near-critical branch, the regular rank-two transform is geometrically controlled but does **not** presently yield the required weighted cancellation under the actual five-draw law.
+
+The checked conclusion is:
+
+> After removing the six finite/infinite trivial-root slices and the three dense-edge boundary resonances, the rank-two kernel has two degree-two eigenvalues of absolute value \(p\), hence
+> \[
+> |\mathscr K|\le 2p.
+> \]
+> However, with the true independent weights
+> \[
+> w_Tw_Uw_Vw_{U'}w_{V'},
+> \]
+> the remaining outer Jacobi factor contributes size \(\sqrt p\), so pointwise trace geometry gives only an \(O(p^{3/2})\) bound. The needed \(O(p)\) estimate requires a weighted phase saving of \(p^{-1/2}\), which is not supplied by the prime slope-spread or convolution-smoothing inputs.
+
+Thus the proposed transform is not refuted geometrically, but the sufficient bound remains unproved.
+
+---
+
+## 1. Actual law, marking, signs, and lifts
+
+Write
+\[
+Q=\mathbb F_p^{\times 2},\qquad n=|Q|=(p-1)/2.
+\]
+
+The physical marking is the zero Fourier coordinate
+\[
+b_0=0.
+\]
+The actual probability law on \(\widehat Q\) is
+\[
+\nu_a=\frac{b_a}{nr},
+\]
+and the inverse transform is
+\[
+f(x)=\sum_{a\in\widehat Q}\nu_a\,a(x),\qquad x\in Q.
+\]
+
+The physical sign is the selected favorable sign
+\[
+\rho=-\sigma.
+\]
+
+Every \(a\in\widehat Q\) has two full-field lifts. If \(\eta\) is one such lift, its true weight is
+\[
+w_\eta=\frac12\nu_{\eta|_Q}.
+\]
+The five independent physical draws are therefore
+\[
+T,\ U,\ V,\ U',\ V'
+\]
+with product law
+\[
+w_Tw_Uw_Vw_{U'}w_{V'}.
+\]
+
+The relevant norm information remains
+\[
+\max_a\nu_a=O(p^{-1/2}),\qquad
+\|f\|_{\ell^2(Q)}^2\asymp \sqrt p,
+\]
+where the latter is the unnormalized counting norm. The marked condition \(b_0=0\) is essential: it excludes the trivial physical anchor but does not flatten the coupled five-variable law.
+
+---
+
+## 2. Regular rank-two kernel
+
+For the \(s=1\) branch, use the notation
+\[
+\beta=\frac VU,\qquad
+C=\frac{U'}{V'},\qquad
+\alpha=\frac U{U'},\qquad
+\delta=\frac T{U'},
+\]
+and, for the slope lift \(q\in\{0,1\}\),
+\[
+D=\delta\chi^q,\qquad
+A=\alpha\bar\delta\chi^{q+1}.
+\]
+Then
+\[
+AD\chi=\alpha.
+\]
+
+The rank-two kernel is
+\[
+\mathscr K(\beta,A,C,D)
+=
+\sum_{z,y}
+\beta(z)\,(\alpha\bar\delta\chi^{q+1})(z+1)\,
+C(y)\,(\delta\chi^q)(y+1)\,
+\chi(z-y).
+\]
+
+On the clean locus
+\[
+U_0=
+(\mathbb P^1\setminus\{0,-1,\infty\})^2\setminus\Delta
+\]
+with the three blown-up diagonal boundary points removed, all boundary inertias are nontrivial. The tame rank-one sheaf is clean on the resulting normal-crossing compactification. Compactly supported and ordinary cohomology coincide, and affine vanishing plus duality place the cohomology in degree two with dimension \(2\). Therefore Deligne’s estimate gives
+\[
+|\mathscr K|\le 2p,
+\]
+and duality shows that both degree-two eigenvalues have modulus exactly \(p\).
+
+This is a genuine rank-two pure trace statement, not merely a square-root upper bound.
+
+The outer factor is
+\[
+J\!\left((V/V')\chi^i,L\right),
+\qquad
+L=\frac{U/V}{U'/V'},
+\qquad i\in\{0,1\},
+\]
+and is bounded pointwise by \(O(\sqrt p)\) away from its principal degeneracies.
+
+Consequently the normalized regular summand
+\[
+\Phi_{q,i}(T,U,V,U',V')
+=
+\frac{
+J((V/V')\chi^i,L)\,
+\mathscr K(\beta,A,C,D)
+}{p^{3/2}}
+\]
+satisfies only
+\[
+|\Phi_{q,i}|\ll 1.
+\]
+
+The target is instead
+\[
+\left|
+\mathbb E_{w_Tw_Uw_Vw_{U'}w_{V'}}
+\Phi_{q,i}
+\right|
+\ll p^{-1/2}.
+\]
+Equivalently, the unnormalized regular contribution must be \(O(p)\), not merely \(O(p^{3/2})\).
+
+---
+
+## 3. Boundary and resonant contributions
+
+The nine removable contributions are controlled absolutely.
+
+### Six trivial-root slices
+
+The slices where one of
+\[
+\beta,\ A,\ C,\ D
+\]
+or one of their two infinity transforms is trivial have total contribution \(O(p)\) for each \(q,i\). The argument uses:
+
+- \(\kappa=\max_\eta w_\eta=O(p^{-1/2})\);
+- three independent character constraints whenever a \(p\)-sized Jacobi factor occurs;
+- the worst kernel sizes \(O(p^{3/2})\) together with weight \(O(\kappa^3)\);
+- outer principal events imposing the same number of independent constraints.
+
+Thus the true five-weight law is retained in these estimates; no uniform character average is substituted.
+
+### Three dense-edge resonances
+
+The remaining boundary resonances are
+\[
+\beta C\chi=1,\qquad
+AD\chi=\alpha=1,\qquad
+(\beta ACD)^{-1}\chi=1.
+\]
+They correspond respectively to the three blown-up diagonal points. Their generic contributions are \(O(p)\), and the principal-product subevents also cost \(O(p)\), using the same three-constraint counting.
+
+Therefore, after the nine exclusions,
+\[
+S_{\mathrm{total}}
+=
+S_{\mathrm{reg}}+O(p),
+\]
+where \(S_{\mathrm{reg}}\) is the five-weighted regular rank-two sum.
+
+This part of the proposed strategy is supported.
+
+---
+
+## 4. What the ordinary-prime smoothing input actually proves
+
+The ordinary-prime near-unit-slope result gives, for every \(\epsilon_p\downarrow0\),
+\[
+\#\{x\in Q:|f(x)|\ge1-\epsilon_p\}=o(\sqrt p).
+\]
+
+It also gives convolution smoothing: for every integer sequence \(k_p\to\infty\),
+\[
+n\|\nu^{*k_p}\|_2^2
+=
+\sum_{x\in Q}|f(x)|^{2k_p}
+=
+o(\sqrt p).
+\]
+
+These are genuine statements for the actual \(\nu\). They do not, however, control the original five-draw regular phase. The reason is structural:
+
+- the rank-two phase depends on coupled ratios
+  \[
+  \beta,\ C,\ \alpha,\ \delta,\ L;
+  \]
+- replacing \(\nu\) by a convolution law changes these ratios and destroys the original coupling;
+- the actual pair law \(\nu*\check\nu\) retains Jacobi alignment, while sufficiently deep convolutions lose it.
+
+Indeed, for the smoothed law one has
+\[
+\left|\mathbb E_{\nu^{*k_p}*\check\nu^{*k_p}}
+\,\rho k(a)\right|=o(1),
+\]
+whereas the original near-critical law has mean Jacobi phase tending to \(1\). Therefore convolution smoothing cannot presently be transferred back to the actual regular sum without an additional stability theorem.
+
+There is also a direct obstruction to the most tempting convolution shortcut. For the favorable slope function
+\[
+h_\rho(t)=1_{\{\chi(1-t)=\rho\}}f(t),
+\]
+the unnormalized multiplicative Fourier norm satisfies
+\[
+\max_a|\widehat h_\rho(a)|
+\ge (1-o(1))\sqrt p.
+\]
+Hence a per-\(u\) \(O(1)\) convolution norm is false on the genuine critical scale.
+
+---
+
+## 5. Why prime slope exclusion is insufficient
+
+The prime-specific spread theorem excludes a family of \(\asymp\sqrt p\) slopes with \(|f|\to1\). It does not exclude an order-\(\sqrt p\) family with amplitude bounded below by a fixed constant \(<1\). Such a family could still contribute coherently to
+\[
+\sum_{a\in I_{\rm arc}}\nu_a M_a,
+\qquad
+M_a=\sum_{u\in Q\setminus\{1\}}|C_a(u)|^2.
+\]
+
+On the hypothetical critical branch, the marked arc satisfies the lower bound
+\[
+\sum_{a\in I_{\rm arc}}\nu_a M_a
+\gg
+\frac{pE^{-1/2}}{\log(2/E)},
+\qquad
+E=e+p^{-1/2}\to0.
+\]
+Thus the existing inputs produce a superlinear lower bound on the relevant positive moment, but no opposing upper bound.
+
+The square-field model also shows that the pin, phase alignment, and critical effective support alone do not force an \(O(p)\) upper: there the matching additive class has size \(s^3+O(s^2)\), corresponding to \(p^{3/2}+O(p)\). This is not an ordinary-prime counterexample, but it demonstrates that the current local hypotheses do not imply the desired estimate by themselves.
+
+---
+
+## Precise failure
+
+The proposed rank-two transform succeeds at the geometric stage:
+
+1. both eigenvalues are known to have modulus \(p\);
+2. all nine boundary/resonant pieces cost \(O(p)\);
+3. the exact five-independent-draw law and the physical sign \(\rho=-\sigma\) are preserved.
+
+It fails at the only remaining decisive step:
+
+\[
+\boxed{
+\text{No checked relation currently converts ordinary-prime slope spread or convolution smoothing}
+}
+\]
+\[
+\boxed{
+\text{into an }O(p^{-1/2})\text{ phase average for }
+\Phi_{q,i}
+\text{ under }
+w_Tw_Uw_Vw_{U'}w_{V'}.
+}
+\]
+
+Pointwise rank-two purity therefore yields \(O(p^{3/2})\), while the required bound is \(O(p)\). The mission is inconclusive, not supported.
+
+---
+
+## Ranked next tests
+
+### 1. Highest priority: determinant-stratified five-draw correlation test
+
+For each ordinary prime \(p\equiv1\pmod4\), compute the exact regular quantity
+\[
+R_{q,i}(p)
+=
+\sum_{T,U,V,U',V'}
+w_Tw_Uw_Vw_{U'}w_{V'}
+\Phi_{q,i}(T,U,V,U',V')
+\]
+after the nine exclusions.
+
+Then stratify the sum by the exponent matrix of the ratio map
+\[
+(T,U,V,U',V')
+\longmapsto
+(\beta,C,\alpha,\delta,L).
+\]
+
+The decisive finite test is whether, outside finitely many determinant-zero strata,
+\[
+\mathbb E\!\left[
+\Phi_{q,i}\mid \text{three ratio coordinates}
+\right]
+\ll p^{-1/2}
+\]
+uniformly in the remaining two coordinates, or whether a positive-density determinant stratum has conditional mean of order \(1\).
+
+- A uniform \(p^{-1/2}\) conditional estimate would provide the missing transfer.
+- A persistent order-one conditional mean would name a genuine resonant regime that defeats the rank-two strategy.
+
+This test keeps all five actual weights and both slope/outer lifts.
+
+### 2. Second priority: test a bounded-depth transfer from smoothed laws
+
+For fixed \(k\), compare the original regular average with the \(k\)-fold smoothed law:
+\[
+R_{q,i}(\nu)-R_{q,i}(\nu^{*k})
+\]
+using the exact ratio parametrization, not a total-variation bound.
+
+The required statement would be a stability estimate of the form
+\[
+|R_{q,i}(\nu)-R_{q,i}(\nu^{*k})|
+\le O(p^{-1/2})+o_k(1)
+\]
+after normalization by \(p^{3/2}\), uniformly along ordinary primes and the physical marked branch.
+
+This is the less plausible route because the original Jacobi alignment is known to disappear as \(k\to\infty\). A finite computation should therefore first test \(k=2,3\), conditioned on the outer ratio \(L\), and determine whether the discrepancy is already order one. If so, convolution smoothing cannot be used as a transfer mechanism; if not, the resulting conditional identity would be a concrete new theorem target.

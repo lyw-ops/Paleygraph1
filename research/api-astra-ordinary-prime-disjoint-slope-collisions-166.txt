@@ -1,0 +1,180 @@
+## Result: the present incidence and energy inputs do not prove the \(O(p^{3/2})\) collision bound
+
+Fix the selected ordinary-prime branch with
+\[
+n\max\nu=O(\sqrt p),
+\]
+a fixed nonzero physical mark \(v\), and fixed squared thresholds \(a,b>0\), with
+\[
+\max(a,b)>\frac12.
+\]
+For definiteness, retain the genuine moderate slope band
+\[
+D=\left\{t\in Q:\frac1{16}\le |f(t)|^2\le \frac14\right\},
+\]
+together with the original physical square masks, the true four physical arguments, and the favorable sign restriction. Limits are taken with \(a,b\) and the band fixed first, then \(p\to\infty\).
+
+Write
+\[
+A_x=1-vx,\qquad C_x=1-vux,\qquad
+u=\frac{1-C_x}{1-A_x},\qquad z=\frac{C_x}{A_x}.
+\]
+This is the genuine physical \((u,z)\)-graph; no unshifted energy substitution is being made.
+
+After removing the identity slope \(t=1\), and deleting collisions sharing a complete physical endpoint, the latter deletion costs
+\[
+O_{a,b}(p^{3/2-\gamma}),
+\]
+where
+\[
+\gamma=
+\begin{cases}
+1/54,&\min(a,b)>1/2,\\
+1/211,&\max(a,b)>1/2\text{ and }\min(a,b)\le1/2.
+\end{cases}
+\]
+Thus shared endpoints are already below the target scale.
+
+### 1. Equal-\(u\), high-overlap collisions
+
+Let \(Z_u\) be the actual set of ratio values \(z=C_x/A_x\) surviving all physical masks at fixed \(u\), and write
+\[
+h(u)=|Z_u|.
+\]
+For \(t\ne1\), let
+\[
+n_{u,t}=|Z_u\cap t^{-1}Z_u|.
+\]
+The exact equal-\(u\) collision count is
+\[
+\sum_{u}\sum_{t\in D} n_{u,t}^{\,2}
+\le
+\sum_u\bigl(E^\times(Z_u)-h(u)^2\bigr).
+\]
+The currently available overlap estimate gives
+\[
+E^\times(Z_u)-h(u)^2\ll h(u)^3.
+\]
+The affine-intersection argument gives the pointwise bound
+\[
+h(u)\ll_{a,b}p^{1/2-\gamma},
+\]
+while the physical layer sizes give
+\[
+\sum_u h(u)\ll_{a,b}p.
+\]
+Consequently,
+\[
+\sum_u h(u)^3
+\le
+\bigl(\max_u h(u)\bigr)^2\sum_u h(u)
+\ll_{a,b}p^{2-2\gamma}.
+\]
+This is strictly larger than \(p^{3/2}\) for the available values of \(\gamma\). The same conclusion follows from the previously recorded bound
+\[
+\sum_u h(u)^3\ll_{a,b}p^{2-2\gamma}.
+\]
+
+The low-overlap part does not cause difficulty: if \(h(u)\le p^{1/4}\), then
+\[
+\sum_{h(u)\le p^{1/4}}h(u)^3
+\le p^{1/2}\sum_u h(u)
+\ll p^{3/2}.
+\]
+The unresolved portion is therefore exactly
+\[
+h(u)>p^{1/4},
+\]
+with the physical threshold and moderate-slope restrictions retained. No \(O(p^{3/2})\) estimate follows for this high-overlap equal-\(u\) portion.
+
+### 2. Distinct-\(u\) collisions
+
+Let
+\[
+N_t=\sum_u n_{u,t}
+\]
+be the number of genuine physical slope triples at slope \(t\). The affine intersection estimate gives
+\[
+N_t\ll_{a,b}p^{1-\gamma},
+\]
+and the total slope-triple count gives
+\[
+\sum_{t\in D}N_t\ll_{a,b}p^{3/2-\gamma}.
+\]
+Hence the available pointwise-and-total estimate yields only
+\[
+\sum_{t\in D}N_t^2
+\le
+\bigl(\sup_{t\in D}N_t\bigr)
+\sum_{t\in D}N_t
+\ll_{a,b}p^{5/2-2\gamma}.
+\]
+This is far above \(p^{3/2}\). The fact that the fixed moderate band has
+\[
+|D|\ll \sum_t |f(t)|^2\ll \sqrt p
+\]
+does not improve this: the above bounds allow \(N_t\) of size \(p^{1-\gamma}\) on about \(p^{1/2}\) slopes, producing the same \(p^{5/2-2\gamma}\) scale.
+
+After subtracting the equal-\(u\) terms and the already-controlled shared-endpoint terms, the remaining distinct-\(u\), disjoint-endpoint contribution therefore remains open.
+
+## Precise failure
+
+The current inputs establish only
+\[
+\boxed{
+\text{equal-\(u\) high overlap}\ll p^{2-2\gamma}
+}
+\]
+and
+\[
+\boxed{
+\text{distinct-\(u\) disjoint collisions}\ll p^{5/2-2\gamma}.
+}
+\]
+Neither is \(O(p^{3/2})\) for the available fixed-threshold exponents. Thus the proposed \(O(p^{3/2})\) collision bound is presently **inconclusive**, not supported or refuted.
+
+The obstruction is specifically that:
+
+1. the equal-\(u\) argument controls each fiber through \(h(u)^3\), but does not exploit the fixed moderate slope band strongly enough; and  
+2. the distinct-\(u\) argument combines only a pointwise bound for \(N_t\) with a total-mass bound, whereas the target requires a genuine second-moment estimate for the slope fibers.
+
+No claim about the asymptotic truth of the target follows from this failure.
+
+## Ranked next tests
+
+### 1. Highest priority: a two-copy inequality on disjoint physical endpoints
+
+Prove, with the actual \(A_x,C_x\) masks and fixed \(D\), an estimate of the form
+\[
+\sum_{t\in D}
+\sum_{\substack{u\ne u'\\
+\text{disjoint physical endpoints}}}
+n_{u,t}n_{u',t}
+\ll_{a,b}p^{3/2}.
+\]
+Equivalently, seek a weighted inequality that uses both copies of
+\[
+C=uA+1-u
+\]
+simultaneously, rather than applying the affine-intersection bound independently to each copy. This is the direct missing estimate for distinct-\(u\) collisions.
+
+A successful version should retain the slope weight \(|f(t)|\), or at least exploit the fixed moderate-band condition; an estimate depending only on \(\sup_tN_t\) and \(\sum_tN_t\) cannot reach the target.
+
+### 2. Second priority: high-overlap fiber energy beyond \(h(u)^3\)
+
+For
+\[
+\mathcal U_{\mathrm{hi}}=\{u:h(u)>p^{1/4}\},
+\]
+prove a refined bound such as
+\[
+\sum_{u\in\mathcal U_{\mathrm{hi}}}
+\sum_{t\in D}n_{u,t}^{\,2}
+\ll_{a,b}p^{3/2}.
+\]
+A sufficient structural statement would be a moderate-slope energy saving
+\[
+\sum_{t\in D}n_{u,t}^{\,2}
+\ll h(u)^2\,p^{-\delta}
+\]
+on average over high-overlap fibers, or a bound for the shifted physical layer \(uZ_u+1-u\) that couples the two quotient structures. The existing affine-incidence estimate controls \(h(u)\) but not the multiplicative energy inside \(Z_u\), so a new input is required.

@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-20T00:35:51.885681Z",
+  "prepared_by": "Codex research coordinator",
+  "coordinator": "coordination/round-168.json#next_calls",
+  "coordinator_sha256": "37b9d0edf3dda5c1be4b407ebe96c8f9f3ecbdc4074ebca31c4cc968bcd203fa",
+  "call_ids": [
+    "ordinary-prime-match-physical-spectrum",
+    "ordinary-prime-quotient-positive-forcing",
+    "cold-prime-distributed-seed-transport"
+  ],
+  "routes": {
+    "r169/ordinary-prime-match-physical-spectrum": {
+      "question": "Can the physical nonnegative one-match spectral mass be bounded by O(p^-1/2) with the actual normalized Gauss parameters?",
+      "scope": "Keep summed lifts, actual four-character probabilities and g(1-g). Analyze the co-moving rows U_(sign,r)(a) and exploit the actual lifted autocorrelation law, across r if necessary. State zero-match separately.",
+      "remaining": "Obtain the physical spectral gain for one-match and a separate zero-match estimate, or a fixed-gap exclusion via genuine one-sided source bounds and positive-support coercivity."
+    },
+    "r169/ordinary-prime-quotient-positive-forcing": {
+      "question": "Does the one-sided projected law of a genuine nonnegative quotient multiplier rule out a large correction on a fixed-gap prime sequence?",
+      "scope": "Use real true minimizer F, true mark q, minimum-support complement R and its A. Keep the actual F_A and projection to W_A. Try to bound the ratio of its negative forcing to the projected mass; separate the positive support cost.",
+      "remaining": "Obtain the physical spectral gain for one-match and a separate zero-match estimate, or a fixed-gap exclusion via genuine one-sided source bounds and positive-support coercivity."
+    },
+    "r169/cold-prime-distributed-seed-transport": {
+      "question": "Can the genuine distributed R squared source be transported with uniform summed translated price or be replaced by a justified moving signed starter?",
+      "scope": "Keep t0=n, both lifts and original square. Seek a signed coboundary or two-step telescope using the actual neighboring orbit, or a translated bound on the subspace reached from the true R squared source. Retain a compatible charge for any residual and mixed-word sources.",
+      "remaining": "Show signed summable transport of the actual distributed starter or construct a sufficient moving nonlinear bridge on the same square."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-match-physical-spectrum": [],
+    "ordinary-prime-quotient-positive-forcing": [],
+    "cold-prime-distributed-seed-transport": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The one-match work concerns the positive physical spectral mass of a particular completed covariance. The support work concerns the actual positive-first centered quotient at every hypothetical fixed gap. The cold work concerns a distributed marked source transported on the original complex square."
+}

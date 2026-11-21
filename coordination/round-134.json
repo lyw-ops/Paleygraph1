@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "round": 134,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent mathematical review and outward replay",
+  "sources": {
+    "baseline": {
+      "path": "research/round-133-acceptance.json",
+      "sha256": "29b8d7a50c56e3c2f97f67739295f88cf12b23f4bd6f4bc12ca88d8320fb30ed"
+    },
+    "current": {
+      "path": "research/round-134-acceptance.json",
+      "sha256": "973ea5167f20223c46026f40f9e651656b036370c051879bf1a9c6924f4c17fd"
+    }
+  },
+  "changes": [
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "reformulated",
+      "before": "Only the linear seed pair had strict physical price. The genuine cold block remained unpriced.",
+      "after": "The full marked analytic pure-seed step has translated rate below 0.528. Its two-step price is below 0.279 on the original square. Entry flatness and counting contraction alone cannot price a genuine packet.",
+      "remaining": "Bound the actual nonlinear remainder in physical price at the same frozen heights and square. A separate remainder estimate would suffice at the two center rows; the invariant and half-step sheet margins would still need proof.",
+      "evidence": [
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        },
+        {
+          "path": "research/cold-pure-seed-134-checks.jsonl",
+          "sha256": "efee6ab5bce1685430299867fb1b33761d076804cef8474e5d45f661b9a15861"
+        },
+        {
+          "path": "research/cold-positive-block-131.md",
+          "sha256": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2"
+        },
+        {
+          "path": "research/cold-seed-block-132.md",
+          "sha256": "3eb541a4daf53ad81446b0a32f0ee691ad6bf7a6ac35c10dbb4aeb4a8e9da6c8"
+        },
+        {
+          "path": "research/cold-seed-packet-133.md",
+          "sha256": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939"
+        },
+        {
+          "path": "research/seed-majorant-47.md",
+          "sha256": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4"
+        }
+      ]
+    },
+    {
+      "id": "weighted-real",
+      "route": "Rate-free real ordinary weighted cancellation",
+      "effect": "reformulated",
+      "before": "The antisymmetric identity reduced the ordinary ratio to the actual ordinary-weighted Jacobi seed.",
+      "after": "The clipped ordinary window and signed tail are quantitatively separated. Even bounded positive auxiliary weights can carry a nonzero seed pairing.",
+      "remaining": "Provide a bounded-window parity approximation of the actual ordinary activation and control its signed high tail, or find a direct support-sensitive cancellation argument through all eligible primes.",
+      "evidence": [
+        {
+          "path": "research/ordinary-seed-window-134.md",
+          "sha256": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb"
+        },
+        {
+          "path": "research/zero-floor-sector-133.md",
+          "sha256": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        }
+      ]
+    },
+    {
+      "id": "fixed-masked",
+      "route": "Direct critical cap mask repair",
+      "effect": "unchanged",
+      "before": "The averaged real route works without that critical rate and does not establish the signed critical-window upper.",
+      "after": "Round 130 was on the cold derivative; the previous real obligation remains open.",
+      "remaining": "Control an actual critical endpoint, then its cap jump tails or the exact full true-factor masked statistic.",
+      "evidence": [
+        {
+          "path": "research/real-cap-drift-localization-127.md",
+          "sha256": "979a60b83ee61a9efb7c434efa7f33fbadbc45d88c2c44b45c8205cbc2eca20d"
+        },
+        {
+          "path": "research/real-masked-cap-adjoint-125.md",
+          "sha256": "00c4cecc13ae85a92df90a45fb81cf9a1faa5e858e4a4d752a104c7b950e83a1"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The full pure-seed derivative is cheap enough to isolate a sharp remainder test. Two cold routes can test the same physical estimate with different evidence. The ordinary weighted window and tail require a separate real argument.",
+  "next_calls": [
+    {
+      "id": "cold-remainder-envelope",
+      "priority": 1,
+      "change_id": "cold",
+      "question": "Can direct signed seed subtraction in the nine-center Laurent envelope certify the exact remaining physical step below 0.472?",
+      "why_now": "Pure seed now includes all its odd powers; the omitted linear center remainder must be included. An outward upper could produce an actionable frozen price.",
+      "scope": "Use actual V601 and V602 over closed Q, translated P5000 with both boundary pairs and physical t0=n. Subtract the pure-seed coefficients before modulus, price every remaining weight, and give an explicit analytic tail.",
+      "if_yes": "Provide a reproducible outward envelope and quantify its margin.",
+      "if_no": "Give a certified obstruction for that specific positive comparison or a correct quantified shortfall.",
+      "if_inconclusive": "Specify the first signed coefficient and tail estimate still needed.",
+      "inputs": [
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        },
+        {
+          "path": "research/cold-pure-seed-134-checks.jsonl",
+          "sha256": "efee6ab5bce1685430299867fb1b33761d076804cef8474e5d45f661b9a15861"
+        },
+        {
+          "path": "research/cold-positive-block-131.md",
+          "sha256": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2"
+        },
+        {
+          "path": "research/cold-seed-block-132.md",
+          "sha256": "3eb541a4daf53ad81446b0a32f0ee691ad6bf7a6ac35c10dbb4aeb4a8e9da6c8"
+        },
+        {
+          "path": "research/cold-seed-packet-133.md",
+          "sha256": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939"
+        },
+        {
+          "path": "research/seed-majorant-47.md",
+          "sha256": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4"
+        }
+      ]
+    },
+    {
+      "id": "cold-remainder-geometric",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "Can direct geometric relative pricing prove or obstruct the very same remainder norm below 0.472?",
+      "why_now": "A shorter arithmetic argument can distinguish a defect of the coefficient envelope from a genuine limitation of the remainder estimate.",
+      "scope": "Use exactly the same actual h=601,602, Q, t0=n and P5000 as the envelope route. Work by signed transport of mixed word weights, relative seed powers or a genuine packet witness. Counting norm and position flatness do not price this norm.",
+      "if_yes": "Prove the physical operator bound independently of numerical coefficient scanning.",
+      "if_no": "Identify an exact sign, rank or packet obstruction at these true assumptions and distinguish it from a majorant-only failure.",
+      "if_inconclusive": "Give a checked reduction and the first nontrivial discriminating signed transport test.",
+      "inputs": [
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        },
+        {
+          "path": "research/cold-pure-seed-134-checks.jsonl",
+          "sha256": "efee6ab5bce1685430299867fb1b33761d076804cef8474e5d45f661b9a15861"
+        },
+        {
+          "path": "research/cold-positive-block-131.md",
+          "sha256": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2"
+        },
+        {
+          "path": "research/cold-seed-block-132.md",
+          "sha256": "3eb541a4daf53ad81446b0a32f0ee691ad6bf7a6ac35c10dbb4aeb4a8e9da6c8"
+        },
+        {
+          "path": "research/cold-seed-packet-133.md",
+          "sha256": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939"
+        },
+        {
+          "path": "research/seed-majorant-47.md",
+          "sha256": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-window-signed-tail",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Can complementary ordinary support bound the signed high seed tail or give true clipped-window parity?",
+      "why_now": "A mean bound on ordinary factors and unweighted finite-depth parity do not perform either of these tasks.",
+      "scope": "Use the actual prime ordinary optimizer, fixed cap at the mark and complementary positive factors with disjoint bulk support. Either upper must be prime uniform in the stated fixed-window order. Avoid positing full optimizer L2 without proof.",
+      "if_yes": "Give the proved estimate with its exact order and state the other required input.",
+      "if_no": "Give a genuinely applicable obstruction or show why a proposed arithmetic test fails.",
+      "if_inconclusive": "Give a concrete support-sensitive weighted estimate or a finite positive dual test and its open asymptotic gap.",
+      "inputs": [
+        {
+          "path": "research/ordinary-seed-window-134.md",
+          "sha256": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb"
+        },
+        {
+          "path": "research/zero-floor-sector-133.md",
+          "sha256": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "cold",
+      "question": "Which new prime-family estimates withstand independent mathematical review and replay?",
+      "why_now": "The next outcomes can involve numerical coefficient bounds and actual support arguments. Their scopes must stay separate.",
+      "scope": "Read only; check actual rows, norms, uniform tails, marking and order of limits.",
+      "if_yes": "Report the verified statement and ranked next tests.",
+      "if_no": "Locate the first mathematical or workflow defect.",
+      "if_inconclusive": "Distinguish exact outcomes from drafts and missing bounds.",
+      "inputs": [
+        {
+          "path": "research/cold-pure-seed-134.md",
+          "sha256": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a"
+        },
+        {
+          "path": "research/cold-pure-seed-134-checks.jsonl",
+          "sha256": "efee6ab5bce1685430299867fb1b33761d076804cef8474e5d45f661b9a15861"
+        },
+        {
+          "path": "research/cold-positive-block-131.md",
+          "sha256": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2"
+        },
+        {
+          "path": "research/cold-seed-block-132.md",
+          "sha256": "3eb541a4daf53ad81446b0a32f0ee691ad6bf7a6ac35c10dbb4aeb4a8e9da6c8"
+        },
+        {
+          "path": "research/cold-seed-packet-133.md",
+          "sha256": "62e4778584b78fef2f7ad0359bc72b3dd4a6919044139642737f1acb0b65f939"
+        },
+        {
+          "path": "research/seed-majorant-47.md",
+          "sha256": "2b29548a04aa44e6d1e082b6973e656a1499869120664d17b2e0891cc57b89e4"
+        },
+        {
+          "path": "research/ordinary-seed-window-134.md",
+          "sha256": "a5bbf1b31c8c81a0455bb9da306364989d3f843e20245dfa7fa56821c9c35bfb"
+        },
+        {
+          "path": "research/zero-floor-sector-133.md",
+          "sha256": "7c84aa408b7e7ece66fa25a21815af4573e23b379e807346793120561022f8d8"
+        },
+        {
+          "path": "research/zero-floor-ordinary-mixed-cap.md",
+          "sha256": "a26d5acc93267fab0f4e3f20903a1c7291b52ac5e45c3a7ff8d761a4c477dfbb"
+        },
+        {
+          "path": "research/iteration-parity.md",
+          "sha256": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": [
+    {
+      "id": "cand:cold-pure-seed-remainder-472",
+      "statement": "For all sufficiently large primes p=1 mod 4, uniformly on the original closed cold square and for h=601 and h=602, the actual physical translated P5000 operator norm of K(D_h-D^J) is strictly below 0.472 with a field-uniform gap. D^J is the full derivative at the Jacobi seed using the actual marked floor n.",
+      "calls": [
+        "cold-remainder-envelope",
+        "cold-remainder-geometric"
+      ]
+    }
+  ]
+}

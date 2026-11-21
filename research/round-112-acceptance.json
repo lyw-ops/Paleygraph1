@@ -1,0 +1,79 @@
+{
+  "round": 112,
+  "accepted_at_utc": "2026-11-19T13:42:49Z",
+  "previous": "research/round-111-acceptance.json",
+  "previous_sha256": "609da2ee9f2a7a81d3daa2d752b80cfd58cc59f946540dd6a1e9492c633bd87b",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-111.json",
+    "sha256": "b0cd1f4a354cdb1b37efea6f560889db34b3ab58c71069143119ac775fe14b29"
+  },
+  "proof_and_code_sha256": {
+    "research/full-repair-moments-112.md": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954",
+    "research/api-astra-overflow-112.txt": "91009d3015ec46e468f6414d7f9e86dbe3521c0f5e89e23494e2edcf8956e5cf",
+    "research/api-astra-review-112.md": "fb4c5bdb3de997d3fffe0553003187663e5f975a990465fdc7e8873fac3168a8",
+    "research/api-astra-112-receipt.json": "7f1af61f3992db7a13e6e3236519df31f965aa6517735627dbe67e8645123946"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/fourier.md": "ce9f0f270fe344597d1567368dba853f03351c058e834f5afa16b1bf97e192c4",
+    "research/iterated-sector-projection-108.md": "5cba24b93f81e61081f30c2d05e7483393cc99294c766c5383135cb2cbc8370e",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/persistent-repair-deficit-109.md": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8",
+    "research/repair-core-defect-balance-110.md": "bbce7b93f2f8f6c9d35dbf1a074ab2c59e3db616f0e2da14dd6f046e60215591",
+    "research/distinct-cubic-repair-111.md": "fcb8fb7d9f37a3ccf5e069b3c6cd2319403b502522648a10abe3a46ae8a8b242",
+    "research/api-astra-review-110.md": "1c19ff9200e5b11ab122a5d1760bd5fd5f442ef419729326be4759ff425b892e"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, mark versus bulk",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Estimate the anchored two-draw Fourier quadratic form.",
+        "Test the sign of the genuine bulk cubic together with the forced exterior pairing."
+      ]
+    },
+    {
+      "name": "/root/audit_112",
+      "status": "completed",
+      "ranked_closeout": [
+        "Test the signed Jacobi transport of the square of the full or persistent-core repair source into the true favored high factor.",
+        "Use the two reciprocal true factors jointly, with their asymmetric signed cubic weights."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Use the squared-source transport between the genuine repair core and the true favored high bulk sites, retaining the same subsequence and marked versus exterior alternative.",
+    "Try a prime-specific mixed estimate with the true opposite weight and the exact reciprocal product.",
+    "Keep independent routes through the sharp cap coefficient, adjusted slack, and common complex domain."
+  ],
+  "proof_scope": [
+    "On the accepted actual late block of the fixed-floor critical cap-rate marked obstruction, every fixed-degree distinct Jacobi moment of the full nonnegative repair source has signed lower c_d p^(-1/2); collision error is O_d(n^(-1)) and moment substitution costs O_d(n^(-3/4)).",
+    "The centered opposite-sector negative pairing splits into a constant-size signed Jacobi alignment at the original mark or a negative c n^(-1/2) pairing in the true exterior away from both core and mark.",
+    "The true favored factor supplies a second law with a signed distinct mixed cubic at least c p^(-1/2), using only off-mark indices after an O(n^(-1)) omission. The true opposite factor has corresponding mixed cubic O(n^(-3/4)).",
+    "The conditional mixed cubic as a function of the third shift equals the actual squared-source transport, after rescaling by sqrt(p), with O(n^(-1/4)) uniform error. It forces a fixed positive signed transport at order sqrt(n) true high favored bulk sites. The moving persistent-core square gives the same lower up to O(n^(-beta)) in supremum norm."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The submitted preliminary marked atom of order one was incorrect. Its corrected scale n^(-1/2) makes that marked cubic subcritical; the linear marked repair cost is a separate critical term.",
+    "Neither the direct norm bound nor the moment decomposition imposes the required prime-specific sign or cancellation in the unmarked bulk. The conditional cap premise is still needed.",
+    "The common cold analytic domain and the original ordinary all-prime theta limit remain open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. The transport receipt and returned draft are preserved."
+  ],
+  "independent_review": [
+    "Read-only audit verified all fixed-degree collision and power estimates, the actual late marked budget, the mixed normalizations and the corrected off-mark bound. Auditor separately derived the conditional squared-source transport and the opposite factor bound; the coordinator checked the normalizations and precise localization."
+  ]
+}

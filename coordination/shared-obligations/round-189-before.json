@@ -1,0 +1,29 @@
+{
+  "captured_at_utc": "2026-11-20T23:30:26.455558Z",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment)",
+  "coordinator": "coordination/round-188.json#next_calls",
+  "coordinator_sha256": "2c6221ec080ac072c5b8d93710427d4ed6f28d964d778bfd111c8ea8e590492c",
+  "call_ids": [
+    "ordinary-prime-intercept-fibre-t0",
+    "cold-prime-perron-nonseed-price"
+  ],
+  "routes": {
+    "r189/ordinary-prime-intercept-fibre-t0": {
+      "question": "For the actual g with the cap, is T_0 - c = sum_{lambda != 1} g(lambda) Delta(lambda, 0) = sum_{Y != Y'} g(Y) g(Y') g(Y'/Y) sum_{b in Q} g(D_b(Y)) g(D_b(Y')) at most p^(31/24-delta) (beats 43/24) or p^(5/4-delta) (below 7/4), or the averaged T <= p^(7/4-delta); equivalently max_{lambda != 1} Delta(lambda, 0) <= p^(3/4-delta) (resp. p^(2/3-delta)); or is there a method cap for incidence pricings of this sum?",
+      "scope": "Actual g = |f|^2, omega >= 0, (H3), cap; Theorem A, Proposition B, Lemmas A1-A2 of Round 188 as accepted; Round 187 level extraction, Lemma C and Lemma M' as accepted; Stevens-de Zeeuw or other incidence theorems quoted from source with hypotheses checked at the scales used (sets of size asymp sqrt p, characteristic p); no near-critical input unless marked; exact exponent arithmetic; check against the F_(r^2) control (any saving must use primality). Report any bound on X or Gamma_2 separately (cand:slope-row-mass-x). Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "remaining": "One-match: T_0 - c <= p^(31/24-delta) (beats 43/24) or p^(5/4-delta) (below 7/4), T_0 = O(p) for the target, by an estimate keeping the coupling between g(Y'/Y) and the shifted correlation (decoupled Cauchy-Schwarz gives nothing); or X <= p^(5/4-delta); or Gamma_tot <= p^(11/24-delta). First mass X = O(p^(1+1/1280)) unchanged. Generic J sum O(p^(9/4)) and zero-match unchanged. Fixed-a generic squared mass not re-derived."
+    },
+    "r189/cold-prime-perron-nonseed-price": {
+      "question": "In the compact model at t = a (then complex t in Q, both lifts), is the one-step norm of the non-seed part B_h of the frozen-base multiplier at V_602 (the h-linear term and all higher Taylor terms) below 0.274632 in the Perron-weighted sup-dominating price pi_phi of Round 188, so that kappa_0 = lambda_A + beta < kappa*; or is the pi_phi ratio of multiplication by the actual simples of h at least the budget?",
+      "scope": "Round 182 Proposition 1 / Corollary 2.2 framework; (b1), (H1), (H2) stated as hypotheses or re-proved in pi_phi; (R80) and (R80-4) as inherited; Round 186 Theorem N (size-only prices of h fail) and Round 185 Theorem 3 as accepted; certified outward arithmetic, floating only for orientation; extend the seed certificate to complex t in Q and the second lift. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "remaining": "A sup-dominating price for the non-seed part B_h (h-linear and higher Taylor terms) with one-step rate below 0.274632 in pi_phi, under (b1), (H1), (H2), uniformly over t in Q and both lifts; or the angular variant of Criterion D with a growing-height L^2 decoupling; plus D2-D4, (b-Jk), (b-T), the stationary domain and derivative transfer. Proved frozen rate stays 1.066."
+    }
+  },
+  "candidate_ids_by_call": {
+    "ordinary-prime-intercept-fibre-t0": [],
+    "cold-prime-perron-nonseed-price": []
+  },
+  "known_shared": [],
+  "comparison_status": "assessed",
+  "comparison": "The ordinary call bounds T_0 - c, a coupled three-variable incidence sum of the ordinary weight g = |f|^2 on F_p (input to the one-match covariance through Round 188 Theorem A); the cold call prices the non-seed part B_h of the frozen cold multiplier at V_602 in the Perron-weighted price pi_phi in the compact sheaf model. They share no object, lemma or estimate. The ordinary call is asked to report any bound on X or Gamma_2 separately (cand:slope-row-mass-x, cand:near-critical-square-mass). No earlier call is active."
+}

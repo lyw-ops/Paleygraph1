@@ -1,0 +1,210 @@
+{
+  "round": 162,
+  "accepted_at_utc": "2026-11-19T23:36:35Z",
+  "previous": "research/round-161-acceptance.json",
+  "previous_sha256": "251b0e969e0e02a5fffc1c090ffe7b8d4b209b3672a69a7683082936ad28293d",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-161.json",
+    "sha256": "42c7b9027bb6c334c04053b62d58c5e2c283caf9c5f4766d97ae3439fc3ee801"
+  },
+  "proof_and_code_sha256": {
+    "research/ordinary-zero-set-leakage-162.md": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca",
+    "research/ordinary-physical-slope-fiber-count-162.md": "ddc91f28cfbc56ffe805567d7aa85f1fedc5ba8f42a8bd559f436b17a2c3e005",
+    "research/cold-height-602-frozen-kernel-162.md": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab",
+    "research/api-astra-review-162.md": "9c5229c4771fa382d49d0ba1c3897655751b542a6666c9f3b70d6fa1c5d9929a",
+    "research/api-astra-162-receipt.json": "efe06be6ef96aa85971c6f117d3430c3e3bc5399e1ad29aeda452e85b5508cd6",
+    "research/api-astra-ordinary-prime-unmarked-distance-162.txt": "fa7562ea0f89145694aa768d114e85454bb75642e43f7edc8d6ed8b5b700318d",
+    "research/api-astra-ordinary-prime-conditional-slope-block-162.txt": "252837e184cd0b137b67bd1434de3f1834419bc8bf5f05eaed8e96b551a35dae",
+    "research/api-astra-cold-prime-local-smoothed-remainder-162.txt": "db83b957ae4d2a9a76909cae8d0ff80547affb8b87dc3873816fcdfa2cb957e9",
+    "coordination/launchers/round-162.py": "2de9d91be3a2e06da95b6a2a6cb89e93a728a2f92daf62b4fe221794b56510fc",
+    "coordination/round-162-inflight.json": "0f368ef10e532e5267fda65e8176727408837e381c2e522fc3e219d4d01553f6",
+    "coordination/shared-obligations/round-162-before.json": "ee315d522b3cf101476f1e850c1ff8fa9abe38b64a41ddfc022bf2101b19f908",
+    "coordination/shared-obligations/round-162-after.json": "50d2ecdca20cc6dab5c873ef0770edb31d61970133146e9d5685031564cced0c",
+    "coordination/missions/round-162/ordinary-prime-unmarked-distance.md": "56bc0c59481bab109726f4f6be090eb25bc03399ab2ee7aaff62ffed5f44cc67",
+    "coordination/missions/round-162/ordinary-prime-conditional-slope-block.md": "44b583e0815d2a233e2e06c791558ecfa366da31cb9b8b48d8ade2dc6f8a1ddd",
+    "coordination/missions/round-162/cold-prime-local-smoothed-remainder.md": "46b20f25264589299a9894811c184f91627a9c05139a71452b5c0f0f81355077"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/ordinary-pinned-reflection-flow-148.md": "5e7a44f42f88e1b3fa2559271ca00a4355b6b647f477b64cf4cbc689cc5b3cce",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/averaged-completion-dual-140.md": "56dca52b029fc096f42ad60ddeaeb38d305a0a0c8861bf3269f7e3649e269595",
+    "research/averaged-hinge-opposite-141.md": "92641e5bef3da4349ef50fa3a0db73e771a49f9431ee91a15a2d9d65fa087d26",
+    "research/anchored-repair-20.md": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721",
+    "research/parallel-cap-19.md": "da976e583abac8c86974f25da13f44fffe5fd29486d79ec2ae0c4d6bd36a552e",
+    "research/ordinary-oriented-terminal-mask-147.md": "abfd47090060466dc9c68010d2e3ae72fdca6715e8e05f41f33a18c6852b8456",
+    "research/ordinary-terminal-face-dual-143.md": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb",
+    "research/ordinary-near-cap-complementary-mask-146.md": "06c1dd62076c275cbbdbd79c7976dc1da2c2eca05723c681d64b1fd310e2d43f",
+    "research/parallel-depth-window-30.md": "00373a4818a2798c5d0f169a396eb602dff12392c69fce657647995b7aba1eaf",
+    "research/filtered-support-46.md": "61a60315a3bcef081f906747e911501186cf1ebf847b79ff68c8147b5021ff0e",
+    "research/cold-higher-legendre-step-148.md": "e83dcebc121714857ca3dc3eb69c86cf6d048f8d3353ea822aea5f791da8c0a9",
+    "research/cold-first-omitted-envelope-147.md": "8eadbc2dc047382b0e9f565230f30f7e5ac56a06593010de52f4bd690332b921",
+    "research/cold-actual-legendre-amplitude-146.md": "4e72c15a598bb4451152ff9a8ab5bf4d7aae38ffc13914041687b1963c89d4e2",
+    "research/cold-resummed-136.md": "5a9c7bc44dbfe00958b3a9b4ed007cff1cf1dcb46c12f9068c36e2e2eceef161",
+    "research/cold-remainder-135.md": "5c6462940b2d15aaa193951f35c35985f0cdee08cfe5a25d37ecd02ab9f2e6ed",
+    "research/cold-combined-height-130.md": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920",
+    "research/cold-linear-split-137.md": "fbdd8c5c78736ce49c3c9cbda2f0b7bcf8ab96fc2d670e3265f31712c68e6b01",
+    "research/cold-paired-height-transfer-139.md": "cbf58984310d26616253184ad9bee2fd6fdbe598d90e06f2c04f162d31e8d7aa",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/astra-positive-39.md": "f8537a945d274efb7f6a143dbceb9f1c51e1ce460190fff510ec6e2dcca61062",
+    "research/parallel-defect-16.md": "e38b5b820fcc78f0c08d502c21e64693511af008a9d73e8f31c02d930f1204c7",
+    "research/ordinary-averaged-repair-dual-149.md": "524778e008719783a38a2cde0ded9cf7069a822ee631c48e0429a204e0e5d987",
+    "research/cold-two-center-omitted-envelope-149.md": "b9523e161fde83eb32f92dbb5d1f7c2336ab85f37523d705d1b48bfbdc17e142",
+    "research/cold-jacobi-linear-legendre-145.md": "7e299fc5ddd123a77577117e0a0919244631dbc7bacff8e15a4a83500edc6ad1",
+    "research/cold-mixed-seed-column-141.md": "0c09cd0b907b85540da510809612c64bc2953db2d0c0970120ce9242dcfff468",
+    "research/ordinary-terminal-approximate-face-144.md": "3e671a3a78f38c59eea741e79905c4e6fd5d977a7dbe4428e4ca174f73aa7fd4",
+    "research/astra-signed-54.md": "00fa03cf4666d088e502bc8287e367c63250019e4eb3a2d72a046e695c5c4288",
+    "research/two-node-groups-59.md": "5167c9ae0f6066b352f70f7cb983f5da68925d095368b2a4c28b18cd55b8e9ac",
+    "research/astra-legendre-63.md": "e552bb81f19ce942ab8d589050bb0343296dd04aa8425b699154b49a001bbe3c",
+    "research/ordinary-prime-repair-source-150.md": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1",
+    "research/cold-signed-legendre-omission-150.md": "64ab35e5de82e28f7a13d1c736755673700ea380fb6f67f2eea7e4c28b9d3f3f",
+    "research/parallel-rectangle-20.md": "5a2bab72af7de9f1b9abdae5091172ce1375f93e6a3a7480633ea142a612d333",
+    "research/critical-sets.md": "1b7adbf29a540f6801d79667ca1ae9245946e56435b9843b724f4b5a07577b10",
+    "research/astra-rankthree-55.md": "045762f677966ef9fb059657e142e7290a347620b8ccfb2fff5a2407bdfd8f48",
+    "research/rank-four-arithmetic-56.md": "7c7fcff4cfec674ec7325538ddddc5738b37038802409fb1c461bedc05860d56",
+    "research/weighted-arithmetic-57.md": "691134f5146f17877bda595b19ed937ab9859d388e2c5e2e34921eb30da35e30",
+    "research/astra-ranknext-58.md": "94a3811a9ab75adcb5f0ad7eb64b29d7f72658c2183d96bf4a2bf3c2389823a9",
+    "research/joint-law-32.md": "b9aae9238545ad13d174732cf2bfed8c0bf2d5446c1843119dd1ec5796681dfd",
+    "research/iteration-parity.md": "9b33ce2acc86cb09e27b7d7272dfe784d9faed99708d989c1c4c2908d83f2ccf",
+    "research/ordinary-prime-coset-spread-151.md": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282",
+    "research/ordinary-retargeted-motion-151.md": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b",
+    "research/cold-leading-W-square-151.md": "8adb45f03aaf00eaa084f93c6538e5c6091869505b690991df1b3fbf88da67e3",
+    "research/api-astra-review-151.md": "eb02314be75ea8e957af7b675081729fb7507d2b06b089f1a487b4397308de40",
+    "research/cold-pure-seed-134.md": "89c20184ae38d434b645e7e10f1f05bc521fd19fc379f6719dd3a96a0171b94a",
+    "research/ordinary-affine-correlations-152.md": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5",
+    "research/ordinary-first-spill-signed-dual-152.md": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0",
+    "research/cold-three-center-152.md": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a",
+    "research/cold-W-all-order-return-152.md": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed",
+    "research/cold-positive-block-131.md": "865db7b86b2fa909c1436befbaf4d1074f8c538074cc1b7be87016f8584175d2",
+    "research/ordinary-affine-jacobi-factorization-153.md": "1c5059e1de4f4a910fcdb0d080fda2c409b07d67ffb8c738af43c82a39d8fdd0",
+    "research/cold-three-center-composition-153.md": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5",
+    "research/astra-joint-65.md": "44c3f4fba1553e49803fb29d416e823aba3c7a58f27785e4e5ed1f39b427fb5b",
+    "research/ordinary-lift-and-gauss-kernel-154.md": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32",
+    "research/cold-other-center-matched-154.md": "d72e53ec9c42fc92c019618bba335cab8e3c06d25e1bbe44b9bb1401b6afa0e2",
+    "research/cold-quintic-complete-selected-pools-144.md": "65d491945951070b9db8565942bcec62ce32784750acfa7d7e417c361c36fa06",
+    "research/ordinary-crossratio-affine-chart-155.md": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b",
+    "research/ordinary-first-spill-face-support-155.md": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8",
+    "research/cold-legendre-unit-return-155.md": "2e04d64faff98b129dd14d44d5e569d8ea68c2dfd2cf7d9b2ccf36eeab04c42e",
+    "research/ordinary-sign-selective-completion-156.md": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b",
+    "research/cold-rank-three-unit-composition-156.md": "9127cf9c06ca1cdf2e775c7101e4547719a3e59a7e69a75b0591660c12d2fd89",
+    "research/ordinary-marked-frequency-localization-157.md": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee",
+    "research/ordinary-five-root-trivial-slices-157.md": "cde7be53870aa40114aaa0a89699e8aa9117e07e67a0ab27ed7cb237fc51996e",
+    "research/cold-rank-three-common-labels-157.md": "6e78bfc5802f6d5a72dc5f939732a38320e41f09207d6f01236b5561757e59c8",
+    "research/astra-rankthree-56.md": "555868bbbbf3cab8b290fec32f0911bf6bd9aa31f4db760c80e1615b128d1f10",
+    "research/ordinary-prime-near-unit-slope-spread-158.md": "b33e6a378645985957c1cec86ff7bd54f0bd578a04f32439547e65faa6179f40",
+    "research/ordinary-five-root-clean-locus-158.md": "5140f82b5346b43ea8f240bb14067f135831aaad62580fbd9e61a99c92aa9f6a",
+    "research/cold-rank-three-quartic-ledger-158.md": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080",
+    "research/astra-rankfour-57.md": "cc023b623511b254e20691b12067692783b0a95d26453c515ba8ca0e5c2e2c78",
+    "research/ordinary-quantitative-near-unit-slope-159.md": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209",
+    "research/ordinary-single-lift-ratio-law-159.md": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0",
+    "research/ordinary-bulk-spectrum-137.md": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a",
+    "research/ordinary-sector-square-tail-135.md": "ee363c4e7e3bcaf3174391c94517a76b6a4eb294ee8c929fd3a6ad401cbd845a",
+    "research/cold-actual-H-scalar-units-159.md": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c",
+    "research/cold-frozen-orbit-transfer-122.md": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7",
+    "research/ordinary-gap-marked-spectral-window-160.md": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6",
+    "research/ordinary-matched-physical-truncation-160.md": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251",
+    "research/ordinary-rank-two-slope-orthogonality-160.md": "730841b8df6ae48d3b972c571499f738187852da18879f31041df5e41bef1342",
+    "research/ordinary-exterior-mark-return-161.md": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4",
+    "research/ordinary-projection-gap-control-161.md": "d0d815dd5f97ec259a5ac50c62507a23314eb98ea3ecdd92641a7624adb9eadd",
+    "research/cold-picard-increment-correction-161.md": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0",
+    "research/cold-actual-first-insertion-126.md": "e0b4e0808dc949933d01b1cdd58b3a0bd8b36ba81a0129fe313a093a216614b7",
+    "research/cold-actual-quadratic-128.md": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52",
+    "research/smoothing.md": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95"
+  },
+  "direct_replay_dependency_sha256": {
+    "research/cold-resummed-136-check.py": "81dbc6e21637e04a5bf39bf503a6172fee8ba4dffe308d0dce7fb6fe068a3784",
+    "research/cold-combined-height-130-check.py": "582d1244ac5fe1b354a5119e1ca46873efcca47c49fa995ce54138d2c719474c",
+    "research/astra-predictor-76-check.py": "27a8466fc05d38fbaf21561d3e2134ed06465129db0fb275657b136b2a8e632e",
+    "research/astra-joint-65-check.py": "91faf393cd2be45e3a8ed619aad5e36a11e4c6472f45a32c120edf77b9857e52",
+    "research/astra-prime-phase-32-check.py": "fdf94835ac122bf639e2f553a57f420e9349f0a490a05ef16d213d38ac698d71",
+    "research/astra-joint-64-check.py": "9f1225e98f27e33e1a670e41c32f514892d767b35e951ef2c5ea941ee86847ee",
+    "research/astra-legendre-63-check.py": "0d810b151fcc90b6b3acdffdd1268ac61a503a206eed063ed9736204c8652138",
+    "research/astra-primitive-62-check.py": "af994364ddcc73bb0b7af2ae893a1df1e41acb2e7d33e0ae8a5f6eadf4d010f1",
+    "research/astra-crossnode-59-check.py": "4e75e30eb6e8938fa0b9b76cb0a1c811709497428ea51a49512379c98b4eb73a",
+    "research/astra-ranknext-58-check.py": "8d47748a41e5342a8c37fac5182034682a2784dff202c2d94f9ddad5ea0dea3f",
+    "research/astra-rankfour-57-check.py": "8a7e1c488d4eab9e7a86947669c046aed3379fdeb1fa3cc90bda9e344b58dc07",
+    "research/astra-rankthree-56-check.py": "e1e3b5f6e4b8cf84f21ff6d2a40eedbfe0fc7ecedd9c9ee02d9e0e856936c2d7",
+    "research/astra-rankthree-55-check.py": "992c45f3466153721210968b339add47f813cf968fd6a149c6662604f8b264a0",
+    "research/marked-domain-53-check.py": "6ad9fa3e68dd25d1b18274da8bdf049fc09cf1422d3cf73412e157a10dbc8b6a",
+    "research/astra-histogram-53-check.py": "d430d33aef75ac57c2866793362817ebe061457c3a2847acf4656b13b170f6d3",
+    "research/astra-warm-51-check.py": "748c995f36b4ebe2d9b74aa956c8dc2bb94fe627c8926054c261064df1004505",
+    "research/astra-feedback-52-check.py": "899fe27e521df3eebec21d94aebfc9374dadcb628e7f72f3735aa0519c6f4362",
+    "research/astra-signed-54-check.py": "4d313e8b2d6591e44e108422c55e38941e857d84b0446fbc9be2bbf0d56af7fa",
+    "research/cold-leading-W-square-151-check.py": "7db93c307cdc16cb7fdf6f55902245e0e27a809a2950ae5367857cf2f2bf56c3",
+    "research/cold-signed-legendre-omission-150-check.py": "495d0b8ba3d447a9bce54ee4ca76f9e1dbbe94f49f261177354a94c25a30206d",
+    "research/cold-W-all-order-return-152-check.py": "87d905face366ee1c1260c7ddbcab6911ea8a379979ef6c432c8c25978513227",
+    "research/cold-three-center-composition-153-check.py": "4f0038a3bb36a25d3bbfda26d16ebc6460be49417b2415f50c55c596885d4dd1",
+    "research/cold-rank-three-quartic-ledger-158-check.py": "e8c4b80b5d81d4c3316fcf4be95cad21e8e9c0ad20f7d1bc74c34f84e5218c72"
+  },
+  "additional_replay_dependency_sha256": {},
+  "goal_status": "active",
+  "research_execution": "Active. Three matched gateway replies, exact arithmetic and independent audit. No new outward interval replay.",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "research_agents": [
+    {
+      "name": "Gateway Astra unmarked distance",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Retain the actual exterior on the long marked return route",
+        "Test exact trial leakage in the correct interior witness space"
+      ]
+    },
+    {
+      "name": "Gateway Astra conditional slope block",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Seek a conditional second moment with true weights",
+        "Test cross-ratio incidence on the two actual high layers"
+      ]
+    },
+    {
+      "name": "Gateway Astra local and smoothed cold terms",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Direct outward two-lift replay at height 602",
+        "Perturbative bridge in the translated norm with exact insertion"
+      ]
+    },
+    {
+      "name": "/root/audit_162",
+      "status": "completed",
+      "ranked_closeout": [
+        "Use actual Fourier minors on the true Jacobi zero set and compare the constant-mode omission ratio",
+        "Test off-diagonal multiplicative energy of the actual shifted high layers at one remaining slope amplitude"
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Seek a prime-uniform lower Fourier-minor ratio omega(1/T) on the genuine adaptive zero sets or an applicable signed leakage estimate. The determinant ratio admits exact orbit grouping by Fourier row translations.",
+    "Control the nontrivial Mellin energy of the two reflected high physical layers to extend the O(p) bound to a remaining sigma<1 slope band.",
+    "Use the genuine height-602 frozen-kernel estimate and actual small transported Taylor term to bound the specific source in translated price or obtain a growing starter with a rigorous residual rate."
+  ],
+  "proof_scope": [
+    "The true interior witness space is Ran J intersect y_U=0, with F the exact representer. Any negligible-leakage or signed correction candidate is transferred by the true gramian pseudoinverse; exterior-only exact coefficients produce the same F direction.",
+    "The unmarked distance squared divided by n is exactly a determinant ratio after selecting independent actual columns. Cauchy-Binet expresses it as weighted fraction of Fourier minors omitting the constant row; translating row sets preserves their squared modulus.",
+    "On the original physical high-layer block, a fixed slope has at most min(|A|^2,|B|^2) triples and the total is at most |A||B|min(|A|,|B|). A single p^-1/2 slope or bounded actual counting first mass costs O(p) with the other genuine four weights. The uncut off-diagonal count is a shifted-layer multiplicative energy.",
+    "True height 602 has one-step translated rate <1.066 and counting rate <0.518, giving sum_j max entries O(n^-0.455) for frozen (KD602)^jK on the original square and both lifts. No translated norm for the inverse is claimed.",
+    "Taylor expansion of the actual height-600 increment with original mark gives translated price ||Kr||<0.000115, for the term before its outer inverse. This follows by even-word transport and exact scalar sums."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The raw distance reply interchanges interior and exterior in its trial vector and drops a rectangular identity block. No prime-uniform distance lower or exterior tail upper is proved.",
+    "The raw slope argument does not justify the hard mask Fourier exclusions, and multiplying the global graph upper by the number of slopes loses. The remaining moderate band with unbounded first mass and sigma<1 is open.",
+    "The raw cold first-norm conversion misses a factor n and its direct maximum bound omits the centering debit. The fixed-height correction gives no adequate translated total rate or growing-depth confinement. The original all-prime theta limit stays open."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "Archived all three exact matching-model responses and original receipts.",
+    "Python Fraction certified the cold scalar mass, first moment, rate, curvature and Taylor bounds by rational comparisons, including (1.066)^91(0.518)^9<1. This is not a new outward interval replay."
+  ],
+  "independent_review": [
+    "/root/audit_162 independently checked the actual cold geometry, base-price secant and all constants, caught the distinction between Z_h r and Z_h K r, and ranked next tests.",
+    "/root/audit_162 checked the physical slope counts, identified the hard-mask Fourier ambiguity, verified the exact distance witness support and proposed the Fourier-minor and shifted-layer energy tests."
+  ]
+}

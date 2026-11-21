@@ -1,0 +1,60 @@
+{
+  "provider": "api.appintheloop.com",
+  "dispatch": {
+    "path": "coordination/round-155-inflight.json",
+    "sha256": "e395c0d1333303c2fdcc7e4fcaa29b12abe50c007a3bcd36672ba55fea8693b4"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-favorable-crossratio",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 16004,
+        "completion_tokens": 11116,
+        "total_tokens": 27120
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-favorable-crossratio-155.txt",
+        "sha256": "9156905932e72a159d5c965e14b50ede5cd8a5bcdf72a08042a22a2a05b448cb"
+      }
+    },
+    {
+      "call_id": "cold-actual-opposing-residual-signature",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 12567,
+        "completion_tokens": 2306,
+        "total_tokens": 14873
+      },
+      "archive": {
+        "path": "research/api-astra-cold-actual-opposing-residual-signature-155.txt",
+        "sha256": "1fd91ce961f09fd7c2f7f9cf184f0c699be6e02f306660a7bc66d8483290b931"
+      }
+    },
+    {
+      "call_id": "ordinary-prime-original-face-dual",
+      "model": "gpt-6.2-astra",
+      "completion": true,
+      "http_status": 200,
+      "model_matches": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 8056,
+        "completion_tokens": 2864,
+        "total_tokens": 10920
+      },
+      "archive": {
+        "path": "research/api-astra-ordinary-prime-original-face-dual-155.txt",
+        "sha256": "3c0cebca6d9b5d660ae8aca7707ee29b405759d35ce4a6235722d15f7c115bda"
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "round": 107,
+  "accepted_at_utc": "2026-11-19T12:56:39Z",
+  "previous": "research/round-106-acceptance.json",
+  "previous_sha256": "6d9075b0323639cfcd7981e472999af1ae0e4c0aae46b54f559f5440f03d3275",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-106.json",
+    "sha256": "7ca8622726f1877a4a4fbb484faad42d6fbce345941d2356f18a4c97ede6170b"
+  },
+  "proof_and_code_sha256": {
+    "research/api-astra-107-receipt.json": "af1007e174e57118d0f301d986adbeb465086789549a38bf598c665d34066b21",
+    "research/api-astra-overflow-107.txt": "7fc69691917514a5094f83a425e1dc1751f962bb321e9d4fcb4f417e382af014",
+    "research/api-astra-review-107.md": "627fe114f1126644675552e6c39cc5441f1779eef12ed078c421f4e11ab3c563",
+    "research/mark-oriented-overflow-107.md": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973",
+    "research/real-inner-cap-quadratic-107.md": "bd270694e1472ecb726a69cc441f6357844db91a29a789ca2acfb657de699996"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/api-astra-review-106.md": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad",
+    "research/averaged-mark-35.md": "ca083dab20e92db24e3ed27ae1b521e01cb52eac9bfee3facddf422a81f7f90b",
+    "research/frozen-entry-transfer-105.md": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1",
+    "research/overlapping-overflow-106.md": "bc417b0612d23d9feac62f1b502e348658f252cc4782e65419ce746fbee1b232",
+    "research/parallel-cap-19.md": "da976e583abac8c86974f25da13f44fffe5fd29486d79ec2ae0c4d6bd36a552e",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/real-cap-exterior-103.md": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988",
+    "research/smoothing.md": "cb2490c00d5bf8a01e41a0c86ff8facdf27d990dec2859a3019092b6a5140d95"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_on_utc": "2026-11-19",
+    "observed_status": "Open"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, aligned stationary one-sign window",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test exterior capped transport at its natural rescaled size and bridge it to an actual stationary factor.",
+        "Seek a prime-specific gap directly on the true one-sign stationary high-set test."
+      ]
+    },
+    {
+      "name": "/root/audit_107",
+      "status": "completed",
+      "ranked_closeout": [
+        "Bound the matching one-sided Jacobi transport K T_epsilon; for cap M>=2 the exact factor identity absorbs the deficit rate entirely.",
+        "Control inner excess of actual capped iterates or test a mark-preserving signed sector repair against the forced high-set redistribution."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Target the matching one-sided Jacobi transport of the actual enlarged-threshold overflow at fixed real floors tending to zero. The sufficient criterion for M>=2 no longer needs a cap-deficit rate.",
+    "Seek genuine capped inner excess or smaller-cap squared spill at normalized scale n^(-1/4). At critical rate, exploit actual favored-sector high sets or a mark-preserving signed completion that pays the necessary true weighted redistribution.",
+    "Keep separate the complex moving-starter residual, translated packet and signed representation resources and the original terminal-velocity/prior/triangular conditions."
+  ],
+  "proof_scope": [
+    "A sharp scalar inequality compares the actual capped deficit to the square of normalized residual plus inner excess. The residual at logarithmically growing genuine capped Picard rows is automatic by global contraction, leaving the inner excess. A clipped smaller-cap fixed point supplies a second exact square-spill test. A little-o(n^(-1/4)) bound on the required normalized distances implies mark vanishing at that fixed real floor.",
+    "An exact one-factor pairing forces an aligned overflow weighted by the true stationary sign of a persistent log mark whenever t<exp(delta)-1. The pairing requires no cap-deficit rate. Critical cap rate is needed for the earlier high-source localization. For fixed M>=2, vanishing both one-sided transported overflow maxima at a sequence of fixed real floors tending to zero suffices for the original ordinary theta limit, with the cap-deficit term absorbed by the same factor inequality.",
+    "Sector-orthogonal opposite-factor positivity correction has a necessary mean-plus-signed-redistribution lower bound. On an obstruction subsequence nonnegative repairs cost order-one mean. A signed mean-o(1) repair with zero marked change and normalized negative second norm O(n^(-1/4)) must remove weighted mass on order sqrt(n) true high-factor sites. No unrestricted signed repair exclusion follows.",
+    "The actual capped exterior transport in the API identity is O(n^(-1/2)) under critical cap rate after correcting the sector sign. This gives only O(1) at the intrinsic rescaling and no actual stationary Rayleigh gap."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The API draft omitted the sector sign in one cap scalar term and used an unnecessarily large bound for the capped row rather than its uniform normalized second norm. At the corrected scale its exterior estimate does not imply a stationary-sector gap.",
+    "The old arbitrary-weight rectangle example is for a one-direction gain, not a counterexample to the genuine stationary high-set Rayleigh bound.",
+    "The direct one-sided transported overflow bounds at real floors tending to zero, a through-primes cap route and the common cold complex starter remain open. No original theta asymptotic conclusion or new numerical certificate is asserted."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical records. The completion receipt binds request and response metadata, and the raw returned mathematical draft is preserved separately from the proof review."
+  ],
+  "independent_review": [
+    "Verified sharp scalar coefficient, capped Picard residual, smaller-cap spill and all normalization and floor orders.",
+    "Verified both API reciprocity identities after the sign correction, and the corrected exterior scale.",
+    "Verified the exact one-factor and sector repair calculations and supplied the absorption of cap-deficit terms and the constrained high-set repair localization."
+  ]
+}

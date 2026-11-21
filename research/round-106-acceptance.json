@@ -1,0 +1,81 @@
+{
+  "round": 106,
+  "accepted_at_utc": "2026-11-19T12:45:02Z",
+  "previous": "research/round-105-acceptance.json",
+  "previous_sha256": "415c6e7c28d729793d0930908e91aba0413a78c1dfd611f4f2c584e2c023c366",
+  "previous_coordinator_assessment": {
+    "path": "coordination/round-105.json",
+    "sha256": "5cfc58460e7803b55e181e9587bc23ff9431ff5f6bc4b06583564d822a0f4455"
+  },
+  "proof_and_code_sha256": {
+    "research/api-astra-106-receipt.json": "79f950a32f690ef0f2f005007567ab39547e4ddc0528ba49274a4094368aa2a6",
+    "research/api-astra-newton-106.txt": "a58cf31b3aca49cd76a63289928a7c1770d59777dcfc8c86b8152e5e1fc7f6b5",
+    "research/api-astra-review-106.md": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad",
+    "research/overlapping-overflow-106.md": "bc417b0612d23d9feac62f1b502e348658f252cc4782e65419ce746fbee1b232"
+  },
+  "inherited_proof_dependency_sha256": {
+    "research/api-astra-review-105.md": "62b6a395d58e50cf821adeac8b2179fb5e4ffda89f02c102d64753ed53595532",
+    "research/astra-adjoint-82-checks.jsonl": "8a02bd8d5f43241e43344e8b83a6a17ae88874c4ed81e20e29335c03750af7b4",
+    "research/astra-adjoint-82.md": "09001e0810234999658aeef4f452bbf488a5ad006213096b4622999cd3c596d9",
+    "research/cap-overflow-rectangle-104.md": "06cdc9aa345343dd2715cd0e5b3aefcb6a2aa7e276450cf6e672f41720b9ef9d",
+    "research/frozen-entry-transfer-105.md": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1",
+    "research/real-amplitude-cap-102.md": "0bd0c24ed34a02f2237e6520816a71dd93b71da5d80bec71f58232a2596cfc1d",
+    "research/real-cap-exterior-103.md": "6e41ec8b02cd71ccdfe33e9748b458b1937ddbc59f36a9baa8787039bf037988",
+    "research/shifted-resolvent-96.md": "ec9c2eb7e001e71142295e67717fee4499bd89ff49f660a51a8d4ae1dec41a36",
+    "research/translated-newton-103.md": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+  },
+  "direct_replay_dependency_sha256": {},
+  "additional_replay_dependency_sha256": {},
+  "core_records": 0,
+  "arithmetic_record_counts": {},
+  "goal_status": "active",
+  "target_status": "open",
+  "source_statement_url": "https://arxiv.org/html/2603.29571v1#S12",
+  "public_listing": {
+    "url": "https://clopen.solutions/OP-00041/",
+    "observed_status": "Open",
+    "observed_on_utc": "2026-11-19"
+  },
+  "research_agents": [
+    {
+      "name": "Gateway Chat Completions, growing-starter resources window",
+      "model": "gpt-6.2-astra (response label)",
+      "status": "returned-draft",
+      "ranked_closeout": [
+        "Test a cumulative residual rate on a genuine moving starting row.",
+        "Find a signed derivative representation with controlled coefficient dimension and bad Mellin fibers."
+      ]
+    },
+    {
+      "name": "/root/audit_106",
+      "status": "completed",
+      "ranked_closeout": [
+        "Verify independent normalized residual decay, translated column cutoff and signed dimension/boundary resources at one actual growing start.",
+        "Seek a prime-specific signed compression gap stronger than C eta on the genuine stationary high set, and prove the separate real cap-defect rate."
+      ]
+    }
+  ],
+  "main_ranked_closeout": [
+    "Test the genuine overlapped overflow rectangle or the one-sign positive high-source Rayleigh test, with its eta-dependent size budget. In parallel seek the genuine critical cap-defect rate.",
+    "At a genuine growing complex starter establish independent residual, column growth and inverse-tail rates, and signed derivative dimension and boundary counts. Keep the ordinary-threshold angular gap separate.",
+    "Keep the authentic terminal-increment price, predecessor estimate and independent triangular upper on their original recurrent list."
+  ],
+  "proof_scope": [
+    "At fixed t,M and critical actual cap deficit alpha<=B/sqrt(n), a nonvanishing true mark forces two actual high stationary source sets of size comparable to sqrt(n) with a signed counting Jacobi sum bounded below by a positive multiple of sqrt(n). The overflow side is also a bounded actual overflow level aligned sitewise with one stationary sign; the other side may be restricted to one stationary sign. The result proceeds by direct signed pairing and removes low source in normalized second norm rather than assuming the previous Gram error is small.",
+    "On the common genuine high set H_eta, with |H_eta|<=B0 sqrt(n)/eta, the positive high-source vector has squared compression ratio at least 1-C eta-o(1). On the aligned stationary sign class it also has signed Rayleigh quotient at least 1-C' eta-o(1), via the exact nonnegative stationary eigen-sector factor. Constants are uniform for sufficiently small fixed eta before the prime limit.",
+    "In the frozen translated test, at most F bad full Mellin characters per word cost F/p in addition to the nonpunctual p^(-1/2) term. Under independent uniform packet growth and counting tail rates, bounded derivative dimension mass, F=O(p^theta), theta<1, and the stated quadratic residual scale, the signed exponent is beta_omega=omega|log q|/log(rho/q) for omega=min(1/2,1-theta). This is a conditional resource tradeoff."
+  ],
+  "failed_paths_and_open_bounds": [
+    "The API draft conflates the actual Picard starter height and the two-column Neumann cutoff; its geometric residual upper envelope does not give a necessary lower depth. It also omits an independent signed coefficient-mass bound and uses the normalized residual to initialize a packet norm. The reviewed resource statements separate these hypotheses.",
+    "The known absolute packet envelopes at fixed heights cannot supply a uniform residual or representation resource to a genuinely growing starter. Independent counting contraction, appropriate column growth, signed derivative resources and a physical angular margin remain to be proved together.",
+    "The real critical cap rate and arithmetic bound on the overlapped rectangle or corresponding one-sign positive high-source compression are open. No ordinary theta asymptotic conclusion is asserted."
+  ],
+  "floating_diagnostics": [],
+  "replay_checks": [
+    "No new numerical certificates. The API receipt verifies return metadata and the response is retained as an audited draft. Cited fixed-height packet bounds belong to earlier verified replays."
+  ],
+  "independent_review": [
+    "Checked marked lower pairing, sign-aligned truncation, both normalized second-norm debits and the two layer-cake scalings. The auditor supplied exact near-unit norm and one-sign Rayleigh refinements using the stationary source and reciprocal factors.",
+    "Checked nonpunctual and exceptional character budgets, field exponents, crossed-term norm, distinction between single and two-column cutoff, and correction of the geometric residual inference."
+  ]
+}

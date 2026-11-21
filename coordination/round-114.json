@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "round": 114,
+  "record_status": "ready",
+  "prepared_by": "Codex coordinator after independent read-only Round 114 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-113-acceptance.json",
+      "sha256": "ed8b2247eafffbf724f9aaffdc8b22cc277d0638fc24090b9d6a5297c769edc5"
+    },
+    "current": {
+      "path": "research/round-114-acceptance.json",
+      "sha256": "0ed40361aefe129ec7ba1caccddf934d85fbf489316b5835e2d3388ce6f2f2db"
+    }
+  },
+  "changes": [
+    {
+      "id": "actual-level",
+      "route": "Genuine trimmed reciprocal mixed moments",
+      "effect": "reformulated",
+      "before": "The opposite input mark could pay a critical part of the true mixed moment.",
+      "after": "The correct anchored formula and a squared multiplier give an exact residual branch combining Jacobi-level concentration and negative low-factor transport.",
+      "remaining": "Exclude the genuine split at prime order or prove the alternative one-sided distinct moment bounds, at fixed floor and cap-rate premise.",
+      "evidence": [
+        {
+          "path": "research/reciprocal-input-marks-114.md",
+          "sha256": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7"
+        },
+        {
+          "path": "research/api-astra-review-114.md",
+          "sha256": "f8879caa5e92c9513d3e4dd13d6fe973f3fdf1208946428ad6bc3e877ed5bd38"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "moving-start",
+      "route": "Actual common cold complex domain",
+      "effect": "unchanged",
+      "before": "A genuine moving starter needed both marked arithmetic control and the normalized Picard residual at the applicable counting scale.",
+      "after": "The new work used the real positive-floor repair. The common-domain step remains independently sufficient when carried to the required cold points.",
+      "remaining": "Find a genuinely compatible growing starter or an approach directly to continuation of the marked scalar, with prime-specific control.",
+      "evidence": [
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/api-astra-review-106.md",
+          "sha256": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad"
+        }
+      ]
+    },
+    {
+      "id": "real-cap",
+      "route": "True small-cap coefficient or adjusted slack",
+      "effect": "unchanged",
+      "before": "A sufficiently small actual coefficient ensures the original width repair.",
+      "after": "The new trimmed moments assume a critical cap rate.",
+      "remaining": "Prove the actual coefficient or another sufficient adjusted overshoot estimate.",
+      "evidence": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The true trimmed moment confines the simultaneous small signed values to a moving anchored Jacobi level and a compensating negative low-factor first moment. Run a fresh prime-specific complex starter in parallel with testing the actual real residual branch.",
+  "next_calls": [
+    {
+      "id": "prime-level-split",
+      "priority": 1,
+      "change_id": "actual-level",
+      "question": "Can genuine late repair sustain both the moving positive Jacobi level on the favored overlap and fixed negative first moment on the low-favored band through primes?",
+      "why_now": "The residual branch has two simultaneous sign and size constraints on the same h and true reciprocal pair.",
+      "scope": "Retain the real actual late repair and original dual-multiplicative Jacobi matrix. Use the reciprocal identity to restrict the low-g range. Seek estimates stronger than raw single-level counts.",
+      "if_yes": "Give the precise contradiction or prime bound and its fixed-floor consequence.",
+      "if_no": "Exhibit a genuine scope limitation with exact hypotheses.",
+      "if_inconclusive": "State the first unavailable estimate or sharpen the actual two-band geometry.",
+      "inputs": [
+        {
+          "path": "research/reciprocal-input-marks-114.md",
+          "sha256": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-moving-starter",
+      "priority": 2,
+      "change_id": "moving-start",
+      "question": "Can the prime physical Picard row meet both the normalized growing-depth residual scale and independent translated-column or scalar continuation control?",
+      "why_now": "The real obstruction route has a concrete arithmetic target but still assumes a cap rate. A growing cold starter is independently valuable.",
+      "scope": "Distinguish actual physical Picard depth and inverse-column lengths. Preserve the same predictor and genuine square, and state what can extend toward the cold centers. A scalar-only continuation may suffice if the original marked germ is fixed.",
+      "if_yes": "Give uniform depth, constants, true branch and compatible norm estimates with a finite-to-asymptotic argument.",
+      "if_no": "Identify a precise barrier of the proposed bound without asserting a branch singularity from a failed certificate.",
+      "if_inconclusive": "Derive one new checkable starter estimate or a sharply formulated prime-specific bottleneck.",
+      "inputs": [
+        {
+          "path": "research/translated-newton-103.md",
+          "sha256": "b9518f18b07983c5320b5655e7a2d5b3b895fa9f9a8cc7a2ddd5542ff11aaedc"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        },
+        {
+          "path": "research/api-astra-review-106.md",
+          "sha256": "3f9520b241b79e9d065866294668d43bbec9d2abc3c9a4b720ccd56f3b3372ad"
+        }
+      ]
+    },
+    {
+      "id": "actual-cap-or-slack",
+      "priority": 3,
+      "change_id": "real-cap",
+      "question": "Can the critical small real cap coefficient or sufficient adjusted slack bound be proved on actual capped rows?",
+      "why_now": "The main real arithmetic route continues to assume a critical cap rate.",
+      "scope": "Fix floors before the prime limit and retain both signs.",
+      "if_yes": "Give exact constants and floor scope.",
+      "if_no": "Identify the first invalid intervening bound.",
+      "if_inconclusive": "Return a new checkable genuine cap, slack or repair rate.",
+      "inputs": [
+        {
+          "path": "research/persistent-repair-deficit-109.md",
+          "sha256": "efe43a23ec5481712cc4af88d6b99d7d40312e1414c7cb708615de5ca1cec3d8"
+        },
+        {
+          "path": "research/mark-oriented-overflow-107.md",
+          "sha256": "729b8581bb5dee87c282c60763236f518a4d6310a7972551635acbc6643f2973"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "actual-level",
+      "question": "Which new real or complex claimed uniform statements survive independent read-only verification?",
+      "why_now": "Both branches use narrow norm and mark distinctions.",
+      "scope": "Check genuine inputs, quantifiers, convention, hypotheses and signs, and distinguish finite certification from a through-primes statement.",
+      "if_yes": "Record exact scope and ranked future tests.",
+      "if_no": "Locate the first invalid step.",
+      "if_inconclusive": "Specify the checked statements and remaining gap.",
+      "inputs": [
+        {
+          "path": "research/reciprocal-input-marks-114.md",
+          "sha256": "8d3b44f1db65f9f569684dac394ef3bf25ba3bf23afcf1daef2c3c1bb25805d7"
+        },
+        {
+          "path": "research/api-astra-review-114.md",
+          "sha256": "f8879caa5e92c9513d3e4dd13d6fe973f3fdf1208946428ad6bc3e877ed5bd38"
+        },
+        {
+          "path": "research/full-repair-moments-112.md",
+          "sha256": "2c023bd4b0fce148047d1da8d8b5ee92b0ae0bda3be5f35cfa0e1ee535cb6954"
+        },
+        {
+          "path": "research/frozen-entry-transfer-105.md",
+          "sha256": "0e01df1b66888be20d91b128a443885e46668c38418e51e118b9d21238ccf1e1"
+        }
+      ]
+    }
+  ]
+}

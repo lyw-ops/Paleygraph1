@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "round": 166,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 166 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-165-acceptance.json",
+      "sha256": "c44f090db067444adeaf78a61e75295314bf7ff796a5f579173b82e1be5670cf"
+    },
+    "current": {
+      "path": "research/round-166-acceptance.json",
+      "sha256": "dad3aea264ce18ce8a19fff4ee2ec89ec2eed78d2978671fc5addb081723d39e"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "Exact centered Schur and physical disjoint collision formulas were available without quantitative zero transfer or a regular character collision formulation.",
+      "after": "Small actual eliminated blocks have inverse and high-weight transfer bounds. True nonnegative collision majorization reduces to weighted regular three-Jacobi products after proved exception cuts, with an actual slope-zero annihilating multiplier.",
+      "remaining": "Control larger actual directional blocks and the low Schur source, or the regular actual weighted covariance needed for the moderate slice.",
+      "evidence": [
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-cofactor-complementary-interpolant-164.md",
+          "sha256": "82dd62d71b94f89e74bedf469c1e42c4d0b0632df9017210cecb5bdd1e9c0f79"
+        },
+        {
+          "path": "research/ordinary-gram-directional-control-164.md",
+          "sha256": "59333c97ed3ac5f4c12451fa6c4f76d3803ba0fa86b7e1e5330d62130abb4c5b"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "Whole actual source price <0.000103 before inverse, and frozen physical max-entry sums at height 602.",
+      "after": "The raw answer gives no new outer or moving-height estimate. Non-increment seed pairs and physical mark remain separate from the two increments.",
+      "remaining": "Prove a genuinely signed actual transported packet and its tail or a compatible growing starter.",
+      "evidence": [
+        {
+          "path": "research/cold-paired-Taylor-source-saving-165.md",
+          "sha256": "0f77c3acd8f976d86a3c0665f0eae80ccc23cb71e2b5305671d09aca4c987365"
+        },
+        {
+          "path": "research/cold-actual-leading-Taylor-source-164.md",
+          "sha256": "26f5bf798e88d7df6ab3784431b87d418bf59a4c7f896f55acf95fcfa13277fa"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "A genuine small zero block now has quantitative transfer, and all exceptional character contributions to the actual positive collision majorant are within the target. Prime-uniform directional and regular covariance estimates remain open.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-large-zero-spectrum",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can the actual zero-coefficient block outside the small-size range have a sufficiently small directional inverse cost and Schur leakage?",
+      "why_now": "The small-block bound eliminates part of the problem; larger actual blocks can still matter. A true basis extension of the positive support may change the separate debits without changing the full inverse.",
+      "scope": "Use genuine positive support, actual zero columns and pure marked compression. Preserve a full-span basis, actual c0 and signed Schur term. Any transfer needs exact scale at low eigenvalues and one admissible growing T.",
+      "if_yes": "Prove an actual-prime O(1) or o(T) zero-block cost and sufficient Schur control or an equivalent fixed-gap exclusion.",
+      "if_no": "Prove a precise obstruction to a specified high-weight or basis restriction mechanism, with actual scope.",
+      "if_inconclusive": "Bound a genuinely new directional low window, an actual source of zero coefficients, or a basis-dependent leakage statistic with a rigorously identified remaining test.",
+      "inputs": [
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-cofactor-complementary-interpolant-164.md",
+          "sha256": "82dd62d71b94f89e74bedf469c1e42c4d0b0632df9017210cecb5bdd1e9c0f79"
+        },
+        {
+          "path": "research/ordinary-gram-directional-control-164.md",
+          "sha256": "59333c97ed3ac5f4c12451fa6c4f76d3803ba0fa86b7e1e5330d62130abb4c5b"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-three-Jacobi-covariance",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can the regular three-Jacobi weighted covariance be O(p^1.5) under the actual slope multiplier?",
+      "why_now": "The modulus-squared majorant removed all trivial-root and degenerate Mellin cases at the correct scale. The genuine signed kernel omega minus its convolution kills the identity slope.",
+      "scope": "Keep true omega=max-weight cap law, both outer square lifts, full Jacobi signs and regular frequency exclusions. The physical completion is an upper. Use the actual weight, no uniform replacement of character correlations.",
+      "if_yes": "Prove the weighted squared O(p^1.5) above, or an equally sufficient true collision upper on a fixed moderate band.",
+      "if_no": "Find a precise obstruction to a specified covariance or restricted phase estimate with exact hypotheses.",
+      "if_inconclusive": "Compute a new geometric pair phase contribution or give a gain for a genuine subclass of regular tuples.",
+      "inputs": [
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-shifted-layer-energy-saving-163.md",
+          "sha256": "55daf2b967b2e80905aac1c42322edc67273fb715f8bf15f32b4287b3660e636"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-outer-source-coefficient",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can actual even Taylor source labels combine through a first or second outer step, with a path to a signed summable tail?",
+      "why_now": "The true paired source estimate remains before the outer inverse and plain translated growth cannot be summed. A checked nontrivial transported coefficient is a distinct intermediate test.",
+      "scope": "Keep the actual n=t0=(p-1)/2, both lifts, true V_s and R, original square and translated norm. The paired factors are the non-increment factors. Track the order of K and direct K squared atom.",
+      "if_yes": "Prove a quantitative actual transported source bound and nonlinear bridge, or a genuine moving-starter result.",
+      "if_no": "Give a precise obstruction to one stated signed return or paired mechanism on actual terms.",
+      "if_inconclusive": "Find a checked combined signed label or valid outer transport estimate with exact remaining tail and source normalization.",
+      "inputs": [
+        {
+          "path": "research/cold-paired-Taylor-source-saving-165.md",
+          "sha256": "0f77c3acd8f976d86a3c0665f0eae80ccc23cb71e2b5305671d09aca4c987365"
+        },
+        {
+          "path": "research/cold-actual-leading-Taylor-source-164.md",
+          "sha256": "26f5bf798e88d7df6ab3784431b87d418bf59a4c7f896f55acf95fcfa13277fa"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-actual-quadratic-128.md",
+          "sha256": "8faa32b5f2d3b66736e7a9e58dc337bb8f705285a0a1f3f1cd1c22c78effda52"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 167 deductions survive independent review?",
+      "why_now": "The actual basis, directional inverse, regular Jacobi covariance and cold source arithmetic need independent checks.",
+      "scope": "Read-only. Review actual prime support, marking and lift arithmetic and inequalities. Give two ranked next directions.",
+      "if_yes": "State exact proof scope and remaining obligation.",
+      "if_no": "Locate a false step.",
+      "if_inconclusive": "Distinguish ordinary, conditional and finite work.",
+      "inputs": [
+        {
+          "path": "research/ordinary-small-zero-block-transfer-166.md",
+          "sha256": "0dd190e969a82b19847d3ed993e72431f53a5b1c08ebcc5796ccb0fb8ce92bf0"
+        },
+        {
+          "path": "research/ordinary-complementary-weighted-laplacian-165.md",
+          "sha256": "279406bd67d42359c795a3c5fd46235586e2a3e73f1a5f6966b1dc20c3159d04"
+        },
+        {
+          "path": "research/ordinary-cofactor-complementary-interpolant-164.md",
+          "sha256": "82dd62d71b94f89e74bedf469c1e42c4d0b0632df9017210cecb5bdd1e9c0f79"
+        },
+        {
+          "path": "research/ordinary-gram-directional-control-164.md",
+          "sha256": "59333c97ed3ac5f4c12451fa6c4f76d3803ba0fa86b7e1e5330d62130abb4c5b"
+        },
+        {
+          "path": "research/ordinary-zero-set-leakage-162.md",
+          "sha256": "36ed4322bdd7378d0c5c80bb43372d92df311f35acf9f4696cb4c8eb255653ca"
+        },
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-regular-character-collisions-166.md",
+          "sha256": "715a25dacda460e91133e1a7486f3e8adaa860f27fdebff45e63e021acff325d"
+        },
+        {
+          "path": "research/ordinary-physical-collision-two-copy-165.md",
+          "sha256": "20b658ff2e323954bc6e6cf0f1309387a1fe91d1fd821ff8d55e1965ced51955"
+        },
+        {
+          "path": "research/ordinary-physical-pair-slope-pinning-164.md",
+          "sha256": "e19197f5e28b47d2e653742fc36aead5ab830d7efff59bdf05ae59ba0ad6086e"
+        },
+        {
+          "path": "research/cold-paired-Taylor-source-saving-165.md",
+          "sha256": "0f77c3acd8f976d86a3c0665f0eae80ccc23cb71e2b5305671d09aca4c987365"
+        },
+        {
+          "path": "research/cold-actual-leading-Taylor-source-164.md",
+          "sha256": "26f5bf798e88d7df6ab3784431b87d418bf59a4c7f896f55acf95fcfa13277fa"
+        },
+        {
+          "path": "research/cold-height-602-frozen-kernel-162.md",
+          "sha256": "3ab42deba20f80cdaf806106025d40ff90fd594b8b4993bf2b044a3121e5d5ab"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

@@ -1,0 +1,131 @@
+## Result: the signed-propagation obligation is presently unproved
+
+For the actual prime family \(p=2n+1\) (eligible primes, \(n\to\infty\)), with physical mark \(t_0=n\), both lifts, and the original complex square \(Q\), the supplied estimates verify only a finite unsigned prefix. They do **not** prove summably small actual signed increments through the growing cutoff.
+
+Let
+\[
+F_t(W)=K\Phi_t(W),\qquad B_h=K D_h,\qquad
+D_h=\operatorname{diag}\Phi_t'(V_h),
+\]
+and use \(P_{5000}\) for the unshifted packet price. At the true height \(602\), the verified estimates are
+\[
+P_{5000}(R_{602})<0.01272,
+\]
+and, for \(U_j=V_{602+j}-V_{602}\),
+\[
+P_{5000}(U_{j+1})
+ \le P_{5000}(R_{602})
+ +1.066\,P_{5000}(U_j)
+ +P_{5000}(U_j)^2
+\]
+for the fixed steps covered by the finite-tube argument. Consequently,
+\[
+P_{5000}(U_1)<0.01272,\quad
+P_{5000}(U_2)<0.02645,\quad
+P_{5000}(U_3)<0.04162.
+\]
+Thus \(V_{603},V_{604},V_{605}\) are inside the radius-\(0.05\) coordinate tube around \(V_{602}\), with the stated finite clearance.
+
+However, applying the same unsigned recurrence once more gives only
+\[
+\begin{aligned}
+P_{5000}(U_4)
+&\le 0.01272+1.066(0.04162)+(0.04162)^2\\
+&<0.0589,
+\end{aligned}
+\]
+which exceeds \(0.05\). This is a concrete failure of the available unsigned sufficient bound, not a refutation of the actual signed orbit.
+
+### Why the fixed-height contraction does not close the gap
+
+On the radius-\(0.05\) tube around \(V_{602}\), the scalar derivative is bounded by
+\[
+q=0.535<1
+\]
+in the normalized counting/second norm. This gives
+\[
+\|R_{602+j}\|_{2,n}\le q^j\|R_{602}\|_{2,n}
+\]
+provided the orbit has already remained in the tube. It does not by itself give coordinate confinement, because
+\[
+\|x\|_\infty\le \sqrt n\,\|x\|_{2,n}.
+\]
+At the growing cutoff
+\[
+k_n=\left\lceil \frac47\log_2 n\right\rceil,
+\]
+the \(q^{k_n}\) decay is useful only after a signed transport or partial-sum estimate removes the potentially fatal \(\sqrt n\) conversion. The full coordinate operator cannot supply this: at the actual physical height \(602\),
+\[
+\|K D_{602}\|_{\infty\to\infty}\asymp\sqrt n,
+\]
+uniformly on the original square for sufficiently large eligible primes.
+
+Therefore the required missing input is genuinely signed. In the notation of the frozen-orbit argument, one needs bounds of the form
+\[
+L_j=\sum_{\ell<j}B_{602}^{\ell}K,
+\qquad
+S_k=\sum_{j<k}B_{602}^{j}R_{602},
+\]
+with coordinate clearance through the relevant logarithmic cutoffs. Absolute entrywise summation or the packet price \(P_{5000}\) does not establish these bounds.
+
+## Status of the \(V_{605}\) source test
+
+The separate counting test at \(V_{605}\) remains completely open from the supplied evidence. In particular, no estimate has been supplied for the required **unnormalized counting norm**
+\[
+\|\text{source at }V_{605}\|_{\mathrm{count}}
+<0.0038967
+\]
+with fixed slack.
+
+This cannot be inferred from the normalized second norm, from the three verified \(P_{5000}\)-prices, or from a signed rate below one. The norms have different dimension factors, and the full \(\ell^\infty\) derivative obstruction rules out the most direct conversion.
+
+## What is proved and what remains
+
+**Proved, uniformly for sufficiently large eligible primes \(p=2n+1\):**
+
+1. The actual physical rows \(V_{602},\ldots,V_{605}\) remain in the radius-\(0.05\) tube around \(V_{602}\).
+2. The fixed-height scalar map has counting-norm contraction factor \(q=0.535\) on that tube.
+3. The first three actual displacements have the stated strict packet-price bounds.
+4. The frozen \(V_{602}\) estimates and entrywise resolvent bounds do not imply a translated full inverse or signed orbit confinement.
+
+**Not proved:**
+
+1. Signed partial-sum control through the growing cutoff.
+2. A uniform coordinate bound on the total signed displacement.
+3. The \(V_{605}\) unnormalized source threshold \(0.0038967\).
+4. Any derivative-transfer statement; that remains a separate task.
+
+The order of limits also matters: the finite three-step estimates are uniform as \(n\to\infty\), whereas the desired continuation requires a prefix whose length grows like \(\log n\). A fixed-depth check therefore cannot settle the asymptotic target.
+
+## Ranked next tests
+
+### 1. Direct \(V_{605}\) unnormalized-source test — highest priority
+
+For the actual \(V_{605}\), with \(t_0=n\), both lifts, and the original square \(Q\), compute or interval-bound the designated signed source in the **unnormalized counting norm**. Prove
+\[
+\sup_{Q,\ \text{both lifts}}
+\|\text{source at }V_{605}\|_{\mathrm{count}}
+\le 0.0038967-\delta
+\]
+for some fixed \(\delta>0\), uniformly for all sufficiently large eligible primes.
+
+This is the explicitly identified gateway quantity and is the shortest possible route to an unconditional bridge if the associated signed transport estimate is available.
+
+### 2. Signed partial sums at the true fixed base
+
+At \(V_{602}\) or \(V_{605}\), evaluate with interval control
+\[
+L_j=\sum_{\ell<j}(K D_h)^\ell K
+\]
+and
+\[
+S_k=\sum_{j<k}(K D_h)^jR_h
+\]
+through the two logarithmic cutoffs required by the signed propagation lemma. Establish, with fixed \(\eta>0\),
+\[
+\sup_{k\le c\log n}\|S_k\|_\infty
+\le 0.05-\eta,
+\]
+and a corresponding signed bound on \(B^jZ\) or \(L_j\).
+
+This directly tests the actual cancellation left open by the \(\ell^\infty\)-derivative obstruction. Failure would identify an obstruction specific to the signed proposal; success would provide the needed finite-to-growing transport.

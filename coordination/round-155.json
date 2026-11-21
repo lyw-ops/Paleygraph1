@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "round": 155,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 155 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-154-acceptance.json",
+      "sha256": "9c8f669fb938dbf0899d1763faa2fd65eb89043c7b68d6dfb540f9092a0e59d7"
+    },
+    "current": {
+      "path": "research/round-155-acceptance.json",
+      "sha256": "372e48d84698311343c9503497291951a926450c6b6b18ed94f8a212b944f037"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "The favorable off-diagonal upper is open after the entire wrong sector was removed.",
+      "after": "The favorable cross-ratio family fixes a common point and is affine in one chart. Bounded weighted slope fibers cost O(p). Early first-spill optimal support is identified exactly with its common complementary zero set.",
+      "remaining": "Prove a signed estimate for growing favorable weighted fibers retaining the transported weights. For the earlier route obtain an adaptive cost bound on the actual optimal face.",
+      "evidence": [
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "reformulated",
+      "before": "The two genuine fixed-center pairs from R154 reinforce in the sole tested column.",
+      "after": "Higher cubic outer terms embed a Legendre unit and oppose each R154 pair on C1, with relative gain between .001 and .002. The same fixed returns reinforce for all other odd canonical inputs on the real slice, vanish for even inputs and decay at large width.",
+      "remaining": "Find a genuinely translated overlap with moving output shifts or alternative confinement. The whole signed difference, invariant ball and half-step remain open.",
+      "evidence": [
+        {
+          "path": "research/cold-legendre-unit-return-155.md",
+          "sha256": "2e04d64faff98b129dd14d44d5e569d8ea68c2dfd2cf7d9b2ccf36eeab04c42e"
+        },
+        {
+          "path": "research/cold-other-center-matched-154.md",
+          "sha256": "d72e53ec9c42fc92c019618bba335cab8e3c06d25e1bbe44b9bb1401b6afa0e2"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-leading-W-square-151.md",
+          "sha256": "8adb45f03aaf00eaa084f93c6538e5c6091869505b690991df1b3fbf88da67e3"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The affine chart identifies the coupled prime incidence weights and removes bounded slope slices. The first signed opposing cold returns are very small and only oppose on C1. The early objective now has exact relative-interior support but lacks quantitative arithmetic control.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-affine-growing-fibers",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can a weighted affine-incidence argument control a growing portion of the actual favorable slope fibers?",
+      "why_now": "The projective family shares a fixed point and both transported factors depend on the affine slope and intercept. Bounded total fiber weight is already O(p).",
+      "scope": "Use actual nonnegative b near critical on the selected short block, complex f, true weights and the explicit chart. Supply a new upper; the conditional lower under a hypothetical sequence is an accepted input.",
+      "if_yes": "Prove O(p) for all favorable slopes or give a prime-only growing weighted subfamily bound with errors at O(p).",
+      "if_no": "Identify a precise obstruction for a specified weighted incidence lemma, preserving logical scope.",
+      "if_inconclusive": "Give a new inequality for the actual high slope-mass fibers or an exact decomposition which identifies a genuinely smaller unresolved term.",
+      "inputs": [
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        }
+      ]
+    },
+    {
+      "id": "cold-moving-output-translation",
+      "priority": 2,
+      "change_id": "cold",
+      "question": "Can a true omitted arithmetic family with output shift depending on canonical input weight produce signed gain at large width?",
+      "why_now": "The fixed-return R155 gains oppose on C1 only and decay. A global budget needs gains that survive translation or a different confinement proof.",
+      "scope": "Keep both actual heights, both physical lifts, common square and floor, t0=n and actual coefficient. Work on a family growing with j and price the result on actual translated columns, with exceptional and analytic tails stated.",
+      "if_yes": "Give a provable substantial signed affine-limit gain, or a rigorous true gain on an unbounded translated family toward the direct target.",
+      "if_no": "Prove exact noncoincidence or constructive reinforcement in a specified translated family.",
+      "if_inconclusive": "Check one growing-width label mechanism and the necessary extra terms for a full rate.",
+      "inputs": [
+        {
+          "path": "research/cold-legendre-unit-return-155.md",
+          "sha256": "2e04d64faff98b129dd14d44d5e569d8ea68c2dfd2cf7d9b2ccf36eeab04c42e"
+        },
+        {
+          "path": "research/cold-other-center-matched-154.md",
+          "sha256": "d72e53ec9c42fc92c019618bba335cab8e3c06d25e1bbe44b9bb1401b6afa0e2"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-leading-W-square-151.md",
+          "sha256": "8adb45f03aaf00eaa084f93c6538e5c6091869505b690991df1b3fbf88da67e3"
+        },
+        {
+          "path": "research/cold-W-all-order-return-152.md",
+          "sha256": "d64529b3cf48dc7a43426cb689b5b360a391b104524298280f61d000ee1820ed"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-quantitative-face-support",
+      "priority": 3,
+      "change_id": "weighted-real",
+      "question": "Can the exact relative-interior support description yield a quantitative upper for the original first-spill optimal face?",
+      "why_now": "Positive recession objectives are impossible and strict support needs quantitative strengthening. There is no late deficit transfer.",
+      "scope": "Preserve F in U_{−σ}, dual in U_σ, actual complementary zero set and original signed middle source with roots and diagonal deleted at admissible T.",
+      "if_yes": "Prove a quantitative dual or true feasible optimizer bound serviceable for the original first spill.",
+      "if_no": "Exhibit an explicit limit of a named quantitative perturbation or restricted dual strategy.",
+      "if_inconclusive": "Bound a stated portion of the early receiver by a true support-conditioned argument, leaving the missing cost explicit.",
+      "inputs": [
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/api-astra-review-155.md",
+          "sha256": "1808a882b2f314c8b02fc51a49d39985739bf605f9701ebb00031800b2465ba3"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 156 deductions survive independent review?",
+      "why_now": "Prime upper, face support quantification and cold actual translating labels require independent normalization checks.",
+      "scope": "Read-only with the actual prime family and source bytes. Rank two concrete next tests in closeout.",
+      "if_yes": "State verified scope and show exact proof changes.",
+      "if_no": "Identify the first invalid step.",
+      "if_inconclusive": "Separate verified pieces and missing estimates.",
+      "inputs": [
+        {
+          "path": "research/ordinary-crossratio-affine-chart-155.md",
+          "sha256": "5b57fdd0d6d8083f6c24f4a67e7583bca0bcb6eb8052b9d47681a5674042ae2b"
+        },
+        {
+          "path": "research/ordinary-lift-and-gauss-kernel-154.md",
+          "sha256": "18410f9aeaefc567fa0cd4e85a657b214e37c4824d8eb217864ab39208da3e32"
+        },
+        {
+          "path": "research/ordinary-affine-correlations-152.md",
+          "sha256": "c81b589fbe5c6153771e00f6a47ccb570f7de654af21288b66684b3963b84bb5"
+        },
+        {
+          "path": "research/ordinary-retargeted-motion-151.md",
+          "sha256": "6ab4d2fc93486624d420fa8437d5aee250e93229bbf05e016244196079b5970b"
+        },
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        },
+        {
+          "path": "research/ordinary-first-spill-signed-dual-152.md",
+          "sha256": "bda5a40ad1dbe5310a68fb65bfbb8eb95faeb13acc60ca8cf8c5967142c0bae0"
+        },
+        {
+          "path": "research/ordinary-terminal-face-dual-143.md",
+          "sha256": "41a6e3ff3da185c7b22f2d3b008a5f13b04bf4cf5d6269b3d2c3ce5b34d051bb"
+        },
+        {
+          "path": "research/cold-legendre-unit-return-155.md",
+          "sha256": "2e04d64faff98b129dd14d44d5e569d8ea68c2dfd2cf7d9b2ccf36eeab04c42e"
+        },
+        {
+          "path": "research/cold-other-center-matched-154.md",
+          "sha256": "d72e53ec9c42fc92c019618bba335cab8e3c06d25e1bbe44b9bb1401b6afa0e2"
+        },
+        {
+          "path": "research/cold-three-center-composition-153.md",
+          "sha256": "0239084e5f7f4018d14005cc6c67de6c2a74964f1a398ee01b01da8a085361c5"
+        },
+        {
+          "path": "research/cold-three-center-152.md",
+          "sha256": "6b09cb706191696c57d1e74d1ad5454843be86c36ebe447786d65d0d94b4214a"
+        },
+        {
+          "path": "research/cold-leading-W-square-151.md",
+          "sha256": "8adb45f03aaf00eaa084f93c6538e5c6091869505b690991df1b3fbf88da67e3"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

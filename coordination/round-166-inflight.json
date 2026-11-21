@@ -1,0 +1,61 @@
+{
+  "round": 166,
+  "dispatch_status": "launch timestamps recorded per call",
+  "accepted_checkpoint": {
+    "path": "research/round-165-acceptance.json",
+    "sha256": "c44f090db067444adeaf78a61e75295314bf7ff796a5f579173b82e1be5670cf"
+  },
+  "coordinator": {
+    "path": "coordination/round-165.json",
+    "sha256": "2419e98a9f84ff3d351ebe654fccc58aaa15f439da4b91dd2724aee406330be4"
+  },
+  "launcher": {
+    "path": "coordination/launchers/round-166.py",
+    "sha256": "f57ace88b4c2c8c11f376ed5504a5202e17c975cb9e57066b48901869b9fc04e"
+  },
+  "shared_obligations_before": {
+    "path": "coordination/shared-obligations/round-166-before.json",
+    "sha256": "ebcec1a3182ae00b2ae64cc965211527cdb0b4b4bee940f8925248251955c5b8"
+  },
+  "lanes": [
+    {
+      "call_id": "ordinary-prime-positive-kernel-Schur",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "aa78f1ae3f8c41098c1bb71de0caf87f89581d519ed39b6304adcb2fe3ea12bf",
+      "mission_file": {
+        "path": "coordination/missions/round-166/ordinary-prime-positive-kernel-Schur.md",
+        "sha256": "6bec2286b9d5a83f725351c9c467f3a9d33fd5538f7069bde56db36afc851621"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r166-api-01a1ed0a/ordinary-prime-positive-kernel-Schur-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r166-api-01a1ed0a/ordinary-prime-positive-kernel-Schur-candidate.md",
+      "started_utc_epoch": 1795133222.713762
+    },
+    {
+      "call_id": "ordinary-prime-disjoint-slope-collisions",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "c6dd0a8e62cc5baac5f492ba949dd4dba165acc8c171df5f850e4255932706af",
+      "mission_file": {
+        "path": "coordination/missions/round-166/ordinary-prime-disjoint-slope-collisions.md",
+        "sha256": "ccdd94fcdac0bd35b1e4d2aa8d2830b76182ae19a5569be9ddc8970ff883c4a8"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r166-api-01a1ed0a/ordinary-prime-disjoint-slope-collisions-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r166-api-01a1ed0a/ordinary-prime-disjoint-slope-collisions-candidate.md",
+      "started_utc_epoch": 1795133222.7130728
+    },
+    {
+      "call_id": "cold-prime-paired-source-propagation",
+      "model": "gpt-6.2-astra",
+      "prompt_sha256": "349be337f04e213a24bd0ef3f48f73f8dc35196eccdb13cd2886a681553c5f93",
+      "mission_file": {
+        "path": "coordination/missions/round-166/cold-prime-paired-source-propagation.md",
+        "sha256": "9a0d228f8b12e2543362a2bb62d4097bbdc6adaaa77e5fe504ee1b112907ad03"
+      },
+      "shared_candidate_ids": [],
+      "pending_receipt": "/private/tmp/paley-r166-api-01a1ed0a/cold-prime-paired-source-propagation-receipt.json",
+      "pending_candidate": "/private/tmp/paley-r166-api-01a1ed0a/cold-prime-paired-source-propagation-candidate.md",
+      "started_utc_epoch": 1795133222.712662
+    }
+  ]
+}

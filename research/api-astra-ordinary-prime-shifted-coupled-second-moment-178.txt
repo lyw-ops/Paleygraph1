@@ -1,0 +1,147 @@
+## Result: inconclusive, with a precise failure of the shifted-row route
+
+I keep the ordinary-prime family \(p\to\infty\), the physical marking from the affine chart, the exclusions
+\[
+r,b\neq0,1,\qquad s\neq0,1,
+\]
+the physical square masks, and the actual weights
+\[
+g=|f|^2,\qquad w(s)=g(s)(1-g(s)).
+\]
+All norms below are the positive physical norms, with endpoints and already-paid projective cuts removed before taking limits.
+
+Let \(K_r(s)\) denote the positive contribution at slope \(s\) from the physical row with fixed pole parameter \(r\), retaining all four factors
+\[
+g(A)g(C)g(Y)g(D).
+\]
+Thus
+\[
+P_s=\sum_r K_r(s)
+\]
+on the retained physical domain. The shifted-row work supplies bounds of the form
+\[
+\sum_r m_r^2\ll p^{3/2-3/418},
+\]
+where \(m_r\) is the actual \(r\)-row first mass, and also gives the corresponding bound for the \(b\)-rows. It does not, however, control the cross-row correlations
+\[
+\mathcal C_{\mathrm{dist}}
+  :=\sum_s w(s)\sum_{r\neq r'}K_r(s)K_{r'}(s).
+\]
+
+### What can be proved immediately
+
+For each fixed row,
+\[
+0\le K_r(s)\le m_r
+\]
+and therefore
+\[
+\sum_s w(s)K_r(s)^2
+ \le m_r\sum_s w(s)K_r(s).
+\]
+The existing per-row line estimate gives, uniformly on the actual marked domain,
+\[
+\sum_s w(s)K_r(s)
+ \ll p^{1/2-1/1280}m_r.
+\]
+Consequently the common-row contribution satisfies
+\[
+\sum_r\sum_s w(s)K_r(s)^2
+ \ll p^{1/2-1/1280}\sum_r m_r^2
+ \ll p^{2-3/418-1/1280},
+\]
+which is consistent with the previously recorded common-\(r\) estimate and is still above \(p^{3/2}\).
+
+The same argument applies to common \(b\)-rows. Any subclass with a literal equality of one physical argument across the two copies is already \(O(p^{3/2})\) by the two-label physical marking argument: the multiplicity is at most \(2\), the total marked tuple mass is \(O(G^3)\), and \(G=O(\sqrt p)\). This includes the existing projective and one-parameter cuts.
+
+### Precise failure for genuinely distinct poles
+
+For \(r\neq r'\), Cauchy gives only
+\[
+\sum_s w(s)K_r(s)K_{r'}(s)
+ \le
+ \left(\sum_s w(s)K_r(s)^2\right)^{1/2}
+ \left(\sum_s w(s)K_{r'}(s)^2\right)^{1/2}.
+\]
+Summing this bound over distinct rows yields
+\[
+\mathcal C_{\mathrm{dist}}
+ \le
+ \left(\sum_r
+ \left(\sum_s w(s)K_r(s)^2\right)^{1/2}\right)^2,
+\]
+and the shifted-row estimate on \(\sum_r m_r^2\) does not bound the expression on the right at the required scale.
+
+Indeed, the abstract configuration
+\[
+K_r(s_0)=1,\qquad K_r(s)=0\quad(s\neq s_0)
+\]
+for \(p+O(1)\) rows satisfies
+\[
+m_r=1,\qquad \sum_r m_r^2\asymp p,
+\]
+while
+\[
+\sum_s w(s)\Bigl(\sum_rK_r(s)\Bigr)^2
+ \asymp p^2
+\]
+whenever \(w(s_0)\asymp1\). This is not an obstruction to the actual \(g=|f|^2\), because the model kernels need not be realizable by a characteristic function. It is a rigorous obstruction to the proposed inference that shifted row first mass, row energy, and the physical cap alone imply the \(O(p^{3/2})\) diagonal.
+
+The same issue remains if one uses both actual factors \(g(A)g(C)\): they improve individual row masses, but no available estimate prevents many distinct physical rows from concentrating at the same slope. Dropping one factor, as in the earlier output-first upper, is therefore not the only problem; even the four-factor row energy lacks a transverse, distinct-row correlation estimate.
+
+### Relation to the all-\(S_{\rm str}\) argument
+
+The structured-set estimate
+\[
+\sum_s w(s)P_s(S_{\rm str})^2
+ \ll p^{37/16-1/4320-1/512}
+\]
+is valid as a positive upper and correctly retains all four input memberships. Its first-mass input is the shifted energy
+\[
+E^\times(1-S_{\rm str})\ll p^{2331/1664}.
+\]
+But this controls the total first mass of the structured kernel, not the overlap of contributions from distinct poles at a common \(s\). The rearrangement step consequently still loses enough information to remain at exponent approximately \(2.31\), rather than \(3/2\).
+
+Thus the current record supports:
+
+- all common-pole and literal cross-copy coincidence subclasses: \(O(p^{3/2})\);
+- full shifted-row energy and improved first masses;
+- the full positive diagonal only at the recorded \(p^{37/16-o(1)}\) scale;
+- no checked \(O(p^{3/2})\) bound for genuinely distinct-pole, no-label-sharing pairs.
+
+## Remaining gap
+
+The missing estimate is a genuinely transverse bound of the form
+\[
+\boxed{
+\sum_s w(s)
+ \sum_{\substack{r\neq r'\\
+ \text{no literal/projective cross-copy match}}}
+ K_r(s)K_{r'}(s)
+ =O(p^{3/2}).
+}
+\]
+It must retain the actual physical masks and all four factors
+\[
+g(A)g(C)g(Y)g(D)
+\]
+in each copy. A bound involving only \(\sum_r m_r^2\), the common-\(r\) energy, or the common-\(b\) energy cannot establish this.
+
+## Ranked next tests
+
+1. **Highest priority: transverse incidence in the \((r,r',s)\)-space.**  
+   Parameterize two distinct physical rows by \((r,D)\) and \((r',D')\), impose equality of the two slopes, and retain both copies’ \(A,C,Y,D\) weights. Seek an incidence/energy estimate with a power saving over the trivial row-alignment bound:
+   \[
+   \sum_s w(s)\sum_{r\neq r'}K_r(s)K_{r'}(s)
+   \ll p^{3/2}.
+   \]
+   The crucial test is whether the slope equation has enough curvature after the already-paid common-\(r\), common-\(b\), and two-label loci are removed. If its generic fibers still have size \(p^{1/2+o(1)}\), this route cannot reach the target.
+
+2. **Second priority: actual concentration test for the ordinary prime family.**  
+   For small eligible ordinary primes, compute the physically marked kernels \(K_r(s)\) with the actual \(g=|f|^2\), \(w=g(1-g)\), endpoint exclusions, and all four factors. Measure
+   \[
+   \max_s\sum_rK_r(s),\qquad
+   \sum_s w(s)\sum_{r\neq r'}K_r(s)K_{r'}(s),
+   \]
+   normalized by \(p^{3/2}\), and compare with
+   \(\sum_rm_r^2\). This cannot prove the asymptotic theorem, but it can distinguish a plausible transverse large-sieve inequality from persistent slope concentration and identify whether the dominant surviving configurations are genuinely distinct poles or an unpriced projective coincidence.

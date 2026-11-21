@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "round": 161,
+  "record_status": "ready",
+  "prepared_by": "Codex research coordinator after independent Round 161 audit",
+  "sources": {
+    "baseline": {
+      "path": "research/round-160-acceptance.json",
+      "sha256": "df9321f60cc540471f201427517927bbea3c361bcf1a1257ea19bdaf6eaa5640"
+    },
+    "current": {
+      "path": "research/round-161-acceptance.json",
+      "sha256": "251b0e969e0e02a5fffc1c090ffe7b8d4b209b3672a69a7683082936ad28293d"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "weakened",
+      "before": "A true fixed gap forced low inverse-square mass on the actual least-energy support. The five-weight graph controlled specified small-amplitude blocks only.",
+      "after": "The projector removes the constant exactly, gives a first inverse at one exterior mark, and equates a sufficient unmarked distance to the Schur capacity. A relaxed true-optimizer family shows why the spectrum and complementarity alone cannot close it. No improved moderate graph bound.",
+      "remaining": "Prove a prime-uniform distance lower far above n/T or exterior long-return upper o(T) on the genuine supports. The signed O(p) moderate block remains independent and open.",
+      "evidence": [
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-projection-gap-control-161.md",
+          "sha256": "d0d815dd5f97ec259a5ac50c62507a23314eb98ea3ecdd92641a7624adb9eadd"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-rank-two-slope-orthogonality-160.md",
+          "sha256": "730841b8df6ae48d3b972c571499f738187852da18879f31041df5e41bef1342"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-single-lift-ratio-law-159.md",
+          "sha256": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "route": "Actual common marked cold domain",
+      "effect": "unchanged",
+      "before": "True center terms cancel in the Picard difference, but the translated positive price remains 0.66348896 against 0.51961239.",
+      "after": "The exact height insertion retains Z602 (D602-D601) Z601. The true quadratic threshold separates local coordinate cost from the smoothed remainder. No new translated rate.",
+      "remaining": "Derive an actual two-lift quantitative increment estimate, with separate mark and bulk and a certified height transfer.",
+      "evidence": [
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "The source-weighted band now has an exact exterior projection formulation and an unmarked distance identity. These ask genuine prime estimates on the actual zero set. The moderate graph upper and cold translated closure are still open.",
+  "next_calls": [
+    {
+      "id": "ordinary-prime-unmarked-distance",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Can an actual-prime lower bound for the distance from 1 to Ran((I-P)E_U) on the genuine unmarked exterior U be proved at scale omega(n/T), or an equivalent actual marked tail upper?",
+      "why_now": "The exact exterior and unmarked formulations cover every fixed gap. Pure projection algebra, reciprocity and true optimizer geometry admit an explicit relaxed failure, even at slow growing times.",
+      "scope": "Use the actual circulant Jacobi involution, U from the genuine least-bulk-energy support, both physical signs as required, and one admissible growing T. A near mask needs an explicit transfer. Distinguish a proposed vector lower witness from an upper approximation.",
+      "if_yes": "Prove a lower bound of size n times omega(1/T) on the actual unmarked distance squared, an o(T) upper on the exterior return tail after floor(bT), or a stronger genuine gap exclusion.",
+      "if_no": "Prove a precise obstruction for a specified arithmetic or adaptive-mask estimate, with its hypotheses and comparison to the actual operator.",
+      "if_inconclusive": "Produce a concrete exact prime-sensitive projection identity or scaled inequality that reduces the needed gain, or identify the precise obstruction to a selected matched-return expansion.",
+      "inputs": [
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-projection-gap-control-161.md",
+          "sha256": "d0d815dd5f97ec259a5ac50c62507a23314eb98ea3ecdd92641a7624adb9eadd"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        }
+      ]
+    },
+    {
+      "id": "ordinary-prime-conditional-slope-block",
+      "priority": 2,
+      "change_id": "weighted-real",
+      "question": "Can a specified moderate-amplitude block gain from the actual signed slope moment after the exact Fourier graph change?",
+      "why_now": "The centered graph and unweighted singular value have been fully used. The proposed conditional slope bound retains all five true weights but has not been attempted with a selected explicit block.",
+      "scope": "State the dyadic amplitude regime and required exponent with counting measures. Use the exact column triple, actual sign, slope and physical ratio. Do not replace the conditional ratio law by uniform. Use the already proved O(p) exclusions only after the true weighted expectation.",
+      "if_yes": "Prove a signed estimate for a specified remaining block that improves the existing cutoff and can contribute to O(p).",
+      "if_no": "Prove a scoped failure of a specified true-weight inequality or show precisely why it cannot cover the selected block.",
+      "if_inconclusive": "Derive a distinct actual-prime incidence or second moment with a useful quantitative dependence on the layer thresholds.",
+      "inputs": [
+        {
+          "path": "research/ordinary-rank-two-slope-orthogonality-160.md",
+          "sha256": "730841b8df6ae48d3b972c571499f738187852da18879f31041df5e41bef1342"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-single-lift-ratio-law-159.md",
+          "sha256": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0"
+        },
+        {
+          "path": "research/ordinary-quantitative-near-unit-slope-159.md",
+          "sha256": "2f25e6b4e9bef304469b8b9809281c94cd4e64a7ab801e4445adb5ed1f625209"
+        },
+        {
+          "path": "research/ordinary-sign-selective-completion-156.md",
+          "sha256": "8e4174d4b0d78b407b0862744b17ae4d7cd52e8303ab752d053013570251015b"
+        },
+        {
+          "path": "research/ordinary-marked-frequency-localization-157.md",
+          "sha256": "ed758de9af41901284daca5c6163bd04d7ff0418f21eb7f16bbea510d96c7fee"
+        }
+      ]
+    },
+    {
+      "id": "cold-prime-local-smoothed-remainder",
+      "priority": 3,
+      "change_id": "cold",
+      "question": "Can the direct Taylor remainder and its smoothed portion for the actual height increment be priced separately in the translated norm?",
+      "why_now": "The corrected transport now splits r-rbar from ZD(r-rbar) and identifies the genuine insertion for moving the height-601 bound.",
+      "scope": "Keep the original complex square, mark t0=n and both lifts. Resolve the direct local term separately at the mark and elsewhere. A coordinate sup estimate, or a height-601 entry bound alone, is insufficient for a translated norm at height 602.",
+      "if_yes": "Prove a quantitatively sufficient signed increment estimate with a valid nonlinear and height transfer.",
+      "if_no": "Give a precise obstruction on the original dynamics or a documented failure of a selected bound.",
+      "if_inconclusive": "Prove a new translated bound for one genuine remainder piece or a restricted bridge with an exact remaining arithmetic cost.",
+      "inputs": [
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        },
+        {
+          "path": "research/cold-frozen-orbit-transfer-122.md",
+          "sha256": "c3ac946bf95639d4b81bd9db9c902b835d1be194b6b129ceee7a9f13cc7261c7"
+        },
+        {
+          "path": "research/cold-rank-three-quartic-ledger-158.md",
+          "sha256": "3e050da29738344745d7202946b4d43a943d46b59a56178bbc5e0972f05c9080"
+        }
+      ]
+    },
+    {
+      "id": "audit",
+      "priority": 4,
+      "change_id": "weighted-real",
+      "question": "Which Round 162 deductions survive independent review?",
+      "why_now": "The exterior distance and return reductions, coupled phases and cold norm transfer require independent coefficient and normalization checks.",
+      "scope": "Read-only. Review exact prime eligibility, actual marks and zero-set hypotheses, all color and phase conventions, both cold lifts and growing versus finite depths. Give two ranked next suggestions.",
+      "if_yes": "State the verified proof scope and precisely remaining open estimates.",
+      "if_no": "Locate the invalid step.",
+      "if_inconclusive": "Separate exact facts from exploratory and conditional evidence.",
+      "inputs": [
+        {
+          "path": "research/ordinary-exterior-mark-return-161.md",
+          "sha256": "857e02af77eafc4ee8a73d707b94734248b201e3b6308619b99dc73a167a7fd4"
+        },
+        {
+          "path": "research/ordinary-projection-gap-control-161.md",
+          "sha256": "d0d815dd5f97ec259a5ac50c62507a23314eb98ea3ecdd92641a7624adb9eadd"
+        },
+        {
+          "path": "research/ordinary-gap-marked-spectral-window-160.md",
+          "sha256": "f7200066b15b7ed735c44cbc16c2634a18c94ffb2ecff8eb95938b26602ae1d6"
+        },
+        {
+          "path": "research/ordinary-bulk-spectrum-137.md",
+          "sha256": "39c7b0586716eb5d4bd35e5242de096811b392f1d7b84a94d94512ae4c05357a"
+        },
+        {
+          "path": "research/ordinary-first-spill-face-support-155.md",
+          "sha256": "77ec7e81fa670dae1344a792bbb1fec477331c2be3bd01169fd64f1e5c3a9ef8"
+        },
+        {
+          "path": "research/ordinary-prime-repair-source-150.md",
+          "sha256": "da97caf5c4323f4db5c4bcfde4312a9a19b50cc78fe8c013f6f0b9f401a608a1"
+        },
+        {
+          "path": "research/ordinary-rank-two-slope-orthogonality-160.md",
+          "sha256": "730841b8df6ae48d3b972c571499f738187852da18879f31041df5e41bef1342"
+        },
+        {
+          "path": "research/ordinary-matched-physical-truncation-160.md",
+          "sha256": "63cbbb4628631b2a83ba7f241d2c0ee07b286133b594d6ab33cd94a94c22e251"
+        },
+        {
+          "path": "research/ordinary-single-lift-ratio-law-159.md",
+          "sha256": "100427230de9fd7b0e2900be1f3dbdcf28ce51c1774ea19ba9d318e7732921b0"
+        },
+        {
+          "path": "research/cold-picard-increment-correction-161.md",
+          "sha256": "b078f5f36387ff49a29ae1390ad271b22bf8246162a1ba43b501df1f853735b0"
+        },
+        {
+          "path": "research/cold-actual-H-scalar-units-159.md",
+          "sha256": "b8ff5edb61dda5230a9d1f8b365d55cd7e38d1f7084682f6a8507dd4786f3a7c"
+        },
+        {
+          "path": "research/cold-combined-height-130.md",
+          "sha256": "45f678cd4b68b76bf8f08308f4030255de865d84c60cbd758a077bd53c713920"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}

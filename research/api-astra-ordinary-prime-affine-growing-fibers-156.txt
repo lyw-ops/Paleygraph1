@@ -1,0 +1,352 @@
+## Checked result: a coupled affine-group upper, and the obstruction to closing it
+
+I work along the actual ordinary-prime family
+\[
+p\equiv1\pmod 4,\qquad p\to\infty,
+\]
+with \(Q=(\mathbb F_p^\times)^2\), \(n=(p-1)/2\), and \(G=\widehat Q\). For each \(p\), take the actual selected short-block step from the retargeted flow, with physical mark
+\[
+z_*=(1+\delta)n/q,\qquad b_j=1_{\rm bulk}(-y_j)_+,\qquad b_0=0,
+\]
+and \(\rho=-\sigma\). The hypotheses used below are the actual near-critical ones
+\[
+m_{\rm eff}\sim \frac n{\sqrt p},\qquad
+\frac{\|L_\sigma b\|_{2,n}}{\mathbb E b}=o(1),\qquad
+\max_a\nu_a=O(p^{-1/2}),
+\]
+where
+\[
+\nu_a=\frac{b_a}{\sum_c b_c},\qquad
+f(t)=\sum_{a\in G}\nu_a\,a(t),\quad t\in Q.
+\]
+All norms in the argument below are counting norms on \(Q\) or \(\mathbb F_p\); the divisor-normalized norms occur only in the hypotheses inherited from the flow.
+
+The limit is a single joint limit along the selected actual steps as \(p\to\infty\). No finite-\(p\) check is being used as an asymptotic conclusion.
+
+### 1. Exact physical affine form
+
+Fix \(v\) with \(\chi(v)=\rho\), and write
+\[
+F(x)=f(1-vx).
+\]
+For \(u\in Q\setminus\{1\}\), define
+\[
+r_u(x)=\frac{1-vux}{1-vx},
+\qquad
+A_u(x)=F(ux)\overline{F(x)}.
+\]
+Only retain \(x\) for which all original physical arguments lie in \(Q\). The map \(x\mapsto r_u(x)\) is injective on the contributing set. Put
+\[
+\widetilde A_u(r_u(x))=A_u(x),
+\]
+and set \(\widetilde A_u=0\) elsewhere on \(Q\).
+
+The favorable off-diagonal contribution for a slope set \(E\subset Q\setminus\{1\}\), with
+\[
+\chi(1-t)=\rho,
+\]
+is exactly
+\[
+S_E
+=
+\sum_{u\in Q\setminus\{1\}}
+\sum_{x,y}
+A_u(x)\overline{A_u(y)}
+\,1_E\!\left(\frac{r_u(y)}{r_u(x)}\right)
+f\!\left(\frac{r_u(y)}{r_u(x)}\right).
+\]
+Thus, after the physical marking and the two transported \(u\)-dependent factors have been retained,
+\[
+S_E
+=
+\sum_u
+\sum_{z,w\in Q}
+\widetilde A_u(z)\overline{\widetilde A_u(w)}
+\,h_E(w/z),
+\]
+where
+\[
+h_E(t)=1_E(t)f(t).
+\]
+
+The transported weights have not been replaced by independent vertex weights.
+
+### 2. A precise weighted affine-group bound
+
+For \(h:Q\to\mathbb C\), define its multiplicative spectral norm
+\[
+\Lambda(h)
+=
+\max_{\psi\in G}
+\left|
+\sum_{t\in Q}h(t)\overline{\psi(t)}
+\right|.
+\]
+The multiplicative convolution operator with kernel \(h(w/z)\) is diagonal in \(G\), hence
+\[
+\left|
+\sum_{z,w}\alpha(z)\overline{\alpha(w)}\,h(w/z)
+\right|
+\le
+\Lambda(h)\|\alpha\|_2^2.
+\]
+Applying this separately to each \(u\) gives
+\[
+|S_E|
+\le
+\Lambda(h_E)\sum_u\|\widetilde A_u\|_2^2.
+\]
+
+The physical restrictions only decrease the last sum. Indeed,
+\[
+\begin{aligned}
+\sum_u\|\widetilde A_u\|_2^2
+&\le
+\sum_{u,x}|F(ux)|^2|F(x)|^2\\
+&\le
+\left(\sum_x|F(x)|^2\right)^2
+=:N^2.
+\end{aligned}
+\]
+Since \(F(x)=f(1-vx)\) on a restricted injective image,
+\[
+N\le \|f\|_2^2
+=n\sum_a\nu_a^2
+=\frac n{m_{\rm eff}}
+\sim \sqrt p.
+\]
+Therefore the exact coupled upper is
+\[
+\boxed{
+|S_E|\le N^2\,\Lambda(h_E)
+\le
+\frac{n^2}{m_{\rm eff}^2}\,\Lambda(h_E).
+}
+\]
+
+This is an actual affine-chart estimate, not an independent-weight incidence estimate.
+
+### 3. Explicit bound for the full favorable sector
+
+Take
+\[
+h_\rho(t)
+=
+1_{\{t\ne1,\ \chi(1-t)=\rho\}}f(t).
+\]
+For \(\psi\in G\),
+\[
+\widehat h_\rho(\psi)
+=
+\frac12\sum_{t\in Q}f(t)\overline{\psi(t)}
++
+\frac{\rho}{2}\sum_{t\in Q}f(t)\chi(1-t)\overline{\psi(t)}
+-\frac12f(1).
+\]
+The first term is
+\[
+\sum_{t\in Q}f(t)\overline{\psi(t)}
+=n\nu_\psi.
+\]
+
+For the second term, write \(f(t)=\sum_a\nu_a a(t)\). For each \(a,\psi\), the inner sum is a half-sum of two Jacobi sums:
+\[
+\sum_{t\in Q}a(t)\overline{\psi(t)}\chi(1-t)
+=
+\frac12\bigl(J(A,\chi)+J(A\chi,\chi)\bigr),
+\]
+where \(A|_Q=a\overline\psi\). For \(p\equiv1\pmod4\), the regular Jacobi sums have modulus \(\sqrt p\), and the degenerate ones have modulus at most \(1\). Hence
+\[
+\left|
+\sum_{t\in Q}f(t)\chi(1-t)\overline{\psi(t)}
+\right|
+\le \sqrt p.
+\]
+Consequently
+\[
+\boxed{
+\Lambda(h_\rho)
+\le
+\frac12n\max_a\nu_a+\frac12\sqrt p+\frac12.
+}
+\]
+Under the actual cap \(\max\nu_a=O(p^{-1/2})\),
+\[
+\Lambda(h_\rho)=O(\sqrt p),
+\]
+and therefore
+\[
+\boxed{
+|S_{\rm favorable}|=O(p^{3/2}).
+}
+\]
+
+This is a checked upper retaining the actual transported factors. It does not prove the desired \(O(p)\).
+
+### 4. Exact obstruction to the \(O(p)\) spectral route
+
+To obtain \(O(p)\) from the preceding inequality one would need
+\[
+\Lambda(h_\rho)=O(1).
+\]
+That assertion is false under the general nonnegative near-critical weight hypotheses, even when
+\[
+\sum_a\nu_a^2\asymp p^{-1/2},
+\qquad
+\max_a\nu_a\ll p^{-1/2}.
+\]
+
+Fix \(\psi\in G\), and put
+\[
+J_a
+=
+\sum_{t\in Q}a(t)\overline{\psi(t)}\chi(1-t).
+\]
+By multiplicative Parseval,
+\[
+\sum_{a\in G}|J_a|^2
+=
+n(n-1)\asymp p^2.
+\]
+Each \(J_a\) is a half-sum of Jacobi sums, so \(|J_a|\le\sqrt p\). It follows that a positive proportion of the \(a\)'s satisfy
+\[
+|J_a|\ge c\sqrt p.
+\]
+Partition their arguments into finitely many fixed angular sectors. One sector contains \(\gg p\) indices. Choose a set \(K\) of
+\[
+|K|=\lfloor c_0\sqrt p\rfloor
+\]
+indices in that sector, avoiding \(\psi\), and define
+\[
+\nu_a=
+\begin{cases}
+|K|^{-1},&a\in K,\\
+0,&a\notin K.
+\end{cases}
+\]
+Then
+\[
+\sum_a\nu_a^2\asymp p^{-1/2},\qquad
+\max_a\nu_a\asymp p^{-1/2},
+\]
+so this is an admissible near-critical nonnegative anchor law at the level of the weighted affine lemma. But the common phase of the \(J_a\)'s gives
+\[
+\left|\sum_a\nu_aJ_a\right|\gg\sqrt p.
+\]
+Since \(\nu_\psi=0\),
+\[
+|\widehat h_\rho(\psi)|\gg\sqrt p.
+\]
+Thus
+\[
+\boxed{
+\Lambda(h_\rho)\gg\sqrt p
+}
+\]
+for this family.
+
+This is a precise obstruction to the proposed uniform \(O(1)\) weighted affine-group lemma. It is not a counterexample to the original dynamical theorem: the construction is an admissible weight law for the lemma, but I have not shown that the actual marked flow produces these particular supports and phases. The remaining issue is therefore genuinely coupled arithmetic cancellation in the \(u\)-sum, not a missing independent-weight estimate.
+
+### 5. A usable growing subfamily
+
+For any \(E\subset\{t\in Q:\chi(1-t)=\rho\}\), the exact criterion is
+\[
+\boxed{
+|S_E|\le N^2\Lambda(h_E).
+}
+\]
+Hence every growing slope family satisfying
+\[
+\max_{\psi\in G}
+\left|
+\sum_{t\in E}f(t)\overline{\psi(t)}
+\right|
+=O(1)
+\]
+has an \(O(p)\) contribution, with all transported factors retained.
+
+There is also a guaranteed, but only small-density, family from the \(L^2\) bound. Since
+\[
+\sum_{t\in Q}|f(t)|^2=\frac n{m_{\rm eff}}\asymp\sqrt p,
+\]
+for every fixed \(0<\alpha<1/4\), all but \(O(p^{1/2+2\alpha})=o(p)\) slopes satisfy
+\[
+|f(t)|\le C p^{-\alpha}.
+\]
+The favorable sector contains \(\asymp p\) slopes, so one may choose a favorable set \(E_p\) with
+\[
+|E_p|\asymp p^\alpha,\qquad
+\sum_{t\in E_p}|f(t)|=O(1).
+\]
+The already-known bounded-fiber argument then gives
+\[
+|S_{E_p}|=O(p).
+\]
+This is a growing subfamily, but not a positive proportion of favorable slopes; it does not address the main target and should not be counted as progress beyond the settled bounded-weight case.
+
+## Remaining gap
+
+The exact unresolved quantity is the actual coupled form
+\[
+\sum_{u\in Q\setminus\{1\}}
+\left\langle
+\widetilde A_u,\,
+T_{h_\rho}\widetilde A_u
+\right\rangle,
+\]
+where
+\[
+\widetilde A_u(r_u(x))
+=
+F(ux)\overline{F(x)}
+\]
+and \(F(x)=f(1-vx)\) carries the same true weight law as \(h_\rho\).
+
+The spectral norm of \(T_{h_\rho}\) can be \(\asymp\sqrt p\), so a per-\(u\) operator bound cannot yield \(O(p)\). One must either:
+
+1. prove cancellation after summing over \(u\), using the shared transported factors; or  
+2. prove that the actual marked flow has additional Jacobi-phase structure excluding the obstruction above.
+
+## Ranked next tests
+
+### 1. Highest priority: actual Jacobi-spectrum test
+
+For the actual \(b\) at the selected marked step, compute or estimate
+\[
+\Lambda_p^{\rm act}
+=
+\max_{\psi\in G}
+\left|
+\sum_{\substack{t\in Q\\\chi(1-t)=\rho}}
+f(t)\overline{\psi(t)}
+\right|.
+\]
+The decisive asymptotic alternatives are:
+
+- \(\Lambda_p^{\rm act}=O(1)\): the displayed affine bound closes the favorable contribution at \(O(p)\);
+- \(\Lambda_p^{\rm act}\asymp\sqrt p\): the obstruction is realized by the actual weights, and a \(u\)-summed cancellation estimate is mandatory.
+
+This test must use the true \(\nu_a=b_a/\sum b\), the actual physical mark \(z_*\), and the actual selected step; arbitrary near-critical laws do not settle it.
+
+### 2. Second priority: coupled \(u\)-sum incidence estimate
+
+For dyadic favorable bands
+\[
+E_\lambda=\{t:\lambda<|f(t)|\le2\lambda,\ \chi(1-t)=\rho\},
+\]
+prove directly
+\[
+\left|
+\sum_u
+\left\langle
+\widetilde A_u,\,
+T_{1_{E_\lambda}f}\widetilde A_u
+\right\rangle
+\right|
+\ll p\,\Phi(\lambda),
+\]
+with a summable \(\Phi(\lambda)\), rather than bounding each \(u\) by \(\Lambda(T)\). The estimate must retain
+\[
+F(ux)\overline{F(x)}
+\]
+on both vertices and the original physical domain. A bound with independently assigned \(X\)- and \(Y\)-weights would not address the obstruction identified above.

@@ -1,0 +1,205 @@
+## Result
+
+A nonnegative prime-uniform smoothing operation exists, but the available estimate does **not** prove the required low terminal activation. The construction preserves the forbidden sector exactly, preserves mean one, and loses only \(o(\sqrt n)\) at the physical mark. The unresolved term is the terminal correlation after smoothing.
+
+### Prime family and marking
+
+Take eligible primes
+\[
+p\equiv1\pmod 4,\qquad n=\frac{p-1}{2},
+\]
+with the fixed floor \(0<\tau<1\), weights
+\[
+w_0=1,\qquad w_i=\frac{\tau}{n}\quad(i\neq0),
+\]
+and the actual marked window
+\[
+T=T(p)\le \log_2^*p-\log_2^*\log_2^*p-O_{\tau,B}(1),
+\]
+for which the established prime arithmetic gives
+\[
+\max_{j\le T+1}|v_j(0)|=O_{\tau,B}(T^{-B}).
+\]
+The physical mark is the coordinate \(0\in G=\widehat{\mathbb F_p^{\times2}}\). All norms below use normalized counting measure
+\[
+\|f\|_{2,n}^2=\frac1n\sum_{i\in G}|f_i|^2.
+\]
+
+Let \(s\in\{+,-\}\) be a sign and let \(F_*\) be a true nonnegative mean-one ordinary optimizer on the \(s\)-side:
+\[
+F_*\ge0,\qquad \mathbb EF_*=1,\qquad (F_*)_0=q_s,
+\qquad P_{-s}(F_*-\mathbf1)=0.
+\]
+Here \(q_s\) is the true ordinary optimum, so \(q_s=O(\sqrt n)\).
+
+## Prime-uniform positive convolution smoothing
+
+Let \(\mu_p\) be any inversion-symmetric probability measure on the positional group \(G\):
+\[
+\mu_p\ge0,\qquad \sum_{a\in G}\mu_p(a)=1,\qquad \mu_p(a)=\mu_p(-a).
+\]
+Define
+\[
+F_\mu=F_* *\mu_p.
+\]
+
+Because convolution is a convex combination of translations,
+
+\[
+F_\mu\ge0,\qquad \mathbb EF_\mu=1.
+\]
+
+Fourier transformation gives
+\[
+\widehat{F_\mu}(\gamma)=\widehat{F_*}(\gamma)\widehat{\mu_p}(\gamma).
+\]
+Therefore every forbidden Fourier coordinate which vanishes for \(F_*\) still vanishes for \(F_\mu\). Consequently
+\[
+P_{-s}(F_\mu-\mathbf1)=0
+\]
+exactly, hence the forbidden-sector RMS is
+\[
+\boxed{\ \|P_{-s}(F_\mu-\mathbf1)\|_{2,n}=0=o(T^{-1/2}).\ }
+\]
+
+This is a genuine nonnegative convolution construction, not bulk clipping.
+
+### Physical mark
+
+Since an ordinary optimizer is translation-dominated,
+\[
+0\le (F_*)_a\le (F_*)_0=q_s
+\]
+for every \(a\). Choose
+\[
+\mu_p=(1-\delta_p)\delta_0+\delta_p\nu_p,
+\qquad 0\le\delta_p\to0,
+\]
+with \(\nu_p\) any inversion-symmetric probability. Then
+\[
+(F_\mu)_0
+=(1-\delta_p)q_s+\delta_p\sum_a\nu_p(a)(F_*)_{-a}.
+\]
+Thus
+\[
+(1-\delta_p)q_s\le (F_\mu)_0\le q_s,
+\]
+and therefore
+\[
+\boxed{\ (F_\mu)_0=q_s+o(\sqrt n)\ }
+\]
+whenever \(\delta_p=o(1)\). This holds uniformly over all eligible primes; no fixed-depth or prime-density averaging is needed.
+
+For example, taking \(\delta_p=T(p)^{-2}\) gives
+\[
+q_s-(F_\mu)_0\le \frac{q_s}{T(p)^2}=o(\sqrt n).
+\]
+
+## What this does and does not prove about terminal activation
+
+Let \(G=G_{T(p)}=\sqrt n\,g_T\) be the actual terminal source from the marked Picard orbit, and write
+\[
+\lambda_\mu=F_\mu-(F_\mu)_0e_0.
+\]
+The required terminal estimate is
+\[
+\mathbb E(\lambda_\mu G)=o(T).
+\]
+
+The convolution identity gives
+\[
+\mathbb E(F_\mu G)
+=\sum_a\mu_p(a)\,\mathbb E(F_*\,T_aG),
+\]
+where \(T_aG(x)=G(x-a)\). Hence
+\[
+\mathbb E(\lambda_\mu G)
+=
+\sum_a\mu_p(a)\,\mathbb E(F_*\,T_aG)
+-(F_\mu)_0G(0).
+\]
+
+The marked-window source bounds only provide
+\[
+\|G\|_{2,n}=O_\tau(\sqrt T).
+\]
+Thus, for a family with uniformly bounded \(\|F_*\|_{2,n}\), Cauchy–Schwarz gives merely
+\[
+|\mathbb E(\lambda_\mu G)|=O_\tau(\sqrt T),
+\]
+which would indeed be \(o(T)\). However, the required uniform bound
+\[
+\sup_{p\ {\rm eligible}}\|F_*\|_{2,n}=O_\tau(1)
+\]
+for a suitable true optimizer, or an equivalent prime-uniform terminal pairing estimate, is not established in the supplied material. More importantly, the known additive-rigidity result proves only exact nonvanishing of translated source coefficients; it gives no quantitative sign or cancellation estimate at the \(o(T)\) scale.
+
+A smoothing measure with \(\delta_p=o(1)\) cannot by itself force cancellation. Indeed,
+\[
+F_\mu=(1-\delta_p)F_*+\delta_p(F_* *\nu_p),
+\]
+so for any terminal functional \(C(F)=\mathbb E((F-F_0e_0)G)\),
+\[
+C(F_\mu)=(1-\delta_p)C(F_*)+\delta_p C(F_* *\nu_p)
++\text{mark correction}.
+\]
+If \(C(F_*)\) is of order \(T\), an \(o(1)\)-mass perturbation leaves an order-\(T\) contribution unless one already knows a quantitative bound on \(C(F_* *\nu_p)\) or chooses \(\delta_p\) non-negligibly. But non-negligible smoothing can lose \(\Theta(\sqrt n)\) at the physical mark unless \(\nu_p\) is concentrated on sites where \(F_*\) is itself near \(q_s\).
+
+Thus the construction establishes:
+
+\[
+\boxed{
+\begin{array}{l}
+\text{nonnegative and mean one;}\\
+\text{exact forbidden-sector vanishing;}\\
+\text{physical mark }q_s+o(\sqrt n)\text{ on every eligible prime;}
+\end{array}}
+\]
+but it does **not** establish
+\[
+\mathbb E(\lambda_\mu G)=o(T)
+\]
+uniformly on the prime family.
+
+## Prime-specific input and remaining gap
+
+The prime-specific additive propagation result applies to the actual family
+\[
+p\equiv1\pmod4,\qquad Q=\mathbb F_p^{\times2},
+\]
+and proves that nonzero translated additive source coefficients span the mean-zero space exactly. The filtered-support and opposite-autocorrelation estimates further constrain concentrated or highly periodic support. None of these results supplies the needed quantitative estimate
+\[
+\inf_{\mu_p:\,q_s-(F_*\!* \mu_p)_0=o(\sqrt n)}
+\frac{\mathbb E(\lambda_\mu G)_+}{T}\longrightarrow0.
+\]
+Exact additive nonvanishing is therefore insufficient: it controls algebraic support, not the magnitude or sign of the terminal pairing.
+
+The order of limits remains explicit. A successful statement would need to hold for every fixed \(\tau>0\), for eligible primes \(p\to\infty\) with \(T=T(p)\to\infty\) inside the certified marked window, followed by
+\[
+p\to\infty\quad\text{first},\qquad \tau\downarrow0\quad\text{second}.
+\]
+That final prime-uniform terminal estimate is still open.
+
+## Ranked next tests
+
+1. **Convolution-correlation test on true prime optimizers.**  
+   For eligible primes in the certified window, compute or bound
+   \[
+   \inf_{\nu_p}
+   \mathbb E\!\left[
+   \bigl(F_* * ((1-\delta_p)\delta_0+\delta_p\nu_p)
+   -(F_* *\mu_p)_0e_0\bigr)G_T
+   \right]
+   \]
+   subject to \(\delta_p=o(1)\). The decisive target is a uniform \(o(T)\) bound with \(\delta_p=T^{-2}\) or another explicit \(o(1)\) choice. This directly tests whether prime additive structure produces cancellation without sacrificing the physical mark.
+
+2. **Uniform \(L^2\) or weighted terminal norm test.**  
+   Seek a prime-uniform optimizer selection \(F_{*,p}\) satisfying either
+   \[
+   \|F_{*,p}\|_{2,n}=O_\tau(1)
+   \]
+   or directly
+   \[
+   \sup_{\mu_p:\,q_s-(F_{*,p}*\mu_p)_0=o(\sqrt n)}
+   \left|\mathbb E(\lambda_\mu G_T)\right|=o(T).
+   \]
+   The first would combine with \(\|G_T\|_{2,n}=O_\tau(\sqrt T)\) to finish the terminal-cost requirement; failure of this bound would identify the precise concentration obstruction.

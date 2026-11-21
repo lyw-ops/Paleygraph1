@@ -1,0 +1,188 @@
+### Checked obstruction for the bare adjacent block
+
+Let \(n=|Q|\), let \(K\) be the actual Paley convolution operator with multiplier \(\chi(1-a)\) on the square subgroup, and let
+\[
+D_j=\operatorname{diag}(d_{j,x}),\qquad
+\Delta_j=D_{j+1}-D_j.
+\]
+Here the indices are the physical nine-center coordinates, with the marked coordinate \(t_0=n\) and unmarked coordinates \(t_i=t\). No vertex-sign-matrix model is used.
+
+The actual multiplier satisfies
+\[
+K^2=I-P_1,\qquad P_1=\frac1n{\bf1}{\bf1}^{\!*}.
+\]
+
+Define the bare block
+\[
+B_j=K\Delta_jK.
+\]
+
+#### Proposition: unavoidable trivial Mellin component
+
+Put
+\[
+\bar\delta_j=\frac1n\operatorname{tr}\Delta_j
+ =\frac1n\sum_x\bigl(d_{j+1,x}-d_{j,x}\bigr).
+\]
+Then
+\[
+\operatorname{tr}B_j
+ =\operatorname{tr}(\Delta_jK^2)
+ =(n-1)\bar\delta_j.
+\]
+Consequently,
+\[
+\max_x |(B_j)_{xx}|
+ \ge \frac{|\operatorname{tr}B_j|}{n}
+ =\left(1-\frac1n\right)|\bar\delta_j|. \tag{A}
+\]
+
+This is an exact finite-field statement, uniform in the depth \(j\), and does not use an unsigned resolvent estimate.
+
+Therefore any proposed signed bound of the form
+\[
+\max_{x,y}|(K\Delta_jK)_{xy}|
+ \le C n^{-\beta}q^j,\qquad \beta>0, \tag{B}
+\]
+requires the necessary cancellation
+\[
+|\bar\delta_j|
+ \le \frac{C}{1-1/n}\,n^{-\beta}q^j. \tag{C}
+\]
+
+In particular, normalized physical control
+\[
+\|\Delta_j\|_{2,n}\le Lq^j
+\]
+only gives \(|\bar\delta_j|\le Lq^j\); it gives no factor \(n^{-\beta}\). Recall that the corresponding counting norm is
+\[
+\|\Delta_j\|_2=\sqrt n\,\|\Delta_j\|_{2,n}.
+\]
+Thus normalized adjacent contraction alone cannot imply (B).
+
+### Why the Mellin-parity multiplication fails
+
+Decompose
+\[
+\Delta_j=\bar\delta_j I+F_j,\qquad \operatorname{tr}F_j=0.
+\]
+Then
+\[
+K\Delta_jK
+ =\bar\delta_j(I-P_1)+KF_jK. \tag{D}
+\]
+
+The scalar term \(\bar\delta_jI\) is the trivial Mellin character. Multiplication by the actual Paley kernel does not turn it into a negative-parity term; instead it gives
+\[
+KIK=I-P_1.
+\]
+Hence the zero Mellin mode survives on the diagonal with size \(\bar\delta_j\). The ordinary \(\chi(1-a)\) twist does not remove it. Any trace argument that tracks only nontrivial boundary fibers therefore misses precisely this obstruction.
+
+For the actual nonlinear diagonal,
+\[
+d_{j,x}=\Phi_t'(V_{j,x}),
+\]
+one has, writing \(h_{j,x}=V_{j+1,x}-V_{j,x}\),
+\[
+\bar\delta_j
+ =\frac1n\sum_x \Phi_t''(V_{j,x})h_{j,x}
+ +O\!\left(\|h_j\|_{\infty}^2\,
+       \sup|\Phi_t'''|\right). \tag{E}
+\]
+Neither the nine-center symmetry nor \(\sum_x h_{j,x}=0\) forces the first term in (E) to vanish, because the weight \(\Phi_t''(V_{j,x})\) is not constant. Thus a genuine field-uniform signed estimate requires an additional zero-mode cancellation, not presently supplied.
+
+A weaker estimate for the traceless part is available only under a stronger counted-\(\ell^1\) hypothesis. Since the actual kernel entries obey
+\[
+|K_{xy}|\le \frac{\sqrt3}{\sqrt n},
+\]
+\[
+|(KF_jK)_{xy}|
+ \le \frac3n\sum_i |(F_j)_{ii}|.
+\]
+Thus
+\[
+\|\operatorname{diag}F_j\|_{\ell^1}\le C\sqrt n\,q^j
+\quad\Longrightarrow\quad
+\max_{x,y}|(KF_jK)_{xy}|
+ \le 3C\,n^{-1/2}q^j. \tag{F}
+\]
+But normalized second-norm contraction only gives
+\[
+\|\operatorname{diag}F_j\|_{\ell^1}
+ \le n\|F_j\|_{2,n}=O(nq^j),
+\]
+which yields no \(n^{-1/2}\) gain. Equation (F) identifies the missing strengthening, rather than proving it.
+
+### Comparison with the resolvent-side derivative correction
+
+Let
+\[
+Z_j=(I-KD_j)^{-1}K.
+\]
+The exact adjacent term is
+\[
+T_j=Z_{j+1}\Delta_j Z_j.
+\]
+Writing \(R_j=Z_j-K\),
+\[
+T_j
+ =K\Delta_jK
+ +R_{j+1}\Delta_jK
+ +K\Delta_jR_j
+ +R_{j+1}\Delta_jR_j. \tag{G}
+\]
+
+The existing shifted-column estimate \(Z_j(x,y)=O(n^{-\beta})\) does not by itself make the correction terms in (G) \(O(n^{-\beta}q^j)\). For example, using only normalized second-norm control,
+\[
+\|\Delta_j\|_2\le \sqrt n\,L_Dq^j,
+\]
+and an \(O(n^{-\beta})\) entry bound on one resolvent side gives at best
+\[
+|(R_{j+1}\Delta_jK)_{xy}|
+ \lesssim n^{1/2-\beta}q^j,
+\]
+not \(n^{-\beta}q^j\). This is exactly where confusing normalized and counting \(E_2\) would produce a false gain.
+
+For a purely scalar increment \(\Delta_j=c_jI\), the full term is
+\[
+T_j=c_j Z_{j+1}Z_j.
+\]
+If the resolvents are quantitatively close to \(K\), the same trivial-mode obstruction persists. More precisely, with
+\[
+e_j=\|Z_j-K\|_{2\to2},\qquad z_j=\|Z_j\|_{2\to2},
+\]
+\[
+\left|
+\frac1n\operatorname{tr}(Z_{j+1}Z_j)
+-\left(1-\frac1n\right)
+\right|
+\le e_{j+1}z_j+e_j. \tag{H}
+\]
+Thus a small-resolvent-correction regime preserves a scalar increment at trace level. Current contraction data do not establish a sufficiently small right side in (H) uniformly at the relevant depths, so this does not yet refute cancellation in the complete \(T_j\); it does show that such cancellation must be proved, not inferred from Mellin parity.
+
+### Conclusion and remaining gap
+
+The bare block has a precise obstruction: unless
+\[
+\frac1n\sum_x
+\left[\Phi_t'(V_{j+1,x})-\Phi_t'(V_{j,x})\right]
+=O(n^{-\beta}q^j),
+\]
+no signed \(n^{-\beta}q^j\) entry estimate can hold, even though the increment is geometrically small in normalized \(E_2\). This obstruction is field-uniform and valid at increasing depth.
+
+It remains open whether the actual nine-center stationary rows satisfy this zero-mode cancellation, and, if they do, whether the traceless component has the Mellin weighted \(\ell^1\) or parity estimate needed for (F).
+
+**Ranked next tests**
+
+1. Compute and certify the scalar mode
+   \[
+   c_j=\frac1n\sum_x
+   [\Phi_t'(V_{j+1,x})-\Phi_t'(V_{j,x})]
+   \]
+   on the actual nine-center rows, reporting \(c_j/q^j\) uniformly in the eligible field. A nonzero field-uniform lower bound is a genuine obstruction.
+
+2. If \(c_j\) vanishes to the required order, project to
+   \[
+   F_j=\Delta_j-c_jI
+   \]
+   and test the diagonal Mellin trace \(KF_jK\), especially its zero and translated-source fibers, before attempting the full resolvent correction in (G).

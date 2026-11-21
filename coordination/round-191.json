@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "round": 191,
+  "record_status": "ready",
+  "prepared_by": "Claude Opus 5.5 coordinator, generation-1 brain session (agent assessment after an independent agent audit run as a background subagent, prepared while the user was asleep under their instruction to advance rounds autonomously; not human acceptance or mathematical certification)",
+  "sources": {
+    "baseline": {
+      "path": "research/round-190-acceptance.json",
+      "sha256": "11c42c0a61670f6772d73a40899c6c65fc54271b048b3db1208855cacf83409b"
+    },
+    "current": {
+      "path": "research/round-191-acceptance.json",
+      "sha256": "51b868043d590e9d1453de4cdc7fea270a58c666c27c75927270ddf3a0449538"
+    }
+  },
+  "changes": [
+    {
+      "id": "weighted-real",
+      "route": "Actual ordinary positive completion and marked cancellation",
+      "effect": "new_obstruction",
+      "before": "M_w = O(p) logarithm-free named as the closest closing form, closing each fixed moderate block; a new obligation (A) assembly of fixed blocks into the target, unanalysed; (GP-Sub) recorded as cand:gp-sector-constancy without a literature check; whether the geometric-progression wall binds M_w unknown.",
+      "after": "(A) splits into (A-slope) and (A-vertex). (A-slope) is discharged by X = O(p) or M_sqrt(g) = O(p) logarithm-free, not by M_w = O(p) (exact loss exponents). (A-vertex) is the vertex-only estimate (A_V), closed by vertex tightness (V) m_(<a) = o(D) for one fixed a <= 1/2, strictly stronger than the open Round 20 question; every accepted device loses at least p^(1/2). The geometric-progression wall binds M_w (restriction lemma; mixed interval and D_theta^eta laws admissible and sector-free (NC)), and by monotonicity also M_sqrt(g) and X, so no first-mass form escapes it. (GP-Sub) is open in the needed range (known only for c > 1/sqrt 2; quantitative form re-stated for every c_0 > 0), recognised by implication from the Paley graph conjecture and omega(G_p) = o(sqrt p). Context: the target is Randomstrasse101 Conjecture 26 / OP-00041. Unconditional exponents unchanged.",
+      "remaining": "(A-slope): X = O(p) logarithm-free for the actual near-critical law (now p^(4/3+o(1)), X >= (2-o(1))p on (NC)); needs cand:gp-shifted-energy at |I|^2 logarithm-free (known |I|^(32/13)) for sector-free arguments, or cand:gp-sector-constancy (open) for sector arguments. (A-vertex): (V) or a signed vertex estimate. Both GP inputs are frontier sum-product / Paley-clique problems.",
+      "evidence": [
+        {
+          "path": "research/native-claude-ordinary-fixed-block-assembly-191.md",
+          "sha256": "6bb5df8ac903432a72e805a48e1e2922f83cf4aaa73fe6c8e114e1e1ad64b69c"
+        },
+        {
+          "path": "research/native-claude-ordinary-first-mass-sector-obstruction-191.md",
+          "sha256": "ea04d03bad2960ad2ba7baa38d90d9c686d99136709b7f17446621361417f22b"
+        },
+        {
+          "path": "research/native-claude-ordinary-gp-sector-constancy-literature-191.md",
+          "sha256": "738c6594f78658ba8beca24fba4f61ebe9ebfd7e95d9d75e2fed2997679c09c9"
+        },
+        {
+          "path": "research/native-claude-audit-191.md",
+          "sha256": "0cf09db59ab5359373f56e6c3ef442041883f403abd98e2334a7127bff7fb2cf"
+        }
+      ]
+    }
+  ],
+  "decision": "continue",
+  "decision_reason": "Round 191 met the Round 190 audit's hold condition: the ordinary line is reduced to two external geometric-progression problems, cand:gp-shifted-energy (a sum-product frontier problem known at |I|^(32/13), needed at |I|^2 logarithm-free) and cand:gp-sector-constancy (open of Paley-clique type for c <= 1/sqrt 2), plus the internal (A-vertex) / vertex tightness (V); no first-mass form escapes the wall, and one-match, zero match, the diagonal, the J split and M_w are off the critical path. The cold line has been paused since Round 189 (only signed mechanisms remain). Rounds 183-191 were run and agent-accepted overnight under the user's instruction to advance autonomously; they await human review, in particular Lemma M' (Round 187), Theorem A (Round 188) and the Round 190-191 obligation map. The audit names one optional internal call, ordinary-nc-vertex-tightness (whether the accepted (NC) consequences force (V) or Sigma g^2 >> sqrt p, or an obstruction with m_(<a) asymp sqrt p), expected to end in hold either way; on 2026-11-21 the user chose to run it (their reply 'Run vertex-tightness call'), so the record proposes that single call and holds every other line. Bookkeeping: the vertex range is C^2/p < |F|^2 < a (correcting Round 190); cand:gp-sector-constancy is re-quantified 'for every c_0 > 0'; cand:slope-row-mass-x now names X = O(p) as the slope-complete target (value unchanged).",
+  "next_calls": [
+    {
+      "id": "ordinary-nc-vertex-tightness",
+      "priority": 1,
+      "change_id": "weighted-real",
+      "question": "Do the accepted (NC) consequences, including the sector forms ((NC2) V_(-rho) -> 0, (A3) G_(-rho) = O(1), M_1 = (1+o(1))p, Round 184 slope-row-mass Proposition 2 and Lemma 0, d_rho(S) -> 0), imply vertex tightness (V) m_(<a) = o(D) on T_rho for some fixed a <= 1/2, or at least sum g^2 >> sqrt p; or is there an obstruction, an argument or an explicit family consistent with every accepted (NC) statement with m_(<a) asymp sqrt p for every fixed a?",
+      "why_now": "After Round 191, (A-vertex) is the only ordinary obligation not already reduced to an external problem, and (V) is its only accepted sufficient form; whether (NC) can reach it decides whether the internal programme has any remaining lever.",
+      "scope": "Hypotheses exactly as in R157:3 / R160:3 and Round 183's (NC); vertex sector T_rho (chi(v) = rho); cite accepted statements by round and line; distinguish sector-free and sector forms; models only as evidence; no claim about the actual law beyond accepted statements; no new incidence estimates. The Round 20 low-energy question (R183 acceptance line 270) is the weaker statement and has been open since Round 20; the Round 191 auditor's uncertainty-principle heuristic (vertex mass on asymp sqrt p points at levels >= a with nu flat on asymp n/sqrt p points suggests near-coset structure, which (A2)/(A6) exclude) is unverified. Cite accepted statements by round; re-prove anything taken from an unaccepted draft.",
+      "if_yes": "(A-vertex) is discharged; the ordinary line reduces to X = O(p) (or M_sqrt(g) = O(p)) alone, still behind the geometric-progression walls; record that and hold.",
+      "if_no": "(A-vertex) needs a signed estimate on the low layers with no accepted tool; record it as an internal open problem of target depth and hold.",
+      "if_inconclusive": "Record the exact (NC) statement that would decide (V) and hold.",
+      "inputs": [
+        {
+          "path": "research/round-191-acceptance.json",
+          "sha256": "51b868043d590e9d1453de4cdc7fea270a58c666c27c75927270ddf3a0449538"
+        },
+        {
+          "path": "research/native-claude-audit-191.md",
+          "sha256": "0cf09db59ab5359373f56e6c3ef442041883f403abd98e2334a7127bff7fb2cf"
+        },
+        {
+          "path": "research/native-claude-ordinary-fixed-block-assembly-191.md",
+          "sha256": "6bb5df8ac903432a72e805a48e1e2922f83cf4aaa73fe6c8e114e1e1ad64b69c"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-row-deleted-one-match-183.md",
+          "sha256": "9af6768f701354214a612f0bbe9fc52b38910517fac95095aae3fe47f085a26a"
+        },
+        {
+          "path": "research/native-claude-ordinary-prime-near-critical-slope-row-mass-184.md",
+          "sha256": "85702949b82c262a1d68dce098c89c995308880d63fbdc35765d571e6e6c02ec"
+        },
+        {
+          "path": "research/native-claude-ordinary-nc-excludes-sector-laws-190.md",
+          "sha256": "5081b11a0e05fadbed17d28e14f10535f0f603d2adb4520785ec77ccba60d817"
+        },
+        {
+          "path": "research/ordinary-prime-coset-spread-151.md",
+          "sha256": "2029d03cff0d88b9afb13a1e6a2957cee9d30842213d7ca79240432047823282"
+        },
+        {
+          "path": "research/anchored-repair-20.md",
+          "sha256": "141a0fb1c0017bae3c3fe4c900259be588bddfa1333dc8c65c7c504df5bf3721"
+        }
+      ]
+    }
+  ],
+  "shared_candidates": []
+}
