@@ -13,6 +13,9 @@
 > - 审计建议 hold；可选的内部调用依次是 `ordinary-a4-c1-dependence`（便宜，判断 ε 形式够不够用），然后在前者有利时做 `ordinary-ss-clean`。两者都不碰 (A-slope) 和原目标。已问用户要不要跑第一个，用户回复 "Hold for now"（2026-11-21）：不派任务，等用户下一步指示。
 > - R193 的文件尚未提交。
 >
+> - R193 已提交并推送：`02ef535`。
+> - **给外部数学家的状态总结（草稿）**：`coordination/drafts/status-summary-round-193.md`，由 subagent 起草，主脑核对过，未提交，也没有发给任何人。核对时确认了一点：R152–R193 的整个 ordinary 规划只针对 critical branch。R157 验收写明 O(p) 上界"只排除 critical branch"，diffuse branches 至今没有任何验收记录处理过。所以 checkpoint 里的 "target depth" 指的是和关掉 critical branch 一样难，不是和原目标一样难。下一代主脑写任何总结时都要保留这个限定。
+>
 > Round 193 的会话（已结束）：
 >
 > | 会话 | 名称 | call_id | 产出文件 |
